@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <Confirm>Confirma</Confirm>
+  <GoBack>Torna</GoBack>
+  <OK>D'acord</OK>
+  
+  <!-- Game updated to new version -->
+  <GameUpdatedToNewVersionInitial>RimWorld s'ha actualitzat de la versió {0} a la versió {1}.\n\nAlgunes partides desades i mods de versions més antigues podrien deixar de funcionar.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionNonSteam>Com que teniu una còpia lliure de DRM, podeu instal·lar-la dos cops en carpetes diferents per poder jugar tant la nova versió com la vella.</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionSteam>Si voleu continuar fent servir la versió antiga, podeu fer servir la funció «Betas» d'Steam.\n\n  1. A la llibreria d'Steam, feu clic dret a Rimworld.\n  2. Feu clic a «Properties».\n  3. Feu clic a la pestanya «Betas».\n  4. Trieu la versi´o que voleu jugar al menú desplegable.\n\nLes versions antigues s'esborraran de tant en tant de la llista – simplement no volem interrompre les partides començades.\n\nSi els autors d'un mod l'actualitzen per a una nova versió de joc, pot deixar de funcionar en versions antigues. Hauríeu de desactivar les actualitzacions automàtiques per evitar-ho.</GameUpdatedToNewVersionSteam>
+  
+  <!-- Recovered from errors caused by mods -->
+  <RecoveredFromErrorsDialogTitle>S'ha recuperat d'errors per mods corruptes o no compatibles</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>Sembla que alguns dels mods actius estan provocant errors.\n\nPotser són incompatibles l'un amb l'altre, dissenyats per una versió diferent de Rimworld o estan corruptes.\n\nS'han desactivat tots els mods i es poden tornar a activar a la pantalla de mods.</RecoveredFromErrorsText>
+  
+  <!-- Errors during loading -->
+  <ErrorWhileLoadingAssetsTitle>S'ha produït un error en carregar els recursos</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>S'ha produït un error en carregar els recursos del joc. Consulteu el registre d'errors per obtenir més informació.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>El joc s'està executant amb mods personalitzats – Podrien ser (o no) la causa del problema.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileGeneratingMapTitle>S'ha produït un error en generar un mapa</ErrorWhileGeneratingMapTitle>
+  <ErrorWhileGeneratingMap>S'ha produït un error en generar un nou mapa. An error occurred while generating a new map. Consulteu el registre d'errors per obtenir més informació.</ErrorWhileGeneratingMap>
+  <ErrorWhileLoadingMapTitle>S'ha produït un error en carregar un mapa</ErrorWhileLoadingMapTitle>
+  <ErrorWhileLoadingMap>S'ha produït un error en carregar un mapa. Consulteu el registre d'errors per obtenir més informació.</ErrorWhileLoadingMap>
+  
+  <!-- Unloaded mod with an assembly -->
+  <ModWithAssemblyWasUnloaded>The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly.</ModWithAssemblyWasUnloaded>
+  
+  <!-- Missing Steam -->
+  <SteamClientMissing>Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available.</SteamClientMissing>
+  
+  <!-- Long events -->
+  <InitializingInterface>S'inicialitza la interfície</InitializingInterface>
+  <UnloadingUnusedAssets>Es descarreguen els recursos no utilitzats</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>Es carreguen els mods actius</LoadingAllActiveMods>
+  <LoadingDefs>Es carreguen les definicions</LoadingDefs>
+  <LoadingAssets>Es carreguen els recursos</LoadingAssets>
+  <Initializing>S'inicialitza</Initializing>
+  <LoadingWorld>Es carrega el món</LoadingWorld>
+  <LoadingMap>Es carrega el mapa</LoadingMap>
+  <InitializingGame>S'inicialitza la partida</InitializingGame>
+  <SpawningAllThings>Es generen les coses</SpawningAllThings>
+  <SpawningColonists>Es generen els colons</SpawningColonists>
+  
+  <!-- Save/load -->
+  <SaveGameButton>Desa</SaveGameButton>
+  <LoadGameButton>Carrega</LoadGameButton>
+  <OverwriteButton>Sobreescriu</OverwriteButton>
+  <ConfirmDelete>Voleu esborrar {0}?</ConfirmDelete>
+  <DeleteThisSavegame>Esborra aquesta partida desada.</DeleteThisSavegame>
+  <SavedAs>S'ha desat com a {0}.</SavedAs>
+  <NeedAName>Escriviu un nom.</NeedAName>
+  <LoadingLongEvent>Carregant</LoadingLongEvent>
+  <SavingLongEvent>Desant</SavingLongEvent>
+  <PermadeathModeSaveSuffix>(Mort permanent)</PermadeathModeSaveSuffix>
+  <SaveIsFromDifferentGameVersion>Esteu executant la versió {0} però la partida està desada amb la versió {1}, que és una versió completament diferent.\n\nÉs probable que si carregues aquesta partida no funcioni.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>Esteu executant la versió {0} però la partida està desada amb la versió {1}, que és una compilació diferent.\n\nLa partida carregada hauria de funcionar.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>La versió de la partida desada es correspon amb la que esteu executant i no hi hauria d'haver problema.</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>No es reconeix el format de la partida desada i el més probable és que no funcioni.</SaveIsUnknownFormat>
+  <ProblemSavingFile>S'ha produït un problema en desar el fitxer {0}:\n\n{1}\n\nConsulteu el registre d'errors per obtenir més informació .</ProblemSavingFile>
+  <LoadAnyway>Carrega-la de tota manera</LoadAnyway>
+  
+  <!-- Player faction naming -->
+  <NamePlayerFactionMessage>{0} pensa que haurieu de posar un nom a la vostra facció. Com s'hauria de dir?</NamePlayerFactionMessage>
+  <PlayerFactionGainsName>La vostra facció és coneguda com a {0}.</PlayerFactionGainsName>
+  <PlayerFactionNameIsInvalid>El nom no és vàlid.</PlayerFactionNameIsInvalid>
+
+  <!-- Player faction base naming -->
+  <NamePlayerFactionBaseMessage>Com que sembla que estareu aquí durant força temps, {0} creu que hauríeu de posar un nom a la vostra comunitat. Com s'hauria de dir al vostra comunitat local?</NamePlayerFactionBaseMessage>
+  <PlayerFactionBaseGainsName>Aquesta comunitat ara s'anomena {0}.</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseNameIsInvalid>El nom no és vàlid.</PlayerFactionBaseNameIsInvalid>
+  
+  <!-- Player faction and faction base naming -->
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>Com que sembla que estareu aquí durant força temps, {0} també creu que hauríeu de posar un nom a la vostra comunitat. Com s'hauria de dir al vostra comunitat local?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <PlayerFactionAndBaseGainsName> La vostra facció és coneguda com a {0}, i aquesta comunitat ara s'anomena {1}.</PlayerFactionAndBaseGainsName>
+  
+  <!-- Renaming -->
+  <NameIsInvalid>Introduiu un nom vàlid.</NameIsInvalid>
+  <NameIsInUse>Aquest nom ja està fet servir.</NameIsInUse>
+  <ZoneGainsName>La zona s'anomena {0}.</ZoneGainsName>
+  
+  <!-- Pawn naming -->
+  <PawnGainsName>El sobrenom del colon és {0}.</PawnGainsName>
+
+  <!-- Save game incompatible warning -->
+  <VersionMismatch>Versió diferent</VersionMismatch>
+  <SaveGameIncompatibleWarningText>Aquesta partida es va desar amb la versió {0} del joc\nEsteu executant la versió {1}\n\nSi carregueu aquesta partida us podeu trobar amb errors o que es tanqui inesperadament.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>El fitxer de món es va generar amb la versió {0} del joc.\nEsteu executant la versió {1}\n\nSi carregueu aquest món us podeu trobar amb errors o que es tanqui inesperadament. Seria millor que creéssiu un món nou.</WorldFileVersionMismatch>
+  <FileIncompatibleWarning>Aquest fitxer es va desar amb la versió {0} del joc.\nEsteu executant la versió {1}\n\nSi carregueu aquest fitxer us podeu trobar amb errors o que es tanqui inesperadament.</FileIncompatibleWarning>
+  <ModsMismatchWarningTitle>Diferència en els Mods</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>Aquest fitxer es va desar amb grup de mods diferent del que esteu fent servir. Això us pot donar probkemes o no, en funció de quins siguin els mods.\n\nEl fitxer es va desar amb (en aquest ordre):\n\n{0}\n\nEsteu executant (en aquest ordre):\n\n{1}</ModsMismatchWarningText>
+
+  <!-- Resolution change dialog -->
+  <ConfirmResolutionChange>Heu canviat la resolució de la pantalla. Funciona correctament?\n\nEs tornarà a la resolució anterior en {0}...</ConfirmResolutionChange>
+  <ResolutionKeep>Manté</ResolutionKeep>
+  <ResolutionRevert>Torna a l'anterior</ResolutionRevert>
+
+  <!-- Research -->
+  <Research>Investiga</Research>
+  <Researched>Investigat</Researched>
+  <Unresearched>Sense investigar</Unresearched>
+  <Finished>Acabat</Finished>
+  <InProgress>En curs</InProgress>
+  <Locked>Bloquejat</Locked>
+  <ResearchMenuWithoutBench>Fins que no construïu un banc d'investigació els colons no podran fer recerca.\n\nTot i això, podeu veure els projectes de recerca.</ResearchMenuWithoutBench>
+  <ResearchPrerequisites>Requisits previs a la investigació</ResearchPrerequisites>
+  <RequiredResearchBench>Necessita un banc d'investigació</RequiredResearchBench>
+  <RequiredResearchBenchFacilities>Necessita la instal·lació d'un banc d'investigació</RequiredResearchBenchFacilities>
+  
+  <!-- Advanced game start options -->
+  <MapTemperatureDangerWarning>Avís: Aterrareu en un entorn glaçat. Serà dur o gairebé impossible sobreviure. Si no preteneu fer front a un repte extrem, escolliu un lloc o estació de l'any diferents.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>Avís: El rendiment pot disminuir en mapes de mida gran. La mida Ludeonícrona no s'ha provat i gairebé segur que no funcionarà bé.</MapSizePerformanceWarning>
+  <MapSize>Mida del mapa</MapSize>
+  <MapSizeDesc>{0}x{0} ({1} cel·les)</MapSizeDesc>
+  <MapSizeSmall>Petit</MapSizeSmall>
+  <MapSizeMedium>Mitjà</MapSizeMedium>
+  <MapSizeLarge>Gran</MapSizeLarge>
+  <MapSizeExtreme>LLudeonícrona </MapSizeExtreme>
+  <MapStartSeason>Estació de l'any inicial:</MapStartSeason>
+  <MapStartSeasonDefault>Automàtica</MapStartSeasonDefault>
+  <PermadeathMode>Mode mort permanent</PermadeathMode>
+  <PermadeathModeInfo>En el mode de «Mort permanent», només teniu un fitxer de partida desada i només podeu desar quan sortiu de la partida. No podeu tornar a carregar la partida per corregir equivocacions i si es mor un colon, està mort.\n\nAquesta és la forma en que Rimworld està pensat, amb cada gir dramàtic – tràgic o esperançador – jugat fins a les darreres conseqüències.</PermadeathModeInfo>
+
+  <!-- Bill config -->
+  <Suspended>Suspès</Suspended>
+  <NotSuspended>No suspès</NotSuspended>
+  <SuspendedAllCaps>SUSPÈS</SuspendedAllCaps>
+  <RepeatCount>Repeteix: {0}</RepeatCount>
+  <Forever>Per sempre</Forever>
+	<Details>Detalls</Details>
+  <IngredientSearchRadius>Radi d'ingredients</IngredientSearchRadius>
+  <CurrentlyHave>Actualment en teniu</CurrentlyHave>
+  <CountingProducts>Contant</CountingProducts>
+  <Infinite>Infinits</Infinite>
+  <AllowedSkillRange>Capacitat de {0} permesa:</AllowedSkillRange>
+  
+  <RecipeCannotHaveTargetCount>(Aquesta recepta no pot tenir un un objectiu per que resulta en múltiples i impredictibles productes.)</RecipeCannotHaveTargetCount>
+  <WorkAmount>Quantitat de feina</WorkAmount>
+  <MinimumSkills>Capacitat mínima:</MinimumSkills>
+  <BillRequires>Necessita {0} {1}</BillRequires>
+  <BillRequiresNutrition>Necessita {0} nutrients</BillRequiresNutrition>
+  <BillRequiresMayVary>Note: Els ingredients amb poc volum com l'or poden requerir x20 dels normals.</BillRequiresMayVary>
+  <ThisIsSmallVolume>És un ingredient de poc volum. És a dir que cada «unitat» és 1/20 d'un ingredient de volum normal. Així doncs, per completar els requeriments, necessitareu x20 més que del normal.</ThisIsSmallVolume>
+  <UsableIngredients>ingredients</UsableIngredients>
+  <DoXTimes>Fes-ne X unitats</DoXTimes>
+  <DoUntilYouHaveX>Fes-ne fins que en tinguis X</DoUntilYouHaveX>
+  <DoForever>Fes-ne sempre</DoForever>
+  <BillRepeatTargetCountShort>Fins a {0}</BillRepeatTargetCountShort>
+  <BillStoreMode_DropOnFloor>Deixa-ho a terra</BillStoreMode_DropOnFloor>
+  <BillStoreMode_BestStockpile>Porta-ho al millor magatzem</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>Porta-ho al magatzem més proper</BillStoreMode_NearestStockpileAnyPriority>
+  
+  <!-- Info card -->
+  <Damage>Dany</Damage>
+  <Accuracy>Precisió</Accuracy>
+  <BurstShotCount>Bales per ràfega</BurstShotCount>
+  <WarmupTime>Temps entre dispars</WarmupTime>
+  <MeleeWarmupTime>Temps entre cops</MeleeWarmupTime>
+  <CooldownTime>Refredament</CooldownTime>
+  <BurstShotFireRate>Cadència de tir</BurstShotFireRate>
+  <Range>Rang</Range>
+  <GrowsWild>Creix salvatge</GrowsWild>
+  <Harvestable>Es pot collir</Harvestable>
+  <LimitedLifespan>Esperança de vida limitada</LimitedLifespan>
+  <GrowingTime>Temps de creixement</GrowingTime>
+  <GrowingTimeDesc>Les plantes només créixen durant ina art del dia, i només si hi ha llum. Aquesta estadística mesura el temps que la planta necessita per créixer de tot. El temps real sol ser el doble. Les baixes temperatures també alenteixen el creixement.</GrowingTimeDesc>
+  <Days>dies</Days>
+  <MinGrowingSkillToSow>Coneixement mínim de pagès per sembrar</MinGrowingSkillToSow>
+  <FertilityRequirement>Requisits de fertilitat</FertilityRequirement>
+  <FertilitySensitivity>Sensitivitat a la fertilitat</FertilitySensitivity>
+  <LightRequirement>Requisits de llum</LightRequirement>
+  <Attributes>Atributs</Attributes>
+  <LifeSpan>Temps de vida</LifeSpan>
+  <Nutrition>Nutrició</Nutrition>
+  <Joy>Diversió</Joy>
+  <FoodQuality>Qualitat del menjar</FoodQuality>
+  <WalkSpeedProperty>Velocitat al caminar</WalkSpeedProperty>
+  <MinFoodQuality>Qualitat mín. del menjar</MinFoodQuality>
+  <Diet>Dieta</Diet>
+	<BodySize>Mida del cos</BodySize>
+  <RecruitDifficulty>Dificultat de reclutament</RecruitDifficulty>
+  <MarketValue>preu base</MarketValue>
+  <Covers>Cobreix</Covers>
+  <CoverEffectiveness>Efectivitat de la cobertura</CoverEffectiveness>
+  <CoverEffectivenessExplanation>Com d'efectiu és quan es fa servir com a cobertura en un tiroteig. Com més alt és el percentatge més trets atura.</CoverEffectivenessExplanation>
+  <MedicineXpGainFactor>Factor de guany d'experiència</MedicineXpGainFactor>
+  <BodyPartEfficiency>Eficiència de la part de cos</BodyPartEfficiency>
+  <MoodChange>Variació de l'estat d'ànim</MoodChange>
+  <Wildness>Salvatgia</Wildness>
+  <WildnessExplanation>Les criatures més salvatges són més difícils de domesticar, entrenar i tractar.</WildnessExplanation>
+  <AnimalFilthRate>Índex de brutícia animal</AnimalFilthRate>
+  <AnimalFilthRateExplanation>Els animals embruten quan es mouen amunt i avall o terres construits. Aquest valor és la quantitat mitja de brutícia que produeix per cada {0} cel·les que trepitja aquesta criatura.\n\nEls animals menys domèstics o més grossos embruten més.</AnimalFilthRateExplanation>
+  <TimeRecordsCategory>Temps</TimeRecordsCategory>
+  <MiscRecordsCategory>Altres</MiscRecordsCategory>
+  <Addictiveness>Adictivitat</Addictiveness>
+	<PackAnimal>Animal de càrrega</PackAnimal>
+	<PackAnimalExplanation>Indica si l'animal és apropiat per portar coses en una caravana i recórrer llargues distàncies.</PackAnimalExplanation>
+
+  <!-- Trade -->
+  <PositiveBuysNegativeSells>Si és positiu indica compra.\nSi és negatiu venda.</PositiveBuysNegativeSells>
+  <BuyPriceDesc>Preu que en pagareu.</BuyPriceDesc>
+  <SellPriceDesc>Preu que en cobrareu.</SellPriceDesc>
+  <PriceTypeDesc>El preu d'aquest objecte és {0}.</PriceTypeDesc>
+  <ColonyCount>La quantitat d'objectes d'aquests que hi han a la colònia per vendre.\n\nNomés podeu vendre objectes als mercaders orbitals si són a l'exterior i prop d'una balisa orbital.</ColonyCount>
+  <TraderCount>La quantitat d'objectes d'aquest tipus de les que disposa el mercader.</TraderCount>
+  <AcceptButton>D'acord</AcceptButton>
+  <ResetButton>Reinicia</ResetButton>
+  <CancelButton>Cancel·la</CancelButton>
+  <CloseButton>Tanca</CloseButton>
+  <YourTradeableSilver>Plata per gastar: {0}</YourTradeableSilver>
+	<YourTradeableSilverTip>Només podeu fer servir la plata que teniu prop d'una balisa orbital i no sota teulada.</YourTradeableSilverTip>
+  <TraderHasNoMore>El mercader no en té més.</TraderHasNoMore>
+  <ColonyHasNoMore>No en teniu més per vendre.</ColonyHasNoMore>
+  <TraderWillNotTrade>El mercader no està interessat en aquestes coses.</TraderWillNotTrade>
+  <NegotiatorTalkingImpaired>El vostre negociador {0} no pot parlar correctament degut a la precària salut.\n\nAixò afectarà als preus.\n\nConsidereu fer servir un negociador amb millor salut.</NegotiatorTalkingImpaired>
+  <ConfirmTraderShortFunds>El mercader no té prou plata per fer front a la transacció. Voleu continuar igualment?</ConfirmTraderShortFunds>
+  <SortBy>Ordena</SortBy>
+	<TraderTypePrice>Preu del comerciant</TraderTypePrice>
+	<Selling>es ven</Selling>
+	<Buying>es compra</Buying>
+	<ItemSellPriceFactor>multiplicador del preu de venda</ItemSellPriceFactor>
+	<DifficultyLevel>nivell de dificultat</DifficultyLevel>
+	<PostCurve>corva global de post-processat</PostCurve>
+	<YourNegotiatorBonus>Bonificació del vostre negociador</YourNegotiatorBonus>
+	<TradeWithFactionBaseBonus>Bonificació amb aquesta facció</TradeWithFactionBaseBonus>
+	<minimum>mínim</minimum>
+	<FinalPrice>Preu final</FinalPrice>
+  <TradeMassUsageTooltip>El pes final i el pes que podeu portar.</TradeMassUsageTooltip>
+  
+  <!-- Form caravan -->
+  <FormCaravan>Forma una caravana</FormCaravan>
+  <FormCaravanColonyThingCountTip>La quantitat d'objectes d'aquest tipus que porta la caravana.</FormCaravanColonyThingCountTip>
+  <PawnsTab>Persones i animals</PawnsTab>
+  <ItemsTab>Objectes</ItemsTab>
+  <CaravanConfigTab>Configuració</CaravanConfigTab>
+  <CaravanMustHaveAtLeastOneColonist>Heu d'assignar com a mínim un colon que no estigui ferit.</CaravanMustHaveAtLeastOneColonist>
+  <CaravanCouldNotFindExitSpot>No es pot trobar un lloc per sortir.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>Avís: algun dels colons no poden arribar al lloc de sortida.</CaravanCouldNotFindReachableExitSpot>
+  <CaravanPawnIsUnreachable>Algun dels colons assignats no poden arribar a {0}.</CaravanPawnIsUnreachable>
+  <CaravanItemIsUnreachableSingle>Cap dels colons assignats no poden arribar a {0}.</CaravanItemIsUnreachableSingle>
+  <CaravanItemIsUnreachableMulti>Cap dels colons assignats no poden arribar a {0}x {1}.</CaravanItemIsUnreachableMulti>
+  <TooBigCaravanMassUsage>La caravana no pot portar tantes coses.</TooBigCaravanMassUsage>
+  <CaravanMassUsageTooltip>Pes que porteu i capacitat.\n\nEl pes que porteu inclou els productes que porta la caravana i l'equip dels colons.\n\nNo podreu enviar la caravana si el pes que porteu supera la capcitat.</CaravanMassUsageTooltip>
+  <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
+  <DaysWorthOfFoodInfo>menjar per {0} dies</DaysWorthOfFoodInfo>
+  <InfiniteDaysWorthOfFoodInfo>No us quedareu mai sense menjar</InfiniteDaysWorthOfFoodInfo>
+  <DaysWorthOfFoodTooltip>Nombre aproximat de dies abans que la caravana es quedi sense menjar.\n\nTé en compte tant el menjar de les persones com el dels animals, i presenta el pitjor escenari. Això vol dir que després d'aquests dies com a mínim una persona o animal no tindrà menjar.</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodWarningDialog>La caravana només té menjar per {0} i passaran gana molt aviat.\n\nSegur que voleu forma aquesta caravana?</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>La caravana no té menjar i passaran gana molt aviat.\n\nSegur que voleu forma aquesta caravana?</DaysWorthOfFoodWarningDialog_NoFood>
+  <NoExitDirectionForCaravanChosen>Heu d'escollir una direcció de sortida per la caravana.</NoExitDirectionForCaravanChosen>
+  <NoCaravanExitDirectionAvailable>(No es pot sortir per enlloc)</NoCaravanExitDirectionAvailable>
+  <ExitDirection>Direcció de sortida</ExitDirection>
+  <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
+  <ItemWeightTip>Pes de l'objecte.</ItemWeightTip>
+  <MarketValueTip>Valor de mercat</MarketValueTip>
+  <MassCapacity>Capacitat de càrrega</MassCapacity>
+  <Mass>Pes</Mass>
+  <EquipmentAndApparelMass>Pes de l'equipament i la roba</EquipmentAndApparelMass>
+  <InventoryMass>Pes de l'inventari</InventoryMass>
+  <CaravanFormationProcessStarted>Els colons agafaran els objectes assignats i deixaran l'àrea tant aviat com els sigui possible.</CaravanFormationProcessStarted>
+  <ReformCaravan>Modifica la caravana</ReformCaravan>
+  <ColonistsSection>Colons</ColonistsSection>
+  <PrisonersSection>Presoners</PrisonersSection>
+  <AnimalsSection>Animals</AnimalsSection>
+  
+  <!-- Split caravan -->
+  <SplitCaravan>Divideix la caravana</SplitCaravan>
+  <SourceCaravanMustHaveAtLeastOneColonist>Heu de tenir com a mínim in colon que no estigui de baixa.</SourceCaravanMustHaveAtLeastOneColonist>
+  <CaravanSplitSourceLabel>Actual</CaravanSplitSourceLabel>
+  <CaravanSplitDestLabel>Nou</CaravanSplitDestLabel>
+  <SplitCaravanThingCountTip>Quants d'aquests objectes heu passat d'una caravana a l'altra.</SplitCaravanThingCountTip>
+  <SplitCaravanMassUsageTooltip>Pes que porteu i capacitat.</SplitCaravanMassUsageTooltip>
+  
+  <!-- Load transporters -->
+  <LoadTransporters>Carrega {0}</LoadTransporters>
+  <TooBigTransportersMassUsage>Les persones i objectes assignats pesen massa per a les càpsules de transport.</TooBigTransportersMassUsage>
+  <CantSendEmptyTransportPods>No podeu enviar càpsules de transport buides.</CantSendEmptyTransportPods>
+  <PawnCantReachTransporters>{0} no pot arribar a la càpsula de transport.</PawnCantReachTransporters>
+  <TransporterItemIsUnreachableSingle>No hi ha cap camí entre la càpsula de transport i {0}.</TransporterItemIsUnreachableSingle>
+  <TransporterItemIsUnreachableMulti> No hi ha cap camí entre la càpsula de transport i {0}x {1}.</TransporterItemIsUnreachableMulti>
+  <TransportersMassUsageTooltip>Pes que porteu i capacitat .\n\nNo podreu enviar la càpsula de transport si el pes supera la capacitat.</TransportersMassUsageTooltip>
+  
+  <!-- Comms -->
+  <SocialSkillIs>Capacitat social: {0}</SocialSkillIs>
+  
+  <!--Research-->
+  <ResearchFinished>Investigació finalitzada: {0}</ResearchFinished>
+  <ResearchScreen>Pantalla d'investigació</ResearchScreen>
+  
+  <!--HistoryUpload-->
+  <HistoryUploadMessage>Voleu pujar les dades de la vostra partida al servidor de RimWorld per ajudar als desenvolupadors a equilibrar el joc? Si accepteu, les vostres dades es pujaran cada {0} dies (i en alguns casos particulars, com ara el final de la partida). Les preferències de privacitat es poden canviar al menú de d'opcions.</HistoryUploadMessage>
+  <HistoryUploadMessagePlayerName>Tot i que la història s'envia de forma anònima, hi podeu posar el vostre nom.</HistoryUploadMessagePlayerName>
+  <HistoryUploadYes>Permeto pujar les dades de la partida</HistoryUploadYes>
+  <HistoryUploadNo>No permeto pujar les dades de la partida</HistoryUploadNo>
+  <HistoryUploadYesOnce>Puja-les només ara</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>No les pugis ara, demana'm-ho en un altre moment</HistoryUploadNoOnce>
+	
+  <!-- Outfit management -->
+  <Outfit>Vestuari</Outfit>
+  <SelectOutfit>Selec. un vestuari...</SelectOutfit>
+  <NewOutfit>Vestuari nou</NewOutfit>
+  <DeleteOutfit>Esborra un vestuari...</DeleteOutfit>
+  <OutfitInUse>Aquest vestuari l'està fent servir {0}.</OutfitInUse>
+  <NoOutfitSelected>No heu seleccionat cap vestuari</NoOutfitSelected>
+  
+  <!-- Drug policy management -->
+  <DrugPolicy>Política de drogues</DrugPolicy>
+  <SelectDrugPolicy>Seleccioneu una política...</SelectDrugPolicy>
+  <NewDrugPolicy>Política nova</NewDrugPolicy>
+  <DeleteDrugPolicy>Esborra una política...</DeleteDrugPolicy>
+  <DrugPolicyInUse>{0} està seguint aquesta política de drogues.</DrugPolicyInUse>
+  <SocialDrugs>Drogues socials</SocialDrugs>
+  <NoDrugs>Sense drogues</NoDrugs>
+  <OneDrinkPerDay>Una beguda cada dia</OneDrinkPerDay>
+  <Unrestricted>Sense restriccions</Unrestricted>
+  <NoDrugPolicySelected>No heu seleccionat cap política de drogues</NoDrugPolicySelected>
+  <AddDrug>Afegiu una droga...</AddDrug>
+  <DrugColumnLabel>Droga</DrugColumnLabel>
+  <DrugUsageColumnLabel>Utilització</DrugUsageColumnLabel>
+  <FrequencyColumnLabel>Freqüència</FrequencyColumnLabel>
+  <MoodThresholdColumnLabel>Només si l'estat d'ànim està per sota de</MoodThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Només si la diversió està per sota de</JoyThresholdColumnLabel>
+  <TakeToInventoryColumnLabel>Portar-ne a sobre</TakeToInventoryColumnLabel>
+  <NoDrugsBrackets>(cap droga)</NoDrugsBrackets>
+  <EveryDay>Cada dia</EveryDay>
+  <TimesPerDay>{0} cops per dia</TimesPerDay>
+  <EveryDays>Cada {0} dies</EveryDays>
+  <NoDrugUseRequirement>Qualsevol</NoDrugUseRequirement>
+  <DeleteDrugTooltip>Esborra aquesta droga.</DeleteDrugTooltip>
+  <DrugNameColumnDesc>El nom de la droga.</DrugNameColumnDesc>
+  <DrugUsageColumnDesc>En quins casos es permet l'us de cada droga.</DrugUsageColumnDesc>
+  <FrequencyColumnDesc>Com de sovint els colons han de mirar de prendre aquesta droga.</FrequencyColumnDesc>
+  <MoodThresholdColumnDesc>Els colons prendran aquesta droga només si tenen l'estat d'ànim per sota d'aquest llindar.</MoodThresholdColumnDesc>
+  <JoyThresholdColumnDesc>Els colons prendran aquesta droga només si tenen el nivell de diversió per sota d'aquest llindar.</JoyThresholdColumnDesc>
+  <TakeToInventoryColumnDesc>La quantitat de droga que portaran a sobre, per evitar tornar al magatzem de droga cada vegada.</TakeToInventoryColumnDesc>
+	<DrugUsageTipForAddiction>Per addiccions\n\nFa servir aquesta droga per per satisfer les addiccions existents.\n\nEncara que no estigui habilitat, alguns personatges amb característiques específiques o emprenyats la poden fer servir.</DrugUsageTipForAddiction>
+	<DrugUsageTipForJoy>Per diversió\n\nFa servir aquesta droga per diversió i amb fins socials.\n\Encara que no estigui habilitat, alguns personatges amb característiques específiques o emprenyats la poden fer servir.</DrugUsageTipForJoy>
+  <DrugUsageTipScheduled>Programada\n\nFa servir aquesta droga amb una freqüència determinada, quan es compleixin les condicions específiques.</DrugUsageTipScheduled>
+  
+  <!-- Growing -->
+  <NoGrowerCanPlant>Per plantar {0} es necessita un coneixement de  {1} en pagesia.\n\nCap dels vostres pagesos actius tenen prou nivell, per tant no es plantarà.</NoGrowerCanPlant>
+
+  <!-- Abandon home -->
+  <ConfirmAbandonHomeWithColonyPawns>Teniu colons o animals en aquesta zona. Els voleu abandonar?\n\nLes següents persones i animals quedaran endarrere:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  
+  <!-- Move caravan and leave prisoners and animals behind -->
+  <ConfirmLeavePrisonersOrAnimalsBehind>Encara hi ha presoners o animals en aquesta zona i aquesta és la única caravana que poden agafar ara mateix.\n\nS mous la caravana, no podran sortir de la zona fins que torneu. Els presoners provaran d'escapar, mentre que els animals us esperaran.\n\nSi us espereu, miraran d'unir-se a la caravana quan els sigui possible.\n\nEsteu segur que voleu moure la caravana?</ConfirmLeavePrisonersOrAnimalsBehind>
+  
+  <!-- Abandon pawn -->
+  <ConfirmAbandonPawnDialog>Esteu segur que voleu abandonar {0}?</ConfirmAbandonPawnDialog>
+  <ConfirmAbandonPawnDialog_LeftToDie>{0} probablement morirà.</ConfirmAbandonPawnDialog_LeftToDie>
+  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} Es quedarà els següents objectes:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+  <ConfirmAbandonPawnDialog_AllColonistsThoughts>Tots els colons tindran aquest sentiment:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
+  <ConfirmAbandonPawnDialog_IndividualThoughts>Abandonar {0} farà que els següents colons tinguin aquests sentiments:</ConfirmAbandonPawnDialog_IndividualThoughts>
+  
+  <!-- Send transport pods which are not completely loaded -->
+  <ConfirmSendNotCompletelyLoadedPods>Les càpsules encara no estant completament carregades. Falta {0}. Voleu llençar-les igualment?</ConfirmSendNotCompletelyLoadedPods>
+  
+</LanguageData>

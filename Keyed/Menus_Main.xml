@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!--=========== Main menu ==========-->
+  <Tutorial>Tutorial</Tutorial>
+  <NewColony>Colònia nova</NewColony>
+  <BackToGame>Torna a la partida</BackToGame>
+  <ReviewScenario>Review scenario</ReviewScenario>
+  <Save>Desa</Save>
+  <LoadGame>Carrega una partida</LoadGame>
+  <Options>Opcions</Options>
+  <Mods>Mods</Mods>
+  <Credits>Crèdits</Credits>
+  <QuitToMainMenu>Surt al menú principal</QuitToMainMenu>
+  <SaveAndQuitToMainMenu>Desa i surt al menú</SaveAndQuitToMainMenu>
+  <QuitToOS>Surt al sistema</QuitToOS>
+  <SaveAndQuitToOS>Desa i surt al sistema</SaveAndQuitToOS>
+  <FictionPrimer>Fiction primer</FictionPrimer>
+  <LudeonBlog>Blog de Ludeon</LudeonBlog>
+  <Forums>Fòrums</Forums>
+  <OfficialWiki>Wiki oficial</OfficialWiki>
+  <TynansTwitter>Twitter d'en Tynan</TynansTwitter>
+  <TynansDesignBook>Llibre de disseny d'en Tynan</TynansDesignBook>
+  <HelpTranslate>Ajudeu a traduir RimWorld</HelpTranslate>
+  <BuySoundtrack>Compreu la banda sonora</BuySoundtrack>
+  <CreateWorld>Crea un món</CreateWorld>
+
+  <!--=========== Create/review world ================-->
+  <ReviewWorld>Revisa el planeta</ReviewWorld>
+  <WorldGenerate>Genera</WorldGenerate>
+  <WorldSaveAndFinish>Desa i acaba</WorldSaveAndFinish>
+  <Reset>Reinicia</Reset>
+  <PlanetCoverage>Cobertura del planeta</PlanetCoverage>
+  <PlanetRainfall>Pluja general</PlanetRainfall>
+  <PlanetTemperature>Temperatura general</PlanetTemperature>
+  <PlanetRainfall_Low>Baixa</PlanetRainfall_Low>
+  <PlanetRainfall_Normal>Normal</PlanetRainfall_Normal>
+  <PlanetRainfall_High>Elevada</PlanetRainfall_High>
+  <PlanetTemperature_Low>Baixa</PlanetTemperature_Low>
+  <PlanetTemperature_Normal>Normal</PlanetTemperature_Normal>
+  <PlanetTemperature_High>Elevada</PlanetTemperature_High>
+  <WorldSeed>Llavor</WorldSeed>
+  <RandomizeSeed>Aleatoritza la llavor</RandomizeSeed>
+  <PlanetCoverageTip>El planeta és sempre del mateix diàmetre, però com que és molt més gran del que es necessita per jugar, no cal generar tota la superfície i així estalvieu temps. Aquest és el percentatge de la superfície que voleu generar.</PlanetCoverageTip>
+
+  <!--=========== Select world ===================-->
+  <SelectWorld>Seleccioneu un planeta</SelectWorld>
+  <WorldChooseButton>Selecciona</WorldChooseButton>
+  <NoWorldsFilesFound>No s'han trobat fitxers de planeta. Creeu-ne un primer.</NoWorldsFilesFound>
+  
+  <!--=========== Version info ==========-->
+  <BuildNowAvailable>Està disponible la versió {0}. Visiteu ludeon.com per obtenir més informació.</BuildNowAvailable>
+	<BuildUpToDate>Teniu la versió més actual</BuildUpToDate>
+	<ErrorGettingVersionInfo>S'ha produït un error obtenir la informació de la versió: {0}</ErrorGettingVersionInfo>
+	<LoadingVersionInfo>S'està descarregant la informació de la versió...</LoadingVersionInfo>
+
+  <!--=========== World generator =========-->
+  <GenerateWorld>Genera un planeta</GenerateWorld>
+
+  <!--=========== Mods config ==========-->
+  <OpenSteamWorkshop>Obre el Workshop d'Steam</OpenSteamWorkshop>
+  <GetModsFromForum>Obté mods del fòrum</GetModsFromForum>
+  <OpenModsDataFolder>Obre la carpeta dels mods</OpenModsDataFolder>
+  <ConfirmDisableCoreMod>Esteu segur que voleu deshabilitar el mod nucli? El joc no funcionarà a no ser que tingueu un altre mod que substitueixi totes les funcionalitats del nucli.\n\nRecordeu que altres mods poden sobreescriure les definicions del mod nucli fent servir el mateix «defName».</ConfirmDisableCoreMod>
+  <ConfirmDeleteMod>Esteu segur que voleu esborrar el contingut de {0}?</ConfirmDeleteMod>
+  <Unsubscribe>Cancel·la la subscripció</Unsubscribe>
+  <ConfirmUnsubscribe>Esteu segurs que voleu cancel·lar la subscripció a {0}?</ConfirmUnsubscribe>
+  <Author>Autor</Author>
+  <WorkshopPage>Pàgina del Workshop</WorkshopPage>
+  <UploadToSteamWorkshop>Puja al Workshop d'Steam</UploadToSteamWorkshop>
+  <UpdateOnSteamWorkshop>Actualitza del Workshop d'Steam</UpdateOnSteamWorkshop>
+  <UploadAlreadyInProgress>La pujada ja està en procés.</UploadAlreadyInProgress>
+  <WorkshopSubmissionFailed>Ha fallat el lliurament al Workshop.\n\nMotiu: {0}</WorkshopSubmissionFailed>
+  <WorkshopUploadSucceeded>{0} s'ha pujat correctament.</WorkshopUploadSucceeded>
+  <Downloading>Descarregant</Downloading>
+  <Source>Font</Source>
+  <ModTargetVersion>Per la versió: {0}</ModTargetVersion>
+  <ModNotMadeForThisVersion>Aquest mod no està fet per aquesta versió de RimWorld i probablement no funcionarà correctament.</ModNotMadeForThisVersion>
+  <MessageModNeedsWellFormattedTargetVersion>El Mod necessita una etiqueta de versió ben construïda a l'About.xml. Com ara: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+  <DragToReorder>Arrossega per canviar d'ordre</DragToReorder>
+  
+  <!--=========== Select scenario =============-->
+  <ChooseScenario>Escolliu un escenari</ChooseScenario>
+  <ScenariosCustom>Personalitzat</ScenariosCustom>
+  <ScenariosSteamWorkshop>Workshop d'Steam</ScenariosSteamWorkshop>
+  <ScenarioEditor>Editor d'escenaris</ScenarioEditor>
+  <Delete>Esborra</Delete>
+  
+  <!--============ Scenario editor ===============-->
+  <Seed>Llavor</Seed>
+  <Load>Carrega</Load>
+  <EditMode>edit mode</EditMode>
+  <Summary>Summary</Summary>
+  <AddPart>Afegeix una particularitat</AddPart>
+  <TextFieldsMustBeFilled>S'han d'omplir tots els camps de text.</TextFieldsMustBeFilled>
+  <ConfirmSteamWorkshopUpload>Esteu segur que voleu pujar-lo al Workshop d'Steam?\n\nHeu d'acceptar els termes del servei del Workshop d'Steam. Trobareu els termes a:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmContentAuthor>Òbviament només hauríeu de pujar contingut que hagueu creat vosaltres mateixos.\n\nHeu creat el contingut vosaltres mateixos?</ConfirmContentAuthor>
+  <Incompatible>No és compatible</Incompatible>
+  <TooMany>Masses (max {0}): </TooMany>
+  <CanBeUpdatedOnWorkshop>Podeu pujar-lo al Workshop, sempre que en sigueu l'autor.</CanBeUpdatedOnWorkshop>
+  
+  <!--=========== Select storyteller ==========-->
+  <ChooseAIStoryteller>Escolliu la IA narradora</ChooseAIStoryteller>
+  <HowStorytellersWork>La IA narradora crea esdeveniments com ara ràtzies de pirates, recursos que cauen o atacs d'animals. Les seves tries afectaran la història de la vostra colònia. Podeu canviar aquesta configuració en qualsevol moment.</HowStorytellersWork>
+  <MustChooseDifficulty>Escolliu una dificultat.</MustChooseDifficulty>
+  <Difficulty>Dificultat</Difficulty>
+
+  <!--=========== Landing site select =========-->
+  <SelectLandingSite>Seleccioneu un lloc d'aterratge</SelectLandingSite>
+  <SelectRandomSite>Selecciona un lloc aleatori</SelectRandomSite>
+  <SelectSite>Seleccioneu un lloc</SelectSite>
+  <MustSelectLandingSite>Seleccioneu un lloc d'aterratge.</MustSelectLandingSite>
+  <CannotLandBiome>No podeu aterrar en aquest bioma: {0}</CannotLandBiome>
+  <BiomeNotImplemented>El bioma no està implementat</BiomeNotImplemented>
+  <CannotLandImpassableMountains>No podeu aterrar sobre muntanyes impassables.</CannotLandImpassableMountains>
+  <BaseAlreadyThere>{0} ja té una base aquí.</BaseAlreadyThere>
+  <Biome>Bioma</Biome>
+  <Terrain>Terreny</Terrain>
+  <Elevation>Elevació</Elevation>
+  <Fertility>Fertilitat</Fertility>
+  <AvgTemp>Temperatura mitjana</AvgTemp>
+  <AvgSummerTemp>Temperatura a l'estiu</AvgSummerTemp>
+	<AvgWinterTemp>Temperatura a l'hivern</AvgWinterTemp>
+	<Rainfall>Pluviometria</Rainfall>
+  <HasCoast0>Costa nord</HasCoast0>
+  <HasCoast1>Costa est</HasCoast1>
+  <HasCoast2>Costa sud</HasCoast2>
+  <HasCoast3>Costa oest</HasCoast3>
+  <FactionBase>Faction base</FactionBase>
+  <StoneTypesHere>Tipus de roca</StoneTypesHere>
+  <TimeZone>Zona horària</TimeZone>
+	<MovementTimeNow>Temps de desplaçament actual</MovementTimeNow>
+	<MovementTimeSummer>Temps de desplaçament a l'estiu</MovementTimeSummer>
+	<MovementTimeWinter>Temps de desplaçament a l'hivern</MovementTimeWinter>
+
+
+	<!--=========== Character chooser ==========-->
+  <CreateCharacters>Creació de personatges</CreateCharacters>
+  <FirstNameDesc>El nom propi del personatge.\n\nNomés es mostra en alguns menús.</FirstNameDesc>
+  <ShortIdentifierDesc>L'identificador curt del personatge.\n\nÉs el que es mostra sempre. Pot ser el nom, el cognom, o un sobrenom completament diferent.</ShortIdentifierDesc>
+  <LastNameDesc>El cognom del personatge.\n\nNomés es mostra en alguns menús.</LastNameDesc>
+  <Randomize> Aleatoritza </Randomize>
+  <AgeIndicator>edat {0}</AgeIndicator>
+  <Backstory>Rerefons</Backstory>
+  <IncapableOf>Incapaç de</IncapableOf>
+  <Traits>Característiques</Traits>
+  <PermanentMoodEffect>Efecte permanent a l'estat d'ànim</PermanentMoodEffect>
+  <Skills>Capacitats</Skills>
+  <NoneLower>cap</NoneLower>
+  <Adulthood>Maduresa</Adulthood>
+  <Childhood>Infantesa</Childhood>
+  <Male>mascle</Male>
+  <Female>femella</Female>
+  <Pain>Dolor</Pain>
+  <Health>Salut</Health>
+  <Relations>Relacions</Relations>
+  
+  <!--=========== Misc ==========-->
+  <Start>Comença</Start>
+  <Advanced>Avançat</Advanced>
+  <Next>Següent</Next>
+  <Back>Anterior</Back>
+  <Gameplay>Joc</Gameplay>
+  <ConfirmQuit>Voleu sortir? Perdreu el progrés que no s'hagi desat.</ConfirmQuit>
+  <EveryoneNeedsValidName>Tothom necessita un nom vàlid.</EveryoneNeedsValidName>
+  <Quit>Surt</Quit>
+  <Ignore>Ignora</Ignore>
+  
+  <!--============ Progress bar==============-->
+  <GeneratingWorld>Generant el planeta</GeneratingWorld>
+  <GeneratingMap>Generant el mapa</GeneratingMap>
+  <GeneratingMapForNewEncounter>Generant el mapa per una nova trobada</GeneratingMapForNewEncounter>
+
+</LanguageData>

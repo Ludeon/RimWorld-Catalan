@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- glow -->
+  <Dark>Fosc</Dark>
+  <Lit>Il·luminat</Lit>
+  <LitBrightly>Molt il·luminat</LitBrightly>
+  
+  <!-- history upload pref -->
+  <Unspecified>Indecís</Unspecified>
+  <Always>Permet</Always>
+  <Never>No permetis</Never>
+  
+  <!-- Price types -->
+  <PriceTypeVeryCheap>molt econòmic</PriceTypeVeryCheap>
+  <PriceTypeCheap>econòmic</PriceTypeCheap>
+  <PriceTypeNormal>normal</PriceTypeNormal>
+  <PriceTypeExpensive>car</PriceTypeExpensive>
+  <PriceTypeExorbitant>exorbitant</PriceTypeExorbitant>
+
+  <!-- Storage priority labels -->
+  <StoragePriorityUnstored>sense desar</StoragePriorityUnstored>
+  <StoragePriorityLow>baixa</StoragePriorityLow>
+  <StoragePriorityNormal>normal</StoragePriorityNormal>
+  <StoragePriorityPreferred>preferida</StoragePriorityPreferred>
+  <StoragePriorityImportant>important</StoragePriorityImportant>
+  <StoragePriorityCritical>crítica</StoragePriorityCritical>
+
+  <!-- Food type flags -->
+  <FoodTypeFlags_VegetableOrFruit>vegetals</FoodTypeFlags_VegetableOrFruit>
+  <FoodTypeFlags_Meat>carn crua</FoodTypeFlags_Meat>
+  <FoodTypeFlags_Corpse>cadàvers</FoodTypeFlags_Corpse>
+  <FoodTypeFlags_Seed>llavors</FoodTypeFlags_Seed>
+  <FoodTypeFlags_AnimalProduct>productes animals</FoodTypeFlags_AnimalProduct>
+  <FoodTypeFlags_Plant>plantes vives</FoodTypeFlags_Plant>
+  <FoodTypeFlags_Tree>arbres vius</FoodTypeFlags_Tree>
+  <FoodTypeFlags_Meal>àpats</FoodTypeFlags_Meal>
+  <FoodTypeFlags_Processed>menjar processat</FoodTypeFlags_Processed>
+  <FoodTypeFlags_Liquor>licor</FoodTypeFlags_Liquor>
+  <FoodTypeFlags_Kibble>pinso</FoodTypeFlags_Kibble>
+
+  <!-- Quality category -->
+  <QualityCategory_Awful>horrible</QualityCategory_Awful>
+  <QualityCategory_Shoddy>dolenta</QualityCategory_Shoddy>
+  <QualityCategory_Poor>pobre</QualityCategory_Poor>
+  <QualityCategory_Normal>normal</QualityCategory_Normal>
+  <QualityCategory_Good>bona</QualityCategory_Good>
+  <QualityCategory_Superior>superior</QualityCategory_Superior>
+  <QualityCategory_Excellent>excel·lent</QualityCategory_Excellent>
+  <QualityCategory_Masterwork>obra mestra</QualityCategory_Masterwork>
+  <QualityCategory_Legendary>llegendària</QualityCategory_Legendary>
+  <QualityCategoryShort_Awful>horr</QualityCategoryShort_Awful>
+  <QualityCategoryShort_Shoddy>dol</QualityCategoryShort_Shoddy>
+  <QualityCategoryShort_Poor>pob</QualityCategoryShort_Poor>
+  <QualityCategoryShort_Normal>norm</QualityCategoryShort_Normal>
+  <QualityCategoryShort_Good>bo</QualityCategoryShort_Good>
+  <QualityCategoryShort_Superior>sup</QualityCategoryShort_Superior>
+  <QualityCategoryShort_Excellent>exc</QualityCategoryShort_Excellent>
+  <QualityCategoryShort_Masterwork>mast</QualityCategoryShort_Masterwork>
+  <QualityCategoryShort_Legendary>leg</QualityCategoryShort_Legendary>
+  
+  <!-- Hunger -->
+  <HungerLevel_Starving>Famèlic</HungerLevel_Starving>
+  <HungerLevel_UrgentlyHungry>Molta gana</HungerLevel_UrgentlyHungry>
+  <HungerLevel_Hungry>Gana</HungerLevel_Hungry>
+  <HungerLevel_Fed>Alimentat</HungerLevel_Fed>
+
+  <!-- -Fatigue -->
+  <HungerLevel_Exhausted>Esgotat</HungerLevel_Exhausted>
+  <HungerLevel_VeryTired>Molt cansat</HungerLevel_VeryTired>
+  <HungerLevel_Tired>Cansat</HungerLevel_Tired>
+  <HungerLevel_Rested>Descansat</HungerLevel_Rested>
+
+  <!-- Hilliness -->
+  <Hilliness_Flat>pla</Hilliness_Flat>
+  <Hilliness_SmallHills>petits turons</Hilliness_SmallHills>
+  <Hilliness_LargeHills>grans turons</Hilliness_LargeHills>
+  <Hilliness_Mountainous>montanyós</Hilliness_Mountainous>
+  <Hilliness_Impassable>impassable</Hilliness_Impassable>
+  
+  <!-- Steam workshop interaction -->
+  <WorkshopInteractStage_CreatingItem>Creant</WorkshopInteractStage_CreatingItem>
+  <WorkshopInteractStage_SubmittingItem>Enviant</WorkshopInteractStage_SubmittingItem>
+  <EitemUpdateStatus_k_EitemUpdateStatusInvalid>No vàlid</EitemUpdateStatus_k_EitemUpdateStatusInvalid>
+  <EitemUpdateStatus_k_EitemUpdateStatusPreparingConfig>Es prepara la configuració</EitemUpdateStatus_k_EitemUpdateStatusPreparingConfig>
+  <EitemUpdateStatus_k_EitemUpdateStatusPreparingContent>Es prepara el contingut</EitemUpdateStatus_k_EitemUpdateStatusPreparingContent>
+  <EitemUpdateStatus_k_EitemUpdateStatusUploadingContent>Es puja el contingut</EitemUpdateStatus_k_EitemUpdateStatusUploadingContent>
+  <EitemUpdateStatus_k_EitemUpdateStatusUploadingPreviewFile>Es puja la vista prèvia</EitemUpdateStatus_k_EitemUpdateStatusUploadingPreviewFile>
+  <EitemUpdateStatus_k_EitemUpdateStatusCommittingChanges>Es pugen els canvis</EitemUpdateStatus_k_EitemUpdateStatusCommittingChanges>
+
+  <!-- Mod sources -->
+  <ContentSource_LocalFolder>carpeta local</ContentSource_LocalFolder>
+  <ContentSource_SteamWorkshop>Workshop d'Steam</ContentSource_SteamWorkshop>
+  
+  <!-- Trainable intelligence -->
+  <TrainableIntelligence_None>cap</TrainableIntelligence_None>
+  <TrainableIntelligence_Simple>simple</TrainableIntelligence_Simple>
+  <TrainableIntelligence_Intermediate>intermèdia</TrainableIntelligence_Intermediate>
+  <TrainableIntelligence_Advanced>avançada</TrainableIntelligence_Advanced>
+
+  <!-- Medical care category -->
+  <MedicalCareCategory_NoCare>Sense cures</MedicalCareCategory_NoCare>
+  <MedicalCareCategory_NoMeds>Cures, però sense medicina</MedicalCareCategory_NoMeds>
+  <MedicalCareCategory_HerbalOrWorse>Herbes medicinals o pitjor</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>Medicina normal o pitjor</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_Best>Les millors cures posibles</MedicalCareCategory_Best>
+
+  <!-- Hostility response mode -->
+  <HostilityResponseMode_Ignore>Ignora</HostilityResponseMode_Ignore>
+  <HostilityResponseMode_Attack>Ataca</HostilityResponseMode_Attack>
+  <HostilityResponseMode_Flee>Fuig</HostilityResponseMode_Flee>
+  
+  <!-- HediffGrowthMode -->
+  <HediffGrowthMode_Growing>creixent</HediffGrowthMode_Growing>
+  <HediffGrowthMode_Stable>estable</HediffGrowthMode_Stable>
+  <HediffGrowthMode_Remission>remetent</HediffGrowthMode_Remission>
+
+  <!-- TechLevel -->
+  <TechLevel_Animal>animal</TechLevel_Animal>
+  <TechLevel_Neolithic>neolític</TechLevel_Neolithic>
+  <TechLevel_Medieval>medieval</TechLevel_Medieval>
+  <TechLevel_Industrial>industrial</TechLevel_Industrial>
+  <TechLevel_Spacer>espacial</TechLevel_Spacer>
+  <TechLevel_Ultra>ultra</TechLevel_Ultra>
+  <TechLevel_Transcendent>transcendent</TechLevel_Transcendent>
+
+  <!-- Player pawns arrive method -->
+  <PlayerPawnsArriveMethod_Standing>A peu</PlayerPawnsArriveMethod_Standing>
+  <PlayerPawnsArriveMethod_DropPods>Caient en càpsules</PlayerPawnsArriveMethod_DropPods>
+
+  <!-- Pawn generation context -->
+  <PawnGenerationContext_All>tots els personatges</PawnGenerationContext_All>
+  <PawnGenerationContext_PlayerStarter>personatges inicials</PawnGenerationContext_PlayerStarter>
+  <PawnGenerationContext_NonPlayer>personatges que no són del jugador</PawnGenerationContext_NonPlayer>
+  
+  <!-- Animal name display mode -->
+  <ShowAnimalNames>Noms d'animals</ShowAnimalNames>
+  <AnimalNameDisplayMode_TameNamed>Domèsticats (només els que tenen nom)</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameAll>Domesticats (tots)</AnimalNameDisplayMode_TameAll>
+  
+  <!-- Temperature -->
+  <Celsius>Centígrads</Celsius>
+  <Fahrenheit>Fahrenheit</Fahrenheit>
+  <Kelvin>Kelvin</Kelvin>
+  
+  <!-- Direction8Way -->
+  <Direction8Way_North_Short>N</Direction8Way_North_Short>
+  <Direction8Way_NorthEast_Short>NE</Direction8Way_NorthEast_Short>
+  <Direction8Way_East_Short>E</Direction8Way_East_Short>
+  <Direction8Way_SouthEast_Short>SE</Direction8Way_SouthEast_Short>
+  <Direction8Way_South_Short>S</Direction8Way_South_Short>
+  <Direction8Way_SouthWest_Short>SO</Direction8Way_SouthWest_Short>
+  <Direction8Way_West_Short>O</Direction8Way_West_Short>
+  <Direction8Way_NorthWest_Short>NO</Direction8Way_NorthWest_Short>
+  
+</LanguageData>
