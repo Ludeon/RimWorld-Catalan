@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <JumpToLocation>Ves a la ubicació</JumpToLocation>
+  
+  <LetterLabelFirstSummerWarning>Estiu</LetterLabelFirstSummerWarning>
+  <FirstSummerWarning>Ha començat l'estiu! Però s'acosta l'hivern.\n\nEls vostres camps no creixeran amb el fred de l'hivern. Assegureu-vos d'emmagatzemar prou menjar ara que encara podeu.\n\nPodeu construir una cambra refrigerada per evitar que s'espatlli el menjar.\n\nI proveu de comprar, robar o fabricar parques, o us congelareu quan sortiu fora.</FirstSummerWarning>
+
+  <RelationsBrokenDown>S'han trencat les relacions amb {0} . Ara us serà hostils.</RelationsBrokenDown>
+  <RelationsWarmed>Han millorat les relacions amb {0}. Ja no us seran hostils.</RelationsWarmed>
+
+  <RelationsBrokenCapture>Com que heu capturat {0}, ara {1} serà enemic vostre.</RelationsBrokenCapture>
+
+  <ColonyGoodwill>Reputaciót de la colònia</ColonyGoodwill>
+  <Neutral>Neutral</Neutral>
+
+  <ShortCircuitRain>Un {0} s'ha curtcircuitat per la pluja i ha provocat un incendi.</ShortCircuitRain>
+
+  <LetterLabelAreaRevealed>Zona revelada</LetterLabelAreaRevealed>
+  <AreaRevealed>S'ha revelat una nova zona.</AreaRevealed>
+  <AreaRevealedWithMechanoids>S'ha revelat una nova zona. Conté mecanòides antics i hostils.</AreaRevealedWithMechanoids>
+
+  <RoofCollapsed>S'ha esfondrat una teulada per que era massa lluny del punt de suport.</RoofCollapsed>
+  <TheseThingsCrushed>S'ha esclafat:</TheseThingsCrushed>
+  <NothingCrushed>No s'ha esclafatres.</NothingCrushed>
+  <LetterLabelRoofCollapsed>Esfondrament</LetterLabelRoofCollapsed>
+  
+  <RecruitSuccess>{0} reclutat {1} ({2} chance).</RecruitSuccess>
+  <RecruitFail>{0} no s'ha reclutat {1} ({2} chance).</RecruitFail>
+
+  <LetterLabelBirthday>Aniversari</LetterLabelBirthday>
+  <BirthdayChronological>És l'aniversari cronològic de {0}! Des del punt de vista biològic, {1} te {3} anys.\n\nDel cronològic, {1} n'acaba de fer {2}.\n\nCom que la gent no envelleix durant el criptoson, l'aniversari cronològic és diferent del biològic.</BirthdayChronological>
+  <BirthdayBiologicalAgeInjuries>{0} A acaba de fer {1} anys biològics.\n\nMalauradament, ha adquirit els següents deterioraments per l'edat:\n{2}</BirthdayBiologicalAgeInjuries>
+
+  <LetterLabelNewDisease>Malaltia</LetterLabelNewDisease>
+  <NewDisease>{0} ha agafat {1}.\n\nProcureu que disposi d'un llit mèdic i d'un metge. Mireu que {2} faci el tractament i passi al llit el màxim de temps possible.</NewDisease>
+  <NewPartDisease>{0} ha emmalaltit de {3}. La infecció és a {1}.\n\nProcureu que disposi d'un llit mèdic i d'un metge. Mireu que {2} faci el tractament i passi al llit el màxim de temps possible.</NewPartDisease>
+
+  <LetterLabelAncientShrineWarning>Perill antic</LetterLabelAncientShrineWarning>
+  <AncientShrineWarning>En passar prop de l'antic mur, {0} ha tingut un presentiment. No sap perquè, però nota que aquesta vella estructura conté un gran perill.</AncientShrineWarning>
+
+  <StruckMineable>Hem picat {0}!</StruckMineable>
+
+  <LetterLabelAnimalManhunterRevenge>Revenja de {0}</LetterLabelAnimalManhunterRevenge>
+  <AnimalManhunterFromDamage>{0} ataca com a resultat de la ferida!</AnimalManhunterFromDamage>
+  <AnimalManhunterFromTaming>Ha fallat la doma de {0} i t'ataca!</AnimalManhunterFromTaming>
+  <AnimalManhunterOthers>D'altres {0}s propers també s'han enfurit!</AnimalManhunterOthers>
+
+  <LetterFriendlyTrapSprungLabel>{0} entrampat</LetterFriendlyTrapSprungLabel>
+  <LetterFriendlyTrapSprung>{0} ha fet disparar la trampa accidentalment i ha pres mal.</LetterFriendlyTrapSprung>
+
+  <LetterHealthComplications>{0} ha patit un canvi en la salut:\n\n  {1}\n\nHo ha causat:\n\n  {2}</LetterHealthComplications>
+  <LetterHealthComplicationsLabel>{0}: {1}</LetterHealthComplicationsLabel>
+  
+  <LetterHediffFromRandomHediffGiver>{0} ha patit un canvi en la salut: {1}.</LetterHediffFromRandomHediffGiver>
+  <LetterHediffFromRandomHediffGiverLabel>{0}: {1}</LetterHediffFromRandomHediffGiverLabel>
+  
+  <LetterLeadersDeathLabel>{1} mort: {0}</LetterLeadersDeathLabel>
+  <LetterLeadersDeath>{0}, {3} dels {1}, ha mort.\n\nEl nou {3} és {2}.</LetterLeadersDeath>
+
+	<LetterLeaderChangedLabel>Nou {1}: {0}</LetterLeaderChangedLabel>
+	<LetterLeaderChanged>{0} ja no és {3} dels {1}.\n\nEl nou {3} és {2}.</LetterLeaderChanged>
+	
+  <MentalBreakLetterLabel>Emprenyament</MentalBreakLetterLabel>
+  <MentalBreakReason>La darrera gota ha estat: {0}.</MentalBreakReason>
+  
+  <!-- Related pawns -->
+  <LetterLabelNoticedRelatedPawns>Relació</LetterLabelNoticedRelatedPawns>
+  <LetterRelatedPawnsRaidEnemy>Hi ha algú que està relacionat amb els vostres colons o presoners al grup de {0} que arriba.\n\nPensa que encara que tinguin una relació, s'atacaran l'un a l'altre per les males relacions de les respectives faccions.\n\nSón:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidFriendly>Hi ha algú que està relacionat amb els vostres colons o presoners amb els amics de {0}:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsNeutralGroup>Hi ha algú que està relacionat amb els vostres colons o presoners en aquest grup que arriba:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsTradeShip>El comerciant orbital ven algú que està relacionat amb els vostres colons o presoners:</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsTradingWithFactionBase>La base de la facció ven algú que està relacionat amb els vostres colons o presoners:</LetterRelatedPawnsTradingWithFactionBase>
+  <LetterRelatedPawnsTradingWithOtherCaravan>La caravana ven algú que està relacionat amb els vostres colons o presoners:</LetterRelatedPawnsTradingWithOtherCaravan>
+  
+  <RelationshipAppendedLetterSuffix>(relació)</RelationshipAppendedLetterSuffix>
+  <RelationshipAppendedLetterTextColonist>NAME està relacionat amb un colon. És {1} de {0}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>NAME està relacionat amb un presoner. És {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
+  
+  <!-- Attempt romance / propose interaction -->
+  <LetterLabelAffair>Amants</LetterLabelAffair>
+  <LetterAffair>{0}, que comparteix matrimoni amb {1}, ha esdevingut amant de {2}.</LetterAffair>
+  <LetterLabelNewLovers>Novios</LetterLabelNewLovers>
+  <LetterNewLovers>{0} i {1} s'han ajuntat i ara són parella.</LetterNewLovers>
+  <LetterNoLongerLovers>{0} i {1} s'han deixat.</LetterNoLongerLovers>
+  <LetterLabelBreakup>Ruptura</LetterLabelBreakup>
+  <LetterLabelAcceptedProposal>S'estan casant!</LetterLabelAcceptedProposal>
+  <LetterLabelRejectedProposal>Rebuig</LetterLabelRejectedProposal>
+  <LetterAcceptedProposal>{1} ha acceptat la proposta de matrimoni de {0}.\n\nEn els propers dies o estacions, celebraran la cerimònia i convidaran els altres colons. Col·loqueu una zona de casaments si voleu controlar on cal celebrar la cerimònia.</LetterAcceptedProposal>
+  <LetterRejectedProposal>{1} ha rebutjat la proposta de matrimoni de {0}. {0} patirà tristor.</LetterRejectedProposal>
+  
+  <!-- Generalized letter labels -->
+  <LetterLabelRelationsChangeGood>Bons desitjos</LetterLabelRelationsChangeGood>
+  <LetterLabelRelationsChangeBad>Mals desitjos</LetterLabelRelationsChangeBad>
+  <LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
+  <LetterLabelMentalBreakdown>Emprenyament</LetterLabelMentalBreakdown>
+  
+  <!-- Bonded animals -->
+  <LetterLabelBondedAnimalDied>Mort animal amb lligam</LetterLabelBondedAnimalDied>
+  <LetterBondedAnimalDied>{0}, lligat a {1}, ha mort. Afectarà al seu estat d'ànim.</LetterBondedAnimalDied>
+  <LetterNamedBondedAnimalDied>{0} anomenat {1}, lligat {2}, ha mort. Afectarà al se estat d'ànim.</LetterNamedBondedAnimalDied>
+  <LetterBondedAnimalDiedMulti>{0} ha mort. Afectarà a l'estat d'ànim de:\n\n{1}</LetterBondedAnimalDiedMulti>
+  <LetterNamedBondedAnimalDiedMulti>{0} anomenat {1}, ha mort. Afectarà a l'estat d'ànim de:\n\n{2}</LetterNamedBondedAnimalDiedMulti>
+
+  <!-- Prison break -->
+  <LetterLabelPrisonBreak>Fuga</LetterLabelPrisonBreak>
+  <LetterPrisonBreak>Els presoners inicien un intent de fuga! D'alguna manera ha forçat el pany i s'escapen. Buscaran armes per lluitar o provaran de fugir. Estan implicats aquests presoners:\n\n{0}\n\nEls presoners provaran de fugar-se més sovint si no estan contents, són molts i en bon estat de salut.</LetterPrisonBreak>
+  
+  <!-- Party -->
+  <LetterLabelNewParty>Festa</LetterLabelNewParty>
+  <LetterNewParty>{0} organitza una festa! Tothom que hi vagi estarà més divertit, millorarà la capacitat social i bonificarà a l'estat d'ànim.</LetterNewParty>
+
+  <!-- Newly addicted -->
+  <LetterLabelNewlyAddicted>addicte a {0}</LetterLabelNewlyAddicted>
+  <LetterNewlyAddicted>{0} ha desenvolupat addició a {1}.\n\nNecessitarà {1}. Consumirà la droga automàticament per satisfer-ne la necessitat. Si no n'aconsegueix, tindrà síndrome d'abstinència.</LetterNewlyAddicted>
+  
+  <!-- Drug binge -->
+  <LetterLabelDrugBinge>borratxera de {0}</LetterLabelDrugBinge>
+  <LetterDrugBinge>{0} s'ha emborratxat de {1}.</LetterDrugBinge>
+  
+  <!-- Formed caravan -->
+  <LetterLabelFormedCaravan>Caravana llesta</LetterLabelFormedCaravan>
+  <LetterFormedCaravan>S'ha format la caravana i espera ordres al mapa del món.</LetterFormedCaravan>
+  
+  <!-- Caravan destroyed -->
+  <LetterLabelAllCaravanColonistsDied>Caravana destrossada</LetterLabelAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>Han mort tots els membres de la caravana.</LetterAllCaravanColonistsDied>
+  
+  <!-- Caravan entered ambush map -->
+  <LetterLabelCaravanEnteredAmbushMap>Caravana emboscada</LetterLabelCaravanEnteredAmbushMap>
+  <LetterCaravanEnteredAmbushMap>{0} ha caigut en una embocada.</LetterCaravanEnteredAmbushMap>
+  
+  <!-- Caravan entered enemy base -->
+  <LetterLabelCaravanEnteredEnemyBase>Atac iniciat</LetterLabelCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBase>{0} ha arribat a {1} i està apunt per començar l'atac.</LetterCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBaseBecameHostile>{0} a arribat a {1} i està apunt per començar l'atac.\n\nDegut a l'acostament hostil, ara {2} us és hostil també.</LetterCaravanEnteredEnemyBaseBecameHostile>
+  
+  <!-- Faction base defeated -->
+  <LetterLabelFactionBaseDefeated>Assentament destruït</LetterLabelFactionBaseDefeated>
+  <LetterFactionBaseDefeated>L'assentament enemic {0} ha estat destruït.\n\nTeniu {1} hores per agafar coses abans que els colons tornin a formar la caravana.</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated_FactionDestroyed>Era el darrer assentament dels {0}, amb la qual cosa, la facció ja no existeix.</LetterFactionBaseDefeated_FactionDestroyed>
+  
+  <!-- Pawns lost due to map countdown -->
+  <LetterLabelPawnsLostDueToMapCountdown>Deixat enrere</LetterLabelPawnsLostDueToMapCountdown>
+  <LetterPawnsLostDueToMapCountdown>Alguns animals o presoners han quedat abandonats a la terra salvatge:\n\n{0}</LetterPawnsLostDueToMapCountdown>
+  
+</LanguageData>

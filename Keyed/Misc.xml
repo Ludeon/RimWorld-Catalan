@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <Autosaving>Desat automàtic</Autosaving>
+  <GameStartDialog>Els tres desperteu en un sarcòfag de criptoson amb el soroll de sirenes i metall esclafant-se. Amb prou feines teniu temps d'arribar a les càpsules d'escapament abans de la destrucció completa de la nau.\n\nUna estona després, aterreu en aquest planeta desconegut.\n\nVeieu algunes restes de la nau al vostre voltant i comenceu a fer plans per sobreviure.</GameStartDialog>
+  <Colony>Colonia</Colony>
+  <ChangeLanguageFromMainMenu>Només podeu canviar l'idioma des de la pantalla d'opcions del menú principal.</ChangeLanguageFromMainMenu>
+  <AndLower>i</AndLower>
+  <DisabledLower>deshabilitat</DisabledLower>
+
+
+  <VersionIndicator>Versió {0}</VersionIndicator>
+  <DevelopmentBuildLower>Compilació de desenvolupament</DevelopmentBuildLower>
+  <CompiledOn>Compilat {0}</CompiledOn>
+  <LoggedIntoSteamAs>Registrat a Steam com a {0}</LoggedIntoSteamAs>
+
+  <!-- General-use words -->
+  <Yes>Sí</Yes>
+  <No>No</No>
+  <min>min</min>
+  <max>màx</max>
+  <chance>probabilitat</chance>
+  <context>context</context>
+  <multiplier>multiplicador</multiplier>
+  <damage>dany</damage>
+  <radius>radi</radius>
+  <durationDays>durada (dies)</durationDays>
+  <intervalDays>interval (dies)</intervalDays>
+  <repeat>repetició</repeat>
+
+  <!-- Content generation-->
+  
+	<MeatLabel>Carn de {0}</MeatLabel>
+  <MeatDesc>Carn escorxada. Es pot cuinar en àpats, o menjar crua.</MeatDesc>
+
+  <LeatherLabel>Pell de {0}</LeatherLabel>
+  <LeatherDesc>Pell seca, raspada i curtida. Un bon material tradiciona per fer roba i bosses.</LeatherDesc>
+
+  <CorpseLabel>{0} cadaver</CorpseLabel>
+	<CorpseDesc>El cos inert d'un {0}.</CorpseDesc>
+  <DeadLabel>{0} (mort)</DeadLabel>
+
+  <RoughStoneTerrainLabel>{0} irregular </RoughStoneTerrainLabel>
+  <RoughStoneTerrainDesc>Terra irregular i natural de {0}.</RoughStoneTerrainDesc>
+  <RoughHewnStoneTerrainLabel>{0} Tallat irregular</RoughHewnStoneTerrainLabel>
+  <RoughHewnStoneTerrainDesc>Terra tallat natural sense polir de {0}.</RoughHewnStoneTerrainDesc>
+  <SmoothStoneTerrainLabel>{0} llis</SmoothStoneTerrainLabel>
+  <SmoothStoneTerrainDesc>Terra natural de {0} allisat.</SmoothStoneTerrainDesc>
+
+  <BlueprintLabelExtra> (projecte)</BlueprintLabelExtra>
+  <FrameLabelExtra> (en construcció)</FrameLabelExtra>
+
+
+  <!-- For things made of stuff, e.g. "Stone bed" -->
+  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
+  <ThingMadeOfStuffLabel>{1} {0}</ThingMadeOfStuffLabel>
+
+  <SomeonesRoom>{1} de {0}</SomeonesRoom>
+  <CouplesRoom>{2} de {0} i {1}</CouplesRoom>
+  
+  <VariousLabel>(diversos)</VariousLabel>
+
+  <!-- History events -->
+  <ColonistDied>Colons morts</ColonistDied>
+  
+  <!-- Rotation -->
+  <North>Nord</North>
+  <South>Sud</South>
+  <West>Oest</West>
+  <East>Est</East>
+  
+  
+</LanguageData>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- ITab titles -->
+  <TabBills>Programa</TabBills>
+  <TabGrowing>Plantació</TabGrowing>
+  <TabCharacter>Personatge</TabCharacter>
+  <TabTraining>Entrenament</TabTraining>
+  <TabPrisoner>Presoner</TabPrisoner>
+  <TabGuest>Convidat</TabGuest>
+  <TabGear>Vestits</TabGear>
+  <TabNeeds>Necessitats</TabNeeds>
+  <TabStorage>Magatzem</TabStorage>
+  <TabHealth>Salut</TabHealth>
+  <TabRace>Raça</TabRace>
+  <TabBasics>Bàsics</TabBasics>
+  <TabStats>Estad.</TabStats>
+  <TabRecords>Registres</TabRecords>
+  <TabArt>Art</TabArt>
+  <TabSocial>Social</TabSocial>
+
+  
+  <!-- Bills tab  -->
+  <AddBill>Afegeix programa</AddBill>
+  <RecipeRequiresSkills>La recepta {0} necessita els coneixements que s'indiquen. No teniu cap colon amb aquests coneixements, així que ningú se'n farà càrreg.</RecipeRequiresSkills>
+  <MinimumSkill>Coneixement min</MinimumSkill>
+  <SuspendedCaps>SUSPÈS</SuspendedCaps>
+  <BoundWorkerIs>Treballador: {0}</BoundWorkerIs>
+  <PlantVerb>Plantar</PlantVerb>
+
+
+  <!-- Guest/prisoner tab -->
+  <RecruitmentDifficulty>Dificultat de reclutament</RecruitmentDifficulty>
+  <GetsFood>Porta menjar</GetsFood>
+  <DoctorsCare>Cures mèdiques</DoctorsCare>
+  <GetsMedicine>Emprar medicines</GetsMedicine>
+  <ShouldTryToRecruit>Provar de reclutar</ShouldTryToRecruit>
+  <PrisonerNoInteraction>No interactuar</PrisonerNoInteraction>
+  <PrisonerFriendlyChat>Xerrar-hi</PrisonerFriendlyChat>
+  <PrisonerAttemptRecruit>Xerrar i reclutar</PrisonerAttemptRecruit>
+  <PrisonerRelease>Alliberar</PrisonerRelease>
+  <PrisonerExecution>Executar</PrisonerExecution>
+	<ConsideredGuilty>Considerat culpable (expira en {0})</ConsideredGuilty>
+
+
+  <!-- Medical - general -->
+  <MoveSpeed>Velocitat de moviment</MoveSpeed>
+  <Efficiency>Eficiència</Efficiency>
+  <MissingBodyPart>Fora</MissingBodyPart>
+  <DestroyedBodyPart>Destrossat</DestroyedBodyPart>
+  <ShatteredBodyPart>Fet a miques</ShatteredBodyPart>
+  <RemovedBodyPart>Arrencat</RemovedBodyPart>
+  <Healthy>Saludable</Healthy>
+  <InPain>Dolorit</InPain>
+  <PainLevel>Dolor</PainLevel>
+  <Injured>Ferit</Injured>
+  <NoInjuries>(cap ferida)</NoInjuries>
+  <WholeBody>Tot el cos</WholeBody>
+  <DataProcessing>Es processen les dades</DataProcessing>
+  <Communication>Comunicació</Communication>
+  <Affects>Afecta</Affects>
+  <BleedingRate>Sagna</BleedingRate>
+  <TimeToDeath>Morirà en {0}</TimeToDeath>
+  <WontBleedOutSoon>No hi ha perill immediat</WontBleedOutSoon>
+  <HealthOverview>Resum</HealthOverview>
+  <MedicalOperationsShort>Operacions ({0})</MedicalOperationsShort>
+  <MedicalOperationsMechanoidsShort>Modificacions ({0})</MedicalOperationsMechanoidsShort>
+  <MedicalOperations>Operacions mèdiques</MedicalOperations>
+  <Amputate>Amputar</Amputate>
+  <Harvest>Extreure</Harvest>
+  <RemoveOrgan>Treure</RemoveOrgan>
+  <MemoryLower>memoria</MemoryLower>
+  <SocialInteractionsLower>interaccions socials</SocialInteractionsLower>
+  <HungerRate>Índex de gana</HungerRate>
+  <Tiredness>Cansament</Tiredness>
+  <PainFactor>Dolor</PainFactor>
+  <PreventsInfection>Prevé infeccions</PreventsInfection>
+  
+
+  <!-- Medical - Body and activities condition -->
+  <None>Cap</None>
+  <VeryPoor>Molt poc</VeryPoor>
+  <Poor>Poc</Poor>
+  <Weakened>Afeblit</Weakened>
+  <GoodCondition>Bé</GoodCondition>
+  <Enhanced>Millorat</Enhanced>
+  <SeriouslyImpaired>Seriosament disminuït</SeriouslyImpaired>
+  <Impaired>Disminuït</Impaired>
+  <SlightlyImpaired>Una mica disminuït</SlightlyImpaired>
+  <NoPain>Gens</NoPain>
+  <LittlePain>Poc</LittlePain>
+  <MediumPain>Mitjà</MediumPain>
+  <SeverePain>Sever</SeverePain>
+  <ExtremePain>Extrem</ExtremePain>
+
+
+  <!-- Training tab-->
+  <TrainableIntelligence>Intel·ligència entrenament</TrainableIntelligence>
+  <CannotTrainNotSmartEnough>Necessita intel·ligència d'entrenament {0}.</CannotTrainNotSmartEnough>
+  <CannotTrainTooSmall>{0} massa petit per entrenar-ho.</CannotTrainTooSmall>
+
+  <TrainingNeedsPrerequisite>Necessita el requisit: {0}</TrainingNeedsPrerequisite>
+  
+  <!-- Social tab -->
+  <NoRelationships>(cap relació)</NoRelationships>
+  <Kidnapped>Segrestat</Kidnapped>
+  <Slave>Esclau</Slave>
+  <FactionLeader>Líder de facció</FactionLeader>
+  <OpinionOf>Opinió de {0}</OpinionOf>
+  <SomeonesOpinionOfMe>Que opina{0} de mi</SomeonesOpinionOfMe>
+  <IamDead>Estic mort</IAmDead>
+  <IamPsychopath>Sóc un psicòpata</IAmPsychopath>
+  
+  <!-- Gear tab -->
+  <AverageArmor>Protecció mitja</AverageArmor>
+  <MassCarried>Pes que porta: {0} / {1} kg</MassCarried>
+  <ComfyTemperatureRange>Rang de temperatura de comfort</ComfyTemperatureRange>
+  <ArmorBlunt>Cops</ArmorBlunt>
+  <ArmorSharp>Talls</ArmorSharp>
+  <ArmorHeat>Calor</ArmorHeat>
+  <ArmorElectric>Elèctric</ArmorElectric>
+
+</LanguageData>
