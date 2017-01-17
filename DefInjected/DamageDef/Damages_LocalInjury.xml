@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Cut.label>tall</Cut.label>
+  <Cut.deathMessage>{0} ha sofert talls fins a morir.</Cut.deathMessage>
+
+  <Crush.label>esclafament</Crush.label>
+  <Crush.deathMessage>{0} ha sofert esclafament fins a morir.</Crush.deathMessage>
+
+  <Blunt.label>cop</Blunt.label>
+  <Blunt.deathMessage>{0} ha sofert cops fins a morir.</Blunt.deathMessage>
+
+  <Stab.label>ganivetada</Stab.label>
+  <Stab.deathMessage>{0} ha sofert ganivetades fins a morir.</Stab.deathMessage>
+
+  <Bullet.label>tret</Bullet.label>
+  <Bullet.deathMessage>{0} ha sofert trets fins a morir.</Bullet.deathMessage>
+
+  <Arrow.label>fletxa</Arrow.label>
+  <Arrow.deathMessage>{0} ha mort per les fletxes.</Arrow.deathMessage>
+
+  <Scratch.label>esgarrapada</Scratch.label>
+  <Scratch.deathMessage>{0} ha rebut esgarrapades fins a morir.</Scratch.deathMessage>
+
+  <Bite.label>mossegada</Bite.label>
+  <Bite.deathMessage>{0} ha rebut mossegades fins a morir.</Bite.deathMessage>
+
+  <ToxicBite.label>mossegada verinosa</ToxicBite.label>
+  <ToxicBite.deathMessage>{0} ha rebut mossegades fins a morir.</ToxicBite.deathMessage>
+
+  <Bomb.label>bomba</Bomb.label>
+  <Bomb.deathMessage>{0} ha mort en una explosió.</Bomb.deathMessage>
+
+  <Flame.label>flama</Flame.label>
+  <Flame.deathMessage>{0} ha mort cremat.</Flame.deathMessage>
+
+
+  <!-- Burn is like Flame, but doesn't ignite anything -->
+
+  <Burn.label>cremada</Burn.label>
+  <Burn.deathMessage>{0} ha mort per les cremades.</Burn.deathMessage>
+
+  <Frostbite.label>congelació</Frostbite.label>
+  <Frostbite.deathMessage>{0} ha mort congelat.</Frostbite.deathMessage>
+
+
+  <!-- Surgical cut should not harm outer layers.
+       This makes it possible to remove inner organs without harming outer body parts -->
+
+  <SurgicalCut.label>tall quirúrgic</SurgicalCut.label>
+  <SurgicalCut.deathMessage>{0} ha mort en l'operació.</SurgicalCut.deathMessage>
+
+
+  <!-- Execution cut
+       This makes it possible to distinguish execution damage from others -->
+
+  <ExecutionCut.label>tall per execució</ExecutionCut.label>
+  <ExecutionCut.deathMessage>{0} ha mort en l'execució.</ExecutionCut.deathMessage>
+
+
+</LanguageData>

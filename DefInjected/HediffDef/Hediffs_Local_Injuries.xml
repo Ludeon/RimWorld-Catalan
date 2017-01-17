@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Missing body part -->
+
+  <MissingBodyPart.label>missing body part</MissingBodyPart.label>
+
+
+  <!-- Injuries -->
+
+  <Misc.label>misc</Misc.label>
+  <Misc.comps.0.labelTendedWell>embenatge</Misc.comps.0.labelTendedWell>
+  <Misc.comps.0.labelTendedWellInner>costura</Misc.comps.0.labelTendedWellInner>
+  <Misc.comps.0.labelSolidTendedWell>cures</Misc.comps.0.labelSolidTendedWell>
+  <Misc.injuryProps.destroyedLabel>destrucció</Misc.injuryProps.destroyedLabel>
+
+  <Burn.label>cremada</Burn.label>
+  <Burn.comps.0.labelTendedWell>embenatge</Burn.comps.0.labelTendedWell>
+  <Burn.comps.0.labelTendedWellInner>costura</Burn.comps.0.labelTendedWellInner>
+  <Burn.comps.0.labelSolidTendedWell>cures</Burn.comps.0.labelSolidTendedWell>
+  <Burn.comps.2.oldLabel>marca de cremada</Burn.comps.2.oldLabel>
+  <Burn.injuryProps.destroyedLabel>Cremades</Burn.injuryProps.destroyedLabel>
+  <Burn.injuryProps.destroyedOutLabel>Perdua en cremada</Burn.injuryProps.destroyedOutLabel>
+
+  <Crush.label>aixafament</Crush.label>
+  <Crush.comps.0.labelTendedWell>embenatge</Crush.comps.0.labelTendedWell>
+  <Crush.comps.0.labelTendedWellInner>costura</Crush.comps.0.labelTendedWellInner>
+  <Crush.comps.0.labelSolidTendedWell>cures</Crush.comps.0.labelSolidTendedWell>
+  <Crush.comps.2.oldLabel>cicatriu</Crush.comps.2.oldLabel>
+  <Crush.injuryProps.destroyedLabel>aixafament</Crush.injuryProps.destroyedLabel>
+
+  <Crack.label>trencament</Crack.label>
+  <Crack.comps.0.labelTendedWell>cures</Crack.comps.0.labelTendedWell>
+  <Crack.comps.0.labelTendedWellInner>cures</Crack.comps.0.labelTendedWellInner>
+  <Crack.comps.0.labelSolidTendedWell> a lloc</Crack.comps.0.labelSolidTendedWell>
+  <Crack.injuryProps.destroyedLabel>Destrucció</Crack.injuryProps.destroyedLabel>
+
+  <Cut.label>tall</Cut.label>
+  <Cut.comps.0.labelTendedWell>embenatge</Cut.comps.0.labelTendedWell>
+  <Cut.comps.0.labelTendedWellInner>costura</Cut.comps.0.labelTendedWellInner>
+  <Cut.comps.0.labelSolidTendedWell>cures</Cut.comps.0.labelSolidTendedWell>
+  <Cut.comps.2.oldLabel>cicatriu de tall</Cut.comps.2.oldLabel>
+  <Cut.injuryProps.destroyedLabel>Amputació</Cut.injuryProps.destroyedLabel>
+  <Cut.injuryProps.destroyedOutLabel>Amputació</Cut.injuryProps.destroyedOutLabel>
+
+  <SurgicalCut.label>tall quirúrgic</SurgicalCut.label>
+  <SurgicalCut.comps.0.labelTendedWell>embenatge</SurgicalCut.comps.0.labelTendedWell>
+  <SurgicalCut.comps.0.labelTendedWellInner>costura</SurgicalCut.comps.0.labelTendedWellInner>
+  <SurgicalCut.comps.0.labelSolidTendedWell>cures</SurgicalCut.comps.0.labelSolidTendedWell>
+  <SurgicalCut.comps.1.oldLabel>cicatriu de tall</SurgicalCut.comps.1.oldLabel>
+
+  <Scratch.label>esgarrapada</Scratch.label>
+  <Scratch.comps.0.labelTendedWell>embenatge</Scratch.comps.0.labelTendedWell>
+  <Scratch.comps.0.labelTendedWellInner>costura</Scratch.comps.0.labelTendedWellInner>
+  <Scratch.comps.0.labelSolidTendedWell>cures</Scratch.comps.0.labelSolidTendedWell>
+  <Scratch.comps.2.oldLabel>cicatriu d'esgarrapada</Scratch.comps.2.oldLabel>
+  <Scratch.injuryProps.destroyedLabel>Arrencament</Scratch.injuryProps.destroyedLabel>
+  <Scratch.injuryProps.destroyedOutLabel>Arrencament</Scratch.injuryProps.destroyedOutLabel>
+
+  <Bite.label>mossegada</Bite.label>
+  <Bite.comps.0.labelTendedWell>embenatge</Bite.comps.0.labelTendedWell>
+  <Bite.comps.0.labelTendedWellInner>costura</Bite.comps.0.labelTendedWellInner>
+  <Bite.comps.0.labelSolidTendedWell>cures</Bite.comps.0.labelSolidTendedWell>
+  <Bite.comps.2.oldLabel>cicatriu de mossegada</Bite.comps.2.oldLabel>
+  <Bite.injuryProps.destroyedLabel>Menjat</Bite.injuryProps.destroyedLabel>
+  <Bite.injuryProps.destroyedOutLabel>Menjat</Bite.injuryProps.destroyedOutLabel>
+
+  <Stab.label>apunyalament</Stab.label>
+  <Stab.comps.0.labelTendedWell>embenatge</Stab.comps.0.labelTendedWell>
+  <Stab.comps.0.labelTendedWellInner>costura</Stab.comps.0.labelTendedWellInner>
+  <Stab.comps.0.labelSolidTendedWell>cures</Stab.comps.0.labelSolidTendedWell>
+  <Stab.comps.2.oldLabel>cucatriu d'apunyalament</Stab.comps.2.oldLabel>
+  <Stab.injuryProps.destroyedLabel>Tallat</Stab.injuryProps.destroyedLabel>
+  <Stab.injuryProps.destroyedOutLabel>Amputat</Stab.injuryProps.destroyedOutLabel>
+
+  <Gunshot.label>tret</Gunshot.label>
+  <Gunshot.comps.0.labelTendedWell>embenatge</Gunshot.comps.0.labelTendedWell>
+  <Gunshot.comps.0.labelTendedWellInner>costura</Gunshot.comps.0.labelTendedWellInner>
+  <Gunshot.comps.0.labelSolidTendedWell>cures</Gunshot.comps.0.labelSolidTendedWell>
+  <Gunshot.comps.2.oldLabel>tret antic</Gunshot.comps.2.oldLabel>
+  <Gunshot.comps.2.instantlyOldLabel>ferida de bala permanent</Gunshot.comps.2.instantlyOldLabel>
+  <Gunshot.injuryProps.destroyedLabel>amputat per bala</Gunshot.injuryProps.destroyedLabel>
+  <Gunshot.injuryProps.destroyedOutLabel>amputat per bala</Gunshot.injuryProps.destroyedOutLabel>
+
+  <Shredded.label>explosió</Shredded.label>
+  <Shredded.comps.0.labelTendedWell>embenatge</Shredded.comps.0.labelTendedWell>
+  <Shredded.comps.0.labelTendedWellInner>costura</Shredded.comps.0.labelTendedWellInner>
+  <Shredded.comps.0.labelSolidTendedWell>cures</Shredded.comps.0.labelSolidTendedWell>
+  <Shredded.comps.2.oldLabel>cicatriu</Shredded.comps.2.oldLabel>
+  <Shredded.injuryProps.destroyedLabel>Amputació</Shredded.injuryProps.destroyedLabel>
+  <Shredded.injuryProps.destroyedOutLabel>Amputació</Shredded.injuryProps.destroyedOutLabel>
+
+  <Bruise.label>cop</Bruise.label>
+  <Bruise.comps.0.labelTendedWell>embenatge</Bruise.comps.0.labelTendedWell>
+  <Bruise.comps.0.labelTendedWellInner>costura</Bruise.comps.0.labelTendedWellInner>
+  <Bruise.comps.0.labelSolidTendedWell>cures</Bruise.comps.0.labelSolidTendedWell>
+  <Bruise.injuryProps.destroyedLabel>Destrossat</Bruise.injuryProps.destroyedLabel>
+
+  <Frostbite.label>congelació</Frostbite.label>
+  <Frostbite.comps.0.labelTendedWell>embenatge</Frostbite.comps.0.labelTendedWell>
+  <Frostbite.comps.0.labelTendedWellInner>costura</Frostbite.comps.0.labelTendedWellInner>
+  <Frostbite.comps.0.labelSolidTendedWell>cures</Frostbite.comps.0.labelSolidTendedWell>
+  <Frostbite.comps.2.oldLabel>cicatriu de congelació</Frostbite.comps.2.oldLabel>
+  <Frostbite.injuryProps.destroyedLabel>perdut per congelació</Frostbite.injuryProps.destroyedLabel>
+
+
+</LanguageData>
