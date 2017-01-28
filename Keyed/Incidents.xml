@@ -20,8 +20,8 @@
 
   <!-- Friendly raids -->
   <FriendlyRaidWalkIn>Ha arribat un grup de {0} amistosos dels {1}.</FriendlyRaidWalkIn>
-  <FriendlyRaidEdgeDrop>Un grup amistós de {0} dels {1} han caigut des de l'òrtbita.</FriendlyRaidEdgeDrop>
-  <FriendlyRaidCenterDrop>Un grup amistós de {0} dels {1} ahn caigut des de l'òrbita sobre vostre!</FriendlyRaidCenterDrop>
+  <FriendlyRaidEdgeDrop>Un grup amistós de {0} dels {1} ha caigut des de l'òrtbita.</FriendlyRaidEdgeDrop>
+  <FriendlyRaidCenterDrop>Un grup amistós de {0} dels {1} ha caigut des de l'òrbita sobre vostre!</FriendlyRaidCenterDrop>
   <FriendlyRaidLeaderPresent>Un dels {0}, {1}, és el líder de la facció.</FriendlyRaidLeaderPresent>
 
   <LetterLabelRefugeePodCrash>Càpsula d'escapament</LetterLabelRefugeePodCrash>
@@ -31,7 +31,7 @@
   <CargoPodCrash>Heu detectat unes càpsules de càrrega caient prop d'aquí.\n\nPotser podeu trobar alguna cosa útil entre les restes.</CargoPodCrash>
 
   <AnElectricalConduit>Conducte elèctric</AnElectricalConduit>
-  <ShortCircuit>Una fallada del {0} ha provocat un curtcircuit.\n\nEls {1} Wd d'energia de les bateries connectades s'han descarregat en la xispa.</ShortCircuit>
+  <ShortCircuit>Una fallada del {0} ha provocat un curtcircuit.\n\nEls {1} Wd d'energia de les bateries connectades s'han descarregat en la guspira.</ShortCircuit>
   <ShortCircuitWasLarge>La gran quantitat d'energia ha causat una forta explosió.</ShortCircuitWasLarge>
   <ShortCircuitWasHuge>Ha sigut una explosió enorme. Uau.</ShortCircuitWasHuge>
 
@@ -42,8 +42,8 @@
 
   <LetterLabelSingleVisitorArrives>Visitant</LetterLabelSingleVisitorArrives>
   <SingleVisitorArrives>Un {0} dels {1} visita la colònia.\n\nEs diu {2}.{3}{4}</SingleVisitorArrives>
-  <SingleVisitorArrivesTraderInfo>\n\nSembla que algunes coses per vendre.</SingleVisitorArrivesTraderInfo>
-  <SingleVisitorArrivesLeaderInfo>\n\nÉs el lider de la facció.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrivesTraderInfo>\n\nSembla que té algunes coses per vendre.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\nÉs el líder de la facció.</SingleVisitorArrivesLeaderInfo>
   <LetterLabelGroupVisitorsArrive>Visitants</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>Un grup de {0} visiten la colònia.{1}{2}</GroupVisitorsArrive>
   <GroupVisitorsArriveTraderInfo>\n\nSembla que porten coses per vendre.</GroupVisitorsArriveTraderInfo>
@@ -54,10 +54,10 @@
   <WandererJoin>Un {0} anomenat NAME ha arribat i s'uneix a la colònia. És un {1}.</WandererJoin>
 
   <LetterLabelManhunterPackArrived>Menja persones</LetterLabelManhunterPackArrived>
-  <ManhunterPackArrived>Un grup de {0}s ha entrat a la zona. Voltaran per la regió, buscant carn humana.\n\nNo poden travessar les portes, així que si us quedeu a dins estareu segurs. No atacaran les metralladores inactives, així que si les tens apagafes no els passarà res.\n\nMarxaran d'aquí uns dies.</ManhunterPackArrived>
+  <ManhunterPackArrived>Un grup de {0}s ha entrat a la zona. Voltaran per la regió, buscant carn humana.\n\nNo poden travessar les portes així que, si us quedeu a dins, estareu segurs. No atacaran les metralladores inactives així que, si les teniu apagades, no els passarà res.\n\nMarxaran d'aquí a uns dies.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
-  <MessageAnimalInsanityPulse>L'antiga estructura emet un impuls psíquic que farà torna bojos els animals propers.</MessageAnimalInsanityPulse>
+  <MessageAnimalInsanityPulse>L'antiga estructura emet un impuls psíquic que farà tornar bojos els animals propers.</MessageAnimalInsanityPulse>
   <LetterShipPartDroveColonistInsane>El tros de nau que s'ha estavellat emet un impuls psíquic que farà tornar bojos els vostres colons {0}.</LetterShipPartDroveColonistInsane>
   <AwokeDaysAgo>Despert fa {0} dies</AwokeDaysAgo>
   <PsychicDroneLevel>Nivell del brunzit psíquic: {0}</PsychicDroneLevel>
@@ -66,22 +66,22 @@
   <PsychicDroneLevelHigh>Alt</PsychicDroneLevelHigh>
   <PsychicDroneLevelExtreme>Extrem</PsychicDroneLevelExtreme>
   <LetterLabelPsychicDroneLevelIncreased>El brunzit s'intensifica</LetterLabelPsychicDroneLevelIncreased>
-  <LetterPsychicDroneLevelIncreased>La tros de nau estavellada emet un brunzit psíquic més potent. Tothom a la zona se sent pitjor, més aterrat i paranoic.</LetterPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>El tros de nau estavellada emet un brunzit psíquic més potent. Tothom a la zona se sent pitjor, més aterrat i paranoic.</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
   <LetterLabelAgentRevealed>Agent</LetterLabelAgentRevealed>
-  <LetterAgentRevealed>{0} ha resulta ser un agent de {1}, el vostre enemic .\n\nEstà provant d'escapar.</LetterAgentRevealed>
+  <LetterAgentRevealed>{0} ha resultat ser un agent de {1}, el vostre enemic .\n\nEstà provant d'escapar.</LetterAgentRevealed>
 
   <!-- Distant psychic drone -->
   <LetterLabelPsychicDrone>Brunzit psíquic</LetterLabelPsychicDrone>
-  <LetterIncidentPsychicDrone>Els colons de genere {0} es regira de dolor!\n\nAlgun aparell llunyà està produint un brunzit psíquic que afecta tota la zona. Sembla que només afecta al genere {0}. Durant uns quants dies, l'estat d'ànim d'algunes persones empitjorarà.</LetterIncidentPsychicDrone>
+  <LetterIncidentPsychicDrone>Els colons de gènere {0} es regiren de dolor!\n\nAlgun aparell llunyà està produint un brunzit psíquic que afecta tota la zona. Sembla que només afecta el gènere {0}. Durant uns quants dies, l'estat d'ànim d'algunes persones empitjorarà.</LetterIncidentPsychicDrone>
 
   <LetterLabelPsychicSoothe>Calmant psíquic</LetterLabelPsychicSoothe>
-  <LetterIncidentPsychicSoothe>Els colons de genere {0} somriuen alegrement!\n\nAlgun aparell llunyà està produint un brunzit psíquic que afecta tota la zona. Sembla que només afecta al genere {0}. Durant uns quants dies, l'estat d'ànim d'algunes persones millorarà.</LetterIncidentPsychicSoothe>
+  <LetterIncidentPsychicSoothe>Els colons de gènere {0} somriuen alegrement!\n\nAlgun aparell llunyà està produint un brunzit psíquic que afecta tota la zona. Sembla que només afecta al gènere {0}. Durant uns quants dies, l'estat d'ànim d'algunes persones millorarà.</LetterIncidentPsychicSoothe>
 
   <!-- Beavers -->
   <LetterLabelBeaversArrived>Castors!</LetterLabelBeaversArrived>
-  <BeaversArrived>Un grup de castors alfa famolencs acaben d'arribar.\n\nIntenta eliminar-los abans no es mengin tots els arbres de la zona.</BeaversArrived>
+  <BeaversArrived>Un grup de castors alfa famolencs acaben d'arribar.\n\nIntenteu eliminar-los abans no es mengin tots els arbres de la zona.</BeaversArrived>
   
   <!-- Refugee chased -->
   <RefugeeChasedInitial>Algú anomenat {0} que és {1} us truca. {2} de {3} l'estan perseguint!\n\n{0} suplica protecció i ofereix unir-se a la colònia. Te {4} anys.\n\nAlerta – Si accepteu, haureu de lluitar amb els {2} perseguidors.</RefugeeChasedInitial>
@@ -100,8 +100,8 @@
   <LetterFarmAnimalsWanderIn>Un grup de {0}s, abandonats o perduts, han arribat a la zona.\n\nSemblen acostumats al contacte humà i s'uneixen a la colònia.</LetterFarmAnimalsWanderIn>
   
   <!-- Thrumbo passes -->
-  <LetterLabelThrumboPasses>Thrumbes</LetterLabelThrumboPasses>
-  <LetterThrumboPasses>Una petita manada de thrumbes han entrat a la zona.\n\nTot i que pacífics per natura, aquestes rares criatures són molt perilloses. Alguns comerciants pagaran molts diners per la banya i la pell.\n\nLes thrumbes marxaran d'aquí uns dies.</LetterThrumboPasses>
+  <LetterLabelThrumboPasses>Trumbes</LetterLabelThrumboPasses>
+  <LetterThrumboPasses>Una petita manada de trumbes han entrat a la zona.\n\nTot i que pacífics per natura, aquestes rares criatures són molt perilloses. Alguns comerciants pagaran molts diners per la banya i la pell.\n\nLes trumbes marxaran d'aquí a uns dies.</LetterThrumboPasses>
   
   <!-- Trader caravan -->
   <LetterLabelTraderCaravanArrival>{1} de {0}</LetterLabelTraderCaravanArrival>
@@ -117,7 +117,7 @@
   <RansomDemand_Reject>Rebutja</RansomDemand_Reject>
   
   <!-- Journey -->
-  <JourneyOffer>Una IA amistosa del vostre passat, anomenada Charlon Whitestone us envia un missatge!\n\nUs revela que té una nau amagada en aquest planeta i us n'envia les coordenades.\n\nSi viatgeu fins la nau, Charlons us traurà d'aquest planeta, cap a les estrelles.</JourneyOffer>
+  <JourneyOffer>Una IA amistosa del vostre passat, anomenada Charlon Whitestone us envia un missatge!\n\nUs revela que té una nau amagada en aquest planeta i us n'envia les coordenades.\n\nSi viatgeu fins a la nau, Charlons us traurà d'aquest planeta, cap a les estrelles.</JourneyOffer>
 
   <!-- Caravan meeting -->
   <CaravanMeeting>La vostra caravana s'ha creuat pacíficament amb una altra caravana de {0}. L'altra caravana està formada per:\n\n{1}</CaravanMeeting>
