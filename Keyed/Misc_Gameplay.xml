@@ -40,15 +40,15 @@
   <On>Activat</On>
   <Off>Desactivat</Off>
   <PowerSwitch_Power>Corrent</PowerSwitch_Power>
-  <JoyTolerances>Tolerancies de diversió</JoyTolerances>
+  <JoyTolerances>Toleràncies de diversió</JoyTolerances>
   <MilkFullness>Creació de llet</MilkFullness>
   <WoolGrowth>Creixement de la llana</WoolGrowth>
-  <EggProgress>Grogress de l'ou</EggProgress>
+  <EggProgress>Progrés de l'ou</EggProgress>
   <Fertilized>Fertilitzat</Fertilized>
   <ProgressStoppedUntilFertilized>Procés aturat fins a fertilitzar</ProgressStoppedUntilFertilized>
-  <SkillTooLow>necessita nivell {2} de {2}, en té {1}</SkillTooLow>
+  <SkillTooLow>necessita nivell {2} de {0}, en té {1}</SkillTooLow>
 	<Freezing>Glaçant</Freezing>
-	<Overheating>Sobrecalentant</Overheating>
+	<Overheating>Sobreescalfament</Overheating>
 	<RuinedByTemperature>fet malbé per temperatura.</RuinedByTemperature>
 	<CorpsePercentMissing>Parts del cos que falten</CorpsePercentMissing>
 	<HiveReproducesIn>Es reprodueix en</HiveReproducesIn>
@@ -85,7 +85,7 @@
 	<CaravanAttacking>Atacant {0}.</CaravanAttacking>
 	<WasWornByCorpse>Ho ha portat un cadàver.</WasWornByCorpse>
 	<WornByCorpseChar>M</WornByCorpseChar>
-	<DeterioratingDueToBeingUnroofed>Es deteriora per no estar sotat teulada.</DeterioratingDueToBeingUnroofed>
+	<DeterioratingDueToBeingUnroofed>Es deteriora per no estar sota teulada.</DeterioratingDueToBeingUnroofed>
   <Map>Mapa</Map>
   <ForceExitAndRemoveMapCountdown>{0} hores per sortir</ForceExitAndRemoveMapCountdown>
   <ForceExitAndRemoveMapCountdownTip>Els vostres colons tornaran a formar una caravana i deixaran la zona d'aquí a {0} hores.</ForceExitAndRemoveMapCountdownTip>
@@ -229,7 +229,7 @@
 	<OfLower>de</OfLower>
 
 	<!-- Power readout -->
-	<PowerNotConnected>No està connectat a la corrent.</PowerNotConnected>
+	<PowerNotConnected>No està connectat al corrent.</PowerNotConnected>
 	<PowerConnectedRateStored>Connectat/emmagatzemat: {0} W / {1} Wd</PowerConnectedRateStored>
 	<PowerNeeded>Corrent necessària</PowerNeeded>
 	<PowerOutput>Corrent de sortida</PowerOutput>
@@ -300,7 +300,7 @@
 	<Undiscovered>Sense descobrir</Undiscovered>
 
 	<!-- Buttons -->
-	<ShowLearningHelperWhenEmptyToggleButton>Commuta la visibilitat de l'ajuda d'aprenentatge quan està buida.\n\nL'ajuda d'aprenentatge està sempre visible si hi ha in concepte activat per ensenyar. Aquest botó el fa desaparèixer quan no hi ha cap concepte actiu.</ShowLearningHelperWhenEmptyToggleButton>
+	<ShowLearningHelperWhenEmptyToggleButton>Commuta la visibilitat de l'ajuda d'aprenentatge quan està buida.\n\nL'ajuda d'aprenentatge està sempre visible si hi ha un concepte activat per ensenyar. Aquest botó el fa desaparèixer quan no hi ha cap concepte actiu.</ShowLearningHelperWhenEmptyToggleButton>
 	<ZoneVisibilityToggleButton>Commuta la visibilitat de les zones.</ZoneVisibilityToggleButton>
 	<ShowEnvironmentToggleButton>Commuta el visor d'entorn.\n\nMostra la bellesa i les estadístiques d'un espai o entorn com els percebria un personatge que estigués al lloc del punter.</ShowEnvironmentToggleButton>
 	<ShowColonistBarToggleButton>Commuta la barra de colons.\n\nMostra les icones i les estadístiques bàsiques dels colons a la part superior de la pantalla.</ShowColonistBarToggleButton>
