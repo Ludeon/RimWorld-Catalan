@@ -26,7 +26,7 @@
   <NeedsTendingNow>Necessita atenció ara</NeedsTendingNow>
   <NextTreatmentIn>Necessitarà atenció d'aquí {0}</NextTreatmentIn>
   <MissingMedicalBillIngredient>no hi ha {0}</MissingMedicalBillIngredient>
-  <Immunity>Immunitat</Immunity>
+  <Immunity>Immune</Immunity>
   <Race>Raça</Race>
   <Description>Descripció</Description>
   <Equipment>Equipament</Equipment>
@@ -64,7 +64,7 @@
 	<CurrentRadius>radi actual</CurrentRadius>
 	<RadiusExpandsIn>el radi s'expandeix d'aquí a</RadiusExpandsIn>
 	<Permanent>permanent</Permanent>
-	<CaravanResting>Descansant.</CaravanResting>
+	<CaravanResting>Descansa.</CaravanResting>
   <CaravanEstimatedTimeToDestination>Temps est. fins al destí: {0}</CaravanEstimatedTimeToDestination>
   <CaravanImmobilizedByMass>Aturat: massa pes.</CaravanImmobilizedByMass>
   <CaravanOutOfFood>Sense menjar.</CaravanOutOfFood>
@@ -156,25 +156,25 @@
 	<ShellNotLoaded>No carregat</ShellNotLoaded>
 
 	<!-- Job reports -->
-	<ReportHaulingTo>portant {0} a {1}.</ReportHaulingTo>
-	<ReportHauling>portant {0}.</ReportHauling>
-	<ReportSleeping>dormint.</ReportSleeping>
-	<ReportResting>descansant.</ReportResting>
-	<WatchingSunrise>mirant la sortida del sol</WatchingSunrise>
-	<CloudWatching>mirant els núvols</CloudWatching>
-	<WatchingSunset>mirant la posta de sol</WatchingSunset>
-	<Stargazing>mirant les estrelles</Stargazing>
-	<WatchingEclipse>mirant l'eclipsi</WatchingEclipse>
+	<ReportHaulingTo>porta {0} a {1}.</ReportHaulingTo>
+	<ReportHauling>porta {0}.</ReportHauling>
+	<ReportSleeping>dorm.</ReportSleeping>
+	<ReportResting>descansa.</ReportResting>
+	<WatchingSunrise>contempla la sortida del sol</WatchingSunrise>
+	<CloudWatching>contempla els núvols</CloudWatching>
+	<WatchingSunset>contempla la posta de sol</WatchingSunset>
+	<Stargazing>mira les estrelles</Stargazing>
+	<WatchingEclipse>mira l'eclipsi</WatchingEclipse>
 	<UsingVerb>fa servir {0} a {1}.</UsingVerb>
 	<AreaLower>zona</AreaLower>
-	<ReportCowering>Cobrint-se.</ReportCowering>
+	<ReportCowering>Es cobreix.</ReportCowering>
 	<ReportStanding>aturat.</ReportStanding>
-	<ReportExtinguishingFire>Apagant foc.</ReportExtinguishingFire>
-	<ReportExtinguishingFireOn>Apagant foc de {0}.</ReportExtinguishingFireOn>
+	<ReportExtinguishingFire>Apaga el foc.</ReportExtinguishingFire>
+	<ReportExtinguishingFireOn>Apaga el foc de {0}.</ReportExtinguishingFireOn>
 
 	<!-- Lord job reports -->
-	<LordReportAttendingMarriageCeremony>Assistint a la cerimònia de casament</LordReportAttendingMarriageCeremony>
-	<LordReportAttendingParty>Assistint a la festa</LordReportAttendingParty>
+	<LordReportAttendingMarriageCeremony>Assisteix a la cerimònia de casament</LordReportAttendingMarriageCeremony>
+	<LordReportAttendingParty>Assisteix a la festa</LordReportAttendingParty>
 
 	<!-- Shooting report -->
 	<WeaponMissRadius>Abast d'error de l'arma</WeaponMissRadius>
@@ -193,7 +193,7 @@
 	<RecipeMake>fer {0}</RecipeMake>
 	<RecipeMakeJobString>fa {0}.</RecipeMakeJobString>
 	<RecipeAdminister>gestionar {0}</RecipeAdminister>
-	<RecipeAdministerJobString>Gestionant {0}.</RecipeAdministerJobString>
+	<RecipeAdministerJobString>Gestiona {0}.</RecipeAdministerJobString>
 
 	<!-- Thoughts -->
 	<ThoughtExpiresIn>Expira d'aquí: {0}</ThoughtExpiresIn>
@@ -315,7 +315,7 @@
 	<!-- Fire -->
 	<Fire>Foc</Fire>
 	<FireOn>Foc a {0}</FireOn>
-	<Burning>Cremant</Burning>
+	<Burning>Crema</Burning>
 	<FireSizeLower>mida de l'incendi {0}</FireSizeLower>
 
 	<!-- Map conditions -->
@@ -373,7 +373,7 @@
 	<QualityIs>Qualitat: {0}</QualityIs>
 
 	<!-- Mood descriptions -->
-	<Mood_MentalState>estat mental</Mood_MentalState>
+	<Mood_MentalState>Enfurismat</Mood_MentalState>
 	<Mood_AboutToBreak>apunt de petar</Mood_AboutToBreak>
 	<Mood_OnEdge>de punta</Mood_OnEdge>
 	<Mood_Stressed>estressat</Mood_Stressed>
@@ -414,15 +414,15 @@
 	<MarriageSpotReserved>reservat</MarriageSpotReserved>
 	<MarriageSpotUnreachable>{0} no hi pot arribar</MarriageSpotUnreachable>
 	<MarriageSpotInPrisonCell>a la presó</MarriageSpotInPrisonCell>
-	<NotEnjoyableOutsideTemperature>temperatura no comrtable</NotEnjoyableOutsideTemperature>
+	<NotEnjoyableOutsideTemperature>temperatura no confortable</NotEnjoyableOutsideTemperature>
 
 	<!-- Colonist bar -->
 	<ActivityIconMedicalRest>Descans mèdic</ActivityIconMedicalRest>
-	<ActivityIconSleeping>Dormint</ActivityIconSleeping>
-	<ActivityIconFleeing>Escapant</ActivityIconFleeing>
-	<ActivityIconAttacking>Lluitant</ActivityIconAttacking>
+	<ActivityIconSleeping>Dorm</ActivityIconSleeping>
+	<ActivityIconFleeing>Escapa</ActivityIconFleeing>
+	<ActivityIconAttacking>Lluita</ActivityIconAttacking>
 	<ActivityIconIdle>Desocupat</ActivityIconIdle>
-	<ActivityIconBurning>Cremant</ActivityIconBurning>
+	<ActivityIconBurning>Crema</ActivityIconBurning>
 
 	<!-- Maintainable -->
 	<DueForMaintenance>Per manteniment.</DueForMaintenance>
@@ -434,7 +434,7 @@
 
 	<!-- Learning helper -->
 	<LearningHelper>Ajuda d'aprenentatge</LearningHelper>
-	<MarkLearned>MArca com a aprés</MarkLearned>
+	<MarkLearned>Marca com a aprés</MarkLearned>
 	<AlreadyLearned>Après</AlreadyLearned>
 	<Filter>Filtre</Filter>
 
