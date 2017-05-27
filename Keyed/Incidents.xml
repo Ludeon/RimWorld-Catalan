@@ -125,4 +125,25 @@
   <CaravanMeeting_Attack>Ataca</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>Continua</CaravanMeeting_MoveOn>
 
+  <!-- Caravan request -->
+  <LetterLabelCaravanRequest>Petició de caravana</LetterLabelCaravanRequest>
+  <LetterCaravanRequest>Un assentament proper, {0}, us contacta amb una proposta de negoci particular. Volen comprar:\n\n  {1}\n\nEn compensació, ofereixen:\n\n  {2}\n\nLa proposta expira en: {3}\n\nSi voleu tancar el negoci, envieu-los una caravana amb els productes que han demanat. Podeu revisar la proposta seleccionant {0} al mapa de món.</LetterCaravanRequest>
+  <CaravanRequestInfo>Demanen: {0}, ofereixen: {1} (us en falten {2})</CaravanRequestInfo>
+
+  <!-- Caravan demand -->
+  <CaravanDemandTitle>Atracament a caravana per part de {0}</CaravanDemandTitle>
+  <CaravanDemand>La vostra caravana ha estat assaltada per un grup de {1} {3} dels {0}. Us atacaran si no els doneu:\n\n{2}</CaravanDemand>
+  <CaravanDemand_Give>Donar-los-ho i continuar</CaravanDemand_Give>
+  <CaravanDemand_Fight>Rebutjar-ho i lluitar</CaravanDemand_Fight>
+
+  <!-- Temporary item stash -->
+  <ItemStashQuestTitle>Oportunitat d'objectes ocults</ItemStashQuestTitle>
+  <ItemStashQuest_Accept>Acceptar</ItemStashQuest_Accept>
+  <ItemStashQuest_Reject>Refusar</ItemStashQuest_Reject>
+  <ItemStashQuestFeeDemand>{0} us dirà on és l'amagatall a canvi de {1} de plata.</ItemStashQuestFeeDemand>
+  <ItemStashSitePart_Unknown>Malauradament, {0} no sap que o qui – si és que hi ha res – pot protegir l'amagatall.</ItemStashSitePart_Unknown>
+  <ItemStashSitePart_Nothing>{0} diu que l'amagatall no està protegit.</ItemStashSitePart_Nothing>
+  <ItemStashSitePart_Outpost>{0} diu que hi ha un campament enemic a la vora.</ItemStashSitePart_Outpost>
+  <ItemStashSitePart_Turrets>{0} diu que l'amagatall està envoltat de metralladores enemigues.</ItemStashSitePart_Turrets>
+  <ItemStashSitePart_Manhunters>{0} diu que hi ha una colla d'animals menja persones a la vora.</ItemStashSitePart_Manhunters>
 </LanguageData>
