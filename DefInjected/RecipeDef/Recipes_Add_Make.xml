@@ -23,6 +23,7 @@
   <Make_Yayo.jobString>Fa perica.</Make_Yayo.jobString>
 
 
+
   <!-- Recipe Users: CraftingSpot -->
 
   <Make_SmokeleafJoint.label>Fer porro de fullafum</Make_SmokeleafJoint.label>
@@ -58,6 +59,15 @@
   <Make_Medicine.description>Fer medicina.</Make_Medicine.description>
   <Make_Medicine.jobString>Fa medicina.</Make_Medicine.jobString>
 
+  <!-- Recipe Users: TableMachining -->
+
+  <Make_Apparel_ShieldBelt.label>Fer cinturó escut</Make_Apparel_ShieldBelt.label>
+  <Make_Apparel_ShieldBelt.description>Fer cinturó escut.</Make_Apparel_ShieldBelt.description>
+  <Make_Apparel_ShieldBelt.jobString>Fa cinturó escut.</Make_Apparel_ShieldBelt.jobString>
+
+  <Make_Apparel_SmokepopBelt.label>Fer cinturó de bomba de fum</Make_Apparel_SmokepopBelt.label>
+  <Make_Apparel_SmokepopBelt.description>Fer cinturó de bomba de fum.</Make_Apparel_SmokepopBelt.description>
+  <Make_Apparel_SmokepopBelt.jobString>Fa cinturó de bomba de fum.</Make_Apparel_SmokepopBelt.jobString>
 
   <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench -->
 
@@ -65,27 +75,43 @@
   <Make_Apparel_CowboyHat.description>Fer barret de vaquer.</Make_Apparel_CowboyHat.description>
   <Make_Apparel_CowboyHat.jobString>Fa barret de vaquer.</Make_Apparel_CowboyHat.jobString>
 
+  <Make_Apparel_BowlerHat.label>fer bombí</Make_Apparel_BowlerHat.label>
+  <Make_Apparel_BowlerHat.description>Fer bombí .</Make_Apparel_BowlerHat.description>
+  <Make_Apparel_BowlerHat.jobString>Fa bombí.</Make_Apparel_BowlerHat.jobString>
+
   <Make_Apparel_Tuque.label>Fer casquet</Make_Apparel_Tuque.label>
   <Make_Apparel_Tuque.description>Fer casquet.</Make_Apparel_Tuque.description>
   <Make_Apparel_Tuque.jobString>Fa casquet.</Make_Apparel_Tuque.jobString>
 
 
+
+
   <!-- Recipe Users: TableMachining -->
 
-  <Make_Apparel_MilitaryHelmet.label>Fer casc militar</Make_Apparel_MilitaryHelmet.label>
-  <Make_Apparel_MilitaryHelmet.description>Fer casc militar.</Make_Apparel_MilitaryHelmet.description>
-  <Make_Apparel_MilitaryHelmet.jobString>Fa casc militar.</Make_Apparel_MilitaryHelmet.jobString>
+  <Make_Apparel_MilitaryHelmet.label>Fer casc bàsic</Make_Apparel_MilitaryHelmet.label>
+  <Make_Apparel_MilitaryHelmet.description>Fer casc bàsic.</Make_Apparel_MilitaryHelmet.description>
+  <Make_Apparel_MilitaryHelmet.jobString>Fa casc bàsic.</Make_Apparel_MilitaryHelmet.jobString>
 
-  <Make_Apparel_KevlarHelmet.label>Fer casc de kevlar</Make_Apparel_KevlarHelmet.label>
-  <Make_Apparel_KevlarHelmet.description>Fer casc de kevlar.</Make_Apparel_KevlarHelmet.description>
-  <Make_Apparel_KevlarHelmet.jobString>Fa casc de kevlar.</Make_Apparel_KevlarHelmet.jobString>
+  <Make_Apparel_KevlarHelmet.label>Fer casc avançat</Make_Apparel_KevlarHelmet.label>
+  <Make_Apparel_KevlarHelmet.description>Fer casc avançat.</Make_Apparel_KevlarHelmet.description>
+  <Make_Apparel_KevlarHelmet.jobString>Fa casc avançat.</Make_Apparel_KevlarHelmet.jobString>
 
   <Make_Apparel_PowerArmorHelmet.label>Fer casc d'armadura reforçada</Make_Apparel_PowerArmorHelmet.label>
   <Make_Apparel_PowerArmorHelmet.description>Fer casc d'armadura reforçada.</Make_Apparel_PowerArmorHelmet.description>
   <Make_Apparel_PowerArmorHelmet.jobString>Fa casc d'armadura reforçada.</Make_Apparel_PowerArmorHelmet.jobString>
 
 
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench -->
+  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench, CraftingSpot -->
+
+  <Make_Apparel_TribalA.label>fer roba tribal</Make_Apparel_TribalA.label>
+  <Make_Apparel_TribalA.description>Fer roba tribal.</Make_Apparel_TribalA.description>
+  <Make_Apparel_TribalA.jobString>Fa roba tribal.</Make_Apparel_TribalA.jobString>
+
+ <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench -->
+
+  <Make_Apparel_Parka.label>fer anorac</Make_Apparel_Parka.label>
+  <Make_Apparel_Parka.description>Fer anorac.</Make_Apparel_Parka.description>
+  <Make_Apparel_Parka.jobString>Fa anorac.</Make_Apparel_Parka.jobString>
 
   <Make_Apparel_Pants.label>Fer pantalons</Make_Apparel_Pants.label>
   <Make_Apparel_Pants.description>Fer pantalons.</Make_Apparel_Pants.description>
@@ -106,17 +132,6 @@
   <Make_Apparel_Jacket.label>Fer jaqueta</Make_Apparel_Jacket.label>
   <Make_Apparel_Jacket.description>Fer jaqueta.</Make_Apparel_Jacket.description>
   <Make_Apparel_Jacket.jobString>Fa jaqueta.</Make_Apparel_Jacket.jobString>
-
-  <Make_Apparel_Parka.label>Fer anorac</Make_Apparel_Parka.label>
-  <Make_Apparel_Parka.description>Fer anorac.</Make_Apparel_Parka.description>
-  <Make_Apparel_Parka.jobString>Fa anorac.</Make_Apparel_Parka.jobString>
-
-
-  <!-- Recipe Users: ElectricTailoringBench, HandTailoringBench, ElectricTailoringBench, HandTailoringBench, CraftingSpot -->
-
-  <Make_Apparel_TribalA.label>Fer roba tribal</Make_Apparel_TribalA.label>
-  <Make_Apparel_TribalA.description>Fer roba tribal.</Make_Apparel_TribalA.description>
-  <Make_Apparel_TribalA.jobString>Fa roba tribal.</Make_Apparel_TribalA.jobString>
 
 
   <!-- Recipe Users: TableMachining -->
@@ -141,9 +156,13 @@
   <Make_Gun_PumpShotgun.description>Fer escopeta de bombament.</Make_Gun_PumpShotgun.description>
   <Make_Gun_PumpShotgun.jobString>Fa escopeta de bombament.</Make_Gun_PumpShotgun.jobString>
 
-  <Make_Gun_SurvivalRifle.label>Fer rifle de supervivència</Make_Gun_SurvivalRifle.label>
-  <Make_Gun_SurvivalRifle.description>Fer rifle de supervivència.</Make_Gun_SurvivalRifle.description>
-  <Make_Gun_SurvivalRifle.jobString>Fa rifle de supervivència.</Make_Gun_SurvivalRifle.jobString>
+  <Make_Gun_ChainShotgun.label>fer metralladora de cadena</Make_Gun_ChainShotgun.label>
+  <Make_Gun_ChainShotgun.description>Fer metralladora de cadena .</Make_Gun_ChainShotgun.description>
+  <Make_Gun_ChainShotgun.jobString>Fa metralladora de cadena .</Make_Gun_ChainShotgun.jobString>
+
+  <Make_Gun_BoltActionRifle.label>fer rifle de pestell</Make_Gun_BoltActionRifle.label>
+  <Make_Gun_BoltActionRifle.description>Fer rifle de pestell.</Make_Gun_BoltActionRifle.description>
+  <Make_Gun_BoltActionRifle.jobString>Fa rifle de pestell.</Make_Gun_BoltActionRifle.jobString>
 
   <Make_Gun_MachinePistol.label>Fer pistola metralladora</Make_Gun_MachinePistol.label>
   <Make_Gun_MachinePistol.description>Fer pistola metralladora.</Make_Gun_MachinePistol.description>
@@ -173,16 +192,11 @@
   <Make_Gun_Minigun.description>Fer minigun.</Make_Gun_Minigun.description>
   <Make_Gun_Minigun.jobString>Fa minigun.</Make_Gun_Minigun.jobString>
 
-
   <!-- Recipe Users: ElectricSmithy, FueledSmithy, ElectricSmithy, FueledSmithy, CraftingSpot -->
 
   <Make_MeleeWeapon_Shiv.label>Fer punxó</Make_MeleeWeapon_Shiv.label>
   <Make_MeleeWeapon_Shiv.description>Fer punxó.</Make_MeleeWeapon_Shiv.description>
   <Make_MeleeWeapon_Shiv.jobString>Fa punxó.</Make_MeleeWeapon_Shiv.jobString>
-
-  <Make_MeleeWeapon_Club.label>Fer garrot</Make_MeleeWeapon_Club.label>
-  <Make_MeleeWeapon_Club.description>Fer garrot.</Make_MeleeWeapon_Club.description>
-  <Make_MeleeWeapon_Club.jobString>Fa garrot.</Make_MeleeWeapon_Club.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
@@ -191,13 +205,21 @@
   <Make_MeleeWeapon_Knife.description>Fer ganivet.</Make_MeleeWeapon_Knife.description>
   <Make_MeleeWeapon_Knife.jobString>Fa ganivet.</Make_MeleeWeapon_Knife.jobString>
 
-  <Make_MeleeWeapon_Gladius.label>Fer gladius</Make_MeleeWeapon_Gladius.label>
-  <Make_MeleeWeapon_Gladius.description>Fer gladius.</Make_MeleeWeapon_Gladius.description>
-  <Make_MeleeWeapon_Gladius.jobString>Fa gladius.</Make_MeleeWeapon_Gladius.jobString>
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, ElectricSmithy, FueledSmithy, CraftingSpot -->
+
+  <Make_MeleeWeapon_Club.label>Fer garrot</Make_MeleeWeapon_Club.label>
+  <Make_MeleeWeapon_Club.description>Fer garrot.</Make_MeleeWeapon_Club.description>
+  <Make_MeleeWeapon_Club.jobString>Fa garrot.</Make_MeleeWeapon_Club.jobString>
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
 
   <Make_MeleeWeapon_Mace.label>Fer maça</Make_MeleeWeapon_Mace.label>
   <Make_MeleeWeapon_Mace.description>Fer maça.</Make_MeleeWeapon_Mace.description>
   <Make_MeleeWeapon_Mace.jobString>Fa maça.</Make_MeleeWeapon_Mace.jobString>
+
+  <Make_MeleeWeapon_Gladius.label>Fer gladius</Make_MeleeWeapon_Gladius.label>
+  <Make_MeleeWeapon_Gladius.description>Fer gladius.</Make_MeleeWeapon_Gladius.description>
+  <Make_MeleeWeapon_Gladius.jobString>Fa gladius.</Make_MeleeWeapon_Gladius.jobString>
 
   <Make_MeleeWeapon_Spear.label>Fer llança</Make_MeleeWeapon_Spear.label>
   <Make_MeleeWeapon_Spear.description>Fer llança.</Make_MeleeWeapon_Spear.description>
@@ -207,13 +229,11 @@
   <Make_MeleeWeapon_LongSword.description>Fer espasa llarga.</Make_MeleeWeapon_LongSword.description>
   <Make_MeleeWeapon_LongSword.jobString>Fa espasa llarga.</Make_MeleeWeapon_LongSword.jobString>
 
-
   <!-- Recipe Users: ElectricSmithy, FueledSmithy, ElectricSmithy, FueledSmithy, CraftingSpot -->
 
   <Make_Bow_Short.label>Fer arc curt</Make_Bow_Short.label>
   <Make_Bow_Short.description>Fer arc curt.</Make_Bow_Short.description>
   <Make_Bow_Short.jobString>Fa arc curt.</Make_Bow_Short.jobString>
-
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
 
@@ -224,6 +244,5 @@
   <Make_Bow_Great.label>Fer arc llarg</Make_Bow_Great.label>
   <Make_Bow_Great.description>Fer arc llarg.</Make_Bow_Great.description>
   <Make_Bow_Great.jobString>Fa arc llarg.</Make_Bow_Great.jobString>
-
 
 </LanguageData>

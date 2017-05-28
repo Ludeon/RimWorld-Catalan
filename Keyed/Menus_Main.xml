@@ -42,6 +42,7 @@
   <WorldSeed>Llavor</WorldSeed>
   <RandomizeSeed>Aleatoritza la llavor</RandomizeSeed>
   <PlanetCoverageTip>El planeta és sempre del mateix diàmetre, però com que és molt més gran del que es necessita per jugar, no cal generar tota la superfície i així estalvieu temps. Aquest és el percentatge de la superfície que voleu generar.</PlanetCoverageTip>
+  <WorldFactionsTab>Faccions</WorldFactionsTab>
 
   <!--=========== Select world ===================-->
   <SelectWorld>Seleccioneu un planeta</SelectWorld>
@@ -61,7 +62,7 @@
   <OpenSteamWorkshop>Obre el Workshop d'Steam</OpenSteamWorkshop>
   <GetModsFromForum>Obté mods del fòrum</GetModsFromForum>
   <OpenModsDataFolder>Obre la carpeta dels mods</OpenModsDataFolder>
-  <ConfirmDisableCoreMod>Esteu segur que voleu deshabilitar el mod nucli? El joc no funcionarà a no ser que tingueu un altre mod que substitueixi totes les funcionalitats del nucli.\n\nRecordeu que altres mods poden sobreescriure les definicions del mod nucli fent servir el mateix «defName».</ConfirmDisableCoreMod>
+  <ConfirmDisableCoreMod>Esteu segur que voleu deshabilitar el mod nucli? El joc no funcionarà si no és que té un altre mod amb totes les funcionalitats del nucli.\n\nRecordeu que altres mods poden sobreescriure les definicions del mod nucli fent servir el mateix «defName».</ConfirmDisableCoreMod>
   <ConfirmDeleteMod>Esteu segur que voleu esborrar el contingut de {0}?</ConfirmDeleteMod>
   <Unsubscribe>Cancel·la la subscripció</Unsubscribe>
   <ConfirmUnsubscribe>Esteu segurs que voleu cancel·lar la subscripció a {0}?</ConfirmUnsubscribe>
@@ -69,9 +70,9 @@
   <WorkshopPage>Pàgina del Workshop</WorkshopPage>
   <UploadToSteamWorkshop>Puja al Workshop d'Steam</UploadToSteamWorkshop>
   <UpdateOnSteamWorkshop>Actualitza del Workshop d'Steam</UpdateOnSteamWorkshop>
-  <UploadAlreadyInProgress>La pujada ja està en procés.</UploadAlreadyInProgress>
+  <UploadAlreadyInProgress>La pujada està en procés.</UploadAlreadyInProgress>
   <WorkshopSubmissionFailed>Ha fallat el lliurament al Workshop.\n\nMotiu: {0}</WorkshopSubmissionFailed>
-  <WorkshopUploadSucceeded>{0} s'ha pujat correctament.</WorkshopUploadSucceeded>
+  <WorkshopUploadSucceeded>{0} ha pujat correctament.</WorkshopUploadSucceeded>
   <Downloading>Descarregant</Downloading>
   <Source>Font</Source>
   <ModTargetVersion>Per la versió: {0}</ModTargetVersion>
@@ -114,14 +115,17 @@
   <BiomeNotImplemented>El bioma no està implementat</BiomeNotImplemented>
   <CannotLandImpassableMountains>No podeu aterrar sobre muntanyes impassables.</CannotLandImpassableMountains>
   <BaseAlreadyThere>{0} ja té una base aquí.</BaseAlreadyThere>
+  <TileOccupied>La cel·la està ocupada.</TileOccupied>
   <Biome>Bioma</Biome>
   <Terrain>Terreny</Terrain>
+  <Road>Carretera</Road>
+  <River>Riu</River>
   <Elevation>Elevació</Elevation>
   <Fertility>Fertilitat</Fertility>
   <AvgTemp>Temperatura mitjana</AvgTemp>
   <AvgSummerTemp>Temperatura a l'estiu</AvgSummerTemp>
-	<AvgWinterTemp>Temperatura a l'hivern</AvgWinterTemp>
-	<Rainfall>Pluviometria</Rainfall>
+  <AvgWinterTemp>Temperatura a l'hivern</AvgWinterTemp>
+  <Rainfall>Pluviometria</Rainfall>
   <HasCoast0>Costa nord</HasCoast0>
   <HasCoast1>Costa est</HasCoast1>
   <HasCoast2>Costa sud</HasCoast2>
@@ -129,12 +133,12 @@
   <FactionBase>Base de facció</FactionBase>
   <StoneTypesHere>Tipus de roca</StoneTypesHere>
   <TimeZone>Zona horària</TimeZone>
-	<MovementTimeNow>Temps de desplaçament actual</MovementTimeNow>
-	<MovementTimeSummer>Temps de desplaçament a l'estiu</MovementTimeSummer>
-	<MovementTimeWinter>Temps de desplaçament a l'hivern</MovementTimeWinter>
+  <MovementTimeNow>Temps de desplaçament actual</MovementTimeNow>
+  <MovementTimeSummer>Temps de desplaçament a l'estiu</MovementTimeSummer>
+  <MovementTimeWinter>Temps de desplaçament a l'hivern</MovementTimeWinter>
+  <AnimalsCanGrazeNow>Ara els animals no poden pasturar</AnimalsCanGrazeNow>
 
-
-	<!--=========== Character chooser ==========-->
+  <!--=========== Character chooser ==========-->
   <CreateCharacters>Creació de personatges</CreateCharacters>
   <FirstNameDesc>El nom propi del personatge.\n\nNomés es mostra en alguns menús.</FirstNameDesc>
   <ShortIdentifierDesc>L'identificador curt del personatge.\n\nÉs el que es mostra sempre. Pot ser el nom, el cognom, o un sobrenom completament diferent.</ShortIdentifierDesc>
@@ -167,8 +171,9 @@
   <Ignore>Ignora</Ignore>
   
   <!--============ Progress bar==============-->
-  <GeneratingWorld>Generant el planeta</GeneratingWorld>
-  <GeneratingMap>Generant el mapa</GeneratingMap>
-  <GeneratingMapForNewEncounter>Generant el mapa per una nova trobada</GeneratingMapForNewEncounter>
+  <GeneratingWorld>Genera el món</GeneratingWorld>
+  <GeneratingPlanet>Genera el planeta</GeneratingPlanet>
+  <GeneratingMap>Genera el mapa</GeneratingMap>
+  <GeneratingMapForNewEncounter>Genera el mapa per una nova trobada</GeneratingMapForNewEncounter>
 
 </LanguageData>
