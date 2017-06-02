@@ -5,11 +5,13 @@
   <OrbitalTradeBeacon.description>Necessària per al comerç orbital. Només podeu vendre coses que estiguin prop de la balisa de comerç orbital. Es pot posar a interiors.</OrbitalTradeBeacon.description>
   <OrbitalTradeBeacon_Blueprint.label>balisa orbital de comerç (projecte)</OrbitalTradeBeacon_Blueprint.label>
   <OrbitalTradeBeacon_Frame.label>balisa orbital de comerç (en construcció)</OrbitalTradeBeacon_Frame.label>
+  <OrbitalTradeBeacon_Frame.description>Necessària per al comerç orbital. Només podeu vendre coses que estiguin prop de la balisa de comerç orbital. Es pot posar a interiors.</OrbitalTradeBeacon_Frame.description>
 
   <CommsConsole.label>consola de comunicacions</CommsConsole.label>
   <CommsConsole.description>Permet el contacte per ràdio amb els comerciants remots i amb altres faccions per afers comercials i diplomàtiques.</CommsConsole.description>
   <CommsConsole_Blueprint.label>consola de comunicacions (projecte)</CommsConsole_Blueprint.label>
   <CommsConsole_Frame.label> consola de comunicacions (en construcció)</CommsConsole_Frame.label>
+  <CommsConsole_Frame.description>Permet el contacte per ràdio amb els comerciants remots i amb altres faccions per afers comercials i diplomàtiques.</CommsConsole_Frame.description>
 
   <FirefoamPopper.label>extintor</FirefoamPopper.label>
   <FirefoamPopper.description>Quan el toca el foc o és disparat a ma, escampa espuma extintora al seu voltant.</FirefoamPopper.description>
@@ -17,17 +19,26 @@
   <FirefoamPopper_Blueprint.label>extintor (projecte)</FirefoamPopper_Blueprint.label>
   <FirefoamPopper_Blueprint_Install.label>extintor (projecte)</FirefoamPopper_Blueprint_Install.label>
   <FirefoamPopper_Frame.label>extintor (en construcció)</FirefoamPopper_Frame.label>
+  <FirefoamPopper_Frame.description>Quan el toca el foc o és disparat a ma, escampa espuma extintora al seu voltant.</FirefoamPopper_Frame.description>
 
   <MoisturePump.label>bomba d'aigua</MoisturePump.label>
-  <MoisturePump.description>treu la humitat lentament del terreny que l'envolta per convertir pantans i aigües superficials en terra seca. No afecta l'aigua profunda.</MoisturePump.description>
+  <MoisturePump.description>Treu la humitat lentament del terreny que l'envolta per convertir pantans i aigües superficials en terra seca. No afecta l'aigua profunda.</MoisturePump.description>
   <MoisturePump_Blueprint.label>bomba d'aigua (projecte)</MoisturePump_Blueprint.label>
   <MoisturePump_Frame.label>bomba d'aigua (en construcció)</MoisturePump_Frame.label>
+  <MoisturePump_Frame.description>Treu la humitat lentament del terreny que l'envolta per convertir pantans i aigües superficials en terra seca. No afecta l'aigua profunda.</MoisturePump_Frame.description>
 
   <GroundPenetratingScanner.label>escàner del sòl</GroundPenetratingScanner.label>
   <GroundPenetratingScanner.description>Un radar combinat amb un sonar i un ressonador magnètic, permet detectar (no identificar) minerals soterrats a les profunditats. Consumeix molta energia.</GroundPenetratingScanner.description>
   <GroundPenetratingScanner_Blueprint.label>escàner del sòl (projecte)</GroundPenetratingScanner_Blueprint.label>
   <GroundPenetratingScanner_Frame.label>escàner del sòl (en construcció)</GroundPenetratingScanner_Frame.label>
+  <GroundPenetratingScanner_Frame.description>Un radar combinat amb un sonar i un ressonador magnètic, permet detectar (no identificar) minerals soterrats a les profunditats. Consumeix molta energia.
 
+  </GroundPenetratingScanner_Frame.description>
+  <LongRangeMineralScanner.label>escàner de mineral de llarg abast</LongRangeMineralScanner.label>
+  <LongRangeMineralScanner.description>Detecta automàticament minerals preciosos com ara l'or o el jade a les zones properes (però no en la que està construït). Localitza una mitjana d'una veta cada 30 dies en un radi de 30 cel·les. Construir més d'un escàner a la mateixa zona o a les proximitats té poc o cap efecte.</LongRangeMineralScanner.description>
+  <LongRangeMineralScanner_Blueprint.label>escàner de mineral de llarg abast (projecte)</LongRangeMineralScanner_Blueprint.label>
+  <LongRangeMineralScanner_Frame.label>escàner de mineral de llarg abast (en construcció)</LongRangeMineralScanner_Frame.label>
+  <LongRangeMineralScanner_Frame.description>Detecta automàticament minerals preciosos com ara l'or o el jade a les zones properes (però no en la que està construït). Localitza una mitjana d'una veta cada 30 dies en un radi de 30 cel·les. Construir més d'un escàner a la mateixa zona o a les proximitats té poc o cap efecte.</LongRangeMineralScanner_Frame.description>
 
   <!-- Transport pods -->
 
@@ -35,12 +46,13 @@
   <PodLauncher.description>Un punt de càrrega de combustible per llençar una càpsula. Els llançadors poden funcionar en grup, però s'han de posar a tocar l'un de l'altre.</PodLauncher.description>
   <PodLauncher_Blueprint.label>llançador de càpsula (projecte)</PodLauncher_Blueprint.label>
   <PodLauncher_Frame.label>llançador de càpsula (en construcció)</PodLauncher_Frame.label>
+  <PodLauncher_Frame.description>Un punt de càrrega de combustible per llençar una càpsula. Els llançadors poden funcionar en grup, però s'han de posar a tocar l'un de l'altre.</PodLauncher_Frame.description>
 
   <TransportPod.label>càpsula de transport</TransportPod.label>
   <TransportPod.description>Una càpsula de càrrega que es llança en un viatge suborbital i és capaç de transportar persones, objectes o animals. Es pot emprar per al transport, atacs sorpresa o enviar reforços a un combat.</TransportPod.description>
   <TransportPod_Blueprint.label>càpsula de transport (projecte)</TransportPod_Blueprint.label>
   <TransportPod_Frame.label>càpsula de transport (en construcció)</TransportPod_Frame.label>
-
+  <TransportPod_Frame.description>Una càpsula de càrrega que es llança en un viatge suborbital i és capaç de transportar persones, objectes o animals. Es pot emprar per al transport, atacs sorpresa o enviar reforços a un combat.</TransportPod_Frame.description>
 
   <!-- Facilities -->
 
@@ -49,18 +61,21 @@
   <MultiAnalyzer_Blueprint.label>multianalitzador (projecte)</MultiAnalyzer_Blueprint.label>
   <MultiAnalyzer_Blueprint_Install.label>multianalitzador (projecte)</MultiAnalyzer_Blueprint_Install.label>
   <MultiAnalyzer_Frame.label>multianalitzador (en construcció)</MultiAnalyzer_Frame.label>
+  <MultiAnalyzer_Frame.description>Incrementa la velocitat de recerca. S'ha de posar a prop d'un banc de recerca d'alta tecnologia. Un banc de recerca es pot enllaçar amb un únic multianalitzador.</MultiAnalyzer_Frame.description>
 
   <VitalsMonitor.label>monitor de signes vitals</VitalsMonitor.label>
   <VitalsMonitor.description>Millora la qualitat dels tractaments. S'ha de posar adjacent a un llit d'hospital. Un llit d'hospital es pot enllaçar amb un únic monitor de signes vitals.</VitalsMonitor.description>
   <VitalsMonitor_Blueprint.label>monitor de signes vitals (projecte)</VitalsMonitor_Blueprint.label>
   <VitalsMonitor_Blueprint_Install.label>monitor de signes vitals (projecte)</VitalsMonitor_Blueprint_Install.label>
   <VitalsMonitor_Frame.label>monitor de signes vitals (en construcció)</VitalsMonitor_Frame.label>
+  <VitalsMonitor_Frame.description>Millora la qualitat dels tractaments. S'ha de posar adjacent a un llit d'hospital. Un llit d'hospital es pot enllaçar amb un únic monitor de signes vitals.</VitalsMonitor_Frame.description>
 
   <ToolCabinet.label>armari d'eines</ToolCabinet.label>
   <ToolCabinet.description>Millora la velocitat de treball. S'ha de posar prop d'un banc de treball. Un banc de treball es pot enllaçar amb només dos armaris d'eines.</ToolCabinet.description>
   <ToolCabinet_Blueprint.label>armari d'eines (projecte)</ToolCabinet_Blueprint.label>
   <ToolCabinet_Blueprint_Install.label>armari d'eines (projecte)</ToolCabinet_Blueprint_Install.label>
   <ToolCabinet_Frame.label>armari d'eines (en construcció)</ToolCabinet_Frame.label>
+  <ToolCabinet_Frame.description>Millora la velocitat de treball. S'ha de posar prop d'un banc de treball. Un banc de treball es pot enllaçar amb només dos armaris d'eines.</ToolCabinet_Frame.description>
 
 
   <!-- Graves -->
@@ -69,12 +84,13 @@
   <Grave.description>Enterreu els morts en tombes per donar-los un repòs decent. Els colons visitaran les tombes ocupades per meditar i guanyar diversió.</Grave.description>
   <Grave_Blueprint.label>tomba (projecte)</Grave_Blueprint.label>
   <Grave_Frame.label>tomba (en construcció)</Grave_Frame.label>
+  <Grave_Frame.description>Enterreu els morts en tombes per donar-los un repòs decent. Els colons visitaran les tombes ocupades per meditar i guanyar diversió.</Grave_Frame.description>
 
   <Sarcophagus.label>sarcòfag</Sarcophagus.label>
   <Sarcophagus.description>Un receptacle ornamental per enterrar els morts amb honor.</Sarcophagus.description>
   <Sarcophagus_Blueprint.label>sarcòfag (projecte)</Sarcophagus_Blueprint.label>
   <Sarcophagus_Frame.label>sarcòfag (en construcció)</Sarcophagus_Frame.label>
-
+  <Sarcophagus_Frame.description>Un receptacle ornamental per enterrar els morts amb honor.</Sarcophagus_Frame.description>
 
   <!-- Cryptosleep caskets -->
 
@@ -82,6 +98,7 @@
   <CryptosleepCasket.description>Un sarcòfag autoalimentat designat per mantenir una persona en estat de suspensió durant molts anys.</CryptosleepCasket.description>
   <CryptosleepCasket_Blueprint.label>cofre de criptoson (projecte)</CryptosleepCasket_Blueprint.label>
   <CryptosleepCasket_Frame.label>cofre de criptoson (en construcció)</CryptosleepCasket_Frame.label>
+  <CryptosleepCasket_Frame.description>Un sarcòfag autoalimentat designat per mantenir una persona en estat de suspensió durant molts anys.</CryptosleepCasket_Frame.description>
 
   <AncientCryptosleepCasket.label>cofre de criptoson antic</AncientCryptosleepCasket.label>
   <AncientCryptosleepCasket.description>Aquest cofre de criptoson sembla haver estat aquí des de fa molt temps. Qui sap què pot contenir?</AncientCryptosleepCasket.description>
@@ -93,11 +110,18 @@
   <MarriageSpot.description>Designa un lloc on es faran les cerimònies de casament. Els assistents poden mirar des dels dos costats.</MarriageSpot.description>
   <MarriageSpot_Blueprint.label>lloc de casaments (projecte)</MarriageSpot_Blueprint.label>
   <MarriageSpot_Frame.label>lloc de casaments (en construcció)</MarriageSpot_Frame.label>
+  <MarriageSpot_Frame.description>Designa un lloc on es faran les cerimònies de casament. Els assistents poden mirar des dels dos costats.</MarriageSpot_Frame.description>
 
   <PartySpot.label>lloc de festes</PartySpot.label>
   <PartySpot.description>Designa un lloc on es concentraran les festes. Les festes faran servir l'espai al voltant d'aquest lloc.</PartySpot.description>
   <PartySpot_Blueprint.label>lloc de festes (projecte)</PartySpot_Blueprint.label>
   <PartySpot_Frame.label>lloc de festes (en construcció)</PartySpot_Frame.label>
+  <PartySpot_Frame.description>Designa un lloc on es concentraran les festes. Les festes faran servir l'espai al voltant d'aquest lloc.</PartySpot_Frame.description>
 
+  <CaravanPackingSpot.label>lloc de càrrega de les caravanes</CaravanPackingSpot.label>
+  <CaravanPackingSpot.description>Designa un punt on es formaran les caravanes.</CaravanPackingSpot.description>
+  <CaravanPackingSpot_Blueprint.label>lloc de càrrega de les caravanes (projecte)</CaravanPackingSpot_Blueprint.label>
+  <CaravanPackingSpot_Frame.label>lloc de càrrega de les caravanes (en construcció)</CaravanPackingSpot_Frame.label>
+  <CaravanPackingSpot_Frame.description>Designa un punt on es formaran les caravanes.</CaravanPackingSpot_Frame.description>
 
 </LanguageData>

@@ -7,8 +7,10 @@
   
   <!-- Game updated to new version -->
   <GameUpdatedToNewVersionInitial>RimWorld s'ha actualitzat de la versió {0} a la versió {1}.\n\nAlgunes partides desades i mods de versions més antigues podrien deixar de funcionar.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionSavesIncompatible>Pot ser que les partides desades i els mods de versions antigues no funcionin.</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionSavesCompatible>Les partides desades amb la versió anterior haurien de ser compatibles, però alguns mods podrien no funcionar.</GameUpdatedToNewVersionSavesCompatible>
   <GameUpdatedToNewVersionNonSteam>Com que teniu una còpia lliure de DRM, podeu instal·lar-la dos cops en carpetes diferents per poder jugar tant la nova versió com la vella.</GameUpdatedToNewVersionNonSteam>
-  <GameUpdatedToNewVersionSteam>Si voleu continuar fent servir la versió antiga, podeu fer servir la funció «Betas» d'Steam.\n\n  1. A la llibreria d'Steam, feu clic dret a Rimworld.\n  2. Feu clic a «Properties».\n  3. Feu clic a la pestanya «Betas».\n  4. Trieu la versi´o que voleu jugar al menú desplegable.\n\nLes versions antigues s'esborraran de tant en tant de la llista – simplement no volem interrompre les partides començades.\n\nSi els autors d'un mod l'actualitzen per a una nova versió de joc, pot deixar de funcionar en versions antigues. Hauríeu de desactivar les actualitzacions automàtiques per evitar-ho.</GameUpdatedToNewVersionSteam>
+  <GameUpdatedToNewVersionSteam>Si voleu continuar fent servir la versió antiga, podeu fer servir la funció «Betas» d'Steam.\n\n  1. A la llibreria d'Steam, feu clic dret a Rimworld.\n  2. Feu clic a «Properties».\n  3. Feu clic a la pestanya «Betas».\n  4. Trieu la versió que voleu jugar al menú desplegable.\n\nLes versions antigues s'esborraran de tant en tant de la llista – simplement no volem interrompre les partides començades.\n\nSi els autors d'un mod l'actualitzen per a una nova versió de joc, pot deixar de funcionar en versions antigues. Hauríeu de desactivar les actualitzacions automàtiques per evitar-ho.</GameUpdatedToNewVersionSteam>
   
   <!-- Recovered from errors caused by mods -->
   <RecoveredFromErrorsDialogTitle>S'ha recuperat d'errors per mods corruptes o no compatibles</RecoveredFromErrorsDialogTitle>
@@ -24,10 +26,12 @@
   <ErrorWhileLoadingMap>S'ha produït un error en carregar un mapa. Consulteu el registre d'errors per obtenir més informació.</ErrorWhileLoadingMap>
   
   <!-- Unloaded mod with an assembly -->
-  <ModWithAssemblyWasUnloaded>The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly.</ModWithAssemblyWasUnloaded>
+  <ModsChanged>Ha canviat la llista de mods. El joc es reiniciarà automàticament.</ModsChanged>
+  <FailedToRestart>Ha passat alguna cosa mentre es reiniciava. El joc no ha descarregat completament el codi modificat pels mods desactivats, així que encara estarà actiu.\n\nÉs recomanable tancar i tornar a engegar el joc de nou per carregar els mods d'una forma neta.</FailedToRestart>
+  <Restarting>Es reinicia</Restarting>
   
   <!-- Missing Steam -->
-  <SteamClientMissing>Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available.</SteamClientMissing>
+  <SteamClientMissing>No es pot iniciar la API de Steam. Possibles causes:\n\n-Steam no s'està executant.\n-S'ha iniciat des de fora l'Steam sense el fitxer steam_appid.txt al seu lloc.\n-S'executa amb uns privilegis diferents del client d'Steam (e.g. "com a administrador").\n\nEn molts casos, reiniciar l'ordinador solucionarà el problema.\n\nPodeu seguir jugant, però no es registraran estadístiques a l'Steam i no en disposareu de les funcions.</SteamClientMissing>
   
   <!-- Long events -->
   <InitializingInterface>S'inicialitza la interfície</InitializingInterface>
@@ -139,8 +143,8 @@
   <MinimumSkills>Capacitat mínima:</MinimumSkills>
   <BillRequires>Necessita {0} {1}</BillRequires>
   <BillRequiresNutrition>Necessita {0} nutrients</BillRequiresNutrition>
-  <BillRequiresMayVary>Note: Els ingredients amb poc volum com l'or poden requerir x20 dels normals.</BillRequiresMayVary>
-  <ThisIsSmallVolume>És un ingredient de poc volum. És a dir que cada «unitat» és 1/20 d'un ingredient de volum normal. Així doncs, per completar els requeriments, necessitareu x20 més que del normal.</ThisIsSmallVolume>
+  <BillRequiresMayVary>Note: Els ingredients amb poc volum com l'or poden requerir x{0} dels normals.</BillRequiresMayVary>
+  <ThisIsSmallVolume>És un ingredient de poc volum. És a dir que cada «unitat» és 1/{0} d'un ingredient de volum normal. Així doncs, per completar els requeriments, necessitareu x{0} més que del normal.</ThisIsSmallVolume>
   <UsableIngredients>ingredients</UsableIngredients>
   <DoXTimes>Fes-ne X unitats</DoXTimes>
   <DoUntilYouHaveX>Fes-ne fins que en tinguis X</DoUntilYouHaveX>
@@ -150,6 +154,11 @@
   <BillStoreMode_BestStockpile>Porta-ho al millor magatzem</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>Porta-ho al magatzem més proper</BillStoreMode_NearestStockpileAnyPriority>
   
+  <PauseWhenSatisfied>Pause quan s'acabi</PauseWhenSatisfied>
+  <UnpauseWhenYouHave>Treu la pausa als</UnpauseWhenYouHave>
+  <Paused>Pausat</Paused>
+  <Unpause>Treu la pausa</Unpause>
+
   <!-- Info card -->
   <Damage>Dany</Damage>
   <Accuracy>Precisió</Accuracy>
@@ -163,7 +172,7 @@
   <Harvestable>Es pot collir</Harvestable>
   <LimitedLifespan>Esperança de vida limitada</LimitedLifespan>
   <GrowingTime>Temps de creixement</GrowingTime>
-  <GrowingTimeDesc>Les plantes només créixen durant ina art del dia, i només si hi ha llum. Aquesta estadística mesura el temps que la planta necessita per créixer de tot. El temps real sol ser el doble. Les baixes temperatures també alenteixen el creixement.</GrowingTimeDesc>
+  <GrowingTimeDesc>Les plantes només creixen de dia, i només si hi ha llum. Aquesta estadística mesura el temps que la planta necessita per créixer de tot. El temps real sol ser el doble. Les baixes temperatures també alenteixen el creixement.</GrowingTimeDesc>
   <Days>dies</Days>
   <MinGrowingSkillToSow>Pagesia mínima per sembrar</MinGrowingSkillToSow>
   <FertilityRequirement>Requisits de fertilitat</FertilityRequirement>
@@ -212,19 +221,20 @@
   <TraderHasNoMore>El mercader no en té més.</TraderHasNoMore>
   <ColonyHasNoMore>No en teniu més per vendre.</ColonyHasNoMore>
   <TraderWillNotTrade>El mercader no està interessat en aquestes coses.</TraderWillNotTrade>
+  <Negotiator>Negociador</Negotiator>
   <NegotiatorTalkingImpaired>El vostre negociador {0} no pot parlar correctament degut a la precària salut.\n\nAixò afectarà als preus.\n\nConsidereu fer servir un negociador amb millor salut.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>El mercader no té prou plata per fer front a la transacció. Voleu continuar igualment?</ConfirmTraderShortFunds>
   <SortBy>Ordena</SortBy>
-	<TraderTypePrice>Preu del comerciant</TraderTypePrice>
-	<Selling>es ven</Selling>
-	<Buying>es compra</Buying>
-	<ItemSellPriceFactor>multiplicador del preu de venda</ItemSellPriceFactor>
-	<DifficultyLevel>nivell de dificultat</DifficultyLevel>
-	<PostCurve>corva global de post-processat</PostCurve>
-	<YourNegotiatorBonus>Bonificació del vostre negociador</YourNegotiatorBonus>
-	<TradeWithFactionBaseBonus>Bonificació amb aquesta facció</TradeWithFactionBaseBonus>
-	<minimum>mínim</minimum>
-	<FinalPrice>Preu final</FinalPrice>
+  <TraderTypePrice>Preu del comerciant</TraderTypePrice>
+  <Selling>es ven</Selling>
+  <Buying>es compra</Buying>
+  <ItemSellPriceFactor>multiplicador del preu de venda</ItemSellPriceFactor>
+  <DifficultyLevel>nivell de dificultat</DifficultyLevel>
+  <PostCurve>corva global de post-processat</PostCurve>
+  <YourNegotiatorBonus>Bonificació del vostre negociador</YourNegotiatorBonus>
+  <TradeWithFactionBaseBonus>Bonificació amb aquesta facció</TradeWithFactionBaseBonus>
+  <minimum>mínim</minimum>
+  <FinalPrice>Preu final</FinalPrice>
   <TradeMassUsageTooltip>El pes final i el pes que podeu portar.</TradeMassUsageTooltip>
   
   <!-- Form caravan -->
@@ -234,8 +244,9 @@
   <ItemsTab>Objectes</ItemsTab>
   <CaravanConfigTab>Configuració</CaravanConfigTab>
   <CaravanMustHaveAtLeastOneColonist>Heu d'assignar com a mínim un colon que no estigui ferit.</CaravanMustHaveAtLeastOneColonist>
-  <CaravanCouldNotFindExitSpot>No es pot trobar un lloc per sortir.</CaravanCouldNotFindExitSpot>
-  <CaravanCouldNotFindReachableExitSpot>Avís: algun dels colons no poden arribar al lloc de sortida.</CaravanCouldNotFindReachableExitSpot>
+  <CaravanCouldNotFindExitSpot>No es pot arribar al lloc per sortir ({0}).</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindPackingSpot>No es pot trobar cap lloc d'empaquetat vàlid. Assegureu-vos que es pot accedir al lloc de sortida ({0})</CaravanCouldNotFindPackingSpot>
+  <CaravanCouldNotFindReachableExitSpot>Avís: algun dels colons no poden arribar al lloc de sortida ({0}).</CaravanCouldNotFindReachableExitSpot>
   <CaravanPawnIsUnreachable>Algun dels colons assignats no poden arribar a {0}.</CaravanPawnIsUnreachable>
   <CaravanItemIsUnreachableSingle>Cap dels colons assignats no poden arribar a {0}.</CaravanItemIsUnreachableSingle>
   <CaravanItemIsUnreachableMulti>Cap dels colons assignats no poden arribar a {0}x {1}.</CaravanItemIsUnreachableMulti>
@@ -243,8 +254,12 @@
   <CaravanMassUsageTooltip>Pes que porteu i capacitat.\n\nEl pes que porteu inclou els productes que porta la caravana i l'equip dels colons.\n\nNo podreu enviar la caravana si el pes que porteu supera la capcitat.</CaravanMassUsageTooltip>
   <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
   <DaysWorthOfFoodInfo>menjar per {0} dies</DaysWorthOfFoodInfo>
-  <InfiniteDaysWorthOfFoodInfo>No us quedareu mai sense menjar</InfiniteDaysWorthOfFoodInfo>
+  <DaysWorthOfFoodInfoRot>menjar per {0} dies, es podreix en {1} dies</DaysWorthOfFoodInfoRot>
+  <InfiniteDaysWorthOfFoodInfo>No us quedareu mai sense
+ menjar</InfiniteDaysWorthOfFoodInfo>
   <DaysWorthOfFoodTooltip>Nombre aproximat de dies abans que la caravana es quedi sense menjar.\n\nTé en compte tant el menjar de les persones com el dels animals, i presenta el pitjor escenari. Això vol dir que després d'aquests dies com a mínim una persona o animal no tindrà menjar.</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip_CanEatLocalPlants>En base a l'estació actual, la temperatura i l'entorn s'assumeix que els animals herbívors s'alimentaran de les plantes que trobin. Tanmateix, les condicions poden canviar en qualsevol moment.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
+  <DaysWorthOfFoodTooltip_CantEatLocalPlants>En base a l'estació actual, la temperatura i l'entorn s'assumeix que els animals herbívors no trobaran plantes per alimentar-se. Tanmateix, les condicions poden canviar en qualsevol moment.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
   <DaysWorthOfFoodWarningDialog>La caravana només té menjar per {0} i passaran gana molt aviat.\n\nSegur que voleu forma aquesta caravana?</DaysWorthOfFoodWarningDialog>
   <DaysWorthOfFoodWarningDialog_NoFood>La caravana no té menjar i passaran gana molt aviat.\n\nSegur que voleu forma aquesta caravana?</DaysWorthOfFoodWarningDialog_NoFood>
   <NoExitDirectionForCaravanChosen>Heu d'escollir una direcció de sortida per la caravana.</NoExitDirectionForCaravanChosen>
@@ -337,6 +352,15 @@
 	<DrugUsageTipForJoy>Per diversió\n\nFa servir aquesta droga per diversió i amb fins socials.\n\Encara que no estigui habilitat, alguns personatges amb característiques específiques o emprenyats la poden fer servir.</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>Programada\n\nFa servir aquesta droga amb una freqüència determinada, quan es compleixin les condicions específiques.</DrugUsageTipScheduled>
   
+  <!-- Medical settings -->
+  <MedGroupDefaults>Per defecte</MedGroupDefaults>
+  <MedGroupColonist>Colons</MedGroupColonist>
+  <MedGroupImprisonedColonist>Colons escarcellats</MedGroupImprisonedColonist>
+  <MedGroupColonyAnimal>Animals de la colonia</MedGroupColonyAnimal>
+  <MedGroupNeutralAnimal>Animal neutral</MedGroupNeutralAnimal>
+  <MedGroupNeutralFaction>Facció neutral</MedGroupNeutralFaction>
+  <MedGroupHostileFaction>Facció hostil</MedGroupHostileFaction>
+
   <!-- Growing -->
   <NoGrowerCanPlant>Per plantar {0} es necessita un coneixement de  {1} en pagesia.\n\nCap dels vostres pagesos actius tenen prou nivell, per tant no es plantarà.</NoGrowerCanPlant>
 
