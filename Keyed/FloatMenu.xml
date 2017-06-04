@@ -1,20 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<CallOnRadio>Truca a {0}</CallOnRadio>
+  <CallOnRadio>Truca a {0}</CallOnRadio>
   <CannotUseReason>No es pot fer servir ({0})</CannotUseReason>
-	<CannotUseSolarFlare>No es pot fer servir (erupció solar)</CannotUseSolarFlare>
-	<CannotUseNoPower>No es pot fer servir (no hi ha corrent)</CannotUseNoPower>
-	<CannotUseNoPath>No es pot fer servir (no hi ha camí)</CannotUseNoPath>
+  <CannotUseSolarFlare>No es pot fer servir (erupció solar)</CannotUseSolarFlare>
+  <CannotUseNoPower>No es pot fer servir (no hi ha corrent)</CannotUseNoPower>
+  <CannotUseNoPath>No es pot fer servir (no hi ha camí)</CannotUseNoPath>
   <CannotUseReserved>No es pot fer servir (reservat)</CannotUseReserved>
   <CannotUseFull>No es pot fer servir (ple)</CannotUseFull>
-	<LeaderUnavailable>El lider {0} no és abastable</LeaderUnavailable>
+  <LeaderUnavailable>El líder {0} no és abastable</LeaderUnavailable>
+  <LeaderUnavailableNoLeader>el líder no és abastable</LeaderUnavailableNoLeader>
+
   
   <FireAt>Dispara a {0}</FireAt>
 
   <OutOfRange>Fora de rang</OutOfRange>
   <CannotHitTarget>No es pot tocar l'objectiu</CannotHitTarget>
   <IsIncapableOfViolenceLower>{0} no és capaç d'actes violents</IsIncapableOfViolenceLower>
+  <IncapableOfViolenceLower>no és capaç d'actes violents</IncapableOfViolenceLower>
   <IsNotDraftedLower>{0} no està reclutat</IsNotDraftedLower>
   <CannotOrderNonControlledLower>No podeu donar ordres a unitats no controlades</CannotOrderNonControlledLower>
 
@@ -24,24 +27,28 @@
   <MeleeAttackToDeath>Ataca cos a cos a {0} fins la seva mort</MeleeAttackToDeath>
   <NoPath>no hi ha camí</NoPath>
 
-	<ForbiddenLower>prohibit</ForbiddenLower>
-	<ForbiddenOutsideAllowedAreaLower>fora de l'àrea permesa</ForbiddenOutsideAllowedAreaLower>
-	<NotInHomeArea>no és a àrea llar</NotInHomeArea>
-	<SociallyImproperLower>Socialment indecent</SociallyImproperLower>
-	<PrisonerRoomLower>habitació de presoner</PrisonerRoomLower>
-	<BurningLower>cremant</BurningLower>
-	<NoEmptyPlaceLower>no hi ha cap espai buit configurat per desar-ho</NoEmptyPlaceLower>
-	<AlreadyFilledLower>Ja està ple</AlreadyFilledLower>
-	<MissingMaterials>falten materials</MissingMaterials>
-	<MissingSkill>no té prou talent</MissingSkill>
-	<NoEmptyGraveLower>no hi ha cap tomba configurada per enterrar-lo</NoEmptyGraveLower>
-	<AnimalInteractedTooRecently>l'animal ha interactuat fa poc</AnimalInteractedTooRecently>
-	<NoUsableFood>no hi ha menjar que es pugui fer servir</NoUsableFood>
-	<NoFood>no hi ha menjar</NoFood>
-	<AnimalsSkillTooLow>L'animal no està prou ensenyat</AnimalsSkillTooLow>
-	<NoComponentsToRepair>necessita components</NoComponentsToRepair>
-	<NoFuelToRefuel>necessita {0}</NoFuelToRefuel>
+  <ForbiddenLower>prohibit</ForbiddenLower>
+  <ForbiddenOutsideAllowedAreaLower>fora de l'àrea permesa</ForbiddenOutsideAllowedAreaLower>
+  <NotInHomeArea>no és a àrea llar</NotInHomeArea>
+  <SociallyImproperLower>Socialment indecent</SociallyImproperLower>
+  <PrisonerRoomLower>habitació de presoner</PrisonerRoomLower>
+  <BurningLower>cremant</BurningLower>
+  <NoEmptyPlaceLower>no hi ha cap espai buit configurat per desar-ho</NoEmptyPlaceLower>
+  <AlreadyFilledLower>Ja està ple</AlreadyFilledLower>
+  <MissingMaterials>falten materials</MissingMaterials>
+  <MissingSkill>no té prou talent</MissingSkill>
+  <NoEmptyGraveLower>no hi ha cap tomba configurada per enterrar-lo</NoEmptyGraveLower>
+  <AnimalInteractedTooRecently>l'animal ha interactuat fa poc</AnimalInteractedTooRecently>
+  <NoUsableFood>no hi ha menjar que es pugui fer servir</NoUsableFood>
+  <NoFood>no hi ha menjar</NoFood>
+  <AnimalsSkillTooLow>L'animal no està prou ensenyat</AnimalsSkillTooLow>
+  <NoComponentsToRepair>necessita components</NoComponentsToRepair>
+  <NoFuelToRefuel>necessita {0}</NoFuelToRefuel>
   <NoWort>necessita most</NoWort>
+  <TheOnlyAvailableFoodIsInStorageOfHigherPriority>el menjar disponible és en un magatzem de prioritat alta</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
+  <NoFoodToFillHopper>no hi ha menjar disponible</NoFoodToFillHopper>
+  <SelfTendDisabled>auto-cures deshabilitat</SelfTendDisabled>
+  <ReservedForPrisoners>reservat per presoners</ReservedForPrisoners>
   
   <ConsumeThing>Consumeix {0}</ConsumeThing>
   
@@ -115,8 +122,10 @@
   <CannotTrade>No es pot negociar</CannotTrade>
   
   <EnterMap>Entra a {0}</EnterMap>
-  <VisitFactionBase>Visita a {0}</VisitFactionBase>
-  <AttackFactionBase>Ataca a {0}</AttackFactionBase>
+  <VisitSettlement>Visita a {0}</VisitSettlement>
+  <VisitSite>Visita a {0}</VisitSite>
+  <AttackSite>Ataca a {0}</AttackSite>
+  <AttackSettlement>Ataca a {0}</AttackSettlement>
 
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>Entra al taüt de criptoson</EnterCryptosleepCasket>
@@ -130,8 +139,10 @@
 
   <CannotGenericAlreadyAm>Ja està {0} {1}</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeWorkTypeDisabled>No es pot prioritzar (No farà mai {0})</CannotPrioritizeWorkTypeDisabled>
+  <CannotPrioritizeWorkTypeDisabled>No pot prioritzar (No farà mai {0})</CannotPrioritizeWorkTypeDisabled>
   
+  <CannotPrioritizeWorkGiverDisabled> No pot prioritzar (No farà mai {0})</CannotPrioritizeWorkGiverDisabled>
+
   <CannotPrioritizeNotAssignedToWorkType>No es pot prioritzar (no està assignat a {0})</CannotPrioritizeNotAssignedToWorkType>
 
   <CannotPrioritizeResearch> No es pot prioritzar (investigar és una tasca a llarg plaç)</CannotPrioritizeResearch>
@@ -144,5 +155,11 @@
   
   <DropAtEdge>Deixa a la vora</DropAtEdge>
   <DropInCenter>Deixa al centre</DropInCenter>
+
+  <VomitingLower>vomita</VomitingLower>
+  <NotInterruptibleLower>no es pot commutar</NotInterruptibleLower>
+
+  <AddWaypoint>Afegeix un punt de pas aquí</AddWaypoint>
+  <RemoveWaypoint>Esborra aquest punt de pas</RemoveWaypoint>
   
 </LanguageData>

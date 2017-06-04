@@ -27,11 +27,11 @@
   <CommandToggleDraftDesc>Canvia l'estat de reclutament militar.\n\nLa gent reclutada rebrà ordres i lluitarà. No treballaran, menjaran ni descansaran.</CommandToggleDraftDesc>
   <IsIncapped>{0} no pot caminar.</IsIncapped>
 
-	<CommandAllowFiringLabel>Permet disparar</CommandAllowFiringLabel>
-	<CommandAllowFiringDesc>Canvia el permís de disparar.\n\nQuan està deshabilitat, el personatge no dispararà automàticament. No afecta al combat cos a cos.</CommandAllowFiringDesc>
+  <CommandFireAtWillLabel>Permet disparar</CommandFireAtWillLabel>
+  <CommandFireAtWillDesc>Canvia el permís de disparar.\n\nQuan està deshabilitat, el personatge no dispararà automàticament. No afecta el combat cos a cos.</CommandFireAtWillDesc>
 	
-  <CommandClearPrioritizedWork>Cancela la tasca prioritzada</CommandClearPrioritizedWork>
-  <CommandClearPrioritizedWorkDesc>Cancel·la qualsevol tasca que hagueu prioritzat. El personatge tornarà a les activitats habituals.</CommandClearPrioritizedWorkDesc>
+  <CommandClearPrioritizedWork>Cancel·la la tasca prioritzada</CommandClearPrioritizedWork>
+  <CommandClearPrioritizedWorkDesc>Cancel·la qualsevol tasca que hàgiu prioritzat. El personatge tornarà a les activitats habituals.</CommandClearPrioritizedWorkDesc>
   
   <CommandCancelConstructionLabel>Cancel·la</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Cancel·la aquesta construcció.</CommandCancelConstructionDesc>
@@ -170,6 +170,8 @@
   <CommandSettleFailOtherWorldObjectsHere>La vostra caravana ha de ser la única cosa que hi hagi a la cela per poder-se establir.</CommandSettleFailOtherWorldObjectsHere>
   <CommandSettleFailAlreadyHaveBase>La vostra facció només pot tenir una base.</CommandSettleFailAlreadyHaveBase>
   <CommandSettleFailReachedMaximumNumberOfBases>Ja teniu el nombre màxim de colònies.</CommandSettleFailReachedMaximumNumberOfBases>
+  <CommandSettleFailNoColonists>No hi ha ningú que pugui reclamar aquesta zona.</CommandSettleFailNoColonists>
+  <CommandSettleFailEnemies>Hi ha enemics a la zona.</CommandSettleFailEnemies>
   
   <!-- Abandon home -->
   <CommandAbandonHome>Abandonar</CommandAbandonHome>
