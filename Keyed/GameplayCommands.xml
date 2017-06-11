@@ -191,8 +191,14 @@
   <CommandTradeDesc>Fa negocis amb aquesta facció.</CommandTradeDesc>
   <CommandTradeFailNoNegotiator>No hi ha cap negociador conscient i sense emprenyar.</CommandTradeFailNoNegotiator>
   
+  <!-- Fulfill request -->
+  <CommandFulfillTradeOffer>Completar oferiment de negoci</CommandFulfillTradeOffer>
+  <CommandFulfillTradeOfferDesc>Completeu la demanda d'articles de l'assentament i reclameu-ne la recompensa.</CommandFulfillTradeOfferDesc>
+  <CommandFulfillTradeOfferFailInsufficient>La vostra caravana ha de disposar de  {0} per completar la comanda.</CommandFulfillTradeOfferFailInsufficient>
+  <CommandFulfillTradeOfferConfirm>oferir {0} a canvi de {1}?</CommandFulfillTradeOfferConfirm>
+  
   <!-- Take off -->
-  <CommandTakeOff>DEspegar</CommandTakeOff>
+  <CommandTakeOff>Enlairar-se</CommandTakeOff>
   <CommandTakeOffDesc>Pujar a la nau i fugir del planeta.</CommandTakeOffDesc>
   <CommandTakeOffConfirmation>Esteu segur que voleu llançar la nau?\n\nTothom en aquesta zona escaparà del planeta. Els altres es quedaran.</CommandTakeOffConfirmation>
   
@@ -228,5 +234,13 @@
   <!-- Select next transporter -->
   <CommandSelectNextTransporter>Seleccionar transport següent</CommandSelectNextTransporter>
   <CommandSelectNextTransporterDesc>Selecciona la següent càpsula de càrrega d'aquest grup de llançament.</CommandSelectNextTransporterDesc>
+  
+  <!-- Vent -->
+  <CommandDesignateOpenCloseVentLabel>Designar obrir/tancar</CommandDesignateOpenCloseVentLabel>
+  <CommandDesignateOpenCloseVentDesc>Designeu aquesta reixa per ser oberta o tancada. Un colon vindrà a fer-ho.</CommandDesignateOpenCloseVentDesc>
+
+  <!-- Remove waypoint -->
+  <CommandRemoveWaypointLabel>Elimina</CommandRemoveWaypointLabel>
+  <CommandRemoveWaypointDesc>Elimina aquest punt de pas.</CommandRemoveWaypointDesc>
   
 </LanguageData>

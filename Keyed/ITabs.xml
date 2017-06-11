@@ -46,6 +46,8 @@
   <!-- Medical - general -->
   <MoveSpeed>Velocitat de moviment</MoveSpeed>
   <Efficiency>Eficiència</Efficiency>
+  <PartEfficiency>Eficiència de la pròtesi</PartEfficiency>
+  <BodyPartEfficiency>Eficiència de la part del cos</BodyPartEfficiency>
   <MissingBodyPart>Fora</MissingBodyPart>
   <DestroyedBodyPart>Destrossat</DestroyedBodyPart>
   <ShatteredBodyPart>Fet a miques</ShatteredBodyPart>
@@ -75,7 +77,8 @@
   <Tiredness>Cansament</Tiredness>
   <PainFactor>Dolor</PainFactor>
   <PreventsInfection>Prevé infeccions</PreventsInfection>
-  
+  <SelfTend>Auto-curar</SelfTend>
+  <SelfTendTip>{0} amb l'auto-curar habilitat es curarà les pròpies ferides amb una eficiència del {1} del normal.</SelfTendTip>
 
   <!-- Medical - Body and activities condition -->
   <None>Cap</None>
@@ -104,6 +107,7 @@
   <!-- Social tab -->
   <NoRelationships>(cap relació)</NoRelationships>
   <Kidnapped>Segrestat</Kidnapped>
+  <Missing>Desaparegut</Missing>
   <Slave>Esclau</Slave>
   <FactionLeader>Líder de facció</FactionLeader>
   <OpinionOf>Opinió de {0}</OpinionOf>

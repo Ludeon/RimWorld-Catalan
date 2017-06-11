@@ -25,7 +25,7 @@
   <FreshMissingBodyPart>fresc</FreshMissingBodyPart>
   <DevelopedImmunityLower>immunitat desenvolupada</DevelopedImmunityLower>
   <NeedsTendingNow>Necessita atenció ara</NeedsTendingNow>
-  <NextTreatmentIn>Necessitarà atenció d'aquí {0}</NextTreatmentIn>
+  <NextTendIn>Necessitarà atenció d'aquí {0}</NextTendIn>
   <MissingMedicalBillIngredient>no hi ha {0}</MissingMedicalBillIngredient>
   <Immunity>Immune</Immunity>
   <Race>Raça</Race>
@@ -104,7 +104,7 @@
   <TransportPodInGroupHasSomethingLeftToLoad>s'està carregant</TransportPodInGroupHasSomethingLeftToLoad>
   <TransportPodDestinationBeyondMaximumRange>Supera el màxim</TransportPodDestinationBeyondMaximumRange>
   <TransportPodNotEnoughFuel>No hi ha prou fuel</TransportPodNotEnoughFuel>
-  <FactionBaseTrader>{0} de {1}</FactionBaseTrader>
+  <SettlementTrader>{0} de {1}</SettlementTrader>
   <RoomSurgerySuccessChanceFactor>Factor d'èxit de l'operació de l'habitació</RoomSurgerySuccessChanceFactor>
   <RoomInfectionChanceFactor>Factor de possibilitat d'infecció de l'habitació</RoomInfectionChanceFactor>
   <VentClosed>Tancada</VentClosed>
@@ -135,7 +135,9 @@
   <Headshot>Tret al cap</Headshot>
   <TextMote_TreatSuccess>El tractament ha funcionat!\n{0} probabilitats</TextMote_TreatSuccess>
   <TextMote_TreatFailed>El tractament ha fallat\n{0} probabilitats</TextMote_TreatFailed>
-  <HarvestFailed>Collita\nfallada</HarvestFailed>
+  <TextMote_HarvestFailed>Collita\nfallada</TextMote_HarvestFailed>
+  <TextMote_YieldWasted>Collita\nfallada</TextMote_YieldWasted>
+  <TextMote_ProductWasted>Producte\nmalbaratat</TextMote_ProductWasted>
   <TextMote_RecruitFail>Ha fallat el reclutament!\n{0} probabilitats</TextMote_RecruitFail>
   <TextMote_TameFail>Ha fallat la doma\n{0} probabilitats</TextMote_TameFail>
   <TextMote_TameSuccess>Domesticat!\n{0} probabilitats</TextMote_TameSuccess>
@@ -198,6 +200,7 @@
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>Assisteix a la cerimònia de casament</LordReportAttendingMarriageCeremony>
   <LordReportAttendingParty>Assisteix a la festa</LordReportAttendingParty>
+  <LordReportFormingCaravan>Formant la caravana</LordReportFormingCaravan>
 
   <!-- Shooting report -->
   <WeaponMissRadius>Abast d'error de l'arma</WeaponMissRadius>
@@ -239,6 +242,7 @@
   <Dead>Mort</Dead>
   <Unconscious>Inconscient</Unconscious>
   <PainShock>En xoc pel dolor</PainShock>
+  <PainShockShort>xoc per dolor</PainShockShort>
   <Incapacitated>Incapacitat</Incapacitated>
   <InRestraints>Encadenat (frenat)</InRestraints>
   <Carrying>Porta</Carrying>
@@ -345,8 +349,8 @@
   <Burning>Crema</Burning>
   <FireSizeLower>mida de l'incendi {0}</FireSizeLower>
 
-  <!-- Map conditions -->
-  <MapConditionsTip>Condicions especials que afecten ara la zona.</MapConditionsTip>
+  <!-- Game conditions -->
+  <GameConditionsTip>Condicions especials que afecten ara la zona.</GameConditionsTip>
   <TimeLeft>temps que queda</TimeLeft>
   <ImpactDate>data de l'impacte</ImpactDate>
 
