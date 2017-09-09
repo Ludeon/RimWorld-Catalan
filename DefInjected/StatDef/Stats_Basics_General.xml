@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MaxHitPoints.label>punts de vida max.</MaxHitPoints.label>
+  <MaxHitPoints.description>Punts de vida màxims d’un objecte. Representa quan dany pot rebre abans de trencar-se.</MaxHitPoints.description>
+
+  <Mass.label>pes</Mass.label>
+  <Mass.description>Pes físic de l’objecte.</Mass.description>
+  <Mass.formatString>{0} kg</Mass.formatString>
+
+  <MarketValue.label>valor de mercat</MarketValue.label>
+  <MarketValue.description>Valor de mercat de l’objecte. El preu final es veurà modificat per la capacitat de negociació, la relació i altres factors conttextuals.</MarketValue.description>
+  <MarketValue.formatString>€{0}</MarketValue.formatString>
+
+  <SellPriceFactor.label>factor del preu de venda</SellPriceFactor.label>
+  <SellPriceFactor.description>Multiplicador del preu al que pots vendre objectes.</SellPriceFactor.description>
+
+  <Flammability.label>inflamabilitat</Flammability.label>
+  <Flammability.description>Facilitat amb que l’objecte s’encén i com de fort crema.</Flammability.description>
+
+  <WorkToMake.label>feina per fabricar</WorkToMake.label>
+  <WorkToMake.description>La quantitat base de feina que porta fer-lo, un cop s’ha portat els materials i les eines.</WorkToMake.description>
+
+  <WorkToBuild.label>feina per construir</WorkToBuild.label>
+  <WorkToBuild.description>Quantitat de feina que porta construir una estructura, un cop s’ha portat els materials i les eines.</WorkToBuild.description>
+
+  <DeteriorationRate.label>velocitat de deteriorament</DeteriorationRate.label>
+  <DeteriorationRate.description>Velocitat a la que es fa malbé l’objecte quan es deixa fora, en percentatge de punts per dia. Algunes inclemències com la pluja fan que es faci malbé més de pressa.</DeteriorationRate.description>
+  <DeteriorationRate.formatString>{0} / day</DeteriorationRate.formatString>
+
+  <Beauty.label>bellesa</Beauty.label>
+  <Beauty.description>Com d’agradable és estar a prop o mirar l’objecte.</Beauty.description>
+
+  <Cleanliness.label>netedad</Cleanliness.label>
+  <Cleanliness.description>Com de net és l’objecte.</Cleanliness.description>
+
+  <Comfort.label>comoditat</Comfort.label>
+  <Comfort.description>Com és de còmode l’objecte per seure-hi o ajeure-s’hi.</Comfort.description>
+
+
+</LanguageData>
