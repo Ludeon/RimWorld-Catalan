@@ -6,18 +6,21 @@
   <ChooseLandingSite.text>Aquí escolliu el lloc on aterrareu.\n\nHi ha una pila de biomes, però per ara, començarem amb un de poc rigorós.\n\nTrieu un lloc amb un bioma de bosc temperat i terreny pla i després feu clic a SEGÜENT.\n\nPodeu veure a la pestanya TERRENY la informació de la cel·la que teniu seleccionada.</ChooseLandingSite.text>
   <ChooseLandingSite.rejectInputMessage>Cal que escolliu un terreny pla amb bosc temperat.</ChooseLandingSite.rejectInputMessage>
 
-  <RandomizeCharacter.text>Ara generareu els personatges!\n\nProveu d'aleatoritzar un personatge amb el botó ALEATORITZA.</RandomizeCharacter.text>
+  <ReorderCharacters.text>Ara podeu triar els personatges!\n\nFeu clic a l'esquerra per seleccionar entre els personatges disponibles. Si trobeu un personatge que us agrada, arrossegueu-lo a la secció superior que té l'etiqueta SELECCIONAT.</ReorderCharacters.text>
+  <ReorderCharacters.rejectInputMessage>Proveu primer de triar un personatge.</ReorderCharacters.rejectInputMessage>
+
+  <RandomizeCharacter.text>Si un personatge no us agrada el podeu tornar a generar!\n\nProveu d'aleatoritzar un personatge amb el botó ALEATORITZA.</RandomizeCharacter.text>
   <RandomizeCharacter.rejectInputMessage>Proveu primer d'aleatoritzar un personatge.</RandomizeCharacter.rejectInputMessage>
 
   <AcceptStartingPawns.text>Genial!\n\nPodeu seguir aleatoritzant, si voleu, però no busqueu el personatge perfecte. Tothom té punts febles, i això fa que la història sigui més interessant!\n\nTambé podeu canviar el nom dels personatges fent-hi clic a sobre.\n\nFeu clic a COMENÇA quan hàgiu acabat.</AcceptStartingPawns.text>
   <MapCameraDolly.text>Ja sou a la superfície!\n\nProveu de moure la càmera.\n\nFeu servir les tecles {Key:MapDollyUp}-{Key:MapDollyLeft}-{Key:MapDollyDown}-{Key:MapDollyRight}, o feu clic i arrossegueu amb el botó del mig del ratolí.\n\nProveu-ho ara!</MapCameraDolly.text>
   <MapCameraZoom.text>Perfecte!\n\ntambé podeu acostar-vos i allunyar-vos amb la roda del ratolí, o fent servir les tecles {Key:MapZoomIn} i {Key:MapZoomOut}.\n\nProveu-ho ara!</MapCameraZoom.text>
   <Pause.text>Podeu aturar el temps, així que no cal córrer. Sempre podeu posar la pausa i pensar bé quines ordres donar.\n\nProveu la pausa amb la tecla {Key:TogglePause}, o bé fent servir els controls del temps que hi ha a sota a la dreta.</Pause.text>
-  <TimeControls.text>També podeu accelerar el temps.\n\nProveu de controlar el temps amb les tecles {Key:TimeSpeedNormal}, {Key:TimeSpeedFast}, and {Key:TimeSpeedSuperfast}, o bé fent servir els controls del temps que hi ha a sota a la dreta.</TimeControls.text>
+  <TimeControls.text>També podeu accelerar el temps.\n\nProveu de controlar el temps amb les tecles {Key:TimeSpeedNormal}, {Key:TimeSpeedFast}, i {Key:TimeSpeedSuperfast}, o bé fent servir els controls del temps que hi ha a sota a la dreta.</TimeControls.text>
 
   <MakeStockpile.text>Fantàstic!\n\nAra, creeu un magatzem per que els colons i desin les coses.\n\n1. Feu clic a la pestanya ARQUITECTURA a baix a l'esquerra.\n2. Feu clic a la categoria ZONA/ÀREA.\n3. Seleccioneu l'eina ZONA DE MAGATZEM.\n4. Feu clic i arrossegueu un quadrat com s'indica al mapa.</MakeStockpile.text>
   <MakeStockpile.rejectInputMessage>Creeu un magatzem a la zona indicada.</MakeStockpile.rejectInputMessage>
-  <MakeStockpile.onMapInstruction>Feu el magatzem aquí\n(Arrosegueu d'una cantonada a la contrària)</MakeStockpile.onMapInstruction>
+  <MakeStockpile.onMapInstruction>Feu el magatzem aquí\n(Arrossegueu d'una cantonada a la contrària)</MakeStockpile.onMapInstruction>
 
   <EndStockpileDesignating.text>Feu clic dret per sortir del mode de designació de magatzem.</EndStockpileDesignating.text>
 
@@ -46,7 +49,7 @@
   <BuildAnimalSleepingSpot.rejectInputMessage>Poseu un lloc per dormir per animals a la cambra.</BuildAnimalSleepingSpot.rejectInputMessage>
 
   <BuildHorseshoesPin.text>Els colons necessiten distreure's d'alguna manera o s'aniran entristint.\n\nConstruïu un JOC DE FERRADURES a l'exterior, prop de la cambra.</BuildHorseshoesPin.text>
-  <BuildHorseshoesPin.onMapInstruction>Construïu un joc de ferradures \na l'esterior de la cambra</BuildHorseshoesPin.onMapInstruction>
+  <BuildHorseshoesPin.onMapInstruction>Construïu un joc de ferradures \na l'exterior de la cambra</BuildHorseshoesPin.onMapInstruction>
   <BuildHorseshoesPin.rejectInputMessage>Construïu un joc de ferradures no gaire lluny de la cambra.</BuildHorseshoesPin.rejectInputMessage>
 
   <MakeGrowingZone.text>S'està construint la casa!\n\nEls colons voldran menjar alguna cosa, així que poseu una ZONA DE PLANTACIÓ al lloc indicat al mapa.\n\nEls vostres colons plantaran aquí el seu hort.</MakeGrowingZone.text>
@@ -92,7 +95,7 @@
   <SelectResearchProject.text>Ara simplement trieu què voleu començar a investigar primer.\n\nUs caldrà esperar que s'acabi de construir el banc de recerca, o que es talli prou fusta.\n\nSi triga molt, feu servir la pestanya TREBALL per assignar més colons a construir.</SelectResearchProject.text>
   <SelectResearchProject.rejectInputMessage>Trieu un projecte de recerca.</SelectResearchProject.rejectInputMessage>
 
-  <ExpandAreaHome.text>Ara apendreu a ampliar la ZONA LLAR.\n\nEls colons només netejaran el terra i apagaran els incendis de la zona llar, i faran cas omís dels focs i la brutícia que s'acumuli a fora.\n\nLa zona llar s'amplia automàticament a mesura que construïu estructures, però també podeu fer-ho manualment.\n\nSeleccioneu l'eina AMPLIAR ZONA LLAR i dibuixeu una àrea nova al mapa arrossegant el ratolí.</ExpandAreaHome.text>
+  <ExpandAreaHome.text>Ara aprendreu a ampliar la ZONA LLAR.\n\nEls colons només netejaran el terra i apagaran els incendis de la zona llar, i faran cas omís dels focs i la brutícia que s'acumuli a fora.\n\nLa zona llar s'amplia automàticament a mesura que construïu estructures, però també podeu fer-ho manualment.\n\nSeleccioneu l'eina AMPLIAR ZONA LLAR i dibuixeu una àrea nova al mapa arrossegant el ratolí.</ExpandAreaHome.text>
   <ExpandAreaHome.rejectInputMessage>Amplieu una mica la zona llar, només com a pràctica.</ExpandAreaHome.rejectInputMessage>
 
   <ExpandAreaBuildRoof.text>La ZONA TEULADA defineix quina part els colons provaran de cobrir amb teulada.\n\nEs marca automàticament quan feu una cambra nova.\n\nSeleccioneu l'eina AMPLIAR ZONA TEULADA i dibuixeu una zona a davant de la cambra, com si fos un porxo.</ExpandAreaBuildRoof.text>

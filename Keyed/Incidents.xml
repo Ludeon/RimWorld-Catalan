@@ -30,8 +30,10 @@
   <LetterLabelCargoPodCrash>Càpsules de càrrega</LetterLabelCargoPodCrash>
   <CargoPodCrash>Heu detectat unes càpsules de càrrega caient prop d'aquí.\n\nPotser podeu trobar alguna cosa útil entre les restes.</CargoPodCrash>
 
-  <AnElectricalConduit>Conducte elèctric</AnElectricalConduit>
-  <ShortCircuit>Una fallada del {0} ha provocat un curtcircuit.\n\nEls {1} Wd d'energia de les bateries connectades s'han descarregat en la guspira.</ShortCircuit>
+  <AnElectricalConduit>un conducte elèctric</AnElectricalConduit>
+  <ShortCircuit>Una fallada del {0} ha provocat un curtcircuit.</ShortCircuit>
+  <ShortCircuitStartedFire>Una fallada del {0} ha provocat un curtcircuit que ha iniciat un incendi.</ShortCircuitStartedFire>
+  <ShortCircuitDischargedEnergy>Els {0} Wd d'energia de les bateries connectades s'han descarregat en la guspira.</ShortCircuitDischargedEnergy>
   <ShortCircuitWasLarge>La gran quantitat d'energia ha causat una forta explosió.</ShortCircuitWasLarge>
   <ShortCircuitWasHuge>Ha sigut una explosió enorme. Uau.</ShortCircuitWasHuge>
 
@@ -128,7 +130,7 @@
   <CaravanMeeting_Attack>Ataca</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>Continua</CaravanMeeting_MoveOn>
 
-  <!-- Caravan request -->
+  <!-- Caravan request -->
   <LetterLabelCaravanRequest>Petició de caravana</LetterLabelCaravanRequest>
   <LetterCaravanRequest>Un assentament proper, {0}, us contacta amb una proposta de negoci particular. Volen comprar:\n\n  {1}\n\nEn compensació, ofereixen:\n\n  {2}\n\nLa proposta expira en: {3}\n\nSi voleu tancar el negoci, envieu-los una caravana amb els productes que han demanat. Podeu revisar la proposta seleccionant {0} al mapa de món.</LetterCaravanRequest>
   <CaravanRequestInfo>Demanen: {0}, ofereixen: {1} (us queden {2})</CaravanRequestInfo>
@@ -150,3 +152,4 @@
   <ItemStashSitePart_Turrets>{0} diu que l'amagatall està envoltat de metralladores enemigues.</ItemStashSitePart_Turrets>
   <ItemStashSitePart_Manhunters>{0} diu que hi ha una colla d'animals menja persones a la vora.</ItemStashSitePart_Manhunters>
 </LanguageData>
+
