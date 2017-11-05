@@ -24,6 +24,23 @@
   <BingingDrugExtreme.label>festa de droga</BingingDrugExtreme.label>
   <BingingDrugExtreme.baseInspectLine>Estat mental: festa de {0}</BingingDrugExtreme.baseInspectLine>
 
+  <Jailbreaker.label>Anima a a escapar a un presoner</Jailbreaker.label>
+  <Jailbreaker.beginLetter>{0} té una emprenyada i animarà als presoners a escapar.</Jailbreaker.beginLetter>
+  <Jailbreaker.beginLetterLabel>atiador</Jailbreaker.beginLetterLabel>
+  <Jailbreaker.recoveryMessage>{0} ja no anima els presoners a escapar.</Jailbreaker.recoveryMessage>
+  <Jailbreaker.baseInspectLine>Estat mental: atiador</Jailbreaker.baseInspectLine>
+
+  <Slaughterer.label>escorxador</Slaughterer.label>
+  <Slaughterer.beginLetter>{0} té una emprenyada i es desfogarà amb els animals.</Slaughterer.beginLetter>
+  <Slaughterer.beginLetterLabel>escorxador</Slaughterer.beginLetterLabel>
+  <Slaughterer.recoveryMessage>{0} ja no escorxa animals.</Slaughterer.recoveryMessage>
+  <Slaughterer.baseInspectLine>Estat mental: Escorxador</Slaughterer.baseInspectLine>
+
+  <MurderousRage.label>fúria assassina</MurderousRage.label>
+  <MurderousRage.beginLetter>{0} està en fúria assassina. Matarà a {1}.</MurderousRage.beginLetter>
+  <MurderousRage.beginLetterLabel>fúria assassina</MurderousRage.beginLetterLabel>
+  <MurderousRage.recoveryMessage>{0} ja no estpa u fúria assassina.</MurderousRage.recoveryMessage>
+  <MurderousRage.baseInspectLine>Estat mental: Fúria assassina</MurderousRage.baseInspectLine>
 
   <!-- Mental breaks: major -->
 
@@ -36,6 +53,35 @@
   <WanderPsychotic.beginLetter>{0} dóna voltes en estat psicòtic.</WanderPsychotic.beginLetter>
   <WanderPsychotic.baseInspectLine>Estat mental: voltant en estat psicòtic</WanderPsychotic.baseInspectLine>
 
+  <Tantrum.label>rabieta</Tantrum.label>
+  <Tantrum.beginLetter>{0} té una rabieta.</Tantrum.beginLetter>
+  <Tantrum.beginLetterLabel>rabieta</Tantrum.beginLetterLabel>
+  <Tantrum.recoveryMessage>{0} ja no té una rabieta.</Tantrum.recoveryMessage>
+  <Tantrum.baseInspectLine>Estat mental: rabieta</Tantrum.baseInspectLine>
+
+  <TargetedTantrum.label>rabieta</TargetedTantrum.label>
+  <TargetedTantrum.beginLetter>{0} té una rabieta. Destruirà {1}.</TargetedTantrum.beginLetter>
+  <TargetedTantrum.beginLetterLabel>rabieta</TargetedTantrum.beginLetterLabel>
+  <TargetedTantrum.recoveryMessage>{0} ja no té una rabieta.</TargetedTantrum.recoveryMessage>
+  <TargetedTantrum.baseInspectLine>Estat mental: rabieta</TargetedTantrum.baseInspectLine>
+
+  <BedroomTantrum.label>rabieta</BedroomTantrum.label>
+  <BedroomTantrum.beginLetter>{0} té una rabieta. HECAP axiafarà els mobles de la seva habitació.</BedroomTantrum.beginLetter>
+  <BedroomTantrum.beginLetterLabel>rabieta</BedroomTantrum.beginLetterLabel>
+  <BedroomTantrum.recoveryMessage>{0} ja no té una rabieta.</BedroomTantrum.recoveryMessage>
+  <BedroomTantrum.baseInspectLine>Estat mental: rabieta</BedroomTantrum.baseInspectLine>
+
+  <SadisticRage.label>rabieta sàdica</SadisticRage.label>
+  <SadisticRage.beginLetter>{0} té una rabieta sàdica. Descarregarà la seva rabia sobre els presoners.</SadisticRage.beginLetter>
+  <SadisticRage.beginLetterLabel>rabieta sàdica</SadisticRage.beginLetterLabel>
+  <SadisticRage.recoveryMessage>{0} ja no té la rabieta sàdica.</SadisticRage.recoveryMessage>
+  <SadisticRage.baseInspectLine>Estat mental: rabieta sàdica</SadisticRage.baseInspectLine>
+
+  <CorpseObsession.label>obsessió per cadàver</CorpseObsession.label>
+  <CorpseObsession.beginLetter>{0} té una obsessió per un cadàver. En desenterrarà un.</CorpseObsession.beginLetter>
+  <CorpseObsession.beginLetterLabel>obsessió per cadàver</CorpseObsession.beginLetterLabel>
+  <CorpseObsession.recoveryMessage>{0} ja no té obsessió per cadàver.</CorpseObsession.recoveryMessage>
+  <CorpseObsession.baseInspectLine>Estat mental: obsessió per cadàver</CorpseObsession.baseInspectLine>
 
   <!-- Mental breaks: minor -->
 
@@ -57,5 +103,16 @@
   <WanderOwnRoom.beginLetter>{0} es tanca a la seva habitació.</WanderOwnRoom.beginLetter>
   <WanderOwnRoom.baseInspectLine>Estat mental: es tanca a l'habitació</WanderOwnRoom.baseInspectLine>
 
+<InsultingSpree.label>insults compulsius</InsultingSpree.label>
+  <InsultingSpree.beginLetter>{0} insulta compulsivament.</InsultingSpree.beginLetter>
+  <InsultingSpree.beginLetterLabel>insults compulsius</InsultingSpree.beginLetterLabel>
+  <InsultingSpree.recoveryMessage>{0} ja no insulta compulsivament.</InsultingSpree.recoveryMessage>
+  <InsultingSpree.baseInspectLine>Estat mental: insults compulsius</InsultingSpree.baseInspectLine>
+
+  <TargetedInsultingSpree.label>insults compulsius</TargetedInsultingSpree.label>
+  <TargetedInsultingSpree.beginLetter>{0} insulta compulsivament a {1}.</TargetedInsultingSpree.beginLetter>
+  <TargetedInsultingSpree.beginLetterLabel>insults compulsius</TargetedInsultingSpree.beginLetterLabel>
+  <TargetedInsultingSpree.recoveryMessage></TargetedInsultingSpree.recoveryMessage>
+  <TargetedInsultingSpree.baseInspectLine>Mental state: insults compulsius contra {0}</TargetedInsultingSpree.baseInspectLine>
 
 </LanguageData>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Transition_Include.rulePack.rulesStrings.0>duetoa->degut a</Transition_Include.rulePack.rulesStrings.0>
+  <Transition_Include.rulePack.rulesStrings.1>duetoa(p=0.5)->a causa de</Transition_Include.rulePack.rulesStrings.1>
+  <Transition_Include.rulePack.rulesStrings.2>duetoa(p=0.5)->gràcies a</Transition_Include.rulePack.rulesStrings.2>
+
+  <Transition_Downed.rulePack.rulesStrings.0>logentry->[culpritHediff_labelNoun] ha provocat [collapsemeta] a [subject_nameShortDef].</Transition_Downed.rulePack.rulesStrings.0>
+  <Transition_Downed.rulePack.rulesStrings.1>logentry->[culpritHediff_labelNoun] a [culpritHediff_target_label] ha provocat [collapsemeta] a [subject_nameShortDef].</Transition_Downed.rulePack.rulesStrings.1>
+  <Transition_Downed.rulePack.rulesStrings.2>logentry->[subject_nameShortDef] [collapsedmeta] [duetoa] [culpritHediff_labelNoun].</Transition_Downed.rulePack.rulesStrings.2>
+  <Transition_Downed.rulePack.rulesStrings.3>logentry->[subject_nameShortDef] [collapsedmeta] [duetoa] [culpritHediff_labelNoun] a [culpritHediff_target_label].</Transition_Downed.rulePack.rulesStrings.3>
+  <Transition_Downed.rulePack.rulesStrings.4>logentry->[subject_nameShortDef] [collapsedmeta] [duetoa] [culpritHediff_labelNoun] a [culpritHediff_target_label].</Transition_Downed.rulePack.rulesStrings.4>
+  <Transition_Downed.rulePack.rulesStrings.5>logentry(p=0.1)->[subject_nameShortDef] [collapsedmeta].</Transition_Downed.rulePack.rulesStrings.5>
+  <Transition_Downed.rulePack.rulesStrings.6>collapse->defalliment</Transition_Downed.rulePack.rulesStrings.6>
+  <Transition_Downed.rulePack.rulesStrings.7>collapse->caiguda en rodo</Transition_Downed.rulePack.rulesStrings.7>
+  <Transition_Downed.rulePack.rulesStrings.8>collapse->caiguda</Transition_Downed.rulePack.rulesStrings.8>
+  <Transition_Downed.rulePack.rulesStrings.9>collapse->desmai</Transition_Downed.rulePack.rulesStrings.9>
+  <Transition_Downed.rulePack.rulesStrings.10>collapsed->defallit</Transition_Downed.rulePack.rulesStrings.10>
+  <Transition_Downed.rulePack.rulesStrings.11>collapsed->caigut en rodo</Transition_Downed.rulePack.rulesStrings.11>
+  <Transition_Downed.rulePack.rulesStrings.12>collapsed->caigut</Transition_Downed.rulePack.rulesStrings.12>
+  <Transition_Downed.rulePack.rulesStrings.13>collapsed->desmaiat</Transition_Downed.rulePack.rulesStrings.13>
+  <Transition_Downed.rulePack.rulesStrings.14>helplessly->sense ajuda</Transition_Downed.rulePack.rulesStrings.14>
+  <Transition_Downed.rulePack.rulesStrings.15>helplessly->inconscient</Transition_Downed.rulePack.rulesStrings.15>
+  <Transition_Downed.rulePack.rulesStrings.16>helplessly->sense forces</Transition_Downed.rulePack.rulesStrings.16>
+  <Transition_Downed.rulePack.rulesStrings.17>helplessly->debilment</Transition_Downed.rulePack.rulesStrings.17>
+  <Transition_Downed.rulePack.rulesStrings.18>helplessly->feblement</Transition_Downed.rulePack.rulesStrings.18>
+  <Transition_Downed.rulePack.rulesStrings.19>collapsemeta->[collapse]</Transition_Downed.rulePack.rulesStrings.19>
+  <Transition_Downed.rulePack.rulesStrings.20>collapsemeta(p=0.5)->[collapse] [helplessly]</Transition_Downed.rulePack.rulesStrings.20>
+  <Transition_Downed.rulePack.rulesStrings.21>collapsedmeta->[collapsed]</Transition_Downed.rulePack.rulesStrings.21>
+  <Transition_Downed.rulePack.rulesStrings.22>collapsedmeta(p=0.5)->[collapsed] [helplessly]</Transition_Downed.rulePack.rulesStrings.22>
+
+  <Transition_DiedInclude.rulePack.rulesStrings.0>logentry(p=1.5)->[culpritHediff_labelNoun] ha provocat que [subject_nameShortDef] [die].</Transition_DiedInclude.rulePack.rulesStrings.0>
+  <Transition_DiedInclude.rulePack.rulesStrings.1>logentry(p=1.5)->[culpritHediff_labelNoun] a [culpritHediff_target_label] ha provocat que [subject_nameShortDef] [die].</Transition_DiedInclude.rulePack.rulesStrings.1>
+  <Transition_DiedInclude.rulePack.rulesStrings.2>logentry->[subject_nameShortDef] [died] [duetoa] [culpritHediff_labelNoun] [flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.2>
+  <Transition_DiedInclude.rulePack.rulesStrings.3>logentry->[subject_nameShortDef] [died] [duetoa] [culpritHediff_labelNoun] a [culpritHediff_target_label] [flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.3>
+  <Transition_DiedInclude.rulePack.rulesStrings.4>logentry->[subject_nameShortDef] [died] [duetoa] [culpritHediff_labelNoun] a [culpritHediff_target_label] [flavorsuffix].</Transition_DiedInclude.rulePack.rulesStrings.4>
+  <Transition_DiedInclude.rulePack.rulesStrings.5>logentry(p=0.1)->[subject_nameShortDef] [died] [suffixflavor].</Transition_DiedInclude.rulePack.rulesStrings.5>
+
+  <Transition_Died.rulePack.rulesStrings.0>die(p=2)->mori</Transition_Died.rulePack.rulesStrings.0>
+  <Transition_Died.rulePack.rulesStrings.1>die->traspassi</Transition_Died.rulePack.rulesStrings.1>
+  <Transition_Died.rulePack.rulesStrings.2>die->expiri</Transition_Died.rulePack.rulesStrings.2>
+  <Transition_Died.rulePack.rulesStrings.3>die(p=0.5)->sucumbeixi a les seves ferides</Transition_Died.rulePack.rulesStrings.3>
+  <Transition_Died.rulePack.rulesStrings.4>died(p=2)->mort</Transition_Died.rulePack.rulesStrings.4>
+  <Transition_Died.rulePack.rulesStrings.5>died->traspassat</Transition_Died.rulePack.rulesStrings.5>
+  <Transition_Died.rulePack.rulesStrings.6>died->expirat</Transition_Died.rulePack.rulesStrings.6>
+
+  <Transition_DiedExplosive.rulePack.rulesStrings.0>die(p=3)->explota [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.0>
+  <Transition_DiedExplosive.rulePack.rulesStrings.1>die(p=3)->explota [flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.1>
+  <Transition_DiedExplosive.rulePack.rulesStrings.2>die->detona [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.2>
+  <Transition_DiedExplosive.rulePack.rulesStrings.3>die->detona [flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.3>
+  <Transition_DiedExplosive.rulePack.rulesStrings.4>die->esclata [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.4>
+  <Transition_DiedExplosive.rulePack.rulesStrings.5>die->esclata [flavorsuffix]</Transition_DiedExplosive.rulePack.rulesStrings.5>
+  <Transition_DiedExplosive.rulePack.rulesStrings.6>died(p=3)->explotat [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.6>
+  <Transition_DiedExplosive.rulePack.rulesStrings.7>died->detonat [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.7>
+  <Transition_DiedExplosive.rulePack.rulesStrings.8>died->esclatat [flavor]</Transition_DiedExplosive.rulePack.rulesStrings.8>
+  <Transition_DiedExplosive.rulePack.rulesStrings.9>flavor(p=0.2)->en una [fireball] química</Transition_DiedExplosive.rulePack.rulesStrings.9>
+  <Transition_DiedExplosive.rulePack.rulesStrings.10>flavor->en una [fireball] [color]</Transition_DiedExplosive.rulePack.rulesStrings.10>
+  <Transition_DiedExplosive.rulePack.rulesStrings.11>flavor->en una [large] [fireball]</Transition_DiedExplosive.rulePack.rulesStrings.11>
+  <Transition_DiedExplosive.rulePack.rulesStrings.12>flavor(p=4)->en una [fireball]</Transition_DiedExplosive.rulePack.rulesStrings.12>
+  <Transition_DiedExplosive.rulePack.rulesStrings.13>flavor(p=4)-></Transition_DiedExplosive.rulePack.rulesStrings.13>
+  <Transition_DiedExplosive.rulePack.rulesStrings.14>flavorsuffix->, escampant [pieces] [everywhere]</Transition_DiedExplosive.rulePack.rulesStrings.14>
+  <Transition_DiedExplosive.rulePack.rulesStrings.15>flavorsuffix(p=2)->, escampant [gore] [everywhere]</Transition_DiedExplosive.rulePack.rulesStrings.15>
+  <Transition_DiedExplosive.rulePack.rulesStrings.16>flavorsuffix->, deixant una muntanyeta de [gore]</Transition_DiedExplosive.rulePack.rulesStrings.16>
+  <Transition_DiedExplosive.rulePack.rulesStrings.17>flavorsuffix->, deixant un petit cràter</Transition_DiedExplosive.rulePack.rulesStrings.17>
+  <Transition_DiedExplosive.rulePack.rulesStrings.18>flavorsuffix(p=4)-></Transition_DiedExplosive.rulePack.rulesStrings.18>
+  <Transition_DiedExplosive.rulePack.rulesStrings.19>fireball(p=3)->bola de foc</Transition_DiedExplosive.rulePack.rulesStrings.19>
+  <Transition_DiedExplosive.rulePack.rulesStrings.20>fireball->bola de flames</Transition_DiedExplosive.rulePack.rulesStrings.20>
+  <Transition_DiedExplosive.rulePack.rulesStrings.21>fireball->terratremol</Transition_DiedExplosive.rulePack.rulesStrings.21>
+  <Transition_DiedExplosive.rulePack.rulesStrings.22>fireball->conflagració</Transition_DiedExplosive.rulePack.rulesStrings.22>
+  <Transition_DiedExplosive.rulePack.rulesStrings.23>pieces->troços</Transition_DiedExplosive.rulePack.rulesStrings.23>
+  <Transition_DiedExplosive.rulePack.rulesStrings.24>pieces->fragments</Transition_DiedExplosive.rulePack.rulesStrings.24>
+  <Transition_DiedExplosive.rulePack.rulesStrings.25>everywhere->per tot arreu</Transition_DiedExplosive.rulePack.rulesStrings.25>
+  <Transition_DiedExplosive.rulePack.rulesStrings.26>everywhere->en un gran cercle</Transition_DiedExplosive.rulePack.rulesStrings.26>
+
+
+</LanguageData>
