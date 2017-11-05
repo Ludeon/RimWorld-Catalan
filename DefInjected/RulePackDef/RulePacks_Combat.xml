@@ -3,13 +3,13 @@
 
   <Combat_General.rulePack.rulesStrings.0>logentry->[action], [result].</Combat_General.rulePack.rulesStrings.0>
   <Combat_General.rulePack.rulesStrings.1>logentry(p=0.2)->[action].</Combat_General.rulePack.rulesStrings.1>
-  <Combat_General.rulePack.rulesStrings.2>implement(implementOwnerType==weapon,p=2)->[initiator_possessive] [weapon_label]'s [tool_label]</Combat_General.rulePack.rulesStrings.2>
+  <Combat_General.rulePack.rulesStrings.2>implement(implementOwnerType==weapon,p=2)->[initiator_possessive] [tool_label] de [weapon_label]</Combat_General.rulePack.rulesStrings.2>
   <Combat_General.rulePack.rulesStrings.3>implement(implementOwnerType==weapon,p=1)->[initiator_possessive] [weapon_label]</Combat_General.rulePack.rulesStrings.3>
   <Combat_General.rulePack.rulesStrings.4>implement(implementOwnerType==weapon,p=1)->un [tool_label] de [weapon_label]</Combat_General.rulePack.rulesStrings.4>
   <Combat_General.rulePack.rulesStrings.5>implement(implementOwnerType==weapon,p=0.5)->un [weapon_label]</Combat_General.rulePack.rulesStrings.5>
   <Combat_General.rulePack.rulesStrings.6>implement(implementOwnerType==bodypart,p=2)->[initiator_possessive] [tool_label]</Combat_General.rulePack.rulesStrings.6>
   <Combat_General.rulePack.rulesStrings.7>implement(implementOwnerType==bodypart,p=1)->[initiator_possessive] [bodypart_adjective] [tool_label]</Combat_General.rulePack.rulesStrings.7>
-  <Combat_General.rulePack.rulesStrings.8>implement(implementOwnerType==hediff,p=2)->[initiator_possessive] [weapon_label]'s [tool_label]</Combat_General.rulePack.rulesStrings.8>
+  <Combat_General.rulePack.rulesStrings.8>implement(implementOwnerType==hediff,p=2)->[initiator_possessive] [tool_label] de [weapon_label]</Combat_General.rulePack.rulesStrings.8>
   <Combat_General.rulePack.rulesStrings.9>implement(implementOwnerType==hediff,p=1)->[initiator_possessive] [weapon_label]</Combat_General.rulePack.rulesStrings.9>
   <Combat_General.rulePack.rulesStrings.10>implement(implementOwnerType==hediff,p=1)->[initiator_possessive] [tool_label]</Combat_General.rulePack.rulesStrings.10>
   <Combat_General.rulePack.rulesStrings.11>bodypart_adjective->dur</Combat_General.rulePack.rulesStrings.11>
@@ -84,7 +84,7 @@
   <Combat_General.rulePack.rulesStrings.80>mortarshell(p=0.3)->tret balístic</Combat_General.rulePack.rulesStrings.80>
   <Combat_General.rulePack.rulesStrings.81>mortarshell(p=0.3)->míssil balístic</Combat_General.rulePack.rulesStrings.81>
   <Combat_General.rulePack.rulesStrings.82>to->a</Combat_General.rulePack.rulesStrings.82>
-  <Combat_General.rulePack.rulesStrings.83>to->al</Combat_General.rulePack.rulesStrings.83>
+  <Combat_General.rulePack.rulesStrings.83>to->en</Combat_General.rulePack.rulesStrings.83>
 
   <Combat_WoundInclude.rulePack.rulesStrings.0>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</Combat_WoundInclude.rulePack.rulesStrings.0>
   <Combat_WoundInclude.rulePack.rulesStrings.1>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] i [recipient_part_destroyed1_label]</Combat_WoundInclude.rulePack.rulesStrings.1>
@@ -158,13 +158,13 @@
   <Combat_FailIncludes.rulePack.rulesStrings.4>action(p=0.3)->[initiator_nameShortDef] [genericattackverb] [towardsat] [recipient_nameShortDef] amb [implement]</Combat_FailIncludes.rulePack.rulesStrings.4>
   <Combat_FailIncludes.rulePack.rulesStrings.5>action(p=0.3)->[initiator_nameShortDef] [genericattackverb] [towardsat] [recipient_nameShortDef]</Combat_FailIncludes.rulePack.rulesStrings.5>
   <Combat_FailIncludes.rulePack.rulesStrings.6>action(p=0.3)->[initiator_nameShortDef] [genericattackverb] amb [implement]</Combat_FailIncludes.rulePack.rulesStrings.6>
-  <Combat_FailIncludes.rulePack.rulesStrings.7>towardsat->towards</Combat_FailIncludes.rulePack.rulesStrings.7>
+  <Combat_FailIncludes.rulePack.rulesStrings.7>towardsat->cap a</Combat_FailIncludes.rulePack.rulesStrings.7>
   <Combat_FailIncludes.rulePack.rulesStrings.8>towardsat->a</Combat_FailIncludes.rulePack.rulesStrings.8>
   <Combat_FailIncludes.rulePack.rulesStrings.9>genericattackverb->ha brandat</Combat_FailIncludes.rulePack.rulesStrings.9>
   <Combat_FailIncludes.rulePack.rulesStrings.10>genericattackverb->ha sacsejat</Combat_FailIncludes.rulePack.rulesStrings.10>
   <Combat_FailIncludes.rulePack.rulesStrings.11>genericattackverb->ha apallissat</Combat_FailIncludes.rulePack.rulesStrings.11>
   <Combat_FailIncludes.rulePack.rulesStrings.12>tried->ha intentat</Combat_FailIncludes.rulePack.rulesStrings.12>
-  <Combat_FailIncludes.rulePack.rulesStrings.13>tried->ha provat</Combat_FailIncludes.rulePack.rulesStrings.13>
+  <Combat_FailIncludes.rulePack.rulesStrings.13>tried->ha provat de</Combat_FailIncludes.rulePack.rulesStrings.13>
 
   <Combat_Miss.rulePack.rulesStrings.0>logentry(p=0.2)->[recipient_nameShortDef] ha esquivat [maneuver_inf] [weapon_label] de [initiator_nameShortDef].</Combat_Miss.rulePack.rulesStrings.0>
   <Combat_Miss.rulePack.rulesStrings.1>logentry(p=0.2)->[initiator_nameShortDef] ha fallat [recipient_nameShortDef] amb un [maneuver_inf] de [implement].</Combat_Miss.rulePack.rulesStrings.1>
