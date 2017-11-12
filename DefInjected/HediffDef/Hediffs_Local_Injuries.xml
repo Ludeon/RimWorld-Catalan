@@ -3,16 +3,17 @@
 
   <!-- Missing body part -->
 
-  <MissingBodyPart.label>missing body part</MissingBodyPart.label>
-
+  <MissingBodyPart.label>part del cos que falta</MissingBodyPart.label>
+  <MissingBodyPart.labelNoun>una part del cos que falta</MissingBodyPart.labelNoun>
 
   <!-- Injuries -->
 
   <Misc.label>misc</Misc.label>
   <Misc.comps.0.labelTendedWell>embenat</Misc.comps.0.labelTendedWell>
   <Misc.comps.0.labelTendedWellInner>cosit</Misc.comps.0.labelTendedWellInner>
-  <Misc.comps.0.labelSolidTendedWell>arreglat</Misc.comps.0.labelSolidTendedWell>
+   <Misc.comps.0.labelSolidTendedWell>arreglat</Misc.comps.0.labelSolidTendedWell>
   <Misc.injuryProps.destroyedLabel>Destrucció</Misc.injuryProps.destroyedLabel>
+  <Misc.labelNoun>una ferida</Misc.labelNoun>
 
   <Burn.label>cremada</Burn.label>
   <Burn.comps.0.labelTendedWell>embenada</Burn.comps.0.labelTendedWell>
@@ -21,6 +22,7 @@
   <Burn.comps.2.oldLabel>cicatriu de cremada</Burn.comps.2.oldLabel>
   <Burn.injuryProps.destroyedLabel>Cremat</Burn.injuryProps.destroyedLabel>
   <Burn.injuryProps.destroyedOutLabel>Perdut per cremades</Burn.injuryProps.destroyedOutLabel>
+  <Burn.labelNoun>una cremada</Burn.labelNoun>
 
   <Crush.label>esclafament</Crush.label>
   <Crush.comps.0.labelTendedWell>embenat</Crush.comps.0.labelTendedWell>
@@ -28,12 +30,14 @@
   <Crush.comps.0.labelSolidTendedWell>arreglat</Crush.comps.0.labelSolidTendedWell>
   <Crush.comps.2.oldLabel>cicatriu</Crush.comps.2.oldLabel>
   <Crush.injuryProps.destroyedLabel>Esclafat</Crush.injuryProps.destroyedLabel>
+  <Crush.labelNoun>una ferida per esclafament</Crush.labelNoun>
 
   <Crack.label>trencament</Crack.label>
   <Crack.comps.0.labelTendedWell>curat</Crack.comps.0.labelTendedWell>
   <Crack.comps.0.labelTendedWellInner>curat</Crack.comps.0.labelTendedWellInner>
   <Crack.comps.0.labelSolidTendedWell>arreglat</Crack.comps.0.labelSolidTendedWell>
   <Crack.injuryProps.destroyedLabel>Fet a miques</Crack.injuryProps.destroyedLabel>
+  <Crack.labelNoun>un trencament</Crack.labelNoun
 
   <Cut.label>tall</Cut.label>
   <Cut.comps.0.labelTendedWell>embenat</Cut.comps.0.labelTendedWell>
@@ -42,12 +46,14 @@
   <Cut.comps.2.oldLabel>cicatriu de tall</Cut.comps.2.oldLabel>
   <Cut.injuryProps.destroyedLabel>Amputació</Cut.injuryProps.destroyedLabel>
   <Cut.injuryProps.destroyedOutLabel>Amputació</Cut.injuryProps.destroyedOutLabel>
+  <Cut.labelNoun>un tall</Cut.labelNoun>
 
-  <SurgicalCut.label>tall quirurgic</SurgicalCut.label>
+  <SurgicalCut.label>tall quirúrgic</SurgicalCut.label>
   <SurgicalCut.comps.0.labelTendedWell>embenat</SurgicalCut.comps.0.labelTendedWell>
   <SurgicalCut.comps.0.labelTendedWellInner>cosit</SurgicalCut.comps.0.labelTendedWellInner>
   <SurgicalCut.comps.0.labelSolidTendedWell>arreglat</SurgicalCut.comps.0.labelSolidTendedWell>
   <SurgicalCut.comps.1.oldLabel>cicatriu de tall</SurgicalCut.comps.1.oldLabel>
+  <SurgicalCut.labelNoun>tall quirúrgic</SurgicalCut.labelNoun>
 
   <Scratch.label>esgarrapada</Scratch.label>
   <Scratch.comps.0.labelTendedWell>embenada</Scratch.comps.0.labelTendedWell>
@@ -55,7 +61,8 @@
   <Scratch.comps.0.labelSolidTendedWell>arreglada</Scratch.comps.0.labelSolidTendedWell>
   <Scratch.comps.2.oldLabel>cicatriu d'esgarrapada</Scratch.comps.2.oldLabel>
   <Scratch.injuryProps.destroyedLabel>Arrencament</Scratch.injuryProps.destroyedLabel>
-  <Scratch.injuryProps.destroyedOutLabel>Arrencament</Scratch.injuryProps.destroyedOutLabel>
+ <Scratch.injuryProps.destroyedOutLabel>Arrencament</Scratch.injuryProps.destroyedOutLabel>
+  <Scratch.labelNoun>una esgarrapada</Scratch.labelNoun>
 
   <Bite.label>mossegada</Bite.label>
   <Bite.comps.0.labelTendedWell>embenada</Bite.comps.0.labelTendedWell>
@@ -64,6 +71,7 @@
   <Bite.comps.2.oldLabel>cicatriu de mossegada</Bite.comps.2.oldLabel>
   <Bite.injuryProps.destroyedLabel>Menjat</Bite.injuryProps.destroyedLabel>
   <Bite.injuryProps.destroyedOutLabel>Menjat</Bite.injuryProps.destroyedOutLabel>
+  <Bite.labelNoun>una mossegada</Bite.labelNoun>
 
   <Stab.label>apunyalament</Stab.label>
   <Stab.comps.0.labelTendedWell>embenat</Stab.comps.0.labelTendedWell>
@@ -72,6 +80,7 @@
   <Stab.comps.2.oldLabel>cicatriu d'apunyalament</Stab.comps.2.oldLabel>
   <Stab.injuryProps.destroyedLabel>Amputació</Stab.injuryProps.destroyedLabel>
   <Stab.injuryProps.destroyedOutLabel>Amputació</Stab.injuryProps.destroyedOutLabel>
+ <Stab.labelNoun>una ferida per apunyalament</Stab.labelNoun>
 
   <Gunshot.label>tret</Gunshot.label>
   <Gunshot.comps.0.labelTendedWell>embenat</Gunshot.comps.0.labelTendedWell>
@@ -81,6 +90,7 @@
   <Gunshot.comps.2.instantlyOldLabel>ferida de bala permanent</Gunshot.comps.2.instantlyOldLabel>
   <Gunshot.injuryProps.destroyedLabel>Arrencament per tret</Gunshot.injuryProps.destroyedLabel>
   <Gunshot.injuryProps.destroyedOutLabel>Arrencament per tret</Gunshot.injuryProps.destroyedOutLabel>
+  <Gunshot.labelNoun>una ferida per tret</Gunshot.labelNoun>
 
   <Shredded.label>esquinçat</Shredded.label>
   <Shredded.comps.0.labelTendedWell>embenat</Shredded.comps.0.labelTendedWell>
@@ -88,13 +98,15 @@
   <Shredded.comps.0.labelSolidTendedWell>arreglat</Shredded.comps.0.labelSolidTendedWell>
   <Shredded.comps.2.oldLabel>cicatriu</Shredded.comps.2.oldLabel>
   <Shredded.injuryProps.destroyedLabel>Arrencament</Shredded.injuryProps.destroyedLabel>
-  <Shredded.injuryProps.destroyedOutLabel>Arrencament</Shredded.injuryProps.destroyedOutLabel>
+ <Shredded.injuryProps.destroyedOutLabel>Arrencament</Shredded.injuryProps.destroyedOutLabel>
+ <Shredded.labelNoun>una ferida per esquinçament</Shredded.labelNoun>
 
   <Bruise.label>cop</Bruise.label>
   <Bruise.comps.0.labelTendedWell>embenat</Bruise.comps.0.labelTendedWell>
   <Bruise.comps.0.labelTendedWellInner>cosit</Bruise.comps.0.labelTendedWellInner>
   <Bruise.comps.0.labelSolidTendedWell>arreglat</Bruise.comps.0.labelSolidTendedWell>
-  <Bruise.injuryProps.destroyedLabel>Destrucció</Bruise.injuryProps.destroyedLabel>
+ <Bruise.injuryProps.destroyedLabel>Destrucció</Bruise.injuryProps.destroyedLabel>
+<Bruise.labelNoun>un cop</Bruise.labelNoun>
 
   <Frostbite.label>congelació</Frostbite.label>
   <Frostbite.comps.0.labelTendedWell>embenada</Frostbite.comps.0.labelTendedWell>
