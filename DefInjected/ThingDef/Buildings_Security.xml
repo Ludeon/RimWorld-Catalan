@@ -23,49 +23,17 @@
   <Gun_TurretImprovised.description>torreta amb metralladora.</Gun_TurretImprovised.description>
 
 
-  <!-- Mortar bomb turret -->
+  <!-- Mortar turret -->
 
-  <Turret_MortarBomb.label>morter</Turret_MortarBomb.label>
-  <Turret_MortarBomb.description>Un morter que llança projectils explosius. Cal accionar-lo manualment. Quan es destrueix, explota.</Turret_MortarBomb.description>
-  <Turret_MortarBomb_Blueprint.label>morter (projecte)</Turret_MortarBomb_Blueprint.label>
-  <Turret_MortarBomb_Blueprint_Install.label>morter (projecte)</Turret_MortarBomb_Blueprint_Install.label>
-  <Turret_MortarBomb_Frame.label>morter (en construcció)</Turret_MortarBomb_Frame.label>
-  <Turret_MortarBomb_Frame.description>Un morter que llança projectils explosius. Cal accionar-lo manualment. Quan es destrueix, explota.</Turret_MortarBomb_Frame.description>
+  <Turret_Mortar.label>morter</Turret_Mortar.label>
+  <Turret_Mortar.description>Un morter que llança projectils explosius. Cal accionar-lo manualment. Quan es destrueix, explota.</Turret_Mortar.description>
+  <Turret_Mortar_Blueprint.label>morter (projecte)</Turret_Mortar_Blueprint.label>
+  <Turret_Mortar_Blueprint_Install.label>morter (projecte)</Turret_Mortar_Blueprint_Install.label>
+  <Turret_Mortar_Frame.label>morter (en construcció)</Turret_Mortar_Frame.label>
+  <Turret_Mortar_Frame.description>Un morter que llança projectils explosius. Cal accionar-lo manualment. Quan es destrueix, explota.</Turret_Mortar_Frame.description>
 
-  <Artillery_MortarBomb.label>morter explosiu</Artillery_MortarBomb.label>
-  <Artillery_MortarBomb.description>Morter. Llença bombes per sobre els murs. Molt poc precís, però molt llarg abast.</Artillery_MortarBomb.description>
-
-  <Bullet_MortarBomb.label>projectil de morter explosiu</Bullet_MortarBomb.label>
-
-
-  <!-- Mortar incendiary turret -->
-
-  <Turret_MortarIncendiary.label>morter incendiari</Turret_MortarIncendiary.label>
-  <Turret_MortarIncendiary.description>Un morter que llança projectils incendiaris. Cal accionar-lo manualment. Quan es destrueix, explota.</Turret_MortarIncendiary.description>
-  <Turret_MortarIncendiary_Blueprint.label>morter incendiari (projecte)</Turret_MortarIncendiary_Blueprint.label>
-  <Turret_MortarIncendiary_Blueprint_Install.label>morter incendiari (projecte)</Turret_MortarIncendiary_Blueprint_Install.label>
-  <Turret_MortarIncendiary_Frame.label>morter incendiari (en construcció)</Turret_MortarIncendiary_Frame.label>
-  <Turret_MortarIncendiary_Frame.description>Un morter que llança projectils incendiaris. Cal accionar-lo manualment. Quan es destrueix, explota.</Turret_MortarIncendiary_Frame.description>
-
-  <Artillery_MortarIncendiary.label>morter incendiari</Artillery_MortarIncendiary.label>
-  <Artillery_MortarIncendiary.description>Morter. Llença bombes incendiàries per sobre els murs. Molt poc precís, però molt llarg abast.</Artillery_MortarIncendiary.description>
-
-  <Bullet_MortarIncendiary.label>projectil de morter incendiari</Bullet_MortarIncendiary.label>
-
-
-  <!-- Mortar EMP -->
-
-  <Turret_MortarEMP.label>morter PEM</Turret_MortarEMP.label>
-  <Turret_MortarEMP.description>Un morter que llença bombes PEM. Cal accionar-lo manualment. Quan es destrueix, explota.</Turret_MortarEMP.description>
-  <Turret_MortarEMP_Blueprint.label>morter PEM (projecte)</Turret_MortarEMP_Blueprint.label>
-  <Turret_MortarEMP_Blueprint_Install.label>morter PEM (projecte)</Turret_MortarEMP_Blueprint_Install.label>
-  <Turret_MortarEMP_Frame.label>morter PEM (en construcció)</Turret_MortarEMP_Frame.label>
-  <Turret_MortarEMP_Frame.description>Un morter que llença bombes PEM. Cal accionar-lo manualment. Quan es destrueix, explota.</Turret_MortarEMP_Frame.description>
-
-  <Artillery_MortarEMP.label>morter PEM</Artillery_MortarEMP.label>
-  <Artillery_MortarEMP.description>Morter. Llença bombes PEM per sobre els murs. Molt poc precís, però molt llarg abast.</Artillery_MortarEMP.description>
-
-  <Bullet_MortarEMP.label>projectil de morter PEM</Bullet_MortarEMP.label>
+  <Artillery_Mortar.label>morter</Artillery_Mortar.label>
+  <Artillery_Mortar.description>Llançador de morter. Llença les bombes per sobre dels murs. Molt poca precisió, però de llarg abast.</Artillery_Mortar.description>
 
 
   <!-- Traps -->
@@ -87,5 +55,17 @@
   <TrapIEDIncendiary_Blueprint.label>trampa incendiària (projecte)</TrapIEDIncendiary_Blueprint.label>
   <TrapIEDIncendiary_Frame.label>trampa incendiària (en construcció)</TrapIEDIncendiary_Frame.label>
  <TrapIEDIncendiary_Frame.description>Explosius barrejats formant una pasta incendiària amb un disparador químic de dispersió. El disparador químic és senzill i fiable.</TrapIEDIncendiary_Frame.description>
+
+  <TrapIED_Firefoam.label>trampa d’extinció</TrapIED_Firefoam.label>
+  <TrapIED_Firefoam.description>Quan algú toca el disparador, la trampa explota i llença espuma extintora a tot el voltant.</TrapIED_Firefoam.description>
+  <TrapIED_Firefoam_Blueprint.label>trampa d’extinció (projecte)</TrapIED_Firefoam_Blueprint.label>
+  <TrapIED_Firefoam_Frame.label> trampa d’extinció (en construcció)</TrapIED_Firefoam_Frame.label>
+  <TrapIED_Firefoam_Frame.description>Quan algú toca el disparador, la trampa explota i llença espuma extintora a tot el voltant.</TrapIED_Firefoam_Frame.description>
+
+  <TrapIED_AntigrainWarhead.label>trampa de capçal explosiu antigrà</TrapIED_AntigrainWarhead.label>
+  <TrapIED_AntigrainWarhead.description>Un minúscul capçal explosiu connectat a un disparador casolà. Crea una enorme explosió i crea incendis al voltant quan es dispara.</TrapIED_AntigrainWarhead.description>
+  <TrapIED_AntigrainWarhead_Blueprint.label>trampa de capçal explosiu antigrà (projecte)</TrapIED_AntigrainWarhead_Blueprint.label>
+  <TrapIED_AntigrainWarhead_Frame.label>trampes de capçal explosiu antigrà (en construcció)</TrapIED_AntigrainWarhead_Frame.label>
+  <TrapIED_AntigrainWarhead_Frame.description>Un minúscul capçal explosiu connectat a un disparador casolà. Crea una enorme explosió i crea incendis al voltant quan es dispara.</TrapIED_AntigrainWarhead_Frame.description>
 
 </LanguageData>

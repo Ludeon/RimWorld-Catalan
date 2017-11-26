@@ -37,6 +37,20 @@
   <HospitalBed_Frame.label>llit d'hospital (en construcció)</HospitalBed_Frame.label>
   <HospitalBed_Frame.description>Un llit dissenyat especialment per a persones convalescents. Millora la probabilitat d'èxit de les tasques mèdiques.</HospitalBed_Frame.description>
 
+ <Bedroll.label>sac de dormir</Bedroll.label>
+  <Bedroll.description>Un simple sac que s'estén a terra per dormir-hi a dins, normalment de roba o cuir i sovint acabat amb pel. És lleuger i es pot enrotllar per transportar-lo millor, però no és tant còmode com un llit normal.</Bedroll.description>
+  <Bedroll_Blueprint.label>sac de dormir (projecte)</Bedroll_Blueprint.label>
+  <Bedroll_Blueprint_Install.label>sac de dormir (projecte)</Bedroll_Blueprint_Install.label>
+  <Bedroll_Frame.label>sac de dormir (en construcció)</Bedroll_Frame.label>
+  <Bedroll_Frame.description>Un simple sac que s'estén a terra per dormir-hi a dins, normalment de roba o cuir i sovint acabat amb pel. És lleuger i es pot enrotllar per transportar-lo millor, però no és tant còmode com un llit normal.</Bedroll_Frame.description>
+
+  <BedrollDouble.label>sac de dormir de matrimoni</BedrollDouble.label>
+  <BedrollDouble.description>Un simple sac per dues persones que s'estén a terra per dormir-hi a dins, normalment de roba o cuir i sovint acabat amb pel. És lleuger i es pot enrotllar per transportar-lo millor, però no és tant còmode com un llit normal.</BedrollDouble.description>
+  <BedrollDouble_Blueprint.label>sac de dormir de matrimoni (projecte)</BedrollDouble_Blueprint.label>
+  <BedrollDouble_Blueprint_Install.label>sac de dormir de matrimoni (projecte)</BedrollDouble_Blueprint_Install.label>
+  <BedrollDouble_Frame.label>sac de dormir de matrimoni (en construcció)</BedrollDouble_Frame.label>
+  <BedrollDouble_Frame.description>Un simple sac per dues persones que s'estén a terra per dormir-hi a dins, normalment de roba o cuir i sovint acabat amb pel. És lleuger i es pot enrotllar per transportar-lo millor, però no és tant còmode com un llit normal.</BedrollDouble_Frame.description>
+
   <!-- Animal beds -->
 
   <AnimalSleepingSpot.label>lloc per dormir per animals</AnimalSleepingSpot.label>
@@ -85,19 +99,40 @@
 
   <!-- Table base -->
 
-  <TableShort.label>tauleta</TableShort.label>
-  <TableShort.description>La gent menja al voltant d'una taula, asseguts en cadires.</TableShort.description>
-  <TableShort_Blueprint.label>tauleta (projecte)</TableShort_Blueprint.label>
-  <TableShort_Blueprint_Install.label>tauleta (projecte)</TableShort_Blueprint_Install.label>
-  <TableShort_Frame.label>tauleta (en construcció)</TableShort_Frame.label>
-  <TableShort_Frame.description>La gent menja al voltant d'una taula, asseguts en cadires.</TableShort_Frame.description>
+  <EndTable.label>tauleta de nit</EndTable.label>
+  <EndTable.description>Una tauleta pel costat del llit. Fa que els llits del costat siguin una mica més còmodes. S’han de posar a tocar del capçal del llit. Posar-ne més d’una al mateix llit no millora l’efecte.</EndTable.description>
+  <EndTable_Blueprint.label> tauleta de nit (projecte)</EndTable_Blueprint.label>
+  <EndTable_Blueprint_Install.label>tauleta de nit (projecte)</EndTable_Blueprint_Install.label>
+  <EndTable_Frame.label> tauleta de nit (en construcció)</EndTable_Frame.label>
+  <EndTable_Frame.description>Una tauleta pel costat del llit. Fa que els llits del costat siguin una mica més còmodes. S’han de posar a tocar del capçal del llit. Posar-ne més d’una al mateix llit no millora l’efecte.</EndTable_Frame.description>
 
-  <TableLong.label>taula gran</TableLong.label>
-  <TableLong.description>La gent menja al voltant d'una taula, asseguts en cadires.</TableLong.description>
-  <TableLong_Blueprint.label>taula gran (projecte)</TableLong_Blueprint.label>
-  <TableLong_Blueprint_Install.label>taula gran (projecte)</TableLong_Blueprint_Install.label>
-  <TableLong_Frame.label>taula gran (en construcció)</TableLong_Frame.label>
-  <TableLong_Frame.description>La gent menja al voltant d'una taula, asseguts en cadires.</TableLong_Frame.description>
+  <Table1x2c.label>taula (1x2)</Table1x2c.label>
+  <Table1x2c.description>La gent menja al voltant d'una taula, asseguts en cadires.</Table1x2c.description>
+  <Table1x2c_Blueprint.label>taula (1x2) (projecte)</Table1x2c_Blueprint.label>
+  <Table1x2c_Blueprint_Install.label>taula (1x2) (projecte)</Table1x2c_Blueprint_Install.label>
+  <Table1x2c_Frame.label>taula (1x2) (en construcció)</Table1x2c_Frame.label>
+  <Table1x2c_Frame.description>La gent menja al voltant d'una taula, asseguts en cadires.</Table1x2c_Frame.description>
+
+  <Table2x2c.label>taula (2x2)</Table2x2c.label>
+  <Table2x2c.description>La gent menja al voltant d'una taula, asseguts en cadires.</Table2x2c.description>
+  <Table2x2c_Blueprint.label>taula (2x2) (projecte)</Table2x2c_Blueprint.label>
+  <Table2x2c_Blueprint_Install.label>table (2x2) (projecte)</Table2x2c_Blueprint_Install.label>
+  <Table2x2c_Frame.label>taula (2x2) (en construcció)</Table2x2c_Frame.label>
+  <Table2x2c_Frame.description>La gent menja al voltant d'una taula, asseguts en cadires.</Table2x2c_Frame.description>
+
+  <Table2x4c.label>taula (2x4)</Table2x4c.label>
+  <Table2x4c.description>La gent menja al voltant d'una taula, asseguts en cadires.</Table2x4c.description>
+  <Table2x4c_Blueprint.label>taula (2x4) (projecte)</Table2x4c_Blueprint.label>
+  <Table2x4c_Blueprint_Install.label>table (2x4) (projecte)</Table2x4c_Blueprint_Install.label>
+  <Table2x4c_Frame.label>taula (2x4) (en construcció)</Table2x4c_Frame.label>
+  <Table2x4c_Frame.description>La gent menja al voltant d'una taula, asseguts en cadires .</Table2x4c_Frame.description>
+
+  <Table3x3c.label>taula (3x3)</Table3x3c.label>
+  <Table3x3c.description>La gent menja al voltant d'una taula, asseguts en cadires.</Table3x3c.description>
+  <Table3x3c_Blueprint.label>taula (3x3) (projecte)</Table3x3c_Blueprint.label>
+  <Table3x3c_Blueprint_Install.label>taula (3x3) (blueprint)</Table3x3c_Blueprint_Install.label>
+  <Table3x3c_Frame.label>taula (3x3) (en construcció)</Table3x3c_Frame.label>
+  <Table3x3c_Frame.description>La gent menja al voltant d'una taula, asseguts en cadires.</Table3x3c_Frame.description>
 
   <PlantPot.label>test</PlantPot.label>
   <PlantPot.description>Planteu-hi flors decoratives per millorar l'estat d'ànim  dels que hi són a prop.</PlantPot.description>
@@ -157,8 +192,16 @@
   <Shelf.description>Els objectes que es desin aquí no es faran malbé, encara que estigui a l'exterior.</Shelf.description>
   <Shelf_Blueprint.label>prestatgeria (projecte)</Shelf_Blueprint.label>
   <Shelf_Blueprint_Install.label>shelf (projecte)</Shelf_Blueprint_Install.label>
-  <Shelf_Frame.label>prestatgeria (building)</Shelf_Frame.label>
+  <Shelf_Frame.label>prestatgeria (en construcció)</Shelf_Frame.label>
   <Shelf_Frame.description>Els objectes que es desin aquí no es faran malbé, encara que estigui a l'exterior.</Shelf_Frame.description>
 
+  <!-- Dressers -->
+
+  <Dresser.label>armari</Dresser.label>
+  <Dresser.description>Millora una mica la comoditat dels llits propers. Posar més d’una armari prop del llit no millorarà l’efecte.</Dresser.description>
+  <Dresser_Blueprint.label>armari (projecte)</Dresser_Blueprint.label>
+  <Dresser_Blueprint_Install.label>dresser (projecte)</Dresser_Blueprint_Install.label>
+  <Dresser_Frame.label>armari (en construcció)</Dresser_Frame.label>
+  <Dresser_Frame.description>Millora una mica la comoditat dels llits propers. Posar més d’una armari prop del llit no millorarà l’efecte.</Dresser_Frame.description>
 
 </LanguageData>
