@@ -7,11 +7,28 @@
   <AIPersonaCore.description>Un nucli computacional hiperavançat que conté intel·ligència artificial supra-humana. Si està aïllat, el nucli no funciona. En canvi, si s'instal·la sobre un suport adequat, pot esdevenir una ment perillosament poderosa.</AIPersonaCore.description>
 
 
-  <!-- Neurotrainer -->
+  <!-- Mech serum -->
 
-  <Neurotrainer.label>neuroentrenador</Neurotrainer.label>
-  <Neurotrainer.description>Un dispositiu de nano-tecnologia d'un sol ús. El neuroentrenador s'insereix per l'òrbita de l'ull i instal·la nano-màquines al cervell del pacient, millorant immediatament les seves capacitats en una dererminada àrea.</Neurotrainer.description>
-  <Neurotrainer.comps.1.useLabel>Fes servir el neuroentrenador per aprendre {0}</Neurotrainer.comps.1.useLabel>
+  <MechSerumNeurotrainer.label>meca-sèrum neuroentrenador</MechSerumNeurotrainer.label>
+  <MechSerumNeurotrainer.description>Una super-dosis d’un sol ús de mecanites tractades per millorar una capacitat especifica. La dosi s’administra per l’òrbita ocular. Un cop arriba al cervell, les mecanites milloren instantàniament la capacitat del subjecte en una àrea específica, convertint-se en el teixit neuronal necessari.</MechSerumNeurotrainer.description>
+  <MechSerumNeurotrainer.comps.1.useLabel>Fa servir el meca-sèrum neuroentrenador per millorar {0}</MechSerumNeurotrainer.comps.1.useLabel>
+
+  <MechSerumHealer.label>meca-sèrum curatiu</MechSerumHealer.label>
+  <MechSerumHealer.description>Una super-dosis d’un sol ús de mecanites tractades per millorar la salut. Les mecanites es concentraran a curar la pitjor condició de salut que afecti l’usuari en aquell moment. Funciona fins i tot en condicions de salut que d’altra forma serien incurables. Les mecanites poden arribar a convertir-se en matèria orgànica per formar l’extremitat o l’organ que es necessiti.</MechSerumHealer.description>
+  <MechSerumHealer.comps.1.useLabel>Fa servir meca-sèrum curatiu</MechSerumHealer.comps.1.useLabel>
+
+  <MechSerumResurrector.label>meca-sèrum de resurrecció</MechSerumResurrector.label>
+  <MechSerumResurrector.description>Una super-dosis d’un sol ús de mecanites tractades per ressuscitar a un mort. Si s’administra a un cadaver poc després de la mort de l’individu, les mecanites reparen el teixit danyat i retorna el cos a la vida. No sempre funciona bé, el subjecte pot tornar a la vida amb danys cerebrals, ceguesa o psicosis progressiva. Com més aviat s’utilitzi, més probabilitats d’èxit té.</MechSerumResurrector.description>
+  <MechSerumResurrector.comps.1.useLabel>Fa servir meca-sèrum de resurrecció</MechSerumResurrector.comps.1.useLabel>
+
+
+  <!-- Technology helper persona -->
+
+  <TechprofSubpersonaCore.label>techprof subpersona core</TechprofSubpersonaCore.label>
+  <TechprofSubpersonaCore.description>A small AI core housing a low-grade subpersona specialized in teaching technology. When used, the AI will teach you one technology you don't know, instantly and for free. Can only be used once.</TechprofSubpersonaCore.description>
+  <TechprofSubpersonaCore.comps.1.useLabel>Use techprof subpersona core</TechprofSubpersonaCore.comps.1.useLabel>
+
+
 
 
   <!-- Thrumbo horn -->
