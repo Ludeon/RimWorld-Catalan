@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Bullet_Pistol.label>bala de pistola</Bullet_Pistol.label>
+  <Bullet_Revolver.label>bala de revòlver</Bullet_Revolver.label>
 
-  <Gun_Pistol.label>pistola</Gun_Pistol.label>
-  <Gun_Pistol.description>Antic model de pistola automàtica. Ràpida, però poc efectiva i de curt abast.</Gun_Pistol.description>
+  <Gun_Revolver.label>revòlver</Gun_Revolver.label>
+  <Gun_Revolver.description>Clàssic model de revòlver de doble acció. Ràpid, abast mitjà i poc efectiu.</Gun_Revolver.description>
+  <Gun_Revolver.tools.0.label>empunyadura</Gun_Revolver.tools.0.label>
+  <Gun_Revolver.tools.1.label>canó</Gun_Revolver.tools.1.label>
+
+  <Bullet_Autopistol.label>bala de pistola automàtica</Bullet_Autopistol.label>
+
+  <Gun_Autopistol.label>pistola automàtica</Gun_Autopistol.label>
+  <Gun_Autopistol.description>Clàssic model de pistola automàtica. Poc efectiu i de curt abast, però força ràpid.</Gun_Autopistol.description>
+  <Gun_Autopistol.tools.0.label>empunyadura</Gun_Autopistol.tools.0.label>
+  <Gun_Autopistol.tools.1.label>canó</Gun_Autopistol.tools.1.label>
 
 
   <!-- T-9 incendiary launcher -->
@@ -14,30 +23,40 @@
   <Gun_IncendiaryLauncher.label>Llançador incendiari</Gun_IncendiaryLauncher.label>
   <Gun_IncendiaryLauncher.description>Llançador de fletxes incendiàries. Inicia incèndis.</Gun_IncendiaryLauncher.description>
 
+<Gun_IncendiaryLauncher.tools.0.label>culata</Gun_IncendiaryLauncher.tools.0.label>
+  <Gun_IncendiaryLauncher.tools.1.label>canó</Gun_IncendiaryLauncher.tools.1.label>
   <Bullet_PumpShotgun.label>cartutx d'escopeta</Bullet_PumpShotgun.label>
 
   <Gun_PumpShotgun.label>escopeta de bombament</Gun_PumpShotgun.label>
   <Gun_PumpShotgun.description>Es recarrega automàticament desplaçant el guardamà endavant i endarrere. Mortal, però de curt abast.</Gun_PumpShotgun.description>
-
-  <Bullet_ChainShotgun.label>cartutx d'escopeta</Bullet_ChainShotgun.label>
+  <Gun_PumpShotgun.tools.0.label>culata</Gun_PumpShotgun.tools.0.label>
+  <Gun_PumpShotgun.tools.1.label>canó</Gun_PumpShotgun.tools.1.label>
 
   <Gun_ChainShotgun.label>escopeta de cadena</Gun_ChainShotgun.label>
   <Gun_ChainShotgun.description>Una escopeta amb carregador completament automàtica. De curt abast i molt poca precisió, però tremendament perillosa.</Gun_ChainShotgun.description>
+ <Gun_ChainShotgun.tools.0.label>culata</Gun_ChainShotgun.tools.0.label>
+  <Gun_ChainShotgun.tools.1.label>canó</Gun_ChainShotgun.tools.1.label>
 
   <Bullet_BoltActionRifle.label>bala de rifle de pestell</Bullet_BoltActionRifle.label>
 
   <Gun_BoltActionRifle.label>rifle de pestell</Gun_BoltActionRifle.label>
   <Gun_BoltActionRifle.description>Rifle de pestell de disseny antiquat. Bon abast, bona potència i baixa cadència.</Gun_BoltActionRifle.description>
+  <Gun_BoltActionRifle.tools.0.label>culata</Gun_BoltActionRifle.tools.0.label>
+  <Gun_BoltActionRifle.tools.1.label>canó</Gun_BoltActionRifle.tools.1.label>
 
   <Bullet_MachinePistol.label>bala de pistola metralladora</Bullet_MachinePistol.label>
 
   <Gun_MachinePistol.label>pistola metralladora</Gun_MachinePistol.label>
   <Gun_MachinePistol.description>Una arma petita. Curt abast, poca potència, altíssima cadència de foc. Apunta i dispara molt de pressa.</Gun_MachinePistol.description>
+  <Gun_MachinePistol.tools.0.label>empunyadura</Gun_MachinePistol.tools.0.label>
+  <Gun_MachinePistol.tools.1.label>canó</Gun_MachinePistol.tools.1.label>
 
   <Bullet_HeavySMG.label>bala de subfusell pesat</Bullet_HeavySMG.label>
 
   <Gun_HeavySMG.label>subfusell pesat</Gun_HeavySMG.label>
   <Gun_HeavySMG.description>Compacte i de gran calibre. Té un rang molt curt, però pot fer front força bé a un grup d'atacants cos a cos.</Gun_HeavySMG.description>
+  <Gun_HeavySMG.tools.0.label>empunyadura</Gun_HeavySMG.tools.0.label>
+  <Gun_HeavySMG.tools.1.label>canó</Gun_HeavySMG.tools.1.label>
 
 
   <!-- LMG -->
@@ -46,11 +65,15 @@
 
   <Gun_LMG.label>subfusell</Gun_LMG.label>
   <Gun_LMG.description>Una metralladora lleugera.</Gun_LMG.description>
+  <Gun_LMG.tools.0.label>culata</Gun_LMG.tools.0.label>
+  <Gun_LMG.tools.1.label>canó</Gun_LMG.tools.1.label>
 
   <Bullet_AssaultRifle.label>bala de rifle d'assalt</Bullet_AssaultRifle.label>
 
   <Gun_AssaultRifle.label>rifle d'assalt</Gun_AssaultRifle.label>
   <Gun_AssaultRifle.description>Una arma militar que tan serveix pel combat urbà com a camp obert. Dispara ràfegues de tres bales. Bon rang, baixa potència i elevada cadència de foc.</Gun_AssaultRifle.description>
+  <Gun_AssaultRifle.tools.0.label>culata</Gun_AssaultRifle.tools.0.label>
+  <Gun_AssaultRifle.tools.1.label>canó</Gun_AssaultRifle.tools.1.label>
 
 
   <!-- Charge rifle -->
@@ -59,11 +82,16 @@
 
   <Gun_ChargeRifle.label>fusell de càrregues</Gun_ChargeRifle.label>
   <Gun_ChargeRifle.description>Fusell de càrregues d'energia/projectils.</Gun_ChargeRifle.description>
+  <Gun_ChargeRifle.tools.0.label>culata</Gun_ChargeRifle.tools.0.label>
+  <Gun_ChargeRifle.tools.1.label>canó</Gun_ChargeRifle.tools.1.label>
 
   <Bullet_SniperRifle.label>bala de fusell de franctirador</Bullet_SniperRifle.label>
 
   <Gun_SniperRifle.label>fusell de franctirador</Gun_SniperRifle.label>
   <Gun_SniperRifle.description>Antic model militar de fusell de franctirador. Es carrega amb pestell. Llarg abast, excel·lent precisió i potència.</Gun_SniperRifle.description>
+  <Gun_SniperRifle.tools.0.label>culata</Gun_SniperRifle.tools.0.label>
+  <Gun_SniperRifle.tools.1.label>canó</Gun_SniperRifle.tools.1.label>
+
 
 
   <!-- Minigun -->
@@ -72,6 +100,7 @@
 
   <Gun_Minigun.label>minigun</Gun_Minigun.label>
   <Gun_Minigun.description>Una metralladora amb diversos canons rotatius amb una cadència de foc extremadament elevada. Es munta en mecanòides.</Gun_Minigun.description>
+  <Gun_Minigun.tools.0.label>canons</Gun_Minigun.tools.0.label>
 
 
   <!-- Non-producible -->
@@ -80,11 +109,13 @@
 
   <Gun_TripleRocket.label>Llançacoets triple</Gun_TripleRocket.label>
   <Gun_TripleRocket.description>Un llançador de coets d'un sol ús que dispara 3 projectils consecutius.</Gun_TripleRocket.description>
+<Gun_TripleRocket.tools.0.label>canó</Gun_TripleRocket.tools.0.label>
 
   <Bullet_DoomsdayRocket.label>coet apocalíptic</Bullet_DoomsdayRocket.label>
 
   <Gun_DoomsdayRocket.label>Llançador de coets apocalíptics</Gun_DoomsdayRocket.label>
   <Gun_DoomsdayRocket.description>Un llançacoets d'un sol ús per aconseguir una ràpida recompensa.</Gun_DoomsdayRocket.description>
+<Gun_DoomsdayRocket.tools.0.label>canó</Gun_DoomsdayRocket.tools.0.label>
 
 
   <!-- Mechanoid weapons -->
@@ -93,16 +124,19 @@
 
   <Gun_ChargeLance.label>llança de càrregues</Gun_ChargeLance.label>
   <Gun_ChargeLance.description>Una llança muntada sobre guies per llençar càrregues. Dispara una càrrega a gran velocitat.</Gun_ChargeLance.description>
+<Gun_ChargeLance.tools.0.label>canó</Gun_ChargeLance.tools.0.label>
 
   <Bullet_InfernoCannon.label>bala de canó infernal</Bullet_InfernoCannon.label>
 
   <Gun_InfernoCannon.label>canó infernal</Gun_InfernoCannon.label>
   <Gun_InfernoCannon.description>dispositiu d'artilleria menor que dispara bales incendiàries. Es munta en mecanòides.</Gun_InfernoCannon.description>
+ <Gun_InfernoCannon.tools.0.label>canó</Gun_InfernoCannon.tools.0.label>
 
   <Bullet_ChargeBlasterHeavy.label>impacte de ràfega de càrregues</Bullet_ChargeBlasterHeavy.label>
 
   <Gun_ChargeBlasterHeavy.label>ràfega de càrregues </Gun_ChargeBlasterHeavy.label>
   <Gun_ChargeBlasterHeavy.description>Dispara ràfegues de càrregues per anul·lar el foc enemic en una determinada zona. Es munta en mecanòides.</Gun_ChargeBlasterHeavy.description>
 
+<Gun_ChargeBlasterHeavy.tools.0.label>canó</Gun_ChargeBlasterHeavy.tools.0.label>
 
 </LanguageData>
