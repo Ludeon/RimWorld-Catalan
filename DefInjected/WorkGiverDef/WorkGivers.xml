@@ -8,11 +8,14 @@
   <FightFires.gerund>extingeix</FightFires.gerund>
 
 
-  <!-- PatientEmergency -->
+  <!-- Patient -->
+  <PatientGoToBedEmergencyTreatment.label>va al llit per a cures d’emergència</PatientGoToBedEmergencyTreatment.label>
+  <PatientGoToBedEmergencyTreatment.verb>rebre cures</PatientGoToBedEmergencyTreatment.verb>
+  <PatientGoToBedEmergencyTreatment.gerund>rep cures</PatientGoToBedEmergencyTreatment.gerund>
 
-  <PatientGoToBedEmergency.label>va al llit per a cures d’emergència</PatientGoToBedEmergency.label>
-  <PatientGoToBedEmergency.verb>rebre cures</PatientGoToBedEmergency.verb>
-  <PatientGoToBedEmergency.gerund>rep cures</PatientGoToBedEmergency.gerund>
+  <PatientGoToBedTreatment.label>va al llit per a cures</PatientGoToBedTreatment.label>
+  <PatientGoToBedTreatment.verb>rebre cures</PatientGoToBedTreatment.verb>
+  <PatientGoToBedTreatment.gerund>rep cures</PatientGoToBedTreatment.gerund>
 
 
   <!-- Doctor -->
@@ -64,14 +67,15 @@
 
   <!-- PatientBedRest -->
 
-  <PatientGoToBed.label>recuperar-se al llit</PatientGoToBed.label>
-  <PatientGoToBed.verb>descansar</PatientGoToBed.verb>
-  <PatientGoToBed.gerund>descansa</PatientGoToBed.gerund>
+  <PatientGoToBedRecuperate.label>recuperar-se al llit</PatientGoToBedRecuperate.label>
+  <PatientGoToBedRecuperate.verb>descansar al llit</PatientGoToBedRecuperate.verb>
+  <PatientGoToBedRecuperate.gerund>descansa al llit</PatientGoToBedRecuperate.gerund>
+ 
 
 
   <!-- Flicker -->
 
-  <Flick.label>vommuta interruptor</Flick.label>
+  <Flick.label>commuta interruptor</Flick.label>
   <Flick.verb>activar interruptor</Flick.verb>
   <Flick.gerund>activa interruptor</Flick.gerund>
 
@@ -205,20 +209,20 @@
 
   <!-- Growing -->
 
-  <GrowerHarvest.label>harvest crops</GrowerHarvest.label>
-  <GrowerHarvest.verb>harvest</GrowerHarvest.verb>
-  <GrowerHarvest.gerund>harvesting</GrowerHarvest.gerund>
+  <GrowerHarvest.label>fa la collita</GrowerHarvest.label>
+  <GrowerHarvest.verb>collir</GrowerHarvest.verb>
+  <GrowerHarvest.gerund>recol·lecta</GrowerHarvest.gerund>
 
-  <GrowerSow.label>sow crops</GrowerSow.label>
-  <GrowerSow.verb>sow</GrowerSow.verb>
-  <GrowerSow.gerund>sowing</GrowerSow.gerund>
+  <GrowerSow.label>llaura</GrowerSow.label>
+  <GrowerSow.verb>llaurar</GrowerSow.verb>
+  <GrowerSow.gerund>llaura</GrowerSow.gerund>
 
 
   <!-- Mining -->
 
-  <Mine.label>mine</Mine.label>
-  <Mine.verb>mine</Mine.verb>
-  <Mine.gerund>mining</Mine.gerund>
+  <Mine.label>mina</Mine.label>
+  <Mine.verb>minar</Mine.verb>
+  <Mine.gerund>mina</Mine.gerund>
 
   <Drill.label>perfora</Drill.label>
   <Drill.verb>perforar</Drill.verb>
@@ -267,7 +271,7 @@
   <DoBillsMedicalMechanoidOperation.verb>modificar</DoBillsMedicalMechanoidOperation.verb>
   <DoBillsMedicalMechanoidOperation.gerund>modifica</DoBillsMedicalMechanoidOperation.gerund>
 
-  <DoBillsUseCraftingSpot.label>treballa apunt de manufactura</DoBillsUseCraftingSpot.label>
+  <DoBillsUseCraftingSpot.label>treballa a punt de manufactura</DoBillsUseCraftingSpot.label>
   <DoBillsUseCraftingSpot.verb>crear</DoBillsUseCraftingSpot.verb>
   <DoBillsUseCraftingSpot.gerund>crea a</DoBillsUseCraftingSpot.gerund>
 
