@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Wounded.label>ferida</Wounded.label>
+  <Wounded.label>ferit</Wounded.label>
   <Wounded.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef]</Wounded.rulePack.rulesStrings.0>
   <Wounded.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] amb [weapon_label]</Wounded.rulePack.rulesStrings.1>
-  <Wounded.rulePack.rulesStrings.2>tale_noun->[wound_name_present] de [victim_nameShortDef] per [killer_nameShortDef]</Wounded.rulePack.rulesStrings.2>
-  <Wounded.rulePack.rulesStrings.3>tale_noun->[wound_name_present] de [victim_nameShortDef] amb [weapon_label]</Wounded.rulePack.rulesStrings.3>
-  <Wounded.rulePack.rulesStrings.4>tale_noun->[wound_name_present] de [victim_nameShortDef]</Wounded.rulePack.rulesStrings.4>
+  <Wounded.rulePack.rulesStrings.2>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef]</Wounded.rulePack.rulesStrings.2>
+  <Wounded.rulePack.rulesStrings.3>tale_noun->[weapon_label] [wound_name_present] [victim_nameShortDef]</Wounded.rulePack.rulesStrings.3>
+  <Wounded.rulePack.rulesStrings.4>tale_noun->[wound_name_present] [victim_nameShortDef]</Wounded.rulePack.rulesStrings.4>
   <Wounded.rulePack.rulesStrings.5>image->[victim_nameFull] sent [wound_name_past] per [killer_nameFull] [weapon_optional]</Wounded.rulePack.rulesStrings.5>
   <Wounded.rulePack.rulesStrings.6>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</Wounded.rulePack.rulesStrings.6>
-  <Wounded.rulePack.rulesStrings.7>image->[killer_nameFull] brutalment [wound_name_present] [victim_nameFull] [weapon_optional]</Wounded.rulePack.rulesStrings.7>
+  <Wounded.rulePack.rulesStrings.7>image->[killer_nameFull] [wound_name_present] brutalment [victim_nameFull] [weapon_optional]</Wounded.rulePack.rulesStrings.7>
   <Wounded.rulePack.rulesStrings.8>image->[victim_nameFull] sent [wound_name_past] [weapon_optional]</Wounded.rulePack.rulesStrings.8>
-  <Wounded.rulePack.rulesStrings.9>wound_name_past->ferit</Wounded.rulePack.rulesStrings.9>
-  <Wounded.rulePack.rulesStrings.10>wound_name_past->lesionat</Wounded.rulePack.rulesStrings.10>
-  <Wounded.rulePack.rulesStrings.11>wound_name_past->danyat</Wounded.rulePack.rulesStrings.11>
-  <Wounded.rulePack.rulesStrings.12>wound_name_past->assaltat</Wounded.rulePack.rulesStrings.12>
-  <Wounded.rulePack.rulesStrings.13>wound_name_past->atacat</Wounded.rulePack.rulesStrings.13>
+  <Wounded.rulePack.rulesStrings.9>wound_name_past->fereix</Wounded.rulePack.rulesStrings.9>
+  <Wounded.rulePack.rulesStrings.10>wound_name_past->lesiona</Wounded.rulePack.rulesStrings.10>
+  <Wounded.rulePack.rulesStrings.11>wound_name_past->danya</Wounded.rulePack.rulesStrings.11>
+  <Wounded.rulePack.rulesStrings.12>wound_name_past->assalta</Wounded.rulePack.rulesStrings.12>
+  <Wounded.rulePack.rulesStrings.13>wound_name_past->ataca</Wounded.rulePack.rulesStrings.13>
   <Wounded.rulePack.rulesStrings.14>wound_name_present->ferida</Wounded.rulePack.rulesStrings.14>
   <Wounded.rulePack.rulesStrings.15>wound_name_present->lesió</Wounded.rulePack.rulesStrings.15>
   <Wounded.rulePack.rulesStrings.16>wound_name_present->dany</Wounded.rulePack.rulesStrings.16>
@@ -43,42 +43,42 @@
   <Wounded.rulePack.rulesStrings.38>desc_sentence->[killer_nameShortDef] sembla encantat amb la situació.</Wounded.rulePack.rulesStrings.38>
   <Wounded.rulePack.rulesStrings.39>desc_sentence->[killer_nameShortDef] es mostra triomfant.</Wounded.rulePack.rulesStrings.39>
 
-  <Downed.label>downed</Downed.label>
+  <Downed.label>abatut</Downed.label>
   <Downed.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef]</Downed.rulePack.rulesStrings.0>
-  <Downed.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] with a [weapon_label]</Downed.rulePack.rulesStrings.1>
-  <Downed.rulePack.rulesStrings.2>tale_noun->the [wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef]</Downed.rulePack.rulesStrings.2>
-  <Downed.rulePack.rulesStrings.3>tale_noun->the [wound_name_present] of [victim_nameShortDef] with a [weapon_label]</Downed.rulePack.rulesStrings.3>
-  <Downed.rulePack.rulesStrings.4>tale_noun->the [wound_name_present] of [victim_nameShortDef]</Downed.rulePack.rulesStrings.4>
-  <Downed.rulePack.rulesStrings.5>image->[victim_nameFull] being [wound_name_past] by [killer_nameFull] [weapon_optional]</Downed.rulePack.rulesStrings.5>
+  <Downed.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] amb [weapon_label]</Downed.rulePack.rulesStrings.1>
+  <Downed.rulePack.rulesStrings.2>tale_noun->[wound_name_present] de [victim_nameShortDef] per [killer_nameShortDef]</Downed.rulePack.rulesStrings.2>
+  <Downed.rulePack.rulesStrings.3>tale_noun->[wound_name_present] de [victim_nameShortDef] amb [weapon_label]</Downed.rulePack.rulesStrings.3>
+  <Downed.rulePack.rulesStrings.4>tale_noun->[wound_name_present] de [victim_nameShortDef]</Downed.rulePack.rulesStrings.4>
+  <Downed.rulePack.rulesStrings.5>image->[victim_nameFull] sent [wound_name_past] per [killer_nameFull] [weapon_optional]</Downed.rulePack.rulesStrings.5>
   <Downed.rulePack.rulesStrings.6>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</Downed.rulePack.rulesStrings.6>
-  <Downed.rulePack.rulesStrings.7>image->[killer_nameFull] brutally [wound_name_present] [victim_nameFull] [weapon_optional]</Downed.rulePack.rulesStrings.7>
-  <Downed.rulePack.rulesStrings.8>image->[victim_nameFull] being [wound_name_past] [weapon_optional]</Downed.rulePack.rulesStrings.8>
-  <Downed.rulePack.rulesStrings.9>wound_name_past->incapacitated</Downed.rulePack.rulesStrings.9>
-  <Downed.rulePack.rulesStrings.10>wound_name_past->crippled</Downed.rulePack.rulesStrings.10>
-  <Downed.rulePack.rulesStrings.11>wound_name_past->knocked unconscious</Downed.rulePack.rulesStrings.11>
-  <Downed.rulePack.rulesStrings.12>wound_name_past->disabled</Downed.rulePack.rulesStrings.12>
-  <Downed.rulePack.rulesStrings.13>wound_name_present->incapacitating</Downed.rulePack.rulesStrings.13>
-  <Downed.rulePack.rulesStrings.14>wound_name_present->harming</Downed.rulePack.rulesStrings.14>
-  <Downed.rulePack.rulesStrings.15>wound_name_present->knocking unconscious</Downed.rulePack.rulesStrings.15>
-  <Downed.rulePack.rulesStrings.16>wound_name_present->disabling</Downed.rulePack.rulesStrings.16>
-  <Downed.rulePack.rulesStrings.17>weapon_optional->with a [weapon_label] [circumstance_group]</Downed.rulePack.rulesStrings.17>
+  <Downed.rulePack.rulesStrings.7>image->[killer_nameFull] [wound_name_present] brutalment [victim_nameFull] [weapon_optional]</Downed.rulePack.rulesStrings.7>
+  <Downed.rulePack.rulesStrings.8>image->[victim_nameFull] sent [wound_name_past] [weapon_optional]</Downed.rulePack.rulesStrings.8>
+  <Downed.rulePack.rulesStrings.9>wound_name_past->incapacitat</Downed.rulePack.rulesStrings.9>
+  <Downed.rulePack.rulesStrings.10>wound_name_past->mutilat</Downed.rulePack.rulesStrings.10>
+  <Downed.rulePack.rulesStrings.11>wound_name_past->deixat inconscient</Downed.rulePack.rulesStrings.11>
+  <Downed.rulePack.rulesStrings.12>wound_name_past->deixat invàlid</Downed.rulePack.rulesStrings.12>
+  <Downed.rulePack.rulesStrings.13>wound_name_present->incapacita</Downed.rulePack.rulesStrings.13>
+  <Downed.rulePack.rulesStrings.14>wound_name_present->lesiona</Downed.rulePack.rulesStrings.14>
+  <Downed.rulePack.rulesStrings.15>wound_name_present->deixa inconscient</Downed.rulePack.rulesStrings.15>
+  <Downed.rulePack.rulesStrings.16>wound_name_present->incapacita</Downed.rulePack.rulesStrings.16>
+  <Downed.rulePack.rulesStrings.17>weapon_optional->amb [weapon_label] [circumstance_group]</Downed.rulePack.rulesStrings.17>
   <Downed.rulePack.rulesStrings.18>weapon_optional->[circumstance_group]</Downed.rulePack.rulesStrings.18>
-  <Downed.rulePack.rulesStrings.19>circumstance_phrase->seemingly without remorse</Downed.rulePack.rulesStrings.19>
-  <Downed.rulePack.rulesStrings.20>circumstance_phrase->with cold efficiency</Downed.rulePack.rulesStrings.20>
-  <Downed.rulePack.rulesStrings.21>circumstance_phrase->with passionate rage</Downed.rulePack.rulesStrings.21>
-  <Downed.rulePack.rulesStrings.22>circumstance_phrase->with quick, efficient movements</Downed.rulePack.rulesStrings.22>
-  <Downed.rulePack.rulesStrings.23>circumstance_phrase->without emotion or expression</Downed.rulePack.rulesStrings.23>
-  <Downed.rulePack.rulesStrings.24>circumstance_phrase->out of bleak necessity</Downed.rulePack.rulesStrings.24>
-  <Downed.rulePack.rulesStrings.25>circumstance_phrase->in a cowardly, halfhearted way</Downed.rulePack.rulesStrings.25>
-  <Downed.rulePack.rulesStrings.26>desc_sentence->[quantity_adjphrase] [animal]s look on.</Downed.rulePack.rulesStrings.26>
-  <Downed.rulePack.rulesStrings.27>desc_sentence->A [outlander] watches silently [side_position].</Downed.rulePack.rulesStrings.27>
-  <Downed.rulePack.rulesStrings.28>desc_sentence->[victim_nameShortDef] looks [angstyadjective].</Downed.rulePack.rulesStrings.28>
-  <Downed.rulePack.rulesStrings.29>desc_sentence->[victim_nameShortDef]'s eyes are closed.</Downed.rulePack.rulesStrings.29>
-  <Downed.rulePack.rulesStrings.30>desc_sentence->[killer_nameShortDef] is baring [killer_possessive] teeth.</Downed.rulePack.rulesStrings.30>
-  <Downed.rulePack.rulesStrings.31>desc_sentence->[killer_nameShortDef] seems satisfied.</Downed.rulePack.rulesStrings.31>
-  <Downed.rulePack.rulesStrings.32>desc_sentence->[killer_nameShortDef] looks distressed at what [killer_pronoun] is doing.</Downed.rulePack.rulesStrings.32>
-  <Downed.rulePack.rulesStrings.33>desc_sentence->[killer_nameShortDef] looks pleased with the situation.</Downed.rulePack.rulesStrings.33>
-  <Downed.rulePack.rulesStrings.34>desc_sentence->[killer_nameShortDef] looks triumphant.</Downed.rulePack.rulesStrings.34>
+  <Downed.rulePack.rulesStrings.19>circumstance_phrase->sense remordiment aparent</Downed.rulePack.rulesStrings.19>
+  <Downed.rulePack.rulesStrings.20>circumstance_phrase->amb una freda eficiència</Downed.rulePack.rulesStrings.20>
+  <Downed.rulePack.rulesStrings.21>circumstance_phrase->amb una ràbia apassionada</Downed.rulePack.rulesStrings.21>
+  <Downed.rulePack.rulesStrings.22>circumstance_phrase->amb moviments ràpids i eficaços</Downed.rulePack.rulesStrings.22>
+  <Downed.rulePack.rulesStrings.23>circumstance_phrase->sense cap emoció o expressió</Downed.rulePack.rulesStrings.23>
+  <Downed.rulePack.rulesStrings.24>circumstance_phrase->sense cap fosca necessitat</Downed.rulePack.rulesStrings.24>
+  <Downed.rulePack.rulesStrings.25>circumstance_phrase->covardament i sense compassió</Downed.rulePack.rulesStrings.25>
+  <Downed.rulePack.rulesStrings.26>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</Downed.rulePack.rulesStrings.26>
+  <Downed.rulePack.rulesStrings.27>desc_sentence->Un [outlander] s’ho mira en silenci [side_position].</Downed.rulePack.rulesStrings.27>
+  <Downed.rulePack.rulesStrings.28>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</Downed.rulePack.rulesStrings.28>
+  <Downed.rulePack.rulesStrings.29>desc_sentence->[victim_nameShortDef] té els ulls tancats.</Downed.rulePack.rulesStrings.29>
+  <Downed.rulePack.rulesStrings.30>desc_sentence->[killer_nameShortDef] ensenya les dents.</Downed.rulePack.rulesStrings.30>
+  <Downed.rulePack.rulesStrings.31>desc_sentence->[killer_nameShortDef] sembla satisfet.</Downed.rulePack.rulesStrings.31>
+  <Downed.rulePack.rulesStrings.32>desc_sentence->[killer_nameShortDef] sembla patir pel que fa [killer_pronoun].</Downed.rulePack.rulesStrings.32>
+  <Downed.rulePack.rulesStrings.33>desc_sentence->[killer_nameShortDef] sembla encantat amb la situació.</Downed.rulePack.rulesStrings.33>
+  <Downed.rulePack.rulesStrings.34>desc_sentence->[killer_nameShortDef] es mostra triomfant.</Downed.rulePack.rulesStrings.34>
 
   <KilledLongRange.label>killed at distance</KilledLongRange.label>
   <KilledLongRange.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] at extreme distance</KilledLongRange.rulePack.rulesStrings.0>
