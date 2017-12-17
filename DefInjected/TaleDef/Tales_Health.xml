@@ -2,25 +2,25 @@
 <LanguageData>
 
   <Wounded.label>ferit</Wounded.label>
-  <Wounded.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef]</Wounded.rulePack.rulesStrings.0>
-  <Wounded.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] amb [weapon_label]</Wounded.rulePack.rulesStrings.1>
-  <Wounded.rulePack.rulesStrings.2>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef]</Wounded.rulePack.rulesStrings.2>
+  <Wounded.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef]</Wounded.rulePack.rulesStrings.0>
+  <Wounded.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] amb [weapon_label]</Wounded.rulePack.rulesStrings.1>
+  <Wounded.rulePack.rulesStrings.2>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef]</Wounded.rulePack.rulesStrings.2>
   <Wounded.rulePack.rulesStrings.3>tale_noun->[weapon_label] [wound_name_present] [victim_nameShortDef]</Wounded.rulePack.rulesStrings.3>
-  <Wounded.rulePack.rulesStrings.4>tale_noun->[wound_name_present] [victim_nameShortDef]</Wounded.rulePack.rulesStrings.4>
+  <Wounded.rulePack.rulesStrings.4>tale_noun->[killer_nameShortDef][wound_name_present] a [victim_nameShortDef]</Wounded.rulePack.rulesStrings.4>
   <Wounded.rulePack.rulesStrings.5>image->[victim_nameFull] sent [wound_name_past] per [killer_nameFull] [weapon_optional]</Wounded.rulePack.rulesStrings.5>
   <Wounded.rulePack.rulesStrings.6>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</Wounded.rulePack.rulesStrings.6>
   <Wounded.rulePack.rulesStrings.7>image->[killer_nameFull] [wound_name_present] brutalment [victim_nameFull] [weapon_optional]</Wounded.rulePack.rulesStrings.7>
   <Wounded.rulePack.rulesStrings.8>image->[victim_nameFull] sent [wound_name_past] [weapon_optional]</Wounded.rulePack.rulesStrings.8>
-  <Wounded.rulePack.rulesStrings.9>wound_name_past->fereix</Wounded.rulePack.rulesStrings.9>
-  <Wounded.rulePack.rulesStrings.10>wound_name_past->lesiona</Wounded.rulePack.rulesStrings.10>
-  <Wounded.rulePack.rulesStrings.11>wound_name_past->danya</Wounded.rulePack.rulesStrings.11>
-  <Wounded.rulePack.rulesStrings.12>wound_name_past->assalta</Wounded.rulePack.rulesStrings.12>
-  <Wounded.rulePack.rulesStrings.13>wound_name_past->ataca</Wounded.rulePack.rulesStrings.13>
-  <Wounded.rulePack.rulesStrings.14>wound_name_present->ferida</Wounded.rulePack.rulesStrings.14>
-  <Wounded.rulePack.rulesStrings.15>wound_name_present->lesió</Wounded.rulePack.rulesStrings.15>
-  <Wounded.rulePack.rulesStrings.16>wound_name_present->dany</Wounded.rulePack.rulesStrings.16>
-  <Wounded.rulePack.rulesStrings.17>wound_name_present->assalt</Wounded.rulePack.rulesStrings.17>
-  <Wounded.rulePack.rulesStrings.18>wound_name_present->atac</Wounded.rulePack.rulesStrings.18>
+  <Wounded.rulePack.rulesStrings.9>wound_name_past->ferit</Wounded.rulePack.rulesStrings.9>
+  <Wounded.rulePack.rulesStrings.10>wound_name_past->lesionat</Wounded.rulePack.rulesStrings.10>
+  <Wounded.rulePack.rulesStrings.11>wound_name_past->danyat</Wounded.rulePack.rulesStrings.11>
+  <Wounded.rulePack.rulesStrings.12>wound_name_past->assaltat</Wounded.rulePack.rulesStrings.12>
+  <Wounded.rulePack.rulesStrings.13>wound_name_past->atacat</Wounded.rulePack.rulesStrings.13>
+  <Wounded.rulePack.rulesStrings.14>wound_name_present->fereix</Wounded.rulePack.rulesStrings.14>
+  <Wounded.rulePack.rulesStrings.15>wound_name_present->lesiona</Wounded.rulePack.rulesStrings.15>
+  <Wounded.rulePack.rulesStrings.16>wound_name_present->danya</Wounded.rulePack.rulesStrings.16>
+  <Wounded.rulePack.rulesStrings.17>wound_name_present->assalta</Wounded.rulePack.rulesStrings.17>
+  <Wounded.rulePack.rulesStrings.18>wound_name_present->ataca</Wounded.rulePack.rulesStrings.18>
   <Wounded.rulePack.rulesStrings.19>weapon_optional->amb [weapon_label] [circumstance_group]</Wounded.rulePack.rulesStrings.19>
   <Wounded.rulePack.rulesStrings.20>weapon_optional->[circumstance_group]</Wounded.rulePack.rulesStrings.20>
   <Wounded.rulePack.rulesStrings.21>circumstance_phrase->aparentment sense remordiments</Wounded.rulePack.rulesStrings.21>
@@ -44,10 +44,10 @@
   <Wounded.rulePack.rulesStrings.39>desc_sentence->[killer_nameShortDef] es mostra triomfant.</Wounded.rulePack.rulesStrings.39>
 
   <Downed.label>abatut</Downed.label>
-  <Downed.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef]</Downed.rulePack.rulesStrings.0>
-  <Downed.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] amb [weapon_label]</Downed.rulePack.rulesStrings.1>
-  <Downed.rulePack.rulesStrings.2>tale_noun->[wound_name_present] de [victim_nameShortDef] per [killer_nameShortDef]</Downed.rulePack.rulesStrings.2>
-  <Downed.rulePack.rulesStrings.3>tale_noun->[wound_name_present] de [victim_nameShortDef] amb [weapon_label]</Downed.rulePack.rulesStrings.3>
+  <Downed.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef]</Downed.rulePack.rulesStrings.0>
+  <Downed.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] amb [weapon_label]</Downed.rulePack.rulesStrings.1>
+  <Downed.rulePack.rulesStrings.2>tale_noun->[killer_nameShortDef][wound_name_present] a [victim_nameShortDef]</Downed.rulePack.rulesStrings.2>
+  <Downed.rulePack.rulesStrings.3>tale_noun->[weapon_label] [wound_name_present] a [victim_nameShortDef]</Downed.rulePack.rulesStrings.3>
   <Downed.rulePack.rulesStrings.4>tale_noun->[wound_name_present] de [victim_nameShortDef]</Downed.rulePack.rulesStrings.4>
   <Downed.rulePack.rulesStrings.5>image->[victim_nameFull] sent [wound_name_past] per [killer_nameFull] [weapon_optional]</Downed.rulePack.rulesStrings.5>
   <Downed.rulePack.rulesStrings.6>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</Downed.rulePack.rulesStrings.6>
@@ -80,207 +80,207 @@
   <Downed.rulePack.rulesStrings.33>desc_sentence->[killer_nameShortDef] sembla encantat amb la situació.</Downed.rulePack.rulesStrings.33>
   <Downed.rulePack.rulesStrings.34>desc_sentence->[killer_nameShortDef] es mostra triomfant.</Downed.rulePack.rulesStrings.34>
 
-  <KilledLongRange.label>killed at distance</KilledLongRange.label>
-  <KilledLongRange.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] at extreme distance</KilledLongRange.rulePack.rulesStrings.0>
-  <KilledLongRange.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] at extreme distance with a [weapon_label]</KilledLongRange.rulePack.rulesStrings.1>
-  <KilledLongRange.rulePack.rulesStrings.2>tale_noun->long distance [wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef]</KilledLongRange.rulePack.rulesStrings.2>
-  <KilledLongRange.rulePack.rulesStrings.3>tale_noun->long distance [wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef] with a [weapon_label]</KilledLongRange.rulePack.rulesStrings.3>
-  <KilledLongRange.rulePack.rulesStrings.4>image->[killer_nameFull] aiming at [victim_nameFull] [weapon_optional]</KilledLongRange.rulePack.rulesStrings.4>
+  <KilledLongRange.label>mort a distància</KilledLongRange.label>
+  <KilledLongRange.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] des de molt lluny</KilledLongRange.rulePack.rulesStrings.0>
+  <KilledLongRange.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] des de molt lluny amb [weapon_label]</KilledLongRange.rulePack.rulesStrings.1>
+  <KilledLongRange.rulePack.rulesStrings.2>tale_noun->[killer_nameShortDef] [wound_name_present] a llarga distància [victim_nameShortDef] per </KilledLongRange.rulePack.rulesStrings.2>
+  <KilledLongRange.rulePack.rulesStrings.3>tale_noun->[killer_nameShortDef] [wound_name_present] a llarga distància [victim_nameShortDef] per  amb [weapon_label]</KilledLongRange.rulePack.rulesStrings.3>
+  <KilledLongRange.rulePack.rulesStrings.4>image->[killer_nameFull] apuntant a [victim_nameFull] [weapon_optional]</KilledLongRange.rulePack.rulesStrings.4>
   <KilledLongRange.rulePack.rulesStrings.5>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</KilledLongRange.rulePack.rulesStrings.5>
-  <KilledLongRange.rulePack.rulesStrings.6>image->[killer_nameFull] coldly [wound_name_present] [victim_nameFull] [weapon_optional]</KilledLongRange.rulePack.rulesStrings.6>
-  <KilledLongRange.rulePack.rulesStrings.7>wound_name_past->murdered</KilledLongRange.rulePack.rulesStrings.7>
-  <KilledLongRange.rulePack.rulesStrings.8>wound_name_past->slain</KilledLongRange.rulePack.rulesStrings.8>
-  <KilledLongRange.rulePack.rulesStrings.9>wound_name_past->slaughtered</KilledLongRange.rulePack.rulesStrings.9>
-  <KilledLongRange.rulePack.rulesStrings.10>wound_name_past->eliminated</KilledLongRange.rulePack.rulesStrings.10>
-  <KilledLongRange.rulePack.rulesStrings.11>wound_name_present->murdering</KilledLongRange.rulePack.rulesStrings.11>
-  <KilledLongRange.rulePack.rulesStrings.12>wound_name_present->slaying</KilledLongRange.rulePack.rulesStrings.12>
+  <KilledLongRange.rulePack.rulesStrings.6>image->[killer_nameFull] [wound_name_present] amb fredor [victim_nameFull] [weapon_optional]</KilledLongRange.rulePack.rulesStrings.6>
+  <KilledLongRange.rulePack.rulesStrings.7>wound_name_past->assassinat</KilledLongRange.rulePack.rulesStrings.7>
+  <KilledLongRange.rulePack.rulesStrings.8>wound_name_past->liquidat</KilledLongRange.rulePack.rulesStrings.8>
+  <KilledLongRange.rulePack.rulesStrings.9>wound_name_past->massacrat</KilledLongRange.rulePack.rulesStrings.9>
+  <KilledLongRange.rulePack.rulesStrings.10>wound_name_past->eliminat</KilledLongRange.rulePack.rulesStrings.10>
+  <KilledLongRange.rulePack.rulesStrings.11>wound_name_present->assassina</KilledLongRange.rulePack.rulesStrings.11>
+  <KilledLongRange.rulePack.rulesStrings.12>wound_name_present->liquida</KilledLongRange.rulePack.rulesStrings.12>
   <KilledLongRange.rulePack.rulesStrings.13>wound_name_present->slaughtering</KilledLongRange.rulePack.rulesStrings.13>
-  <KilledLongRange.rulePack.rulesStrings.14>wound_name_present->eliminating</KilledLongRange.rulePack.rulesStrings.14>
-  <KilledLongRange.rulePack.rulesStrings.15>weapon_optional->with a [weapon_label] [circumstance_group]</KilledLongRange.rulePack.rulesStrings.15>
+  <KilledLongRange.rulePack.rulesStrings.14>wound_name_present->massacra</KilledLongRange.rulePack.rulesStrings.14>
+  <KilledLongRange.rulePack.rulesStrings.15>weapon_optional->amb [weapon_label] [circumstance_group]</KilledLongRange.rulePack.rulesStrings.15>
   <KilledLongRange.rulePack.rulesStrings.16>weapon_optional->[circumstance_group]</KilledLongRange.rulePack.rulesStrings.16>
-  <KilledLongRange.rulePack.rulesStrings.17>circumstance_phrase->seemingly without remorse</KilledLongRange.rulePack.rulesStrings.17>
-  <KilledLongRange.rulePack.rulesStrings.18>circumstance_phrase->with cold efficiency</KilledLongRange.rulePack.rulesStrings.18>
-  <KilledLongRange.rulePack.rulesStrings.19>circumstance_phrase->from a long distance</KilledLongRange.rulePack.rulesStrings.19>
-  <KilledLongRange.rulePack.rulesStrings.20>circumstance_phrase->from a great height</KilledLongRange.rulePack.rulesStrings.20>
-  <KilledLongRange.rulePack.rulesStrings.21>circumstance_phrase->without emotion or expression</KilledLongRange.rulePack.rulesStrings.21>
-  <KilledLongRange.rulePack.rulesStrings.22>circumstance_phrase->in a cowardly, halfhearted way</KilledLongRange.rulePack.rulesStrings.22>
-  <KilledLongRange.rulePack.rulesStrings.23>desc_sentence->[quantity_adjphrase] [animal]s look on.</KilledLongRange.rulePack.rulesStrings.23>
-  <KilledLongRange.rulePack.rulesStrings.24>desc_sentence->A [outlander] watches silently [side_position].</KilledLongRange.rulePack.rulesStrings.24>
-  <KilledLongRange.rulePack.rulesStrings.25>desc_sentence->[victim_nameShortDef] looks [angstyadjective].</KilledLongRange.rulePack.rulesStrings.25>
-  <KilledLongRange.rulePack.rulesStrings.26>desc_sentence->[victim_nameShortDef]'s eyes are closed.</KilledLongRange.rulePack.rulesStrings.26>
-  <KilledLongRange.rulePack.rulesStrings.27>desc_sentence->[victim_nameShortDef] is covered in [gore].</KilledLongRange.rulePack.rulesStrings.27>
-  <KilledLongRange.rulePack.rulesStrings.28>desc_sentence->[killer_nameShortDef] is baring [killer_possessive] teeth.</KilledLongRange.rulePack.rulesStrings.28>
-  <KilledLongRange.rulePack.rulesStrings.29>desc_sentence->[killer_nameShortDef] seems satisfied.</KilledLongRange.rulePack.rulesStrings.29>
-  <KilledLongRange.rulePack.rulesStrings.30>desc_sentence->[killer_nameShortDef] looks distressed at what [killer_pronoun] is doing.</KilledLongRange.rulePack.rulesStrings.30>
-  <KilledLongRange.rulePack.rulesStrings.31>desc_sentence->[killer_nameShortDef] looks pleased with the situation.</KilledLongRange.rulePack.rulesStrings.31>
-  <KilledLongRange.rulePack.rulesStrings.32>desc_sentence->[killer_nameShortDef] looks triumphant.</KilledLongRange.rulePack.rulesStrings.32>
+  <KilledLongRange.rulePack.rulesStrings.17>circumstance_phrase->sense remordiments aparents</KilledLongRange.rulePack.rulesStrings.17>
+  <KilledLongRange.rulePack.rulesStrings.18>circumstance_phrase->amb una freda eficiència</KilledLongRange.rulePack.rulesStrings.18>
+  <KilledLongRange.rulePack.rulesStrings.19>circumstance_phrase->des de molt lluny</KilledLongRange.rulePack.rulesStrings.19>
+  <KilledLongRange.rulePack.rulesStrings.20>circumstance_phrase->des de molta alçada</KilledLongRange.rulePack.rulesStrings.20>
+  <KilledLongRange.rulePack.rulesStrings.21>circumstance_phrase->sense expressió o emoció</KilledLongRange.rulePack.rulesStrings.21>
+  <KilledLongRange.rulePack.rulesStrings.22>circumstance_phrase->covardament i sense compassió</KilledLongRange.rulePack.rulesStrings.22>
+  <KilledLongRange.rulePack.rulesStrings.23>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</KilledLongRange.rulePack.rulesStrings.23>
+  <KilledLongRange.rulePack.rulesStrings.24>desc_sentence->Un [outlander] s’ho mira sense dir res [side_position].</KilledLongRange.rulePack.rulesStrings.24>
+  <KilledLongRange.rulePack.rulesStrings.25>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</KilledLongRange.rulePack.rulesStrings.25>
+  <KilledLongRange.rulePack.rulesStrings.26>desc_sentence->[victim_nameShortDef] te els ulls tancats.</KilledLongRange.rulePack.rulesStrings.26>
+  <KilledLongRange.rulePack.rulesStrings.27>desc_sentence->[victim_nameShortDef] te el cos cobert de [gore].</KilledLongRange.rulePack.rulesStrings.27>
+  <KilledLongRange.rulePack.rulesStrings.28>desc_sentence->[killer_nameShortDef] ensenya les dents.</KilledLongRange.rulePack.rulesStrings.28>
+  <KilledLongRange.rulePack.rulesStrings.29>desc_sentence->[killer_nameShortDef] somriu amb satisfacció.</KilledLongRange.rulePack.rulesStrings.29>
+  <KilledLongRange.rulePack.rulesStrings.30>desc_sentence->[killer_nameShortDef] sembla patir pel que fa [killer_pronoun].</KilledLongRange.rulePack.rulesStrings.30>
+  <KilledLongRange.rulePack.rulesStrings.31>desc_sentence->[killer_nameShortDef] sembla encantat amb la situació.</KilledLongRange.rulePack.rulesStrings.31>
+  <KilledLongRange.rulePack.rulesStrings.32>desc_sentence->[killer_nameShortDef] es mostra triumfant.</KilledLongRange.rulePack.rulesStrings.32>
 
-  <KilledMelee.label>killed in melee</KilledMelee.label>
-  <KilledMelee.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] in close combat</KilledMelee.rulePack.rulesStrings.0>
-  <KilledMelee.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] in melee with a [weapon_label]</KilledMelee.rulePack.rulesStrings.1>
-  <KilledMelee.rulePack.rulesStrings.2>tale_noun->melee [wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef]</KilledMelee.rulePack.rulesStrings.2>
-  <KilledMelee.rulePack.rulesStrings.3>tale_noun->close combat [wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef] with a [weapon_label]</KilledMelee.rulePack.rulesStrings.3>
-  <KilledMelee.rulePack.rulesStrings.4>image->[victim_nameFull] being [wound_name_past] by [killer_nameFull] [weapon_optional]</KilledMelee.rulePack.rulesStrings.4>
+  <KilledMelee.label>mort cos a cos</KilledMelee.label>
+  <KilledMelee.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] en combat cos a cos</KilledMelee.rulePack.rulesStrings.0>
+  <KilledMelee.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] cos a cos amb un [weapon_label]</KilledMelee.rulePack.rulesStrings.1>
+  <KilledMelee.rulePack.rulesStrings.2>tale_noun->[killer_nameShortDef] [wound_name_present] cos a cos a [victim_nameShortDef]</KilledMelee.rulePack.rulesStrings.2>
+  <KilledMelee.rulePack.rulesStrings.3>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] amb [weapon_label]</KilledMelee.rulePack.rulesStrings.3>
+  <KilledMelee.rulePack.rulesStrings.4>image->[victim_nameFull] sent [wound_name_past] per [killer_nameFull] [weapon_optional]</KilledMelee.rulePack.rulesStrings.4>
   <KilledMelee.rulePack.rulesStrings.5>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</KilledMelee.rulePack.rulesStrings.5>
-  <KilledMelee.rulePack.rulesStrings.6>image->[killer_nameFull] brutally [wound_name_present] [victim_nameFull] [weapon_optional]</KilledMelee.rulePack.rulesStrings.6>
-  <KilledMelee.rulePack.rulesStrings.7>image->[victim_nameFull] being [wound_name_past] [weapon_optional]</KilledMelee.rulePack.rulesStrings.7>
-  <KilledMelee.rulePack.rulesStrings.8>wound_name_past->murdered</KilledMelee.rulePack.rulesStrings.8>
-  <KilledMelee.rulePack.rulesStrings.9>wound_name_past->slain</KilledMelee.rulePack.rulesStrings.9>
-  <KilledMelee.rulePack.rulesStrings.10>wound_name_past->slaughtered</KilledMelee.rulePack.rulesStrings.10>
-  <KilledMelee.rulePack.rulesStrings.11>wound_name_past->mutilated</KilledMelee.rulePack.rulesStrings.11>
-  <KilledMelee.rulePack.rulesStrings.12>wound_name_present->murdering</KilledMelee.rulePack.rulesStrings.12>
-  <KilledMelee.rulePack.rulesStrings.13>wound_name_present->slaying</KilledMelee.rulePack.rulesStrings.13>
-  <KilledMelee.rulePack.rulesStrings.14>wound_name_present->slaughtering</KilledMelee.rulePack.rulesStrings.14>
-  <KilledMelee.rulePack.rulesStrings.15>wound_name_present->mutilating</KilledMelee.rulePack.rulesStrings.15>
-  <KilledMelee.rulePack.rulesStrings.16>weapon_optional->with a [weapon_label] [circumstance_group]</KilledMelee.rulePack.rulesStrings.16>
+  <KilledMelee.rulePack.rulesStrings.6>image->[killer_nameFull] [wound_name_present] brutalment a [victim_nameFull] [weapon_optional]</KilledMelee.rulePack.rulesStrings.6>
+  <KilledMelee.rulePack.rulesStrings.7>image->[victim_nameFull] sent [wound_name_past] [weapon_optional]</KilledMelee.rulePack.rulesStrings.7>
+  <KilledMelee.rulePack.rulesStrings.8>wound_name_past->assassinat</KilledMelee.rulePack.rulesStrings.8>
+  <KilledMelee.rulePack.rulesStrings.9>wound_name_past->liquidat</KilledMelee.rulePack.rulesStrings.9>
+  <KilledMelee.rulePack.rulesStrings.10>wound_name_past->massacrat</KilledMelee.rulePack.rulesStrings.10>
+  <KilledMelee.rulePack.rulesStrings.11>wound_name_past->mutilat</KilledMelee.rulePack.rulesStrings.11>
+  <KilledMelee.rulePack.rulesStrings.12>wound_name_present->assassinant</KilledMelee.rulePack.rulesStrings.12>
+  <KilledMelee.rulePack.rulesStrings.13>wound_name_present->liquidant</KilledMelee.rulePack.rulesStrings.13>
+  <KilledMelee.rulePack.rulesStrings.14>wound_name_present->massacrant</KilledMelee.rulePack.rulesStrings.14>
+  <KilledMelee.rulePack.rulesStrings.15>wound_name_present->mutilant</KilledMelee.rulePack.rulesStrings.15>
+  <KilledMelee.rulePack.rulesStrings.16>weapon_optional->amb un [weapon_label] [circumstance_group]</KilledMelee.rulePack.rulesStrings.16>
   <KilledMelee.rulePack.rulesStrings.17>weapon_optional->[circumstance_group]</KilledMelee.rulePack.rulesStrings.17>
-  <KilledMelee.rulePack.rulesStrings.18>circumstance_phrase->seemingly without remorse</KilledMelee.rulePack.rulesStrings.18>
-  <KilledMelee.rulePack.rulesStrings.19>circumstance_phrase->with cold efficiency</KilledMelee.rulePack.rulesStrings.19>
-  <KilledMelee.rulePack.rulesStrings.20>circumstance_phrase->with quick, efficient movements</KilledMelee.rulePack.rulesStrings.20>
-  <KilledMelee.rulePack.rulesStrings.21>circumstance_phrase->without emotion or expression</KilledMelee.rulePack.rulesStrings.21>
-  <KilledMelee.rulePack.rulesStrings.22>circumstance_phrase->in a cowardly, halfhearted way</KilledMelee.rulePack.rulesStrings.22>
-  <KilledMelee.rulePack.rulesStrings.23>desc_sentence->[quantity_adjphrase] [animal]s look on.</KilledMelee.rulePack.rulesStrings.23>
-  <KilledMelee.rulePack.rulesStrings.24>desc_sentence->A [outlander] watches silently [side_position].</KilledMelee.rulePack.rulesStrings.24>
-  <KilledMelee.rulePack.rulesStrings.25>desc_sentence->[victim_nameShortDef] looks [angstyadjective].</KilledMelee.rulePack.rulesStrings.25>
-  <KilledMelee.rulePack.rulesStrings.26>desc_sentence->[victim_nameShortDef]'s eyes are closed.</KilledMelee.rulePack.rulesStrings.26>
-  <KilledMelee.rulePack.rulesStrings.27>desc_sentence->[victim_nameShortDef] is covered in [gore].</KilledMelee.rulePack.rulesStrings.27>
-  <KilledMelee.rulePack.rulesStrings.28>desc_sentence->[victim_nameShortDef] and [killer_nameShortDef] are both covered in [gore].</KilledMelee.rulePack.rulesStrings.28>
-  <KilledMelee.rulePack.rulesStrings.29>desc_sentence->[killer_nameShortDef] is covered in [gore].</KilledMelee.rulePack.rulesStrings.29>
-  <KilledMelee.rulePack.rulesStrings.30>desc_sentence->[killer_nameShortDef] is baring [killer_possessive] teeth.</KilledMelee.rulePack.rulesStrings.30>
-  <KilledMelee.rulePack.rulesStrings.31>desc_sentence->[killer_nameShortDef] seems satisfied.</KilledMelee.rulePack.rulesStrings.31>
-  <KilledMelee.rulePack.rulesStrings.32>desc_sentence->[killer_nameShortDef] looks distressed at what [killer_pronoun] is doing.</KilledMelee.rulePack.rulesStrings.32>
-  <KilledMelee.rulePack.rulesStrings.33>desc_sentence->[killer_nameShortDef] looks pleased with the situation.</KilledMelee.rulePack.rulesStrings.33>
-  <KilledMelee.rulePack.rulesStrings.34>desc_sentence->[killer_nameShortDef] looks triumphant.</KilledMelee.rulePack.rulesStrings.34>
-  <KilledMelee.rulePack.rulesStrings.35>desc_sentence->[killer_nameShortDef] wears a feral expression.</KilledMelee.rulePack.rulesStrings.35>
+  <KilledMelee.rulePack.rulesStrings.18>circumstance_phrase->sense remordiment aparent</KilledMelee.rulePack.rulesStrings.18>
+  <KilledMelee.rulePack.rulesStrings.19>circumstance_phrase->amb una eficiència freda</KilledMelee.rulePack.rulesStrings.19>
+  <KilledMelee.rulePack.rulesStrings.20>circumstance_phrase->amb moviments ràpids i eficaços</KilledMelee.rulePack.rulesStrings.20>
+  <KilledMelee.rulePack.rulesStrings.21>circumstance_phrase->sense cap expressió ni emoció</KilledMelee.rulePack.rulesStrings.21>
+  <KilledMelee.rulePack.rulesStrings.22>circumstance_phrase->covardament i sense compassió</KilledMelee.rulePack.rulesStrings.22>
+  <KilledMelee.rulePack.rulesStrings.23>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</KilledMelee.rulePack.rulesStrings.23>
+  <KilledMelee.rulePack.rulesStrings.24>desc_sentence->Un [outlander] s’ho mira sense dir res [side_position].</KilledMelee.rulePack.rulesStrings.24>
+  <KilledMelee.rulePack.rulesStrings.25>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</KilledMelee.rulePack.rulesStrings.25>
+  <KilledMelee.rulePack.rulesStrings.26>desc_sentence->[victim_nameShortDef] té els ull tancats.</KilledMelee.rulePack.rulesStrings.26>
+  <KilledMelee.rulePack.rulesStrings.27>desc_sentence->[victim_nameShortDef] té el cos cobert de [gore].</KilledMelee.rulePack.rulesStrings.27>
+  <KilledMelee.rulePack.rulesStrings.28>desc_sentence->tant [victim_nameShortDef] com [killer_nameShortDef] estan tots dos coberts de [gore].</KilledMelee.rulePack.rulesStrings.28>
+  <KilledMelee.rulePack.rulesStrings.29>desc_sentence->[killer_nameShortDef] té el cos cobert de [gore].</KilledMelee.rulePack.rulesStrings.29>
+  <KilledMelee.rulePack.rulesStrings.30>desc_sentence->[killer_nameShortDef] ensenya les dents.</KilledMelee.rulePack.rulesStrings.30>
+  <KilledMelee.rulePack.rulesStrings.31>desc_sentence->[killer_nameShortDef] sembla satisfet.</KilledMelee.rulePack.rulesStrings.31>
+  <KilledMelee.rulePack.rulesStrings.32>desc_sentence->[killer_nameShortDef] sembla patir pel que fa [killer_pronoun].</KilledMelee.rulePack.rulesStrings.32>
+  <KilledMelee.rulePack.rulesStrings.33>desc_sentence->[killer_nameShortDef] sembla encantat amb la situació.</KilledMelee.rulePack.rulesStrings.33>
+  <KilledMelee.rulePack.rulesStrings.34>desc_sentence->[killer_nameShortDef] es mostra triomfant.</KilledMelee.rulePack.rulesStrings.34>
+  <KilledMelee.rulePack.rulesStrings.35>desc_sentence->[killer_nameShortDef] té una expressió ferotge.</KilledMelee.rulePack.rulesStrings.35>
 
-  <KilledMajorThreat.label>killed major threat</KilledMajorThreat.label>
-  <KilledMajorThreat.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef]</KilledMajorThreat.rulePack.rulesStrings.0>
-  <KilledMajorThreat.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] with a [weapon_label]</KilledMajorThreat.rulePack.rulesStrings.1>
-  <KilledMajorThreat.rulePack.rulesStrings.2>tale_noun->[wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef]</KilledMajorThreat.rulePack.rulesStrings.2>
-  <KilledMajorThreat.rulePack.rulesStrings.3>tale_noun->[wound_name_present] of [victim_nameShortDef] by [killer_nameShortDef] with a [weapon_label]</KilledMajorThreat.rulePack.rulesStrings.3>
-  <KilledMajorThreat.rulePack.rulesStrings.4>image->[victim_nameFull] being [wound_name_past] by [killer_nameFull] [weapon_optional]</KilledMajorThreat.rulePack.rulesStrings.4>
-  <KilledMajorThreat.rulePack.rulesStrings.5>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</KilledMajorThreat.rulePack.rulesStrings.5>
-  <KilledMajorThreat.rulePack.rulesStrings.6>image->[killer_nameFull] brutally [wound_name_present] [victim_nameFull] [weapon_optional]</KilledMajorThreat.rulePack.rulesStrings.6>
-  <KilledMajorThreat.rulePack.rulesStrings.7>image->[victim_nameFull] being [wound_name_past] [weapon_optional]</KilledMajorThreat.rulePack.rulesStrings.7>
-  <KilledMajorThreat.rulePack.rulesStrings.8>wound_name_past->slain</KilledMajorThreat.rulePack.rulesStrings.8>
-  <KilledMajorThreat.rulePack.rulesStrings.9>wound_name_past->defeated</KilledMajorThreat.rulePack.rulesStrings.9>
-  <KilledMajorThreat.rulePack.rulesStrings.10>wound_name_past->overcome</KilledMajorThreat.rulePack.rulesStrings.10>
-  <KilledMajorThreat.rulePack.rulesStrings.11>wound_name_present->slaying</KilledMajorThreat.rulePack.rulesStrings.11>
-  <KilledMajorThreat.rulePack.rulesStrings.12>wound_name_present->defeating</KilledMajorThreat.rulePack.rulesStrings.12>
-  <KilledMajorThreat.rulePack.rulesStrings.13>wound_name_present->overcoming</KilledMajorThreat.rulePack.rulesStrings.13>
-  <KilledMajorThreat.rulePack.rulesStrings.14>weapon_optional->with a [weapon_label] [circumstance_group]</KilledMajorThreat.rulePack.rulesStrings.14>
+  <KilledMajorThreat.label>mort d’una gran amenaça</KilledMajorThreat.label>
+  <KilledMajorThreat.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef]</KilledMajorThreat.rulePack.rulesStrings.0>
+  <KilledMajorThreat.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] amb [weapon_label]</KilledMajorThreat.rulePack.rulesStrings.1>
+  <KilledMajorThreat.rulePack.rulesStrings.2>tale_noun->[killer_nameShortDef][wound_name_present] a [victim_nameShortDef] </KilledMajorThreat.rulePack.rulesStrings.2>
+  <KilledMajorThreat.rulePack.rulesStrings.3>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] amb [weapon_label]</KilledMajorThreat.rulePack.rulesStrings.3>
+  <KilledMajorThreat.rulePack.rulesStrings.4>image->[victim_nameFull] sent [wound_name_past] per [killer_nameFull] [weapon_optional]</KilledMajorThreat.rulePack.rulesStrings.4>
+  <KilledMajorThreat.rulePack.rulesStrings.5>image->[killer_nameFull] [wound_name_present] a [victim_nameFull] [weapon_optional]</KilledMajorThreat.rulePack.rulesStrings.5>
+  <KilledMajorThreat.rulePack.rulesStrings.6>image->[killer_nameFull] [wound_name_present] brutalment a [victim_nameFull] [weapon_optional]</KilledMajorThreat.rulePack.rulesStrings.6>
+  <KilledMajorThreat.rulePack.rulesStrings.7>image->[victim_nameFull] sent [wound_name_past] [weapon_optional]</KilledMajorThreat.rulePack.rulesStrings.7>
+  <KilledMajorThreat.rulePack.rulesStrings.8>wound_name_past->liquidat</KilledMajorThreat.rulePack.rulesStrings.8>
+  <KilledMajorThreat.rulePack.rulesStrings.9>wound_name_past->derrotat</KilledMajorThreat.rulePack.rulesStrings.9>
+  <KilledMajorThreat.rulePack.rulesStrings.10>wound_name_past->vençut</KilledMajorThreat.rulePack.rulesStrings.10>
+  <KilledMajorThreat.rulePack.rulesStrings.11>wound_name_present->liquida</KilledMajorThreat.rulePack.rulesStrings.11>
+  <KilledMajorThreat.rulePack.rulesStrings.12>wound_name_present->derrota</KilledMajorThreat.rulePack.rulesStrings.12>
+  <KilledMajorThreat.rulePack.rulesStrings.13>wound_name_present->venç</KilledMajorThreat.rulePack.rulesStrings.13>
+  <KilledMajorThreat.rulePack.rulesStrings.14>weapon_optional->amb [weapon_label] [circumstance_group]</KilledMajorThreat.rulePack.rulesStrings.14>
   <KilledMajorThreat.rulePack.rulesStrings.15>weapon_optional->[circumstance_group]</KilledMajorThreat.rulePack.rulesStrings.15>
-  <KilledMajorThreat.rulePack.rulesStrings.16>circumstance_phrase->with cold efficiency</KilledMajorThreat.rulePack.rulesStrings.16>
-  <KilledMajorThreat.rulePack.rulesStrings.17>circumstance_phrase->with quick, efficient movements</KilledMajorThreat.rulePack.rulesStrings.17>
-  <KilledMajorThreat.rulePack.rulesStrings.18>circumstance_phrase->without emotion or expression</KilledMajorThreat.rulePack.rulesStrings.18>
-  <KilledMajorThreat.rulePack.rulesStrings.19>circumstance_phrase->with great heroism</KilledMajorThreat.rulePack.rulesStrings.19>
-  <KilledMajorThreat.rulePack.rulesStrings.20>circumstance_phrase->with incredible strength</KilledMajorThreat.rulePack.rulesStrings.20>
-  <KilledMajorThreat.rulePack.rulesStrings.21>desc_sentence->[quantity_adjphrase] [animal]s look on.</KilledMajorThreat.rulePack.rulesStrings.21>
-  <KilledMajorThreat.rulePack.rulesStrings.22>desc_sentence->A [outlander] watches silently [side_position].</KilledMajorThreat.rulePack.rulesStrings.22>
-  <KilledMajorThreat.rulePack.rulesStrings.23>desc_sentence->[victim_nameShortDef] looks [angstyadjective].</KilledMajorThreat.rulePack.rulesStrings.23>
-  <KilledMajorThreat.rulePack.rulesStrings.24>desc_sentence->[victim_nameShortDef]'s eyes are closed.</KilledMajorThreat.rulePack.rulesStrings.24>
-  <KilledMajorThreat.rulePack.rulesStrings.25>desc_sentence->[victim_nameShortDef] is covered in [gore].</KilledMajorThreat.rulePack.rulesStrings.25>
-  <KilledMajorThreat.rulePack.rulesStrings.26>desc_sentence->[victim_nameShortDef] and [killer_nameShortDef] are both covered in [gore].</KilledMajorThreat.rulePack.rulesStrings.26>
-  <KilledMajorThreat.rulePack.rulesStrings.27>desc_sentence->[victim_nameShortDef]'s corpse towers over [killer_nameShortDef].</KilledMajorThreat.rulePack.rulesStrings.27>
-  <KilledMajorThreat.rulePack.rulesStrings.28>desc_sentence->[victim_nameShortDef]'s massive corpse covers a [terrainfeature].</KilledMajorThreat.rulePack.rulesStrings.28>
-  <KilledMajorThreat.rulePack.rulesStrings.29>desc_sentence->[victim_nameShortDef]'s eyes glow [color].</KilledMajorThreat.rulePack.rulesStrings.29>
-  <KilledMajorThreat.rulePack.rulesStrings.30>desc_sentence->[killer_nameShortDef] is covered in [gore].</KilledMajorThreat.rulePack.rulesStrings.30>
-  <KilledMajorThreat.rulePack.rulesStrings.31>desc_sentence->[killer_nameShortDef] is baring [killer_possessive] teeth.</KilledMajorThreat.rulePack.rulesStrings.31>
-  <KilledMajorThreat.rulePack.rulesStrings.32>desc_sentence->[killer_nameShortDef] seems satisfied.</KilledMajorThreat.rulePack.rulesStrings.32>
-  <KilledMajorThreat.rulePack.rulesStrings.33>desc_sentence->[killer_nameShortDef] looks triumphant.</KilledMajorThreat.rulePack.rulesStrings.33>
-  <KilledMajorThreat.rulePack.rulesStrings.34>desc_sentence->[killer_nameShortDef] looks [badassadjective].</KilledMajorThreat.rulePack.rulesStrings.34>
-  <KilledMajorThreat.rulePack.rulesStrings.35>desc_sentence->[killer_nameShortDef] is glowing with a heroic aura.</KilledMajorThreat.rulePack.rulesStrings.35>
+  <KilledMajorThreat.rulePack.rulesStrings.16>circumstance_phrase->amb una eficiència freda</KilledMajorThreat.rulePack.rulesStrings.16>
+  <KilledMajorThreat.rulePack.rulesStrings.17>circumstance_phrase->amb moviments ràpids i eficaços</KilledMajorThreat.rulePack.rulesStrings.17>
+  <KilledMajorThreat.rulePack.rulesStrings.18>circumstance_phrase->sense cap expressió ni emoció</KilledMajorThreat.rulePack.rulesStrings.18>
+  <KilledMajorThreat.rulePack.rulesStrings.19>circumstance_phrase->amb gran heroisme</KilledMajorThreat.rulePack.rulesStrings.19>
+  <KilledMajorThreat.rulePack.rulesStrings.20>circumstance_phrase->amb una força increïble</KilledMajorThreat.rulePack.rulesStrings.20>
+  <KilledMajorThreat.rulePack.rulesStrings.21>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</KilledMajorThreat.rulePack.rulesStrings.21>
+  <KilledMajorThreat.rulePack.rulesStrings.22>desc_sentence->Un [outlander] S’ho mira sense dir res [side_position].</KilledMajorThreat.rulePack.rulesStrings.22>
+  <KilledMajorThreat.rulePack.rulesStrings.23>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</KilledMajorThreat.rulePack.rulesStrings.23>
+  <KilledMajorThreat.rulePack.rulesStrings.24>desc_sentence->[victim_nameShortDef] té els ulls tancats.</KilledMajorThreat.rulePack.rulesStrings.24>
+  <KilledMajorThreat.rulePack.rulesStrings.25>desc_sentence->[victim_nameShortDef] té el cos cobert de [gore].</KilledMajorThreat.rulePack.rulesStrings.25>
+  <KilledMajorThreat.rulePack.rulesStrings.26>desc_sentence->tant [victim_nameShortDef] com [killer_nameShortDef] estant coberts de [gore].</KilledMajorThreat.rulePack.rulesStrings.26>
+  <KilledMajorThreat.rulePack.rulesStrings.27>desc_sentence->el cadàver de [victim_nameShortDef] domina sobre [killer_nameShortDef].</KilledMajorThreat.rulePack.rulesStrings.27>
+  <KilledMajorThreat.rulePack.rulesStrings.28>desc_sentence->l’enorme cadaver de [victim_nameShortDef]cobreix una [terrainfeature].</KilledMajorThreat.rulePack.rulesStrings.28>
+  <KilledMajorThreat.rulePack.rulesStrings.29>desc_sentence->els ulls de [victim_nameShortDef] llueixen en color [color].</KilledMajorThreat.rulePack.rulesStrings.29>
+  <KilledMajorThreat.rulePack.rulesStrings.30>desc_sentence->[killer_nameShortDef] té el cos cobert de [gore].</KilledMajorThreat.rulePack.rulesStrings.30>
+  <KilledMajorThreat.rulePack.rulesStrings.31>desc_sentence->[killer_nameShortDef] ensenya les dents.</KilledMajorThreat.rulePack.rulesStrings.31>
+  <KilledMajorThreat.rulePack.rulesStrings.32>desc_sentence->[killer_nameShortDef] sembla satisfet.</KilledMajorThreat.rulePack.rulesStrings.32>
+  <KilledMajorThreat.rulePack.rulesStrings.33>desc_sentence->[killer_nameShortDef] es mostra triomfant.</KilledMajorThreat.rulePack.rulesStrings.33>
+  <KilledMajorThreat.rulePack.rulesStrings.34>desc_sentence->[killer_nameShortDef] sembla [badassadjective].</KilledMajorThreat.rulePack.rulesStrings.34>
+  <KilledMajorThreat.rulePack.rulesStrings.35>desc_sentence->[killer_nameShortDef] llueix amb una aura heroica.</KilledMajorThreat.rulePack.rulesStrings.35>
 
-  <KilledCapacity.label>killed</KilledCapacity.label>
+  <KilledCapacity.label>mort</KilledCapacity.label>
   <KilledCapacity.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef]</KilledCapacity.rulePack.rulesStrings.0>
-  <KilledCapacity.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] with a [weapon_label]</KilledCapacity.rulePack.rulesStrings.1>
-  <KilledCapacity.rulePack.rulesStrings.2>image->[killer_nameFull] [cap_removal] [victim_nameFull]'s capacity for [capacity_label] [weapon_optional]</KilledCapacity.rulePack.rulesStrings.2>
-  <KilledCapacity.rulePack.rulesStrings.3>image->[killer_nameFull] [wound_name_present] [victim_nameFull] by [cap_removal] their [capacity_label] [weapon_optional]</KilledCapacity.rulePack.rulesStrings.3>
-  <KilledCapacity.rulePack.rulesStrings.4>cap_removal->destroying</KilledCapacity.rulePack.rulesStrings.4>
-  <KilledCapacity.rulePack.rulesStrings.5>cap_removal->eliminating</KilledCapacity.rulePack.rulesStrings.5>
-  <KilledCapacity.rulePack.rulesStrings.6>cap_removal->ending</KilledCapacity.rulePack.rulesStrings.6>
-  <KilledCapacity.rulePack.rulesStrings.7>wound_name_past->slayed</KilledCapacity.rulePack.rulesStrings.7>
-  <KilledCapacity.rulePack.rulesStrings.8>wound_name_past->executed</KilledCapacity.rulePack.rulesStrings.8>
-  <KilledCapacity.rulePack.rulesStrings.9>wound_name_past->assassinated</KilledCapacity.rulePack.rulesStrings.9>
-  <KilledCapacity.rulePack.rulesStrings.10>wound_name_past->eliminated</KilledCapacity.rulePack.rulesStrings.10>
-  <KilledCapacity.rulePack.rulesStrings.11>wound_name_present->slaying</KilledCapacity.rulePack.rulesStrings.11>
-  <KilledCapacity.rulePack.rulesStrings.12>wound_name_present->executing</KilledCapacity.rulePack.rulesStrings.12>
-  <KilledCapacity.rulePack.rulesStrings.13>wound_name_present->assassinating</KilledCapacity.rulePack.rulesStrings.13>
-  <KilledCapacity.rulePack.rulesStrings.14>wound_name_present->eliminating</KilledCapacity.rulePack.rulesStrings.14>
-  <KilledCapacity.rulePack.rulesStrings.15>weapon_optional->with a [weapon_label] [circumstance_group]</KilledCapacity.rulePack.rulesStrings.15>
+  <KilledCapacity.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] amb [weapon_label]</KilledCapacity.rulePack.rulesStrings.1>
+  <KilledCapacity.rulePack.rulesStrings.2>image->[killer_nameFull] [cap_removal] la capacitat per [capacity_label] de [victim_nameFull]</KilledCapacity.rulePack.rulesStrings.2>
+  <KilledCapacity.rulePack.rulesStrings.3>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [cap_removal] la seva [capacity_label] [weapon_optional]</KilledCapacity.rulePack.rulesStrings.3>
+  <KilledCapacity.rulePack.rulesStrings.4>cap_removal->destruint</KilledCapacity.rulePack.rulesStrings.4>
+  <KilledCapacity.rulePack.rulesStrings.5>cap_removal->eliminant</KilledCapacity.rulePack.rulesStrings.5>
+  <KilledCapacity.rulePack.rulesStrings.6>cap_removal->acabant amb</KilledCapacity.rulePack.rulesStrings.6>
+  <KilledCapacity.rulePack.rulesStrings.7>wound_name_past->mort</KilledCapacity.rulePack.rulesStrings.7>
+  <KilledCapacity.rulePack.rulesStrings.8>wound_name_past->executat</KilledCapacity.rulePack.rulesStrings.8>
+  <KilledCapacity.rulePack.rulesStrings.9>wound_name_past->assassinat</KilledCapacity.rulePack.rulesStrings.9>
+  <KilledCapacity.rulePack.rulesStrings.10>wound_name_past->eliminat</KilledCapacity.rulePack.rulesStrings.10>
+  <KilledCapacity.rulePack.rulesStrings.11>wound_name_present->mata</KilledCapacity.rulePack.rulesStrings.11>
+  <KilledCapacity.rulePack.rulesStrings.12>wound_name_present->executa</KilledCapacity.rulePack.rulesStrings.12>
+  <KilledCapacity.rulePack.rulesStrings.13>wound_name_present->assassina</KilledCapacity.rulePack.rulesStrings.13>
+  <KilledCapacity.rulePack.rulesStrings.14>wound_name_present->elimina</KilledCapacity.rulePack.rulesStrings.14>
+  <KilledCapacity.rulePack.rulesStrings.15>weapon_optional->amb [weapon_label] [circumstance_group]</KilledCapacity.rulePack.rulesStrings.15>
   <KilledCapacity.rulePack.rulesStrings.16>weapon_optional->[circumstance_group]</KilledCapacity.rulePack.rulesStrings.16>
-  <KilledCapacity.rulePack.rulesStrings.17>circumstance_phrase->seemingly without remorse</KilledCapacity.rulePack.rulesStrings.17>
-  <KilledCapacity.rulePack.rulesStrings.18>circumstance_phrase->with cold efficiency</KilledCapacity.rulePack.rulesStrings.18>
-  <KilledCapacity.rulePack.rulesStrings.19>circumstance_phrase->with quick, efficient movements</KilledCapacity.rulePack.rulesStrings.19>
-  <KilledCapacity.rulePack.rulesStrings.20>circumstance_phrase->without emotion or expression</KilledCapacity.rulePack.rulesStrings.20>
-  <KilledCapacity.rulePack.rulesStrings.21>desc_sentence->[quantity_adjphrase] [animal]s look on.</KilledCapacity.rulePack.rulesStrings.21>
-  <KilledCapacity.rulePack.rulesStrings.22>desc_sentence->A [outlander] watches silently [side_position].</KilledCapacity.rulePack.rulesStrings.22>
-  <KilledCapacity.rulePack.rulesStrings.23>desc_sentence->[victim_nameShortDef] looks [angstyadjective].</KilledCapacity.rulePack.rulesStrings.23>
-  <KilledCapacity.rulePack.rulesStrings.24>desc_sentence->[victim_nameShortDef]'s eyes are closed.</KilledCapacity.rulePack.rulesStrings.24>
-  <KilledCapacity.rulePack.rulesStrings.25>desc_sentence->[killer_nameShortDef] seems satisfied.</KilledCapacity.rulePack.rulesStrings.25>
-  <KilledCapacity.rulePack.rulesStrings.26>desc_sentence->[killer_nameShortDef] looks distressed at what [killer_pronoun] is doing.</KilledCapacity.rulePack.rulesStrings.26>
-  <KilledCapacity.rulePack.rulesStrings.27>desc_sentence->[killer_nameShortDef] looks pleased with the situation.</KilledCapacity.rulePack.rulesStrings.27>
-  <KilledCapacity.rulePack.rulesStrings.28>desc_sentence->[killer_nameShortDef] looks triumphant.</KilledCapacity.rulePack.rulesStrings.28>
+  <KilledCapacity.rulePack.rulesStrings.17>circumstance_phrase->sense remordiments aparents</KilledCapacity.rulePack.rulesStrings.17>
+  <KilledCapacity.rulePack.rulesStrings.18>circumstance_phrase->amb una eficiència freda</KilledCapacity.rulePack.rulesStrings.18>
+  <KilledCapacity.rulePack.rulesStrings.19>circumstance_phrase->amb moviments ràpids i eficaços</KilledCapacity.rulePack.rulesStrings.19>
+  <KilledCapacity.rulePack.rulesStrings.20>circumstance_phrase->sense cap expressió o emoció</KilledCapacity.rulePack.rulesStrings.20>
+  <KilledCapacity.rulePack.rulesStrings.21>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</KilledCapacity.rulePack.rulesStrings.21>
+  <KilledCapacity.rulePack.rulesStrings.22>desc_sentence->Un [outlander] s’ho mira sense dir res [side_position].</KilledCapacity.rulePack.rulesStrings.22>
+  <KilledCapacity.rulePack.rulesStrings.23>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</KilledCapacity.rulePack.rulesStrings.23>
+  <KilledCapacity.rulePack.rulesStrings.24>desc_sentence->[victim_nameShortDef] té els ulls tancats.</KilledCapacity.rulePack.rulesStrings.24>
+  <KilledCapacity.rulePack.rulesStrings.25>desc_sentence->[killer_nameShortDef] sembla satisfet.</KilledCapacity.rulePack.rulesStrings.25>
+  <KilledCapacity.rulePack.rulesStrings.26>desc_sentence->[killer_nameShortDef] sembla preocupat pel que fa [killer_pronoun].</KilledCapacity.rulePack.rulesStrings.26>
+  <KilledCapacity.rulePack.rulesStrings.27>desc_sentence->[killer_nameShortDef] sembla encantat amb la situació.</KilledCapacity.rulePack.rulesStrings.27>
+  <KilledCapacity.rulePack.rulesStrings.28>desc_sentence->[killer_nameShortDef] es mostra triomfant.</KilledCapacity.rulePack.rulesStrings.28>
 
-  <KilledMortar.label>killed with mortar</KilledMortar.label>
-  <KilledMortar.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] with a mortar</KilledMortar.rulePack.rulesStrings.0>
-  <KilledMortar.rulePack.rulesStrings.1>tale_noun->artillery kill of [victim_nameShortDef] by [killer_nameShortDef]</KilledMortar.rulePack.rulesStrings.1>
-  <KilledMortar.rulePack.rulesStrings.2>image->[killer_nameFull] carefully adjusting a firing tube [circumstance_group]</KilledMortar.rulePack.rulesStrings.2>
-  <KilledMortar.rulePack.rulesStrings.3>image->[killer_nameFull] looking into the distance [circumstance_group]</KilledMortar.rulePack.rulesStrings.3>
-  <KilledMortar.rulePack.rulesStrings.4>image->[killer_nameFull] doing calculations on paper [circumstance_group]</KilledMortar.rulePack.rulesStrings.4>
-  <KilledMortar.rulePack.rulesStrings.5>image->[killer_nameFull] testing wind direction [circumstance_group]</KilledMortar.rulePack.rulesStrings.5>
-  <KilledMortar.rulePack.rulesStrings.6>circumstance_phrase->while [victim_nameFull] is consumed in a massive explosion</KilledMortar.rulePack.rulesStrings.6>
-  <KilledMortar.rulePack.rulesStrings.7>circumstance_phrase->as a shell arcs down towards [victim_nameFull]</KilledMortar.rulePack.rulesStrings.7>
-  <KilledMortar.rulePack.rulesStrings.8>circumstance_phrase->while [victim_nameFull] walks around obliviously</KilledMortar.rulePack.rulesStrings.8>
-  <KilledMortar.rulePack.rulesStrings.9>circumstance_phrase->as [victim_nameFull] sprints</KilledMortar.rulePack.rulesStrings.9>
-  <KilledMortar.rulePack.rulesStrings.10>desc_sentence->[quantity_adjphrase] [animal]s look on.</KilledMortar.rulePack.rulesStrings.10>
-  <KilledMortar.rulePack.rulesStrings.11>desc_sentence->A [outlander] watches silently [side_position].</KilledMortar.rulePack.rulesStrings.11>
-  <KilledMortar.rulePack.rulesStrings.12>desc_sentence->[victim_nameShortDef] looks [angstyadjective].</KilledMortar.rulePack.rulesStrings.12>
-  <KilledMortar.rulePack.rulesStrings.13>desc_sentence->[victim_nameShortDef] is covered in [gore].</KilledMortar.rulePack.rulesStrings.13>
-  <KilledMortar.rulePack.rulesStrings.14>desc_sentence->[victim_nameShortDef] is surrounded by explosions.</KilledMortar.rulePack.rulesStrings.14>
-  <KilledMortar.rulePack.rulesStrings.15>desc_sentence->[victim_nameShortDef] is surrounded by craters.</KilledMortar.rulePack.rulesStrings.15>
-  <KilledMortar.rulePack.rulesStrings.16>desc_sentence->[killer_nameShortDef] seems satisfied.</KilledMortar.rulePack.rulesStrings.16>
-  <KilledMortar.rulePack.rulesStrings.17>desc_sentence->[killer_nameShortDef] looks distressed at what [killer_pronoun] is doing.</KilledMortar.rulePack.rulesStrings.17>
-  <KilledMortar.rulePack.rulesStrings.18>desc_sentence->[killer_nameShortDef] looks pleased with the situation.</KilledMortar.rulePack.rulesStrings.18>
-  <KilledMortar.rulePack.rulesStrings.19>desc_sentence->[killer_nameShortDef] looks triumphant.</KilledMortar.rulePack.rulesStrings.19>
+  <KilledMortar.label>mort per morter</KilledMortar.label>
+  <KilledMortar.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] amb mortar</KilledMortar.rulePack.rulesStrings.0>
+  <KilledMortar.rulePack.rulesStrings.1>tale_noun->mort amb artilleria de [victim_nameShortDef] per [killer_nameShortDef]</KilledMortar.rulePack.rulesStrings.1>
+  <KilledMortar.rulePack.rulesStrings.2>image->[killer_nameFull] apuntant amb cura el tub del morter [circumstance_group]</KilledMortar.rulePack.rulesStrings.2>
+  <KilledMortar.rulePack.rulesStrings.3>image->[killer_nameFull] mirant a la llunyania [circumstance_group]</KilledMortar.rulePack.rulesStrings.3>
+  <KilledMortar.rulePack.rulesStrings.4>image->[killer_nameFull] fent càlculs sobre un paper [circumstance_group]</KilledMortar.rulePack.rulesStrings.4>
+  <KilledMortar.rulePack.rulesStrings.5>image->[killer_nameFull] comprovant la direcció del vent [circumstance_group]</KilledMortar.rulePack.rulesStrings.5>
+  <KilledMortar.rulePack.rulesStrings.6>circumstance_phrase->mentre [victim_nameFull] és engolit per una fortíssima explosió</KilledMortar.rulePack.rulesStrings.6>
+  <KilledMortar.rulePack.rulesStrings.7>circumstance_phrase->mentre el projectil dibuixa un arc per caure sobre [victim_nameFull]</KilledMortar.rulePack.rulesStrings.7>
+  <KilledMortar.rulePack.rulesStrings.8>circumstance_phrase->mentre [victim_nameFull] passeja distret</KilledMortar.rulePack.rulesStrings.8>
+  <KilledMortar.rulePack.rulesStrings.9>circumstance_phrase->mentre [victim_nameFull] esprinta</KilledMortar.rulePack.rulesStrings.9>
+  <KilledMortar.rulePack.rulesStrings.10>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</KilledMortar.rulePack.rulesStrings.10>
+  <KilledMortar.rulePack.rulesStrings.11>desc_sentence->Un [outlander] s’ho mira sense dir res [side_position].</KilledMortar.rulePack.rulesStrings.11>
+  <KilledMortar.rulePack.rulesStrings.12>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</KilledMortar.rulePack.rulesStrings.12>
+  <KilledMortar.rulePack.rulesStrings.13>desc_sentence->[victim_nameShortDef] te el cos cobert de [gore].</KilledMortar.rulePack.rulesStrings.13>
+  <KilledMortar.rulePack.rulesStrings.14>desc_sentence->[victim_nameShortDef] està envoltat d’explosions.</KilledMortar.rulePack.rulesStrings.14>
+  <KilledMortar.rulePack.rulesStrings.15>desc_sentence->[victim_nameShortDef] està envoltats de cràters.</KilledMortar.rulePack.rulesStrings.15>
+  <KilledMortar.rulePack.rulesStrings.16>desc_sentence->[killer_nameShortDef] sembla satisfet.</KilledMortar.rulePack.rulesStrings.16>
+  <KilledMortar.rulePack.rulesStrings.17>desc_sentence->[killer_nameShortDef] Sembla preocupat pel que esta fent [killer_pronoun].</KilledMortar.rulePack.rulesStrings.17>
+  <KilledMortar.rulePack.rulesStrings.18>desc_sentence->[killer_nameShortDef] sembla encantat amb la situació.</KilledMortar.rulePack.rulesStrings.18>
+  <KilledMortar.rulePack.rulesStrings.19>desc_sentence->[killer_nameShortDef] es mostra triomfant.</KilledMortar.rulePack.rulesStrings.19>
 
-  <Exhausted.label>exhausted</Exhausted.label>
-  <Exhausted.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] collapsing from exhaustion</Exhausted.rulePack.rulesStrings.0>
-  <Exhausted.rulePack.rulesStrings.1>image->[pawn_nameFull] collapsing on the ground [circumstance_group]</Exhausted.rulePack.rulesStrings.1>
-  <Exhausted.rulePack.rulesStrings.2>image->[pawn_nameFull] lying on the ground [circumstance_group]</Exhausted.rulePack.rulesStrings.2>
-  <Exhausted.rulePack.rulesStrings.3>image->[pawn_nameFull] lying in bed [circumstance_group]</Exhausted.rulePack.rulesStrings.3>
-  <Exhausted.rulePack.rulesStrings.4>image->[pawn_nameFull] collapsed in a chair [circumstance_group]</Exhausted.rulePack.rulesStrings.4>
-  <Exhausted.rulePack.rulesStrings.5>image->[pawn_nameFull] peacefully sleeping [circumstance_group]</Exhausted.rulePack.rulesStrings.5>
-  <Exhausted.rulePack.rulesStrings.6>circumstance_phrase->with eyes closed</Exhausted.rulePack.rulesStrings.6>
-  <Exhausted.rulePack.rulesStrings.7>circumstance_phrase->with a visible look of exhaustion</Exhausted.rulePack.rulesStrings.7>
-  <Exhausted.rulePack.rulesStrings.8>circumstance_phrase->while covered in sweat</Exhausted.rulePack.rulesStrings.8>
-  <Exhausted.rulePack.rulesStrings.9>circumstance_phrase->and unable to move a muscle</Exhausted.rulePack.rulesStrings.9>
-  <Exhausted.rulePack.rulesStrings.10>desc_sentence->[pawn_nameShortDef]'s last project sits nearby, complete.</Exhausted.rulePack.rulesStrings.10>
-  <Exhausted.rulePack.rulesStrings.11>desc_sentence->A marvelous construction surrounds [pawn_nameShortDef].</Exhausted.rulePack.rulesStrings.11>
-  <Exhausted.rulePack.rulesStrings.12>desc_sentence->[quantity_adjphrase] [outlander]s look grateful for [pawn_nameShortDef]'s heroic effort.</Exhausted.rulePack.rulesStrings.12>
-  <Exhausted.rulePack.rulesStrings.13>desc_sentence->[quantity_adjphrase] [outlander]s lie nearby in a similar state.</Exhausted.rulePack.rulesStrings.13>
-  <Exhausted.rulePack.rulesStrings.14>desc_sentence->The scene takes place inside a newly-built [community].</Exhausted.rulePack.rulesStrings.14>
+  <Exhausted.label>esgotament</Exhausted.label>
+  <Exhausted.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] perdent el coneixement pel cansament</Exhausted.rulePack.rulesStrings.0>
+  <Exhausted.rulePack.rulesStrings.1>image->[pawn_nameFull] caient a terra [circumstance_group]</Exhausted.rulePack.rulesStrings.1>
+  <Exhausted.rulePack.rulesStrings.2>image->[pawn_nameFull] jaient a terra [circumstance_group]</Exhausted.rulePack.rulesStrings.2>
+  <Exhausted.rulePack.rulesStrings.3>image->el cos [pawn_nameFull] estirat a terra [circumstance_group]</Exhausted.rulePack.rulesStrings.3>
+  <Exhausted.rulePack.rulesStrings.4>image->[pawn_nameFull] abatut sobre una cadira [circumstance_group]</Exhausted.rulePack.rulesStrings.4>
+  <Exhausted.rulePack.rulesStrings.5>image->[pawn_nameFull] dormint com un angelet [circumstance_group]</Exhausted.rulePack.rulesStrings.5>
+  <Exhausted.rulePack.rulesStrings.6>circumstance_phrase->amb els ulls tancats</Exhausted.rulePack.rulesStrings.6>
+  <Exhausted.rulePack.rulesStrings.7>circumstance_phrase->amb uns ulls visiblement esgotats</Exhausted.rulePack.rulesStrings.7>
+  <Exhausted.rulePack.rulesStrings.8>circumstance_phrase->amb el cos cobert de suor</Exhausted.rulePack.rulesStrings.8>
+  <Exhausted.rulePack.rulesStrings.9>circumstance_phrase->i incapaç de moure un muscle</Exhausted.rulePack.rulesStrings.9>
+  <Exhausted.rulePack.rulesStrings.10>desc_sentence->el darrer treball de [pawn_nameShortDef] és al seu costat, acabat.</Exhausted.rulePack.rulesStrings.10>
+  <Exhausted.rulePack.rulesStrings.11>desc_sentence->Una construcció meravellosa envolta a [pawn_nameShortDef].</Exhausted.rulePack.rulesStrings.11>
+  <Exhausted.rulePack.rulesStrings.12>desc_sentence->[quantity_adjphrase] [outlander]s es mostren agraïts per l’esforç heroic de [pawn_nameShortDef].</Exhausted.rulePack.rulesStrings.12>
+  <Exhausted.rulePack.rulesStrings.13>desc_sentence->[quantity_adjphrase] [outlander]s jeuen a prop en un estat semblant.</Exhausted.rulePack.rulesStrings.13>
+  <Exhausted.rulePack.rulesStrings.14>desc_sentence->L’escena té lloc dins una [community] acabada de fer.</Exhausted.rulePack.rulesStrings.14>
 
-  <IllnessRevealed.label>illness revealed</IllnessRevealed.label>
-  <IllnessRevealed.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] stricken with [illness_label]</IllnessRevealed.rulePack.rulesStrings.0>
-  <IllnessRevealed.rulePack.rulesStrings.1>image->[pawn_nameFull] staggering through a field [circumstance_group]</IllnessRevealed.rulePack.rulesStrings.1>
-  <IllnessRevealed.rulePack.rulesStrings.2>image->[pawn_nameFull] lying on the ground [circumstance_group]</IllnessRevealed.rulePack.rulesStrings.2>
-  <IllnessRevealed.rulePack.rulesStrings.3>image->[pawn_nameFull] lying in bed [circumstance_group]</IllnessRevealed.rulePack.rulesStrings.3>
-  <IllnessRevealed.rulePack.rulesStrings.4>image->[pawn_nameFull] lying in a hospital bed [circumstance_group]</IllnessRevealed.rulePack.rulesStrings.4>
-  <IllnessRevealed.rulePack.rulesStrings.5>image->[pawn_nameFull] collapsed in a chair [circumstance_group]</IllnessRevealed.rulePack.rulesStrings.5>
-  <IllnessRevealed.rulePack.rulesStrings.6>image->[pawn_nameFull] crouching next to a fire [circumstance_group]</IllnessRevealed.rulePack.rulesStrings.6>
-  <IllnessRevealed.rulePack.rulesStrings.7>circumstance_phrase->and sweating uncontrollably</IllnessRevealed.rulePack.rulesStrings.7>
-  <IllnessRevealed.rulePack.rulesStrings.8>circumstance_phrase->and shivering uncontrollably</IllnessRevealed.rulePack.rulesStrings.8>
-  <IllnessRevealed.rulePack.rulesStrings.9>circumstance_phrase->while both sweating and shivering</IllnessRevealed.rulePack.rulesStrings.9>
-  <IllnessRevealed.rulePack.rulesStrings.10>circumstance_phrase->with cracked dry lips</IllnessRevealed.rulePack.rulesStrings.10>
-  <IllnessRevealed.rulePack.rulesStrings.11>circumstance_phrase->while vomiting</IllnessRevealed.rulePack.rulesStrings.11>
-  <IllnessRevealed.rulePack.rulesStrings.12>circumstance_phrase->with a visible rash</IllnessRevealed.rulePack.rulesStrings.12>
-  <IllnessRevealed.rulePack.rulesStrings.13>circumstance_phrase->while being tended to by a doctor</IllnessRevealed.rulePack.rulesStrings.13>
-  <IllnessRevealed.rulePack.rulesStrings.14>desc_sentence->[quantity_adjphrase] fly-ridden [animal] corpses surround the area.</IllnessRevealed.rulePack.rulesStrings.14>
-  <IllnessRevealed.rulePack.rulesStrings.15>desc_sentence->[quantity_adjphrase] twisted [color] [terrainfeature]s surround the scene.</IllnessRevealed.rulePack.rulesStrings.15>
-  <IllnessRevealed.rulePack.rulesStrings.16>desc_sentence->[quantity_adjphrase] [outlander]s are stricken with the same afflication.</IllnessRevealed.rulePack.rulesStrings.16>
-  <IllnessRevealed.rulePack.rulesStrings.17>desc_sentence->The scene takes place inside a [tree] forest.</IllnessRevealed.rulePack.rulesStrings.17>
-  <IllnessRevealed.rulePack.rulesStrings.18>desc_sentence->[quantity_adjphrase] dying [animal]s litter the ground.</IllnessRevealed.rulePack.rulesStrings.18>
+  <IllnessRevealed.label>malaltia</IllnessRevealed.label>
+  <IllnessRevealed.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] ha agafat [illness_label]</IllnessRevealed.rulePack.rulesStrings.0>
+  <IllnessRevealed.rulePack.rulesStrings.1>image->[pawn_nameFull] tentinejant a per un camp [circumstance_group]</IllnessRevealed.rulePack.rulesStrings.1>
+  <IllnessRevealed.rulePack.rulesStrings.2>image->[pawn_nameFull] ajagut a terra [circumstance_group]</IllnessRevealed.rulePack.rulesStrings.2>
+  <IllnessRevealed.rulePack.rulesStrings.3>image->[pawn_nameFull] estirat al llit [circumstance_group]</IllnessRevealed.rulePack.rulesStrings.3>
+  <IllnessRevealed.rulePack.rulesStrings.4>image->[pawn_nameFull] estirat al llit de l’hospital [circumstance_group]</IllnessRevealed.rulePack.rulesStrings.4>
+  <IllnessRevealed.rulePack.rulesStrings.5>image->[pawn_nameFull] enfonsat sobre una cadira [circumstance_group]</IllnessRevealed.rulePack.rulesStrings.5>
+  <IllnessRevealed.rulePack.rulesStrings.6>image->[pawn_nameFull] a la gatzoneta la costat d’un foc [circumstance_group]</IllnessRevealed.rulePack.rulesStrings.6>
+  <IllnessRevealed.rulePack.rulesStrings.7>circumstance_phrase->i suant descontroladament</IllnessRevealed.rulePack.rulesStrings.7>
+  <IllnessRevealed.rulePack.rulesStrings.8>circumstance_phrase->i tremolant descontroladament</IllnessRevealed.rulePack.rulesStrings.8>
+  <IllnessRevealed.rulePack.rulesStrings.9>circumstance_phrase->suant i tremolant a la vegada</IllnessRevealed.rulePack.rulesStrings.9>
+  <IllnessRevealed.rulePack.rulesStrings.10>circumstance_phrase->amb els llavis tallats</IllnessRevealed.rulePack.rulesStrings.10>
+  <IllnessRevealed.rulePack.rulesStrings.11>circumstance_phrase->mentre vomita</IllnessRevealed.rulePack.rulesStrings.11>
+  <IllnessRevealed.rulePack.rulesStrings.12>circumstance_phrase->amb una erupció visible</IllnessRevealed.rulePack.rulesStrings.12>
+  <IllnessRevealed.rulePack.rulesStrings.13>circumstance_phrase->sent atès pel metge</IllnessRevealed.rulePack.rulesStrings.13>
+  <IllnessRevealed.rulePack.rulesStrings.14>desc_sentence->[quantity_adjphrase] cadàvers de [animal]s volant per la zona.</IllnessRevealed.rulePack.rulesStrings.14>
+  <IllnessRevealed.rulePack.rulesStrings.15>desc_sentence->[quantity_adjphrase] [terrainfeature]s [color]s retorçades envolten l’escena.</IllnessRevealed.rulePack.rulesStrings.15>
+  <IllnessRevealed.rulePack.rulesStrings.16>desc_sentence->[quantity_adjphrase] [outlander]s estant afectats per la mateixa malatia.</IllnessRevealed.rulePack.rulesStrings.16>
+  <IllnessRevealed.rulePack.rulesStrings.17>desc_sentence->L’escena té lloc dins un bosc de [tree]s.</IllnessRevealed.rulePack.rulesStrings.17>
+  <IllnessRevealed.rulePack.rulesStrings.18>desc_sentence->[quantity_adjphrase][animal]s moribunds embruten el terra.</IllnessRevealed.rulePack.rulesStrings.18>
 
   <HeatstrokeRevealed.label>heatstroke revealed</HeatstrokeRevealed.label>
   <HeatstrokeRevealed.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] getting heatstroke</HeatstrokeRevealed.rulePack.rulesStrings.0>
