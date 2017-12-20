@@ -63,7 +63,9 @@
   <SaveIsUnknownFormat>No es reconeix el format de la partida desada i el més probable és que no funcioni.</SaveIsUnknownFormat>
   <ProblemSavingFile>S'ha produït un problema en desar el fitxer {0}:\n\n{1}\n\nConsulteu el registre d'errors per obtenir més informació .</ProblemSavingFile>
   <LoadAnyway>Carrega-la de tota manera</LoadAnyway>
-  
+  <ChangeLoadedMods>Carrega la llista de mods de la partida desada</ChangeLoadedMods>
+  <MissingMods>Alguns mods no estan disponibles i s’han d’instal·lar</MissingMods>
+
   <!-- Player faction naming -->
   <NamePlayerFactionMessage>{0} pensa que haurieu de posar un nom a la vostra facció. Com s'hauria de dir?</NamePlayerFactionMessage>
   <PlayerFactionGainsName>La vostra facció és coneguda com a {0}.</PlayerFactionGainsName>
@@ -180,7 +182,7 @@
   <WalkSpeedProperty>Velocitat al caminar</WalkSpeedProperty>
   <MinFoodQuality>Qualitat mín. del menjar</MinFoodQuality>
   <Diet>Dieta</Diet>
-	<BodySize>Mida del cos</BodySize>
+  <BodySize>Mida del cos</BodySize>
   <RecruitDifficulty>Dificultat de reclutament</RecruitDifficulty>
   <MarketValue>preu base</MarketValue>
   <Covers>Cobreix</Covers>
@@ -195,8 +197,15 @@
   <TimeRecordsCategory>Temps</TimeRecordsCategory>
   <MiscRecordsCategory>Altres</MiscRecordsCategory>
   <Addictiveness>Adictivitat</Addictiveness>
-	<PackAnimal>Animal de càrrega</PackAnimal>
-	<PackAnimalExplanation>Indica si l'animal és apropiat per portar coses en una caravana i recórrer llargues distàncies.</PackAnimalExplanation>
+  <PackAnimal>Animal de càrrega</PackAnimal>
+  <PackAnimalExplanation>Indica si l'animal és apropiat per portar coses en una caravana i recórrer llargues distàncies.</PackAnimalExplanation>
+  <Skill>Capacitat</Skill>
+  <SurgerySuccessChanceFactor>Factor de l’índex d’èxit</SurgerySuccessChanceFactor>
+  <SurgeryRequireBed>Necessita un llit</SurgeryRequireBed>
+  <WorkSpeedStat>Velocitat de treball gestionada a partir de</WorkSpeedStat>
+  <EfficiencyStat>Quantitat generada gestionada a partir de</EfficiencyStat>
+  <ConstructionSkillRequired>Es requereix una capacitat de construcció</ConstructionSkillRequired>
+  <ConstructionSkillRequiredExplanation>Requereix aquest nivell de construcció per poder-lo fer.</ConstructionSkillRequiredExplanation>
 
   <!-- Trade -->
   <PositiveBuysNegativeSells>Si és positiu indica compra.\nSi és negatiu venda.</PositiveBuysNegativeSells>
@@ -210,12 +219,14 @@
   <CancelButton>Cancel·la</CancelButton>
   <CloseButton>Tanca</CloseButton>
   <YourTradeableSilver>Plata per gastar: {0}</YourTradeableSilver>
-	<YourTradeableSilverTip>Només podeu fer servir la plata que teniu prop d'una balisa orbital i no sota teulada.</YourTradeableSilverTip>
+  <YourTradeableSilverTip>Només podeu fer servir la plata que teniu prop d'una balisa orbital i no sota teulada.</YourTradeableSilverTip>
   <TraderHasNoMore>El mercader no en té més.</TraderHasNoMore>
   <ColonyHasNoMore>No en teniu més per vendre.</ColonyHasNoMore>
   <TraderWillNotTrade>El mercader no està interessat en aquestes coses.</TraderWillNotTrade>
   <Negotiator>Negociador</Negotiator>
-  <NegotiatorTalkingImpaired>El vostre negociador {0} no pot parlar correctament degut a la precària salut.\n\nAixò afectarà als preus.\n\nConsidereu fer servir un negociador amb millor salut.</NegotiatorTalkingImpaired>
+  <NegotiatorTalkingImpaired>El vostre negociador {0} no pot parlar correctament degut a la precària salut.</NegotiatorTalkingImpaired>
+  <NegotiatorHearingImpaired>El vostre negociador {0} no hi pot sentir bé degut a la percària salut.</NegotiatorHearingImpaired>
+ <NegotiatorCapacityImpaired>Això afectarà als preus.\n\nConsidereu fer servir un negociador amb millor salut.</NegotiatorCapacityImpaired>
   <ConfirmTraderShortFunds>El mercader no té prou plata per fer front a la transacció. Voleu continuar igualment?</ConfirmTraderShortFunds>
   <SortBy>Ordena</SortBy>
   <TraderTypePrice>Preu del comerciant</TraderTypePrice>
@@ -250,11 +261,13 @@
   <DaysWorthOfFoodInfoRot>menjar per {0} dies, es podreix en {1} dies</DaysWorthOfFoodInfoRot>
   <InfiniteDaysWorthOfFoodInfo>No us quedareu mai sense menjar</InfiniteDaysWorthOfFoodInfo>
   <DaysWorthOfFoodTooltip>Nombre aproximat de dies abans que la caravana es quedi sense menjar.\n\nTé en compte tant el menjar de les persones com el dels animals, i presenta el pitjor escenari. Això vol dir que després d'aquests dies com a mínim una persona o animal no tindrà menjar.</DaysWorthOfFoodTooltip>
-  <CaravanFoodWillRotSoonWarningDialog>Bona part del menjar es podrirà aviat.\n\nSegur que voleu formar aquesta caravana?</CaravanFoodWillRotSoonWarningDialog>
   <DaysWorthOfFoodTooltip_CanEatLocalPlants>Segons l'estació actual, la temperatura i l'entorn s'assumeix que els animals herbívors s'alimentaran de les plantes que trobin. Tanmateix, les condicions poden canviar en qualsevol moment.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
   <DaysWorthOfFoodTooltip_CantEatLocalPlants>Segons l'estació actual, la temperatura i l'entorn s'assumeix que els animals herbívors NO trobaran plantes per alimentar-se. Tanmateix, les condicions poden canviar en qualsevol moment.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
   <DaysWorthOfFoodWarningDialog>La caravana només té menjar per {0} dies i passaran gana molt aviat.\n\nSegur que voleu forma aquesta caravana?</DaysWorthOfFoodWarningDialog>
-  <DaysWorthOfFoodWarningDialog_NoFood>La caravana no té menjar i passaran gana molt aviat.\n\nSegur que voleu forma aquesta caravana?</DaysWorthOfFoodWarningDialog_NoFood>
+ <DaysWorthOfFoodWarningDialog_NoFood>La caravana no té menjar i passaran gana molt aviat.\n\nSegur que voleu forma aquesta caravana?</DaysWorthOfFoodWarningDialog_NoFood>
+ <CaravanFoodWillRotSoonWarningDialog>Bona part del menjar es podrirà aviat.\n\nSegur que voleu formar aquesta caravana?</CaravanFoodWillRotSoonWarningDialog>
+  <CaravanIncapableOfSocial>No teniu cap membre a la caravana capaç de diplomàcia o de comerciar.</CaravanIncapableOfSocial>
+  <CaravanAreYouSure>Esteu segur que voleu formar la caravana?</CaravanAreYouSure>
   <NoExitDirectionForCaravanChosen>Heu d'escollir una direcció de sortida per la caravana.</NoExitDirectionForCaravanChosen>
   <NoCaravanExitDirectionAvailable>(No es pot sortir per enlloc)</NoCaravanExitDirectionAvailable>
   <ExitDirection>Direcció de sortida</ExitDirection>
@@ -368,11 +381,11 @@
   <ConfirmLeavePrisonersOrAnimalsBehind>Encara hi ha presoners o animals en aquesta zona i aquesta és la única caravana que poden agafar ara mateix.\n\nS mous la caravana, no podran sortir de la zona fins que torneu. Els presoners provaran d'escapar, mentre que els animals us esperaran.\n\nSi us espereu, miraran d'unir-se a la caravana quan els sigui possible.\n\nEsteu segur que voleu moure la caravana?</ConfirmLeavePrisonersOrAnimalsBehind>
   
   <!-- Abandon pawn -->
-  <ConfirmAbandonPawnDialog>Esteu segur que voleu abandonar {0}?</ConfirmAbandonPawnDialog>
-  <ConfirmAbandonPawnDialog_LeftToDie>{0} probablement morirà.</ConfirmAbandonPawnDialog_LeftToDie>
-  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} Es quedarà els següents objectes:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
-  <ConfirmAbandonPawnDialog_AllColonistsThoughts>Tots els colons tindran aquest sentiment:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
-  <ConfirmAbandonPawnDialog_IndividualThoughts>Abandonar {0} farà que els següents colons tinguin aquests sentiments:</ConfirmAbandonPawnDialog_IndividualThoughts>
+<ConfirmBanishPawnDialog>Esteu segur que voleu fer fora {0}?</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog_LeftToDie>{0} probablement morirà.</ConfirmBanishPawnDialog_LeftToDie>
+  <ConfirmBanishPawnDialog_Items>{0} Es quedarà els següents objectes:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>Tots els colons tindran aquest sentiment:</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <ConfirmBanishPawnDialog_IndividualThoughts>Fer fora {0} farà que els següents colons tinguin aquests sentiments:</ConfirmBanishPawnDialog_IndividualThoughts>
   
   <!-- Send transport pods which are not completely loaded -->
   <ConfirmSendNotCompletelyLoadedPods>Les càpsules encara no estant completament carregades. Falta {0}. Voleu llençar-les igualment?</ConfirmSendNotCompletelyLoadedPods>

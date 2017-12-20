@@ -12,19 +12,22 @@
   <StatsReport_OtherStats>Altres factors</StatsReport_OtherStats>
   <StatsReport_HealthFactors>Factors de salut</StatsReport_HealthFactors>
   <HealthFactorPercentImpact>{0} importància</HealthFactorPercentImpact>
-	<HealthFactorMaxImpact>{0} màx</HealthFactorMaxImpact>
-	<StatsReport_PostProcessed>Post-processed curved</StatsReport_PostProcessed>
+  <HealthOffsetScale>{0} impacte</HealthOffsetScale>
+  <HealthFactorMaxImpact>{0} màx</HealthFactorMaxImpact>
+  <HealthFactorAllowedDefect>si inferior a {0}</HealthFactorAllowedDefect>
+  <StatsReport_PostProcessed>Post-processed curved</StatsReport_PostProcessed>
   <StatsReport_FinalValue>Valor final</StatsReport_FinalValue>
   <StatsReport_MarketValueFromStuffsAndWork>El valor base de mercat es calcula a partir dels materials de construcció i la quantitat de treball.</StatsReport_MarketValueFromStuffsAndWork>
   <StatsReport_QualityMultiplier>Multiplicador de qualitat</StatsReport_QualityMultiplier>
   <StatsReport_AgeMultiplier>Multiplicador d'edat {0}</StatsReport_AgeMultiplier>
   <StatsReport_HealthMultiplier>Multiplicador de salut {0}</StatsReport_HealthMultiplier>
   <StatsReport_MoodMultiplier>Multiplicador d'estat d'ànim {0}</StatsReport_MoodMultiplier>
-	<StatsReport_DifficultyMultiplier>Multiplicador de dificultat {0}</StatsReport_DifficultyMultiplier>
+  <StatsReport_LightMultiplier>Multiplicador per lluminositat {0}</StatsReport_LightMultiplier>
+  <StatsReport_DifficultyMultiplier>Multiplicador de dificultat {0}</StatsReport_DifficultyMultiplier>
   <StatsReport_InBed>Al llit</StatsReport_InBed>
   <StatsReport_Facilities>Instal·lacions</StatsReport_Facilities>
   <StatsReport_BodySize>Multiplicador per la mida del cos {0}</StatsReport_BodySize>
-  <StatsReport_MeleeDPSExplanation>L'estat es mostra en el següent format:\nDPS ( dany cos a cos / Recàrrega en segons / Probabilitat de cop cos a cos )\n\nDPS = dany cos a cos * Probabilitat de cop cos a cos / Recàrrega en segons</StatsReport_MeleeDPSExplanation>
+<StatsReport_MeleeDPSExplanation>DPS = dany cos a cos * Probabilitat de cop cos a cos / Recàrrega en segons</StatsReport_MeleeDPSExplanation>
   <StatsReport_MeleeDamage>Dany cos a cos</StatsReport_MeleeDamage>
   <StatsReport_Cooldown>Recàrrega</StatsReport_Cooldown>
   <StatsReport_MeleeHitChance>Probabilitat de cop cos a cos</StatsReport_MeleeHitChance>
@@ -35,5 +38,9 @@
   <StatsReport_WornByCorpse>Multiplicador per haver estat portat per un cadàver</StatsReport_WornByCorpse>
   <AverageOfAllAttacks>mitjana de tots els atacs</AverageOfAllAttacks>
   <StatsReport_ScenarioFactor>Escenari</StatsReport_ScenarioFactor>
-  <StatsReport_IngredientsMass>Ingredients</StatsReport_IngredientsMass>
+  <StatsReport_IngredientsMass>Ingredients</StatsReport_IngredientsMass>
+  <StatsReport_PermanentlyDisabled>Permanentment inhabilitat.</StatsReport_PermanentlyDisabled>
+  <StatsReport_Inspiration>{0}</StatsReport_Inspiration>
+  <StatsReport_AddedBodyPartsMass>Parts del cos afegides</StatsReport_AddedBodyPartsMass>
+
 </LanguageData>

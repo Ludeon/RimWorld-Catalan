@@ -45,13 +45,12 @@
 
   <DesignatorAreaBuildRoofExpand>Ampliar zona teulada</DesignatorAreaBuildRoofExpand>
   <DesignatorAreaBuildRoofExpandDesc>Els colons construiran teulades en aquesta zona.</DesignatorAreaBuildRoofExpandDesc>
-  <DesignatorAreaBuildRoofClear>Reduir zona teulada</DesignatorAreaBuildRoofClear>
-  <DesignatorAreaBuildRoofClearDesc>Esborra un tros de la zona on els colons construiran teulades. Les teulades que hi hagin es quedaran, però no se'n construiran més.</DesignatorAreaBuildRoofClearDesc>
 
   <DesignatorAreaNoRoofExpand>Ampliar zona cel obert</DesignatorAreaNoRoofExpand>
   <DesignatorAreaNoRoofExpandDesc>Els colons trauran les teulades d'aquesta zona (Excepte zones cobertes per muntanya, que no es poden treure).</DesignatorAreaNoRoofExpandDesc>
-  <DesignatorAreaNoRoofClear>Reduir zona cel obert</DesignatorAreaNoRoofClear>
-  <DesignatorAreaNoRoofClearDesc>Esborra un tros de la zona sense teulada per que els colons deixin de retirar-la.</DesignatorAreaNoRoofClearDesc>
+
+  <DesignatorAreaIgnoreRoofExpand>Ignora la zona de teulada</DesignatorAreaIgnoreRoofExpand>
+  <DesignatorAreaIgnoreRoofExpandDesc>Els colons no faran cas de les teulades de la zona.</DesignatorAreaIgnoreRoofExpandDesc>
 
   <DesignatorAreaSnowClearExpand>Ampliar neteja neu</DesignatorAreaSnowClearExpand>
   <DesignatorAreaSnowClearExpandDesc>Crea una zona que els colons miraran de mantenir neta de neu.</DesignatorAreaSnowClearExpandDesc>
@@ -121,6 +120,6 @@
   
   <!-- Desc helpers -->
   <TransmitsPower>Condueix la corrent</TransmitsPower>
-
+  <ConstructionNeeded>Falta construir</ConstructionNeeded>
 
 </LanguageData>
