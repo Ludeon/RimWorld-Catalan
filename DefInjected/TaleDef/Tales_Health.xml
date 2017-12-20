@@ -46,9 +46,9 @@
   <Downed.label>abatut</Downed.label>
   <Downed.rulePack.rulesStrings.0>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef]</Downed.rulePack.rulesStrings.0>
   <Downed.rulePack.rulesStrings.1>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] amb [weapon_label]</Downed.rulePack.rulesStrings.1>
-  <Downed.rulePack.rulesStrings.2>tale_noun->[killer_nameShortDef][wound_name_present] a [victim_nameShortDef]</Downed.rulePack.rulesStrings.2>
+  <Downed.rulePack.rulesStrings.2>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef]</Downed.rulePack.rulesStrings.2>
   <Downed.rulePack.rulesStrings.3>tale_noun->[weapon_label] [wound_name_present] a [victim_nameShortDef]</Downed.rulePack.rulesStrings.3>
-  <Downed.rulePack.rulesStrings.4>tale_noun->[wound_name_present] de [victim_nameShortDef]</Downed.rulePack.rulesStrings.4>
+  <Downed.rulePack.rulesStrings.4>tale_noun->la mutilació de [victim_nameShortDef]</Downed.rulePack.rulesStrings.4>
   <Downed.rulePack.rulesStrings.5>image->[victim_nameFull] sent [wound_name_past] per [killer_nameFull] [weapon_optional]</Downed.rulePack.rulesStrings.5>
   <Downed.rulePack.rulesStrings.6>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</Downed.rulePack.rulesStrings.6>
   <Downed.rulePack.rulesStrings.7>image->[killer_nameFull] [wound_name_present] brutalment [victim_nameFull] [weapon_optional]</Downed.rulePack.rulesStrings.7>
@@ -60,7 +60,7 @@
   <Downed.rulePack.rulesStrings.13>wound_name_present->incapacita</Downed.rulePack.rulesStrings.13>
   <Downed.rulePack.rulesStrings.14>wound_name_present->lesiona</Downed.rulePack.rulesStrings.14>
   <Downed.rulePack.rulesStrings.15>wound_name_present->deixa inconscient</Downed.rulePack.rulesStrings.15>
-  <Downed.rulePack.rulesStrings.16>wound_name_present->incapacita</Downed.rulePack.rulesStrings.16>
+  <Downed.rulePack.rulesStrings.16>wound_name_present->discapacita</Downed.rulePack.rulesStrings.16>
   <Downed.rulePack.rulesStrings.17>weapon_optional->amb [weapon_label] [circumstance_group]</Downed.rulePack.rulesStrings.17>
   <Downed.rulePack.rulesStrings.18>weapon_optional->[circumstance_group]</Downed.rulePack.rulesStrings.18>
   <Downed.rulePack.rulesStrings.19>circumstance_phrase->sense remordiment aparent</Downed.rulePack.rulesStrings.19>
@@ -282,85 +282,85 @@
   <IllnessRevealed.rulePack.rulesStrings.17>desc_sentence->L’escena té lloc dins un bosc de [tree]s.</IllnessRevealed.rulePack.rulesStrings.17>
   <IllnessRevealed.rulePack.rulesStrings.18>desc_sentence->[quantity_adjphrase][animal]s moribunds embruten el terra.</IllnessRevealed.rulePack.rulesStrings.18>
 
-  <HeatstrokeRevealed.label>heatstroke revealed</HeatstrokeRevealed.label>
-  <HeatstrokeRevealed.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] getting heatstroke</HeatstrokeRevealed.rulePack.rulesStrings.0>
-  <HeatstrokeRevealed.rulePack.rulesStrings.1>tale_noun->[pawn_nameShortDef] overheating</HeatstrokeRevealed.rulePack.rulesStrings.1>
-  <HeatstrokeRevealed.rulePack.rulesStrings.2>image->[pawn_nameFull] trudging through sand [circumstance_group]</HeatstrokeRevealed.rulePack.rulesStrings.2>
-  <HeatstrokeRevealed.rulePack.rulesStrings.3>image->[pawn_nameFull] huddled in the shade of a [terrainfeature] [circumstance_group]</HeatstrokeRevealed.rulePack.rulesStrings.3>
-  <HeatstrokeRevealed.rulePack.rulesStrings.4>image->[pawn_nameFull] searching for water [circumstance_group]</HeatstrokeRevealed.rulePack.rulesStrings.4>
-  <HeatstrokeRevealed.rulePack.rulesStrings.5>image->[pawn_nameFull] searching for shade [circumstance_group]</HeatstrokeRevealed.rulePack.rulesStrings.5>
-  <HeatstrokeRevealed.rulePack.rulesStrings.6>image->[pawn_nameFull] crawling across sun-baked dirt [circumstance_group]</HeatstrokeRevealed.rulePack.rulesStrings.6>
-  <HeatstrokeRevealed.rulePack.rulesStrings.7>circumstance_phrase->with red dry skin</HeatstrokeRevealed.rulePack.rulesStrings.7>
-  <HeatstrokeRevealed.rulePack.rulesStrings.8>circumstance_phrase->and covered in sweat</HeatstrokeRevealed.rulePack.rulesStrings.8>
-  <HeatstrokeRevealed.rulePack.rulesStrings.9>circumstance_phrase->with cracked dry lips</HeatstrokeRevealed.rulePack.rulesStrings.9>
-  <HeatstrokeRevealed.rulePack.rulesStrings.10>circumstance_phrase->while vomiting</HeatstrokeRevealed.rulePack.rulesStrings.10>
-  <HeatstrokeRevealed.rulePack.rulesStrings.11>desc_sentence->[quantity_adjphrase] dessicated [animal] corpses surround the area.</HeatstrokeRevealed.rulePack.rulesStrings.11>
-  <HeatstrokeRevealed.rulePack.rulesStrings.12>desc_sentence->[pawn_nameShortDef]'s clothes are tattered and torn.</HeatstrokeRevealed.rulePack.rulesStrings.12>
-  <HeatstrokeRevealed.rulePack.rulesStrings.13>desc_sentence->A blazing sun looms in the background.</HeatstrokeRevealed.rulePack.rulesStrings.13>
-  <HeatstrokeRevealed.rulePack.rulesStrings.14>desc_sentence->The scene takes place inside a blazing desert.</HeatstrokeRevealed.rulePack.rulesStrings.14>
-  <HeatstrokeRevealed.rulePack.rulesStrings.15>desc_sentence->The scene appears to take place inside, next to a heater.</HeatstrokeRevealed.rulePack.rulesStrings.15>
-  <HeatstrokeRevealed.rulePack.rulesStrings.16>desc_sentence->[quantity_adjphrase] unmoving [animal]s surround the scene.</HeatstrokeRevealed.rulePack.rulesStrings.16>
-  <HeatstrokeRevealed.rulePack.rulesStrings.17>desc_sentence->[quantity_adjphrase] dying [animal]s litter the ground.</HeatstrokeRevealed.rulePack.rulesStrings.17>
+  <HeatstrokeRevealed.label>cop de calor</HeatstrokeRevealed.label>
+  <HeatstrokeRevealed.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] agafant un cop de calor</HeatstrokeRevealed.rulePack.rulesStrings.0>
+  <HeatstrokeRevealed.rulePack.rulesStrings.1>tale_noun->[pawn_nameShortDef] passant molta calor</HeatstrokeRevealed.rulePack.rulesStrings.1>
+  <HeatstrokeRevealed.rulePack.rulesStrings.2>image->[pawn_nameFull] caminant arrossegant els peus per la sorra [circumstance_group]</HeatstrokeRevealed.rulePack.rulesStrings.2>
+  <HeatstrokeRevealed.rulePack.rulesStrings.3>image->[pawn_nameFull] apilant-se a l’ombra d’una [terrainfeature] [circumstance_group]</HeatstrokeRevealed.rulePack.rulesStrings.3>
+  <HeatstrokeRevealed.rulePack.rulesStrings.4>image->[pawn_nameFull] anant a buscar aigua [circumstance_group]</HeatstrokeRevealed.rulePack.rulesStrings.4>
+  <HeatstrokeRevealed.rulePack.rulesStrings.5>image->[pawn_nameFull] buscant l’ombra [circumstance_group]</HeatstrokeRevealed.rulePack.rulesStrings.5>
+  <HeatstrokeRevealed.rulePack.rulesStrings.6>image->[pawn_nameFull] anant de 4 grapes per la bruticia cuita al sol [circumstance_group]</HeatstrokeRevealed.rulePack.rulesStrings.6>
+  <HeatstrokeRevealed.rulePack.rulesStrings.7>circumstance_phrase->amb la pell ben vermella i seca</HeatstrokeRevealed.rulePack.rulesStrings.7>
+  <HeatstrokeRevealed.rulePack.rulesStrings.8>circumstance_phrase->i el cos cobert de suor</HeatstrokeRevealed.rulePack.rulesStrings.8>
+  <HeatstrokeRevealed.rulePack.rulesStrings.9>circumstance_phrase->amb els llavis secs i tallats</HeatstrokeRevealed.rulePack.rulesStrings.9>
+  <HeatstrokeRevealed.rulePack.rulesStrings.10>circumstance_phrase->mentre vomita</HeatstrokeRevealed.rulePack.rulesStrings.10>
+  <HeatstrokeRevealed.rulePack.rulesStrings.11>desc_sentence->[quantity_adjphrase] cadàvers de [animal]s assecats cobreixen la zona.</HeatstrokeRevealed.rulePack.rulesStrings.11>
+  <HeatstrokeRevealed.rulePack.rulesStrings.12>desc_sentence->la roba de [pawn_nameShortDef] està bruta i feta malbé.</HeatstrokeRevealed.rulePack.rulesStrings.12>
+  <HeatstrokeRevealed.rulePack.rulesStrings.13>desc_sentence->Un sol esclatant amenaça a l’horitzó.</HeatstrokeRevealed.rulePack.rulesStrings.13>
+  <HeatstrokeRevealed.rulePack.rulesStrings.14>desc_sentence->L’escena pren part en un desert abrassador.</HeatstrokeRevealed.rulePack.rulesStrings.14>
+  <HeatstrokeRevealed.rulePack.rulesStrings.15>desc_sentence->L’escena pren part en un interior, al costat d’una estufa.</HeatstrokeRevealed.rulePack.rulesStrings.15>
+  <HeatstrokeRevealed.rulePack.rulesStrings.16>desc_sentence->[quantity_adjphrase] [animal]s immòbils envolten l’escena.</HeatstrokeRevealed.rulePack.rulesStrings.16>
+  <HeatstrokeRevealed.rulePack.rulesStrings.17>desc_sentence->[quantity_adjphrase] [animal]s moribunds cobreixen el terra.</HeatstrokeRevealed.rulePack.rulesStrings.17>
 
-  <HypothermiaRevealed.label>hypothermia revealed</HypothermiaRevealed.label>
-  <HypothermiaRevealed.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] getting hypothermia</HypothermiaRevealed.rulePack.rulesStrings.0>
-  <HypothermiaRevealed.rulePack.rulesStrings.1>tale_noun->[pawn_nameShortDef] freezing to death</HypothermiaRevealed.rulePack.rulesStrings.1>
-  <HypothermiaRevealed.rulePack.rulesStrings.2>image->[pawn_nameFull] trudging through snow [circumstance_group]</HypothermiaRevealed.rulePack.rulesStrings.2>
-  <HypothermiaRevealed.rulePack.rulesStrings.3>image->[pawn_nameFull] huddled beside a [terrainfeature] [circumstance_group]</HypothermiaRevealed.rulePack.rulesStrings.3>
-  <HypothermiaRevealed.rulePack.rulesStrings.4>image->[pawn_nameFull] searching for a warm [apparel] [circumstance_group]</HypothermiaRevealed.rulePack.rulesStrings.4>
-  <HypothermiaRevealed.rulePack.rulesStrings.5>image->[pawn_nameFull] crouching next to a fire [circumstance_group]</HypothermiaRevealed.rulePack.rulesStrings.5>
-  <HypothermiaRevealed.rulePack.rulesStrings.6>image->[pawn_nameFull] trying to light a fire [circumstance_group]</HypothermiaRevealed.rulePack.rulesStrings.6>
-  <HypothermiaRevealed.rulePack.rulesStrings.7>circumstance_phrase->while their face slowly turns blue</HypothermiaRevealed.rulePack.rulesStrings.7>
-  <HypothermiaRevealed.rulePack.rulesStrings.8>circumstance_phrase->and shivering uncontrollably</HypothermiaRevealed.rulePack.rulesStrings.8>
-  <HypothermiaRevealed.rulePack.rulesStrings.9>circumstance_phrase->while covered in frost</HypothermiaRevealed.rulePack.rulesStrings.9>
-  <HypothermiaRevealed.rulePack.rulesStrings.10>circumstance_phrase->while exhaling clouds of fog</HypothermiaRevealed.rulePack.rulesStrings.10>
-  <HypothermiaRevealed.rulePack.rulesStrings.11>desc_sentence->[quantity_adjphrase] frozen [animal] corpses surround the area.</HypothermiaRevealed.rulePack.rulesStrings.11>
-  <HypothermiaRevealed.rulePack.rulesStrings.12>desc_sentence->[pawn_nameShortDef]'s clothes are tattered and worn.</HypothermiaRevealed.rulePack.rulesStrings.12>
-  <HypothermiaRevealed.rulePack.rulesStrings.13>desc_sentence->A cold blue moon looms in the background.</HypothermiaRevealed.rulePack.rulesStrings.13>
-  <HypothermiaRevealed.rulePack.rulesStrings.14>desc_sentence->The scene takes place inside a snow-covered [tree] forest.</HypothermiaRevealed.rulePack.rulesStrings.14>
-  <HypothermiaRevealed.rulePack.rulesStrings.15>desc_sentence->The scene appears to take place inside a freezer.</HypothermiaRevealed.rulePack.rulesStrings.15>
-  <HypothermiaRevealed.rulePack.rulesStrings.16>desc_sentence->[quantity_adjphrase] shivering [animal]s surround the scene.</HypothermiaRevealed.rulePack.rulesStrings.16>
-  <HypothermiaRevealed.rulePack.rulesStrings.17>desc_sentence->[quantity_adjphrase] dying [animal]s litter the ground.</HypothermiaRevealed.rulePack.rulesStrings.17>
+  <HypothermiaRevealed.label>hipotèrmia</HypothermiaRevealed.label>
+  <HypothermiaRevealed.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef] agafant una hipotèrmia</HypothermiaRevealed.rulePack.rulesStrings.0>
+  <HypothermiaRevealed.rulePack.rulesStrings.1>tale_noun->[pawn_nameShortDef] morint de fred</HypothermiaRevealed.rulePack.rulesStrings.1>
+  <HypothermiaRevealed.rulePack.rulesStrings.2>image->[pawn_nameFull] caminant arrossegant els peus per la neu [circumstance_group]</HypothermiaRevealed.rulePack.rulesStrings.2>
+  <HypothermiaRevealed.rulePack.rulesStrings.3>image->[pawn_nameFull] apilant-se al costat d’una [terrainfeature] [circumstance_group]</HypothermiaRevealed.rulePack.rulesStrings.3>
+  <HypothermiaRevealed.rulePack.rulesStrings.4>image->[pawn_nameFull] buscant [apparel] calentó [circumstance_group]</HypothermiaRevealed.rulePack.rulesStrings.4>
+  <HypothermiaRevealed.rulePack.rulesStrings.5>image->[pawn_nameFull] a la gatzoneta al costat d’un foc [circumstance_group]</HypothermiaRevealed.rulePack.rulesStrings.5>
+  <HypothermiaRevealed.rulePack.rulesStrings.6>image->[pawn_nameFull] intentant encendre un foc [circumstance_group]</HypothermiaRevealed.rulePack.rulesStrings.6>
+  <HypothermiaRevealed.rulePack.rulesStrings.7>circumstance_phrase->mentre la cara se li va tornant blava</HypothermiaRevealed.rulePack.rulesStrings.7>
+  <HypothermiaRevealed.rulePack.rulesStrings.8>circumstance_phrase->i tremolant descontroladament</HypothermiaRevealed.rulePack.rulesStrings.8>
+  <HypothermiaRevealed.rulePack.rulesStrings.9>circumstance_phrase->amb el cos cobert de gebre</HypothermiaRevealed.rulePack.rulesStrings.9>
+  <HypothermiaRevealed.rulePack.rulesStrings.10>circumstance_phrase->exhalant vapor</HypothermiaRevealed.rulePack.rulesStrings.10>
+  <HypothermiaRevealed.rulePack.rulesStrings.11>desc_sentence->[quantity_adjphrase] cadàvers d’[animal]s congelats envolten la zona.</HypothermiaRevealed.rulePack.rulesStrings.11>
+  <HypothermiaRevealed.rulePack.rulesStrings.12>desc_sentence->[pawn_nameShortDef] té la roba bruta i feta malbé.</HypothermiaRevealed.rulePack.rulesStrings.12>
+  <HypothermiaRevealed.rulePack.rulesStrings.13>desc_sentence->Una lluna blava i freda amenaça al fons.</HypothermiaRevealed.rulePack.rulesStrings.13>
+  <HypothermiaRevealed.rulePack.rulesStrings.14>desc_sentence->L’escena té lloc en un bosc de [tree]s cobert de neu.</HypothermiaRevealed.rulePack.rulesStrings.14>
+  <HypothermiaRevealed.rulePack.rulesStrings.15>desc_sentence->L’escena té lloc dins un congelador.</HypothermiaRevealed.rulePack.rulesStrings.15>
+  <HypothermiaRevealed.rulePack.rulesStrings.16>desc_sentence->[quantity_adjphrase] [animal]s tremolosos completen l’escena.</HypothermiaRevealed.rulePack.rulesStrings.16>
+  <HypothermiaRevealed.rulePack.rulesStrings.17>desc_sentence->[quantity_adjphrase] [animal]s moribunds cobreixen el terra.</HypothermiaRevealed.rulePack.rulesStrings.17>
 
-  <ToxicityRevealed.label>toxicity revealed</ToxicityRevealed.label>
-  <ToxicityRevealed.rulePack.rulesStrings.0>tale_noun->[pawn_nameShortDef]'s body becoming toxic</ToxicityRevealed.rulePack.rulesStrings.0>
-  <ToxicityRevealed.rulePack.rulesStrings.1>tale_noun->[pawn_nameShortDef] receiving toxins from an outside source</ToxicityRevealed.rulePack.rulesStrings.1>
-  <ToxicityRevealed.rulePack.rulesStrings.2>image->[pawn_nameFull] staggering through a field [circumstance_group]</ToxicityRevealed.rulePack.rulesStrings.2>
-  <ToxicityRevealed.rulePack.rulesStrings.3>image->[pawn_nameFull] lying on the ground [circumstance_group]</ToxicityRevealed.rulePack.rulesStrings.3>
-  <ToxicityRevealed.rulePack.rulesStrings.4>image->[pawn_nameFull] lying in bed [circumstance_group]</ToxicityRevealed.rulePack.rulesStrings.4>
-  <ToxicityRevealed.rulePack.rulesStrings.5>image->[pawn_nameFull] crouching next to a fire [circumstance_group]</ToxicityRevealed.rulePack.rulesStrings.5>
-  <ToxicityRevealed.rulePack.rulesStrings.6>image->[pawn_nameFull] trying to light a fire [circumstance_group]</ToxicityRevealed.rulePack.rulesStrings.6>
-  <ToxicityRevealed.rulePack.rulesStrings.7>image->[pawn_nameFull] mindlessly removing [pawn_possessive] clothes [circumstance_group]</ToxicityRevealed.rulePack.rulesStrings.7>
-  <ToxicityRevealed.rulePack.rulesStrings.8>circumstance_phrase->and sweating uncontrollably</ToxicityRevealed.rulePack.rulesStrings.8>
-  <ToxicityRevealed.rulePack.rulesStrings.9>circumstance_phrase->and shivering uncontrollably</ToxicityRevealed.rulePack.rulesStrings.9>
-  <ToxicityRevealed.rulePack.rulesStrings.10>circumstance_phrase->while both sweating and shivering</ToxicityRevealed.rulePack.rulesStrings.10>
-  <ToxicityRevealed.rulePack.rulesStrings.11>circumstance_phrase->with cracked dry lips</ToxicityRevealed.rulePack.rulesStrings.11>
-  <ToxicityRevealed.rulePack.rulesStrings.12>circumstance_phrase->while vomiting</ToxicityRevealed.rulePack.rulesStrings.12>
-  <ToxicityRevealed.rulePack.rulesStrings.13>circumstance_phrase->with a visible rash</ToxicityRevealed.rulePack.rulesStrings.13>
-  <ToxicityRevealed.rulePack.rulesStrings.14>desc_sentence->[quantity_adjphrase] twisted [animal] corpses surround the area.</ToxicityRevealed.rulePack.rulesStrings.14>
-  <ToxicityRevealed.rulePack.rulesStrings.15>desc_sentence->[pawn_nameShortDef]'s clothes are falling apart.</ToxicityRevealed.rulePack.rulesStrings.15>
-  <ToxicityRevealed.rulePack.rulesStrings.16>desc_sentence->The sky is a murky [color].</ToxicityRevealed.rulePack.rulesStrings.16>
-  <ToxicityRevealed.rulePack.rulesStrings.17>desc_sentence->[quantity_adjphrase] twisted [color] [terrainfeature]s surround the scene.</ToxicityRevealed.rulePack.rulesStrings.17>
-  <ToxicityRevealed.rulePack.rulesStrings.18>desc_sentence->The scene takes place inside a twisted [tree] forest.</ToxicityRevealed.rulePack.rulesStrings.18>
-  <ToxicityRevealed.rulePack.rulesStrings.19>desc_sentence->[quantity_adjphrase] dying [animal]s litter the ground.</ToxicityRevealed.rulePack.rulesStrings.19>
+  <ToxicityRevealed.label>toxicitat</ToxicityRevealed.label>
+  <ToxicityRevealed.rulePack.rulesStrings.0>tale_noun->el cos de [pawn_nameShortDef] tornant-se tòxic</ToxicityRevealed.rulePack.rulesStrings.0>
+  <ToxicityRevealed.rulePack.rulesStrings.1>tale_noun->[pawn_nameShortDef] rebent toxines d’una font externa</ToxicityRevealed.rulePack.rulesStrings.1>
+  <ToxicityRevealed.rulePack.rulesStrings.2>image->[pawn_nameFull] tentinejant per un camp [circumstance_group]</ToxicityRevealed.rulePack.rulesStrings.2>
+  <ToxicityRevealed.rulePack.rulesStrings.3>image->[pawn_nameFull] estès a terra [circumstance_group]</ToxicityRevealed.rulePack.rulesStrings.3>
+  <ToxicityRevealed.rulePack.rulesStrings.4>image->[pawn_nameFull] ajagut al llit [circumstance_group]</ToxicityRevealed.rulePack.rulesStrings.4>
+  <ToxicityRevealed.rulePack.rulesStrings.5>image->[pawn_nameFull] a la gatzoneta al costat d’un foc [circumstance_group]</ToxicityRevealed.rulePack.rulesStrings.5>
+  <ToxicityRevealed.rulePack.rulesStrings.6>image->[pawn_nameFull] intentant encendre un foc [circumstance_group]</ToxicityRevealed.rulePack.rulesStrings.6>
+  <ToxicityRevealed.rulePack.rulesStrings.7>image->[pawn_nameFull] traient-se la roba sense raó [circumstance_group]</ToxicityRevealed.rulePack.rulesStrings.7>
+  <ToxicityRevealed.rulePack.rulesStrings.8>circumstance_phrase->i suant descontroladament</ToxicityRevealed.rulePack.rulesStrings.8>
+  <ToxicityRevealed.rulePack.rulesStrings.9>circumstance_phrase->i tremolant descontroladament</ToxicityRevealed.rulePack.rulesStrings.9>
+  <ToxicityRevealed.rulePack.rulesStrings.10>circumstance_phrase->mentre sua i tremola a la vegada</ToxicityRevealed.rulePack.rulesStrings.10>
+  <ToxicityRevealed.rulePack.rulesStrings.11>circumstance_phrase->amb els llavis ressecs i tallats</ToxicityRevealed.rulePack.rulesStrings.11>
+  <ToxicityRevealed.rulePack.rulesStrings.12>circumstance_phrase->mentre vomita</ToxicityRevealed.rulePack.rulesStrings.12>
+  <ToxicityRevealed.rulePack.rulesStrings.13>circumstance_phrase->amb una erupció ben visible</ToxicityRevealed.rulePack.rulesStrings.13>
+  <ToxicityRevealed.rulePack.rulesStrings.14>desc_sentence->[quantity_adjphrase] cadàvers de [animal]s retorçats envolten la zona.</ToxicityRevealed.rulePack.rulesStrings.14>
+  <ToxicityRevealed.rulePack.rulesStrings.15>desc_sentence->la roba de [pawn_nameShortDef] cau esquinçada.</ToxicityRevealed.rulePack.rulesStrings.15>
+  <ToxicityRevealed.rulePack.rulesStrings.16>desc_sentence->El cel és d’un [color] tèrbol.</ToxicityRevealed.rulePack.rulesStrings.16>
+  <ToxicityRevealed.rulePack.rulesStrings.17>desc_sentence->[quantity_adjphrase] twisted [terrainfeature]s d’un estrany color [color] cendrós envolta l’escena.</ToxicityRevealed.rulePack.rulesStrings.17>
+  <ToxicityRevealed.rulePack.rulesStrings.18>desc_sentence->L’escena té lloc dins un estran bosc de [tree].</ToxicityRevealed.rulePack.rulesStrings.18>
+  <ToxicityRevealed.rulePack.rulesStrings.19>desc_sentence->[quantity_adjphrase] [animal]s moribunds cobreixen el terra.</ToxicityRevealed.rulePack.rulesStrings.19>
 
-  <GaveBirth.label>gave birth</GaveBirth.label>
-  <GaveBirth.rulePack.rulesStrings.0>tale_noun->[mother_nameShortDef] giving birth to [child_nameShortDef]</GaveBirth.rulePack.rulesStrings.0>
-  <GaveBirth.rulePack.rulesStrings.1>image->[mother_nameFull] giving birth to [circumstance_group]</GaveBirth.rulePack.rulesStrings.1>
-  <GaveBirth.rulePack.rulesStrings.2>image->[mother_nameFull] holding [mother_possessive] [baby], [circumstance_group]</GaveBirth.rulePack.rulesStrings.2>
-  <GaveBirth.rulePack.rulesStrings.3>image->[mother_nameFull] lying in bed next to [mother_possessive] [baby], [circumstance_group]</GaveBirth.rulePack.rulesStrings.3>
-  <GaveBirth.rulePack.rulesStrings.4>image->[mother_nameFull] collapsed in a chair with [mother_possessive] [baby] [circumstance_group]</GaveBirth.rulePack.rulesStrings.4>
+  <GaveBirth.label>neixement</GaveBirth.label>
+  <GaveBirth.rulePack.rulesStrings.0>tale_noun->[mother_nameShortDef] donant a llum a [child_nameShortDef]</GaveBirth.rulePack.rulesStrings.0>
+  <GaveBirth.rulePack.rulesStrings.1>image->[mother_nameFull] donant a llum a [circumstance_group]</GaveBirth.rulePack.rulesStrings.1>
+  <GaveBirth.rulePack.rulesStrings.2>image->[mother_nameFull] amb el seu [baby] en braços, [circumstance_group]</GaveBirth.rulePack.rulesStrings.2>
+  <GaveBirth.rulePack.rulesStrings.3>image->[mother_nameFull] estirada al llit al costat del seu [baby], [circumstance_group]</GaveBirth.rulePack.rulesStrings.3>
+  <GaveBirth.rulePack.rulesStrings.4>image->[mother_nameFull] tumbada en una cadira amb el seu [baby] [circumstance_group]</GaveBirth.rulePack.rulesStrings.4>
   <GaveBirth.rulePack.rulesStrings.5>baby->infant</GaveBirth.rulePack.rulesStrings.5>
-  <GaveBirth.rulePack.rulesStrings.6>baby->newborn</GaveBirth.rulePack.rulesStrings.6>
-  <GaveBirth.rulePack.rulesStrings.7>baby->baby</GaveBirth.rulePack.rulesStrings.7>
-  <GaveBirth.rulePack.rulesStrings.8>circumstance_phrase->[child_nameFull], who is bloody and crying</GaveBirth.rulePack.rulesStrings.8>
-  <GaveBirth.rulePack.rulesStrings.9>circumstance_phrase->[child_nameFull], who is glowing softly [color]</GaveBirth.rulePack.rulesStrings.9>
-  <GaveBirth.rulePack.rulesStrings.10>circumstance_phrase->[child_nameFull], who is already trying to pull [child_objective]self around</GaveBirth.rulePack.rulesStrings.10>
-  <GaveBirth.rulePack.rulesStrings.11>circumstance_phrase->[child_nameFull], who is looking around with an expression of serenity</GaveBirth.rulePack.rulesStrings.11>
-  <GaveBirth.rulePack.rulesStrings.12>desc_sentence->[quantity_adjphrase] [animal]s sleep peacefully nearby.</GaveBirth.rulePack.rulesStrings.12>
+  <GaveBirth.rulePack.rulesStrings.6>baby->nadó</GaveBirth.rulePack.rulesStrings.6>
+  <GaveBirth.rulePack.rulesStrings.7>baby->nounat</GaveBirth.rulePack.rulesStrings.7>
+  <GaveBirth.rulePack.rulesStrings.8>circumstance_phrase->[child_nameFull], que plora amb la cara ben vermella</GaveBirth.rulePack.rulesStrings.8>
+  <GaveBirth.rulePack.rulesStrings.9>circumstance_phrase->[child_nameFull], que brilla d’un color [color] molt suau</GaveBirth.rulePack.rulesStrings.9>
+  <GaveBirth.rulePack.rulesStrings.10>circumstance_phrase->[child_nameFull], que ja prova de donar-se la volta</GaveBirth.rulePack.rulesStrings.10>
+  <GaveBirth.rulePack.rulesStrings.11>circumstance_phrase->[child_nameFull], que mira al seu voltant amb una expressió serena</GaveBirth.rulePack.rulesStrings.11>
+  <GaveBirth.rulePack.rulesStrings.12>desc_sentence->[quantity_adjphrase] [animal]s dormen pacíficament a les rodalies.</GaveBirth.rulePack.rulesStrings.12>
   <GaveBirth.rulePack.rulesStrings.13>desc_sentence->[quantity_adjphrase] [outlander]s gaze upon the scene.</GaveBirth.rulePack.rulesStrings.13>
-  <GaveBirth.rulePack.rulesStrings.14>desc_sentence->A [outlander]s watches from a distance.</GaveBirth.rulePack.rulesStrings.14>
-  <GaveBirth.rulePack.rulesStrings.15>desc_sentence->The scene takes place inside a newly-built [community].</GaveBirth.rulePack.rulesStrings.15>
+  <GaveBirth.rulePack.rulesStrings.14>desc_sentence->Un [outlander] s’ho mira en la distància.</GaveBirth.rulePack.rulesStrings.14>
+  <GaveBirth.rulePack.rulesStrings.15>desc_sentence->L’escena té lloc dins una  [community] acabada de construir.</GaveBirth.rulePack.rulesStrings.15>
 
 
 </LanguageData>

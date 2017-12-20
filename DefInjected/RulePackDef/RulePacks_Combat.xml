@@ -3,15 +3,15 @@
 
   <Combat_MeleeIncludes.rulePack.rulesStrings.0>logentry->[action], [result].</Combat_MeleeIncludes.rulePack.rulesStrings.0>
   <Combat_MeleeIncludes.rulePack.rulesStrings.1>logentry(p=0.2)->[action].</Combat_MeleeIncludes.rulePack.rulesStrings.1>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.2>implement(implementOwnerType==weapon,p=2)->[initiator_possessive] [tool_label] de [weapon_label]</Combat_MeleeIncludes.rulePack.rulesStrings.2>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.3>implement(implementOwnerType==weapon,p=1)->[initiator_possessive] [weapon_label]</Combat_MeleeIncludes.rulePack.rulesStrings.3>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.2>implement(implementOwnerType==weapon,p=2)->[tool_label] de [weapon_label]</Combat_MeleeIncludes.rulePack.rulesStrings.2>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.3>implement(implementOwnerType==weapon,p=1)->[weapon_label]</Combat_MeleeIncludes.rulePack.rulesStrings.3>
   <Combat_MeleeIncludes.rulePack.rulesStrings.4>implement(implementOwnerType==weapon,p=1)->[tool_label] de [weapon_label]</Combat_MeleeIncludes.rulePack.rulesStrings.4>
   <Combat_MeleeIncludes.rulePack.rulesStrings.5>implement(implementOwnerType==weapon,p=0.5)->[weapon_label]</Combat_MeleeIncludes.rulePack.rulesStrings.5>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.6>implement(implementOwnerType==bodypart,p=2)->[initiator_possessive] [tool_label]</Combat_MeleeIncludes.rulePack.rulesStrings.6>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.7>implement(implementOwnerType==bodypart,p=1)->[initiator_possessive] [bodypart_adjective] [tool_label]</Combat_MeleeIncludes.rulePack.rulesStrings.7>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.8>implement(implementOwnerType==hediff,p=2)->[initiator_possessive] [tool_label] de [weapon_label]</Combat_MeleeIncludes.rulePack.rulesStrings.8>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.9>implement(implementOwnerType==hediff,p=1)->[initiator_possessive] [weapon_label]</Combat_MeleeIncludes.rulePack.rulesStrings.9>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.10>implement(implementOwnerType==hediff,p=1)->[initiator_possessive] [tool_label]</Combat_MeleeIncludes.rulePack.rulesStrings.10>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.6>implement(implementOwnerType==bodypart,p=2)->[tool_label]</Combat_MeleeIncludes.rulePack.rulesStrings.6>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.7>implement(implementOwnerType==bodypart,p=1)->[bodypart_adjective] [tool_label]</Combat_MeleeIncludes.rulePack.rulesStrings.7>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.8>implement(implementOwnerType==hediff,p=2)->[tool_label] de [weapon_label]</Combat_MeleeIncludes.rulePack.rulesStrings.8>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.9>implement(implementOwnerType==hediff,p=1)->[weapon_label]</Combat_MeleeIncludes.rulePack.rulesStrings.9>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.10>implement(implementOwnerType==hediff,p=1)-> [tool_label]</Combat_MeleeIncludes.rulePack.rulesStrings.10>
   <Combat_MeleeIncludes.rulePack.rulesStrings.11>bodypart_adjective->dur</Combat_MeleeIncludes.rulePack.rulesStrings.11>
   <Combat_MeleeIncludes.rulePack.rulesStrings.12>bodypart_adjective->fort</Combat_MeleeIncludes.rulePack.rulesStrings.12>
   <Combat_MeleeIncludes.rulePack.rulesStrings.13>bodypart_adjective->potent</Combat_MeleeIncludes.rulePack.rulesStrings.13>
@@ -37,7 +37,7 @@
   <Combat_MeleeIncludes.rulePack.rulesStrings.30>destroyed(p=0.5)->demolit</Combat_MeleeIncludes.rulePack.rulesStrings.30>
   <Combat_MeleeIncludes.rulePack.rulesStrings.31>destroyed(p=0.5)->desfet</Combat_MeleeIncludes.rulePack.rulesStrings.31>
   <Combat_MeleeIncludes.rulePack.rulesStrings.32>destroyed(p=0.5)->trencat</Combat_MeleeIncludes.rulePack.rulesStrings.32>
-  <Combat_MeleeIncludes.rulePack.rulesStrings.33>result(p=0.5)->[maneuverresult_present] [recipient_possessive] [targetlist]</Combat_MeleeIncludes.rulePack.rulesStrings.33>
+  <Combat_MeleeIncludes.rulePack.rulesStrings.33>result(p=0.5)->[maneuverresult_present] [targetlist]</Combat_MeleeIncludes.rulePack.rulesStrings.33>
  <Combat_MeleeIncludes.rulePack.rulesStrings.34>result(p=0.2)->[damaged_present]  [targetlist] [flavortextadverb]</Combat_MeleeIncludes.rulePack.rulesStrings.34>
  <Combat_MeleeIncludes.rulePack.rulesStrings.35>result(p=10000)->[damaged_present] [targetlist] [flavortextsituation]</Combat_MeleeIncludes.rulePack.rulesStrings.35>
  <Combat_MeleeIncludes.rulePack.rulesStrings.36>result(p=0.2)->[damaged_present]  [targetlist] i [flavortextconsequence]</Combat_MeleeIncludes.rulePack.rulesStrings.36>
@@ -220,7 +220,7 @@
   <Combat_RangedFire.rulePack.rulesStrings.2>logentry->[initiator_definite] [shotat] [recipient_definite].</Combat_RangedFire.rulePack.rulesStrings.2>
   <Combat_RangedFire.rulePack.rulesStrings.3>logentry->[initiator_definite] [shot_a] [weapon_projectile_label] [burst] a [recipient_definite].</Combat_RangedFire.rulePack.rulesStrings.3>
   <Combat_RangedFire.rulePack.rulesStrings.4>logentry(recipient_missing==True)->[initiator_definite] [shot_a] [weapon_projectile_label].</Combat_RangedFire.rulePack.rulesStrings.4>
-  <Combat_RangedFire.rulePack.rulesStrings.5>logentry(recipient_missing==True)->[initiator_definite] [shot] [initiator_possessive] [weapon_label].</Combat_RangedFire.rulePack.rulesStrings.5>
+  <Combat_RangedFire.rulePack.rulesStrings.5>logentry(recipient_missing==True)->[initiator_definite] [shot] [weapon_label].</Combat_RangedFire.rulePack.rulesStrings.5>
   <Combat_RangedFire.rulePack.rulesStrings.6>shot_a->[shotadverb] [shotverb] </Combat_RangedFire.rulePack.rulesStrings.6>
   <Combat_RangedFire.rulePack.rulesStrings.7>shot_a(p=2)->[shotverb] </Combat_RangedFire.rulePack.rulesStrings.7>
   <Combat_RangedFire.rulePack.rulesStrings.8>shot(p=2)->[shotverb]</Combat_RangedFire.rulePack.rulesStrings.8>
