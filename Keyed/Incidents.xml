@@ -7,7 +7,7 @@
   <AnimalInsanityMultiple>Algun tipus d'interferència psíquica s'escampa sobre el paisatge. Els vostres colons estan bé, però...\n\nSembla que molts {0}s de la zona s'han tornat bojos.</AnimalInsanityMultiple>
 
   <LetterLabelCropBlight>Plaga</LetterLabelCropBlight>
-  <CropBlight>Una plaga misteriosa ha destruït els vostres camps.</CropBlight>
+  <LetterCropBlight>Un colon ha troeu de tallar o cremar les plantes afectades abans que s’escampi.</LetterCropBlight>
 
   <LetterLabelMiracleHeal>Miracle</LetterLabelMiracleHeal>
   <MiracleHeal>{0} ha experimentat una recuperació miraculosa!</MiracleHeal>
@@ -122,6 +122,10 @@
   
   <!-- Journey -->
   <JourneyOffer>Una IA amistosa del vostre passat, anomenada Charlon Whitestone us envia un missatge!\n\nUs revela que té una nau amagada en aquest planeta i us n'envia les coordenades.\n\nSi viatgeu fins a la nau, Charlons us traurà d'aquest planeta, cap a les estrelles.</JourneyOffer>
+  <EscapeShipFoundLabel>Nau trobada</EscapeShipFoundLabel>
+  <EscapeShipFound>Heu arribat a les coordinades que us va enviar en Charlon Whitestone i heu descobert la nau amagada.\n\nEl reactor de la nau encara és en mode de profunda hibernació, així que no pot volar encara. Podeu engegar-lo a través de l’ordinador central.\n\nCharlon Whitestone us avisa que el procés trigarà uns 15 dies, i que la marca d’energia serà detectable des de molt lluny. Una marca d’energia d’aquest tipus indica capacitat de vol interestel·lar i atraurà bandes de bandits i assaltants desesperats a la recerca de tresors. Assegureu-vos que teniu les defenses perparades.</EscapeShipFound>
+  <EscapeShipLostLabel>Nau destruïda</EscapeShipLostLabel>
+  <EscapeShipLost>Charlon Whitestone us envia un missatge.\n\nS’adona que heu perdut el control de la nau. Per evitar que caigui en mans equivocades, es veu obligat a activar el sistema d’autodestrucció. Ara la nau és només un cràter.\n\nUs caldrà buscar una altra manera de sortir del planeta.</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <CaravanMeetingTitle>Trobada amb la caravana de de {0}</CaravanMeetingTitle>
@@ -129,6 +133,7 @@
   <CaravanMeeting_Trade>Negocia</CaravanMeeting_Trade>
   <CaravanMeeting_Attack>Ataca</CaravanMeeting_Attack>
   <CaravanMeeting_MoveOn>Continua</CaravanMeeting_MoveOn>
+  <CaravanMeeting_TradeIncapable>no hi ha cap membre a la caravana capaç de negociar</CaravanMeeting_TradeIncapable>
 
   <!-- Caravan request -->
   <LetterLabelCaravanRequest>Petició de caravana</LetterLabelCaravanRequest>
@@ -148,8 +153,7 @@
   <ItemStashQuestFeeDemand>{0} us dirà on és l'amagatall a canvi de {1} de plata.</ItemStashQuestFeeDemand>
   <ItemStashSitePart_Unknown>Malauradament, {0} no sap que o qui – si és que hi ha res – pot protegir l'amagatall.</ItemStashSitePart_Unknown>
   <ItemStashSitePart_Nothing>{0} diu que l'amagatall no està protegit.</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Outpost>{0} diu que hi ha un campament enemic a la vora.</ItemStashSitePart_Outpost>
-  <ItemStashSitePart_Turrets>{0} diu que l'amagatall està envoltat de metralladores enemigues.</ItemStashSitePart_Turrets>
-  <ItemStashSitePart_Manhunters>{0} diu que hi ha una colla d'animals menja persones a la vora.</ItemStashSitePart_Manhunters>
+   <ItemStashSitePart_Part>{0} diu que {1}.</ItemStashSitePart_Part>
+
 </LanguageData>
 

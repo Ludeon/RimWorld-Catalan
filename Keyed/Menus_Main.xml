@@ -51,9 +51,9 @@
   
   <!--=========== Version info ==========-->
   <BuildNowAvailable>Està disponible la versió {0}. Visiteu ludeon.com per obtenir més informació.</BuildNowAvailable>
-	<BuildUpToDate>Teniu la versió més actual</BuildUpToDate>
-	<ErrorGettingVersionInfo>S'ha produït un error obtenir la informació de la versió: {0}</ErrorGettingVersionInfo>
-	<LoadingVersionInfo>S'està descarregant la informació de la versió...</LoadingVersionInfo>
+  <BuildUpToDate>Teniu la versió més actual</BuildUpToDate>
+  <ErrorGettingVersionInfo>S'ha produït un error obtenir la informació de la versió: {0}</ErrorGettingVersionInfo>
+  <LoadingVersionInfo>S'està descarregant la informació de la versió...</LoadingVersionInfo>
 
   <!--=========== World generator =========-->
   <GenerateWorld>Genera un planeta</GenerateWorld>
@@ -128,17 +128,21 @@
   <AvgSummerTemp>Temperatura a l'estiu</AvgSummerTemp>
   <AvgWinterTemp>Temperatura a l'hivern</AvgWinterTemp>
   <Rainfall>Pluviometria</Rainfall>
+  <SpecialFeatures>Característiques especials</SpecialFeatures>
   <HasCoast0>Costa nord</HasCoast0>
   <HasCoast1>Costa est</HasCoast1>
   <HasCoast2>Costa sud</HasCoast2>
   <HasCoast3>Costa oest</HasCoast3>
+  <HasCaves>coves</HasCaves>
   <FactionBase>Base de facció</FactionBase>
   <StoneTypesHere>Tipus de roca</StoneTypesHere>
   <TimeZone>Zona horària</TimeZone>
   <MovementTimeNow>Temps de desplaçament actual</MovementTimeNow>
   <MovementTimeSummer>Temps de desplaçament a l'estiu</MovementTimeSummer>
   <MovementTimeWinter>Temps de desplaçament a l'hivern</MovementTimeWinter>
-  <AnimalsCanGrazeNow>Ara els animals no poden pasturar</AnimalsCanGrazeNow>
+  <AnimalsCanGrazeNow>Els animals poden pasturar ara</AnimalsCanGrazeNow>
+  <AverageDiseaseFrequency>Freqüència mitja de malaties</AverageDiseaseFrequency>
+  <PerYear>anual</PerYear>
 
   <!--=========== Character chooser ==========-->
   <CreateCharacters>Creació de personatges</CreateCharacters>
@@ -160,6 +164,10 @@
   <Pain>Dolor</Pain>
   <Health>Salut</Health>
   <Relations>Relacions</Relations>
+  <TeamSkills>Capacitat de l’equip</TeamSkills>
+  <StartingPawnsSelected>Seleccionats</StartingPawnsSelected>
+  <StartingPawnsLeftBehind>Deixats</StartingPawnsLeftBehind>
+
   
   <!--=========== Misc ==========-->
   <Start>Comença</Start>

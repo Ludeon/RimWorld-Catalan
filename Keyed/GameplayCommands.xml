@@ -82,14 +82,20 @@
   <CommandStopForceAttack>Deixa de forçar</CommandStopForceAttack>
   <CommandStopForceAttackDesc>Deixa de forçar un objectiu i permet que la metralladora ataqui a qui vulgui.</CommandStopForceAttackDesc>
   <CommandStopAttackFailNotForceAttacking>No la teniu forçada.</CommandStopAttackFailNotForceAttacking>
+  <CommandExtractShell>Extreure projectil</CommandExtractShell>
+  <CommandExtractShellDesc>Descarrega el projectil que hi ha carregat i per poder-ne posar un d’un altre tipus.</CommandExtractShellDesc>
+  <CommandExtractShellFailNoShell>No hi ha cap projectil carregat.</CommandExtractShellFailNoShell>
   <MessageTargetBeyondMaximumRange>L'objectiu està massa lluny.</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>L'objectiu està massa aprop.</MessageTargetBelowMinimumRange>
+  <MessageTurretWontFireBecauseHoldFire>Avís: El morter no dispararà perquè està posat en mode «no disparar».</MessageTurretWontFireBecauseHoldFire>
   
   <!-- Ship computer core -->
   <CommandShipLaunch>Llença la nau</CommandShipLaunch>
   <CommandShipLaunchDesc>Inicia la seqüència de llançament amb la configuració actual.</CommandShipLaunchDesc>
   <CommandShipLaunchReport>Mostra l'informe de llançament</CommandShipLaunchReport>
   <CommandShipLaunchReportDesc>Mostra un informe sobre la capacitat per preparar el llançament.</CommandShipLaunchReportDesc>
+  <CommandShipStartup>Engega la nau</CommandShipStartup>
+  <CommandShipStartupDesc>Desperta els components de la nau hibernats.</CommandShipStartupDesc>
 
   <!-- Pod -->
   <CommandPodEject>Treu dorment</CommandPodEject>
@@ -134,6 +140,10 @@
   <CommandSquadAttack>Atacar</CommandSquadAttack>
   <CommandSquadAttackDesc>Ordena als colons seleccionats que ataquin l'objectiu indicat.</CommandSquadAttackDesc>
   
+  <!-- Melee attack -->
+  <CommandMeleeAttack>Atac cos a cos</CommandMeleeAttack>
+  <CommandMeleeAttackDesc>Ordena als colons seleccionats que ataquin a l’objectiu indicat fent servir només els punys i armes cos a cos.</CommandMeleeAttackDesc>
+
   <!-- Hold fire -->
   <CommandHoldFire>Alto el foc</CommandHoldFire>
   <CommandHoldFireDesc>Atura qualsevol atac en curs.</CommandHoldFireDesc>
@@ -163,7 +173,8 @@
   <!-- Merge caravan -->
   <CommandMergeCaravans>Ajuntar</CommandMergeCaravans>
   <CommandMergeCaravansDesc>Ajunta les caravanes.</CommandMergeCaravansDesc>
-  
+  <CommandMergeCaravansFailCaravansNotSelected>Seleccioneu les caravanes que cal unir. Les caravanes ha d’estar a tocar una de l’altra.</CommandMergeCaravansFailCaravansNotSelected>
+
   <!-- Settle -->
   <CommandSettle>Establir-se</CommandSettle>
   <CommandSettleDesc>Establir-se en aquesta zona. Els colons entraran a la zona i podran construir una nova llar.</CommandSettleDesc>
@@ -194,7 +205,7 @@
   <CommandFulfillTradeOffer>Completar oferiment de negoci</CommandFulfillTradeOffer>
   <CommandFulfillTradeOfferDesc>Completeu la demanda d'articles de l'assentament i reclameu-ne la recompensa.</CommandFulfillTradeOfferDesc>
   <CommandFulfillTradeOfferFailInsufficient>La vostra caravana ha de disposar de  {0} per completar la comanda.</CommandFulfillTradeOfferFailInsufficient>
-  <CommandFulfillTradeOfferConfirm>oferir {0} a canvi de {1}?</CommandFulfillTradeOfferConfirm>
+  <CommandFulfillTradeOfferConfirm>Oferir {0} a canvi de {1}?</CommandFulfillTradeOfferConfirm>
   
   <!-- Take off -->
   <CommandTakeOff>Enlairar-se</CommandTakeOff>

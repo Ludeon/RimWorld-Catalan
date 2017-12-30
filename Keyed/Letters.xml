@@ -30,6 +30,8 @@
   <RecruitSuccess>{0} reclutat {1} ({2} probabilitats).</RecruitSuccess>
   <RecruitFail>{0} no s'ha reclutat {1} ({2} probabilitats).</RecruitFail>
 
+  <RelatedPawnInvolvedInQuest>NAME és {1} de {0}. Si NAME mor, {0} patirà un llarg entristiment. Però si aconseguir rescatar NAME, {0} estarà content durant molt temps.</RelatedPawnInvolvedInQuest>
+
   <LetterLabelBirthday>Aniversari</LetterLabelBirthday>
   <BirthdayChronological>És l'aniversari cronològic de {0}! Des del punt de vista biològic, {1} te {3} anys.\n\nDel cronològic, {1} n'acaba de fer {2}.\n\nCom que la gent no envelleix durant el criptoson, l'aniversari cronològic és diferent del biològic.</BirthdayChronological>
   <BirthdayBiologicalAgeInjuries>{0} A acaba de fer {1} anys biològics.\n\nMalauradament, ha adquirit les següents afeccions per l'edat:\n{2}</BirthdayBiologicalAgeInjuries>
@@ -37,6 +39,10 @@
   <LetterLabelNewDisease>Malaltia</LetterLabelNewDisease>
   <NewDisease>{0} ha agafat {1}.\n\nProcureu que disposi d'un llit mèdic i d'un metge. Mireu que {2} faci el tractament i passi al llit el màxim de temps possible.</NewDisease>
   <NewPartDisease>{0} ha emmalaltit de {3}. La infecció és a {1}.\n\nProcureu que disposi d'un llit mèdic i d'un metge. Mireu que {2} faci el tractament i passi al llit el màxim de temps possible.</NewPartDisease>
+
+  <PawnWasFormerlyColonist>{0} formava part de la vostra facció.</PawnWasFormerlyColonist>
+  <PawnHasTheseRelationshipsWithColonists>{0} té les següents relacions amb els vostres colons:</PawnHasTheseRelationshipsWithColonists>
+  <PrisonerRescueTimeout>El camp desapareixerà d’aquí a {0} dies. Si no aprofiteu aquesta ocasió, no tornareu a sentir parlar de {1} mai més.</PrisonerRescueTimeout>
 
   <LetterLabelAncientShrineWarning>Perill antic</LetterLabelAncientShrineWarning>
   <AncientShrineWarning>En passar prop de l'antic mur, {0} ha tingut un presentiment. No sap perquè, però nota que aquesta vella estructura conté un gran perill.</AncientShrineWarning>
@@ -146,11 +152,39 @@
   <LetterLabelPawnsLostDueToMapCountdown>Deixat enrere</LetterLabelPawnsLostDueToMapCountdown>
   <LetterPawnsLostDueToMapCountdown>Alguns animals o presoners han quedat abandonats a la terra salvatge:\n\n{0}</LetterPawnsLostDueToMapCountdown>
 
-  <!-- Quest completed -->
-  <LetterLabelDefeatAllEnemiesQuestCompleted>Missió acomplerta</LetterLabelDefeatAllEnemiesQuestCompleted>
-  <LetterDefeatAllEnemiesQuestCompleted>Heu acabat amb el campament enemic!\n\nHa arribat la recompensa de {0}, i la relació amb aquesta facció ha millorat en {1}.</LetterDefeatAllEnemiesQuestCompleted>
+ <!-- Quest completed -->
+ <LetterLabelDefeatAllEnemiesQuestCompleted>Missió acomplerta</LetterLabelDefeatAllEnemiesQuestCompleted>
+ <LetterDefeatAllEnemiesQuestCompleted>Heu acabat amb el campament enemic!\n\nHa arribat la recompensa de {0}, i la relació amb aquesta facció ha millorat en {1}.</LetterDefeatAllEnemiesQuestCompleted>
 
-  <!-- Found lump of precious resources -->
-  <LetterLabelFoundPreciousLump>Heu trobat minerals preciosos</LetterLabelFoundPreciousLump>
-  <LetterFoundPreciousLump>El vostre escàner de llarg abast ha trobat una veta de recursos precisos a prop vostre.\n\nNo sabem qui o què - Si és què hi ha res – ho pot estar protegint.</LetterFoundPreciousLump>
+ <!-- Found lump of precious resources -->
+ <LetterLabelFoundPreciousLump>Heu trobat minerals preciosos</LetterLabelFoundPreciousLump>
+ <LetterFoundPreciousLump>El vostre escàner de llarg abast ha trobat una veta de recursos precisos a prop vostre.\n\nNo sabem qui o què - Si és què hi ha res – ho pot estar protegint.</LetterFoundPreciousLump>
+
+  <!-- Sleeping mechanoids -->
+  <LetterLabelSleepingMechanoids>Mecanoides dorments</LetterLabelSleepingMechanoids>
+  <LetterSleepingMechanoids>Hi ha uns quants mecanoides hostils dorments a la zona.\n\nPoden desperar-se o no quan us hi acosteu, estigueu alerta.</LetterSleepingMechanoids>
+
+  <!-- Ambush -->
+  <LetterLabelAmbushInExistingMap>emboscada</LetterLabelAmbushInExistingMap>
+  <LetterAmbushInExistingMap>Han emboscat la vostra {0}!</LetterAmbushInExistingMap>
+
+  <!-- Peace talks -->
+  <LetterLabelPeaceTalks_Disaster>Converses de pau desastrosses</LetterLabelPeaceTalks_Disaster>
+  <LetterPeaceTalks_Disaster>Les converses han anat molt malament. Els delegats amb prou feines s’havien saludat que ja començaven a discutir, recriminar-se coses i insultar-se.\n\nALA vostra caravana va marxar abans d’hora i {0} dels {1} l’han perseguit i atacat!\n\nRelacions amb {1}: {2}.</LetterPeaceTalks_Disaster>
+  <LetterLabelPeaceTalks_Backfire>Converses de pau dolentes</LetterLabelPeaceTalks_Backfire>
+  <LetterPeaceTalks_Backfire>Les converses de pau han anat malament. Tot i l’intercanvi de lloances, els delegats no han fet cap progrés en cap dels aspectes importants, i algunes propostes s’han interpretat com a insultas.\n\nRelacions amb {0}: {1}.</LetterPeaceTalks_Backfire>
+  <LetterLabelPeaceTalks_TalksFlounder>Converses de pau estancades</LetterLabelPeaceTalks_TalksFlounder>
+  <LetterPeaceTalks_TalksFlounder>Les converses de pau s’ha encallat. Els delegats han parlat correctament i s’han demostrat respecte, però no han pogut avançar en els temes importants.\n\nLes relacions amb {0} no han canviat.</LetterPeaceTalks_TalksFlounder>
+  <LetterLabelPeaceTalks_Success>Converses de pau exitoses</LetterLabelPeaceTalks_Success>
+  <LetterPeaceTalks_Success>Les converses de pau han anat bé. Els delegats han arribat a acords mutus en diversos temes capdals.\n\nLes relacions amb {0} han millorat en {1}.</LetterPeaceTalks_Success>
+  <LetterLabelPeaceTalks_Triumph>Converses de pau triomfants</LetterLabelPeaceTalks_Triumph>
+  <LetterPeaceTalks_Triumph>Les converses de pau han sigut un èxit rotund! Els delegats han conectat de seguida a nivell personal i han pogut intercanviar els punts de vista en els temes més complexes.\n\nLes relacions amb {0} han millorat en {1}.\n\nQuan la vostra caravana marxava, {0} us ha ofert un regal: {2}.</LetterPeaceTalks_Triumph>
+  <PeaceTalksSocialXPGain>{0}, el vostre negociador, ha guanyat {1} punts d’experiència social.</PeaceTalksSocialXPGain>
+
+  <!-- Run wild mental break -->
+  <LetterRunWildMentalBreak>{0} ha decidit abandonar la vostra facció i anar-se’n a viure amb els animals.</LetterRunWildMentalBreak>
+
+  <!-- Catatonic mental break -->
+  <LetterCatatonicMentalBreak>{0} està en una emprenyada catatònica que durarà diversos dies.</LetterCatatonicMentalBreak>
+
 </LanguageData>

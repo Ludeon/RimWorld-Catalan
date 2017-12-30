@@ -8,9 +8,10 @@
   <TabTraining>Educació</TabTraining>
   <TabPrisoner>Presoner</TabPrisoner>
   <TabGuest>Convidat</TabGuest>
-  <TabGear>Vestits</TabGear>
+  <TabGear>Equipació</TabGear>
   <TabNeeds>Estat</TabNeeds>
   <TabStorage>Magatzem</TabStorage>
+  <TabShells>Projectils</TabShells>
   <TabHealth>Salut</TabHealth>
   <TabRace>Raça</TabRace>
   <TabBasics>Bàsics</TabBasics>
@@ -18,7 +19,7 @@
   <TabRecords>Registres</TabRecords>
   <TabArt>Art</TabArt>
   <TabSocial>Social</TabSocial>
-
+  <TabCombat>Combat</TabCombat>
   
   <!-- Bills tab  -->
   <AddBill>Afegeix programa</AddBill>
@@ -35,12 +36,7 @@
   <DoctorsCare>Cures mèdiques</DoctorsCare>
   <GetsMedicine>Emprar medicines</GetsMedicine>
   <ShouldTryToRecruit>Provar de reclutar</ShouldTryToRecruit>
-  <PrisonerNoInteraction>No interactuar</PrisonerNoInteraction>
-  <PrisonerFriendlyChat>Xerrar-hi</PrisonerFriendlyChat>
-  <PrisonerAttemptRecruit>Xerrar i reclutar</PrisonerAttemptRecruit>
-  <PrisonerRelease>Alliberar</PrisonerRelease>
-  <PrisonerExecution>Executar</PrisonerExecution>
-	<ConsideredGuilty>Considerat culpable (expira en {0})</ConsideredGuilty>
+  <ConsideredGuilty>Considerat culpable (expira en {0})</ConsideredGuilty>
 
 
   <!-- Medical - general -->
@@ -71,14 +67,14 @@
   <Amputate>Amputar</Amputate>
   <Harvest>Extreure</Harvest>
   <RemoveOrgan>Treure</RemoveOrgan>
-  <MemoryLower>memoria</MemoryLower>
+  <MemoryLower>memòria</MemoryLower>
   <SocialInteractionsLower>interaccions socials</SocialInteractionsLower>
   <HungerRate>Índex de gana</HungerRate>
   <Tiredness>Cansament</Tiredness>
   <PainFactor>Dolor</PainFactor>
   <PreventsInfection>Prevé infeccions</PreventsInfection>
-  <SelfTend>Auto-curar</SelfTend>
-  <SelfTendTip>{0} amb l'auto-curar habilitat es curarà les pròpies ferides amb una eficiència del {1} del normal.</SelfTendTip>
+  <SelfTend>Auto-cures</SelfTend>
+  <SelfTendTip>{0} amb auto-cures habilitat intentarà curar-se a si mateix amb un {1} tde l’eficiència normal.</SelfTendTip>
 
   <!-- Medical - Body and activities condition -->
   <None>Cap</None>

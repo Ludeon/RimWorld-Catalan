@@ -66,8 +66,8 @@
 
   <MessageRefusedArrest>{0} no es deixa arrestar!</MessageRefusedArrest>
   
-  <MessageNoMedicalBeds>No hi han llits mèdics disponibles.</MessageNoMedicalBeds>
-  <MessageNoAnimalBeds>No hi ha llits d'animal disponibles.</MessageNoAnimalBeds>
+  <MessageNoMedicalBeds>No hi ha cap llit mèdic disponible.</MessageNoMedicalBeds>
+  <MessageNoAnimalBeds>No hi ha cap llit d'animal disponible.</MessageNoAnimalBeds>
   <MessageTooLowMedCare>La operació requereix {0} o millor, però {1} té un nivell de medicament "{2}".</MessageTooLowMedCare>
   
   <PawnDiedBecauseOf>{0} ha mort a causa de {1}.</PawnDiedBecauseOf>
@@ -76,9 +76,10 @@
 
   <MessageInvoluntarySleep>{0} s'ha desplomat degut al cansament extrem.</MessageInvoluntarySleep>
 
-	<MessageMedicalOperationFailureMinor>{0} ha comés un petit error mentre operava {1}.</MessageMedicalOperationFailureMinor>
-	<MessageMedicalOperationFailureCatastrophic>{0} ha comés un error catastròfic mentre operava {1}.</MessageMedicalOperationFailureCatastrophic>
-	<MessageMedicalOperationFailureRidiculous>{0} ha comés un error ridícul mentre operava {1}.</MessageMedicalOperationFailureRidiculous>
+	<MessageMedicalOperationFailureMinor>{0} ha comés un petit error mentre operava a {1}.</MessageMedicalOperationFailureMinor>
+	<MessageMedicalOperationFailureCatastrophic>{0} ha comés un error catastròfic mentre operava a {1}.</MessageMedicalOperationFailureCatastrophic>
+	<MessageMedicalOperationFailureRidiculous>{0} ha comés un error ridícul mentre operava a {1}.</MessageMedicalOperationFailureRidiculous>
+  <MessageMedicalOperationFailureFatal>{0} ha comés un error fatal mentre operava a {1} degut a les dificultats especials de: {2}</MessageMedicalOperationFailureFatal>
 
 	<MessageMedicalOperationWillAngerFaction>Aquesta operació farà emprenyar {0}.</MessageMedicalOperationWillAngerFaction>
 
@@ -106,7 +107,7 @@
   
   <MessageNewMarriageCeremony>Els colons s'estan reunint per celebrar el casament de {0} i {1}.</MessageNewMarriageCeremony>
   <MessageMarriageCeremonyStarts>{0} i {1} comencen la cerimònia de casament!</MessageMarriageCeremonyStarts>
-  <MessageMarriageCeremonyCalledOff>El casament entre {0} i {1} s'ha anulat.</MessageMarriageCeremonyCalledOff>
+  <MessageMarriageCeremonyCalledOff>El casament entre {0} i {1} s'ha anul·lat.</MessageMarriageCeremonyCalledOff>
   <MessageNewlyMarried>{0} i {1} s'han casat. Els colons ho celebren.</MessageNewlyMarried>
   <MessageMarriageCeremonyAfterPartyFinished>La cerimònia de casament entre {0} i {1} s'ha acabat.</MessageMarriageCeremonyAfterPartyFinished>
   
@@ -131,8 +132,10 @@
   <MessageScreenshotSavedAs>Captura desada com a: {0}</MessageScreenshotSavedAs>
   
   <MessageNoLongerSocialFighting>{0} i {1} ja no s'estan barallant.</MessageNoLongerSocialFighting>
-  
+
   <MessageNoLongerBingingOnDrug>{0} li ha passat la borratxera de {1}.</MessageNoLongerBingingOnDrug>
+
+    <MessageNoLongerOnTargetedInsultingSpree>{0} ja no té un emprenyada d’insults contra {1}.</MessageNoLongerOnTargetedInsultingSpree>
 
   <MessageRottedAwayInStorage>{0} s'ha podrit al magatzem.</MessageRottedAwayInStorage>
   
@@ -146,8 +149,12 @@
   
   <MessageMaxPlanetCoveragePerformanceWarning>Avís: pot tardar molt a generar un planeta sencer.</MessageMaxPlanetCoveragePerformanceWarning>
 
-	<MessagePlantDiedOfCold>{0} ha mort pel fred.</MessagePlantDiedOfCold>
-	<MessagePlantDiedOfRot>{0} s'ha podrit perquè no s'ha collit.</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfCold>{0} ha mort pel fred.</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfRot>{0} s'ha podrit perquè no s'ha collit.</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfRot_ExposedToLight>{0} ha mort per que li ha tocat la llum.</MessagePlantDiedOfRot_ExposedToLight>
+  <MessagePlantDiedOfRot>{0} ha mort per que s’ha podrit.</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfPoison>{0} ha mort enverinat.</MessagePlantDiedOfPoison>
+  <MessagePlantDiedOfBlight>{0} ha mort per la plaga.</MessagePlantDiedOfBlight>
 
 	<MessagePawnBeingBurned>{0} es crema per l'aire sobreescalfat!</MessagePawnBeingBurned>
 
@@ -198,8 +205,8 @@
   
   <MessageReformedCaravan>La caravana s'ha tornat a formar.</MessageReformedCaravan>
   
-  <MessageCantAbandonLastColonist>No podeu abandonar l'últim colon.</MessageCantAbandonLastColonist>
-  
+  <MessageCantBanishLastColonist>No podeu fer fora l’últim colon.</MessageCantBanishLast
+
   <MessageCantEquipIncapableOfViolence>No es pot equipar: {0} no pot fer actes violents.</MessageCantEquipIncapableOfViolence>
   <MessageCantEquipIncapableOfManipulation>No es pot equipar: no ho pot fer.</MessageCantEquipIncapableOfManipulation>
   
@@ -227,5 +234,33 @@
 
   <MessageSiteCountdownBecauseNoMoreEnemies>Heu eliminat tots els enemics. D'aquí a {0}, la caravana es tornarà a formar automàticament.</MessageSiteCountdownBecauseNoMoreEnemies>
   <MessageSiteCountdownBecauseNoEnemiesInitially>D'aquí a {0}, es tornarà a formar la caravana automàticament. Ara la podeu modificar a la pantalla del món.</MessageSiteCountdownBecauseNoEnemiesInitially>
-	
+
+  <MessageCantBanishDownedPawn>No podeu fer fora a {0} per que no pot caminar.</MessageCantBanishDownedPawn>
+
+  <MessageSleepingPawnsWokenUp>{0} s’ha despertat.</MessageSleepingPawnsWokenUp>
+
+  <MessageCompSpawnerSpawnedItem>Objecte fabricat: {0}.</MessageCompSpawnerSpawnedItem>
+
+  <MessageHediffCuredByItem>Condició de salut curada: {0}.</MessageHediffCuredByItem>
+  <MessageBodyPartCuredByItem>Part del cos recuperada: {0}.</MessageBodyPartCuredByItem>
+  <MessageResearchProjectFinishedByItem>Tecnologia obtinguda: {0}.</MessageResearchProjectFinishedByItem>
+
+  <MessagePawnResurrected>{0} ha tornat a la vida!</MessagePawnResurrected>
+
+  <MessageFailedToRescueRelative>No heu pogut rescatar {0}. Això entristirà a {1}.</MessageFailedToRescueRelative>
+  <MessageRescuedRelative>Heu rescatat a {0}. Això farà content a {1}.</MessageRescuedRelative>
+
+  <MessagePrisonerRescued>Heu rescata a NAME i s’unirà a la colònia.</MessagePrisonerRescued>
+
+  <MessageTornadoLeftMap>El tornado ha sortit del mapa.</MessageTornadoLeftMap>
+  <MessageTornadoDissipated>El tornado s’ha dissipat.</MessageTornadoDissipated>
+
+  <MessagePeaceTalksNoDiplomat>No hi ha cap persona conscient i capaç de fer diplomàcia.</MessagePeaceTalksNoDiplomat>
+
+  <MessageWarningCavePlantsExposedToLight>Avís: {0} no viurà si li toca la llum.</MessageWarningCavePlantsExposedToLight>
+
+  <MessageTargetedTantrumChangedTarget>{0} no pot arribar a {1} així que ha decidit dirigir la seva ràbia cap a {2}.</MessageTargetedTantrumChangedTarget>
+
+  <MessageTargetedInsultingSpreeChangedTarget>{0} no pot arribar a {1} ixí que ha decidit dirigir la seva ràbia cap a {2}.</MessageTargetedInsultingSpreeChangedTarget>
+
 </LanguageData>

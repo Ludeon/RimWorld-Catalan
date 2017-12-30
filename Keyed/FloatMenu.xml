@@ -9,7 +9,7 @@
   <CannotUseReserved>No es pot fer servir (reservat)</CannotUseReserved>
   <CannotUseFull>No es pot fer servir (ple)</CannotUseFull>
   <LeaderUnavailable>El líder {0} no és abastable</LeaderUnavailable>
-  <LeaderUnavailableNoLeader>el líder no és abastable</LeaderUnavailableNoLeader>
+  <LeaderUnavailableNoLeader>el líder no està disponible</LeaderUnavailableNoLeader>
 
   
   <FireAt>Dispara a {0}</FireAt>
@@ -20,8 +20,9 @@
   <IncapableOfViolenceLower>no és capaç d'actes violents</IncapableOfViolenceLower>
   <IsNotDraftedLower>{0} no està reclutat</IsNotDraftedLower>
   <CannotOrderNonControlledLower>No podeu donar ordres a unitats no controlades</CannotOrderNonControlledLower>
+  <CannotAttackSelf>no es pot atacar a si mateix</CannotAttackSelf>
 
-  <OrderManThing>Man {0}</OrderManThing>
+  <OrderManThing>{0} manualment</OrderManThing>
   
   <MeleeAttack>Ataca cos a cos a {0}</MeleeAttack>
   <MeleeAttackToDeath>Ataca cos a cos a {0} fins la seva mort</MeleeAttackToDeath>
@@ -39,15 +40,20 @@
   <AnimalInteractedTooRecently>l'animal ha interactuat fa poc</AnimalInteractedTooRecently>
   <NoUsableFood>no hi ha menjar que es pugui fer servir</NoUsableFood>
   <NoFood>no hi ha menjar</NoFood>
-  <AnimalsSkillTooLow>L'animal no està prou ensenyat</AnimalsSkillTooLow>
+  <AnimalsSkillTooLow>No te prou nivell en gestió d’animals</AnimalsSkillTooLow>
+  <ConstructionSkillTooLow>no té prou nivell en construcció</ConstructionSkillTooLow>
   <NoComponentsToRepair>necessita components</NoComponentsToRepair>
   <NoFuelToRefuel>necessita {0}</NoFuelToRefuel>
   <NoWort>necessita most</NoWort>
   <TheOnlyAvailableFoodIsInStorageOfHigherPriority>el menjar disponible és en un magatzem de prioritat alta</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
   <NoFoodToFillHopper>no hi ha menjar disponible</NoFoodToFillHopper>
-  <SelfTendDisabled>auto-cures deshabilitat</SelfTendDisabled>
+  <SelfTendDisabled>auto-cures no habilitat</SelfTendDisabled>
   <ReservedForPrisoners>reservat per presoners</ReservedForPrisoners>
-  
+  <CannotReach>no hi pot arribar</CannotReach>
+  <NotSurgeryReady>no està apunt per l’operació</NotSurgeryReady>
+  <CantSowCavePlantBecauseOfLight>massa llum</CantSowCavePlantBecauseOfLight>
+  <CantSowCavePlantBecauseUnroofed>sense teulada</CantSowCavePlantBecauseUnroofed>
+
   <ConsumeThing>Consumeix {0}</ConsumeThing>
   
   <CannotGoNoPath>No s'hi pot anar (no hi ha camí)</CannotGoNoPath>
@@ -121,7 +127,9 @@
   
   <EnterMap>Entra a {0}</EnterMap>
   <VisitSettlement>Visita a {0}</VisitSettlement>
+  <VisitPeaceTalks>Visita a {0}</VisitPeaceTalks>
   <VisitSite>Visita a {0}</VisitSite>
+<VisitEscapeShip>Visita a {0}</VisitEscapeShip>
   <AttackSite>Ataca a {0}</AttackSite>
   <AttackSettlement>Ataca a {0}</AttackSettlement>
 
