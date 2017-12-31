@@ -50,9 +50,11 @@
   <SkillTooLow>necessita nivell {2} de {0}, en té {1}</SkillTooLow>
   <Freezing>Glaçant</Freezing>
   <Overheating>Sobreescalfament</Overheating>
-   <RuinedByTemperature>fet malbé per temperatura.</RuinedByTemperature>
+  <RuinedByTemperature>fet malbé per temperatura.</RuinedByTemperature>
   <CorpsePercentMissing>Parts del cos que falten</CorpsePercentMissing>
   <HiveReproducesIn>Es reprodueix en</HiveReproducesIn>
+  <DormantHiveNotReproducing>Dorment: No es reprodueix.</DormantHiveNotReproducing>
+  <NextSpawnedItemIn>Següent {0} d’aquí</NextSpawnedItemIn>
   <BrokenDown>Avariat</BrokenDown>
   <BondBrackets>(lligam)</BondBrackets>
   <Fuel>Fuel</Fuel>
@@ -79,6 +81,7 @@
   <CaravanHoursPerTile>h/cel·la</CaravanHoursPerTile>
   <CaravanBaseMovementTime>velocitat base</CaravanBaseMovementTime>
   <CurrentTileMovementTime>velocitat actual</CurrentTileMovementTime>
+  <StealthFactor>Sigil</StealthFactor>
   <Temperature>Temperatura</Temperature>
   <BadTemperature>temperatura dolenta</BadTemperature>
   <IdealFermentingTemperature>Temperatura de fermentació ideal</IdealFermentingTemperature>
@@ -105,7 +108,7 @@
   <TransportPodDestinationBeyondMaximumRange>Supera el màxim</TransportPodDestinationBeyondMaximumRange>
   <TransportPodNotEnoughFuel>No hi ha prou fuel</TransportPodNotEnoughFuel>
   <SettlementTrader>{0} de {1}</SettlementTrader>
-  <RoomSurgerySuccessChanceFactor>Factor d'èxit de l'operació de l'habitació</RoomSurgerySuccessChanceFactor>
+ <RoomSurgerySuccessChanceFactor>Factor d'èxit de l'operació de l'habitació</RoomSurgerySuccessChanceFactor>
   <RoomInfectionChanceFactor>Factor de possibilitat d'infecció de l'habitació</RoomInfectionChanceFactor>
   <VentClosed>Tancada</VentClosed>
   <WornBy>portat per {0}</WornBy>
@@ -122,7 +125,13 @@
   <CheckboxShiftClickTip>Maj + clic: Marca-ho tot\nMaj + clic dret: desmarca-ho tot</CheckboxShiftClickTip>
   <KnownSiteThreat>Perill: {0}.</KnownSiteThreat>
   <KnownSiteThreats>Perills: {0}.</KnownSiteThreats>
-  <KnownSiteThreatsNone>Perils: cap.</KnownSiteThreatsNone>
+  <KnownSiteThreatsNone>Perills: cap.</KnownSiteThreatsNone>
+  <SkillRequirements>Capacitats necessàries</SkillRequirements>
+  <Products>Productes</Products>
+  <DeepDrillExhausted>Els recursos del perforador s’ha esgotat.</DeepDrillExhausted>
+  <Relationship>{0} de {1}</Relationship>
+  <Prisoner>Presoner</Prisoner>
+  <Refugee>Refugiat</Refugee>
 
   <!-- Fermentation barrel -->
   <ContainsWort>Conté {0} / {1} most.</ContainsWort>
@@ -141,9 +150,11 @@
   <TextMote_RecruitFail>Ha fallat el reclutament!\n{0} probabilitats</TextMote_RecruitFail>
   <TextMote_TameFail>Ha fallat la doma\n{0} probabilitats</TextMote_TameFail>
   <TextMote_TameSuccess>Domesticat!\n{0} probabilitats</TextMote_TameSuccess>
-  <TextMote_TrainFail>Ha fallat l'entrenament: {0}\n{1} probabilitats</TextMote_TrainFail>
+  <TextMote_TrainFail>Entrenament fallit: {0}\n{1} probabilitats</TextMote_TrainFail>
   <TextMote_TrainSuccess>Entrenat: {0}\n{1} probabilitats</TextMote_TrainSuccess>
+
   <TextMote_FixBrokenDownBuildingFail>Ha fallat\nla reparació</TextMote_FixBrokenDownBuildingFail>
+
   <TextMote_ConstructionFail>Ha fallat\nla construcció</TextMote_ConstructionFail>
   <TextMote_Dodge>Esquivat</TextMote_Dodge>
   <TextMote_Tended>{0} atencions</TextMote_Tended>
@@ -183,6 +194,7 @@
   <!-- Job reports -->
   <ReportHaulingTo>porta {0} a {1}.</ReportHaulingTo>
   <ReportHauling>porta {0}.</ReportHauling>
+  <ReportHaulingUnknown>transporta.</ReportHaulingUnknown>
   <ReportSleeping>dorm.</ReportSleeping>
   <ReportResting>descansa.</ReportResting>
   <WatchingSunrise>contempla la sortida del sol</WatchingSunrise>
@@ -190,12 +202,14 @@
   <WatchingSunset>contempla la posta de sol</WatchingSunset>
   <Stargazing>mira les estrelles</Stargazing>
   <WatchingEclipse>mira l'eclipsi</WatchingEclipse>
+  <WatchingAurora>mira l’aurora.</WatchingAurora>
   <UsingVerb>fa servir {0} a {1}.</UsingVerb>
   <AreaLower>zona</AreaLower>
   <ReportCowering>Es cobreix.</ReportCowering>
   <ReportStanding>aturat.</ReportStanding>
   <ReportExtinguishingFire>Apaga el foc.</ReportExtinguishingFire>
   <ReportExtinguishingFireOn>Apaga el foc de {0}.</ReportExtinguishingFireOn>
+  <ReportDiggingUpCorpse>desenterra un cadàver.</ReportDiggingUpCorpse>
 
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>Assisteix a la cerimònia de casament</LordReportAttendingMarriageCeremony>
@@ -247,6 +261,7 @@
   <InRestraints>Encadenat (frenat)</InRestraints>
   <Carrying>Porta</Carrying>
   <AffectedBy>Afectat per:</AffectedBy>
+  <Queued>Encuat</Queued>
 
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Seleccioneu el següent en aquest quadrat.\n\nTecla de drecera: {0}\n\nTambé ho podeu fer tornant a fer clic al mateix quadre un altre cop.</SelectNextInSquareTip>
@@ -266,6 +281,8 @@
   <PowerOutput>Corrent de sortida</PowerOutput>
   <PowerBatteryStored>Emmagatzemat</PowerBatteryStored>
   <PowerBatteryEfficiency>Eficiència</PowerBatteryEfficiency>
+  <SelfDischarging>Auto-descàrrega</SelfDischarging>
+
 
   <!-- Temperature control -->
   <TargetTemperature>Consigna de temperatura</TargetTemperature>
@@ -312,6 +329,8 @@
   <GrowYearRound>Tot l'any</GrowYearRound>
   <GrowSeasonHereNow>Ara esteu a l'estació de creixement.</GrowSeasonHereNow>
   <CannotGrowBadSeasonTemperature>No pot créixer (estació amb mala temperatura).</CannotGrowBadSeasonTemperature>
+   <Blighted>Plaga</Blighted>
+  <DyingBecauseExposedToLight>Mor per que li toca la llum</DyingBecauseExposedToLight>
 
   <!-- Zones -->
   <Zone>Zona</Zone>
@@ -341,7 +360,8 @@
   <ShowRoofOverlayToggleButton>Commuta la visibilitat de la teulada.</ShowRoofOverlayToggleButton>
   <LockNorthUpToggleButton>Bloqueja la rotació de la càmera de manera que el nord sigui sempre a dalt.</LockNorthUpToggleButton>
   <UsePlanetDayNightSystemToggleButton>Commuta el sistema d'il·luminació dia/nit.</UsePlanetDayNightSystemToggleButton>
-  <ExpandingIconsToggleButton>Commuta les icones grans per objectes llunyans.</ExpandingIconsToggleButton>
+  <ShowExpandingIconsToggleButton>Commuta les icones grans per objectes llunyans.</ShowExpandingIconsToggleButton>
+  <ShowWorldFeaturesToggleButton>Commuta la visibilitat dels noms del tereny.</ShowWorldFeaturesToggleButton>
 
   <!-- Fire -->
   <Fire>Foc</Fire>
@@ -365,7 +385,7 @@
   <MustPlaceOnSteamGeyser>S'ha de posar a sobre un guèiser de vapor.</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>Tant el costat calent com el fred han d'estar exposats.</MustPlaceCoolerWithFreeSpaces>
   <MustPlaceVentWithFreeSpaces>Les dues parts han d'estar exposades perquè l'aire pugui passar.</MustPlaceVentWithFreeSpaces>
-  <MustPlaceAdjacentStandable>Hi ha d'haver lloc per estar dret per tots quatre costats.</MustPlaceAdjacentStandable>
+  <MustPlaceAdjacentStandable>Hi ha d'haver lloc per estar dret per tots quatre costats
   <MustPlaceNearFuelingPort>S'ha de posar al costat d'un carregador de fuel per a llançador de càpsules.</MustPlaceNearFuelingPort>
 	
   <!-- Wind Turbine -->
@@ -380,7 +400,13 @@
   <ShipReportCannotLaunch>No es pot fer el llançament.</ShipReportCannotLaunch>
   <ShipReportCanLaunch>Apunt per al llançament.</ShipReportCanLaunch>
   <ShipReportMissingPart>Falten components crítics</ShipReportMissingPart>
+  <ShipReportMissingPartRequires>necessita</ShipReportMissingPartRequires>
   <ShipReportNoFullPods>No hi ha cap cofre de criptoson carregat</ShipReportNoFullPods>
+  <ShipReportHibernating>Component en hibernació</ShipReportHibernating>
+  <ShipReportNotReady>Component no preparat</ShipReportNotReady>
+  <HibernateWarning>Charlon Whitestone està preparat per iniciar la seqüència de sortida d’hibernació del reactor.\n\nAvisa que el procés pot durar 15 dies, i que la signatura energètica serà detectable des de molt lluny. Aquest tipus de signatura energètica indica capacitat de vol interestelar i atraurà bandes d’assaltants desesperats i caçadors de tresors. Assegureu-vos que teniu les defenses preparades.</HibernateWarning>
+  <HibernateCompleteLabel>Reactor preparat</HibernateCompleteLabel>
+  <HibernateComplete>Charlon Whitestone ha finalitzat la seqüència de sortida d’hibernació del reactor. Està tot preparat per iniciar l’enlairament.</HibernateComplete>
 
   <!-- Neurotrainer -->
   <NeurotrainerUsed>{0} ha fet servir {1} neuroentrenador per passar del nivell {2} al nivell {3}.</NeurotrainerUsed>
@@ -471,23 +497,27 @@
   <!-- Compass -->
   <CompassTip>Mostra el nord. Fes clic per girar la càmera i que el nord quedi a dalt.</CompassTip>
 
-<!-- Distance measure -->
-  <RoutePlannerButtonTip>Feu clic per entrar al mode de planificació des d'on podei calcular la distància de viatge entre dos punts de pas.</RoutePlannerButtonTip>
+  <!-- Distance measure -->
+  <RoutePlannerButtonTip>Feu clic per entrar en mode planificació i poder calcular la distància entre punts de pas.</RoutePlannerButtonTip>
   <RoutePlannerAddTwoOrMoreWaypoints>Afegiu dos o més punts de pas.</RoutePlannerAddTwoOrMoreWaypoints>
   <RoutePlannerAddOneOrMoreWaypoints>Afegiu un o més punts de pas.</RoutePlannerAddOneOrMoreWaypoints>
   <RoutePlannerEstTimeToFinalDest>Temps total de la ruta: {0}</RoutePlannerEstTimeToFinalDest>
-  <RoutePlannerUsingAverageTicksPerMoveWarning>El mode de planificació fa servir la velocitat per defecte de la caravana. La vostra velocitat pot ser diferent.</RoutePlannerUsingAverageTicksPerMoveWarning>
+  <RoutePlannerUsingAverageTicksPerMoveWarning>El mode de planificació fa servir la velocitat per defecte de la caravana. La velocitat real pot canviar.</RoutePlannerUsingAverageTicksPerMoveWarning>
   <RoutePlannerUsingTicksPerMoveOfCaravan>Calculant per: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
-  <RoutePlannerPressRMBToAddAndRemoveWaypoints>Botó dret del ratolí: Afegeix/treu punts de pas.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
-  <RoutePlannerPressEscapeToExit>ESC: Sortir del mode de planificació.</RoutePlannerPressEscapeToExit>
-  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Tornar al diàleg de formació de la caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
-  <EstimatedTimeToThisWaypoint>Temps estimat a aquest punt de pas: {0}</EstimatedTimeToThisWaypoint>
-  <EstimatedTimeToThisWaypointFromPrevious>Temps estimat entre aquest punt de pas i l'anterior: {0}</EstimatedTimeToThisWaypointFromPrevious>
+  <RoutePlannerPressRMBToAddAndRemoveWaypoints>Botó dret: Afegeix/treu punts de pas.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <RoutePlannerPressEscapeToExit>ESC: Surt del mode de planificació.</RoutePlannerPressEscapeToExit>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Torna al diàleg de formació de la caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <EstimatedTimeToThisWaypoint>Temps est. fins aquest punt de pas: {0}</EstimatedTimeToThisWaypoint>
+  <EstimatedTimeToThisWaypointFromPrevious>Temps est. entre aquest punt de pas i l’anterior: {0}</EstimatedTimeToThisWaypointFromPrevious>
 
   <!-- Outfits -->
   <OutfitAnything>Cap</OutfitAnything>
   <OutfitWorker>Treballador</OutfitWorker>
   <OutfitSoldier>Soldat</OutfitSoldier>
   <OutfitNudist>Nudista</OutfitNudist>
+
+  <!-- Hibernatable -->
+  <HibernatableHibernating>Hibernant</HibernatableHibernating>
+  <HibernatableStartingUp>Iniciant</HibernatableStartingUp>
 
 </LanguageData>
