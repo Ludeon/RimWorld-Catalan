@@ -108,7 +108,7 @@
   <TransportPodDestinationBeyondMaximumRange>Supera el màxim</TransportPodDestinationBeyondMaximumRange>
   <TransportPodNotEnoughFuel>No hi ha prou fuel</TransportPodNotEnoughFuel>
   <SettlementTrader>{0} de {1}</SettlementTrader>
- <RoomSurgerySuccessChanceFactor>Factor d'èxit de l'operació de l'habitació</RoomSurgerySuccessChanceFactor>
+  <RoomSurgerySuccessChanceFactor>Factor d'èxit de l'operació de l'habitació</RoomSurgerySuccessChanceFactor>
   <RoomInfectionChanceFactor>Factor de possibilitat d'infecció de l'habitació</RoomInfectionChanceFactor>
   <VentClosed>Tancada</VentClosed>
   <WornBy>portat per {0}</WornBy>
@@ -188,7 +188,7 @@
   <GunInstalled>Instal·lada</GunInstalled>
   <MinimumRange>Abast mínim</MinimumRange>
   <CanFireIn>Pot disparar d'aquí</CanFireIn>
-  <ShellLoaded>Projectil carregat</ShellLoaded>
+  <ShellLoaded>Projectil carregat: {0}</ShellLoaded>
   <ShellNotLoaded>No carregat</ShellNotLoaded>
 
   <!-- Job reports -->
@@ -329,7 +329,7 @@
   <GrowYearRound>Tot l'any</GrowYearRound>
   <GrowSeasonHereNow>Ara esteu a l'estació de creixement.</GrowSeasonHereNow>
   <CannotGrowBadSeasonTemperature>No pot créixer (estació amb mala temperatura).</CannotGrowBadSeasonTemperature>
-   <Blighted>Plaga</Blighted>
+  <Blighted>Plaga</Blighted>
   <DyingBecauseExposedToLight>Mor per que li toca la llum</DyingBecauseExposedToLight>
 
   <!-- Zones -->
@@ -385,7 +385,7 @@
   <MustPlaceOnSteamGeyser>S'ha de posar a sobre un guèiser de vapor.</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>Tant el costat calent com el fred han d'estar exposats.</MustPlaceCoolerWithFreeSpaces>
   <MustPlaceVentWithFreeSpaces>Les dues parts han d'estar exposades perquè l'aire pugui passar.</MustPlaceVentWithFreeSpaces>
-  <MustPlaceAdjacentStandable>Hi ha d'haver lloc per estar dret per tots quatre costats
+  <MustPlaceAdjacentStandable>Hi ha d'haver lloc per estar dret per tots quatre costats.</MustPlaceAdjacentStandable>
   <MustPlaceNearFuelingPort>S'ha de posar al costat d'un carregador de fuel per a llançador de càpsules.</MustPlaceNearFuelingPort>
 	
   <!-- Wind Turbine -->
