@@ -255,13 +255,13 @@
   <Combat_RangedFire.rulePack.rulesStrings.37>shotadjective(initiator_flesh!=Mechanoid)->cautelós</Combat_RangedFire.rulePack.rulesStrings.37>
 
   <Combat_RangedDamage.rulePack.rulesStrings.0>logentry->[weapon_projectile_label] de [initiator_definite] [destroyed_past] [destroyed_targets] de [recipient_definite].</Combat_RangedDamage.rulePack.rulesStrings.0>
-  <Combat_RangedDamage.rulePack.rulesStrings.1>logentry->[weapon_projectile_label] de [initiator_definite] [destroyed_past] [destroyed_targets] de [recipient_definite] [to] [destroyed_suffix].</Combat_RangedDamage.rulePack.rulesStrings.1>
+  <Combat_RangedDamage.rulePack.rulesStrings.1>logentry->[weapon_projectile_label] de [initiator_definite] [destroyed_past] [destroyed_targets] de [recipient_definite] [destroyed_suffix].</Combat_RangedDamage.rulePack.rulesStrings.1>
   <Combat_RangedDamage.rulePack.rulesStrings.2>logentry->[weapon_projectile_label] de [initiator_definite] [destroyed_past] [destroyed_targets] de [recipient_definite] [expertly].</Combat_RangedDamage.rulePack.rulesStrings.2>
   <Combat_RangedDamage.rulePack.rulesStrings.3>logentry(p=2)->[weapon_projectile_label] de [initiator_definite] [missed] [originalTarget_definite] i [destroyed_past] [destroyed_targets] de [recipient_definite].</Combat_RangedDamage.rulePack.rulesStrings.3>
   <Combat_RangedDamage.rulePack.rulesStrings.4>logentry(p=2)->[weapon_projectile_label] de [initiator_definite] [missed] [originalTarget_definite], [destroyed_present] [destroyed_targets] de [recipient_definite].</Combat_RangedDamage.rulePack.rulesStrings.4>
   <Combat_RangedDamage.rulePack.rulesStrings.5>logentry->[destroyed_targets] de [recipient_definite] ha estat [destroyed_past] per [weapon_projectile_label] de [initiator_definite].</Combat_RangedDamage.rulePack.rulesStrings.5>
   <Combat_RangedDamage.rulePack.rulesStrings.6>logentry->[destroyed_targets]  de [recipient_definite] ha estat [destroyed_past] per [expert] [weapon_projectile_label] de [initiator_definite].</Combat_RangedDamage.rulePack.rulesStrings.6>
-  <Combat_RangedDamage.rulePack.rulesStrings.7>logentry->[destroyed_targets] de [recipient_definite] ha estat [destroyed_past] al [destroyed_suffix] per [weapon_projectile_label] de [initiator_definite].</Combat_RangedDamage.rulePack.rulesStrings.7>
+  <Combat_RangedDamage.rulePack.rulesStrings.7>logentry->[destroyed_targets] de [recipient_definite] ha estat [destroyed_past] [destroyed_suffix] per [weapon_projectile_label] de [initiator_definite].</Combat_RangedDamage.rulePack.rulesStrings.7>
   <Combat_RangedDamage.rulePack.rulesStrings.8>logentry(recipient_partDestroyed_count==0)->[weapon_projectile_label] de [initiator_definite] [damaged_past] [damaged_targets] de [recipient_definite].</Combat_RangedDamage.rulePack.rulesStrings.8>
   <Combat_RangedDamage.rulePack.rulesStrings.9>logentry(recipient_partDestroyed_count==0)->[weapon_projectile_label] de [initiator_definite] [damaged_past] [damaged_targets] de [recipient_definite] [expertly].</Combat_RangedDamage.rulePack.rulesStrings.9>
   <Combat_RangedDamage.rulePack.rulesStrings.10>logentry(recipient_partDestroyed_count==0,p=2)->[weapon_projectile_label] de [initiator_definite] [missed] [originalTarget_definite] i [damaged_past] [damaged_targets] de [recipient_definite].</Combat_RangedDamage.rulePack.rulesStrings.10>
@@ -289,13 +289,13 @@
   <Combat_RangedDamage.rulePack.rulesStrings.33>destroyed_present->perfora</Combat_RangedDamage.rulePack.rulesStrings.33>
   <Combat_RangedDamage.rulePack.rulesStrings.34>destroyed_present->forada</Combat_RangedDamage.rulePack.rulesStrings.34>
   <Combat_RangedDamage.rulePack.rulesStrings.35>destroyed_present->punxa</Combat_RangedDamage.rulePack.rulesStrings.35>
-  <Combat_RangedDamage.rulePack.rulesStrings.36>destroyed_suffix->trossos</Combat_RangedDamage.rulePack.rulesStrings.36>
-  <Combat_RangedDamage.rulePack.rulesStrings.37>destroyed_suffix->miques</Combat_RangedDamage.rulePack.rulesStrings.37>
-  <Combat_RangedDamage.rulePack.rulesStrings.38>destroyed_suffix->una pols fina</Combat_RangedDamage.rulePack.rulesStrings.38>
-  <Combat_RangedDamage.rulePack.rulesStrings.39>destroyed_suffix->fragments</Combat_RangedDamage.rulePack.rulesStrings.39>
-  <Combat_RangedDamage.rulePack.rulesStrings.40>destroyed_suffix(p=0.5)->un embolic de forats</Combat_RangedDamage.rulePack.rulesStrings.40>
+  <Combat_RangedDamage.rulePack.rulesStrings.36>destroyed_suffix->a trossos</Combat_RangedDamage.rulePack.rulesStrings.36>
+  <Combat_RangedDamage.rulePack.rulesStrings.37>destroyed_suffix->a miques</Combat_RangedDamage.rulePack.rulesStrings.37>
+  <Combat_RangedDamage.rulePack.rulesStrings.38>destroyed_suffix->en una pols fina</Combat_RangedDamage.rulePack.rulesStrings.38>
+  <Combat_RangedDamage.rulePack.rulesStrings.39>destroyed_suffix->en fragments</Combat_RangedDamage.rulePack.rulesStrings.39>
+  <Combat_RangedDamage.rulePack.rulesStrings.40>destroyed_suffix(p=0.5)->en un embolic de forats</Combat_RangedDamage.rulePack.rulesStrings.40>
 
-<Combat_RangedDamage.rulePack.rulesStrings.41>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->carn picada</Combat_RangedDamage.rulePack.rulesStrings.41>
+<Combat_RangedDamage.rulePack.rulesStrings.41>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->en carn picada</Combat_RangedDamage.rulePack.rulesStrings.41>
   <Combat_RangedDamage.rulePack.rulesStrings.42>damaged_past->ha ferit</Combat_RangedDamage.rulePack.rulesStrings.42>
   <Combat_RangedDamage.rulePack.rulesStrings.43>damaged_past->ha malferit</Combat_RangedDamage.rulePack.rulesStrings.43>
   <Combat_RangedDamage.rulePack.rulesStrings.44>damaged_past->ha perforat</Combat_RangedDamage.rulePack.rulesStrings.44>
