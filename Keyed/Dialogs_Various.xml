@@ -31,7 +31,7 @@
   <Restarting>Es reinicia</Restarting>
   
   <!-- Missing Steam -->
-  <SteamClientMissing>No es pot iniciar la API de Steam. Possibles causes:\n\n-Steam no s'està executant.\n-S'ha iniciat des de fora l'Steam sense el fitxer steam_appid.txt al seu lloc.\n-S'executa amb uns privilegis diferents del client d'Steam (e.g. "com a administrador").\n\nEn molts casos, reiniciar l'ordinador solucionarà el problema.\n\nPodeu seguir jugant, però no es registraran estadístiques a l'Steam i no en disposareu de les funcions.</SteamClientMissing>
+  <SteamClientMissing>No es pot iniciar l’API de Steam. Possibles causes:\n\n-Steam no s'està executant.\n-S'ha iniciat des de fora l'Steam sense el fitxer steam_appid.txt al seu lloc.\n-S'executa amb uns privilegis diferents del client d'Steam (e.g. "com a administrador").\n\nEn molts casos, reiniciar l'ordinador solucionarà el problema.\n\nPodeu seguir jugant, però no es registraran estadístiques a l'Steam i no en disposareu de les funcions.</SteamClientMissing>
   
   <!-- Long events -->
   <InitializingInterface>S'inicialitza la interfície</InitializingInterface>
@@ -57,7 +57,7 @@
   <LoadingLongEvent>Carregant</LoadingLongEvent>
   <SavingLongEvent>Desant</SavingLongEvent>
   <PermadeathModeSaveSuffix>(Mort permanent)</PermadeathModeSaveSuffix>
-  <SaveIsFromDifferentGameVersion>Esteu executant la versió {0} però la partida està desada amb la versió {1}, que és una versió completament diferent.\n\nÉs probable que si carregues aquesta partida no funcioni.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameVersion>Esteu executant la versió {0} però la partida està desada amb la versió {1}, que és una versió completament diferent.\n\nÉs probable que si carregues aquesta partida, no funcioni.</SaveIsFromDifferentGameVersion>
   <SaveIsFromDifferentGameBuild>Esteu executant la versió {0} però la partida està desada amb la versió {1}, que és una compilació diferent.\n\nLa partida carregada hauria de funcionar.</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>La versió de la partida desada es correspon amb la que esteu executant i no hi hauria d'haver problema.</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>No es reconeix el format de la partida desada i el més probable és que no funcioni.</SaveIsUnknownFormat>
@@ -67,21 +67,21 @@
   <MissingMods>Alguns mods no estan disponibles i s’han d’instal·lar</MissingMods>
 
   <!-- Player faction naming -->
-  <NamePlayerFactionMessage>{0} pensa que haurieu de posar un nom a la vostra facció. Com s'hauria de dir?</NamePlayerFactionMessage>
+  <NamePlayerFactionMessage>{0} creu que hauríeu de posar un nom a la vostra facció. Com s'hauria de dir?</NamePlayerFactionMessage>
   <PlayerFactionGainsName>La vostra facció és coneguda com a {0}.</PlayerFactionGainsName>
   <PlayerFactionNameIsInvalid>El nom no és vàlid.</PlayerFactionNameIsInvalid>
 
   <!-- Player faction base naming -->
-  <NamePlayerFactionBaseMessage>Com que sembla que estareu aquí durant força temps, {0} creu que hauríeu de posar un nom a la vostra comunitat. Com s'hauria de dir al vostra comunitat local?</NamePlayerFactionBaseMessage>
+  <NamePlayerFactionBaseMessage>Com que sembla que estareu aquí durant força temps, {0} creu que hauríeu de posar un nom a la vostra comunitat. Com s'hauria de dir la vostra comunitat local?</NamePlayerFactionBaseMessage>
   <PlayerFactionBaseGainsName>Aquesta comunitat ara s'anomena {0}.</PlayerFactionBaseGainsName>
   <PlayerFactionBaseNameIsInvalid>El nom no és vàlid.</PlayerFactionBaseNameIsInvalid>
   
   <!-- Player faction and faction base naming -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>Com que sembla que estareu aquí durant força temps, {0} també creu que hauríeu de posar un nom a la vostra comunitat. Com s'hauria de dir al vostra comunitat local?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>Com que sembla que estareu aquí durant força temps, {0} també creu que hauríeu de posar un nom a la vostra comunitat. Com s'hauria de dir la vostra comunitat local?</NamePlayerFactionBaseMessage_NameFactionContinuation>
   <PlayerFactionAndBaseGainsName> La vostra facció és coneguda com a {0}, i aquesta comunitat ara s'anomena {1}.</PlayerFactionAndBaseGainsName>
   
   <!-- Renaming -->
-  <NameIsInvalid>Introduiu un nom vàlid.</NameIsInvalid>
+  <NameIsInvalid>Introduïu un nom vàlid.</NameIsInvalid>
   <NameIsInUse>Aquest nom ja està fet servir.</NameIsInUse>
   <ZoneGainsName>La zona s'anomena {0}.</ZoneGainsName>
   
@@ -90,11 +90,11 @@
 
   <!-- Save game incompatible warning -->
   <VersionMismatch>Versió diferent</VersionMismatch>
-  <SaveGameIncompatibleWarningText>Aquesta partida es va desar amb la versió {0} del joc\nEsteu executant la versió {1}\n\nSi carregueu aquesta partida us podeu trobar amb errors o que es tanqui inesperadament.</SaveGameIncompatibleWarningText>
-  <WorldFileVersionMismatch>El fitxer de món es va generar amb la versió {0} del joc.\nEsteu executant la versió {1}\n\nSi carregueu aquest món us podeu trobar amb errors o que es tanqui inesperadament. Seria millor que creéssiu un món nou.</WorldFileVersionMismatch>
+  <SaveGameIncompatibleWarningText>Aquesta partida es va desar amb la versió {0} del joc\nEsteu executant la versió {1}\n\nSi carregueu aquesta partida us poden sorgir errors o que es tanqui inesperadament.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>El fitxer de món es va generar amb la versió {0} del joc.\nEsteu executant la versió {1}\n\nSi carregueu aquest món us poden sorgir errors o que es tanqui inesperadament. Seria millor que creéssiu un món nou.</WorldFileVersionMismatch>
   <FileIncompatibleWarning>Aquest fitxer es va desar amb la versió {0} del joc.\nEsteu executant la versió {1}\n\nSi carregueu aquest fitxer us podeu trobar amb errors o que es tanqui inesperadament.</FileIncompatibleWarning>
   <ModsMismatchWarningTitle>Diferència en els Mods</ModsMismatchWarningTitle>
-  <ModsMismatchWarningText>Aquest fitxer es va desar amb grup de mods diferent del que esteu fent servir. Això us pot donar probkemes o no, en funció de quins siguin els mods.\n\nEl fitxer es va desar amb (en aquest ordre):\n\n{0}\n\nEsteu executant (en aquest ordre):\n\n{1}</ModsMismatchWarningText>
+  <ModsMismatchWarningText>Aquest fitxer es va desar amb grup de mods diferent del que esteu fent servir. Això us pot donar problemes, segons quins siguin els mods.\n\nEl fitxer es va desar amb (en aquest ordre):\n\n{0}\n\nEsteu executant (en aquest ordre):\n\n{1}</ModsMismatchWarningText>
 
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Heu canviat la resolució de la pantalla. Funciona correctament?\n\nEs tornarà a la resolució anterior en {0}...</ConfirmResolutionChange>
@@ -121,11 +121,11 @@
   <MapSizeSmall>Petit</MapSizeSmall>
   <MapSizeMedium>Mitjà</MapSizeMedium>
   <MapSizeLarge>Gran</MapSizeLarge>
-  <MapSizeExtreme>LLudeonícrona </MapSizeExtreme>
+  <MapSizeExtreme>Ludeonícrona </MapSizeExtreme>
   <MapStartSeason>Estació de l'any inicial:</MapStartSeason>
   <MapStartSeasonDefault>Automàtica</MapStartSeasonDefault>
   <PermadeathMode>Mode mort permanent</PermadeathMode>
-  <PermadeathModeInfo>En el mode de «Mort permanent», només teniu un fitxer de partida desada i només podeu desar quan sortiu de la partida. No podeu tornar a carregar la partida per corregir equivocacions i si es mor un colon, està mort.\n\nAquesta és la forma en que Rimworld està pensat, amb cada gir dramàtic – tràgic o esperançador – jugat fins a les darreres conseqüències.</PermadeathModeInfo>
+  <PermadeathModeInfo>En el mode de «Mort permanent», només teniu un fitxer de partida desada i només podeu desar quan sortiu de la partida. No podeu tornar a carregar la partida per corregir equivocacions i si es mor un colon, està mort.\n\nAquesta és la forma en què Rimworld està pensat, amb cada gir dramàtic – tràgic o esperançador – jugat fins a les darreres conseqüències.</PermadeathModeInfo>
 
   <!-- Bill config -->
   <Suspended>Suspès</Suspended>
@@ -140,7 +140,7 @@
   <Infinite>Infinits</Infinite>
   <AllowedSkillRange>Capacitat de {0} permesa:</AllowedSkillRange>
   
-  <RecipeCannotHaveTargetCount>(Aquesta recepta no pot tenir un un objectiu per que resulta en múltiples i impredictibles productes.)</RecipeCannotHaveTargetCount>
+  <RecipeCannotHaveTargetCount>(Aquesta recepta no pot tenir un objectiu perquè resulta en múltiples i impredictibles productes)</RecipeCannotHaveTargetCount>
   <WorkAmount>Quantitat de feina</WorkAmount>
   <MinimumSkills>Capacitat mínima:</MinimumSkills>
   <BillRequires>Necessita {0} {1}</BillRequires>
@@ -150,7 +150,7 @@
   <UsableIngredients>ingredients</UsableIngredients>
   <BillRepeatTargetCountShort>Fins a {0}</BillRepeatTargetCountShort>
   
-  <PauseWhenSatisfied>Pause quan s'acabi</PauseWhenSatisfied>
+  <PauseWhenSatisfied>Pausa quan s'acabi</PauseWhenSatisfied>
   <UnpauseWhenYouHave>Treu la pausa als</UnpauseWhenYouHave>
   <Paused>Pausat</Paused>
   <Unpause>Treu la pausa</Unpause>
@@ -159,7 +159,7 @@
   <Damage>Dany</Damage>
   <Accuracy>Precisió</Accuracy>
   <BurstShotCount>Bales per ràfega</BurstShotCount>
-  <WarmupTime>Temps entre dispars</WarmupTime>
+  <WarmupTime>Temps entre trets</WarmupTime>
   <MeleeWarmupTime>Temps entre cops</MeleeWarmupTime>
   <CooldownTime>Refredament</CooldownTime>
   <BurstShotFireRate>Cadència de tir</BurstShotFireRate>
@@ -187,16 +187,16 @@
   <MarketValue>preu base</MarketValue>
   <Covers>Cobreix</Covers>
   <CoverEffectiveness>Efectivitat de la cobertura</CoverEffectiveness>
-  <CoverEffectivenessExplanation>Com d'efectiu és quan es fa servir com a cobertura en un tiroteig. Com més alt és el percentatge més trets atura.</CoverEffectivenessExplanation>
+  <CoverEffectivenessExplanation>Com n'és d'efectiu quan es fa servir com a cobertura en un tiroteig. Com més alt és el percentatge, més trets aturarà.</CoverEffectivenessExplanation>
   <MedicineXpGainFactor>Factor de guany d'experiència</MedicineXpGainFactor>
   <MoodChange>Variació de l'estat d'ànim</MoodChange>
   <Wildness>Salvatgia</Wildness>
   <WildnessExplanation>Les criatures més salvatges són més difícils de domesticar, entrenar i tractar.</WildnessExplanation>
   <AnimalFilthRate>Índex de brutícia animal</AnimalFilthRate>
-  <AnimalFilthRateExplanation>Els animals embruten quan es mouen amunt i avall o terres construits. Aquest valor és la quantitat mitja de brutícia que produeix per cada {0} cel·les que trepitja aquesta criatura.\n\nEls animals menys domèstics o més grossos embruten més.</AnimalFilthRateExplanation>
+  <AnimalFilthRateExplanation>Els animals embruten quan es mouen amunt i avall o terres construits. Aquest valor és la quantitat mitjana de brutícia que produeix per cada {0} cel·les que trepitja aquesta criatura.\n\nEls animals menys domèstics o més grossos embruten més.</AnimalFilthRateExplanation>
   <TimeRecordsCategory>Temps</TimeRecordsCategory>
   <MiscRecordsCategory>Altres</MiscRecordsCategory>
-  <Addictiveness>Adictivitat</Addictiveness>
+  <Addictiveness>Addictiu</Addictiveness>
   <PackAnimal>Animal de càrrega</PackAnimal>
   <PackAnimalExplanation>Indica si l'animal és apropiat per portar coses en una caravana i recórrer llargues distàncies.</PackAnimalExplanation>
   <Skill>Capacitat</Skill>
@@ -208,11 +208,11 @@
   <ConstructionSkillRequiredExplanation>Requereix aquest nivell de construcció per poder-lo fer.</ConstructionSkillRequiredExplanation>
 
   <!-- Trade -->
-  <PositiveBuysNegativeSells>Si és positiu indica compra.\nSi és negatiu venda.</PositiveBuysNegativeSells>
+  <PositiveBuysNegativeSells>Si és positiu, indica compra.\nSi és negatiu, venda.</PositiveBuysNegativeSells>
   <BuyPriceDesc>Preu que en pagareu.</BuyPriceDesc>
   <SellPriceDesc>Preu que en cobrareu.</SellPriceDesc>
   <PriceTypeDesc>El preu d'aquest objecte és {0}.</PriceTypeDesc>
-  <ColonyCount>La quantitat d'objectes d'aquests que hi han a la colònia per vendre.\n\nNomés podeu vendre objectes als mercaders orbitals si són a l'exterior i prop d'una balisa orbital.</ColonyCount>
+  <ColonyCount>La quantitat d'objectes d'aquest tipus que teniu per vendre a la colònia.\n\nNomés podeu vendre objectes als mercaders orbitals si són a l'exterior i prop d'una balisa orbital.</ColonyCount>
   <TraderCount>La quantitat d'objectes d'aquest tipus de les que disposa el mercader.</TraderCount>
   <AcceptButton>D'acord</AcceptButton>
   <ResetButton>Reinicia</ResetButton>
@@ -225,7 +225,7 @@
   <TraderWillNotTrade>El mercader no està interessat en aquestes coses.</TraderWillNotTrade>
   <Negotiator>Negociador</Negotiator>
   <NegotiatorTalkingImpaired>El vostre negociador {0} no pot parlar correctament degut a la precària salut.</NegotiatorTalkingImpaired>
-  <NegotiatorHearingImpaired>El vostre negociador {0} no hi pot sentir bé degut a la percària salut.</NegotiatorHearingImpaired>
+  <NegotiatorHearingImpaired>El vostre negociador {0} no hi pot sentir bé a causa de la precària salut.</NegotiatorHearingImpaired>
  <NegotiatorCapacityImpaired>Això afectarà als preus.\n\nConsidereu fer servir un negociador amb millor salut.</NegotiatorCapacityImpaired>
   <ConfirmTraderShortFunds>El mercader no té prou plata per fer front a la transacció. Voleu continuar igualment?</ConfirmTraderShortFunds>
   <SortBy>Ordena</SortBy>
@@ -234,7 +234,7 @@
   <Buying>es compra</Buying>
   <ItemSellPriceFactor>multiplicador del preu de venda</ItemSellPriceFactor>
   <DifficultyLevel>nivell de dificultat</DifficultyLevel>
-  <PostCurve>corva global de post-processat</PostCurve>
+  <PostCurve>corba global de post-processat</PostCurve>
   <YourNegotiatorBonus>Bonificació del vostre negociador</YourNegotiatorBonus>
   <TradeWithFactionBaseBonus>Bonificació amb aquesta facció</TradeWithFactionBaseBonus>
   <minimum>mínim</minimum>
@@ -249,13 +249,13 @@
   <CaravanConfigTab>Configuració</CaravanConfigTab>
   <CaravanMustHaveAtLeastOneColonist>Heu d'assignar com a mínim un colon que no estigui ferit.</CaravanMustHaveAtLeastOneColonist>
   <CaravanCouldNotFindExitSpot>No es pot arribar al lloc per sortir ({0}).</CaravanCouldNotFindExitSpot>
-  <CaravanCouldNotFindPackingSpot>No es pot trobar cap lloc d'empaquetat vàlid. Assegureu-vos que es pot accedir al lloc de sortida ({0})</CaravanCouldNotFindPackingSpot>
+  <CaravanCouldNotFindPackingSpot>No es pot trobar cap lloc d'empaquetament vàlid. Assegureu-vos que es pot accedir al lloc de sortida ({0})</CaravanCouldNotFindPackingSpot>
   <CaravanCouldNotFindReachableExitSpot>Avís: algun dels colons no poden arribar al lloc de sortida ({0}).</CaravanCouldNotFindReachableExitSpot>
   <CaravanPawnIsUnreachable>Algun dels colons assignats no poden arribar a {0}.</CaravanPawnIsUnreachable>
   <CaravanItemIsUnreachableSingle>Cap dels colons assignats no poden arribar a {0}.</CaravanItemIsUnreachableSingle>
   <CaravanItemIsUnreachableMulti>Cap dels colons assignats no poden arribar a {0}x {1}.</CaravanItemIsUnreachableMulti>
   <TooBigCaravanMassUsage>La caravana no pot portar tantes coses.</TooBigCaravanMassUsage>
-  <CaravanMassUsageTooltip>Pes que porteu i capacitat.\n\nEl pes que porteu inclou els productes que porta la caravana i l'equip dels colons.\n\nNo podreu enviar la caravana si el pes que porteu supera la capcitat.</CaravanMassUsageTooltip>
+  <CaravanMassUsageTooltip>Pes que porteu i capacitat.\n\nEl pes que porteu inclou els productes que porta la caravana i l'equip dels colons.\n\nNo podreu enviar la caravana si el pes que porteu supera la capacitat.</CaravanMassUsageTooltip>
   <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
   <DaysWorthOfFoodInfo>menjar per {0} dies</DaysWorthOfFoodInfo>
   <DaysWorthOfFoodInfoRot>menjar per {0} dies, es podreix en {1} dies</DaysWorthOfFoodInfoRot>
@@ -279,7 +279,7 @@
   <Mass>Pes</Mass>
   <EquipmentAndApparelMass>Pes de l'equipament i la roba</EquipmentAndApparelMass>
   <InventoryMass>Pes de l'inventari</InventoryMass>
-  <CaravanFormationProcessStarted>Els colons agafaran els objectes assignats i deixaran l'àrea tant aviat com els sigui possible.</CaravanFormationProcessStarted>
+  <CaravanFormationProcessStarted>Els colons agafaran els objectes assignats i deixaran l'àrea tan aviat com els sigui possible.</CaravanFormationProcessStarted>
   <ReformCaravan>Modifica la caravana</ReformCaravan>
   <ColonistsSection>Colons</ColonistsSection>
   <PrisonersSection>Presoners</PrisonersSection>
@@ -289,10 +289,10 @@
   
   <!-- Split caravan -->
   <SplitCaravan>Divideix la caravana</SplitCaravan>
-  <SourceCaravanMustHaveAtLeastOneColonist>Heu de tenir com a mínim in colon que no estigui de baixa.</SourceCaravanMustHaveAtLeastOneColonist>
+  <SourceCaravanMustHaveAtLeastOneColonist>Heu de tenir com a mínim un colon que no estigui de baixa.</SourceCaravanMustHaveAtLeastOneColonist>
   <CaravanSplitSourceLabel>Actual</CaravanSplitSourceLabel>
   <CaravanSplitDestLabel>Nou</CaravanSplitDestLabel>
-  <SplitCaravanThingCountTip>Quants d'aquests objectes heu passat d'una caravana a l'altra.</SplitCaravanThingCountTip>
+  <SplitCaravanThingCountTip>Quantitat objectes d’aquest tipus que heu passat d'una caravana a l'altra.</SplitCaravanThingCountTip>
   <SplitCaravanMassUsageTooltip>Pes que porteu i capacitat.</SplitCaravanMassUsageTooltip>
   
   <!-- Load transporters -->
@@ -312,12 +312,12 @@
   <ResearchScreen>Pantalla d'investigació</ResearchScreen>
   
   <!--HistoryUpload-->
-  <HistoryUploadMessage>Voleu pujar les dades de la vostra partida al servidor de RimWorld per ajudar als desenvolupadors a equilibrar el joc? Si accepteu, les vostres dades es pujaran cada {0} dies (i en alguns casos particulars, com ara el final de la partida). Les preferències de privacitat es poden canviar al menú de d'opcions.</HistoryUploadMessage>
+  <HistoryUploadMessage>Voleu pujar les dades de la vostra partida al servidor de RimWorld per ajudar als desenvolupadors a equilibrar el joc? Si accepteu, les vostres dades s’enviaran cada {0} dies (i en alguns casos particulars, com ara el final de la partida). Les preferències de privacitat es poden canviar al menú  d'opcions.</HistoryUploadMessage>
   <HistoryUploadMessagePlayerName>Tot i que la història s'envia de forma anònima, hi podeu posar el vostre nom.</HistoryUploadMessagePlayerName>
   <HistoryUploadYes>Permeto pujar les dades de la partida</HistoryUploadYes>
   <HistoryUploadNo>No permeto pujar les dades de la partida</HistoryUploadNo>
-  <HistoryUploadYesOnce>Puja-les només ara</HistoryUploadYesOnce>
-  <HistoryUploadNoOnce>No les pugis ara, demana'm-ho en un altre moment</HistoryUploadNoOnce>
+  <HistoryUploadYesOnce>Envia-les només ara</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>No les pugis ara, demana-m’ho en un altre moment</HistoryUploadNoOnce>
 	
   <!-- Outfit management -->
   <Outfit>Vestuari</Outfit>
@@ -352,26 +352,26 @@
   <NoDrugUseRequirement>Qualsevol</NoDrugUseRequirement>
   <DeleteDrugTooltip>Esborra aquesta droga.</DeleteDrugTooltip>
   <DrugNameColumnDesc>El nom de la droga.</DrugNameColumnDesc>
-  <DrugUsageColumnDesc>En quins casos es permet l'us de cada droga.</DrugUsageColumnDesc>
+  <DrugUsageColumnDesc>En quins casos es permet l'ús de cada droga.</DrugUsageColumnDesc>
   <FrequencyColumnDesc>Com de sovint els colons han de mirar de prendre aquesta droga.</FrequencyColumnDesc>
   <MoodThresholdColumnDesc>Els colons prendran aquesta droga només si tenen l'estat d'ànim per sota d'aquest llindar.</MoodThresholdColumnDesc>
   <JoyThresholdColumnDesc>Els colons prendran aquesta droga només si tenen el nivell de diversió per sota d'aquest llindar.</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>La quantitat de droga que portaran a sobre, per evitar tornar al magatzem de droga cada vegada.</TakeToInventoryColumnDesc>
-	<DrugUsageTipForAddiction>Per addiccions\n\nFa servir aquesta droga per per satisfer les addiccions existents.\n\nEncara que no estigui habilitat, alguns personatges amb característiques específiques o emprenyats la poden fer servir.</DrugUsageTipForAddiction>
+	<DrugUsageTipForAddiction>Per addiccions\n\nFa servir aquesta droga per satisfer les addiccions existents.\n\nEncara que no estigui habilitat, alguns personatges amb característiques específiques o emprenyats la poden fer servir.</DrugUsageTipForAddiction>
 	<DrugUsageTipForJoy>Per diversió\n\nFa servir aquesta droga per diversió i amb fins socials.\n\Encara que no estigui habilitat, alguns personatges amb característiques específiques o emprenyats la poden fer servir.</DrugUsageTipForJoy>
   <DrugUsageTipScheduled>Programada\n\nFa servir aquesta droga amb una freqüència determinada, quan es compleixin les condicions específiques.</DrugUsageTipScheduled>
   
   <!-- Medical settings -->
   <MedGroupDefaults>Per defecte</MedGroupDefaults>
   <MedGroupColonist>Colons</MedGroupColonist>
-  <MedGroupImprisonedColonist>Colons escarcellats</MedGroupImprisonedColonist>
-  <MedGroupColonyAnimal>Animals de la colonia</MedGroupColonyAnimal>
+  <MedGroupImprisonedColonist>Colons empresonats</MedGroupImprisonedColonist>
+  <MedGroupColonyAnimal>Animals de la colònia</MedGroupColonyAnimal>
   <MedGroupNeutralAnimal>Animal neutral</MedGroupNeutralAnimal>
   <MedGroupNeutralFaction>Facció neutral</MedGroupNeutralFaction>
   <MedGroupHostileFaction>Facció hostil</MedGroupHostileFaction>
 
   <!-- Growing -->
-  <NoGrowerCanPlant>Per plantar {0} es necessita un coneixement de  {1} en pagesia.\n\nCap dels vostres pagesos actius tenen prou nivell, per tant no es plantarà.</NoGrowerCanPlant>
+  <NoGrowerCanPlant>Per plantar {0} es necessita un coneixement de {1} en pagesia.\n\nCap dels vostres pagesos actius tenen prou nivell, per tant no es plantarà.</NoGrowerCanPlant>
 
   <!-- Abandon home -->
   <ConfirmAbandonHomeWithColonyPawns>Teniu colons o animals en aquesta zona. Els voleu abandonar?\n\nLes següents persones i animals quedaran endarrere:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
@@ -379,7 +379,7 @@
   <ConfirmAbandonHomeNegativeThoughts_Everyone>Tothom:</ConfirmAbandonHomeNegativeThoughts_Everyone>
   
   <!-- Move caravan and leave prisoners and animals behind -->
-  <ConfirmLeavePrisonersOrAnimalsBehind>Encara hi ha presoners o animals en aquesta zona i aquesta és la única caravana que poden agafar ara mateix.\n\nS mous la caravana, no podran sortir de la zona fins que torneu. Els presoners provaran d'escapar, mentre que els animals us esperaran.\n\nSi us espereu, miraran d'unir-se a la caravana quan els sigui possible.\n\nEsteu segur que voleu moure la caravana?</ConfirmLeavePrisonersOrAnimalsBehind>
+  <ConfirmLeavePrisonersOrAnimalsBehind>Encara hi ha presoners o animals en aquesta zona i aquesta és l’única caravana que poden agafar ara mateix.\n\nSi moveu la caravana, no podran sortir de la zona fins que torneu. Els presoners provaran d'escapar, mentre que els animals us esperaran.\n\nSi us espereu, miraran d'unir-se a la caravana quan els sigui possible.\n\nEsteu segur que voleu moure la caravana?</ConfirmLeavePrisonersOrAnimalsBehind>
   
   <!-- Abandon pawn -->
 <ConfirmBanishPawnDialog>Esteu segur que voleu fer fora {0}?</ConfirmBanishPawnDialog>
