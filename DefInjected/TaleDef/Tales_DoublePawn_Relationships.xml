@@ -2,66 +2,74 @@
 <LanguageData>
 
   <BondedWithAnimal.label>creació de lligam</BondedWithAnimal.label>
-  <BondedWithAnimal.rulePack.rulesStrings.0>tale_noun->la creació del lligam entre [human_nameShortDef] i [animal_nameShortDef]</BondedWithAnimal.rulePack.rulesStrings.0>
-  <BondedWithAnimal.rulePack.rulesStrings.1>image->[human_nameFull] establint un lligam amb [animal_nameFull] [circumstance_group]</BondedWithAnimal.rulePack.rulesStrings.1>
-  <BondedWithAnimal.rulePack.rulesStrings.2>image->[human_nameFull] formant un profund lligam amb [animal_nameFull] [circumstance_group]</BondedWithAnimal.rulePack.rulesStrings.2>
-  <BondedWithAnimal.rulePack.rulesStrings.3>image->[human_nameFull] adonant-se de com s'estima a [animal_nameFull] [circumstance_group]</BondedWithAnimal.rulePack.rulesStrings.3>
-  <BondedWithAnimal.rulePack.rulesStrings.4>circumstance_phrase->mentre d'altres animals se'ls miren</BondedWithAnimal.rulePack.rulesStrings.4>
-  <BondedWithAnimal.rulePack.rulesStrings.5>circumstance_phrase->mentre mira a [animal_nameShortDef] als ulls</BondedWithAnimal.rulePack.rulesStrings.5>
-  <BondedWithAnimal.rulePack.rulesStrings.6>circumstance_phrase->amb satisfacció</BondedWithAnimal.rulePack.rulesStrings.6>
-  <BondedWithAnimal.rulePack.rulesStrings.7>desc_sentence->[animal_nameShortDef] es refrega amb [human_nameShortDef].</BondedWithAnimal.rulePack.rulesStrings.7>
-  <BondedWithAnimal.rulePack.rulesStrings.8>desc_sentence->[animal_nameShortDef] té aquella mirada d'embadalida d'aquells que estimen amb bogeria.</BondedWithAnimal.rulePack.rulesStrings.8>
-  <BondedWithAnimal.rulePack.rulesStrings.9>desc_sentence->[animal_nameShortDef] es planta ben dret i amb aparença noble.</BondedWithAnimal.rulePack.rulesStrings.9>
-  <BondedWithAnimal.rulePack.rulesStrings.10>desc_sentence->[animal_nameShortDef] respon positivament.</BondedWithAnimal.rulePack.rulesStrings.10>
+	<BondedWithAnimal.rulePack.rulesStrings>
+		<li>tale_noun->la creació del lligam entre [human_nameShortDef] i [animal_nameShortDef]</li>
+		<li>image->[human_nameFull] establint un lligam amb [animal_nameFull] [circumstance_group]</li>
+		<li>image->[human_nameFull] formant un profund lligam amb [animal_nameFull] [circumstance_group]</li>
+		<li>image->[human_nameFull] adonant-se de com s'estima a [animal_nameFull] [circumstance_group]</li>
+		<li>circumstance_phrase->mentre d'altres animals se'ls miren</li>
+		<li>circumstance_phrase->mentre mira a [animal_nameShortDef] als ulls</li>
+		<li>circumstance_phrase->amb satisfacció</li>
+		<li>desc_sentence->[animal_nameShortDef] es refrega amb [human_nameShortDef].</li>
+		<li>desc_sentence->[animal_nameShortDef] té aquella mirada d'embadalida d'aquells que estimen amb bogeria.</li>
+		<li>desc_sentence->[animal_nameShortDef] es planta ben dret i amb aparença noble.</li>
+		<li>desc_sentence->[animal_nameShortDef] respon positivament.</li>
+	</BondedWithAnimal.rulePack.rulesStrings>
 
   <BecameLover.label>relació d'amants</BecameLover.label>
-  <BecameLover.rulePack.rulesStrings.0>tale_noun->[firstPawn_nameShortDef] i [secondPawn_nameShortDef] fent-se amants</BecameLover.rulePack.rulesStrings.0>
-  <BecameLover.rulePack.rulesStrings.1>image->[firstPawn_nameFull] xiuxiuejant compliments a l'orella de [secondPawn_nameFull][circumstance_group]</BecameLover.rulePack.rulesStrings.1>
-  <BecameLover.rulePack.rulesStrings.2>image->[firstPawn_nameFull] acompanyant al llit a [secondPawn_nameFull] agafats de la mà [circumstance_group]</BecameLover.rulePack.rulesStrings.2>
-  <BecameLover.rulePack.rulesStrings.3>image->[firstPawn_nameFull] jugant al llit amb [secondPawn_nameFull] [circumstance_group]</BecameLover.rulePack.rulesStrings.3>
-  <BecameLover.rulePack.rulesStrings.4>image->[firstPawn_nameFull] fent un bon petó a [secondPawn_nameFull] [circumstance_group]</BecameLover.rulePack.rulesStrings.4>
-  <BecameLover.rulePack.rulesStrings.5>circumstance_phrase->en un enorme llit irreal</BecameLover.rulePack.rulesStrings.5>
-  <BecameLover.rulePack.rulesStrings.6>circumstance_phrase->entre llençols</BecameLover.rulePack.rulesStrings.6>
-  <BecameLover.rulePack.rulesStrings.7>circumstance_phrase->amb poca roba posada</BecameLover.rulePack.rulesStrings.7>
-  <BecameLover.rulePack.rulesStrings.8>circumstance_phrase->mentre els dos estan xops de suor</BecameLover.rulePack.rulesStrings.8>
-  <BecameLover.rulePack.rulesStrings.9>desc_sentence->[firstPawn_nameShortDef] es cargola al costat de [secondPawn_nameShortDef].</BecameLover.rulePack.rulesStrings.9>
-  <BecameLover.rulePack.rulesStrings.10>desc_sentence->[firstPawn_nameShortDef] i [secondPawn_nameShortDef] es miren als ulls.</BecameLover.rulePack.rulesStrings.10>
-  <BecameLover.rulePack.rulesStrings.11>desc_sentence->[firstPawn_nameShortDef] bufa a [secondPawn_nameShortDef].</BecameLover.rulePack.rulesStrings.11>
-  <BecameLover.rulePack.rulesStrings.12>desc_sentence->[firstPawn_nameShortDef] i [secondPawn_nameShortDef] estàn abraçats molt estilísticament.</BecameLover.rulePack.rulesStrings.12>
-  <BecameLover.rulePack.rulesStrings.13>desc_sentence->[firstPawn_nameShortDef] és la imatge de mirall de [secondPawn_nameShortDef].</BecameLover.rulePack.rulesStrings.13>
-  <BecameLover.rulePack.rulesStrings.14>desc_sentence->[firstPawn_nameShortDef] toca [secondPawn_nameShortDef] amb passió.</BecameLover.rulePack.rulesStrings.14>
+	<BecameLover.rulePack.rulesStrings>
+		<li>tale_noun->[firstPawn_nameShortDef] i [secondPawn_nameShortDef] fent-se amants</li>
+		<li>image->[firstPawn_nameFull] xiuxiuejant compliments a l'orella de [secondPawn_nameFull][circumstance_group]</li>
+		<li>image->[firstPawn_nameFull] acompanyant al llit a [secondPawn_nameFull] agafats de la mà [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull] jugant al llit amb [secondPawn_nameFull] [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull] fent un bon petó a [secondPawn_nameFull] [circumstance_group]</li>
+		<li>circumstance_phrase->en un enorme llit irreal</li>
+		<li>circumstance_phrase->entre llençols</li>
+		<li>circumstance_phrase->amb poca roba posada</li>
+		<li>circumstance_phrase->mentre els dos estan xops de suor</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] es cargola al costat de [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] i [secondPawn_nameShortDef] es miren als ulls.</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] bufa a [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] i [secondPawn_nameShortDef] estàn abraçats molt estilísticament.</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] és la imatge de mirall de [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] toca [secondPawn_nameShortDef] amb passió.</li>
+	</BecameLover.rulePack.rulesStrings>
 
   <Breakup.label>ruptura</Breakup.label>
-  <Breakup.rulePack.rulesStrings.0>tale_noun->la separació de [firstPawn_nameShortDef] i [secondPawn_nameShortDef]</Breakup.rulePack.rulesStrings.0>
-  <Breakup.rulePack.rulesStrings.1>image->[firstPawn_nameFull] fent seure [secondPawn_nameFull] per tenir una conversa poc agradable [circumstance_group]</Breakup.rulePack.rulesStrings.1>
-  <Breakup.rulePack.rulesStrings.2>image->[firstPawn_nameFull] dret a certa distància de [secondPawn_nameFull] [circumstance_group]</Breakup.rulePack.rulesStrings.2>
-  <Breakup.rulePack.rulesStrings.3>image->[firstPawn_nameFull] empenyent [secondPawn_nameFull] fora del llit [circumstance_group]</Breakup.rulePack.rulesStrings.3>
-  <Breakup.rulePack.rulesStrings.4>image->[firstPawn_nameFull] rebutjant una abraçada de [secondPawn_nameFull] [circumstance_group]</Breakup.rulePack.rulesStrings.4>
-  <Breakup.rulePack.rulesStrings.5>circumstance_phrase->en un moment de gran tristor</Breakup.rulePack.rulesStrings.5>
-  <Breakup.rulePack.rulesStrings.6>circumstance_phrase->mentre d'altres els miren incomodes</Breakup.rulePack.rulesStrings.6>
-  <Breakup.rulePack.rulesStrings.7>circumstance_phrase->mentre d'altres els miren</Breakup.rulePack.rulesStrings.7>
-  <Breakup.rulePack.rulesStrings.8>desc_sentence->[secondPawn_nameShortDef] plora desconsoladament.</Breakup.rulePack.rulesStrings.8>
-  <Breakup.rulePack.rulesStrings.9>desc_sentence->[secondPawn_nameShortDef] riu i plora al mateix temps.</Breakup.rulePack.rulesStrings.9>
-  <Breakup.rulePack.rulesStrings.10>desc_sentence->[secondPawn_nameShortDef] està astorat.</Breakup.rulePack.rulesStrings.10>
-  <Breakup.rulePack.rulesStrings.11>desc_sentence->[firstPawn_nameShortDef] està separat de [secondPawn_nameShortDef] estilísticament.</Breakup.rulePack.rulesStrings.11>
-  <Breakup.rulePack.rulesStrings.12>desc_sentence->[secondPawn_nameShortDef] ha caigut al terra de la histèria.</Breakup.rulePack.rulesStrings.12>
-  <Breakup.rulePack.rulesStrings.13>desc_sentence->[secondPawn_nameShortDef] gesticula de forna enfadada a [firstPawn_nameShortDef].</Breakup.rulePack.rulesStrings.13>
+	<Breakup.rulePack.rulesStrings>
+		<li>tale_noun->la separació de [firstPawn_nameShortDef] i [secondPawn_nameShortDef]</li>
+		<li>image->[firstPawn_nameFull] fent seure [secondPawn_nameFull] per tenir una conversa poc agradable [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull] dret a certa distància de [secondPawn_nameFull] [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull] empenyent [secondPawn_nameFull] fora del llit [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull] rebutjant una abraçada de [secondPawn_nameFull] [circumstance_group]</li>
+		<li>circumstance_phrase->en un moment de gran tristor</li>
+		<li>circumstance_phrase->mentre d'altres els miren incomodes</li>
+		<li>circumstance_phrase->mentre d'altres els miren</li>
+		<li>desc_sentence->[secondPawn_nameShortDef] plora desconsoladament.</li>
+		<li>desc_sentence->[secondPawn_nameShortDef] riu i plora al mateix temps.</li>
+		<li>desc_sentence->[secondPawn_nameShortDef] està astorat.</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] està separat de [secondPawn_nameShortDef] estilísticament.</li>
+		<li>desc_sentence->[secondPawn_nameShortDef] ha caigut al terra de la histèria.</li>
+		<li>desc_sentence->[secondPawn_nameShortDef] gesticula de forna enfadada a [firstPawn_nameShortDef].</li>
+	</Breakup.rulePack.rulesStrings>
 
   <Marriage.label>casament</Marriage.label>
-  <Marriage.rulePack.rulesStrings.0>tale_noun->la cerimònia de casament de [firstPawn_nameShortDef] i [secondPawn_nameShortDef]</Marriage.rulePack.rulesStrings.0>
-  <Marriage.rulePack.rulesStrings.1>image->[firstPawn_nameFull] i [secondPawn_nameFull] casant-se [circumstance_group]</Marriage.rulePack.rulesStrings.1>
-  <Marriage.rulePack.rulesStrings.2>image->[firstPawn_nameFull] jurant fidelitat a [secondPawn_nameFull] [circumstance_group]</Marriage.rulePack.rulesStrings.2>
-  <Marriage.rulePack.rulesStrings.3>image->[firstPawn_nameFull] caminant per la catifa amb [secondPawn_nameFull] [circumstance_group]</Marriage.rulePack.rulesStrings.3>
-  <Marriage.rulePack.rulesStrings.4>image->[firstPawn_nameFull] i [secondPawn_nameFull] agafats de la ma durant el casament [circumstance_group]</Marriage.rulePack.rulesStrings.4>
-  <Marriage.rulePack.rulesStrings.5>circumstance_phrase->en una cerimònia solemne</Marriage.rulePack.rulesStrings.5>
-  <Marriage.rulePack.rulesStrings.6>circumstance_phrase->mentre els dos riuen alegrement</Marriage.rulePack.rulesStrings.6>
-  <Marriage.rulePack.rulesStrings.7>circumstance_phrase->mentre tothom mira expectant</Marriage.rulePack.rulesStrings.7>
-  <Marriage.rulePack.rulesStrings.8>desc_sentence->[firstPawn_nameShortDef] s'acotxa al pit de [secondPawn_nameShortDef].</Marriage.rulePack.rulesStrings.8>
-  <Marriage.rulePack.rulesStrings.9>desc_sentence->[firstPawn_nameShortDef] i [secondPawn_nameShortDef] es miren als ulls.</Marriage.rulePack.rulesStrings.9>
-  <Marriage.rulePack.rulesStrings.10>desc_sentence->[firstPawn_nameShortDef] bufa a [secondPawn_nameShortDef].</Marriage.rulePack.rulesStrings.10>
-  <Marriage.rulePack.rulesStrings.11>desc_sentence->[firstPawn_nameShortDef] i [secondPawn_nameShortDef] estan lligats estilísticament.</Marriage.rulePack.rulesStrings.11>
-  <Marriage.rulePack.rulesStrings.12>desc_sentence->[firstPawn_nameShortDef] és la imatge de mirall de [secondPawn_nameShortDef].</Marriage.rulePack.rulesStrings.12>
-  <Marriage.rulePack.rulesStrings.13>desc_sentence->[firstPawn_nameShortDef] toca [secondPawn_nameShortDef] amb passió.</Marriage.rulePack.rulesStrings.13>
+	<Marriage.rulePack.rulesStrings>
+		<li>tale_noun->la cerimònia de casament de [firstPawn_nameShortDef] i [secondPawn_nameShortDef]</li>
+		<li>image->[firstPawn_nameFull] i [secondPawn_nameFull] casant-se [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull] jurant fidelitat a [secondPawn_nameFull] [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull] caminant per la catifa amb [secondPawn_nameFull] [circumstance_group]</li>
+		<li>image->[firstPawn_nameFull] i [secondPawn_nameFull] agafats de la ma durant el casament [circumstance_group]</li>
+		<li>circumstance_phrase->en una cerimònia solemne</li>
+		<li>circumstance_phrase->mentre els dos riuen alegrement</li>
+		<li>circumstance_phrase->mentre tothom mira expectant</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] s'acotxa al pit de [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] i [secondPawn_nameShortDef] es miren als ulls.</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] bufa a [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] i [secondPawn_nameShortDef] estan lligats estilísticament.</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] és la imatge de mirall de [secondPawn_nameShortDef].</li>
+		<li>desc_sentence->[firstPawn_nameShortDef] toca [secondPawn_nameShortDef] amb passió.</li>
+	</Marriage.rulePack.rulesStrings>
 
 
 </LanguageData>
