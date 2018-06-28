@@ -30,7 +30,7 @@
   <RecruitSuccess>{0} reclutat {1} ({2} probabilitats).</RecruitSuccess>
   <RecruitFail>{0} no s'ha reclutat {1} ({2} probabilitats).</RecruitFail>
 
-  <RelatedPawnInvolvedInQuest>NAME és {1} de {0}. Si NAME mor, {0} patirà un llarg entristiment. Però si aconseguir rescatar NAME, {0} estarà content durant molt temps.</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>[PAWN_nameDef] és {1} de {0}. Si [PAWN_nameDef] mor, {0} patirà un llarg entristiment. Però si aconseguir rescatar [PAWN_nameDef], {0} estarà content durant molt temps.</RelatedPawnInvolvedInQuest>
 
   <LetterLabelBirthday>Aniversari</LetterLabelBirthday>
   <BirthdayChronological>És l'aniversari cronològic de {0}! Des del punt de vista biològic, {1} te {3} anys.\n\nDel cronològic, {1} n'acaba de fer {2}.\n\nCom que la gent no envelleix durant el criptoson, l'aniversari cronològic és diferent del biològic.</BirthdayChronological>
@@ -82,8 +82,8 @@
   <LetterRelatedPawnsTradingWithOtherCaravan>La caravana ven algú que està relacionat amb els vostres colons o presoners:</LetterRelatedPawnsTradingWithOtherCaravan>
   
   <RelationshipAppendedLetterSuffix>(relació)</RelationshipAppendedLetterSuffix>
-  <RelationshipAppendedLetterTextColonist>NAME està relacionat amb un colon. És {1} de {0}.</RelationshipAppendedLetterTextColonist>
-  <RelationshipAppendedLetterTextPrisoner>NAME està relacionat amb un presoner. És {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextColonist>[PAWN_nameDef] està relacionat amb un colon. És {1} de {0}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>[PAWN_nameDef] està relacionat amb un presoner. És {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
   
   <!-- Attempt romance / propose interaction -->
   <LetterLabelAffair>Amants</LetterLabelAffair>
