@@ -87,6 +87,7 @@
   
   <!-- Pawn naming -->
   <PawnGainsName>El sobrenom del colon és {0}.</PawnGainsName>
+  <AnimalGainsName>Ara l’animal es diu {0}.</AnimalGainsName>
 
   <!-- Save game incompatible warning -->
   <VersionMismatch>Versió diferent</VersionMismatch>
@@ -100,6 +101,9 @@
   <ConfirmResolutionChange>Heu canviat la resolució de la pantalla. Funciona correctament?\n\nEs tornarà a la resolució anterior en {0}...</ConfirmResolutionChange>
   <ResolutionKeep>Manté</ResolutionKeep>
   <ResolutionRevert>Torna a l'anterior</ResolutionRevert>
+
+  <!-- Confirm permanently disable dev mode -->
+  <ConfirmPermanentlyDisableDevMode>Esteu segur que voleu deshabilitar el mode de desenvolupament de forma permanent en aquest ordinador?</ConfirmPermanentlyDisableDevMode>
 
   <!-- Research -->
   <Research>Investiga</Research>
@@ -124,6 +128,7 @@
   <MapSizeExtreme>Ludeonícrona </MapSizeExtreme>
   <MapStartSeason>Estació de l'any inicial:</MapStartSeason>
   <MapStartSeasonDefault>Automàtica</MapStartSeasonDefault>
+  <Notice>Avís</Notice>
   <PermadeathMode>Mode mort permanent</PermadeathMode>
   <PermadeathModeInfo>En el mode de «Mort permanent», només teniu un fitxer de partida desada i només podeu desar quan sortiu de la partida. No podeu tornar a carregar la partida per corregir equivocacions i si es mor un colon, està mort.\n\nAquesta és la forma en què Rimworld està pensat, amb cada gir dramàtic – tràgic o esperançador – jugat fins a les darreres conseqüències.</PermadeathModeInfo>
 
@@ -139,7 +144,10 @@
   <CountingProducts>Contant</CountingProducts>
   <Infinite>Infinits</Infinite>
   <AllowedSkillRange>Capacitat de {0} permesa:</AllowedSkillRange>
-  
+  <IncompatibleLower>incompatible</IncompatibleLower>
+  <AnyWorker>Qualsevol treballador</AnyWorker>
+  <Unlimited>il·limitat</Unlimited>
+
   <RecipeCannotHaveTargetCount>(Aquesta recepta no pot tenir un objectiu perquè resulta en múltiples i impredictibles productes)</RecipeCannotHaveTargetCount>
   <WorkAmount>Quantitat de feina</WorkAmount>
   <MinimumSkills>Capacitat mínima:</MinimumSkills>
@@ -155,6 +163,12 @@
   <Paused>Pausat</Paused>
   <Unpause>Treu la pausa</Unpause>
 
+  <IncludeEquipped>Inclou l’equipat</IncludeEquipped>
+  <IncludeTainted>Inclou el malmès</IncludeTainted>
+  <LimitToAllowedStuff>Només ingredients permesos</LimitToAllowedStuff>
+  <IncludeFromAll>Mira a tot arreu</IncludeFromAll>
+  <IncludeSpecific>Mira a {0}</IncludeSpecific>
+
   <!-- Info card -->
   <Damage>Dany</Damage>
   <Accuracy>Precisió</Accuracy>
@@ -164,10 +178,13 @@
   <CooldownTime>Refredament</CooldownTime>
   <BurstShotFireRate>Cadència de tir</BurstShotFireRate>
   <Range>Rang</Range>
+  <StoppingPower>Força d’aturada</StoppingPower>
+  <StoppingPowerExplanation>Els impactes d’aquesta arma atordiran els objectius, alentint-ne els moviments durant uns segons. Els objectius més grans que la força d’atur no es veuran afectats.</StoppingPowerExplanation>
   <GrowsWild>Creix salvatge</GrowsWild>
   <Harvestable>Es pot collir</Harvestable>
   <LimitedLifespan>Esperança de vida limitada</LimitedLifespan>
   <GrowingTime>Temps de creixement</GrowingTime>
+  <HarvestYield>Producció</HarvestYield>
   <GrowingTimeDesc>Les plantes només creixen de dia, i només si hi ha llum. Aquesta estadística mesura el temps que la planta necessita per créixer de tot. El temps real sol ser el doble. Les baixes temperatures també alenteixen el creixement.</GrowingTimeDesc>
   <Days>dies</Days>
   <MinGrowingSkillToSow>Pagesia mínima per sembrar</MinGrowingSkillToSow>
@@ -182,16 +199,20 @@
   <WalkSpeedProperty>Velocitat al caminar</WalkSpeedProperty>
   <MinFoodQuality>Qualitat mín. del menjar</MinFoodQuality>
   <Diet>Dieta</Diet>
+  <LeatherType>Tipus de pell</LeatherType>
   <BodySize>Mida del cos</BodySize>
   <RecruitDifficulty>Dificultat de reclutament</RecruitDifficulty>
   <MarketValue>preu base</MarketValue>
   <Covers>Cobreix</Covers>
+  <Layer>Capa</Layer>
   <CoverEffectiveness>Efectivitat de la cobertura</CoverEffectiveness>
   <CoverEffectivenessExplanation>Com n'és d'efectiu quan es fa servir com a cobertura en un tiroteig. Com més alt és el percentatge, més trets aturarà.</CoverEffectivenessExplanation>
   <MedicineXpGainFactor>Factor de guany d'experiència</MedicineXpGainFactor>
   <MoodChange>Variació de l'estat d'ànim</MoodChange>
   <Wildness>Salvatgia</Wildness>
   <WildnessExplanation>Les criatures més salvatges són més difícils de domesticar, entrenar i tractar.</WildnessExplanation>
+  <TrainingDecayInterval>interval de pèrdua d’entrenament</TrainingDecayInterval>
+  <TamenessWillNotDecay>La domesticació no es perd mai.</TamenessWillNotDecay>
   <AnimalFilthRate>Índex de brutícia animal</AnimalFilthRate>
   <AnimalFilthRateExplanation>Els animals embruten quan es mouen amunt i avall o terres construits. Aquest valor és la quantitat mitjana de brutícia que produeix per cada {0} cel·les que trepitja aquesta criatura.\n\nEls animals menys domèstics o més grossos embruten més.</AnimalFilthRateExplanation>
   <TimeRecordsCategory>Temps</TimeRecordsCategory>
@@ -206,6 +227,13 @@
   <EfficiencyStat>Quantitat generada gestionada a partir de</EfficiencyStat>
   <ConstructionSkillRequired>Es requereix una capacitat de construcció</ConstructionSkillRequired>
   <ConstructionSkillRequiredExplanation>Requereix aquest nivell de construcció per poder-lo fer.</ConstructionSkillRequiredExplanation>
+  <NuzzleInterval>interval de carícies amb el morro</NuzzleInterval>
+  <NuzzleIntervalExplanation>Cada quant un animal acaronarà amb el morro els colons amics, de mitjana.\n\nLes carícies són un comportament que comparteixen moltes espècies animals, on els animals acosten el seu nas o el seu morro contra un amic com a signe d’afecte. La majoria d’humans ho troben agradable i els millorarà l’estat d’ànim durant un temps.</NuzzleIntervalExplanation>
+  <HarmedRevengeChance>Probabilitat de revenja si és ferit</HarmedRevengeChance>
+  <HarmedRevengeChanceExplanation>La probabilitat que la criatura es revengi quan és ferit per un atacant a distància de rifle.\n\nLa probabilitat incrementa si l’atacant és més a prop. Si l’atacant és a tocar, la probabilitat es triplica.\n\nLa probabilitat s’aplica cada cop que rep danys, així que les armes que disparen menys sovint i fan més mal tenen menys probabilitats d’activar-la.\n\nPer tal de minimitzar la probabilitat que la criatura es revengi, ataqueu-la a distància de rifle amb una arma lenta.</HarmedRevengeChanceExplanation>
+  <TameFailedRevengeChance>Probabilitat de revenja quan falla la doma</TameFailedRevengeChance>
+  <TerrainRequirement>Requisit de terreny</TerrainRequirement>
+  <Supports>Suporta</Supports>
 
   <!-- Trade -->
   <PositiveBuysNegativeSells>Si és positiu, indica compra.\nSi és negatiu, venda.</PositiveBuysNegativeSells>
@@ -239,14 +267,18 @@
   <TradeWithFactionBaseBonus>Bonificació amb aquesta facció</TradeWithFactionBaseBonus>
   <minimum>mínim</minimum>
   <FinalPrice>Preu final</FinalPrice>
-  <TradeMassUsageTooltip>El pes final i el pes que podeu portar.</TradeMassUsageTooltip>
-  
+  <GiftModeTip>Mode regals – oferir regals a {0}.</GiftModeTip>
+  <TradeModeTip>Tornar al mode comerç.</TradeModeTip>
+
+  <!-- Sellable items -->
+  <SellableItemsTitle>Coses que comprarà aquest comerciant</SellableItemsTitle>
+  <PawnsTabShort>Criatures</PawnsTabShort>
+
   <!-- Form caravan -->
   <FormCaravan>Forma una caravana</FormCaravan>
   <FormCaravanColonyThingCountTip>La quantitat d'objectes d'aquest tipus que porta la caravana.</FormCaravanColonyThingCountTip>
   <PawnsTab>Persones i animals</PawnsTab>
   <ItemsTab>Objectes</ItemsTab>
-  <CaravanConfigTab>Configuració</CaravanConfigTab>
   <CaravanMustHaveAtLeastOneColonist>Heu d'assignar com a mínim un colon que no estigui ferit.</CaravanMustHaveAtLeastOneColonist>
   <CaravanCouldNotFindExitSpot>No es pot arribar al lloc per sortir ({0}).</CaravanCouldNotFindExitSpot>
   <CaravanCouldNotFindPackingSpot>No es pot trobar cap lloc d'empaquetament vàlid. Assegureu-vos que es pot accedir al lloc de sortida ({0})</CaravanCouldNotFindPackingSpot>
@@ -256,25 +288,29 @@
   <CaravanItemIsUnreachableMulti>Cap dels colons assignats no poden arribar a {0}x {1}.</CaravanItemIsUnreachableMulti>
   <TooBigCaravanMassUsage>La caravana no pot portar tantes coses.</TooBigCaravanMassUsage>
   <CaravanMassUsageTooltip>Pes que porteu i capacitat.\n\nEl pes que porteu inclou els productes que porta la caravana i l'equip dels colons.\n\nNo podreu enviar la caravana si el pes que porteu supera la capacitat.</CaravanMassUsageTooltip>
-  <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
-  <DaysWorthOfFoodInfo>menjar per {0} dies</DaysWorthOfFoodInfo>
+  <CaravanVisibilityTip>La visibilitat indica com és de fàcil detectar la vostra caravana.\n\nMultiplica les possibilitats de ser emboscada pels enemics.\n\nLa visibilitat no afecta la probabilitat de trobar el que busqueu.\n\nLa visibilitat està basada en la mida total dels cossos de la gent i els animals que formen la caravana.</CaravanVisibilityTip>
+  <DaysWorthOfFood>Dies de menjar</DaysWorthOfFood>
   <DaysWorthOfFoodInfoRot>menjar per {0} dies, es podreix en {1} dies</DaysWorthOfFoodInfoRot>
   <InfiniteDaysWorthOfFoodInfo>No us quedareu mai sense menjar</InfiniteDaysWorthOfFoodInfo>
   <DaysWorthOfFoodTooltip>Nombre aproximat de dies abans que la caravana es quedi sense menjar.\n\nTé en compte tant el menjar de les persones com el dels animals, i presenta el pitjor escenari. Això vol dir que després d'aquests dies com a mínim una persona o animal no tindrà menjar.</DaysWorthOfFoodTooltip>
-  <DaysWorthOfFoodTooltip_CanEatLocalPlants>Segons l'estació actual, la temperatura i l'entorn s'assumeix que els animals herbívors s'alimentaran de les plantes que trobin. Tanmateix, les condicions poden canviar en qualsevol moment.</DaysWorthOfFoodTooltip_CanEatLocalPlants>
-  <DaysWorthOfFoodTooltip_CantEatLocalPlants>Segons l'estació actual, la temperatura i l'entorn s'assumeix que els animals herbívors NO trobaran plantes per alimentar-se. Tanmateix, les condicions poden canviar en qualsevol moment.</DaysWorthOfFoodTooltip_CantEatLocalPlants>
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(Només es tindrà en compte la primera parada)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <DaysWorthOfFoodWarningDialog>La caravana només té menjar per {0} dies i passaran gana molt aviat.\n\nSegur que voleu forma aquesta caravana?</DaysWorthOfFoodWarningDialog>
  <DaysWorthOfFoodWarningDialog_NoFood>La caravana no té menjar i passaran gana molt aviat.\n\nSegur que voleu forma aquesta caravana?</DaysWorthOfFoodWarningDialog_NoFood>
+  <ForagedFoodPerDayTip>La quantitat mitjana de menjar que collirà la gent cad dia. Aquest valor canviarà quan travesseu biomes amb diferent capacitat de recollida d’aliments.</ForagedFoodPerDayTip>
+  <ForagedFoodPerDay>Menjar recollit per dia</ForagedFoodPerDay>
  <CaravanFoodWillRotSoonWarningDialog>Bona part del menjar es podrirà aviat.\n\nSegur que voleu formar aquesta caravana?</CaravanFoodWillRotSoonWarningDialog>
   <CaravanIncapableOfSocial>No teniu cap membre a la caravana capaç de diplomàcia o de comerciar.</CaravanIncapableOfSocial>
   <CaravanAreYouSure>Esteu segur que voleu formar la caravana?</CaravanAreYouSure>
-  <NoExitDirectionForCaravanChosen>Heu d'escollir una direcció de sortida per la caravana.</NoExitDirectionForCaravanChosen>
-  <NoCaravanExitDirectionAvailable>(No es pot sortir per enlloc)</NoCaravanExitDirectionAvailable>
-  <ExitDirection>Direcció de sortida</ExitDirection>
-  <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
+  <MessageMustChooseRouteFirst>Heu d’escollir una ruta per la caravana.</MessageMustChooseRouteFirst>
+  <MessageNoValidExitTile>La vostra caravana no pot sortir de la zona. Assegureu-vos que es pot arribar com a mínim a una vora.</MessageNoValidExitTile>
   <ItemWeightTip>Pes de l'objecte.</ItemWeightTip>
   <MarketValueTip>Valor de mercat</MarketValueTip>
   <DaysUntilRotTip>El nombre de dies fins que aquest objecte es podreixi, basat en la temperatura mitjana d'aquesta zona.</DaysUntilRotTip>
+  <ItemNutritionTip>Quantitat de nutrients que dóna aquest aliment.\n\nPer exemple: una persona adulta necessita {0} nutrients cada dia.</ItemNutritionTip>
+  <AnimalCanGrazeTip>Aquest animal es pot pasturar a l’entorn en comptes de consumir el menjar que porta. Només es pot pasturar en alguns biomes i nivells de temperatura.</AnimalCanGrazeTip>
+  <NutritionForagedPerDayTip>Nutrients pasturats cada dia. Es veu afectada per la quantitat de pastura del bioma.\n\n{0}</NutritionForagedPerDayTip>
+  <NutritionEatenPerDayTip>Nutrients que es mengen cada dia. Com a referència, les racions senzilles donen {0} nutrients.\n\nPoden menjar: {2}\n\nLlegenda:\n{1}.</NutritionEatenPerDayTip>
+  <MassCarriedSimple>Pes carregat</MassCarriedSimple>
   <MassCapacity>Capacitat de càrrega</MassCapacity>
   <Mass>Pes</Mass>
   <EquipmentAndApparelMass>Pes de l'equipament i la roba</EquipmentAndApparelMass>
@@ -283,17 +319,29 @@
   <ReformCaravan>Modifica la caravana</ReformCaravan>
   <ColonistsSection>Colons</ColonistsSection>
   <PrisonersSection>Presoners</PrisonersSection>
+  <CaptureSection>Captures</CaptureSection>
   <AnimalsSection>Animals</AnimalsSection>
-  <EstimatedTimeToDestinationButton>Temps aprox. fins al destí</EstimatedTimeToDestinationButton>
+  <ChooseRouteButton>Escolliu ruta</ChooseRouteButton>
   <AbandonButton>Abandona</AbandonButton>
-  
+    <CaravanMovementSpeed>Velocitat de moviment</CaravanMovementSpeed>
+  <TilesPerDay>cel·les/dia</TilesPerDay>
+  <CaravanMovementSpeedTip>La velocitat depèn de la mitjana de velocitat de totes les persones i animals, el pes que es porta i la dificultat del terreny.</CaravanMovementSpeedTip>
+  <AnimalsWillBeAbleToGraze>Els animals podran pasturar</AnimalsWillBeAbleToGraze>
+  <AnimalsCanGraze>Els animals poden pasturar</AnimalsCanGraze>
+  <PossibleToGrazeFor>(durant {0} dies més)</PossibleToGrazeFor>
+  <PossibleToGrazeForever>(per sempre)</PossibleToGrazeForever>
+  <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
+  <CantGrazeBecauseOfTemp>(massa fred durant {0} dies més)</CantGrazeBecauseOfTemp>
+  <TotalNutrition>Nutrients totals</TotalNutrition>
+  <CaravanNotMoving>Aturada</CaravanNotMoving>
+  <ForagedNutritionPerDay>Nutrients pasturats per dia</ForagedNutritionPerDay>
+  <FactionType>Tipus de facció</FactionType>
+  <TotalBodySize>Mida total del cos</TotalBodySize>
+
   <!-- Split caravan -->
   <SplitCaravan>Divideix la caravana</SplitCaravan>
   <SourceCaravanMustHaveAtLeastOneColonist>Heu de tenir com a mínim un colon que no estigui de baixa.</SourceCaravanMustHaveAtLeastOneColonist>
-  <CaravanSplitSourceLabel>Actual</CaravanSplitSourceLabel>
-  <CaravanSplitDestLabel>Nou</CaravanSplitDestLabel>
   <SplitCaravanThingCountTip>Quantitat objectes d’aquest tipus que heu passat d'una caravana a l'altra.</SplitCaravanThingCountTip>
-  <SplitCaravanMassUsageTooltip>Pes que porteu i capacitat.</SplitCaravanMassUsageTooltip>
   
   <!-- Load transporters -->
   <LoadTransporters>Carrega {0}</LoadTransporters>
@@ -302,8 +350,7 @@
   <PawnCantReachTransporters>{0} no pot arribar a la càpsula de transport.</PawnCantReachTransporters>
   <TransporterItemIsUnreachableSingle>No hi ha cap camí entre la càpsula de transport i {0}.</TransporterItemIsUnreachableSingle>
   <TransporterItemIsUnreachableMulti> No hi ha cap camí entre la càpsula de transport i {0}x {1}.</TransporterItemIsUnreachableMulti>
-  <TransportersMassUsageTooltip>Pes que porteu i capacitat .\n\nNo podreu enviar la càpsula de transport si el pes supera la capacitat.</TransportersMassUsageTooltip>
-  
+
   <!-- Comms -->
   <SocialSkillIs>Capacitat social: {0}</SocialSkillIs>
   
@@ -376,11 +423,12 @@
   <!-- Abandon home -->
   <ConfirmAbandonHomeWithColonyPawns>Teniu colons o animals en aquesta zona. Els voleu abandonar?\n\nLes següents persones i animals quedaran endarrere:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
   <ConfirmAbandonHomeNegativeThoughts>Abandonar {0} farà que els següents colons pensin el següent:</ConfirmAbandonHomeNegativeThoughts>
-  <ConfirmAbandonHomeNegativeThoughts_Everyone>Tothom:</ConfirmAbandonHomeNegativeThoughts_Everyone>
-  
-  <!-- Move caravan and leave prisoners and animals behind -->
-  <ConfirmLeavePrisonersOrAnimalsBehind>Encara hi ha presoners o animals en aquesta zona i aquesta és l’única caravana que poden agafar ara mateix.\n\nSi moveu la caravana, no podran sortir de la zona fins que torneu. Els presoners provaran d'escapar, mentre que els animals us esperaran.\n\nSi us espereu, miraran d'unir-se a la caravana quan els sigui possible.\n\nEsteu segur que voleu moure la caravana?</ConfirmLeavePrisonersOrAnimalsBehind>
-  
+
+<ConfirmAbandonHomeNegativeThoughts_Everyone>Tothom:</ConfirmAbandonHomeNegativeThoughts_Everyone>
+
+  <!-- Move caravan and leave prisoners and animals behind →
+  <ConfirmMoveAutoJoinableCaravan>Hi ha animals i presoners que es volen unir a la caravana. Si la moveu, ja no ho podran fer.\n\nEls animals, presoners o colons abatuts que es quedin al mapa sense cap colon amb prou salut es consideraran abandonats i podran ser capturats pels enemics.\n\nEsteu segur que voleu moure la caravana?</ConfirmMoveAutoJoinableCaravan>
+
   <!-- Abandon pawn -->
 <ConfirmBanishPawnDialog>Esteu segur que voleu fer fora {0}?</ConfirmBanishPawnDialog>
   <ConfirmBanishPawnDialog_LeftToDie>{0} probablement morirà.</ConfirmBanishPawnDialog_LeftToDie>
@@ -390,7 +438,8 @@
   
   <!-- Send transport pods which are not completely loaded -->
   <ConfirmSendNotCompletelyLoadedPods>Les càpsules encara no estant completament carregades. Falta {0}. Voleu llençar-les igualment?</ConfirmSendNotCompletelyLoadedPods>
-  
+
+  <!-- Settle near a faction base -->
+  <ConfirmSettleNearFactionBase>Com que aquest lloc és a {0} cel·les d’una base d’una altra facció, pensaran que esteu ocupant les seves terres i les relacions amb la facció empitjoraran cada {1} dies.\n\nUs hi voleu establir igualment?</ConfirmSettleNearFactionBase>
+
 </LanguageData>
-
-

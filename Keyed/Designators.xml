@@ -2,7 +2,7 @@
 <LanguageData>
   
   <DesignatorCancel>Cancel·la</DesignatorCancel>
-  <DesignatorCancelDesc>Cancel·la l'orde de contruir, minar, recollir, collir o qualsevol altra designació.</DesignatorCancelDesc>
+  <DesignatorCancelDesc>Cancel·la l'orde de construir, minar, recollir, collir o qualsevol altra designació.</DesignatorCancelDesc>
 
   <DesignatorCutPlants>Tallar plantes</DesignatorCutPlants>
   <DesignatorCutPlantsDesc>Marca plantes per ser collides i destruïdes. La planta serà completament treta i qualsevol aliment o recurs que produeixi es collirà.</DesignatorCutPlantsDesc>
@@ -21,7 +21,7 @@
 
   <DesignatorHaulThings>Llençar</DesignatorHaulThings>
   <DesignatorHaulThingsDesc>Marca trossos de roca i altres coses per portar-les a l'abocador. No és necessari per aliments o cadàvers, que sempre es poden recollir.</DesignatorHaulThingsDesc>
-  <MustHaulHaulables>Només es poden marcar coses que no es poden recollir sempre (com ara trossos de roca).</MustHaulHaulables>
+  <MustHaulHaulables>Només es poden marcar coses que no es recullin per defecte (com ara trossos de roca).</MustHaulHaulables>
 
   <DesignatorHunt>Caçar</DesignatorHunt>
   <DesignatorHuntDesc>Marcar animals perquè els teus caçadors els cacin.</DesignatorHuntDesc>
@@ -29,8 +29,8 @@
   <DesignatorMine>Minar</DesignatorMine>
   <DesignatorMineDesc>Marca àrees de roca que cal minar.</DesignatorMineDesc>
 
-  <DesignatorSmoothFloor>Polir terra</DesignatorSmoothFloor>
-  <DesignatorSmoothFloorDesc>Marca el terra de roca irregular que vols polir.</DesignatorSmoothFloorDesc>
+  <DesignatorSmoothSurface>Polir superfície</DesignatorSmoothSurface>
+  <DesignatorSmoothSurfaceDesc>Marca terres i parets de roca irregular per que siguin polides.</DesignatorSmoothSurfaceDesc>
 
   <DesignatorPlan>Planificar</DesignatorPlan>
   <DesignatorPlanDesc>Permet planificar els dissenys. Només t'ajuda a marcar les possibles futures expansions.</DesignatorPlanDesc>
@@ -38,15 +38,21 @@
   <DesignatorPlanRemove>Esborrar plans</DesignatorPlanRemove>
   <DesignatorPlanRemoveDesc>Esborra els dissenys planificats.</DesignatorPlanRemoveDesc>
 
+  <DesignatorForbid>Prohibir</DesignatorForbid>
+  <DesignatorForbidDesc>Marca objectes com a prohibits. Els colons no podran interactuar amb els objectes designats.</DesignatorForbidDesc>
+
+  <DesignatorUnforbid>Permetre</DesignatorUnforbid>
+  <DesignatorUnforbidDesc>Marca objectes com a permesos. Els colons podran interactuar amb els objectes designats.</DesignatorUnforbidDesc>
+
   <DesignatorAreaHomeExpand>Ampliar zona llar</DesignatorAreaHomeExpand>
   <DesignatorAreaHomeExpandDesc>Els colons només repararan els edificis, netejaran el terra i apagaran els incendis de la zona de llar.</DesignatorAreaHomeExpandDesc>
   <DesignatorAreaHomeClear>Eliminar zona llar</DesignatorAreaHomeClear>
   <DesignatorAreaHomeClearDesc>Esborra un tros de zona de llar. Els colons ja no hi repararan els edificis, netejaran el terra ni hi apagaran els incendis.</DesignatorAreaHomeClearDesc>
 
-  <DesignatorAreaBuildRoofExpand>Ampliar zona teulada</DesignatorAreaBuildRoofExpand>
+  <DesignatorAreaBuildRoofExpand>Zona teulada</DesignatorAreaBuildRoofExpand>
   <DesignatorAreaBuildRoofExpandDesc>Els colons construiran teulades en aquesta zona.</DesignatorAreaBuildRoofExpandDesc>
 
-  <DesignatorAreaNoRoofExpand>Ampliar zona cel obert</DesignatorAreaNoRoofExpand>
+  <DesignatorAreaNoRoofExpand>Zona cel obert</DesignatorAreaNoRoofExpand>
   <DesignatorAreaNoRoofExpandDesc>Els colons trauran les teulades d'aquesta zona (Excepte zones cobertes per muntanya, que no es poden treure).</DesignatorAreaNoRoofExpandDesc>
 
   <DesignatorAreaIgnoreRoofExpand>Ignora la zona de teulada</DesignatorAreaIgnoreRoofExpand>
@@ -69,14 +75,20 @@
 
   <DesignatorZoneCreateStorageDumpingDesc>Crea una zona de magatzem on els colons desaran les deixalles.\nTambé permet ampliar una zona de magatzem que ja existeix.</DesignatorZoneCreateStorageDumpingDesc>
 
-  <DesignatorZoneDelete>Eliminar zones</DesignatorZoneDelete>
+  <DesignatorZoneDelete>Reduir zones</DesignatorZoneDelete>
+  <DesignatorZoneDeleteSingular>Reduir zona</DesignatorZoneDeleteSingular>
   <DesignatorZoneDeleteDesc>Esborra zones, com ara magatzems o plantacions.</DesignatorZoneDeleteDesc>
+
+  <DesignatorZoneExpand>Amplia la zona</DesignatorZoneExpand>
   
   <DesignatorClaim>Apoderar-se</DesignatorClaim>
-  <DesignatorClaimDesc>Fa vostres estructures, incloent antigues ruïnes i bases de setge abandonades. Les estructures passen a ser propietat dels colons que les repararan i en faran el manteniment.</DesignatorClaimDesc>
+  <DesignatorClaimDesc>Fa vostres estructures, incloent-hi antigues ruïnes i bases de setge abandonades. Les estructures passen a ser propietat dels colons que les repararan i en faran el manteniment.</DesignatorClaimDesc>
 
   <DesignatorRemoveFloor>Eliminar el terra</DesignatorRemoveFloor>
   <DesignatorRemoveFloorDesc>Aixeca el terra per veure el terreny que hi ha a sota.</DesignatorRemoveFloorDesc>
+
+  <DesignatorRemoveBridge>Desmunta pont</DesignatorRemoveBridge>
+  <DesignatorRemoveBridgeDesc>Desmunta ponts per deixar a la vista el terreny de sota.</DesignatorRemoveBridgeDesc>
 
   <DesignatorStrip>Despullar</DesignatorStrip>
   <DesignatorStripDesc>Treu la roba dels cadàvers i els ferits.</DesignatorStripDesc>
@@ -104,15 +116,16 @@
   <InteractionSpotWillBeBlocked>{0} bloquejarà el punt d'interacció.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0} podria bloquejar el punt d'interacció de {1}.</WouldBlockInteractionSpot>
   <TerrainIsAlready>El terreny ja està {0}.</TerrainIsAlready>
-  <TerrainBeingSmoothed>El terreny ja està marcat per allisar.</TerrainBeingSmoothed>
+  <SurfaceBeingSmoothed>La superfície ja està marcada per allisar.</SurfaceBeingSmoothed>
   <IdenticalThingExists>Aquí ja hi ha la mateixa cosa.</IdenticalThingExists>
   <IdenticalBlueprintExists>Aquí ja hi ha el mateix projecte.</IdenticalBlueprintExists>
   <TerrainCannotSupport>A aquest terreny no se li pot fer això.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>L'espai ja està ocupat.</SpaceAlreadyOccupied>
   <SpaceBeingSmoothed>S'està aplanant l'espai.</SpaceBeingSmoothed>
   <TerrainMustBeRemovable>Heu de marcar un terra que es pugui treure.</TerrainMustBeRemovable>
-  
-  
+  <MustBeOnMovingWater>El molí d’aigua s’ha de posar sobre aigua en moviment.</MustBeOnMovingWater>
+
+
   <!-- Mouse attachments -->
   <ExpandOrCreateZone>Amplia {0} o\ncrea de nou {1}</ExpandOrCreateZone>
   <CreateNewZone>Crea de nou {0}</CreateNewZone>
@@ -121,5 +134,7 @@
   <!-- Desc helpers -->
   <TransmitsPower>Condueix la corrent</TransmitsPower>
   <ConstructionNeeded>Falta construir</ConstructionNeeded>
+  <NoColonistWithConstructionSkillTip>Cap dels vostres {0} té prou nivell.</NoColonistWithConstructionSkillTip>
+  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Els vostres {0} que tenen prou nivell no estan assignats a {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
 
 </LanguageData>

@@ -2,13 +2,15 @@
 <LanguageData>
 
   <FactionGreetingHostile>{0} escup uns quants insults al micròfon i penja.</FactionGreetingHostile>
-  <FactionGreetingWary>{0} saluda a {1} amb recel i demana el que li convé.</FactionGreetingWary>
-  <FactionGreetingWarm>{0} saluda a {1} afablement i us demana com va per la colònia.</FactionGreetingWarm>
+  <FactionGreetingHostileAppreciative>{0} us demana que feu un gest de bona voluntat, com oferir regals a un dels seus assentaments o alliberant un presoner de la seva facció sense ferides. Fins llavors no us voldrà atendre.\n\nPenja murmurant un insult.</FactionGreetingHostileAppreciative>
+  <FactionGreetingWary>{0} saluda a {1} amb recel i us demana què voleu.</FactionGreetingWary>
+  <FactionGreetingWarm>{0} saluda a {1} afablement i us demana com us pot ajudar.</FactionGreetingWarm>
 
   <Disconnect>Penja</Disconnect>
 
   <!-- gift offer -->
   <OfferGift>Oferiu un regal</OfferGift>
+  <MustBeAlly>ha de ser un aliat</MustBeAlly>
   <NeedSilverLaunchable>Necessiteu {0} de plata prop d'una balisa de comerç</NeedSilverLaunchable>
   <NotEnoughSilver>no teniu prou plata</NotEnoughSilver>
   <SilverForGoodwill>{0} plata per millorar les relacions en {1}</SilverForGoodwill>
@@ -19,7 +21,11 @@
   <ChooseTraderKind>{0} demana quin tipus de caravana de comerç necessiteu.</ChooseTraderKind>
   <TraderSent>{0} accepta enviar-vos una caravana de comerç. Arribarà d'aquí a uns dies.</TraderSent>
 	<WaitTime>espera {0}</WaitTime>
-	
+
+  <!-- AI core request -->
+  <RequestAICoreInformation>Demaneu la ubicació d’un {0} (cost: {1} de plata)</RequestAICoreInformation>
+  <RequestAICoreInformationResult>{0} us evia la informació que heu demanat i us desitja bona sort.</RequestAICoreInformationResult>
+  <NoKnownAICore>no coneix més ubicacions</NoKnownAICore>	
 	
   <!-- military aid request -->
   <RequestMilitaryAid>Demaneu ajuda militar immediata (costa: {0} reputació).</RequestMilitaryAid>
@@ -27,5 +33,5 @@
   <CallConfirm>Sí, truca igualment.</CallConfirm>
   <CallCancel>No, tant se val.</CallCancel>
   <MilitaryAidSent>{0} accepta enviar lluitadors a ajudar-vos.</MilitaryAidSent>
-
+  <CantSendMilitaryAidInTime>{0} ho lamenta i diu que no podrà arribar a temps.\n\n(LA facció no disposa de prou tecnologia per construir càpsules de transport)</CantSendMilitaryAidInTime>
 </LanguageData>
