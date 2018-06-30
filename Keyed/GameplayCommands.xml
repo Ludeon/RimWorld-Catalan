@@ -44,6 +44,7 @@
   <CommandGraveAssignColonistLabel>Assigna a un colon</CommandGraveAssignColonistLabel>
   <CommandGraveAssignColonistDesc>Assigna aquesta tomba a un colon específic.</CommandGraveAssignColonistDesc>
   <BuildingAssign>Assigna</BuildingAssign>
+  <BuildingReassign>Reassigna</BuildingReassign>
   <BuildingUnassign>No assignis</BuildingUnassign>
   <CommandBedSetForPrisonersLabel>Per presoners</CommandBedSetForPrisonersLabel>
   <CommandBedSetForPrisonersDesc>Si el llit es farà servir per presoners.</CommandBedSetForPrisonersDesc>
@@ -84,7 +85,6 @@
   <CommandStopAttackFailNotForceAttacking>No la teniu forçada.</CommandStopAttackFailNotForceAttacking>
   <CommandExtractShell>Extreure projectil</CommandExtractShell>
   <CommandExtractShellDesc>Descarrega el projectil que hi ha carregat i per poder-ne posar un d’un altre tipus.</CommandExtractShellDesc>
-  <CommandExtractShellFailNoShell>No hi ha cap projectil carregat.</CommandExtractShellFailNoShell>
   <MessageTargetBeyondMaximumRange>L'objectiu està massa lluny.</MessageTargetBeyondMaximumRange>
   <MessageTargetBelowMinimumRange>L'objectiu està massa aprop.</MessageTargetBelowMinimumRange>
   <MessageTurretWontFireBecauseHoldFire>Avís: El morter no dispararà perquè està posat en mode «no disparar».</MessageTurretWontFireBecauseHoldFire>
@@ -187,20 +187,32 @@
   <CommandAbandonHome>Abandonar</CommandAbandonHome>
   <CommandAbandonHomeDesc>Abandona la zona. Quedarà com inaccessible i no hi podreu tornar mai més. D'esprés d'abandonar la vostra llar, podreu fer que una de les vostres caravanes s'estableixi en una zona nova.</CommandAbandonHomeDesc>
   <CommandAbandonHomeFailAllColonistsThere>Teniu tots els colons aquí.</CommandAbandonHomeFailAllColonistsThere>
-  
+
   <!-- Cancel forming caravan -->
   <CommandCancelFormingCaravan>Cancel·lar la caravana</CommandCancelFormingCaravan>
   <CommandCancelFormingCaravanDesc>Cancel·la el procés de formació de la caravana.</CommandCancelFormingCaravanDesc>
-  
+
+  <!-- Remove from caravan -->
+  <CommandRemoveFromCaravan>Treu de la caravana</CommandRemoveFromCaravan>
+  <CommandRemoveFromCaravanDesc>Treu aquesta persona o animal de la caravana.</CommandRemoveFromCaravanDesc>
+
+  <!-- Add to caravan -->
+  <CommandAddToCaravan>Afegeix a la caravana</CommandAddToCaravan>
+  <CommandAddToCaravanDesc>Afegeix aquesta persona o animal a la formació de la caravana.</CommandAddToCaravanDesc>
+
   <!-- Show map -->
   <CommandShowMap>Apropar</CommandShowMap>
   <CommandShowMapDesc>Apropa la vista sobre aquesta àrea.</CommandShowMapDesc>
-  
+
   <!-- Trade -->
   <CommandTrade>Negociar</CommandTrade>
   <CommandTradeDesc>Fa negocis amb aquesta facció.</CommandTradeDesc>
   <CommandTradeFailNoNegotiator>No hi ha cap negociador conscient i sense emprenyar.</CommandTradeFailNoNegotiator>
-  
+
+  <!-- Offer gifts -->
+  <CommandOfferGifts>Oferir regals</CommandOfferGifts>
+  <CommandOfferGiftsDesc>Ofereix regals a aquesta facció.</CommandOfferGiftsDesc>
+
   <!-- Fulfill request -->
   <CommandFulfillTradeOffer>Completar oferiment de negoci</CommandFulfillTradeOffer>
   <CommandFulfillTradeOfferDesc>Completeu la demanda d'articles de l'assentament i reclameu-ne la recompensa.</CommandFulfillTradeOfferDesc>
@@ -252,5 +264,17 @@
   <!-- Remove waypoint -->
   <CommandRemoveWaypointLabel>Elimina</CommandRemoveWaypointLabel>
   <CommandRemoveWaypointDesc>Elimina aquest punt de pas.</CommandRemoveWaypointDesc>
-  
+
+  <!-- Pause caravan -->
+  <CommandPauseCaravan>Pausa</CommandPauseCaravan>
+  <CommandToggleCaravanPauseDesc>Atura el moviment de la caravana. Té els següents beneficis::\n\n  - La gent pot socialitzar\n  - Es cull menjar {0} vegades més de pressa\n  - La visibilitat es multiplica per {1}</CommandToggleCaravanPauseDesc>
+
+  <!-- Show sellable items -->
+  <CommandShowSellableItems>Mostra el que comprarà</CommandShowSellableItems>
+  <CommandShowSellableItemsDesc>Mostra tot el que el comerciant vol comprar.</CommandShowSellableItemsDesc>
+
+  <!-- Attack settlement -->
+  <CommandAttackSettlement>Ataca</CommandAttackSettlement>
+  <CommandAttackSettlementDesc>Ataca aquest assentament.</CommandAttackSettlementDesc>
+
 </LanguageData>

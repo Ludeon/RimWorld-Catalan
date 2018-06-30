@@ -8,13 +8,14 @@
   <LetterLabelFirstSummerWarning>Estiu</LetterLabelFirstSummerWarning>
   <FirstSummerWarning>Ha començat l'estiu! Però s'acosta l'hivern.\n\nEls vostres camps no creixeran amb el fred de l'hivern. Assegureu-vos d'emmagatzemar prou menjar ara que encara podeu.\n\nPodeu construir una cambra refrigerada per evitar que s'espatlli el menjar.\n\nI proveu de comprar, robar o fabricar parques, o us congelareu quan sortiu fora.</FirstSummerWarning>
 
-  <RelationsBrokenDown>S'han trencat les relacions amb {0} . Ara us seran hostils.</RelationsBrokenDown>
-  <RelationsWarmed>Han millorat les relacions amb {0}. Ja no us seran hostils.</RelationsWarmed>
+  <LetterRelationsChange_Hostile>Les relacions amb {0} s’han trencat completament. Ara us seran hostils.\n\nUs enviaran raids periòdics a les vostres colònies i caravanes i no voldrà negociar amb vosaltres. Si voleu millorar les relacions, podeu oferir-los regals a través de caravanes o càpsules de transport.\n\nAixò és deugt a que la reputació ({1}) ha baixat de {2}. Per tornar a assolir una relació neutral, la reputació ha de tornar a arribar a {3}.</LetterRelationsChange_Hostile>
+  <LetterRelationsChange_NeutralFromHostile>Les relacions amb {0} han millorat. Ara us consideren neutrals i ja no us atacaran.\n\nAixò és per què la reputació ({1}) ha superat els {2}. Si la reputació baixa de {3}, {0} us tornarà a ser hostil. Si la reputació supera els {4}, es faran aliats i lluitaran per tu.</LetterRelationsChange_NeutralFromHostile>
+  <LetterRelationsChange_NeutralFromAlly>Les relacions amb {0} s’ha refredat. Ara us consideren neutrals en comptes d’aliats.\n\nTot i que continuaran interactuant amb vosaltres de manera pacífica, no enviaran més lluitadors a ajudar-vos quan estigueu en un destret.\n\nAixó és per què la vostra reputació ({1}) ha baixat de {2}. Si baixa per sota de {3}, {0} us seran hostils. Si torna a pujar per sobre de {4}, tornaran a ser aliats.</LetterRelationsChange_NeutralFromAlly>
+  <LetterRelationsChange_Ally>Les relacions amb {0} s’han tornat molt properes. Ara us consideren un aliat.\n\nEls aliats a vegades vénen a ajudar-vos a lluitar contra els vostres enemics quan us ataquen. També els podeu trucar per demanar-los ajuda quan vulgueu, amb un cost de reputació.\n\nUs heu convertit en aliats per que la vostra reputació ({1}) ha pujat de {2}. Si baixa per sota de {3}, les relacions es tornaran neutrals.</LetterRelationsChange_Ally>
 
-  <RelationsBrokenCapture>Com que heu capturat {0}, ara {1} serà enemic vostre.</RelationsBrokenCapture>
-
-  <ColonyGoodwill>Reputació de la colònia</ColonyGoodwill>
+  <goodwill>reputació</goodwill>
   <Neutral>Neutral</Neutral>
+  <Death>Mort</Death>
 
   <ShortCircuitRain>Un {0} s'ha curtcircuitat per la pluja i ha provocat un incendi.</ShortCircuitRain>
 
@@ -39,6 +40,8 @@
   <LetterLabelNewDisease>Malaltia</LetterLabelNewDisease>
   <NewDisease>{0} ha agafat {1}.\n\nProcureu que disposi d'un llit mèdic i d'un metge. Mireu que {2} faci el tractament i passi al llit el màxim de temps possible.</NewDisease>
   <NewPartDisease>{0} ha emmalaltit de {3}. La infecció és a {1}.\n\nProcureu que disposi d'un llit mèdic i d'un metge. Mireu que {2} faci el tractament i passi al llit el màxim de temps possible.</NewPartDisease>
+  <NewDiseaseAnimal>{0} ha desenvolupat una malaltia: {1}</NewDiseaseAnimal>
+  <NewPartDiseaseAnimal>{0} ha desenvolupat una malaltia: {3} a {1}</NewPartDiseaseAnimal>
 
   <PawnWasFormerlyColonist>{0} formava part de la vostra facció.</PawnWasFormerlyColonist>
   <PawnHasTheseRelationshipsWithColonists>{0} té les següents relacions amb els vostres colons:</PawnHasTheseRelationshipsWithColonists>
@@ -66,12 +69,16 @@
   <LetterLeadersDeathLabel>{1} mort: {0}</LetterLeadersDeathLabel>
   <LetterLeadersDeath>{0}, {3} dels {1}, ha mort.\n\nEl nou {3} és {2}.</LetterLeadersDeath>
 
-	<LetterLeaderChangedLabel>Nou {1}: {0}</LetterLeaderChangedLabel>
-	<LetterLeaderChanged>{0} ja no és {3} dels {1}.\n\nEl nou {3} és {2}.</LetterLeaderChanged>
+  <LetterLeaderChangedLabel>Nou {1}: {0}</LetterLeaderChangedLabel>
+  <LetterLeaderChanged>{0} ja no és {3} dels {1}.\n\nEl nou {3} és {2}.</LetterLeaderChanged>
 	
   <MentalBreakLetterLabel>Emprenyament</MentalBreakLetterLabel>
   <FinalStraw>La darrera gota ha estat: {0}.</FinalStraw>
-  
+  <LastFactionRelationsEvent>L’últim esdeveniment ha estat</LastFactionRelationsEvent>
+
+  <ReadMore>Més</ReadMore>
+  <LastEventsInLife>Els últims esdevenimets de la vida de {0}</LastEventsInLife>
+
   <!-- Related pawns -->
   <LetterLabelNoticedRelatedPawns>Relació</LetterLabelNoticedRelatedPawns>
   <LetterRelatedPawnsRaidEnemy>Hi ha algú que està relacionat amb els vostres colons o presoners al grup de {0} que arriba.\n\nPensa que encara que tinguin una relació, s'atacaran l'un a l'altre per les males relacions de les respectives faccions.\n\nSón:</LetterRelatedPawnsRaidEnemy>
@@ -80,7 +87,11 @@
   <LetterRelatedPawnsTradeShip>El comerciant orbital ven algú que està relacionat amb els vostres colons o presoners:</LetterRelatedPawnsTradeShip>
   <LetterRelatedPawnsTradingWithSettlement>L'assentament ven algú que està relacionat amb els vostres colons o presoners:</LetterRelatedPawnsTradingWithSettlement>
   <LetterRelatedPawnsTradingWithOtherCaravan>La caravana ven algú que està relacionat amb els vostres colons o presoners:</LetterRelatedPawnsTradingWithOtherCaravan>
-  
+  <LetterRelatedPawnsGroupGeneric>Hi ha gent que té relacions amb els vostres {0} o presoners al grup:</LetterRelatedPawnsGroupGeneric>
+  <LetterRelatedPawnsInMapWherePlayerLanded>Hi ha gent que té relacions amb els vostres {0} o presoners a la zona on heu arribat.</LetterRelatedPawnsInMapWherePlayerLanded>
+  <LetterRelatedPawnsSettlement>Hi ha gent que té relacions amb els vostres {0} o presoners en aquest assentament:</LetterRelatedPawnsSettlement>
+  <LetterRelatedPawnsSite>Hi ha gent que té relaciona bme el vostre {0} o presoners en aquesta zona:</LetterRelatedPawnsSite>
+
   <RelationshipAppendedLetterSuffix>(relació)</RelationshipAppendedLetterSuffix>
   <RelationshipAppendedLetterTextColonist>[PAWN_nameDef] està relacionat amb un colon. És {1} de {0}.</RelationshipAppendedLetterTextColonist>
   <RelationshipAppendedLetterTextPrisoner>[PAWN_nameDef] està relacionat amb un presoner. És {1} de {0}.</RelationshipAppendedLetterTextPrisoner>
@@ -88,27 +99,27 @@
   <!-- Attempt romance / propose interaction -->
   <LetterLabelAffair>Amants</LetterLabelAffair>
   <LetterAffair>{0}, que comparteix matrimoni amb {1}, ha esdevingut amant de {2}.</LetterAffair>
-  <LetterLabelNewLovers>Novios</LetterLabelNewLovers>
+  <LetterLabelNewLovers>Nòvios</LetterLabelNewLovers>
   <LetterNewLovers>{0} i {1} s'han ajuntat i ara són parella.</LetterNewLovers>
   <LetterNoLongerLovers>{0} i {1} s'han deixat.</LetterNoLongerLovers>
   <LetterLabelBreakup>Ruptura</LetterLabelBreakup>
   <LetterLabelAcceptedProposal>Es casen!</LetterLabelAcceptedProposal>
   <LetterLabelRejectedProposal>Rebuig</LetterLabelRejectedProposal>
-  <LetterAcceptedProposal>{1} ha acceptat la proposta de matrimoni de {0}.\n\nEn els propers dies o estacions, celebraran la cerimònia i convidaran els altres colons. Col·loqueu una zona de casaments si voleu controlar on cal celebrar la cerimònia.</LetterAcceptedProposal>
+  <LetterAcceptedProposal>{1} ha acceptat la proposta de matrimoni de {0}.\n\nEn els pròxims dies o estacions, celebraran la cerimònia i convidaran els altres colons. Col·loqueu una zona de casaments si voleu controlar on cal celebrar la cerimònia.</LetterAcceptedProposal>
   <LetterRejectedProposal>{1} ha rebutjat la proposta de matrimoni de {0}. {0} esta trist.</LetterRejectedProposal>
   
   <!-- Generalized letter labels -->
-  <LetterLabelRelationsChangeGood>Bons desitjos</LetterLabelRelationsChangeGood>
-  <LetterLabelRelationsChangeBad>Malediccions</LetterLabelRelationsChangeBad>
+  <LetterLabelRelationsChange_Hostile>Hostil: {0}</LetterLabelRelationsChange_Hostile>
+  <LetterLabelRelationsChange_Ally>Aliat: {0}</LetterLabelRelationsChange_Ally>
+  <LetterLabelRelationsChange_NeutralFromHostile>Un enemic ara és neutral: {0}</LetterLabelRelationsChange_NeutralFromHostile>
+  <LetterLabelRelationsChange_NeutralFromAlly>Un aliat ara és neutral: {0}</LetterLabelRelationsChange_NeutralFromAlly>
   <LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
   <LetterLabelMentalBreakdown>Emprenyament</LetterLabelMentalBreakdown>
   
-  <!-- Bonded animals -->
-  <LetterLabelBondedAnimalDied>Mort animal amb lligam</LetterLabelBondedAnimalDied>
-  <LetterBondedAnimalDied>{0}, lligat a {1}, ha mort. Afectarà al seu estat d'ànim.</LetterBondedAnimalDied>
-  <LetterNamedBondedAnimalDied>{0} anomenat {1}, lligat {2}, ha mort. Afectarà al se estat d'ànim.</LetterNamedBondedAnimalDied>
-  <LetterBondedAnimalDiedMulti>{0} ha mort. Afectarà a l'estat d'ànim de:\n\n{1}</LetterBondedAnimalDiedMulti>
-  <LetterNamedBondedAnimalDiedMulti>{0} anomenat {1}, ha mort. Afectarà a l'estat d'ànim de:\n\n{2}</LetterNamedBondedAnimalDiedMulti>
+  <!-- Bonded animals →
+  <LetterLabelSuffixBondedAnimalDied>animal amb lligam</LetterLabelSuffixBondedAnimalDied>
+  <LetterPartBondedAnimalDied>{0} estava lligat a {1}. Afectarà el seu estat d’ànim.</LetterPartBondedAnimalDied>
+  <LetterPartBondedAnimalDiedMulti>Afectarà l’estat d’ànim de les següents persones:\n\n{0}</LetterPartBondedAnimalDiedMulti>
 
   <!-- Prison break -->
   <LetterLabelPrisonBreak>Fuga</LetterLabelPrisonBreak>
@@ -121,36 +132,31 @@
   <!-- Newly addicted -->
   <LetterLabelNewlyAddicted>addicte a {0}</LetterLabelNewlyAddicted>
   <LetterNewlyAddicted>{0} ha desenvolupat addició a {1}.\n\nNecessitarà {1}. Consumirà la droga automàticament per satisfer-ne la necessitat. Si no n'aconsegueix, tindrà síndrome d'abstinència.</LetterNewlyAddicted>
-  
+
   <!-- Drug binge -->
   <LetterLabelDrugBinge>borratxera de {0}</LetterLabelDrugBinge>
   <LetterDrugBinge>{0} s'ha emborratxat de {1}.</LetterDrugBinge>
-  
-  <!-- Formed caravan -->
-  <LetterLabelFormedCaravan>Caravana llesta</LetterLabelFormedCaravan>
-  <LetterFormedCaravan>S'ha format la caravana i espera ordres al mapa del món.</LetterFormedCaravan>
-  
+
   <!-- Caravan destroyed -->
   <LetterLabelAllCaravanColonistsDied>Caravana destrossada</LetterLabelAllCaravanColonistsDied>
   <LetterAllCaravanColonistsDied>Han mort tots els membres de la caravana.</LetterAllCaravanColonistsDied>
-  
+
   <!-- Caravan entered ambush map -->
   <LetterLabelCaravanEnteredAmbushMap>Caravana emboscada</LetterLabelCaravanEnteredAmbushMap>
   <LetterCaravanEnteredAmbushMap>{0} ha caigut en una emboscada.</LetterCaravanEnteredAmbushMap>
-  
+
   <!-- Caravan entered enemy base -->
   <LetterLabelCaravanEnteredEnemyBase>Atac iniciat</LetterLabelCaravanEnteredEnemyBase>
-  <LetterCaravanEnteredEnemyBase>{0} ha arribat a {1} i està apunt per començar l'atac.</LetterCaravanEnteredEnemyBase>
-  <LetterCaravanEnteredEnemyBaseBecameHostile>{0} a arribat a {1} i està apunt per començar l'atac.\n\nDegut a l'acostament hostil, ara {2} us és hostil també.</LetterCaravanEnteredEnemyBaseBecameHostile>
-  
+  <LetterCaravanEnteredEnemyBase>{0} ha arribat a {1} i està a punt per començar l'atac.</LetterCaravanEnteredEnemyBase>
+
+  <!-- Transport pods landed in enemy base -->
+  <LetterLabelTransportPodsLandedInEnemyBase>Atac iniciat</LetterLabelTransportPodsLandedInEnemyBase>
+  <LetterTransportPodsLandedInEnemyBase>Les vostres càpsules de transport han arribat a {0}.</LetterTransportPodsLandedInEnemyBase>
+
   <!-- Faction base defeated -->
   <LetterLabelFactionBaseDefeated>Assentament destruït</LetterLabelFactionBaseDefeated>
   <LetterFactionBaseDefeated>L'assentament enemic {0} ha estat destruït.\n\nTeniu {1} hores per recollir les coses abans que els colons tornin a formar la caravana.</LetterFactionBaseDefeated>
   <LetterFactionBaseDefeated_FactionDestroyed>Era el darrer assentament dels {0}, amb la qual cosa, la facció ja no existeix.</LetterFactionBaseDefeated_FactionDestroyed>
-  
-  <!-- Pawns lost due to map countdown -->
-  <LetterLabelPawnsLostDueToMapCountdown>Deixat enrere</LetterLabelPawnsLostDueToMapCountdown>
-  <LetterPawnsLostDueToMapCountdown>Alguns animals o presoners han quedat abandonats a la terra salvatge:\n\n{0}</LetterPawnsLostDueToMapCountdown>
 
  <!-- Quest completed -->
  <LetterLabelDefeatAllEnemiesQuestCompleted>Missió acomplerta</LetterLabelDefeatAllEnemiesQuestCompleted>
@@ -159,10 +165,6 @@
  <!-- Found lump of precious resources -->
  <LetterLabelFoundPreciousLump>Heu trobat minerals preciosos</LetterLabelFoundPreciousLump>
  <LetterFoundPreciousLump>El vostre escàner de llarg abast ha trobat una veta de recursos precisos a prop vostre.\n\nNo sabem qui o què - Si és què hi ha res – ho pot estar protegint.</LetterFoundPreciousLump>
-
-  <!-- Sleeping mechanoids -->
-  <LetterLabelSleepingMechanoids>Mecanoides dorments</LetterLabelSleepingMechanoids>
-  <LetterSleepingMechanoids>Hi ha uns quants mecanoides hostils dorments a la zona.\n\nPoden desperar-se o no quan us hi acosteu, estigueu alerta.</LetterSleepingMechanoids>
 
   <!-- Ambush -->
   <LetterLabelAmbushInExistingMap>emboscada</LetterLabelAmbushInExistingMap>
@@ -178,7 +180,7 @@
   <LetterLabelPeaceTalks_Success>Converses de pau exitoses</LetterLabelPeaceTalks_Success>
   <LetterPeaceTalks_Success>Les converses de pau han anat bé. Els delegats han arribat a acords mutus en diversos temes capdals.\n\nLes relacions amb {0} han millorat en {1}.</LetterPeaceTalks_Success>
   <LetterLabelPeaceTalks_Triumph>Converses de pau triomfants</LetterLabelPeaceTalks_Triumph>
-  <LetterPeaceTalks_Triumph>Les converses de pau han sigut un èxit rotund! Els delegats han conectat de seguida a nivell personal i han pogut intercanviar els punts de vista en els temes més complexes.\n\nLes relacions amb {0} han millorat en {1}.\n\nQuan la vostra caravana marxava, {0} us ha ofert un regal: {2}.</LetterPeaceTalks_Triumph>
+  <LetterPeaceTalks_Triumph>Les converses de pau han sigut un èxit rotund! Els delegats han connectat de seguida i han pogut intercanviar els punts de vista en els temes més complexos.\n\nLes relacions amb {0} han millorat en {1}.\n\nQuan la vostra caravana marxava, {0} us ha ofert un regal: {2}.</LetterPeaceTalks_Triumph>
   <PeaceTalksSocialXPGain>{0}, el vostre negociador, ha guanyat {1} punts d’experiència social.</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
@@ -186,5 +188,41 @@
 
   <!-- Catatonic mental break -->
   <LetterCatatonicMentalBreak>{0} està en una emprenyada catatònica que durarà diversos dies.</LetterCatatonicMentalBreak>
+
+  <LetterLabelAICoreOffer>Oferiment de nucli d’IA</LetterLabelAICoreOffer>
+  <LetterAICoreOffer>{0} dels {1} es posa en conctacte amb vosaltres per oferir-vos una informació: la ubicació d’un nucli d’IA, que necessitareu si voleu construir una nau. Us informa que és un objecte força rar i que els seus propietaris el solen tenir molt protegit.\n\nTruqueu-lo des de la consola de comunicacions si hi esteu interessats.</LetterAICoreOffer>
+
+  <LetterCraftedLegendaryLabel>Treball llegendari</LetterCraftedLegendaryLabel>
+  <LetterCraftedLegendaryMessage>{0} ha creat un {1}.\n\nLa novetat d’aquest valuós objecte s’escamparà per tot el món.</LetterCraftedLegendaryMessage>
+
+  <!-- Pawns lost because map closed -->
+  <LetterLabelPawnsLostBecauseMapClosed_Caravan>S’ha perdut la caravana</LetterLabelPawnsLostBecauseMapClosed_Caravan>
+  <LetterPawnsLostBecauseMapClosed_Caravan>La caravana s’ha perdut. Les següents persones i animals s’han perdut amb ella</LetterPawnsLostBecauseMapClosed_Caravan>
+  <LetterLabelPawnsLostBecauseMapClosed_Home>Habitants abandonats</LetterLabelPawnsLostBecauseMapClosed_Home>
+  <LetterPawnsLostBecauseMapClosed_Home>Les següents persones i animals han estat abandonats</LetterPawnsLostBecauseMapClosed_Home>
+
+  <!-- Hibernate complete -->
+  <LetterLabelHibernateComplete>El reactur està preparat</LetterLabelHibernateComplete>
+  <LetterHibernateComplete>Charlon Whitestone ha acabat la seqüència de recuperació de la hibernació del reactor. EL reactur ja està preparat per engegar i enlairar-se.</LetterHibernateComplete>
+  <LetterHibernateCompleteStandalone>La seqüència d’arrancada del reactor ha acabat. Està preparat per l’enlairament.</LetterHibernateCompleteStandalone>
+
+  <!-- Visitors gave gift -->
+  <LetterLabelVisitorsGaveGift>Regal</LetterLabelVisitorsGaveGift>
+  <LetterVisitorsGaveGift>Com que esteu passant un mal moment, us donem un cop de mà.</LetterVisitorsGaveGift>
+
+  <!-- Faction base proximity -->
+  <LetterLabelFactionBaseProximity>Proximitat a la base d’una facció</LetterLabelFactionBaseProximity>
+  <LetterFactionBaseProximity>COm que esteu molt a prop d’una altra facció, tenen la sensació que els esteu ocupant el seu territori.\n\nDurant el proper cuadrum les relacions amb la facció es reduirà en:</LetterFactionBaseProximity>
+
+  <!-- Caravans battlefield victory -->
+  <LetterLabelCaravansBattlefieldVictory>La caravana ha guanyat el combat</LetterLabelCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>La vostra caravana ha guanyat el combat.\n\nA {0}, la caravana es tornarà a formar automàticament. Podeu tornar a formar la caravana ara mateix a la pantalla del planeta seleccionant el camp de batalla i triant l’opció «Tornar a formar la caravana».</LetterCaravansBattlefieldVictory>
+
+  <!-- Rescue quest -->
+  <LetterLabelRescueQuestFinished>Rescatat s’uneix</LetterLabelRescueQuestFinished>
+  <LetterRescueQuestFinished>Heu rescatat a [PAWN_nameDef] i s’ha unit al grup.\n\nPodeu emportar-vos-el reformant la caravana a la pantalla del planeta i triant l’opció «Tornar a formar la caravana».</LetterRescueQuestFinished>
+
+  <!-- Player entered site (generic label) -->
+  <LetterLabelPlayerEnteredNewSiteGeneric>Ha arribat a lloc</LetterLabelPlayerEnteredNewSiteGeneric>
 
 </LanguageData>

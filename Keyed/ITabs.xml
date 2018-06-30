@@ -19,11 +19,20 @@
   <TabRecords>Registres</TabRecords>
   <TabArt>Art</TabArt>
   <TabSocial>Social</TabSocial>
-  <TabCombat>Combat</TabCombat>
+  <TabLog>Registre</TabLog>
+   <TabFormingCaravan>Caravana</TabFormingCaravan>
   
   <!-- Bills tab  -->
   <AddBill>Afegeix programa</AddBill>
   <RecipeRequiresSkills>La recepta {0} necessita els coneixements que s'indiquen. No teniu cap colon amb aquests coneixements, així que ningú se'n farà càrreg.</RecipeRequiresSkills>
+  <ReorderBillDownTip>Mou avall</ReorderBillDownTip>
+  <CopyBillTip>Copia al porta-retalls</CopyBillTip>
+  <ClipboardBillNotAvailableHere>El contingut del porta-retalls no es pot enganxar aquí.</ClipboardBillNotAvailableHere>
+  <PasteBillTip>Enganxa</PasteBillTip>
+  <DeleteBillTip>Esborra</DeleteBillTip>
+  <PasteBillTip_LimitReached>no se’n poden afegir més</PasteBillTip_LimitReached>
+  <SuspendBillTip>Suspèn</SuspendBillTip>
+  <ReorderBillUpTip>Mou amunt</ReorderBillUpTip>
   <MinimumSkill>Coneixement min</MinimumSkill>
   <SuspendedCaps>SUSPÈS</SuspendedCaps>
   <BoundWorkerIs>Treballador: {0}</BoundWorkerIs>
@@ -59,14 +68,14 @@
   <Affects>Afecta</Affects>
   <BleedingRate>Sagna</BleedingRate>
   <TimeToDeath>Morirà en {0}</TimeToDeath>
-  <WontBleedOutSoon>No hi ha perill immediat</WontBleedOutSoon>
+  <WontBleedOutSoon>no hi ha perill immediat</WontBleedOutSoon>
   <HealthOverview>Resum</HealthOverview>
   <MedicalOperationsShort>Operacions ({0})</MedicalOperationsShort>
   <MedicalOperationsMechanoidsShort>Modificacions ({0})</MedicalOperationsMechanoidsShort>
   <MedicalOperations>Operacions mèdiques</MedicalOperations>
-  <Amputate>Amputar</Amputate>
-  <Harvest>Extreure</Harvest>
-  <RemoveOrgan>Treure</RemoveOrgan>
+  <Amputate>amputar</Amputate>
+  <HarvestOrgan>extreure</HarvestOrgan>
+  <RemoveOrgan>treure</RemoveOrgan>
   <MemoryLower>memòria</MemoryLower>
   <SocialInteractionsLower>interaccions socials</SocialInteractionsLower>
   <HungerRate>Índex de gana</HungerRate>
@@ -94,12 +103,12 @@
 
 
   <!-- Training tab-->
-  <TrainableIntelligence>Intel·ligència entrenament</TrainableIntelligence>
-  <CannotTrainNotSmartEnough>Necessita intel·ligència d'entrenament {0}.</CannotTrainNotSmartEnough>
+  <Trainability>Capacitat d’aprenentatge</Trainability>
+  <CannotTrainNotSmartEnough>Necessita Capacitat d’aprenentatge {0}.</CannotTrainNotSmartEnough>
   <CannotTrainTooSmall>{0} massa petit per entrenar-ho.</CannotTrainTooSmall>
 
   <TrainingNeedsPrerequisite>Necessita el requisit: {0}</TrainingNeedsPrerequisite>
-  
+
   <!-- Social tab -->
   <NoRelationships>(cap relació)</NoRelationships>
   <Kidnapped>Segrestat</Kidnapped>
@@ -110,14 +119,38 @@
   <SomeonesOpinionOfMe>Que opina{0} de mi</SomeonesOpinionOfMe>
   <IAmDead>Estic mort</IAmDead>
   <IAmPsychopath>Sóc un psicòpata</IAmPsychopath>
-  
+
   <!-- Gear tab -->
-  <AverageArmor>Protecció mitja</AverageArmor>
+  <OverallArmor>Armadura total</OverallArmor>
   <MassCarried>Pes que porta: {0} / {1} kg</MassCarried>
   <ComfyTemperatureRange>Rang de temperatura de comfort</ComfyTemperatureRange>
   <ArmorBlunt>Cops</ArmorBlunt>
   <ArmorSharp>Talls</ArmorSharp>
   <ArmorHeat>Calor</ArmorHeat>
-  <ArmorElectric>Elèctric</ArmorElectric>
+
+  <!-- Log tab -->
+  <ShowAll>Tot</ShowAll>
+  <ShowCombat>Combat</ShowCombat>
+  <ShowSocial>Social</ShowSocial>
+  <NoRecentEntries>Cap entrada recent</NoRecentEntries>
+  <CopyLogTip>Copia el registre al porta-retalls.</CopyLogTip>
+
+  <!-- Forming caravan tab -->
+  <FormingCaravanStatus_GatheringAnimals>Agrupa animals</FormingCaravanStatus_GatheringAnimals>
+  <FormingCaravanStatus_GatheringAnimals_Pause>Agrupa animals (en pausa)</FormingCaravanStatus_GatheringAnimals_Pause>
+  <FormingCaravanStatus_GatheringItems>Recull materials</FormingCaravanStatus_GatheringItems>
+  <FormingCaravanStatus_GatheringItems_Pause>Recull materials (en pausa)</FormingCaravanStatus_GatheringItems_Pause>
+  <FormingCaravanStatus_GatheringSlaves>Reunint esclaus</FormingCaravanStatus_GatheringSlaves>
+  <FormingCaravanStatus_GatheringSlaves_Pause>Reunint esclaus (en pausa)</FormingCaravanStatus_GatheringSlaves_Pause>
+  <FormingCaravanStatus_Leaving>Marxa</FormingCaravanStatus_Leaving>
+  <FormingCaravanStatus_Leaving_Pause>Marxa(en pausa)</FormingCaravanStatus_Leaving_Pause>
+  <FormingCaravanStatus_Waiting>Espera</FormingCaravanStatus_Waiting>
+  <CaravanMembers>Membres</CaravanMembers>
+  <CaravanAnimals>Animals</CaravanAnimals>
+  <ItemsToLoad>Objectes per carregar</ItemsToLoad>
+  <LoadedItems>Objectes carregats</LoadedItems>
+  <PackAnimalsCountLower>animals de càrrega</PackAnimalsCountLower>
+  <InMentalStateCountLower>crisi mental</InMentalStateCountLower>
+
 
 </LanguageData>

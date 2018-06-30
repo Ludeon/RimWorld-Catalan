@@ -13,15 +13,9 @@
   <MiracleHeal>{0} ha experimentat una recuperació miraculosa!</MiracleHeal>
 
   <!-- Enemy raids -->
-  <EnemyRaidWalkIn>Ha arribat un grup de {0} dels {1}.</EnemyRaidWalkIn>
-  <EnemyRaidEdgeDrop>Ha arribat un grup de {0} dels {1} en càpsules.</EnemyRaidEdgeDrop>
-  <EnemyRaidCenterDrop>Ha arribat un grup de {0} dels {1} i han caigut sobre vostre!</EnemyRaidCenterDrop>
   <EnemyRaidLeaderPresent>Un dels {0}, {1}, és el líder de la facció.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
-  <FriendlyRaidWalkIn>Ha arribat un grup de {0} amistosos dels {1}.</FriendlyRaidWalkIn>
-  <FriendlyRaidEdgeDrop>Un grup amistós de {0} dels {1} ha caigut des de l'òrtbita.</FriendlyRaidEdgeDrop>
-  <FriendlyRaidCenterDrop>Un grup amistós de {0} dels {1} ha caigut des de l'òrbita sobre vostre!</FriendlyRaidCenterDrop>
   <FriendlyRaidLeaderPresent>Un dels {0}, {1}, és el líder de la facció.</FriendlyRaidLeaderPresent>
 
   <LetterLabelRefugeePodCrash>Càpsula d'escapament</LetterLabelRefugeePodCrash>
@@ -147,13 +141,15 @@
   <CaravanDemand_Fight>Rebutjar-ho i lluitar</CaravanDemand_Fight>
 
   <!-- Temporary item stash -->
-  <ItemStashQuestTitle>Oportunitat d'objectes ocults</ItemStashQuestTitle>
-  <ItemStashQuest_Accept>Acceptar</ItemStashQuest_Accept>
-  <ItemStashQuest_Reject>Refusar</ItemStashQuest_Reject>
-  <ItemStashQuestFeeDemand>{0} us dirà on és l'amagatall a canvi de {1} de plata.</ItemStashQuestFeeDemand>
+ 
   <ItemStashSitePart_Unknown>Malauradament, {0} no sap que o qui – si és que hi ha res – pot protegir l'amagatall.</ItemStashSitePart_Unknown>
   <ItemStashSitePart_Nothing>{0} diu que l'amagatall no està protegit.</ItemStashSitePart_Nothing>
    <ItemStashSitePart_Part>{0} diu que {1}.</ItemStashSitePart_Part>
 
-</LanguageData>
+  <!-- Site no longer hostile -->
+  <LetterLabelSiteNoLongerHostile>La missió ja no està disponible</LetterLabelSiteNoLongerHostile>
+  <LetterLabelSiteNoLongerHostileMulti>Les missions ja no estan disponibles</LetterLabelSiteNoLongerHostileMulti>
+  <LetterSiteNoLongerHostile>Com que ja no sou hostil amb {0}, {1} ja no està disponible.</LetterSiteNoLongerHostile>
+  <LetterSiteNoLongerHostileMulti>Com que ja no sou hostil amb {0}, els llocs següents ja no estan disponibles</LetterSiteNoLongerHostileMulti>
 
+</LanguageData>
