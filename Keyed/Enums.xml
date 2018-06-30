@@ -41,20 +41,16 @@
 
   <!-- Quality category -->
   <QualityCategory_Awful>horrible</QualityCategory_Awful>
-  <QualityCategory_Shoddy>desagradable</QualityCategory_Shoddy>
   <QualityCategory_Poor>pobre</QualityCategory_Poor>
   <QualityCategory_Normal>normal</QualityCategory_Normal>
-  <QualityCategory_Good>agradable</QualityCategory_Good>
-  <QualityCategory_Superior>superior</QualityCategory_Superior>
+  <QualityCategory_Good>bo</QualityCategory_Good>
   <QualityCategory_Excellent>excel·lent</QualityCategory_Excellent>
   <QualityCategory_Masterwork>obra mestra</QualityCategory_Masterwork>
   <QualityCategory_Legendary>llegendària</QualityCategory_Legendary>
-  <QualityCategoryShort_Awful>horr</QualityCategoryShort_Awful>
-  <QualityCategoryShort_Shoddy>desagrad</QualityCategoryShort_Shoddy>
+  <QualityCategoryShort_Awful>horr</QualityCategoryShort_Awful>
   <QualityCategoryShort_Poor>pob</QualityCategoryShort_Poor>
   <QualityCategoryShort_Normal>norm</QualityCategoryShort_Normal>
-  <QualityCategoryShort_Good>agrad</QualityCategoryShort_Good>
-  <QualityCategoryShort_Superior>sup</QualityCategoryShort_Superior>
+  <QualityCategoryShort_Good>bo</QualityCategoryShort_Good>
   <QualityCategoryShort_Excellent>exc</QualityCategoryShort_Excellent>
   <QualityCategoryShort_Masterwork>mast</QualityCategoryShort_Masterwork>
   <QualityCategoryShort_Legendary>leg</QualityCategoryShort_Legendary>
@@ -77,7 +73,7 @@
   <Hilliness_LargeHills>grans turons</Hilliness_LargeHills>
   <Hilliness_Mountainous>montanyós</Hilliness_Mountainous>
   <Hilliness_Impassable>impassable</Hilliness_Impassable>
-  
+
   <!-- Steam workshop interaction -->
   <WorkshopInteractStage_CreatingItem>Creant</WorkshopInteractStage_CreatingItem>
  <WorkshopInteractStage_SubmittingItem>Enviant</WorkshopInteractStage_SubmittingItem>
@@ -117,7 +113,7 @@
   <TechLevel_Industrial>industrial</TechLevel_Industrial>
   <TechLevel_Spacer>espacial</TechLevel_Spacer>
   <TechLevel_Ultra>ultra</TechLevel_Ultra>
-  <TechLevel_Transcendent>transcendent</TechLevel_Transcendent>
+  <TechLevel_Archotech>arco-tecnològic</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
   <PlayerPawnsArriveMethod_Standing>A peu</PlayerPawnsArriveMethod_Standing>
@@ -127,17 +123,17 @@
   <PawnGenerationContext_All>tots els personatges</PawnGenerationContext_All>
   <PawnGenerationContext_PlayerStarter>personatges inicials</PawnGenerationContext_PlayerStarter>
   <PawnGenerationContext_NonPlayer>personatges de fora</PawnGenerationContext_NonPlayer>
-  
+
   <!-- Animal name display mode -->
   <ShowAnimalNames>Noms d'animals</ShowAnimalNames>
-  <AnimalNameDisplayMode_TameNamed>Domèsticats (només els que tenen nom)</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameNamed>Domesticats (només els que tenen nom)</AnimalNameDisplayMode_TameNamed>
   <AnimalNameDisplayMode_TameAll>Domesticats (tots)</AnimalNameDisplayMode_TameAll>
-  
+
   <!-- Temperature -->
   <Celsius>Centígrads</Celsius>
   <Fahrenheit>Fahrenheit</Fahrenheit>
   <Kelvin>Kelvin</Kelvin>
-  
+
   <!-- Direction8Way -->
   <Direction8Way_North_Short>N</Direction8Way_North_Short>
   <Direction8Way_NorthEast_Short>NE</Direction8Way_NorthEast_Short>
@@ -147,5 +143,18 @@
   <Direction8Way_SouthWest_Short>SO</Direction8Way_SouthWest_Short>
   <Direction8Way_West_Short>O</Direction8Way_West_Short>
   <Direction8Way_NorthWest_Short>NO</Direction8Way_NorthWest_Short>
-  
+
+  <!-- Diet category -->
+  <DietCategory_NeverEats>No menja</DietCategory_NeverEats>
+  <DietCategory_Herbivorous>Herbívor</DietCategory_Herbivorous>
+  <DietCategory_Dendrovorous>Arbrívor</DietCategory_Dendrovorous>
+  <DietCategory_Ovivorous>Ovípar</DietCategory_Ovivorous>
+  <DietCategory_Omnivorous>Omnívor</DietCategory_Omnivorous>
+  <DietCategory_Carnivorous>Carnívor</DietCategory_Carnivorous>
+  <DietCategory_NeverEats_Short>-</DietCategory_NeverEats_Short>
+  <DietCategory_Herbivorous_Short>H</DietCategory_Herbivorous_Short>
+  <DietCategory_Dendrovorous_Short>A</DietCategory_Dendrovorous_Short>
+  <DietCategory_Ovivorous_Short>Ov</DietCategory_Ovivorous_Short>
+  <DietCategory_Omnivorous_Short>O</DietCategory_Omnivorous_Short>
+  <DietCategory_Carnivorous_Short>C</DietCategory_Carnivorous_Short>
 </LanguageData>

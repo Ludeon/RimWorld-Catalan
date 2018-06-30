@@ -10,7 +10,6 @@
   <CannotUseFull>No es pot fer servir (ple)</CannotUseFull>
   <LeaderUnavailable>El líder {0} no és abastable</LeaderUnavailable>
   <LeaderUnavailableNoLeader>el líder no està disponible</LeaderUnavailableNoLeader>
-
   
   <FireAt>Dispara a {0}</FireAt>
 
@@ -19,13 +18,13 @@
   <IsIncapableOfViolenceLower>{0} no és capaç d'actes violents</IsIncapableOfViolenceLower>
   <IncapableOfViolenceLower>no és capaç d'actes violents</IncapableOfViolenceLower>
   <IsNotDraftedLower>{0} no està reclutat</IsNotDraftedLower>
-  <CannotOrderNonControlledLower>No podeu donar ordres a unitats no controlades</CannotOrderNonControlledLower>
+  <CannotOrderNonControlledLower>No podeu donar ordres a unitats que no controleu</CannotOrderNonControlledLower>
   <CannotAttackSelf>no es pot atacar a si mateix</CannotAttackSelf>
 
   <OrderManThing>{0} manualment</OrderManThing>
   
   <MeleeAttack>Ataca cos a cos a {0}</MeleeAttack>
-  <MeleeAttackToDeath>Ataca cos a cos a {0} fins la seva mort</MeleeAttackToDeath>
+  <MeleeAttackToDeath>Ataca cos a cos a {0} fins a la seva mort</MeleeAttackToDeath>
   <NoPath>no hi ha camí</NoPath>
 
   <ForbiddenLower>prohibit</ForbiddenLower>
@@ -33,14 +32,20 @@
   <NotInHomeArea>no és a àrea llar</NotInHomeArea>
   <BurningLower>cremant</BurningLower>
   <NoEmptyPlaceLower>no hi ha cap espai buit configurat per desar-ho</NoEmptyPlaceLower>
+  <NoMergeTarget>no hi ha cap pila amb la que es pugui ajuntar</NoMergeTarget>
   <AlreadyFilledLower>Ja està ple</AlreadyFilledLower>
   <MissingMaterials>falten materials</MissingMaterials>
-  <MissingSkill>no té prou talent</MissingSkill>
-  <NoEmptyGraveLower>no hi ha cap tomba configurada per enterrar-lo</NoEmptyGraveLower>
-  <AnimalInteractedTooRecently>l'animal ha interactuat fa poc</AnimalInteractedTooRecently>
+  <UnderRequiredSkill>per sota del nivell requerit {0}</UnderRequiredSkill>
+  <UnderAllowedSkill>per sota del nivell permès {0}</UnderAllowedSkill>
+  <AboveAllowedSkill>per sobre del nivell permès {0}</AboveAllowedSkill>
+  <MissingRequiredSkillLevel>no té el nivell de capacitat requerit</MissingRequiredSkillLevel>
+  <AnimalInteractedTooRecently>s’ha interactuat amb l’animal fa poc</AnimalInteractedTooRecently>
   <NoUsableFood>no hi ha menjar que es pugui fer servir</NoUsableFood>
   <NoFood>no hi ha menjar</NoFood>
-  <AnimalsSkillTooLow>No te prou nivell en gestió d’animals</AnimalsSkillTooLow>
+  <AnimalsSkillTooLow>No té prou nivell en gestió d’animals – necessita {0}</AnimalsSkillTooLow>
+  <CantInteractAnimalDowned>animal malferit</CantInteractAnimalDowned>
+  <CantInteractAnimalAsleep>animal adormit</CantInteractAnimalAsleep>
+  <CantInteractAnimalBusy>animal ocupat</CantInteractAnimalBusy>
   <ConstructionSkillTooLow>no té prou nivell en construcció</ConstructionSkillTooLow>
   <NoComponentsToRepair>necessita components</NoComponentsToRepair>
   <NoFuelToRefuel>necessita {0}</NoFuelToRefuel>
@@ -50,9 +55,11 @@
   <SelfTendDisabled>auto-cures no habilitat</SelfTendDisabled>
   <ReservedForPrisoners>reservat per presoners</ReservedForPrisoners>
   <CannotReach>no hi pot arribar</CannotReach>
-  <NotSurgeryReady>no està apunt per l’operació</NotSurgeryReady>
+  <NotSurgeryReady>no està a punt per a l’operació</NotSurgeryReady>
+  <SkillDisabled>no pot fer això</SkillDisabled>
   <CantSowCavePlantBecauseOfLight>massa llum</CantSowCavePlantBecauseOfLight>
   <CantSowCavePlantBecauseUnroofed>sense teulada</CantSowCavePlantBecauseUnroofed>
+  <IncapableOfDeconstruction>no pot desmuntar</IncapableOfDeconstruction>
 
   <ConsumeThing>Consumeix {0}</ConsumeThing>
   
@@ -89,7 +96,8 @@
   <Equip>Equipa {0}</Equip>
   <EquipWarningBrawler>(al lluitador no li agradarà)</EquipWarningBrawler>
   <CannotEquip>No es pot equipar {0}</CannotEquip>
-  
+<CannotManThing>No es pot {0} a mà</CannotManThing>
+
   <ForceWear>Força a portar {0}</ForceWear>
   <CannotWear>No pot portar {0}</CannotWear>
   <CannotWearBecauseOfMissingBodyParts>Li falten parts del cos</CannotWearBecauseOfMissingBodyParts>
@@ -107,10 +115,19 @@
   <GiveToPackAnimalAll>Dona {0} (tot) al grup d'animals</GiveToPackAnimalAll>
   <GiveToPackAnimalSome>Dona {0} al grup d'animals...</GiveToPackAnimalSome>
   <GiveToPackAnimalCount>Agafa {0} x{{0}}</GiveToPackAnimalCount>
-  
-  <CannotCarryToExit>No es pot portar {0} i sortir de l'àrea</CannotCarryToExit>
-  <CarryToExit>Porta {0} i surt de l'àrea</CarryToExit>
-  
+
+  <CannotLoadIntoCaravan>No es pot carregar {0} a la caravana</CannotLoadIntoCaravan>
+  <CannotLoadIntoCaravanAll>No es pot carregar {0} (tot) a la caravana</CannotLoadIntoCaravanAll>
+  <LoadIntoCaravan>Carrega {0} a la caravana</LoadIntoCaravan>
+  <LoadIntoCaravanAll>Carrega {0} (tot) a la caravana</LoadIntoCaravanAll>
+  <LoadIntoCaravanSome>Carrega {0} a la caravana...</LoadIntoCaravanSome>
+  <LoadIntoCaravanCount>Carrega {0} x{{0}}</LoadIntoCaravanCount>
+  <OverweightLower>sobrepès</OverweightLower>
+
+  <CannotCarryToExit>No es pot portar {0} i sortir de la zona</CannotCarryToExit>
+  <CarryToExit>Porta {0} i surt de la zona</CarryToExit>
+  <CarryToExitAndCapture>Captura a {0} i surt de la zona</CarryToExitAndCapture>
+
   <Strip>Despulla a {0}</Strip>
   <CannotStrip>No es pot despullar a {0}</CannotStrip>
 
@@ -128,10 +145,11 @@
   <EnterMap>Entra a {0}</EnterMap>
   <VisitSettlement>Visita a {0}</VisitSettlement>
   <VisitPeaceTalks>Visita a {0}</VisitPeaceTalks>
-  <VisitSite>Visita a {0}</VisitSite>
-<VisitEscapeShip>Visita a {0}</VisitEscapeShip>
-  <AttackSite>Ataca a {0}</AttackSite>
+  <VisitEscapeShip>Visita a {0}</VisitEscapeShip>
   <AttackSettlement>Ataca a {0}</AttackSettlement>
+  <ApproachSite>Acostat a {0}</ApproachSite>
+  <ApproachingSite>S’acosta a {0}</ApproachingSite>
+  <OfferGifts>Ofereix regals</OfferGifts>
 
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>Entra al taüt de criptoson</EnterCryptosleepCasket>
@@ -139,33 +157,57 @@
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
   <CannotGenericWork>No es pot {0} {1}</CannotGenericWork>
+  <CannotGenericWorkCustom>No es pot {0}</CannotGenericWorkCustom>
+
+  <CannotMissingHealthActivities>No es pot prioritzar (no pot {0})</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
-  <CannotMissingHealthActivities>No es pot prioritzar (no és capaç de {0})</CannotMissingHealthActivities>
-
   <CannotGenericAlreadyAm>Ja està {0} {1}</CannotGenericAlreadyAm>
 
   <CannotPrioritizeWorkTypeDisabled>No pot prioritzar (No farà mai {0})</CannotPrioritizeWorkTypeDisabled>
   
   <CannotPrioritizeWorkGiverDisabled> No pot prioritzar (No farà mai {0})</CannotPrioritizeWorkGiverDisabled>
+<WillNever>no farà {0} mai</WillNever>
 
   <CannotPrioritizeNotAssignedToWorkType>No es pot prioritzar (no està assignat a {0})</CannotPrioritizeNotAssignedToWorkType>
+  <NotAssigned>no està assignat</NotAssigned>
 
   <CannotPrioritizeResearch> No es pot prioritzar (investigar és una tasca a llarg plaç)</CannotPrioritizeResearch>
 
   <CannotPrioritizeForbidden> No es pot prioritzar ({0} està prohibit)</CannotPrioritizeForbidden>
+  <CannotPrioritizeCellForbidden>No es pot prioritzar (està prohibit)</CannotPrioritizeCellForbidden>
   <CannotPrioritizeForbiddenOutsideAllowedArea> No es pot prioritzar ({0} està fora de l'àrea permesa)</CannotPrioritizeForbiddenOutsideAllowedArea>
   
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Prioritza {0} {1}</PrioritizeGeneric>
   
-  <DropAtEdge>Deixa a la vora</DropAtEdge>
-  <DropInCenter>Deixa al centre</DropInCenter>
+  <DropAtEdge>Aterra a la vora</DropAtEdge>
+  <DropInCenter>Aterra al centre</DropInCenter>
+  <AttackAndDropAtEdge>Ataca {0}: Aterra a la vora</AttackAndDropAtEdge>
+  <AttackAndDropInCenter>Ataca {0}: Aterra al centre</AttackAndDropInCenter>
 
   <VomitingLower>vomita</VomitingLower>
-  <NotInterruptibleLower>no es pot commutar</NotInterruptibleLower>
+  <NotInterruptibleLower>no es pot interrompre</NotInterruptibleLower>
 
   <AddWaypoint>Afegeix un punt de pas aquí</AddWaypoint>
   <RemoveWaypoint>Esborra aquest punt de pas</RemoveWaypoint>
-  
+
+  <RemoveAllDesignations>Cancel·la totes les designacions</RemoveAllDesignations>
+  <DesignateAll>Designa-ho tot</DesignateAll>
+  <CountToDesignate>{0} afectats</CountToDesignate>
+  <ForbidAllItems>Prohibeix tots els objectes</ForbidAllItems>
+  <UnforbidAllItems>Permet tots els objectes</UnforbidAllItems>
+  <RearmAllTraps>Rearma totes les trampes</RearmAllTraps>
+
+  <!-- Transport pods -->
+  <LandInExistingMap>Acostat i tria el punt d’aterratge a {0}</LandInExistingMap>
+  <TransportPodsContentsWillBeLost>Es perdrà el contingut</TransportPodsContentsWillBeLost>
+  <FormCaravanHere>Crea una caravana aquí</FormCaravanHere>
+  <GiveToCaravan>Dóna a {0}</GiveToCaravan>
+  <GiveGiftViaTransportPods>Dóna-ho a {0} com a regal({1})</GiveGiftViaTransportPods>
+
+  <!-- Rescue quest -->
+  <FreePrisoner>>Allibera presoner</FreePrisoner>
+  <OfferHelp>Ofereix ajuda</OfferHelp>
+
 </LanguageData>
