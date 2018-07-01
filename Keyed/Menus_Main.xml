@@ -10,6 +10,8 @@
   <LoadGame>Carrega una partida</LoadGame>
   <Options>Opcions</Options>
   <Mods>Mods</Mods>
+  <SaveTranslationReport>Desa l’informe de la traducció</SaveTranslationReport>
+  <GeneratingTranslationReport>Es genera l’informe de la traducció</GeneratingTranslationReport>
   <Credits>Crèdits</Credits>
   <QuitToMainMenu>Surt al menú principal</QuitToMainMenu>
   <SaveAndQuitToMainMenu>Desa i surt al menú</SaveAndQuitToMainMenu>
@@ -62,6 +64,7 @@
   <OpenSteamWorkshop>Obre el Workshop d'Steam</OpenSteamWorkshop>
   <GetModsFromForum>Obté mods del fòrum</GetModsFromForum>
   <OpenModsDataFolder>Obre la carpeta dels mods</OpenModsDataFolder>
+<ShowModsDataLocation>Mostra la carpeta dels mods</ShowModsDataLocation>
   <ConfirmDisableCoreMod>Esteu segur que voleu deshabilitar el mod nucli? El joc no funcionarà si no és que té un altre mod amb totes les funcionalitats del nucli.\n\nRecordeu que altres mods poden sobreescriure les definicions del mod nucli fent servir el mateix «defName».</ConfirmDisableCoreMod>
   <ConfirmDeleteMod>Esteu segur que voleu esborrar el contingut de {0}?</ConfirmDeleteMod>
   <Unsubscribe>Cancel·la la subscripció</Unsubscribe>
@@ -125,8 +128,6 @@
   <Elevation>Elevació</Elevation>
   <Fertility>Fertilitat</Fertility>
   <AvgTemp>Temperatura mitjana</AvgTemp>
-  <AvgSummerTemp>Temperatura a l'estiu</AvgSummerTemp>
-  <AvgWinterTemp>Temperatura a l'hivern</AvgWinterTemp>
   <Rainfall>Pluviometria</Rainfall>
   <SpecialFeatures>Característiques especials</SpecialFeatures>
   <HasCoast0>Costa nord</HasCoast0>
@@ -137,12 +138,13 @@
   <FactionBase>Base de facció</FactionBase>
   <StoneTypesHere>Tipus de roca</StoneTypesHere>
   <TimeZone>Zona horària</TimeZone>
-  <MovementTimeNow>Temps de desplaçament actual</MovementTimeNow>
-  <MovementTimeSummer>Temps de desplaçament a l'estiu</MovementTimeSummer>
-  <MovementTimeWinter>Temps de desplaçament a l'hivern</MovementTimeWinter>
-  <AnimalsCanGrazeNow>Els animals poden pasturar ara</AnimalsCanGrazeNow>
-  <AverageDiseaseFrequency>Freqüència mitja de malaties</AverageDiseaseFrequency>
+  <MovementDifficulty>Dificultat de moviment</MovementDifficulty>
+  <AnimalsCanGrazeNow>Els animals poden pasturar</AnimalsCanGrazeNow>
+  <AverageDiseaseFrequency>Freqüència mitjana de malalties</AverageDiseaseFrequency>
   <PerYear>anual</PerYear>
+  <Forageability>Grau de recol·lecció</Forageability>
+  <ConfirmRequiredWorkTypeDisabledForEveryone>No heu seleccionat ningú que pugui fer aquestes feines:\n\n{0}\n\nAixò farà la partida més difícil del normal. Esteu segur que voleu continuar?</ConfirmRequiredWorkTypeDisabledForEveryone>
+
 
   <!--=========== Character chooser ==========-->
   <CreateCharacters>Creació de personatges</CreateCharacters>
@@ -159,6 +161,7 @@
   <NoneLower>cap</NoneLower>
   <Adulthood>Maduresa</Adulthood>
   <Childhood>Infantesa</Childhood>
+  <Current>Actual</Current>
   <Male>masculí</Male>
   <Female>femení</Female>
   <Pain>Dolor</Pain>
@@ -177,6 +180,7 @@
   <Gameplay>Joc</Gameplay>
   <ConfirmQuit>Voleu sortir? Perdreu el progrés que no s'hagi desat.</ConfirmQuit>
   <EveryoneNeedsValidName>Tothom necessita un nom vàlid.</EveryoneNeedsValidName>
+  <RequiredWorkTypeDisabledForEveryone>Nou heu seleccionat ningú que pugui fer les següents tasques</RequiredWorkTypeDisabledForEveryone>
   <Quit>Surt</Quit>
   <Ignore>Ignora</Ignore>
   

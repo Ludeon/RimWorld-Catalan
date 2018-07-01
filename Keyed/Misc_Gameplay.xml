@@ -7,11 +7,13 @@
   <Contents>Contingut</Contents>
   <ContainedResources>Recursos inclosos</ContainedResources>
   <ForPrisonerUse>Per a presoners</ForPrisonerUse>
+  <InPrisonCell>En una cel·la: per a presoners</InPrisonCell>
   <ForColonistUse>Per a colons</ForColonistUse>
   <MedicalBed>Mèdica</MedicalBed>
   <Owner>Propietari</Owner>
   <Owners>Propietaris</Owners>
   <AssignedColonist>Colon assignat</AssignedColonist>
+  <DiedOn>Mort el {0}</DiedOn>
   <Nobody>Ningú</Nobody>
   <Unowned>Lliure</Unowned>
   <DeadTime>Mort fa {0}</DeadTime>
@@ -25,6 +27,9 @@
   <FreshMissingBodyPart>fresc</FreshMissingBodyPart>
   <DevelopedImmunityLower>immunitat desenvolupada</DevelopedImmunityLower>
   <NeedsTendingNow>Necessita atenció ara</NeedsTendingNow>
+  <CanTendNow>Ja pot curar</CanTendNow>
+  <TreatmentExpiresIn>Cal tornar a tractar d’aquí a {0}</TreatmentExpiresIn>
+  <TendQuality>Qualitat del tractament</TendQuality>
   <NextTendIn>Necessitarà atenció d'aquí {0}</NextTendIn>
   <MissingMedicalBillIngredient>no hi ha {0}</MissingMedicalBillIngredient>
   <Immunity>Immune</Immunity>
@@ -36,6 +41,7 @@
   <ThingInfo>Informació</ThingInfo>
   <DropThing>Deixa</DropThing>
   <Rename>Canvia el nom</Rename>
+  <RenameAnimal>Canvia el nom de l’animal</RenameAnimal>
   <RenameColonist>Canvia el nom del colon</RenameColonist>
   <UnknownLower>desconegut</UnknownLower>
   <On>Activat</On>
@@ -69,29 +75,38 @@
   <Permanent>permanent</Permanent>
   <CaravanResting>Descansa.</CaravanResting>
   <CaravanEstimatedTimeToDestination>Temps est. fins al destí: {0}</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedDaysToDestination>Dies est. per arribar: {0}</CaravanEstimatedDaysToDestination>
   <CaravanImmobilizedByMass>Aturat: massa pes.</CaravanImmobilizedByMass>
   <CaravanOutOfFood>Sense menjar.</CaravanOutOfFood>
   <CaravanDaysOfFood>Dies de menjar: {0}</CaravanDaysOfFood>
   <CaravanDaysOfFoodRot>Dies de menjar: {0}, es podreix d'aquí a {1} dies</CaravanDaysOfFoodRot>
-  <CaravanMemberMentalBreak>Aturat per: {0} està emprenyat.</CaravanMemberMentalBreak>
   <AllCaravanMembersDowned>Aturat per: tothom està de baixa.</AllCaravanMembersDowned>
   <AllCaravanMembersMentalBreak>Aturat per: tothom està emprenyat.</AllCaravanMembersMentalBreak>
+  <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
+  <CaravanAnimal>1 animal</CaravanAnimal>
+  <CaravanAnimalsCount>{0} animals</CaravanAnimalsCount>
+  <CaravanPrisoner>1 presoner</CaravanPrisoner>
+  <CaravanPrisonersCount>{0} presoners</CaravanPrisonersCount>
+  <CaravanPawnsInMentalState>{0} emprenyats</CaravanPawnsInMentalState>
+  <CaravanPawnsDowned>{0} malferits</CaravanPawnsDowned>
   <CaravanTraveling>Viatjant.</CaravanTraveling>
+  <CaravanPaused>En pausa.</CaravanPaused>
   <CaravanWaiting>Esperant.</CaravanWaiting>
-  <CaravanHoursPerTile>h/cel·la</CaravanHoursPerTile>
-  <CaravanBaseMovementTime>velocitat base</CaravanBaseMovementTime>
   <CurrentTileMovementTime>velocitat actual</CurrentTileMovementTime>
-  <StealthFactor>Sigil</StealthFactor>
+  <Visibility>Visibilitat</Visibility>
   <Temperature>Temperatura</Temperature>
   <BadTemperature>temperatura dolenta</BadTemperature>
   <IdealFermentingTemperature>Temperatura de fermentació ideal</IdealFermentingTemperature>
   <DrugEffectMultiplier>Efecte multiplicador {0}: {1}</DrugEffectMultiplier>
-  <CaravanVisiting>Visitant {0}.</CaravanVisiting>
-  <CaravanEntering>Entrant {0}.</CaravanEntering>
-  <CaravanAttacking>Atacant {0}.</CaravanAttacking>
+  <CaravanVisiting>Visita a {0}.</CaravanVisiting>
+  <CaravanEntering>Entra a {0}.</CaravanEntering>
+  <CaravanAttacking>Ataca a {0}.</CaravanAttacking>
+  <CaravanOfferingGifts>Ofereix regals a {0}.</CaravanOfferingGifts>
   <WasWornByCorpse>Ho ha portat un cadàver.</WasWornByCorpse>
   <WornByCorpseChar>M</WornByCorpseChar>
-  <DeterioratingDueToBeingUnroofed>Es deteriora per no estar sota teulada.</DeterioratingDueToBeingUnroofed>
+  <DeterioratingUnroofed>sense sostre</DeterioratingUnroofed>
+  <DeterioratingOutdoors>a l’exterior</DeterioratingOutdoors>
+  <DeterioratingBecauseOf>Es deteriora per que està</DeterioratingBecauseOf>
   <Map>Mapa</Map>
   <ForceExitAndRemoveMapCountdown>{0} hores per sortir</ForceExitAndRemoveMapCountdown>
   <ForceExitAndRemoveMapCountdownTip>Els vostres colons tornaran a formar una caravana i deixaran la zona d'aquí a {0}.</ForceExitAndRemoveMapCountdownTip>
@@ -132,6 +147,29 @@
   <Relationship>{0} de {1}</Relationship>
   <Prisoner>Presoner</Prisoner>
   <Refugee>Refugiat</Refugee>
+  <TileMovementDifficulty>Dificultat de moviment del terreny</TileMovementDifficulty>
+  <Impassable>Infranquejable</Impassable>
+  <CaravanMovementSpeedFull>Velocitat de moviment de la caravana</CaravanMovementSpeedFull>
+  <DownedLower>malferit</DownedLower>
+  <AverageCaravanMemberMoveSpeed>Moviment mitjà de les persones</AverageCaravanMemberMoveSpeed>
+  <MultiplierForCarriedMass>Multiplicador per pes portat: {0}</MultiplierForCarriedMass>
+  <FinalCaravanPawnsMovementSpeed>Velocitat dels membres de la caravana</FinalCaravanPawnsMovementSpeed>
+  <FinalCaravanMovementSpeed>Velocitat final</FinalCaravanMovementSpeed>
+  <Winter>Hivern</Winter>
+  <MovementDifficultyOffsetInWinter>{0} a l’hivern</MovementDifficultyOffsetInWinter>
+  <RangeTo>a</RangeTo>
+  <NoDietCategoryLetter>Cap carta</NoDietCategoryLetter>
+  <ExpiresIn>S’acaba en</ExpiresIn>
+  <CaravanLeaderCaravanName>caravana de {0}</CaravanLeaderCaravanName>
+  <Reason>Motiu</Reason>
+  <RelationsWith>Relacions amb {0}</RelationsWith>
+  <capturedBy>capturat per {0}</capturedBy>
+  <yourCaravan>la vostra caravana</yourCaravan>
+  <CreatureWildness>{0} salvatgia</CreatureWildness>
+  <CreatureTrainability>{0} domesticació</CreatureTrainability>
+  <ProximitySingleGoodwillChange>{0} amb {1}</ProximitySingleGoodwillChange>
+  <EnterCooldown>No podeu tornar a entrar fins d’aquí a {0} dies.</EnterCooldown>
+  <Caravan>Caravana</Caravan>
 
   <!-- Fermentation barrel -->
   <ContainsWort>Conté {0} / {1} most.</ContainsWort>
@@ -165,10 +203,8 @@
   <NoRoof>Sense teulada</NoRoof>
   <SnowClear>Neteja la neu</SnowClear>
   <AreaDefaultLabel>Zona {0}</AreaDefaultLabel>
-  <AreaAnimalDefaultLabel>Zona animal {0}</AreaAnimalDefaultLabel>
   <NoAreaAllowed>Sense restricció</NoAreaAllowed>
   <NewArea>Nova zona</NewArea>
-  <NewAreaAnimal>Nova zona animal</NewAreaAnimal>
   <InvertArea>Invertir</InvertArea>
 
   <!-- Control -->
@@ -188,8 +224,10 @@
   <GunInstalled>Instal·lada</GunInstalled>
   <MinimumRange>Abast mínim</MinimumRange>
   <CanFireIn>Pot disparar d'aquí</CanFireIn>
+  <CannotFire>No pot disparar</CannotFire>
+  <Roofed>sota teulada</Roofed>
   <ShellLoaded>Projectil carregat: {0}</ShellLoaded>
-  <ShellNotLoaded>No carregat</ShellNotLoaded>
+  <ShellNotLoaded>Descarregat</ShellNotLoaded>
 
   <!-- Job reports -->
   <ReportHaulingTo>porta {0} a {1}.</ReportHaulingTo>
@@ -261,7 +299,9 @@
   <InRestraints>Encadenat (frenat)</InRestraints>
   <Carrying>Porta</Carrying>
   <AffectedBy>Afectat per:</AffectedBy>
-  <Queued>Encuat</Queued>
+  <Queued>Posat a la cua</Queued>
+  <State>Estat</State>
+  <StunLower>atordir</StunLower>
 
   <!-- Inspector general stuff -->
   <SelectNextInSquareTip>Seleccioneu el següent en aquest quadrat.\n\nTecla de drecera: {0}\n\nTambé ho podeu fer tornant a fer clic al mateix quadre un altre cop.</SelectNextInSquareTip>
@@ -303,6 +343,7 @@
   <!-- Shooting tooltip -->
   <ShotBy>Tocat per {0}</ShotBy>
   <CannotHit>No pot tocar l'objectiu.</CannotHit>
+  <ManhunterPerHit>Probabilitat de revenja per impacte</ManhunterPerHit>
 
   <!-- Rotting -->
   <CurrentlyFrozen>Congelat (no es deteriora)</CurrentlyFrozen>
@@ -352,9 +393,11 @@
   <!-- Buttons -->
   <ShowLearningHelperWhenEmptyToggleButton>Commuta la visibilitat de l'ajuda d'aprenentatge quan està buida.\n\nL'ajuda d'aprenentatge està sempre visible si hi ha un concepte activat per ensenyar. Aquest botó el fa desaparèixer quan no hi ha cap concepte actiu.</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>Commuta la visibilitat de les zones.</ZoneVisibilityToggleButton>
-  <ShowEnvironmentToggleButton>Commuta el visor d'entorn.\n\nMostra la bellesa i les estadístiques d'un espai o entorn com els percebria un personatge que estigués al lloc del punter.</ShowEnvironmentToggleButton>
+  <ShowBeautyToggleButton>Commuta la visibilitat de la bellesa.\n\nMostra la bellesa de l’entorn com la percebria un caràcter que estigués al lloc on apunta el ratolí.</ShowBeautyToggleButton>
+  <ShowRoomStatsToggleButton>Commuta les estadístiques de les habitacions.\n\nMostra les estadístiques de les habitacions on apunta el ratolí</ShowRoomStatsToggleButton>
   <ShowColonistBarToggleButton>Commuta la barra de colons.\n\nMostra les icones i les estadístiques bàsiques dels colons a la part superior de la pantalla.</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>Commuta l'expansió automàtica de la zona llar al voltant de les noves construccions.</AutoHomeAreaToggleButton>
+  <AutoRebuildButton>Commuta la reconstrucció de les estructures destruïdes.</AutoRebuildButton>
   <CategorizedResourceReadoutToggleButton>Commuta el mode categoritzat a la llista de recursos.</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>Commuta mostrar el nom dels animals domesticats.</ShowAnimalNamesToggleButton>
   <ShowRoofOverlayToggleButton>Commuta la visibilitat de la teulada.</ShowRoofOverlayToggleButton>
@@ -387,6 +430,8 @@
   <MustPlaceVentWithFreeSpaces>Les dues parts han d'estar exposades perquè l'aire pugui passar.</MustPlaceVentWithFreeSpaces>
   <MustPlaceAdjacentStandable>Hi ha d'haver lloc per estar dret per tots quatre costats.</MustPlaceAdjacentStandable>
   <MustPlaceNearFuelingPort>S'ha de posar al costat d'un carregador de fuel per a llançador de càpsules.</MustPlaceNearFuelingPort>
+  <MustPlaceOnDrillable>S’ha de posar sobre recursos extraïbles.</MustPlaceOnDrillable>
+
 	
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Bloquejat per</WindTurbine_WindPathIsBlockedBy>
@@ -405,8 +450,10 @@
   <ShipReportHibernating>Component en hibernació</ShipReportHibernating>
   <ShipReportNotReady>Component no preparat</ShipReportNotReady>
   <HibernateWarning>Charlon Whitestone està preparat per iniciar la seqüència de sortida d’hibernació del reactor.\n\nAvisa que el procés pot durar 15 dies, i que la signatura energètica serà detectable des de molt lluny. Aquest tipus de signatura energètica indica capacitat de vol interestelar i atraurà bandes d’assaltants desesperats i caçadors de tresors. Assegureu-vos que teniu les defenses preparades.</HibernateWarning>
-  <HibernateCompleteLabel>Reactor preparat</HibernateCompleteLabel>
-  <HibernateComplete>Charlon Whitestone ha finalitzat la seqüència de sortida d’hibernació del reactor. Està tot preparat per iniciar l’enlairament.</HibernateComplete>
+  <HibernateWarningStandalone>El reactor està preparat per ser engegat.\n\nEl procés durarà un 15 dies, i la radiació d’energia podrà detectar-se des de molt lluns. La radiació indica la capacitat de vol interestel·lar i atraurà grups d’assaltants desesperats i caçadors de tresors. Assegureu-vos que teniu les defenses preparades.</HibernateWarningStandalone>
+  <HibernateWarningPacifist>Charlon Whitestone està preparat per iniciar la seqüència de restauració de la hibernació. Us avisa que el procés durarà uns 15 dies.</HibernateWarningPacifist>
+  <HibernateWarningStandalonePacifist>El reactor està preparat per engegar. El procés durarà uns 15 dies+.</HibernateWarningStandalonePacifist>
+
 
   <!-- Neurotrainer -->
   <NeurotrainerUsed>{0} ha fet servir {1} neuroentrenador per passar del nivell {2} al nivell {3}.</NeurotrainerUsed>
@@ -479,14 +526,18 @@
   <ActivityIconAttacking>Lluita</ActivityIconAttacking>
   <ActivityIconIdle>Desocupat</ActivityIconIdle>
   <ActivityIconBurning>Crema</ActivityIconBurning>
+  <ActivityIconFormingCaravan>Forma una caravana</ActivityIconFormingCaravan>
 
   <!-- Maintainable -->
   <DueForMaintenance>Per manteniment.</DueForMaintenance>
   <DeterioratingDueToLackOfMaintenance>Es deteriora per falta de manteniment.</DeterioratingDueToLackOfMaintenance>
 
   <!-- Deep drill -->
-  <ProgressToNextLump>Progres fins a la següent veta</ProgressToNextLump>
+  <ProgressToNextLump>Progrés fins a la següent veta</ProgressToNextLump>
   <ResourceBelow>Recursos a sota</ResourceBelow>
+  <DeepDrillNoResources>No hi ha recursos a sota.</DeepDrillNoResources>
+  <DeepDrillExhausted>S’han esgotat els recursos del perforador i s’ha prohibit de manera automàtica. Habiliteu per minar {0}.</DeepDrillExhausted>
+  <DeepDrillExhaustedNoFallback>’han esgotat els recursos del perforador.</DeepDrillExhaustedNoFallback>
 
   <!-- Learning helper -->
   <LearningHelper>Ajuda d'aprenentatge</LearningHelper>
@@ -497,18 +548,20 @@
   <!-- Compass -->
   <CompassTip>Mostra el nord. Fes clic per girar la càmera i que el nord quedi a dalt.</CompassTip>
 
-  <!-- Distance measure -->
+  <!-- World route planner -->
   <RoutePlannerButtonTip>Feu clic per entrar en mode planificació i poder calcular la distància entre punts de pas.</RoutePlannerButtonTip>
   <RoutePlannerAddTwoOrMoreWaypoints>Afegiu dos o més punts de pas.</RoutePlannerAddTwoOrMoreWaypoints>
   <RoutePlannerAddOneOrMoreWaypoints>Afegiu un o més punts de pas.</RoutePlannerAddOneOrMoreWaypoints>
   <RoutePlannerEstTimeToFinalDest>Temps total de la ruta: {0}</RoutePlannerEstTimeToFinalDest>
   <RoutePlannerUsingAverageTicksPerMoveWarning>El mode de planificació fa servir la velocitat per defecte de la caravana. La velocitat real pot canviar.</RoutePlannerUsingAverageTicksPerMoveWarning>
-  <RoutePlannerUsingTicksPerMoveOfCaravan>Calculant per: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
+  <RoutePlannerUsingTicksPerMoveOfCaravan>Es calcula per: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>Botó dret: Afegeix/treu punts de pas.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
   <RoutePlannerPressEscapeToExit>ESC: Surt del mode de planificació.</RoutePlannerPressEscapeToExit>
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Torna al diàleg de formació de la caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
-  <EstimatedTimeToThisWaypoint>Temps est. fins aquest punt de pas: {0}</EstimatedTimeToThisWaypoint>
-  <EstimatedTimeToThisWaypointFromPrevious>Temps est. entre aquest punt de pas i l’anterior: {0}</EstimatedTimeToThisWaypointFromPrevious>
+  <EstimatedTimeToWaypoint>Temps est.: {0}</EstimatedTimeToWaypoint>
+  <EstimatedTimeToWaypointFromPrevious>Temps est. (des del punt de pas anterior): {0}</EstimatedTimeToWaypointFromPrevious>
+  <EstimatedTimeToTile>Temps est.: {0}</EstimatedTimeToTile>
+  <ForagedFoodAmount>Menjar collit</ForagedFoodAmount>
 
   <!-- Outfits -->
   <OutfitAnything>Cap</OutfitAnything>
@@ -519,5 +572,9 @@
   <!-- Hibernatable -->
   <HibernatableHibernating>Hibernant</HibernatableHibernating>
   <HibernatableStartingUp>Iniciant</HibernatableStartingUp>
+
+  <!-- Transport pods -->
+  <ClickToSeeAvailableOrders_WorldObject>{0}: Mostra les ordres disponibles...</ClickToSeeAvailableOrders_WorldObject>
+  <ClickToSeeAvailableOrders_Empty>Mostra les ordres disponibles...</ClickToSeeAvailableOrders_Empty>
 
 </LanguageData>

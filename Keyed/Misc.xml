@@ -29,14 +29,20 @@
   <repeat>repetició</repeat>
   <default>per defecte</default>
   <distance>distància</distance>
+  <YesUppercase>SÍ</YesUppercase>
+  <NoUppercase>NO</NoUppercase>
+  <kg>kg</kg>
+  <Day>Dia</Day>
+  <day>dia</day>
+  <Default>Per defecte</Default>
+  <Average>Mitjana</Average>
 
   <!-- Content generation-->
-  
-	<MeatLabel>Carn de {0}</MeatLabel>
-  <MeatDesc>Carn escorxada. Es pot cuinar en àpats, o menjar crua.</MeatDesc>
 
-  <LeatherLabel>pell de {0}</LeatherLabel>
-  <LeatherDesc>Pell seca, raspada i adobada. Un bon material tradicional per fer roba i bosses.</LeatherDesc>
+  <MeatLabel>Carn de {0}</MeatLabel>
+  <MeatDesc>Carn escorxada. Es pot cuinar en àpats o menjar crua.</MeatDesc>
+  <MeatInsectDesc>Carn escorxada. Es pot cuinar en àpats o menjar crua. És molt desagradable.</MeatInsectDesc>
+  <MeatHumanDesc>Carn escorxada. Es pot cuinar en àpats, o menjar crua, tot i que a la majoria d’humans no els fa cap gràcia la idea.</MeatHumanDesc>
 
   <CorpseLabel>{0} cadàver</CorpseLabel>
   <CorpseDesc>El cos inert d'un {0}.</CorpseDesc>
@@ -51,6 +57,8 @@
 
   <BlueprintLabelExtra> (projecte)</BlueprintLabelExtra>
   <FrameLabelExtra> (en construcció)</FrameLabelExtra>
+
+  <FactionUnaffiliated>Sense afiliació</FactionUnaffiliated>
 
 
   <!-- For things made of stuff, e.g. "Stone bed" -->

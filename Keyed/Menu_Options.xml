@@ -24,6 +24,7 @@
   <ResetModsConfigOnCrash>Reinicia la conf. dels mods si el joc falla</ResetModsConfigOnCrash>
   <LogVerbose>Registre detallat</LogVerbose>
   <OpenSaveGameDataFolder>Obre la carpeta amb les dades desades</OpenSaveGameDataFolder>
+<ShowSaveGameDataLocation>Mostra la ubicació de les dades desades</ShowSaveGameDataLocation>
   <NamesYouWantToSee>Noms preferits per la creació inicial de personatges:</NamesYouWantToSee>
   <AddName>Afegeix un nom</AddName>
   <TypeFirstNickOrLastName>Escriviu el nom, sobrenom o cognom.</TypeFirstNickOrLastName>
@@ -34,8 +35,10 @@
   <ShowRealtimeClock>Mostra el rellotge real</ShowRealtimeClock>
   <MaxNumberOfPlayerHomes>Màxim nombre de colònies: {0}</MaxNumberOfPlayerHomes>
   <PlantWindSway>Moviment de les plantes amb el vent</PlantWindSway>
+  <EnableTestMapSizes>Habilita les mides de mapa experimentals</EnableTestMapSizes>
   <MaxPermadeathAutosaveIntervalInfo>L'interval màxim entre desades automàtiques en mode permadeath és {0} dies.</MaxPermadeathAutosaveIntervalInfo>
   <ModSettings>Configuració de Mods</ModSettings>
+  <PermanentlyDisableDevMode>Desactiva permanentment el mode de desenvolupament</PermanentlyDisableDevMode>
 
   <!-- Resolution -->
   <Resolution>Resolució</Resolution>
@@ -50,5 +53,9 @@
   <!-- Mods -->
   <SelectMod>Seleccioneu un mod...</SelectMod>
   <NoConfigurableMods>No s'han carregat mods configurables.</NoConfigurableMods>
+
+  <!-- Options reset -->
+  <RestoreToDefaultSettings>Torna a la configuració per defecte</RestoreToDefaultSettings>
+  <ResetAndRestart>Les opcions s’ha restaurat. El joc es tornarà a engegar de forma automàtica.</ResetAndRestart>
 
 </LanguageData>

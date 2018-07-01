@@ -29,12 +29,22 @@
   <!-- Animals tab -->
   <Master>Amo</Master>
   <PregnantIconDesc>Embarassada ({0} / {1})</PregnantIconDesc>
+  <BondedTo>Lligat a</BondedTo>
+
+  <!-- Wildlife tab -->
+  <IsPredator>Aquesta criatura és un predador. Quan tingui gana, caçarà criatures petites, potser fins i tot persones.</IsPredator>
 	
   <!-- Factions tab -->
   <Hostile>Hostil</Hostile>
-  <DefeatedLower>vençut</DefeatedLower>
+  <Ally>Aliat</Ally>
+  <DefeatedLower>eliminat</DefeatedLower>
   <HostileTo>Enemic de {0}</HostileTo>
-  <CurrentGoodwill>Relació amb aquesta facció.</CurrentGoodwill>
+  <CurrentGoodwillTip>L’estat de la reputació i les relacions amb aquesta facció.</CurrentGoodwillTip>
+  <CurrentGoodwillTip_PermanentEnemy>Aquesta facció sempre us serà hostil. Atacarà els vostres assentaments i caravanes. Les relacions amb ells no milloraran mai feu el que feu.</CurrentGoodwillTip_PermanentEnemy>
+  <CurrentGoodwillTip_Ally>Aquesta facció és aliada. Enviaran lluitadors per ajudar-vos sempre que puguin. Si les relacions baixen de {0}, es tornaran neutrals.</CurrentGoodwillTip_Ally>
+  <CurrentGoodwillTip_Neutral>LA facció és neutral. Tindran negocis i converses amb vosaltres. Si les relacions baixen de {0}, es tornaran hostils. Si les relacions pugen per sobre de {1}, es convertiran en aliats i treballaran activament per ajudar-vos.</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Hostile>Aquesta facció us és hostil. Atacaran els vostres assentaments i caravanes. Si les relacions pugen per sobre de {0}, es convertiran en neutrals.</CurrentGoodwillTip_Hostile>
+  <CurrentGoodwillTip_NaturalGoodwill>Aquesta facció té una reputació natural entre  {0} i {1}. Si la reputació està per sobre de {1}, anira baixant de {3} en {3} cada dia. Si la reputació està per sota de {0}, anirà pujant de {2} en {2} cada dia.</CurrentGoodwillTip_NaturalGoodwill>
   
   <!-- Social tab -->
   <Friend>Amic</Friend>
@@ -43,6 +53,7 @@
 	
   <!-- History tab - subtabs -->
   <Graph>Gràfic</Graph>
+  <Messages>Missatges</Messages>
   <Statistics>Estadístiques</Statistics>
   
   <!-- History tab - Graphs -->
@@ -51,9 +62,14 @@
   <Last100Days>Últims 100 dies</Last100Days>
   <Last300Days>Últims 300 dies</Last300Days>
   <AllDays>Tot</AllDays>
-  <Day>Dia</Day>
   <Value>Valor</Value>
   <External>Extern</External>
+
+  <!-- History tab - Messages -->
+  <ShowLetters>Mostra les cartes</ShowLetters>
+  <ShowMessages>Mostra els missatges</ShowMessages>
+  <PinArchivableTip>Marca o desmarca aquest missatge.\n\nEls missatges antics que no estiguin marcats s’esborraran automàticament quan la llista arribi als {0} missatges.</PinArchivableTip>
+  <NoMessages>cap missatge</NoMessages>
 
   <!-- History tab - Statistics -->
   <Playtime>Temps de joc</Playtime>
@@ -61,6 +77,7 @@
   <ThisMapColonyWealthTotal>Valor de la colònia (aquest mapa)</ThisMapColonyWealthTotal>
   <ThisMapColonyWealthItems>Valor de la colònia (objectes) (aquest mapa)</ThisMapColonyWealthItems>
   <ThisMapColonyWealthBuildings>Valor de la colònia (edificis) (aquest mapa)</ThisMapColonyWealthBuildings>
+  <ThisMapColonyWealthTameAnimals>VAlor de la colònia (animals) (aquest mapa)</ThisMapColonyWealthTameAnimals>
   <NumThreatBigs>Perills principals</NumThreatBigs>
   <NumEnemyRaids>Raids enemics</NumEnemyRaids>
   <ThisMapDamageTaken>Danys rebuts (aquest mapa)</ThisMapDamageTaken>
@@ -74,4 +91,3 @@
   <ResearchCostComparison>El cost base del projecte {0} esdevé {1} pel vostre nivell de tecnologia.</ResearchCostComparison>
   
 </LanguageData>
-
