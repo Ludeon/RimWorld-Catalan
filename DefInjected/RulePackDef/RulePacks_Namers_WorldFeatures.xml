@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <WorldFeatureNamerCommon.rulePack.rulesStrings>
+    <li>r_name->[metaprefix] [standardname]</li>
+    <li>r_name(p=0.05)->[storyname] [terrain_word]</li>
+    <li>standardname->[narrative_name] [terrain_word]</li>
+    <li>metaprefix(p=10)-></li>
+    <li>metaprefix->[Direction]</li>
+    <li>metaprefix->[basic_adjective]</li>
+    <li>basic_adjective->gran</li>
+    <li>basic_adjective->major</li>
+    <li>basic_adjective->menor</li>
+    <li>basic_adjective->gran</li>
+    <li>basic_adjective->nou</li>
+    <li>basic_adjective->vell</li>
+    <li>narrative_name(p=12)->[WordTribal]</li>
+    <li>narrative_name(p=12)->[PlaceOutlander]</li>
+    <li>narrative_name->[Color][NaturalObject]</li>
+    <li>narrative_name->[AdjectiveNatural][BodyPart]</li>
+    <li>narrative_name->[Animal]</li>
+    <li>narrative_name->[Color]</li>
+    <li>narrative_name->[Animal][Color]</li>
+    <li>narrative_name->[Animal][AdjectiveNatural]</li>
+    <li>narrative_name->[BodyPart][Animal]</li>
+    <li>narrative_name->[Animal] [Color]</li>
+    <li>narrative_name->[Animal] [AdjectiveNatural]</li>
+    <li>narrative_name->[BodyPart][Animal]</li>
+    <li>storyname(p=50)->[maybe_basic_adjective] [story_result] de [subject]</li>
+    <li>storyname(p=2)->[BodyPart] de [subject]</li>
+    <li>storyname->[Gore] de [subject]</li>
+    <li>maybe_basic_adjective-></li>
+    <li>maybe_basic_adjective(p=0.1)->[basic_adjective]</li>
+    <li>subject(p=5)->[NamePerson]</li>
+    <li>subject->[Animal]</li>
+    <li>subject->[WordTribal]</li>
+    <li>subject->[PlaceOutlander]</li>
+    <li>story_result->ximpleria</li>
+    <li>story_result->vici</li>
+    <li>story_result->demència</li>
+    <li>story_result->equivocació</li>
+    <li>story_result->error</li>
+    <li>story_result->entrebanc</li>
+    <li>story_result->engany</li>
+    <li>story_result->alegria</li>
+    <li>story_result->plaer</li>
+    <li>story_result->meravella</li>
+    <li>story_result->orgull</li>
+    <li>story_result->joia</li>
+    <li>story_result->premi</li>
+    <li>story_result->recompensa</li>
+    <li>story_result->honor</li>
+    <li>story_result->premi</li>
+    <li>story_result->trofeu</li>
+    <li>story_result->supèrbia</li>
+    <li>story_result->arrogància</li>
+    <li>story_result->defensa</li>
+    <li>story_result->pèrdua</li>
+    <li>story_result->deute</li>
+    <li>story_result->enfonsament</li>
+    <li>story_result->destrucció</li>
+    <li>story_result->desastre</li>
+    <li>story_result->ruïna</li>
+    <li>story_result->perdició</li>
+    <li>story_result->desfeta</li>
+    <li>story_result->caiguda</li>
+    <li>story_result->fi</li>
+    <li>story_result->retir</li>
+    <li>story_result->proesa</li>
+    <li>story_result->final</li>
+    <li>story_result->engany</li>
+    <li>story_result->trampa</li>
+    <li>story_result->decepció</li>
+    <li>story_result->mentida</li>
+    <li>story_result->frau</li>
+  </WorldFeatureNamerCommon.rulePack.rulesStrings>
+
+  <NamerMountainRange.rulePack.rulesStrings>
+    <li>standardname(p=0.2)->mont[narrative_name]</li>
+    <li>terrain_word(p=5)->muntanyes</li>
+    <li>terrain_word(p=2)->serra</li>
+    <li>terrain_word->pics</li>
+    <li>terrain_word->turons</li>
+    <li>terrain_word->penya-segats</li>
+  </NamerMountainRange.rulePack.rulesStrings>
+
+  <NamerArchipelago.rulePack.rulesStrings>
+    <li>standardname(p=0.2)->illa [narrative_name]</li>
+    <li>terrain_word(p=4)->illes</li>
+    <li>terrain_word(p=3)->illots</li>
+    <li>terrain_word(p=3)->arxipèlag</li>
+    <li>terrain_word->escull</li>
+    <li>terrain_word->atol·ló</li>
+    <li>terrain_word->roques</li>
+    <li>terrain_word->illetes</li>
+    <li>terrain_word->punts</li>
+    <li>terrain_word->cadena</li>
+  </NamerArchipelago.rulePack.rulesStrings>
+
+  <NamerIsland.rulePack.rulesStrings>
+    <li>standardname(p=0.2)->illa [narrative_name]</li>
+    <li>terrain_word(p=4)->illa</li>
+    <li>terrain_word(p=2)->illa</li>
+    <li>terrain_word->escull</li>
+    <li>terrain_word->atol·ló</li>
+    <li>terrain_word->roca</li>
+    <li>terrain_word->illeta</li>
+    <li>terrain_word->punt</li>
+  </NamerIsland.rulePack.rulesStrings>
+
+  <NamerPeninsula.rulePack.rulesStrings>
+    <li>standardname(p=0.2)->punta [narrative_name]</li>
+    <li>standardname(p=0.2)->cap [narrative_name]</li>
+    <li>terrain_word(p=5)->península</li>
+    <li>terrain_word(p=2)->punta</li>
+    <li>terrain_word->cap</li>
+    <li>terrain_word->promontori</li>
+    <li>terrain_word->banya</li>
+  </NamerPeninsula.rulePack.rulesStrings>
+
+  <NamerBay.rulePack.rulesStrings>
+    <li>standardname(p=0.2)->golf de [narrative_name]</li>
+    <li>terrain_word(p=6)->badia</li>
+    <li>terrain_word->cala</li>
+    <li>terrain_word->golf</li>
+    <li>terrain_word->ancoratge</li>
+    <li>terrain_word->cova</li>
+  </NamerBay.rulePack.rulesStrings>
+
+  <NamerLake.rulePack.rulesStrings>
+    <li>standardname->llac [narrative_name]</li>
+    <li>terrain_word(p=6)->llac</li>
+    <li>terrain_word->mar</li>
+    <li>terrain_word->estany</li>
+    <li>terrain_word->bassa</li>
+    <li>terrain_word->reserva</li>
+    <li>terrain_word(p=0.3)->bassal</li>
+    <li>terrain_word(p=0.3)->albufera</li>
+    <li>terrain_word(p=0.3)->llacuna</li>
+  </NamerLake.rulePack.rulesStrings>
+
+  <NamerSea.rulePack.rulesStrings>
+    <li>standardname(p=0.1)->llac [narrative_name]</li>
+    <li>terrain_word(p=6)->mar</li>
+    <li>terrain_word->oceà</li>
+    <li>terrain_word->llac</li>
+  </NamerSea.rulePack.rulesStrings>
+
+  <NamerOcean.rulePack.rulesStrings>
+    <li>standardname(p=0.4)->[ocean_adjective] [narrative_name]</li>
+    <li>ocean_adjective->blau</li>
+    <li>ocean_adjective->blanc</li>
+    <li>ocean_adjective->gris</li>
+    <li>ocean_adjective->clar</li>
+    <li>ocean_adjective->ventós</li>
+    <li>ocean_adjective->de tempesta</li>
+    <li>ocean_adjective->calmat</li>
+    <li>ocean_adjective->ample</li>
+    <li>ocean_adjective->infinit</li>
+    <li>ocean_adjective->pla</li>
+    <li>ocean_adjective->tranquil</li>
+    <li>ocean_adjective->d’onades</li>
+    <li>ocean_adjective->suau</li>
+    <li>terrain_word(p=6)->oceà</li>
+    <li>terrain_word(p=3)->mar</li>
+    <li>terrain_word->extensió</li>
+  </NamerOcean.rulePack.rulesStrings>
+
+  <NamerDesert.rulePack.rulesStrings>
+    <li>standardname(p=0.4)->[narrative_name] [desert_adjective]</li>
+    <li>desert_adjective->pla</li>
+    <li>desert_adjective->blanc</li>
+    <li>desert_adjective->infinit</li>
+    <li>desert_adjective->cruel</li>
+    <li>desert_adjective->ressec</li>
+    <li>desert_adjective->sec</li>
+    <li>desert_adjective->llarg</li>
+    <li>desert_adjective->torrat</li>
+    <li>desert_adjective->assolellat</li>
+    <li>desert_adjective->encegador</li>
+    <li>desert_adjective->calent</li>
+    <li>desert_adjective->suorós</li>
+    <li>desert_adjective->sorrenc</li>
+    <li>desert_adjective->pedregós</li>
+    <li>terrain_word(p=6)->desert</li>
+    <li>terrain_word->altiplà</li>
+    <li>terrain_word->plana</li>
+    <li>terrain_word->olla</li>
+    <li>terrain_word->àrid</li>
+    <li>terrain_word->ermot</li>
+    <li>terrain_word->erm</li>
+  </NamerDesert.rulePack.rulesStrings>
+
+  <NamerSwamp.rulePack.rulesStrings>
+    <li>standardname(p=0.1)->fangar [narrative_name]</li>
+    <li>standardname(p=0.3)->[narrative_name] [swamp_adjective]</li>
+    <li>swamp_adjective->humit</li>
+    <li>swamp_adjective->vaporós</li>
+    <li>swamp_adjective->asfixiant</li>
+    <li>swamp_adjective->florit</li>
+    <li>swamp_adjective->podrit</li>
+    <li>swamp_adjective->abandonat</li>
+    <li>swamp_adjective->enredat</li>
+    <li>swamp_adjective->embrancat</li>
+    <li>swamp_adjective->espinós</li>
+    <li>terrain_word(p=6)->pantà</li>
+    <li>terrain_word->cassola</li>
+    <li>terrain_word->zona humida</li>
+    <li>terrain_word->bassal</li>
+    <li>terrain_word->aiguall</li>
+    <li>terrain_word->aiguamoll</li>
+    <li>terrain_word->fangar</li>
+  </NamerSwamp.rulePack.rulesStrings>
+
+  <NamerTropicalRainforest.rulePack.rulesStrings>
+    <li>standardname(p=0.3)->[narrative_name] [rainforest_adjective]</li>
+    <li>rainforest_adjective->humit</li>
+    <li>rainforest_adjective->vaporós</li>
+    <li>rainforest_adjective->asfixiant</li>
+    <li>rainforest_adjective->abandonat</li>
+    <li>rainforest_adjective->enredat</li>
+    <li>rainforest_adjective->embrancat</li>
+    <li>rainforest_adjective->espinós</li>
+    <li>terrain_word(p=6)->selva</li>
+    <li>terrain_word(p=3)->jungla</li>
+    <li>terrain_word->bosc</li>
+    <li>terrain_word->forest</li>
+    <li>terrain_word->arbreda</li>
+    <li>terrain_word->boscúria</li>
+  </NamerTropicalRainforest.rulePack.rulesStrings>
+
+  <NamerForest.rulePack.rulesStrings>
+    <li>terrain_word(p=6)->bosc</li>
+    <li>terrain_word->forest</li>
+    <li>terrain_word->arbreda</li>
+    <li>terrain_word->matollar</li>
+  </NamerForest.rulePack.rulesStrings>
+
+  <NamerBorealForest.rulePack.rulesStrings>
+    <li>terrain_word(p=6)->bosc</li>
+    <li>terrain_word(p=3)->taigà</li>
+    <li>terrain_word->forest</li>
+    <li>terrain_word->arbreda</li>
+    <li>terrain_word->bosqueró</li>
+    <li>terrain_word->boscúria</li>
+    <li>terrain_word->matollar</li>
+  </NamerBorealForest.rulePack.rulesStrings>
+
+  <NamerAridShrubland.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->matollar</li>
+    <li>terrain_word(p=4)->garriga</li>
+    <li>terrain_word(p=2)->altiplà</li>
+    <li>terrain_word(p=2)->farda</li>
+    <li>terrain_word->desert</li>
+    <li>terrain_word->bruguerar</li>
+    <li>terrain_word->màquina</li>
+    <li>terrain_word->secà</li>
+  </NamerAridShrubland.rulePack.rulesStrings>
+
+  <NamerIceSheet.rulePack.rulesStrings>
+    <li>terrain_word->placa</li>
+    <li>terrain_word->paratge</li>
+    <li>terrain_word(p=0.5)->cornisa</li>
+    <li>terrain_word(p=0.3)->glacera</li>
+    <li>terrain_word(p=0.3)->gelera</li>
+    <li>terrain_word(p=0.3)->congesta</li>
+    <li>terrain_word(p=0.3)->canal</li>
+    <li>terrain_word(p=0.3)->llenca</li>
+  </NamerIceSheet.rulePack.rulesStrings>
+
+  <NamerTundra.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->altiplà</li>
+    <li>terrain_word(p=4)->ermot</li>
+    <li>terrain_word(p=2)->taigà</li>
+    <li>terrain_word->matollar</li>
+    <li>terrain_word->garriga</li>
+    <li>terrain_word->esplanada</li>
+    <li>terrain_word->camp</li>
+    <li>terrain_word->secà</li>
+    <li>terrain_word->erm</li>
+    <li>terrain_word->terrós</li>
+    <li>terrain_word->prada</li>
+    <li>terrain_word->plans</li>
+  </NamerTundra.rulePack.rulesStrings>
+
+
+</LanguageData>
