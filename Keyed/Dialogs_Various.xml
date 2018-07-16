@@ -4,6 +4,7 @@
   <Confirm>Confirma</Confirm>
   <GoBack>Torna</GoBack>
   <OK>D'acord</OK>
+  <Close>Tanca</Close>
   
   <!-- Game updated to new version -->
   <GameUpdatedToNewVersionInitial>RimWorld s'ha actualitzat de la versió {0} a la versió {1}.\n\nAlgunes partides desades i mods de versions més antigues podrien deixar de funcionar.</GameUpdatedToNewVersionInitial>
@@ -171,6 +172,8 @@
 
   <!-- Info card -->
   <Damage>Dany</Damage>
+  <ArmorPenetration>Penetració d’armadura</ArmorPenetration>
+  <ArmorPenetrationExplanation>Penetració d’armadura és el valor d’armadura que ignorarà quan toqui un objectiu.\n\nSi la penetració d’armadura és superior a l’armadura de l’objectiu, és com si aquest no portés cap armadura. Si no, la penetració d’armadura es resta de l’armadura de l’objectiu.</ArmorPenetrationExplanation>
   <Accuracy>Precisió</Accuracy>
   <BurstShotCount>Bales per ràfega</BurstShotCount>
   <WarmupTime>Temps entre trets</WarmupTime>
@@ -180,6 +183,8 @@
   <Range>Rang</Range>
   <StoppingPower>Força d’aturada</StoppingPower>
   <StoppingPowerExplanation>Els impactes d’aquesta arma atordiran els objectius, alentint-ne els moviments durant uns segons. Els objectius més grans que la força d’atur no es veuran afectats.</StoppingPowerExplanation>
+  <DirectHitChance>Probabilitat d’impacte directe</DirectHitChance>
+  <MissRadius>Radi de desviació</MissRadius>
   <GrowsWild>Creix salvatge</GrowsWild>
   <Harvestable>Es pot collir</Harvestable>
   <LimitedLifespan>Esperança de vida limitada</LimitedLifespan>
@@ -426,7 +431,7 @@
 
 <ConfirmAbandonHomeNegativeThoughts_Everyone>Tothom:</ConfirmAbandonHomeNegativeThoughts_Everyone>
 
-  <!-- Move caravan and leave prisoners and animals behind →
+  <!-- Move caravan and leave prisoners and animals behind -->
   <ConfirmMoveAutoJoinableCaravan>Hi ha animals i presoners que es volen unir a la caravana. Si la moveu, ja no ho podran fer.\n\nEls animals, presoners o colons abatuts que es quedin al mapa sense cap colon amb prou salut es consideraran abandonats i podran ser capturats pels enemics.\n\nEsteu segur que voleu moure la caravana?</ConfirmMoveAutoJoinableCaravan>
 
   <!-- Abandon pawn -->

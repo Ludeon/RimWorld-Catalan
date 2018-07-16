@@ -15,14 +15,11 @@
   <AnimalJaw.label>mandíbula</AnimalJaw.label>
   <Jowl.label>galta</Jowl.label>
   <Tail.label>cua</Tail.label>
-  <LeftAntenna.label>antena esquerra</LeftAntenna.label>
-  <RightAntenna.label>antena dreta</RightAntenna.label>
+  <Antenna.label>antena</Antenna.label>
   <Pronotum.label>pronot</Pronotum.label>
   <Shell.label>closca</Shell.label>
-  <LeftElytra.label>èlitre esquer</LeftElytra.label>
-  <RightElytra.label>èlitre dret</RightElytra.label>
-  <LeftTusk.label>ullal esquer</LeftTusk.label>
-  <RightTusk.label>ullal dret</RightTusk.label>
+  <Elytra.label>èlitre</Elytra.label>
+  <Tusk.label>ullal</Tusk.label>
   <Trunk.label>trompa</Trunk.label>
   <Horn.label>banya</Horn.label>
   <HeadClaw.label>mandíbula</HeadClaw.label>
@@ -32,48 +29,26 @@
   <TurtleBeak.label>bec</TurtleBeak.label>
 
 
-  <!-- animals legs -->
+  <!--===================== Insect legs =====================-->
 
-  <FrontLeftLeg.label>pota esquerra de davant</FrontLeftLeg.label>
-  <FrontRightLeg.label>pota dreta de davant</FrontRightLeg.label>
-  <MiddleLeftLeg.label>pota esquerra del mig</MiddleLeftLeg.label>
-  <MiddleRightLeg.label>pota dreta del mig</MiddleRightLeg.label>
-  <RearLeftLeg.label>pota esquerra de darrere</RearLeftLeg.label>
-  <RearRightLeg.label>pota dreta de darrere</RearRightLeg.label>
-  <FrontLeftInsectLeg.label>pota esquerra de davant</FrontLeftInsectLeg.label>
-  <FrontRightInsectLeg.label>pota dreta de davant</FrontRightInsectLeg.label>
-  <MiddleLeftInsectLeg.label>pota esquerra del mig</MiddleLeftInsectLeg.label>
-  <MiddleRightInsectLeg.label>pota dreta del mig</MiddleRightInsectLeg.label>
-  <RearLeftInsectLeg.label>pota esquerra de darrere</RearLeftInsectLeg.label>
-  <RearRightInsectLeg.label>pota dreta de darrere</RearRightInsectLeg.label>
-  <FrontLeftPaw.label>peu esquerre de davant</FrontLeftPaw.label>
-  <FrontRightPaw.label>peu dret de davant</FrontRightPaw.label>
-  <RearLeftPaw.label>peu esquerre de darrere</RearLeftPaw.label>
-  <RearRightPaw.label>peu dret de darrere</RearRightPaw.label>
-  <FrontLeftHoof.label>peülla esquerra de davant</FrontLeftHoof.label>
-  <FrontRightHoof.label>peülla dreta de davant</FrontRightHoof.label>
-  <RearLeftHoof.label>peülla esquerra de darrere</RearLeftHoof.label>
-  <RearRightHoof.label>peülla dreta de darrere</RearRightHoof.label>
-  <FrontLeftLegFirstClaw.label>1a urpa de la pota esquerra de davant</FrontLeftLegFirstClaw.label>
-  <FrontLeftLegSecondClaw.label>2a urpa de la pota esquerra de davant</FrontLeftLegSecondClaw.label>
-  <FrontLeftLegThirdClaw.label>3a urpa de la pota esquerra de davant</FrontLeftLegThirdClaw.label>
-  <FrontLeftLegFourthClaw.label>4a urpa de la pota esquerra de davant</FrontLeftLegFourthClaw.label>
-  <FrontLeftLegFifthClaw.label>5a urpa de la pota esquerra de davant</FrontLeftLegFifthClaw.label>
-  <FrontRightLegFirstClaw.label>1a urpa de la pota dreta de davant</FrontRightLegFirstClaw.label>
-  <FrontRightLegSecondClaw.label>2a urpa de la pota dreta de davant</FrontRightLegSecondClaw.label>
-  <FrontRightLegThirdClaw.label>3a urpa de la pota dreta de davant</FrontRightLegThirdClaw.label>
-  <FrontRightLegFourthClaw.label>4a urpa de la pota dreta de davant</FrontRightLegFourthClaw.label>
-  <FrontRightLegFifthClaw.label>5a urpa de la pota dreta de davant</FrontRightLegFifthClaw.label>
-  <RearLeftLegFirstClaw.label>1a urpa de la pota esquerra de darrere</RearLeftLegFirstClaw.label>
-  <RearLeftLegSecondClaw.label>2a urpa de la pota esquerra de darrere</RearLeftLegSecondClaw.label>
-  <RearLeftLegThirdClaw.label>3a urpa de la pota esquerra de darrere</RearLeftLegThirdClaw.label>
-  <RearLeftLegFourthClaw.label>4a urpa de la pota esquerra de darrere</RearLeftLegFourthClaw.label>
-  <RearLeftLegFifthClaw.label>5a urpa de la pota esquerra de darrere</RearLeftLegFifthClaw.label>
-  <RearRightLegFirstClaw.label>1a urpa de la pota dreta de darrere</RearRightLegFirstClaw.label>
-  <RearRightLegSecondClaw.label>2a urpa de la pota dreta de darrere</RearRightLegSecondClaw.label>
-  <RearRightLegThirdClaw.label>3a urpa de la pota dreta de darrere</RearRightLegThirdClaw.label>
-  <RearRightLegFourthClaw.label>4a urpa de la pota dreta de darrere</RearRightLegFourthClaw.label>
-  <RearRightLegFifthClaw.label>5a urpa de la pota dreta de darrere</RearRightLegFifthClaw.label>
+  <InsectLeg.label>pota</InsectLeg.label>
+
+
+  <!--===================== Paws =====================-->
+
+  <Paw.label>peu</Paw.label>
+
+
+  <!--===================== Hoofs =====================-->
+
+  <Hoof.label>peülla</Hoof.label>
+
+  <FrontClaw.label>urpa de davant</FrontClaw.label>
+  <FrontClaw.labelShort>urpa</FrontClaw.labelShort>
+
+  <RearClaw.label>urpa de darrere</RearClaw.label>
+  <RearClaw.labelShort>urpa</RearClaw.labelShort>
+
 
 
 </LanguageData>
