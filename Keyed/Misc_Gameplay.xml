@@ -73,7 +73,9 @@
   <CurrentRadius>radi actual</CurrentRadius>
   <RadiusExpandsIn>el radi s'expandeix d'aquí a</RadiusExpandsIn>
   <Permanent>permanent</Permanent>
-  <CaravanResting>Descansa.</CaravanResting>
+  <CaravanResting>Descansa</CaravanResting>
+  <UsingBedroll>es fa servir 1 sac</UsingBedroll>
+  <UsingBedrolls>es fan servir {0} sac</UsingBedrolls>
   <CaravanEstimatedTimeToDestination>Temps est. fins al destí: {0}</CaravanEstimatedTimeToDestination>
   <CaravanEstimatedDaysToDestination>Dies est. per arribar: {0}</CaravanEstimatedDaysToDestination>
   <CaravanImmobilizedByMass>Aturat: massa pes.</CaravanImmobilizedByMass>
@@ -92,6 +94,8 @@
   <CaravanTraveling>Viatjant.</CaravanTraveling>
   <CaravanPaused>En pausa.</CaravanPaused>
   <CaravanWaiting>Esperant.</CaravanWaiting>
+  <BeingCarriedDueToIllness>Transportat per malaltia</BeingCarriedDueToIllness>
+  <UsingBedrollsDueToIllness>Empra sac de dormir per malaltia</UsingBedrollsDueToIllness>
   <CurrentTileMovementTime>velocitat actual</CurrentTileMovementTime>
   <Visibility>Visibilitat</Visibility>
   <Temperature>Temperatura</Temperature>
@@ -143,7 +147,6 @@
   <KnownSiteThreatsNone>Perills: cap.</KnownSiteThreatsNone>
   <SkillRequirements>Capacitats necessàries</SkillRequirements>
   <Products>Productes</Products>
-  <DeepDrillExhausted>Els recursos del perforador s’ha esgotat.</DeepDrillExhausted>
   <Relationship>{0} de {1}</Relationship>
   <Prisoner>Presoner</Prisoner>
   <Refugee>Refugiat</Refugee>
@@ -151,6 +154,7 @@
   <Impassable>Infranquejable</Impassable>
   <CaravanMovementSpeedFull>Velocitat de moviment de la caravana</CaravanMovementSpeedFull>
   <DownedLower>malferit</DownedLower>
+  <Carried>carregat</Carried>
   <AverageCaravanMemberMoveSpeed>Moviment mitjà de les persones</AverageCaravanMemberMoveSpeed>
   <MultiplierForCarriedMass>Multiplicador per pes portat: {0}</MultiplierForCarriedMass>
   <FinalCaravanPawnsMovementSpeed>Velocitat dels membres de la caravana</FinalCaravanPawnsMovementSpeed>
@@ -170,6 +174,8 @@
   <ProximitySingleGoodwillChange>{0} amb {1}</ProximitySingleGoodwillChange>
   <EnterCooldown>No podeu tornar a entrar fins d’aquí a {0} dies.</EnterCooldown>
   <Caravan>Caravana</Caravan>
+  <HiddenOrNoSitePartDescription>Hi pot haver perills</HiddenOrNoSitePartDescription>
+  <PreciousLumpLabel>mena de {0}</PreciousLumpLabel>
 
   <!-- Fermentation barrel -->
   <ContainsWort>Conté {0} / {1} most.</ContainsWort>
@@ -432,10 +438,12 @@
   <MustPlaceNearFuelingPort>S'ha de posar al costat d'un carregador de fuel per a llançador de càpsules.</MustPlaceNearFuelingPort>
   <MustPlaceOnDrillable>S’ha de posar sobre recursos extraïbles.</MustPlaceOnDrillable>
 
-	
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Bloquejat per</WindTurbine_WindPathIsBlockedBy>
   <WindTurbine_WindPathIsBlockedByRoof>Bloquejat per teulada</WindTurbine_WindPathIsBlockedByRoof>
+
+  <!-- Watermill generator -->
+  <Watermill_WaterUsedTwice>Cabal reduït: Turbulència deguda a un altre molí</Watermill_WaterUsedTwice>
 
   <!-- Cryptosleep casket -->
   <CasketContains>Conté</CasketContains>
@@ -535,7 +543,8 @@
   <!-- Deep drill -->
   <ProgressToNextLump>Progrés fins a la següent veta</ProgressToNextLump>
   <ResourceBelow>Recursos a sota</ResourceBelow>
-  <DeepDrillNoResources>No hi ha recursos a sota.</DeepDrillNoResources>
+  <ProgressToNextPortion>Progrés per la següent extracció</ProgressToNextPortion>
+  <DeepDrillNoResources>No queden recursos.</DeepDrillNoResources>
   <DeepDrillExhausted>S’han esgotat els recursos del perforador i s’ha prohibit de manera automàtica. Habiliteu per minar {0}.</DeepDrillExhausted>
   <DeepDrillExhaustedNoFallback>’han esgotat els recursos del perforador.</DeepDrillExhaustedNoFallback>
 
