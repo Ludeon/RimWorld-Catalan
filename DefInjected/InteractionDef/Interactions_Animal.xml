@@ -1,37 +1,92 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <AnimalChat.label>xerrada animal</AnimalChat.label>
-	<AnimalChat.logRulesInitiator.rulesStrings>
-		<li>logentry->S'ha comunicat amb [other_nameShortIndef], s'intenta establir una relació.</li>
-	</AnimalChat.logRulesInitiator.rulesStrings>
-	<AnimalChat.logRulesRecipient.rulesStrings>
-		<li>logentry->Ha respost a la comunicació amistosa de [other_nameShortIndef].</li>
-	</AnimalChat.logRulesRecipient.rulesStrings>
-
-  <TrainAttempt.label>intent d'entrenament</TrainAttempt.label>
-	<TrainAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->Ha entrenat a [other_nameShortIndef].</li>
-	</TrainAttempt.logRulesInitiator.rulesStrings>
-	<TrainAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->[other_nameShortIndef] l'ha entrenat.</li>
-	</TrainAttempt.logRulesRecipient.rulesStrings>
+  <AnimalChat.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] [tamed] a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] seu al costat de [RECIPIENT_nameDef] i parla amb si mateix sobre [TalkTopicAny].</li>
+    <li>r_logentry->[INITIATOR_nameDef] s’acosta a [RECIPIENT_nameDef] xiuxiuejant per si mateix sobre [TalkTopicAny].</li>
+    <li>r_logentry->[INITIATOR_nameDef] s’acosta prop de [RECIPIENT_nameDef] parlant sol de [TalkTopicAny].</li>
+    <li>tamed->ha fet sorolls tranquil·litzador a</li>
+    <li>tamed->ha fet gestos lents i amistosos a</li>
+    <li>tamed->ha fet shht a</li>
+    <li>tamed->ha fet sorollets amb la llengua a</li>
+    <li>tamed->ha fet gestos lents i s’ha acostat a</li>
+    <li>tamed->s’ha acostat lentament a</li>
+    <li>tamed->ha acaronat a</li>
+    <li>tamed->ha calmat i animat a</li>
+    <li>tamed->ha sincronitzat la respiració amb</li>
+    <li>tamed->s’ha acotat per acostar-se a</li>
+    <li>tamed->no ha mostrat por de</li>
+    <li>tamed->ha fet veure que no feia cas de</li>
+    <li>tamed->ha murmurejat una cançó a</li>
+    <li>tamed->ha cantat una antiga cançó de bressol a</li>
+    <li>tamed->ha tocat suaument però amb fermesa a</li>
+    <li>tamed->ha tingut una actitud relaxada cap a</li>
+    <li>tamed->s’ha assegut pacientment a prop de</li>
+    <li>tamed->ha xiuxiuejat una història sobre [TalkTopicAny] a</li>
+  </AnimalChat.logRulesInitiator.rulesStrings>
 
   <TameAttempt.label>intent de doma</TameAttempt.label>
-	<TameAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->Ha intentat domar a [other_nameShortIndef].</li>
-	</TameAttempt.logRulesInitiator.rulesStrings>
-	<TameAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->Observa com [other_nameShortIndef] li fa un intent de doma.</li>
-	</TameAttempt.logRulesRecipient.rulesStrings>
+  <TameAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] ha intentat domar a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha provat de controlar a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha intentat posar un collar a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha demanat obediència a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha cridat a [RECIPIENT_nameDef] perquè se li acosti.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha intentat fer seure [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha agafat bruscament a [RECIPIENT_nameDef] i li ha cridat una ordre.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha intentat de mantenir quiet a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha cridat una ordre a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha picat [RECIPIENT_nameDef] per ensenyar-li qui mana.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha fet anar a [RECIPIENT_nameDef] cap al campament.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha cridat [RECIPIENT_nameDef] perquè torni al campament.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha tocat una part sensible de [RECIPIENT_nameDef], per demanar-li obediència.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha senyalat el terra demanant a [RECIPIENT_nameDef] que se li acosti.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha donat [RECIPIENT_nameDef] una primera ordre.</li>
+  </TameAttempt.logRulesInitiator.rulesStrings>
+
+  <TrainAttempt.label>intent d'entrenament</TrainAttempt.label>
+  <TrainAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [trained] [RECIPIENT_nameDef].</li>
+    <li>trained(p=2)->[tried] entrenar a</li>
+    <li>trained->[tried] ensenyar un nou truc a</li>
+    <li>trained->[tried] ensenyar disciplina a</li>
+    <li>trained->[tried] instruir a</li>
+    <li>trained->[tried] induir una nou comprotament a</li>
+    <li>trained->imitar una capacitat a</li>
+    <li>trained->induir una nova resposta de</li>
+    <li>tried->ha intentat</li>
+    <li>tried->a provat de</li>
+  </TrainAttempt.logRulesInitiator.rulesStrings>
 
   <Nuzzle.label>acarona amb el morro</Nuzzle.label>
-	<Nuzzle.logRulesInitiator.rulesStrings>
-		<li>logentry->Ha acaronat amb el morro a [other_nameShortIndef].</li>
-	</Nuzzle.logRulesInitiator.rulesStrings>
-	<Nuzzle.logRulesRecipient.rulesStrings>
-		<li>logentry->[other_nameShortIndef] l'ha acaronat amb el morro.</li>
-	</Nuzzle.logRulesRecipient.rulesStrings>
+  <Nuzzle.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzled] [nuzzleadverb] a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] fregat el nas [nuzzleadverb] contra [rubbedpart] de [RECIPIENT_nameDef].</li>
+    <li>nuzzled(p=2)->ha acaronat amb el morro </li>
+    <li>nuzzled->ha llepat</li>
+    <li>nuzzleadverb(p=4)-></li>
+    <li>nuzzleadverb->suaument</li>
+    <li>nuzzleadverb->animant</li>
+    <li>nuzzleadverb->de manera alegre</li>
+    <li>nuzzleadverb->dolçament</li>
+    <li>nuzzleadverb->en senyal de suport</li>
+    <li>nuzzleadverb->lleugerament</li>
+    <li>nuzzleadverb->calorosament</li>
+    <li>nuzzleadverb->amb un xisclet</li>
+    <li>nuzzleadverb->amorosament</li>
+    <li>nuzzleadverb->afectuosament</li>
+    <li>rubbedpart->la cama</li>
+    <li>rubbedpart->el genoll</li>
+    <li>rubbedpart->el peu</li>
+    <li>rubbedpart->el turmell</li>
+    <li>rubbedpart->la cintura</li>
+    <li>rubbedpart->l’espatlla</li>
+    <li>rubbedpart->la mà</li>
+    <li>rubbedpart->el costat</li>
+    <li>rubbedpart->el braç</li>
+  </Nuzzle.logRulesInitiator.rulesStrings>
 
 
 </LanguageData>
