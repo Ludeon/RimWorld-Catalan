@@ -1,20 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Item hauling -->
+  <!--============= Item hauling ===============-->
 
   <HaulToCell.reportString>recull TargetA.</HaulToCell.reportString>
   <HaulToContainer.reportString>aplega TargetA.</HaulToContainer.reportString>
 
 
-  <!-- Special hauling -->
+  <!--============= Special hauling ===============-->
 
   <Steal.reportString>roba TargetA.</Steal.reportString>
   <Kidnap.reportString>rapta a TargetA.</Kidnap.reportString>
   <CarryDownedPawnToExit.reportString>s'emporta a TargetA.</CarryDownedPawnToExit.reportString>
 
 
-  <!-- Pawn hauling -->
+  <!--============= Pawn hauling ===============-->
 
   <Rescue.reportString>rescata a TargetA.</Rescue.reportString>
   <CarryToCryptosleepCasket.reportString>porta a TargetA al cofre de criptoson.</CarryToCryptosleepCasket.reportString>
@@ -26,7 +26,7 @@
   <TakeToBedToOperate.reportString>porta a TargetA al llit.</TakeToBedToOperate.reportString>
 
 
-  <!-- Animal handling -->
+  <!--============= Animal handling ===============-->
 
   <Slaughter.reportString>escorxa a TargetA.</Slaughter.reportString>
   <Milk.reportString>muny a TargetA.</Milk.reportString>
@@ -35,7 +35,7 @@
   <Train.reportString>entrena a TargetA.</Train.reportString>
 
 
-  <!-- Construction and repair -->
+  <!--============= Construction and repair ===============-->
 
   <PlaceNoCostFrame.reportString>construeix TargetA.</PlaceNoCostFrame.reportString>
   <FinishFrame.reportString>construeix TargetA.</FinishFrame.reportString>
@@ -47,13 +47,12 @@
   <RemoveRoof.reportString>treu teulada.</RemoveRoof.reportString>
 
 
-  <!-- Medical -->
+  <!--============= Medical ===============-->
 
   <FeedPatient.reportString>alimenta TargetB amb TargetA.</FeedPatient.reportString>
   <TendPatient.reportString>atén a TargetA.</TendPatient.reportString>
 
-
-  <!-- Misc -->
+  <!--============= Misc ===============-->
 
   <DeliverFood.reportString>alimenta TargetB amb TargetA.</DeliverFood.reportString>
   <DoBill.reportString>treballa a TargetA.</DoBill.reportString>
@@ -64,14 +63,17 @@
   <UseCommsConsole.reportString>fa servir la consola de comunicacions.</UseCommsConsole.reportString>
   <Mine.reportString>mina a TargetA.</Mine.reportString>
   <SmoothFloor.reportString>aplana el terra.</SmoothFloor.reportString>
+  <SmoothWall.reportString>aplana la paret</SmoothWall.reportString>
   <RemoveFloor.reportString>aixeca el terra.</RemoveFloor.reportString>
   <Sow.reportString>cultiva TargetA.</Sow.reportString>
   <Harvest.reportString>recull TargetA.</Harvest.reportString>
+  <HarvestDesignated.reportString>TODO</HarvestDesignated.reportString>
   <CutPlant.reportString>talla TargetA.</CutPlant.reportString>
-  <PrisonerFriendlyChat.reportString>xerra a la presó amb TargetA.</PrisonerFriendlyChat.reportString>
+  <CutPlantDesignated.reportString>TODO</CutPlantDesignated.reportString>
+  <PrisonerFriendlyChat.reportString>xerra amb el presoner TargetA.</PrisonerFriendlyChat.reportString>
   <PrisonerAttemptRecruit.reportString>intenta reclutar a TargetA.</PrisonerAttemptRecruit.reportString>
   <PrisonerExecution.reportString>executa a TargetA.</PrisonerExecution.reportString>
-  <BuryCorpse.reportString>enterra a TargetA.</BuryCorpse.reportString>
+  <OperateScanner.reportString>fa servir l’escaner</OperateScanner.reportString>
 
 
 </LanguageData>

@@ -1,82 +1,157 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Nudist.degreeDatas.0.label>nudista</Nudist.degreeDatas.0.label>
-  <Nudist.degreeDatas.0.description>A [PAWN_nameDef] li agrada la sensació de llibertat que dona la nuesa. Pot portar roba, però serà més feliç sense.</Nudist.degreeDatas.0.description>
-
-  <Bloodlust.degreeDatas.0.label>sanguinari</Bloodlust.degreeDatas.0.label>
-  <Bloodlust.degreeDatas.0.description>[PAWN_nameDef] xala fent mal a la gent, i no li importa veure sang o gent morta. Té el doble de probabilitats d'iniciar una baralla.</Bloodlust.degreeDatas.0.description>
-
-  <Kind.degreeDatas.0.label>amabilitat</Kind.degreeDatas.0.label>
-  <Kind.degreeDatas.0.description>[PAWN_nameDef] és una bona persona. Té tendència a alegrar el dia a la gent i no insulta mai els altres.</Kind.degreeDatas.0.description>
-
-  <Psychopath.degreeDatas.0.label>psicòpata</Psychopath.degreeDatas.0.label>
-  <Psychopath.degreeDatas.0.description>[PAWN_nameDef] no té empatia. No li importa gens el patiment dels altres. No li fa res que s'escorxi la gent, que quedin sense enterrar, siguin empresonats o venuts a un esclavista, si no és que l'afecta directament. No li millora l'estat d'ànim quan socialitza.</Psychopath.degreeDatas.0.description>
-
-  <Cannibal.degreeDatas.0.label>caníbal</Cannibal.degreeDatas.0.label>
-  <Cannibal.degreeDatas.0.description>A [PAWN_nameDef] li van ensenyar que menjar carn humana és una cosa horrible. Però un cop, fa molt temps, en va provar... i li va agradar.</Cannibal.degreeDatas.0.description>
-
-  <Abrasive.degreeDatas.0.label>desagradable</Abrasive.degreeDatas.0.label>
-  <Abrasive.degreeDatas.0.description>[PAWN_nameDef] sempre diu el que pensa, sobretot si li molesta. Això sol molestar a la gent.</Abrasive.degreeDatas.0.description>
-
-  <TooSmart.degreeDatas.0.label>intel·ligència</TooSmart.degreeDatas.0.label>
-  <TooSmart.degreeDatas.0.description>[PAWN_nameDef] és més intel·ligent que la mitjana. Aprén les coses més ràpid que ningú, però als altres no els agrada les seves excentricitats.</TooSmart.degreeDatas.0.description>
-
-  <Brawler.degreeDatas.0.label>sarauista</Brawler.degreeDatas.0.label>
-  <Brawler.degreeDatas.0.description>A [PAWN_nameDef] li agrada la lluita corporal. La seva precisió millora en el combat cos a cos, però no li agradarà portar una arma a distància.</Brawler.degreeDatas.0.description>
-
-  <Masochist.degreeDatas.0.label>masoquista</Masochist.degreeDatas.0.label>
-  <Masochist.degreeDatas.0.description>A [PAWN_nameDef] li agrada que li facin mal. No sap per què, simplement és així.</Masochist.degreeDatas.0.description>
-
-  <Prosthophile.degreeDatas.0.label>protofília</Prosthophile.degreeDatas.0.label>
-  <Prosthophile.degreeDatas.0.description>[PAWN_nameDef] troba limitacions al seu feble cos humà. Somia en tenir alguna part biònica.</Prosthophile.degreeDatas.0.description>
-
-  <Prosthophobe.degreeDatas.0.label>protofobia</Prosthophobe.degreeDatas.0.label>
-  <Prosthophobe.degreeDatas.0.description>[PAWN_nameDef] creu que les limitacions del cos humà tenen les seves raons de ser. Pensa que les parts biòniques no són ètiques.</Prosthophobe.degreeDatas.0.description>
-
+  
+  <!-- EN: abrasive -->
+  <Abrasive.degreeDatas.abrasive.label>desagradable</Abrasive.degreeDatas.abrasive.label>
+  <!-- EN: [PAWN_nameDef] always says exactly what's on [PAWN_possessive] mind, especially if it's bugging [PAWN_objective]. That tends to rub people the wrong way. -->
+  <Abrasive.degreeDatas.abrasive.description>[PAWN_nameDef] sempre diu el que pensa, sobretot si li molesta. Això sol molestar a la gent.</Abrasive.degreeDatas.abrasive.description>
+  
+  <!-- EN: annoying voice -->
+  <AnnoyingVoice.degreeDatas.annoying_voice.label>veu estranya</AnnoyingVoice.degreeDatas.annoying_voice.label>
+  <!-- EN: [PAWN_nameDef]'s voice has a particularly grating, nasal quality to it, and [PAWN_pronoun] tends to talk in barked, garbled phrases. This predisposes others to dislike [PAWN_objective]. -->
+  <AnnoyingVoice.degreeDatas.annoying_voice.description>La veu de [PAWN_nameDef] és particularment rasposa i nasal i parla amb frases incoherents i difícils d'entendre. La gent no ho troba agradable.</AnnoyingVoice.degreeDatas.annoying_voice.description>
+  
+  <!-- EN: ascetic -->
+  <Ascetic.degreeDatas.ascetic.label>asceta</Ascetic.degreeDatas.ascetic.label>
+  <!-- EN: [PAWN_nameDef] prefers to live in asceticism. [PAWN_pronoun] will be put in a poor mood if [PAWN_pronoun] has a bedroom that's too impressive. [PAWN_pronoun] also dislikes fancy food and prefers to eat raw - and raw food won't bother [PAWN_objective] a bit. -->
+  <Ascetic.degreeDatas.ascetic.description>[PAWN_nameDef] s'estima més viure amb poca cosa. No li agradarà tenir una cambra massa luxosa. Tampoc li agrada el bon menjar i s'estima més menjar coses crues, i no li importa gens menjar-ne.</Ascetic.degreeDatas.ascetic.description>
+  
+  <!-- EN: bloodlust -->
+  <Bloodlust.degreeDatas.bloodlust.label>sanguinari</Bloodlust.degreeDatas.bloodlust.label>
+  <!-- EN: [PAWN_nameDef] gets a rush from hurting people, and never minds the sight of blood or death. [PAWN_pronoun] is four times as likely to start a social fight as others. -->
+  <Bloodlust.degreeDatas.bloodlust.description>[PAWN_nameDef] xala fent mal a la gent, i no li importa veure sang o gent morta. Té el doble de probabilitats d'iniciar una baralla.</Bloodlust.degreeDatas.bloodlust.description>
+  
+  <!-- EN: body purist -->
+  <BodyPurist.degreeDatas.body_purist.label>protofobia</BodyPurist.degreeDatas.body_purist.label>
+  <!-- EN: [PAWN_nameDef] believes the human body is limited for a reason. To [PAWN_objective], artificial body parts are unethical and disgusting. -->
+  <BodyPurist.degreeDatas.body_purist.description>[PAWN_nameDef] creu que les limitacions del cos humà tenen les seves raons de ser. Pensa que les parts biòniques no són ètiques.</BodyPurist.degreeDatas.body_purist.description>
+  
+  <!-- EN: brawler -->
+  <Brawler.degreeDatas.brawler.label>sarauista</Brawler.degreeDatas.brawler.label>
+  <!-- EN: [PAWN_nameDef] likes to fight up close and personal. [PAWN_possessive] accuracy is greatly increased in melee combat, but [PAWN_pronoun]'ll be very unhappy if asked to carry a ranged weapon. -->
+  <Brawler.degreeDatas.brawler.description>A [PAWN_nameDef] li agrada la lluita corporal. La seva precisió millora en el combat cos a cos, però no li agradarà portar una arma a distància.</Brawler.degreeDatas.brawler.description>
+  
+  <!-- EN: cannibal -->
+  <Cannibal.degreeDatas.cannibal.label>caníbal</Cannibal.degreeDatas.cannibal.label>
+  <!-- EN: [PAWN_nameDef] was taught that eating human meat is wrong and horrible. But one time, long ago, [PAWN_pronoun] tried it... and [PAWN_pronoun] liked it. -->
+  <Cannibal.degreeDatas.cannibal.description>A [PAWN_nameDef] li van ensenyar que menjar carn humana és una cosa horrible. Però un cop, fa molt temps, en va provar... i li va agradar.</Cannibal.degreeDatas.cannibal.description>
+  
+  <!-- EN: creepy breathing -->
+  <CreepyBreathing.degreeDatas.creepy_breathing.label>respiració estranya</CreepyBreathing.degreeDatas.creepy_breathing.label>
+  <!-- EN: [PAWN_nameDef] breathes heavily all the time, and sweats constantly. People find it creepy. -->
+  <CreepyBreathing.degreeDatas.creepy_breathing.description>[PAWN_nameDef] sua constantment i respira pesadament. La gent ho troba desagradable.</CreepyBreathing.degreeDatas.creepy_breathing.description>
+  
+  <!-- EN: misandrist -->
+  <DislikesMen.degreeDatas.misandrist.label>misàndria</DislikesMen.degreeDatas.misandrist.label>
+  <!-- EN: [PAWN_nameDef] really dislikes and distrusts men. -->
+  <DislikesMen.degreeDatas.misandrist.description>A [PAWN_nameDef] no li agraden gens els homes i desconfia d'ells.</DislikesMen.degreeDatas.misandrist.description>
+  
+  <!-- EN: misogynist -->
+  <DislikesWomen.degreeDatas.misogynist.label>misogínia</DislikesWomen.degreeDatas.misogynist.label>
+  <!-- EN: [PAWN_nameDef] really dislikes and distrusts women. -->
+  <DislikesWomen.degreeDatas.misogynist.description>A [PAWN_nameDef] no li agraden gens les dones i desconfia d'ells.</DislikesWomen.degreeDatas.misogynist.description>
+  
+  <!-- EN: fast learner -->
+  <FastLearner.degreeDatas.fast_learner.label>aprenentatge ràpid</FastLearner.degreeDatas.fast_learner.label>
+  <!-- EN: [PAWN_nameDef] has a knack for learning. [PAWN_pronoun] picks things up much faster than others. -->
+  <FastLearner.degreeDatas.fast_learner.description>[PAWN_nameDef] té facilitat per aprendre. Agafa les coses més raid que la resta.</FastLearner.degreeDatas.fast_learner.description>
+  
+  <!-- EN: gay -->
+  <Gay.degreeDatas.gay.label>homosexual</Gay.degreeDatas.gay.label>
+  <!-- EN: [PAWN_nameDef] is romantically attracted to people of [PAWN_possessive] own gender. -->
+  <Gay.degreeDatas.gay.description>[PAWN_nameDef] sent atracció per la gent del seu mateix sexe.</Gay.degreeDatas.gay.description>
+  
+  <!-- EN: gourmand -->
+  <Gourmand.degreeDatas.gourmand.label>TODO</Gourmand.degreeDatas.gourmand.label>
+  <!-- EN: [PAWN_nameDef]'s life revolves around food. [PAWN_pronoun] gets hungry quickly, and if [PAWN_pronoun] is in a bad mood, [PAWN_pronoun] will often satisfy [PAWN_objective]self by eating. -->
+  <Gourmand.degreeDatas.gourmand.description>TODO</Gourmand.degreeDatas.gourmand.description>
+  
+  <!-- EN: great memory -->
+  <GreatMemory.degreeDatas.great_memory.label>TODO</GreatMemory.degreeDatas.great_memory.label>
+  <!-- EN: [PAWN_nameDef] has a fantastic memory for detail. [PAWN_pronoun] will lose unused skills at half the rate of other people. -->
+  <GreatMemory.degreeDatas.great_memory.description>TODO</GreatMemory.degreeDatas.great_memory.description>
+  
+  <!-- EN: greedy -->
+  <Greedy.degreeDatas.greedy.label>cobdícia</Greedy.degreeDatas.greedy.label>
+  <!-- EN: [PAWN_nameDef] needs a really impressive bedroom. [PAWN_pronoun] gets a mood loss if [PAWN_pronoun] doesn't get what [PAWN_pronoun] wants. -->
+  <Greedy.degreeDatas.greedy.description>[PAWN_nameDef] necessita una cambra impressionant. L'estat d'ànim es veurà repercutit si no la pot tenir.</Greedy.degreeDatas.greedy.description>
+  
+  <!-- UNUSED -->
   <GreenThumb.degreeDatas.0.label>afició a la jardineria</GreenThumb.degreeDatas.0.label>
   <GreenThumb.degreeDatas.0.description>A [PAWN_nameDef] l'apassiona la jardineria. Té una bonificació a l'estat d'ànim cada cop que planta alguna cosa.</GreenThumb.degreeDatas.0.description>
-
-  <NightOwl.degreeDatas.0.label>nocturnitat</NightOwl.degreeDatas.0.label>
-  <NightOwl.degreeDatas.0.description>A [PAWN_nameDef] li agrada fer vida nocturna, i dormir durant el dia.\n\nTé una bonificació a l'estat d'ànim si manté activitat a la nit (23h-6h) i una penalització si ho fa durant el dia (11h-18h).</NightOwl.degreeDatas.0.description>
-
-  <Greedy.degreeDatas.0.label>cobdícia</Greedy.degreeDatas.0.label>
-  <Greedy.degreeDatas.0.description>[PAWN_nameDef] necessita una cambra impressionant. L'estat d'ànim es veurà repercutit si no la pot tenir.</Greedy.degreeDatas.0.description>
-
-  <Jealous.degreeDatas.0.label>gelosia</Jealous.degreeDatas.0.label>
-  <Jealous.degreeDatas.0.description>Per [PAWN_nameDef] és degradant tenir una cambra pitjor que la d'algú altre. Tindrà un estat d'ànim penalitzat si hi ha algun colon que tingui una cambra millor que la seva.</Jealous.degreeDatas.0.description>
-
-  <Ascetic.degreeDatas.0.label>asceta</Ascetic.degreeDatas.0.label>
-  <Ascetic.degreeDatas.0.description>[PAWN_nameDef] s'estima més viure amb poca cosa. No li agradarà tenir una cambra massa luxosa. Tampoc li agrada el bon menjar i s'estima més menjar coses crues, i no li importa gens menjar-ne.</Ascetic.degreeDatas.0.description>
-
-  <Gay.degreeDatas.0.label>homosexual</Gay.degreeDatas.0.label>
-  <Gay.degreeDatas.0.description>[PAWN_nameDef] sent atracció per la gent del seu mateix sexe.</Gay.degreeDatas.0.description>
-
-  <DislikesMen.degreeDatas.0.label>misàndria</DislikesMen.degreeDatas.0.label>
-  <DislikesMen.degreeDatas.0.description>A [PAWN_nameDef] no li agraden gens els homes i desconfia d'ells.</DislikesMen.degreeDatas.0.description>
-
-  <DislikesWomen.degreeDatas.0.label>misogínia</DislikesWomen.degreeDatas.0.label>
-  <DislikesWomen.degreeDatas.0.description>A [PAWN_nameDef] no li agraden gens les dones i desconfia d'ells.</DislikesWomen.degreeDatas.0.description>
-
-  <AnnoyingVoice.degreeDatas.0.label>veu estranya</AnnoyingVoice.degreeDatas.0.label>
-  <AnnoyingVoice.degreeDatas.0.description>La veu de [PAWN_nameDef] és particularment rasposa i nasal i parla amb frases incoherents i difícils d'entendre. La gent no ho troba agradable.</AnnoyingVoice.degreeDatas.0.description>
-
-  <CreepyBreathing.degreeDatas.0.label>respiració estranya</CreepyBreathing.degreeDatas.0.label>
-  <CreepyBreathing.degreeDatas.0.description>[PAWN_nameDef] sua constantment i respira pesadament. La gent ho troba desagradable.</CreepyBreathing.degreeDatas.0.description>
-
-  <Pyromaniac.degreeDatas.0.label>piromania</Pyromaniac.degreeDatas.0.label>
-  <Pyromaniac.degreeDatas.0.description>A [PAWN_nameDef] li encanta el foc. De tant en tant calarà foc a les coses i mai n'apagarà cap.</Pyromaniac.degreeDatas.0.description>
-
-  <Wimp.degreeDatas.0.label>debilitat</Wimp.degreeDatas.0.label>
-  <Wimp.degreeDatas.0.description>[PAWN_nameDef] és una persona dèbil i covarda. El dolor més petit l'immobilitzarà.</Wimp.degreeDatas.0.description>
-
-  <Nimble.degreeDatas.0.label>agilitat</Nimble.degreeDatas.0.label>
-  <Nimble.degreeDatas.0.description>[PAWN_nameDef] té una intel·ligència cenestèsica remarcable. Sembla ballar entre el perill amb una gràcia innata.</Nimble.degreeDatas.0.description>
-
-  <FastLearner.degreeDatas.0.label>aprenentatge ràpid</FastLearner.degreeDatas.0.label>
-  <FastLearner.degreeDatas.0.description>[PAWN_nameDef] té facilitat per aprendre. Agafa les coses més raid que la resta.</FastLearner.degreeDatas.0.description>
-
+  
+  <!-- EN: indoorsman -->
+  <Indoorsman.degreeDatas.indoorsman.label>TODO</Indoorsman.degreeDatas.indoorsman.label>
+  <!-- EN: [PAWN_nameDef] has no need to experience the outdoors. [PAWN_pronoun] will never feel cooped up or get cabin fever, no matter how long [PAWN_pronoun] stays inside. -->
+  <Indoorsman.degreeDatas.indoorsman.description>TODO</Indoorsman.degreeDatas.indoorsman.description>
+  
+  <!-- EN: jealous -->
+  <Jealous.degreeDatas.jealous.label>gelosia</Jealous.degreeDatas.jealous.label>
+  <!-- EN: For [PAWN_nameDef], it's degrading to have a less impressive bedroom than someone else. [PAWN_pronoun] gets a mood loss if any colonist has a more impressive bedroom. -->
+  <Jealous.degreeDatas.jealous.description>Per [PAWN_nameDef] és degradant tenir una cambra pitjor que la d'algú altre. Tindrà un estat d'ànim penalitzat si hi ha algun colon que tingui una cambra millor que la seva.</Jealous.degreeDatas.jealous.description>
+  
+  <!-- EN: kind -->
+  <Kind.degreeDatas.kind.label>amabilitat</Kind.degreeDatas.kind.label>
+  <!-- EN: [PAWN_nameDef] is a nice person. [PAWN_pronoun] has a tendency to brighten everyone else's day and never insults others. -->
+  <Kind.degreeDatas.kind.description>[PAWN_nameDef] és una bona persona. Té tendència a alegrar el dia a la gent i no insulta mai els altres.</Kind.degreeDatas.kind.description>
+  
+  <!-- EN: masochist -->
+  <Masochist.degreeDatas.masochist.label>masoquista</Masochist.degreeDatas.masochist.label>
+  <!-- EN: For [PAWN_nameDef], there's something exciting about getting hurt. [PAWN_pronoun] doesn't know why, [PAWN_pronoun]'s just wired differently. -->
+  <Masochist.degreeDatas.masochist.description>A [PAWN_nameDef] li agrada que li facin mal. No sap per què, simplement és així.</Masochist.degreeDatas.masochist.description>
+  
+  <!-- EN: night owl -->
+  <NightOwl.degreeDatas.night_owl.label>nocturnitat</NightOwl.degreeDatas.night_owl.label>
+  <!-- EN: [PAWN_nameDef] likes to be up during the night, and sleep during the day.\n\n[PAWN_pronoun] gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).\n\n[PAWN_pronoun] doesn't get a mood penalty for being in the dark. -->
+  <NightOwl.degreeDatas.night_owl.description>A [PAWN_nameDef] li agrada fer vida nocturna, i dormir durant el dia.\n\nTé una bonificació a l'estat d'ànim si manté activitat a la nit (23h-6h) i una penalització si ho fa durant el dia (11h-18h).</NightOwl.degreeDatas.night_owl.description>
+  
+  <!-- EN: nimble -->
+  <Nimble.degreeDatas.nimble.label>agilitat</Nimble.degreeDatas.nimble.label>
+  <!-- EN: [PAWN_nameDef] has remarkable kinesthetic intelligence. [PAWN_pronoun] seems to dance around danger with preternatural grace. -->
+  <Nimble.degreeDatas.nimble.description>[PAWN_nameDef] té una intel·ligència cenestèsica remarcable. Sembla ballar entre el perill amb una gràcia innata.</Nimble.degreeDatas.nimble.description>
+  
+  <!-- EN: nudist -->
+  <Nudist.degreeDatas.nudist.label>nudista</Nudist.degreeDatas.nudist.label>
+  <!-- EN: [PAWN_nameDef] enjoys the feeling of freedom that comes from being nude. [PAWN_pronoun] can handle clothing, but will be happier without it. -->
+  <Nudist.degreeDatas.nudist.description>A [PAWN_nameDef] li agrada la sensació de llibertat que dona la nuesa. Pot portar roba, però serà més feliç sense.</Nudist.degreeDatas.nudist.description>
+  
+  <!-- EN: psychopath -->
+  <Psychopath.degreeDatas.psychopath.label>psicòpata</Psychopath.degreeDatas.psychopath.label>
+  <!-- EN: [PAWN_nameDef] has no empathy. The suffering of others doesn't bother [PAWN_objective] at all. [PAWN_pronoun] doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects [PAWN_objective]. [PAWN_pronoun] also feels no mood boost from socializing. -->
+  <Psychopath.degreeDatas.psychopath.description>[PAWN_nameDef] no té empatia. No li importa gens el patiment dels altres. No li fa res que s'escorxi la gent, que quedin sense enterrar, siguin empresonats o venuts a un esclavista, si no és que l'afecta directament. No li millora l'estat d'ànim quan socialitza.</Psychopath.degreeDatas.psychopath.description>
+  
+  <!-- EN: pyromaniac -->
+  <Pyromaniac.degreeDatas.pyromaniac.label>piromania</Pyromaniac.degreeDatas.pyromaniac.label>
+  <!-- EN: [PAWN_nameDef] loves fire. [PAWN_pronoun] will never extinguish fires. To relieve stress, [PAWN_pronoun] will occasionally go on random fire starting sprees. This happens more often if [PAWN_possessive] mood is low. -->
+  <Pyromaniac.degreeDatas.pyromaniac.description>A [PAWN_nameDef] li encanta el foc. De tant en tant calarà foc a les coses i mai n'apagarà cap.</Pyromaniac.degreeDatas.pyromaniac.description>
+  
+  <!-- EN: quick sleeper -->
+  <QuickSleeper.degreeDatas.quick_sleeper.label>TODO</QuickSleeper.degreeDatas.quick_sleeper.label>
+  <!-- EN: [PAWN_nameDef] doesn't need as much sleep as the average person. Whether [PAWN_pronoun]'s sleeping on a bed or on the ground, [PAWN_pronoun] will be fully rested in about two thirds the usual time. -->
+  <QuickSleeper.degreeDatas.quick_sleeper.description>TODO</QuickSleeper.degreeDatas.quick_sleeper.description>
+  
+  <!-- UNUSED -->
   <SuperImmune.degreeDatas.0.label>super-immune</SuperImmune.degreeDatas.0.label>
   <SuperImmune.degreeDatas.0.description>[PAWN_nameDef] té un potent sistema immunològic natural. Es farà immune molt més ràpidament del que ho faria una persona normal, i pot sobreviure a malalties que matarien a qualsevol altre.</SuperImmune.degreeDatas.0.description>
-
+  
+  <!-- EN: too smart -->
+  <TooSmart.degreeDatas.too_smart.label>intel·ligència</TooSmart.degreeDatas.too_smart.label>
+  <!-- EN: [PAWN_nameDef] is too smart for [PAWN_possessive] own good. [PAWN_pronoun] learns everything much faster than everyone, but can be quite eccentric. -->
+  <TooSmart.degreeDatas.too_smart.description>[PAWN_nameDef] és més intel·ligent que la mitjana. Aprén les coses més ràpid que ningú, però als altres no els agrada les seves excentricitats.</TooSmart.degreeDatas.too_smart.description>
+  
+  <!-- EN: tough -->
+  <Tough.degreeDatas.tough.label>TODO</Tough.degreeDatas.tough.label>
+  <!-- EN: [PAWN_nameDef] has thick skin, dense flesh, and durable bones. [PAWN_pronoun] takes much less damage than other people from the same blows. [PAWN_pronoun] is extremely hard to kill. -->
+  <Tough.degreeDatas.tough.description>TODO</Tough.degreeDatas.tough.description>
+  
+  <!-- EN: transhumanist -->
+  <Transhumanist.degreeDatas.transhumanist.label>protofília</Transhumanist.degreeDatas.transhumanist.label>
+  <!-- EN: [PAWN_nameDef] feels limited in [PAWN_possessive] feeble human body. [PAWN_pronoun] often dreams of being enhanced by artificial body parts. -->
+  <Transhumanist.degreeDatas.transhumanist.description>[PAWN_nameDef] troba limitacions al seu feble cos humà. Somia en tenir alguna part biònica.</Transhumanist.degreeDatas.transhumanist.description>
+  
+  <!-- EN: wimp -->
+  <Wimp.degreeDatas.wimp.label>debilitat</Wimp.degreeDatas.wimp.label>
+  <!-- EN: [PAWN_nameDef] is weak and cowardly. Even a little pain will immobilize [PAWN_objective]. -->
+  <Wimp.degreeDatas.wimp.description>[PAWN_nameDef] és una persona dèbil i covarda. El dolor més petit l'immobilitzarà.</Wimp.degreeDatas.wimp.description>
+  
 </LanguageData>

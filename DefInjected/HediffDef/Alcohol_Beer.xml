@@ -1,30 +1,46 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <AlcoholHigh.label>alcohol</AlcoholHigh.label>
-  <AlcoholHigh.labelNoun>embriaguesa</AlcoholHigh.labelNoun>
-  <AlcoholHigh.stages.0.label>desinhibició</AlcoholHigh.stages.0.label>
-  <AlcoholHigh.stages.1.label>alegria</AlcoholHigh.stages.1.label>
-  <AlcoholHigh.stages.2.label>borratxera</AlcoholHigh.stages.2.label>
-  <AlcoholHigh.stages.3.label>borratxera forta</AlcoholHigh.stages.3.label>
-  <AlcoholHigh.stages.4.label>coma etílic</AlcoholHigh.stages.4.label>
-
-  <Hangover.label>ressaca</Hangover.label>
-  <Hangover.stages.0.label>lleugera</Hangover.stages.0.label>
-  <Hangover.stages.1.label>forta</Hangover.stages.1.label>
-  <Hangover.stages.2.label>terrorífica</Hangover.stages.2.label>
-  <Hangover.labelNoun>una ressaca</Hangover.labelNoun>
-
-  <!-- Alcohol addiction -->
-
-  <AlcoholTolerance.label>tolerància a l'alcohol</AlcoholTolerance.label>
-  <AlcoholTolerance.stages.0.label>mínima</AlcoholTolerance.stages.0.label>
-  <AlcoholTolerance.stages.1.label>poca</AlcoholTolerance.stages.1.label>
-  <AlcoholTolerance.stages.2.label>molta</AlcoholTolerance.stages.2.label>
-  <AlcoholTolerance.stages.3.label>enorme</AlcoholTolerance.stages.3.label>
-
+  
+  <!-- EN: alcohol addiction -->
   <AlcoholAddiction.label>addicció a l'alcohol</AlcoholAddiction.label>
-  <AlcoholAddiction.stages.1.label>síndrome d'abstinència</AlcoholAddiction.stages.1.label>
-
-
+  <!-- EN: withdrawal -->
+  <AlcoholAddiction.stages.withdrawal.label>síndrome d'abstinència</AlcoholAddiction.stages.withdrawal.label>
+  
+  <!-- EN: alcohol -->
+  <AlcoholHigh.label>alcohol</AlcoholHigh.label>
+  <!-- EN: drunkenness -->
+  <AlcoholHigh.labelNoun>embriaguesa</AlcoholHigh.labelNoun>
+  <!-- EN: warm -->
+  <AlcoholHigh.stages.warm.label>desinhibició</AlcoholHigh.stages.warm.label>
+  <!-- EN: tipsy -->
+  <AlcoholHigh.stages.tipsy.label>alegria</AlcoholHigh.stages.tipsy.label>
+  <!-- EN: drunk -->
+  <AlcoholHigh.stages.drunk.label>borratxera</AlcoholHigh.stages.drunk.label>
+  <!-- EN: hammered -->
+  <AlcoholHigh.stages.hammered.label>borratxera forta</AlcoholHigh.stages.hammered.label>
+  <!-- EN: blackout -->
+  <AlcoholHigh.stages.blackout.label>coma etílic</AlcoholHigh.stages.blackout.label>
+  
+  <!-- EN: alcohol tolerance -->
+  <AlcoholTolerance.label>tolerància a l'alcohol</AlcoholTolerance.label>
+  <!-- EN: small -->
+  <AlcoholTolerance.stages.small-0.label>mínima</AlcoholTolerance.stages.small-0.label>
+  <!-- EN: small -->
+  <AlcoholTolerance.stages.small-1.label>poca</AlcoholTolerance.stages.small-1.label>
+  <!-- EN: large -->
+  <AlcoholTolerance.stages.large.label>molta</AlcoholTolerance.stages.large.label>
+  <!-- EN: massive -->
+  <AlcoholTolerance.stages.massive.label>enorme</AlcoholTolerance.stages.massive.label>
+  
+  <!-- EN: hangover -->
+  <Hangover.label>ressaca</Hangover.label>
+  <!-- EN: a hangover -->
+  <Hangover.labelNoun>una ressaca</Hangover.labelNoun>
+  <!-- EN: slight -->
+  <Hangover.stages.slight.label>lleugera</Hangover.stages.slight.label>
+  <!-- EN: strong -->
+  <Hangover.stages.strong.label>forta</Hangover.stages.strong.label>
+  <!-- EN: pounding -->
+  <Hangover.stages.pounding.label>terrorífica</Hangover.stages.pounding.label>
+  
 </LanguageData>

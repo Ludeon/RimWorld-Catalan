@@ -1,29 +1,44 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: clear -->
   <Clear.label>clar</Clear.label>
+  <!-- EN: A clear day. No penalties or modifiers. -->
   <Clear.description>Un dia clar. No té penalitzacions.</Clear.description>
-
-  <Fog.label>boira</Fog.label>
-  <Fog.description>La boira disminueix la precisió de les armes a distància.</Fog.description>
-
-  <Rain.label>pluja</Rain.label>
-  <Rain.description>La pluja disminueix la precisió de les armes a distància, apaga els focs, i alenteix les persones.</Rain.description>
-
+  
+  <!-- EN: dry thunderstorm -->
   <DryThunderstorm.label>tempesta seca</DryThunderstorm.label>
+  <!-- EN: Dry thunderstorms are dangerous because the lightning can start fires and there is no rain to put them out. -->
   <DryThunderstorm.description>Les tempestes seques són perilloses perquè els llamps poden iniciar incendis i no hi ha pluja per apagar-los.</DryThunderstorm.description>
-
-  <RainyThunderstorm.label>tempesta amb pluja</RainyThunderstorm.label>
-  <RainyThunderstorm.description>Les llamps iniciaran incendis, però la pluja els apagarà. La pluja també disminueix la velocitat de moviment i la precisió dels trets.</RainyThunderstorm.description>
-
+  
+  <!-- EN: fog -->
+  <Fog.label>boira</Fog.label>
+  <!-- EN: Fog reduces the accuracy of ranged weapons. -->
+  <Fog.description>La boira disminueix la precisió de les armes a distància.</Fog.description>
+  
+  <!-- EN: foggy rain -->
   <FoggyRain.label>boira ploranera</FoggyRain.label>
+  <!-- EN: Reduces accuracy and movement speed. -->
   <FoggyRain.description>Redueix la punteria i la velocitat de moviments.</FoggyRain.description>
-
-  <SnowHard.label>nevada intensa</SnowHard.label>
-  <SnowHard.description>La neu disminueix la precisió de les armes a distància, apaga els focs, i alenteix la gent.</SnowHard.description>
-
+  
+  <!-- EN: rain -->
+  <Rain.label>pluja</Rain.label>
+  <!-- EN: Rain reduces the accuracy of ranged weapons, extinguishes fire, and slows people down. -->
+  <Rain.description>La pluja disminueix la precisió de les armes a distància, apaga els focs, i alenteix les persones.</Rain.description>
+  
+  <!-- EN: rainy thunderstorm -->
+  <RainyThunderstorm.label>tempesta amb pluja</RainyThunderstorm.label>
+  <!-- EN: The lightning will start fires, but the rain will put it out. The rain also reduces movement speed and shooting accuracy. -->
+  <RainyThunderstorm.description>Les llamps iniciaran incendis, però la pluja els apagarà. La pluja també disminueix la velocitat de moviment i la precisió dels trets.</RainyThunderstorm.description>
+  
+  <!-- EN: gentle snow -->
   <SnowGentle.label>nevada suau</SnowGentle.label>
+  <!-- EN: Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down. -->
   <SnowGentle.description>La neu redueix la precisió de les armes a distància, apaga els focs i alenteix la gent.</SnowGentle.description>
-
-
+  
+  <!-- EN: hard snow -->
+  <SnowHard.label>nevada intensa</SnowHard.label>
+  <!-- EN: Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down. -->
+  <SnowHard.description>La neu disminueix la precisió de les armes a distància, apaga els focs, i alenteix la gent.</SnowHard.description>
+  
 </LanguageData>

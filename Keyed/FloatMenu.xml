@@ -1,213 +1,373 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Call {0} -->
   <CallOnRadio>Truca a {0}</CallOnRadio>
+  <!-- EN: Cannot use ({0}) -->
   <CannotUseReason>No es pot fer servir ({0})</CannotUseReason>
+  <!-- EN: Cannot use (solar flare) -->
   <CannotUseSolarFlare>No es pot fer servir (erupció solar)</CannotUseSolarFlare>
+  <!-- EN: Cannot use (no power) -->
   <CannotUseNoPower>No es pot fer servir (no hi ha corrent)</CannotUseNoPower>
+  <!-- EN: Cannot use (no path) -->
   <CannotUseNoPath>No es pot fer servir (no hi ha camí)</CannotUseNoPath>
+  <!-- EN: Cannot use (reserved) -->
   <CannotUseReserved>No es pot fer servir (reservat)</CannotUseReserved>
+  <!-- EN: Cannot use (full) -->
   <CannotUseFull>No es pot fer servir (ple)</CannotUseFull>
+  <!-- EN: leader {0} is unavailable -->
   <LeaderUnavailable>El líder {0} no és abastable</LeaderUnavailable>
+  <!-- EN: leader is unavailable -->
   <LeaderUnavailableNoLeader>el líder no està disponible</LeaderUnavailableNoLeader>
   
+  <!-- EN: Fire at {0} -->
   <FireAt>Dispara a {0}</FireAt>
 
+  <!-- EN: out of range -->
   <OutOfRange>Fora de rang</OutOfRange>
+  <!-- EN: cannot hit target -->
   <CannotHitTarget>No es pot tocar l'objectiu</CannotHitTarget>
+  <!-- EN: {0} is incapable of violence -->
   <IsIncapableOfViolenceLower>{0} no és capaç d'actes violents</IsIncapableOfViolenceLower>
+  <!-- EN: incapable of violence -->
   <IncapableOfViolenceLower>no és capaç d'actes violents</IncapableOfViolenceLower>
+  <!-- EN: {0} is not drafted -->
   <IsNotDraftedLower>{0} no està reclutat</IsNotDraftedLower>
+  <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>No podeu donar ordres a unitats que no controleu</CannotOrderNonControlledLower>
+  <!-- EN: cannot attack self -->
   <CannotAttackSelf>no es pot atacar a si mateix</CannotAttackSelf>
 
+  <!-- EN: Man {0} -->
   <OrderManThing>{0} manualment</OrderManThing>
   
+  <!-- EN: Melee attack {0} -->
   <MeleeAttack>Ataca cos a cos a {0}</MeleeAttack>
+  <!-- EN: Melee attack {0} to death -->
   <MeleeAttackToDeath>Ataca cos a cos a {0} fins a la seva mort</MeleeAttackToDeath>
+  <!-- EN: no path -->
   <NoPath>no hi ha camí</NoPath>
 
+  <!-- EN: forbidden -->
   <ForbiddenLower>prohibit</ForbiddenLower>
+  <!-- EN: outside allowed area -->
   <ForbiddenOutsideAllowedAreaLower>fora de l'àrea permesa</ForbiddenOutsideAllowedAreaLower>
+  <!-- EN: not in home area -->
   <NotInHomeArea>no és a àrea llar</NotInHomeArea>
+  <!-- EN: burning -->
   <BurningLower>cremant</BurningLower>
+  <!-- EN: no empty, accessible spot configured to store it -->
   <NoEmptyPlaceLower>no hi ha cap espai buit configurat per desar-ho</NoEmptyPlaceLower>
+  <!-- EN: no stack available to merge into -->
   <NoMergeTarget>no hi ha cap pila amb la que es pugui ajuntar</NoMergeTarget>
+  <!-- EN: already filled enough -->
   <AlreadyFilledLower>Ja està ple</AlreadyFilledLower>
+  <!-- EN: need material -->
   <MissingMaterials>falten materials</MissingMaterials>
+  <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>per sota del nivell requerit {0}</UnderRequiredSkill>
+  <!-- EN: under allowed skill {0} -->
   <UnderAllowedSkill>per sota del nivell permès {0}</UnderAllowedSkill>
+  <!-- EN: above allowed skill {0} -->
   <AboveAllowedSkill>per sobre del nivell permès {0}</AboveAllowedSkill>
+  <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>no té el nivell de capacitat requerit</MissingRequiredSkillLevel>
+  <!-- EN: animal interacted too recently -->
   <AnimalInteractedTooRecently>s’ha interactuat amb l’animal fa poc</AnimalInteractedTooRecently>
+  <!-- EN: no usable food -->
   <NoUsableFood>no hi ha menjar que es pugui fer servir</NoUsableFood>
+  <!-- EN: no food -->
   <NoFood>no hi ha menjar</NoFood>
+  <!-- EN: animals skill too low - need {0} -->
   <AnimalsSkillTooLow>No té prou nivell en gestió d’animals – necessita {0}</AnimalsSkillTooLow>
+  <!-- EN: animal downed -->
   <CantInteractAnimalDowned>animal malferit</CantInteractAnimalDowned>
+  <!-- EN: animal sleeping -->
   <CantInteractAnimalAsleep>animal adormit</CantInteractAnimalAsleep>
+  <!-- EN: animal busy -->
   <CantInteractAnimalBusy>animal ocupat</CantInteractAnimalBusy>
+  <!-- EN: construction skill too low -->
   <ConstructionSkillTooLow>no té prou nivell en construcció</ConstructionSkillTooLow>
+  <!-- EN: need components -->
   <NoComponentsToRepair>necessita components</NoComponentsToRepair>
+  <!-- EN: need {0} -->
   <NoFuelToRefuel>necessita {0}</NoFuelToRefuel>
+  <!-- EN: need wort -->
   <NoWort>necessita most</NoWort>
+  <!-- EN: available food is in storage of higher priority -->
   <TheOnlyAvailableFoodIsInStorageOfHigherPriority>el menjar disponible és en un magatzem de prioritat alta</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
+  <!-- EN: no suitable food -->
   <NoFoodToFillHopper>no hi ha menjar disponible</NoFoodToFillHopper>
+  <!-- EN: self-tend disabled -->
   <SelfTendDisabled>auto-cures no habilitat</SelfTendDisabled>
+  <!-- EN: reserved for prisoners -->
   <ReservedForPrisoners>reservat per presoners</ReservedForPrisoners>
+  <!-- EN: cannot reach -->
   <CannotReach>no hi pot arribar</CannotReach>
+  <!-- EN: not ready for surgery -->
   <NotSurgeryReady>no està a punt per a l’operació</NotSurgeryReady>
+  <!-- EN: skill incapable -->
   <SkillDisabled>no pot fer això</SkillDisabled>
+  <!-- EN: too bright -->
   <CantSowCavePlantBecauseOfLight>massa llum</CantSowCavePlantBecauseOfLight>
+  <!-- EN: unroofed -->
   <CantSowCavePlantBecauseUnroofed>sense teulada</CantSowCavePlantBecauseUnroofed>
+  <!-- EN: incapable of deconstruction -->
   <IncapableOfDeconstruction>no pot desmuntar</IncapableOfDeconstruction>
-
+  
+  <!-- EN: Consume {0} -->
   <ConsumeThing>Consumeix {0}</ConsumeThing>
   
+  <!-- EN: Cannot go here (no path) -->
   <CannotGoNoPath>No s'hi pot anar (no hi ha camí)</CannotGoNoPath>
+  <!-- EN: Go here -->
   <GoHere>Ves aquí</GoHere>
   
+  <!-- EN: Arrest {0} -->
   <Arrest>Arresta a {0}</Arrest>
+  <!-- EN: Try to arrest {0} -->
   <TryToArrest>Prova d'arrestar a {0}</TryToArrest>
+  <!-- EN: Cannot arrest -->
   <CannotArrest>No es pot arrestar</CannotArrest>
 
+  <!-- EN: Capture {0} -->
   <Capture>Captura a {0}</Capture>
+  <!-- EN: Cannot capture -->
   <CannotCapture>No es pot capturar</CannotCapture>
 
+  <!-- EN: Rescue {0} -->
   <Rescue>Rescata a {0}</Rescue>
+  <!-- EN: Cannot rescue -->
   <CannotRescue>No es pot rescatar</CannotRescue>
 
+  <!-- EN: Carry {0} to cryptosleep casket -->
   <CarryToCryptosleepCasket>Porta a {0} al taüt de criptoson</CarryToCryptosleepCasket>
+  <!-- EN: Cannot carry to cryptosleep casket -->
   <CannotCarryToCryptosleepCasket>No es pot portar al taüt de criptoson</CannotCarryToCryptosleepCasket>
 
+  <!-- EN: No available cryptosleep casket. -->
   <NoCryptosleepCasket>No hi ha cap taüt de criptoson disponible</NoCryptosleepCasket>
+  <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>No hi ha cap llit per presoners a l'abast tancat i desocupat.</NoPrisonerBed>
+  <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
   <NoNonPrisonerBed>No hi ha cap llit per no presoners a l'abast i desocupat.</NoNonPrisonerBed>
+  <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
   <NoAnimalBed>No hi ha cap llit per animals a l'abast i desocupat.</NoAnimalBed>
+  <!-- EN: Reserved by someone else. -->
   <Reserved>Està reservat per algú altre.</Reserved>
+  <!-- EN: Reserved by {0} -->
   <ReservedBy>Reservat per {0}</ReservedBy>
+  <!-- EN: {0} is reserved by {1}. -->
   <IsReservedBy>{0} està reservat per {1}.</IsReservedBy>
+  <!-- EN: Too heavy -->
   <TooHeavy>Pesa massa</TooHeavy>
 
+  <!-- EN: incapable -->
   <Incapable>no n'és capaç</Incapable>
+  <!-- EN: incapable of {0} -->
   <IncapableOfCapacity>no és capaç de {0}</IncapableOfCapacity>
 
+  <!-- EN: min skill -->
   <MinSkill>Capacitat min</MinSkill>
   
+  <!-- EN: Equip {0} -->
   <Equip>Equipa {0}</Equip>
+  <!-- EN: (brawler will be unhappy) -->
   <EquipWarningBrawler>(al lluitador no li agradarà)</EquipWarningBrawler>
+  <!-- EN: Cannot equip {0} -->
   <CannotEquip>No es pot equipar {0}</CannotEquip>
-<CannotManThing>No es pot {0} a mà</CannotManThing>
-
+  <!-- EN: Cannot man {0} -->
+  <CannotManThing>No es pot {0} a mà</CannotManThing>
+  
+  <!-- EN: Force wear {0} -->
   <ForceWear>Força a portar {0}</ForceWear>
+  <!-- EN: Cannot wear {0} -->
   <CannotWear>No pot portar {0}</CannotWear>
+  <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>Li falten parts del cos</CannotWearBecauseOfMissingBodyParts>
   
+  <!-- EN: Cannot pick up {0} -->
   <CannotPickUp>No pot recollir {0}</CannotPickUp>
+  <!-- EN: Cannot pick up {0} (all) -->
   <CannotPickUpAll>No es pot recollir {0} (tot)</CannotPickUpAll>
+  <!-- EN: Pick up {0} -->
   <PickUp>Recull {0}</PickUp>
+  <!-- EN: Pick up {0} (all) -->
   <PickUpAll>Recull {0} (tot)</PickUpAll>
+  <!-- EN: Pick up {0}... -->
   <PickUpSome>Recull {0}...</PickUpSome>
+  <!-- EN: Pick up {0} x{{0}} -->
   <PickUpCount>Recull {0} x{{0}}</PickUpCount>
   
+  <!-- EN: Cannot give {0} to pack animal -->
   <CannotGiveToPackAnimal>No es pot donar {0} al grup d'animals</CannotGiveToPackAnimal>
+  <!-- EN: Cannot give {0} (all) to pack animal -->
   <CannotGiveToPackAnimalAll>No es pot donar {0} (tot) al grup d'animals</CannotGiveToPackAnimalAll>
+  <!-- EN: Give {0} to pack animal -->
   <GiveToPackAnimal>Dona {0} al grup d'animals</GiveToPackAnimal>
+  <!-- EN: Give {0} (all) to pack animal -->
   <GiveToPackAnimalAll>Dona {0} (tot) al grup d'animals</GiveToPackAnimalAll>
+  <!-- EN: Give {0} to pack animal... -->
   <GiveToPackAnimalSome>Dona {0} al grup d'animals...</GiveToPackAnimalSome>
+  <!-- EN: Take {0} x{{0}} -->
   <GiveToPackAnimalCount>Agafa {0} x{{0}}</GiveToPackAnimalCount>
-
+  
+  <!-- EN: Cannot load {0} into caravan -->
   <CannotLoadIntoCaravan>No es pot carregar {0} a la caravana</CannotLoadIntoCaravan>
+  <!-- EN: Cannot load {0} (all) into caravan -->
   <CannotLoadIntoCaravanAll>No es pot carregar {0} (tot) a la caravana</CannotLoadIntoCaravanAll>
+  <!-- EN: Load {0} into caravan -->
   <LoadIntoCaravan>Carrega {0} a la caravana</LoadIntoCaravan>
+  <!-- EN: Load {0} (all) into caravan -->
   <LoadIntoCaravanAll>Carrega {0} (tot) a la caravana</LoadIntoCaravanAll>
+  <!-- EN: Load {0} into caravan... -->
   <LoadIntoCaravanSome>Carrega {0} a la caravana...</LoadIntoCaravanSome>
+  <!-- EN: Load {0} x{{0}} -->
   <LoadIntoCaravanCount>Carrega {0} x{{0}}</LoadIntoCaravanCount>
+  <!-- EN: overweight -->
   <OverweightLower>sobrepès</OverweightLower>
 
+  <!-- EN: Cannot carry {0} and leave the area -->
   <CannotCarryToExit>No es pot portar {0} i sortir de la zona</CannotCarryToExit>
+  <!-- EN: Carry {0} and leave the area -->
   <CarryToExit>Porta {0} i surt de la zona</CarryToExit>
+  <!-- EN: Capture {0} and leave the area -->
   <CarryToExitAndCapture>Captura a {0} i surt de la zona</CarryToExitAndCapture>
-
+  
+  <!-- EN: Strip {0} -->
   <Strip>Despulla a {0}</Strip>
+  <!-- EN: Cannot strip {0} -->
   <CannotStrip>No es pot despullar a {0}</CannotStrip>
 
+  <!-- EN: Self-destruct here -->
   <SelfDestructHere>Autodestrueix aquí</SelfDestructHere>
   
+  <!-- EN: Drop {0} -->
   <Drop>Deixa {0}</Drop>
 
+  <!-- EN: Rest until healed -->
   <UseMedicalBed>Descansa fins a estar curat</UseMedicalBed>
+  <!-- EN: not injured -->
   <NotInjured>No està ferit</NotInjured>
+  <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>Ocupat per {0}</SomeoneElseSleeping>
   
+  <!-- EN: Trade with {0} -->
   <TradeWith>Negocia amb {0}</TradeWith>
+  <!-- EN: Cannot trade -->
   <CannotTrade>No es pot negociar</CannotTrade>
   
+  <!-- EN: Enter {0} -->
   <EnterMap>Entra a {0}</EnterMap>
+  <!-- EN: Visit {0} -->
   <VisitSettlement>Visita a {0}</VisitSettlement>
+  <!-- EN: Visit {0} -->
   <VisitPeaceTalks>Visita a {0}</VisitPeaceTalks>
+  <!-- EN: Visit {0} -->
   <VisitEscapeShip>Visita a {0}</VisitEscapeShip>
+  <!-- EN: Attack {0} -->
   <AttackSettlement>Ataca a {0}</AttackSettlement>
+  <!-- EN: Approach {0} -->
   <ApproachSite>Acostat a {0}</ApproachSite>
+  <!-- EN: Approaching {0} -->
   <ApproachingSite>S’acosta a {0}</ApproachingSite>
+  <!-- EN: Offer gifts -->
   <OfferGifts>Ofereix regals</OfferGifts>
 
   <!-- Specific thing interactions -->
+  <!-- EN: Enter cryptosleep casket -->
   <EnterCryptosleepCasket>Entra al taüt de criptoson</EnterCryptosleepCasket>
+  <!-- EN: Open cryptosleep casket -->
   <OpenCryptosleepCasket>Obre el taüt de criptoson</OpenCryptosleepCasket>
 
-  <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc.-->
+  <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
+  <!-- EN: Cannot {0} {1} -->
   <CannotGenericWork>No es pot {0} {1}</CannotGenericWork>
+  <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>No es pot {0}</CannotGenericWorkCustom>
 
+  <!-- EN: Cannot prioritize (incapable of {0}) -->
   <CannotMissingHealthActivities>No es pot prioritzar (no pot {0})</CannotMissingHealthActivities>
 
-  <!-- e.g. Already GERUND OBJECt, Already repairing wall, already hauling metal, etc-->
+  <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
+  <!-- EN: Already {0} {1} -->
   <CannotGenericAlreadyAm>Ja està {0} {1}</CannotGenericAlreadyAm>
 
+  <!-- EN: Cannot prioritize (will never do {0}) -->
   <CannotPrioritizeWorkTypeDisabled>No pot prioritzar (No farà mai {0})</CannotPrioritizeWorkTypeDisabled>
-  
-  <CannotPrioritizeWorkGiverDisabled> No pot prioritzar (No farà mai {0})</CannotPrioritizeWorkGiverDisabled>
-<WillNever>no farà {0} mai</WillNever>
 
+  <!-- EN: Cannot prioritize (will never {0}) -->
+  <CannotPrioritizeWorkGiverDisabled> No pot prioritzar (No farà mai {0})</CannotPrioritizeWorkGiverDisabled>
+  <!-- EN: will never {0} -->
+  <WillNever>no farà {0} mai</WillNever>
+
+  <!-- EN: Cannot prioritize (not assigned to {0}) -->
   <CannotPrioritizeNotAssignedToWorkType>No es pot prioritzar (no està assignat a {0})</CannotPrioritizeNotAssignedToWorkType>
+  <!-- EN: not assigned -->
   <NotAssigned>no està assignat</NotAssigned>
 
+  <!-- EN: Cannot prioritize (research is a long-term task) -->
   <CannotPrioritizeResearch> No es pot prioritzar (investigar és una tasca a llarg plaç)</CannotPrioritizeResearch>
 
+  <!-- EN: Cannot prioritize ({0} is forbidden) -->
   <CannotPrioritizeForbidden> No es pot prioritzar ({0} està prohibit)</CannotPrioritizeForbidden>
+  <!-- EN: Cannot prioritize (forbidden) -->
   <CannotPrioritizeCellForbidden>No es pot prioritzar (està prohibit)</CannotPrioritizeCellForbidden>
+  <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea> No es pot prioritzar ({0} està fora de l'àrea permesa)</CannotPrioritizeForbiddenOutsideAllowedArea>
-  
-  <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
+
+  <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
+  <!-- EN: Prioritize {0} {1} -->
   <PrioritizeGeneric>Prioritza {0} {1}</PrioritizeGeneric>
   
+  <!-- EN: Drop at edge -->
   <DropAtEdge>Aterra a la vora</DropAtEdge>
+  <!-- EN: Drop in center -->
   <DropInCenter>Aterra al centre</DropInCenter>
+  <!-- EN: Attack {0}: Drop at edge -->
   <AttackAndDropAtEdge>Ataca {0}: Aterra a la vora</AttackAndDropAtEdge>
+  <!-- EN: Attack {0}: Drop in center -->
   <AttackAndDropInCenter>Ataca {0}: Aterra al centre</AttackAndDropInCenter>
-
+  
+  <!-- EN: vomiting -->
   <VomitingLower>vomita</VomitingLower>
+  <!-- EN: not interruptible -->
   <NotInterruptibleLower>no es pot interrompre</NotInterruptibleLower>
-
+  
+  <!-- EN: Add a new waypoint here -->
   <AddWaypoint>Afegeix un punt de pas aquí</AddWaypoint>
+  <!-- EN: Remove this waypoint -->
   <RemoveWaypoint>Esborra aquest punt de pas</RemoveWaypoint>
 
+  <!-- EN: Cancel all designations -->
   <RemoveAllDesignations>Cancel·la totes les designacions</RemoveAllDesignations>
+  <!-- EN: Designate all -->
   <DesignateAll>Designa-ho tot</DesignateAll>
+  <!-- EN: {0} affected -->
   <CountToDesignate>{0} afectats</CountToDesignate>
+  <!-- EN: Forbid all items -->
   <ForbidAllItems>Prohibeix tots els objectes</ForbidAllItems>
+  <!-- EN: Unforbid all items -->
   <UnforbidAllItems>Permet tots els objectes</UnforbidAllItems>
+  <!-- EN: Rearm all traps -->
   <RearmAllTraps>Rearma totes les trampes</RearmAllTraps>
 
   <!-- Transport pods -->
+  <!-- EN: Zoom in and choose a landing spot in {0} -->
   <LandInExistingMap>Acostat i tria el punt d’aterratge a {0}</LandInExistingMap>
+  <!-- EN: The contents will be lost -->
   <TransportPodsContentsWillBeLost>Es perdrà el contingut</TransportPodsContentsWillBeLost>
+  <!-- EN: Form caravan here -->
   <FormCaravanHere>Crea una caravana aquí</FormCaravanHere>
+  <!-- EN: Give to {0} -->
   <GiveToCaravan>Dóna a {0}</GiveToCaravan>
+  <!-- EN: Give as a gift to {0} ({1}) -->
   <GiveGiftViaTransportPods>Dóna-ho a {0} com a regal({1})</GiveGiftViaTransportPods>
 
   <!-- Rescue quest -->
+  <!-- EN: Free prisoner -->
   <FreePrisoner>>Allibera presoner</FreePrisoner>
+  <!-- EN: Offer help -->
   <OfferHelp>Ofereix ajuda</OfferHelp>
-
+  
 </LanguageData>

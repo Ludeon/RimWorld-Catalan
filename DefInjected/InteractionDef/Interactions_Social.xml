@@ -1,41 +1,101 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Random social interactions -->
 
-  <Chitchat.label>xafarderia</Chitchat.label>
-	<Chitchat.logRulesInitiator.rulesStrings>
-		<li>logentry->Ha xerrat una estona amb [other_nameShortIndef].</li>
-	</Chitchat.logRulesInitiator.rulesStrings>
+  <Chitchat.label>conversa</Chitchat.label>
+  <Chitchat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] i [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
+    <li>r_logentry->[INITIATOR_nameDef] s’ha trobat amb [RECIPIENT_nameDef] i [talkedabout] [TalkTopicLight].</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] a [RECIPIENT_nameDef].</li>
+    <li>talkedabout(p=4)->han xerrat de</li>
+    <li>talkedabout->han discutit sobre</li>
+    <li>talkedabout->han parlat de</li>
+    <li>talkedabout->han fet tertúlia sobre</li>
+    <li>talkedabout->han parlat de</li>
+    <li>talkedabout->han fet broma sobre</li>
+    <li>talkedabout->han bromejat sobre</li>
+    <li>commentedabout->s’han dit alguna cosa sobre</li>
+    <li>commentedabout->han fet un comentari sobre</li>
+    <li>commentedabout->han comentat coses sobre</li>
+    <li>commentedabout->han parlat una mica sobre</li>
+    <li>commentedabout->s’han explicat un acudit sobre</li>
+  </Chitchat.logRulesInitiator.rulesStrings>
 
   <DeepTalk.label>conversa profunda</DeepTalk.label>
-	<DeepTalk.logRulesInitiator.rulesStrings>
-		<li>logentry->Ha tingut una conversa profunda amb [other_nameShortIndef].</li>
-	</DeepTalk.logRulesInitiator.rulesStrings>
+  <DeepTalk.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] i [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] s’ha trobat amb [RECIPIENT_nameDef] i [talkedabout] [TalkTopicLight].</li>
+    <li>talkedabout->s’han dit el que pensaven sobre</li>
+    <li>talkedabout->han intercanviat opinions sobre</li>
+    <li>talkedabout->han intercanviat idees sobre</li>
+    <li>talkedabout->han intercanviat el seu punt de vista sobre</li>
+    <li>talkedabout->han compartit pensaments sobre</li>
+    <li>talkedabout->han debatut sobre</li>
+    <li>talkedabout->s’han sincerat sobre</li>
+    <li>talkedabout->han parlat tranquil·lament de</li>
+    <li>talkedabout->han parlat en profunditat de</li>
+    <li>talkedabout->han coincidit sobre</li>
+    <li>subject->[TalkTopicHeavy]</li>
+  </DeepTalk.logRulesInitiator.rulesStrings>
 
   <Slight.label>menyspreu</Slight.label>
-	<Slight.logRulesInitiator.rulesStrings>
-		<li>logentry->Ha menyspreat [other_nameShortIndef].</li>
-	</Slight.logRulesInitiator.rulesStrings>
-	<Slight.logRulesRecipient.rulesStrings>
-		<li>logentry->Ha rebut un menyspreu de [other_nameShortIndef].</li>
-	</Slight.logRulesRecipient.rulesStrings>
+  <Slight.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [PersonalCharacteristic] de[target].</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>madefunof->ha fet broma de</li>
+    <li>madefunof->ha faltat el respecte a</li>
+    <li>madefunof->ha ridiculitzat subtilment</li>
+    <li>madefunof->ha humiliat subtilment</li>
+    <li>madefunof->ha parlat malament de</li>
+    <li>madefunof->ha parlat negativament de</li>
+    <li>madefunof->se n’ha rigut de</li>
+    <li>madefunof->ha fet mofa de</li>
+    <li>madefunof->ha dit coses lletges de</li>
+    <li>madefunof->ha menystingut</li>
+    <li>madefunof->ha fet un comentari despectiu sobre</li>
+    <li>madefunof->ha fet un compliment irònic sobre</li>
+  </Slight.logRulesInitiator.rulesStrings>
 
   <Insult.label>insult</Insult.label>
-	<Insult.logRulesInitiator.rulesStrings>
-		<li>logentry->Ha insultat a [other_nameShortIndef].</li>
-	</Insult.logRulesInitiator.rulesStrings>
-	<Insult.logRulesRecipient.rulesStrings>
-		<li>logentry->Ha rebut insults de [other_nameShortIndef].</li>
-	</Insult.logRulesRecipient.rulesStrings>
+  <Insult.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [PersonalCharacteristic] de [target].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha comparat [target] amb un [insultcomparison].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha dit [insultcomparison] a [target].</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[PersonFamily] de [RECIPIENT_nameDef]</li>
+    <li>insulted(p=3)->ha insultat a</li>
+    <li>insulted->ha clarament insultat a</li>
+    <li>insulted->ha insultat en veu alta a</li>
+    <li>insulted->ha insultat de manera flagrant a</li>
+    <li>insulted->ha insultat a la cara a</li>
+    <li>insulted->ha insultat amb mala llet a</li>
+    <li>insulted->ha faltat el respecte de forma flagrant a</li>
+    <li>insulted->ha calumniat</li>
+    <li>insulted->ha llençat vituperis sobre</li>
+    <li>insulted->ha rigut de</li>
+    <li>insultcomparison(p=2)->[Animal]</li>
+    <li>insultcomparison->[Enemy]</li>
+  </Insult.logRulesInitiator.rulesStrings>
 
   <KindWords.label>amabilitat</KindWords.label>
-	<KindWords.logRulesInitiator.rulesStrings>
-		<li>logentry->Ha sigut amable amb [other_nameShortIndef].</li>
-	</KindWords.logRulesInitiator.rulesStrings>
-	<KindWords.logRulesRecipient.rulesStrings>
-		<li>logentry->Ha rebut amabilitat de [other_nameShortIndef].</li>
-	</KindWords.logRulesRecipient.rulesStrings>
+  <KindWords.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] [PersonalCharacteristic] de [RECIPIENT_nameDef].</li>
+    <li>complimented(p=3)->ha elogiat</li>
+    <li>complimented->ha lloat</li>
+    <li>complimented->ha exalçat</li>
+    <li>complimented->ha alabat</li>
+    <li>complimented->ha aplaudit</li>
+    <li>complimented->ha celebrat</li>
+    <li>complimented->ha enaltit</li>
+    <li>complimented->ha parlat bé de</li>
+    <li>complimented->ha donat una bona opinió sobre</li>
+    <li>complimented->ha tingut bones paraules per</li>
+    <li>complimented->ha apreciat verbalment</li>
+    <li>complimented->ha expressat estimació per</li>
+    <li>complimented->ha dit coses bones de</li>
+  </KindWords.logRulesInitiator.rulesStrings>
 
 
 </LanguageData>

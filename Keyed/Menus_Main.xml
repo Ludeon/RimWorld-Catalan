@@ -1,193 +1,380 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!--=========== Main menu ==========-->
+  <!-- Main menu -->
+  <!-- EN: Tutorial -->
   <Tutorial>Tutorial</Tutorial>
+  <!-- EN: New colony -->
   <NewColony>Colònia nova</NewColony>
+  <!-- EN: Back to game -->
   <BackToGame>Torna a la partida</BackToGame>
+  <!-- EN: Review scenario -->
   <ReviewScenario>Revisa l'escenari</ReviewScenario>
+  <!-- EN: Save -->
   <Save>Desa</Save>
+  <!-- EN: Load game -->
   <LoadGame>Carrega una partida</LoadGame>
+  <!-- EN: Options -->
   <Options>Opcions</Options>
+  <!-- EN: Mods -->
   <Mods>Mods</Mods>
+  <!-- EN: Save translation report -->
   <SaveTranslationReport>Desa l’informe de la traducció</SaveTranslationReport>
+  <!-- EN: Generating translation report -->
   <GeneratingTranslationReport>Es genera l’informe de la traducció</GeneratingTranslationReport>
+  <!-- EN: Cleanup translation files -->
+  <CleanupTranslationFiles>TODO</CleanupTranslationFiles>
+  <!-- EN: Cleaning translation files -->
+  <CleaningTranslationFiles>TODO</CleaningTranslationFiles>
+  <!-- EN: Credits -->
   <Credits>Crèdits</Credits>
+  <!-- EN: Quit to main menu -->
   <QuitToMainMenu>Surt al menú principal</QuitToMainMenu>
+  <!-- EN: Save and quit to menu -->
   <SaveAndQuitToMainMenu>Desa i surt al menú</SaveAndQuitToMainMenu>
+  <!-- EN: Quit to OS -->
   <QuitToOS>Surt al sistema</QuitToOS>
+  <!-- EN: Save and quit to OS -->
   <SaveAndQuitToOS>Desa i surt al sistema</SaveAndQuitToOS>
+  <!-- EN: Fiction primer -->
   <FictionPrimer>Fiction primer</FictionPrimer>
+  <!-- EN: Ludeon blog -->
   <LudeonBlog>Blog de Ludeon</LudeonBlog>
+  <!-- EN: Forums -->
   <Forums>Fòrums</Forums>
+  <!-- EN: Official wiki -->
   <OfficialWiki>Wiki oficial</OfficialWiki>
+  <!-- EN: Tynan's twitter -->
   <TynansTwitter>Twitter d'en Tynan</TynansTwitter>
+  <!-- EN: Tynan's design book -->
   <TynansDesignBook>Llibre de disseny d'en Tynan</TynansDesignBook>
+  <!-- EN: Help translate RimWorld -->
   <HelpTranslate>Ajudeu a traduir RimWorld</HelpTranslate>
+  <!-- EN: Buy soundtrack -->
   <BuySoundtrack>Compreu la banda sonora</BuySoundtrack>
+  <!-- EN: Create world -->
   <CreateWorld>Crea un món</CreateWorld>
 
-  <!--=========== Create/review world ================-->
+  <!-- Main menu translations info window -->
+  <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
+  <TranslationThanks>TODO</TranslationThanks>
+  <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
+  <TranslationHowToContribute>TODO</TranslationHowToContribute>
+  <!-- EN: Learn more -->
+  <LearnMore>TODO</LearnMore>
+
+  <!-- Create/review world -->
+  <!-- EN: Review world -->
   <ReviewWorld>Revisa el planeta</ReviewWorld>
+  <!-- EN: Generate -->
   <WorldGenerate>Genera</WorldGenerate>
+  <!-- EN: Save and finish -->
   <WorldSaveAndFinish>Desa i acaba</WorldSaveAndFinish>
+  <!-- EN: Reset -->
   <Reset>Reinicia</Reset>
+  <!-- EN: Globe coverage -->
   <PlanetCoverage>Cobertura del planeta</PlanetCoverage>
+  <!-- EN: Overall rainfall -->
   <PlanetRainfall>Pluja general</PlanetRainfall>
+  <!-- EN: Overall temperature -->
   <PlanetTemperature>Temperatura general</PlanetTemperature>
+  <!-- EN: Low -->
   <PlanetRainfall_Low>Baixa</PlanetRainfall_Low>
+  <!-- EN: Normal -->
   <PlanetRainfall_Normal>Normal</PlanetRainfall_Normal>
+  <!-- EN: High -->
   <PlanetRainfall_High>Elevada</PlanetRainfall_High>
+  <!-- EN: Low -->
   <PlanetTemperature_Low>Baixa</PlanetTemperature_Low>
+  <!-- EN: Normal -->
   <PlanetTemperature_Normal>Normal</PlanetTemperature_Normal>
+  <!-- EN: High -->
   <PlanetTemperature_High>Elevada</PlanetTemperature_High>
+  <!-- EN: Seed -->
   <WorldSeed>Llavor</WorldSeed>
+  <!-- EN: Randomize seed -->
   <RandomizeSeed>Aleatoritza la llavor</RandomizeSeed>
+  <!-- EN: The planet is always the same diameter, but since it’s far larger than needed for play, we don’t generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
   <PlanetCoverageTip>El planeta és sempre del mateix diàmetre, però com que és molt més gran del que es necessita per jugar, no cal generar tota la superfície i així estalvieu temps. Aquest és el percentatge de la superfície que voleu generar.</PlanetCoverageTip>
+  <!-- EN: Factions -->
   <WorldFactionsTab>Faccions</WorldFactionsTab>
 
-  <!--=========== Select world ===================-->
+  <!-- Select world -->
+  <!-- EN: Select world -->
   <SelectWorld>Seleccioneu un planeta</SelectWorld>
+  <!-- EN: Select -->
   <WorldChooseButton>Selecciona</WorldChooseButton>
+  <!-- EN: No world files found. Create a world first. -->
   <NoWorldsFilesFound>No s'han trobat fitxers de planeta. Creeu-ne un primer.</NoWorldsFilesFound>
   
-  <!--=========== Version info ==========-->
+  <!-- Version info -->
+  <!-- EN: Version {0} is now available. Check ludeon.com for more info. -->
   <BuildNowAvailable>Està disponible la versió {0}. Visiteu ludeon.com per obtenir més informació.</BuildNowAvailable>
+  <!-- EN: This is the latest version. -->
   <BuildUpToDate>Teniu la versió més actual</BuildUpToDate>
+  <!-- EN: Error getting version info: {0} -->
   <ErrorGettingVersionInfo>S'ha produït un error obtenir la informació de la versió: {0}</ErrorGettingVersionInfo>
+  <!-- EN: Loading version info... -->
   <LoadingVersionInfo>S'està descarregant la informació de la versió...</LoadingVersionInfo>
 
-  <!--=========== World generator =========-->
+  <!-- World generator -->
+  <!-- EN: Generate world -->
   <GenerateWorld>Genera un planeta</GenerateWorld>
 
-  <!--=========== Mods config ==========-->
+  <!-- Mods config -->
+  <!-- EN: Open Steam Workshop -->
   <OpenSteamWorkshop>Obre el Workshop d'Steam</OpenSteamWorkshop>
+  <!-- EN: Get mods from forum -->
   <GetModsFromForum>Obté mods del fòrum</GetModsFromForum>
+  <!-- EN: Open mods data folder -->
   <OpenModsDataFolder>Obre la carpeta dels mods</OpenModsDataFolder>
-<ShowModsDataLocation>Mostra la carpeta dels mods</ShowModsDataLocation>
+  <!-- EN: Show mods data location -->
+  <ShowModsDataLocation>Mostra la carpeta dels mods</ShowModsDataLocation>
+  <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
   <ConfirmDisableCoreMod>Esteu segur que voleu deshabilitar el mod nucli? El joc no funcionarà si no és que té un altre mod amb totes les funcionalitats del nucli.\n\nRecordeu que altres mods poden sobreescriure les definicions del mod nucli fent servir el mateix «defName».</ConfirmDisableCoreMod>
+  <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>Esteu segur que voleu esborrar el contingut de {0}?</ConfirmDeleteMod>
+  <!-- EN: Unsubscribe -->
   <Unsubscribe>Cancel·la la subscripció</Unsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe from {0}? -->
   <ConfirmUnsubscribe>Esteu segurs que voleu cancel·lar la subscripció a {0}?</ConfirmUnsubscribe>
+  <!-- EN: Author -->
   <Author>Autor</Author>
+  <!-- EN: Workshop page -->
   <WorkshopPage>Pàgina del Workshop</WorkshopPage>
+  <!-- EN: Upload to Steam Workshop -->
   <UploadToSteamWorkshop>Puja al Workshop d'Steam</UploadToSteamWorkshop>
+  <!-- EN: Update on Steam Workshop -->
   <UpdateOnSteamWorkshop>Actualitza del Workshop d'Steam</UpdateOnSteamWorkshop>
+  <!-- EN: Upload already in progress. -->
   <UploadAlreadyInProgress>La pujada està en procés.</UploadAlreadyInProgress>
+  <!-- EN: Workshop submission failed.\n\nReason: {0} -->
   <WorkshopSubmissionFailed>Ha fallat el lliurament al Workshop.\n\nMotiu: {0}</WorkshopSubmissionFailed>
+  <!-- EN: Successfully uploaded {0}. -->
   <WorkshopUploadSucceeded>{0} ha pujat correctament.</WorkshopUploadSucceeded>
+  <!-- EN: Downloading -->
   <Downloading>Descarregant</Downloading>
+  <!-- EN: Source -->
   <Source>Font</Source>
+  <!-- EN: For version: {0} -->
   <ModTargetVersion>Per la versió: {0}</ModTargetVersion>
+  <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>Aquest mod no està fet per aquesta versió de RimWorld i probablement no funcionarà correctament.</ModNotMadeForThisVersion>
-  <MessageModNeedsWellFormattedTargetVersion>El Mod necessita una etiqueta de versió ben construïda a l'About.xml. Com ara: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Mod needs a well-formatted target version in About.xml. Like this: <targetVersion>{0}</targetVersion>. -->
+  <MessageModNeedsWellFormattedTargetVersion>El Mod necessita una etiqueta de versió ben construïda a l'About.xml. Com ara: &lt;targetVersion>{0}&lt;/targetVersion>.</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Drag to reorder -->
   <DragToReorder>Arrossega per canviar d'ordre</DragToReorder>
   
-  <!--=========== Select scenario =============-->
+  <!-- Select scenario -->
+  <!-- EN: Choose scenario -->
   <ChooseScenario>Escolliu un escenari</ChooseScenario>
+  <!-- EN: Custom -->
   <ScenariosCustom>Personalitzat</ScenariosCustom>
+  <!-- EN: Steam Workshop -->
   <ScenariosSteamWorkshop>Workshop d'Steam</ScenariosSteamWorkshop>
+  <!-- EN: Scenario editor -->
   <ScenarioEditor>Editor d'escenaris</ScenarioEditor>
+  <!-- EN: Delete -->
   <Delete>Esborra</Delete>
   
-  <!--============ Scenario editor ===============-->
+  <!-- Scenario editor -->
+  <!-- EN: seed -->
   <Seed>Llavor</Seed>
+  <!-- EN: Load -->
   <Load>Carrega</Load>
+  <!-- EN: edit mode -->
   <EditMode>edit mode</EditMode>
+  <!-- EN: Summary -->
   <Summary>Resum</Summary>
+  <!-- EN: Add part -->
   <AddPart>Afegeix una particularitat</AddPart>
+  <!-- EN: All text fields must be filled. -->
   <TextFieldsMustBeFilled>S'han d'omplir tots els camps de text.</TextFieldsMustBeFilled>
+  <!-- EN: Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement -->
   <ConfirmSteamWorkshopUpload>Esteu segur que voleu pujar-lo al Workshop d'Steam?\n\nHeu d'acceptar els termes del servei del Workshop d'Steam. Trobareu els termes a:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <!-- EN: Obviously you should only upload content that you created yourself.\n\nDid you create this content yourself? -->
   <ConfirmContentAuthor>Òbviament només hauríeu de pujar contingut que hàgiu creat vosaltres mateixos.\n\nHeu creat el contingut vosaltres mateixos?</ConfirmContentAuthor>
+  <!-- EN: Incompatible -->
   <Incompatible>No és compatible</Incompatible>
+  <!-- EN: Too many (max {0}):  -->
   <TooMany>Masses (max {0}): </TooMany>
+  <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>Podeu pujar-lo al Workshop, sempre que en sigueu l'autor.</CanBeUpdatedOnWorkshop>
   
-  <!--=========== Select storyteller ==========-->
+  <!-- Select storyteller -->
+  <!-- EN: Choose AI Storyteller -->
   <ChooseAIStoryteller>Escolliu la IA narradora</ChooseAIStoryteller>
+  <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
   <HowStorytellersWork>La IA narradora crea esdeveniments com ara ràtzies de pirates, recursos que cauen o atacs d'animals. Les seves tries afectaran la història de la vostra colònia. Podeu canviar aquesta configuració en qualsevol moment.</HowStorytellersWork>
+  <!-- EN: Please choose a difficulty setting. -->
   <MustChooseDifficulty>Escolliu una dificultat.</MustChooseDifficulty>
+  <!-- EN: Difficulty -->
   <Difficulty>Dificultat</Difficulty>
+  <!-- EN: Commitment mode -->
+  <CommitmentMode>TODO</CommitmentMode>
+  <!-- EN: Reload anytime mode -->
+  <ReloadAnytimeMode>TODO</ReloadAnytimeMode>
+  <!-- EN: Please choose commitment mode or reload anytime mode. -->
+  <MustChoosePermadeath>TODO</MustChoosePermadeath>
+  <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, it's designed to encourage recovery after losses. Even losing all but one person is not the end of the game - it's part of the story.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his parents got killed - loss and recovery is dramatic! -->
+  <PermadeathModeInfo>En el mode de «Mort permanent», només teniu un fitxer de partida desada i només podeu desar quan sortiu de la partida. No podeu tornar a carregar la partida per corregir equivocacions i si es mor un colon, està mort.\n\nAquesta és la forma en què Rimworld està pensat, amb cada gir dramàtic – tràgic o esperançador – jugat fins a les darreres conseqüències.</PermadeathModeInfo>
+  <!-- EN: You can save and load the game at any time.\n\nThis isn't a bad choice if you're still learning the game, if it fits your personal playstyle or goals, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
+  <ReloadAnytimeModeInfo>TODO</ReloadAnytimeModeInfo>
+  <!-- EN: Storyteller and difficulty can be changed any time. -->
+  <CanChangeStorytellerSettingsDuringPlay>TODO</CanChangeStorytellerSettingsDuringPlay>
 
-  <!--=========== Landing site select =========-->
+  <!-- Landing site select -->
+  <!-- EN: Select landing site -->
   <SelectLandingSite>Seleccioneu un lloc d'aterratge</SelectLandingSite>
+  <!-- EN: Select random site -->
   <SelectRandomSite>Selecciona un lloc aleatori</SelectRandomSite>
+  <!-- EN: Select site -->
   <SelectSite>Seleccioneu un lloc</SelectSite>
+  <!-- EN: Please select a landing site. -->
   <MustSelectLandingSite>Seleccioneu un lloc d'aterratge.</MustSelectLandingSite>
+  <!-- EN: You cannot land on this biome: {0} -->
   <CannotLandBiome>No podeu aterrar en aquest bioma: {0}</CannotLandBiome>
+  <!-- EN: Biome not implemented -->
   <BiomeNotImplemented>El bioma no està implementat</BiomeNotImplemented>
+  <!-- EN: You cannot land on impassable mountains. -->
   <CannotLandImpassableMountains>No podeu aterrar sobre muntanyes impassables.</CannotLandImpassableMountains>
+  <!-- EN: {0} already have a base there. -->
   <BaseAlreadyThere>{0} ja té una base aquí.</BaseAlreadyThere>
+  <!-- EN: You already have a base there. -->
   <YourBaseAlreadyThere>Ja hi teniu una base aquí.</YourBaseAlreadyThere>
+  <!-- EN: This tile is occupied. -->
   <TileOccupied>La cel·la està ocupada.</TileOccupied>
+  <!-- EN: Settlements cannot be directly adjacent to each other. -->
   <FactionBaseAdjacent>Els assentaments no poden estar un a tocar de l'altre.</FactionBaseAdjacent>
+  <!-- EN: Biome -->
   <Biome>Bioma</Biome>
+  <!-- EN: Terrain -->
   <Terrain>Terreny</Terrain>
+  <!-- EN: Road -->
   <Road>Carretera</Road>
+  <!-- EN: River -->
   <River>Riu</River>
+  <!-- EN: Elevation -->
   <Elevation>Elevació</Elevation>
+  <!-- EN: Fertility -->
   <Fertility>Fertilitat</Fertility>
+  <!-- EN: Average temperature -->
   <AvgTemp>Temperatura mitjana</AvgTemp>
+  <!-- EN: Rainfall -->
   <Rainfall>Pluviometria</Rainfall>
+  <!-- EN: Special features -->
   <SpecialFeatures>Característiques especials</SpecialFeatures>
+  <!-- EN: northern coast -->
   <HasCoast0>Costa nord</HasCoast0>
+  <!-- EN: eastern coast -->
   <HasCoast1>Costa est</HasCoast1>
+  <!-- EN: southern coast -->
   <HasCoast2>Costa sud</HasCoast2>
+  <!-- EN: western coast -->
   <HasCoast3>Costa oest</HasCoast3>
+  <!-- EN: caves -->
   <HasCaves>coves</HasCaves>
+  <!-- EN: Faction base -->
   <FactionBase>Base de facció</FactionBase>
+  <!-- EN: Stone types -->
   <StoneTypesHere>Tipus de roca</StoneTypesHere>
+  <!-- EN: Time zone -->
   <TimeZone>Zona horària</TimeZone>
+  <!-- EN: Movement difficulty -->
   <MovementDifficulty>Dificultat de moviment</MovementDifficulty>
+  <!-- EN: Animals can graze now -->
   <AnimalsCanGrazeNow>Els animals poden pasturar</AnimalsCanGrazeNow>
+  <!-- EN: Average disease frequency -->
   <AverageDiseaseFrequency>Freqüència mitjana de malalties</AverageDiseaseFrequency>
+  <!-- EN: per year -->
   <PerYear>anual</PerYear>
+  <!-- EN: Forageability -->
   <Forageability>Grau de recol·lecció</Forageability>
+  <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
   <ConfirmRequiredWorkTypeDisabledForEveryone>No heu seleccionat ningú que pugui fer aquestes feines:\n\n{0}\n\nAixò farà la partida més difícil del normal. Esteu segur que voleu continuar?</ConfirmRequiredWorkTypeDisabledForEveryone>
 
-
-  <!--=========== Character chooser ==========-->
+  <!-- Character chooser -->
+  <!-- EN: Create characters -->
   <CreateCharacters>Creació de personatges</CreateCharacters>
+  <!-- EN: The character's first name.\n\nThis is only displayed in certain menus. -->
   <FirstNameDesc>El nom propi del personatge.\n\nNomés es mostra en alguns menús.</FirstNameDesc>
+  <!-- EN: The character's short identifier.\n\nThis is displayed at all times. It can be the first or last name, or a completely separate nickname. -->
   <ShortIdentifierDesc>L'identificador curt del personatge.\n\nÉs el que es mostra sempre. Pot ser el nom, el cognom, o un sobrenom completament diferent.</ShortIdentifierDesc>
+  <!-- EN: The character's last name.\n\nThis is only displayed in certain menus. -->
   <LastNameDesc>El cognom del personatge.\n\nNomés es mostra en alguns menús.</LastNameDesc>
+  <!-- EN: Randomize -->
   <Randomize> Aleatoritza </Randomize>
+  <!-- EN: age {0} -->
   <AgeIndicator>edat {0}</AgeIndicator>
+  <!-- EN: Backstory -->
   <Backstory>Rerefons</Backstory>
+  <!-- EN: Incapable of -->
   <IncapableOf>Incapaç de</IncapableOf>
+  <!-- EN: Traits -->
   <Traits>Característiques</Traits>
+  <!-- EN: Permanent mood effect -->
   <PermanentMoodEffect>Efecte permanent a l'estat d'ànim</PermanentMoodEffect>
+  <!-- EN: Skills -->
   <Skills>Capacitats</Skills>
+  <!-- EN: none -->
   <NoneLower>cap</NoneLower>
+  <!-- EN: Adulthood -->
   <Adulthood>Maduresa</Adulthood>
+  <!-- EN: Childhood -->
   <Childhood>Infantesa</Childhood>
+  <!-- EN: Current -->
   <Current>Actual</Current>
+  <!-- EN: male -->
   <Male>masculí</Male>
+  <!-- EN: female -->
   <Female>femení</Female>
+  <!-- EN: male -->
+  <MaleAnimal>TODO</MaleAnimal>
+  <!-- EN: female -->
+  <FemaleAnimal>TODO</FemaleAnimal>
+  <!-- EN: Pain -->
   <Pain>Dolor</Pain>
+  <!-- EN: Health -->
   <Health>Salut</Health>
+  <!-- EN: Relations -->
   <Relations>Relacions</Relations>
+  <!-- EN: Team skills -->
   <TeamSkills>Capacitat de l’equip</TeamSkills>
+  <!-- EN: Selected -->
   <StartingPawnsSelected>Seleccionats</StartingPawnsSelected>
+  <!-- EN: Left behind -->
   <StartingPawnsLeftBehind>Deixats</StartingPawnsLeftBehind>
-
   
-  <!--=========== Misc ==========-->
+  <!-- Misc -->
+  <!-- EN: Start -->
   <Start>Comença</Start>
+  <!-- EN: Advanced -->
   <Advanced>Avançat</Advanced>
+  <!-- EN: Next -->
   <Next>Següent</Next>
+  <!-- EN: Back -->
   <Back>Anterior</Back>
+  <!-- EN: Gameplay -->
   <Gameplay>Joc</Gameplay>
+  <!-- EN: Really quit? You'll lose unsaved progress. -->
   <ConfirmQuit>Voleu sortir? Perdreu el progrés que no s'hagi desat.</ConfirmQuit>
+  <!-- EN: Each person needs a valid name. -->
   <EveryoneNeedsValidName>Tothom necessita un nom vàlid.</EveryoneNeedsValidName>
+  <!-- EN: None of the selected people can do the following jobs -->
   <RequiredWorkTypeDisabledForEveryone>Nou heu seleccionat ningú que pugui fer les següents tasques</RequiredWorkTypeDisabledForEveryone>
+  <!-- EN: Quit -->
   <Quit>Surt</Quit>
+  <!-- EN: Ignore -->
   <Ignore>Ignora</Ignore>
   
-  <!--============ Progress bar==============-->
+  <!-- Progress bar -->
+  <!-- EN: Generating world -->
   <GeneratingWorld>Genera el món</GeneratingWorld>
+  <!-- EN: Generating planet -->
   <GeneratingPlanet>Genera el planeta</GeneratingPlanet>
+  <!-- EN: Generating map -->
   <GeneratingMap>Genera el mapa</GeneratingMap>
+  <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>Genera el mapa per una nova trobada</GeneratingMapForNewEncounter>
 
 </LanguageData>

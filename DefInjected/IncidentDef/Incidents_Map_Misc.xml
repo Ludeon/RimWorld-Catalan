@@ -1,68 +1,108 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Good -->
-
-  <ResourcePodCrash.label>s'ha estavellat una càpsula amb recursos</ResourcePodCrash.label>
-  <PsychicSoothe.label>calmant psíquic</PsychicSoothe.label>
-  <SelfTame.label>auto-domesticats</SelfTame.label>
-
-  <AmbrosiaSprout.label>brot d'ambrosia</AmbrosiaSprout.label>
-  <AmbrosiaSprout.letterText>Un matoll de la misteriosa ambrosia ha brotat als voltants! Si deixeu que creixi, podreu collir el seu fruit deliciós, plaent u lleugerament addictiu...</AmbrosiaSprout.letterText>
-  <AmbrosiaSprout.letterLabel>Brot d'ambrosia</AmbrosiaSprout.letterLabel>
-
-  <FarmAnimalsWanderIn.label>han aparegut animals de granja</FarmAnimalsWanderIn.label>
-  <WandererJoin.label>s'ha unit un vagabund</WandererJoin.label>
-  <RefugeePodCrash.label>s'ha estavellat una càpsula de refugiats</RefugeePodCrash.label>
-
-
-  <!-- Neutral -->
-
-  <RefugeeChased.label>refugiat en persecució</RefugeeChased.label>
-  <ThrumboPasses.label>pas de trumbes</ThrumboPasses.label>
-
-  <RansomDemand.label>demanda de rescat</RansomDemand.label>
-  <RansomDemand.letterLabel>Demanda de rescat</RansomDemand.letterLabel>
-
-  <MeteoriteImpact.label>impacte de meteorit</MeteoriteImpact.label>
-  <MeteoriteImpact.letterText>Un gran meteorit ha caigut a la zona. Ha deixat un conglomerat amb {0}.</MeteoriteImpact.letterText>
-  <MeteoriteImpact.letterLabel>Meteorit</MeteoriteImpact.letterLabel>
-
-  <HerdMigration.label>migració de manada</HerdMigration.label>
-  <HerdMigration.letterText>Una gran manada de {0} travessen la zona. No atacaran si no els molesten.</HerdMigration.letterText>
-  <HerdMigration.letterLabel>Migració de manada: {0}</HerdMigration.letterLabel>
-
-  <WildManWandersIn.label>arribada de salvatge</WildManWandersIn.label>
-  <WildManWandersIn.letterLabel>Arribada de salvatge</WildManWandersIn.letterLabel>
-  <WildManWandersIn.letterText>Una persona que s’ha criat entre animals salvatges ha entrat a la vostra zona. Es diu {0}.\n\nPodeu intentar domesticar-la.</WildManWandersIn.letterText>
-
-  <!-- Bad -->
-
-  <PsychicDrone.label>brunzit psíquic</PsychicDrone.label>
-
-  <ToxicFallout.label>pluja tòxica</ToxicFallout.label>
-  <ToxicFallout.letterText>Un incendi químic llunyà ha alliberat un núvol tòxic sobre tota aquesta regió.\n\nQualsevol persona o animal que no estigui sota teulada tard o d'hora emmalaltirà per la pols tòxica que cau de l'atmosfera.\n\nPot dura uns quants dies o una estació sencera.</ToxicFallout.letterText>
-  <ToxicFallout.letterLabel>Pluja Tòxica</ToxicFallout.letterLabel>
-
-  <VolcanicWinter.label>hivern volcànic</VolcanicWinter.label>
-  <VolcanicWinter.letterText>Un supervolcà llunyà ha entrat en erupció i ha començat a enviar milions de quilòmetres cúbics de cendra a l'atmosfera.\n\nLa cendra enfosquirà el sol. Les temperatures baixaran i les plantes trobaran a faltar la llum solar. Es pot acabar en poques setmanes o durar moltes estacions.</VolcanicWinter.letterText>
-  <VolcanicWinter.letterLabel>Hivern volcànic</VolcanicWinter.letterLabel>
-
-  <HeatWave.label>onada de calor</HeatWave.label>
-  <HeatWave.letterText>Ha començat una onada de calor anormal. Els cops de calor poden matar la gent. Mantingueu-los freds amb refrigeradors o mantenint-los a dins les muntanyes.</HeatWave.letterText>
-  <HeatWave.letterLabel>Onada de calor</HeatWave.letterLabel>
-
-  <ColdSnap.label>onada de fred</ColdSnap.label>
-  <ColdSnap.letterText>Esteu passant una onada de fred. Les hipotèrmies poden matar la gent. Construïu espais calefactats per sobreviure-hi, assegureu-vos que duen roba adequada, i recolliu la collita abans que es mori de fred.</ColdSnap.letterText>
-  <ColdSnap.letterLabel>Onada de fred</ColdSnap.letterLabel>
-
-  <Flashstorm.label>tempesta de llamps</Flashstorm.label>
-  <Flashstorm.letterText>Cauen una gran quantitat de llamps. Pot iniciar grans incendis.</Flashstorm.letterText>
-  <Flashstorm.letterLabel>Tempesta de llamps</Flashstorm.letterLabel>
-
-  <ShortCircuit.label>curtcircuit</ShortCircuit.label>
-  <CropBlight.label>plaga a les plantacions</CropBlight.label>
+  
+  <!-- EN: alphabeavers -->
   <Alphabeavers.label>castors alfa</Alphabeavers.label>
-
-
+  
+  <!-- EN: ambrosia sprout -->
+  <AmbrosiaSprout.label>brot d'ambrosia</AmbrosiaSprout.label>
+  <!-- EN: Ambrosia sprout -->
+  <AmbrosiaSprout.letterLabel>Brot d'ambrosia</AmbrosiaSprout.letterLabel>
+  <!-- EN: A grove of the mysterious ambrosia bush has sprouted nearby! If you wait for the plants to grow, you'll be able to harvest the delicious, pleasurable, and slightly addictive fruit. -->
+  <AmbrosiaSprout.letterText>Un matoll de la misteriosa ambrosia ha brotat als voltants! Si deixeu que creixi, podreu collir el seu fruit deliciós, plaent u lleugerament addictiu...</AmbrosiaSprout.letterText>
+  
+  <!-- EN: cold snap -->
+  <ColdSnap.label>onada de fred</ColdSnap.label>
+  <!-- EN: Cold snap -->
+  <ColdSnap.letterLabel>Onada de fred</ColdSnap.letterLabel>
+  <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
+  <ColdSnap.letterText>Esteu passant una onada de fred. Les hipotèrmies poden matar la gent. Construïu espais calefactats per sobreviure-hi, assegureu-vos que duen roba adequada, i recolliu la collita abans que es mori de fred.</ColdSnap.letterText>
+  
+  <!-- EN: crop blight -->
+  <CropBlight.label>plaga a les plantacions</CropBlight.label>
+  
+  <!-- EN: farm animals wander in -->
+  <FarmAnimalsWanderIn.label>han aparegut animals de granja</FarmAnimalsWanderIn.label>
+  
+  <!-- EN: flashstorm -->
+  <Flashstorm.label>tempesta de llamps</Flashstorm.label>
+  <!-- EN: Flashstorm -->
+  <Flashstorm.letterLabel>Tempesta de llamps</Flashstorm.letterLabel>
+  <!-- EN: A freak localized flashstorm is striking a small area with lightning. This can cause massive fires. -->
+  <Flashstorm.letterText>Cauen una gran quantitat de llamps. Pot iniciar grans incendis.</Flashstorm.letterText>
+  
+  <!-- EN: heat wave -->
+  <HeatWave.label>onada de calor</HeatWave.label>
+  <!-- EN: Heat wave -->
+  <HeatWave.letterLabel>Onada de calor</HeatWave.letterLabel>
+  <!-- EN: An unusual heat wave has begun.\n\nHeat waves can kill quickly if people start getting heatstroke. Stay cool by building a cooler or getting deep under a mountain. -->
+  <HeatWave.letterText>Ha començat una onada de calor anormal. Els cops de calor poden matar la gent. Mantingueu-los freds amb refrigeradors o mantenint-los a dins les muntanyes.</HeatWave.letterText>
+  
+  <!-- EN: herd migration -->
+  <HerdMigration.label>migració de manada</HerdMigration.label>
+  <!-- EN: Animal migration: {0} -->
+  <HerdMigration.letterLabel>Migració de manada: {0}</HerdMigration.letterLabel>
+  <!-- EN: A group of {0} is passing through the area.\n\nThey won't attack unless provoked. -->
+  <HerdMigration.letterText>Una gran manada de {0} travessen la zona. No atacaran si no els molesten.</HerdMigration.letterText>
+  
+  <!-- EN: meteorite impact -->
+  <MeteoriteImpact.label>impacte de meteorit</MeteoriteImpact.label>
+  <!-- EN: Meteorite -->
+  <MeteoriteImpact.letterLabel>Meteorit</MeteoriteImpact.letterLabel>
+  <!-- EN: A large meteorite has struck ground in the area. It has left behind a lump of {0}. -->
+  <MeteoriteImpact.letterText>Un gran meteorit ha caigut a la zona. Ha deixat un conglomerat amb {0}.</MeteoriteImpact.letterText>
+  
+  <!-- EN: psychic drone -->
+  <PsychicDrone.label>brunzit psíquic</PsychicDrone.label>
+  
+  <!-- EN: psychic soothe -->
+  <PsychicSoothe.label>calmant psíquic</PsychicSoothe.label>
+  
+  <!-- EN: ransom demand -->
+  <RansomDemand.label>demanda de rescat</RansomDemand.label>
+  <!-- EN: Ransom demand -->
+  <RansomDemand.letterLabel>Demanda de rescat</RansomDemand.letterLabel>
+  
+  <!-- EN: chased refugee -->
+  <RefugeeChased.label>refugiat en persecució</RefugeeChased.label>
+  
+  <!-- EN: refugee pod crash -->
+  <RefugeePodCrash.label>s'ha estavellat una càpsula de refugiats</RefugeePodCrash.label>
+  
+  <!-- EN: resource pod crash -->
+  <ResourcePodCrash.label>s'ha estavellat una càpsula amb recursos</ResourcePodCrash.label>
+  
+  <!-- EN: self-tame -->
+  <SelfTame.label>auto-domesticats</SelfTame.label>
+  
+  <!-- EN: short circuit -->
+  <ShortCircuit.label>curtcircuit</ShortCircuit.label>
+  
+  <!-- EN: thrumbos pass -->
+  <ThrumboPasses.label>pas de trumbes</ThrumboPasses.label>
+  
+  <!-- EN: toxic fallout -->
+  <ToxicFallout.label>pluja tòxica</ToxicFallout.label>
+  <!-- EN: Toxic fallout -->
+  <ToxicFallout.letterLabel>Pluja Tòxica</ToxicFallout.letterLabel>
+  <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to over a season. -->
+  <ToxicFallout.letterText>Un incendi químic llunyà ha alliberat un núvol tòxic sobre tota aquesta regió.\n\nQualsevol persona o animal que no estigui sota teulada tard o d'hora emmalaltirà per la pols tòxica que cau de l'atmosfera.\n\nPot dura uns quants dies o una estació sencera.</ToxicFallout.letterText>
+  
+  <!-- EN: volcanic winter -->
+  <VolcanicWinter.label>hivern volcànic</VolcanicWinter.label>
+  <!-- EN: Volcanic winter -->
+  <VolcanicWinter.letterLabel>Hivern volcànic</VolcanicWinter.letterLabel>
+  <!-- EN: A distant supervolcano has erupted and begun spewing millions of cubic kilometers of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums. -->
+  <VolcanicWinter.letterText>Un supervolcà llunyà ha entrat en erupció i ha començat a enviar milions de quilòmetres cúbics de cendra a l'atmosfera.\n\nLa cendra enfosquirà el sol. Les temperatures baixaran i les plantes trobaran a faltar la llum solar. Es pot acabar en poques setmanes o durar moltes estacions.</VolcanicWinter.letterText>
+  
+  <!-- EN: wanderer join -->
+  <WandererJoin.label>s'ha unit un vagabund</WandererJoin.label>
+  
+  <!-- EN: wild man wanders in -->
+  <WildManWandersIn.label>arribada de salvatge</WildManWandersIn.label>
+  <!-- EN: Wild man wanders in -->
+  <WildManWandersIn.letterLabel>Arribada de salvatge</WildManWandersIn.letterLabel>
+  <!-- EN: A person living among wild animals has wandered into the area. [PAWN_pronoun]'s called {0}.\n\nYou can attempt to tame [PAWN_objective]. -->
+  <WildManWandersIn.letterText>Una persona que s’ha criat entre animals salvatges ha entrat a la vostra zona. Es diu {0}.\n\nPodeu intentar domesticar-la.</WildManWandersIn.letterText>
+  
 </LanguageData>

@@ -1,36 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: campfire -->
   <Campfire.label>foc de camp</Campfire.label>
+  <!-- EN: Cooks meals and produces heat, and burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable. -->
   <Campfire.description>Permet cuinar i escalfar-se. Es consumeix al cap d'uns dies. Igual que d'altres fonts de calor, cal posar-les a l'interior si es vol escalfar-lo. Es pot tornar a recarregar.</Campfire.description>
-  <Campfire_Blueprint.label>foc de camp (projecte)</Campfire_Blueprint.label>
-  <Campfire_Frame.label>foc de camp (en construcció)</Campfire_Frame.label>
-  <Campfire_Frame.description>Permet cuinar i escalfar-se. Es consumeix al cap d'uns dies. Igual que d'altres fonts de calor, cal posar-les a l'interior si es vol escalfar-lo. Es pot tornar a recarregar.</Campfire_Frame.description>
-
-  <PassiveCooler.label>refrigerador passiu</PassiveCooler.label>
-  <PassiveCooler.description>Un refrigerador tradicional que funciona evaporant aigua. Es consumirà i s'autodestruirà al cap d'uns dies.</PassiveCooler.description>
-  <PassiveCooler_Blueprint.label>refrigerador passiu (projecte)</PassiveCooler_Blueprint.label>
-  <PassiveCooler_Frame.label>refrigerador passiu (en construcció)</PassiveCooler_Frame.label>
-  <PassiveCooler_Frame.description>Un refrigerador tradicional que funciona evaporant aigua. Es consumirà i s'autodestruirà al cap d'uns dies.</PassiveCooler_Frame.description>
-
-  <Heater.label>estufa</Heater.label>
-  <Heater.description>Un dispositiu que converteix l'energia elèctrica en calor. S'engega i es para sol per mantenir una temperatura especifica en una habitació.</Heater.description>
-  <Heater_Blueprint.label>estufa (projecte)</Heater_Blueprint.label>
-  <Heater_Blueprint_Install.label>estufa (projecte)</Heater_Blueprint_Install.label>
-  <Heater_Frame.label>estufa (en construcció)</Heater_Frame.label>
-  <Heater_Frame.description>Un dispositiu que converteix l'energia elèctrica en calor. S'engega i es para sol per mantenir una temperatura especifica en una habitació.</Heater_Frame.description>
-
+  
+  <!-- EN: cooler -->
   <Cooler.label>refrigerador</Cooler.label>
+  <!-- EN: An air-cooling machine that fits into a wall. Cool air comes out one side, while hot exhaust comes out the other. Can be used to cool down rooms during summer, or to create a walk-in freezer. -->
   <Cooler.description>Un dispositiu elèctric que s'encasta a la paret i impulsa aire fred a una habitació. L'intercanviador genera molta calor. Pot servir tant per refrigerar cambres a l'estiu com per fer una nevera transitable.</Cooler.description>
-  <Cooler_Blueprint.label>refrigerador (projecte)</Cooler_Blueprint.label>
-  <Cooler_Frame.label>refrigerador (en construcció)</Cooler_Frame.label>
-  <Cooler_Frame.description>Un dispositiu elèctric que s'encasta a la paret i impulsa aire fred a una habitació. L'intercanviador genera molta calor. Pot servir tant per refrigerar cambres a l'estiu com per fer una nevera transitable.</Cooler_Frame.description>
-
+  
+  <!-- EN: heater -->
+  <Heater.label>estufa</Heater.label>
+  <!-- EN: An device that converts electricity into heat. It can automatically turn itself on or off to reach a specific target temperature. -->
+  <Heater.description>Un dispositiu que converteix l'energia elèctrica en calor. S'engega i es para sol per mantenir una temperatura especifica en una habitació.</Heater.description>
+  
+  <!-- EN: passive cooler -->
+  <PassiveCooler.label>refrigerador passiu</PassiveCooler.label>
+  <!-- EN: A traditional unpowered cooler that works by water evaporation. Will run out and vanish after several days. -->
+  <PassiveCooler.description>Un refrigerador tradicional que funciona evaporant aigua. Es consumirà i s'autodestruirà al cap d'uns dies.</PassiveCooler.description>
+  
+  <!-- EN: vent -->
   <Vent.label>reixa</Vent.label>
+  <!-- EN: A vent for equalizing the temperature between two rooms without allowing people to walk between them. -->
   <Vent.description>Una simple reixa que permet igualar les temperatures de dues cambres, sense la gent pugui passar de l'una a l'altra.</Vent.description>
-  <Vent_Blueprint.label>reixa (projecte)</Vent_Blueprint.label>
-  <Vent_Frame.label>reixa (en construcció)</Vent_Frame.label>
-  <Vent_Frame.description>Una simple reixa que permet igualar les temperatures de dues cambres, sense la gent pugui passar de l'una a l'altra.</Vent_Frame.description>
-
-
+  
 </LanguageData>

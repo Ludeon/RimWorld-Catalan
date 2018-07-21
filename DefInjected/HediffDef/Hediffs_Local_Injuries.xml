@@ -1,134 +1,240 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Missing body part -->
-
-  <MissingBodyPart.label>part del cos que falta</MissingBodyPart.label>
-  <MissingBodyPart.labelNoun>una part del cos que falta</MissingBodyPart.labelNoun>
-  <MissingBodyPart.labelNounPretty>li falta {1}</MissingBodyPart.labelNounPretty>
-
-  <!-- Injuries -->
-
-  <Misc.label>misc</Misc.label>
-  <Misc.comps.0.labelSolidTendedWell>arreglat</Misc.comps.0.labelSolidTendedWell>
-  <Misc.comps.0.labelTendedWell>embenat</Misc.comps.0.labelTendedWell>
-  <Misc.comps.0.labelTendedWellInner>cosit</Misc.comps.0.labelTendedWellInner>
-  <Misc.injuryProps.destroyedLabel>Destrucció</Misc.injuryProps.destroyedLabel>
-  <Misc.labelNoun>una ferida</Misc.labelNoun>
-  <Misc.labelNounPretty>{0} a {1}</Misc.labelNounPretty>
-
-  <Burn.label>cremada</Burn.label>
-  <Burn.comps.0.labelSolidTendedWell>arreglada</Burn.comps.0.labelSolidTendedWell>
-  <Burn.comps.0.labelTendedWell>embenada</Burn.comps.0.labelTendedWell>
-  <Burn.comps.0.labelTendedWellInner>cosida</Burn.comps.0.labelTendedWellInner>
-  <Burn.comps.2.permanentLabel>cicatriu de cremada</Burn.comps.2.permanentLabel>
-  <Burn.injuryProps.destroyedLabel>Cremat</Burn.injuryProps.destroyedLabel>
-  <Burn.injuryProps.destroyedOutLabel>Perdut per cremades</Burn.injuryProps.destroyedOutLabel>
-  <Burn.labelNoun>una cremada</Burn.labelNoun>
-  <Burn.labelNounPretty>{0} a {1}</Burn.labelNounPretty>
-
-  <Crush.label>esclafament</Crush.label>
-  <Crush.comps.0.labelSolidTendedWell>arreglat</Crush.comps.0.labelSolidTendedWell>
-  <Crush.comps.0.labelTendedWell>embenat</Crush.comps.0.labelTendedWell>
-  <Crush.comps.0.labelTendedWellInner>cosit</Crush.comps.0.labelTendedWellInner>
-  <Crush.comps.2.permanentLabel>cicatriu</Crush.comps.2.permanentLabel>
-  <Crush.injuryProps.destroyedLabel>Esclafat</Crush.injuryProps.destroyedLabel>
-  <Crush.labelNoun>una ferida per esclafament</Crush.labelNoun>
- <Crush.labelNounPretty>{0} a {1}</Crush.labelNounPretty>
-
-  <Crack.label>trencament</Crack.label>
-  <Crack.comps.0.labelSolidTendedWell>arreglat</Crack.comps.0.labelSolidTendedWell>
-  <Crack.comps.0.labelTendedWell>curat</Crack.comps.0.labelTendedWell>
-  <Crack.comps.0.labelTendedWellInner>curat</Crack.comps.0.labelTendedWellInner>
-  <Crack.injuryProps.destroyedLabel>Fet a miques</Crack.injuryProps.destroyedLabel>
-  <Crack.labelNoun>un trencament</Crack.labelNoun>
-  <Crack.labelNounPretty>{0} a {1}</Crack.labelNounPretty>
-
-  <Cut.label>tall</Cut.label>
-  <Cut.comps.0.labelSolidTendedWell>arreglat</Cut.comps.0.labelSolidTendedWell>
-  <Cut.comps.0.labelTendedWell>embenat</Cut.comps.0.labelTendedWell>
-  <Cut.comps.0.labelTendedWellInner>cosit</Cut.comps.0.labelTendedWellInner>
-  <Cut.comps.2.permanentLabel>cicatriu de tall</Cut.comps.2.permanentLabel>
-  <Cut.injuryProps.destroyedLabel>Amputació</Cut.injuryProps.destroyedLabel>
-  <Cut.injuryProps.destroyedOutLabel>Amputació</Cut.injuryProps.destroyedOutLabel>
-  <Cut.labelNoun>un tall</Cut.labelNoun>
-  <Cut.labelNounPretty>{0} a {1}</Cut.labelNounPretty>
-
-  <SurgicalCut.label>tall quirúrgic</SurgicalCut.label>
- <SurgicalCut.comps.0.labelSolidTendedWell>arreglat</SurgicalCut.comps.0.labelSolidTendedWell>
-  <SurgicalCut.comps.0.labelTendedWell>embenat</SurgicalCut.comps.0.labelTendedWell>
-  <SurgicalCut.comps.0.labelTendedWellInner>cosit</SurgicalCut.comps.0.labelTendedWellInner>
-  <SurgicalCut.comps.1.permanentLabel>cicatriu de tall</SurgicalCut.comps.1.permanentLabel>
-  <SurgicalCut.labelNoun>un tall quirúrgic</SurgicalCut.labelNoun>
-  <SurgicalCut.labelNounPretty>{0} a {1}</SurgicalCut.labelNounPretty>
-
-  <Scratch.label>esgarrapada</Scratch.label>
-   <Scratch.comps.0.labelSolidTendedWell>arreglada</Scratch.comps.0.labelSolidTendedWell>
-  <Scratch.comps.0.labelTendedWell>embenada</Scratch.comps.0.labelTendedWell>
-  <Scratch.comps.0.labelTendedWellInner>cosida</Scratch.comps.0.labelTendedWellInner>
-  <Scratch.comps.2.permanentLabel>cicatriu d'esgarrapada</Scratch.comps.2.permanentLabel>
-  <Scratch.injuryProps.destroyedLabel>Arrencament</Scratch.injuryProps.destroyedLabel>
-  <Scratch.injuryProps.destroyedOutLabel>Arrencament</Scratch.injuryProps.destroyedOutLabel>
-  <Scratch.labelNoun>una esgarrapada</Scratch.labelNoun>
-  <Scratch.labelNounPretty>{0} a {1}</Scratch.labelNounPretty>
-
+  
+  <!-- EN: bite -->
   <Bite.label>mossegada</Bite.label>
-  <Bite.comps.0.labelSolidTendedWell>arreglada</Bite.comps.0.labelSolidTendedWell>
-  <Bite.comps.0.labelTendedWell>embenada</Bite.comps.0.labelTendedWell>
-  <Bite.comps.0.labelTendedWellInner>cosida</Bite.comps.0.labelTendedWellInner>
-  <Bite.comps.2.permanentLabel>cicatriu de mossegada</Bite.comps.2.permanentLabel>
+  <!-- EN: set -->
+  <Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglada</Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Bite.comps.HediffComp_TendDuration.labelTendedWell>embenada</Bite.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Bite.comps.HediffComp_TendDuration.labelTendedWellInner>cosida</Bite.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: bite scar -->
+  <Bite.comps.HediffComp_GetsPermanent.permanentLabel>cicatriu de mossegada</Bite.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Bitten off -->
   <Bite.injuryProps.destroyedLabel>Menjat</Bite.injuryProps.destroyedLabel>
+  <!-- EN: Bitten out -->
   <Bite.injuryProps.destroyedOutLabel>Menjat</Bite.injuryProps.destroyedOutLabel>
+  <!-- EN: a bite wound -->
   <Bite.labelNoun>una mossegada</Bite.labelNoun>
+  <!-- EN: {0} in the {1} -->
   <Bite.labelNounPretty>{0} a {1}</Bite.labelNounPretty>
-
-  <Stab.label>apunyalament</Stab.label>
-  <Stab.comps.0.labelSolidTendedWell>arreglat</Stab.comps.0.labelSolidTendedWell>
-  <Stab.comps.0.labelTendedWell>embenat</Stab.comps.0.labelTendedWell>
-  <Stab.comps.0.labelTendedWellInner>cosit</Stab.comps.0.labelTendedWellInner>
-  <Stab.comps.2.permanentLabel>cicatriu d'apunyalament</Stab.comps.2.permanentLabel>
-  <Stab.injuryProps.destroyedLabel>Amputació</Stab.injuryProps.destroyedLabel>
-  <Stab.injuryProps.destroyedOutLabel>Amputació</Stab.injuryProps.destroyedOutLabel>
-  <Stab.labelNoun>una ferida per apunyalament</Stab.labelNoun>
-  <Stab.labelNounPretty>{0} a {1}</Stab.labelNounPretty>
-
-  <Gunshot.label>tret</Gunshot.label>
-  <Gunshot.comps.0.labelSolidTendedWell>arreglat</Gunshot.comps.0.labelSolidTendedWell>
-  <Gunshot.comps.0.labelTendedWell>embenat</Gunshot.comps.0.labelTendedWell>
-  <Gunshot.comps.0.labelTendedWellInner>cosit</Gunshot.comps.0.labelTendedWellInner>
-  <Gunshot.comps.2.instantlyPermanentLabel>ferida de bala
- permanen</Gunshot.comps.2.instantlyPermanentLabel>
-  <Gunshot.comps.2.permanentLabel>ferida de bala antiga</Gunshot.comps.2.permanentLabel>
-  <Gunshot.injuryProps.destroyedLabel>Arrencament per tret</Gunshot.injuryProps.destroyedLabel>
-  <Gunshot.injuryProps.destroyedOutLabel>Arrencament per tret</Gunshot.injuryProps.destroyedOutLabel>
-  <Gunshot.labelNoun>una ferida per tret</Gunshot.labelNoun>
-  <Gunshot.labelNounPretty>{0} a {1}</Gunshot.labelNounPretty>
-
-  <Shredded.label>esquinçat</Shredded.label>
-  <Shredded.comps.0.labelSolidTendedWell>arreglat</Shredded.comps.0.labelSolidTendedWell>
-  <Shredded.comps.0.labelTendedWell>embenat</Shredded.comps.0.labelTendedWell>
-  <Shredded.comps.0.labelTendedWellInner>cosit</Shredded.comps.0.labelTendedWellInner>
-  <Shredded.comps.2.permanentLabel>cicatriu</Shredded.comps.2.permanentLabel>
-  <Shredded.injuryProps.destroyedLabel>Arrencament</Shredded.injuryProps.destroyedLabel>
- <Shredded.injuryProps.destroyedOutLabel>Arrencament</Shredded.injuryProps.destroyedOutLabel>
- <Shredded.labelNoun>una ferida per esquinçament</Shredded.labelNoun>
-  <Shredded.labelNounPretty>{0} a {1}</Shredded.labelNounPretty>
-
+  
+  <!-- EN: bruise -->
   <Bruise.label>cop</Bruise.label>
-  <Bruise.comps.0.labelSolidTendedWell>arreglat</Bruise.comps.0.labelSolidTendedWell>
-  <Bruise.comps.0.labelTendedWell>embenat</Bruise.comps.0.labelTendedWell>
-  <Bruise.comps.0.labelTendedWellInner>cosit</Bruise.comps.0.labelTendedWellInner>
- <Bruise.injuryProps.destroyedLabel>Destrucció</Bruise.injuryProps.destroyedLabel>
+  <!-- EN: set -->
+  <Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Bruise.comps.HediffComp_TendDuration.labelTendedWell>embenat</Bruise.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>cosit</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: Destroyed -->
+  <Bruise.injuryProps.destroyedLabel>Destrucció</Bruise.injuryProps.destroyedLabel>
+  <!-- EN: a bruise -->
   <Bruise.labelNoun>un cop</Bruise.labelNoun>
+  <!-- EN: {0} in the {1} -->
   <Bruise.labelNounPretty>{0} a {1}</Bruise.labelNounPretty>
-
+  
+  <!-- EN: burn -->
+  <Burn.label>cremada</Burn.label>
+  <!-- EN: set -->
+  <Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglada</Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Burn.comps.HediffComp_TendDuration.labelTendedWell>embenada</Burn.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Burn.comps.HediffComp_TendDuration.labelTendedWellInner>cosida</Burn.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: burn scar -->
+  <Burn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriu de cremada</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <Burn.injuryProps.destroyedLabel>Cremat</Burn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <Burn.injuryProps.destroyedOutLabel>Perdut per cremades</Burn.injuryProps.destroyedOutLabel>
+  <!-- EN: a burn -->
+  <Burn.labelNoun>una cremada</Burn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Burn.labelNounPretty>{0} a {1}</Burn.labelNounPretty>
+  
+  <!-- EN: crack -->
+  <Crack.label>trencament</Crack.label>
+  <!-- EN: set -->
+  <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: healed -->
+  <Crack.comps.HediffComp_TendDuration.labelTendedWell>curat</Crack.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: healed -->
+  <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>curat</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: permanent crack -->
+  <Crack.comps.HediffComp_GetsPermanent.permanentLabel>TODO</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Shattered -->
+  <Crack.injuryProps.destroyedLabel>Fet a miques</Crack.injuryProps.destroyedLabel>
+  <!-- EN: a crack wound -->
+  <Crack.labelNoun>un trencament</Crack.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Crack.labelNounPretty>{0} a {1}</Crack.labelNounPretty>
+  
+  <!-- EN: crush -->
+  <Crush.label>esclafament</Crush.label>
+  <!-- EN: set -->
+  <Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Crush.comps.HediffComp_TendDuration.labelTendedWell>embenat</Crush.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Crush.comps.HediffComp_TendDuration.labelTendedWellInner>cosit</Crush.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: mangled scar -->
+  <Crush.comps.HediffComp_GetsPermanent.permanentLabel>cicatriu</Crush.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Crushed -->
+  <Crush.injuryProps.destroyedLabel>Esclafat</Crush.injuryProps.destroyedLabel>
+  <!-- EN: a crush wound -->
+  <Crush.labelNoun>una ferida per esclafament</Crush.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Crush.labelNounPretty>{0} a {1}</Crush.labelNounPretty>
+  
+  <!-- EN: cut -->
+  <Cut.label>tall</Cut.label>
+  <!-- EN: set -->
+  <Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Cut.comps.HediffComp_TendDuration.labelTendedWell>embenat</Cut.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Cut.comps.HediffComp_TendDuration.labelTendedWellInner>cosit</Cut.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: cut scar -->
+  <Cut.comps.HediffComp_GetsPermanent.permanentLabel>cicatriu de tall</Cut.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <Cut.injuryProps.destroyedLabel>Amputació</Cut.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <Cut.injuryProps.destroyedOutLabel>Amputació</Cut.injuryProps.destroyedOutLabel>
+  <!-- EN: a cut -->
+  <Cut.labelNoun>un tall</Cut.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Cut.labelNounPretty>{0} a {1}</Cut.labelNounPretty>
+  
+  <!-- EN: frostbite -->
   <Frostbite.label>congelació</Frostbite.label>
-  <Frostbite.comps.0.labelSolidTendedWell>arreglada</Frostbite.comps.0.labelSolidTendedWell>
-  <Frostbite.comps.0.labelTendedWell>embenada</Frostbite.comps.0.labelTendedWell>
-  <Frostbite.comps.0.labelTendedWellInner>cosida</Frostbite.comps.0.labelTendedWellInner>
-  <Frostbite.comps.2.permanentLabel>cicatriu de congelació</Frostbite.comps.2.permanentLabel>
+  <!-- EN: set -->
+  <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglada</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Frostbite.comps.HediffComp_TendDuration.labelTendedWell>embenada</Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>cosida</Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: frostbite scar -->
+  <Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>cicatriu de congelació</Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Lost to frostbite -->
   <Frostbite.injuryProps.destroyedLabel>Pèrdua per congelació</Frostbite.injuryProps.destroyedLabel>
+  <!-- EN: {0} in the {1} -->
   <Frostbite.labelNounPretty>{0} a {1}</Frostbite.labelNounPretty>
-
-
+  
+  <!-- EN: gunshot -->
+  <Gunshot.label>tret</Gunshot.label>
+  <!-- EN: set -->
+  <Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Gunshot.comps.HediffComp_TendDuration.labelTendedWell>embenat</Gunshot.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>cosit</Gunshot.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: permanent gunshot injury -->
+  <Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>ferida de bala\n permanen</Gunshot.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+  <!-- EN: old gunshot -->
+  <Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>ferida de bala antiga</Gunshot.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Shot off -->
+  <Gunshot.injuryProps.destroyedLabel>Arrencament per tret</Gunshot.injuryProps.destroyedLabel>
+  <!-- EN: Shot out -->
+  <Gunshot.injuryProps.destroyedOutLabel>Arrencament per tret</Gunshot.injuryProps.destroyedOutLabel>
+  <!-- EN: a gunshot wound -->
+  <Gunshot.labelNoun>una ferida per tret</Gunshot.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Gunshot.labelNounPretty>{0} a {1}</Gunshot.labelNounPretty>
+  
+  <!-- EN: misc -->
+  <Misc.label>misc</Misc.label>
+  <!-- EN: set -->
+  <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Misc.comps.HediffComp_TendDuration.labelTendedWell>embenat</Misc.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Misc.comps.HediffComp_TendDuration.labelTendedWellInner>cosit</Misc.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: Destroyed -->
+  <Misc.injuryProps.destroyedLabel>Destrucció</Misc.injuryProps.destroyedLabel>
+  <!-- EN: an injury -->
+  <Misc.labelNoun>una ferida</Misc.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Misc.labelNounPretty>{0} a {1}</Misc.labelNounPretty>
+  
+  <!-- EN: missing body part -->
+  <MissingBodyPart.label>part del cos que falta</MissingBodyPart.label>
+  <!-- EN: a missing body part -->
+  <MissingBodyPart.labelNoun>una part del cos que falta</MissingBodyPart.labelNoun>
+  <!-- EN: missing a {1} -->
+  <MissingBodyPart.labelNounPretty>li falta {1}</MissingBodyPart.labelNounPretty>
+  
+  <!-- EN: scratch -->
+  <Scratch.label>esgarrapada</Scratch.label>
+  <!-- EN: set -->
+  <Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglada</Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Scratch.comps.HediffComp_TendDuration.labelTendedWell>embenada</Scratch.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>cosida</Scratch.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: scratch scar -->
+  <Scratch.comps.HediffComp_GetsPermanent.permanentLabel>cicatriu d'esgarrapada</Scratch.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Torn off -->
+  <Scratch.injuryProps.destroyedLabel>Arrencament</Scratch.injuryProps.destroyedLabel>
+  <!-- EN: Torn out -->
+  <Scratch.injuryProps.destroyedOutLabel>Arrencament</Scratch.injuryProps.destroyedOutLabel>
+  <!-- EN: a scratch -->
+  <Scratch.labelNoun>una esgarrapada</Scratch.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Scratch.labelNounPretty>{0} a {1}</Scratch.labelNounPretty>
+  
+  <!-- EN: shredded -->
+  <Shredded.label>esquinçat</Shredded.label>
+  <!-- EN: set -->
+  <Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Shredded.comps.HediffComp_TendDuration.labelTendedWell>embenat</Shredded.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>cosit</Shredded.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: shredded scar -->
+  <Shredded.comps.HediffComp_GetsPermanent.permanentLabel>cicatriu</Shredded.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Torn off -->
+  <Shredded.injuryProps.destroyedLabel>Arrencament</Shredded.injuryProps.destroyedLabel>
+  <!-- EN: Torn out -->
+  <Shredded.injuryProps.destroyedOutLabel>Arrencament</Shredded.injuryProps.destroyedOutLabel>
+  <!-- EN: a shredded wound -->
+  <Shredded.labelNoun>una ferida per esquinçament</Shredded.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Shredded.labelNounPretty>{0} a {1}</Shredded.labelNounPretty>
+  
+  <!-- EN: stab -->
+  <Stab.label>apunyalament</Stab.label>
+  <!-- EN: set -->
+  <Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <Stab.comps.HediffComp_TendDuration.labelTendedWell>embenat</Stab.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <Stab.comps.HediffComp_TendDuration.labelTendedWellInner>cosit</Stab.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: stab scar -->
+  <Stab.comps.HediffComp_GetsPermanent.permanentLabel>cicatriu d'apunyalament</Stab.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <Stab.injuryProps.destroyedLabel>Amputació</Stab.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <Stab.injuryProps.destroyedOutLabel>Amputació</Stab.injuryProps.destroyedOutLabel>
+  <!-- EN: a stab wound -->
+  <Stab.labelNoun>una ferida per apunyalament</Stab.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Stab.labelNounPretty>{0} a {1}</Stab.labelNounPretty>
+  
+  <!-- EN: surgical cut -->
+  <SurgicalCut.label>tall quirúrgic</SurgicalCut.label>
+  <!-- EN: set -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>embenat</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: sutured -->
+  <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>cosit</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: surgical scar -->
+  <SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>cicatriu de tall</SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: a surgical cut -->
+  <SurgicalCut.labelNoun>un tall quirúrgic</SurgicalCut.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <SurgicalCut.labelNounPretty>{0} a {1}</SurgicalCut.labelNounPretty>
+  
 </LanguageData>

@@ -1,145 +1,251 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Firefighter.label>Bomber</Firefighter.label>
-  <Firefighter.description>Apaga els focs de la colònia.</Firefighter.description>
-  <Firefighter.labelShort>Bomber</Firefighter.labelShort>
-  <Firefighter.pawnLabel>Bomber</Firefighter.pawnLabel>
-  <Firefighter.gerundLabel>Apaga el foc</Firefighter.gerundLabel>
-  <Firefighter.verb>Apagar</Firefighter.verb>
-
-  <Patient.label>Pacient</Patient.label>
-  <Patient.description>Acut a un llit d'hospital per ser tactat si te un problema de salut que amenaça la seva vida.</Patient.description>
-  <Patient.labelShort>Pacient</Patient.labelShort>
-  <Patient.pawnLabel>Pacient</Patient.pawnLabel>
-  <Patient.gerundLabel>Espera un tractament</Patient.gerundLabel>
-  <Patient.verb>Esperar un tractament</Patient.verb>
-
+  
+  <Art.label>Art</Art.label>
+  <!-- EN: Create beautiful works of art from raw materials. -->
+  <Art.description>Crea escultures artistiques.</Art.description>
+  <!-- EN: art -->
+  <Art.gerundLabel>Art</Art.gerundLabel>
+  <!-- EN: Art -->
+  <Art.labelShort>Art</Art.labelShort>
+  <!-- EN: Artist -->
+  <Art.pawnLabel>Artista</Art.pawnLabel>
+  <!-- EN: Do art at -->
+  <Art.verb>Crear</Art.verb>
+  
+  <!-- EN: Unskilled and easy tasks. Release prisoners and flick switches on machines. -->
+  <BasicWorker.description>TODO</BasicWorker.description>
+  <!-- EN: dealing with -->
+  <BasicWorker.gerundLabel>TODO</BasicWorker.gerundLabel>
+  <!-- EN: Basic -->
+  <BasicWorker.labelShort>TODO</BasicWorker.labelShort>
+  <!-- EN: Worker -->
+  <BasicWorker.pawnLabel>TODO</BasicWorker.pawnLabel>
+  <!-- EN: Deal with -->
+  <BasicWorker.verb>TODO</BasicWorker.verb>
+  
+  <Cleaning.label>Neteja</Cleaning.label>
+  <!-- EN: Clear snow and clean the floor in the home area. -->
+  <Cleaning.description>Treu la neu i neteja el terra la la zona de llar.</Cleaning.description>
+  <!-- EN: cleaning -->
+  <Cleaning.gerundLabel>Neteja</Cleaning.gerundLabel>
+  <!-- EN: Clean -->
+  <Cleaning.labelShort>Neteja</Cleaning.labelShort>
+  <!-- EN: Cleaner -->
+  <Cleaning.pawnLabel>Operari de neteja</Cleaning.pawnLabel>
+  <!-- EN: Clean -->
+  <Cleaning.verb>Netejar</Cleaning.verb>
+  
+  <Construction.label>Paleta</Construction.label>
+  <!-- EN: Build things that you've designated, and fix damaged or broken-down buildings. -->
+  <Construction.description>Construeix les coses que heu ordenat fer, i repara els edificis malmesos.</Construction.description>
+  <!-- EN: constructing -->
+  <Construction.gerundLabel>Construeix</Construction.gerundLabel>
+  <!-- EN: Construct -->
+  <Construction.labelShort>Construcció</Construction.labelShort>
+  <!-- EN: Constructor -->
+  <Construction.pawnLabel>Paleta</Construction.pawnLabel>
+  <!-- EN: Construct -->
+  <Construction.verb>Construir</Construction.verb>
+  
+  <Cooking.label>Cuina</Cooking.label>
+  <!-- EN: Prepare meals and butcher meat. -->
+  <Cooking.description>Prepara àpats i escorxa.</Cooking.description>
+  <!-- EN: cooking -->
+  <Cooking.gerundLabel>Cuina</Cooking.gerundLabel>
+  <!-- EN: Cook -->
+  <Cooking.labelShort>Cuina</Cooking.labelShort>
+  <!-- EN: Cook -->
+  <Cooking.pawnLabel>Cuiner</Cooking.pawnLabel>
+  <!-- EN: Cook -->
+  <Cooking.verb>Cuinar</Cooking.verb>
+  
+  <Crafting.label>Processar</Crafting.label>
+  <!-- EN: Do general low-skilled labor at work stations. This includes stonecutting, smelting, and more. -->
+  <Crafting.description>Fa feines generals a les taules de treball. Inclou picar pedres, fondre i d'altres.</Crafting.description>
+  <!-- EN: crafting -->
+  <Crafting.gerundLabel>Processa</Crafting.gerundLabel>
+  <!-- EN: Craft -->
+  <Crafting.labelShort>Processar</Crafting.labelShort>
+  <!-- EN: Crafter -->
+  <Crafting.pawnLabel>Operari</Crafting.pawnLabel>
+  <!-- EN: Craft at -->
+  <Crafting.verb>Processar</Crafting.verb>
+  
   <Doctor.label>Metge</Doctor.label>
+  <!-- EN: Treat the sick, bring them food, cheer them up, and perform assigned surgeries. Doctors will care for both colonists and prisoners. -->
   <Doctor.description>Tracta els malalts, els porta menjar, els anima i opera. Els metges atenen tan els colons com els presoners.</Doctor.description>
-  <Doctor.labelShort>Metge</Doctor.labelShort>
-  <Doctor.pawnLabel>Metge</Doctor.pawnLabel>
+  <!-- EN: doctoring -->
   <Doctor.gerundLabel>Tracta</Doctor.gerundLabel>
+  <!-- EN: Doctor -->
+  <Doctor.labelShort>Metge</Doctor.labelShort>
+  <!-- EN: Doctor -->
+  <Doctor.pawnLabel>Metge</Doctor.pawnLabel>
+  <!-- EN: Care for -->
   <Doctor.verb>Cuidar</Doctor.verb>
-
-  <PatientBedRest.label>Repòs</PatientBedRest.label>
-  <PatientBedRest.description>Reposa al llit per recuperar-se dels problemes mèdics no vitals.</PatientBedRest.description>
-  <PatientBedRest.labelShort>Repòs</PatientBedRest.labelShort>
-  <PatientBedRest.pawnLabel>Malalt</PatientBedRest.pawnLabel>
-  <PatientBedRest.gerundLabel>Reposa</PatientBedRest.gerundLabel>
-  <PatientBedRest.verb>Reposar</PatientBedRest.verb>
-
+  
+  <Firefighter.label>Bomber</Firefighter.label>
+  <!-- EN: Extinguish fires in the colony. -->
+  <Firefighter.description>Apaga els focs de la colònia.</Firefighter.description>
+  <!-- EN: firefighting -->
+  <Firefighter.gerundLabel>Apaga el foc</Firefighter.gerundLabel>
+  <!-- EN: Firefight -->
+  <Firefighter.labelShort>Bomber</Firefighter.labelShort>
+  <!-- EN: Firefighter -->
+  <Firefighter.pawnLabel>Bomber</Firefighter.pawnLabel>
+  <!-- EN: Extinguish -->
+  <Firefighter.verb>Apagar</Firefighter.verb>
+  
+  <!-- UNUSED -->
   <Flicker.label>Commutar</Flicker.label>
   <Flicker.description>Commuta els interruptors. Per exemple. Si designeu engegar una metralladora, un colon haurà de venir a commutar-la manualment.</Flicker.description>
   <Flicker.labelShort>Commutar</Flicker.labelShort>
   <Flicker.pawnLabel>Commuta</Flicker.pawnLabel>
   <Flicker.gerundLabel>Commuta</Flicker.gerundLabel>
   <Flicker.verb>Commutar</Flicker.verb>
-
-  <Warden.label>Carceller</Warden.label>
-  <Warden.description>Cuida, alimenta, xerra i recluta els presoners.</Warden.description>
-  <Warden.labelShort>Carceller</Warden.labelShort>
-  <Warden.pawnLabel>Carceller</Warden.pawnLabel>
-  <Warden.gerundLabel>Vigila</Warden.gerundLabel>
-  <Warden.verb>Vigilar</Warden.verb>
-
-  <Handling.label>Doma</Handling.label>
-  <Handling.description>Doma, entrena, muny, esquila i escorxa els animals.</Handling.description>
-  <Handling.labelShort>Doma</Handling.labelShort>
-  <Handling.pawnLabel>Domador</Handling.pawnLabel>
-  <Handling.gerundLabel>Doma</Handling.gerundLabel>
-  <Handling.verb>Domar</Handling.verb>
-
-  <Cooking.label>Cuina</Cooking.label>
-  <Cooking.description>Prepara àpats i escorxa.</Cooking.description>
-  <Cooking.labelShort>Cuina</Cooking.labelShort>
-  <Cooking.pawnLabel>Cuiner</Cooking.pawnLabel>
-  <Cooking.gerundLabel>Cuina</Cooking.gerundLabel>
-  <Cooking.verb>Cuinar</Cooking.verb>
-
-  <Hunting.label>Caça</Hunting.label>
-  <Hunting.description>Mata els animals que estan marcats per caçar.</Hunting.description>
-  <Hunting.labelShort>Caça</Hunting.labelShort>
-  <Hunting.pawnLabel>Caçador</Hunting.pawnLabel>
-  <Hunting.gerundLabel>Caça</Hunting.gerundLabel>
-  <Hunting.verb>Caçar</Hunting.verb>
-
-  <Construction.label>Paleta</Construction.label>
-  <Construction.description>Construeix les coses que heu ordenat fer, i repara els edificis malmesos.</Construction.description>
-  <Construction.labelShort>Construcció</Construction.labelShort>
-  <Construction.pawnLabel>Paleta</Construction.pawnLabel>
-  <Construction.gerundLabel>Construeix</Construction.gerundLabel>
-  <Construction.verb>Construir</Construction.verb>
-
+  
   <Growing.label>Hort</Growing.label>
+  <!-- EN: Plant seeds, harvest crops, and forage for wild plants. -->
   <Growing.description>Planta les llavors i en recull els fruits.</Growing.description>
-  <Growing.labelShort>Hort</Growing.labelShort>
-  <Growing.pawnLabel>Pagès</Growing.pawnLabel>
+  <!-- EN: growing -->
   <Growing.gerundLabel>Treballa el camp</Growing.gerundLabel>
+  <!-- EN: Grow -->
+  <Growing.labelShort>Hort</Growing.labelShort>
+  <!-- EN: Grower -->
+  <Growing.pawnLabel>Pagès</Growing.pawnLabel>
+  <!-- EN: Grow -->
   <Growing.verb>Treballar el camp</Growing.verb>
-
-  <Mining.label>Mina</Mining.label>
-  <Mining.description>Cava i perfora.</Mining.description>
-  <Mining.labelShort>Mina</Mining.labelShort>
-  <Mining.pawnLabel>Miner</Mining.pawnLabel>
-  <Mining.gerundLabel>Mina</Mining.gerundLabel>
-  <Mining.verb>Minar</Mining.verb>
-
-  <PlantCutting.label>Tallar plantes</PlantCutting.label>
-  <PlantCutting.description>Talla o cull les plantes marcades.</PlantCutting.description>
-  <PlantCutting.labelShort>Tallar plantes</PlantCutting.labelShort>
-  <PlantCutting.pawnLabel>Llenyataire</PlantCutting.pawnLabel>
-  <PlantCutting.gerundLabel>Talla plantes</PlantCutting.gerundLabel>
-  <PlantCutting.verb>Tallar</PlantCutting.verb>
-
-  <Smithing.label>Ferrer</Smithing.label>
-  <Smithing.description>Fabrica armes i eines, tant a la ferreria com a la taula de maquinat.</Smithing.description>
-  <Smithing.labelShort>Ferrer</Smithing.labelShort>
-  <Smithing.pawnLabel>Ferrer</Smithing.pawnLabel>
-  <Smithing.gerundLabel>Fabrica</Smithing.gerundLabel>
-  <Smithing.verb>Fabricar</Smithing.verb>
-
-  <Tailoring.label>Sastre</Tailoring.label>
-  <Tailoring.description>Fabrica roba.</Tailoring.description>
-  <Tailoring.labelShort>Sastre</Tailoring.labelShort>
-  <Tailoring.pawnLabel>Sastre</Tailoring.pawnLabel>
-  <Tailoring.gerundLabel>Cus</Tailoring.gerundLabel>
-  <Tailoring.verb>Cosir</Tailoring.verb>
-
-  <Art.label>Art</Art.label>
-  <Art.description>Crea escultures artistiques.</Art.description>
-  <Art.labelShort>Art</Art.labelShort>
-  <Art.pawnLabel>Artista</Art.pawnLabel>
-  <Art.gerundLabel>Art</Art.gerundLabel>
-  <Art.verb>Crear</Art.verb>
-
-  <Crafting.label>Processar</Crafting.label>
-  <Crafting.description>Fa feines generals a les taules de treball. Inclou picar pedres, fondre i d'altres.</Crafting.description>
-  <Crafting.labelShort>Processar</Crafting.labelShort>
-  <Crafting.pawnLabel>Operari</Crafting.pawnLabel>
-  <Crafting.gerundLabel>Processa</Crafting.gerundLabel>
-  <Crafting.verb>Processar</Crafting.verb>
-
+  
+  <Handling.label>Doma</Handling.label>
+  <!-- EN: Tame, train, harvest resources from and slaughter animals. -->
+  <Handling.description>Doma, entrena, muny, esquila i escorxa els animals.</Handling.description>
+  <!-- EN: handling -->
+  <Handling.gerundLabel>Doma</Handling.gerundLabel>
+  <!-- EN: Handle -->
+  <Handling.labelShort>Doma</Handling.labelShort>
+  <!-- EN: Handler -->
+  <Handling.pawnLabel>Domador</Handling.pawnLabel>
+  <!-- EN: Handle -->
+  <Handling.verb>Domar</Handling.verb>
+  
   <Hauling.label>Endreçar</Hauling.label>
+  <!-- EN: Carry things to where they need to be. -->
   <Hauling.description>Desa les coses al seu lloc.</Hauling.description>
-  <Hauling.labelShort>Endreçar</Hauling.labelShort>
-  <Hauling.pawnLabel>Transportista</Hauling.pawnLabel>
+  <!-- EN: hauling -->
   <Hauling.gerundLabel>Endreça</Hauling.gerundLabel>
+  <!-- EN: Haul -->
+  <Hauling.labelShort>Endreçar</Hauling.labelShort>
+  <!-- EN: Hauler -->
+  <Hauling.pawnLabel>Transportista</Hauling.pawnLabel>
+  <!-- EN: Haul -->
   <Hauling.verb>Endreçar</Hauling.verb>
-
-  <Cleaning.label>Neteja</Cleaning.label>
-  <Cleaning.description>Treu la neu i neteja el terra la la zona de llar.</Cleaning.description>
-  <Cleaning.labelShort>Neteja</Cleaning.labelShort>
-  <Cleaning.pawnLabel>Operari de neteja</Cleaning.pawnLabel>
-  <Cleaning.gerundLabel>Neteja</Cleaning.gerundLabel>
-  <Cleaning.verb>Netejar</Cleaning.verb>
-
+  
+  <Hunting.label>Caça</Hunting.label>
+  <!-- EN: Kill animals which are designated to be hunted. -->
+  <Hunting.description>Mata els animals que estan marcats per caçar.</Hunting.description>
+  <!-- EN: hunting -->
+  <Hunting.gerundLabel>Caça</Hunting.gerundLabel>
+  <!-- EN: Hunt -->
+  <Hunting.labelShort>Caça</Hunting.labelShort>
+  <!-- EN: Hunter -->
+  <Hunting.pawnLabel>Caçador</Hunting.pawnLabel>
+  <!-- EN: Hunt -->
+  <Hunting.verb>Caçar</Hunting.verb>
+  
+  <Mining.label>Mina</Mining.label>
+  <!-- EN: Digging and drilling. -->
+  <Mining.description>Cava i perfora.</Mining.description>
+  <!-- EN: mining -->
+  <Mining.gerundLabel>Mina</Mining.gerundLabel>
+  <!-- EN: Mine -->
+  <Mining.labelShort>Mina</Mining.labelShort>
+  <!-- EN: Miner -->
+  <Mining.pawnLabel>Miner</Mining.pawnLabel>
+  <!-- EN: Mine -->
+  <Mining.verb>Minar</Mining.verb>
+  
+  <Patient.label>Pacient</Patient.label>
+  <!-- EN: Go to a medical bed for treatment if you have an immediately life-threatening health condition. -->
+  <Patient.description>Acut a un llit d'hospital per ser tactat si te un problema de salut que amenaça la seva vida.</Patient.description>
+  <!-- EN: patienting -->
+  <Patient.gerundLabel>Espera un tractament</Patient.gerundLabel>
+  <!-- EN: Patient -->
+  <Patient.labelShort>Pacient</Patient.labelShort>
+  <!-- EN: Patient -->
+  <Patient.pawnLabel>Pacient</Patient.pawnLabel>
+  <!-- EN: Become patient -->
+  <Patient.verb>Esperar un tractament</Patient.verb>
+  
+  <PatientBedRest.label>Repòs</PatientBedRest.label>
+  <!-- EN: Rest in bed to recuperate from not-immediately-life-threatening medical problems. -->
+  <PatientBedRest.description>Reposa al llit per recuperar-se dels problemes mèdics no vitals.</PatientBedRest.description>
+  <!-- EN: resting in bed -->
+  <PatientBedRest.gerundLabel>Reposa</PatientBedRest.gerundLabel>
+  <!-- EN: Bed rest -->
+  <PatientBedRest.labelShort>Repòs</PatientBedRest.labelShort>
+  <!-- EN: Bed rester -->
+  <PatientBedRest.pawnLabel>Malalt</PatientBedRest.pawnLabel>
+  <!-- EN: Become patient -->
+  <PatientBedRest.verb>Reposar</PatientBedRest.verb>
+  
+  <PlantCutting.label>Tallar plantes</PlantCutting.label>
+  <!-- EN: Cut or harvest plants as designated. -->
+  <PlantCutting.description>Talla o cull les plantes marcades.</PlantCutting.description>
+  <!-- EN: plant cutting -->
+  <PlantCutting.gerundLabel>Talla plantes</PlantCutting.gerundLabel>
+  <!-- EN: Plant cut -->
+  <PlantCutting.labelShort>Tallar plantes</PlantCutting.labelShort>
+  <!-- EN: Plant cutter -->
+  <PlantCutting.pawnLabel>Llenyataire</PlantCutting.pawnLabel>
+  <!-- EN: Cut -->
+  <PlantCutting.verb>Tallar</PlantCutting.verb>
+  
   <Research.label>Recerca</Research.label>
+  <!-- EN: Perform research work. -->
   <Research.description>Fa investigació.</Research.description>
-  <Research.labelShort>Recerca</Research.labelShort>
-  <Research.pawnLabel>Investigador</Research.pawnLabel>
+  <!-- EN: researching -->
   <Research.gerundLabel>Investiga</Research.gerundLabel>
+  <!-- EN: Research -->
+  <Research.labelShort>Recerca</Research.labelShort>
+  <!-- EN: Researcher -->
+  <Research.pawnLabel>Investigador</Research.pawnLabel>
+  <!-- EN: Research at -->
   <Research.verb>Investigar</Research.verb>
-
-
+  
+  <Smithing.label>Ferrer</Smithing.label>
+  <!-- EN: Create weapons and tools from raw materials, either as a blacksmith or by machining. -->
+  <Smithing.description>Fabrica armes i eines, tant a la ferreria com a la taula de maquinat.</Smithing.description>
+  <!-- EN: smithing -->
+  <Smithing.gerundLabel>Fabrica</Smithing.gerundLabel>
+  <!-- EN: Smith -->
+  <Smithing.labelShort>Ferrer</Smithing.labelShort>
+  <!-- EN: Smith -->
+  <Smithing.pawnLabel>Ferrer</Smithing.pawnLabel>
+  <!-- EN: Smith at -->
+  <Smithing.verb>Fabricar</Smithing.verb>
+  
+  <Tailoring.label>Sastre</Tailoring.label>
+  <!-- EN: Create apparel from raw materials. -->
+  <Tailoring.description>Fabrica roba.</Tailoring.description>
+  <!-- EN: tailoring -->
+  <Tailoring.gerundLabel>Cus</Tailoring.gerundLabel>
+  <!-- EN: Tailor -->
+  <Tailoring.labelShort>Sastre</Tailoring.labelShort>
+  <!-- EN: Tailor -->
+  <Tailoring.pawnLabel>Sastre</Tailoring.pawnLabel>
+  <!-- EN: Tailor at -->
+  <Tailoring.verb>Cosir</Tailoring.verb>
+  
+  <Warden.label>Carceller</Warden.label>
+  <!-- EN: Manage, feed, chat with, and recruit prisoners. -->
+  <Warden.description>Cuida, alimenta, xerra i recluta els presoners.</Warden.description>
+  <!-- EN: wardening -->
+  <Warden.gerundLabel>Vigila</Warden.gerundLabel>
+  <!-- EN: Warden -->
+  <Warden.labelShort>Carceller</Warden.labelShort>
+  <!-- EN: Warden -->
+  <Warden.pawnLabel>Carceller</Warden.pawnLabel>
+  <!-- EN: Handle -->
+  <Warden.verb>Vigilar</Warden.verb>
+  
 </LanguageData>

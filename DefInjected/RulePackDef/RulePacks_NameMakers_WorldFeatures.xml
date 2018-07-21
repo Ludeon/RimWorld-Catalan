@@ -1,224 +1,81 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-	<NamerUtility.rulePack.rulesStrings>
-		<li>name->[standardname] [metaprefix]</li>
-		<li>name(p=0.05)->[suffix] [storyname]</li>
-		<li>standardname->[suffix] [prefix]</li>
-		<li>metaprefix(p=10)-></li>
-		<li>metaprefix->[direction]</li>
-		<li>metaprefix->[derivative]</li>
-		<li>derivative->gran</li>
-		<li>derivative->la més gran</li>
-		<li>derivative->la més petita</li>
-		<li>derivative->poderosa</li>
-		<li>derivative->nova</li>
-		<li>derivative->vella</li>
-		<li>prefix(p=0.5)->[animal]</li>
-		<li>prefix(p=0.5)->[color]</li>
-		<li>prefix(p=0.3)->[color][animal]</li>
-		<li>prefix(p=0.2)->[color] [animal]</li>
-		<li>prefix(p=0.3)->[naturaladjective][animal]</li>
-		<li>prefix(p=0.2)->[naturaladjective] [animal]</li>
-		<li>prefix(p=0.3)->[animal][bodypart]</li>
-		<li>prefix(p=0.2)->[animal] [bodypart]</li>
-		<li>prefix->[color][naturalobject]</li>
-		<li>prefix->[naturaladjective][bodypart]</li>
-		<li>prefix(p=2)->[tribalword]</li>
-		<li>prefix(p=2)->[outlanderword]</li>
-		<li>storyname->[storyderivative] de [subject]</li>
-		<li>storyname->viciosa [storyderivative] de[subject]</li>
-		<li>storyname->dement [storyderivative] de [subject]</li>
-		<li>storyname->errònia [storyderivative] de [subject]</li>
-		<li>storyname->fallida [storyderivative] de [subject]</li>
-		<li>storyname->equivocada [storyderivative] de [subject]</li>
-		<li>storyname->il·lusa [storyderivative] de [subject]</li>
-		<li>storyname->alegre [storyderivative] de [subject]</li>
-		<li>storyname(p=0.5)->alegria de [subject]</li>
-		<li>storyname->encantadora [storyderivative] de [subject]</li>
-		<li>storyname->meravellosa [storyderivative] de [subject]</li>
-		<li>storyname->orgullosa [storyderivative] de [subject]</li>
-		<li>storyname(p=0.5)->[subject]spride</li>
-		<li>storyname->joia [storyderivative] de [subject]</li>
-		<li>storyname->premi [storyderivative] de [subject]</li>
-		<li>storyname->recompensa [storyderivative] de [subject]</li>
-		<li>storyname->honor [storyderivative] de [subject]</li>
-		<li>storyname->premi gros [storyderivative] de [subject]</li>
-		<li>storyname->trofeu [storyderivative] de [subject]</li>
-		<li>storyname->supèrbia [storyderivative] de [subject]</li>
-		<li>storyname->arrogància [storyderivative] de [subject]</li>
-		<li>storyname->resistència de [subject]</li>
-		<li>storyname->pèrdua [storyderivative] de [subject]</li>
-		<li>storyname->deute [storyderivative] de [subject]</li>
-		<li>storyname->caiguda [storyderivative] de [subject]</li>
-		<li>storyname->destrucció [storyderivative] de [subject]</li>
-		<li>storyname->cataclisme [storyderivative] de [subject]</li>
-		<li>storyname->ruïna [storyderivative] de [subject]</li>
-		<li>storyname->perdició [storyderivative] de [subject]</li>
-		<li>storyname->fracàs [storyderivative] de [subject]</li>
-		<li>storyname->decadent [storyderivative] de [storyderivative]</li>
-		<li>storyname->[storyderivative] final de [subject]</li>
-		<li>storyname(p=0.5)->[subject]enviament</li>
-		<li>storyname->retirada [storyderivative] de [subject]</li>
-		<li>storyname->fita [storyderivative] de [subject]</li>
-		<li>storyname->final [storyderivative] de [subject]</li>
-		<li>storyname->engany [storyderivative] de [subject]</li>
-		<li>storyname->trampa [storyderivative]  de [subject]</li>
-		<li>storyname->decepció [storyderivative]  de [subject]</li>
-		<li>storyname->façana [storyderivative] de [subject]</li>
-		<li>storyname->frau [storyderivative] de [subject]</li>
-		<li>storyname(p=0.5)->[gore] de [subject]</li>
-		<li>storyname->[bodypart] de [subject]</li>
-		<li>storyderivative-></li>
-		<li>storyderivative(p=0.1)->[derivative]</li>
-		<li>subject(p=5)->[personname]</li>
-		<li>subject(p=1)->[animal]</li>
-		<li>subject(p=1)->[tribalword]</li>
-		<li>subject(p=1)->[outlanderword]</li>
-	</NamerUtility.rulePack.rulesStrings>
-
-	<NamerMountainRange.rulePack.rulesStrings>
-		<li>standardname(p=0.2)->mont [prefix]</li>
-		<li>suffix(p=5)->muntanyes</li>
-		<li>suffix(p=2)->serra</li>
-		<li>suffix->pics</li>
-		<li>suffix->turons</li>
-		<li>suffix->penyasegat</li>
-	</NamerMountainRange.rulePack.rulesStrings>
-
-	<NamerArchipelago.rulePack.rulesStrings>
-		<li>standardname(p=0.2)->illa [prefix]</li>
-		<li>suffix(p=4)->illes</li>
-		<li>suffix(p=3)->illots</li>
-		<li>suffix(p=3)->arxipèlag</li>
-		<li>suffix->escull</li>
-		<li>suffix->atol·ló</li>
-		<li>suffix->roques</li>
-		<li>suffix->terres</li>
-	</NamerArchipelago.rulePack.rulesStrings>
-
-	<NamerIsland.rulePack.rulesStrings>
-		<li>mainname(p=0.2)->illot [prefix]</li>
-		<li>suffix(p=4)->illa</li>
-		<li>suffix(p=2)->illot</li>
-		<li>suffix->escull</li>
-		<li>suffix->roca</li>
-		<li>suffix->punt</li>
-	</NamerIsland.rulePack.rulesStrings>
-
-	<NamerPeninsula.rulePack.rulesStrings>
-		<li>standardname(p=0.2)->punt [prefix]</li>
-		<li>standardname(p=0.2)->cap [prefix]</li>
-		<li>suffix(p=8)->península</li>
-		<li>suffix(p=2)->punt</li>
-		<li>suffix->cap</li>
-		<li>suffix->promontori</li>
-		<li>suffix->banya</li>
-	</NamerPeninsula.rulePack.rulesStrings>
-
-	<NamerBay.rulePack.rulesStrings>
-		<li>standardname(p=0.2)->golf de [prefix]</li>
-		<li>suffix(p=6)->badia</li>
-		<li>suffix->cala</li>
-		<li>suffix->golf</li>
-		<li>suffix->ancoratge</li>
-		<li>suffix->calella</li>
-	</NamerBay.rulePack.rulesStrings>
-
-	<NamerLake.rulePack.rulesStrings>
-		<li>standardname->llac [prefix]</li>
-		<li>suffix(p=2)->llac</li>
-		<li>suffix->mar</li>
-	</NamerLake.rulePack.rulesStrings>
-
-	<NamerSea.rulePack.rulesStrings>
-		<li>standardname(p=0.1)->llac [prefix]</li>
-		<li>suffix(p=6)->mar</li>
-		<li>suffix->oceà</li>
-		<li>suffix->llac</li>
-	</NamerSea.rulePack.rulesStrings>
-
-	<NamerOcean.rulePack.rulesStrings>
-		<li>standardname(p=0.1)->avenc [prefix]</li>
-		<li>suffix(p=6)->oceà</li>
-		<li>suffix->ample</li>
-	</NamerOcean.rulePack.rulesStrings>
-
-	<NamerDesert.rulePack.rulesStrings>
-		<li>suffix(p=6)->desert</li>
-		<li>suffix->pla</li>
-		<li>suffix->plans</li>
-		<li>suffix->conca</li>
-		<li>suffix->ermots</li>
-		<li>suffix->erm</li>
-		<li>suffix->ermàs</li>
-	</NamerDesert.rulePack.rulesStrings>
-
-	<NamerSwamp.rulePack.rulesStrings>
-		<li>standardname(p=0.1)->pantà [prefix]</li>
-		<li>suffix(p=6)->aiguamoll</li>
-		<li>suffix->conca</li>
-		<li>suffix->zona humida</li>
-		<li>suffix->bayou</li>
-		<li>suffix->fangar</li>
-		<li>suffix->maresmes</li>
-		<li>suffix->pantà</li>
-	</NamerSwamp.rulePack.rulesStrings>
-
-	<NamerTropicalRainforest.rulePack.rulesStrings>
-		<li>suffix(p=6)->pluviïsilva</li>
-		<li>suffix(p=3)->jungla</li>
-		<li>suffix->bosc</li>
-		<li>suffix->arbreda</li>
-		<li>suffix->bosc</li>
-		<li>suffix->embolic</li>
-	</NamerTropicalRainforest.rulePack.rulesStrings>
-
-	<NamerForest.rulePack.rulesStrings>
-		<li>suffix(p=6)->bosc</li>
-		<li>suffix->arbreda</li>
-		<li>suffix->boscam</li>
-		<li>suffix->matollar</li>
-	</NamerForest.rulePack.rulesStrings>
-
-	<NamerBorealForest.rulePack.rulesStrings>
-		<li>suffix(p=6)->bosc</li>
-		<li>suffix(p=3)->taigà</li>
-		<li>suffix->arbreda</li>
-		<li>suffix->bosquet</li>
-		<li>suffix->embolic</li>
-		<li>suffix->matollar</li>
-	</NamerBorealForest.rulePack.rulesStrings>
-
-	<NamerAridShrubland.rulePack.rulesStrings>
-		<li>suffix(p=4)->herbassar</li>
-		<li>suffix(p=4)->matollar</li>
-		<li>suffix(p=2)->altiplà</li>
-		<li>suffix(p=2)->matoll</li>
-		<li>suffix->desert</li>
-		<li>suffix->mata</li>
-		<li>suffix->mala herba</li>
-		<li>suffix->ermots</li>
-	</NamerAridShrubland.rulePack.rulesStrings>
-
-	<NamerIceSheet.rulePack.rulesStrings>
-		<li>suffix->capa</li>
-	</NamerIceSheet.rulePack.rulesStrings>
-
-	<NamerTundra.rulePack.rulesStrings>
-		<li>suffix(p=4)->altiplà</li>
-		<li>suffix(p=4)->erms</li>
-		<li>suffix(p=2)->taigà</li>
-		<li>suffix->matolls</li>
-		<li>suffix->matollar</li>
-		<li>suffix->sotabosc</li>
-		<li>suffix->garriga</li>
-		<li>suffix->bardissa</li>
-		<li>suffix->àrid</li>
-		<li>suffix->extensió</li>
-		<li>suffix->pradera</li>
-		<li>suffix->plans</li>
-	</NamerTundra.rulePack.rulesStrings>
-
-
+  
+  <!-- UNUSED -->
+  <NamerUtility.rulePack.rulesStrings>
+    <li>name->[standardname] [metaprefix]</li>
+    <li>name(p=0.05)->[suffix] [storyname]</li>
+    <li>standardname->[suffix] [prefix]</li>
+    <li>metaprefix(p=10)-></li>
+    <li>metaprefix->[direction]</li>
+    <li>metaprefix->[derivative]</li>
+    <li>derivative->gran</li>
+    <li>derivative->la més gran</li>
+    <li>derivative->la més petita</li>
+    <li>derivative->poderosa</li>
+    <li>derivative->nova</li>
+    <li>derivative->vella</li>
+    <li>prefix(p=0.5)->[animal]</li>
+    <li>prefix(p=0.5)->[color]</li>
+    <li>prefix(p=0.3)->[color][animal]</li>
+    <li>prefix(p=0.2)->[color] [animal]</li>
+    <li>prefix(p=0.3)->[naturaladjective][animal]</li>
+    <li>prefix(p=0.2)->[naturaladjective] [animal]</li>
+    <li>prefix(p=0.3)->[animal][bodypart]</li>
+    <li>prefix(p=0.2)->[animal] [bodypart]</li>
+    <li>prefix->[color][naturalobject]</li>
+    <li>prefix->[naturaladjective][bodypart]</li>
+    <li>prefix(p=2)->[tribalword]</li>
+    <li>prefix(p=2)->[outlanderword]</li>
+    <li>storyname->[storyderivative] de [subject]</li>
+    <li>storyname->viciosa [storyderivative] de[subject]</li>
+    <li>storyname->dement [storyderivative] de [subject]</li>
+    <li>storyname->errònia [storyderivative] de [subject]</li>
+    <li>storyname->fallida [storyderivative] de [subject]</li>
+    <li>storyname->equivocada [storyderivative] de [subject]</li>
+    <li>storyname->il·lusa [storyderivative] de [subject]</li>
+    <li>storyname->alegre [storyderivative] de [subject]</li>
+    <li>storyname(p=0.5)->alegria de [subject]</li>
+    <li>storyname->encantadora [storyderivative] de [subject]</li>
+    <li>storyname->meravellosa [storyderivative] de [subject]</li>
+    <li>storyname->orgullosa [storyderivative] de [subject]</li>
+    <li>storyname(p=0.5)->[subject]spride</li>
+    <li>storyname->joia [storyderivative] de [subject]</li>
+    <li>storyname->premi [storyderivative] de [subject]</li>
+    <li>storyname->recompensa [storyderivative] de [subject]</li>
+    <li>storyname->honor [storyderivative] de [subject]</li>
+    <li>storyname->premi gros [storyderivative] de [subject]</li>
+    <li>storyname->trofeu [storyderivative] de [subject]</li>
+    <li>storyname->supèrbia [storyderivative] de [subject]</li>
+    <li>storyname->arrogància [storyderivative] de [subject]</li>
+    <li>storyname->resistència de [subject]</li>
+    <li>storyname->pèrdua [storyderivative] de [subject]</li>
+    <li>storyname->deute [storyderivative] de [subject]</li>
+    <li>storyname->caiguda [storyderivative] de [subject]</li>
+    <li>storyname->destrucció [storyderivative] de [subject]</li>
+    <li>storyname->cataclisme [storyderivative] de [subject]</li>
+    <li>storyname->ruïna [storyderivative] de [subject]</li>
+    <li>storyname->perdició [storyderivative] de [subject]</li>
+    <li>storyname->fracàs [storyderivative] de [subject]</li>
+    <li>storyname->decadent [storyderivative] de [storyderivative]</li>
+    <li>storyname->[storyderivative] final de [subject]</li>
+    <li>storyname(p=0.5)->[subject]enviament</li>
+    <li>storyname->retirada [storyderivative] de [subject]</li>
+    <li>storyname->fita [storyderivative] de [subject]</li>
+    <li>storyname->final [storyderivative] de [subject]</li>
+    <li>storyname->engany [storyderivative] de [subject]</li>
+    <li>storyname->trampa [storyderivative]  de [subject]</li>
+    <li>storyname->decepció [storyderivative]  de [subject]</li>
+    <li>storyname->façana [storyderivative] de [subject]</li>
+    <li>storyname->frau [storyderivative] de [subject]</li>
+    <li>storyname(p=0.5)->[gore] de [subject]</li>
+    <li>storyname->[bodypart] de [subject]</li>
+    <li>storyderivative-></li>
+    <li>storyderivative(p=0.1)->[derivative]</li>
+    <li>subject(p=5)->[personname]</li>
+    <li>subject(p=1)->[animal]</li>
+    <li>subject(p=1)->[tribalword]</li>
+    <li>subject(p=1)->[outlanderword]</li>
+  </NamerUtility.rulePack.rulesStrings>
+  
 </LanguageData>

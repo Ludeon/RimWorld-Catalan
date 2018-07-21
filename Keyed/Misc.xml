@@ -1,83 +1,136 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Autosaving -->
   <Autosaving>Desat automàtic</Autosaving>
+  <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart.\n\nSome time later, you land on this unknown rimworld.\n\nAs pieces of the shredded starship fall around you, you start making plans to survive. -->
   <GameStartDialog>Els tres desperteu en un sarcòfag de criptoson amb el soroll de sirenes i metall esclafant-se. Amb prou feines teniu temps d'arribar a les càpsules d'escapament abans de la destrucció completa de la nau.\n\nUna estona després, aterreu en aquest planeta desconegut.\n\nVeieu algunes restes de la nau al vostre voltant i comenceu a fer plans per sobreviure.</GameStartDialog>
+  <!-- EN: Colony -->
   <Colony>Colonia</Colony>
+  <!-- EN: You can only change language from the options screen on the main menu. -->
   <ChangeLanguageFromMainMenu>Només podeu canviar l'idioma des de la pantalla d'opcions del menú principal.</ChangeLanguageFromMainMenu>
+  <!-- EN: and -->
   <AndLower>i</AndLower>
+  <!-- EN: disabled -->
   <DisabledLower>deshabilitat</DisabledLower>
 
-
+  <!-- EN: Version {0} -->
   <VersionIndicator>Versió {0}</VersionIndicator>
+  <!-- EN: development build -->
   <DevelopmentBuildLower>Compilació de desenvolupament</DevelopmentBuildLower>
+  <!-- EN: Compiled {0} -->
   <CompiledOn>Compilat {0}</CompiledOn>
+  <!-- EN: Logged into Steam as {0} -->
   <LoggedIntoSteamAs>Registrat a Steam com a {0}</LoggedIntoSteamAs>
 
   <!-- General-use words -->
+  <!-- EN: Yes -->
   <Yes>Sí</Yes>
+  <!-- EN: No -->
   <No>No</No>
+  <!-- EN: min -->
   <min>min</min>
+  <!-- EN: max -->
   <max>màx</max>
+  <!-- EN: chance -->
   <chance>probabilitat</chance>
+  <!-- EN: context -->
   <context>context</context>
+  <!-- EN: multiplier -->
   <multiplier>multiplicador</multiplier>
+  <!-- EN: damage -->
   <damage>dany</damage>
+  <!-- EN: radius -->
   <radius>radi</radius>
+  <!-- EN: duration (days) -->
   <durationDays>durada (dies)</durationDays>
+  <!-- EN: interval (days) -->
   <intervalDays>interval (dies)</intervalDays>
+  <!-- EN: repeat -->
   <repeat>repetició</repeat>
+  <!-- EN: default -->
   <default>per defecte</default>
+  <!-- EN: distance -->
   <distance>distància</distance>
+  <!-- EN: YES -->
   <YesUppercase>SÍ</YesUppercase>
+  <!-- EN: NO -->
   <NoUppercase>NO</NoUppercase>
+  <!-- EN: kg -->
   <kg>kg</kg>
+  <!-- EN: Day -->
   <Day>Dia</Day>
+  <!-- EN: day -->
   <day>dia</day>
+  <!-- EN: Default -->
   <Default>Per defecte</Default>
+  <!-- EN: Average -->
   <Average>Mitjana</Average>
 
   <!-- Content generation-->
-
+  
+  <!-- EN: {0} meat -->
   <MeatLabel>Carn de {0}</MeatLabel>
+  <!-- EN: Raw butchered flesh. Can be cooked into meals, or eaten raw. -->
   <MeatDesc>Carn escorxada. Es pot cuinar en àpats o menjar crua.</MeatDesc>
+  <!-- EN: Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing. -->
   <MeatInsectDesc>Carn escorxada. Es pot cuinar en àpats o menjar crua. És molt desagradable.</MeatInsectDesc>
+  <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
   <MeatHumanDesc>Carn escorxada. Es pot cuinar en àpats, o menjar crua, tot i que a la majoria d’humans no els fa cap gràcia la idea.</MeatHumanDesc>
 
+  <!-- EN: {0} corpse -->
   <CorpseLabel>{0} cadàver</CorpseLabel>
+  <!-- EN: Dead body of a {0}. -->
   <CorpseDesc>El cos inert d'un {0}.</CorpseDesc>
+  <!-- EN: {0} (dead) -->
   <DeadLabel>{0} (mort)</DeadLabel>
 
+  <!-- EN: rough {0} -->
   <RoughStoneTerrainLabel>{0} irregular </RoughStoneTerrainLabel>
+  <!-- EN: Rough, natural {0} ground. -->
   <RoughStoneTerrainDesc>Terra irregular i natural de {0}.</RoughStoneTerrainDesc>
+  <!-- EN: rough-hewn {0} -->
   <RoughHewnStoneTerrainLabel>{0} Tallat irregular</RoughHewnStoneTerrainLabel>
+  <!-- EN: Roughly cut natural {0} floor. -->
   <RoughHewnStoneTerrainDesc>Terra tallat natural sense polir de {0}.</RoughHewnStoneTerrainDesc>
+  <!-- EN: smooth {0} -->
   <SmoothStoneTerrainLabel>{0} llis</SmoothStoneTerrainLabel>
+  <!-- EN: Smoothed natural {0} floor. -->
   <SmoothStoneTerrainDesc>Terra natural de {0} allisat.</SmoothStoneTerrainDesc>
 
+  <!-- EN:  (blueprint) -->
   <BlueprintLabelExtra> (projecte)</BlueprintLabelExtra>
+  <!-- EN:  (building) -->
   <FrameLabelExtra> (en construcció)</FrameLabelExtra>
 
+  <!-- EN: Unaffiliated -->
   <FactionUnaffiliated>Sense afiliació</FactionUnaffiliated>
-
 
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
+  <!-- EN: {0} {1} -->
   <ThingMadeOfStuffLabel>{1} {0}</ThingMadeOfStuffLabel>
 
+  <!-- EN: {0}'s {1} -->
   <SomeonesRoom>{1} de {0}</SomeonesRoom>
+  <!-- EN: {0} and {1}'s {2} -->
   <CouplesRoom>{2} de {0} i {1}</CouplesRoom>
   
+  <!-- EN: (various) -->
   <VariousLabel>(diversos)</VariousLabel>
 
   <!-- History events -->
+  <!-- EN: Colonist died -->
   <ColonistDied>Colons morts</ColonistDied>
   
   <!-- Rotation -->
+  <!-- EN: North -->
   <North>Nord</North>
+  <!-- EN: South -->
   <South>Sud</South>
+  <!-- EN: West -->
   <West>Oest</West>
+  <!-- EN: East -->
   <East>Est</East>
-  
   
 </LanguageData>

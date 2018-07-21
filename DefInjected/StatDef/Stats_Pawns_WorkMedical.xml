@@ -1,17 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <MedicalTendSpeed.label>velocitat mèdica</MedicalTendSpeed.label>
-  <MedicalTendSpeed.description>Velocitat a la que tracta ferides i malalties.</MedicalTendSpeed.description>
-
-  <MedicalTendQuality.label>qualitat mèdica</MedicalTendQuality.label>
-  <MedicalTendQuality.description>Qualitat del tractament que fa als pacients.</MedicalTendQuality.description>
-
+  
+  <!-- EN: medical operation speed -->
   <MedicalOperationSpeed.label>velocitat d’operació</MedicalOperationSpeed.label>
+  <!-- EN: The speed at which the character performs medical operations. -->
   <MedicalOperationSpeed.description>Velocitat a la que opera.</MedicalOperationSpeed.description>
-
+  
+  <!-- EN: medical surgery success chance -->
   <MedicalSurgerySuccessChance.label>Probabilitat d’èxit mèdic</MedicalSurgerySuccessChance.label>
+  <!-- EN: The chance that a character will succeed when performing a medical operation. The actual success chance is also affected by factors like facilities, room cleanliness, medicine used, and the difficulty of the surgery. -->
   <MedicalSurgerySuccessChance.description>Probabilitat d’èxit quan realitza una operació. Els errors poden provocar des d’una simple pèrdua de temps i medicina fins a un dany catastròfic al pacient. La probabilitat queda afectada per la qualitat de les instal·lacions, la medicina que es fa servir, i la dificultat de l’operació.</MedicalSurgerySuccessChance.description>
-
-
+  
+  <!-- EN: medical tend quality -->
+  <MedicalTendQuality.label>qualitat mèdica</MedicalTendQuality.label>
+  <!-- EN: The base quality of tending given when tending wounds and illnesses. The actual tend quality will also be affected by factors like medicine used, facilities, room cleanliness, luck, and so on. -->
+  <MedicalTendQuality.description>Qualitat del tractament que fa als pacients.</MedicalTendQuality.description>
+  
+  <!-- EN: medical tend speed -->
+  <MedicalTendSpeed.label>velocitat mèdica</MedicalTendSpeed.label>
+  <!-- EN: Speed at which the character tends to wounds and illnesses. -->
+  <MedicalTendSpeed.description>Velocitat a la que tracta ferides i malalties.</MedicalTendSpeed.description>
+  
 </LanguageData>

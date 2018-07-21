@@ -1,28 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <ImmediateAttack.letterLabelEnemy>Raid</ImmediateAttack.letterLabelEnemy>
+  
+  <!-- EN: They are attacking immediately. -->
   <ImmediateAttack.arrivalTextEnemy>Ataquen immediatament.</ImmediateAttack.arrivalTextEnemy>
-  <ImmediateAttack.letterLabelFriendly>Aliats</ImmediateAttack.letterLabelFriendly>
+  <!-- EN: They are moving in to help you immediately. -->
   <ImmediateAttack.arrivalTextFriendly>S'acosten a ajudar-te immediatament.</ImmediateAttack.arrivalTextFriendly>
-
-  <ImmediateAttackSmart.letterLabelEnemy>Raid</ImmediateAttackSmart.letterLabelEnemy>
-  <ImmediateAttackSmart.arrivalTextEnemy>Ataquen immediatament.\n\nEstigueu alerta – sembla que empren tàctiques sorprenentment intel·ligents.</ImmediateAttackSmart.arrivalTextEnemy>
-  <ImmediateAttackSmart.letterLabelFriendly>Aliats</ImmediateAttackSmart.letterLabelFriendly>
-  <ImmediateAttackSmart.arrivalTextFriendly>S'acosten a ajudar-te immediatament.</ImmediateAttackSmart.arrivalTextFriendly>
-
-  <StageThenAttack.letterLabelEnemy>Raid</StageThenAttack.letterLabelEnemy>
-  <StageThenAttack.arrivalTextEnemy>Es prepararan durant una estona i després atacaran.\n\nAprofiteu per preparar la defensa i ataqueu-los preventivament.</StageThenAttack.arrivalTextEnemy>
-  <StageThenAttack.letterLabelFriendly>Aliats</StageThenAttack.letterLabelFriendly>
-  <StageThenAttack.arrivalTextFriendly>Es prepararan una estona abans de venir a ajudar-vos.</StageThenAttack.arrivalTextFriendly>
-
-  <ImmediateAttackSappers.letterLabelEnemy>Raid</ImmediateAttackSappers.letterLabelEnemy>
+  <!-- EN: Raid -->
+  <ImmediateAttack.letterLabelEnemy>Raid</ImmediateAttack.letterLabelEnemy>
+  <!-- EN: Friendlies -->
+  <ImmediateAttack.letterLabelFriendly>Aliats</ImmediateAttack.letterLabelFriendly>
+  
+  <!-- EN: It looks like they want to use sappers to tunnel around your defenses. -->
   <ImmediateAttackSappers.arrivalTextEnemy>Sembla que volen emprar sapadors per fer un túnel a les vostres defenses.</ImmediateAttackSappers.arrivalTextEnemy>
-
-  <Siege.letterLabelEnemy>Setge</Siege.letterLabelEnemy>
+  <!-- EN: Raid -->
+  <ImmediateAttackSappers.letterLabelEnemy>Raid</ImmediateAttackSappers.letterLabelEnemy>
+  
+  <!-- EN: They are attacking immediately.\n\nWatch out - they appear to be unusually clever with their tactics. They'll avoid your turrets' fields of fire and notice some of your traps. -->
+  <ImmediateAttackSmart.arrivalTextEnemy>Ataquen immediatament.\n\nEstigueu alerta – sembla que empren tàctiques sorprenentment intel·ligents.</ImmediateAttackSmart.arrivalTextEnemy>
+  <!-- EN: They are moving in to help you immediately. -->
+  <ImmediateAttackSmart.arrivalTextFriendly>S'acosten a ajudar-te immediatament.</ImmediateAttackSmart.arrivalTextFriendly>
+  <!-- EN: Raid -->
+  <ImmediateAttackSmart.letterLabelEnemy>Raid</ImmediateAttackSmart.letterLabelEnemy>
+  <!-- EN: Friendlies -->
+  <ImmediateAttackSmart.letterLabelFriendly>Aliats</ImmediateAttackSmart.letterLabelFriendly>
+  
+  <!-- EN: It looks like they want to besiege the colony and pound you with mortars from a distance. You can try to wait them out - or go get them. -->
   <Siege.arrivalTextEnemy>Sembla que establiran un setge a la colònia i llençar-vos foc de morter des de lluny. Els podeu esperar o anar-los a buscar.</Siege.arrivalTextEnemy>
-  <Siege.letterLabelFriendly>Aliats</Siege.letterLabelFriendly>
+  <!-- EN: It looks like they want to use siege tactics to help you. -->
   <Siege.arrivalTextFriendly>Sembla que empraran tàctiques de setge per ajudar-vos.</Siege.arrivalTextFriendly>
-
-
+  <!-- EN: Siege -->
+  <Siege.letterLabelEnemy>Setge</Siege.letterLabelEnemy>
+  <!-- EN: Friendlies -->
+  <Siege.letterLabelFriendly>Aliats</Siege.letterLabelFriendly>
+  
+  <!-- EN: They will prepare for a while, then attack.\n\nPrepare a defense or attack them pre-emptively. -->
+  <StageThenAttack.arrivalTextEnemy>Es prepararan durant una estona i després atacaran.\n\nAprofiteu per preparar la defensa i ataqueu-los preventivament.</StageThenAttack.arrivalTextEnemy>
+  <!-- EN: They will prepare for a while before moving in to help you. -->
+  <StageThenAttack.arrivalTextFriendly>Es prepararan una estona abans de venir a ajudar-vos.</StageThenAttack.arrivalTextFriendly>
+  <!-- EN: Raid -->
+  <StageThenAttack.letterLabelEnemy>Raid</StageThenAttack.letterLabelEnemy>
+  <!-- EN: Friendlies -->
+  <StageThenAttack.letterLabelFriendly>Aliats</StageThenAttack.letterLabelFriendly>
+  
 </LanguageData>

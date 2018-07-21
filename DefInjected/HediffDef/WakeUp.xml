@@ -1,20 +1,25 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <WakeUpHigh.label>col·locat de desperta</WakeUpHigh.label>
-  <WakeUpHigh.labelNoun>una col·locada de desperta</WakeUpHigh.labelNoun>
-
-
-  <!-- WakeUp addiction -->
-
-  <WakeUpTolerance.label>tolerància al desperta</WakeUpTolerance.label>
-  <WakeUpTolerance.stages.0.label>mínima</WakeUpTolerance.stages.0.label>
-  <WakeUpTolerance.stages.1.label>poca</WakeUpTolerance.stages.1.label>
-  <WakeUpTolerance.stages.2.label>molta</WakeUpTolerance.stages.2.label>
-  <WakeUpTolerance.stages.3.label>enorme</WakeUpTolerance.stages.3.label>
-
+  
+  <!-- EN: wake-up addiction -->
   <WakeUpAddiction.label>addicció al desperta</WakeUpAddiction.label>
-  <WakeUpAddiction.stages.1.label>abstinència</WakeUpAddiction.stages.1.label>
-
-
+  <!-- EN: withdrawal -->
+  <WakeUpAddiction.stages.withdrawal.label>abstinència</WakeUpAddiction.stages.withdrawal.label>
+  
+  <!-- EN: high on wake-up -->
+  <WakeUpHigh.label>col·locat de desperta</WakeUpHigh.label>
+  <!-- EN: a wake-up high -->
+  <WakeUpHigh.labelNoun>una col·locada de desperta</WakeUpHigh.labelNoun>
+  
+  <!-- EN: wake-up tolerance -->
+  <WakeUpTolerance.label>tolerància al desperta</WakeUpTolerance.label>
+  <!-- EN: small -->
+  <WakeUpTolerance.stages.small-0.label>mínima</WakeUpTolerance.stages.small-0.label>
+  <!-- EN: small -->
+  <WakeUpTolerance.stages.small-1.label>poca</WakeUpTolerance.stages.small-1.label>
+  <!-- EN: large -->
+  <WakeUpTolerance.stages.large.label>molta</WakeUpTolerance.stages.large.label>
+  <!-- EN: massive -->
+  <WakeUpTolerance.stages.massive.label>enorme</WakeUpTolerance.stages.massive.label>
+  
 </LanguageData>

@@ -1,77 +1,70 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Deer.label>cérvol</Deer.label>
-  <Deer.description>Un herbívor mitjà que viu en manades. És pacífic si no se'l molesta.</Deer.description>
-  <Deer.tools.0.label>peülla esquerra</Deer.tools.0.label>
-  <Deer.tools.1.label>peülla dreta</Deer.tools.1.label>
-  <Deer.tools.3.label>cap</Deer.tools.3.label>
-  <Deer_Leather.label>pell de cérvol</Deer_Leather.label>
-  <Deer_Leather.description>pell de cérvol</Deer_Leather.description>
-  <Deer_Leather.stuffProps.stuffAdjective>pell de cérvol</Deer_Leather.stuffProps.stuffAdjective>
-  <Deer_Meat.label>carn de cérvol</Deer_Meat.label>
-  <Deer_Meat.description>carn de cérvol</Deer_Meat.description>
-  <Deer_Corpse.label>cérvol mort</Deer_Corpse.label>
-  <Deer_Corpse.description>cérvol mort</Deer_Corpse.description>
-
-  <Ibex.label>cabra dels Alps</Ibex.label>
-  <Ibex.description>L'avantpassat salvatge de la nostra cabra domèstica. Les cabres dels Alps viuen en territoris on la majoria d'antilops no podrien sobreviure, menjant líquens i altres plantes d'alta muntanya. Són conegudes pels seus salts destres per les serralades escarpades... i per les seves violentes escomeses.</Ibex.description>
-  <Ibex.tools.0.label>peülla esquerra</Ibex.tools.0.label>
-  <Ibex.tools.1.label>peülla dreta</Ibex.tools.1.label>
-  <Ibex.tools.3.label>cap</Ibex.tools.3.label>
-  <Ibex_Leather.label>pell de cabra</Ibex_Leather.label>
-  <Ibex_Leather.description>pell de cabra</Ibex_Leather.description>
-  <Ibex_Leather.stuffProps.stuffAdjective>pell de cabra</Ibex_Leather.stuffProps.stuffAdjective>
-  <Ibex_Meat.label>carn de cabra dels Alps</Ibex_Meat.label>
-  <Ibex_Meat.description>carn de cabra dels Alps</Ibex_Meat.description>
-  <Ibex_Corpse.label>cabra dels Alps morta</Ibex_Corpse.label>
-  <Ibex_Corpse.description>cabra dels Alps morta</Ibex_Corpse.description>
-
-  <Elk.label>ant</Elk.label>
-  <Elk.description>Un gros membre de la família dels cérvols, ben adaptat als climes freds.</Elk.description>
-  <Elk.tools.0.label>peülla esquerra</Elk.tools.0.label>
-  <Elk.tools.1.label>peülla dreta</Elk.tools.1.label>
-  <Elk.tools.3.label>cap</Elk.tools.3.label>
-  <Elk_Leather.label>pell d'ant</Elk_Leather.label>
-  <Elk_Leather.description>pell d'ant</Elk_Leather.description>
-  <Elk_Leather.stuffProps.stuffAdjective>pell d'ant</Elk_Leather.stuffProps.stuffAdjective>
-  <Elk_Meat.label>carn d'ant</Elk_Meat.label>
-  <Elk_Meat.description>carn d'ant</Elk_Meat.description>
-  <Elk_Corpse.label>carn d'ant</Elk_Corpse.label>
-  <Elk_Corpse.description>carn d'ant</Elk_Corpse.description>
-
+  
+  <!-- EN: caribou -->
   <Caribou.label>caribú</Caribou.label>
+  <!-- EN: A large member of the deer family, well-adapted to life in cold climates. Caribou can be milked, but refuse to carry packs. -->
   <Caribou.description>Un gros membre de la família dels cérvols, ben adaptat als climes freds.</Caribou.description>
-  <Caribou.tools.0.label>peülla esquerra</Caribou.tools.0.label>
-  <Caribou.tools.1.label>peülla dreta</Caribou.tools.1.label>
-  <Caribou.tools.3.label>cap</Caribou.tools.3.label>
-  <Caribou_Leather.label>cuir de caribú</Caribou_Leather.label>
-  <Caribou_Leather.description>cuir de caribú</Caribou_Leather.description>
-  <Caribou_Leather.stuffProps.stuffAdjective>cuir de caribú</Caribou_Leather.stuffProps.stuffAdjective>
-  <Caribou_Meat.label>carn de caribú</Caribou_Meat.label>
-  <Caribou_Meat.description>carn de caribú</Caribou_Meat.description>
-  <Caribou_Corpse.label>caribú mort</Caribou_Corpse.label>
-  <Caribou_Corpse.description>caribú mort</Caribou_Corpse.description>
-
-  <WildBoar.label>senglar</WildBoar.label>
-  <WildBoar.description>Tot i que algunes cultures el consideren impur, aquest pelut avantpassat del porc domèstic és molt preuat pel sabor de la seva carn.</WildBoar.description>
-  <WildBoar.tools.0.label>ullal</WildBoar.tools.0.label>
-  <WildBoar.tools.2.label>cap</WildBoar.tools.2.label>
-  <!-- Use Leather From: Pig -->
-  <!-- Use Meat From: Pig -->
-  <WildBoar_Corpse.label>senglar mort</WildBoar_Corpse.label>
-  <WildBoar_Corpse.description>senglar mort</WildBoar_Corpse.description>
-
+  <!-- EN: left hoof -->
+  <Caribou.tools.left_hoof.label>peülla esquerra</Caribou.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Caribou.tools.right_hoof.label>peülla dreta</Caribou.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Caribou.tools.head.label>cap</Caribou.tools.head.label>
+  
+  <!-- EN: deer -->
+  <Deer.label>cérvol</Deer.label>
+  <!-- EN: A medium-sized herding herbivore which prefers to live in mixed forests and plains. Deer are very quick. -->
+  <Deer.description>Un herbívor mitjà que viu en manades. És pacífic si no se'l molesta.</Deer.description>
+  <!-- EN: venison -->
+  <Deer.race.meatLabel>TODO</Deer.race.meatLabel>
+  <!-- EN: left hoof -->
+  <Deer.tools.left_hoof.label>peülla esquerra</Deer.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Deer.tools.right_hoof.label>peülla dreta</Deer.tools.right_hoof.label>
+  <!-- EN: teeth -->
+  <Deer.tools.teeth.label>TODO</Deer.tools.teeth.label>
+  <!-- EN: head -->
+  <Deer.tools.head.label>cap</Deer.tools.head.label>
+  
+  <!-- EN: elk -->
+  <Elk.label>ant</Elk.label>
+  <!-- EN: A large member of the deer family, well-adapted to life in cold climates. Domesticated elk can be milked, but refuse to carry packs. -->
+  <Elk.description>Un gros membre de la família dels cérvols, ben adaptat als climes freds.</Elk.description>
+  <!-- EN: left hoof -->
+  <Elk.tools.left_hoof.label>peülla esquerra</Elk.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Elk.tools.right_hoof.label>peülla dreta</Elk.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Elk.tools.head.label>cap</Elk.tools.head.label>
+  
+  <!-- EN: ibex -->
+  <Ibex.label>cabra dels Alps</Ibex.label>
+  <!-- EN: The wild ancestor of the domesticated goat. Ibexes live on marginal territory where most antelopes couldn't survive, eating lichens and sparse mountain plants. They're famous for dextrously hopping across bare cliff faces - and for their violent ramming attack. -->
+  <Ibex.description>L'avantpassat salvatge de la nostra cabra domèstica. Les cabres dels Alps viuen en territoris on la majoria d'antilops no podrien sobreviure, menjant líquens i altres plantes d'alta muntanya. Són conegudes pels seus salts destres per les serralades escarpades... i per les seves violentes escomeses.</Ibex.description>
+  <!-- EN: left hoof -->
+  <Ibex.tools.left_hoof.label>peülla esquerra</Ibex.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Ibex.tools.right_hoof.label>peülla dreta</Ibex.tools.right_hoof.label>
+  <!-- EN: head -->
+  <Ibex.tools.head.label>cap</Ibex.tools.head.label>
+  
+  <!-- EN: tortoise -->
   <Tortoise.label>tortuga</Tortoise.label>
+  <!-- EN: This heavily armored land-dwelling reptile is known for its slow moving speed and surprisingly vicious bite. Because of its natural armor, it is tough to kill and can do serious damage during drawn-out melee fights. -->
   <Tortoise.description>Aquest rèptil terrestre disposa d'una dura closca i és conegut per la seva lentitud i la forta mossegada.</Tortoise.description>
-  <Tortoise.tools.1.label>cap</Tortoise.tools.1.label>
-  <Tortoise_Leather.label>cuir de tortuga</Tortoise_Leather.label>
-  <Tortoise_Leather.description>cuir de tortuga</Tortoise_Leather.description>
-  <Tortoise_Leather.stuffProps.stuffAdjective>cuir de tortuga</Tortoise_Leather.stuffProps.stuffAdjective>
-  <Tortoise_Meat.label>carn de tortuga</Tortoise_Meat.label>
-  <Tortoise_Meat.description>carn de tortuga</Tortoise_Meat.description>
-  <Tortoise_Corpse.label>tortuga morta</Tortoise_Corpse.label>
-  <Tortoise_Corpse.description>tortuga morta</Tortoise_Corpse.description>
-
-
+  <!-- EN: beak -->
+  <Tortoise.tools.beak.label>TODO</Tortoise.tools.beak.label>
+  <!-- EN: head -->
+  <Tortoise.tools.head.label>cap</Tortoise.tools.head.label>
+  
+  <!-- EN: wild boar -->
+  <WildBoar.label>senglar</WildBoar.label>
+  <!-- EN: This hairy omnivore is descended from escaped pigs and evolved for living in the wild.\n\nIts tusks make it a better fighter than its domesticated pig cousins. Unfortunately, it is too unruly to be trained in the most complex tasks. -->
+  <WildBoar.description>Tot i que algunes cultures el consideren impur, aquest pelut avantpassat del porc domèstic és molt preuat pel sabor de la seva carn.</WildBoar.description>
+  <!-- EN: tusk -->
+  <WildBoar.tools.tusk.label>ullal</WildBoar.tools.tusk.label>
+  <!-- EN: head -->
+  <WildBoar.tools.head.label>cap</WildBoar.tools.head.label>
+  
 </LanguageData>

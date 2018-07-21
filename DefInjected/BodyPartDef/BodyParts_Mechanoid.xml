@@ -1,49 +1,82 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!--======== Common to various mechanoids ========-->
-
-  <MechanicalNeck.label>coll</MechanicalNeck.label>
-  <MechanicalHead.label>cap</MechanicalHead.label>
+  
+  <!-- EN: artificial brain -->
   <ArtificialBrain.label>cervell artificial</ArtificialBrain.label>
-  <SightSensor.label>sensor de visió</SightSensor.label>
-  <HearingSensor.label>sensor d'oïda</HearingSensor.label>
-  <SmellSensor.label>sensor d'olfacte</SmellSensor.label>
-  <MechanicalShoulder.label>espatlla</MechanicalShoulder.label>
-  <MechanicalArm.label>braç</MechanicalArm.label>
-  <MechanicalHand.label>mà</MechanicalHand.label>
-  <MechanicalFinger.label>dit de la mà</MechanicalFinger.label>
-  <MechanicalLeg.label>cama</MechanicalLeg.label>
-  <MechanicalFoot.label>peu</MechanicalFoot.label>
-
-
-  <!--===================== Human-like specific (lancer, scyther) ====================-->
-
-  <MechanicalThorax.label>tòrax</MechanicalThorax.label>
-
-
-  <!--===================== Scyther specific ====================-->
-
+  
+  <!-- EN: blade -->
   <Blade.label>ganiveta</Blade.label>
-
-  <MechanicalCentipedeBodyFirstRing.label>1r anell del cos</MechanicalCentipedeBodyFirstRing.label>
-  <MechanicalCentipedeBodyFirstRing.labelShort>anell del cos</MechanicalCentipedeBodyFirstRing.labelShort>
-
-  <MechanicalCentipedeBodySecondRing.label>2n anell del cos </MechanicalCentipedeBodySecondRing.label>
-  <MechanicalCentipedeBodySecondRing.labelShort>anell del cos</MechanicalCentipedeBodySecondRing.labelShort>
-
-  <MechanicalCentipedeBodyThirdRing.label>3r anell del cos </MechanicalCentipedeBodyThirdRing.label>
-  <MechanicalCentipedeBodyThirdRing.labelShort>anell del cos</MechanicalCentipedeBodyThirdRing.labelShort>
-
-  <MechanicalCentipedeBodyFourthRing.label>4rt anell del cos </MechanicalCentipedeBodyFourthRing.label>
-  <MechanicalCentipedeBodyFourthRing.labelShort>anell del cos</MechanicalCentipedeBodyFourthRing.labelShort>
-
+  
+  <!-- EN: fluid reprocessor -->
+  <FluidReprocessor.label>TODO</FluidReprocessor.label>
+  
+  <!-- EN: sound sensor -->
+  <HearingSensor.label>sensor d'oïda</HearingSensor.label>
+  
+  <!-- EN: arm -->
+  <MechanicalArm.label>braç</MechanicalArm.label>
+  
+  <!-- EN: fifth body ring -->
   <MechanicalCentipedeBodyFifthRing.label>5è anell del cos </MechanicalCentipedeBodyFifthRing.label>
+  <!-- EN: body ring -->
   <MechanicalCentipedeBodyFifthRing.labelShort>anell del cos</MechanicalCentipedeBodyFifthRing.labelShort>
-
+  
+  <!-- EN: first body ring -->
+  <MechanicalCentipedeBodyFirstRing.label>1r anell del cos</MechanicalCentipedeBodyFirstRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyFirstRing.labelShort>anell del cos</MechanicalCentipedeBodyFirstRing.labelShort>
+  
+  <!-- EN: fourth body ring -->
+  <MechanicalCentipedeBodyFourthRing.label>4rt anell del cos </MechanicalCentipedeBodyFourthRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyFourthRing.labelShort>anell del cos</MechanicalCentipedeBodyFourthRing.labelShort>
+  
+  <!-- EN: second body ring -->
+  <MechanicalCentipedeBodySecondRing.label>2n anell del cos </MechanicalCentipedeBodySecondRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodySecondRing.labelShort>anell del cos</MechanicalCentipedeBodySecondRing.labelShort>
+  
+  <!-- EN: sixth body ring -->
   <MechanicalCentipedeBodySixthRing.label>6è anell del cos </MechanicalCentipedeBodySixthRing.label>
+  <!-- EN: body ring -->
   <MechanicalCentipedeBodySixthRing.labelShort>anell del cos</MechanicalCentipedeBodySixthRing.labelShort>
-
-
+  
+  <!-- EN: third body ring -->
+  <MechanicalCentipedeBodyThirdRing.label>3r anell del cos </MechanicalCentipedeBodyThirdRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyThirdRing.labelShort>anell del cos</MechanicalCentipedeBodyThirdRing.labelShort>
+  
+  <!-- EN: finger -->
+  <MechanicalFinger.label>dit de la mà</MechanicalFinger.label>
+  
+  <!-- EN: foot -->
+  <MechanicalFoot.label>peu</MechanicalFoot.label>
+  
+  <!-- EN: hand -->
+  <MechanicalHand.label>mà</MechanicalHand.label>
+  
+  <!-- EN: head -->
+  <MechanicalHead.label>cap</MechanicalHead.label>
+  
+  <!-- EN: leg -->
+  <MechanicalLeg.label>cama</MechanicalLeg.label>
+  
+  <!-- EN: neck -->
+  <MechanicalNeck.label>coll</MechanicalNeck.label>
+  
+  <!-- EN: shoulder -->
+  <MechanicalShoulder.label>espatlla</MechanicalShoulder.label>
+  
+  <!-- EN: thorax -->
+  <MechanicalThorax.label>tòrax</MechanicalThorax.label>
+  
+  <!-- EN: reactor -->
+  <Reactor.label>TODO</Reactor.label>
+  
+  <!-- EN: visual sensor -->
+  <SightSensor.label>sensor de visió</SightSensor.label>
+  
+  <!-- EN: chemical analyzer -->
+  <SmellSensor.label>sensor d'olfacte</SmellSensor.label>
+  
 </LanguageData>
-

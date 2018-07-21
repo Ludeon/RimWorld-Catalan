@@ -1,77 +1,151 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Root.label>root</Root.label>
-
-
-  <!-- Foods -->
-
-  <Foods.label>menjar</Foods.label>
-  <FoodMeals.label>menús</FoodMeals.label>
-  <FoodRaw.label>menjar cru</FoodRaw.label>
-  <MeatRaw.label>carn</MeatRaw.label>
-  <PlantFoodRaw.label>vegetals</PlantFoodRaw.label>
+  
+  <!-- EN: animal products -->
   <AnimalProductRaw.label>productes animals</AnimalProductRaw.label>
-  <EggsUnfertilized.label>ous (no fert.)</EggsUnfertilized.label>
-  <EggsFertilized.label>ous (fert.)</EggsFertilized.label>
-
-
-  <!-- Manufactured -->
-
-  <Manufactured.label>manufacturat</Manufactured.label>
-  <Textiles.label>tèxtils</Textiles.label>
-  <Leathers.label>pells</Leathers.label>
-  <Medicine.label>medicina</Medicine.label>
-  <Drugs.label>drogues</Drugs.label>
-  <MortarShells.label>projectil de morter</MortarShells.label>
-
-
-  <!-- Raw resources -->
-
-  <ResourcesRaw.label>recursos</ResourcesRaw.label>
-  <PlantMatter.label>de plantes</PlantMatter.label>
-  <StoneBlocks.label>blocs de pedra</StoneBlocks.label>
-
-
-  <!-- Items -->
-
-  <Items.label>objectes</Items.label>
-  <Art.label>art</Art.label>
-  <Furniture.label>mobles</Furniture.label>
-  <Unfinished.label>inacabats</Unfinished.label>
-  <Artifacts.label>artefactes</Artifacts.label>
-  <BodyParts.label>parts del cos</BodyParts.label>
-  <BodyPartsNatural.label>natural</BodyPartsNatural.label>
-  <BodyPartsArtificial.label>artificial</BodyPartsArtificial.label>
-
-
-  <!-- Weapons -->
-
-  <Weapons.label>armes</Weapons.label>
-  <WeaponsMelee.label>cos a cos</WeaponsMelee.label>
-  <WeaponsRanged.label>distància</WeaponsRanged.label>
-  <Grenades.label>granades</Grenades.label>
-
-
-  <!-- Apparel -->
-
+  
+  <!-- EN: apparel -->
   <Apparel.label>roba</Apparel.label>
-  <Headgear.label>barrets</Headgear.label>
-
-
-  <!-- Chunks -->
-
+  
+  <!-- UNUSED -->
+  <Art.label>art</Art.label>
+  
+  <!-- EN: artifacts -->
+  <Artifacts.label>artefactes</Artifacts.label>
+  
+  <!-- EN: body parts -->
+  <BodyParts.label>parts del cos</BodyParts.label>
+  
+  <!-- EN: artificial -->
+  <BodyPartsArtificial.label>artificial</BodyPartsArtificial.label>
+  
+  <!-- EN: natural -->
+  <BodyPartsNatural.label>natural</BodyPartsNatural.label>
+  
+  <!-- EN: buildings -->
+  <Buildings.label>TODO</Buildings.label>
+  
+  <!-- EN: art -->
+  <BuildingsArt.label>TODO</BuildingsArt.label>
+  
+  <!-- EN: furniture -->
+  <BuildingsFurniture.label>TODO</BuildingsFurniture.label>
+  
+  <!-- EN: recreation -->
+  <BuildingsJoy.label>TODO</BuildingsJoy.label>
+  
+  <!-- EN: misc -->
+  <BuildingsMisc.label>TODO</BuildingsMisc.label>
+  
+  <!-- EN: power -->
+  <BuildingsPower.label>TODO</BuildingsPower.label>
+  
+  <!-- EN: production -->
+  <BuildingsProduction.label>TODO</BuildingsProduction.label>
+  
+  <!-- EN: security -->
+  <BuildingsSecurity.label>TODO</BuildingsSecurity.label>
+  
+  <!-- EN: special -->
+  <BuildingsSpecial.label>TODO</BuildingsSpecial.label>
+  
+  <!-- EN: temperature -->
+  <BuildingsTemperature.label>TODO</BuildingsTemperature.label>
+  
+  <!-- EN: chunks -->
   <Chunks.label>trossos</Chunks.label>
-  <StoneChunks.label>roques</StoneChunks.label>
-
-
-  <!-- Corpses -->
-
+  
+  <!-- EN: corpses -->
   <Corpses.label>cadàvers</Corpses.label>
-  <CorpsesHumanlike.label>humans</CorpsesHumanlike.label>
+  
+  <!-- EN: animal corpses -->
   <CorpsesAnimal.label>animals</CorpsesAnimal.label>
+  
+  <!-- EN: humanlike corpses -->
+  <CorpsesHumanlike.label>humans</CorpsesHumanlike.label>
+  
+  <!-- EN: insect corpses -->
   <CorpsesInsect.label>insectes</CorpsesInsect.label>
+  
+  <!-- EN: mechanoid corpses -->
   <CorpsesMechanoid.label>mecanoides</CorpsesMechanoid.label>
-
-
+  
+  <!-- EN: drugs -->
+  <Drugs.label>drogues</Drugs.label>
+  
+  <!-- EN: eggs (fert.) -->
+  <EggsFertilized.label>ous (fert.)</EggsFertilized.label>
+  
+  <!-- EN: eggs (unfert.) -->
+  <EggsUnfertilized.label>ous (no fert.)</EggsUnfertilized.label>
+  
+  <!-- EN: meals -->
+  <FoodMeals.label>menús</FoodMeals.label>
+  
+  <!-- EN: raw food -->
+  <FoodRaw.label>menjar cru</FoodRaw.label>
+  
+  <!-- EN: foods -->
+  <Foods.label>menjar</Foods.label>
+  
+  <!-- UNUSED -->
+  <Furniture.label>mobles</Furniture.label>
+  
+  <!-- EN: grenades -->
+  <Grenades.label>granades</Grenades.label>
+  
+  <!-- EN: headgear -->
+  <Headgear.label>barrets</Headgear.label>
+  
+  <!-- EN: items -->
+  <Items.label>objectes</Items.label>
+  
+  <!-- EN: leathers -->
+  <Leathers.label>pells</Leathers.label>
+  
+  <!-- EN: manufactured -->
+  <Manufactured.label>manufacturat</Manufactured.label>
+  
+  <!-- EN: meat -->
+  <MeatRaw.label>carn</MeatRaw.label>
+  
+  <!-- EN: medicine -->
+  <Medicine.label>medicina</Medicine.label>
+  
+  <!-- EN: mortar shells -->
+  <MortarShells.label>projectil de morter</MortarShells.label>
+  
+  <!-- EN: vegetarian -->
+  <PlantFoodRaw.label>vegetals</PlantFoodRaw.label>
+  
+  <!-- EN: plant matter -->
+  <PlantMatter.label>de plantes</PlantMatter.label>
+  
+  <!-- EN: raw resources -->
+  <ResourcesRaw.label>recursos</ResourcesRaw.label>
+  
+  <!-- EN: root -->
+  <Root.label>root</Root.label>
+  
+  <!-- EN: stone blocks -->
+  <StoneBlocks.label>blocs de pedra</StoneBlocks.label>
+  
+  <!-- EN: stone chunks -->
+  <StoneChunks.label>roques</StoneChunks.label>
+  
+  <!-- EN: textiles -->
+  <Textiles.label>tèxtils</Textiles.label>
+  
+  <!-- EN: unfinished -->
+  <Unfinished.label>inacabats</Unfinished.label>
+  
+  <!-- EN: weapons -->
+  <Weapons.label>armes</Weapons.label>
+  
+  <!-- EN: melee weapons -->
+  <WeaponsMelee.label>cos a cos</WeaponsMelee.label>
+  
+  <!-- EN: ranged weapons -->
+  <WeaponsRanged.label>distància</WeaponsRanged.label>
+  
 </LanguageData>

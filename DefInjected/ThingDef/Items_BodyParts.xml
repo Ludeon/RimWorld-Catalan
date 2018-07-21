@@ -1,46 +1,99 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- natural -->
-
-  <Heart.label>cor</Heart.label>
-  <Heart.description>Distribueix la sang i l'oxigen per tot el cos. Preparat per a un altre propietari.</Heart.description>
-
-  <Lung.label>pulmó</Lung.label>
-  <Lung.description>Part esencial del sistema respiratori.</Lung.description>
-
-  <Kidney.label>ronyó</Kidney.label>
-  <Kidney.description>Filtra i elimina els productes nocius de la sang.</Kidney.description>
-
-  <Liver.label>fetge</Liver.label>
-  <Liver.description>Juga un paper important al metabolisme.</Liver.description>
-
-
-  <!-- artificial - simple prosthetics -->
-
-  <SimpleProstheticLeg.label>pròtesi de cama senzilla</SimpleProstheticLeg.label>
-  <SimpleProstheticLeg.description>Una pròtesi senzilla per reemplaçar una cama perduda. No és gaire còmoda, però prou efectiva.</SimpleProstheticLeg.description>
-
-  <SimpleProstheticArm.label>pròtesi de braç senzilla</SimpleProstheticArm.label>
-  <SimpleProstheticArm.description>Una pròtesi de braç senzilla, però resistent.</SimpleProstheticArm.description>
-
-
-  <!-- artificial - bionics -->
-
-  <BionicEye.label>ull biònic</BionicEye.label>
-  <BionicEye.description>Peça de tecnologia avançada feta, no només per substituir un ull natural, sinó també per donar habilitats de visió extraordinàries.</BionicEye.description>
-
+  
+  <!-- EN: archotech arm -->
+  <ArchotechArm.label>TODO</ArchotechArm.label>
+  <!-- EN: An artifical arm built by an archotech. It's strong enough to crush a thick hardwood branch in its hand, and precise enough to write a sonnet on a grain of rice. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds. -->
+  <ArchotechArm.description>TODO</ArchotechArm.description>
+  
+  <!-- EN: archotech eye -->
+  <ArchotechEye.label>TODO</ArchotechEye.label>
+  <!-- EN: An artifical eye built by an archotech. It perceives every type of electromagnetic radiation, including radio waves, infrared, light, x-rays, and gamma rays. Its visual acuity is precise enough to read handwriting from twenty meters away. It can emit various wavelengths of radiation like a flashlight, and has an internal subpersona AI which helps highlight useful visual information. Externally, it looks like a natural human eye, except it can change color at will. Its internal workings are a mystery to all human minds. -->
+  <ArchotechEye.description>TODO</ArchotechEye.description>
+  
+  <!-- EN: archotech leg -->
+  <ArchotechLeg.label>TODO</ArchotechLeg.label>
+  <!-- EN: An artifical leg built by an archotech. It looks and feels like natural flesh, but a pair of these can move the user as fast as a decent car, and it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds. -->
+  <ArchotechLeg.description>TODO</ArchotechLeg.description>
+  
+  <!-- EN: bionic arm -->
   <BionicArm.label>braç biònic</BionicArm.label>
+  <!-- EN: An advanced artificial arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological arm in almost every way. -->
   <BionicArm.description>Un dels substituts més sofisticats per un braç. Dóna una força extrema al seu propietari.</BionicArm.description>
-
+  
+  <!-- EN: bionic ear -->
+  <BionicEar.label>TODO</BionicEar.label>
+  <!-- EN: An advanced artificial ear implant. A collection of invisible subdermal microphones capture sound and transmit it to a biogel nerve interface that links directly with the auditory nerve. It's sensitive enough to hear a cat before you see it, can't be damaged by loud noise, and automatically tunes itself to pick out meaningful sounds in noisy environments. -->
+  <BionicEar.description>TODO</BionicEar.description>
+  
+  <!-- EN: bionic eye -->
+  <BionicEye.label>ull biònic</BionicEye.label>
+  <!-- EN: An advanced artifical eye. With its biogel nerve-link, internal signal pre-processor, and wide-spectrum sensors, it is better than a biological eye in almost every way. A lattice-dust healing system allows it to recover from damage. -->
+  <BionicEye.description>Peça de tecnologia avançada feta, no només per substituir un ull natural, sinó també per donar habilitats de visió extraordinàries.</BionicEye.description>
+  
+  <!-- EN: bionic heart -->
+  <BionicHeart.label>TODO</BionicHeart.label>
+  <!-- EN: An advanced artificial heart. It has synthetic muscle fibers for a realistic heartbeat, plus a high-flow pump for rapid circulation during high stress. It is better than a biological heart in almost every way. -->
+  <BionicHeart.description>TODO</BionicHeart.description>
+  
+  <!-- EN: bionic leg -->
   <BionicLeg.label>cama biònica</BionicLeg.label>
+  <!-- EN: An advanced artificial leg. With its biogel nerve-link, powerful mini-servos, and lattice-dust healing system, it is better than a biological leg in almost every way. -->
   <BionicLeg.description>La tecnologia límit al servei d'una pròtesi de cama. Dóna molta comoditat i força a l'hora de caminar.</BionicLeg.description>
-
+  
+  <!-- EN: bionic spine -->
+  <BionicSpine.label>TODO</BionicSpine.label>
+  <!-- EN: An advanced artificial spine. A biogel nerve bundle runs down an articulated plasteel core, surrounded by a lattice-dust healing system. It matches the performance of a biological spine. -->
+  <BionicSpine.description>TODO</BionicSpine.description>
+  
+  <!-- EN: bionic stomach -->
+  <BionicStomach.label>TODO</BionicStomach.label>
+  <!-- EN: An advanced artificial stomach. A set of sensors and chemical synthesizers efficiently digest nearly any energy-bearing foodstuff. An integrated lattice-dust healing system automatically repairs any damage caused by the powerful acids. It is better than a biological stomach in almost every way. -->
+  <BionicStomach.description>TODO</BionicStomach.description>
+  
+  <!-- EN: cochlear implant -->
+  <CochlearImplant.label>TODO</CochlearImplant.label>
+  <!-- EN: An implant which replaces normal hearing. An external microphone transmits a sound signal to electrodes wrapped around the inner ear's auditory sensing nerves. The electrodes stimulate the nerves according to the sound, creating a sensation of hearing. It's not as good as a natural ear, but it's a lot better than being deaf. -->
+  <CochlearImplant.description>TODO</CochlearImplant.description>
+  
+  <!-- EN: heart -->
+  <Heart.label>cor</Heart.label>
+  <!-- EN: A biological human heart. Pumps blood around the body. -->
+  <Heart.description>Distribueix la sang i l'oxigen per tot el cos. Preparat per a un altre propietari.</Heart.description>
+  
+  <!-- EN: kidney -->
+  <Kidney.label>ronyó</Kidney.label>
+  <!-- EN: A biological human kidney. Filters and removes waste products from the blood. -->
+  <Kidney.description>Filtra i elimina els productes nocius de la sang.</Kidney.description>
+  
+  <!-- EN: liver -->
+  <Liver.label>fetge</Liver.label>
+  <!-- EN: A biological human liver. Plays an important role in metabolism. -->
+  <Liver.description>Juga un paper important al metabolisme.</Liver.description>
+  
+  <!-- EN: lung -->
+  <Lung.label>pulmó</Lung.label>
+  <!-- EN: A biological human lung. A pair of these form the core of the human respiratory system. -->
+  <Lung.description>Part esencial del sistema respiratori.</Lung.description>
+  
+  <!-- EN: power claw -->
   <PowerClaw.label>urpes metàl·liques</PowerClaw.label>
+  <!-- EN: A combat-oriented hand replacement consisting of a mechanical hand with a vicious claw on each finger. It is vicious in combat, and its powerful mini-servos can crush a skull like a natural hand crushes an egg. The blades can be retracted, making it as useful as a biological hand for non-combat tasks. -->
   <PowerClaw.description>Poderós recanvi per a una mà consistent en una urpa mortal de tres ungles.</PowerClaw.description>
-
-  <ScytherBlade.label>fulla de dalla</ScytherBlade.label>
-  <ScytherBlade.description>Recanvi d'una mà amb una fulla telescòpica. Recuperat d'un mecanòide segador mort, no és gaire confortable, però força efectiu en el combat cos a cos.</ScytherBlade.description>
-
-
+  
+  <!-- EN: prosthetic arm -->
+  <SimpleProstheticArm.label>pròtesi de braç senzilla</SimpleProstheticArm.label>
+  <!-- EN: An arm prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real arm. -->
+  <SimpleProstheticArm.description>Una pròtesi de braç senzilla, però resistent.</SimpleProstheticArm.description>
+  
+  <!-- EN: prosthetic heart -->
+  <SimpleProstheticHeart.label>TODO</SimpleProstheticHeart.label>
+  <!-- EN: A heart prosthesis. It contains an electric motor that pumps blood smoothly around the body. Users often report feeling tired, but it's better than the alternative. -->
+  <SimpleProstheticHeart.description>TODO</SimpleProstheticHeart.description>
+  
+  <!-- EN: prosthetic leg -->
+  <SimpleProstheticLeg.label>pròtesi de cama senzilla</SimpleProstheticLeg.label>
+  <!-- EN: A leg prosthesis. While it lacks a neutral interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real leg. -->
+  <SimpleProstheticLeg.description>Una pròtesi senzilla per reemplaçar una cama perduda. No és gaire còmoda, però prou efectiva.</SimpleProstheticLeg.description>
+  
 </LanguageData>

@@ -1,58 +1,111 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Torso.label>tors</Torso.label>
-  <UpperHead.label>part superior del cap</UpperHead.label>
-  <FullHead.label>cap sencer</FullHead.label>
-  <Eyes.label>ulls</Eyes.label>
-  <Teeth.label>dents</Teeth.label>
-  <Mouth.label>boca</Mouth.label>
-  <Neck.label>coll</Neck.label>
+  
+  <!-- EN: arms -->
   <Arms.label>braços</Arms.label>
-  <Shoulders.label>espatlles</Shoulders.label>
-  <Hands.label>mans</Hands.label>
-
-  <LeftHand.label>puny esquerre</LeftHand.label>
-  <LeftHand.labelShort>puny</LeftHand.labelShort>
-
-  <RightHand.label>puny dret</RightHand.label>
-  <RightHand.labelShort>puny</RightHand.labelShort>
-
-  <Waist.label>cintura</Waist.label>
-  <Legs.label>cames</Legs.label>
-  <Feet.label>peus</Feet.label>
-
-  <FrontLeftPaw.label>peu esquerre de davant</FrontLeftPaw.label>
-  <FrontLeftPaw.labelShort>peu</FrontLeftPaw.labelShort>
-
-  <FrontRightPaw.label>peu dret de davant</FrontRightPaw.label>
-  <FrontRightPaw.labelShort>peu</FrontRightPaw.labelShort>
-
-  <HeadAttackTool.label>cap</HeadAttackTool.label>
-
-  <FrontLeftLeg.label>cama esquerra de davant</FrontLeftLeg.label>
-  <FrontLeftLeg.labelShort>cama</FrontLeftLeg.labelShort>
-
-  <FrontRightLeg.label>cama dreta de davant</FrontRightLeg.label>
-  <FrontRightLeg.labelShort>cama</FrontRightLeg.labelShort>
-
-  <FrontLeftClaws.label>urpes esquerres de davant</FrontLeftClaws.label>
-  <FrontLeftClaws.labelShort>urpes</FrontLeftClaws.labelShort>
-
-  <FrontRightClaws.label>urpes urpes de davant</FrontRightClaws.label>
-  <FrontRightClaws.labelShort>claws</FrontRightClaws.labelShort>
-
-  <LeftBlade.label>ganiveta esquerra</LeftBlade.label>
-  <LeftBlade.labelShort>ganiveta</LeftBlade.labelShort>
-
-  <RightBlade.label>ganiveta dreta</RightBlade.label>
-<RightBlade.labelShort>ganiveta</RightBlade.labelShort>
-
-  <TuskAttackTool.label>ullals</TuskAttackTool.label>
-  <HornAttackTool.label>banya</HornAttackTool.label>
-  <HeadClaw.label>mandíbula</HeadClaw.label>
-  <TurtleBeakAttackTool.label>bec</TurtleBeakAttackTool.label>
+  
+  <!-- EN: beak -->
   <Beak.label>bec</Beak.label>
-
-
+  
+  <!-- EN: eyes -->
+  <Eyes.label>ulls</Eyes.label>
+  
+  <!-- EN: feet -->
+  <Feet.label>peus</Feet.label>
+  
+  <!-- EN: front left claws -->
+  <FrontLeftClaws.label>urpes esquerres de davant</FrontLeftClaws.label>
+  <!-- EN: claws -->
+  <FrontLeftClaws.labelShort>urpes</FrontLeftClaws.labelShort>
+  
+  <!-- EN: front left leg -->
+  <FrontLeftLeg.label>cama esquerra de davant</FrontLeftLeg.label>
+  <!-- EN: leg -->
+  <FrontLeftLeg.labelShort>cama</FrontLeftLeg.labelShort>
+  
+  <!-- EN: front left paw -->
+  <FrontLeftPaw.label>peu esquerre de davant</FrontLeftPaw.label>
+  <!-- EN: paw -->
+  <FrontLeftPaw.labelShort>peu</FrontLeftPaw.labelShort>
+  
+  <!-- EN: front right claws -->
+  <FrontRightClaws.label>urpes urpes de davant</FrontRightClaws.label>
+  <!-- EN: claws -->
+  <FrontRightClaws.labelShort>claws</FrontRightClaws.labelShort>
+  
+  <!-- EN: front right leg -->
+  <FrontRightLeg.label>cama dreta de davant</FrontRightLeg.label>
+  <!-- EN: leg -->
+  <FrontRightLeg.labelShort>cama</FrontRightLeg.labelShort>
+  
+  <!-- EN: front right paw -->
+  <FrontRightPaw.label>peu dret de davant</FrontRightPaw.label>
+  <!-- EN: paw -->
+  <FrontRightPaw.labelShort>peu</FrontRightPaw.labelShort>
+  
+  <!-- EN: full head -->
+  <FullHead.label>cap sencer</FullHead.label>
+  
+  <!-- EN: hands -->
+  <Hands.label>mans</Hands.label>
+  
+  <!-- EN: head -->
+  <HeadAttackTool.label>cap</HeadAttackTool.label>
+  
+  <!-- EN: claw -->
+  <HeadClaw.label>mandíbula</HeadClaw.label>
+  
+  <!-- EN: horn -->
+  <HornAttackTool.label>banya</HornAttackTool.label>
+  
+  <!-- EN: left blade -->
+  <LeftBlade.label>ganiveta esquerra</LeftBlade.label>
+  <!-- EN: blade -->
+  <LeftBlade.labelShort>ganiveta</LeftBlade.labelShort>
+  
+  <!-- EN: left fist -->
+  <LeftHand.label>puny esquerre</LeftHand.label>
+  <!-- EN: fist -->
+  <LeftHand.labelShort>puny</LeftHand.labelShort>
+  
+  <!-- EN: legs -->
+  <Legs.label>cames</Legs.label>
+  
+  <!-- EN: mouth -->
+  <Mouth.label>boca</Mouth.label>
+  
+  <!-- EN: neck -->
+  <Neck.label>coll</Neck.label>
+  
+  <!-- EN: right blade -->
+  <RightBlade.label>ganiveta dreta</RightBlade.label>
+  <!-- EN: blade -->
+  <RightBlade.labelShort>ganiveta</RightBlade.labelShort>
+  
+  <!-- EN: right fist -->
+  <RightHand.label>puny dret</RightHand.label>
+  <!-- EN: fist -->
+  <RightHand.labelShort>puny</RightHand.labelShort>
+  
+  <!-- EN: shoulders -->
+  <Shoulders.label>espatlles</Shoulders.label>
+  
+  <!-- EN: teeth -->
+  <Teeth.label>dents</Teeth.label>
+  
+  <!-- EN: torso -->
+  <Torso.label>tors</Torso.label>
+  
+  <!-- EN: beak -->
+  <TurtleBeakAttackTool.label>bec</TurtleBeakAttackTool.label>
+  
+  <!-- EN: tusks -->
+  <TuskAttackTool.label>ullals</TuskAttackTool.label>
+  
+  <!-- EN: upper head -->
+  <UpperHead.label>part superior del cap</UpperHead.label>
+  
+  <!-- EN: waist -->
+  <Waist.label>cintura</Waist.label>
+  
 </LanguageData>

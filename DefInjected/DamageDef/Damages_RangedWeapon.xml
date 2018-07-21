@@ -1,19 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Temporary hack; ranged weapons need to use the old pre-flavorful-combat system to avoid a rebalance cascade. -->
-
-  <RangedStab.label>tall</RangedStab.label>
-  <RangedStab.deathMessage>{0} ha rebut talls fins a morir.</RangedStab.deathMessage>
-
-  <Bullet.label>tret</Bullet.label>
-  <Bullet.deathMessage>{0} ha sofert trets fins a morir.</Bullet.deathMessage>
-
+  
+  <!-- EN: arrow -->
   <Arrow.label>fletxa</Arrow.label>
+  <!-- EN: {0} has been shot to death by an arrow. -->
   <Arrow.deathMessage>{0} ha mort per les fletxes.</Arrow.deathMessage>
-
+  
+  <!-- EN: arrow -->
   <ArrowHighVelocity.label>fletxa</ArrowHighVelocity.label>
+  <!-- EN: {0} has been shot to death by an arrow. -->
   <ArrowHighVelocity.deathMessage>{0} ha mort per les fletxes.</ArrowHighVelocity.deathMessage>
-
-
+  
+  <!-- EN: bullet -->
+  <Bullet.label>tret</Bullet.label>
+  <!-- EN: {0} has been shot to death. -->
+  <Bullet.deathMessage>{0} ha sofert trets fins a morir.</Bullet.deathMessage>
+  
+  <!-- EN: stab -->
+  <RangedStab.label>tall</RangedStab.label>
+  <!-- EN: {0} has been stabbed to death. -->
+  <RangedStab.deathMessage>{0} ha rebut talls fins a morir.</RangedStab.deathMessage>
+  
 </LanguageData>

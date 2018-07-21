@@ -1,37 +1,52 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Quest_TradeRequest.label>petició de negoci</Quest_TradeRequest.label>
-
+  
+  <!-- EN: bandit camp quest -->
   <Quest_BanditCamp.label>missió de campament de bandits</Quest_BanditCamp.label>
+  <!-- EN: Bandit camp quest -->
   <Quest_BanditCamp.letterLabel>missió de campament de bandits</Quest_BanditCamp.letterLabel>
+  <!-- EN: {0}, {1} of {2}, has sent us a message.\n\nApparently bandits based in a nearby camp have been raiding their caravans. They've asked us to destroy it, which means eliminating all enemies and turrets.\n\nIf we succeed, their relations will improve, and they'll send us this reward:\n\n{3}\n\nIf we don't destroy the camp in {4} days, they will do it themselves. -->
   <Quest_BanditCamp.letterText>0}, {1} de {2}, us ha enviat un missatge.\n\nSembla ser que uns bandits acampats en un lloc proper estan asaltant les seves caravanes. Us demanen que les destruïu, la qual cosa implica eliminar tots els enemics i les seves torretes.\n\nSi ho aconseguiu, les relacions entre vosaltres milloraran i us oferiran una recompensa:\n\n{3}</Quest_BanditCamp.letterText>
-
-  <Quest_ItemStash.label>missió d'objectes ocults</Quest_ItemStash.label>
-  <Quest_ItemStash.letterLabel>Missió d'objectes ocults</Quest_ItemStash.letterLabel>
-  <Quest_ItemStash.letterText>{0}, {1} dels {2}, us ha enviat un missatge.\n\nHa sabut que hi ha un tresor ocult a prop vostre. El tresor conté:\n\n{3}\n\nMalauradament, algú altre recollirà el tresor si no ho feu vosaltres abans de {4} dies.\n\nEls objectes valuosos atreuen el perill, aneu amb compte.\n\n{5}.</Quest_ItemStash.letterText>
-
-
-  <!-- Used as a utility incident def for the core-requesting faction option -->
-
-  <Quest_ItemStashAICore.label> missió d'objectes ocults (Nucli d’IA)</Quest_ItemStashAICore.label>
-  <Quest_ItemStashAICore.letterLabel>Missió d'objectes ocults</Quest_ItemStashAICore.letterLabel>
-  <Quest_ItemStashAICore.letterText>{0}, {1} dels {2}, us ha enviat un missatge.\n\nHa sabut que hi ha un tresor ocult a prop vostre. El tresor conté:\n\n{3}\n\nMalauradament, algú altre recollirà el tresor si no ho feu vosaltres abans de {4} dies.\n\nEls objectes valuosos atreuen el perill, aneu amb compte.\n\n{5}.</Quest_ItemStashAICore.letterText>
-
+  
+  <!-- EN: incapacitated refugee quest -->
   <Quest_DownedRefugee.label>missió de refugiat incapacitat</Quest_DownedRefugee.label>
+  <!-- EN: Incapacitated refugee quest -->
   <Quest_DownedRefugee.letterLabel>missió de refugiat incapacitat</Quest_DownedRefugee.letterLabel>
+  <!-- EN: [PAWN_nameDef] contacts you and requests help. [PAWN_pronoun] is wounded and unable to move. Without your help, [PAWN_pronoun] will die in {0} days.\n\n[PAWN_nameDef] is a {1}-year-old {2}. [PAWN_pronoun] promises to join you if you rescue [PAWN_objective].\n\n[PAWN_nameDef] says that {3}. -->
   <Quest_DownedRefugee.letterText>[[PAWN_nameDef] us contacta per ràdio i us demana ajuda. Està ferit i no es pot bellugar. Sense la vostra ajuda morirà d'aquí a {0} dies.\n\n[PAWN_nameDef] és un {2} de {1} anys. [PAWN_pronoun] promet unir-se-us si l’aneu a rescatar.\n\n[PAWN_nameDef] diu que {3}.</Quest_DownedRefugee.letterText>
-
-  <Quest_PrisonerRescue.label>missió de rescat de presoner</Quest_PrisonerRescue.label>
-  <Quest_PrisonerRescue.letterLabel>Missió de rescat de presoner</Quest_PrisonerRescue.letterLabel>
-  <Quest_PrisonerRescue.letterText>Un presoner retingut per {0} ha aconseguit robar una ràdio i us truca!\n\n[PAWN_nameDef] està retingut en un camp proper sota vigilància armada. Rescateu-lo i s'unirà a la colònia. És un {2} de {1} anys. Diu que {3}.</Quest_PrisonerRescue.letterText>
-
-  <Quest_PeaceTalks.label>missió de converses de pau</Quest_PeaceTalks.label>
-  <Quest_PeaceTalks.letterLabel>Missió de converses de pau</Quest_PeaceTalks.letterLabel>
-  <Quest_PeaceTalks.letterText>[PAWN_nameDef], {0} dels {1}, us envia un missatge. Vol parlar amb vosaltres en una localització propera.\n\nPot ser una bona oportunitat de millorar les relacions amb la facció, però aneu amb compte: un mal negociador pot fer més mal que bé i arribar a fer-los enfadar.\n\nLa oferta expira d'aquí a {2} dies.</Quest_PeaceTalks.letterText>
-
-  <!-- Main quests -->
-
+  
+  <!-- EN: item stash quest -->
+  <Quest_ItemStash.label>missió d'objectes ocults</Quest_ItemStash.label>
+  <!-- EN: Item stash quest -->
+  <Quest_ItemStash.letterLabel>Missió d'objectes ocults</Quest_ItemStash.letterLabel>
+  <!-- EN: {0}, {1} of {2}, has informed us of a collection of valuable items not far from us. The collection consists of:\n\n{3}\n\nUnfortunately, it won't last - others will take the items in {4} days if we don't.\n\nBeware - valuables tend to attract danger. {0} says that {5}. -->
+  <Quest_ItemStash.letterText>{0}, {1} dels {2}, us ha enviat un missatge.\n\nHa sabut que hi ha un tresor ocult a prop vostre. El tresor conté:\n\n{3}\n\nMalauradament, algú altre recollirà el tresor si no ho feu vosaltres abans de {4} dies.\n\nEls objectes valuosos atreuen el perill, aneu amb compte.\n\n{5}.</Quest_ItemStash.letterText>
+  
+  <!-- EN: item stash quest (AI core) -->
+  <Quest_ItemStashAICore.label> missió d'objectes ocults (Nucli d’IA)</Quest_ItemStashAICore.label>
+  <!-- EN: Item stash quest -->
+  <Quest_ItemStashAICore.letterLabel>Missió d'objectes ocults</Quest_ItemStashAICore.letterLabel>
+  <!-- EN: {0}, {1} of {2}, has informed us of a collection of valuable items not far from us. The collection consists of:\n\n{3}\n\nUnfortunately, it won't last - others will take the items in {4} days if we don't.\n\nBeware - valuables tend to attract danger. {0} says that {5}. -->
+  <Quest_ItemStashAICore.letterText>{0}, {1} dels {2}, us ha enviat un missatge.\n\nHa sabut que hi ha un tresor ocult a prop vostre. El tresor conté:\n\n{3}\n\nMalauradament, algú altre recollirà el tresor si no ho feu vosaltres abans de {4} dies.\n\nEls objectes valuosos atreuen el perill, aneu amb compte.\n\n{5}.</Quest_ItemStashAICore.letterText>
+  
+  <!-- EN: escape ship quest -->
   <Quest_JourneyOffer.label>missió de nau d’escapament</Quest_JourneyOffer.label>
-
+  
+  <!-- EN: peace talks quest -->
+  <Quest_PeaceTalks.label>missió de converses de pau</Quest_PeaceTalks.label>
+  <!-- EN: Peace talks quest -->
+  <Quest_PeaceTalks.letterLabel>Missió de converses de pau</Quest_PeaceTalks.letterLabel>
+  <!-- EN: [PAWN_nameDef], {0} of {1}, has sent us a message. [PAWN_pronoun] wants to talk with us in a nearby location.\n\nIt could be a great opportunity to improve relations with their faction and receive gifts, but beware - a poor negotiator can cause more harm than good and may even anger them.\n\nThe offer will expire after {2} days. -->
+  <Quest_PeaceTalks.letterText>[PAWN_nameDef], {0} dels {1}, us envia un missatge. Vol parlar amb vosaltres en una localització propera.\n\nPot ser una bona oportunitat de millorar les relacions amb la facció, però aneu amb compte: un mal negociador pot fer més mal que bé i arribar a fer-los enfadar.\n\nLa oferta expira d'aquí a {2} dies.</Quest_PeaceTalks.letterText>
+  
+  <!-- EN: prisoner rescue quest -->
+  <Quest_PrisonerRescue.label>missió de rescat de presoner</Quest_PrisonerRescue.label>
+  <!-- EN: Prisoner rescue quest -->
+  <Quest_PrisonerRescue.letterLabel>Missió de rescat de presoner</Quest_PrisonerRescue.letterLabel>
+  <!-- EN: A prisoner being held by {0} has managed to steal a radio and call you!\n\n[PAWN_nameDef] is being held at a camp nearby under armed guard. Rescue [PAWN_objective], and [PAWN_pronoun] will join your colony. [PAWN_pronoun] is a {1}-year-old {2}. [PAWN_pronoun] says that {3}. -->
+  <Quest_PrisonerRescue.letterText>Un presoner retingut per {0} ha aconseguit robar una ràdio i us truca!\n\n[PAWN_nameDef] està retingut en un camp proper sota vigilància armada. Rescateu-lo i s'unirà a la colònia. És un {2} de {1} anys. Diu que {3}.</Quest_PrisonerRescue.letterText>
+  
+  <!-- EN: trade request -->
+  <Quest_TradeRequest.label>petició de negoci</Quest_TradeRequest.label>
+  
 </LanguageData>

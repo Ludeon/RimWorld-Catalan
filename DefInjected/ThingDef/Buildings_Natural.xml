@@ -1,44 +1,59 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Simple mineables -->
-
+  
+  <!-- EN: collapsed rocks -->
   <CollapsedRocks.label>Roques caigudes</CollapsedRocks.label>
+  <!-- EN: Collapsed rocks, packed tightly enough to hold up a roof. -->
   <CollapsedRocks.description>Roques caigudes, prou compactes per aguantar un sostre.</CollapsedRocks.description>
-
-
-  <!-- Resource rocks -->
-
-  <MineableSteel.label>Acer compactat</MineableSteel.label>
-  <MineableSteel.description>Les restes d'una antiga estructura enrunada. Riques en acer.</MineableSteel.description>
-
-  <MineableSilver.label>mena de plata</MineableSilver.label>
-  <MineableSilver.description>Roques que contenen trossets de plata.</MineableSilver.description>
-
-  <MineableGold.label>mina d'or</MineableGold.label>
-  <MineableGold.description>Roques que contenen trossets d'or.</MineableGold.description>
-
-  <MineableUranium.label>mina d'urani</MineableUranium.label>
-  <MineableUranium.description>Roques que contenen trossets d'urani.</MineableUranium.description>
-
-  <MineablePlasteel.label>plastacer compactat</MineablePlasteel.label>
-  <MineablePlasteel.description>Antigues restes riques en plastacer.</MineablePlasteel.description>
-
-  <MineableJade.label>jade</MineableJade.label>
-  <MineableJade.description>Roques que contenen trossets de jade.</MineableJade.description>
-
-  <MineableComponents.label>maquinari compactat</MineableComponents.label>
-  <MineableComponents.description>Antic maquinari compactat pel temps. Es pot minar per extreure'n components.</MineableComponents.description>
-
-  <SteamGeyser.label>guèiser de vapor</SteamGeyser.label>
-  <SteamGeyser.description>Font natural de vapor.</SteamGeyser.description>
-
-  <Hive.label>niu</Hive.label>
-  <Hive.description>Niu d'insectes gegants. En sortiran nous insectes i nius de tant en tant.</Hive.description>
-
+  
+  <!-- EN: glow pod -->
   <GlowPod.label>baina iridescent</GlowPod.label>
+  <!-- EN: A bioluminescent pod produced by giant insects. Glows under its own light for a long time, then dies. -->
   <GlowPod.description>una baina bio-lumínica produïda pels insectes gegants. Brilla amb llum pròpia durant molt temps i després es desfà.</GlowPod.description>
-  <GlowPod_Blueprint_Install.label>baina iridescent (projecte)</GlowPod_Blueprint_Install.label>
-
-
+  
+  <!-- EN: hive -->
+  <Hive.label>niu</Hive.label>
+  <!-- EN: A hive of giant insects. If activated, it will spawn additional insects and hives over time, as well as valuable insect jelly. -->
+  <Hive.description>Niu d'insectes gegants. En sortiran nous insectes i nius de tant en tant.</Hive.description>
+  
+  <!-- EN: compacted machinery -->
+  <MineableComponentsIndustrial.label>maquinari compactat</MineableComponentsIndustrial.label>
+  <!-- EN: Ancient machinery, compacted over time. Can be mined for useful components. -->
+  <MineableComponentsIndustrial.description>Antic maquinari compactat pel temps. Es pot minar per extreure'n components.</MineableComponentsIndustrial.description>
+  
+  <!-- EN: gold ore -->
+  <MineableGold.label>mina d'or</MineableGold.label>
+  <!-- EN: Rock containing bits of gold. -->
+  <MineableGold.description>Roques que contenen trossets d'or.</MineableGold.description>
+  
+  <!-- EN: jade -->
+  <MineableJade.label>jade</MineableJade.label>
+  <!-- EN: Rock containing bits of jade. -->
+  <MineableJade.description>Roques que contenen trossets de jade.</MineableJade.description>
+  
+  <!-- EN: compacted plasteel -->
+  <MineablePlasteel.label>plastacer compactat</MineablePlasteel.label>
+  <!-- EN: Ancient compacted rubble rich in plasteel. -->
+  <MineablePlasteel.description>Antigues restes riques en plastacer.</MineablePlasteel.description>
+  
+  <!-- EN: silver ore -->
+  <MineableSilver.label>mena de plata</MineableSilver.label>
+  <!-- EN: Rock containing bits of silver. -->
+  <MineableSilver.description>Roques que contenen trossets de plata.</MineableSilver.description>
+  
+  <!-- EN: compacted steel -->
+  <MineableSteel.label>Acer compactat</MineableSteel.label>
+  <!-- EN: The remains of some ancient, collapsed structure. Rich in steel. -->
+  <MineableSteel.description>Les restes d'una antiga estructura enrunada. Riques en acer.</MineableSteel.description>
+  
+  <!-- EN: uranium ore -->
+  <MineableUranium.label>mina d'urani</MineableUranium.label>
+  <!-- EN: Rock containing bits of uranium. -->
+  <MineableUranium.description>Roques que contenen trossets d'urani.</MineableUranium.description>
+  
+  <!-- EN: steam geyser -->
+  <SteamGeyser.label>guèiser de vapor</SteamGeyser.label>
+  <!-- EN: A natural source of high-pressure steam. Geothermal generators can harness the steam power. Rooms built over this will rapidly cook. -->
+  <SteamGeyser.description>Font natural de vapor.</SteamGeyser.description>
+  
 </LanguageData>

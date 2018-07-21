@@ -1,74 +1,142 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <SpeedOffset.degreeDatas.0.label>lentitud</SpeedOffset.degreeDatas.0.label>
-  <SpeedOffset.degreeDatas.0.description>[PAWN_nameDef] sempre es queda enrere quan camina amb algú altre.</SpeedOffset.degreeDatas.0.description>
-  <SpeedOffset.degreeDatas.1.label>camina ràpidament</SpeedOffset.degreeDatas.1.label>
-  <SpeedOffset.degreeDatas.1.description>A [PAWN_nameDef] li agrada arribar de pressa a lloc.</SpeedOffset.degreeDatas.1.description>
-  <SpeedOffset.degreeDatas.2.label>corre</SpeedOffset.degreeDatas.2.label>
-  <SpeedOffset.degreeDatas.2.description>[PAWN_nameDef] sempre es belluga com si tingués una urgència. Fins al punt que els altres tenen dificultats per seguir-li el ritme.</SpeedOffset.degreeDatas.2.description>
-
-  <DrugDesire.degreeDatas.0.label>fascinació química</DrugDesire.degreeDatas.0.label>
-  <DrugDesire.degreeDatas.0.description>[PAWN_nameDef] té una gran fascinació per les diversions d'origen químic. En consumirà sovint i algun cop es col·locarà amb drogues dures. No farà cas de les directives d'ús de les drogues de plaer.</DrugDesire.degreeDatas.0.description>
-  <DrugDesire.degreeDatas.1.label>interès químic</DrugDesire.degreeDatas.1.label>
-  <DrugDesire.degreeDatas.1.description>[PAWN_nameDef] té un interès poc habitual per les diversions d'origen químic. En consumirà sovint i algun cop es col·locarà amb drogues toves. No farà cas de les directives d'ús de les drogues de plaer.</DrugDesire.degreeDatas.1.description>
-  <DrugDesire.degreeDatas.2.label>abstèmia</DrugDesire.degreeDatas.2.label>
-  <DrugDesire.degreeDatas.2.description>[PAWN_nameDef] detesta la idea d'assolir plaer amb productes químics, i evita prendre alcohol u drogues de plaer.</DrugDesire.degreeDatas.2.description>
-
-  <NaturalMood.degreeDatas.0.label>super-optimísta</NaturalMood.degreeDatas.0.label>
-  <NaturalMood.degreeDatas.0.description>[PAWN_nameDef] gaudirà gairebé sempre de la situació en què es trobi, sigui quina sigui.</NaturalMood.degreeDatas.0.description>
-  <NaturalMood.degreeDatas.1.label>optimista</NaturalMood.degreeDatas.1.label>
-  <NaturalMood.degreeDatas.1.description>[PAWN_nameDef] és un optimista natural. No es col·lapsa facilment.</NaturalMood.degreeDatas.1.description>
-  <NaturalMood.degreeDatas.2.label>pessimista</NaturalMood.degreeDatas.2.label>
-  <NaturalMood.degreeDatas.2.description>[PAWN_nameDef] sempre veu la part dolenta de les coses.</NaturalMood.degreeDatas.2.description>
-  <NaturalMood.degreeDatas.3.label>depressió</NaturalMood.degreeDatas.3.label>
-  <NaturalMood.degreeDatas.3.description>[PAWN_nameDef] sempre està descontent. Li costa estar de bon humor fins i tot quan no té cap problema.</NaturalMood.degreeDatas.3.description>
-
-  <Nerves.degreeDatas.0.label>convenciment absolut</Nerves.degreeDatas.0.label>
-  <Nerves.degreeDatas.0.description>[PAWN_nameDef] té una voluntat d'acer. Sempre tira endavant quan els altres fa temps que s'han esfondrat.</Nerves.degreeDatas.0.description>
-  <Nerves.degreeDatas.1.label>fermesa</Nerves.degreeDatas.1.label>
-  <Nerves.degreeDatas.1.description>[PAWN_nameDef] aguanta molt bé l'estrès.</Nerves.degreeDatas.1.description>
-  <Nerves.degreeDatas.2.label>nerviosisme</Nerves.degreeDatas.2.label>
-  <Nerves.degreeDatas.2.description>[PAWN_nameDef] s'esfondra fàcilment quan està sota presió.</Nerves.degreeDatas.2.description>
-  <Nerves.degreeDatas.3.label>inestable</Nerves.degreeDatas.3.label>
-  <Nerves.degreeDatas.3.description>[PAWN_nameDef] té sempre els nervis a flor de pell. S'esfondrarà de seguida davant el més mínim problema.</Nerves.degreeDatas.3.description>
-
-  <Neurotic.degreeDatas.0.label>neurosi</Neurotic.degreeDatas.0.label>
-  <Neurotic.degreeDatas.0.description>[PAWN_nameDef] li agrada tenir les coses controlades. Treballarà més que els altres si convé per aconseguir-hom però els seus nervis s'emportaran la pitjor part.</Neurotic.degreeDatas.0.description>
-  <Neurotic.degreeDatas.1.label>forta neurosi</Neurotic.degreeDatas.1.label>
-  <Neurotic.degreeDatas.1.description>[PAWN_nameDef] sempre s'atabala amb tot el que fa. Treballarà tremendament de valent per tenir les coses controlades, però els seus nervis ho patiran de valent.</Neurotic.degreeDatas.1.description>
-
-  <Industriousness.degreeDatas.0.label>industrial</Industriousness.degreeDatas.0.label>
-  <Industriousness.degreeDatas.0.description>A [PAWN_nameDef] li costa poc concentrar-se i posar-se a treballar, i acaba les feines més ràpidament que una persona normal.</Industriousness.degreeDatas.0.description>
-  <Industriousness.degreeDatas.1.label>treball dur</Industriousness.degreeDatas.1.label>
-  <Industriousness.degreeDatas.1.description>A [PAWN_nameDef] li agrada treballar i acaba les fenies abans que la majoria.</Industriousness.degreeDatas.1.description>
-  <Industriousness.degreeDatas.2.label>escaqueig</Industriousness.degreeDatas.2.label>
-  <Industriousness.degreeDatas.2.description>A [PAWN_nameDef] li costa posar-se a treballar.</Industriousness.degreeDatas.2.description>
-  <Industriousness.degreeDatas.3.label>vagància</Industriousness.degreeDatas.3.label>
-  <Industriousness.degreeDatas.3.description>[PAWN_nameDef] li encanta estar sense fer res i no li agrada gens posar-se a fer coses productives. Es mou a poc a poc i no se sol concentrar en les feines.</Industriousness.degreeDatas.3.description>
-
-  <PsychicSensitivity.degreeDatas.0.label>hipersensibilitat psíquica</PsychicSensitivity.degreeDatas.0.label>
-  <PsychicSensitivity.degreeDatas.0.description>El cervell de [PAWN_nameDef] és com una antena psíquica. És tremendament sensible als fenòmens psíquics.</PsychicSensitivity.degreeDatas.0.description>
-  <PsychicSensitivity.degreeDatas.1.label>sensibilitat psíquica</PsychicSensitivity.degreeDatas.1.label>
-  <PsychicSensitivity.degreeDatas.1.description>El cervell de [PAWN_nameDef] és anormalment sensible als fenòmens psíquics.</PsychicSensitivity.degreeDatas.1.description>
-  <PsychicSensitivity.degreeDatas.2.label>resistència psíquica</PsychicSensitivity.degreeDatas.2.label>
-  <PsychicSensitivity.degreeDatas.2.description>El cervell de [PAWN_nameDef] no sintonitza amb la resta. Els fenòmens psíquics no l'afecten tant.</PsychicSensitivity.degreeDatas.2.description>
-  <PsychicSensitivity.degreeDatas.3.label>sordera psíquica</PsychicSensitivity.degreeDatas.3.label>
-  <PsychicSensitivity.degreeDatas.3.description>El cervell de [PAWN_nameDef] treballa a uan freqüència completament diferent de la resta. Els fenòmens psíquics no l'afecten gens.</PsychicSensitivity.degreeDatas.3.description>
-
-  <ShootingAccuracy.degreeDatas.0.label>dispara amb cura</ShootingAccuracy.degreeDatas.0.label>
-  <ShootingAccuracy.degreeDatas.0.description>[PAWN_nameDef] necessita més temps per apuntar quan dispara. Ho fa menys sovint que la resta, però amb més punteria.</ShootingAccuracy.degreeDatas.0.description>
-  <ShootingAccuracy.degreeDatas.1.label>gatell ràpid</ShootingAccuracy.degreeDatas.1.label>
-  <ShootingAccuracy.degreeDatas.1.description>Pinyau! Pinyau! Pinyau! A [PAWN_nameDef] li encanta prémer el gallet. Dispara més de pressa que la resta, però amb menys punteria.</ShootingAccuracy.degreeDatas.1.description>
-
-  <Beauty.degreeDatas.0.label>bellesa</Beauty.degreeDatas.0.label>
-  <Beauty.degreeDatas.0.description>[PAWN_nameDef] té una bellesa excepcional, amb una estructura facial exòtica però familiar que fa atreu les mirades. La gent si sent atreta fins i tot abans que obri la boca.</Beauty.degreeDatas.0.description>
-  <Beauty.degreeDatas.1.label>encant</Beauty.degreeDatas.1.label>
-  <Beauty.degreeDatas.1.description>[PAWN_nameDef] té una cara agradable, que predisposa positivament a la gent.</Beauty.degreeDatas.1.description>
-  <Beauty.degreeDatas.2.label>lletjor</Beauty.degreeDatas.2.label>
-  <Beauty.degreeDatas.2.description>[PAWN_nameDef] és «difícil de mirar». Això dificulta una mica les seves relacions socials.</Beauty.degreeDatas.2.description>
-  <Beauty.degreeDatas.3.label>lletjor espantosa</Beauty.degreeDatas.3.label>
-  <Beauty.degreeDatas.3.description>[PAWN_nameDef] té un aspecte horrible. La cara sembla una barreja entre un gargot d'un nen, un fetus deforme en un pot de formol i una peça d'art modern. La gent ha de fer grans esforços per aguantar-li la mirada mentre hi manté una conversa.</Beauty.degreeDatas.3.description>
-
-
+  
+  <!-- EN: beautiful -->
+  <Beauty.degreeDatas.beautiful.label>bellesa</Beauty.degreeDatas.beautiful.label>
+  <!-- EN: [PAWN_nameDef] is exceptionally beautiful, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to [PAWN_objective] before [PAWN_pronoun] even opens [PAWN_possessive] mouth. -->
+  <Beauty.degreeDatas.beautiful.description>[PAWN_nameDef] té una bellesa excepcional, amb una estructura facial exòtica però familiar que fa atreu les mirades. La gent si sent atreta fins i tot abans que obri la boca.</Beauty.degreeDatas.beautiful.description>
+  <!-- EN: pretty -->
+  <Beauty.degreeDatas.pretty.label>encant</Beauty.degreeDatas.pretty.label>
+  <!-- EN: [PAWN_nameDef] has a pretty face, which predisposes people to like [PAWN_objective]. -->
+  <Beauty.degreeDatas.pretty.description>[PAWN_nameDef] té una cara agradable, que predisposa positivament a la gent.</Beauty.degreeDatas.pretty.description>
+  <!-- EN: ugly -->
+  <Beauty.degreeDatas.ugly.label>lletjor</Beauty.degreeDatas.ugly.label>
+  <!-- EN: [PAWN_nameDef] is somewhat ugly. This subtly repels others during social interactions. -->
+  <Beauty.degreeDatas.ugly.description>[PAWN_nameDef] és «difícil de mirar». Això dificulta una mica les seves relacions socials.</Beauty.degreeDatas.ugly.description>
+  <!-- EN: staggeringly ugly -->
+  <Beauty.degreeDatas.staggeringly_ugly.label>lletjor espantosa</Beauty.degreeDatas.staggeringly_ugly.label>
+  <!-- EN: [PAWN_nameDef] is staggeringly ugly. [PAWN_possessive] face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at [PAWN_objective] while conversing. -->
+  <Beauty.degreeDatas.staggeringly_ugly.description>[PAWN_nameDef] té un aspecte horrible. La cara sembla una barreja entre un gargot d'un nen, un fetus deforme en un pot de formol i una peça d'art modern. La gent ha de fer grans esforços per aguantar-li la mirada mentre hi manté una conversa.</Beauty.degreeDatas.staggeringly_ugly.description>
+  
+  <!-- EN: chemical fascination -->
+  <DrugDesire.degreeDatas.chemical_fascination.label>fascinació química</DrugDesire.degreeDatas.chemical_fascination.label>
+  <!-- EN: [PAWN_nameDef] has an intense fascination with chemical sources of enjoyment. [PAWN_pronoun] will consume much more of them, and will sometimes go on hard drug binges. [PAWN_pronoun] will ignore directives to not use pleasurable drugs. -->
+  <DrugDesire.degreeDatas.chemical_fascination.description>[PAWN_nameDef] té una gran fascinació per les diversions d'origen químic. En consumirà sovint i algun cop es col·locarà amb drogues dures. No farà cas de les directives d'ús de les drogues de plaer.</DrugDesire.degreeDatas.chemical_fascination.description>
+  <!-- EN: chemical interest -->
+  <DrugDesire.degreeDatas.chemical_interest.label>interès químic</DrugDesire.degreeDatas.chemical_interest.label>
+  <!-- EN: [PAWN_nameDef] has an unusual interest in chemical sources of enjoyment. [PAWN_pronoun] will consume more of them, and will sometimes go on social drug binges. [PAWN_pronoun] will ignore directives to not use pleasurable drugs. -->
+  <DrugDesire.degreeDatas.chemical_interest.description>[PAWN_nameDef] té un interès poc habitual per les diversions d'origen químic. En consumirà sovint i algun cop es col·locarà amb drogues toves. No farà cas de les directives d'ús de les drogues de plaer.</DrugDesire.degreeDatas.chemical_interest.description>
+  <!-- EN: teetotaler -->
+  <DrugDesire.degreeDatas.teetotaler.label>abstèmia</DrugDesire.degreeDatas.teetotaler.label>
+  <!-- EN: [PAWN_nameDef] abhors the idea of gaining pleasure from chemicals, and avoids alcohol and pleasurable drugs. -->
+  <DrugDesire.degreeDatas.teetotaler.description>[PAWN_nameDef] detesta la idea d'assolir plaer amb productes químics, i evita prendre alcohol u drogues de plaer.</DrugDesire.degreeDatas.teetotaler.description>
+  
+  <!-- EN: super-immune -->
+  <Immunity.degreeDatas.superimmune.label>TODO</Immunity.degreeDatas.superimmune.label>
+  <!-- EN: [PAWN_nameDef] has a naturally powerful immune system. [PAWN_pronoun] will gain immunity much faster than a normal person would, and can survive illnesses that would kill others. -->
+  <Immunity.degreeDatas.superimmune.description>TODO</Immunity.degreeDatas.superimmune.description>
+  <!-- EN: sickly -->
+  <Immunity.degreeDatas.sickly.label>TODO</Immunity.degreeDatas.sickly.label>
+  <!-- EN: [PAWN_nameDef] has an awful immune system. [PAWN_pronoun] gets sick more often than usual, frequently with illnesses that nobody in the colony has been afflicted by. -->
+  <Immunity.degreeDatas.sickly.description>TODO</Immunity.degreeDatas.sickly.description>
+  
+  <!-- EN: industrious -->
+  <Industriousness.degreeDatas.industrious.label>industrial</Industriousness.degreeDatas.industrious.label>
+  <!-- EN: [PAWN_nameDef] has an easy time staying on-task and focused, and gets things done much faster than the average person. -->
+  <Industriousness.degreeDatas.industrious.description>A [PAWN_nameDef] li costa poc concentrar-se i posar-se a treballar, i acaba les feines més ràpidament que una persona normal.</Industriousness.degreeDatas.industrious.description>
+  <!-- EN: hard worker -->
+  <Industriousness.degreeDatas.hard_worker.label>treball dur</Industriousness.degreeDatas.hard_worker.label>
+  <!-- EN: [PAWN_nameDef] is a natural hard worker and will finish tasks faster than most. -->
+  <Industriousness.degreeDatas.hard_worker.description>A [PAWN_nameDef] li agrada treballar i acaba les fenies abans que la majoria.</Industriousness.degreeDatas.hard_worker.description>
+  <!-- EN: lazy -->
+  <Industriousness.degreeDatas.lazy.label>escaqueig</Industriousness.degreeDatas.lazy.label>
+  <!-- EN: [PAWN_nameDef] is a little bit lazy. -->
+  <Industriousness.degreeDatas.lazy.description>A [PAWN_nameDef] li costa posar-se a treballar.</Industriousness.degreeDatas.lazy.description>
+  <!-- EN: slothful -->
+  <Industriousness.degreeDatas.slothful.label>vagància</Industriousness.degreeDatas.slothful.label>
+  <!-- EN: [PAWN_nameDef] loves idleness and hates anything productive. [PAWN_pronoun] moves slowly and rarely stays focused on a task. -->
+  <Industriousness.degreeDatas.slothful.description>[PAWN_nameDef] li encanta estar sense fer res i no li agrada gens posar-se a fer coses productives. Es mou a poc a poc i no se sol concentrar en les feines.</Industriousness.degreeDatas.slothful.description>
+  
+  <!-- EN: sanguine -->
+  <NaturalMood.degreeDatas.sanguine.label>super-optimísta</NaturalMood.degreeDatas.sanguine.label>
+  <!-- EN: [PAWN_nameDef] is just naturally upbeat about [PAWN_possessive] situation, pretty much all the time, no matter what it is. -->
+  <NaturalMood.degreeDatas.sanguine.description>[PAWN_nameDef] gaudirà gairebé sempre de la situació en què es trobi, sigui quina sigui.</NaturalMood.degreeDatas.sanguine.description>
+  <!-- EN: optimist -->
+  <NaturalMood.degreeDatas.optimist.label>optimista</NaturalMood.degreeDatas.optimist.label>
+  <!-- EN: [PAWN_nameDef] is naturally optimistic about life. It's hard to get [PAWN_objective] down. -->
+  <NaturalMood.degreeDatas.optimist.description>[PAWN_nameDef] és un optimista natural. No es col·lapsa facilment.</NaturalMood.degreeDatas.optimist.description>
+  <!-- EN: pessimist -->
+  <NaturalMood.degreeDatas.pessimist.label>pessimista</NaturalMood.degreeDatas.pessimist.label>
+  <!-- EN: [PAWN_nameDef] tends to look on the bad side of life. -->
+  <NaturalMood.degreeDatas.pessimist.description>[PAWN_nameDef] sempre veu la part dolenta de les coses.</NaturalMood.degreeDatas.pessimist.description>
+  <!-- EN: depressive -->
+  <NaturalMood.degreeDatas.depressive.label>depressió</NaturalMood.degreeDatas.depressive.label>
+  <!-- EN: [PAWN_nameDef] is perenially unhappy. [PAWN_pronoun] has trouble sustaining a good mood even when everything is fine. -->
+  <NaturalMood.degreeDatas.depressive.description>[PAWN_nameDef] sempre està descontent. Li costa estar de bon humor fins i tot quan no té cap problema.</NaturalMood.degreeDatas.depressive.description>
+  
+  <!-- EN: iron-willed -->
+  <Nerves.degreeDatas.ironwilled.label>convenciment absolut</Nerves.degreeDatas.ironwilled.label>
+  <!-- EN: [PAWN_nameDef]'s will is an iron shield. [PAWN_pronoun] keeps going through thick and thin, when others broke down long before. -->
+  <Nerves.degreeDatas.ironwilled.description>[PAWN_nameDef] té una voluntat d'acer. Sempre tira endavant quan els altres fa temps que s'han esfondrat.</Nerves.degreeDatas.ironwilled.description>
+  <!-- EN: steadfast -->
+  <Nerves.degreeDatas.steadfast.label>fermesa</Nerves.degreeDatas.steadfast.label>
+  <!-- EN: [PAWN_nameDef] is mentally tough and won't break down under stresses that would crack most people. -->
+  <Nerves.degreeDatas.steadfast.description>[PAWN_nameDef] aguanta molt bé l'estrès.</Nerves.degreeDatas.steadfast.description>
+  <!-- EN: nervous -->
+  <Nerves.degreeDatas.nervous.label>nerviosisme</Nerves.degreeDatas.nervous.label>
+  <!-- EN: [PAWN_nameDef] tends to crack under pressure. -->
+  <Nerves.degreeDatas.nervous.description>[PAWN_nameDef] s'esfondra fàcilment quan està sota presió.</Nerves.degreeDatas.nervous.description>
+  <!-- EN: volatile -->
+  <Nerves.degreeDatas.volatile.label>inestable</Nerves.degreeDatas.volatile.label>
+  <!-- EN: [PAWN_nameDef] is on a hair-trigger all the time. [PAWN_pronoun] is the first to break in any tough situation. -->
+  <Nerves.degreeDatas.volatile.description>[PAWN_nameDef] té sempre els nervis a flor de pell. S'esfondrarà de seguida davant el més mínim problema.</Nerves.degreeDatas.volatile.description>
+  
+  <!-- EN: neurotic -->
+  <Neurotic.degreeDatas.neurotic.label>neurosi</Neurotic.degreeDatas.neurotic.label>
+  <!-- EN: [PAWN_nameDef] likes to have things squared away. [PAWN_pronoun] will work harder than most to attain this state of affairs, but [PAWN_possessive] nerves can get the better of [PAWN_objective]. -->
+  <Neurotic.degreeDatas.neurotic.description>[PAWN_nameDef] li agrada tenir les coses controlades. Treballarà més que els altres si convé per aconseguir-hom però els seus nervis s'emportaran la pitjor part.</Neurotic.degreeDatas.neurotic.description>
+  <!-- EN: very neurotic -->
+  <Neurotic.degreeDatas.very_neurotic.label>forta neurosi</Neurotic.degreeDatas.very_neurotic.label>
+  <!-- EN: [PAWN_nameDef] feels constantly nervous about everything that has to get done. [PAWN_pronoun] will work extremely hard to attain this state of affairs, but [PAWN_possessive] nerves can easily get the better of [PAWN_objective]. -->
+  <Neurotic.degreeDatas.very_neurotic.description>[PAWN_nameDef] sempre s'atabala amb tot el que fa. Treballarà tremendament de valent per tenir les coses controlades, però els seus nervis ho patiran de valent.</Neurotic.degreeDatas.very_neurotic.description>
+  
+  <!-- EN: psychically hypersensitive -->
+  <PsychicSensitivity.degreeDatas.psychically_hypersensitive.label>hipersensibilitat psíquica</PsychicSensitivity.degreeDatas.psychically_hypersensitive.label>
+  <!-- EN: [PAWN_nameDef]'s mind is like a psychic tuning fork. [PAWN_pronoun] is extremely sensitive to psychic phenomena. -->
+  <PsychicSensitivity.degreeDatas.psychically_hypersensitive.description>El cervell de [PAWN_nameDef] és com una antena psíquica. És tremendament sensible als fenòmens psíquics.</PsychicSensitivity.degreeDatas.psychically_hypersensitive.description>
+  <!-- EN: psychically sensitive -->
+  <PsychicSensitivity.degreeDatas.psychically_sensitive.label>sensibilitat psíquica</PsychicSensitivity.degreeDatas.psychically_sensitive.label>
+  <!-- EN: [PAWN_nameDef]'s mind is unusually sensitive to psychic phenomena. -->
+  <PsychicSensitivity.degreeDatas.psychically_sensitive.description>El cervell de [PAWN_nameDef] és anormalment sensible als fenòmens psíquics.</PsychicSensitivity.degreeDatas.psychically_sensitive.description>
+  <!-- EN: psychically dull -->
+  <PsychicSensitivity.degreeDatas.psychically_dull.label>resistència psíquica</PsychicSensitivity.degreeDatas.psychically_dull.label>
+  <!-- EN: [PAWN_nameDef]'s mind is psychically out of tune with others. [PAWN_pronoun] isn't as affected by psychic phenomena. -->
+  <PsychicSensitivity.degreeDatas.psychically_dull.description>El cervell de [PAWN_nameDef] no sintonitza amb la resta. Els fenòmens psíquics no l'afecten tant.</PsychicSensitivity.degreeDatas.psychically_dull.description>
+  <!-- EN: psychically deaf -->
+  <PsychicSensitivity.degreeDatas.psychically_deaf.label>sordera psíquica</PsychicSensitivity.degreeDatas.psychically_deaf.label>
+  <!-- EN: [PAWN_nameDef]'s mind works on a psychic frequency different from everyone else. [PAWN_pronoun] just isn't affected by psychic phenomena. -->
+  <PsychicSensitivity.degreeDatas.psychically_deaf.description>El cervell de [PAWN_nameDef] treballa a uan freqüència completament diferent de la resta. Els fenòmens psíquics no l'afecten gens.</PsychicSensitivity.degreeDatas.psychically_deaf.description>
+  
+  <!-- EN: careful shooter -->
+  <ShootingAccuracy.degreeDatas.careful_shooter.label>dispara amb cura</ShootingAccuracy.degreeDatas.careful_shooter.label>
+  <!-- EN: [PAWN_nameDef] takes more time to aim when shooting. [PAWN_pronoun] shoots less often than others, but with more accuracy. -->
+  <ShootingAccuracy.degreeDatas.careful_shooter.description>[PAWN_nameDef] necessita més temps per apuntar quan dispara. Ho fa menys sovint que la resta, però amb més punteria.</ShootingAccuracy.degreeDatas.careful_shooter.description>
+  <!-- EN: trigger-happy -->
+  <ShootingAccuracy.degreeDatas.triggerhappy.label>gatell ràpid</ShootingAccuracy.degreeDatas.triggerhappy.label>
+  <!-- EN: Pew! Pew! Pew! [PAWN_nameDef] just likes pulling the trigger. [PAWN_pronoun] shoots faster than others, but less accurately. -->
+  <ShootingAccuracy.degreeDatas.triggerhappy.description>Pinyau! Pinyau! Pinyau! A [PAWN_nameDef] li encanta prémer el gallet. Dispara més de pressa que la resta, però amb menys punteria.</ShootingAccuracy.degreeDatas.triggerhappy.description>
+  
+  <!-- EN: slowpoke -->
+  <SpeedOffset.degreeDatas.slowpoke.label>lentitud</SpeedOffset.degreeDatas.slowpoke.label>
+  <!-- EN: [PAWN_nameDef] is always falling behind the group whenever [PAWN_pronoun] goes anywhere. -->
+  <SpeedOffset.degreeDatas.slowpoke.description>[PAWN_nameDef] sempre es queda enrere quan camina amb algú altre.</SpeedOffset.degreeDatas.slowpoke.description>
+  <!-- EN: fast walker -->
+  <SpeedOffset.degreeDatas.fast_walker.label>camina ràpidament</SpeedOffset.degreeDatas.fast_walker.label>
+  <!-- EN: [PAWN_nameDef] likes to be where [PAWN_pronoun]'s going. [PAWN_pronoun] walks quicker than most people. -->
+  <SpeedOffset.degreeDatas.fast_walker.description>A [PAWN_nameDef] li agrada arribar de pressa a lloc.</SpeedOffset.degreeDatas.fast_walker.description>
+  <!-- EN: jogger -->
+  <SpeedOffset.degreeDatas.jogger.label>corre</SpeedOffset.degreeDatas.jogger.label>
+  <!-- EN: [PAWN_nameDef] always moves with a sense of urgency - so much so that others often fail to keep up. -->
+  <SpeedOffset.degreeDatas.jogger.description>[PAWN_nameDef] sempre es belluga com si tingués una urgència. Fins al punt que els altres tenen dificultats per seguir-li el ritme.</SpeedOffset.degreeDatas.jogger.description>
+  
 </LanguageData>

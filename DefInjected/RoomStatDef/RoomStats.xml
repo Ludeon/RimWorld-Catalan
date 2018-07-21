@@ -1,60 +1,115 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Impressiveness.label>impacte</Impressiveness.label>
-  <Impressiveness.scoreStages.0.label>horrible</Impressiveness.scoreStages.0.label>
-  <Impressiveness.scoreStages.1.label>trista</Impressiveness.scoreStages.1.label>
-  <Impressiveness.scoreStages.2.label>mediocre</Impressiveness.scoreStages.2.label>
-  <Impressiveness.scoreStages.3.label>decent</Impressiveness.scoreStages.3.label>
-  <Impressiveness.scoreStages.4.label>lleugerament impressionant</Impressiveness.scoreStages.4.label>
-  <Impressiveness.scoreStages.5.label>impressionant</Impressiveness.scoreStages.5.label>
-  <Impressiveness.scoreStages.6.label>molt impressionant</Impressiveness.scoreStages.6.label>
-  <Impressiveness.scoreStages.7.label>extremadament impressionant</Impressiveness.scoreStages.7.label>
-  <Impressiveness.scoreStages.8.label>increïblement impressionant</Impressiveness.scoreStages.8.label>
-  <Impressiveness.scoreStages.9.label>meravellosament impressionant</Impressiveness.scoreStages.9.label>
-
-  <Wealth.label>valor</Wealth.label>
-  <Wealth.scoreStages.0.label>miserable</Wealth.scoreStages.0.label>
-  <Wealth.scoreStages.1.label>una mica pobre</Wealth.scoreStages.1.label>
-  <Wealth.scoreStages.2.label>mediocre</Wealth.scoreStages.2.label>
-  <Wealth.scoreStages.3.label>una mica rica</Wealth.scoreStages.3.label>
-  <Wealth.scoreStages.4.label>rica</Wealth.scoreStages.4.label>
-  <Wealth.scoreStages.5.label>luxosa</Wealth.scoreStages.5.label>
-  <Wealth.scoreStages.6.label>molt luxasa</Wealth.scoreStages.6.label>
-  <Wealth.scoreStages.7.label>extremadament luxosa</Wealth.scoreStages.7.label>
-  <Wealth.scoreStages.8.label>increïblement luxosa</Wealth.scoreStages.8.label>
-
-  <Space.label>espai</Space.label>
-  <Space.scoreStages.0.label>atapeïda</Space.scoreStages.0.label>
-  <Space.scoreStages.1.label>una mica estreta</Space.scoreStages.1.label>
-  <Space.scoreStages.2.label>mida mitjana</Space.scoreStages.2.label>
-  <Space.scoreStages.3.label>lleugerament espaiosa</Space.scoreStages.3.label>
-  <Space.scoreStages.4.label>força espaiosa</Space.scoreStages.4.label>
-  <Space.scoreStages.5.label>molt espaiosa</Space.scoreStages.5.label>
-  <Space.scoreStages.6.label>extremadament espaiosa</Space.scoreStages.6.label>
-
+  
+  <!-- EN: beauty -->
   <Beauty.label>bellesa</Beauty.label>
-  <Beauty.scoreStages.0.label>horrible</Beauty.scoreStages.0.label>
-  <Beauty.scoreStages.1.label>lletja</Beauty.scoreStages.1.label>
-  <Beauty.scoreStages.2.label>neutral</Beauty.scoreStages.2.label>
-  <Beauty.scoreStages.3.label>maca</Beauty.scoreStages.3.label>
-  <Beauty.scoreStages.4.label>bonica</Beauty.scoreStages.4.label>
-  <Beauty.scoreStages.5.label>molt bonica</Beauty.scoreStages.5.label>
-  <Beauty.scoreStages.6.label>preciosa</Beauty.scoreStages.6.label>
-  <Beauty.scoreStages.7.label>increïblement preciosa</Beauty.scoreStages.7.label>
-
+  <!-- EN: hideous -->
+  <Beauty.scoreStages.hideous.label>horrible</Beauty.scoreStages.hideous.label>
+  <!-- EN: ugly -->
+  <Beauty.scoreStages.ugly.label>lletja</Beauty.scoreStages.ugly.label>
+  <!-- EN: neutral -->
+  <Beauty.scoreStages.neutral.label>neutral</Beauty.scoreStages.neutral.label>
+  <!-- EN: pretty -->
+  <Beauty.scoreStages.pretty.label>maca</Beauty.scoreStages.pretty.label>
+  <!-- EN: beautiful -->
+  <Beauty.scoreStages.beautiful.label>bonica</Beauty.scoreStages.beautiful.label>
+  <!-- EN: very beautiful -->
+  <Beauty.scoreStages.very_beautiful.label>molt bonica</Beauty.scoreStages.very_beautiful.label>
+  <!-- EN: extremely beautiful -->
+  <Beauty.scoreStages.extremely_beautiful.label>preciosa</Beauty.scoreStages.extremely_beautiful.label>
+  <!-- EN: unbelievably beautiful -->
+  <Beauty.scoreStages.unbelievably_beautiful.label>increïblement preciosa</Beauty.scoreStages.unbelievably_beautiful.label>
+  
+  <!-- EN: cleanliness -->
   <Cleanliness.label>neteja</Cleanliness.label>
-  <Cleanliness.scoreStages.0.label>molt bruta</Cleanliness.scoreStages.0.label>
-  <Cleanliness.scoreStages.1.label>bruta</Cleanliness.scoreStages.1.label>
-  <Cleanliness.scoreStages.2.label>una mica bruta</Cleanliness.scoreStages.2.label>
-  <Cleanliness.scoreStages.3.label>neta</Cleanliness.scoreStages.3.label>
-  <Cleanliness.scoreStages.4.label>estèril</Cleanliness.scoreStages.4.label>
-
-  <InfectionChanceFactor.label>factor a la probabilitat d'agafar una infecció</InfectionChanceFactor.label>
- <SurgerySuccessChanceCleanlinessFactor.label>factor a la probabilitat d’èxit d’una operació per la netedat</SurgerySuccessChanceCleanlinessFactor.label>
-  <ResearchSpeedFactor.label>factor de velocitat de recerca</ResearchSpeedFactor.label>
-  <GraveVisitingJoyGainFactor.label>factor d'entreteniment per visitar una tomba</GraveVisitingJoyGainFactor.label>
+  <!-- EN: very dirty -->
+  <Cleanliness.scoreStages.very_dirty.label>molt bruta</Cleanliness.scoreStages.very_dirty.label>
+  <!-- EN: dirty -->
+  <Cleanliness.scoreStages.dirty.label>bruta</Cleanliness.scoreStages.dirty.label>
+  <!-- EN: slightly dirty -->
+  <Cleanliness.scoreStages.slightly_dirty.label>una mica bruta</Cleanliness.scoreStages.slightly_dirty.label>
+  <!-- EN: clean -->
+  <Cleanliness.scoreStages.clean.label>neta</Cleanliness.scoreStages.clean.label>
+  <!-- EN: sterile -->
+  <Cleanliness.scoreStages.sterile.label>estèril</Cleanliness.scoreStages.sterile.label>
+  
+  <!-- EN: food poison chance -->
+  <FoodPoisonChance.label>TODO</FoodPoisonChance.label>
+  
+  <!-- UNUSED -->
   <FoodPoisonChanceFactor.label>factor a la probabilitat d'aliments en mal estat</FoodPoisonChanceFactor.label>
-
-
+  
+  <!-- EN: grave visiting recreation factor -->
+  <GraveVisitingJoyGainFactor.label>factor d'entreteniment per visitar una tomba</GraveVisitingJoyGainFactor.label>
+  
+  <!-- EN: impressiveness -->
+  <Impressiveness.label>impacte</Impressiveness.label>
+  <!-- EN: awful -->
+  <Impressiveness.scoreStages.awful.label>horrible</Impressiveness.scoreStages.awful.label>
+  <!-- EN: dull -->
+  <Impressiveness.scoreStages.dull.label>trista</Impressiveness.scoreStages.dull.label>
+  <!-- EN: mediocre -->
+  <Impressiveness.scoreStages.mediocre.label>mediocre</Impressiveness.scoreStages.mediocre.label>
+  <!-- EN: decent -->
+  <Impressiveness.scoreStages.decent.label>decent</Impressiveness.scoreStages.decent.label>
+  <!-- EN: slightly impressive -->
+  <Impressiveness.scoreStages.slightly_impressive.label>lleugerament impressionant</Impressiveness.scoreStages.slightly_impressive.label>
+  <!-- EN: somewhat impressive -->
+  <Impressiveness.scoreStages.somewhat_impressive.label>impressionant</Impressiveness.scoreStages.somewhat_impressive.label>
+  <!-- EN: very impressive -->
+  <Impressiveness.scoreStages.very_impressive.label>molt impressionant</Impressiveness.scoreStages.very_impressive.label>
+  <!-- EN: extremely impressive -->
+  <Impressiveness.scoreStages.extremely_impressive.label>extremadament impressionant</Impressiveness.scoreStages.extremely_impressive.label>
+  <!-- EN: unbelievably impressive -->
+  <Impressiveness.scoreStages.unbelievably_impressive.label>increïblement impressionant</Impressiveness.scoreStages.unbelievably_impressive.label>
+  <!-- EN: wondrously impressive -->
+  <Impressiveness.scoreStages.wondrously_impressive.label>meravellosament impressionant</Impressiveness.scoreStages.wondrously_impressive.label>
+  
+  <!-- EN: infection chance factor -->
+  <InfectionChanceFactor.label>factor a la probabilitat d'agafar una infecció</InfectionChanceFactor.label>
+  
+  <!-- EN: research speed factor -->
+  <ResearchSpeedFactor.label>factor de velocitat de recerca</ResearchSpeedFactor.label>
+  
+  <!-- EN: space -->
+  <Space.label>espai</Space.label>
+  <!-- EN: cramped -->
+  <Space.scoreStages.cramped.label>atapeïda</Space.scoreStages.cramped.label>
+  <!-- EN: rather tight -->
+  <Space.scoreStages.rather_tight.label>una mica estreta</Space.scoreStages.rather_tight.label>
+  <!-- EN: average-sized -->
+  <Space.scoreStages.averagesized.label>mida mitjana</Space.scoreStages.averagesized.label>
+  <!-- EN: somewhat spacious -->
+  <Space.scoreStages.somewhat_spacious.label>lleugerament espaiosa</Space.scoreStages.somewhat_spacious.label>
+  <!-- EN: quite spacious -->
+  <Space.scoreStages.quite_spacious.label>força espaiosa</Space.scoreStages.quite_spacious.label>
+  <!-- EN: very spacious -->
+  <Space.scoreStages.very_spacious.label>molt espaiosa</Space.scoreStages.very_spacious.label>
+  <!-- EN: extremely spacious -->
+  <Space.scoreStages.extremely_spacious.label>extremadament espaiosa</Space.scoreStages.extremely_spacious.label>
+  
+  <!-- EN: surgery success chance cleanliness factor -->
+  <SurgerySuccessChanceCleanlinessFactor.label>factor a la probabilitat d’èxit d’una operació per la netedat</SurgerySuccessChanceCleanlinessFactor.label>
+  
+  <!-- EN: wealth -->
+  <Wealth.label>valor</Wealth.label>
+  <!-- EN: impoverished -->
+  <Wealth.scoreStages.impoverished.label>miserable</Wealth.scoreStages.impoverished.label>
+  <!-- EN: somewhat poor -->
+  <Wealth.scoreStages.somewhat_poor.label>una mica pobre</Wealth.scoreStages.somewhat_poor.label>
+  <!-- EN: mediocre -->
+  <Wealth.scoreStages.mediocre.label>mediocre</Wealth.scoreStages.mediocre.label>
+  <!-- EN: somewhat rich -->
+  <Wealth.scoreStages.somewhat_rich.label>una mica rica</Wealth.scoreStages.somewhat_rich.label>
+  <!-- EN: rich -->
+  <Wealth.scoreStages.rich.label>rica</Wealth.scoreStages.rich.label>
+  <!-- EN: luxurious -->
+  <Wealth.scoreStages.luxurious.label>luxosa</Wealth.scoreStages.luxurious.label>
+  <!-- EN: very luxurious -->
+  <Wealth.scoreStages.very_luxurious.label>molt luxasa</Wealth.scoreStages.very_luxurious.label>
+  <!-- EN: extremely luxurious -->
+  <Wealth.scoreStages.extremely_luxurious.label>extremadament luxosa</Wealth.scoreStages.extremely_luxurious.label>
+  <!-- EN: unbelievably luxurious -->
+  <Wealth.scoreStages.unbelievably_luxurious.label>increïblement luxosa</Wealth.scoreStages.unbelievably_luxurious.label>
+  
 </LanguageData>

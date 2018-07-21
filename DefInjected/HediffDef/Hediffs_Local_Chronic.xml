@@ -1,46 +1,80 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <BadBack.label>mal d'esquena</BadBack.label>
-  <BadBack.labelNoun>un mal d'esquena</BadBack.labelNoun>
-
-  <Frail.label>dèbil</Frail.label>
-  <Frail.labelNoun>debilitat</Frail.labelNoun>
-
-  <Cataract.label>cataractes</Cataract.label>
-  <Cataract.labelNoun>una cataracta</Cataract.labelNoun>
-
-  <Blindness.label>ceguesa</Blindness.label>
-  <HearingLoss.label>pèrdua d'oïda</HearingLoss.label>
-  <Dementia.label>demència</Dementia.label>
-
+  
+  <!-- EN: alzheimer's -->
   <Alzheimers.label>alzheimer</Alzheimers.label>
-  <Alzheimers.stages.0.label>menor</Alzheimers.stages.0.label>
-  <Alzheimers.stages.1.label>menor</Alzheimers.stages.1.label>
-  <Alzheimers.stages.2.label>major</Alzheimers.stages.2.label>
-  <Alzheimers.stages.3.label>major</Alzheimers.stages.3.label>
-
+  <!-- EN: minor -->
+  <Alzheimers.stages.minor-0.label>menor</Alzheimers.stages.minor-0.label>
+  <!-- EN: minor -->
+  <Alzheimers.stages.minor-1.label>menor</Alzheimers.stages.minor-1.label>
+  <!-- EN: major -->
+  <Alzheimers.stages.major-0.label>major</Alzheimers.stages.major-0.label>
+  <!-- EN: major -->
+  <Alzheimers.stages.major-1.label>major</Alzheimers.stages.major-1.label>
+  
+  <!-- EN: asthma -->
   <Asthma.label>asma</Asthma.label>
-  <Asthma.stages.0.label>menor</Asthma.stages.0.label>
-  <Asthma.stages.1.label>major</Asthma.stages.1.label>
-  <Asthma.stages.2.label>major</Asthma.stages.2.label>
-
-  <HeartArteryBlockage.label>artèria bloquejada</HeartArteryBlockage.label>
-  <HeartArteryBlockage.stages.0.label>menor</HeartArteryBlockage.stages.0.label>
-  <HeartArteryBlockage.stages.1.label>menor</HeartArteryBlockage.stages.1.label>
-  <HeartArteryBlockage.stages.2.label>major</HeartArteryBlockage.stages.2.label>
-  <HeartArteryBlockage.stages.3.label>major</HeartArteryBlockage.stages.3.label>
-  <HeartArteryBlockage.stages.4.label>extrema</HeartArteryBlockage.stages.4.label>
-  <HeartArteryBlockage.labelNoun>una artèria bloquejada</HeartArteryBlockage.labelNoun>
-
+  <!-- EN: minor -->
+  <Asthma.stages.minor.label>menor</Asthma.stages.minor.label>
+  <!-- EN: major -->
+  <Asthma.stages.major-0.label>major</Asthma.stages.major-0.label>
+  <!-- EN: major -->
+  <Asthma.stages.major-1.label>major</Asthma.stages.major-1.label>
+  
+  <!-- EN: bad back -->
+  <BadBack.label>mal d'esquena</BadBack.label>
+  <!-- EN: a bad back -->
+  <BadBack.labelNoun>un mal d'esquena</BadBack.labelNoun>
+  
+  <!-- EN: blindness -->
+  <Blindness.label>ceguesa</Blindness.label>
+  
+  <!-- EN: carcinoma -->
   <Carcinoma.label>carcinoma</Carcinoma.label>
-  <Carcinoma.stages.0.label>menor</Carcinoma.stages.0.label>
-  <Carcinoma.stages.1.label>menor</Carcinoma.stages.1.label>
-  <Carcinoma.stages.2.label>major</Carcinoma.stages.2.label>
-  <Carcinoma.stages.3.label>major</Carcinoma.stages.3.label>
-  <Carcinoma.stages.4.label>greu</Carcinoma.stages.4.label>
-  <Carcinoma.stages.5.label>extrem</Carcinoma.stages.5.label>
+  <!-- EN: a carcinoma -->
   <Carcinoma.labelNoun>un carcinoma</Carcinoma.labelNoun>
-
-
+  <!-- EN: minor -->
+  <Carcinoma.stages.minor-0.label>menor</Carcinoma.stages.minor-0.label>
+  <!-- EN: minor -->
+  <Carcinoma.stages.minor-1.label>menor</Carcinoma.stages.minor-1.label>
+  <!-- EN: major -->
+  <Carcinoma.stages.major-0.label>major</Carcinoma.stages.major-0.label>
+  <!-- EN: major -->
+  <Carcinoma.stages.major-1.label>major</Carcinoma.stages.major-1.label>
+  <!-- EN: extreme -->
+  <Carcinoma.stages.extreme-0.label>greu</Carcinoma.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <Carcinoma.stages.extreme-1.label>extrem</Carcinoma.stages.extreme-1.label>
+  
+  <!-- EN: cataract -->
+  <Cataract.label>cataractes</Cataract.label>
+  <!-- EN: a cataract -->
+  <Cataract.labelNoun>una cataracta</Cataract.labelNoun>
+  
+  <!-- EN: dementia -->
+  <Dementia.label>demència</Dementia.label>
+  
+  <!-- EN: frail -->
+  <Frail.label>dèbil</Frail.label>
+  <!-- EN: frailty -->
+  <Frail.labelNoun>debilitat</Frail.labelNoun>
+  
+  <!-- EN: hearing loss -->
+  <HearingLoss.label>pèrdua d'oïda</HearingLoss.label>
+  
+  <!-- EN: artery blockage -->
+  <HeartArteryBlockage.label>artèria bloquejada</HeartArteryBlockage.label>
+  <!-- EN: an artery blockage -->
+  <HeartArteryBlockage.labelNoun>una artèria bloquejada</HeartArteryBlockage.labelNoun>
+  <!-- EN: minor -->
+  <HeartArteryBlockage.stages.minor-0.label>menor</HeartArteryBlockage.stages.minor-0.label>
+  <!-- EN: minor -->
+  <HeartArteryBlockage.stages.minor-1.label>menor</HeartArteryBlockage.stages.minor-1.label>
+  <!-- EN: major -->
+  <HeartArteryBlockage.stages.major-0.label>major</HeartArteryBlockage.stages.major-0.label>
+  <!-- EN: major -->
+  <HeartArteryBlockage.stages.major-1.label>major</HeartArteryBlockage.stages.major-1.label>
+  <!-- EN: extreme -->
+  <HeartArteryBlockage.stages.extreme.label>extrema</HeartArteryBlockage.stages.extreme.label>
+  
 </LanguageData>

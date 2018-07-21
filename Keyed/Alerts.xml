@@ -1,112 +1,200 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-	<ClickToJumpToProblem>Feu clic per anar al problema</ClickToJumpToProblem>
+  <!-- EN: Click to jump to problem -->
+  <ClickToJumpToProblem>Feu clic per anar al problema</ClickToJumpToProblem>
 
+  <!-- EN: Minor break risk -->
   <BreakRiskMinor>Risc d'empipament menor</BreakRiskMinor>
+  <!-- EN: Major break risk -->
   <BreakRiskMajor>Risc d'empipament major</BreakRiskMajor>
+  <!-- EN: Extreme break risk -->
   <BreakRiskExtreme>Risc d'empipament extrem</BreakRiskExtreme>
+  <!-- EN: These colonists are in a poor mood and may have a minor mental break at any time:\n\n{0} -->
   <BreakRiskMinorDesc>Aquests colons estan de mal humor i poden tenir un risc menor d'empipar-se en qualsevol moment:\n\n{0}</BreakRiskMinorDesc>
+  <!-- EN: These colonists are in a very poor mood and may have a major mental break at any time:\n\n{0} -->
   <BreakRiskMajorDesc>Aquests colons estan de molt mal humor i poden tenir un risc major d'empipar-se en qualsevol moment:\n\n{0}</BreakRiskMajorDesc>
+  <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n\n{0} -->
   <BreakRiskExtremeDesc>Aquests colons estan estressadíssims i poden tenir una bona empipada (i potser violenta) en qualsevol moment:\n\n{0}</BreakRiskExtremeDesc>
+  <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
   <BreakRiskDescEnding>Comproveu la pestanya de «necessitats» d'aquests colons per veure que els està fent emprenyar.\n\nPer fer que es trobin millor, podeu donar-los bon menjar, més hores per divertir-se i objectes més macos, posar-los en llocs agradables, fer-los veure i fumar, i moltes altres coses.</BreakRiskDescEnding>
   
+  <!-- EN: Colonist needs rescue -->
   <ColonistNeedsRescue>Hi ha un colon que necessita que el rescatin </ColonistNeedsRescue>
+  <!-- EN: Colonists need rescue -->
   <ColonistsNeedRescue>Hi ha colons que necessiten ser rescatats</ColonistsNeedRescue>
+  <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue. -->
   <ColonistsNeedRescueDesc>  Aquests colons són a terra incapacitats:\n\n{0}\nEnvieu un altre colon a rescatar-los i portar-los al llit.\n\n(Per rescatar-los, seleccioneu l’altre colon, feu clic dret sobre el colon caigut i trieu «Rescata».</ColonistsNeedRescueDesc>
 
+  <!-- EN: Need defenses -->
   <NeedDefenses>Necessiteu defenses</NeedDefenses>
+  <!-- EN: You've been here some time and have probably been seen. Pirate raids will start soon.\n\nYou should prepare defenses, like sandbags or traps. -->
   <NeedDefensesDesc>Ja fa un temps que sou aquí i algú se n’haurà adonat. Aviat us assaltaran els pirates.\n\nPrepareu les defenses, siguin trampes, sacs de sorra o metralladores.</NeedDefensesDesc>
 
+  <!-- EN: Need doctor -->
   <NeedDoctor>Necessiteu un metge</NeedDoctor>
+  <!-- EN: These colonists need medical care, but you have no healthy colonists assigned as doctors.\n\n{0}\nAssign a healthy colonist to the Doctor work type. If left untreated, wounds may never heal properly and may become permanent. -->
   <NeedDoctorDesc>Aquests colons necessiten tractament mèdic, però no disposeu de cap colon sa assignat com a metge.\n\n{0}\nAssigneu—ne un que pugui fer tasques mèdiques. Si es deixen sense tractar, les ferides no es curaran correctament i poden deixar seqüeles.</NeedDoctorDesc>
 
+  <!-- EN: Need miner -->
   <NeedMiner>Necessiteu un miner</NeedMiner>
+  <!-- EN: You have designated some rocks to be mined, but no colonist has the Mining work type.\n\nAssign a colonist the Mining work type. -->
   <NeedMinerDesc>Heu ordenat minar roques, però no teniu cap colon té assignada aquesta tasca.\n\nAssigneu un colon a aquesta feina.</NeedMinerDesc>
 
+  <!-- EN: Need warden -->
   <NeedWarden>Necessiteu un carceller</NeedWarden>
+  <!-- EN: You have a prisoner, but no colonist has the Warden work type.\n\nAssign a colonist the Warden work type. -->
   <NeedWardenDesc>Teniu un presoner, però no hi ha cap colon que faci les tasques de carceller.\n\nAssigneu un colon a aquesta feina.</NeedWardenDesc>
 
+  <!-- EN: Low food -->
   <LowFood>Falta menjar</LowFood>
+  <!-- EN: You are dangerously low on food.\n\n    Full bars worth of food in storage: {0}\n    Colonists and prisoners getting food: {1}\n    Days worth of food in storage: {2}\n\nGrow, buy, find, or kill some food. -->
   <LowFoodDesc>La quantitat d’aliment és perillosament baixa.\n\n    Quantitat de menjar al magatzem: {0}\n    Nombre de colons i presoners que necessiten menjar: {1}\n    Dies que pot durar el menjar del magatzem: {2}\n\nPlanta, compra, cerca o caça aliments.</LowFoodDesc>
 
+  <!-- EN: Low medicine -->
   <LowMedicine>Falten medicaments</LowMedicine>
+  <!-- EN: You only have {0} medications left in storage.\n\nBuy more medicine from traders. -->
   <LowMedicineDesc>Només queden {0} medicaments al magatzem.\n\nCompreu-ne als mercaders.</LowMedicineDesc>
+  <!-- EN: You have no medicine left in storage.\n\nBuy more medicine from traders. -->
   <NoMedicineDesc>No us queda medicina al magatzem.\n\nCompra’n als mercaders.</NoMedicineDesc>
   
+  <!-- EN: Need colonist beds -->
   <NeedColonistBeds>Falten llits per als colons</NeedColonistBeds>
+  <!-- EN: You have more colonists than you have colonist beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a prisoner bed to a colonist bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
   <NeedColonistBedsDesc>Teniu més colons que llits. A algú li faltarà lloc per dormir.\n\nFeu més llits o convertiu llits de presoners en llits per colons.\n\nSi no disposeu de recursos, els espais per dormir són gratuïts i es poden designar instantàniament.</NeedColonistBedsDesc>
 
+  <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>Hi ha un caçador sense d’arma a distància</HunterLacksWeapon>
+  <!-- EN: A colonist is assigned as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon. -->
   <HunterLacksWeaponDesc>Un colon està assignat com a caçador, però no disposa d’arma a distància.\n\nNo caçarà fins que en porti una.</HunterLacksWeaponDesc>
 
+  <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>Roba esparracada</AlertTatteredApparel>
+  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n\n{0}\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a tailoring table, or buy it from traders. -->
   <AlertTatteredApparelDesc>Aquests colons estant descontents perquè porten roba esparracada:\n\n{0}\nProporciona’ls roba en bones condicions.\n\nPodeu fer roba a la taula de cosir o comprar-la als mercaders.</AlertTatteredApparelDesc>
 
-	<AlertUnhappyNudity>Nudisme indesitjat</AlertUnhappyNudity>
-	<AlertUnhappyNudityDesc>Aquests colons estan despullats i no els sembla bé:\n\n{0}\nProporcioneu-los roba.\n\nPodeu fer roba a la taula de cosir o comprar-la als mercaders.</AlertUnhappyNudityDesc>
+  <!-- EN: Unhappy nudity -->
+  <AlertUnhappyNudity>Nudisme indesitjat</AlertUnhappyNudity>
+  <!-- EN: These colonists are nude and not happy about it:\n\n{0}\nGet them some clothes.\n\nYou can tailor apparel at a tailoring table, or buy it from traders. -->
+  <AlertUnhappyNudityDesc>Aquests colons estan despullats i no els sembla bé:\n\n{0}\nProporcioneu-los roba.\n\nPodeu fer roba a la taula de cosir o comprar-la als mercaders.</AlertUnhappyNudityDesc>
 
-	<Starvation>Fam</Starvation>
+  <!-- EN: Starvation -->
+  <Starvation>Fam</Starvation>
+  <!-- EN: These colonists are starving:\n\n{0}\nGet them some food. -->
   <StarvationDesc>Aquests colons pateixen fam:\n\n{0}\nProporcioneu-los menjar.</StarvationDesc>
 
+  <!-- EN: Animal starvation -->
   <StarvationAnimals>Un animal pateix fam</StarvationAnimals>
+  <!-- EN: These colony animals are starving:\n\n{0}\nGet them some food. -->
   <StarvationAnimalsDesc>Aquests animals de la colònia pateixen fam:\n\n{0}\nProporcioneu-los menjar.</StarvationAnimalsDesc>
 
+  <!-- EN: Exhaustion -->
   <Exhaustion>Esgotament</Exhaustion>
+  <!-- EN: These colonists are exhausted and need rest:\n\n{0}\nGet them some rest. They'll need a bed marked for colonist use. Also, make sure they're not drafted. -->
   <ExhaustionDesc>Aquests colons estan exhausts i necessiten descansar:\n\n{0}\nDeixeu-los reposar. Necessitaran un llit per a colons que puguin fer servir. Assegureu-vos a més que no els teniu reclutats.</ExhaustionDesc>
 
+  <!-- EN: Need food hopper -->
   <NeedFoodHopper>Falta la sitja d'aliments</NeedFoodHopper>
+  <!-- EN: You have a nutrient dispenser with no hopper next to it.\n\nTo work, paste dispensers must draw from an adjacent hopper filled with raw food.\n\nBuild a hopper adjacent to the dispenser. -->
   <NeedFoodHopperDesc>Teniu un dispensador de pasta nutritiva sense la sitja annexa.\n\nPer que pugui funcionar, el dispensador de pasta ha de poder agafar materials d'una sitja amb menjar cru.\n\nConstruïu una sitja a tocar del dispensador.</NeedFoodHopperDesc>
 
+  <!-- EN: Need meal source -->
   <NeedMealSource>Necessiteu una font d'aliment</NeedMealSource>
+  <!-- EN: You have no way of preparing proper meals from raw food.\n\nBuild a stove, campfire, or nutrient dispenser.\n\n(It cannot be in a prison cell, otherwise colonists cannot use it.) -->
   <NeedMealSourceDesc>No disposeu de cap forma de preparar bon menjar.\n\nConstruiu una cuina, un foc de camp o un dispensador de pasta nutritiva.\n\n(No el podeu posar dins una cel·la per presoners, si no els colons no el podran fer servir.)</NeedMealSourceDesc>
 
+  <!-- EN: Need recreation variety -->
   <NeedJoySource>Falten diversions</NeedJoySource>
+  <!-- EN: There are only {0} different recreation types available in {1}, but at the current expectations level ({2}), colonists need {3} different kinds of recreation to remain satisfied. Provide recreation variety supplying a new, different kind of recreation.\n\n{4}\n\n{5}\n\nNote: You can check the recreation type of any item in its stats page, accessible with the 'i' button. -->
   <NeedJoySourceDesc>Els colons necessiten distreure's, però no heu construït cap entreteniment.\n\nPodeu construir pals per llençar ferradures, taulers d'escacs o qualsevol altra distracció.</NeedJoySourceDesc>
+  <!-- EN: Available recreation types -->
+  <AvailableRecreationTypes>TODO</AvailableRecreationTypes>
+  <!-- EN: Missing recreation types -->
+  <MissingRecreationTypes>TODO</MissingRecreationTypes>
+  <!-- EN: At current expectations ({0}), each tolerance falls by {1} per day awake. Having {2} recreation types is recommended. -->
+  <CurrentExpectationsAndRecreation>TODO</CurrentExpectationsAndRecreation>
+  <!-- EN: bored -->
+  <bored>TODO</bored>
 
+  <!-- EN: Boredom -->
+  <Boredom>TODO</Boredom>
+  <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {1}:\n\n{2} -->
+  <BoredomDesc>TODO</BoredomDesc>
+
+  <!-- EN: Need batteries -->
   <NeedBatteries>Falten bateries</NeedBatteries>
+  <!-- EN: You have a solar or wind generator, but no batteries. This means you'll lose power every time the sun goes down or the wind calms.\n\nBuild a battery or two to guarantee sustained power. -->
   <NeedBatteriesDesc>Teniu un panell solar o un generador eòlic, però no teniu bateries. Per tant us quedareu sense corrent quan marxi el sol o calmi el vent.\n\nPoseu una o dues bateries per garantir el subministrament.</NeedBatteriesDesc>
 
+  <!-- EN: Brawler has ranged weapon -->
   <BrawlerHasRangedWeapon>Un lluitador amb arma a distància</BrawlerHasRangedWeapon>
+  <!-- EN: One of your colonists has the Brawler personality trait, but is carrying a ranged weapon. This will make them very unhappy. -->
   <BrawlerHasRangedWeaponDesc>Un dels colons té el distintiu de personalitat de «lluitador» però porta una arma a distància. No li agradarà gens.</BrawlerHasRangedWeaponDesc>
 
+  <!-- EN: Shield user has ranged weapon -->
   <ShieldUserHasRangedWeapon>Escut i arma a distància</ShieldUserHasRangedWeapon>
+  <!-- EN: One of your colonists has a shield belt and is carrying a ranged weapon. They will not be able to fire their weapon through the shield (except at targets who are already touching them). -->
   <ShieldUserHasRangedWeaponDesc>Un dels colons fa servir un escut personal i una arma a distància. No podrà disparar a través de l'escut(a no ser que estigui tocant l'objectiu).</ShieldUserHasRangedWeaponDesc>
 
+  <!-- EN: Need research project -->
   <NeedResearchProject>Us falta un projecte de recerca</NeedResearchProject>
+  <!-- EN: You have the equipment to do research but have not selected a project.\n\nOpen the research menu and select a project. -->
   <NeedResearchProjectDesc>Disposeu de l'equipament de recerca però encara no heu triat cap projecte.\n\nObriu el menú de recerca i trieu-ne un.</NeedResearchProjectDesc>
   
+  <!-- EN: {0} colonists idle -->
   <ColonistsIdle>{0} colons desocupats</ColonistsIdle>
+  <!-- EN: These colonists are wandering idly:\n\n{0}\nYou should probably find them something productive to do. -->
   <ColonistsIdleDesc>Aquests colons volten sense feina:\n\n{0}\nPotser els haurieu de buscar alguna cosa per fer.</ColonistsIdleDesc>
 
+  <!-- EN: Colonist needs treatment -->
   <ColonistNeedsTreatment>Hi ha colons que necessiten tractament</ColonistNeedsTreatment>
+  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and right-click on the medical bed to make them a patient.) -->
   <ColonistNeedsTreatmentDesc>Aquests colons necessiten tractament mèdic. Si no, poden morir o patir seqüeles.\n\n{0}\nTracteu-los enviant-los a un llit d'hospital.\n\n(Primer heu de seleccionar un llit i canviar-lo a hospitalari. Després seleccionar el colon ferit i fer clic dret sobre el llit per convertir-lo en pacient)</ColonistNeedsTreatmentDesc>
 
+  <!-- EN: Hypothermia -->
   <AlertHypothermia>Hipotèrmia</AlertHypothermia>
+  <!-- EN: These colonists are suffering from hypothermia.\n\n{0}\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
   <AlertHypothermiaDesc>Aquests colons pateixen hipotèrmia.\n\n{0}\nAssegureu-vos que porten roba adequada pel temps que fa i que els interiors estan calents.</AlertHypothermiaDesc>
   
+  <!-- EN: {0} patients await medical operation -->
   <PatientsAwaitingMedicalOperation>{0} pacients en espera per ser operats</PatientsAwaitingMedicalOperation>
+  <!-- EN: These patients await medical operation:\n\n{0}\nMake sure you have all necessary medical tools and a free doctor available. -->
   <PatientsAwaitingMedicalOperationDesc>Aquests pacients esperen per ser operats:\n\n{0}\nAssegureu-vos que teniu totes les eines i un metge a disposició.</PatientsAwaitingMedicalOperationDesc>
 
+  <!-- EN: Fire! -->
   <FireInHomeArea>Foc!</FireInHomeArea>
+  <!-- EN: There is a fire in the home area. -->
   <FireInHomeAreaDesc>Hi ha un incendi a l'àrea llar.</FireInHomeAreaDesc>
 
+  <!-- EN: Medical emergency -->
   <PawnsWithLifeThreateningDisease>Malaltia severa</PawnsWithLifeThreateningDisease>
+  <!-- EN: People are at risk of death because of severe illness:\n\n{0}\nMake sure that they get the best medical care possible. -->
   <PawnsWithLifeThreateningDiseaseDesc>Persones en risc de mort per malaltia severa:\n\n{0}\nAssegureu-vos que tenen accés al millor servei mèdic possible.</PawnsWithLifeThreateningDiseaseDesc>
+  <!-- EN: People are at risk for death because of severe illness:\n\n{0}\nIf possible, consider amputating or replacing infected limbs in order to keep colonists alive. -->
   <PawnsWithLifeThreateningDiseaseAmputationDesc>Persones en risc de mort per malaltia severa:\n\n{0}\nSi és possible, consideeu l'amputació o la substitució de les extremitats afectades per mantenir els colons vius.</PawnsWithLifeThreateningDiseaseAmputationDesc>
 
+  <!-- EN: Billiards needs space -->
   <BilliardsNeedsSpace>Els billars necessiten espai</BilliardsNeedsSpace>
+  <!-- EN: One of your billiards table is adjacent to an obstruction that will prevent colonists from using it.\n\nA billiards table needs clear space around it on all sides to be usable. -->
   <BilliardsNeedsSpaceDesc>Un billar toca a alguna obstrucció que impedeix que els colons la puguin fer servir.\n\nUna taula de billar necessita espai lliure per tots costats per poder-hi jugar.</BilliardsNeedsSpaceDesc>
 
+  <!-- EN: Hunter has shield and ranged weapon -->
   <HunterHasShieldAndRangedWeapon>Un caçador té escut i arma a distància</HunterHasShieldAndRangedWeapon>
+  <!-- EN: One of your hunters is using a ranged weapon and wearing a shield belt which prevents shooting at range.\n\nThey won't be able to hunt unless the shield is removed. -->
   <HunterHasShieldAndRangedWeaponDesc>Un caçador fa servir una arma a distància mentre porta escut personal, la qual cosa li impedeix disparar a distància.\n\nNo podrà caçar fins que li tragueu l'escut.</HunterHasShieldAndRangedWeaponDesc>
 
+  <!-- EN: Need warm clothes -->
   <NeedWarmClothes>Falta roba d'abric</NeedWarmClothes>
+  <!-- EN: At least {0} of your colonists will lack warm clothes when the cold season comes. -->
   <NeedWarmClothesDesc1>Com a mínim {0} colons necessitaran roba d'abrigar quan comenci a fer fred.</NeedWarmClothesDesc1>
+  <!-- EN: All of your colonists will lack warm clothes when the cold season comes. -->
   <NeedWarmClothesDesc1All>Els colons necessitaran roba d'abrigar quan comenci a fer fred.</NeedWarmClothesDesc1All>
+  <!-- EN: The outdoor temperature is going to reach {0}.\n\nYou can tailor warm clothes at the tailoring bench, or buy them from traders. -->
   <NeedWarmClothesDesc2>La temperatura exterior pot arribar als {0} graus.\n\nPodeu fer roba d'abrigar a la taula de cosir o comprar-la als mercaders.</NeedWarmClothesDesc2>
   
+  <!-- EN: Immobile caravan -->
   <ImmobileCaravan>Caravana aturada</ImmobileCaravan>
+  <!-- EN: One of your caravans is immobile because it carries too much.\n\nYou can make the caravan mobile again by abandoning some items in the ITEMS tab. -->
   <ImmobileCaravanDesc>Una de les vostres caravanes s'ha aturat perquè porta massa pes.\n\nPodeu tornar-la a bellugar abandonat materials a la pestanya «OBJECTES».</ImmobileCaravanDesc>
   
 </LanguageData>

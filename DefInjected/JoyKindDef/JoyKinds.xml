@@ -1,16 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <Work.label>work</Work.label>
-  <Meditative.label>meditative</Meditative.label>
-  <Lewd.label>lewd</Lewd.label>
-  <Social.label>social</Social.label>
-  <Chemical.label>chemical</Chemical.label>
-  <Gluttonous.label>gluttonous</Gluttonous.label>
-  <GamingDexterity.label>gaming (dexterity)</GamingDexterity.label>
-  <GamingCerebral.label>gaming (cerebral)</GamingCerebral.label>
-  <Passive.label>passive</Passive.label>
-  <Study.label>study</Study.label>
+  <!--======================= Requiring nothing =======================-->
 
+  <Meditative.label>medita</Meditative.label>
+  <Social.label>social</Social.label>
+
+  <!-- horseshoes/hoopstone, billiards -->
+
+  <Gaming_Dexterity.label>juga (destresa)</Gaming_Dexterity.label>
+
+  <!-- chess/game-of-ur, poker -->
+
+  <Gaming_Cerebral.label>juga (cerebral)</Gaming_Cerebral.label>
+
+  <!-- tube TV, flatscreen TV, megascreen TV -->
+  <Television.label>mira la televisió</Television.label>
+  
+  <!-- telescope, TODO, TODO -->
+  <Telescope.label>mira pel telescopi</Telescope.label>
+
+
+  <!--======================= Item consumption =======================-->
+
+  <Chemical.label>consum químic</Chemical.label>
+  <Gluttonous.label>consum de menjar</Gluttonous.label>
 
 </LanguageData>

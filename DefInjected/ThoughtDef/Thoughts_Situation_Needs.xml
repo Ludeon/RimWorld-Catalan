@@ -1,69 +1,155 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <NeedFood.stages.0.label>gana</NeedFood.stages.0.label>
-  <NeedFood.stages.0.description>Tinc gana.</NeedFood.stages.0.description>
-  <NeedFood.stages.1.label>urgentment afamat</NeedFood.stages.1.label>
-  <NeedFood.stages.1.description>Tinc punxades de dolor de la gana que tinc.</NeedFood.stages.1.description>
-  <NeedFood.stages.2.label>morint de gana (lleu)</NeedFood.stages.2.label>
-  <NeedFood.stages.2.description>Fa temps que no menjo res. Sento confusió i no puc concentrar-me.</NeedFood.stages.2.description>
-  <NeedFood.stages.3.label> morint de gana (menor)</NeedFood.stages.3.label>
-  <NeedFood.stages.3.description>Sento com el cos defalleix. Em fa un mal la panxa insuportable.</NeedFood.stages.3.description>
-  <NeedFood.stages.4.label>morint de gana (moderat)</NeedFood.stages.4.label>
-  <NeedFood.stages.4.description>No puc pensar en res més que en menjar alguna cosa. Estic als òssos. Em moriré?</NeedFood.stages.4.description>
-  <NeedFood.stages.5.label>morint de gana (sever)</NeedFood.stages.5.label>
-  <NeedFood.stages.5.description>No em puc ni moure ni pensar si no és en menjar. Em fa un mal la panxa horrorós. Em moriré.</NeedFood.stages.5.description>
-  <NeedFood.stages.6.label>morint de gana (extrem)</NeedFood.stages.6.label>
-  <NeedFood.stages.6.description>menjar... menjar... una mossegadeta... qualsevol cosa... si us plau...</NeedFood.stages.6.description>
-
-  <NeedRest.stages.0.label>cansament</NeedRest.stages.0.label>
-  <NeedRest.stages.0.description>M'aniria bé dormir una mica.</NeedRest.stages.0.description>
-  <NeedRest.stages.1.label>gran cansament</NeedRest.stages.1.label>
-  <NeedRest.stages.1.description>Quin cansament! Només vull estirar-me i dormir ni que siguin 10 minuts...</NeedRest.stages.1.description>
-  <NeedRest.stages.2.label>exhaust</NeedRest.stages.2.label>
-  <NeedRest.stages.2.description>Estic que no m'aguanten les cames. Em pensen les parpelles. Deixeu-me dormir...</NeedRest.stages.2.description>
-
-  <NeedJoy.stages.0.label>sense gens de diversió</NeedJoy.stages.0.label>
-  <NeedJoy.stages.0.description>Fa tant temps que no puc fer alguna cosa que em diverteixi de veritat.</NeedJoy.stages.0.description>
-  <NeedJoy.stages.1.label>molt poca diversió</NeedJoy.stages.1.label>
-  <NeedJoy.stages.1.description>No puc parar mai una estona per relaxar-me i fer coses que m'agradin.</NeedJoy.stages.1.description>
-  <NeedJoy.stages.2.label>poca diversió</NeedJoy.stages.2.label>
-  <NeedJoy.stages.2.description>M'encantaria parar una estona i gaudir de temps lliure.</NeedJoy.stages.2.description>
-  <NeedJoy.stages.3.label>diversió</NeedJoy.stages.3.label>
-  <NeedJoy.stages.3.description>He passat una estona entretinguda darrerament.</NeedJoy.stages.3.description>
-  <NeedJoy.stages.4.label>molta diversió</NeedJoy.stages.4.label>
-  <NeedJoy.stages.4.description>M'ho he passat tan bé! M'encanta!</NeedJoy.stages.4.description>
-
-  <NeedComfort.stages.0.label>incomoditat</NeedComfort.stages.0.label>
-  <NeedComfort.stages.0.description>Em faltaria una mica de comoditat. Ens aniria bé tenir alguna cosa tova per seure.</NeedComfort.stages.0.description>
-  <NeedComfort.stages.1.label>comoditat</NeedComfort.stages.1.label>
-  <NeedComfort.stages.1.description>Era prou còmode, si.</NeedComfort.stages.1.description>
-  <NeedComfort.stages.2.label>molta comoditat</NeedComfort.stages.2.label>
-  <NeedComfort.stages.2.description>Déu n'hi do si n'era de còmode.</NeedComfort.stages.2.description>
-  <NeedComfort.stages.3.label>extremadament còmode</NeedComfort.stages.3.label>
-  <NeedComfort.stages.3.description>Quina comoditat. Aquest lloc és molt confortable!</NeedComfort.stages.3.description>
-  <NeedComfort.stages.4.label>comoditat luxosa</NeedComfort.stages.4.label>
-  <NeedComfort.stages.4.description>Estic descansant sobre un núvol.</NeedComfort.stages.4.description>
-
-  <NeedBeauty.stages.0.label>entorn horrorós</NeedBeauty.stages.0.label>
-  <NeedBeauty.stages.0.description>És un lloc insuportable. Traieu-me d'aquí...</NeedBeauty.stages.0.description>
-  <NeedBeauty.stages.1.label>entorn molt lleig</NeedBeauty.stages.1.label>
-  <NeedBeauty.stages.1.description>Això és molt desagradable. No em vull estar aquí.</NeedBeauty.stages.1.description>
-  <NeedBeauty.stages.2.label>entorn lleig</NeedBeauty.stages.2.label>
-  <NeedBeauty.stages.2.description>No m'agrada gens aquest lloc.</NeedBeauty.stages.2.description>
-  <NeedBeauty.stages.3.label>entorn agradable</NeedBeauty.stages.3.label>
-  <NeedBeauty.stages.3.description>És un lloc bonic.</NeedBeauty.stages.3.description>
-  <NeedBeauty.stages.4.label>entorn molt agradable</NeedBeauty.stages.4.label>
-  <NeedBeauty.stages.4.description>M'encanta aquest lloc. Està bé.</NeedBeauty.stages.4.description>
-  <NeedBeauty.stages.5.label>entorn bonic</NeedBeauty.stages.5.label>
-  <NeedBeauty.stages.5.description>Aquest lloc és preciós. M'aixeca l'ànim i em fa estimar la vida.</NeedBeauty.stages.5.description>
-
+  
+  <!-- EN: hideous environment -->
+  <NeedBeauty.stages.hideous_environment.label>entorn horrorós</NeedBeauty.stages.hideous_environment.label>
+  <!-- EN: This place is unbearably grotesque. I can't look at this any more. -->
+  <NeedBeauty.stages.hideous_environment.description>És un lloc insuportable. Traieu-me d'aquí...</NeedBeauty.stages.hideous_environment.description>
+  <!-- EN: ugly environment -->
+  <NeedBeauty.stages.ugly_environment.label>entorn molt lleig</NeedBeauty.stages.ugly_environment.label>
+  <!-- EN: This place is really ugly. I wish I didn't have to look at this any more. -->
+  <NeedBeauty.stages.ugly_environment.description>Això és molt desagradable. No em vull estar aquí.</NeedBeauty.stages.ugly_environment.description>
+  <!-- EN: unsightly environment -->
+  <NeedBeauty.stages.unsightly_environment.label>entorn lleig</NeedBeauty.stages.unsightly_environment.label>
+  <!-- EN: This place is kind of unsightly. I wish I didn't have to look at all this. -->
+  <NeedBeauty.stages.unsightly_environment.description>No m'agrada gens aquest lloc.</NeedBeauty.stages.unsightly_environment.description>
+  <!-- EN: pretty environment -->
+  <NeedBeauty.stages.pretty_environment.label>entorn agradable</NeedBeauty.stages.pretty_environment.label>
+  <!-- EN: This place looks nice. -->
+  <NeedBeauty.stages.pretty_environment.description>És un lloc bonic.</NeedBeauty.stages.pretty_environment.description>
+  <!-- EN: beautiful environment -->
+  <NeedBeauty.stages.beautiful_environment.label>entorn molt agradable</NeedBeauty.stages.beautiful_environment.label>
+  <!-- EN: I really like this place. It's beautiful. -->
+  <NeedBeauty.stages.beautiful_environment.description>M'encanta aquest lloc. Està bé.</NeedBeauty.stages.beautiful_environment.description>
+  <!-- EN: gorgeous environment -->
+  <NeedBeauty.stages.gorgeous_environment.label>entorn bonic</NeedBeauty.stages.gorgeous_environment.label>
+  <!-- EN: This place is beautiful. It lifts me up and makes me love life. -->
+  <NeedBeauty.stages.gorgeous_environment.description>Aquest lloc és preciós. M'aixeca l'ànim i em fa estimar la vida.</NeedBeauty.stages.gorgeous_environment.description>
+  
+  <!-- EN: uncomfortable -->
+  <NeedComfort.stages.uncomfortable.label>incomoditat</NeedComfort.stages.uncomfortable.label>
+  <!-- EN: I've been kind of uncomfortable recently. We need to get something soft to sit on around here. -->
+  <NeedComfort.stages.uncomfortable.description>Em faltaria una mica de comoditat. Ens aniria bé tenir alguna cosa tova per seure.</NeedComfort.stages.uncomfortable.description>
+  <!-- EN: comfortable -->
+  <NeedComfort.stages.comfortable.label>comoditat</NeedComfort.stages.comfortable.label>
+  <!-- EN: I've been comfortable recently. -->
+  <NeedComfort.stages.comfortable.description>Era prou còmode, si.</NeedComfort.stages.comfortable.description>
+  <!-- EN: quite comfortable -->
+  <NeedComfort.stages.quite_comfortable.label>molta comoditat</NeedComfort.stages.quite_comfortable.label>
+  <!-- EN: I've been very comfortable recently. -->
+  <NeedComfort.stages.quite_comfortable.description>Déu n'hi do si n'era de còmode.</NeedComfort.stages.quite_comfortable.description>
+  <!-- EN: extremely comfortable -->
+  <NeedComfort.stages.extremely_comfortable.label>extremadament còmode</NeedComfort.stages.extremely_comfortable.label>
+  <!-- EN: I've been extremely comfortable recently. This place is so cushy! -->
+  <NeedComfort.stages.extremely_comfortable.description>Quina comoditat. Aquest lloc és molt confortable!</NeedComfort.stages.extremely_comfortable.description>
+  <!-- EN: luxuriantly comfortable -->
+  <NeedComfort.stages.luxuriantly_comfortable.label>comoditat luxosa</NeedComfort.stages.luxuriantly_comfortable.label>
+  <!-- EN: I am resting on clouds of heaven. -->
+  <NeedComfort.stages.luxuriantly_comfortable.description>Estic descansant sobre un núvol.</NeedComfort.stages.luxuriantly_comfortable.description>
+  
+  <!-- EN: hungry -->
+  <NeedFood.stages.hungry.label>gana</NeedFood.stages.hungry.label>
+  <!-- EN: I'm really hungry. -->
+  <NeedFood.stages.hungry.description>Tinc gana.</NeedFood.stages.hungry.description>
+  <!-- EN: ravenously hungry -->
+  <NeedFood.stages.ravenously_hungry.label>urgentment afamat</NeedFood.stages.ravenously_hungry.label>
+  <!-- EN: These hunger pangs are hard to ignore. -->
+  <NeedFood.stages.ravenously_hungry.description>Tinc punxades de dolor de la gana que tinc.</NeedFood.stages.ravenously_hungry.description>
+  <!-- EN: malnourished -->
+  <NeedFood.stages.malnourished.label>morint de gana (lleu)</NeedFood.stages.malnourished.label>
+  <!-- EN: It's been so long since I ate. I'm all fuzzy and it's hard to focus. My body is starting to waste away. -->
+  <NeedFood.stages.malnourished.description>Fa temps que no menjo res. Sento confusió i no puc concentrar-me.</NeedFood.stages.malnourished.description>
+  <!-- EN: badly malnourished -->
+  <NeedFood.stages.badly_malnourished.label> morint de gana (menor)</NeedFood.stages.badly_malnourished.label>
+  <!-- EN: I can feel my body wasting away. My stomach hurts like never before. -->
+  <NeedFood.stages.badly_malnourished.description>Sento com el cos defalleix. Em fa un mal la panxa insuportable.</NeedFood.stages.badly_malnourished.description>
+  <!-- EN: starving -->
+  <NeedFood.stages.starving.label>morint de gana (moderat)</NeedFood.stages.starving.label>
+  <!-- EN: I can barely think about anything but food. My skin is stretching over my bones. Am I going to die? -->
+  <NeedFood.stages.starving.description>No puc pensar en res més que en menjar alguna cosa. Estic als òssos. Em moriré?</NeedFood.stages.starving.description>
+  <!-- EN: advanced starvation -->
+  <NeedFood.stages.advanced_starvation.label>morint de gana (sever)</NeedFood.stages.advanced_starvation.label>
+  <!-- EN: I can barely move or think about anything but food. My stomach hurts like never before. I feel like I'm going to pass out. -->
+  <NeedFood.stages.advanced_starvation.description>No em puc ni moure ni pensar si no és en menjar. Em fa un mal la panxa horrorós. Em moriré.</NeedFood.stages.advanced_starvation.description>
+  <!-- EN: extreme starvation -->
+  <NeedFood.stages.extreme_starvation.label>morint de gana (extrem)</NeedFood.stages.extreme_starvation.label>
+  <!-- EN: Food... food... anything... please... -->
+  <NeedFood.stages.extreme_starvation.description>menjar... menjar... una mossegadeta... qualsevol cosa... si us plau...</NeedFood.stages.extreme_starvation.description>
+  
+  <!-- EN: recreation-starved -->
+  <NeedJoy.stages.recreationstarved.label>sense gens de diversió</NeedJoy.stages.recreationstarved.label>
+  <!-- EN: It's been so long since I did anything for fun on my own time. -->
+  <NeedJoy.stages.recreationstarved.description>Fa tant temps que no puc fer alguna cosa que em diverteixi de veritat.</NeedJoy.stages.recreationstarved.description>
+  <!-- EN: recreation-deprived -->
+  <NeedJoy.stages.recreationdeprived.label>molt poca diversió</NeedJoy.stages.recreationdeprived.label>
+  <!-- EN: We need more variation in recreation activities, and I need time to enjoy them. This place is really dull. -->
+  <NeedJoy.stages.recreationdeprived.description>No puc parar mai una estona per relaxar-me i fer coses que m'agradin.</NeedJoy.stages.recreationdeprived.description>
+  <!-- EN: recreation unfulfilled -->
+  <NeedJoy.stages.recreation_unfulfilled.label>poca diversió</NeedJoy.stages.recreation_unfulfilled.label>
+  <!-- EN: We need more variation in the recreation activities, and I need time to enjoy them. -->
+  <NeedJoy.stages.recreation_unfulfilled.description>M'encantaria parar una estona i gaudir de temps lliure.</NeedJoy.stages.recreation_unfulfilled.description>
+  <!-- EN: recreation satisfied -->
+  <NeedJoy.stages.recreation_satisfied.label>diversió</NeedJoy.stages.recreation_satisfied.label>
+  <!-- EN: I've been having a great time doing various things I like to do. -->
+  <NeedJoy.stages.recreation_satisfied.description>He passat una estona entretinguda darrerament.</NeedJoy.stages.recreation_satisfied.description>
+  <!-- EN: recreation fully satisfied -->
+  <NeedJoy.stages.recreation_fully_satisfied.label>molta diversió</NeedJoy.stages.recreation_fully_satisfied.label>
+  <!-- EN: I've been enjoying myself so much, I love it! -->
+  <NeedJoy.stages.recreation_fully_satisfied.description>M'ho he passat tan bé! M'encanta!</NeedJoy.stages.recreation_fully_satisfied.description>
+  
+  <!-- EN: entombed underground -->
+  <NeedOutdoors.stages.entombed_underground.label>TODO</NeedOutdoors.stages.entombed_underground.label>
+  <!-- EN: I've been underground too long. I feel like the weight of this mountain is crushing me. I need to see the sky and feel the wind. -->
+  <NeedOutdoors.stages.entombed_underground.description>TODO</NeedOutdoors.stages.entombed_underground.description>
+  <!-- EN: trapped underground -->
+  <NeedOutdoors.stages.trapped_underground.label>TODO</NeedOutdoors.stages.trapped_underground.label>
+  <!-- EN: How long have I been underground? I need to get out in the fresh air and spend some time under the sky. -->
+  <NeedOutdoors.stages.trapped_underground.description>TODO</NeedOutdoors.stages.trapped_underground.description>
+  <!-- EN: cabin fever -->
+  <NeedOutdoors.stages.cabin_fever.label>TODO</NeedOutdoors.stages.cabin_fever.label>
+  <!-- EN: I've spent so long indoors I feel like the roof is pressing in. I need to get out and see the sky. -->
+  <NeedOutdoors.stages.cabin_fever.description>TODO</NeedOutdoors.stages.cabin_fever.description>
+  <!-- EN: trapped indoors -->
+  <NeedOutdoors.stages.trapped_indoors.label>TODO</NeedOutdoors.stages.trapped_indoors.label>
+  <!-- EN: It's been too long since I've seen the sky. -->
+  <NeedOutdoors.stages.trapped_indoors.description>TODO</NeedOutdoors.stages.trapped_indoors.description>
+  <!-- EN: stuck indoors -->
+  <NeedOutdoors.stages.stuck_indoors.label>TODO</NeedOutdoors.stages.stuck_indoors.label>
+  <!-- EN: I'd like to go outside and get some fresh air. -->
+  <NeedOutdoors.stages.stuck_indoors.description>TODO</NeedOutdoors.stages.stuck_indoors.description>
+  
+  <!-- EN: drowsy -->
+  <NeedRest.stages.drowsy.label>cansament</NeedRest.stages.drowsy.label>
+  <!-- EN: I haven't slept in a while. It's hard to keep focus. -->
+  <NeedRest.stages.drowsy.description>M'aniria bé dormir una mica.</NeedRest.stages.drowsy.description>
+  <!-- EN: tired -->
+  <NeedRest.stages.tired.label>gran cansament</NeedRest.stages.tired.label>
+  <!-- EN: I'm so tired. I just want to lay down and rest for a few minutes... -->
+  <NeedRest.stages.tired.description>Quin cansament! Només vull estirar-me i dormir ni que siguin 10 minuts...</NeedRest.stages.tired.description>
+  <!-- EN: exhausted -->
+  <NeedRest.stages.exhausted.label>exhaust</NeedRest.stages.exhausted.label>
+  <!-- EN: I'm so exhausted I can barely stand. My eyelids have lead weights on them. Let me sleep... -->
+  <NeedRest.stages.exhausted.description>Estic que no m'aguanten les cames. Em pensen les parpelles. Deixeu-me dormir...</NeedRest.stages.exhausted.description>
+  
+  <!-- EN: confined interior -->
+  <NeedRoomSize.stages.confined_interior.label>TODO</NeedRoomSize.stages.confined_interior.label>
+  <!-- EN: This space is so tiny. I feel like a rat in a cage. -->
+  <NeedRoomSize.stages.confined_interior.description>TODO</NeedRoomSize.stages.confined_interior.description>
+  <!-- EN: cramped interior -->
+  <NeedRoomSize.stages.cramped_interior.label>TODO</NeedRoomSize.stages.cramped_interior.label>
+  <!-- EN: This room is too small. I wish I had more space to move around and breathe. -->
+  <NeedRoomSize.stages.cramped_interior.description>TODO</NeedRoomSize.stages.cramped_interior.description>
+  <!-- EN: spacious interior -->
+  <NeedRoomSize.stages.spacious_interior.label>TODO</NeedRoomSize.stages.spacious_interior.label>
+  <!-- EN: This room is so expansive, I feel free. -->
+  <NeedRoomSize.stages.spacious_interior.description>TODO</NeedRoomSize.stages.spacious_interior.description>
+  
+  <!-- UNUSED -->
   <NeedSpace.stages.0.label>interior molt estret</NeedSpace.stages.0.label>
   <NeedSpace.stages.0.description>Em sento com una rata en una gàbia minúscula.</NeedSpace.stages.0.description>
   <NeedSpace.stages.1.label>interior estret</NeedSpace.stages.1.label>
   <NeedSpace.stages.1.description>Voldria tenir una mica més d'espai per moure'm i respirar.</NeedSpace.stages.1.description>
   <NeedSpace.stages.2.label>interior espaiós</NeedSpace.stages.2.label>
   <NeedSpace.stages.2.description>És un lloc confortable i espaiós.</NeedSpace.stages.2.description>
-
-
+  
 </LanguageData>

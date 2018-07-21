@@ -1,93 +1,158 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Work tab -->
+  <!-- EN: Manual priorities -->
   <ManualPriorities>Prioritats manuals</ManualPriorities>
+  <!-- EN: higher priority -->
   <HigherPriority>prioritat alta</HigherPriority>
+  <!-- EN: lower priority -->
   <LowerPriority>prioritat baixa</LowerPriority>
+  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} / {2} -->
   <RelevantSkills>Coneixements rellevants: {0}\nMitjana dels coneixements rellevants: {1} / {2}</RelevantSkills>
+  <!-- EN: Click to jump to: -->
   <ClickToJumpTo>Feu clic per anar a:</ClickToJumpTo>
+  <!-- EN: {0} cannot do this kind of work. -->
   <CannotDoThisWork>{0} no pot fer aquesta feina.</CannotDoThisWork>
+  <!-- EN: (none) -->
   <NoneBrackets>(cap)</NoneBrackets>
+  <!-- EN: This colonist is not able to do any work of this type because of his health condition. -->
   <IncapableOfWorkTypeBecauseOfCapacities>Aquest colon no pot fer aquesta feina per motius de salut.</IncapableOfWorkTypeBecauseOfCapacities>
+  <!-- EN: E -->
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
+  <!-- EN: Warning: The average of relevant skills is very low. -->
   <SelectedWorkTypeWithVeryBadSkill>Avís: la mitjana de capacitats rellevants és molt baixa.</SelectedWorkTypeWithVeryBadSkill>
   
   <!-- Assign tab -->
+  <!-- EN: Manage outfits -->
   <ManageOutfits>Gestiona vestuaris</ManageOutfits>
+  <!-- EN: Clear forced -->
   <ClearForcedApparel>Treu forçat</ClearForcedApparel>
+  <!-- EN: forced -->
   <ApparelForcedLower>forçat</ApparelForcedLower>
+  <!-- EN: Forced apparel -->
   <ForcedApparel>Roba forçada</ForcedApparel>
+  <!-- EN: Edit... -->
   <AssignTabEdit>Edita...</AssignTabEdit>
+  <!-- EN: Manage drug policies -->
   <ManageDrugPolicies>Gestiona política de drogues</ManageDrugPolicies>
   
   <!-- Restrictions tab -->
+  <!-- EN: Copy -->
   <Copy>Copia</Copy>
+  <!-- EN: Paste -->
   <Paste>Enganxa</Paste>
+  <!-- EN: Allowed area -->
   <AllowedArea>Zona permesa</AllowedArea>
   
   <!-- Animals tab -->
+  <!-- EN: Master -->
   <Master>Amo</Master>
+  <!-- EN: Pregnant ({0} / {1}) -->
   <PregnantIconDesc>Embarassada ({0} / {1})</PregnantIconDesc>
+  <!-- EN: Bonded to -->
   <BondedTo>Lligat a</BondedTo>
-
+  
   <!-- Wildlife tab -->
+  <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
   <IsPredator>Aquesta criatura és un predador. Quan tingui gana, caçarà criatures petites, potser fins i tot persones.</IsPredator>
-	
+  
   <!-- Factions tab -->
+  <!-- EN: Hostile -->
   <Hostile>Hostil</Hostile>
+  <!-- EN: Ally -->
   <Ally>Aliat</Ally>
+  <!-- EN: defeated -->
   <DefeatedLower>eliminat</DefeatedLower>
+  <!-- EN: Enemy of {0} -->
   <HostileTo>Enemic de {0}</HostileTo>
+  <!-- EN: Current goodwill and relations status with this faction. -->
   <CurrentGoodwillTip>L’estat de la reputació i les relacions amb aquesta facció.</CurrentGoodwillTip>
+  <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Aquesta facció sempre us serà hostil. Atacarà els vostres assentaments i caravanes. Les relacions amb ells no milloraran mai feu el que feu.</CurrentGoodwillTip_PermanentEnemy>
+  <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
   <CurrentGoodwillTip_Ally>Aquesta facció és aliada. Enviaran lluitadors per ajudar-vos sempre que puguin. Si les relacions baixen de {0}, es tornaran neutrals.</CurrentGoodwillTip_Ally>
+  <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
   <CurrentGoodwillTip_Neutral>LA facció és neutral. Tindran negocis i converses amb vosaltres. Si les relacions baixen de {0}, es tornaran hostils. Si les relacions pugen per sobre de {1}, es convertiran en aliats i treballaran activament per ajudar-vos.</CurrentGoodwillTip_Neutral>
+  <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>Aquesta facció us és hostil. Atacaran els vostres assentaments i caravanes. Si les relacions pugen per sobre de {0}, es convertiran en neutrals.</CurrentGoodwillTip_Hostile>
+  <!-- EN: This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day. -->
   <CurrentGoodwillTip_NaturalGoodwill>Aquesta facció té una reputació natural entre  {0} i {1}. Si la reputació està per sobre de {1}, anira baixant de {3} en {3} cada dia. Si la reputació està per sota de {0}, anirà pujant de {2} en {2} cada dia.</CurrentGoodwillTip_NaturalGoodwill>
   
   <!-- Social tab -->
+  <!-- EN: Friend -->
   <Friend>Amic</Friend>
+  <!-- EN: Rival -->
   <Rival>Rival</Rival>
+  <!-- EN: Acquaintance -->
   <Acquaintance>Conegut</Acquaintance>
-	
+  
   <!-- History tab - subtabs -->
+  <!-- EN: Graph -->
   <Graph>Gràfic</Graph>
+  <!-- EN: Messages -->
   <Messages>Missatges</Messages>
+  <!-- EN: Statistics -->
   <Statistics>Estadístiques</Statistics>
   
   <!-- History tab - Graphs -->
+  <!-- EN: Select graph -->
   <SelectGraph>Seleccioneu gràfic</SelectGraph>
+  <!-- EN: Last 30 days -->
   <Last30Days>Últims 30 dies</Last30Days>
+  <!-- EN: Last 100 days -->
   <Last100Days>Últims 100 dies</Last100Days>
+  <!-- EN: Last 300 days -->
   <Last300Days>Últims 300 dies</Last300Days>
+  <!-- EN: All -->
   <AllDays>Tot</AllDays>
+  <!-- EN: Value -->
   <Value>Valor</Value>
+  <!-- EN: External -->
   <External>Extern</External>
 
   <!-- History tab - Messages -->
+  <!-- EN: Show letters -->
   <ShowLetters>Mostra les cartes</ShowLetters>
+  <!-- EN: Show messages -->
   <ShowMessages>Mostra els missatges</ShowMessages>
+  <!-- EN: Pin or unpin this message.\n\nThe oldest unpinned messages will be removed automatically from the list after reaching the limit of {0} messages. -->
   <PinArchivableTip>Marca o desmarca aquest missatge.\n\nEls missatges antics que no estiguin marcats s’esborraran automàticament quan la llista arribi als {0} missatges.</PinArchivableTip>
+  <!-- EN: no messages -->
   <NoMessages>cap missatge</NoMessages>
 
   <!-- History tab - Statistics -->
+  <!-- EN: Play time -->
   <Playtime>Temps de joc</Playtime>
+  <!-- EN: Storyteller -->
   <Storyteller>Narrador</Storyteller>
+  <!-- EN: Colony wealth (this map) -->
   <ThisMapColonyWealthTotal>Valor de la colònia (aquest mapa)</ThisMapColonyWealthTotal>
+  <!-- EN: Colony wealth (items) (this map) -->
   <ThisMapColonyWealthItems>Valor de la colònia (objectes) (aquest mapa)</ThisMapColonyWealthItems>
+  <!-- EN: Colony wealth (buildings) (this map) -->
   <ThisMapColonyWealthBuildings>Valor de la colònia (edificis) (aquest mapa)</ThisMapColonyWealthBuildings>
+  <!-- EN: Colony wealth (animals) (this map) -->
   <ThisMapColonyWealthTameAnimals>VAlor de la colònia (animals) (aquest mapa)</ThisMapColonyWealthTameAnimals>
+  <!-- EN: Major threats -->
   <NumThreatBigs>Perills principals</NumThreatBigs>
+  <!-- EN: Enemy raids -->
   <NumEnemyRaids>Raids enemics</NumEnemyRaids>
+  <!-- EN: Damage taken (this map) -->
   <ThisMapDamageTaken>Danys rebuts (aquest mapa)</ThisMapDamageTaken>
+  <!-- EN: Colonists killed -->
   <ColonistsKilled>Colons morts</ColonistsKilled>
+  <!-- EN: Colonists launched into space -->
   <ColonistsLaunched>Colons llençats a l'espai</ColonistsLaunched>
 
   <!-- Research tab -->
+  <!-- EN: project tech level -->
   <ProjectTechLevel>nivell de tecnologia del projecte</ProjectTechLevel>
+  <!-- EN: your tech level -->
   <YourTechLevel>el vostre nivell de tecnologia</YourTechLevel>
+  <!-- EN: cost multiplier -->
   <ResearchCostMultiplier>multiplicador de cost</ResearchCostMultiplier>
+  <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>El cost base del projecte {0} esdevé {1} pel vostre nivell de tecnologia.</ResearchCostComparison>
   
 </LanguageData>

@@ -1,85 +1,156 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-	<Damage_Bomb.rulePack.rulesStrings>
-		<li>damaged_past(p=2)->fotut</li>
-		<li>damaged_past(p=2)->explotat</li>
-		<li>damaged_past->ferit</li>
-		<li>damaged_past->danyat</li>
-		<li>damaged_past->malferit</li>
-		<li>damaged_past->adolorit</li>
-		<li>destroyed->fet a miques</li>
-		<li>destroyed->esclafat</li>
-		<li>destroyed->destrossat</li>
-		<li>destroyed->aniquilat</li>
-		<li>destroyed->detonat</li>
-	</Damage_Bomb.rulePack.rulesStrings>
-
-	<Damage_Flame.rulePack.rulesStrings>
-		<li>damaged_past(p=2)->ha fotut</li>
-		<li>damaged_past(p=2)->ha socarrimat</li>
-		<li>damaged_past(p=2)->ha cremat</li>
-		<li>damaged_past(p=2)->ha embutllofat</li>
-		<li>damaged_past(p=2)->ha encès</li>
-		<li>damaged_past(p=2)->ha abrasat</li>
-		<li>damaged_past->ha ferit</li>
-		<li>damaged_past->ha malmès</li>
-		<li>damaged_past->ha malferit</li>
-		<li>damaged_past->ha adolorit</li>
-		<li>damaged_present(p=2)->fotent</li>
-		<li>damaged_present(p=2)->socarrimant</li>
-		<li>damaged_present(p=2)->cremant</li>
-		<li>damaged_present(p=2)->embutllofant</li>
-		<li>damaged_present(p=2)->encenent</li>
-		<li>damaged_present(p=2)->abrasant</li>
-		<li>damaged_present->ferint</li>
-		<li>damaged_present->malmetent</li>
-		<li>damaged_present->malferint</li>
-		<li>damaged_present->adolorint</li>
-		<li>destroyed_past->ha calcinat</li>
-		<li>destroyed_past->ha incinerat</li>
-		<li>destroyed_past->ha carbonitzat</li>
-		<li>destroyed_past->ha obliterat</li>
-		<li>destroyed_past->ha aniquilat</li>
-		<li>destroyed_past->ha detonat</li>
-		<li>destroyed_present->calcinant</li>
-		<li>destroyed_present->incinerant</li>
-		<li>destroyed_present->carbonitzant</li>
-		<li>destroyed_present->obliterant</li>
-		<li>destroyed_present->aniquilant</li>
-		<li>destroyed_present->detonant</li>
-	</Damage_Flame.rulePack.rulesStrings>
- 
-<!-- Weird damage types that don't really destroy anything -->
-
-	<Damage_Extinguish.rulePack.rulesStrings>
-		<li>damaged_past->ha extingit</li>
-		<li>damaged_past->ha inundat</li>
-		<li>damaged_past->ha omplert d’espuma</li>
-		<li>damaged_past->ha sufocat</li>
-		<li>destroyed_past->damaged_past</li>
-	</Damage_Extinguish.rulePack.rulesStrings>
-
-	<Damage_Stun.rulePack.rulesStrings>
-		<li>damaged_past->ha atordit</li>
-		<li>damaged_past->ha confós</li>
-		<li>damaged_past->ha aturat</li>
-		<li>damaged_past->ha marejat</li>
-		<li>destroyed_past->damaged_past</li>
-	</Damage_Stun.rulePack.rulesStrings>
-
-	<Damage_EMP.rulePack.rulesStrings>
-		<li>damaged_past->ha enrampat</li>
-		<li>damaged_past->ha commocionat</li>
-		<li>damaged_past->ha esclafat</li>
-		<li>destroyed_past->damaged_past</li>
-	</Damage_EMP.rulePack.rulesStrings>
-
-	<Damage_Smoke.rulePack.rulesStrings>
-		<li>damaged_past->ha fumat</li>
-		<li>damaged_past->ha entelat</li>
-		<li>damaged_past->ha ennuvolat</li>
-		<li>destroyed_past->damaged_past</li>
-	</Damage_Smoke.rulePack.rulesStrings>
-
+  
+  <!-- EN:
+    <li>damaged_past(p=2)->blasted</li>
+    <li>damaged_past(p=2)->exploded</li>
+    <li>damaged_past->injured</li>
+    <li>damaged_past->damaged</li>
+    <li>damaged_past->wounded</li>
+    <li>damaged_past->hurt</li>
+    <li>destroyed_past->shattered</li>
+    <li>destroyed_past->crushed</li>
+    <li>destroyed_past->obliterated</li>
+    <li>destroyed_past->annihilated</li>
+    <li>destroyed_past->detonated</li>
+  -->
+  <Damage_Bomb.rulePack.rulesStrings>
+    <li>damaged_past(p=2)->fotut</li>
+    <li>damaged_past(p=2)->explotat</li>
+    <li>damaged_past->ferit</li>
+    <li>damaged_past->danyat</li>
+    <li>damaged_past->malferit</li>
+    <li>damaged_past->adolorit</li>
+    <li>destroyed->fet a miques</li>
+    <li>destroyed->esclafat</li>
+    <li>destroyed->destrossat</li>
+    <li>destroyed->aniquilat</li>
+    <li>destroyed->detonat</li>
+  </Damage_Bomb.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>damaged_past->electrified</li>
+    <li>damaged_past->shocked</li>
+    <li>damaged_past->zapped</li>
+    <li>destroyed_past->damaged_past</li>
+  -->
+  <Damage_EMP.rulePack.rulesStrings>
+    <li>damaged_past->ha enrampat</li>
+    <li>damaged_past->ha commocionat</li>
+    <li>damaged_past->ha esclafat</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_EMP.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>damaged_past->extinguished</li>
+    <li>damaged_past->swamped</li>
+    <li>damaged_past->foamed</li>
+    <li>damaged_past->quenched</li>
+    <li>destroyed_past->damaged_past</li>
+  -->
+  <Damage_Extinguish.rulePack.rulesStrings>
+    <li>damaged_past->ha extingit</li>
+    <li>damaged_past->ha inundat</li>
+    <li>damaged_past->ha omplert d’espuma</li>
+    <li>damaged_past->ha sufocat</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_Extinguish.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>damaged_past(p=2)->blasted</li>
+    <li>damaged_past(p=2)->scorched</li>
+    <li>damaged_past(p=2)->burned</li>
+    <li>damaged_past(p=2)->blistered</li>
+    <li>damaged_past(p=2)->ignited</li>
+    <li>damaged_past(p=2)->seared</li>
+    <li>damaged_past->injured</li>
+    <li>damaged_past->damaged</li>
+    <li>damaged_past->wounded</li>
+    <li>damaged_past->hurt</li>
+    <li>damaged_present(p=2)->blasting</li>
+    <li>damaged_present(p=2)->scorching</li>
+    <li>damaged_present(p=2)->burning</li>
+    <li>damaged_present(p=2)->blistering</li>
+    <li>damaged_present(p=2)->igniting</li>
+    <li>damaged_present(p=2)->searing</li>
+    <li>damaged_present->injuring</li>
+    <li>damaged_present->damaging</li>
+    <li>damaged_present->wounding</li>
+    <li>damaged_present->hurting</li>
+    <li>destroyed_past->cremated</li>
+    <li>destroyed_past->incinerated</li>
+    <li>destroyed_past->charred</li>
+    <li>destroyed_past->obliterated</li>
+    <li>destroyed_past->annihilated</li>
+    <li>destroyed_past->detonated</li>
+    <li>destroyed_present->cremating</li>
+    <li>destroyed_present->incinerating</li>
+    <li>destroyed_present->charring</li>
+    <li>destroyed_present->obliterating</li>
+    <li>destroyed_present->annihilating</li>
+    <li>destroyed_present->detonating</li>
+  -->
+  <Damage_Flame.rulePack.rulesStrings>
+    <li>damaged_past(p=2)->ha fotut</li>
+    <li>damaged_past(p=2)->ha socarrimat</li>
+    <li>damaged_past(p=2)->ha cremat</li>
+    <li>damaged_past(p=2)->ha embutllofat</li>
+    <li>damaged_past(p=2)->ha encès</li>
+    <li>damaged_past(p=2)->ha abrasat</li>
+    <li>damaged_past->ha ferit</li>
+    <li>damaged_past->ha malmès</li>
+    <li>damaged_past->ha malferit</li>
+    <li>damaged_past->ha adolorit</li>
+    <li>damaged_present(p=2)->fotent</li>
+    <li>damaged_present(p=2)->socarrimant</li>
+    <li>damaged_present(p=2)->cremant</li>
+    <li>damaged_present(p=2)->embutllofant</li>
+    <li>damaged_present(p=2)->encenent</li>
+    <li>damaged_present(p=2)->abrasant</li>
+    <li>damaged_present->ferint</li>
+    <li>damaged_present->malmetent</li>
+    <li>damaged_present->malferint</li>
+    <li>damaged_present->adolorint</li>
+    <li>destroyed_past->ha calcinat</li>
+    <li>destroyed_past->ha incinerat</li>
+    <li>destroyed_past->ha carbonitzat</li>
+    <li>destroyed_past->ha obliterat</li>
+    <li>destroyed_past->ha aniquilat</li>
+    <li>destroyed_past->ha detonat</li>
+    <li>destroyed_present->calcinant</li>
+    <li>destroyed_present->incinerant</li>
+    <li>destroyed_present->carbonitzant</li>
+    <li>destroyed_present->obliterant</li>
+    <li>destroyed_present->aniquilant</li>
+    <li>destroyed_present->detonant</li>
+  </Damage_Flame.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>damaged_past->smoked</li>
+    <li>damaged_past->fogged</li>
+    <li>damaged_past->clouded</li>
+    <li>destroyed_past->damaged_past</li>
+  -->
+  <Damage_Smoke.rulePack.rulesStrings>
+    <li>damaged_past->ha fumat</li>
+    <li>damaged_past->ha entelat</li>
+    <li>damaged_past->ha ennuvolat</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_Smoke.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>damaged_past->stunned</li>
+    <li>damaged_past->confused</li>
+    <li>damaged_past->stopped</li>
+    <li>damaged_past->dizzied</li>
+    <li>destroyed_past->damaged_past</li>
+  -->
+  <Damage_Stun.rulePack.rulesStrings>
+    <li>damaged_past->ha atordit</li>
+    <li>damaged_past->ha confós</li>
+    <li>damaged_past->ha aturat</li>
+    <li>damaged_past->ha marejat</li>
+    <li>destroyed_past->damaged_past</li>
+  </Damage_Stun.rulePack.rulesStrings>
+  
 </LanguageData>

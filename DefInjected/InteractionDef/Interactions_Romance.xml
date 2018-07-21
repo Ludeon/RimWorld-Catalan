@@ -1,29 +1,84 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <RomanceAttempt.label>intent de festeig</RomanceAttempt.label>
-	<RomanceAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->Ha intentat lligar amb [other_nameShortIndef].</li>
-	</RomanceAttempt.logRulesInitiator.rulesStrings>
-	<RomanceAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->Ha rebut compliments de [other_nameShortIndef].</li>
-	</RomanceAttempt.logRulesRecipient.rulesStrings>
-
-  <Breakup.label>ruptura</Breakup.label>
-	<Breakup.logRulesInitiator.rulesStrings>
-		<li>logentry->Ha trencat amb [other_nameShortIndef].</li>
-	</Breakup.logRulesInitiator.rulesStrings>
-	<Breakup.logRulesRecipient.rulesStrings>
-		<li>logentry->[other_nameShortIndef] ha trencat la relació.</li>
-	</Breakup.logRulesRecipient.rulesStrings>
-
+  <RomanceAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [wooed] [OTHER_nameDef] [wootactic].</li>
+    <li>wooed->ha intentat lligar amb</li>
+    <li>wooed->ha flirtejat amb</li>
+    <li>wooed->ha intentat cridar l’atenció de</li>
+    <li>wooed->ha provat de lligar amb</li>
+    <li>wooed->li ha fet un compliment a</li>
+    <li>wooed->ha rondat a</li>
+    <li>wooed->ha anat darrere de</li>
+    <li>wooed->ha mirat d’impressionar a</li>
+    <li>wooed->ha festejat a</li>
+    <li>wootactic(p=4)->[complimenting] [PersonalCharacteristic]</li>
+    <li>wootactic->explicant-li una història de [TalkTopicAny]</li>
+    <li>wootactic->explicant-li un conte sobre [TalkTopicAny]</li>
+    <li>wootactic->fent broma de [TalkTopicAny]</li>
+    <li>wootactic->fent una observació sobre [TalkTopicAny]</li>
+    <li>wootactic(p=2)->[boasting] [PersonalCharacteristic]</li>
+    <li>wootactic->comparant-se amb una [romantic_adj] [romantic_noun]</li>
+    <li>wootactic->descrivint-se com una [romantic_adj] [romantic_noun]</li>
+    <li>boasting->presumint de</li>
+    <li>boasting->fent menció de</li>
+    <li>boasting->insinuant detalls interessants de</li>
+    <li>boasting->exagerant</li>
+    <li>boasting->parlant de</li>
+    <li>boasting->fent atenció a</li>
+    <li>complimenting(p=3)->afalagant</li>
+    <li>complimenting->afalagant subtilment</li>
+    <li>complimenting->elogiant</li>
+    <li>complimenting->lloant</li>
+    <li>complimenting->dient coses boniques sobre</li>
+    <li>complimenting(p=2)->fent comentaris divertits sobre</li>
+    <li>complimenting->tocant divertidament</li>
+    <li>complimenting->afalagant mig de broma</li>
+    <li>complimenting->fent preguntes malicioses</li>
+    <li>complimenting->fent bromes divertides sobre</li>
+    <li>romantic_adj->preciosa</li>
+    <li>romantic_adj->brillant</li>
+    <li>romantic_adj->llampant</li>
+    <li>romantic_adj->celestial</li>
+    <li>romantic_adj->daurada</li>
+    <li>romantic_adj->radiant</li>
+    <li>romantic_adj->impressionant</li>
+    <li>romantic_adj->encantadora</li>
+    <li>romantic_adj->lluent</li>
+    <li>romantic_adj->delicada</li>
+    <li>romantic_adj->fina</li>
+    <li>romantic_adj->magnifica</li>
+    <li>romantic_adj->encantadora</li>
+    <li>romantic_adj->meravellosa</li>
+    <li>romantic_adj(p=3)->[AdjectiveBadass]</li>
+    <li>romantic_noun->flor</li>
+    <li>romantic_noun->primavera</li>
+    <li>romantic_noun->riera</li>
+    <li>romantic_noun->estrella</li>
+    <li>romantic_noun->lluna</li>
+    <li>romantic_noun->posta de sol</li>
+    <li>romantic_noun->llar</li>
+    <li>romantic_noun->aurora</li>
+    <li>romantic_noun->capçada de [TreeType]</li>
+    <li>romantic_noun(p=2)->[TerrainFeature]</li>
+    <li>romantic_noun(p=2)->[NaturalObject]</li>
+  </RomanceAttempt.logRulesInitiator.rulesStrings>
+  
   <MarriageProposal.label>proposta de matrimoni</MarriageProposal.label>
-	<MarriageProposal.logRulesInitiator.rulesStrings>
-		<li>logentry->Ha proposat matrimoni a [other_nameShortIndef].</li>
-	</MarriageProposal.logRulesInitiator.rulesStrings>
-	<MarriageProposal.logRulesRecipient.rulesStrings>
-		<li>logentry->Ha rebut una proposta de matrimoni de [other_nameShortIndef].</li>
-	</MarriageProposal.logRulesRecipient.rulesStrings>
+  <MarriageProposal.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] ha proposat matrimoni a [OTHER_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha proposat compartir la vida a [OTHER_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] li ha dit a [OTHER_nameDef] que vol passar tota vida junts.</li>
+  </MarriageProposal.logRulesInitiator.rulesStrings>
+  
+  <Breakup.label>ruptura</Breakup.label>
+  <Breakup.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] trencat amb [OTHER_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha demanat una mica d’espai a [OTHER_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] li ha dit a [OTHER_nameDef] que hi ha alguna cosa que no funciona.</li>
+    <li>r_logentry->[INITIATOR_nameDef] li ha dit a [OTHER_nameDef] que voldria conéixer altra gent.</li>
+  </Breakup.logRulesInitiator.rulesStrings>
 
 
 </LanguageData>

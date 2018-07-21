@@ -1,118 +1,200 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Mental breaks: extreme -->
-
-  <Berserk.label>humor violent</Berserk.label>
-  <Berserk.beginLetterLabel>humor violent</Berserk.beginLetterLabel>
-  <Berserk.beginLetter>{0} s'ha posat d'un humor violent!</Berserk.beginLetter>
-  <Berserk.recoveryMessage>{0} s'ha calmat i ja no està d'humor violent.</Berserk.recoveryMessage>
-  <Berserk.baseInspectLine>Estat mental: humor violent</Berserk.baseInspectLine>
-
-  <FireStartingSpree.label>atac de piromania</FireStartingSpree.label>
-  <FireStartingSpree.beginLetterLabel>atac de piromania</FireStartingSpree.beginLetterLabel>
-  <FireStartingSpree.beginLetter>{0} pateix un atac de piromania.</FireStartingSpree.beginLetter>
-  <FireStartingSpree.recoveryMessage>A {0} se li ha calmat l'atac de piromania.</FireStartingSpree.recoveryMessage>
-  <FireStartingSpree.baseInspectLine>Estat mental: atac de piromania</FireStartingSpree.baseInspectLine>
-
-  <GiveUpExit.label>abandona i marxa</GiveUpExit.label>
-  <GiveUpExit.beginLetterLabel>abandona</GiveUpExit.beginLetterLabel>
-  <GiveUpExit.beginLetter>{0} marxa de la colònia.</GiveUpExit.beginLetter>
-  <GiveUpExit.recoveryMessage>{0} ha canviat d'opinió i torna a la colònia.</GiveUpExit.recoveryMessage>
-  <GiveUpExit.baseInspectLine>Estat mental: abandona i marxa</GiveUpExit.baseInspectLine>
-
-  <BingingDrugExtreme.label>festa de droga</BingingDrugExtreme.label>
-  <BingingDrugExtreme.baseInspectLine>Estat mental: festa de {0}</BingingDrugExtreme.baseInspectLine>
-
-  <Jailbreaker.label>Anima a a escapar a un presoner</Jailbreaker.label>
-  <Jailbreaker.beginLetter>{0} té una emprenyada i animarà als presoners a escapar.</Jailbreaker.beginLetter>
-  <Jailbreaker.beginLetterLabel>atiador</Jailbreaker.beginLetterLabel>
-  <Jailbreaker.recoveryMessage>{0} ja no anima els presoners a escapar.</Jailbreaker.recoveryMessage>
-  <Jailbreaker.baseInspectLine>Estat mental: atiador</Jailbreaker.baseInspectLine>
-
-  <Slaughterer.label>escorxador</Slaughterer.label>
-  <Slaughterer.beginLetter>{0} té una emprenyada i es desfogarà amb els animals.</Slaughterer.beginLetter>
-  <Slaughterer.beginLetterLabel>escorxador</Slaughterer.beginLetterLabel>
-  <Slaughterer.recoveryMessage>{0} ja no escorxa animals.</Slaughterer.recoveryMessage>
-  <Slaughterer.baseInspectLine>Estat mental: Escorxador</Slaughterer.baseInspectLine>
-
-  <MurderousRage.label>fúria assassina</MurderousRage.label>
-  <MurderousRage.beginLetter>{0} està en fúria assassina. Matarà a {1}.</MurderousRage.beginLetter>
-  <MurderousRage.beginLetterLabel>fúria assassina</MurderousRage.beginLetterLabel>
-  <MurderousRage.recoveryMessage>{0} ja no estpa u fúria assassina.</MurderousRage.recoveryMessage>
-  <MurderousRage.baseInspectLine>Estat mental: Fúria assassina</MurderousRage.baseInspectLine>
-
-  <!-- Mental breaks: major -->
-
-  <BingingDrugMajor.label>festa de droga</BingingDrugMajor.label>
-  <BingingDrugMajor.baseInspectLine>Estat mental: festa de {0}</BingingDrugMajor.baseInspectLine>
-
-  <WanderPsychotic.label>voltant en estat psicòtic</WanderPsychotic.label>
-  <WanderPsychotic.recoveryMessage>{0} ja no volta en estat psicòtic.</WanderPsychotic.recoveryMessage>
-  <WanderPsychotic.beginLetterLabel>atordit</WanderPsychotic.beginLetterLabel>
-  <WanderPsychotic.beginLetter>{0} dóna voltes en estat psicòtic.</WanderPsychotic.beginLetter>
-  <WanderPsychotic.baseInspectLine>Estat mental: voltant en estat psicòtic</WanderPsychotic.baseInspectLine>
-
-  <Tantrum.label>rabieta</Tantrum.label>
-  <Tantrum.beginLetter>{0} té una rabieta.</Tantrum.beginLetter>
-  <Tantrum.beginLetterLabel>rabieta</Tantrum.beginLetterLabel>
-  <Tantrum.recoveryMessage>{0} ja no té una rabieta.</Tantrum.recoveryMessage>
-  <Tantrum.baseInspectLine>Estat mental: rabieta</Tantrum.baseInspectLine>
-
-  <TargetedTantrum.label>rabieta</TargetedTantrum.label>
-  <TargetedTantrum.beginLetter>{0} té una rabieta. Destruirà {1}.</TargetedTantrum.beginLetter>
-  <TargetedTantrum.beginLetterLabel>rabieta</TargetedTantrum.beginLetterLabel>
-  <TargetedTantrum.recoveryMessage>{0} ja no té una rabieta.</TargetedTantrum.recoveryMessage>
-  <TargetedTantrum.baseInspectLine>Estat mental: rabieta</TargetedTantrum.baseInspectLine>
-
+  
+  <!-- EN: tantrum -->
   <BedroomTantrum.label>rabieta</BedroomTantrum.label>
-  <BedroomTantrum.beginLetter>{0} té una rabieta. [PAWN_pronoun] axiafarà els mobles de la seva habitació.</BedroomTantrum.beginLetter>
-  <BedroomTantrum.beginLetterLabel>rabieta</BedroomTantrum.beginLetterLabel>
-  <BedroomTantrum.recoveryMessage>{0} ja no té una rabieta.</BedroomTantrum.recoveryMessage>
+  <!-- EN: Mental state: Tantrum -->
   <BedroomTantrum.baseInspectLine>Estat mental: rabieta</BedroomTantrum.baseInspectLine>
-
-  <SadisticRage.label>rabieta sàdica</SadisticRage.label>
-  <SadisticRage.beginLetter>{0} té una rabieta sàdica. Descarregarà la seva rabia sobre els presoners.</SadisticRage.beginLetter>
-  <SadisticRage.beginLetterLabel>rabieta sàdica</SadisticRage.beginLetterLabel>
-  <SadisticRage.recoveryMessage>{0} ja no té la rabieta sàdica.</SadisticRage.recoveryMessage>
-  <SadisticRage.baseInspectLine>Estat mental: rabieta sàdica</SadisticRage.baseInspectLine>
-
+  <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to smash things in [PAWN_possessive] room. -->
+  <BedroomTantrum.beginLetter>{0} té una rabieta. [PAWN_pronoun] axiafarà els mobles de la seva habitació.</BedroomTantrum.beginLetter>
+  <!-- EN: tantrum -->
+  <BedroomTantrum.beginLetterLabel>rabieta</BedroomTantrum.beginLetterLabel>
+  <!-- EN: {0} is no longer having a tantrum. -->
+  <BedroomTantrum.recoveryMessage>{0} ja no té una rabieta.</BedroomTantrum.recoveryMessage>
+  
+  <!-- EN: berserk -->
+  <Berserk.label>humor violent</Berserk.label>
+  <!-- EN: Mental state: Berserk -->
+  <Berserk.baseInspectLine>Estat mental: humor violent</Berserk.baseInspectLine>
+  <!-- EN: {0} has gone berserk.\n\n[PAWN_pronoun] will attack anyone [PAWN_pronoun] sees. -->
+  <Berserk.beginLetter>{0} s'ha posat d'un humor violent!</Berserk.beginLetter>
+  <!-- EN: berserk -->
+  <Berserk.beginLetterLabel>humor violent</Berserk.beginLetterLabel>
+  <!-- EN: {0}'s berserk rage has come to an end. -->
+  <Berserk.recoveryMessage>{0} s'ha calmat i ja no està d'humor violent.</Berserk.recoveryMessage>
+  
+  <!-- EN: binging on drug -->
+  <Binging_DrugExtreme.label>festa de droga</Binging_DrugExtreme.label>
+  <!-- EN: Mental state: Binging on {0} -->
+  <Binging_DrugExtreme.baseInspectLine>Estat mental: festa de {0}</Binging_DrugExtreme.baseInspectLine>
+  
+  <!-- EN: binging on drug -->
+  <Binging_DrugMajor.label>festa de droga</Binging_DrugMajor.label>
+  <!-- EN: Mental state: Binging on {0} -->
+  <Binging_DrugMajor.baseInspectLine>Estat mental: festa de {0}</Binging_DrugMajor.baseInspectLine>
+  
+  <!-- EN: binging on food -->
+  <Binging_Food.label>atipant-se de menjar</Binging_Food.label>
+  <!-- EN: Mental state: Pigging out -->
+  <Binging_Food.baseInspectLine>Estat mental: afartant-se de menjar</Binging_Food.baseInspectLine>
+  <!-- EN: {0} is pigging out on food. -->
+  <Binging_Food.beginLetter>{0} s'està afartant de menjar.</Binging_Food.beginLetter>
+  <!-- EN: food binge -->
+  <Binging_Food.beginLetterLabel>atipada de menjar</Binging_Food.beginLetterLabel>
+  <!-- EN: {0} is no longer pigging out on food. -->
+  <Binging_Food.recoveryMessage>{0} ha parat de menjar.</Binging_Food.recoveryMessage>
+  
+  <!-- EN: corpse obsession -->
   <CorpseObsession.label>obsessió per cadàver</CorpseObsession.label>
-  <CorpseObsession.beginLetter>{0} té una obsessió per un cadàver. En desenterrarà un.</CorpseObsession.beginLetter>
-  <CorpseObsession.beginLetterLabel>obsessió per cadàver</CorpseObsession.beginLetterLabel>
-  <CorpseObsession.recoveryMessage>{0} ja no té obsessió per cadàver.</CorpseObsession.recoveryMessage>
+  <!-- EN: Mental state: Corpse obsession -->
   <CorpseObsession.baseInspectLine>Estat mental: obsessió per cadàver</CorpseObsession.baseInspectLine>
-
-  <!-- Mental breaks: minor -->
-
-  <BingingFood.label>atipant-se de menjar</BingingFood.label>
-  <BingingFood.beginLetterLabel>atipada de menjar</BingingFood.beginLetterLabel>
-  <BingingFood.beginLetter>{0} s'està afartant de menjar.</BingingFood.beginLetter>
-  <BingingFood.recoveryMessage>{0} ha parat de menjar.</BingingFood.recoveryMessage>
-  <BingingFood.baseInspectLine>Estat mental: afartant-se de menjar</BingingFood.baseInspectLine>
-
-  <WanderSad.label>passeja melancòlicament</WanderSad.label>
-  <WanderSad.recoveryMessage>{0} ja no passeja melancòlicament.</WanderSad.recoveryMessage>
-  <WanderSad.beginLetterLabel>passeig melancòlic</WanderSad.beginLetterLabel>
-  <WanderSad.beginLetter>{0} passeja amb el cap cot i sospirant de tant en tant.</WanderSad.beginLetter>
-  <WanderSad.baseInspectLine>Estat mental: passeig melancòlic</WanderSad.baseInspectLine>
-
-  <WanderOwnRoom.label>aïllament</WanderOwnRoom.label>
-  <WanderOwnRoom.recoveryMessage>{0} surt de la seva habitació.</WanderOwnRoom.recoveryMessage>
-  <WanderOwnRoom.beginLetterLabel>es tanca a l'habitació</WanderOwnRoom.beginLetterLabel>
-  <WanderOwnRoom.beginLetter>{0} es tanca a la seva habitació.</WanderOwnRoom.beginLetter>
-  <WanderOwnRoom.baseInspectLine>Estat mental: es tanca a l'habitació</WanderOwnRoom.baseInspectLine>
-
-<InsultingSpree.label>insults compulsius</InsultingSpree.label>
-  <InsultingSpree.beginLetter>{0} insulta compulsivament.</InsultingSpree.beginLetter>
-  <InsultingSpree.beginLetterLabel>insults compulsius</InsultingSpree.beginLetterLabel>
-  <InsultingSpree.recoveryMessage>{0} ja no insulta compulsivament.</InsultingSpree.recoveryMessage>
+  <!-- EN: {0} has broken inside and become obsessed with corpses.\n\n[PAWN_pronoun] is going to dig up a corpse and present it for all to see. -->
+  <CorpseObsession.beginLetter>{0} té una obsessió per un cadàver. En desenterrarà un.</CorpseObsession.beginLetter>
+  <!-- EN: corpse obsession -->
+  <CorpseObsession.beginLetterLabel>obsessió per cadàver</CorpseObsession.beginLetterLabel>
+  <!-- EN: {0} is no longer having a corpse obsession. -->
+  <CorpseObsession.recoveryMessage>{0} ja no té obsessió per cadàver.</CorpseObsession.recoveryMessage>
+  
+  <!-- EN: fire starting spree -->
+  <FireStartingSpree.label>atac de piromania</FireStartingSpree.label>
+  <!-- EN: Mental state: Fire starting spree -->
+  <FireStartingSpree.baseInspectLine>Estat mental: atac de piromania</FireStartingSpree.baseInspectLine>
+  <!-- EN: {0} is on a fire starting spree.\n\n[PAWN_pronoun] will wander around for a while, randomly starting fires. -->
+  <FireStartingSpree.beginLetter>{0} pateix un atac de piromania.</FireStartingSpree.beginLetter>
+  <!-- EN: fire starting spree -->
+  <FireStartingSpree.beginLetterLabel>atac de piromania</FireStartingSpree.beginLetterLabel>
+  <!-- EN: {0} is no longer on a fire starting spree. -->
+  <FireStartingSpree.recoveryMessage>A {0} se li ha calmat l'atac de piromania.</FireStartingSpree.recoveryMessage>
+  
+  <!-- EN: giving up and leaving -->
+  <GiveUpExit.label>abandona i marxa</GiveUpExit.label>
+  <!-- EN: Mental state: Given up and leaving -->
+  <GiveUpExit.baseInspectLine>Estat mental: abandona i marxa</GiveUpExit.baseInspectLine>
+  <!-- EN: {0} has given up on this community.\n\n[PAWN_pronoun] has decided to leave and pursue a better life elsewhere. You can try to arrest [PAWN_objective] as [PAWN_pronoun] leaves. Otherwise, you may still see [PAWN_objective] again some day. -->
+  <GiveUpExit.beginLetter>{0} marxa de la colònia.</GiveUpExit.beginLetter>
+  <!-- EN: gave up -->
+  <GiveUpExit.beginLetterLabel>abandona</GiveUpExit.beginLetterLabel>
+  <!-- EN: {0} has had a change of heart and is coming back to the colony. -->
+  <GiveUpExit.recoveryMessage>{0} ha canviat d'opinió i torna a la colònia.</GiveUpExit.recoveryMessage>
+  
+  <!-- EN: insulting spree -->
+  <InsultingSpree.label>insults compulsius</InsultingSpree.label>
+  <!-- EN: Mental state: Insulting spree -->
   <InsultingSpree.baseInspectLine>Estat mental: insults compulsius</InsultingSpree.baseInspectLine>
-
+  <!-- EN: {0} is on an insulting spree.\n\n[PAWN_pronoun] will wander around, randomly insulting others. -->
+  <InsultingSpree.beginLetter>{0} insulta compulsivament.</InsultingSpree.beginLetter>
+  <!-- EN: insulting spree -->
+  <InsultingSpree.beginLetterLabel>insults compulsius</InsultingSpree.beginLetterLabel>
+  <!-- EN: {0} is no longer on an insulting spree. -->
+  <InsultingSpree.recoveryMessage>{0} ja no insulta compulsivament.</InsultingSpree.recoveryMessage>
+  
+  <!-- EN: inducing prisoner to escape -->
+  <Jailbreaker.label>Anima a a escapar a un presoner</Jailbreaker.label>
+  <!-- EN: Mental state: Jailbreaker -->
+  <Jailbreaker.baseInspectLine>Estat mental: atiador</Jailbreaker.baseInspectLine>
+  <!-- EN: {0} has a mental breakdown and is going to induce prisoners to escape. -->
+  <Jailbreaker.beginLetter>{0} té una emprenyada i animarà als presoners a escapar.</Jailbreaker.beginLetter>
+  <!-- EN: jailbreaker -->
+  <Jailbreaker.beginLetterLabel>atiador</Jailbreaker.beginLetterLabel>
+  <!-- EN: {0} is no longer inducing prisoners to escape. -->
+  <Jailbreaker.recoveryMessage>{0} ja no anima els presoners a escapar.</Jailbreaker.recoveryMessage>
+  
+  <!-- EN: murderous rage -->
+  <MurderousRage.label>fúria assassina</MurderousRage.label>
+  <!-- EN: Mental state: Murderous rage -->
+  <MurderousRage.baseInspectLine>Estat mental: Fúria assassina</MurderousRage.baseInspectLine>
+  <!-- EN: {0} has flown into a murderous rage.\n\n[PAWN_pronoun] has decided to kill {1}. -->
+  <MurderousRage.beginLetter>{0} està en fúria assassina. Matarà a {1}.</MurderousRage.beginLetter>
+  <!-- EN: murderous rage -->
+  <MurderousRage.beginLetterLabel>fúria assassina</MurderousRage.beginLetterLabel>
+  <!-- EN: {0} is no longer in a murderous rage. -->
+  <MurderousRage.recoveryMessage>{0} ja no estpa u fúria assassina.</MurderousRage.recoveryMessage>
+  
+  <!-- EN: sadistic rage -->
+  <SadisticRage.label>rabieta sàdica</SadisticRage.label>
+  <!-- EN: Mental state: Sadistic rage -->
+  <SadisticRage.baseInspectLine>Estat mental: rabieta sàdica</SadisticRage.baseInspectLine>
+  <!-- EN: {0} has flown into a sadistic rage.\n\n[PAWN_pronoun] is going to vent [PAWN_possessive] anger on the prisoners. -->
+  <SadisticRage.beginLetter>{0} té una rabieta sàdica. Descarregarà la seva rabia sobre els presoners.</SadisticRage.beginLetter>
+  <!-- EN: sadistic rage -->
+  <SadisticRage.beginLetterLabel>rabieta sàdica</SadisticRage.beginLetterLabel>
+  <!-- EN: {0} is no longer in a sadistic rage. -->
+  <SadisticRage.recoveryMessage>{0} ja no té la rabieta sàdica.</SadisticRage.recoveryMessage>
+  
+  <!-- EN: slaughterer -->
+  <Slaughterer.label>escorxador</Slaughterer.label>
+  <!-- EN: Mental state: Slaughterer -->
+  <Slaughterer.baseInspectLine>Estat mental: Escorxador</Slaughterer.baseInspectLine>
+  <!-- EN: {0} has a mental breakdown and is going to vent [PAWN_possessive] anger on your animals. -->
+  <Slaughterer.beginLetter>{0} té una emprenyada i es desfogarà amb els animals.</Slaughterer.beginLetter>
+  <!-- EN: slaughterer -->
+  <Slaughterer.beginLetterLabel>escorxador</Slaughterer.beginLetterLabel>
+  <!-- EN: {0} is no longer slaughtering random animals. -->
+  <Slaughterer.recoveryMessage>{0} ja no escorxa animals.</Slaughterer.recoveryMessage>
+  
+  <!-- EN: tantrum -->
+  <Tantrum.label>rabieta</Tantrum.label>
+  <!-- EN: Mental state: Tantrum -->
+  <Tantrum.baseInspectLine>Estat mental: rabieta</Tantrum.baseInspectLine>
+  <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] will smash up random furniture, items and structures. -->
+  <Tantrum.beginLetter>{0} té una rabieta.</Tantrum.beginLetter>
+  <!-- EN: tantrum -->
+  <Tantrum.beginLetterLabel>rabieta</Tantrum.beginLetterLabel>
+  <!-- EN: {0} is no longer having a tantrum. -->
+  <Tantrum.recoveryMessage>{0} ja no té una rabieta.</Tantrum.recoveryMessage>
+  
+  <!-- EN: insulting spree -->
   <TargetedInsultingSpree.label>insults compulsius</TargetedInsultingSpree.label>
-  <TargetedInsultingSpree.beginLetter>{0} insulta compulsivament a {1}.</TargetedInsultingSpree.beginLetter>
-  <TargetedInsultingSpree.beginLetterLabel>insults compulsius</TargetedInsultingSpree.beginLetterLabel>
-  <TargetedInsultingSpree.recoveryMessage></TargetedInsultingSpree.recoveryMessage>
+  <!-- EN: Mental state: Insulting spree against {0} -->
   <TargetedInsultingSpree.baseInspectLine>Mental state: insults compulsius contra {0}</TargetedInsultingSpree.baseInspectLine>
-
+  <!-- EN: {0} has fixated [PAWN_possessive] rage on {1}.\n\n[PAWN_pronoun] will follow {1} around, hurling insults. -->
+  <TargetedInsultingSpree.beginLetter>{0} insulta compulsivament a {1}.</TargetedInsultingSpree.beginLetter>
+  <!-- EN: insulting spree -->
+  <TargetedInsultingSpree.beginLetterLabel>insults compulsius</TargetedInsultingSpree.beginLetterLabel>
+  <TargetedInsultingSpree.recoveryMessage />
+  
+  <!-- EN: tantrum -->
+  <TargetedTantrum.label>rabieta</TargetedTantrum.label>
+  <!-- EN: Mental state: Tantrum -->
+  <TargetedTantrum.baseInspectLine>Estat mental: rabieta</TargetedTantrum.baseInspectLine>
+  <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to destroy {1}. -->
+  <TargetedTantrum.beginLetter>{0} té una rabieta. Destruirà {1}.</TargetedTantrum.beginLetter>
+  <!-- EN: tantrum -->
+  <TargetedTantrum.beginLetterLabel>rabieta</TargetedTantrum.beginLetterLabel>
+  <!-- EN: {0} is no longer having a tantrum. -->
+  <TargetedTantrum.recoveryMessage>{0} ja no té una rabieta.</TargetedTantrum.recoveryMessage>
+  
+  <!-- EN: sitting alone -->
+  <Wander_OwnRoom.label>aïllament</Wander_OwnRoom.label>
+  <!-- EN: Mental state: Hiding in room -->
+  <Wander_OwnRoom.baseInspectLine>Estat mental: es tanca a l'habitació</Wander_OwnRoom.baseInspectLine>
+  <!-- EN: {0} is hiding in [PAWN_possessive] room. -->
+  <Wander_OwnRoom.beginLetter>{0} es tanca a la seva habitació.</Wander_OwnRoom.beginLetter>
+  <!-- EN: hide in room -->
+  <Wander_OwnRoom.beginLetterLabel>es tanca a l'habitació</Wander_OwnRoom.beginLetterLabel>
+  <!-- EN: {0} is no longer hiding in [PAWN_possessive] room. -->
+  <Wander_OwnRoom.recoveryMessage>{0} surt de la seva habitació.</Wander_OwnRoom.recoveryMessage>
+  
+  <!-- EN: wandering in psychosis -->
+  <Wander_Psychotic.label>voltant en estat psicòtic</Wander_Psychotic.label>
+  <!-- EN: Mental state: Psychotic wandering -->
+  <Wander_Psychotic.baseInspectLine>Estat mental: voltant en estat psicòtic</Wander_Psychotic.baseInspectLine>
+  <!-- EN: {0} is wandering around in a psychotic state. -->
+  <Wander_Psychotic.beginLetter>{0} dóna voltes en estat psicòtic.</Wander_Psychotic.beginLetter>
+  <!-- EN: daze -->
+  <Wander_Psychotic.beginLetterLabel>atordit</Wander_Psychotic.beginLetterLabel>
+  <!-- EN: {0} is no longer wandering in a psychotic state. -->
+  <Wander_Psychotic.recoveryMessage>{0} ja no volta en estat psicòtic.</Wander_Psychotic.recoveryMessage>
+  
+  <!-- EN: sad wandering -->
+  <Wander_Sad.label>passeja melancòlicament</Wander_Sad.label>
+  <!-- EN: Mental state: Sad wandering -->
+  <Wander_Sad.baseInspectLine>Estat mental: passeig melancòlic</Wander_Sad.baseInspectLine>
+  <!-- EN: {0} has broken down and is wandering around in sadness. -->
+  <Wander_Sad.beginLetter>{0} passeja amb el cap cot i sospirant de tant en tant.</Wander_Sad.beginLetter>
+  <!-- EN: sad wander -->
+  <Wander_Sad.beginLetterLabel>passeig melancòlic</Wander_Sad.beginLetterLabel>
+  <!-- EN: {0} is no longer wandering in sadness. -->
+  <Wander_Sad.recoveryMessage>{0} ja no passeja melancòlicament.</Wander_Sad.recoveryMessage>
+  
 </LanguageData>

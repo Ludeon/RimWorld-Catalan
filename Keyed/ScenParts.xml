@@ -1,45 +1,66 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- ======================== Non-grouped ========================-->
   
+  <!-- EN: Your faction will be a {0}. -->
   <ScenPart_PlayerFaction>La vostra facció serà {0}.</ScenPart_PlayerFaction>
 
+  <!-- EN: Start with {0} people, chosen from {1}. -->
   <ScenPart_StartWithPawns>Comença amb {0} colons, escollits entre {1}.</ScenPart_StartWithPawns>
+  <!-- EN: chosen from -->
   <ScenPart_StartWithPawns_OutOf>escollits entre</ScenPart_StartWithPawns_OutOf>
+  <!-- EN: random pet -->
   <RandomPet>mascota aleatòria</RandomPet>
 
+  <!-- EN: Start with research: {0} -->
   <ScenPart_StartingResearchFinished>Comença coneixent: {0}</ScenPart_StartingResearchFinished>
   
+  <!-- EN: Arrive in drop pods. -->
   <ScenPart_ArriveInDropPods>Arriba en càpsules d'escapament.</ScenPart_ArriveInDropPods>
 
+  <!-- EN: The stat "{0}" will be universally multiplied by {1}. -->
   <ScenPart_StatFactor>La característica "{0}" es multiplicarà universalment per {1}.</ScenPart_StatFactor>
 
-
   <!-- Pawn modifiers -->
+  <!-- EN: {0} have a {1} chance to start with {2}. -->
   <ScenPart_PawnsHaveHediff>Els {0} tenen una probabilitat del {1} de començar amb {2}.</ScenPart_PawnsHaveHediff>
+  <!-- EN: severity: {0} -->
   <ConfigurableSeverity>severitat: {0}</ConfigurableSeverity>
 
+  <!-- EN: {0} have a {1} chance to have their {2} set between {3} and {4}. -->
   <ScenPart_SetNeed>{0} tenen una probabilitat del {1} de tenir {2} entre {3} i {4}.</ScenPart_SetNeed>
+  <!-- EN: level: {0} -->
   <ConfigurableLevel>nivell: {0}</ConfigurableLevel>
 
+  <!-- EN: {0} have a {1} chance to start with trait: {2} -->
   <ScenPart_PawnsHaveTrait>{0} tenen una probabilitat del {1} de començar amb: {2}</ScenPart_PawnsHaveTrait>
+  <!-- EN: Characters and creatures explode on death ({0}, radius {1}). -->
   <ScenPart_OnPawnDeathExplode>Els personatges i criatures exploten quan moren ({0}, radi {1}).</ScenPart_OnPawnDeathExplode>
+  <!-- EN: {0} start naked. -->
   <ScenPart_PawnsAreNaked>{0} comencen despullats.</ScenPart_PawnsAreNaked>
-
+  
   <!-- Pawn filters -->
+  <!-- EN: Your people will be at least {0} years old. -->
   <ScenPart_StartingPawnAgeMin>Els vostres colons tindran com a mínim {0} anys.</ScenPart_StartingPawnAgeMin>
+  <!-- EN: Your people will be at most {0} years old. -->
   <ScenPart_StartingPawnAgeMax>Els vostres colons tindran com a màxim {0} anys.</ScenPart_StartingPawnAgeMax>
+  <!-- EN: Your people will be between {0} and {1} years old. -->
   <ScenPart_StartingPawnAgeRange>Els vostres personatges tindran entre {0} i {1} anys.</ScenPart_StartingPawnAgeRange>
-
 
   <!-- ======================== Grouped ========================-->
 
+  <!-- EN: Start with -->
   <ScenPart_StartWith>Comença amb</ScenPart_StartWith>
+  <!-- EN: Map is scattered with -->
   <ScenPart_MapScatteredWith>Al mapa hi han escampats</ScenPart_MapScatteredWith>
- <ScenPart_PermaGameCondition>Condicions permanents del mapa</ScenPart_PermaGameCondition>
+  <!-- EN: Permanent game condition(s) -->
+  <ScenPart_PermaGameCondition>Condicions permanents del mapa</ScenPart_PermaGameCondition>
+  <!-- EN: Incident(s) disabled -->
   <ScenPart_DisableIncident>Incident deshabilitat</ScenPart_DisableIncident>
+  <!-- EN: Incident created -->
   <ScenPart_CreateIncident>Incident creat</ScenPart_CreateIncident>
+  <!-- EN: Can never build -->
   <ScenPart_DisallowBuilding>No es pot construir</ScenPart_DisallowBuilding>
 
 </LanguageData>

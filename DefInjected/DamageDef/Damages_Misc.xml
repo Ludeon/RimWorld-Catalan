@@ -1,23 +1,39 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Deterioration.label>deteriorament</Deterioration.label>
-  <Deterioration.deathMessage>{0} ha mort.</Deterioration.deathMessage>
-
-  <Mining.label>minant</Mining.label>
-  <Mining.deathMessage>{0} ha mort.</Mining.deathMessage>
-
-  <Rotting.label>podrint-se</Rotting.label>
-  <Rotting.deathMessage>{0} ha mort.</Rotting.deathMessage>
-
-  <Extinguish.label>apagant</Extinguish.label>
-  <Extinguish.deathMessage>{0} ha mort.</Extinguish.deathMessage>
-
+  
+  <!-- EN: bomb -->
   <Bomb.label>bomba</Bomb.label>
+  <!-- EN: {0} has died in an explosion. -->
   <Bomb.deathMessage>{0} ha mort en una explosió.</Bomb.deathMessage>
-
+  
+  <!-- EN: bomb -->
+  <BombSuper.label>TODO</BombSuper.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <BombSuper.deathMessage>TODO</BombSuper.deathMessage>
+  
+  <!-- EN: deterioration -->
+  <Deterioration.label>deteriorament</Deterioration.label>
+  <!-- EN: {0} has been killed. -->
+  <Deterioration.deathMessage>{0} ha mort.</Deterioration.deathMessage>
+  
+  <!-- EN: extinguish -->
+  <Extinguish.label>apagant</Extinguish.label>
+  <!-- EN: {0} has been killed. -->
+  <Extinguish.deathMessage>{0} ha mort.</Extinguish.deathMessage>
+  
+  <!-- EN: mining -->
+  <Mining.label>minant</Mining.label>
+  <!-- EN: {0} has been killed. -->
+  <Mining.deathMessage>{0} ha mort.</Mining.deathMessage>
+  
+  <!-- EN: rotting -->
+  <Rotting.label>podrint-se</Rotting.label>
+  <!-- EN: {0} has been killed. -->
+  <Rotting.deathMessage>{0} ha mort.</Rotting.deathMessage>
+  
+  <!-- EN: smoke -->
   <Smoke.label>fum</Smoke.label>
+  <!-- EN: {0} has been killed. -->
   <Smoke.deathMessage>{0} ha mort.</Smoke.deathMessage>
-
-
+  
 </LanguageData>

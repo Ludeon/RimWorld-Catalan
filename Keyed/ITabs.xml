@@ -1,156 +1,284 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- ITab titles -->
+  <!-- EN: Bills -->
   <TabBills>Programa</TabBills>
+  <!-- EN: Growing -->
   <TabGrowing>Plantació</TabGrowing>
+  <!-- EN: Story -->
   <TabCharacter>Qualitats</TabCharacter>
+  <!-- EN: Training -->
   <TabTraining>Educació</TabTraining>
+  <!-- EN: Prisoner -->
   <TabPrisoner>Presoner</TabPrisoner>
+  <!-- EN: Guest -->
   <TabGuest>Convidat</TabGuest>
+  <!-- EN: Gear -->
   <TabGear>Equipació</TabGear>
+  <!-- EN: Needs -->
   <TabNeeds>Estat</TabNeeds>
+  <!-- EN: Storage -->
   <TabStorage>Magatzem</TabStorage>
+  <!-- EN: Shells -->
   <TabShells>Projectils</TabShells>
+  <!-- EN: Health -->
   <TabHealth>Salut</TabHealth>
+  <!-- EN: Race -->
   <TabRace>Raça</TabRace>
+  <!-- EN: Basics -->
   <TabBasics>Bàsics</TabBasics>
+  <!-- EN: Stats -->
   <TabStats>Estad.</TabStats>
+  <!-- EN: Records -->
   <TabRecords>Registres</TabRecords>
+  <!-- EN: Art -->
   <TabArt>Art</TabArt>
+  <!-- EN: Social -->
   <TabSocial>Social</TabSocial>
+  <!-- EN: Log -->
   <TabLog>Registre</TabLog>
-   <TabFormingCaravan>Caravana</TabFormingCaravan>
-  
-  <!-- Bills tab  -->
-  <AddBill>Afegeix programa</AddBill>
-  <RecipeRequiresSkills>La recepta {0} necessita els coneixements que s'indiquen. No teniu cap colon amb aquests coneixements, així que ningú se'n farà càrreg.</RecipeRequiresSkills>
-  <ReorderBillDownTip>Mou avall</ReorderBillDownTip>
-  <CopyBillTip>Copia al porta-retalls</CopyBillTip>
-  <ClipboardBillNotAvailableHere>El contingut del porta-retalls no es pot enganxar aquí.</ClipboardBillNotAvailableHere>
-  <PasteBillTip>Enganxa</PasteBillTip>
-  <DeleteBillTip>Esborra</DeleteBillTip>
-  <PasteBillTip_LimitReached>no se’n poden afegir més</PasteBillTip_LimitReached>
-  <SuspendBillTip>Suspèn</SuspendBillTip>
-  <ReorderBillUpTip>Mou amunt</ReorderBillUpTip>
-  <MinimumSkill>Coneixement min</MinimumSkill>
-  <SuspendedCaps>SUSPÈS</SuspendedCaps>
-  <BoundWorkerIs>Treballador: {0}</BoundWorkerIs>
-  <PlantVerb>Plantar</PlantVerb>
+  <!-- EN: Caravan -->
+  <TabFormingCaravan>Caravana</TabFormingCaravan>
 
+  <!-- Bills tab  -->
+  <!-- EN: Add bill -->
+  <AddBill>Afegeix programa</AddBill>
+  <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
+  <RecipeRequiresSkills>La recepta {0} necessita els coneixements que s'indiquen. No teniu cap colon amb aquests coneixements, així que ningú se'n farà càrreg.</RecipeRequiresSkills>
+  <!-- EN: Min skill -->
+  <MinimumSkill>Coneixement min</MinimumSkill>
+  <!-- EN: SUSPENDED -->
+  <SuspendedCaps>SUSPÈS</SuspendedCaps>
+  <!-- EN: Worker: {0} -->
+  <BoundWorkerIs>Treballador: {0}</BoundWorkerIs>
+  <!-- EN: Plant -->
+  <PlantVerb>Plantar</PlantVerb>
+  <!-- EN: Copied bill cannot be pasted here. -->
+  <ClipboardBillNotAvailableHere>El contingut del porta-retalls no es pot enganxar aquí.</ClipboardBillNotAvailableHere>
+  <!-- EN: Move up -->
+  <ReorderBillUpTip>Mou amunt</ReorderBillUpTip>
+  <!-- EN: Move down -->
+  <ReorderBillDownTip>Mou avall</ReorderBillDownTip>
+  <!-- EN: Delete -->
+  <DeleteBillTip>Esborra</DeleteBillTip>
+  <!-- EN: Copy to the clipboard -->
+  <CopyBillTip>Copia al porta-retalls</CopyBillTip>
+  <!-- EN: Suspend -->
+  <SuspendBillTip>Suspèn</SuspendBillTip>
+  <!-- EN: Paste -->
+  <PasteBillTip>Enganxa</PasteBillTip>
+  <!-- EN: can't add more -->
+  <PasteBillTip_LimitReached>no se’n poden afegir més</PasteBillTip_LimitReached>
 
   <!-- Guest/prisoner tab -->
+  <!-- EN: Resistance remaining -->
+  <RecruitmentResistance>TODO</RecruitmentResistance>
+  <!-- EN: Recruitment difficulty -->
   <RecruitmentDifficulty>Dificultat de reclutament</RecruitmentDifficulty>
+  <!-- EN: Gets food -->
   <GetsFood>Porta menjar</GetsFood>
+  <!-- EN: Doctors care -->
   <DoctorsCare>Cures mèdiques</DoctorsCare>
+  <!-- EN: Gets medicine -->
   <GetsMedicine>Emprar medicines</GetsMedicine>
+  <!-- EN: Try to recruit -->
   <ShouldTryToRecruit>Provar de reclutar</ShouldTryToRecruit>
+  <!-- EN: Considered guilty (expires in {0}) -->
   <ConsideredGuilty>Considerat culpable (expira en {0})</ConsideredGuilty>
 
-
   <!-- Medical - general -->
+  <!-- EN: Move speed -->
   <MoveSpeed>Velocitat de moviment</MoveSpeed>
+  <!-- EN: Efficiency -->
   <Efficiency>Eficiència</Efficiency>
+  <!-- EN: Part efficiency -->
   <PartEfficiency>Eficiència de la pròtesi</PartEfficiency>
+  <!-- EN: Body part efficiency -->
   <BodyPartEfficiency>Eficiència de la part del cos</BodyPartEfficiency>
+  <!-- EN: Gone -->
   <MissingBodyPart>Fora</MissingBodyPart>
+  <!-- EN: Destroyed -->
   <DestroyedBodyPart>Destrossat</DestroyedBodyPart>
+  <!-- EN: Shattered -->
   <ShatteredBodyPart>Fet a miques</ShatteredBodyPart>
+  <!-- EN: Removed -->
   <RemovedBodyPart>Arrencat</RemovedBodyPart>
+  <!-- EN: Healthy -->
   <Healthy>Saludable</Healthy>
+  <!-- EN: In pain -->
   <InPain>Dolorit</InPain>
+  <!-- EN: Pain -->
   <PainLevel>Dolor</PainLevel>
+  <!-- EN: Injured -->
   <Injured>Ferit</Injured>
-  <NoInjuries>(cap ferida)</NoInjuries>
+  <!-- EN: no health conditions -->
+  <NoHealthConditions>TODO</NoHealthConditions>
+  <!-- EN: Whole body -->
   <WholeBody>Tot el cos</WholeBody>
+  <!-- EN: Data processing -->
   <DataProcessing>Es processen les dades</DataProcessing>
+  <!-- EN: Communication -->
   <Communication>Comunicació</Communication>
+  <!-- EN: Affects -->
   <Affects>Afecta</Affects>
+  <!-- EN: Bleeding -->
   <BleedingRate>Sagna</BleedingRate>
+  <!-- EN: death in {0} -->
   <TimeToDeath>Morirà en {0}</TimeToDeath>
+  <!-- EN: no immediate danger -->
   <WontBleedOutSoon>no hi ha perill immediat</WontBleedOutSoon>
+  <!-- EN: Overview -->
   <HealthOverview>Resum</HealthOverview>
+  <!-- EN: Operations ({0}) -->
   <MedicalOperationsShort>Operacions ({0})</MedicalOperationsShort>
+  <!-- EN: Modifications ({0}) -->
   <MedicalOperationsMechanoidsShort>Modificacions ({0})</MedicalOperationsMechanoidsShort>
+  <!-- EN: Medical operations -->
   <MedicalOperations>Operacions mèdiques</MedicalOperations>
+  <!-- EN: amputate -->
   <Amputate>amputar</Amputate>
+  <!-- EN: harvest -->
   <HarvestOrgan>extreure</HarvestOrgan>
+  <!-- EN: remove -->
   <RemoveOrgan>treure</RemoveOrgan>
+  <!-- EN: memory -->
   <MemoryLower>memòria</MemoryLower>
+  <!-- EN: social interactions -->
   <SocialInteractionsLower>interaccions socials</SocialInteractionsLower>
+  <!-- EN: Hunger rate -->
   <HungerRate>Índex de gana</HungerRate>
+  <!-- EN: Tiredness -->
   <Tiredness>Cansament</Tiredness>
+  <!-- EN: Pain -->
   <PainFactor>Dolor</PainFactor>
+  <!-- EN: Prevents infection -->
   <PreventsInfection>Prevé infeccions</PreventsInfection>
+  <!-- EN: Self-tend -->
   <SelfTend>Auto-cures</SelfTend>
+  <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
   <SelfTendTip>{0} amb auto-cures habilitat intentarà curar-se a si mateix amb un {1} tde l’eficiència normal.</SelfTendTip>
-
+  
   <!-- Medical - Body and activities condition -->
+  <!-- EN: None -->
   <None>Cap</None>
+  <!-- EN: Very poor -->
   <VeryPoor>Molt poc</VeryPoor>
+  <!-- EN: Poor -->
   <Poor>Poc</Poor>
+  <!-- EN: Weakened -->
   <Weakened>Afeblit</Weakened>
+  <!-- EN: OK -->
   <GoodCondition>Bé</GoodCondition>
+  <!-- EN: Enhanced -->
   <Enhanced>Millorat</Enhanced>
+  <!-- EN: Seriously impaired -->
   <SeriouslyImpaired>Seriosament disminuït</SeriouslyImpaired>
+  <!-- EN: Impaired -->
   <Impaired>Disminuït</Impaired>
+  <!-- EN: Slightly impaired -->
   <SlightlyImpaired>Una mica disminuït</SlightlyImpaired>
+  <!-- EN: None -->
   <NoPain>Gens</NoPain>
+  <!-- EN: Little -->
   <LittlePain>Poc</LittlePain>
+  <!-- EN: Medium -->
   <MediumPain>Mitjà</MediumPain>
+  <!-- EN: Severe -->
   <SeverePain>Sever</SeverePain>
+  <!-- EN: Extreme -->
   <ExtremePain>Extrem</ExtremePain>
 
-
-  <!-- Training tab-->
+  <!-- Training tab -->
+  <!-- EN: Trainability -->
   <Trainability>Capacitat d’aprenentatge</Trainability>
+  <!-- EN: Requires trainability {0}. -->
   <CannotTrainNotSmartEnough>Necessita Capacitat d’aprenentatge {0}.</CannotTrainNotSmartEnough>
+  <!-- EN: {0} is too small to train this. -->
   <CannotTrainTooSmall>{0} massa petit per entrenar-ho.</CannotTrainTooSmall>
 
+  <!-- EN: Prerequisite needed: {0} -->
   <TrainingNeedsPrerequisite>Necessita el requisit: {0}</TrainingNeedsPrerequisite>
-
+  
   <!-- Social tab -->
+  <!-- EN: (no relationships) -->
   <NoRelationships>(cap relació)</NoRelationships>
+  <!-- EN: Kidnapped -->
   <Kidnapped>Segrestat</Kidnapped>
+  <!-- EN: Missing -->
   <Missing>Desaparegut</Missing>
+  <!-- EN: Slave -->
   <Slave>Esclau</Slave>
+  <!-- EN: Faction leader -->
   <FactionLeader>Líder de facció</FactionLeader>
+  <!-- EN: Opinion of {0} -->
   <OpinionOf>Opinió de {0}</OpinionOf>
+  <!-- EN: {0}'s opinion of me -->
   <SomeonesOpinionOfMe>Que opina{0} de mi</SomeonesOpinionOfMe>
+  <!-- EN: I'm dead -->
   <IAmDead>Estic mort</IAmDead>
+  <!-- EN: I'm a psychopath -->
   <IAmPsychopath>Sóc un psicòpata</IAmPsychopath>
-
+  
   <!-- Gear tab -->
+  <!-- EN: Overall armor -->
   <OverallArmor>Armadura total</OverallArmor>
+  <!-- EN: Mass carried: {0} / {1} kg -->
   <MassCarried>Pes que porta: {0} / {1} kg</MassCarried>
+  <!-- EN: Comfortable temperature range -->
   <ComfyTemperatureRange>Rang de temperatura de comfort</ComfyTemperatureRange>
+  <!-- EN: Blunt -->
   <ArmorBlunt>Cops</ArmorBlunt>
+  <!-- EN: Sharp -->
   <ArmorSharp>Talls</ArmorSharp>
+  <!-- EN: Heat -->
   <ArmorHeat>Calor</ArmorHeat>
-
+  
   <!-- Log tab -->
+  <!-- EN: Show all -->
   <ShowAll>Tot</ShowAll>
+  <!-- EN: Show combat -->
   <ShowCombat>Combat</ShowCombat>
+  <!-- EN: Show social -->
   <ShowSocial>Social</ShowSocial>
+  <!-- EN: no recent entries -->
   <NoRecentEntries>Cap entrada recent</NoRecentEntries>
+  <!-- EN: Copy log to the clipboard. -->
   <CopyLogTip>Copia el registre al porta-retalls.</CopyLogTip>
 
   <!-- Forming caravan tab -->
+  <!-- EN: Gathering animals -->
   <FormingCaravanStatus_GatheringAnimals>Agrupa animals</FormingCaravanStatus_GatheringAnimals>
+  <!-- EN: Gathering animals (waiting) -->
   <FormingCaravanStatus_GatheringAnimals_Pause>Agrupa animals (en pausa)</FormingCaravanStatus_GatheringAnimals_Pause>
+  <!-- EN: Gathering items -->
   <FormingCaravanStatus_GatheringItems>Recull materials</FormingCaravanStatus_GatheringItems>
+  <!-- EN: Gathering items (waiting) -->
   <FormingCaravanStatus_GatheringItems_Pause>Recull materials (en pausa)</FormingCaravanStatus_GatheringItems_Pause>
+  <!-- EN: Gathering slaves -->
   <FormingCaravanStatus_GatheringSlaves>Reunint esclaus</FormingCaravanStatus_GatheringSlaves>
+  <!-- EN: Gathering slaves (waiting) -->
   <FormingCaravanStatus_GatheringSlaves_Pause>Reunint esclaus (en pausa)</FormingCaravanStatus_GatheringSlaves_Pause>
+  <!-- EN: Leaving -->
   <FormingCaravanStatus_Leaving>Marxa</FormingCaravanStatus_Leaving>
+  <!-- EN: Leaving (waiting) -->
   <FormingCaravanStatus_Leaving_Pause>Marxa(en pausa)</FormingCaravanStatus_Leaving_Pause>
+  <!-- EN: Waiting -->
   <FormingCaravanStatus_Waiting>Espera</FormingCaravanStatus_Waiting>
+  <!-- EN: Members -->
   <CaravanMembers>Membres</CaravanMembers>
+  <!-- EN: Animals -->
   <CaravanAnimals>Animals</CaravanAnimals>
+  <!-- EN: Items to load -->
   <ItemsToLoad>Objectes per carregar</ItemsToLoad>
+  <!-- EN: Loaded items -->
   <LoadedItems>Objectes carregats</LoadedItems>
+  <!-- EN: pack animals -->
   <PackAnimalsCountLower>animals de càrrega</PackAnimalsCountLower>
+  <!-- EN: mentally broken -->
   <InMentalStateCountLower>crisi mental</InMentalStateCountLower>
 
+  <!-- UNUSED -->
+  <NoInjuries>(cap ferida)</NoInjuries>
 
 </LanguageData>

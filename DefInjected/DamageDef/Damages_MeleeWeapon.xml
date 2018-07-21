@@ -1,32 +1,44 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Cut.label>tall</Cut.label>
-  <Cut.deathMessage>{0} ha sofert talls fins a morir.</Cut.deathMessage>
-
-  <Crush.label>esclafament</Crush.label>
-  <Crush.deathMessage>{0} ha sofert esclafament fins a morir.</Crush.deathMessage>
-
-  <Blunt.label>cop</Blunt.label>
-  <Blunt.deathMessage>{0} ha sofert cops fins a morir.</Blunt.deathMessage>>
-
-
-  <!-- Damage types are the same as Blunt, but behaves like stabbing; intended for things like rifle barrels -->
-
-  <Poke.label>cop</Poke.label>
-  <Poke.deathMessage>{0} ha sofert cops fins a morir.</Poke.deathMessage>
-
-  <Stab.label>ganivetada</Stab.label>
-  <Stab.deathMessage>{0} ha sofert ganivetades fins a morir.</Stab.deathMessage>
-
-  <Scratch.label>esgarrapada</Scratch.label>
-  <Scratch.deathMessage>{0} ha rebut esgarrapades fins a morir.</Scratch.deathMessage>
-
+  
+  <!-- EN: bite -->
   <Bite.label>mossegada</Bite.label>
-  <Bite.deathMessage>{0} ha rebut mossegades fins a morir.</Bite.deathMessage>>
-
+  <!-- EN: {0} has been bitten to death. -->
+  <Bite.deathMessage>{0} ha rebut mossegades fins a morir.</Bite.deathMessage>
+  
+  <!-- EN: blunt -->
+  <Blunt.label>cop</Blunt.label>
+  <!-- EN: {0} has been beaten to death. -->
+  <Blunt.deathMessage>{0} ha sofert cops fins a morir.</Blunt.deathMessage>
+  
+  <!-- EN: crush -->
+  <Crush.label>esclafament</Crush.label>
+  <!-- EN: {0} has been crushed to death. -->
+  <Crush.deathMessage>{0} ha sofert esclafament fins a morir.</Crush.deathMessage>
+  
+  <!-- EN: cut -->
+  <Cut.label>tall</Cut.label>
+  <!-- EN: {0} has been cut to death. -->
+  <Cut.deathMessage>{0} ha sofert talls fins a morir.</Cut.deathMessage>
+  
+  <!-- EN: blunt -->
+  <Poke.label>cop</Poke.label>
+  <!-- EN: {0} has been beaten to death. -->
+  <Poke.deathMessage>{0} ha sofert cops fins a morir.</Poke.deathMessage>
+  
+  <!-- EN: scratch -->
+  <Scratch.label>esgarrapada</Scratch.label>
+  <!-- EN: {0} has been torn to death. -->
+  <Scratch.deathMessage>{0} ha rebut esgarrapades fins a morir.</Scratch.deathMessage>
+  
+  <!-- EN: stab -->
+  <Stab.label>ganivetada</Stab.label>
+  <!-- EN: {0} has been stabbed to death. -->
+  <Stab.deathMessage>{0} ha sofert ganivetades fins a morir.</Stab.deathMessage>
+  
+  <!-- EN: toxic bite -->
   <ToxicBite.label>mossegada verinosa</ToxicBite.label>
+  <!-- EN: {0} has been bitten to death. -->
   <ToxicBite.deathMessage>{0} ha rebut mossegades fins a morir.</ToxicBite.deathMessage>
-
-
+  
 </LanguageData>

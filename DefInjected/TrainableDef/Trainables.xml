@@ -1,17 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Obedience.label>obeir</Obedience.label>
-  <Obedience.description>L'animal es pot assignar a un amo a qui seguirà i defensarà.</Obedience.description>
-
-  <Release.label>alliberar</Release.label>
-  <Release.description>L'animal es pot alliberar per a atacar a objectius llunyants en comptes de només defensar a l'amo.</Release.description>
-
-  <Rescue.label>rescatar</Rescue.label>
-  <Rescue.description>L'animal rescatarà els aliats ferits i els portarà a un lloc segur.</Rescue.description>
-
+  
+  <!-- EN: haul -->
   <Haul.label>recollir</Haul.label>
+  <!-- EN: The animal will randomly haul items from time to time (though it can't be directed to haul specific items). -->
   <Haul.description>L'animal recollirà objectes de forma aleatòria de tant en tant (no es pot seleccionar els tipus d'objectes concrets).</Haul.description>
-
-
+  
+  <!-- EN: obedience -->
+  <Obedience.label>obeir</Obedience.label>
+  <!-- EN: The animal can be assigned a master who it will follow and defend. -->
+  <Obedience.description>L'animal es pot assignar a un amo a qui seguirà i defensarà.</Obedience.description>
+  
+  <!-- EN: release -->
+  <Release.label>alliberar</Release.label>
+  <!-- EN: The animal can be released to attack distant targets instead of just defending its master. -->
+  <Release.description>L'animal es pot alliberar per a atacar a objectius llunyants en comptes de només defensar a l'amo.</Release.description>
+  
+  <!-- EN: rescue -->
+  <Rescue.label>rescatar</Rescue.label>
+  <!-- EN: The animal will rescue wounded allies and drag them to safety. -->
+  <Rescue.description>L'animal rescatarà els aliats ferits i els portarà a un lloc segur.</Rescue.description>
+  
+  <!-- EN: tameness -->
+  <Tameness.label>TODO</Tameness.label>
+  <!-- EN: The animal can learn to consider itself a member of your colony. -->
+  <Tameness.description>TODO</Tameness.description>
+  
 </LanguageData>

@@ -1,26 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Doors -->
-
-  <Door.label>porta</Door.label>
-  <Door.description>Divideix les cambres. S'han d'obrir i tancar manualment, amb la qual cosa alenteix la gent.</Door.description>
-  <Door_Blueprint.label>porta (projecte)</Door_Blueprint.label>
-  <Door_Frame.label>porta (en construcció)</Door_Frame.label>
-  <Door_Frame.description>Divideix les cambres. S'han d'obrir i tancar manualment, amb la qual cosa alenteix la gent.</Door_Frame.description>
-
+  
+  <!-- EN: autodoor -->
   <Autodoor.label>porta automàtica</Autodoor.label>
+  <!-- EN: Divides rooms. Powered operation allows people to move through the door without slowing down. -->
   <Autodoor.description>Divideix les cambres. Si té corrent, permet la gent travessar la porta sense alentir-se.</Autodoor.description>
-  <Autodoor_Blueprint.label>porta automàtica (projecte)</Autodoor_Blueprint.label>
-  <Autodoor_Frame.label>porta automàtica (en construcció)</Autodoor_Frame.label>
-<Autodoor_Frame.description>Divideix les cambres. Si té corrent, permet la gent travessar la porta sense alentir-se.</Autodoor_Frame.description>
-
-  <!-- Walls -->
-
+  
+  <!-- EN: door -->
+  <Door.label>porta</Door.label>
+  <!-- EN: Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of. -->
+  <Door.description>Divideix les cambres. S'han d'obrir i tancar manualment, amb la qual cosa alenteix la gent.</Door.description>
+  
+  <!-- EN: wall -->
   <Wall.label>paret</Wall.label>
+  <!-- EN: An impassable wall. Capable of holding up a roof. -->
   <Wall.description>Una paret infranquejable. Pot sostenir una teulada.</Wall.description>
-  <Wall_Blueprint.label>paret (projecte)</Wall_Blueprint.label>
-  <Wall_Frame.label>paret (en construcció)</Wall_Frame.label>
-  <Wall_Frame.description>Una paret infranquejable. Pot sostenir una teulada.</Wall_Frame.description>
-
+  
 </LanguageData>

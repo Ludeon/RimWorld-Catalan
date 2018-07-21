@@ -1,40 +1,37 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Cobra.label>cobra</Cobra.label>
-  <Cobra.description>Una gran serp. Les cobres poden ser molt agresives si són provocades. Millor mantenir-se'n allunyat.</Cobra.description>
-  <Cobra.tools.1.label>cap</Cobra.tools.1.label>
-  <Cobra_Leather.label>pell de cobra</Cobra_Leather.label>
-  <Cobra_Leather.description>pell de cobra</Cobra_Leather.description>
-  <Cobra_Leather.stuffProps.stuffAdjective>pell de cobra</Cobra_Leather.stuffProps.stuffAdjective>
-  <Cobra_Meat.label>carn de cobra</Cobra_Meat.label>
-  <Cobra_Meat.description>carn de cobra</Cobra_Meat.description>
-  <Cobra_Corpse.label>cobra morta</Cobra_Corpse.label>
-  <Cobra_Corpse.description>cobra morta</Cobra_Corpse.description>
-
-  <Monkey.label>mico</Monkey.label>
-  <Monkey.description>El mico fa servir la seva cua prènsil per agafar-se a les branques, mantenint les mans lliures per fer altres coses.</Monkey.description>
-  <Monkey_Leather.label>pell de mico</Monkey_Leather.label>
-  <Monkey.tools.0.label>puny esquerra</Monkey.tools.0.label>
-  <Monkey.tools.1.label>puny dret</Monkey.tools.1.label>
-  <Monkey.tools.3.label>cap</Monkey.tools.3.label>
-  <Monkey_Leather.description>pell de mico</Monkey_Leather.description>
-  <Monkey_Leather.stuffProps.stuffAdjective>pell de mico</Monkey_Leather.stuffProps.stuffAdjective>
-  <Monkey_Meat.label>carn de mico</Monkey_Meat.label>
-  <Monkey_Meat.description>carn de mico</Monkey_Meat.description>
-  <Monkey_Corpse.label>mico mort</Monkey_Corpse.label>
-  <Monkey_Corpse.description>mico mort</Monkey_Corpse.description>
-
+  
+  <!-- EN: boomalope -->
   <Boomalope.label>gambadabum</Boomalope.label>
+  <!-- EN: Engineered for chemicals production, the boomalope grows a large sac of volatile chemicals on its back. Though it is weak and fragile for its size, other animals have learned to avoid it because of the huge explosion it produces when it dies. It can be milked to produce chemfuel - very carefully. -->
   <Boomalope.description>Dissenyat per a la producció de compostos químics, els gambadabum fan un gran sac de productes volàtils a l'esquena. Tot i semblar dèbils i fràgils per la seva mida, els altres animals han après a evitar-los per la gran explosió que provoquen quan moren.</Boomalope.description>
-  <Boomalope.tools.0.label>cap</Boomalope.tools.0.label>
-  <Boomalope_Leather.label>cuir de gambadabum</Boomalope_Leather.label>
-  <Boomalope_Leather.description>cuir de gambadabum</Boomalope_Leather.description>
-  <Boomalope_Leather.stuffProps.stuffAdjective>cuir de gambadabum</Boomalope_Leather.stuffProps.stuffAdjective>
-  <Boomalope_Meat.label>carn de gambadabum</Boomalope_Meat.label>
-  <Boomalope_Meat.description>carn de gambadabum</Boomalope_Meat.description>
-  <Boomalope_Corpse.label>gambadabum mort</Boomalope_Corpse.label>
-  <Boomalope_Corpse.description>gambadabum mort</Boomalope_Corpse.description>
-
-
+  <!-- EN: head -->
+  <Boomalope.tools.head.label>cap</Boomalope.tools.head.label>
+  <!-- EN: left hoof -->
+  <Boomalope.tools.left_hoof.label>TODO</Boomalope.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <Boomalope.tools.right_hoof.label>TODO</Boomalope.tools.right_hoof.label>
+  
+  <!-- EN: cobra -->
+  <Cobra.label>cobra</Cobra.label>
+  <!-- EN: A large predatory snake. Cobras can be highly aggressive if provoked, and their bite injects toxic venom into the victim. -->
+  <Cobra.description>Una gran serp. Les cobres poden ser molt agresives si són provocades. Millor mantenir-se'n allunyat.</Cobra.description>
+  <!-- EN: cobraflesh -->
+  <Cobra.race.meatLabel>TODO</Cobra.race.meatLabel>
+  <!-- EN: venom-fangs -->
+  <Cobra.tools.venomfangs.label>TODO</Cobra.tools.venomfangs.label>
+  <!-- EN: head -->
+  <Cobra.tools.head.label>cap</Cobra.tools.head.label>
+  
+  <!-- EN: monkey -->
+  <Monkey.label>mico</Monkey.label>
+  <!-- EN: A small primate, the monkey can use its curly tail to grab on to branches, leaving its hands free to do other things. Monkeys are selfish but clever, and can be trained to carry out fairly complex tasks. -->
+  <Monkey.description>El mico fa servir la seva cua prènsil per agafar-se a les branques, mantenint les mans lliures per fer altres coses.</Monkey.description>
+  <!-- EN: left fist -->
+  <Monkey.tools.left_fist.label>puny esquerra</Monkey.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Monkey.tools.right_fist.label>puny dret</Monkey.tools.right_fist.label>
+  <!-- EN: head -->
+  <Monkey.tools.head.label>cap</Monkey.tools.head.label>
+  
 </LanguageData>

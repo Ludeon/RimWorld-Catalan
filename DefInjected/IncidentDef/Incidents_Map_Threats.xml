@@ -1,34 +1,44 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Big threats -->
-
-  <RaidEnemy.label>raid enemic</RaidEnemy.label>
-
-  <Infestation.label>infestació</Infestation.label>
-  <Infestation.letterText>Ha sortit un niu d'insectes!\n\nN'aniran sortit de mica en mica i produirà altres nius. Si no vols que s'infesti tota la zona, l'haureu de destruir. Però aneu amb compte: els insectes defensaran els nius.</Infestation.letterText>
-  <Infestation.letterLabel>Infestació</Infestation.letterLabel>
-
-  <DeepDrillInfestation.label>infestació del perforador</DeepDrillInfestation.label>
-  <DeepDrillInfestation.letterLabel>Massa profund: Infestació</DeepDrillInfestation.letterLabel>
-  <DeepDrillInfestation.letterText>Accidentalment heu perforat un tunel ple d’insectes i ara perforen capa a vosaltres per venjar-se! Alerta – els insectes estan enfadats i intentaran destruir-vos la base.</DeepDrillInfestation.letterText>
-
-  <ManhunterPack.label>grup de caçapersones</ManhunterPack.label>
-
-  <PsychicEmanatorShipPartCrash.label>S'ha estavellat un tros de nau (psíquica)</PsychicEmanatorShipPartCrash.label>
-  <PsychicEmanatorShipPartCrash.letterText>Un gran tros d'una antiga nau s'ha estavellat a prop d'aquí.\n\nEls colons ho poden notar al fons del cervell, i se senten empesos a actes inexplicables. Deu tenir una IA amb l'habilitat de fer projeccions psíquiques. I no és una IA amiga.\n\nDestruïu-la tan aviat com pugueu.</PsychicEmanatorShipPartCrash.letterText>
-  <PsychicEmanatorShipPartCrash.letterLabel>Nau psíquica</PsychicEmanatorShipPartCrash.letterLabel>
-
-  <PoisonShipPartCrash.label>S'ha estavellat un tros de nau (verinosa)</PoisonShipPartCrash.label>
-  <PoisonShipPartCrash.letterLabel>Nau verinosa</PoisonShipPartCrash.letterLabel>
-  <PoisonShipPartCrash.letterText>Un gran tros d'una antiga nau s'ha estavellat a prop d'aquí.\n\nVessa material tòxic i matarà totes les plantes en un radi cada cop més gran.\n\nDestruïu-la tan aviat com pugueu.</PoisonShipPartCrash.letterText>
-
+  
+  <!-- EN: mass animal insanity -->
   <AnimalInsanityMass.label>desequilibri mental animal massiu</AnimalInsanityMass.label>
-
-
-  <!-- Small threats -->
-
-   <AnimalInsanitySingle.label>desequilibri mental d'un animal</AnimalInsanitySingle.label>
-
-
+  
+  <!-- EN: single animal insanity -->
+  <AnimalInsanitySingle.label>desequilibri mental d'un animal</AnimalInsanitySingle.label>
+  
+  <!-- EN: deep drill infestation -->
+  <DeepDrillInfestation.label>infestació del perforador</DeepDrillInfestation.label>
+  <!-- EN: Too deep: Infestation -->
+  <DeepDrillInfestation.letterLabel>Massa profund: Infestació</DeepDrillInfestation.letterLabel>
+  <!-- EN: Vibrations from your deep drills have angered some underground insects. Now they're tunneling upwards to seek revenge!\n\nBeware - the insects have been angered and will try to destroy your base. -->
+  <DeepDrillInfestation.letterText>Accidentalment heu perforat un tunel ple d’insectes i ara perforen capa a vosaltres per venjar-se! Alerta – els insectes estan enfadats i intentaran destruir-vos la base.</DeepDrillInfestation.letterText>
+  
+  <!-- EN: infestation -->
+  <Infestation.label>infestació</Infestation.label>
+  <!-- EN: Infestation -->
+  <Infestation.letterLabel>Infestació</Infestation.letterLabel>
+  <!-- EN: Giant insects are tunneling towards you! They will break through in a few seconds and plant hives.\n\nThe hives will spawn more insects and more hives.\n\nIf you don't want the insects to infest the whole area, destroy the hives. But beware - the bugs will defend their home. -->
+  <Infestation.letterText>Ha sortit un niu d'insectes!\n\nN'aniran sortit de mica en mica i produirà altres nius. Si no vols que s'infesti tota la zona, l'haureu de destruir. Però aneu amb compte: els insectes defensaran els nius.</Infestation.letterText>
+  
+  <!-- EN: manhunter pack -->
+  <ManhunterPack.label>grup de caçapersones</ManhunterPack.label>
+  
+  <!-- EN: ship part crash (poison) -->
+  <PoisonShipPartCrash.label>S'ha estavellat un tros de nau (verinosa)</PoisonShipPartCrash.label>
+  <!-- EN: Poison ship -->
+  <PoisonShipPartCrash.letterLabel>Nau verinosa</PoisonShipPartCrash.letterLabel>
+  <!-- EN: A large piece of an ancient ship has crashed nearby.\n\nIt's mysterious influence will kill all plants in an expanding circle around itself.\n\nDestroy it as soon as possible. But beware - it will probably defend itself. -->
+  <PoisonShipPartCrash.letterText>Un gran tros d'una antiga nau s'ha estavellat a prop d'aquí.\n\nVessa material tòxic i matarà totes les plantes en un radi cada cop més gran.\n\nDestruïu-la tan aviat com pugueu.</PoisonShipPartCrash.letterText>
+  
+  <!-- EN: ship part crash (psychic) -->
+  <PsychicEmanatorShipPartCrash.label>S'ha estavellat un tros de nau (psíquica)</PsychicEmanatorShipPartCrash.label>
+  <!-- EN: Psychic ship -->
+  <PsychicEmanatorShipPartCrash.letterLabel>Nau psíquica</PsychicEmanatorShipPartCrash.letterLabel>
+  <!-- EN: A large piece of an ancient ship has crashed nearby.\n\nYour colonists can feel it in the back of their mind, exhorting unspeakable acts. It must have an onboard AI persona with psychic projection ability. And this AI is not friendly.\n\nDestroy it as soon as possible. But beware - it will probably defend itself. -->
+  <PsychicEmanatorShipPartCrash.letterText>Un gran tros d'una antiga nau s'ha estavellat a prop d'aquí.\n\nEls colons ho poden notar al fons del cervell, i se senten empesos a actes inexplicables. Deu tenir una IA amb l'habilitat de fer projeccions psíquiques. I no és una IA amiga.\n\nDestruïu-la tan aviat com pugueu.</PsychicEmanatorShipPartCrash.letterText>
+  
+  <!-- EN: enemy raid -->
+  <RaidEnemy.label>raid enemic</RaidEnemy.label>
+  
 </LanguageData>

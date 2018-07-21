@@ -1,49 +1,113 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- affecting opinion -->
-
-  <Affair.stages.0.label>aventura</Affair.stages.0.label>
-  <Incestuous.stages.0.label>incest</Incestuous.stages.0.label>
-  <Disfigured.stages.0.label>desfiguració</Disfigured.stages.0.label>
-  <HardWorkerVsLazy.stages.0.label>treballador contra gandul</HardWorkerVsLazy.stages.0.label>
-  <TeetotalerVsChemicalInterest.stages.0.label>abstèmia contra interès en química</TeetotalerVsChemicalInterest.stages.0.label>
-  <TeetotalerVsAddict.stages.0.label>abstèmia contra addicte</TeetotalerVsAddict.stages.0.label>
-  <ChemicalInterestVsTeetotaler.stages.0.label>interés químic contra abstèmia</ChemicalInterestVsTeetotaler.stages.0.label>
-  <Drunk.stages.0.label>borratxera</Drunk.stages.0.label>
-
-  <Pretty.stages.0.label>bellesa</Pretty.stages.0.label>
-  <Pretty.stages.1.label>preciositat</Pretty.stages.1.label>
-
-  <Ugly.stages.0.label>lletjor</Ugly.stages.0.label>
-  <Ugly.stages.1.label>lletjor impactant</Ugly.stages.1.label>
-
-  <AnnoyingVoice.stages.0.label>veu molesta</AnnoyingVoice.stages.0.label>
-  <CreepyBreathing.stages.0.label>respiració esgarrifosa</CreepyBreathing.stages.0.label>
-  <Man.stages.0.label>home</Man.stages.0.label>
-  <Woman.stages.0.label>dona</Woman.stages.0.label>
-  <ButcheredHumanlikeCorpseOpinion.stages.0.label>humà escorxat</ButcheredHumanlikeCorpseOpinion.stages.0.label>
-  <AteRawHumanlikeMeat.stages.0.label>menjar carn humana crua</AteRawHumanlikeMeat.stages.0.label>
-  <SoldPrisoner.stages.0.label>presoner venut a l'esclavatge</SoldPrisoner.stages.0.label>
-  <ExecutedPrisoner.stages.0.label>presoner executat</ExecutedPrisoner.stages.0.label>
-  <KilledColonist.stages.0.label>colon assassinat</KilledColonist.stages.0.label>
-  <KilledColonyAnimal.stages.0.label>animal de la colònia assassinat</KilledColonyAnimal.stages.0.label>
+  
+  <!-- EN: affair -->
+  <Affair.stages.affair.label>aventura</Affair.stages.affair.label>
+  
+  <!-- EN: annoying voice -->
+  <AnnoyingVoice.stages.annoying_voice.label>veu molesta</AnnoyingVoice.stages.annoying_voice.label>
+  
+  <!-- EN: ate raw humanlike meat -->
+  <AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>menjar carn humana crua</AteRawHumanlikeMeat.stages.ate_raw_humanlike_meat.label>
+  
+  <!-- EN: body purist disgust -->
+  <BodyPuristDisgust.stages.body_purist_disgust-0.label>TODO</BodyPuristDisgust.stages.body_purist_disgust-0.label>
+  <!-- EN: body purist disgust -->
+  <BodyPuristDisgust.stages.body_purist_disgust-1.label>TODO</BodyPuristDisgust.stages.body_purist_disgust-1.label>
+  <!-- EN: body purist disgust -->
+  <BodyPuristDisgust.stages.body_purist_disgust-2.label>TODO</BodyPuristDisgust.stages.body_purist_disgust-2.label>
+  <!-- EN: body purist disgust -->
+  <BodyPuristDisgust.stages.body_purist_disgust-3.label>TODO</BodyPuristDisgust.stages.body_purist_disgust-3.label>
+  <!-- EN: body purist disgust -->
+  <BodyPuristDisgust.stages.body_purist_disgust-4.label>TODO</BodyPuristDisgust.stages.body_purist_disgust-4.label>
+  
+  <!-- EN: {0}'s master -->
+  <BondedAnimalMaster.stages.s_master.label>a càrrec de {0}</BondedAnimalMaster.stages.s_master.label>
+  <!-- EN: Being together with my bonded animal makes me feel better. -->
+  <BondedAnimalMaster.stages.s_master.description>Estar amb el meu animal amb lligam em fa sentir millor.</BondedAnimalMaster.stages.s_master.description>
+  
+  <!-- EN: butchered humanlike corpse -->
+  <ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>humà escorxat</ButcheredHumanlikeCorpseOpinion.stages.butchered_humanlike_corpse.label>
+  
+  <!-- EN: chemical interest vs teetotaler -->
+  <ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.label>interés químic contra abstèmia</ChemicalInterestVsTeetotaler.stages.chemical_interest_vs_teetotaler.label>
+  
+  <!-- EN: creepy breathing -->
+  <CreepyBreathing.stages.creepy_breathing.label>respiració esgarrifosa</CreepyBreathing.stages.creepy_breathing.label>
+  
+  <!-- EN: disfigured -->
+  <Disfigured.stages.disfigured.label>desfiguració</Disfigured.stages.disfigured.label>
+  
+  <!-- EN: drunk -->
+  <Drunk.stages.drunk.label>borratxera</Drunk.stages.drunk.label>
+  
+  <!-- EN: executed prisoner -->
+  <ExecutedPrisoner.stages.executed_prisoner.label>presoner executat</ExecutedPrisoner.stages.executed_prisoner.label>
+  
+  <!-- EN: hard worker vs lazy -->
+  <HardWorkerVsLazy.stages.hard_worker_vs_lazy.label>treballador contra gandul</HardWorkerVsLazy.stages.hard_worker_vs_lazy.label>
+  
+  <!-- EN: incestuous -->
+  <Incestuous.stages.incestuous.label>incest</Incestuous.stages.incestuous.label>
+  
+  <!-- EN: killed colonist -->
+  <KilledColonist.stages.killed_colonist.label>colon assassinat</KilledColonist.stages.killed_colonist.label>
+  
+  <!-- EN: killed colony animal -->
+  <KilledColonyAnimal.stages.killed_colony_animal.label>animal de la colònia assassinat</KilledColonyAnimal.stages.killed_colony_animal.label>
+  
+  <!-- UNUSED -->
   <KilledMajorColonyEnemy.stages.0.label>mort de gran enemic</KilledMajorColonyEnemy.stages.0.label>
-
-
-  <!-- affecting mood -->
-
-  <OpinionOfMyLover.stages.0.label>opinió de {0} {1}</OpinionOfMyLover.stages.0.label>
-  <OpinionOfMyLover.stages.0.description>Estar amb el meu amor em fa sentir així.</OpinionOfMyLover.stages.0.description>
-
-  <BondedAnimalMaster.stages.0.label>a càrrec de {0}</BondedAnimalMaster.stages.0.label>
-  <BondedAnimalMaster.stages.0.description>Estar amb el meu animal amb lligam em fa sentir millor.</BondedAnimalMaster.stages.0.description>
-
-  <NotBondedAnimalMaster.stages.0.label>no està a càrrec de {0}</NotBondedAnimalMaster.stages.0.label>
-  <NotBondedAnimalMaster.stages.0.description>Hauria d'estar amb el meu animal amb lligam.</NotBondedAnimalMaster.stages.0.description>
-
-  <WantToSleepWithSpouseOrLover.stages.0.label>vull dormir amb {0}</WantToSleepWithSpouseOrLover.stages.0.label>
-  <WantToSleepWithSpouseOrLover.stages.0.description>No m'agrada dormir separat del meu amor.</WantToSleepWithSpouseOrLover.stages.0.description>
-
-
+  
+  <!-- EN: man -->
+  <Man.stages.man.label>home</Man.stages.man.label>
+  
+  <!-- EN: not {0}'s master -->
+  <NotBondedAnimalMaster.stages.not_s_master.label>no està a càrrec de {0}</NotBondedAnimalMaster.stages.not_s_master.label>
+  <!-- EN: I should be together with my bonded animal. -->
+  <NotBondedAnimalMaster.stages.not_s_master.description>Hauria d'estar amb el meu animal amb lligam.</NotBondedAnimalMaster.stages.not_s_master.description>
+  
+  <!-- EN: opinion of my {0} {1} -->
+  <OpinionOfMyLover.stages.opinion_of_my.label>opinió de {0} {1}</OpinionOfMyLover.stages.opinion_of_my.label>
+  <!-- EN: Being with my lover makes me feel this way. -->
+  <OpinionOfMyLover.stages.opinion_of_my.description>Estar amb el meu amor em fa sentir així.</OpinionOfMyLover.stages.opinion_of_my.description>
+  
+  <!-- EN: pretty -->
+  <Pretty.stages.pretty.label>bellesa</Pretty.stages.pretty.label>
+  <!-- EN: beautiful -->
+  <Pretty.stages.beautiful.label>preciositat</Pretty.stages.beautiful.label>
+  
+  <!-- EN: sold prisoner to slavery -->
+  <SoldPrisoner.stages.sold_prisoner_to_slavery.label>presoner venut a l'esclavatge</SoldPrisoner.stages.sold_prisoner_to_slavery.label>
+  
+  <!-- EN: teetotaler vs addict -->
+  <TeetotalerVsAddict.stages.teetotaler_vs_addict.label>abstèmia contra addicte</TeetotalerVsAddict.stages.teetotaler_vs_addict.label>
+  
+  <!-- EN: teetotaler vs chemical interest -->
+  <TeetotalerVsChemicalInterest.stages.teetotaler_vs_chemical_interest.label>abstèmia contra interès en química</TeetotalerVsChemicalInterest.stages.teetotaler_vs_chemical_interest.label>
+  
+  <!-- EN: transhumanist appreciation -->
+  <TranshumanistAppreciation.stages.transhumanist_appreciation-0.label>TODO</TranshumanistAppreciation.stages.transhumanist_appreciation-0.label>
+  <!-- EN: transhumanist appreciation -->
+  <TranshumanistAppreciation.stages.transhumanist_appreciation-1.label>TODO</TranshumanistAppreciation.stages.transhumanist_appreciation-1.label>
+  <!-- EN: transhumanist appreciation -->
+  <TranshumanistAppreciation.stages.transhumanist_appreciation-2.label>TODO</TranshumanistAppreciation.stages.transhumanist_appreciation-2.label>
+  <!-- EN: transhumanist appreciation -->
+  <TranshumanistAppreciation.stages.transhumanist_appreciation-3.label>TODO</TranshumanistAppreciation.stages.transhumanist_appreciation-3.label>
+  <!-- EN: transhumanist appreciation -->
+  <TranshumanistAppreciation.stages.transhumanist_appreciation-4.label>TODO</TranshumanistAppreciation.stages.transhumanist_appreciation-4.label>
+  
+  <!-- EN: ugly -->
+  <Ugly.stages.ugly.label>lletjor</Ugly.stages.ugly.label>
+  <!-- EN: staggeringly ugly -->
+  <Ugly.stages.staggeringly_ugly.label>lletjor impactant</Ugly.stages.staggeringly_ugly.label>
+  
+  <!-- EN: want to sleep with {0} -->
+  <WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.label>vull dormir amb {0}</WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.label>
+  <!-- EN: I don't like sleeping apart from my partner. -->
+  <WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.description>No m'agrada dormir separat del meu amor.</WantToSleepWithSpouseOrLover.stages.want_to_sleep_with.description>
+  
+  <!-- EN: woman -->
+  <Woman.stages.woman.label>dona</Woman.stages.woman.label>
+  
 </LanguageData>

@@ -1,83 +1,155 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <LaunchedShip.label>llançament de nau</LaunchedShip.label>
-	<LaunchedShip.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] fugint del planeta</li>
-		<li>tale_noun->[pawn_nameShortDef] enlairant-se en una nau espacial</li>
-		<li>image->[pawn_nameFull] sent enviat cap a les estrelles [circumstance_group]</li>
-		<li>image->[pawn_nameFull] en una cursa cap al cel [circumstance_group]</li>
-		<li>image->[pawn_nameFull] accelerant fins a la velocitat d’enlairament [circumstance_group]</li>
-		<li>image->[pawn_nameFull] pilotant un coet [circumstance_group]</li>
-		<li>circumstance_phrase->davant d’un [terrainfeature]</li>
-		<li>circumstance_phrase->amb una força increïble</li>
-		<li>circumstance_phrase->dins un núvol de pols i pedres</li>
-		<li>circumstance_phrase->amb els coets rugint de foc</li>
-		<li>circumstance_phrase->en un enlairament precís</li>
-		<li>desc_sentence->[pawn_pronoun] es concentra atentament en els comandaments.</li>
-		<li>desc_sentence->[pawn_pronoun] té els ulls tancats i sembla tenir confiança.</li>
-		<li>desc_sentence->[pawn_pronoun] dorm tranquilament.</li>
-		<li>desc_sentence->[pawn_pronoun] somriu desbordant alegria.</li>
-		<li>desc_sentence->[pawn_pronoun] sembla tenir la situació sota control.</li>
-		<li>desc_sentence->Hi ha un flama que llepa la part del darrere de la nau.</li>
-		<li>desc_sentence->Un [animal] proper s’ho mira sorprés.</li>
-		<li>desc_sentence->Un [animal] fuig espantat del llançament.</li>
-		<li>desc_sentence->Hi ha un [terrainfeature] al fons.</li>
-		<li>desc_sentence->Un [outlander] s’ho mira de lluny.</li>
-	</LaunchedShip.rulePack.rulesStrings>
-
-  <SocialFight.label>baralla</SocialFight.label>
-	<SocialFight.rulePack.rulesStrings>
-		<li>tale_noun->[pawna_nameShortDef] [fight_name_present] [pawnb_nameShortDef]</li>
-		<li>image->[pawna_nameFull] insulta a [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] se’n fot de  [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] amenaça a [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] intimida a [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] ataca a [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] agredeix a [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] colpeja a [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] dona una puntada a [pawnb_nameFull] [circumstance_group]</li>
-		<li>image->[pawna_nameFull] protegint-se de [pawnb_nameFull] [circumstance_group]</li>
-		<li>fight_name_present->atacant a</li>
-		<li>fight_name_present->agredint a</li>
-		<li>fight_name_present->lluitant amb</li>
-		<li>circumstance_phrase->mentre [pawnb_nameShortDef] insulta a [pawna_objective]</li>
-		<li>circumstance_phrase->mentre [pawnb_nameShortDef] se’n fot de [pawna_objective]</li>
-		<li>circumstance_phrase->mentre [pawnb_nameShortDef] amenaça a [pawna_objective]</li>
-		<li>circumstance_phrase->mentre [pawnb_nameShortDef] intimida a [pawna_objective]</li>
-		<li>circumstance_phrase->mentre [pawnb_nameShortDef] ataca a [pawna_objective]</li>
-		<li>circumstance_phrase->mentre [pawnb_nameShortDef] agredeix a [pawna_objective]</li>
-		<li>circumstance_phrase->mentre [pawnb_nameShortDef] colpeja a [pawna_objective]</li>
-		<li>circumstance_phrase->mentre [pawnb_nameShortDef] dona una puntada a [pawna_objective]</li>
-		<li>circumstance_phrase->mentre [pawnb_nameShortDef] es protegeix de [pawna_objective]</li>
-		<li>desc_sentence->[target] no mostra remordiments.</li>
-		<li>desc_sentence->[target] està fora de si amb una fúria apassionada.</li>
-		<li>desc_sentence->[target] no mostra cap expressió ni emoció.</li>
-		<li>desc_sentence->el cos de [target] està cobert de [gore].</li>
-		<li>desc_sentence->[target] xiscla furiosament.</li>
-		<li>desc_sentence->[target] està visiblement ferit.</li>
-		<li>desc_sentence->els ulls de [target] brillen de color [color].</li>
-		<li>target->[pawna_nameShortDef]</li>
-		<li>target->[pawnb_nameShortDef]</li>
-	</SocialFight.rulePack.rulesStrings>
-
+  
+  <!-- EN: collapse dodged -->
   <CollapseDodged.label>evitar caiguda</CollapseDodged.label>
-	<CollapseDodged.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] evitant una caiguda</li>
-		<li>tale_noun->[pawn_nameShortDef] gairebé esclafat per la caiguda d’objectes</li>
-		<li>image->[pawn_nameFull] relliscant en una pila de brossa [circumstance_group]</li>
-		<li>image->[pawn_nameFull] esquivant per poc una caiguda [circumstance_group]</li>
-		<li>image->[pawn_nameFull] evitant el despreniment del sostre
-[circumstance_group]</li>
-		<li>image->[pawn_nameFull] evitant un mort segura per una caiguda de roques [circumstance_group]</li>
-		<li>circumstance_phrase->que desapareix rere una cortina de pols i brossa</li>
-		<li>circumstance_phrase->que fa pols tot el que deixa darrere</li>
-		<li>circumstance_phrase->que impacta amb una força sorprenent</li>
-		<li>desc_sentence->[pawn_pronoun] is sweating with exertion.</li>
-		<li>desc_sentence->[pawn_pronoun] sembla terroritzat.</li>
-		<li>desc_sentence->[pawn_pronoun] sua de l’esforç.</li>
-		<li>desc_sentence->[pawn_pronoun] ha perdut l’equilibri.</li>
-	</CollapseDodged.rulePack.rulesStrings>
-
-
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] dodging a cave-in</li>
+    <li>tale_noun->[PAWN_nameDef] nearly crushed by falling objects</li>
+    <li>image->[PAWN_nameFull] leaping away from a collapse of debris [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] narrowly avoiding a cave-in [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] avoiding a falling ceiling [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] avoiding certain death by a falling rock [circumstance_group]</li>
+    <li>circumstance_phrase->that vanishes behind a curtain of debris and dust</li>
+    <li>circumstance_phrase->that pulverizes everything beneath it</li>
+    <li>circumstance_phrase->which impacts with incredible force</li>
+    <li>desc_sentence->[PAWN_pronoun] is sweating with exertion.</li>
+    <li>desc_sentence->[PAWN_pronoun] appears to be terrified.</li>
+    <li>desc_sentence->[PAWN_pronoun] is scratched and bleeding.</li>
+    <li>desc_sentence->[PAWN_pronoun] has lost [PAWN_possessive] balance.</li>
+  -->
+  <CollapseDodged.rulePack.rulesStrings>
+    <li>tale_noun->[pawn_nameShortDef] evitant una caiguda</li>
+    <li>tale_noun->[pawn_nameShortDef] gairebé esclafat per la caiguda d’objectes</li>
+    <li>image->[pawn_nameFull] relliscant en una pila de brossa [circumstance_group]</li>
+    <li>image->[pawn_nameFull] esquivant per poc una caiguda [circumstance_group]</li>
+    <li>image->[pawn_nameFull] evitant el despreniment del sostre\n[circumstance_group]</li>
+    <li>image->[pawn_nameFull] evitant un mort segura per una caiguda de roques [circumstance_group]</li>
+    <li>circumstance_phrase->que desapareix rere una cortina de pols i brossa</li>
+    <li>circumstance_phrase->que fa pols tot el que deixa darrere</li>
+    <li>circumstance_phrase->que impacta amb una força sorprenent</li>
+    <li>desc_sentence->[pawn_pronoun] is sweating with exertion.</li>
+    <li>desc_sentence->[pawn_pronoun] sembla terroritzat.</li>
+    <li>desc_sentence->[pawn_pronoun] sua de l’esforç.</li>
+    <li>desc_sentence->[pawn_pronoun] ha perdut l’equilibri.</li>
+  </CollapseDodged.rulePack.rulesStrings>
+  
+  <!-- EN: launched ship -->
+  <LaunchedShip.label>llançament de nau</LaunchedShip.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] escaping the planet</li>
+    <li>tale_noun->[PAWN_nameDef] taking off in a spaceship</li>
+    <li>image->[PAWN_nameFull] being launched towards the stars [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] racing towards the heavens [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] accelerating to escape velocity [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] piloting a rocket [circumstance_group]</li>
+    <li>circumstance_phrase->in front of a [TerrainFeature]</li>
+    <li>circumstance_phrase->with incredible force</li>
+    <li>circumstance_phrase->in a plume of dust and rocks</li>
+    <li>circumstance_phrase->with rockets firing dramatically</li>
+    <li>circumstance_phrase->in a precision takeoff</li>
+    <li>desc_sentence->[PAWN_pronoun] is concentrating intently on the controls.</li>
+    <li>desc_sentence->[PAWN_pronoun] has [PAWN_possessive] eyes closed and looks confident.</li>
+    <li>desc_sentence->[PAWN_pronoun] is sleeping, [PAWN_possessive] eyes closed peacefully.</li>
+    <li>desc_sentence->[PAWN_pronoun] is smiling with grim joy.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to be fully in control of the situation.</li>
+    <li>desc_sentence->There is a flame trail licking off the back of the ship.</li>
+    <li>desc_sentence->A nearby [Animal] is looking up, startled.</li>
+    <li>desc_sentence->A [Animal] is fleeing the launch in fear.</li>
+    <li>desc_sentence->There is a [TerrainFeature] in the background.</li>
+    <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
+  -->
+  <LaunchedShip.rulePack.rulesStrings>
+    <li>tale_noun->[pawn_nameShortDef] fugint del planeta</li>
+    <li>tale_noun->[pawn_nameShortDef] enlairant-se en una nau espacial</li>
+    <li>image->[pawn_nameFull] sent enviat cap a les estrelles [circumstance_group]</li>
+    <li>image->[pawn_nameFull] en una cursa cap al cel [circumstance_group]</li>
+    <li>image->[pawn_nameFull] accelerant fins a la velocitat d’enlairament [circumstance_group]</li>
+    <li>image->[pawn_nameFull] pilotant un coet [circumstance_group]</li>
+    <li>circumstance_phrase->davant d’un [terrainfeature]</li>
+    <li>circumstance_phrase->amb una força increïble</li>
+    <li>circumstance_phrase->dins un núvol de pols i pedres</li>
+    <li>circumstance_phrase->amb els coets rugint de foc</li>
+    <li>circumstance_phrase->en un enlairament precís</li>
+    <li>desc_sentence->[pawn_pronoun] es concentra atentament en els comandaments.</li>
+    <li>desc_sentence->[pawn_pronoun] té els ulls tancats i sembla tenir confiança.</li>
+    <li>desc_sentence->[pawn_pronoun] dorm tranquilament.</li>
+    <li>desc_sentence->[pawn_pronoun] somriu desbordant alegria.</li>
+    <li>desc_sentence->[pawn_pronoun] sembla tenir la situació sota control.</li>
+    <li>desc_sentence->Hi ha un flama que llepa la part del darrere de la nau.</li>
+    <li>desc_sentence->Un [animal] proper s’ho mira sorprés.</li>
+    <li>desc_sentence->Un [animal] fuig espantat del llançament.</li>
+    <li>desc_sentence->Hi ha un [terrainfeature] al fons.</li>
+    <li>desc_sentence->Un [outlander] s’ho mira de lluny.</li>
+  </LaunchedShip.rulePack.rulesStrings>
+  
+  <!-- EN: social fight -->
+  <SocialFight.label>baralla</SocialFight.label>
+  <!-- EN:
+    <li>tale_noun->[INITIATOR_nameDef] [fight_name_present] [RESPONDER_nameDef]</li>
+    <li>image->[INITIATOR_nameFull] insulting [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] taunting [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] threatening [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] intimidating [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] attacking [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] assaulting [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] punching [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] kicking [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] cowering from [RESPONDER_nameFull] [circumstance_group]</li>
+    <li>fight_name_present->assaulting</li>
+    <li>fight_name_present->attacking</li>
+    <li>fight_name_present->fighting</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] insults [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] taunts [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] threatens [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] intimidates [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] attacks [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] assaults [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] punches [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] kicks [INITIATOR_objective]</li>
+    <li>circumstance_phrase->while [RESPONDER_nameDef] cowers from [INITIATOR_objective]</li>
+    <li>desc_sentence->[target] appears without remorse.</li>
+    <li>desc_sentence->[target] is consumed with passionate rage.</li>
+    <li>desc_sentence->[target] has no emotion or expression.</li>
+    <li>desc_sentence->[target]'s body is covered in [Gore].</li>
+    <li>desc_sentence->[target] is screaming furiously.</li>
+    <li>desc_sentence->[target] is visibly wounded.</li>
+    <li>desc_sentence->[target]'s eyes are glowing [Color].</li>
+    <li>target->[INITIATOR_nameDef]</li>
+    <li>target->[RESPONDER_nameDef]</li>
+  -->
+  <SocialFight.rulePack.rulesStrings>
+    <li>tale_noun->[pawna_nameShortDef] [fight_name_present] [pawnb_nameShortDef]</li>
+    <li>image->[pawna_nameFull] insulta a [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->[pawna_nameFull] se’n fot de  [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->[pawna_nameFull] amenaça a [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->[pawna_nameFull] intimida a [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->[pawna_nameFull] ataca a [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->[pawna_nameFull] agredeix a [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->[pawna_nameFull] colpeja a [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->[pawna_nameFull] dona una puntada a [pawnb_nameFull] [circumstance_group]</li>
+    <li>image->[pawna_nameFull] protegint-se de [pawnb_nameFull] [circumstance_group]</li>
+    <li>fight_name_present->atacant a</li>
+    <li>fight_name_present->agredint a</li>
+    <li>fight_name_present->lluitant amb</li>
+    <li>circumstance_phrase->mentre [pawnb_nameShortDef] insulta a [pawna_objective]</li>
+    <li>circumstance_phrase->mentre [pawnb_nameShortDef] se’n fot de [pawna_objective]</li>
+    <li>circumstance_phrase->mentre [pawnb_nameShortDef] amenaça a [pawna_objective]</li>
+    <li>circumstance_phrase->mentre [pawnb_nameShortDef] intimida a [pawna_objective]</li>
+    <li>circumstance_phrase->mentre [pawnb_nameShortDef] ataca a [pawna_objective]</li>
+    <li>circumstance_phrase->mentre [pawnb_nameShortDef] agredeix a [pawna_objective]</li>
+    <li>circumstance_phrase->mentre [pawnb_nameShortDef] colpeja a [pawna_objective]</li>
+    <li>circumstance_phrase->mentre [pawnb_nameShortDef] dona una puntada a [pawna_objective]</li>
+    <li>circumstance_phrase->mentre [pawnb_nameShortDef] es protegeix de [pawna_objective]</li>
+    <li>desc_sentence->[target] no mostra remordiments.</li>
+    <li>desc_sentence->[target] està fora de si amb una fúria apassionada.</li>
+    <li>desc_sentence->[target] no mostra cap expressió ni emoció.</li>
+    <li>desc_sentence->el cos de [target] està cobert de [gore].</li>
+    <li>desc_sentence->[target] xiscla furiosament.</li>
+    <li>desc_sentence->[target] està visiblement ferit.</li>
+    <li>desc_sentence->els ulls de [target] brillen de color [color].</li>
+    <li>target->[pawna_nameShortDef]</li>
+    <li>target->[pawnb_nameShortDef]</li>
+  </SocialFight.rulePack.rulesStrings>
+  
 </LanguageData>

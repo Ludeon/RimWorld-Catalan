@@ -1,334 +1,643 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <MinedValuable.label>mina valuosa</MinedValuable.label>
-	<MinedValuable.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] mina una vena rica en [material_label]</li>
-		<li>image->[pawn_nameFull] treballant en una paret de [material_label] amb les eines de miner, [circumstance_group]</li>
-		<li>image->[pawn_nameFull] sostenint un tros de [material_label], [circumstance_group]</li>
-		<li>image->[pawn_nameFull] recolzat en una paret de [material_label], [circumstance_group]</li>
-		<li>image->[pawn_nameFull] coordinant un equip d’excavació en una vena rica en [material_label], [circumstance_group]</li>
-		<li>image->[pawn_nameFull] analitzant amb cura una vena rica en [material_label], [circumstance_group]</li>
-		<li>circumstance_phrase->suant copiosament</li>
-		<li>circumstance_phrase->amb una expressió [friendlyadjective]</li>
-		<li>circumstance_phrase->amb una expressió [friendlyadjective]</li>
-		<li>circumstance_phrase->amb un somriure orgullós</li>
-		<li>circumstance_phrase->amb cara de satisfacció</li>
-		<li>desc_sentence->[quantity_adjphrase] [ally]s l’ajuden.</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]s volten per la zona.</li>
-		<li>desc_sentence->Hi ha una [community] al fons.</li>
-		<li>desc_sentence->Es veuen  [quantity_adjphrase] venes més un tros enllà.</li>
-		<li>desc_sentence->Es veu una[terrainfeature] a la distància.</li>
-		<li>desc_sentence->[pawn_nameShortDef] te la roba bruta i suada de treballar.</li>
-	</MinedValuable.rulePack.rulesStrings>
-
-  <CompletedLongConstructionProject.label>gran projecte de construcció acabat</CompletedLongConstructionProject.label>
-	<CompletedLongConstructionProject.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] acabant de construir [object_label]</li>
-		<li>image->[pawn_nameFull] instal·lant un element complicat a [object_label] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] netejant la superfície de [object_label] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] afegint uns darrers detalls a [object_label] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] gravant el seu nom a [object_label] [circumstance_group]</li>
-		<li>circumstance_phrase->amb una lluïssor als ulls</li>
-		<li>circumstance_phrase->mentre s’eixuga la suor del front</li>
-		<li>circumstance_phrase->amb la roba tota bruta</li>
-		<li>circumstance_phrase->mentre somriu amb orgull</li>
-		<li>circumstance_phrase->amb una expressió de satisfacció a la cara</li>
-		<li>desc_sentence->[object_label] sembla coronar [pawn_nameShortDef].</li>
-		<li>desc_sentence->[object_label] brilla d’un suau color [color].</li>
-		<li>desc_sentence->[object_label] està profusament detallat.</li>
-		<li>desc_sentence->[quantity_adjphrase] [outlander]s es meravellen davant de [object_label].</li>
-		<li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren estorats.</li>
-	</CompletedLongConstructionProject.rulePack.rulesStrings>
-
-  <CompletedLongCraftingProject.label>gran projecte de fabricació acabat</CompletedLongCraftingProject.label>
-	<CompletedLongCraftingProject.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] acabant de fabricar [object_label]</li>
-		<li>image->[pawn_nameFull] afegint un element complicat a [object_label] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] netejant la superfície de [object_label] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] afegint els darrers detalls a [object_label] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] gravant el seu nom a [object_label] [circumstance_group]</li>
-		<li>circumstance_phrase->amb una lluïssor als ulls</li>
-		<li>circumstance_phrase->mentre s’eixuga la suor del front</li>
-		<li>circumstance_phrase->amb la roba plena de bruticia</li>
-		<li>circumstance_phrase->mentre somriu amb orgull</li>
-		<li>circumstance_phrase->amb una expressió de satisfacció a la cara</li>
-		<li>desc_sentence->[object_label] brilla d’un suau color [color].</li>
-		<li>desc_sentence->[object_label] té uns detalls molt elaborats.</li>
-		<li>desc_sentence->[pawn_nameShortDef] aixeca [object_label] aparentment sense esforç.</li>
-		<li>desc_sentence->[quantity_adjphrase] [outlander]s estan meravellats amb l’objecte.</li>
-		<li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren amb admiració.</li>
-	</CompletedLongCraftingProject.rulePack.rulesStrings>
-
+  
+  <!-- EN: attended party -->
   <AttendedParty.label>assistència a festa</AttendedParty.label>
-	<AttendedParty.rulePack.rulesStrings>
-		<li>tale_noun->[attender_nameShortDef] assistint a la festa de [organizer_nameShortDef]</li>
-		<li>tale_noun->[attender_nameShortDef] relaxant-se amb [organizer_nameShortDef] en una festa</li>
-		<li>image->[attender_nameFull] tenint una conversa amb [organizer_nameFull] [circumstance_group]</li>
-		<li>image->[attender_nameFull] fent el got amb [organizer_nameFull] [circumstance_group]</li>
-		<li>image->[attender_nameFull] xerrant amb [organizer_nameFull] [circumstance_group]</li>
-		<li>image->[organizer_nameFull] donant la benvinguda a [attender_nameFull] [circumstance_group]</li>
-		<li>image->[organizer_nameFull] presentant [attender_nameFull] a un amic [circumstance_group]</li>
-		<li>circumstance_phrase->amb un ample sombriure</li>
-		<li>circumstance_phrase->amb una rialla</li>
-		<li>circumstance_phrase->amb un somriure [friendlyverb]</li>
-		<li>circumstance_phrase->amb una rialla sorollosa</li>
-		<li>circumstance_phrase->mentre [friendlyadjective]</li>
-		<li>desc_sentence->[quantity_adjphrase] [outlander]s estan involucrats en la situació.</li>
-		<li>desc_sentence->La zona està decorada de color [color] i [color].</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]s juguen a prop.</li>
-	</AttendedParty.rulePack.rulesStrings>
-
-  <Meditated.label>meditació</Meditated.label>
-	<Meditated.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] meditant</li>
-		<li>image->[pawn_nameFull] seient sota d’un [tree], [circumstance_group]</li>
-		<li>image->[pawn_nameFull] seient en silenci, [circumstance_group]</li>
-		<li>image->[pawn_nameFull] mirant a la llunyania i [circumstance_group]</li>
-		<li>image->[pawn_nameFull] tancant els ull i [circumstance_group]</li>
-		<li>circumstance_phrase->irradiant serenitat</li>
-		<li>circumstance_phrase->amb un somriure tranquil</li>
-		<li>circumstance_phrase->amb un somriure [friendlyverb]</li>
-		<li>circumstance_phrase->brillant suaument</li>
-		<li>circumstance_phrase->envoltat d’una aura de color [color]</li>
-		<li>desc_sentence->[quantity_adjphrase] [outlander]s es miren [pawn_pronoun].</li>
-		<li>desc_sentence->està enviltat per [quantity_adjphrase] [animal]s.</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]s descansen tranquilament.</li>
-		<li>desc_sentence->[quantity_adjphrase] [enemy]s estan fascinats amb l’escena.</li>
-	</Meditated.rulePack.rulesStrings>
-
-  <Prayed.label>pregaria</Prayed.label>
-	<Prayed.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] resant</li>
-		<li>tale_noun->[pawn_nameShortDef] resant a una força superior</li>
-		<li>image->[pawn_nameFull] mirant la llunyania i [circumstance_group]</li>
-		<li>image->[pawn_nameFull] amb els ull tancats i [circumstance_group]</li>
-		<li>image->[pawn_nameFull] agafant-se les mans i [circumstance_group]</li>
-		<li>image->[pawn_nameFull] mirant al cel i [circumstance_group]</li>
-		<li>circumstance_phrase->irradiant serenitat</li>
-		<li>circumstance_phrase->xiuxiuejant</li>
-		<li>circumstance_phrase->amb una expressió esperançada</li>
-		<li>circumstance_phrase->brillant lleuent</li>
-		<li>circumstance_phrase->envoltat d’una aura de color [color]</li>
-		<li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren.</li>
-		<li>desc_sentence->[pawn_pronoun] està envoltat per [quantity_adjphrase] [animal]s.</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]s descansen tranquilament.</li>
-		<li>desc_sentence->[quantity_adjphrase] [enemy]s estan fascinats amb l’escena.</li>
-	</Prayed.rulePack.rulesStrings>
-
+  <!-- EN:
+    <li>tale_noun->[ATTENDER_nameDef] attending [ORGANIZER_nameDef]'s party</li>
+    <li>tale_noun->[ATTENDER_nameDef] relaxing with [ORGANIZER_nameDef] at a party</li>
+    <li>image->[ATTENDER_nameFull] having a conversation with [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] getting a drink from [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] chatting with [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] welcoming [ATTENDER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] introducing [ATTENDER_nameFull] to a friend [circumstance_group]</li>
+    <li>circumstance_phrase->with a broad grin</li>
+    <li>circumstance_phrase->with a laugh</li>
+    <li>circumstance_phrase->with a [AdjectiveFriendly] smile</li>
+    <li>circumstance_phrase->while laughing uproariously</li>
+    <li>circumstance_phrase->while [AdjectiveFriendly]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are involved in the conversation.</li>
+    <li>desc_sentence->The area is decorated with [Color] and [Color].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
+  -->
+  <AttendedParty.rulePack.rulesStrings>
+    <li>tale_noun->[attender_nameShortDef] assistint a la festa de [organizer_nameShortDef]</li>
+    <li>tale_noun->[attender_nameShortDef] relaxant-se amb [organizer_nameShortDef] en una festa</li>
+    <li>image->[attender_nameFull] tenint una conversa amb [organizer_nameFull] [circumstance_group]</li>
+    <li>image->[attender_nameFull] fent el got amb [organizer_nameFull] [circumstance_group]</li>
+    <li>image->[attender_nameFull] xerrant amb [organizer_nameFull] [circumstance_group]</li>
+    <li>image->[organizer_nameFull] donant la benvinguda a [attender_nameFull] [circumstance_group]</li>
+    <li>image->[organizer_nameFull] presentant [attender_nameFull] a un amic [circumstance_group]</li>
+    <li>circumstance_phrase->amb un ample sombriure</li>
+    <li>circumstance_phrase->amb una rialla</li>
+    <li>circumstance_phrase->amb un somriure [friendlyverb]</li>
+    <li>circumstance_phrase->amb una rialla sorollosa</li>
+    <li>circumstance_phrase->mentre [friendlyadjective]</li>
+    <li>desc_sentence->[quantity_adjphrase] [outlander]s estan involucrats en la situació.</li>
+    <li>desc_sentence->La zona està decorada de color [color] i [color].</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]s juguen a prop.</li>
+  </AttendedParty.rulePack.rulesStrings>
+  
+  <!-- EN: built snowman -->
   <BuiltSnowman.label>ninot de neu</BuiltSnowman.label>
-	<BuiltSnowman.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] fent un ninot de neu</li>
-		<li>tale_noun->[pawn_nameShortDef] jugant a la neu</li>
-		<li>image->[pawn_nameFull] fent una bola de neu [circumstance_group]</li>
-		<li>image->[pawn_nameFull] fent rodolar una bola de neu gegant per terra [circumstance_group]</li>
-		<li>image->[pawn_nameFull] posant [vegetable]s per formar una cara [circumstance_group]</li>
-		<li>image->[pawn_nameFull] jaient sobre la neu [circumstance_group]</li>
-		<li>circumstance_phrase->embolicat amb [quantity_adjphrase] anoracs</li>
-		<li>circumstance_phrase->mentre el cobreix una lleu nevada</li>
-		<li>circumstance_phrase->mentre els seus amics fan un castell</li>
-		<li>circumstance_phrase->mentre [pawn_possessive] fan una família de ninots de neu</li>
-		<li>desc_sentence->Una aurora de color [color] llueix al fons.</li>
-		<li>desc_sentence->A la llunyania, una [community] està coberta de neu.</li>
-		<li>desc_sentence->Un camp de [vegetable]s està pràcticament amagat sota la neu.</li>
-		<li>desc_sentence->Una [terrainfeature] coberta de neu s’albira més enllà.</li>
-	</BuiltSnowman.rulePack.rulesStrings>
-
-  <VisitedGrave.label>visita a tomba</VisitedGrave.label>
-	<VisitedGrave.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] visitant la tomba de [corpse_nameShortDef]</li>
-		<li>tale_noun->[pawn_nameShortDef] visitant les restes de [corpse_nameShortDef]</li>
-		<li>image->[pawn_nameFull] dret al costat de la tomba de [corpse_nameFull] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] seient al costat de la tomba de [corpse_nameFull] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] inclinant-se sobre la tomba de [corpse_nameFull] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] llegint un text a la tomba de [corpse_nameFull][circumstance_group]</li>
-		<li>image->[pawn_nameFull] mirant l’art de la tomba de [corpse_nameFull] [circumstance_group]</li>
-		<li>circumstance_phrase->amb una expressió [angstyadjective]</li>
-		<li>circumstance_phrase->i sumit en les seus pensaments</li>
-		<li>circumstance_phrase->mentre mira a una [terrainfeature] llunyana</li>
-		<li>circumstance_phrase->i parla suaument al memorial</li>
-		<li>desc_sentence->Una aurora de color [color] brilla al fons.</li>
-		<li>desc_sentence->En la distància, ina [community] està coberta de neu.</li>
-		<li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] observa l’escena amb una expressió [friendlyadjective].</li>
-		<li>desc_sentence->Una imatge espectral de  [corpse_nameShortDef] està dreta al costat de[pawn_nameShortDef], fent una expressió [friendlyadjective].</li>
-		<li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] observa l’escena amb una expressió [angstyadjective].</li>
-		<li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] està dreta al costat de [pawn_nameShortDef], amb una expressió [angstyadjective].</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]s descansen prop de l’escena.</li>
-	</VisitedGrave.rulePack.rulesStrings>
-
-  <PlayedGame.label>partida</PlayedGame.label>
-	<PlayedGame.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] relaxant-se a [object_label]</li>
-		<li>tale_noun->[pawn_nameShortDef] jugant una partida a [object_label]</li>
-		<li>image->[pawn_nameFull] esperant en una cadira, [circumstance_group]</li>
-		<li>image->[pawn_nameFull] preparat sobre [object_label], [circumstance_group]</li>
-		<li>image->[pawn_nameFull] assegut al costat de [object_label], [circumstance_group]</li>
-		<li>image->[pawn_nameFull] guanyant a [object_label], [circumstance_group]</li>
-		<li>image->[pawn_nameFull] perdent a [object_label], [circumstance_group]</li>
-		<li>circumstance_phrase->en tensió</li>
-		<li>circumstance_phrase->amb el cos relaxat i deixat anar</li>
-		<li>circumstance_phrase->planejant la propera jugada</li>
-		<li>circumstance_phrase->fent-se un suau massatge als canells</li>
-		<li>circumstance_phrase->[angstyverb] amb una expressió [angstyadjective]</li>
-		<li>circumstance_phrase->amb una mirada [angstyadjective]</li>
-		<li>circumstance_phrase->[angstyverb]</li>
-		<li>desc_sentence->Una aurora de color [color] brilla al fons.</li>
-		<li>desc_sentence->A la llunyania es veu una [community].</li>
-		<li>desc_sentence->A la llunyania es veu una [terrainfeature].</li>
-		<li>desc_sentence->[quantity_adjphrase] [outlander]s també hi juguen.</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]s juguen a prop.</li>
-		<li>desc_sentence->[pawn_nameShortDef] brilla amb una aura de color [color].</li>
-		<li>desc_sentence->les formes de [pawn_nameShortDef] estan exagerades.</li>
-		<li>desc_sentence->[pawn_nameShortDef] està per sobre de l’escena.</li>
-		<li>desc_sentence->[quantity_adjphrase] [outlander]s estan desplomats derrotats.</li>
-	</PlayedGame.rulePack.rulesStrings>
-
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] building a snowman</li>
+    <li>tale_noun->[PAWN_nameDef] playing in the snow</li>
+    <li>image->[PAWN_nameFull] forming a snowball [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] rolling a giant ball of snow on the ground [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] arranging [Vegetable]s into a rough human face [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] lying down in the snow [circumstance_group]</li>
+    <li>circumstance_phrase->while enveloped in [Quantity_adjphrase] parkas</li>
+    <li>circumstance_phrase->while obscured in a light snowstorm</li>
+    <li>circumstance_phrase->while [PAWN_possessive] friends build a fort</li>
+    <li>circumstance_phrase->while [PAWN_possessive] friends build a snowman family</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
+    <li>desc_sentence->A field of [Vegetable]s is barely visible through the snow.</li>
+    <li>desc_sentence->A snow-covered [TerrainFeature] can be seen far away.</li>
+  -->
+  <BuiltSnowman.rulePack.rulesStrings>
+    <li>tale_noun->[pawn_nameShortDef] fent un ninot de neu</li>
+    <li>tale_noun->[pawn_nameShortDef] jugant a la neu</li>
+    <li>image->[pawn_nameFull] fent una bola de neu [circumstance_group]</li>
+    <li>image->[pawn_nameFull] fent rodolar una bola de neu gegant per terra [circumstance_group]</li>
+    <li>image->[pawn_nameFull] posant [vegetable]s per formar una cara [circumstance_group]</li>
+    <li>image->[pawn_nameFull] jaient sobre la neu [circumstance_group]</li>
+    <li>circumstance_phrase->embolicat amb [quantity_adjphrase] anoracs</li>
+    <li>circumstance_phrase->mentre el cobreix una lleu nevada</li>
+    <li>circumstance_phrase->mentre els seus amics fan un castell</li>
+    <li>circumstance_phrase->mentre [pawn_possessive] fan una família de ninots de neu</li>
+    <li>desc_sentence->Una aurora de color [color] llueix al fons.</li>
+    <li>desc_sentence->A la llunyania, una [community] està coberta de neu.</li>
+    <li>desc_sentence->Un camp de [vegetable]s està pràcticament amagat sota la neu.</li>
+    <li>desc_sentence->Una [terrainfeature] coberta de neu s’albira més enllà.</li>
+  </BuiltSnowman.rulePack.rulesStrings>
+  
+  <!-- EN: buried corpse -->
   <BuriedCorpse.label>cadàver enterrat</BuriedCorpse.label>
-	<BuriedCorpse.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] enterrant a [corpse_nameShortDef]</li>
-		<li>tale_noun->[pawn_nameShortDef] posant a descansar [corpse_nameShortDef]</li>
-		<li>image->[pawn_nameFull] dret davant la tomba de [corpse_nameFull] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] assegut al costat de la tomba de [corpse_nameFull] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] recolzat sobre la tomba de [corpse_nameFull] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] gravant un text a la tomba de [corpse_nameFull] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] gravant una figura a la tomba de [corpse_nameFull] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] posant el cos de [corpse_nameFull] dins la tomba [circumstance_group]</li>
-		<li>circumstance_phrase->amb una expressió [angstyadjective]</li>
-		<li>circumstance_phrase->i sumit en els seus pensaments</li>
-		<li>circumstance_phrase->mentre mira una [terrainfeature] llunyana</li>
-		<li>circumstance_phrase->i parlant fluixet al memorial</li>
-		<li>desc_sentence->Una aurora de color [color] brilla al fons.</li>
-		<li>desc_sentence->A la llunyania, una [community] està coberta per la neu.</li>
-		<li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] observa l’escena amb una expressió [friendlyadjective].</li>
-		<li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] està dreta al costat de [pawn_nameShortDef], amb una expressió [friendlyadjective].</li>
-		<li>desc_sentence->Una imatge espectral de  [corpse_nameShortDef] es mira l’escena amb una expressió [angstyadjective].</li>
-		<li>desc_sentence->Una imatge espectral de  [corpse_nameShortDef] està dreta al costat de [pawn_nameShortDef], amb una expressió [angstyadjective].</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]s descansen prop de l’escena.</li>
-	</BuriedCorpse.rulePack.rulesStrings>
-
+  <!-- EN:
+    <li>tale_noun->[DIGGER_nameDef] burying [CORPSE_nameDef]</li>
+    <li>tale_noun->[DIGGER_nameDef] laying [CORPSE_nameDef] to rest</li>
+    <li>image->[DIGGER_nameFull] standing next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] sitting next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] leaning against [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] scribing text on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] drawing art on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] placing [CORPSE_nameFull]'s body within a grave [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->and consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->and talking quietly to the memorial</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [DIGGER_nameDef], wearing a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [DIGGER_nameDef], wearing a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+  -->
+  <BuriedCorpse.rulePack.rulesStrings>
+    <li>tale_noun->[pawn_nameShortDef] enterrant a [corpse_nameShortDef]</li>
+    <li>tale_noun->[pawn_nameShortDef] posant a descansar [corpse_nameShortDef]</li>
+    <li>image->[pawn_nameFull] dret davant la tomba de [corpse_nameFull] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] assegut al costat de la tomba de [corpse_nameFull] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] recolzat sobre la tomba de [corpse_nameFull] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] gravant un text a la tomba de [corpse_nameFull] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] gravant una figura a la tomba de [corpse_nameFull] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] posant el cos de [corpse_nameFull] dins la tomba [circumstance_group]</li>
+    <li>circumstance_phrase->amb una expressió [angstyadjective]</li>
+    <li>circumstance_phrase->i sumit en els seus pensaments</li>
+    <li>circumstance_phrase->mentre mira una [terrainfeature] llunyana</li>
+    <li>circumstance_phrase->i parlant fluixet al memorial</li>
+    <li>desc_sentence->Una aurora de color [color] brilla al fons.</li>
+    <li>desc_sentence->A la llunyania, una [community] està coberta per la neu.</li>
+    <li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] observa l’escena amb una expressió [friendlyadjective].</li>
+    <li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] està dreta al costat de [pawn_nameShortDef], amb una expressió [friendlyadjective].</li>
+    <li>desc_sentence->Una imatge espectral de  [corpse_nameShortDef] es mira l’escena amb una expressió [angstyadjective].</li>
+    <li>desc_sentence->Una imatge espectral de  [corpse_nameShortDef] està dreta al costat de [pawn_nameShortDef], amb una expressió [angstyadjective].</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]s descansen prop de l’escena.</li>
+  </BuriedCorpse.rulePack.rulesStrings>
+  
+  <!-- EN: completed long construction project -->
+  <CompletedLongConstructionProject.label>gran projecte de construcció acabat</CompletedLongConstructionProject.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] assembling a complicated appartus inside a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] adding surface detail to a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscribing their name on a [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->with a gleam in [PAWN_possessive] eye</li>
+    <li>circumstance_phrase->while wiping the sweat from [PAWN_possessive] forehead</li>
+    <li>circumstance_phrase->while covered in grime</li>
+    <li>circumstance_phrase->while smiling proudly</li>
+    <li>circumstance_phrase->with a satisfied expression on [PAWN_possessive] face</li>
+    <li>desc_sentence->The [OBJECT_label] appears to tower above [PAWN_nameDef].</li>
+    <li>desc_sentence->The [OBJECT_label] glows a soft [Color].</li>
+    <li>desc_sentence->The [OBJECT_label] is intricately detailed.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s marvel at the [OBJECT_label].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
+  -->
+  <CompletedLongConstructionProject.rulePack.rulesStrings>
+    <li>tale_noun->[pawn_nameShortDef] acabant de construir [object_label]</li>
+    <li>image->[pawn_nameFull] instal·lant un element complicat a [object_label] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] netejant la superfície de [object_label] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] afegint uns darrers detalls a [object_label] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] gravant el seu nom a [object_label] [circumstance_group]</li>
+    <li>circumstance_phrase->amb una lluïssor als ulls</li>
+    <li>circumstance_phrase->mentre s’eixuga la suor del front</li>
+    <li>circumstance_phrase->amb la roba tota bruta</li>
+    <li>circumstance_phrase->mentre somriu amb orgull</li>
+    <li>circumstance_phrase->amb una expressió de satisfacció a la cara</li>
+    <li>desc_sentence->[object_label] sembla coronar [pawn_nameShortDef].</li>
+    <li>desc_sentence->[object_label] brilla d’un suau color [color].</li>
+    <li>desc_sentence->[object_label] està profusament detallat.</li>
+    <li>desc_sentence->[quantity_adjphrase] [outlander]s es meravellen davant de [object_label].</li>
+    <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren estorats.</li>
+  </CompletedLongConstructionProject.rulePack.rulesStrings>
+  
+  <!-- EN: completed long crafting project -->
+  <CompletedLongCraftingProject.label>gran projecte de fabricació acabat</CompletedLongCraftingProject.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] assembling a complicated appartus inside a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] adding surface detail to a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscribing their name on a [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->with a gleam in [PAWN_possessive] eye</li>
+    <li>circumstance_phrase->while wiping the sweat from [PAWN_possessive] forehead</li>
+    <li>circumstance_phrase->while covered in grime</li>
+    <li>circumstance_phrase->while smiling proudly</li>
+    <li>circumstance_phrase->with a satisfied expression on [PAWN_possessive] face</li>
+    <li>desc_sentence->The [OBJECT_label] glows a soft [Color].</li>
+    <li>desc_sentence->The [OBJECT_label] is intricately detailed.</li>
+    <li>desc_sentence->[PAWN_nameDef] lifts the [OBJECT_label] seemingly without effort.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s marvel at the device.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
+  -->
+  <CompletedLongCraftingProject.rulePack.rulesStrings>
+    <li>tale_noun->[pawn_nameShortDef] acabant de fabricar [object_label]</li>
+    <li>image->[pawn_nameFull] afegint un element complicat a [object_label] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] netejant la superfície de [object_label] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] afegint els darrers detalls a [object_label] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] gravant el seu nom a [object_label] [circumstance_group]</li>
+    <li>circumstance_phrase->amb una lluïssor als ulls</li>
+    <li>circumstance_phrase->mentre s’eixuga la suor del front</li>
+    <li>circumstance_phrase->amb la roba plena de bruticia</li>
+    <li>circumstance_phrase->mentre somriu amb orgull</li>
+    <li>circumstance_phrase->amb una expressió de satisfacció a la cara</li>
+    <li>desc_sentence->[object_label] brilla d’un suau color [color].</li>
+    <li>desc_sentence->[object_label] té uns detalls molt elaborats.</li>
+    <li>desc_sentence->[pawn_nameShortDef] aixeca [object_label] aparentment sense esforç.</li>
+    <li>desc_sentence->[quantity_adjphrase] [outlander]s estan meravellats amb l’objecte.</li>
+    <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren amb admiració.</li>
+  </CompletedLongCraftingProject.rulePack.rulesStrings>
+  
+  <!-- EN: entered cryptosleep -->
   <EnteredCryptosleep.label>Entrar en criptoson</EnteredCryptosleep.label>
-	<EnteredCryptosleep.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] entrant al cofre de criptoson</li>
-		<li>image->[pawn_nameFull] ajagut dins el cofre de criptoson [circumstance_group]</li>
-		<li>image->[pawn_nameFull] obrint un cofre de criptoson buit [circumstance_group]</li>
-		<li>image->[pawn_nameFull] tancant des de dins un cofre de criptoson [circumstance_group]</li>
-		<li>image->[pawn_nameFull] mirant a través de la finestra d’un cofre de criptoson el planeta que està apunt de deixar [circumstance_group]</li>
-		<li>circumstance_phrase->amb una expressió [angstyadjective]</li>
-		<li>circumstance_phrase->sumit en els seus pensaments</li>
-		<li>circumstance_phrase->mentre mira una [terrainfeature] llunyana</li>
-		<li>circumstance_phrase->i parlant fluixet amb si mateix</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]s descansen prop de l’escena.</li>
-		<li>desc_sentence->[quantity_adjphrase] [enemy]s s’apropen a la zona.</li>
-		<li>desc_sentence->[pawn_nameShortDef] irradia determinació.</li>
-		<li>desc_sentence->[pawn_nameShortDef] està visiblement ferit.</li>
-		<li>desc_sentence->Una aura de color [color] brilla al fons.</li>
-		<li>desc_sentence->[quantity_adjphrase] cofres de criptoson ocupats envolten l’escena.</li>
-	</EnteredCryptosleep.rulePack.rulesStrings>
-
-  <PutIntoCryptosleep.label>posat en criptoson</PutIntoCryptosleep.label>
-	<PutIntoCryptosleep.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] posant [sleeper_nameShortDef] en un cofre de criptoson</li>
-		<li>image->[pawn_nameFull] posant[sleeper_nameShortDef] dins un cofre de criptoson [circumstance_group]</li>
-		<li>image->[pawn_nameFull] obrint un cofre de criptoson buit mentre aguanten [sleeper_nameShortDef] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] tancant [sleeper_nameShortDef] dins un cofre de criptoson [circumstance_group]</li>
-		<li>image->[pawn_nameFull] separant-se mentre [sleeper_nameShortDef] mira per la finestra del cofre de criptoson [circumstance_group]</li>
-		<li>circumstance_phrase->amb una expressió [angstyadjective]</li>
-		<li>circumstance_phrase->amb una expressió [friendlyadjective]</li>
-		<li>circumstance_phrase->amb una expressió[badassadjective]</li>
-		<li>circumstance_phrase->sumit en els seus pensaments</li>
-		<li>circumstance_phrase->mentre mira una [terrainfeature] llunyana</li>
-		<li>circumstance_phrase->amb una tensió visible entre els dos</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]s descansen prop de l’escena.</li>
-		<li>desc_sentence->[quantity_adjphrase] [enemy]s s’acosten a la zona.</li>
-		<li>desc_sentence->[pawn_nameShortDef] irradia determinació.</li>
-		<li>desc_sentence->El cel és gris i tapat.</li>
-		<li>desc_sentence->[sleeper_nameShortDef] està visiblement ferit.</li>
-		<li>desc_sentence->[sleeper_nameShortDef] sembla esgotat.</li>
-		<li>desc_sentence->Una aura de color [color] brilla al fons.</li>
-		<li>desc_sentence->[quantity_adjphrase] cofres de criptoson ocupats envolten l’escena.</li>
-	</PutIntoCryptosleep.rulePack.rulesStrings>
-
-  <Stripped.label>despullat</Stripped.label>
-	<Stripped.rulePack.rulesStrings>
-		<li>tale_noun->[stripper_nameShortDef] despullant [stripped_nameShortDef]</li>
-		<li>image->[stripper_nameFull] traient-li la roba a [stripped_nameFull] davant de tothom [circumstance_group]</li>
-		<li>image->[stripper_nameFull] traient-li la roba a [stripped_nameFull] [circumstance_group]</li>
-		<li>image->[stripper_nameFull] sostenint una pila de [apparel]s mentre s’està dret al costat de [stripped_nameFull], que està completament nu [circumstance_group]</li>
-		<li>image->[stripper_nameFull] esperant pacientment mentre [stripped_nameFull] li treu la roba [circumstance_group]</li>
-		<li>circumstance_phrase->amb una sensació de finalitat</li>
-		<li>circumstance_phrase->sense mica de vergonya</li>
-		<li>circumstance_phrase->mentre els altres s’ho miren</li>
-		<li>circumstance_phrase->sense raó aparent</li>
-		<li>circumstance_phrase->mentre uns animals confosos s’ho miren</li>
-		<li>desc_sentence->[stripped_nameShortDef] està visiblement excitat.</li>
-		<li>desc_sentence->[stripped_nameShortDef] està cobert d’una humitat inexplicada.</li>
-		<li>desc_sentence->[stripped_nameShortDef] respira dificultosament sense raó aparent.</li>
-		<li>desc_sentence->[stripped_nameShortDef] acarona un matoll.</li>
-		<li>desc_sentence->[stripped_nameShortDef] fa una cara [angstyadjective].</li>
-	</Stripped.rulePack.rulesStrings>
-
-  <GainedMasterSkillWithPassion.label>dominar una habilitat amb passió</GainedMasterSkillWithPassion.label>
-	<GainedMasterSkillWithPassion.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] convertint-se en un mestre en [skill_label]</li>
-		<li>image->[pawn_nameFull] practicant [skill_label] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] llegint un manual de [skill_label] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] rebent ensenyaments sobre [skill_label] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] treballant febrisament [circumstance_group]</li>
-		<li>image->[pawn_nameFull] acabant un projecte [circumstance_group]</li>
-		<li>circumstance_phrase->amb una expressió [friendlyadjective]</li>
-		<li>circumstance_phrase->amb una expressió alegre</li>
-		<li>circumstance_phrase->mentre [friendlyverb]</li>
-		<li>circumstance_phrase->amb un xiscle exuberant</li>
-		<li>circumstance_phrase->amb el cos cobert de suor</li>
-		<li>circumstance_phrase->amb un cansament visible</li>
-		<li>desc_sentence->L’escena està encerclada amb [quantity_adjphrase] experiments fracassats.</li>
-		<li>desc_sentence->L’escena està encerclada amb [quantity_adjphrase] llibres.</li>
-		<li>desc_sentence->La seva destresa skill es veu en el treball.</li>
-		<li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren admirats.</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren amb admiració.</li>
-		<li>desc_sentence->[quantity_adjphrase] esperits eteris d’antics mestres s’ho miren des de dalt.</li>
-	</GainedMasterSkillWithPassion.rulePack.rulesStrings>
-
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] entering cryptosleep</li>
+    <li>image->[PAWN_nameFull] lying down inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] opening an empty cryptosleep casket [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sealing themselves inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] looking through the wall of a cryptosleep casket at a world they're about to leave [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->while consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->and talking quietly to themselves</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s approach the area.</li>
+    <li>desc_sentence->[PAWN_nameDef] radiates determination.</li>
+    <li>desc_sentence->[PAWN_nameDef] is visibly wounded.</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
+  -->
+  <EnteredCryptosleep.rulePack.rulesStrings>
+    <li>tale_noun->[pawn_nameShortDef] entrant al cofre de criptoson</li>
+    <li>image->[pawn_nameFull] ajagut dins el cofre de criptoson [circumstance_group]</li>
+    <li>image->[pawn_nameFull] obrint un cofre de criptoson buit [circumstance_group]</li>
+    <li>image->[pawn_nameFull] tancant des de dins un cofre de criptoson [circumstance_group]</li>
+    <li>image->[pawn_nameFull] mirant a través de la finestra d’un cofre de criptoson el planeta que està apunt de deixar [circumstance_group]</li>
+    <li>circumstance_phrase->amb una expressió [angstyadjective]</li>
+    <li>circumstance_phrase->sumit en els seus pensaments</li>
+    <li>circumstance_phrase->mentre mira una [terrainfeature] llunyana</li>
+    <li>circumstance_phrase->i parlant fluixet amb si mateix</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]s descansen prop de l’escena.</li>
+    <li>desc_sentence->[quantity_adjphrase] [enemy]s s’apropen a la zona.</li>
+    <li>desc_sentence->[pawn_nameShortDef] irradia determinació.</li>
+    <li>desc_sentence->[pawn_nameShortDef] està visiblement ferit.</li>
+    <li>desc_sentence->Una aura de color [color] brilla al fons.</li>
+    <li>desc_sentence->[quantity_adjphrase] cofres de criptoson ocupats envolten l’escena.</li>
+  </EnteredCryptosleep.rulePack.rulesStrings>
+  
+  <!-- EN: gained master skill -->
   <GainedMasterSkillWithoutPassion.label>dominar una habilitat</GainedMasterSkillWithoutPassion.label>
-	<GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
-		<li>tale_noun->[pawn_nameShortDef] convertint-se en mestre en[skill_label]</li>
-		<li>image->[pawn_nameFull] practicant [skill_label] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] llegint un manual de [skill_label] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] rebent ensenyaments de [skill_label] [circumstance_group]</li>
-		<li>image->[pawn_nameFull] treballant febrosament en [circumstance_group]</li>
-		<li>image->[pawn_nameFull] acabant un projecte [circumstance_group]</li>
-		<li>circumstance_phrase->covert de suor</li>
-		<li>circumstance_phrase->amb un cansament visible</li>
-		<li>circumstance_phrase->amb una expressió [angstyadjective]</li>
-		<li>circumstance_phrase->amb una expressió d’aborriment</li>
-		<li>desc_sentence->L’escena està encerclada per [quantity_adjphrase] experiments fracassats.</li>
-		<li>desc_sentence->L’escena està encerclada per [quantity_adjphrase] llibres.</li>
-		<li>desc_sentence->La seva destresa es nota en el treball.</li>
-		<li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren admirats.</li>
-		<li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren amb admiració.</li>
-		<li>desc_sentence->[quantity_adjphrase] esperits eteris d’antics mestres s’ho miren des de dalt.</li>
-	</GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
-
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
+    <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] reading a tome on [SKILL_label] methods [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] receiving training in [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] working feverishly [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] finishing a project [circumstance_group]</li>
+    <li>circumstance_phrase->while covered in sweat</li>
+    <li>circumstance_phrase->with visible exhaustion</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->with a bored expression</li>
+    <li>desc_sentence->The scene is surrounded by [Quantity_adjphrase] failed experiments.</li>
+    <li>desc_sentence->The scene is surrounded by [Quantity_adjphrase] books.</li>
+    <li>desc_sentence->[PAWN_possessive] skill is visible in the work.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
+  -->
+  <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
+    <li>tale_noun->[pawn_nameShortDef] convertint-se en mestre en[skill_label]</li>
+    <li>image->[pawn_nameFull] practicant [skill_label] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] llegint un manual de [skill_label] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] rebent ensenyaments de [skill_label] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] treballant febrosament en [circumstance_group]</li>
+    <li>image->[pawn_nameFull] acabant un projecte [circumstance_group]</li>
+    <li>circumstance_phrase->covert de suor</li>
+    <li>circumstance_phrase->amb un cansament visible</li>
+    <li>circumstance_phrase->amb una expressió [angstyadjective]</li>
+    <li>circumstance_phrase->amb una expressió d’aborriment</li>
+    <li>desc_sentence->L’escena està encerclada per [quantity_adjphrase] experiments fracassats.</li>
+    <li>desc_sentence->L’escena està encerclada per [quantity_adjphrase] llibres.</li>
+    <li>desc_sentence->La seva destresa es nota en el treball.</li>
+    <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren admirats.</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren amb admiració.</li>
+    <li>desc_sentence->[quantity_adjphrase] esperits eteris d’antics mestres s’ho miren des de dalt.</li>
+  </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
+  
+  <!-- EN: gained master skill with passion -->
+  <GainedMasterSkillWithPassion.label>dominar una habilitat amb passió</GainedMasterSkillWithPassion.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
+    <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] reading a tome on [SKILL_label] methods [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] receiving training for [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] working feverishly [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] finishing a project [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveFriendly] expression</li>
+    <li>circumstance_phrase->with a joyous expression</li>
+    <li>circumstance_phrase->while [VerbFriendly]</li>
+    <li>circumstance_phrase->with an exuberant shout</li>
+    <li>circumstance_phrase->while covered in sweat</li>
+    <li>circumstance_phrase->with visible exhaustion</li>
+    <li>desc_sentence->The subject is surrounded by the results of [Quantity_adjphrase] failed experiments.</li>
+    <li>desc_sentence->The subject is surrounded by [Quantity_adjphrase] books.</li>
+    <li>desc_sentence->[PAWN_possessive] skill is visible in the work.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
+  -->
+  <GainedMasterSkillWithPassion.rulePack.rulesStrings>
+    <li>tale_noun->[pawn_nameShortDef] convertint-se en un mestre en [skill_label]</li>
+    <li>image->[pawn_nameFull] practicant [skill_label] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] llegint un manual de [skill_label] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] rebent ensenyaments sobre [skill_label] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] treballant febrisament [circumstance_group]</li>
+    <li>image->[pawn_nameFull] acabant un projecte [circumstance_group]</li>
+    <li>circumstance_phrase->amb una expressió [friendlyadjective]</li>
+    <li>circumstance_phrase->amb una expressió alegre</li>
+    <li>circumstance_phrase->mentre [friendlyverb]</li>
+    <li>circumstance_phrase->amb un xiscle exuberant</li>
+    <li>circumstance_phrase->amb el cos cobert de suor</li>
+    <li>circumstance_phrase->amb un cansament visible</li>
+    <li>desc_sentence->L’escena està encerclada amb [quantity_adjphrase] experiments fracassats.</li>
+    <li>desc_sentence->L’escena està encerclada amb [quantity_adjphrase] llibres.</li>
+    <li>desc_sentence->La seva destresa skill es veu en el treball.</li>
+    <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren admirats.</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren amb admiració.</li>
+    <li>desc_sentence->[quantity_adjphrase] esperits eteris d’antics mestres s’ho miren des de dalt.</li>
+  </GainedMasterSkillWithPassion.rulePack.rulesStrings>
+  
+  <!-- EN: increased menagerie -->
   <IncreasedMenagerie.label>ampliació de la granja</IncreasedMenagerie.label>
-	<IncreasedMenagerie.rulePack.rulesStrings>
-		<li>tale_noun->[human_nameShortDef] domesticant un altre animal per a la creixent [animalgroup]</li>
-		<li>tale_noun->[human_nameShortDef] domesticant un altre animal a la creixent [animalgroup]</li>
-		<li>tale_noun->[human_nameShortDef] domesticant un altre animal a la creixent [animalgroup]</li>
-		<li>tale_noun->[human_nameShortDef] seguit per una [animalgroup]</li>
-		<li>tale_noun->la doma de [human_nameShortDef] de [animal_nameShortDef]</li>
-		<li>image->[human_nameFull] domant [animal_nameFull] [circumstance_group]</li>
-		<li>image->[human_nameFull] oferint un tros de menjar a [animal_nameFull] [circumstance_group]</li>
-		<li>image->[human_nameFull] xiuxiuejant a un espantadís [animal_nameFull] [circumstance_group]</li>
-		<li>image->[human_nameFull] calmant un  [animal_nameFull] salvatge [circumstance_group]</li>
-		<li>circumstance_phrase->amb molta cura i precaució</li>
-		<li>circumstance_phrase->amb un somriure</li>
-		<li>circumstance_phrase->cansat però content</li>
-		<li>circumstance_phrase->amb un [animalgroup] al fons</li>
-		<li>desc_sentence->[human_nameShortDef] està envoltat de moltíssims [animal]s.</li>
-		<li>desc_sentence->[animal_nameShortDef] es desplaça per unir-se a la [animalgroup] dels seus.</li>
-		<li>desc_sentence->L’escena està farcida de [animal]s i [animal]s.</li>
-		<li>desc_sentence->Una fila de gran quantitat de [animal]s esperen per ser domats per [human_nameShortDef].</li>
-	</IncreasedMenagerie.rulePack.rulesStrings>
-
-
+  <!-- EN:
+    <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
+    <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
+    <li>tale_noun->[HUMAN_nameDef] recruiting yet another animal to their growing [AnimalGroup]</li>
+    <li>tale_noun->[HUMAN_nameDef] being followed around by a [AnimalGroup]</li>
+    <li>tale_noun->[HUMAN_nameDef]'s taming of [ANIMAL_nameDef]</li>
+    <li>image->[HUMAN_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] whispering to a skittish [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] calming a wild [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->with great care and caution</li>
+    <li>circumstance_phrase->with a smile</li>
+    <li>circumstance_phrase->while exhausted but happy</li>
+    <li>circumstance_phrase->with a [AnimalGroup] in the background</li>
+    <li>desc_sentence->[HUMAN_nameDef] is surrounded by uncountable [Animal]s.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] is moving to join a [AnimalGroup] of its kin.</li>
+    <li>desc_sentence->The scene is packed with [Animal]s and [Animal]s.</li>
+    <li>desc_sentence->A line of uncountable [Animal]s waits to be tamed by [HUMAN_nameDef].</li>
+  -->
+  <IncreasedMenagerie.rulePack.rulesStrings>
+    <li>tale_noun->[human_nameShortDef] domesticant un altre animal per a la creixent [animalgroup]</li>
+    <li>tale_noun->[human_nameShortDef] domesticant un altre animal a la creixent [animalgroup]</li>
+    <li>tale_noun->[human_nameShortDef] domesticant un altre animal a la creixent [animalgroup]</li>
+    <li>tale_noun->[human_nameShortDef] seguit per una [animalgroup]</li>
+    <li>tale_noun->la doma de [human_nameShortDef] de [animal_nameShortDef]</li>
+    <li>image->[human_nameFull] domant [animal_nameFull] [circumstance_group]</li>
+    <li>image->[human_nameFull] oferint un tros de menjar a [animal_nameFull] [circumstance_group]</li>
+    <li>image->[human_nameFull] xiuxiuejant a un espantadís [animal_nameFull] [circumstance_group]</li>
+    <li>image->[human_nameFull] calmant un  [animal_nameFull] salvatge [circumstance_group]</li>
+    <li>circumstance_phrase->amb molta cura i precaució</li>
+    <li>circumstance_phrase->amb un somriure</li>
+    <li>circumstance_phrase->cansat però content</li>
+    <li>circumstance_phrase->amb un [animalgroup] al fons</li>
+    <li>desc_sentence->[human_nameShortDef] està envoltat de moltíssims [animal]s.</li>
+    <li>desc_sentence->[animal_nameShortDef] es desplaça per unir-se a la [animalgroup] dels seus.</li>
+    <li>desc_sentence->L’escena està farcida de [animal]s i [animal]s.</li>
+    <li>desc_sentence->Una fila de gran quantitat de [animal]s esperen per ser domats per [human_nameShortDef].</li>
+  </IncreasedMenagerie.rulePack.rulesStrings>
+  
+  <!-- EN: meditated -->
+  <Meditated.label>meditació</Meditated.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] meditating</li>
+    <li>image->[PAWN_nameFull] sitting under a [TreeType] tree, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sitting quietly, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] gazing into the distance and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] closing [PAWN_possessive] eyes and [circumstance_group]</li>
+    <li>circumstance_phrase->radiating serenity</li>
+    <li>circumstance_phrase->with a tranquil smile</li>
+    <li>circumstance_phrase->with a [VerbFriendly] smile</li>
+    <li>circumstance_phrase->glowing softly</li>
+    <li>circumstance_phrase->surrounded by a [Color] aura</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze upon [PAWN_pronoun].</li>
+    <li>desc_sentence->[PAWN_pronoun] is surrounded by [Quantity_adjphrase] [Animal]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest peacefully.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
+  -->
+  <Meditated.rulePack.rulesStrings>
+    <li>tale_noun->[pawn_nameShortDef] meditant</li>
+    <li>image->[pawn_nameFull] seient sota d’un [tree], [circumstance_group]</li>
+    <li>image->[pawn_nameFull] seient en silenci, [circumstance_group]</li>
+    <li>image->[pawn_nameFull] mirant a la llunyania i [circumstance_group]</li>
+    <li>image->[pawn_nameFull] tancant els ull i [circumstance_group]</li>
+    <li>circumstance_phrase->irradiant serenitat</li>
+    <li>circumstance_phrase->amb un somriure tranquil</li>
+    <li>circumstance_phrase->amb un somriure [friendlyverb]</li>
+    <li>circumstance_phrase->brillant suaument</li>
+    <li>circumstance_phrase->envoltat d’una aura de color [color]</li>
+    <li>desc_sentence->[quantity_adjphrase] [outlander]s es miren [pawn_pronoun].</li>
+    <li>desc_sentence->està enviltat per [quantity_adjphrase] [animal]s.</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]s descansen tranquilament.</li>
+    <li>desc_sentence->[quantity_adjphrase] [enemy]s estan fascinats amb l’escena.</li>
+  </Meditated.rulePack.rulesStrings>
+  
+  <!-- EN: mined valuable -->
+  <MinedValuable.label>mina valuosa</MinedValuable.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] mining a rich vein of [MATERIAL_label]</li>
+    <li>image->[PAWN_nameFull] working a [MATERIAL_label] wall with mining tools, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] holding up a chunk of [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] resting against a wall of [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] coordinating an excavation team against a rich vein of [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] carefully inspecting a rich vein of [MATERIAL_label], [circumstance_group]</li>
+    <li>circumstance_phrase->sweating heavily</li>
+    <li>circumstance_phrase->wearing a [AdjectiveFriendly] expression</li>
+    <li>circumstance_phrase->wearing a [AdjectiveFriendly] expression</li>
+    <li>circumstance_phrase->smiling proudly</li>
+    <li>circumstance_phrase->a satisfied expression on [PAWN_possessive] face</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ally]s assist.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander the area.</li>
+    <li>desc_sentence->There is a [Community] in the background.</li>
+    <li>desc_sentence->[Quantity_adjphrase] further veins are visible in the distance.</li>
+    <li>desc_sentence->A [TerrainFeature] is visible in the distance.</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
+  -->
+  <MinedValuable.rulePack.rulesStrings>
+    <li>tale_noun->[pawn_nameShortDef] mina una vena rica en [material_label]</li>
+    <li>image->[pawn_nameFull] treballant en una paret de [material_label] amb les eines de miner, [circumstance_group]</li>
+    <li>image->[pawn_nameFull] sostenint un tros de [material_label], [circumstance_group]</li>
+    <li>image->[pawn_nameFull] recolzat en una paret de [material_label], [circumstance_group]</li>
+    <li>image->[pawn_nameFull] coordinant un equip d’excavació en una vena rica en [material_label], [circumstance_group]</li>
+    <li>image->[pawn_nameFull] analitzant amb cura una vena rica en [material_label], [circumstance_group]</li>
+    <li>circumstance_phrase->suant copiosament</li>
+    <li>circumstance_phrase->amb una expressió [friendlyadjective]</li>
+    <li>circumstance_phrase->amb una expressió [friendlyadjective]</li>
+    <li>circumstance_phrase->amb un somriure orgullós</li>
+    <li>circumstance_phrase->amb cara de satisfacció</li>
+    <li>desc_sentence->[quantity_adjphrase] [ally]s l’ajuden.</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]s volten per la zona.</li>
+    <li>desc_sentence->Hi ha una [community] al fons.</li>
+    <li>desc_sentence->Es veuen  [quantity_adjphrase] venes més un tros enllà.</li>
+    <li>desc_sentence->Es veu una[terrainfeature] a la distància.</li>
+    <li>desc_sentence->[pawn_nameShortDef] te la roba bruta i suada de treballar.</li>
+  </MinedValuable.rulePack.rulesStrings>
+  
+  <!-- EN: played game -->
+  <PlayedGame.label>partida</PlayedGame.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] relaxing at a [OBJECT_label]</li>
+    <li>tale_noun->[PAWN_nameDef] playing games at a [OBJECT_label]</li>
+    <li>tale_noun->[PAWN_nameDef] enjoying [PAWN_objective]self at a [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] waiting in a chair, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] poised over the [OBJECT_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sitting next to the [OBJECT_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] winning at a [OBJECT_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] losing at a [OBJECT_label], [circumstance_group]</li>
+    <li>circumstance_phrase->tense with energy</li>
+    <li>circumstance_phrase->[PAWN_possessive] body loose and relaxed</li>
+    <li>circumstance_phrase->planning [PAWN_possessive] next action</li>
+    <li>circumstance_phrase->gently massaging [PAWN_possessive] wrists</li>
+    <li>circumstance_phrase->[angstyverb] with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->wearing a [AdjectiveAngsty] look</li>
+    <li>circumstance_phrase->[angstyverb]</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is visible.</li>
+    <li>desc_sentence->In the distance, a [TerrainFeature] is visible.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are playing as well.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
+    <li>desc_sentence->[PAWN_nameDef] is glowing with a [Color] aura.</li>
+    <li>desc_sentence->[PAWN_nameDef]'s features are exaggerated.</li>
+    <li>desc_sentence->[PAWN_nameDef] towers above the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are slumped in defeat.</li>
+  -->
+  <PlayedGame.rulePack.rulesStrings>
+    <li>tale_noun->[pawn_nameShortDef] relaxant-se a [object_label]</li>
+    <li>tale_noun->[pawn_nameShortDef] jugant una partida a [object_label]</li>
+    <li>image->[pawn_nameFull] esperant en una cadira, [circumstance_group]</li>
+    <li>image->[pawn_nameFull] preparat sobre [object_label], [circumstance_group]</li>
+    <li>image->[pawn_nameFull] assegut al costat de [object_label], [circumstance_group]</li>
+    <li>image->[pawn_nameFull] guanyant a [object_label], [circumstance_group]</li>
+    <li>image->[pawn_nameFull] perdent a [object_label], [circumstance_group]</li>
+    <li>circumstance_phrase->en tensió</li>
+    <li>circumstance_phrase->amb el cos relaxat i deixat anar</li>
+    <li>circumstance_phrase->planejant la propera jugada</li>
+    <li>circumstance_phrase->fent-se un suau massatge als canells</li>
+    <li>circumstance_phrase->[angstyverb] amb una expressió [angstyadjective]</li>
+    <li>circumstance_phrase->amb una mirada [angstyadjective]</li>
+    <li>circumstance_phrase->[angstyverb]</li>
+    <li>desc_sentence->Una aurora de color [color] brilla al fons.</li>
+    <li>desc_sentence->A la llunyania es veu una [community].</li>
+    <li>desc_sentence->A la llunyania es veu una [terrainfeature].</li>
+    <li>desc_sentence->[quantity_adjphrase] [outlander]s també hi juguen.</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]s juguen a prop.</li>
+    <li>desc_sentence->[pawn_nameShortDef] brilla amb una aura de color [color].</li>
+    <li>desc_sentence->les formes de [pawn_nameShortDef] estan exagerades.</li>
+    <li>desc_sentence->[pawn_nameShortDef] està per sobre de l’escena.</li>
+    <li>desc_sentence->[quantity_adjphrase] [outlander]s estan desplomats derrotats.</li>
+  </PlayedGame.rulePack.rulesStrings>
+  
+  <!-- EN: prayed -->
+  <Prayed.label>pregaria</Prayed.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] praying</li>
+    <li>tale_noun->[PAWN_nameDef] praying to a higher power</li>
+    <li>image->[PAWN_nameFull] gazing into the distance and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] closing [PAWN_possessive] eyes and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] clasping [PAWN_possessive] hands and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] looking into the sky and [circumstance_group]</li>
+    <li>circumstance_phrase->radiating serenity</li>
+    <li>circumstance_phrase->whispering softly</li>
+    <li>circumstance_phrase->wearing a hopeful expression</li>
+    <li>circumstance_phrase->glowing softly</li>
+    <li>circumstance_phrase->surrounded by a [Color] aura</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze upon [PAWN_pronoun].</li>
+    <li>desc_sentence->[PAWN_pronoun] is surrounded by [Quantity_adjphrase] [Animal]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest peacefully.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
+  -->
+  <Prayed.rulePack.rulesStrings>
+    <li>tale_noun->[pawn_nameShortDef] resant</li>
+    <li>tale_noun->[pawn_nameShortDef] resant a una força superior</li>
+    <li>image->[pawn_nameFull] mirant la llunyania i [circumstance_group]</li>
+    <li>image->[pawn_nameFull] amb els ull tancats i [circumstance_group]</li>
+    <li>image->[pawn_nameFull] agafant-se les mans i [circumstance_group]</li>
+    <li>image->[pawn_nameFull] mirant al cel i [circumstance_group]</li>
+    <li>circumstance_phrase->irradiant serenitat</li>
+    <li>circumstance_phrase->xiuxiuejant</li>
+    <li>circumstance_phrase->amb una expressió esperançada</li>
+    <li>circumstance_phrase->brillant lleuent</li>
+    <li>circumstance_phrase->envoltat d’una aura de color [color]</li>
+    <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren.</li>
+    <li>desc_sentence->[pawn_pronoun] està envoltat per [quantity_adjphrase] [animal]s.</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]s descansen tranquilament.</li>
+    <li>desc_sentence->[quantity_adjphrase] [enemy]s estan fascinats amb l’escena.</li>
+  </Prayed.rulePack.rulesStrings>
+  
+  <!-- EN: put into cryptosleep -->
+  <PutIntoCryptosleep.label>posat en criptoson</PutIntoCryptosleep.label>
+  <!-- EN:
+    <li>tale_noun->[CARRIER_nameDef] putting [SLEEPER_nameDef] into cryptosleep</li>
+    <li>image->[CARRIER_nameFull] placing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] opening an empty cryptosleep casket while supporting [SLEEPER_nameDef] [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] sealing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] walking away as [SLEEPER_nameDef] looks through the wall of a cryptosleep casket [circumstance_group]</li>
+    <li>circumstance_phrase(p=3)->with a [AdjectiveAny] expression</li>
+    <li>circumstance_phrase->while consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->with visible tension between the two</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s approach the area.</li>
+    <li>desc_sentence->[CARRIER_nameDef] radiates determination.</li>
+    <li>desc_sentence->[SLEEPER_nameDef] is visibly wounded.</li>
+    <li>desc_sentence->[SLEEPER_nameDef] looks exhausted.</li>
+    <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
+  -->
+  <PutIntoCryptosleep.rulePack.rulesStrings>
+    <li>tale_noun->[pawn_nameShortDef] posant [sleeper_nameShortDef] en un cofre de criptoson</li>
+    <li>image->[pawn_nameFull] posant[sleeper_nameShortDef] dins un cofre de criptoson [circumstance_group]</li>
+    <li>image->[pawn_nameFull] obrint un cofre de criptoson buit mentre aguanten [sleeper_nameShortDef] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] tancant [sleeper_nameShortDef] dins un cofre de criptoson [circumstance_group]</li>
+    <li>image->[pawn_nameFull] separant-se mentre [sleeper_nameShortDef] mira per la finestra del cofre de criptoson [circumstance_group]</li>
+    <li>circumstance_phrase->amb una expressió [angstyadjective]</li>
+    <li>circumstance_phrase->amb una expressió [friendlyadjective]</li>
+    <li>circumstance_phrase->amb una expressió[badassadjective]</li>
+    <li>circumstance_phrase->sumit en els seus pensaments</li>
+    <li>circumstance_phrase->mentre mira una [terrainfeature] llunyana</li>
+    <li>circumstance_phrase->amb una tensió visible entre els dos</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]s descansen prop de l’escena.</li>
+    <li>desc_sentence->[quantity_adjphrase] [enemy]s s’acosten a la zona.</li>
+    <li>desc_sentence->[pawn_nameShortDef] irradia determinació.</li>
+    <li>desc_sentence->El cel és gris i tapat.</li>
+    <li>desc_sentence->[sleeper_nameShortDef] està visiblement ferit.</li>
+    <li>desc_sentence->[sleeper_nameShortDef] sembla esgotat.</li>
+    <li>desc_sentence->Una aura de color [color] brilla al fons.</li>
+    <li>desc_sentence->[quantity_adjphrase] cofres de criptoson ocupats envolten l’escena.</li>
+  </PutIntoCryptosleep.rulePack.rulesStrings>
+  
+  <!-- EN: stripped -->
+  <Stripped.label>despullat</Stripped.label>
+  <!-- EN:
+    <li>tale_noun->[TAKER_nameDef] stripping [STRIPPED_nameDef]</li>
+    <li>image->[TAKER_nameFull] disrobing [STRIPPED_nameFull] in public [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] removing the clothes of [STRIPPED_nameFull] [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] holding an armful of [Apparel]s while standing next to [STRIPPED_nameFull], who is completely naked [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] waiting patiently as [STRIPPED_nameFull] removes [STRIPPED_possessive] clothes [circumstance_group]</li>
+    <li>circumstance_phrase->with a sense of purpose</li>
+    <li>circumstance_phrase->with no hint of shame</li>
+    <li>circumstance_phrase->while others look on</li>
+    <li>circumstance_phrase->for no apparent reason</li>
+    <li>circumstance_phrase->while confused animals look on</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is visibly aroused.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is covered in unexplained moisture.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is breathing heavily for no obvious reason.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is fondling a shrub.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] wears only a [AdjectiveAngsty] expression.</li>
+  -->
+  <Stripped.rulePack.rulesStrings>
+    <li>tale_noun->[stripper_nameShortDef] despullant [stripped_nameShortDef]</li>
+    <li>image->[stripper_nameFull] traient-li la roba a [stripped_nameFull] davant de tothom [circumstance_group]</li>
+    <li>image->[stripper_nameFull] traient-li la roba a [stripped_nameFull] [circumstance_group]</li>
+    <li>image->[stripper_nameFull] sostenint una pila de [apparel]s mentre s’està dret al costat de [stripped_nameFull], que està completament nu [circumstance_group]</li>
+    <li>image->[stripper_nameFull] esperant pacientment mentre [stripped_nameFull] li treu la roba [circumstance_group]</li>
+    <li>circumstance_phrase->amb una sensació de finalitat</li>
+    <li>circumstance_phrase->sense mica de vergonya</li>
+    <li>circumstance_phrase->mentre els altres s’ho miren</li>
+    <li>circumstance_phrase->sense raó aparent</li>
+    <li>circumstance_phrase->mentre uns animals confosos s’ho miren</li>
+    <li>desc_sentence->[stripped_nameShortDef] està visiblement excitat.</li>
+    <li>desc_sentence->[stripped_nameShortDef] està cobert d’una humitat inexplicada.</li>
+    <li>desc_sentence->[stripped_nameShortDef] respira dificultosament sense raó aparent.</li>
+    <li>desc_sentence->[stripped_nameShortDef] acarona un matoll.</li>
+    <li>desc_sentence->[stripped_nameShortDef] fa una cara [angstyadjective].</li>
+  </Stripped.rulePack.rulesStrings>
+  
+  <!-- EN: visited grave -->
+  <VisitedGrave.label>visita a tomba</VisitedGrave.label>
+  <!-- EN:
+    <li>tale_noun->[VISITOR_nameDef] visiting the grave of [CORPSE_nameDef]</li>
+    <li>tale_noun->[VISITOR_nameDef] visiting [CORPSE_nameDef]'s grave</li>
+    <li>image->[VISITOR_nameFull] standing next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] sitting next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] leaning against [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] reading the text on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] looking at the art on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->and consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->and talking quietly to the memorial</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [VISITOR_nameDef], wearing a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [VISITOR_nameDef], wearing a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+  -->
+  <VisitedGrave.rulePack.rulesStrings>
+    <li>tale_noun->[pawn_nameShortDef] visitant la tomba de [corpse_nameShortDef]</li>
+    <li>tale_noun->[pawn_nameShortDef] visitant les restes de [corpse_nameShortDef]</li>
+    <li>image->[pawn_nameFull] dret al costat de la tomba de [corpse_nameFull] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] seient al costat de la tomba de [corpse_nameFull] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] inclinant-se sobre la tomba de [corpse_nameFull] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] llegint un text a la tomba de [corpse_nameFull][circumstance_group]</li>
+    <li>image->[pawn_nameFull] mirant l’art de la tomba de [corpse_nameFull] [circumstance_group]</li>
+    <li>circumstance_phrase->amb una expressió [angstyadjective]</li>
+    <li>circumstance_phrase->i sumit en les seus pensaments</li>
+    <li>circumstance_phrase->mentre mira a una [terrainfeature] llunyana</li>
+    <li>circumstance_phrase->i parla suaument al memorial</li>
+    <li>desc_sentence->Una aurora de color [color] brilla al fons.</li>
+    <li>desc_sentence->En la distància, ina [community] està coberta de neu.</li>
+    <li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] observa l’escena amb una expressió [friendlyadjective].</li>
+    <li>desc_sentence->Una imatge espectral de  [corpse_nameShortDef] està dreta al costat de[pawn_nameShortDef], fent una expressió [friendlyadjective].</li>
+    <li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] observa l’escena amb una expressió [angstyadjective].</li>
+    <li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] està dreta al costat de [pawn_nameShortDef], amb una expressió [angstyadjective].</li>
+    <li>desc_sentence->[quantity_adjphrase] [animal]s descansen prop de l’escena.</li>
+  </VisitedGrave.rulePack.rulesStrings>
+  
 </LanguageData>

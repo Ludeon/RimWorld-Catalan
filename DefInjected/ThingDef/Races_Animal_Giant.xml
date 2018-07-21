@@ -1,46 +1,52 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: elephant -->
   <Elephant.label>elefant</Elephant.label>
+  <!-- EN: The largest unmodified land animal. Elephants has a long trunk they use to manipulate objects, and sharp tusks they use to gore attackers. A dead elephant's valuable tusks can be recovered by butchering it.\n\nIntelligent creatures with complex social relationships, elephants can be used as pack animals or trained to carry out the most complex of tasks. They live a long time, and are known to remember events and relationships from many decades before. -->
   <Elephant.description>L'animal terrestre no modificat més gran. Fa servir els seus ullals com a eines per desplaçar objectes, o com a armes mortals.</Elephant.description>
-  <Elephant.tools.0.label>ullal</Elephant.tools.0.label>
-  <Elephant.tools.1.label>peu esquerre</Elephant.tools.1.label>
-  <Elephant.tools.2.label>peu dret</Elephant.tools.2.label>
-  <Elephant.tools.3.label>cap</Elephant.tools.3.label>
-  <Elephant_Leather.label>cuir d'elefant</Elephant_Leather.label>
-  <Elephant_Leather.description>cuir d'elefant</Elephant_Leather.description>
-  <Elephant_Leather.stuffProps.stuffAdjective>cuir d'elefant</Elephant_Leather.stuffProps.stuffAdjective>
-  <Elephant_Meat.label>carn d'elefant</Elephant_Meat.label>
-  <Elephant_Meat.description>carn d'elefant</Elephant_Meat.description>
-  <Elephant_Corpse.label>elefant mort</Elephant_Corpse.label>
-  <Elephant_Corpse.description>elefant mort</Elephant_Corpse.description>
-
+  <!-- EN: tusk -->
+  <Elephant.tools.tusk.label>ullal</Elephant.tools.tusk.label>
+  <!-- EN: left foot -->
+  <Elephant.tools.left_foot.label>peu esquerre</Elephant.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <Elephant.tools.right_foot.label>peu dret</Elephant.tools.right_foot.label>
+  <!-- EN: head -->
+  <Elephant.tools.head.label>cap</Elephant.tools.head.label>
+  
+  <!-- EN: megasloth -->
   <Megasloth.label>megaperesós</Megasloth.label>
+  <!-- EN: A giant, solitary herbivore with two giant claws for warding off threats. Long extinct after being wiped out by the natives of Earth's American continent, the megasloth was later brought back using advanced cloning and artificial gestators. Its thick hide is exceptionally strong and insulating, and makes a great leather for cold-weather clothing. -->
   <Megasloth.description>Una mena de peresós terrestre. Els megateris són hervivors gegants i solitaris. Van ser extingits fa molt temps pels nadius del continent americà terrícola, però van ser tornats a la vida amb tècniques avançades de clonació i gestació artificial.</Megasloth.description>
-  <Megasloth.tools.0.label>urpa esquerra</Megasloth.tools.0.label>
-  <Megasloth.tools.1.label>urpa dreta</Megasloth.tools.1.label>
-  <Megasloth.tools.3.label>cap</Megasloth.tools.3.label>
-  <Megasloth_Leather.label>Cuir de Megaperesós</Megasloth_Leather.label>
-  <Megasloth_Leather.description>Cuir de Megaperesós</Megasloth_Leather.description>
-  <Megasloth_Leather.stuffProps.stuffAdjective>Cuir de Megaperesós</Megasloth_Leather.stuffProps.stuffAdjective>
-  <Megasloth_Meat.label>Carn de Megaperesós</Megasloth_Meat.label>
-  <Megasloth_Meat.description>Carn de Megaperesós</Megasloth_Meat.description>
-  <Megasloth_Corpse.label>Megaperesós mort</Megasloth_Corpse.label>
-  <Megasloth_Corpse.description>Megaperesós mort</Megasloth_Corpse.description>
-
+  <!-- EN: left claw -->
+  <Megasloth.tools.left_claw.label>urpa esquerra</Megasloth.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Megasloth.tools.right_claw.label>urpa dreta</Megasloth.tools.right_claw.label>
+  <!-- EN: head -->
+  <Megasloth.tools.head.label>cap</Megasloth.tools.head.label>
+  
+  <!-- EN: rhinoceros -->
+  <Rhinoceros.label>rinoceront</Rhinoceros.label>
+  <!-- EN: Despite being herbivorous, this large mammal is very easy to enrage. Once angered, its massive strength and sharp horn make it a brutal opponent. It has more muscle in one leg than most humans do in their whole body. -->
+  <Rhinoceros.description>Aquest gran mamífer terrestre és pacífic, però no dubtarà a envestir amb la seva banya si cal fer fora els intrusos.</Rhinoceros.description>
+  <!-- EN: horn -->
+  <Rhinoceros.tools.horn-0.label>banya</Rhinoceros.tools.horn-0.label>
+  <!-- EN: horn -->
+  <Rhinoceros.tools.horn-1.label>banya</Rhinoceros.tools.horn-1.label>
+  <!-- EN: head -->
+  <Rhinoceros.tools.head.label>cap</Rhinoceros.tools.head.label>
+  
+  <!-- EN: thrumbo -->
   <Thrumbo.label>trumbe</Thrumbo.label>
+  <!-- EN: A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.\n\nLegends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. -->
   <Thrumbo.description>Una criatura gegant d'origen desconegut. El trumbe és un animal tranquil per natura però si s'enfada, és extremadament perillós. Té un pel llarg excepcionalment bonic i valuós i la seva banya en forma de navalla és molt apreciada pels mercats. La llegenda explica que un trumbe vell és la criatura més sabia de l'univers, només que ha preferit no parlar.</Thrumbo.description>
-  <Thrumbo.tools.0.label>banya</Thrumbo.tools.0.label>
-  <Thrumbo.tools.2.label>peu esquerre</Thrumbo.tools.2.label>
-  <Thrumbo.tools.3.label>peu dret</Thrumbo.tools.3.label>
-  <Thrumbo.tools.4.label>cap</Thrumbo.tools.4.label>
-  <Thrumbo_Leather.label>pèl de trumbe</Thrumbo_Leather.label>
-  <Thrumbo_Leather.description>pèl de trumbe</Thrumbo_Leather.description>
-  <Thrumbo_Leather.stuffProps.stuffAdjective>pèl de trumbe</Thrumbo_Leather.stuffProps.stuffAdjective>
-  <Thrumbo_Meat.label>carn de trumbe</Thrumbo_Meat.label>
-  <Thrumbo_Meat.description>carn de trumbe</Thrumbo_Meat.description>
-  <Thrumbo_Corpse.label>trumbe mort</Thrumbo_Corpse.label>
-  <Thrumbo_Corpse.description>trumbe mort</Thrumbo_Corpse.description>
-
-
+  <!-- EN: horn -->
+  <Thrumbo.tools.horn.label>banya</Thrumbo.tools.horn.label>
+  <!-- EN: left foot -->
+  <Thrumbo.tools.left_foot.label>peu esquerre</Thrumbo.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <Thrumbo.tools.right_foot.label>peu dret</Thrumbo.tools.right_foot.label>
+  <!-- EN: head -->
+  <Thrumbo.tools.head.label>cap</Thrumbo.tools.head.label>
+  
 </LanguageData>

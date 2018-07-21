@@ -1,35 +1,59 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: civil outlander union -->
   <OutlanderCivil.label>unió civil estrangera</OutlanderCivil.label>
+  <!-- EN: These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group holds civil behavior in high regard. -->
   <OutlanderCivil.description>Aquesta comunitat fa dècades o segles que viuen aquí, i han oblidat bona part de la tecnologia que els va portar aquest planeta. Solen treballar amb eines mecàniques simples i es defensen amb armes de pólvora avançades.\n\nGestionen bé els assumptes pràctics com el comerç, la confiança i la supervivència.\n\nAquest grup en particular es comporta civilitzadament.</OutlanderCivil.description>
+  <!-- EN: prime councilor -->
   <OutlanderCivil.leaderTitle>primer conseller</OutlanderCivil.leaderTitle>
+  <!-- EN: outlander -->
   <OutlanderCivil.pawnSingular>foraster</OutlanderCivil.pawnSingular>
+  <!-- EN: outlanders -->
   <OutlanderCivil.pawnsPlural>forasters</OutlanderCivil.pawnsPlural>
-
+  
+  <!-- EN: rough outlander union -->
   <OutlanderRough.label>unió hostil estrangera</OutlanderRough.label>
+  <!-- EN: These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group has a streak of barbarity in them. -->
   <OutlanderRough.description>Aquesta comunitat fa dècades o segles que viuen aquí, i han oblidat bona part de la tecnologia que els va portar aquest planeta. Solen treballar amb eines mecàniques simples i es defensen amb armes de pólvora avançades.\n\nGestionen bé els assumptes pràctics com el comerç, la confiança i la supervivència.\n\nAquest grup en particular és una mica bàrbars.</OutlanderRough.description>
+  <!-- EN: prime councilor -->
   <OutlanderRough.leaderTitle>conseller primer</OutlanderRough.leaderTitle>
+  <!-- EN: outlander -->
   <OutlanderRough.pawnSingular>foraster</OutlanderRough.pawnSingular>
+  <!-- EN: outlanders -->
   <OutlanderRough.pawnsPlural>forasters</OutlanderRough.pawnsPlural>
-
-  <TribeCivil.label>tribu amable</TribeCivil.label>
-  <TribeCivil.description>Fa molt temps que són aquí. Potser els seus avantpassats es van estavellar aquí fa mil anys. Potser són els supervivents d’un cataclisme que van acabar amb la civilització tecnològica del planeta. En qualsevol cas, les tribus són la majoria nòmades que viuen de la terra emprant eines i armes primitives.\n\nMalgrat la seva aparent feblesa tecnològica, les tribus poden ser enemics perillosos i aliats valuosos gràcies a la seva traça amb objectes no tecnològics, a què van en grans grups i a la seva resistència.\n\nAquesta tribu en particular són amables sempre que poden. Estan ben predisposats al negoci i les aliances, fins i tot amb gent estranya.</TribeCivil.description>
-  <TribeCivil.leaderTitle>cap</TribeCivil.leaderTitle>
-  <TribeCivil.pawnSingular>membre de tribu</TribeCivil.pawnSingular>
-  <TribeCivil.pawnsPlural>gent de la tribu</TribeCivil.pawnsPlural>
-
-  <TribeRough.label>tribu violenta</TribeRough.label>
-  <TribeRough.description>Fa molt temps que són aquí. Potser els seus avantpassats es van estavellar aquí fa mil anys. Potser són els supervivents d’un cataclisme que van acabar amb la civilització tecnològica del planeta. En qualsevol cas, les tribus són la majoria nòmades que viuen de la terra emprant eines i armes primitives.\n\nMalgrat la seva aparent feblesa tecnològica, les tribus poden ser enemics perillosos i aliats valuosos gràcies a la seva traça amb objectes no tecnològics, a què van en grans grups i a la seva resistència.\n\nAquesta tribu en particular domina per la força; serà complicat convertir-los en un aliat.</TribeRough.description>
-  <TribeRough.leaderTitle>cap</TribeRough.leaderTitle>
-  <TribeRough.pawnSingular>membre de tribu</TribeRough.pawnSingular>
-  <TribeRough.pawnsPlural>gent de la tribu</TribeRough.pawnsPlural>
-
+  
+  <!-- EN: pirate band -->
   <Pirate.label>banda de pirates</Pirate.label>
+  <!-- EN: A loose confederation of pirate gangs who've agreed to mostly fight outsiders instead of fighting each other.\n\nPirates don't sow, they don't build, and they rarely trade. Driven by a blood-and-honor culture that values personal strength and ruthlessness, they enrich themselves by raiding and robbing their more productive neighbors.\n\nTheir technology level depends mostly on who they've managed to steal from recently. Mostly they carry gunpowder weapons, though some prefer to stab victims at close range. -->
   <Pirate.description>Un colla de bandits.\n\nEls pirates no cultiven, no construeixen i rarament comercien. S'enriqueixen assaltant i robant els grups més productius de la zona.\n\nEl seu nivell tecnològic depèn sobretot del que han aconseguit robar darrerament. Duen sobretot armes de pólvora tot i que els més afortunats fan servir armes d'energia avançades, i d'altres prefereixen la lluita cos a cos.</Pirate.description>
+  <!-- EN: boss -->
   <Pirate.leaderTitle>capità</Pirate.leaderTitle>
+  <!-- EN: pirate -->
   <Pirate.pawnSingular>pirata</Pirate.pawnSingular>
+  <!-- EN: pirates -->
   <Pirate.pawnsPlural>pirates</Pirate.pawnsPlural>
-
-
+  
+  <!-- EN: gentle tribe -->
+  <TribeCivil.label>tribu amable</TribeCivil.label>
+  <!-- EN: These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular tribe pursues a gentle way of life where they can. They are quite open to trade and alliances, even with strange peoples. -->
+  <TribeCivil.description>Fa molt temps que són aquí. Potser els seus avantpassats es van estavellar aquí fa mil anys. Potser són els supervivents d’un cataclisme que van acabar amb la civilització tecnològica del planeta. En qualsevol cas, les tribus són la majoria nòmades que viuen de la terra emprant eines i armes primitives.\n\nMalgrat la seva aparent feblesa tecnològica, les tribus poden ser enemics perillosos i aliats valuosos gràcies a la seva traça amb objectes no tecnològics, a què van en grans grups i a la seva resistència.\n\nAquesta tribu en particular són amables sempre que poden. Estan ben predisposats al negoci i les aliances, fins i tot amb gent estranya.</TribeCivil.description>
+  <!-- EN: chief -->
+  <TribeCivil.leaderTitle>cap</TribeCivil.leaderTitle>
+  <!-- EN: tribesman -->
+  <TribeCivil.pawnSingular>membre de tribu</TribeCivil.pawnSingular>
+  <!-- EN: tribespeople -->
+  <TribeCivil.pawnsPlural>gent de la tribu</TribeCivil.pawnsPlural>
+  
+  <!-- EN: savage tribe -->
+  <TribeRough.label>tribu violenta</TribeRough.label>
+  <!-- EN: These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular tribe values warlike dominance; it may be difficult to turn them into an ally. -->
+  <TribeRough.description>Fa molt temps que són aquí. Potser els seus avantpassats es van estavellar aquí fa mil anys. Potser són els supervivents d’un cataclisme que van acabar amb la civilització tecnològica del planeta. En qualsevol cas, les tribus són la majoria nòmades que viuen de la terra emprant eines i armes primitives.\n\nMalgrat la seva aparent feblesa tecnològica, les tribus poden ser enemics perillosos i aliats valuosos gràcies a la seva traça amb objectes no tecnològics, a què van en grans grups i a la seva resistència.\n\nAquesta tribu en particular domina per la força; serà complicat convertir-los en un aliat.</TribeRough.description>
+  <!-- EN: chief -->
+  <TribeRough.leaderTitle>cap</TribeRough.leaderTitle>
+  <!-- EN: tribesman -->
+  <TribeRough.pawnSingular>membre de tribu</TribeRough.pawnSingular>
+  <!-- EN: tribespeople -->
+  <TribeRough.pawnsPlural>gent de la tribu</TribeRough.pawnsPlural>
+  
 </LanguageData>

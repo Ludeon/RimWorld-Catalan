@@ -1,46 +1,55 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- AI persona core -->
-
+  
+  <!-- EN: AI persona core -->
   <AIPersonaCore.label>nucli de personalitat d'IA</AIPersonaCore.label>
+  <!-- EN: A hyper-advanced computer core that houses a peak-human-equivalent AI persona. In its isolated state, the core is dormant. Installed in a proper support structure, however, it can become a mind of great power. -->
   <AIPersonaCore.description>Un nucli computacional hiperavançat que conté intel·ligència artificial supra-humana. Si està aïllat, el nucli no funciona. En canvi, si s'instal·la sobre un suport adequat, pot esdevenir una ment perillosament poderosa.</AIPersonaCore.description>
-
-
-  <!-- Mech serum -->
-
-  <MechSerumNeurotrainer.label>meca-sèrum neuroentrenador</MechSerumNeurotrainer.label>
-  <MechSerumNeurotrainer.description>Una super-dosis d’un sol ús de mecanites tractades per millorar una capacitat especifica. La dosi s’administra per l’òrbita ocular. Un cop arriba al cervell, les mecanites milloren instantàniament la capacitat del subjecte en una àrea específica, convertint-se en el teixit neuronal necessari.</MechSerumNeurotrainer.description>
-  <MechSerumNeurotrainer.comps.1.useLabel>Fa servir el meca-sèrum neuroentrenador per millorar {0}</MechSerumNeurotrainer.comps.1.useLabel>
-
-  <MechSerumHealer.label>meca-sèrum curatiu</MechSerumHealer.label>
-  <MechSerumHealer.description>Una super-dosis d’un sol ús de mecanites tractades per millorar la salut. Les mecanites es concentraran a curar la pitjor condició de salut que afecti l’usuari en aquell moment. Funciona fins i tot en condicions de salut que d’altra forma serien incurables. Les mecanites poden arribar a convertir-se en matèria orgànica per formar l’extremitat o l’organ que es necessiti.</MechSerumHealer.description>
-  <MechSerumHealer.comps.1.useLabel>Fa servir meca-sèrum curatiu</MechSerumHealer.comps.1.useLabel>
-
-  <MechSerumResurrector.label>meca-sèrum de resurrecció</MechSerumResurrector.label>
-  <MechSerumResurrector.description>Una super-dosis d’un sol ús de mecanites tractades per ressuscitar a un mort. Si s’administra a un cadaver poc després de la mort de l’individu, les mecanites reparen el teixit danyat i retorna el cos a la vida. No sempre funciona bé, el subjecte pot tornar a la vida amb danys cerebrals, ceguesa o psicosis progressiva. Com més aviat s’utilitzi, més probabilitats d’èxit té.</MechSerumResurrector.description>
-  <MechSerumResurrector.comps.1.useLabel>Fa servir meca-sèrum de resurrecció</MechSerumResurrector.comps.1.useLabel>
-
-
-  <!-- Technology helper persona -->
-
-  <TechprofSubpersonaCore.label>techprof subpersona core</TechprofSubpersonaCore.label>
-  <TechprofSubpersonaCore.description>A small AI core housing a low-grade subpersona specialized in teaching technology. When used, the AI will teach you one technology you don't know, instantly and for free. Can only be used once.</TechprofSubpersonaCore.description>
-  <TechprofSubpersonaCore.comps.1.useLabel>Use techprof subpersona core</TechprofSubpersonaCore.comps.1.useLabel>
-
-
-
-
-  <!-- Thrumbo horn -->
-
-  <ThrumboHorn.label>banya de trumbe</ThrumboHorn.label>
-  <ThrumboHorn.description>Una banya de trumbe. Esmolat com una fulla d'afaitar , molt dur i extremadament preuat als mercats. Un veritable trofeu.</ThrumboHorn.description>
-
-
-  <!-- Elephant tusk -->
-
+  
+  <!-- EN: elephant tusk -->
   <ElephantTusk.label>ullal d'elefant</ElephantTusk.label>
+  <!-- EN: An elephant's tusk. It is very durable and valuable. While somewhat unwieldy as a melee weapon, it can still be deadly. -->
   <ElephantTusk.description>Un ullal d'elefant. Molt resistent i preuat. Tot i que és mortal no es pot fer servir com a arma.</ElephantTusk.description>
-
-
+  <!-- EN: point -->
+  <ElephantTusk.tools.point.label>TODO</ElephantTusk.tools.point.label>
+  <!-- EN: base -->
+  <ElephantTusk.tools.base.label>TODO</ElephantTusk.tools.base.label>
+  
+  <!-- EN: healer mech serum -->
+  <MechSerumHealer.label>meca-sèrum curatiu</MechSerumHealer.label>
+  <!-- EN: A one-use super-dose of mechanites tuned to heal health conditions. The mechanites will target and heal the single worst health condition affecting someone at any given time. Works even on health conditions that would otherwise be incurable. The mechanites can even transmute themselves into organic matter, forming new limbs or organs as needed. -->
+  <MechSerumHealer.description>Una super-dosis d’un sol ús de mecanites tractades per millorar la salut. Les mecanites es concentraran a curar la pitjor condició de salut que afecti l’usuari en aquell moment. Funciona fins i tot en condicions de salut que d’altra forma serien incurables. Les mecanites poden arribar a convertir-se en matèria orgànica per formar l’extremitat o l’organ que es necessiti.</MechSerumHealer.description>
+  <!-- EN: Use healer mech serum -->
+  <MechSerumHealer.comps.CompUsable.useLabel>Fa servir meca-sèrum curatiu</MechSerumHealer.comps.CompUsable.useLabel>
+  
+  <!-- EN: neurotrainer mech serum -->
+  <MechSerumNeurotrainer.label>meca-sèrum neuroentrenador</MechSerumNeurotrainer.label>
+  <!-- EN: A one-use super-dose of mechanites tuned to train a specific skill. The dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
+  <MechSerumNeurotrainer.description>Una super-dosis d’un sol ús de mecanites tractades per millorar una capacitat especifica. La dosi s’administra per l’òrbita ocular. Un cop arriba al cervell, les mecanites milloren instantàniament la capacitat del subjecte en una àrea específica, convertint-se en el teixit neuronal necessari.</MechSerumNeurotrainer.description>
+  <!-- EN: Use neurotrainer mech serum to learn {0} -->
+  <MechSerumNeurotrainer.comps.CompNeurotrainer.useLabel>Fa servir el meca-sèrum neuroentrenador per millorar {0}</MechSerumNeurotrainer.comps.CompNeurotrainer.useLabel>
+  
+  <!-- EN: resurrector mech serum -->
+  <MechSerumResurrector.label>meca-sèrum de resurrecció</MechSerumResurrector.label>
+  <!-- EN: A one-use super-dose of mechanites tuned to resurrect the dead. Administered to a corpse, mechanites repair broken-down tissues and kickstart the body back to life. Unfortunately, the resurrected sometimes come back with brain damage, blindness, or progressive psychosis. Outcomes are better when the mechanites are administered to a fresher body. If a body is preserved, it can even be resurrected long after death. -->
+  <MechSerumResurrector.description>Una super-dosis d’un sol ús de mecanites tractades per ressuscitar a un mort. Si s’administra a un cadaver poc després de la mort de l’individu, les mecanites reparen el teixit danyat i retorna el cos a la vida. No sempre funciona bé, el subjecte pot tornar a la vida amb danys cerebrals, ceguesa o psicosis progressiva. Com més aviat s’utilitzi, més probabilitats d’èxit té.</MechSerumResurrector.description>
+  <!-- EN: Use resurrector mech serum -->
+  <MechSerumResurrector.comps.CompUsable.useLabel>Fa servir meca-sèrum de resurrecció</MechSerumResurrector.comps.CompUsable.useLabel>
+  
+  <!-- EN: techprof subpersona core -->
+  <TechprofSubpersonaCore.label>techprof subpersona core</TechprofSubpersonaCore.label>
+  <!-- EN: A small AI core housing a low-grade subpersona specialized in teaching technology. When used, the AI will teach you the technology you're currently researching, instantly and for free. Can only be used once. -->
+  <TechprofSubpersonaCore.description>A small AI core housing a low-grade subpersona specialized in teaching technology. When used, the AI will teach you one technology you don't know, instantly and for free. Can only be used once.</TechprofSubpersonaCore.description>
+  <!-- EN: Use techprof subpersona core -->
+  <TechprofSubpersonaCore.comps.CompUsable.useLabel>Use techprof subpersona core</TechprofSubpersonaCore.comps.CompUsable.useLabel>
+  
+  <!-- EN: thrumbo horn -->
+  <ThrumboHorn.label>banya de trumbe</ThrumboHorn.label>
+  <!-- EN: A thrumbo's horn. It's razor-sharp, rock-hard, and priceless in most markets. This is a true trophy, as well as a deadly melee weapon. -->
+  <ThrumboHorn.description>Una banya de trumbe. Esmolat com una fulla d'afaitar , molt dur i extremadament preuat als mercats. Un veritable trofeu.</ThrumboHorn.description>
+  <!-- EN: point -->
+  <ThrumboHorn.tools.point.label>TODO</ThrumboHorn.tools.point.label>
+  <!-- EN: base -->
+  <ThrumboHorn.tools.base.label>TODO</ThrumboHorn.tools.base.label>
+  
 </LanguageData>

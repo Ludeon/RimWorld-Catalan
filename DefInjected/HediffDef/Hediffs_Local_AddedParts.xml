@@ -1,62 +1,102 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <PegLeg.label>cama de fusta</PegLeg.label>
-  <PegLeg.labelNoun>una cama de fusta</PegLeg.labelNoun>
-
-  <WoodenFoot.label>peu de fusta</WoodenFoot.label>
-  <WoodenFoot.labelNoun>un peu de fusta</WoodenFoot.labelNoun>
-
-  <Denture.label>dentadura</Denture.label>
-  <Denture.labelNoun>una dentadura</Denture.labelNoun>
-
-  <SimpleProstheticLeg.label>pròtesi de cama</SimpleProstheticLeg.label>
-  <SimpleProstheticLeg.labelNoun>una pròtesi de cama</SimpleProstheticLeg.labelNoun>
-
-  <SimpleProstheticArm.label>pròtesi de braç</SimpleProstheticArm.label>
-  <SimpleProstheticArm.comps.0.tools.0.label>puny</SimpleProstheticArm.comps.0.tools.0.label>
-  <SimpleProstheticArm.labelNoun>una pròtesi de braç</SimpleProstheticArm.labelNoun>
-
-  <SimpleProstheticHeart.label>pròtesi de cor</SimpleProstheticHeart.label>
-  <SimpleProstheticHeart.labelNoun>una pròtesi de cor</SimpleProstheticHeart.labelNoun>
-
-  <CochlearImplant.label>implant coclear</CochlearImplant.label>
-  <CochlearImplant.labelNoun>un implant coclear</CochlearImplant.labelNoun>
-
-  <BionicEye.label>ull biònic</BionicEye.label>
-  <BionicEye.labelNoun>un ull biònic</BionicEye.labelNoun>
-
-  <BionicArm.label>braç biònic</BionicArm.label>
-  <BionicArm.comps.0.tools.0.label>puny</BionicArm.comps.0.tools.0.label>
-  <BionicArm.labelNoun>un braç biònic</BionicArm.labelNoun>
-
-  <BionicLeg.label>cama biònica</BionicLeg.label>
-  <BionicLeg.labelNoun>una cama biònica</BionicLeg.labelNoun>
-
-  <BionicSpine.label>columna biònica</BionicSpine.label>
-  <BionicSpine.labelNoun>una columna biònica</BionicSpine.labelNoun>
-
-  <BionicHeart.label>cor biònic</BionicHeart.label>
-  <BionicHeart.labelNoun>un cor biònic</BionicHeart.labelNoun>
-
-  <BionicStomach.label>estómac biònic</BionicStomach.label>
-  <BionicStomach.labelNoun>un estómac biònic</BionicStomach.labelNoun>
-
-  <BionicEar.label>orella biònica</BionicEar.label>
-  <BionicEar.labelNoun>una orella biònica</BionicEar.labelNoun>
-
-  <PowerClaw.label>urpes metàl·liques</PowerClaw.label>
-  <PowerClaw.comps.0.tools.0.label>urpa</PowerClaw.comps.0.tools.0.label>
-  <PowerClaw.labelNoun>unes urpes metàl·liques</PowerClaw.labelNoun>
-
-  <ArchotechEye.label>ull arco-tecnològic</ArchotechEye.label>
-  <ArchotechEye.labelNoun>un ull arco-tecnològic</ArchotechEye.labelNoun>
-
+  
+  <!-- EN: archotech arm -->
   <ArchotechArm.label>braç arco-tecnològic</ArchotechArm.label>
-  <ArchotechArm.comps.0.tools.0.label>puny</ArchotechArm.comps.0.tools.0.label>
+  <!-- EN: fist -->
+  <ArchotechArm.comps.HediffComp_VerbGiver.tools.fist.label>puny</ArchotechArm.comps.HediffComp_VerbGiver.tools.fist.label>
+  <!-- EN: an archotech arm -->
   <ArchotechArm.labelNoun>un braç arco-tecnològic</ArchotechArm.labelNoun>
-
+  
+  <!-- EN: archotech eye -->
+  <ArchotechEye.label>ull arco-tecnològic</ArchotechEye.label>
+  <!-- EN: an archotech eye -->
+  <ArchotechEye.labelNoun>un ull arco-tecnològic</ArchotechEye.labelNoun>
+  
+  <!-- EN: archotech leg -->
   <ArchotechLeg.label>cama arco-tecnològica</ArchotechLeg.label>
+  <!-- EN: an archotech leg -->
   <ArchotechLeg.labelNoun>una cama arco-tecnològica</ArchotechLeg.labelNoun>
-
+  
+  <!-- EN: bionic arm -->
+  <BionicArm.label>braç biònic</BionicArm.label>
+  <!-- EN: fist -->
+  <BionicArm.comps.HediffComp_VerbGiver.tools.fist.label>puny</BionicArm.comps.HediffComp_VerbGiver.tools.fist.label>
+  <!-- EN: a bionic arm -->
+  <BionicArm.labelNoun>un braç biònic</BionicArm.labelNoun>
+  
+  <!-- EN: bionic ear -->
+  <BionicEar.label>orella biònica</BionicEar.label>
+  <!-- EN: a bionic ear -->
+  <BionicEar.labelNoun>una orella biònica</BionicEar.labelNoun>
+  
+  <!-- EN: bionic eye -->
+  <BionicEye.label>ull biònic</BionicEye.label>
+  <!-- EN: a bionic eye -->
+  <BionicEye.labelNoun>un ull biònic</BionicEye.labelNoun>
+  
+  <!-- EN: bionic heart -->
+  <BionicHeart.label>cor biònic</BionicHeart.label>
+  <!-- EN: a bionic heart -->
+  <BionicHeart.labelNoun>un cor biònic</BionicHeart.labelNoun>
+  
+  <!-- EN: bionic leg -->
+  <BionicLeg.label>cama biònica</BionicLeg.label>
+  <!-- EN: a bionic leg -->
+  <BionicLeg.labelNoun>una cama biònica</BionicLeg.labelNoun>
+  
+  <!-- EN: bionic spine -->
+  <BionicSpine.label>columna biònica</BionicSpine.label>
+  <!-- EN: a bionic spine -->
+  <BionicSpine.labelNoun>una columna biònica</BionicSpine.labelNoun>
+  
+  <!-- EN: bionic stomach -->
+  <BionicStomach.label>estómac biònic</BionicStomach.label>
+  <!-- EN: a bionic stomach -->
+  <BionicStomach.labelNoun>un estómac biònic</BionicStomach.labelNoun>
+  
+  <!-- EN: cochlear implant -->
+  <CochlearImplant.label>implant coclear</CochlearImplant.label>
+  <!-- EN: a cochlear implant -->
+  <CochlearImplant.labelNoun>un implant coclear</CochlearImplant.labelNoun>
+  
+  <!-- EN: denture -->
+  <Denture.label>dentadura</Denture.label>
+  <!-- EN: a denture -->
+  <Denture.labelNoun>una dentadura</Denture.labelNoun>
+  
+  <!-- EN: peg leg -->
+  <PegLeg.label>cama de fusta</PegLeg.label>
+  <!-- EN: a peg leg -->
+  <PegLeg.labelNoun>una cama de fusta</PegLeg.labelNoun>
+  
+  <!-- EN: power claw -->
+  <PowerClaw.label>urpes metàl·liques</PowerClaw.label>
+  <!-- EN: claw -->
+  <PowerClaw.comps.HediffComp_VerbGiver.tools.claw.label>urpa</PowerClaw.comps.HediffComp_VerbGiver.tools.claw.label>
+  <!-- EN: a power claw -->
+  <PowerClaw.labelNoun>unes urpes metàl·liques</PowerClaw.labelNoun>
+  
+  <!-- EN: prosthetic arm -->
+  <SimpleProstheticArm.label>pròtesi de braç</SimpleProstheticArm.label>
+  <!-- EN: fist -->
+  <SimpleProstheticArm.comps.HediffComp_VerbGiver.tools.fist.label>puny</SimpleProstheticArm.comps.HediffComp_VerbGiver.tools.fist.label>
+  <!-- EN: a prosthetic arm -->
+  <SimpleProstheticArm.labelNoun>una pròtesi de braç</SimpleProstheticArm.labelNoun>
+  
+  <!-- EN: prosthetic heart -->
+  <SimpleProstheticHeart.label>pròtesi de cor</SimpleProstheticHeart.label>
+  <!-- EN: a prosthetic heart -->
+  <SimpleProstheticHeart.labelNoun>una pròtesi de cor</SimpleProstheticHeart.labelNoun>
+  
+  <!-- EN: prosthetic leg -->
+  <SimpleProstheticLeg.label>pròtesi de cama</SimpleProstheticLeg.label>
+  <!-- EN: a prosthetic leg -->
+  <SimpleProstheticLeg.labelNoun>una pròtesi de cama</SimpleProstheticLeg.labelNoun>
+  
+  <!-- EN: wooden foot -->
+  <WoodenFoot.label>peu de fusta</WoodenFoot.label>
+  <!-- EN: a wooden foot -->
+  <WoodenFoot.labelNoun>un peu de fusta</WoodenFoot.labelNoun>
+  
 </LanguageData>

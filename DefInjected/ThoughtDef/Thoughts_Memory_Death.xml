@@ -1,109 +1,163 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- executions and prisoner deaths -->
-
-  <KnowGuestExecuted.stages.0.label>execució justificada</KnowGuestExecuted.stages.0.label>
-  <KnowGuestExecuted.stages.0.description>Un presoner o un convidat ha estat executat. Potser s'ho mereixia, però no deixa de ser trist.</KnowGuestExecuted.stages.0.description>
-  <KnowGuestExecuted.stages.1.label>s'ha practicat una eutanàsia</KnowGuestExecuted.stages.1.label>
-  <KnowGuestExecuted.stages.1.description>S'ha fet l'eutanàsia a un presoner o a un convidat. És humà, però trist.</KnowGuestExecuted.stages.1.description>
-  <KnowGuestExecuted.stages.2.label>s'ha executat algú</KnowGuestExecuted.stages.2.label>
-  <KnowGuestExecuted.stages.2.description>Un presoner o un convidat ha estat assassinat a sang freda. És una mica diabòlic.</KnowGuestExecuted.stages.2.description>
-  <KnowGuestExecuted.stages.3.label>s'ha extret un òrgan a algú</KnowGuestExecuted.stages.3.label>
-  <KnowGuestExecuted.stages.3.description>Ha mort un presoner o un convidat perquè li hem extret una part del cos. És horrible.</KnowGuestExecuted.stages.3.description>
-
-  <KnowColonistExecuted.stages.0.label>execució justificada d'un colon</KnowColonistExecuted.stages.0.label>
-  <KnowColonistExecuted.stages.0.description>S'ha executat un colon culpable. Potser s'ho mereixia, però no deixa de ser trist.</KnowColonistExecuted.stages.0.description>
-  <KnowColonistExecuted.stages.1.label>s'ha practicat l'eutanàsia a un colon</KnowColonistExecuted.stages.1.label>
-  <KnowColonistExecuted.stages.1.description>S'ha fet l'eutanàsia a un colon. És humà, però trist.</KnowColonistExecuted.stages.1.description>
-  <KnowColonistExecuted.stages.2.label>colon executat</KnowColonistExecuted.stages.2.label>
-  <KnowColonistExecuted.stages.2.description>S'ha matat un colon a sang freda. És una mica diabòlic.</KnowColonistExecuted.stages.2.description>
-  <KnowColonistExecuted.stages.3.label>s'ha extret un organ a un colon</KnowColonistExecuted.stages.3.label>
-  <KnowColonistExecuted.stages.3.description>Un colon ha mort perquè li hem extret una part del cos. És horrible.</KnowColonistExecuted.stages.3.description>
-
-  <KnowPrisonerDiedInnocent.stages.0.label>ha mort un presoner innocent</KnowPrisonerDiedInnocent.stages.0.label>
-  <KnowPrisonerDiedInnocent.stages.0.description>Un dels nostres presoners ha mort tot i ser inofensiu. Hauríem de poder cuidar els nostres presoners. Si el volíem mort, l'hauríem d'haver executat en comptes de permetre que moris com un gos.</KnowPrisonerDiedInnocent.stages.0.description>
-
-  <KnowColonistDied.stages.0.label>ha mort un colon</KnowColonistDied.stages.0.label>
-  <KnowColonistDied.stages.0.description>Ha mort un dels nostres. Hauríem de poder cuidar els uns dels altres.</KnowColonistDied.stages.0.description>
-
-
-  <!-- bonded animal died -->
-
-  <BondedAnimalDied.stages.0.label>ha mort un animal amb lligam {0}</BondedAnimalDied.stages.0.label>
-  <BondedAnimalDied.stages.0.description>Quin animal més tendre. Era únic. Aquest univers és un infern!</BondedAnimalDied.stages.0.description>
-
-
-  <!-- friend/rival died -->
-
-  <PawnWithGoodOpinionDied.stages.0.label>la meva amistat {0} ha mort</PawnWithGoodOpinionDied.stages.0.label>
-  <PawnWithGoodOpinionDied.stages.0.description>Quina persona més meravellosa. L'univers s'enfosqueix cada dia que passa.</PawnWithGoodOpinionDied.stages.0.description>
-
-  <PawnWithBadOpinionDied.stages.0.label>la meva competència {0} ha mort</PawnWithBadOpinionDied.stages.0.label>
-  <PawnWithBadOpinionDied.stages.0.description>Ja li està bé. Ara tot anirà millor.</PawnWithBadOpinionDied.stages.0.description>
-
-
-  <!-- Family member died thoughts -->
-
-  <MySonDied.stages.0.label>el meu fill {0} ha mort</MySonDied.stages.0.label>
-  <MySonDied.stages.0.description>Ha mort el meu fill. Sang de la meva sang...</MySonDied.stages.0.description>
-
-  <MyDaughterDied.stages.0.label>la meva filla {0} ha mort</MyDaughterDied.stages.0.label>
-  <MyDaughterDied.stages.0.description>Ha mort la meva filla. Sang de la meva sang...</MyDaughterDied.stages.0.description>
-
-  <MyHusbandDied.stages.0.label>el meu marit {0} ha mort</MyHusbandDied.stages.0.label>
-  <MyHusbandDied.stages.0.description>Ha mort el meu marit. M'envaeix la soledat.</MyHusbandDied.stages.0.description>
-
-  <MyWifeDied.stages.0.label>la meva esposa {0} ha mort</MyWifeDied.stages.0.label>
-  <MyWifeDied.stages.0.description>Ha mort la meva dona. M'envaeix la soledat.</MyWifeDied.stages.0.description>
-
-  <MyFianceDied.stages.0.label>el meu promès {0} ha mort</MyFianceDied.stages.0.label>
-  <MyFianceDied.stages.0.description>Ha mort el meu promès. Quin home... he perdut el meu futur.</MyFianceDied.stages.0.description>
-
-  <MyFianceeDied.stages.0.label>la meva promesa{0} ha mort</MyFianceeDied.stages.0.label>
-  <MyFianceeDied.stages.0.description>Ha mort la meva promesa. Quina dona... he perdut el meu futur .</MyFianceeDied.stages.0.description>
-
-  <MyLoverDied.stages.0.label>el meu amor {0} ha mort</MyLoverDied.stages.0.label>
-  <MyLoverDied.stages.0.description>Ha mort el meu amor. M'envaeix la soledat.</MyLoverDied.stages.0.description>
-
-  <MyBrotherDied.stages.0.label>el meu germà {0} ha mort</MyBrotherDied.stages.0.label>
-  <MyBrotherDied.stages.0.description>El meu germà ha mort. Sang de la meva sang...</MyBrotherDied.stages.0.description>
-
-  <MySisterDied.stages.0.label>la meva germana {0} ha mort</MySisterDied.stages.0.label>
-  <MySisterDied.stages.0.description>La meva germana ha mort. Sang de la meva sang...</MySisterDied.stages.0.description>
-
-  <MyGrandchildDied.stages.0.label>Un dels meus néts {0} ha mort</MyGrandchildDied.stages.0.label>
-  <MyGrandchildDied.stages.0.description>Ha mort un dels meus néts. Sang de la meva sang...</MyGrandchildDied.stages.0.description>
-
-  <MyFatherDied.stages.0.label>el meu pare {0} ha mort</MyFatherDied.stages.0.label>
-  <MyFatherDied.stages.0.description>Ha mort el meu pare. Ha marxat per sempre.</MyFatherDied.stages.0.description>
-
-  <MyMotherDied.stages.0.label>la meva mare {0} ha mort</MyMotherDied.stages.0.label>
-  <MyMotherDied.stages.0.description>Ha mort la meva mare. Ha marxat per sempre.</MyMotherDied.stages.0.description>
-
-  <MyNieceDied.stages.0.label>la meva neboda {0} ha mort</MyNieceDied.stages.0.label>
-  <MyNieceDied.stages.0.description>Ha mort la meva neboda. Una criatura meravellosa.</MyNieceDied.stages.0.description>
-
-  <MyNephewDied.stages.0.label>el meu nebot {0} ha mort</MyNephewDied.stages.0.label>
-  <MyNephewDied.stages.0.description>Ha mort el meu nebot. Una criatura meravellosa.</MyNephewDied.stages.0.description>
-
-  <MyHalfSiblingDied.stages.0.label>amb {0} érem mig germans i ha mort</MyHalfSiblingDied.stages.0.label>
-  <MyHalfSiblingDied.stages.0.description>Algú amb qui érem mig germans ha mort. Sang de la meva sang...</MyHalfSiblingDied.stages.0.description>
-
-  <MyAuntDied.stages.0.label>la meva tieta {0} ha mort</MyAuntDied.stages.0.label>
-  <MyAuntDied.stages.0.description>Ha mort la meva tieta.</MyAuntDied.stages.0.description>
-
-  <MyUncleDied.stages.0.label>el meu tiet {0} ha mort</MyUncleDied.stages.0.label>
-  <MyUncleDied.stages.0.description>Ha mort el meu tiet.</MyUncleDied.stages.0.description>
-
-  <MyGrandparentDied.stages.0.label>un dels meus avis {0} ha mort</MyGrandparentDied.stages.0.label>
-  <MyGrandparentDied.stages.0.description>Ha mort un dels meus avis.</MyGrandparentDied.stages.0.description>
-
-  <MyCousinDied.stages.0.label>Érem cosins amb {0} i ha mort</MyCousinDied.stages.0.label>
-  <MyCousinDied.stages.0.description>Algú amb qui érem cosins ha mort. Sang de la meva sang...</MyCousinDied.stages.0.description>
-
-  <MyKinDied.stages.0.label>un dels meus parents {0} ha mort</MyKinDied.stages.0.label>
-  <MyKinDied.stages.0.description>Un parent meu ha mort.</MyKinDied.stages.0.description>
-
-
+  
+  <!-- EN: bonded animal {0} died -->
+  <BondedAnimalDied.stages.bonded_animal_died.label>ha mort un animal amb lligam {0}</BondedAnimalDied.stages.bonded_animal_died.label>
+  <!-- EN: Such a tender, unique animal. This universe is evil! -->
+  <BondedAnimalDied.stages.bonded_animal_died.description>Quin animal més tendre. Era únic. Aquest univers és un infern!</BondedAnimalDied.stages.bonded_animal_died.description>
+  
+  <!-- EN: colonist died -->
+  <KnowColonistDied.stages.colonist_died.label>ha mort un colon</KnowColonistDied.stages.colonist_died.label>
+  <!-- EN: One of our people died. We should be able to take care of our people. -->
+  <KnowColonistDied.stages.colonist_died.description>Ha mort un dels nostres. Hauríem de poder cuidar els uns dels altres.</KnowColonistDied.stages.colonist_died.description>
+  
+  <!-- EN: justified execution of colonist -->
+  <KnowColonistExecuted.stages.justified_execution_of_colonist.label>execució justificada d'un colon</KnowColonistExecuted.stages.justified_execution_of_colonist.label>
+  <!-- EN: A guilty colonist was executed. It was justified, but still sad. -->
+  <KnowColonistExecuted.stages.justified_execution_of_colonist.description>S'ha executat un colon culpable. Potser s'ho mereixia, però no deixa de ser trist.</KnowColonistExecuted.stages.justified_execution_of_colonist.description>
+  <!-- EN: colonist euthanized -->
+  <KnowColonistExecuted.stages.colonist_euthanized.label>s'ha practicat l'eutanàsia a un colon</KnowColonistExecuted.stages.colonist_euthanized.label>
+  <!-- EN: A colonist was euthanized. It was humane, but still sad. -->
+  <KnowColonistExecuted.stages.colonist_euthanized.description>S'ha fet l'eutanàsia a un colon. És humà, però trist.</KnowColonistExecuted.stages.colonist_euthanized.description>
+  <!-- EN: colonist executed -->
+  <KnowColonistExecuted.stages.colonist_executed.label>colon executat</KnowColonistExecuted.stages.colonist_executed.label>
+  <!-- EN: A colonist was killed in cold blood. It seemed a bit evil. -->
+  <KnowColonistExecuted.stages.colonist_executed.description>S'ha matat un colon a sang freda. És una mica diabòlic.</KnowColonistExecuted.stages.colonist_executed.description>
+  <!-- EN: colonist organ-harvested -->
+  <KnowColonistExecuted.stages.colonist_organharvested.label>s'ha extret un organ a un colon</KnowColonistExecuted.stages.colonist_organharvested.label>
+  <!-- EN: A colonist died because someone took body parts from him. It's horrible. -->
+  <KnowColonistExecuted.stages.colonist_organharvested.description>Un colon ha mort perquè li hem extret una part del cos. És horrible.</KnowColonistExecuted.stages.colonist_organharvested.description>
+  
+  <!-- EN: justified execution -->
+  <KnowGuestExecuted.stages.justified_execution.label>execució justificada</KnowGuestExecuted.stages.justified_execution.label>
+  <!-- EN: A guilty prisoner or guest was executed. It was justified, but still sad. -->
+  <KnowGuestExecuted.stages.justified_execution.description>Un presoner o un convidat ha estat executat. Potser s'ho mereixia, però no deixa de ser trist.</KnowGuestExecuted.stages.justified_execution.description>
+  <!-- EN: someone was euthanized -->
+  <KnowGuestExecuted.stages.someone_was_euthanized.label>s'ha practicat una eutanàsia</KnowGuestExecuted.stages.someone_was_euthanized.label>
+  <!-- EN: A prisoner or guest was euthanized. It was humane, but still sad. -->
+  <KnowGuestExecuted.stages.someone_was_euthanized.description>S'ha fet l'eutanàsia a un presoner o a un convidat. És humà, però trist.</KnowGuestExecuted.stages.someone_was_euthanized.description>
+  <!-- EN: someone was executed -->
+  <KnowGuestExecuted.stages.someone_was_executed.label>s'ha executat algú</KnowGuestExecuted.stages.someone_was_executed.label>
+  <!-- EN: A prisoner or guest was killed in cold blood. It seemed a bit evil. -->
+  <KnowGuestExecuted.stages.someone_was_executed.description>Un presoner o un convidat ha estat assassinat a sang freda. És una mica diabòlic.</KnowGuestExecuted.stages.someone_was_executed.description>
+  <!-- EN: someone organ-harvested -->
+  <KnowGuestExecuted.stages.someone_organharvested.label>s'ha extret un òrgan a algú</KnowGuestExecuted.stages.someone_organharvested.label>
+  <!-- EN: A prisoner or guest died because the colony took body parts from him. It's horrible. -->
+  <KnowGuestExecuted.stages.someone_organharvested.description>Ha mort un presoner o un convidat perquè li hem extret una part del cos. És horrible.</KnowGuestExecuted.stages.someone_organharvested.description>
+  
+  <!-- EN: innocent prisoner died -->
+  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>ha mort un presoner innocent</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>
+  <!-- EN: One of our prisoners died despite being harmless. We should be able to take care of our prisoners. If we wanted them dead, we could have at least conducted an orderly execution rather than permit that barbarism. -->
+  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>Un dels nostres presoners ha mort tot i ser inofensiu. Hauríem de poder cuidar els nostres presoners. Si el volíem mort, l'hauríem d'haver executat en comptes de permetre que moris com un gos.</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>
+  
+  <!-- EN: my aunt {0} died -->
+  <MyAuntDied.stages.my_aunt_died.label>la meva tieta {0} ha mort</MyAuntDied.stages.my_aunt_died.label>
+  <!-- EN: My aunt died. -->
+  <MyAuntDied.stages.my_aunt_died.description>Ha mort la meva tieta.</MyAuntDied.stages.my_aunt_died.description>
+  
+  <!-- EN: my brother {0} died -->
+  <MyBrotherDied.stages.my_brother_died.label>el meu germà {0} ha mort</MyBrotherDied.stages.my_brother_died.label>
+  <!-- EN: My brother died. My own flesh and blood... -->
+  <MyBrotherDied.stages.my_brother_died.description>El meu germà ha mort. Sang de la meva sang...</MyBrotherDied.stages.my_brother_died.description>
+  
+  <!-- EN: my cousin {0} died -->
+  <MyCousinDied.stages.my_cousin_died.label>Érem cosins amb {0} i ha mort</MyCousinDied.stages.my_cousin_died.label>
+  <!-- EN: My cousin died. My own flesh and blood... -->
+  <MyCousinDied.stages.my_cousin_died.description>Algú amb qui érem cosins ha mort. Sang de la meva sang...</MyCousinDied.stages.my_cousin_died.description>
+  
+  <!-- EN: my daughter {0} died -->
+  <MyDaughterDied.stages.my_daughter_died.label>la meva filla {0} ha mort</MyDaughterDied.stages.my_daughter_died.label>
+  <!-- EN: My daughter is dead. My own flesh and blood... -->
+  <MyDaughterDied.stages.my_daughter_died.description>Ha mort la meva filla. Sang de la meva sang...</MyDaughterDied.stages.my_daughter_died.description>
+  
+  <!-- EN: my father {0} died -->
+  <MyFatherDied.stages.my_father_died.label>el meu pare {0} ha mort</MyFatherDied.stages.my_father_died.label>
+  <!-- EN: My father died. He's gone forever. -->
+  <MyFatherDied.stages.my_father_died.description>Ha mort el meu pare. Ha marxat per sempre.</MyFatherDied.stages.my_father_died.description>
+  
+  <!-- EN: my fiance {0} died -->
+  <MyFianceDied.stages.my_fiance_died.label>el meu promès {0} ha mort</MyFianceDied.stages.my_fiance_died.label>
+  <!-- EN: My fiance died. Such a man... my future is gone. -->
+  <MyFianceDied.stages.my_fiance_died.description>Ha mort el meu promès. Quin home... he perdut el meu futur.</MyFianceDied.stages.my_fiance_died.description>
+  
+  <!-- EN: my fiancée {0} died -->
+  <MyFianceeDied.stages.my_fiance_died.label>la meva promesa{0} ha mort</MyFianceeDied.stages.my_fiance_died.label>
+  <!-- EN: My fiancée died. Such a woman... my future is gone. -->
+  <MyFianceeDied.stages.my_fiance_died.description>Ha mort la meva promesa. Quina dona... he perdut el meu futur .</MyFianceeDied.stages.my_fiance_died.description>
+  
+  <!-- EN: my grandchild {0} died -->
+  <MyGrandchildDied.stages.my_grandchild_died.label>Un dels meus néts {0} ha mort</MyGrandchildDied.stages.my_grandchild_died.label>
+  <!-- EN: My grandchild died. My own flesh and blood... -->
+  <MyGrandchildDied.stages.my_grandchild_died.description>Ha mort un dels meus néts. Sang de la meva sang...</MyGrandchildDied.stages.my_grandchild_died.description>
+  
+  <!-- EN: my grandparent {0} died -->
+  <MyGrandparentDied.stages.my_grandparent_died.label>un dels meus avis {0} ha mort</MyGrandparentDied.stages.my_grandparent_died.label>
+  <!-- EN: My grandparent died. -->
+  <MyGrandparentDied.stages.my_grandparent_died.description>Ha mort un dels meus avis.</MyGrandparentDied.stages.my_grandparent_died.description>
+  
+  <!-- EN: my half-sibling {0} died -->
+  <MyHalfSiblingDied.stages.my_halfsibling_died.label>amb {0} érem mig germans i ha mort</MyHalfSiblingDied.stages.my_halfsibling_died.label>
+  <!-- EN: My half-sibling died. My own flesh and blood... -->
+  <MyHalfSiblingDied.stages.my_halfsibling_died.description>Algú amb qui érem mig germans ha mort. Sang de la meva sang...</MyHalfSiblingDied.stages.my_halfsibling_died.description>
+  
+  <!-- EN: my husband {0} died -->
+  <MyHusbandDied.stages.my_husband_died.label>el meu marit {0} ha mort</MyHusbandDied.stages.my_husband_died.label>
+  <!-- EN: My husband is dead. I am alone. -->
+  <MyHusbandDied.stages.my_husband_died.description>Ha mort el meu marit. M'envaeix la soledat.</MyHusbandDied.stages.my_husband_died.description>
+  
+  <!-- EN: my kin {0} died -->
+  <MyKinDied.stages.my_kin_died.label>un dels meus parents {0} ha mort</MyKinDied.stages.my_kin_died.label>
+  <!-- EN: My kin died. -->
+  <MyKinDied.stages.my_kin_died.description>Un parent meu ha mort.</MyKinDied.stages.my_kin_died.description>
+  
+  <!-- EN: my lover {0} died -->
+  <MyLoverDied.stages.my_lover_died.label>el meu amor {0} ha mort</MyLoverDied.stages.my_lover_died.label>
+  <!-- EN: My lover died. I am so alone. -->
+  <MyLoverDied.stages.my_lover_died.description>Ha mort el meu amor. M'envaeix la soledat.</MyLoverDied.stages.my_lover_died.description>
+  
+  <!-- EN: my mother {0} died -->
+  <MyMotherDied.stages.my_mother_died.label>la meva mare {0} ha mort</MyMotherDied.stages.my_mother_died.label>
+  <!-- EN: My mother died. She's gone forever. -->
+  <MyMotherDied.stages.my_mother_died.description>Ha mort la meva mare. Ha marxat per sempre.</MyMotherDied.stages.my_mother_died.description>
+  
+  <!-- EN: my nephew {0} died -->
+  <MyNephewDied.stages.my_nephew_died.label>el meu nebot {0} ha mort</MyNephewDied.stages.my_nephew_died.label>
+  <!-- EN: My nephew died. Such a wonderful child. -->
+  <MyNephewDied.stages.my_nephew_died.description>Ha mort el meu nebot. Una criatura meravellosa.</MyNephewDied.stages.my_nephew_died.description>
+  
+  <!-- EN: my niece {0} died -->
+  <MyNieceDied.stages.my_niece_died.label>la meva neboda {0} ha mort</MyNieceDied.stages.my_niece_died.label>
+  <!-- EN: My niece died. Such a wonderful child. -->
+  <MyNieceDied.stages.my_niece_died.description>Ha mort la meva neboda. Una criatura meravellosa.</MyNieceDied.stages.my_niece_died.description>
+  
+  <!-- EN: my sister {0} died -->
+  <MySisterDied.stages.my_sister_died.label>la meva germana {0} ha mort</MySisterDied.stages.my_sister_died.label>
+  <!-- EN: My sister died. My own flesh and blood... -->
+  <MySisterDied.stages.my_sister_died.description>La meva germana ha mort. Sang de la meva sang...</MySisterDied.stages.my_sister_died.description>
+  
+  <!-- EN: my son {0} died -->
+  <MySonDied.stages.my_son_died.label>el meu fill {0} ha mort</MySonDied.stages.my_son_died.label>
+  <!-- EN: My son is dead. My own flesh and blood... -->
+  <MySonDied.stages.my_son_died.description>Ha mort el meu fill. Sang de la meva sang...</MySonDied.stages.my_son_died.description>
+  
+  <!-- EN: my uncle {0} died -->
+  <MyUncleDied.stages.my_uncle_died.label>el meu tiet {0} ha mort</MyUncleDied.stages.my_uncle_died.label>
+  <!-- EN: My uncle died. -->
+  <MyUncleDied.stages.my_uncle_died.description>Ha mort el meu tiet.</MyUncleDied.stages.my_uncle_died.description>
+  
+  <!-- EN: my wife {0} died -->
+  <MyWifeDied.stages.my_wife_died.label>la meva esposa {0} ha mort</MyWifeDied.stages.my_wife_died.label>
+  <!-- EN: My wife is dead. I am alone. -->
+  <MyWifeDied.stages.my_wife_died.description>Ha mort la meva dona. M'envaeix la soledat.</MyWifeDied.stages.my_wife_died.description>
+  
+  <!-- EN: my rival {0} died -->
+  <PawnWithBadOpinionDied.stages.my_rival_died.label>la meva competència {0} ha mort</PawnWithBadOpinionDied.stages.my_rival_died.label>
+  <!-- EN: Serves them right. At least there's some justice in this world. -->
+  <PawnWithBadOpinionDied.stages.my_rival_died.description>Ja li està bé. Ara tot anirà millor.</PawnWithBadOpinionDied.stages.my_rival_died.description>
+  
+  <!-- EN: my friend {0} died -->
+  <PawnWithGoodOpinionDied.stages.my_friend_died.label>la meva amistat {0} ha mort</PawnWithGoodOpinionDied.stages.my_friend_died.label>
+  <!-- EN: Such a wonderful person, gone forever. The universe gets darker every day. -->
+  <PawnWithGoodOpinionDied.stages.my_friend_died.description>Quina persona més meravellosa. L'univers s'enfosqueix cada dia que passa.</PawnWithGoodOpinionDied.stages.my_friend_died.description>
+  
 </LanguageData>

@@ -1,59 +1,101 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <BloodLoss.label>perdua de sang</BloodLoss.label>
-  <BloodLoss.stages.0.label>menyspreable</BloodLoss.stages.0.label>
-  <BloodLoss.stages.1.label>menor</BloodLoss.stages.1.label>
-  <BloodLoss.stages.2.label>moderada</BloodLoss.stages.2.label>
-  <BloodLoss.stages.3.label>severa</BloodLoss.stages.3.label>
-  <BloodLoss.stages.4.label>extrema</BloodLoss.stages.4.label>
-
+  
+  <!-- EN: anesthetic -->
   <Anesthetic.label>anestèsia</Anesthetic.label>
-
+  
+  <!-- EN: blood loss -->
+  <BloodLoss.label>perdua de sang</BloodLoss.label>
+  <!-- EN: minor -->
+  <BloodLoss.stages.minor-0.label>menyspreable</BloodLoss.stages.minor-0.label>
+  <!-- EN: minor -->
+  <BloodLoss.stages.minor-1.label>menor</BloodLoss.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <BloodLoss.stages.moderate.label>moderada</BloodLoss.stages.moderate.label>
+  <!-- EN: severe -->
+  <BloodLoss.stages.severe.label>severa</BloodLoss.stages.severe.label>
+  <!-- EN: extreme -->
+  <BloodLoss.stages.extreme.label>extrema</BloodLoss.stages.extreme.label>
+  
+  <!-- EN: catatonic breakdown -->
   <CatatonicBreakdown.label>col·lapse catatònic</CatatonicBreakdown.label>
+  <!-- EN: a catatonic breakdown -->
   <CatatonicBreakdown.labelNoun>un col·lapse catatònic</CatatonicBreakdown.labelNoun>
-
-  <PsychicShock.label>xoc psíquic</PsychicShock.label>
-  <PsychicShock.labelNoun>un xoc psíquic</PsychicShock.labelNoun>
-
+  
+  <!-- EN: cryptosleep sickness -->
   <CryptosleepSickness.label>malaltia de criptosón</CryptosleepSickness.label>
-
-  <FoodPoisoning.label>gastroenteritis</FoodPoisoning.label>
-  <FoodPoisoning.stages.0.label>recuperant-se</FoodPoisoning.stages.0.label>
-  <FoodPoisoning.stages.1.label>major</FoodPoisoning.stages.1.label>
-  <FoodPoisoning.stages.2.label>inicial</FoodPoisoning.stages.2.label>
-
-  <ToxicBuildup.label>toxicitat</ToxicBuildup.label>
-  <ToxicBuildup.stages.0.label>menyspreable</ToxicBuildup.stages.0.label>
-  <ToxicBuildup.stages.1.label>inicial</ToxicBuildup.stages.1.label>
-  <ToxicBuildup.stages.2.label>menor</ToxicBuildup.stages.2.label>
-  <ToxicBuildup.stages.3.label>moderada</ToxicBuildup.stages.3.label>
-  <ToxicBuildup.stages.4.label>greu</ToxicBuildup.stages.4.label>
-  <ToxicBuildup.stages.5.label>extrema</ToxicBuildup.stages.5.label>
-
-  <Pregnant.label>embaràs</Pregnant.label>
-  <Pregnant.comps.0.discoverLetterLabel>embaràs de {0}</Pregnant.comps.0.discoverLetterLabel>
-  <Pregnant.comps.0.discoverLetterText>{0} està embarassada!</Pregnant.comps.0.discoverLetterText>
-  <Pregnant.stages.0.label>de pocs mesos</Pregnant.stages.0.label>
-  <Pregnant.stages.1.label>avançat</Pregnant.stages.1.label>
-  <Pregnant.stages.2.label>final</Pregnant.stages.2.label>
-  <Pregnant.labelNoun>embaraç</Pregnant.labelNoun>
-
-  <HeartAttack.label>atac de cor</HeartAttack.label>
-  <HeartAttack.stages.0.label>dolorós</HeartAttack.stages.0.label>
-  <HeartAttack.stages.1.label>debilitant</HeartAttack.stages.1.label>
-  <HeartAttack.stages.2.label>fatal</HeartAttack.stages.2.label>
-  <HeartAttack.labelNoun>un atac de cor</HeartAttack.labelNoun>
-
+  
+  <!-- EN: drug overdose -->
   <DrugOverdose.label>sobredosi</DrugOverdose.label>
-  <DrugOverdose.comps.1.discoverLetterLabel>Sobredosi: {0}</DrugOverdose.comps.1.discoverLetterLabel>
-  <DrugOverdose.comps.1.discoverLetterText>{0} s'està prenent una sobredosi!</DrugOverdose.comps.1.discoverLetterText>
-  <DrugOverdose.stages.0.label>menyspreable</DrugOverdose.stages.0.label>
-  <DrugOverdose.stages.1.label>menor</DrugOverdose.stages.1.label>
-  <DrugOverdose.stages.2.label>major</DrugOverdose.stages.2.label>
+  <!-- EN: Overdose: {0} -->
+  <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>Sobredosi: {0}</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>
+  <!-- EN: {0} is overdosing! -->
+  <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>{0} s'està prenent una sobredosi!</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterText>
+  <!-- EN: a drug overdose -->
   <DrugOverdose.labelNoun>una sobredosi</DrugOverdose.labelNoun>
-
+  <!-- EN: minor -->
+  <DrugOverdose.stages.minor-0.label>menyspreable</DrugOverdose.stages.minor-0.label>
+  <!-- EN: minor -->
+  <DrugOverdose.stages.minor-1.label>menor</DrugOverdose.stages.minor-1.label>
+  <!-- EN: major -->
+  <DrugOverdose.stages.major.label>major</DrugOverdose.stages.major.label>
+  
+  <!-- EN: food poisoning -->
+  <FoodPoisoning.label>gastroenteritis</FoodPoisoning.label>
+  <!-- EN: recovering -->
+  <FoodPoisoning.stages.recovering.label>recuperant-se</FoodPoisoning.stages.recovering.label>
+  <!-- EN: major -->
+  <FoodPoisoning.stages.major.label>major</FoodPoisoning.stages.major.label>
+  <!-- EN: initial -->
+  <FoodPoisoning.stages.initial.label>inicial</FoodPoisoning.stages.initial.label>
+  
+  <!-- EN: heart attack -->
+  <HeartAttack.label>atac de cor</HeartAttack.label>
+  <!-- EN: a heart attack -->
+  <HeartAttack.labelNoun>un atac de cor</HeartAttack.labelNoun>
+  <!-- EN: painful -->
+  <HeartAttack.stages.painful.label>dolorós</HeartAttack.stages.painful.label>
+  <!-- EN: debilitating -->
+  <HeartAttack.stages.debilitating.label>debilitant</HeartAttack.stages.debilitating.label>
+  <!-- EN: fatal -->
+  <HeartAttack.stages.fatal.label>fatal</HeartAttack.stages.fatal.label>
+  
+  <!-- EN: pregnant -->
+  <Pregnant.label>embaràs</Pregnant.label>
+  <!-- EN: {0} pregnant -->
+  <Pregnant.comps.HediffComp_Discoverable.discoverLetterLabel>embaràs de {0}</Pregnant.comps.HediffComp_Discoverable.discoverLetterLabel>
+  <!-- EN: {0} is pregnant! -->
+  <Pregnant.comps.HediffComp_Discoverable.discoverLetterText>{0} està embarassada!</Pregnant.comps.HediffComp_Discoverable.discoverLetterText>
+  <!-- EN: pregnancy -->
+  <Pregnant.labelNoun>embaraç</Pregnant.labelNoun>
+  <!-- EN: early-stage -->
+  <Pregnant.stages.earlystage.label>de pocs mesos</Pregnant.stages.earlystage.label>
+  <!-- EN: middle-stage -->
+  <Pregnant.stages.middlestage.label>avançat</Pregnant.stages.middlestage.label>
+  <!-- EN: late-stage -->
+  <Pregnant.stages.latestage.label>final</Pregnant.stages.latestage.label>
+  
+  <!-- EN: psychic shock -->
+  <PsychicShock.label>xoc psíquic</PsychicShock.label>
+  <!-- EN: a psychic shock -->
+  <PsychicShock.labelNoun>un xoc psíquic</PsychicShock.labelNoun>
+  
+  <!-- EN: resurrection sickness -->
   <ResurrectionSickness.label>síndrome de resurreció</ResurrectionSickness.label>
-
-
+  
+  <!-- EN: toxic buildup -->
+  <ToxicBuildup.label>toxicitat</ToxicBuildup.label>
+  <!-- EN: initial -->
+  <ToxicBuildup.stages.initial-0.label>menyspreable</ToxicBuildup.stages.initial-0.label>
+  <!-- EN: initial -->
+  <ToxicBuildup.stages.initial-1.label>inicial</ToxicBuildup.stages.initial-1.label>
+  <!-- EN: minor -->
+  <ToxicBuildup.stages.minor.label>menor</ToxicBuildup.stages.minor.label>
+  <!-- EN: moderate -->
+  <ToxicBuildup.stages.moderate.label>moderada</ToxicBuildup.stages.moderate.label>
+  <!-- EN: serious -->
+  <ToxicBuildup.stages.serious.label>greu</ToxicBuildup.stages.serious.label>
+  <!-- EN: extreme -->
+  <ToxicBuildup.stages.extreme.label>extrema</ToxicBuildup.stages.extreme.label>
+  
 </LanguageData>

@@ -1,52 +1,73 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Artistic recipes - speed not affected by skill because skill affects output quality -->
-
-  <SculptingSpeed.label>velocitat d’esculpir</SculptingSpeed.label>
-  <SculptingSpeed.description>Velocitat a la que esculpeix. Nota: l’habilitat afecta a la qualitat de l’escultura, no a la velocitat amb que es fa.</SculptingSpeed.description>
-
-  <TailoringSpeed.label>velocitat de cosir</TailoringSpeed.label>
-  <TailoringSpeed.description>Velocitat amb la que fa roba. Nota: l’habilitat afecta a la qualitat de la peça de roba, no a la velocitat amb que es fa.</TailoringSpeed.description>
-
-  <SmithingSpeed.label>velocitat de ferrar</SmithingSpeed.label>
-  <SmithingSpeed.description>Velocitat amb la que treballa el ferro per fer armes, maquinària, munició i eines. Nota: l’habilitat afecta a la qualitat de la peça, no a la velocitat amb que es fa.</SmithingSpeed.description>
-
-
-  <!-- Production recipes - speed affected by skill because there is no output quality -->
-
-  <DrugProductionSpeed.label>velocitat de produir droga</DrugProductionSpeed.label>
-  <DrugProductionSpeed.description>Velocitat amb la que fa droga.</DrugProductionSpeed.description>
-
-  <CookSpeed.label>velocitat de cuinar</CookSpeed.label>
-  <CookSpeed.description>Velocitat amb la que fa menjar.</CookSpeed.description>
-
-  <FoodPoisonChance.label>probabilitat de menjar dolent</FoodPoisonChance.label>
-  <FoodPoisonChance.description>Probabilitat amb la que fa menjar en mal estat.</FoodPoisonChance.description>
-
-  <BrewingSpeed.label>velocitat de fermentació</BrewingSpeed.label>
-  <BrewingSpeed.description>Velocitat a la que fa cervesa.</BrewingSpeed.description>
-
+  
+  <!-- EN: butchery efficiency -->
+  <ButcheryFleshEfficiency.label>eficiència d’escorxat</ButcheryFleshEfficiency.label>
+  <!-- EN: The amount of meat produced when butchering flesh creatures. The actual amount is also related to the creature's size. -->
+  <ButcheryFleshEfficiency.description>Factor a la quantitat de carn que aprofita de la criatura escorxada.</ButcheryFleshEfficiency.description>
+  
+  <!-- EN: butchery speed -->
   <ButcheryFleshSpeed.label>velocitat d’escorxar</ButcheryFleshSpeed.label>
+  <!-- EN: The speed at which this person butchers flesh creatures. -->
   <ButcheryFleshSpeed.description>Velocitat a la que escorxa criatures.</ButcheryFleshSpeed.description>
-
+  
+  <!-- EN: mechanoid disassembly efficiency -->
+  <ButcheryMechanoidEfficiency.label>eficiència de desmutatge</ButcheryMechanoidEfficiency.label>
+  <!-- EN: The amount of materials yielded when this person disassembles a dead mechanoid. The actual amount is also related to the mechanoid's size. -->
+  <ButcheryMechanoidEfficiency.description>Factor a la quantitat de materials que s’aprofiten de desmuntar un mecanòide.</ButcheryMechanoidEfficiency.description>
+  
+  <!-- EN: mechanoid disassembly speed -->
   <ButcheryMechanoidSpeed.label>velocitat de desmuntar de mecanòides</ButcheryMechanoidSpeed.label>
+  <!-- EN: The speed at which this person can disassemble a mechanoid. -->
   <ButcheryMechanoidSpeed.description>Velocitat amb la que desmunta mecanòides.</ButcheryMechanoidSpeed.description>
-
+  
+  <!-- EN: cooking speed -->
+  <CookSpeed.label>velocitat de cuinar</CookSpeed.label>
+  <!-- EN: The speed at which this person cooks meals. -->
+  <CookSpeed.description>Velocitat amb la que fa menjar.</CookSpeed.description>
+  
+  <!-- EN: drug cooking speed -->
+  <DrugCookingSpeed.label>velocitat de fermentació</DrugCookingSpeed.label>
+  <!-- EN: The speed at which this person brews beer and tea, or makes simple drug products like smokeleaf joints. -->
+  <DrugCookingSpeed.description>Velocitat a la que fa cervesa.</DrugCookingSpeed.description>
+  
+  <!-- EN: drug synthesis speed -->
+  <DrugSynthesisSpeed.label>velocitat de produir droga</DrugSynthesisSpeed.label>
+  <!-- EN: How fast this character synthesizes complex chemical drugs. -->
+  <DrugSynthesisSpeed.description>Velocitat amb la que fa droga.</DrugSynthesisSpeed.description>
+  
+  <!-- EN: food poison chance -->
+  <FoodPoisonChance.label>probabilitat de menjar dolent</FoodPoisonChance.label>
+  <!-- EN: The probability that this character will inadvertently poison a meal they cook. Food poison temporarily debilitates anyone it strikes. -->
+  <FoodPoisonChance.description>Probabilitat amb la que fa menjar en mal estat.</FoodPoisonChance.description>
+  
+  <!-- UNUSED -->
   <MechanoidOperationSuccessChance.label>probabilitat d’operar mecanòides</MechanoidOperationSuccessChance.label>
   <MechanoidOperationSuccessChance.description>Probabilita d’èxit quan s’extreu una part d’un mecanòide. Un error pot causar des d’una simple perdua de temps fins a un dany catastròfic en el subjecte.</MechanoidOperationSuccessChance.description>
-
-  <ButcheryFleshEfficiency.label>eficiència d’escorxat</ButcheryFleshEfficiency.label>
-  <ButcheryFleshEfficiency.description>Factor a la quantitat de carn que aprofita de la criatura escorxada.</ButcheryFleshEfficiency.description>
-
-  <ButcheryMechanoidEfficiency.label>eficiència de desmutatge</ButcheryMechanoidEfficiency.label>
-  <ButcheryMechanoidEfficiency.description>Factor a la quantitat de materials que s’aprofiten de desmuntar un mecanòide.</ButcheryMechanoidEfficiency.description>
-
-
-  <!-- Dumb recipes - not affected by skill because there's no skill component -->
-
+  
+  <!-- EN: sculpting speed -->
+  <SculptingSpeed.label>velocitat d’esculpir</SculptingSpeed.label>
+  <!-- EN: The speed at which this person creates sculptures.\n\nThis stat only affects the how fast sculptures are produced, not their quality. Quality is determined by the sculptor's artistic skill. -->
+  <SculptingSpeed.description>Velocitat a la que esculpeix. Nota: l’habilitat afecta a la qualitat de l’escultura, no a la velocitat amb que es fa.</SculptingSpeed.description>
+  
+  <!-- EN: smelting speed -->
   <SmeltingSpeed.label>velocitat de fundició</SmeltingSpeed.label>
+  <!-- EN: The speed at which this person smelts things.\n\nSince smelting is dumb labor, smelting speed is not affected by any skill. -->
   <SmeltingSpeed.description>Velocitat a la que fon coses. Nota: Com que fondre és una feina bàsica, no l’afecta cap habilitat.</SmeltingSpeed.description>
-
-
+  
+  <!-- EN: smithing speed -->
+  <SmithingSpeed.label>velocitat de ferrar</SmithingSpeed.label>
+  <!-- EN: Speed at which this person crafts weapons, machinery, and ammunition.\n\nThis stat only affects how fast items are produced, not their quality. Quality is determined by the crafter's skill. -->
+  <SmithingSpeed.description>Velocitat amb la que treballa el ferro per fer armes, maquinària, munició i eines. Nota: l’habilitat afecta a la qualitat de la peça, no a la velocitat amb que es fa.</SmithingSpeed.description>
+  
+  <!-- EN: tailoring speed -->
+  <TailoringSpeed.label>velocitat de cosir</TailoringSpeed.label>
+  <!-- EN: The speed at which this person makes clothes.\n\nThis stat only affects how fast clothes are produced, not their quality. Quality is determined by the tailor's crafting skill. -->
+  <TailoringSpeed.description>Velocitat amb la que fa roba. Nota: l’habilitat afecta a la qualitat de la peça de roba, no a la velocitat amb que es fa.</TailoringSpeed.description>
+  
+  <!-- EN: unskilled labor speed -->
+  <UnskilledLaborSpeed.label>TODO</UnskilledLaborSpeed.label>
+  <!-- EN: The speed at which this person carries out unskilled labor like making stone blocks, making chemfuel at a refinery or burning items. -->
+  <UnskilledLaborSpeed.description>TODO</UnskilledLaborSpeed.description>
+  
 </LanguageData>

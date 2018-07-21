@@ -1,24 +1,37 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: cook fine meal -->
+  <CookMealFine.label>cuinar racions bones</CookMealFine.label>
+  <!-- EN: Cook a somewhat complex meal from a combination of meat and plant ingredients. -->
+  <CookMealFine.description>Fa una ració una mica més elaborada combinant carn crua i vegetals.</CookMealFine.description>
+  <!-- EN: Cooking fine meal. -->
+  <CookMealFine.jobString>Cuina racions bones.</CookMealFine.jobString>
+  
+  <!-- EN: cook lavish meal -->
+  <CookMealLavish.label>cuinar racions esplèndides</CookMealLavish.label>
+  <!-- EN: Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted. -->
+  <CookMealLavish.description>Fa unes racions molt elaborades combinant carn i vegetals. Es malbaraten molts ingredients.</CookMealLavish.description>
+  <!-- EN: Cooking lavish meal. -->
+  <CookMealLavish.jobString>Cuina racions esplèndides.</CookMealLavish.jobString>
+  
+  <!-- EN: cook simple meal -->
   <CookMealSimple.label>cuinar racions senzilles</CookMealSimple.label>
+  <!-- EN: Cook a straightforward meal from one ingredient. -->
   <CookMealSimple.description>Fa unes racions de menjar ràpid amb un sol ingredient.</CookMealSimple.description>
+  <!-- EN: Cooking simple meal. -->
   <CookMealSimple.jobString>Cuina racions senzilles.</CookMealSimple.jobString>
-
+  
+  <!-- UNUSED -->
   <CookMealSimpleCampfire.label>cuinar racions senzilles</CookMealSimpleCampfire.label>
   <CookMealSimpleCampfire.description>Fa unes racions de menjar ràpid amb un sol ingredient.</CookMealSimpleCampfire.description>
   <CookMealSimpleCampfire.jobString>Cuina racions senzilles .</CookMealSimpleCampfire.jobString>
-
-  <CookMealFine.label>cuinar racions bones</CookMealFine.label>
-  <CookMealFine.description>Fa una ració una mica més elaborada combinant carn crua i vegetals.</CookMealFine.description>
-  <CookMealFine.jobString>Cuina racions bones.</CookMealFine.jobString>
-
-  <CookMealLavish.label>cuinar racions esplèndides</CookMealLavish.label>
-  <CookMealLavish.description>Fa unes racions molt elaborades combinant carn i vegetals. Es malbaraten molts ingredients.</CookMealLavish.description>
-  <CookMealLavish.jobString>Cuina racions esplèndides.</CookMealLavish.jobString>
-
+  
+  <!-- EN: cook packaged survival meal -->
   <CookMealSurvival.label>cuinar racions de supervivència empaquetades</CookMealSurvival.label>
+  <!-- EN: Prepare a packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process. -->
   <CookMealSurvival.description>Cuina una ració de supervivència empaquetada feta amb una combinació de carn i vegetals. Es malbaraten molts ingredients.</CookMealSurvival.description>
+  <!-- EN: Cooking survival meal. -->
   <CookMealSurvival.jobString>Fa racions de supervivència.</CookMealSurvival.jobString>
-
+  
 </LanguageData>

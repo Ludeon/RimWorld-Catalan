@@ -1,19 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Flame.label>flama</Flame.label>
-  <Flame.deathMessage>{0} ha mort cremat.</Flame.deathMessage>
-
-  <!-- Burn is like Flame, but doesn't ignite anything -->
-
+  
+  <!-- EN: burn -->
   <Burn.label>cremada</Burn.label>
+  <!-- EN: {0} has burned to death. -->
   <Burn.deathMessage>{0} ha mort per les cremades.</Burn.deathMessage>
-
+  
+  <!-- EN: flame -->
+  <Flame.label>flama</Flame.label>
+  <!-- EN: {0} has burned to death. -->
+  <Flame.deathMessage>{0} ha mort cremat.</Flame.deathMessage>
+  
+  <!-- EN: frostbite -->
   <Frostbite.label>congelació</Frostbite.label>
+  <!-- EN: {0} has succumbed to frostbite. -->
   <Frostbite.deathMessage>{0} ha mort congelat.</Frostbite.deathMessage>
-
+  
+  <!-- EN: scratch -->
   <TornadoScratch.label>rascada</TornadoScratch.label>
+  <!-- EN: {0} has been killed by a tornado. -->
   <TornadoScratch.deathMessage>{0} ha mort a causa del tornado.</TornadoScratch.deathMessage>
-
-
+  
 </LanguageData>
