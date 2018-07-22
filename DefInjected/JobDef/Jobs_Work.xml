@@ -1,79 +1,145 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!--============= Item hauling ===============-->
-
-  <HaulToCell.reportString>recull TargetA.</HaulToCell.reportString>
-  <HaulToContainer.reportString>aplega TargetA.</HaulToContainer.reportString>
-
-
-  <!--============= Special hauling ===============-->
-
-  <Steal.reportString>roba TargetA.</Steal.reportString>
-  <Kidnap.reportString>rapta a TargetA.</Kidnap.reportString>
-  <CarryDownedPawnToExit.reportString>s'emporta a TargetA.</CarryDownedPawnToExit.reportString>
-
-
-  <!--============= Pawn hauling ===============-->
-
-  <Rescue.reportString>rescata a TargetA.</Rescue.reportString>
-  <CarryToCryptosleepCasket.reportString>porta a TargetA al cofre de criptoson.</CarryToCryptosleepCasket.reportString>
-  <Capture.reportString>captura a TargetA.</Capture.reportString>
+  
+  <!-- EN: arresting TargetA. -->
   <Arrest.reportString>arresta a TargetA.</Arrest.reportString>
-  <ReleasePrisoner.reportString>allibera a TargetA.</ReleasePrisoner.reportString>
-  <EscortPrisonerToBed.reportString>escorta a TargetA.</EscortPrisonerToBed.reportString>
-  <TakeWoundedPrisonerToBed.reportString>porta a TargetA a la cel·la per curar-li les ferides.</TakeWoundedPrisonerToBed.reportString>
-  <TakeToBedToOperate.reportString>porta a TargetA al llit.</TakeToBedToOperate.reportString>
-
-
-  <!--============= Animal handling ===============-->
-
-  <Slaughter.reportString>escorxa a TargetA.</Slaughter.reportString>
-  <Milk.reportString>muny a TargetA.</Milk.reportString>
-  <Shear.reportString>esquila a TargetA.</Shear.reportString>
-  <Tame.reportString>domestica a TargetA.</Tame.reportString>
-  <Train.reportString>entrena a TargetA.</Train.reportString>
-
-
-  <!--============= Construction and repair ===============-->
-
-  <PlaceNoCostFrame.reportString>construeix TargetA.</PlaceNoCostFrame.reportString>
-  <FinishFrame.reportString>construeix TargetA.</FinishFrame.reportString>
-  <Deconstruct.reportString>desmunta TargetA.</Deconstruct.reportString>
-  <Uninstall.reportString>desinstal·la TargetA.</Uninstall.reportString>
-  <Repair.reportString>arregla TargetA.</Repair.reportString>
-  <FixBrokenDownBuilding.reportString>canvia els components espatllats de TargetA.</FixBrokenDownBuilding.reportString>
+  
+  <!-- EN: building roof. -->
   <BuildRoof.reportString>posa teulada.</BuildRoof.reportString>
-  <RemoveRoof.reportString>treu teulada.</RemoveRoof.reportString>
-
-
-  <!--============= Medical ===============-->
-
-  <FeedPatient.reportString>alimenta TargetB amb TargetA.</FeedPatient.reportString>
-  <TendPatient.reportString>atén a TargetA.</TendPatient.reportString>
-
-  <!--============= Misc ===============-->
-
-  <DeliverFood.reportString>alimenta TargetB amb TargetA.</DeliverFood.reportString>
-  <DoBill.reportString>treballa a TargetA.</DoBill.reportString>
-  <OperateDeepDrill.reportString>perfora a TargetA.</OperateDeepDrill.reportString>
+  
+  <!-- EN: capturing TargetA. -->
+  <Capture.reportString>captura a TargetA.</Capture.reportString>
+  
+  <!-- EN: carrying TargetA. -->
+  <CarryDownedPawnToExit.reportString>s'emporta a TargetA.</CarryDownedPawnToExit.reportString>
+  
+  <!-- EN: carrying TargetA to cryptosleep casket. -->
+  <CarryToCryptosleepCasket.reportString>porta a TargetA al cofre de criptoson.</CarryToCryptosleepCasket.reportString>
+  
+  <!-- EN: cleaning TargetA. -->
   <Clean.reportString>neteja TargetA.</Clean.reportString>
-  <Research.reportString>investiga.</Research.reportString>
-  <Hunt.reportString>caça TargetA.</Hunt.reportString>
-  <UseCommsConsole.reportString>fa servir la consola de comunicacions.</UseCommsConsole.reportString>
-  <Mine.reportString>mina a TargetA.</Mine.reportString>
-  <SmoothFloor.reportString>aplana el terra.</SmoothFloor.reportString>
-  <SmoothWall.reportString>aplana la paret</SmoothWall.reportString>
-  <RemoveFloor.reportString>aixeca el terra.</RemoveFloor.reportString>
-  <Sow.reportString>cultiva TargetA.</Sow.reportString>
-  <Harvest.reportString>recull TargetA.</Harvest.reportString>
-  <HarvestDesignated.reportString>TODO</HarvestDesignated.reportString>
+  
+  <!-- EN: cutting TargetA. -->
   <CutPlant.reportString>talla TargetA.</CutPlant.reportString>
-  <CutPlantDesignated.reportString>TODO</CutPlantDesignated.reportString>
-  <PrisonerFriendlyChat.reportString>xerra amb el presoner TargetA.</PrisonerFriendlyChat.reportString>
-  <PrisonerAttemptRecruit.reportString>intenta reclutar a TargetA.</PrisonerAttemptRecruit.reportString>
-  <PrisonerExecution.reportString>executa a TargetA.</PrisonerExecution.reportString>
+  
+  <!-- EN: cutting TargetA. -->
+  <CutPlantDesignated.reportString>talla TargetA.</CutPlantDesignated.reportString>
+  
+  <!-- EN: deconstructing TargetA. -->
+  <Deconstruct.reportString>desmunta TargetA.</Deconstruct.reportString>
+  
+  <!-- EN: feeding TargetA to TargetB. -->
+  <DeliverFood.reportString>alimenta TargetB amb TargetA.</DeliverFood.reportString>
+  
+  <!-- EN: doing bill at TargetA. -->
+  <DoBill.reportString>treballa a TargetA.</DoBill.reportString>
+  
+  <!-- EN: escorting prisoner TargetA. -->
+  <EscortPrisonerToBed.reportString>escorta a TargetA.</EscortPrisonerToBed.reportString>
+  
+  <!-- EN: feeding TargetA to TargetB. -->
+  <FeedPatient.reportString>alimenta TargetB amb TargetA.</FeedPatient.reportString>
+  
+  <!-- EN: building TargetA. -->
+  <FinishFrame.reportString>construeix TargetA.</FinishFrame.reportString>
+  
+  <!-- EN: replacing broken components in TargetA. -->
+  <FixBrokenDownBuilding.reportString>canvia els components espatllats de TargetA.</FixBrokenDownBuilding.reportString>
+  
+  <!-- EN: harvesting TargetA. -->
+  <Harvest.reportString>cull TargetA.</Harvest.reportString>
+  
+  <!-- EN: harvesting TargetA. -->
+  <HarvestDesignated.reportString>cull TargetA.</HarvestDesignated.reportString>
+  
+  <!-- EN: hauling TargetA. -->
+  <HaulToCell.reportString>recull TargetA.</HaulToCell.reportString>
+  
+  <!-- EN: hauling TargetA. -->
+  <HaulToContainer.reportString>aplega TargetA.</HaulToContainer.reportString>
+  
+  <!-- EN: hunting TargetA. -->
+  <Hunt.reportString>caça TargetA.</Hunt.reportString>
+  
+  <!-- EN: kidnapping TargetA. -->
+  <Kidnap.reportString>rapta a TargetA.</Kidnap.reportString>
+  
+  <!-- EN: milking TargetA. -->
+  <Milk.reportString>muny a TargetA.</Milk.reportString>
+  
+  <!-- EN: digging at TargetA. -->
+  <Mine.reportString>mina a TargetA.</Mine.reportString>
+  
+  <!-- EN: drilling at TargetA. -->
+  <OperateDeepDrill.reportString>perfora a TargetA.</OperateDeepDrill.reportString>
+  
+  <!-- EN: scanning at TargetA. -->
   <OperateScanner.reportString>fa servir l’escaner</OperateScanner.reportString>
-
-
+  
+  <!-- EN: building TargetA. -->
+  <PlaceNoCostFrame.reportString>construeix TargetA.</PlaceNoCostFrame.reportString>
+  
+  <!-- EN: attempting to recruit TargetA. -->
+  <PrisonerAttemptRecruit.reportString>intenta reclutar a TargetA.</PrisonerAttemptRecruit.reportString>
+  
+  <!-- EN: executing TargetA. -->
+  <PrisonerExecution.reportString>executa a TargetA.</PrisonerExecution.reportString>
+  
+  <!-- EN: releasing TargetA. -->
+  <ReleasePrisoner.reportString>allibera a TargetA.</ReleasePrisoner.reportString>
+  
+  <!-- EN: removing floor. -->
+  <RemoveFloor.reportString>aixeca el terra.</RemoveFloor.reportString>
+  
+  <!-- EN: removing roof. -->
+  <RemoveRoof.reportString>treu teulada.</RemoveRoof.reportString>
+  
+  <!-- EN: repairing TargetA. -->
+  <Repair.reportString>arregla TargetA.</Repair.reportString>
+  
+  <!-- EN: rescuing TargetA. -->
+  <Rescue.reportString>rescata a TargetA.</Rescue.reportString>
+  
+  <!-- EN: researching. -->
+  <Research.reportString>investiga.</Research.reportString>
+  
+  <!-- EN: shearing TargetA. -->
+  <Shear.reportString>esquila a TargetA.</Shear.reportString>
+  
+  <!-- EN: slaughtering TargetA. -->
+  <Slaughter.reportString>escorxa a TargetA.</Slaughter.reportString>
+  
+  <!-- EN: smoothing floor. -->
+  <SmoothFloor.reportString>aplana el terra.</SmoothFloor.reportString>
+  
+  <!-- EN: smoothing wall. -->
+  <SmoothWall.reportString>aplana la paret</SmoothWall.reportString>
+  
+  <!-- EN: sowing TargetA. -->
+  <Sow.reportString>cultiva TargetA.</Sow.reportString>
+  
+  <!-- EN: stealing TargetA. -->
+  <Steal.reportString>roba TargetA.</Steal.reportString>
+  
+  <!-- EN: taking TargetA to bed. -->
+  <TakeToBedToOperate.reportString>porta a TargetA al llit.</TakeToBedToOperate.reportString>
+  
+  <!-- EN: taking wounded prisoner TargetA. -->
+  <TakeWoundedPrisonerToBed.reportString>porta a TargetA a la cel·la per curar-li les ferides.</TakeWoundedPrisonerToBed.reportString>
+  
+  <!-- EN: taming TargetA. -->
+  <Tame.reportString>domestica a TargetA.</Tame.reportString>
+  
+  <!-- EN: tending to TargetA. -->
+  <TendPatient.reportString>atén a TargetA.</TendPatient.reportString>
+  
+  <!-- EN: training TargetA. -->
+  <Train.reportString>entrena a TargetA.</Train.reportString>
+  
+  <!-- EN: uninstalling TargetA. -->
+  <Uninstall.reportString>desinstal·la TargetA.</Uninstall.reportString>
+  
+  <!-- EN: using comms console. -->
+  <UseCommsConsole.reportString>fa servir la consola de comunicacions.</UseCommsConsole.reportString>
+  
 </LanguageData>
