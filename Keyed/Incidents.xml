@@ -30,7 +30,7 @@
 
   <!-- EN: Escape pod -->
   <LetterLabelRefugeePodCrash>Càpsula d'escapament</LetterLabelRefugeePodCrash>
-  <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in an escape pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded. -->
+  <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in an escape pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded.\n\nDepending on [PAWN_nameDef]'s faction, you may be able to rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
   <RefugeePodCrash>Heu detectat una càpsula d'escapament que s'ha estavellat prop d'aquí.\n\nSi hi ha algun supervivent, estarà malferit.\n\nPodeu rescatar-lo i deixar-lo marxar o capturar-lo per després mirar de reclutar-lo o vendre'l com esclau.</RefugeePodCrash>
   <!-- EN: You can rescue [PAWN_objective] and send [PAWN_objective] on [PAWN_possessive] way. Or, capture [PAWN_objective] for recruitment or slavery purposes. -->
   <RefugeePodCrash_NonHostileOrFactionless>TODO</RefugeePodCrash_NonHostileOrFactionless>
@@ -134,7 +134,7 @@
   <!-- Refugee chased -->
   <!-- EN: Refugee chased at {0} -->
   <RefugeeChasedTitle>Refugiat persegit a {0}</RefugeeChasedTitle>
-  <!-- EN: A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail. -->
+  <!-- EN: A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail. Their group is composed of:\n\n{5} -->
   <RefugeeChasedInitial>Algú anomenat {0} que és {1} us truca. {2} de {3} l'estan perseguint!\n\n{0} suplica protecció i ofereix unir-se a la colònia. Te {4} anys.\n\nAlerta – Si accepteu, haureu de lluitar amb els {2} perseguidors.</RefugeeChasedInitial>
   <!-- EN: Offer safety -->
   <RefugeeChasedInitial_Accept>Oferir protecció</RefugeeChasedInitial_Accept>
@@ -218,7 +218,7 @@
   <LetterLabelCaravanRequest>Petició de caravana</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
   <LetterCaravanRequest>Un assentament proper, {0}, us contacta amb una proposta de negoci particular. Volen comprar:\n\n  {1}\n\nEn compensació, ofereixen:\n\n  {2}\n\nLa proposta expira en: {3}\n\nSi voleu tancar el negoci, envieu-los una caravana amb els productes que han demanat. Podeu revisar la proposta seleccionant {0} al mapa de món.</LetterCaravanRequest>
-  <!-- EN: Requesting: {0}, Reward: {1} ({2} left) -->
+  <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
   <CaravanRequestInfo>Demanen: {0}, ofereixen: {1} (us queden {2})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>TODO</NormalQualityOrBetter>

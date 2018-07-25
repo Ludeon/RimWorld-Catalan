@@ -262,11 +262,11 @@
   <WornBy>portat per {0}</WornBy>
   <!-- EN: equipped by {0} -->
   <EquippedBy>equipat per {0}</EquippedBy>
-  <!-- EN: {0} wants this destroyed.\n    Reward: {1}. -->
+  <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
   <QuestTargetDestroyInspectString>{0} vol que sigui destruït.\n    Recompensa: {1}.</QuestTargetDestroyInspectString>
   <!-- EN: Time left: {0} -->
   <WorldObjectTimeout>Temps restant: {0}</WorldObjectTimeout>
-  <!-- EN: Contents: {0} -->
+  <!-- EN: Contents: {0} ({1}) -->
   <ItemStashContents>Contingut: {0}.</ItemStashContents>
   <!-- EN: Click to sort by this column. -->
   <ClickToSortByThisColumn>Feu clic per ordenar per aquesta columna.</ClickToSortByThisColumn>
@@ -608,7 +608,7 @@
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
   <PowerNotConnected>No està connectat al corrent.</PowerNotConnected>
-  <!-- EN: Connected rate/stored: {0} W / {1} Wd -->
+  <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
   <PowerConnectedRateStored>Connectat/emmagatzemat: {0} W / {1} Wd</PowerConnectedRateStored>
   <!-- EN: Power needed -->
   <PowerNeeded>Corrent necessària</PowerNeeded>
@@ -911,14 +911,6 @@
   <!-- EN: Expires in: -->
   <LifespanExpiry>Expira d'aquí:</LifespanExpiry>
 
-  <!-- Traps -->
-  <!-- EN: Armed -->
-  <TrapArmed>Armada</TrapArmed>
-  <!-- EN: Not armed -->
-  <TrapNotArmed>No armada</TrapNotArmed>
-  <!-- EN: Rearming cost: {0} -->
-  <TrapRearmingCost>Cost de rearmar: {0}</TrapRearmingCost>
-
   <!-- Facilities -->
   <!-- EN: inactive -->
   <InactiveFacility>inactiu</InactiveFacility>
@@ -1052,6 +1044,9 @@
   <ClickToSeeAvailableOrders_Empty>Mostra les ordres disponibles...</ClickToSeeAvailableOrders_Empty>
 
   <!-- UNUSED -->
+  <TrapArmed>Armada</TrapArmed>
+  <TrapNotArmed>No armada</TrapNotArmed>
+  <TrapRearmingCost>Cost de rearmar: {0}</TrapRearmingCost>
   <LongRangeMineralScannerEfficiency>Eficiència: {0}</LongRangeMineralScannerEfficiency>
   <SomeItemStashContents>Alguns continguts: {0}.</SomeItemStashContents>
 
