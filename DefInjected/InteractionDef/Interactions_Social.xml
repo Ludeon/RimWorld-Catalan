@@ -3,23 +3,6 @@
   
   <!-- EN: chitchat -->
   <Chitchat.label>conversa</Chitchat.label>
-  <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] with [RECIPIENT_nameDef].</li>
-    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] to [RECIPIENT_nameDef].</li>
-    <li>talkedabout(p=4)->chatted about</li>
-    <li>talkedabout->shared a word about</li>
-    <li>talkedabout->spoke about</li>
-    <li>talkedabout->gabbed about</li>
-    <li>talkedabout->talked about</li>
-    <li>talkedabout->joked about</li>
-    <li>talkedabout->quipped about</li>
-    <li>commentedabout->said something about</li>
-    <li>commentedabout->said a word about</li>
-    <li>commentedabout->made a comment about</li>
-    <li>commentedabout->commented about</li>
-    <li>commentedabout->told a joke about</li>
-  -->
   <Chitchat.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] i [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
     <li>r_logentry->[INITIATOR_nameDef] s’ha trobat amb [RECIPIENT_nameDef] i [talkedabout] [TalkTopicLight].</li>
@@ -31,11 +14,11 @@
     <li>talkedabout->han parlat de</li>
     <li>talkedabout->han fet broma sobre</li>
     <li>talkedabout->han bromejat sobre</li>
-    <li>commentedabout->s’han dit alguna cosa sobre</li>
-    <li>commentedabout->han fet un comentari sobre</li>
-    <li>commentedabout->han comentat coses sobre</li>
-    <li>commentedabout->han parlat una mica sobre</li>
-    <li>commentedabout->s’han explicat un acudit sobre</li>
+    <li>commentedabout->ha dit alguna cosa sobre</li>
+    <li>commentedabout->ha fet un comentari sobre</li>
+    <li>commentedabout->ha comentat coses sobre</li>
+    <li>commentedabout->ha parlat una mica sobre</li>
+    <li>commentedabout->ha explicat un acudit sobre</li>
   </Chitchat.logRulesInitiator.rulesStrings>
   
   <!-- EN: deep talk -->
