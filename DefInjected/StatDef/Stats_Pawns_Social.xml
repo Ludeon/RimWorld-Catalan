@@ -4,12 +4,8 @@
   <!-- EN: negotiation ability -->
   <NegotiationAbility.label>poder diplomatic</NegotiationAbility.label>
   <!-- EN: How effective this person is as a negotiator. This affects the speed of prisoner recruitment, impact on faction relations when giving gifts, and the outcome of peace talks. -->
-  <NegotiationAbility.description>Com d’efectiva és aquesta persona negociant. Afecta a l’impacte a les relacions amb altres faccions quan fa els fa regals. També afecta a les converses de pau.</NegotiationAbility.description>
-  
-  <!-- UNUSED -->
-  <RecruitPrisonerChance.label>probabilitat de reclutar un presoner</RecruitPrisonerChance.label>
-  <RecruitPrisonerChance.description>Probabilitat base de reclutar un presoner.</RecruitPrisonerChance.description>
-  
+  <NegotiationAbility.description>Com és d’efectiva aquesta persona negociant. Afecta l’impacte a les relacions amb altres faccions quan fa els fa regals. També afecta les converses de pau.</NegotiationAbility.description>
+
   <!-- EN: social impact -->
   <SocialImpact.label>impacte social de la conversa</SocialImpact.label>
   <!-- EN: A multiplier on how much other people are affected by this person's social interactions. -->
@@ -18,7 +14,7 @@
   <!-- EN: tame animal chance -->
   <TameAnimalChance.label>probabilitat de domar un animal</TameAnimalChance.label>
   <!-- EN: The base chance this person will successfully tame an animal on any given attempt. The actual chance is also affected by the animal's wildness. Failed tame attempt can induce animal attacks, especially for more vicious animals. -->
-  <TameAnimalChance.description>Probabilitat base de domesticar un animal.</TameAnimalChance.description>
+  <TameAnimalChance.description>Probabilitat base de domesticar un animal. La probabilitat també es veu afectada per la salvatgia de l’animal. Un intent fallit pot induir que l’animal ataqui, sobretot en els animals més perillosos.</TameAnimalChance.description>
   
   <!-- EN: trade price improvement -->
   <TradePriceImprovement.label>millora del preu del negoci</TradePriceImprovement.label>

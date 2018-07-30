@@ -221,7 +221,7 @@
 
   <Combat_Miss.rulePack.rulesStrings>
     <li>r_logentry(p=0.2)->[RECIPIENT_definite] ha esquivat [damaged_inf] [WEAPON_label] de  [INITIATOR_definite].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] ha fallat [RECIPIENT_definite] amb un [damaged_inf] de [implement].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] ha fallat [damaged_inf] de [implement] contra [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] [failtype] provant de [damaged_inf] [RECIPIENT_definite] amb [implement].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] [failtype] intentant [damaged_inf] [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] [failtype].</li>

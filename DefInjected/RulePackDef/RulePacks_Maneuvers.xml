@@ -2,12 +2,12 @@
 <LanguageData>
 
   <Maneuver_Slash.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->trossejar</li>
-    <li>damaged_inf->tallar</li>
-    <li>damaged_inf->escapçar</li>
-    <li>damaged_inf->donar cops de destral</li>
-    <li>damaged_inf->llescar</li>
-    <li>damaged_inf(deflected!=True)->apunyalar</li>
+    <li>damaged_inf(p=4)->trossejat</li>
+    <li>damaged_inf->tall</li>
+    <li>damaged_inf->escapçat</li>
+    <li>damaged_inf->cop de destral</li>
+    <li>damaged_inf->llescat</li>
+    <li>damaged_inf(deflected!=True)->apunyalament</li>
     <li>damaged_past(p=4)->ha trossejat</li>
     <li>damaged_past->ha tallat</li>
     <li>damaged_past->ha escapçat</li>
@@ -44,11 +44,11 @@
   </Maneuver_Slash.rulePack.rulesStrings>
 
  <Maneuver_Stab.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->apunyalar</li>
-    <li>damaged_inf->colpejar</li>
-    <li>damaged_inf(deflected!=True)->perforar</li>
-    <li>damaged_inf(deflected!=True)->punxar</li>
-    <li>damaged_inf(deflected!=True)->enforquillar</li>
+    <li>damaged_inf(p=4)->apunyalament</li>
+    <li>damaged_inf->cop</li>
+    <li>damaged_inf(deflected!=True)->perforació</li>
+    <li>damaged_inf(deflected!=True)->punxada</li>
+    <li>damaged_inf(deflected!=True)->enforquillada</li>
     <li>damaged_past(p=4)->apunyalat</li>
     <li>damaged_past->colpejat</li>
     <li>damaged_past(deflected!=True)->perforat</li>
@@ -77,11 +77,11 @@
   </Maneuver_Stab.rulePack.rulesStrings>
 
   <Maneuver_Smash_Damage.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->trencar</li>
-    <li>damaged_inf->picar</li>
-    <li>damaged_inf->piconar</li>
-    <li>damaged_inf->colpejar</li>
-    <li>damaged_inf->batre</li>
+    <li>damaged_inf(p=4)->trencament</li>
+    <li>damaged_inf->cop</li>
+    <li>damaged_inf->piconat</li>
+    <li>damaged_inf->impacte</li>
+    <li>damaged_inf->batuda</li>
     <li>damaged_past(p=4)->trencat</li>
     <li>damaged_past->picat</li>
     <li>damaged_past->piconat</li>
@@ -116,10 +116,10 @@
   </Maneuver_Smash.rulePack.rulesStrings>
 
   <Maneuver_Scratch_Damage.rulePack.rulesStrings>
-    <li>damaged_inf(p=4)->esgarrapar</li>
-    <li>damaged_inf(deflected!=True)->lacerar</li>
-    <li>damaged_inf(deflected!=True)->esgarranxar</li>
-    <li>damaged_inf->tallar</li>
+    <li>damaged_inf(p=4)->esgarrapada</li>
+    <li>damaged_inf(deflected!=True)->laceració</li>
+    <li>damaged_inf(deflected!=True)->esgarrinxada</li>
+    <li>damaged_inf->tall</li>
     <li>damaged_past(p=4)->esgarrapat</li>
     <li>damaged_past(deflected!=True)->lacerat</li>
     <li>damaged_past(deflected!=True)->esgarranxat</li>
@@ -157,11 +157,11 @@
   </Maneuver_Scratch.rulePack.rulesStrings>
 
   <Maneuver_Poke.rulePack.rulesStrings>
-    <li>damaged_inf(p=2)->colpejar</li>
-    <li>damaged_inf(p=2)->picar</li>
-    <li>damaged_inf->donar un cop</li>
-    <li>damaged_inf->empènyer</li>
-    <li>damaged_inf->tustar</li>
+    <li>damaged_inf(p=2)->cop</li>
+    <li>damaged_inf(p=2)->impacte</li>
+    <li>damaged_inf->trompada</li>
+    <li>damaged_inf->empenta</li>
+    <li>damaged_inf->batzacada</li>
     <li>damaged_past(p=2)->colpejat</li>
     <li>damaged_past(p=2)->picat</li>
     <li>damaged_past->donat un cop</li>
@@ -193,9 +193,9 @@
   </Maneuver_Poke.rulePack.rulesStrings>
 
 <Maneuver_Bite.rulePack.rulesStrings>
-    <li>damaged_inf->mossegar</li>
-    <li>damaged_inf->queixalar</li>
-    <li>damaged_inf(p=0.5)->clavar les dents</li>
+    <li>damaged_inf->mossegada</li>
+    <li>damaged_inf->queixalada</li>
+    <li>damaged_inf(p=0.5)->dentegada</li>
     <li>damaged_past->mossegat</li>
     <li>damaged_past->queixalat</li>
     <li>damaged_past->clavat les dents</li>

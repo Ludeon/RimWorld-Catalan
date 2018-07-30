@@ -4,12 +4,12 @@
   <!-- EN: aiming time -->
   <AimingDelayFactor.label>temps per apuntar</AimingDelayFactor.label>
   <!-- EN: How long it takes to shoot after choosing a target. -->
-  <AimingDelayFactor.description>Quan temps triga a disparar des de que comença a apuntar.</AimingDelayFactor.description>
+  <AimingDelayFactor.description>Quant temps triga a disparar des que comença a apuntar.</AimingDelayFactor.description>
   
   <!-- EN: melee armor penetration -->
-  <MeleeArmorPenetration.label>TODO</MeleeArmorPenetration.label>
+  <MeleeArmorPenetration.label>penetració d’armadura en cos a cos</MeleeArmorPenetration.label>
   <!-- EN: Average armor penetration of all attacks in melee combat. This stat includes currently used weapon. -->
-  <MeleeArmorPenetration.description>TODO</MeleeArmorPenetration.description>
+  <MeleeArmorPenetration.description>Penetració mitjana dels atacs en combat cos a cos. Té en compte l’arma actual</MeleeArmorPenetration.description>
   
   <!-- EN: melee dodge chance -->
   <MeleeDodgeChance.label>probabilitat d’esquivar cos a cos</MeleeDodgeChance.label>
@@ -26,13 +26,9 @@
   <!-- EN: Chance to hit a target in melee. The target can still dodge even if we would've hit. -->
   <MeleeHitChance.description>Probabilitat de tocar l’objectiu en combat cos a cos. Encara que el cop sigui bó, l’objectiu encara pot esquivar.</MeleeHitChance.description>
   
-  <!-- UNUSED -->
-  <ShootingAccuracy.label>punteria</ShootingAccuracy.label>
-  <ShootingAccuracy.description>Probabilitat base d’encertar per cada quadre de distància a l’objectiu.</ShootingAccuracy.description>
-  
   <!-- EN: shooting accuracy -->
-  <ShootingAccuracyPawn.label>TODO</ShootingAccuracyPawn.label>
+  <ShootingAccuracyPawn.label>punteria disparant</ShootingAccuracyPawn.label>
   <!-- EN: Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
-  <ShootingAccuracyPawn.description>TODO</ShootingAccuracyPawn.description>
+  <ShootingAccuracyPawn.description>probabilitat base d’encertar per cel·la de distància. La probabilitat també es veu afectada per molts altres factors. Podeu veure l’explicació de la probabilitat d’un tret seleccionant el personatge que dispara i posant el ratolí sobre l’objectiu que voleu mesurar.</ShootingAccuracyPawn.description>
   
 </LanguageData>
