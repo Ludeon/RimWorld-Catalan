@@ -177,7 +177,7 @@
   <ResolutionRevert>Torna a l'anterior</ResolutionRevert>
 
   <!-- Confirm permanently disable dev mode -->
-  <!-- EN: Do you really want to permanently disable development mode on this computer? -->
+  <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>Esteu segur que voleu deshabilitar el mode de desenvolupament de forma permanent en aquest ordinador?</ConfirmPermanentlyDisableDevMode>
 
   <!-- Research -->
@@ -408,8 +408,6 @@
   <Skill>Capacitat</Skill>
   <!-- EN: Success rate multiplier -->
   <SurgerySuccessChanceFactor>Factor de l’índex d’èxit</SurgerySuccessChanceFactor>
-  <!-- EN: Requires bed -->
-  <SurgeryRequireBed>Necessita un llit</SurgeryRequireBed>
   <!-- EN: Work speed governed by -->
   <WorkSpeedStat>Velocitat de treball gestionada a partir de</WorkSpeedStat>
   <!-- EN: Output quantity governed by -->
@@ -818,6 +816,7 @@
   <ConfirmCleanupTranslationFiles_Confirm>TODO</ConfirmCleanupTranslationFiles_Confirm>
 
   <!-- UNUSED -->
+  <SurgeryRequireBed>Necessita un llit</SurgeryRequireBed>
   <PermadeathMode>Mode mort permanent</PermadeathMode>
 
 </LanguageData>

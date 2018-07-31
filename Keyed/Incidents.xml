@@ -30,13 +30,13 @@
 
   <!-- EN: Escape pod -->
   <LetterLabelRefugeePodCrash>Càpsula d'escapament</LetterLabelRefugeePodCrash>
-  <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in an escape pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded.\n\nDepending on [PAWN_nameDef]'s faction, you may be able to rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
+  <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in an escape pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded. -->
   <RefugeePodCrash>Heu detectat una càpsula d'escapament que s'ha estavellat prop d'aquí.\n\nSi hi ha algun supervivent, estarà malferit.\n\nPodeu rescatar-lo i deixar-lo marxar o capturar-lo per després mirar de reclutar-lo o vendre'l com esclau.</RefugeePodCrash>
-  <!-- EN: You can rescue [PAWN_objective] and send [PAWN_objective] on [PAWN_possessive] way. Or, capture [PAWN_objective] for recruitment or slavery purposes. -->
-  <RefugeePodCrash_NonHostileOrFactionless>TODO</RefugeePodCrash_NonHostileOrFactionless>
-  <!-- EN: You can capture [PAWN_objective] for recruitment or slavery purposes. [PAWN_pronoun] is from [PAWN_factionName]. -->
+  <!-- EN: [PAWN_nameDef] is not affiliated with any faction. You can rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
+  <RefugeePodCrash_Factionless>TODO</RefugeePodCrash_Factionless>
+  <!-- EN: [PAWN_nameDef] is from your enemy [PAWN_factionName]. You can capture [PAWN_objective] for recruitment or slavery purposes. -->
   <RefugeePodCrash_Hostile>TODO</RefugeePodCrash_Hostile>
-  <!-- EN: Note: [PAWN_nameDef] is from [PAWN_factionName]. Capturing [PAWN_objective] will anger them, while rescuing and healing [PAWN_objective] will improve faction relations. -->
+  <!-- EN: [PAWN_nameDef] is from [PAWN_factionName]. If you rescue [PAWN_objective], [PAWN_pronoun] may join freely. Otherwise, [PAWN_pronoun] will return home and spread goodwill between your factions.\n\nYou can also capture [PAWN_objective] for recruitment or slavery purposes, but this will anger [PAWN_possessive] faction. -->
   <RefugeePodCrash_NonHostile>TODO</RefugeePodCrash_NonHostile>
 
   <!-- EN: Cargo pods -->
@@ -83,11 +83,6 @@
   <GroupVisitorsArriveLeaderInfo>\n\nUn dels visitants - {0}, és el líder de la facció.</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>Els visitants de {0} marxen.</VisitorsLeaving>
-
-  <!-- EN: Wanderer joins -->
-  <LetterLabelWandererJoin>Viatjant s'uneix</LetterLabelWandererJoin>
-  <!-- EN: A {0} named [PAWN_nameDef] has arrived and is joining the colony. [PAWN_pronoun] is a {1}.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want [PAWN_nameDef], you can banish [PAWN_objective], sell [PAWN_objective] into slavery, or simply kill [PAWN_objective]. However, your other colonists may find this disturbing. -->
-  <WandererJoin>Un {0} anomenat [PAWN_nameDef] ha arribat i s'uneix a la colònia. És un {1}.</WandererJoin>
 
   <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>Menja persones</LetterLabelManhunterPackArrived>
@@ -171,12 +166,6 @@
   <!-- EN: A caravan from {0} is approaching. They are a {1}.\n\nThey will hang around the colony for a few days before leaving. You can attack them - but this will anger their faction! -->
   <LetterTraderCaravanArrival>S'acosta una caravana de {0}. Són {1}.\n\nVoltaran per la colònia uns quants dies abans de marxar. Els podeu atacar, però la seva facció s'enfadarà!</LetterTraderCaravanArrival>
   
-  <!-- Building breaks down -->
-  <!-- EN: Breakdown: {0} -->
-  <LetterLabelBuildingBrokenDown>Avaria: {0}</LetterLabelBuildingBrokenDown>
-  <!-- EN: One of your machines ({0}) has broken down. It won't work until a colonist with the Construction work type goes and fixes it. -->
-  <LetterBuildingBrokenDown>Una de les vostres màquines ({0}) s'ha espatllat. No funcionarà fins que un colon amb la tasca «reparar» l'arregli.</LetterBuildingBrokenDown>
-  
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Demanda de rescat a {0}</RansomDemandTitle>
@@ -244,6 +233,10 @@
   <LetterSiteNoLongerHostileMulti>Com que ja no sou hostil amb {0}, els llocs següents ja no estan disponibles</LetterSiteNoLongerHostileMulti>
 
   <!-- UNUSED -->
+  <LetterLabelWandererJoin>Viatjant s'uneix</LetterLabelWandererJoin>
+  <WandererJoin>Un {0} anomenat [PAWN_nameDef] ha arribat i s'uneix a la colònia. És un {1}.</WandererJoin>
+  <LetterLabelBuildingBrokenDown>Avaria: {0}</LetterLabelBuildingBrokenDown>
+  <LetterBuildingBrokenDown>Una de les vostres màquines ({0}) s'ha espatllat. No funcionarà fins que un colon amb la tasca «reparar» l'arregli.</LetterBuildingBrokenDown>
   <PsychicDroneLevelLow>Baix</PsychicDroneLevelLow>
   <PsychicDroneLevelMedium>Mig</PsychicDroneLevelMedium>
   <PsychicDroneLevelHigh>Alt</PsychicDroneLevelHigh>

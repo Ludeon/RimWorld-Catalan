@@ -31,22 +31,22 @@
   <MessageVisitorsTrappedLeaving>{0} dels {1} estan atrapats i excaven per escapar.</MessageVisitorsTrappedLeaving>
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
   <MessageVisitorsDangerousTemperature>{0} dels {1} marxen del mapa perquè fa una temperatura perillosa.</MessageVisitorsDangerousTemperature>
-  
+
   <!-- EN: {0} worn by {1} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{0} que portava {1} s'ha fet malbé fins desfer-se.</MessageWornApparelDeterioratedAway>
-  
+
   <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>Ha començat {0}.</MessageSeasonBegun>
 
   <!-- EN: {0} has left comms range. -->
   <MessageShipHasLeftCommsRange>{0} ha sortit de la cobertura de comunicacions.</MessageShipHasLeftCommsRange>
-  
+
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Necessiteu una balisa de comerç orbital per poder fer negocis amb les naus.\n\nLa balisa necessita corrent elèctric.</MessageNeedBeaconToTradeWithShip>
-  
+
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Programa completat: {0}.</MessageBillComplete>
-  
+
   <!-- EN: {0} is fully healed. -->
   <MessageFullyHealed>{0} està curat.</MessageFullyHealed>
 
@@ -56,7 +56,7 @@
   <!-- EN: {0} found no nearby unreserved shells for {1}. -->
   <MessageOutOfNearbyShellsFor>{0} no ha trobat cap projectil proper per {1}.</MessageOutOfNearbyShellsFor>
 
-  <!-- EN: Warning: {0} may attack when harmed ({1} chance at rifle range, more if closer). -->
+  <!-- EN: Warning: {0} have a {1} chance to attack when harmed from rifle range. Chance is higher if closer, less with good hunter stealth. -->
   <MessageAnimalsGoPsychoHunted>Avís: {0}s sovint ataquen si pateixen ferides.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {0} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Avís: {0}s atacaran si falla la domesticació ({1} de probabilitat).</MessageAnimalManhuntsOnTameFailed>
@@ -508,8 +508,10 @@
   <!-- EN: {0} is hunting {1} for food! -->
   <MessagePredatorHuntingPlayerAnimal>{0} està caçant a {1}!</MessagePredatorHuntingPlayerAnimal>
 
-  <!-- EN: Prisoner {0}'s resistance has been broken by {1}. Recruitment attempts will begin. -->
+  <!-- EN: Prisoner {0}'s resistance has been broken by {1}. -->
   <MessagePrisonerResistanceBroken>{1} ha trencat la resistència del presoner {0}. Començaran els intents de reclutament.</MessagePrisonerResistanceBroken>
+  <!-- EN: Recruitment attempts will begin. -->
+  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>TODO</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <!-- EN: Disable all mods before using this tool. -->
   <MessageDisableModsBeforeCleaningTranslationFiles>Desactiveu tots els mods abans de fer servir aquesta eina</MessageDisableModsBeforeCleaningTranslationFiles>
