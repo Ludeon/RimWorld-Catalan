@@ -811,12 +811,9 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>TODO</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>Esteu segur que voleu netejar tots els fitxers de traducció del {0}?\n\nAixò:\n  - Afegirà marcadors per les claus de traducció que faltin, les traduccions injectades i els rerefons\n  - Afegirà o actualitzarà els comentaris que contenen la versió original als fitxers XML que pertoqui\n  - Aplicarà el format automàtic a tots els fitxers XML\n  - Actualitzarà els noms de les definicions perquè siguin compatibles\n  - esborrarà els comentaris dels XML (exceptuant les injeccions complertes)\n\nEls fitxers que no siguin XML no s’esborraran ni modificaran.\n\nRecordeu que cal tornar a iniciar el joc després de modificar els fitxers d’idioma abans d’executar aqusta eina per poder tenir totes les dades actualitzades.\n\nAssegureu-vos de tenir una còpia de seguretat abans d’utilitzar aquesta eina.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
-  <ConfirmCleanupTranslationFiles_Confirm>TODO</ConfirmCleanupTranslationFiles_Confirm>
+  <ConfirmCleanupTranslationFiles_Confirm>sí, tinc una còpia de seguretat</ConfirmCleanupTranslationFiles_Confirm>
 
-  <!-- UNUSED -->
-  <SurgeryRequireBed>Necessita un llit</SurgeryRequireBed>
-  <PermadeathMode>Mode mort permanent</PermadeathMode>
 
 </LanguageData>
