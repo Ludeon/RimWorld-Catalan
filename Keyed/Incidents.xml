@@ -33,11 +33,11 @@
   <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in a transport pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded. -->
   <RefugeePodCrash>Heu detectat una càpsula d'escapament que s'ha estavellat prop d'aquí.\n\nSi hi ha algun supervivent, estarà malferit.\n\nPodeu rescatar-lo i deixar-lo marxar o capturar-lo per després mirar de reclutar-lo o vendre'l com esclau.</RefugeePodCrash>
   <!-- EN: [PAWN_nameDef] is not affiliated with any faction. You can rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Factionless>TODO</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Factionless>[PAWN_nameDef] no poertany a cap facció. [PAWN_objective] podeu rescatar i tenir l’esperança que s’unirà a vosaltres voluntàriament, o [PAWN_objective] podeu capturar per reclutar-lo o vendre com a esclau</RefugeePodCrash_Factionless>
   <!-- EN: [PAWN_nameDef] is from your enemy [PAWN_factionName]. You can capture [PAWN_objective] for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>TODO</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_Hostile>[PAWN_nameDef] és de la facció enemiga [PAWN_factionName]. El podeu capturar per reclutar-lo o vendre com a esclau.</RefugeePodCrash_Hostile>
   <!-- EN: [PAWN_nameDef] is from [PAWN_factionName]. If you rescue [PAWN_objective], [PAWN_pronoun] may join freely. Otherwise, [PAWN_pronoun] will return home and spread goodwill between your factions.\n\nYou can also capture [PAWN_objective] for recruitment or slavery purposes, but this will anger [PAWN_possessive] faction. -->
-  <RefugeePodCrash_NonHostile>TODO</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostile>[PAWN_nameDef] és dels [PAWN_factionName]. Si [PAWN_objective] rescateu, podria ser que s’unís voluntàriament a vosaltres. Si no , tornarà a casa seva i parlarà bé de la vostra facció.\n\nTambé el podeu capturar per reclutar-lo o vendre com a esclau, però això farà enfadar la seva facció.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Càpsules de càrrega</LetterLabelCargoPodCrash>
@@ -210,7 +210,7 @@
   <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
   <CaravanRequestInfo>Demanen: {0}, ofereixen: {1} (us queden {2})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
-  <NormalQualityOrBetter>TODO</NormalQualityOrBetter>
+  <NormalQualityOrBetter>qualitat normal o millor</NormalQualityOrBetter>
 
   <!-- Caravan demand -->
   <!-- EN: Caravan demand by {0} -->
@@ -232,17 +232,5 @@
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
   <LetterSiteNoLongerHostileMulti>Com que ja no sou hostil amb {0}, els llocs següents ja no estan disponibles</LetterSiteNoLongerHostileMulti>
 
-  <!-- UNUSED -->
-  <LetterLabelWandererJoin>Viatjant s'uneix</LetterLabelWandererJoin>
-  <WandererJoin>Un {0} anomenat [PAWN_nameDef] ha arribat i s'uneix a la colònia. És un {1}.</WandererJoin>
-  <LetterLabelBuildingBrokenDown>Avaria: {0}</LetterLabelBuildingBrokenDown>
-  <LetterBuildingBrokenDown>Una de les vostres màquines ({0}) s'ha espatllat. No funcionarà fins que un colon amb la tasca «reparar» l'arregli.</LetterBuildingBrokenDown>
-  <PsychicDroneLevelLow>Baix</PsychicDroneLevelLow>
-  <PsychicDroneLevelMedium>Mig</PsychicDroneLevelMedium>
-  <PsychicDroneLevelHigh>Alt</PsychicDroneLevelHigh>
-  <PsychicDroneLevelExtreme>Extrem</PsychicDroneLevelExtreme>
-  <ItemStashSitePart_Unknown>Malauradament, {0} no sap que o qui – si és que hi ha res – pot protegir l'amagatall.</ItemStashSitePart_Unknown>
-  <ItemStashSitePart_Nothing>{0} diu que l'amagatall no està protegit.</ItemStashSitePart_Nothing>
-  <ItemStashSitePart_Part>{0} diu que {1}.</ItemStashSitePart_Part>
 
 </LanguageData>
