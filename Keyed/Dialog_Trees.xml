@@ -5,7 +5,7 @@
   <FactionGreetingHostile>{0} escup uns quants insults al micròfon i penja.</FactionGreetingHostile>
   <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of [PAWN_possessive] settlements or releasing [PAWN_possessive] faction's prisoners unharmed. Until then, [PAWN_pronoun] is unwilling to talk.\n\nMuttering an insult, [PAWN_pronoun] disconnects. -->
   <FactionGreetingHostileAppreciative>{0} us demana que feu un gest de bona voluntat, com oferir regals a un dels seus assentaments o alliberant un presoner de la seva facció sense ferides. Fins llavors no us voldrà atendre.\n\nPenja murmurant un insult.</FactionGreetingHostileAppreciative>
-  <!-- EN: {0} greets {1} warily asks what business you want to handle. -->
+  <!-- EN: {0} greets {1} warily and asks what business you want to handle. -->
   <FactionGreetingWary>{0} saluda a {1} amb recel i us demana què voleu.</FactionGreetingWary>
   <!-- EN: {0} greets {1} warmly and asks what [PAWN_pronoun] can do to help you. -->
   <FactionGreetingWarm>{0} saluda a {1} afablement i us demana com us pot ajudar.</FactionGreetingWarm>
@@ -60,5 +60,7 @@
   <MilitaryAidSent>{0} accepta enviar lluitadors a ajudar-vos.</MilitaryAidSent>
   <!-- EN: {0} apologizes and says they won't be able to arrive in time.\n\n(This faction's technology level is too low for transport pods) -->
   <CantSendMilitaryAidInTime>{0} ho lamenta i diu que no podrà arribar a temps.\n\n(LA facció no disposa de prou tecnologia per construir càpsules de transport)</CantSendMilitaryAidInTime>
+  <!-- EN: hostile visitors present -->
+  <HostileVisitorsPresent>TODO</HostileVisitorsPresent>
 
 </LanguageData>

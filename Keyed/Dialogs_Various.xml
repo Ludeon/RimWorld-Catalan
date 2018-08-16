@@ -582,6 +582,8 @@
   <MassCapacity>Capacitat de càrrega</MassCapacity>
   <!-- EN: Mass -->
   <Mass>Pes</Mass>
+  <!-- EN: Caravan mass -->
+  <CaravanMass>TODO</CaravanMass>
   <!-- EN: Equipment and apparel mass -->
   <EquipmentAndApparelMass>Pes de l'equipament i la roba</EquipmentAndApparelMass>
   <!-- EN: Inventory mass -->
@@ -619,7 +621,7 @@
   <!-- EN: ({0}) -->
   <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
   <!-- EN: (too cold for {0} more days) -->
-  <CantGrazeBecauseOfTemp>(massa fred durant {0} dies més)</CantGrazeBecauseOfTemp>
+  <CantGrazeBecauseOfTemp>(farà massa fred durant {0} dies més)</CantGrazeBecauseOfTemp>
   <!-- EN: Total nutrition -->
   <TotalNutrition>Nutrients totals</TotalNutrition>
   <!-- EN: Not moving -->
@@ -814,5 +816,9 @@
   <ConfirmCleanupTranslationFiles>Esteu segur que voleu netejar tots els fitxers de traducció del {0}?\n\nAixò:\n  - Afegirà marcadors per les claus de traducció que faltin, les traduccions injectades i els rerefons\n  - Afegirà o actualitzarà els comentaris que contenen la versió original als fitxers XML que pertoqui\n  - Aplicarà el format automàtic a tots els fitxers XML\n  - Actualitzarà els noms de les definicions perquè siguin compatibles\n  - esborrarà els comentaris dels XML (exceptuant les injeccions complertes)\n\nEls fitxers que no siguin XML no s’esborraran ni modificaran.\n\nRecordeu que cal tornar a iniciar el joc després de modificar els fitxers d’idioma abans d’executar aqusta eina per poder tenir totes les dades actualitzades.\n\nAssegureu-vos de tenir una còpia de seguretat abans d’utilitzar aquesta eina.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>sí, tinc una còpia de seguretat</ConfirmCleanupTranslationFiles_Confirm>
+
+  <!-- Load transporters -->
+  <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
+  <TransportersCaravanWillBeImmobile>TODO</TransportersCaravanWillBeImmobile>
 
 </LanguageData>

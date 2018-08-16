@@ -311,9 +311,6 @@
   <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
   <MessageTransportPodsArrivedAndAddedToCaravan>Les càpsules de transport han arribat. El contingut s'afegirà a {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
   
-  <!-- EN: The loading process has been canceled because one of the colonists has been lost. -->
-  <MessageFailedToLoadTransportersBecauseColonistLost>El procés de càrrega s'ha cancel·lat perquè un dels colons s'ha perdut.</MessageFailedToLoadTransportersBecauseColonistLost>
-  
   <!-- EN: Your colonists have finished loading the transport pods. -->
   <MessageFinishedLoadingTransporters>Els colons han acabat el procés de càrrega de les càpsules de transport.</MessageFinishedLoadingTransporters>
   
@@ -452,7 +449,7 @@
   <!-- EN: attacked a caravan -->
   <GoodwillChangedReason_AttackedCaravan>s’ha atacat una caravana</GoodwillChangedReason_AttackedCaravan>
   <!-- EN: natural tendency to reach {0} over time -->
-  <GoodwillChangedReason_NaturallyOverTime>la tendencia natural d’arribar a {0} amb el temps</GoodwillChangedReason_NaturallyOverTime>
+  <GoodwillChangedReason_NaturallyOverTime>la tendència natural és arribar a {0} amb el temps</GoodwillChangedReason_NaturallyOverTime>
   <!-- EN: {0} exited the map healthy -->
   <GoodwillChangedReason_ExitedMapHealthy>{0} ha sortit del mapa amb bona salut</GoodwillChangedReason_ExitedMapHealthy>
   <!-- EN: tended to {0} -->
@@ -521,5 +518,7 @@
   <!-- EN: Warning: Capturing [PAWN_nameDef] will anger [PAWN_possessive] faction [PAWN_factionName]. -->
   <MessageCapturingWillAngerFaction>Avís: Si captureu [PAWN_nameDef] s’enfadarà la seva facció [PAWN_factionName]. </MessageCapturingWillAngerFaction>
 
+  <!-- UNUSED -->
+  <MessageFailedToLoadTransportersBecauseColonistLost>El procés de càrrega s'ha cancel·lat perquè un dels colons s'ha perdut.</MessageFailedToLoadTransportersBecauseColonistLost>
 
 </LanguageData>
