@@ -1,169 +1,71 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  
-  <!-- EN: melee attacking TargetA. -->
-  <AttackMelee.reportString>ataca cos a cos a TargetA.</AttackMelee.reportString>
-  
-  <!-- EN: attacking TargetA. -->
-  <AttackStatic.reportString>ataca a TargetA.</AttackStatic.reportString>
-  
-  <!-- EN: beating fire out. -->
-  <BeatFire.reportString>apaga el foc.</BeatFire.reportString>
-  
-  <!-- EN: clearing snow. -->
-  <ClearSnow.reportString>neteja la neu.</ClearSnow.reportString>
-  
-  <!-- EN: dropping TargetA. -->
-  <DropEquipment.reportString>deixa TargetA.</DropEquipment.reportString>
-  
-  <!-- EN: entering cryptosleep casket. -->
-  <EnterCryptosleepCasket.reportString>entra al cofre de criptoson.</EnterCryptosleepCasket.reportString>
-  
-  <!-- EN: entering TargetA. -->
-  <EnterTransporter.reportString>entra a TargetA.</EnterTransporter.reportString>
-  
-  <!-- EN: equipping TargetA. -->
-  <Equip.reportString>equipa TargetA.</Equip.reportString>
-  
-  <!-- EN: extinguishing self. -->
-  <ExtinguishSelf.reportString>intenta apagar-se el foc.</ExtinguishSelf.reportString>
-  
-  <!-- EN: filling TargetA. -->
-  <FillFermentingBarrel.reportString>omple TargetA.</FillFermentingBarrel.reportString>
-  
-  <!-- EN: fleeing. -->
-  <Flee.reportString>fuig.</Flee.reportString>
-  
-  <!-- EN: fleeing. -->
-  <FleeAndCower.reportString>fuig.</FleeAndCower.reportString>
-  
-  <!-- EN: flicking switch. -->
-  <Flick.reportString>commuta l'interruptor.</Flick.reportString>
-  
-  <!-- EN: following TargetA. -->
-  <Follow.reportString>segueix a TargetA.</Follow.reportString>
-  
-  <!-- EN: following TargetA. -->
-  <FollowClose.reportString>segueix a TargetA.</FollowClose.reportString>
-  
-  <!-- EN: taking TargetA. -->
-  <GiveToPackAnimal.reportString>porta TargetA.</GiveToPackAnimal.reportString>
-  
-  <!-- EN: moving. -->
+
+  <!-- General -->
+
   <Goto.reportString>es mou.</Goto.reportString>
-  
-  <!-- EN: seeking safe temperature. -->
   <GotoSafeTemperature.reportString>busca una temperatura segura.</GotoSafeTemperature.reportString>
-  
-  <!-- EN: wandering. -->
   <GotoWander.reportString>volta.</GotoWander.reportString>
-  
-  <!-- EN: hauling TargetA. -->
-  <HaulCorpseToPublicPlace.reportString>endreça TargetA.</HaulCorpseToPublicPlace.reportString>
-  
-  <!-- EN: hauling TargetA. -->
-  <HaulToTransporter.reportString>TODO</HaulToTransporter.reportString>
-  
-  <!-- EN: igniting TargetA. -->
-  <Ignite.reportString>encén TargetA.</Ignite.reportString>
-  
-  <!-- EN: inducing TargetA to escape. -->
-  <InducePrisonerToEscape.reportString>anima TargetA a fugir.</InducePrisonerToEscape.reportString>
-  
-  <!-- EN: consuming TargetA. -->
-  <Ingest.reportString>consumeix TargetA.</Ingest.reportString>
-  
-  <!-- EN: insulting TargetA. -->
-  <Insult.reportString>insulta TargetA.</Insult.reportString>
-  
-  <!-- EN: lying down. -->
-  <LayDown.reportString>jeu.</LayDown.reportString>
-  
-  <!-- EN: lovin'. -->
-  <Lovin.reportString>manté relacions sexuals.</Lovin.reportString>
-  
-  <!-- EN: operating turret. -->
-  <ManTurret.reportString>opera la torreta.</ManTurret.reportString>
-  
-  <!-- EN: opening TargetA. -->
-  <Open.reportString>obre TargetA.</Open.reportString>
-  
-  <!-- EN: rearming TargetA. -->
-  <RearmTurret.reportString>munta TargetA.</RearmTurret.reportString>
-  
-  <!-- EN: rearming TargetA. -->
-  <RearmTurretAtomic.reportString>munta TargetA.</RearmTurretAtomic.reportString>
-  
-  <!-- EN: refueling TargetA. -->
-  <Refuel.reportString>recarrega TargetA.</Refuel.reportString>
-  
-  <!-- EN: refueling TargetA. -->
-  <RefuelAtomic.reportString>recarrega TargetA.</RefuelAtomic.reportString>
-  
-  <!-- EN: removing TargetA. -->
-  <RemoveApparel.reportString>es treu TargetA.</RemoveApparel.reportString>
-  
-  <!-- EN: resurrecting TargetA. -->
-  <Resurrect.reportString>ressuscita TargetA.</Resurrect.reportString>
-  
-  <!-- EN: fighting with TargetA. -->
-  <SocialFight.reportString>es baralla amb TargetA.</SocialFight.reportString>
-  
-  <!-- EN: stripping TargetA. -->
-  <Strip.reportString>despulla a TargetA.</Strip.reportString>
-  
-  <!-- EN: taking beer out of TargetA. -->
-  <TakeBeerOutOfFermentingBarrel.reportString>treu la cervesa de TargetA.</TakeBeerOutOfFermentingBarrel.reportString>
-  
-  <!-- EN: taking TargetA. -->
-  <TakeInventory.reportString>agafa TargetA.</TakeInventory.reportString>
-  
-  <!-- EN: trading with TargetA. -->
-  <TradeWithPawn.reportString>fa negocis amb TargetA.</TradeWithPawn.reportString>
-  
-  <!-- EN: triggering firefoam popper. -->
-  <TriggerFirefoamPopper.reportString>dispara l'espuma antiincendis.</TriggerFirefoamPopper.reportString>
-  
-  <!-- EN: unloading TargetA. -->
-  <UnloadInventory.reportString>descarrega TargetA.</UnloadInventory.reportString>
-  
-  <!-- EN: unloading inventory. -->
-  <UnloadYourInventory.reportString>descarrega l'inventari.</UnloadYourInventory.reportString>
-  
-  <!-- EN: activating artifact. -->
-  <UseArtifact.reportString>activa l'artefacte.</UseArtifact.reportString>
-  
-  <!-- EN: using TargetA. -->
-  <UseItem.reportString>fa servir TargetA.</UseItem.reportString>
-  
-  <!-- EN: using neurotrainer. -->
-  <UseNeurotrainer.reportString>fa servir el neuroentrenador.</UseNeurotrainer.reportString>
-  
-  <!-- EN: Doing something. -->
-  <UseVerbOnThing.reportString>fa alguna cosa.</UseVerbOnThing.reportString>
-  
-  <!-- EN: vomiting. -->
-  <Vomit.reportString>vomita.</Vomit.reportString>
-  
-  <!-- EN: standing. -->
   <Wait.reportString>no es mou.</Wait.reportString>
-  
-  <!-- EN: watching for targets. -->
-  <Wait_Combat.reportString>busca objectius.</Wait_Combat.reportString>
-  
-  <!-- EN: downed. -->
-  <Wait_Downed.reportString>ferida greu.</Wait_Downed.reportString>
-  
-  <!-- EN: standing. -->
-  <Wait_MaintainPosture.reportString>no es mou.</Wait_MaintainPosture.reportString>
-  
-  <!-- EN: waiting in safe temperature. -->
-  <Wait_SafeTemperature.reportString>s'espera en una temperatura segura.</Wait_SafeTemperature.reportString>
-  
-  <!-- EN: wandering. -->
-  <Wait_Wander.reportString>volta.</Wait_Wander.reportString>
-  
-  <!-- EN: wearing TargetA. -->
+  <WaitMaintainPosture.reportString>no es mou.</WaitMaintainPosture.reportString>
+  <WaitDowned.reportString>ferida greu.</WaitDowned.reportString>
+  <WaitSafeTemperature.reportString>s'espera en una temperatura segura.</WaitSafeTemperature.reportString>
+  <WaitWander.reportString>volta.</WaitWander.reportString>
+  <WaitCombat.reportString>busca objectius.</WaitCombat.reportString>
+  <AttackStatic.reportString>ataca a TargetA.</AttackStatic.reportString>
+  <AttackMelee.reportString>ataca cos a cos a TargetA.</AttackMelee.reportString>
+  <SocialFight.reportString>es baralla amb TargetA.</SocialFight.reportString>
+  <UseVerbOnThing.reportString>fa alguna cosa.</UseVerbOnThing.reportString>
+  <Equip.reportString>equipa TargetA.</Equip.reportString>
+  <TakeInventory.reportString>agafa TargetA.</TakeInventory.reportString>
+  <GiveToPackAnimal.reportString>porta TargetA.</GiveToPackAnimal.reportString>
   <Wear.reportString>es posa TargetA.</Wear.reportString>
-  
+  <RemoveApparel.reportString>es treu TargetA.</RemoveApparel.reportString>
+  <DropEquipment.reportString>deixa TargetA.</DropEquipment.reportString>
+  <Strip.reportString>despulla a TargetA.</Strip.reportString>
+  <Open.reportString>obre TargetA.</Open.reportString>
+  <RearmTrap.reportString>rearma TargetA.</RearmTrap.reportString>
+  <Refuel.reportString>recarrega TargetA.</Refuel.reportString>
+  <FillFermentingBarrel.reportString>omple TargetA.</FillFermentingBarrel.reportString>
+  <TakeBeerOutOfFermentingBarrel.reportString>treu la cervesa de TargetA.</TakeBeerOutOfFermentingBarrel.reportString>
+  <UnloadInventory.reportString>descarrega TargetA.</UnloadInventory.reportString>
+  <UnloadYourInventory.reportString>descarrega l'inventari.</UnloadYourInventory.reportString>
+  <ManTurret.reportString>opera la torreta.</ManTurret.reportString>
+  <EnterCryptosleepCasket.reportString>entra al cofre de criptoson.</EnterCryptosleepCasket.reportString>
+  <UseNeurotrainer.reportString>fa servir el neuroentrenador.</UseNeurotrainer.reportString>
+  <UseArtifact.reportString>activa l'artefacte.</UseArtifact.reportString>
+  <UseItem.reportString>fa servir TargetA.</UseItem.reportString>
+  <TriggerFirefoamPopper.reportString>dispara l'espuma antiincendi.</TriggerFirefoamPopper.reportString>
+  <ClearSnow.reportString>neteja la neu.</ClearSnow.reportString>
+  <Vomit.reportString>vomita.</Vomit.reportString>
+  <Flick.reportString>conmuta l'interruptor.</Flick.reportString>
+  <TradeWithPawn.reportString>fa negocis amb TargetA.</TradeWithPawn.reportString>
+  <Flee.reportString>fuig.</Flee.reportString>
+  <FleeAndCower.reportString>fuig.</FleeAndCower.reportString>
+  <EnterTransporter.reportString>entra a TargetA.</EnterTransporter.reportString>
+  <Resurrect.reportString>ressucita TargetA.</Resurrect.reportString>
+  <Insult.reportString>insulta TargetA.</Insult.reportString>
+  <HaulCorpseToPublicPlace.reportString>endreça TargetA.</HaulCorpseToPublicPlace.reportString>
+  <InducePrisonerToEscape.reportString>anima TargetA a fugir.</InducePrisonerToEscape.reportString>
+  <HaulToTransporter.reportString>porta TargetA.</HaulToTransporter.reportString>
+
+
+  <!-- Fire -->
+
+  <Ignite.reportString>encén TargetA.</Ignite.reportString>
+  <BeatFire.reportString>apaga el foc.</BeatFire.reportString>
+  <ExtinguishSelf.reportString>intenta apagar-se el foc.</ExtinguishSelf.reportString>
+
+
+  <!-- Need satisfaction -->
+
+  <Ingest.reportString>consumeix TargetA.</Ingest.reportString>
+  <LayDown.reportString>jeu.</LayDown.reportString>
+
+
+  <!-- Love -->
+
+  <Lovin.reportString>manté relacions sexuals.</Lovin.reportString>
+
+
 </LanguageData>
