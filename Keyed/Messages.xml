@@ -1,312 +1,526 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- EN: Sieging {0} from {1} are assaulting the colony. -->
   <MessageSiegersAssaulting>Els {0} dels {1} deixen el setge i assalten la colònia.</MessageSiegersAssaulting>
 
+  <!-- EN: {0} from {1} are beginning their assault. -->
   <MessageRaidersBeginningAssault>{0} dels {1} inicien l'assalt.</MessageRaidersBeginningAssault>
+  <!-- EN: {0} from {1} have detected you and begun their assault early. -->
   <MessageRaidersDetectedEarlyAssault>{0} dels {1} us han detectat i us assaltaran aviat.</MessageRaidersDetectedEarlyAssault>
+  <!-- EN: {0} from {1} have decided to kidnap who they can and leave. -->
   <MessageRaidersKidnapping>{0} dels {1} han decidit raptar qui puguin i fugir.</MessageRaidersKidnapping>
+  <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
   <MessageRaidersStealing>{0} dels {1} han decidit robar el que puguin i fugir.</MessageRaidersStealing>
 
+  <!-- EN: {0} from {1} are leaving. -->
   <MessageRaidersLeaving>{0} dels {1} marxen.</MessageRaidersLeaving>
-	<MessageRaidersGivenUpLeaving>{0} dels {1} han desistit i marxen.</MessageRaidersGivenUpLeaving>
+  <!-- EN: {0} from {1} have given up and are leaving. -->
+  <MessageRaidersGivenUpLeaving>{0} dels {1} han desistit i marxen.</MessageRaidersGivenUpLeaving>
+  <!-- EN: {0} from {1} are satisfied with the damage done and are leaving. -->
   <MessageRaidersSatisfiedLeaving>{0} dels {1} estan satisfets amb els danys causat i marxen.</MessageRaidersSatisfiedLeaving>
 
+  <!-- EN: {0} from {1} are fleeing. -->
   <MessageFightersFleeing>{0} dels {1} fugen.</MessageFightersFleeing>
+  <!-- EN: Friendly {0} from {1} are leaving. -->
   <MessageFriendlyFightersLeaving>Els amics {0} dels {1} marxen.</MessageFriendlyFightersLeaving>
 
+  <!-- EN: {0} from {1} are taking a wounded guest. -->
   <MessageVisitorsTakingWounded>{0} dels {1} s'emporten un convidat ferit.</MessageVisitorsTakingWounded>
+  <!-- EN: {0} from {1} have been trapped and are digging out to escape. -->
   <MessageVisitorsTrappedLeaving>{0} dels {1} estan atrapats i excaven per escapar.</MessageVisitorsTrappedLeaving>
+  <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
   <MessageVisitorsDangerousTemperature>{0} dels {1} marxen del mapa perquè fa una temperatura perillosa.</MessageVisitorsDangerousTemperature>
 
-  
+  <!-- EN: {0} worn by {1} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{0} que portava {1} s'ha fet malbé fins desfer-se.</MessageWornApparelDeterioratedAway>
-  
+
+  <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>Ha començat {0}.</MessageSeasonBegun>
 
+  <!-- EN: {0} has left comms range. -->
   <MessageShipHasLeftCommsRange>{0} ha sortit de la cobertura de comunicacions.</MessageShipHasLeftCommsRange>
-	
-	<MessageNeedBeaconToTradeWithShip>Necessiteu una balisa de comerç orbital per poder fer negocis amb les naus.\n\nLa balisa necessita corrent elèctric.</MessageNeedBeaconToTradeWithShip>
-	
+
+  <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
+  <MessageNeedBeaconToTradeWithShip>Necessiteu una balisa de comerç orbital per poder fer negocis amb les naus.\n\nLa balisa necessita corrent elèctric.</MessageNeedBeaconToTradeWithShip>
+
+  <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Programa completat: {0}.</MessageBillComplete>
-  
+
+  <!-- EN: {0} is fully healed. -->
   <MessageFullyHealed>{0} està curat.</MessageFullyHealed>
 
+  <!-- EN: Prisoner {0} is escaping. -->
   <MessagePrisonerIsEscaping>{0} està escapant de la presó.</MessagePrisonerIsEscaping>
 
+  <!-- EN: {0} found no nearby unreserved shells for {1}. -->
   <MessageOutOfNearbyShellsFor>{0} no ha trobat cap projectil proper per {1}.</MessageOutOfNearbyShellsFor>
 
-  <MessageAnimalsGoPsychoHunted>Avís: {0}s sovint ataquen si pateixen ferides.</MessageAnimalsGoPsychoHunted>
-  <MessageAnimalManhuntsOnTameFailed>Avís: {0}s atacaran si falla la domesticació ({1} de probabilitat).</MessageAnimalManhuntsOnTameFailed>
+  <!-- EN: Warning: {0} have a {1} chance to attack when harmed from rifle range. Chance is higher if closer, less with good hunter stealth. -->
+  <MessageAnimalsGoPsychoHunted>Avís: {0} sovint ataquen si pateixen ferides.</MessageAnimalsGoPsychoHunted>
+  <!-- EN: Warning: {0} may attack upon failed taming attempts ({1} chance). -->
+  <MessageAnimalManhuntsOnTameFailed>Avís: {0} atacaran si falla la domesticació ({1} de probabilitat).</MessageAnimalManhuntsOnTameFailed>
   
+  <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nou recluta</LetterLabelMessageRecruitSuccess>
+  <!-- EN: {0} successfully recruited {1} ({2} chance). -->
   <MessageRecruitSuccess>{0} ha reclutat a {1} ({2} de probabilitat).</MessageRecruitSuccess>
+  <!-- EN: {0} successfully tamed {1} ({2} chance). -->
   <MessageTameSuccess>{0} ha domesticat {1} ({2} de probabilitat).</MessageTameSuccess>
+  <!-- EN: {0} successfully tamed {1} ({2} chance) and named [PAWN_objective] {3}. -->
   <MessageTameAndNameSuccess>{0} ha domesticat {1} ({2} de probabilitat) i es dirà {3}.</MessageTameAndNameSuccess>
 
+  <!-- EN: The colony cannot afford this deal. -->
   <MessageColonyCannotAfford>La colònia no pot pagar-s'ho.</MessageColonyCannotAfford>
+  <!-- EN: You do not have enough silver ready to trade. -->
   <MessageColonyNotEnoughSilver>No teniu prou plata disponible per pagar.</MessageColonyNotEnoughSilver>
 
+  <!-- EN: Critical alert: {0} -->
   <MessageCriticalAlert>Alerta crítica: {0}</MessageCriticalAlert>
 
+  <!-- EN: Must designate harvestable sufficiently-grown plants. -->
   <MessageMustDesignateHarvestable>Heu de designar plantes que es pugui collir i estiguin prou madures.</MessageMustDesignateHarvestable>
+  <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
   <MessageMustDesignateHarvestableWood>Heu de designar plantes que donin fusta i hagin crescut prou.</MessageMustDesignateHarvestableWood>
+  <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Heu de designar plantes.</MessageMustDesignatePlants>
+  <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
   <MessageMustDesignateHaulable>Heu de designar objectes que es puguin recollir. Alguns objectes es poden recollir sempre i no cal designar-los.</MessageMustDesignateHaulable>
+  <!-- EN: Must designate impassable mineable rocks. -->
   <MessageMustDesignateMineable>Heu de designar roques minables.</MessageMustDesignateMineable>
+  <!-- EN: Must designate huntable animals. -->
   <MessageMustDesignateHuntable>Heu de designar animals que es puguin caçar.</MessageMustDesignateHuntable>
+  <!-- EN: Must designate tameable animals. -->
   <MessageMustDesignateTameable>Heu de designar animals que es puguin domesticar.</MessageMustDesignateTameable>
+  <!-- EN: Must designate abandoned artificial structures. -->
   <MessageMustDesignateClaimable>Heu de designar estructures artificials abandonats.</MessageMustDesignateClaimable>
+  <!-- EN: Must designate rough stone surfaces. -->
   <MessageMustDesignateSmoothableSurface>Heu de designar superfícies de pedra sense polir.</MessageMustDesignateSmoothableSurface>
+  <!-- EN: Nothing can remove thick roofs. -->
   <MessageNothingCanRemoveThickRoofs>No hi ha res que pugui treure les teulades gruixudes.</MessageNothingCanRemoveThickRoofs>
+  <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
   <MessageAlreadyInStorage>Això ja és en un magatzem i es mourà a un magatzem de més prioritat quan calgui.</MessageAlreadyInStorage>
+  <!-- EN: Must designate corpse or downed character with strippable apparel. -->
   <MessageMustDesignateStrippable>Heu de designar un cadàver o un personatge caigut que portin roba que es pugui treure.</MessageMustDesignateStrippable>
+  <!-- EN: Must designate tame animal that belongs to the colony. -->
   <MessageMustDesignateSlaughterable>Heu de designar un animal domesticat de la colònia.</MessageMustDesignateSlaughterable>
+  <!-- EN: Must designate full graves or containers. -->
   <MessageMustDesignateOpenable>Heu de designar tombes plenes o contenidors.</MessageMustDesignateOpenable>
+  <!-- EN: Must designate unforbidden items. -->
   <MessageMustDesignateForbiddable>Heu de designar objectes permesos.</MessageMustDesignateForbiddable>
+  <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Heu de designar objectes prohibits.</MessageMustDesignateUnforbiddable>
 
+  <!-- EN: {0} has refused to be arrested! -->
   <MessageRefusedArrest>{0} no es deixa arrestar!</MessageRefusedArrest>
-
+  
+  <!-- EN: There are no medical beds available. -->
   <MessageNoMedicalBeds>No hi ha cap llit mèdic disponible.</MessageNoMedicalBeds>
+  <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>No hi ha cap llit d'animal disponible.</MessageNoAnimalBeds>
+  <!-- EN: Operation requires {0} or better, but {1}'s current medical care mode is "{2}". -->
   <MessageTooLowMedCare>La operació requereix {0} o millor, però {1} té un nivell de medicament "{2}".</MessageTooLowMedCare>
-
+  
+  <!-- EN: {0} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{0} ha mort a causa de {1}.</PawnDiedBecauseOf>
+  <!-- EN: {0} has died. -->
   <PawnDied>{0} ha mort.</PawnDied>
 
+  <!-- EN: {0} is no longer incapable of walking. -->
   <MessageNoLongerDowned>{0} ja pot caminar.</MessageNoLongerDowned>
 
+  <!-- EN: {0} has collapsed due to extreme exhaustion. -->
   <MessageInvoluntarySleep>{0} s'ha desplomat degut al cansament extrem.</MessageInvoluntarySleep>
 
+  <!-- EN: {0} has failed in a minor way while operating on {1}. -->
   <MessageMedicalOperationFailureMinor>{0} ha comés un petit error mentre operava a {1}.</MessageMedicalOperationFailureMinor>
-	<MessageMedicalOperationFailureCatastrophic>{0} ha comés un error catastròfic mentre operava a {1}.</MessageMedicalOperationFailureCatastrophic>
-	<MessageMedicalOperationFailureRidiculous>{0} ha comés un error ridícul mentre operava a {1}.</MessageMedicalOperationFailureRidiculous>
+  <!-- EN: {0} has failed catastrophically while operating on {1}. -->
+  <MessageMedicalOperationFailureCatastrophic>{0} ha comés un error catastròfic mentre operava a {1}.</MessageMedicalOperationFailureCatastrophic>
+  <!-- EN: {0} has failed in a ridiculous way while operating on {1}. -->
+  <MessageMedicalOperationFailureRidiculous>{0} ha comés un error ridícul mentre operava a {1}.</MessageMedicalOperationFailureRidiculous>
+  <!-- EN: {0} has committed a fatal error while operating on {1} because of the special challenges of: {2} -->
   <MessageMedicalOperationFailureFatal>{0} ha comès un error fatal mentre operava a {1} degut a les dificultats especials de: {2}</MessageMedicalOperationFailureFatal>
 
+  <!-- EN: This operation will anger {0}. -->
   <MessageMedicalOperationWillAngerFaction>Aquesta operació farà emprenyar {0}.</MessageMedicalOperationWillAngerFaction>
 
+  <!-- EN: {0} has miscarried due to starvation. -->
   <MessageMiscarriedStarvation>{0} ha avortat a causa de la fam.</MessageMiscarriedStarvation>
+  <!-- EN: {0} has miscarried due to poor health. -->
   <MessageMiscarriedPoorHealth>{0} ha avortat a causa de la mala salut.</MessageMiscarriedPoorHealth>
+  <!-- EN: {0} has given birth. -->
   <MessageGaveBirth>{0} ha donat a llum.</MessageGaveBirth>
 
+  <!-- EN: {0} has named {1} {2} after being nuzzled. -->
   <MessageNuzzledPawnGaveNameTo>{0} li ha posat {2} a {1} després de fer-li carantoines.</MessageNuzzledPawnGaveNameTo>
 
+  <!-- EN: No handler can tame {0} (requires level {1} in {2}, best handler {3} has {4}). -->
   <MessageNoHandlerSkilledEnough>Ningú pot domesticar {0} (cal un coneixement {1} en {2}, el millor domador, {3}, en té {4}).</MessageNoHandlerSkilledEnough>
   
+  <!-- EN: {0} has been eaten by {1}. -->
   <MessageEatenByPredator>{0} ha estat devorat per {1}.</MessageEatenByPredator>
+  <!-- EN: {0} is being attacked by {1}! -->
   <MessageAttackedByPredator>{0} està sent atacat per {1}!</MessageAttackedByPredator>
   
+  <!-- EN: A bug hive has reproduced itself. -->
   <MessageHiveReproduced>Un niu de cucs s'ha reproduït.</MessageHiveReproduced>
   
+  <!-- EN: The trade caravan from {0} is leaving. -->
   <MessageTraderCaravanLeaving>La caravana de comerciants dels {0} marxa.</MessageTraderCaravanLeaving>
   
+  <!-- EN: {0} is dead. -->
   <MessageCantSelectDeadPawn>{0} està mort.</MessageCantSelectDeadPawn>
+  <!-- EN: {0} is off the map. -->
   <MessageCantSelectOffMapPawn>{0} ha sortit del mapa.</MessageCantSelectOffMapPawn>
   
-  <MessageSocialFight>{0} s'està barallant amb {1}. Raó: {2}.</MessageSocialFight>
+  <!-- EN: {0} started a social fight with {1}. -->
+  <MessageSocialFight>{0} s'està barallant amb {1}.</MessageSocialFight>
   
+  <!-- EN: Colonists are gathering to celebrate {0} and {1}’s marriage. -->
   <MessageNewMarriageCeremony>Els colons s'estan reunint per celebrar el casament de {0} i {1}.</MessageNewMarriageCeremony>
+  <!-- EN: {0} and {1} are beginning their marriage ceremony! -->
   <MessageMarriageCeremonyStarts>{0} i {1} comencen la cerimònia de casament!</MessageMarriageCeremonyStarts>
+  <!-- EN: The marriage ceremony for {0} and {1} has been called off. -->
   <MessageMarriageCeremonyCalledOff>El casament entre {0} i {1} s'ha anul·lat.</MessageMarriageCeremonyCalledOff>
+  <!-- EN: {0} and {1} have married. Colonists are now celebrating the occasion. -->
   <MessageNewlyMarried>{0} i {1} s'han casat. Els colons ho celebren.</MessageNewlyMarried>
+  <!-- EN: The marriage ceremony for {0} and {1} has finished. -->
   <MessageMarriageCeremonyAfterPartyFinished>La cerimònia de casament entre {0} i {1} s'ha acabat.</MessageMarriageCeremonyAfterPartyFinished>
   
+  <!-- EN: {0} and {1} have formed a bond. -->
   <MessageNewBondRelation>{0} i {1} han creat un lligam.</MessageNewBondRelation>
+  <!-- EN: {0} and {1} have formed a bond. {0} has named [PAWN_objective] {2}. -->
   <MessageNewBondRelationNewName>{0} i {1} han creat un lligam. L'ha anomenat {2}.</MessageNewBondRelationNewName>
   
+  <!-- EN: {0} has a mental break because of {1}'s death. -->
   <MessageBondedAnimalMentalBreak>{0} s'ha emprenyat per la mot de {1}.</MessageBondedAnimalMentalBreak>
+  <!-- EN: {0} named {1} has a mental break because of {2}'s death. -->
   <MessageNamedBondedAnimalMentalBreak>{0} anomenat {1} s'ha emprenyat per la mort de {2}.</MessageNamedBondedAnimalMentalBreak>
+  <!-- EN: {0} animals have a mental break because of {1}'s death. -->
   <MessageBondedAnimalsMentalBreak>{0} animals s'han emprenyat per la mort de {1}.</MessageBondedAnimalsMentalBreak>
   
+  <!-- EN: {0} has successfully removed {1}'s {2}. -->
   <MessageSuccessfullyRemovedHediff>{0} li ha tret {2} a {1}.</MessageSuccessfullyRemovedHediff>
   
+  <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
   <MessageShipChunkDrop>Un tros de nau espacial ha caigut de l'espai prop d'aquí.</MessageShipChunkDrop>
   
+  <!-- EN: The party has been called off. -->
   <MessagePartyCalledOff>La festa s'ha cancel·lat.</MessagePartyCalledOff>
+  <!-- EN: The party has finished. -->
   <MessagePartyFinished>La festa s'ha acabat.</MessagePartyFinished>
 
+  <!-- EN: Some items cannot be traded because of:  -->
   <MessageCannotSellItemsReason>Alguns objectes no es poden comerciar degut a: </MessageCannotSellItemsReason>
 
+  <!-- EN: {1} failed while constructing {0}. Some resources have been wasted. -->
   <MessageConstructionFailed>{1} ha fallat en la construcció de {0}. S'han malversat alguns recursos.</MessageConstructionFailed>
 
+  <!-- EN: Screenshot saved as: {0} -->
   <MessageScreenshotSavedAs>Captura desada com a: {0}</MessageScreenshotSavedAs>
   
+  <!-- EN: {0} and {1} are no longer social fighting. -->
   <MessageNoLongerSocialFighting>{0} i {1} ja no s'estan barallant.</MessageNoLongerSocialFighting>
-
+  
+  <!-- EN: {0} is no longer binging on {1}. -->
   <MessageNoLongerBingingOnDrug>{0} li ha passat la borratxera de {1}.</MessageNoLongerBingingOnDrug>
 
-    <MessageNoLongerOnTargetedInsultingSpree>{0} ja no té un emprenyada d’insults contra {1}.</MessageNoLongerOnTargetedInsultingSpree>
+  <!-- EN: {0} is no longer on an insulting spree against {1}. -->
+  <MessageNoLongerOnTargetedInsultingSpree>{0} ja no té un emprenyada d’insults contra {1}.</MessageNoLongerOnTargetedInsultingSpree>
 
+  <!-- EN: {0} has rotted away in storage. -->
   <MessageRottedAwayInStorage>{0} s'ha podrit al magatzem.</MessageRottedAwayInStorage>
   
+  <!-- EN: {0} has gotten food poisoning from: {1}. Cause: {2}. -->
   <MessageFoodPoisoning>{0} s'ha intoxicat menjant: {1}.</MessageFoodPoisoning>
-
+  
+  <!-- EN: {0} has been removed from the caravan. -->
   <MessagePawnLostWhileFormingCaravan>{0} s’ha tret de la caravana.</MessagePawnLostWhileFormingCaravan>
+  <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>S’ha acabat el procés de formació de la caravana.</MessagePawnLostWhileFormingCaravan_AllLost>
+  <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>La formació de la caravana continuarà quan no hi hagi ningú emprenyat.</MessageCaravanFormationPaused>
+  <!-- EN: Your colonists will now continue forming a caravan. -->
   <MessageCaravanFormationUnpaused>Els colons continuaran la formació de la caravana.</MessageCaravanFormationUnpaused>
   
+  <!-- EN: One of the caravan members has a mental break. -->
   <MessageCaravanMemberHasExtremeMentalBreak>Un membre de la caravana s'ha emprenyat.</MessageCaravanMemberHasExtremeMentalBreak>
   
+  <!-- EN: Warning: It can take a very long time to generate an entire planet. -->
   <MessageMaxPlanetCoveragePerformanceWarning>Avís: pot tardar molt a generar un planeta sencer.</MessageMaxPlanetCoveragePerformanceWarning>
 
+  <!-- EN: {0} has died because of cold. -->
   <MessagePlantDiedOfCold>{0} ha mort pel fred.</MessagePlantDiedOfCold>
+  <!-- EN: {0} has died from rotting due to being left unharvested. -->
   <MessagePlantDiedOfRot_LeftUnharvested>{0} s'ha podrit perquè no s'ha collit.</MessagePlantDiedOfRot_LeftUnharvested>
+  <!-- EN: {0} has died due to being exposed to light. -->
   <MessagePlantDiedOfRot_ExposedToLight>{0} ha mort per que li ha tocat la llum.</MessagePlantDiedOfRot_ExposedToLight>
+  <!-- EN: {0} has died from rotting. -->
   <MessagePlantDiedOfRot>{0} s'ha podrit.</MessagePlantDiedOfRot>
+  <!-- EN: {0} has died because of poison. -->
   <MessagePlantDiedOfPoison>{0} ha mort enverinat.</MessagePlantDiedOfPoison>
+  <!-- EN: {0} has died because of blight. -->
   <MessagePlantDiedOfBlight>{0} ha mort per la plaga.</MessagePlantDiedOfBlight>
 
-	<MessagePawnBeingBurned>{0} es crema per l'aire sobreescalfat!</MessagePawnBeingBurned>
+  <!-- EN: {0} is being burned by superheated air! -->
+  <MessagePawnBeingBurned>{0} es crema per l'aire sobreescalfat!</MessagePawnBeingBurned>
 
-	<MessageAccidentalOverdose>{0} té una sobredosi accidental de {1}!</MessageAccidentalOverdose>
+  <!-- EN: {0} has accidentally overdosed while consuming {1}! -->
+  <MessageAccidentalOverdose>{0} té una sobredosi accidental de {1}!</MessageAccidentalOverdose>
   
+  <!-- EN: {0} has arrived at its destination. -->
   <MessageCaravanArrivedAtDestination>{0} ha arribat al destí.</MessageCaravanArrivedAtDestination>
-
   
-<MessageCaravanIsVisitingSettlement>{0} ha arribat a {1}.</MessageCaravanIsVisitingSettlement>
-
+  <!-- EN: {0} has arrived in {1}. -->
+  <MessageCaravanIsVisitingSettlement>{0} ha arribat a {1}.</MessageCaravanIsVisitingSettlement>
+  
+  <!-- EN: {0} has arrived in {1}. -->
   <MessageCaravanEnteredWorldObject>{0} ha arribat a {1}.</MessageCaravanEnteredWorldObject>
-
+  
+  <!-- EN: {0} has left the area and formed a caravan. -->
   <MessagePawnLeftMapAndCreatedCaravan>{0} ha sortit de la zona i ha format una caravana.</MessagePawnLeftMapAndCreatedCaravan>
+  <!-- EN: Your animals are moving to join it. -->
   <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Els vostres animals van a unir-s’hi.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
-
+  
+  <!-- EN: You have successfully settled in a new area. -->
   <MessageSettledInExistingMap>Us heu establert en una nova zona.</MessageSettledInExistingMap>
-
+  
+  <!-- EN: {1}'s {2} has healed. Cause: {0} -->
   <MessagePermanentWoundHealed>{2} de {1} s’ha curat. Causa: {0}</MessagePermanentWoundHealed>
 
+  <!-- EN: Since you rescued [PAWN_objective], {0} has joined your group! -->
   <MessageRescueeJoined>Com que l'heu rescatat, {0} s'ha unit al grup!</MessageRescueeJoined>
   
+  <!-- EN: Some transport pods are unreachable. -->
   <MessageTransporterUnreachable>Algunes càpsules de transport no són accessibles.</MessageTransporterUnreachable>
+  <!-- EN: All pod launchers connected to the selected transport pods must be adjacent. -->
   <MessageTransportersNotAdjacent>Tots els llançadors connectats a les càpsules de transport han de ser adjacents.</MessageTransportersNotAdjacent>
   
+  <!-- EN: The loading process has been canceled because one of the transport pods has been destroyed. -->
   <MessageTransportersLoadCanceled_TransporterDestroyed>S'ha cancel·lat el procés de càrrega perquè s'ha destruït una càpsula de transport.</MessageTransportersLoadCanceled_TransporterDestroyed>
-	<MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>S'ha cancel·lat el procés de càrrega perquè s'ha destruït un llançador.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
+  <!-- EN: The loading process has been canceled because one of the pod launchers has been destroyed. -->
+  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>S'ha cancel·lat el procés de càrrega perquè s'ha destruït un llançador.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
   
+  <!-- EN: Your colonists will now load the assigned items into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>Els colons carregaran els objectes a la càpsula de transport.</MessageTransportersLoadingProcessStarted>
-
+  
+  <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>Les càpsules de transport han arribat.</MessageTransportPodsArrived>
+  <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
   <MessageTransportPodsArrivedAndLost>Les càpsules de transport han arribat, però com que no hi ha cap colon, se n'ha perdut el contingut.</MessageTransportPodsArrivedAndLost>
+  <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
   <MessageTransportPodsArrivedAndAddedToCaravan>Les càpsules de transport han arribat. El contingut s'afegirà a {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
-
-  <MessageFailedToLoadTransportersBecauseColonistLost>El procés de càrrega s'ha cancel·lat perquè un dels colons s'ha perdut.</MessageFailedToLoadTransportersBecauseColonistLost>
-
+  
+  <!-- EN: Your colonists have finished loading the transport pods. -->
   <MessageFinishedLoadingTransporters>Els colons han acabat el procés de càrrega de les càpsules de transport.</MessageFinishedLoadingTransporters>
-
+  
+  <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>El destí seleccionat no és vàlid.</MessageTransportPodsDestinationIsInvalid>
+  <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>Cada càpsula de transport necessita com a mínim {0}x fuel químic per enviar-les tan lluny.</MessageTransportPodsDestinationIsTooFar>
-
+  
+  <!-- EN: The caravan has been reformed. -->
   <MessageReformedCaravan>La caravana s'ha tornat a formar.</MessageReformedCaravan>
   
+  <!-- EN: You can't banish the last colonist. -->
   <MessageCantBanishLastColonist>No podeu fer fora l’últim colon.</MessageCantBanishLastColonist>
-
+  
+  <!-- EN: Cannot equip: {0} is incapable of violence. -->
   <MessageCantEquipIncapableOfViolence>No es pot equipar: {0} no pot fer actes violents.</MessageCantEquipIncapableOfViolence>
+  <!-- EN: Cannot equip: incapable. -->
   <MessageCantEquipIncapableOfManipulation>No es pot equipar: no ho pot fer.</MessageCantEquipIncapableOfManipulation>
-
+  
+  <!-- EN: Because they are bonded, slaughtering {0} will make {1} unhappy. -->
   <MessageSlaughteringBondedAnimal>Com que tenen un lligam, escorxar {0} no agradarà gens a {1}.</MessageSlaughteringBondedAnimal>
-
+  
+  <!-- EN: {0} has run out of food ({1}). -->
   <MessageCaravanRanOutOfFood>{0} s'ha quedat sense menjar ({1}).</MessageCaravanRanOutOfFood>
 
+  <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
   <MessageSelectOwnBaseToFormCaravan>Per formar una caravana, seleccioneu la voistra colònia o un lloc on tingueu gent.</MessageSelectOwnBaseToFormCaravan>
 
+  <!-- EN: At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution. -->
   <MessageScreenResTooSmallForUIScale>Amb aquesta resolució i escala, la interfície del joc no cabrà a la pantalla. Reduïu l'escala o incrementeu la resolució.</MessageScreenResTooSmallForUIScale>
-
+  
+  <!-- EN: You have to reform the caravan now. Everyone left behind will be abandoned. -->
   <MessageYouHaveToReformCaravanNow>Ara heu de tornar a formar la caravana. Si deixeu algú, serà abandonat.</MessageYouHaveToReformCaravanNow>
-
+  
+  <!-- EN: {0} from {1} are attacking your {2}. -->
   <MessageDefendersAttacking>{0} dels {1} estan atacant la vostra {2}.</MessageDefendersAttacking>
 
+  <!-- EN: To self-tend, {0} must also be assigned to Doctor work. -->
   <MessageSelfTendUnsatisfied>Per poder-se auto-curar, {0} ha d'estar assignat a feines de metge.</MessageSelfTendUnsatisfied>
+  <!-- EN: {0} is incapable of doing Doctor work, and so cannot ever self-tend. -->
   <MessageCannotSelfTendEver>{0} no pot fer feines de metge, per tant no es pot auto-curar.</MessageCannotSelfTendEver>
-
+  
+  <!-- EN: This tile is impassable. -->
   <MessageCantAddWaypointBecauseImpassable>Aquesta cel·la no es pot travessar.</MessageCantAddWaypointBecauseImpassable>
+  <!-- EN: It's not possible to reach this tile from the last waypoint. -->
   <MessageCantAddWaypointBecauseUnreachable>No es pot arribar a aquesta cel·la des del darrer punt de pas.</MessageCantAddWaypointBecauseUnreachable>
+  <!-- EN: You can't add more than {0} waypoints. -->
   <MessageCantAddWaypointBecauseLimit>No podeu afegir més de {0} punts de pas.</MessageCantAddWaypointBecauseLimit>
+  <!-- EN: You can't remove this waypoint. -->
   <MessageCantRemoveWaypointBecauseFirst>No podeu eliminar aquest punt de pas.</MessageCantRemoveWaypointBecauseFirst>
-
+  
+  <!-- EN: None of your wardens is capable of violence. The execution won't be performed. -->
   <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Cap dels vostres vigilants poden fer actes violents. No es pot realitzar l'execució.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
-
+  
+  <!-- EN: You have defeated all enemies. In {0}, the caravan will automatically be reformed. -->
   <MessageSiteCountdownBecauseNoMoreEnemies>Heu eliminat tots els enemics. D'aquí a {0}, la caravana es tornarà a formar automàticament.</MessageSiteCountdownBecauseNoMoreEnemies>
+  <!-- EN: In {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen. -->
   <MessageSiteCountdownBecauseNoEnemiesInitially>D'aquí a {0}, es tornarà a formar la caravana automàticament. Ara la podeu modificar a la pantalla del món.</MessageSiteCountdownBecauseNoEnemiesInitially>
 
+  <!-- EN: Cannot banish {0} since [PAWN_pronoun] cannot walk. -->
   <MessageCantBanishDownedPawn>No podeu fer fora a {0} per que no pot caminar.</MessageCantBanishDownedPawn>
 
+  <!-- EN: {0} have woken up. -->
   <MessageSleepingPawnsWokenUp>{0} s’ha despertat.</MessageSleepingPawnsWokenUp>
 
+  <!-- EN: Item produced: {0}. -->
   <MessageCompSpawnerSpawnedItem>Objecte fabricat: {0}.</MessageCompSpawnerSpawnedItem>
 
+  <!-- EN: Health condition healed: {0}. -->
   <MessageHediffCuredByItem>Condició de salut curada: {0}.</MessageHediffCuredByItem>
+  <!-- EN: Body part restored: {0}. -->
   <MessageBodyPartCuredByItem>Part del cos recuperada: {0}.</MessageBodyPartCuredByItem>
+  <!-- EN: Technology given: {0}. -->
   <MessageResearchProjectFinishedByItem>Tecnologia obtinguda: {0}.</MessageResearchProjectFinishedByItem>
 
+  <!-- EN: {0} has been brought back to life! -->
   <MessagePawnResurrected>{0} ha tornat a la vida!</MessagePawnResurrected>
 
+  <!-- EN: You have failed to rescue {0}. This will make {1} sad. -->
   <MessageFailedToRescueRelative>No heu pogut rescatar {0}. Això entristirà a {1}.</MessageFailedToRescueRelative>
+  <!-- EN: You have rescued {0}. This will make {1} happy. -->
   <MessageRescuedRelative>Heu rescatat a {0}. Això farà content a {1}.</MessageRescuedRelative>
 
+  <!-- EN: The tornado has left the map. -->
   <MessageTornadoLeftMap>El tornado ha sortit del mapa.</MessageTornadoLeftMap>
+  <!-- EN: The tornado has dissipated. -->
   <MessageTornadoDissipated>El tornado s’ha dissipat.</MessageTornadoDissipated>
 
+  <!-- EN: No conscious, capable diplomat. -->
   <MessagePeaceTalksNoDiplomat>No hi ha cap persona conscient i capaç de fer diplomàcia.</MessagePeaceTalksNoDiplomat>
 
+  <!-- EN: Warning: {0} cannot live when exposed to light. -->
   <MessageWarningCavePlantsExposedToLight>Avís: {0} no viurà si li toca la llum.</MessageWarningCavePlantsExposedToLight>
 
+  <!-- EN: {0} couldn't reach {1} so [PAWN_pronoun] decided to redirect [PAWN_possessive] anger at {2}. -->
   <MessageTargetedTantrumChangedTarget>{0} no pot arribar a {1} així que ha decidit dirigir la seva ràbia cap a {2}.</MessageTargetedTantrumChangedTarget>
 
+  <!-- EN: {0} couldn't reach {1} so [PAWN_pronoun] decided to redirect [PAWN_possessive] anger at {2}. -->
   <MessageTargetedInsultingSpreeChangedTarget>{0} no pot arribar a {1} així que ha decidit dirigir la seva ràbia cap a {2}.</MessageTargetedInsultingSpreeChangedTarget>
 
+  <!-- EN: {0} has decided to redirect [PAWN_possessive] anger at {1}. -->
   <MessageMurderousRageChangedTarget>{0} ha decidit dirigir la seva ràbia cap a {1}.</MessageMurderousRageChangedTarget>
 
+  <!-- EN: {0} cannot grow underneath a roof. -->
   <MessagePlantIncompatibleWithRoof>{0} no pot créixer sota teulada.</MessagePlantIncompatibleWithRoof>
+  <!-- EN: Cannot build a roof over {0}. -->
   <MessageRoofIncompatibleWithPlant>No podeu posar una teulada a sobre de {0}.</MessageRoofIncompatibleWithPlant>
 
+  <!-- EN: Caravan will automatically travel to the first waypoint. -->
   <MessageChoseRoute>La caravana viatjarà automàticament cap al primer punt d’aturada.</MessageChoseRoute>
 
-  <MessageBlockedHediff>{0} bloquejat {1} a: {2}.</MessageBlockedHediff>
-
+  <!-- EN: {0} has created a {1}. -->
   <MessageCraftedMasterwork>{0} ha creat un {1}.</MessageCraftedMasterwork>
 
+  <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
   <MessagePlayerTriedToLeaveMapViaExitGrid>Per sortir de la zona empreu el botó «torna a formar la caravana» a la pantalla del planeta.</MessagePlayerTriedToLeaveMapViaExitGrid>
 
+  <!-- EN: Relations with {0} have changed from {1} to {2}. -->
   <MessageGoodwillChanged>Les relacions amb {0} han canviat de {1} a {2}.</MessageGoodwillChanged>
+  <!-- EN: Relations with {0} have changed from {1} to {2} ({3}). -->
   <MessageGoodwillChangedWithReason>Les relacions amb {0} han canviat de  {1} a {2} ({3}).</MessageGoodwillChangedWithReason>
+  <!-- EN: attacked {0} -->
   <GoodwillChangedReason_AttackedPawn>{0} atacat</GoodwillChangedReason_AttackedPawn>
+  <!-- EN: used {0} on {1} -->
   <GoodwillChangedReason_UsedItem>s’ha fet servir {0} sobre {1}</GoodwillChangedReason_UsedItem>
+  <!-- EN: harvested {0} -->
   <GoodwillChangedReason_RemovedBodyPart>s’ha extret {0}</GoodwillChangedReason_RemovedBodyPart>
+  <!-- EN: needlessly installed {0} -->
+  <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>S’ha implantat {0} sense necessitat</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
+  <!-- EN: captured {0} -->
   <GoodwillChangedReason_CapturedPawn>s’ha capturat {0}</GoodwillChangedReason_CapturedPawn>
+  <!-- EN: {0} crushed -->
   <GoodwillChangedReason_PawnCrushed>s’ha esclafat {0}</GoodwillChangedReason_PawnCrushed>
+  <!-- EN: {0} died -->
   <GoodwillChangedReason_PawnDied>{0} a mort</GoodwillChangedReason_PawnDied>
+  <!-- EN: traded -->
   <GoodwillChangedReason_Traded>s’ha negociat</GoodwillChangedReason_Traded>
+  <!-- EN: attacked a caravan -->
   <GoodwillChangedReason_AttackedCaravan>s’ha atacat una caravana</GoodwillChangedReason_AttackedCaravan>
-  <GoodwillChangedReason_NaturallyOverTime>la tendencia natural d’arribar a {0} amb el temps</GoodwillChangedReason_NaturallyOverTime>
+  <!-- EN: natural tendency to reach {0} over time -->
+  <GoodwillChangedReason_NaturallyOverTime>la tendència natural és arribar a {0} amb el temps</GoodwillChangedReason_NaturallyOverTime>
+  <!-- EN: {0} exited the map healthy -->
   <GoodwillChangedReason_ExitedMapHealthy>{0} ha sortit del mapa amb bona salut</GoodwillChangedReason_ExitedMapHealthy>
+  <!-- EN: tended to {0} -->
   <GoodwillChangedReason_Tended>s’ha curat a {0}</GoodwillChangedReason_Tended>
+  <!-- EN: received a gift -->
   <GoodwillChangedReason_ReceivedGift>ha rebut un regal</GoodwillChangedReason_ReceivedGift>
+  <!-- EN: fulfilled a trade offer -->
   <GoodwillChangedReason_FulfilledTradeRequest>s’ha completat un oferiment de negoci</GoodwillChangedReason_FulfilledTradeRequest>
-<GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>Se li ha implantat {0} sense caldre</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
 
+  <!-- EN: {0} accept your gift but they don't appreciate it. -->
   <MessageGiftGivenButNotAppreciated>{0} ha acceptat el regal, però no li ha agradat.</MessageGiftGivenButNotAppreciated>
 
+  <!-- EN: The caravan is already encumbered and can't carry anything else. -->
   <MessageCantGiveGiftBecauseCantCarryEncumbered>La caravana ja està plena i no pot portar res més.</MessageCantGiveGiftBecauseCantCarryEncumbered>
+  <!-- EN: The caravan can't carry that much. The gifts weigh {0} but the caravan can only carry {1} more. -->
   <MessageCantGiveGiftBecauseCantCarry>La caravana no pot portar tant pes. EL regal pesa {0} i la caravana només en pot portar {1} més.</MessageCantGiveGiftBecauseCantCarry>
 
+  <!-- EN: {0} has formed and is now traveling on the world map. -->
   <MessageFormedCaravan>{0} s’ha format i ja viatja pel mapa del planeta.</MessageFormedCaravan>
+  <!-- EN: Orders -->
   <MessageFormedCaravan_Orders>Ordres</MessageFormedCaravan_Orders>
 
+  <!-- EN: {1}'s "{0}" can no longer deliver to deleted stockpile {2}. -->
   <MessageBillValidationStoreZoneDeleted>«{0}» de {1} no pot entregar al magatzem {2} per què s’ha esborrat.</MessageBillValidationStoreZoneDeleted>
+  <!-- EN: {1}'s "{0}" can no longer deliver to unavailable stockpile {2}. -->
   <MessageBillValidationStoreZoneUnavailable>«{0}» de {1} no pot entregar al magatzem {2} per què no hi pot arribar.</MessageBillValidationStoreZoneUnavailable>
+  <!-- EN: {0} can no longer work on "{1}" at {2}. The restriction has been removed. -->
   <MessageBillValidationPawnUnavailable>{0} no pot fer «{1}» a {2}. S’ha eliminat la restricció.</MessageBillValidationPawnUnavailable>
+  <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
   <MessageBillValidationIncludeZoneDeleted>«{0}» de {1} no pot disposar de les coses del magatzem {2} per què s’ha esborrat.</MessageBillValidationIncludeZoneDeleted>
+  <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
   <MessageBillValidationIncludeZoneUnavailable>«{0}» de {1} no pot disposar de les coses del magatzem {2} per què no hi pot arribar.</MessageBillValidationIncludeZoneUnavailable>
+  <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
   <MessageBillValidationStoreZoneInsufficient>«{0}» de {1} no pot entregar productes al magatzem {2}.</MessageBillValidationStoreZoneInsufficient>
 
+  <!-- EN: Because of a lack of taming maintenance, {0} has returned to the wild. -->
   <MessageAnimalReturnedWild>Com que no s’ha fet el manteniment de la domesticació, {0} s’ha tornat salvatge.</MessageAnimalReturnedWild>
+  <!-- EN: Due to a lack of maintenance training, {0} has lost a skill: {1} -->
   <MessageAnimalLostSkill>Com que no s’ha fet el manteniment de l’entrenament, {0} ha perdut la capacitat de {1}</MessageAnimalLostSkill>
 
+  <!-- EN: Translation report written to {0} -->
   <MessageTranslationReportSaved>L’informe de la traducció s’ha desat a {0}</MessageTranslationReportSaved>
 
+  <!-- EN: {0} couldn't reach its destination. -->
   <MessageCaravanArrivalActionNoLongerValid>No pot arribar a {0}.</MessageCaravanArrivalActionNoLongerValid>
 
+  <!-- EN: You can't re-enter for another {0} days. -->
   <MessageEnterCooldownBlocksEntering>No hi podeu tornar a entrar durant {0} dies.</MessageEnterCooldownBlocksEntering>
+
+  <!-- EN: {0} is hunting {1} for food! -->
+  <MessagePredatorHuntingPlayerAnimal>{0} està caçant a {1}!</MessagePredatorHuntingPlayerAnimal>
+
+  <!-- EN: Prisoner {0}'s resistance has been broken by {1}. -->
+  <MessagePrisonerResistanceBroken>{1} ha trencat la resistència del presoner {0}. Començaran els intents de reclutament.</MessagePrisonerResistanceBroken>
+  <!-- EN: Recruitment attempts will begin. -->
+  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>començaran els intents de reclutament</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
+
+  <!-- EN: Disable all mods before using this tool. -->
+  <MessageDisableModsBeforeCleaningTranslationFiles>Desactiveu tots els mods abans de fer servir aquesta eina</MessageDisableModsBeforeCleaningTranslationFiles>
+  <!-- EN: Done. Affected folder: {0} -->
+  <MessageTranslationFilesCleanupDone>Fet. Carpeta afectada: {0}</MessageTranslationFilesCleanupDone>
+
+  <!-- EN: One of the translation files ({0}) couldn't be loaded. All XML parsing errors must be resolved first. -->
+  <MessageCantCleanupTranslationFilesBeucaseOfXmlError>Un fitxer de la traducció ({0}) no es pot carregar. Primer cal que corregiu tots els errors del format XML.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
+
+  <!-- EN: Warning: Capturing [PAWN_nameDef] will anger [PAWN_possessive] faction [PAWN_factionName]. -->
+  <MessageCapturingWillAngerFaction>Avís: Si captureu [PAWN_nameDef] s’enfadarà la seva facció [PAWN_factionName]. </MessageCapturingWillAngerFaction>
+
+  <!-- UNUSED -->
+  <MessageFailedToLoadTransportersBecauseColonistLost>El procés de càrrega s'ha cancel·lat perquè un dels colons s'ha perdut.</MessageFailedToLoadTransportersBecauseColonistLost>
 
 </LanguageData>
