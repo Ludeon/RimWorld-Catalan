@@ -4,7 +4,7 @@
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>capacitat de càrrega</CarryingCapacity.label>
   <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators. This is separate from the ability to carry cargo on long cross-world trips. -->
-  <CarryingCapacity.description>Quantitat de material que pot portar a les mans, la boca o altres.</CarryingCapacity.description>
+  <CarryingCapacity.description>Quantitat de material que pot portar a les mans, la boca o altres. És diferent de la capacitat de portar càrrega en els viatges a través del mapa.</CarryingCapacity.description>
   
   <!-- EN: Maximum comfortable temperature -->
   <ComfyTemperatureMax.label>Temperatura de confort màxima</ComfyTemperatureMax.label>
@@ -22,9 +22,9 @@
   <EatingSpeed.description>Factor de la velocitat de menjar.</EatingSpeed.description>
   
   <!-- EN: foraged food amount -->
-  <ForagedNutritionPerDay.label>TODO</ForagedNutritionPerDay.label>
+  <ForagedNutritionPerDay.label>quantitat de menjar que cull</ForagedNutritionPerDay.label>
   <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
-  <ForagedNutritionPerDay.description>TODO</ForagedNutritionPerDay.description>
+  <ForagedNutritionPerDay.description>La quantitat de nutrients que cull automàticament per dia quan viatja en una caravana.</ForagedNutritionPerDay.description>
   
   <!-- EN: global learning factor -->
   <GlobalLearningFactor.label>factor global d’aprenentatge</GlobalLearningFactor.label>
@@ -32,14 +32,14 @@
   <GlobalLearningFactor.description>Eficiència de l’aprenentatge per qualsevol habilitat.</GlobalLearningFactor.description>
   
   <!-- EN: hunger rate multiplier -->
-  <HungerRateMultiplier.label>TODO</HungerRateMultiplier.label>
+  <HungerRateMultiplier.label>Factor de gana</HungerRateMultiplier.label>
   <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
-  <HungerRateMultiplier.description>TODO</HungerRateMultiplier.description>
+  <HungerRateMultiplier.description>Factor que afecta la velocitat amb la que el personatge agafa gana.</HungerRateMultiplier.description>
   
   <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>velocitat d’immunització</ImmunityGainSpeed.label>
   <!-- EN: The speed at which this character gains immunity to diseases. If this is too slow, the character will die from a disease before developing immunity. -->
-  <ImmunityGainSpeed.description>Velocitat a la que el personatge s’immunitza de les malalties. Si va massa a poc a poc, pot morir de la malaltia abans d’aconseguir la immunitat.</ImmunityGainSpeed.description>
+  <ImmunityGainSpeed.description>Velocitat a la qual el personatge s’immunitza de les malalties. Si va massa a poc a poc, pot morir de la malaltia abans d’aconseguir la immunitat.</ImmunityGainSpeed.description>
   
   <!-- EN: leather amount -->
   <LeatherAmount.label>quantitat de pell</LeatherAmount.label>
@@ -54,7 +54,7 @@
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>nivell de crisi mental</MentalBreakThreshold.label>
   <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break. The severity of the mental break will depend on how far below the threshold they are. -->
-  <MentalBreakThreshold.description>Quan l’estat d’ànim està per sota d’aquest nivell, la persona està en perill de tenir una crisi mental.</MentalBreakThreshold.description>
+  <MentalBreakThreshold.description>Quan l’estat d’ànim està per sota d’aquest nivell, la persona està en perill de tenir una crisi mental. La gravetat de la crisi mental dependrà de com de lluny estigui d’aquest nivell.</MentalBreakThreshold.description>
   
   <!-- EN: minimum handling skill -->
   <MinimumHandlingSkill.label>nivell de doma mínim</MinimumHandlingSkill.label>
@@ -64,24 +64,24 @@
   <!-- EN: move speed -->
   <MoveSpeed.label>velocitat de moviment</MoveSpeed.label>
   <!-- EN: Speed of movement in cells per second. -->
-  <MoveSpeed.description>velocitat a la que es desplaça en cel·les per segon.</MoveSpeed.description>
+  <MoveSpeed.description>velocitat a la qual es desplaça en cel·les per segon.</MoveSpeed.description>
   <!-- EN: {0} c/s -->
   <MoveSpeed.formatString>{0} c/s</MoveSpeed.formatString>
   
   <!-- EN: pain shock threshold -->
-  <PainShockThreshold.label>Nivell de shock pel dolor</PainShockThreshold.label>
+  <PainShockThreshold.label>Nivell de xoc pel dolor</PainShockThreshold.label>
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>Punt en el qual la criatura quedarà inhabilitada pel dolor.</PainShockThreshold.description>
   
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>sensibilitat psíquica</PsychicSensitivity.label>
   <!-- EN: Multiplier on the impact of psychic phenomena affecting this person. More sensitive people both suffer more from negative psychic effects, and benefit more from positive ones. -->
-  <PsychicSensitivity.description>Factor de l’impacte des fenòmens psíquics que afectin a la persona.</PsychicSensitivity.description>
+  <PsychicSensitivity.description>Factor de l’impacte dels fenòmens psíquics que afectin la persona. Les persones més sensibles poden tant patir els efectes negatius com beneficiar-se dels positius.</PsychicSensitivity.description>
   
   <!-- EN: rest rate multiplier -->
-  <RestRateMultiplier.label>TODO</RestRateMultiplier.label>
+  <RestRateMultiplier.label>Factor de descans</RestRateMultiplier.label>
   <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
-  <RestRateMultiplier.description>TODO</RestRateMultiplier.description>
+  <RestRateMultiplier.description>Factor que afecta a com de ràpid descansa quan dorm.</RestRateMultiplier.description>
   
   <!-- EN: toxic sensitivity -->
   <ToxicSensitivity.label>sensibilitat tòxica</ToxicSensitivity.label>

@@ -4,7 +4,7 @@
   <!-- EN: animal gather speed -->
   <AnimalGatherSpeed.label>velocitat d’aprofitament d’animals</AnimalGatherSpeed.label>
   <!-- EN: The speed at which this person milks, shears, and otherwise gathers resources from animals. -->
-  <AnimalGatherSpeed.description>Velocitat a la que muny, esquila o fa qualsevol altra tasca que li permeti obtenir recursos d’un animal sense matar-lo </AnimalGatherSpeed.description>
+  <AnimalGatherSpeed.description>Velocitat a la qual muny, esquila o fa qualsevol altra tasca que li permeti obtenir recursos d’un animal sense matar-lo </AnimalGatherSpeed.description>
   
   <!-- EN: animal gather yield -->
   <AnimalGatherYield.label>rendiment de l’aprofitament d’animals</AnimalGatherYield.label>
@@ -14,56 +14,56 @@
   <!-- EN: construction speed -->
   <ConstructionSpeed.label>velocitat de construcció</ConstructionSpeed.label>
   <!-- EN: The speed at which this person constructs and repairs buildings. -->
-  <ConstructionSpeed.description>Velocitat a la que la persona construeix i repara estructures.</ConstructionSpeed.description>
+  <ConstructionSpeed.description>Velocitat a la qual construeix i repara estructures.</ConstructionSpeed.description>
   
   <!-- EN: construct success chance -->
   <ConstructSuccessChance.label>probabilitat d’èxit de la construcció</ConstructSuccessChance.label>
   <!-- EN: The chance that this person will succeed in constructing something. Failing means wasting time and resources. -->
-  <ConstructSuccessChance.description>Probabilitat amb la que construeix correctament una estructura. Si falla es malbarata temps i recursos.</ConstructSuccessChance.description>
+  <ConstructSuccessChance.description>Probabilitat a la qual construeix correctament una estructura. Si falla es malbarata temps i recursos.</ConstructSuccessChance.description>
   
   <!-- EN: repair success chance -->
   <FixBrokenDownBuildingSuccessChance.label>probabilitat de reparació</FixBrokenDownBuildingSuccessChance.label>
   <!-- EN: The chance that this person will successfully repair a broken down building using a component. Failing means wasting time and resources. Note that this only applies to repairing breakdowns, which is different from repairing damage. -->
-  <FixBrokenDownBuildingSuccessChance.description>Probabilitat amb la que repararà correctament una estructura cambiant un component. Si falla malbaratarà temps i recursos. Nota: Només afecta a la reparació d’averies, no a la reparació de danys.</FixBrokenDownBuildingSuccessChance.description>
+  <FixBrokenDownBuildingSuccessChance.description>Probabilitat a la qual repararà correctament una estructura cambiant un component. Si falla malbaratarà temps i recursos. Nota: Només afecta la reparació d’avaries, no a la reparació de danys.</FixBrokenDownBuildingSuccessChance.description>
   
   <!-- EN: hunting stealth -->
-  <HuntingStealth.label>TODO</HuntingStealth.label>
+  <HuntingStealth.label>silenci en caça</HuntingStealth.label>
   <!-- EN: This stat reduces the chance of hunted animals attacking the hunter. A 0% score means no reduction. A 100% score means animals never attack. -->
-  <HuntingStealth.description>TODO</HuntingStealth.description>
+  <HuntingStealth.description>Redueix la probabilitat que els animals caçats ataquin al caçador. Un 0% indica que no hi ha cap reducció. Un 100% indica que els animals no l’atacaran mai.</HuntingStealth.description>
   
   <!-- EN: mining speed -->
   <MiningSpeed.label>velocitat de minat</MiningSpeed.label>
   <!-- EN: A speed at which this person digs at walls and drills for deep resources. -->
-  <MiningSpeed.description>Velocitat a la que cava parets o perfora terres.</MiningSpeed.description>
+  <MiningSpeed.description>Velocitat a la qual cava parets o perfora terres.</MiningSpeed.description>
   
   <!-- EN: mining yield -->
   <MiningYield.label>rendiment del minat</MiningYield.label>
   <!-- EN: The percentage of mined resources a miner will produce. This applies to both wall mining and deep drill mining. This doesn't affect the production rate of rock chunks. -->
-  <MiningYield.description>Percentatge de material que extraurà quan mini. S’aplica tant quan cava parets com quan perfora terres. No afecta a l’extracció de trossos de roca.</MiningYield.description>
+  <MiningYield.description>Percentatge de material que extraurà quan mini. S’aplica tant quan cava parets com quan perfora terres. No afecta l’extracció de trossos de roca.</MiningYield.description>
   
   <!-- EN: plant harvest yield -->
   <PlantHarvestYield.label>rendiment de recol·lecció</PlantHarvestYield.label>
   <!-- EN: The yield this person gets when harvesting plants. Low yields give a chance that this person will accidentally waste the harvest. -->
-  <PlantHarvestYield.description>Rendiment que en treu de recollir fruits. Els valors baixos incrementen la probabilitat de que es malbarati accidentalment el producte recollit.</PlantHarvestYield.description>
+  <PlantHarvestYield.description>Rendiment que en treu de recollir fruits. Els valors baixos incrementen la probabilitat de què es malbarati accidentalment el producte recollit.</PlantHarvestYield.description>
   
   <!-- EN: plant work speed -->
   <PlantWorkSpeed.label>velocitat de plantació</PlantWorkSpeed.label>
   <!-- EN: The speed at which this person sows and harvests plants. -->
-  <PlantWorkSpeed.description>Velocitat a la que planta llavors i recull fruits.</PlantWorkSpeed.description>
+  <PlantWorkSpeed.description>Velocitat a la qual planta llavors i recull fruits.</PlantWorkSpeed.description>
   
   <!-- EN: research speed -->
   <ResearchSpeed.label>velocitat d’investigació</ResearchSpeed.label>
   <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
-  <ResearchSpeed.description>Velocitat a la que fa recerca.</ResearchSpeed.description>
+  <ResearchSpeed.description>Velocitat a la qual fa recerca i obté resultats amb equips d’escaneig.</ResearchSpeed.description>
   
   <!-- EN: smoothing speed -->
   <SmoothingSpeed.label>velocitat de suavitzat</SmoothingSpeed.label>
   <!-- EN: A multiplier on the speed at which this person smooths rough stone floors and walls. -->
-  <SmoothingSpeed.description>Factor per la velocitat a la que allisa terres.</SmoothingSpeed.description>
+  <SmoothingSpeed.description>Factor per la velocitat a la qual allisa terres i parets.</SmoothingSpeed.description>
   
   <!-- EN: global work speed -->
   <WorkSpeedGlobal.label>velocitat general de treball</WorkSpeedGlobal.label>
   <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
-  <WorkSpeedGlobal.description>Factor a la velocitat amb la que fa qualsevol feina.</WorkSpeedGlobal.description>
+  <WorkSpeedGlobal.description>Factor a la velocitat amb la qual fa qualsevol feina.</WorkSpeedGlobal.description>
   
 </LanguageData>
