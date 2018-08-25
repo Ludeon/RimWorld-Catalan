@@ -11,17 +11,13 @@
     <li>nearnameinitial->[Direction] [PlaceOutlander]</li>
   -->
   <NamerFactionOutlander.rulePack.rulesStrings>
-    <li>name->[subname]</li>
-    <li>name->[subname]</li>
-    <li>name->[subname]</li>
-    <li>name->[politicalunion] [subname]</li>
-    <li>name->[politicalunion] [subname] [politicaladjective]</li>
-    <li>name->[politicalunion] de [subname]</li>
-    <li>name->[politicalunion] [politicaladjective] de [subname]</li>
-    <li>subname->[outlanderword]</li>
-    <li>subname->[outlanderword]</li>
-    <li>subname->[outlanderword]</li>
-    <li>subname->[direction] [outlanderword]</li>
+    <li>r_name(p=3)->[nearnameinitial]</li>
+    <li>r_name->[nearnameinitial] [political_union_outlander]</li>
+    <li>r_name->[nearnameinitial] [political_union_outlander] [political_adjective]</li>
+    <li>r_name->[political_union_outlander] de [nearnameinitial]</li>
+    <li>r_name->[political_union_outlander] [political_adjective] de [nearnameinitial]</li>
+    <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
+    <li>nearnameinitial->[PlaceOutlander] [Direction]</li>
   </NamerFactionOutlander.rulePack.rulesStrings>
   
   <!-- EN:
@@ -54,24 +50,33 @@
     <li>r_name->[ConceptBadass] [groupname]</li>
   -->
   <NamerFactionPirate.rulePack.rulesStrings>
-    <li>name->Els [badassanimal]s</li>
-    <li>name->Els homes [badassanimal]</li>
-    <li>name->Els [badassanimal]s de [badassconcept]</li>
-    <li>name->Els [badassperson]s de [badassconcept]</li>
-    <li>name->Els [badassperson]s</li>
-    <li>name->Els homes [weapon]</li>
-    <li>name->Els [weapon]s</li>
-    <li>name->Els [badassanimal]s [weapon]</li>
-    <li>name->Els [weapon]s [badasscolor]</li>
-    <li>name->Els [badassanimal]s [badasscolor]</li>
-    <li>name->Els [badassperson]s [badasscolor]</li>
-    <li>name->Els [groupname][badassperson]</li>
-    <li>name->Els [groupname] [badassadjective]</li>
-    <li>name->Els [badassanimal]s [badassadjective]</li>
-    <li>name->Els [badassperson]s [badassadjective]</li>
-    <li>name->[groupname] [weapon]</li>
-    <li>name->[groupname] [badassconcept]</li>
-    <li>name->[groupname] [badassconcept]</li>
+ <li>r_name->Els [AnimalBadass]s</li>
+    <li>r_name->Els homes [AnimalBadass]</li>
+    <li>r_name->Els [AnimalBadass]s de [ConceptBadass]</li>
+    <li>r_name->Els [PersonBadass]s de [ConceptBadass]</li>
+    <li>r_name->Els [PersonBadass]s</li>
+    <li>r_name->Els [Enemy]s</li>
+    <li>r_name->Els homes [Weapon]</li>
+    <li>r_name->Els [Weapon]s</li>
+    <li>r_name->Els [AnimalBadass]s [Weapon]</li>
+    <li>r_name->Els [Enemy]s [Weapon]</li>
+    <li>r_name->Els [Weapon]s [ColorBadass]</li>
+    <li>r_name->Els [AnimalBadass]s [ColorBadass]</li>
+    <li>r_name->Els [PersonBadass]s [ColorBadass]</li>
+    <li>r_name->Els [Enemy]s [ColorBadass]</li>
+    <li>r_name->Els [groupname] [PersonBadass]</li>
+    <li>r_name->Els [Enemy]s [Enemy]</li>
+    <li>r_name->Els [groupname] [AdjectiveBadass]</li>
+    <li>r_name->Els [AnimalBadass]s [AdjectiveBadass]</li>
+    <li>r_name->Els [Enemy]s [AdjectiveBadass]</li>
+    <li>r_name->Els [PersonBadass]s [AdjectiveBadass]</li>
+    <li>r_name->Els [PersonAlly]s de [ConceptBadass]</li>
+    <li>r_name(p=0.4)->Els menjadors de [Gore]</li>
+    <li>r_name->[Enemy]s de [NamePerson]</li>
+    <li>r_name->[AnimalBadass]s de [NamePerson]</li>
+    <li>r_name->[Weapon]s de [NamePerson]</li>
+    <li>r_name->[groupname] [Weapon]</li>
+    <li>r_name->[groupname] [ConceptBadass]</li>
   </NamerFactionPirate.rulePack.rulesStrings>
   
   <!-- EN:
@@ -83,19 +88,12 @@
     <li>r_name->The [WordTribal] of the [TerrainFeature]</li>
   -->
   <NamerFactionTribal.rulePack.rulesStrings>
-    <li>name->[politicalunion] [tribalworld]</li>
-    <li>name->[politicalunion] els [tribalworld]</li>
-    <li>name->[politicalunion] els [terrainfeature] [color]</li>
-    <li>name->[politicalunion] de [tribalword]</li>
-    <li>name->Els [tribalword] del [animal] [color]</li>
-    <li>name->Els [tribalword] de la [terrainfeature]</li>
-    <li>tribalword->[tribalwordfile]</li>
-    <li>tribalword->[syl][syl]</li>
-    <li>tribalword->[syl][syl][syl]</li>
-    <li>tribalword->[syl][syl]</li>
-    <li>tribalword->[syl][syl][syl]</li>
-    <li>tribalword->[syl][syl][syl]</li>
-    <li>tribalword->[syl][syl][syl][syl]</li>
+    <li>r_name->[political_union_tribal] [tribalworld]</li>
+    <li>r_name->Els [political_union_tribal] [tribalworld]</li>
+    <li>r_name->Els [political_union_tribal] [TerrainFeature] [Color]</li>
+    <li>r_name->[political_union_tribal] de [WordTribal]</li>
+    <li>r_name->Els [WordTribal] [Animal] [Color]</li>
+    <li>r_name->Els [WordTribal] de la [TerrainFeature]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
   
   <!-- EN:
@@ -165,20 +163,33 @@
     <li>townend->well</li>
   -->
   <NamerSettlementOutlander.rulePack.rulesStrings>
-    <li>name->[terrainfeature] de [positiveconcept]</li>
-    <li>name->[terrainfeature] de [outlander]</li>
-    <li>name->[community] de [outlander]</li>
-    <li>name->[nearname]</li>
-    <li>name->[wordname]</li>
-    <li>name->[wordname]</li>
-    <li>nearname->[subname] de la [terrainfeature]</li>
-    <li>nearname->[subname] vora [terrainfeature]</li>
-    <li>subname->[wordname]</li>
-    <li>subname->[community]</li>
-    <li>wordname->[syl][syl]</li>
-    <li>wordname->[syl][townend]</li>
-    <li>wordname->[syl][syl][townend]</li>
-    <li>wordname->[terrainfeature][townend]</li>
+    <li>r_name(p=12)->[townname_wordgen]</li>
+    <li>r_name(p=6)->[townname_fixed]</li>
+    <li>r_name(p=4)->[townname_combo]</li>
+    <li>r_name->[townname_near]</li>
+    <li>topicalnoun->[Vegetable]</li>
+    <li>topicalnoun->[Game]</li>
+    <li>topicalnoun->[BodyPart]</li>
+    <li>townname_combo->[TerrainFeature] [topicalnoun]</li>
+    <li>townname_combo->[Community] [topicalnoun]</li>
+    <li>townname_combo->[TerrainFeature] de [topicalnoun]</li>
+    <li>townname_combo->[Community] de [topicalnoun]</li>
+    <li>townname_combo(p=2)->[TerrainFeature] de [concept_positive]</li>
+    <li>townname_combo(p=2)->[TerrainFeature] [concept_positive]</li>
+    <li>townname_combo(p=2)->[Community] [concept_positive]</li>
+    <li>townname_combo(p=3)->[TerrainFeature] de [Character]</li>
+    <li>townname_combo(p=3)->[Community] de [Character]</li>
+    <li>townname_near->[nearnameinitial] a la [TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] vora la [TerrainFeature]</li>
+    <li>townname_near->[nearnameinitial] de la [TerrainFeature]</li>
+    <li>nearnameinitial->[townname_wordgen]</li>
+    <li>nearnameinitial->[Community]</li>
+    <li>townname_wordgen(p=2)->[SylE][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE][townend]</li>
+    <li>townname_wordgen(p=2)->[SylE][SylE][townend]</li>
+    <li>townname_wordgen->[TerrainFeature][townend]</li>
+    <li>townname_wordgen->[topicalnoun][townend]</li>
     <li>townend->vila</li>
     <li>townend->ciutat</li>
     <li>townend->celles</li>
@@ -191,6 +202,12 @@
     <li>townend->gues</li>
     <li>townend->caire</li>
     <li>townend->munt</li>
+    <li>townend->anya</li>
+    <li>townend->assa</li>
+    <li>townend->era</li>
+    <li>townend->ira</li>
+    <li>townend->ora</li>
+    <li>townend->ura</li>
   </NamerSettlementOutlander.rulePack.rulesStrings>
   
   <!-- EN:
@@ -236,12 +253,47 @@
     <li>townendevil->thad</li>
   -->
   <NamerSettlementPirate.rulePack.rulesStrings>
-    <li>name->[geography] [badassanimal]</li>
-    <li>name->[geography] [badassconcept]</li>
-    <li>name->[geography] de [badassanimal]</li>
-    <li>name->[geography] de [badassperson]</li>
-    <li>geography->[terrainfeature]</li>
-    <li>geography->[community]</li>
+     <li>r_name(p=4)->[townname_combo]</li>
+    <li>r_name->[townname_wordgen]</li>
+    <li>townname_combo->[geography] [AnimalBadass]</li>
+    <li>townname_combo->[geography] de [AnimalBadass]</li>
+    <li>townname_combo->[geography] [ConceptBadass]</li>
+    <li>townname_combo->[geography] de [ConceptBadass]</li>
+    <li>townname_combo->[geography] [PersonBadass]</li>
+    <li>townname_combo->[geography] de [PersonBadass]</li>
+    <li>townname_combo->[geography] de [Enemy]</li>
+    <li>townname_combo->[geography] [Enemy]</li>
+    <li>townname_combo->[geography] de [Weapon]</li>
+    <li>townname_combo->[geography] [Weapon]</li>
+    <li>townname_combo->[geography] [ColorBadass]</li>
+    <li>geography(p=2)->[TerrainFeature]</li>
+    <li>geography->[Community]</li>
+    <li>townname_wordgen(p=2)->[SylE][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
+    <li>townname_wordgen(p=2)->[SylE][townendevil]</li>
+    <li>townname_wordgen(p=2)->[SylE][SylE][townendevil]</li>
+    <li>townendevil->gros</li>
+    <li>townendevil->reg</li>
+    <li>townendevil->croix</li>
+    <li>townendevil->fuig</li>
+    <li>townendevil->lleg</li>
+    <li>townendevil->tall</li>
+    <li>townendevil->erda</li>
+    <li>townendevil->foll</li>
+    <li>townendevil->zer</li>
+    <li>townendevil->txar</li>
+    <li>townendevil->mego</li>
+    <li>townendevil->ermat</li>
+    <li>townendevil->zreg</li>
+    <li>townendevil->arruix</li>
+    <li>townendevil->xurga</li>
+    <li>townendevil->nyego</li>
+    <li>townendevil->manyoc</li>
+    <li>townendevil->tzar</li>
+    <li>townendevil->moix</li>
+    <li>townendevil->gossa</li>
+    <li>townendevil->drid</li>
+
   </NamerSettlementPirate.rulePack.rulesStrings>
   
   <!-- EN:
@@ -251,14 +303,10 @@
     <li>r_name->[WordTribal] [TerrainFeature]</li>
   -->
   <NamerSettlementTribal.rulePack.rulesStrings>
-    <li>name->[tribalword]</li>
-    <li>name->[tribalword]</li>
-    <li>name->[tribalword] [color]</li>
-    <li>name->[terrainfeature] [color]</li>
-    <li>name->[terrainfeature] [tribalword]</li>
-    <li>tribalword->[tribalwordfile]</li>
-    <li>tribalword->[syl][syl]</li>
-    <li>tribalword->[syl][syl][syl]</li>
+    <li>r_name(p=2)->[WordTribal]</li>
+    <li>r_name->[WordTribal] [Color]</li>
+    <li>r_name->[TerrainFeature] [Color]</li>
+    <li>r_name->[TerrainFeature] [WordTribal]</li>
   </NamerSettlementTribal.rulePack.rulesStrings>
   
 </LanguageData>

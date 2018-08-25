@@ -40,7 +40,40 @@
     <li>subject(p=8)->[TalkTopicLight]</li>
   -->
   <BuildRapport.logRulesInitiator.rulesStrings>
-    <li>logentry->Ha intentat establir una relació amb [other_nameShortIndef].</li>
+   <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] [subject] a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha parlat amb [RECIPIENT_nameDef] sobre [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha descrit [subject] a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha animat [RECIPIENT_nameDef] a [talkabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha ofert la oportunitat a [RECIPIENT_nameDef] per [talkabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha mostrat interès en la [PersonalCharacteristic] de [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha preguntat a [RECIPIENT_nameDef] pel seu [PersonalCharacteristic].</li>
+    <li>toldastoryabout(p=2)->ha explicat una història sobre</li>
+    <li>toldastoryabout->ha explicat una divertida història sobre</li>
+    <li>toldastoryabout->ha explicat una història sincera sobre</li>
+    <li>toldastoryabout->ha explicat una vella història sobre</li>
+    <li>toldastoryabout->ha explicat una història familiar sobre</li>
+    <li>toldastoryabout->ha explicat una història d’infantesa sobre</li>
+    <li>toldastoryabout->ha mencionat una anècdota sobre</li>
+    <li>talkabout->parlar sobre</li>
+    <li>talkabout->discutir de</li>
+    <li>talkabout->tenir un debat sobre</li>
+    <li>talkabout->preguntar sobre</li>
+    <li>talkabout->pensar en</li>
+    <li>talkabout->trobar punts en comú al voltant de</li>
+    <li>subject->la colònia</li>
+    <li>subject->la comunitat</li>
+    <li>subject->unir-se a la colònia</li>
+    <li>subject->canviar de bàndol</li>
+    <li>subject->fer amics</li>
+    <li>subject->conèixer gent nova</li>
+    <li>subject->reconsiderar les seves idees</li>
+    <li>subject->repensar-se les lleialtats</li>
+    <li>subject->la salut</li>
+    <li>subject->el futur</li>
+    <li>subject->sortir lliure</li>
+    <li>subject(p=4)->[ConceptPositive]</li>
+    <li>subject(p=2)->la seva [PersonalCharacteristic]</li>
+    <li>subject(p=8)->[TalkTopicLight]</li>
   </BuildRapport.logRulesInitiator.rulesStrings>
   
   <!-- EN: recruit attempt -->
@@ -52,7 +85,10 @@
     <li>goodthing->free, fresh [Vegetable]s</li>
   -->
   <RecruitAttempt.logRulesInitiator.rulesStrings>
-    <li>logentry->Ha intentat reclutar a [other_nameShortIndef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha demanat a [RECIPIENT_nameDef] si es vol unir.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha promés [goodthing] a [RECIPIENT_nameDef], i li ha demanat que s’uneixi.</li>
+    <li>goodthing(p=15)->[ConceptPositive]</li>
+    <li>goodthing->[Vegetable]s frescos i gratuits</li>
   </RecruitAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: spark jailbreak -->
@@ -68,7 +104,14 @@
     <li>freedom->self-determination</li>
   -->
   <SparkJailbreak.logRulesInitiator.rulesStrings>
-    <li>logentry->Ha induït a [other_nameShortIndef] a fugir.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha parlat de la joia de [freedom], i li ha ofert algunes maneres d’escapar.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha parlat de com n’és de bonica la [TerrainFeature], i li ha ofert la llibertat.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha ensenyat algunes maneres d’escapar a [RECIPIENT_nameDef], i li ha promès [freedom].</li>
+    <li>r_logentry->[INITIATOR_nameDef] li ha dit a [RECIPIENT_nameDef] que la seguretat és molt fluixa, i l’ha animat a fugir.</li>
+    <li>freedom->la llibertat</li>
+    <li>freedom->la possibilitat de començar de nou</li>
+    <li>freedom->poder tornar a casa</li>
+    <li>freedom->poder ser lliure</li>
   </SparkJailbreak.logRulesInitiator.rulesStrings>
   
 </LanguageData>
