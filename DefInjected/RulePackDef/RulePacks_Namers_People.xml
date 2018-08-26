@@ -10,13 +10,12 @@
     <li>r_name->[Color] [Animal]</li>
   -->
   <NamerPersonTribal.rulePack.rulesStrings>
-    <li>name->[tribalword] '[badassanimal]' [tribalword]</li>
-    <li>name->[tribalword] [color]</li>
-    <li>name->[tribalword] [tribalword]</li>
-    <li>name->[tribalword] [tribalword]</li>
-    <li>name->[tribalword] [animal]</li>
-    <li>name->[animal] [tribalword]</li>
-    <li>name->[animal] [color]</li>
-  </NamerPersonTribal.rulePack.rulesStrings>
+    <li>r_name(p=2)->[WordTribal] [WordTribal]</li>
+    <li>r_name->[WordTribal] '[AnimalBadass]' [WordTribal]</li>
+    <li>r_name->[WordTribal] [Color]</li>
+    <li>r_name->[WordTribal] [Animal]</li>
+    <li>r_name->[Animal] [WordTribal]</li>
+    <li>r_name->[Animal] [Color]</li>
+</NamerPersonTribal.rulePack.rulesStrings>
   
 </LanguageData>
