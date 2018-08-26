@@ -92,11 +92,11 @@
   <!-- EN: {0} revenge -->
   <LetterLabelAnimalManhunterRevenge>Revenja de {0}</LetterLabelAnimalManhunterRevenge>
   <!-- EN: [PAWN_indefinite] is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
-  <AnimalManhunterFromDamage>{0} ataca com a resultat de la ferida!</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>[PAWN_indefinite] ataca com a resultat de la ferida!\n\nAtacarà qualsevol humà que trobi. Es calmarà quan s’adormi.</AnimalManhunterFromDamage>
   <!-- EN: [PAWN_indefinite] is attacking due to a botched taming attempt! -->
-  <AnimalManhunterFromTaming>Ha fallat la doma de {0} i us ataca!</AnimalManhunterFromTaming>
+  <AnimalManhunterFromTaming>Ha fallat la doma de [PAWN_indefinite] i us ataca!</AnimalManhunterFromTaming>
   <!-- EN: Other {0} nearby have also become enraged! -->
-  <AnimalManhunterOthers>D'altres {0}s propers també s'han enfurit!</AnimalManhunterOthers>
+  <AnimalManhunterOthers>D'altres {0} propers també s'han enfurit!</AnimalManhunterOthers>
 
   <!-- EN: {0} hit trap -->
   <LetterFriendlyTrapSprungLabel>{0} entrampat</LetterFriendlyTrapSprungLabel>
@@ -137,17 +137,17 @@
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>Relació</LetterLabelNoticedRelatedPawns>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of {1}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are: -->
-  <LetterRelatedPawnsRaidEnemy>Hi ha algú que està relacionat amb els vostres colons o presoners al grup de {0} que arriba.\n\nPensa que encara que tinguin una relació, s'atacaran l'un a l'altre per les males relacions de les respectives faccions.\n\nSón:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidEnemy>Hi ha algú que està relacionat amb els vostres {0} o presoners al grup de {1} que arriba.\n\nPensa que encara que tinguin una relació, s'atacaran l'un a l'altre per les males relacions de les respectives faccions.\n\nSón:</LetterRelatedPawnsRaidEnemy>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of friendly {1}: -->
-  <LetterRelatedPawnsRaidFriendly>Hi ha algú que està relacionat amb els vostres colons o presoners entre els amics de {0}:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsRaidFriendly>Hi ha algú que està relacionat amb els vostres {0} o presoners entre els amics de {1}:</LetterRelatedPawnsRaidFriendly>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group: -->
-  <LetterRelatedPawnsNeutralGroup>Hi ha algú que està relacionat amb els vostres colons o presoners en aquest grup que arriba:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsNeutralGroup>Hi ha algú que està relacionat amb els vostres {0} o presoners en aquest grup que arriba:</LetterRelatedPawnsNeutralGroup>
   <!-- EN: The orbital trader is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradeShip>El comerciant orbital ven algú que està relacionat amb els vostres colons o presoners:</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsTradeShip>El comerciant orbital ven algú que està relacionat amb els vostres {0} o presoners:</LetterRelatedPawnsTradeShip>
   <!-- EN: The settlement is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithSettlement>L'assentament ven algú que està relacionat amb els vostres colons o presoners:</LetterRelatedPawnsTradingWithSettlement>
+  <LetterRelatedPawnsTradingWithSettlement>L'assentament ven algú que està relacionat amb els vostres {0} o presoners:</LetterRelatedPawnsTradingWithSettlement>
   <!-- EN: The caravan is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithOtherCaravan>La caravana ven algú que està relacionat amb els vostres colons o presoners:</LetterRelatedPawnsTradingWithOtherCaravan>
+  <LetterRelatedPawnsTradingWithOtherCaravan>La caravana ven algú que està relacionat amb els vostres {0} o presoners:</LetterRelatedPawnsTradingWithOtherCaravan>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the group: -->
   <LetterRelatedPawnsGroupGeneric>Hi ha gent que té relacions amb els vostres {0} o presoners al grup:</LetterRelatedPawnsGroupGeneric>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the area where your {0} have landed. -->
@@ -180,9 +180,9 @@
   <!-- EN: Rejected proposal -->
   <LetterLabelRejectedProposal>Rebuig</LetterLabelRejectedProposal>
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
-  <LetterAcceptedProposal>{1} ha acceptat la proposta de matrimoni de {0}.\n\nEn els pròxims dies o estacions, celebraran la cerimònia i convidaran els altres colons. Col·loqueu una zona de casaments si voleu controlar on cal celebrar la cerimònia.</LetterAcceptedProposal>
+  <LetterAcceptedProposal>En els pròxims dies o estacions, celebraran la cerimònia i convidaran els altres colons. Col·loqueu una zona de casaments si voleu controlar on cal celebrar la cerimònia.</LetterAcceptedProposal>
   <!-- EN: {0} is going to be unhappy about this. -->
-  <LetterRejectedProposal>{1} ha rebutjat la proposta de matrimoni de {0}. {0} esta trist.</LetterRejectedProposal>
+  <LetterRejectedProposal>{0} està trist.</LetterRejectedProposal>
   
   <!-- Generalized letter labels -->
   <!-- EN: Hostile: {0} -->
@@ -234,7 +234,7 @@
   <!-- EN: Caravan destroyed -->
   <LetterLabelAllCaravanColonistsDied>Caravana destrossada</LetterLabelAllCaravanColonistsDied>
   <!-- EN: All members of {0} have died. -->
-  <LetterAllCaravanColonistsDied>Han mort tots els membres de la caravana.</LetterAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>Han mort tots els membres de la {0}.</LetterAllCaravanColonistsDied>
   
   <!-- Caravan entered ambush map -->
   <!-- EN: Caravan arrived at ambush -->
@@ -272,7 +272,7 @@
   <!-- EN: Precious minerals found -->
   <LetterLabelFoundPreciousLump>Heu trobat minerals preciosos</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {3} has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>El vostre escàner de llarg abast ha trobat una veta de recursos precisos a prop vostre.\n\nNo sabem qui o què - Si és què hi ha res – ho pot estar protegint.</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>{3} ha trobat una veta de {0} fent servir l’escàner de llarg abast.\n\nMalauradament, no durarà – algú altre l’explotarà abans en els propers {1} dies si no ho fem nosaltres.\n\n{2}.</LetterFoundPreciousLump>
   
   <!-- Ambush -->
   <!-- EN: Ambush -->
@@ -341,10 +341,10 @@
   <LetterHibernateCompleteStandalone>La seqüència d’arrancada del reactor ha acabat. Està preparat per l’enlairament.</LetterHibernateCompleteStandalone>
 
   <!-- Visitors gave gift -->
-  <!-- EN: Gift -->
-  <LetterLabelVisitorsGaveGift>Regal</LetterLabelVisitorsGaveGift>
-  <!-- EN: Since you're having a hard time, we're helping you out. -->
-  <LetterVisitorsGaveGift>Com que esteu passant un mal moment, us donem un cop de mà.</LetterVisitorsGaveGift>
+  <!-- EN: Gift from {0} -->
+  <LetterLabelVisitorsGaveGift>Regal de {0}</LetterLabelVisitorsGaveGift>
+  <!-- EN: {0} from [PAWN_factionName] have left a gift:\n\n{1} -->
+  <LetterVisitorsGaveGift>{0} dels [PAWN_factionName] us ha deixat un regal:\n\n{1}</LetterVisitorsGaveGift>
 
   <!-- Faction base proximity -->
   <!-- EN: Faction base proximity -->
@@ -372,7 +372,7 @@
   <!-- EN: {0} hunting {1} -->
   <LetterLabelPredatorHuntingColonist>{0} caça a {1}</LetterLabelPredatorHuntingColonist>
   <!-- EN: {0} is hunting {1} for food! -->
-  <LetterPredatorHuntingColonist>Un animal caça a un dels colons!</LetterPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>{0} caça a {1} per menjar-se’l!</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on: {2}. -->
@@ -382,7 +382,5 @@
   <!-- EN: {0} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that [PAWN_pronoun] gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>{0} ha emmalaltit de {1}.\n\nAssegureu-vos que disposeu d’un llit mèdic i d’un metge. Procureu que tingui tractament i que passi tant temps al llit com sigui possible.</LetterTraitDisease>
 
-  <!-- UNUSED -->
-  <MentalBreakLetterLabel>Emprenyament</MentalBreakLetterLabel>
 
 </LanguageData>
