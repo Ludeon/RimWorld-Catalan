@@ -12,8 +12,8 @@
   <RelevantSkills>Coneixements rellevants: {0}\nMitjana dels coneixements rellevants: {1} / {2}</RelevantSkills>
   <!-- EN: Click to jump to: -->
   <ClickToJumpTo>Feu clic per anar a:</ClickToJumpTo>
-  <!-- EN: {0} cannot do this kind of work. -->
-  <CannotDoThisWork>{0} no pot fer aquesta feina.</CannotDoThisWork>
+  <!-- EN: {1_labelShort} cannot do this kind of work. -->
+  <CannotDoThisWork>{1_definite} no pot fer aquesta feina.</CannotDoThisWork>
   <!-- EN: (none) -->
   <NoneBrackets>(cap)</NoneBrackets>
   <!-- EN: This colonist is not able to do any work of this type because of his health condition. -->
@@ -73,11 +73,11 @@
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
   <CurrentGoodwillTip_Ally>Aquesta facció és aliada. Enviaran lluitadors per ajudar-vos sempre que puguin. Si les relacions baixen de {0}, es tornaran neutrals.</CurrentGoodwillTip_Ally>
   <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
-  <CurrentGoodwillTip_Neutral>LA facció és neutral. Tindran negocis i converses amb vosaltres. Si les relacions baixen de {0}, es tornaran hostils. Si les relacions pugen per sobre de {1}, es convertiran en aliats i treballaran activament per ajudar-vos.</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Neutral>La facció és neutral. Tindran negocis i converses amb vosaltres. Si les relacions baixen de {0}, es tornaran hostils. Si les relacions pugen per sobre de {1}, es convertiran en aliats i treballaran activament per ajudar-vos.</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>Aquesta facció us és hostil. Atacaran els vostres assentaments i caravanes. Si les relacions pugen per sobre de {0}, es convertiran en neutrals.</CurrentGoodwillTip_Hostile>
   <!-- EN: This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day. -->
-  <CurrentGoodwillTip_NaturalGoodwill>Aquesta facció té una reputació natural entre  {0} i {1}. Si la reputació està per sobre de {1}, anira baixant de {3} en {3} cada dia. Si la reputació està per sota de {0}, anirà pujant de {2} en {2} cada dia.</CurrentGoodwillTip_NaturalGoodwill>
+  <CurrentGoodwillTip_NaturalGoodwill>Aquesta facció té una reputació natural entre  {0} i {1}. Si la reputació està per sobre de {1}, anirà baixant de {3} en {3} cada dia. Si la reputació està per sota de {0}, anirà pujant de {2} en {2} cada dia.</CurrentGoodwillTip_NaturalGoodwill>
   
   <!-- Social tab -->
   <!-- EN: Friend -->
@@ -154,8 +154,6 @@
   <ResearchCostMultiplier>multiplicador de cost</ResearchCostMultiplier>
   <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>El cost base del projecte {0} esdevé {1} pel vostre nivell de tecnologia.</ResearchCostComparison>
-  
-  <!-- UNUSED -->
-  <ThisMapColonyWealthTameAnimals>VAlor de la colònia (animals) (aquest mapa)</ThisMapColonyWealthTameAnimals>
+
 
 </LanguageData>

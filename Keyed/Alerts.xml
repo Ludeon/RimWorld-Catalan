@@ -106,7 +106,7 @@
   <!-- EN: Need recreation variety -->
   <NeedJoySource>Falten diversions</NeedJoySource>
   <!-- EN: There are only {0} different recreation types available in {1}, but at the current expectations level ({2}), colonists need {3} different kinds of recreation to remain satisfied. Provide recreation variety supplying a new, different kind of recreation.\n\n{4}\n\n{5}\n\nNote: You can check the recreation type of any item in its stats page, accessible with the 'i' button. -->
-  <NeedJoySourceDesc>Només hi ha {0} tipus de diversions diferents a {1}, però al nivell d’espectatives actuals ({2}), els colons en necessiten {3} per seguir satisfets. Proporcioneu-los més diversitat posant un nou article de diversió d’un tipus diferent\n\n{4}\n\n{5}\n\nNota: Podeu comprovar el tipus de diversió d’un objecte a la seva pàgina de característiques, accessible amb el botó «i».</NeedJoySourceDesc>
+  <NeedJoySourceDesc>Només hi ha {0} tipus de diversions diferents a {1}, però al nivell d'expectatives actuals ({2}), els colons en necessiten {3} per seguir satisfets. Proporcioneu-los més diversitat posant un nou article de diversió d’un tipus diferent\n\n{4}\n\n{5}\n\nNota: Podeu comprovar el tipus de diversió d’un objecte a la seva pàgina de característiques, accessible amb el botó «i».</NeedJoySourceDesc>
   <!-- EN: Available recreation types -->
   <AvailableRecreationTypes>tipus de diversions disponibles</AvailableRecreationTypes>
   <!-- EN: Missing recreation types -->
@@ -118,8 +118,8 @@
 
   <!-- EN: Boredom -->
   <Boredom>avorriment</Boredom>
-  <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {1}:\n\n{2} -->
-  <BoredomDesc>Aquestes persones o bé necessiten diversions o tenen temps per divertir-se però estan cansats dels tipus de diversions que tenen disponibles:\n\n{0}\n\nDoneu-los més varietat de diversions.\n\nEls tipus que tenen disponibles en aquests moments són {1}:\n\n{2}</BoredomDesc>
+  <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {PAWN_labelShort}:\n\n{2} -->
+  <BoredomDesc>Aquestes persones o bé necessiten diversions o tenen temps per divertir-se però estan cansats dels tipus de diversions que tenen disponibles:\n\n{0}\n\nDoneu-los més varietat de diversions.\n\nEls tipus que té disponibles {PAWN_definite} en aquests moments són {1}:\n\n{2}</BoredomDesc>
 
   <!-- EN: Need batteries -->
   <NeedBatteries>Falten bateries</NeedBatteries>

@@ -90,7 +90,7 @@
   <!-- EN: Remove roof area -->
   <DesignatorAreaNoRoofExpand>Zona cel obert</DesignatorAreaNoRoofExpand>
   <!-- EN: Colonists will remove roofs in this area (except overhead mountain, which cannot be removed). -->
-  <DesignatorAreaNoRoofExpandDesc>Els colons trauran les teulades d'aquesta zona (Excepte zones cobertes per muntanya, que no es poden treure).</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofExpandDesc>Els colons trauran les teulades d'aquesta zona (Excepte les zones cobertes per muntanya, que no es poden treure).</DesignatorAreaNoRoofExpandDesc>
 
   <!-- EN: Ignore roof area -->
   <DesignatorAreaIgnoreRoofExpand>Ignora la zona de teulada</DesignatorAreaIgnoreRoofExpand>
@@ -175,17 +175,17 @@
   <!-- EN: Unchosen material -->
   <UnchosenStuff>No has escollit materials</UnchosenStuff>
   <!-- EN: Too close to map edge. -->
-  <TooCloseToMapEdge>Massa aprop de la vora del mapa.</TooCloseToMapEdge>
+  <TooCloseToMapEdge>Massa a prop de la vora del mapa.</TooCloseToMapEdge>
   <!-- EN: Out of bounds. -->
   <OutOfBounds>Fora dels límits.</OutOfBounds>
   <!-- EN: Cannot place in undiscovered areas. -->
   <CannotPlaceInUndiscovered>No es pot posar un zones no descobertes.</CannotPlaceInUndiscovered>
-  <!-- EN: Interaction spot is blocked by {0}. -->
-  <InteractionSpotBlocked>{0} bloqueja el punt d'interacció.</InteractionSpotBlocked>
+  <!-- EN: Interaction spot is blocked by {1_labelShort}. -->
+  <InteractionSpotBlocked>{1_indefinite} bloqueja el punt d'interacció.</InteractionSpotBlocked>
   <!-- EN: Interaction spot is out of bounds. -->
   <InteractionSpotOutOfBounds>El punt d'interacció és fora dels límits.</InteractionSpotOutOfBounds>
-  <!-- EN: Interaction spot will be blocked by {0}. -->
-  <InteractionSpotWillBeBlocked>{0} bloquejarà el punt d'interacció.</InteractionSpotWillBeBlocked>
+  <!-- EN: Interaction spot will be blocked by {1_labelShort}. -->
+  <InteractionSpotWillBeBlocked>{1_indefinite} bloquejarà el punt d'interacció.</InteractionSpotWillBeBlocked>
   <!-- EN: {0} would block {1}'s interaction spot. -->
   <WouldBlockInteractionSpot>{0} podria bloquejar el punt d'interacció de {1}.</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
@@ -215,13 +215,12 @@
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->
-  <TransmitsPower>Condueix la corrent</TransmitsPower>
+  <TransmitsPower>Condueix el corrent</TransmitsPower>
   <!-- EN: Construction needed -->
   <ConstructionNeeded>Falta construir</ConstructionNeeded>
   <!-- EN: None of your {0} have this skill. -->
   <NoColonistWithConstructionSkillTip>Cap dels vostres {0} té prou nivell.</NoColonistWithConstructionSkillTip>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
   <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Els vostres {0} que tenen prou nivell no estan assignats a {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
-
 
 </LanguageData>

@@ -38,7 +38,7 @@
   <!-- EN: Error while generating a map -->
   <ErrorWhileGeneratingMapTitle>S'ha produït un error en generar un mapa</ErrorWhileGeneratingMapTitle>
   <!-- EN: An error occurred while generating a new map. See error log for more information. -->
-  <ErrorWhileGeneratingMap>S'ha produït un error en generar un nou mapa. An error occurred while generating a new map. Consulteu el registre d'errors per obtenir més informació.</ErrorWhileGeneratingMap>
+  <ErrorWhileGeneratingMap>S'ha produït un error en generar un nou mapa. Consulteu el registre d'errors per obtenir més informació.</ErrorWhileGeneratingMap>
   <!-- EN: Error while loading a map -->
   <ErrorWhileLoadingMapTitle>S'ha produït un error en carregar un mapa</ErrorWhileLoadingMapTitle>
   <!-- EN: An error occurred while loading a map. See error log for more information. -->
@@ -110,7 +110,7 @@
   <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
   <SaveIsUnknownFormat>No es reconeix el format de la partida desada i el més probable és que no funcioni.</SaveIsUnknownFormat>
   <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
-  <ProblemSavingFile>S'ha produït un problema en desar el fitxer {0}:\n\n{1}\n\nConsulteu el registre d'errors per obtenir més informació .</ProblemSavingFile>
+  <ProblemSavingFile>S'ha produït un problema en desar el fitxer {0}:\n\n{1}\n\nConsulteu el registre d'errors per obtenir més informació.</ProblemSavingFile>
   <!-- EN: Load anyway -->
   <LoadAnyway>Carrega-la de tota manera</LoadAnyway>
   <!-- EN: Load mod list from save -->
@@ -149,8 +149,8 @@
   <ZoneGainsName>La zona s'anomena {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
-  <!-- EN: This person's nickname is now {0}. [PAWN_possessive] title is {1}. -->
-  <PawnGainsName>El sobrenom del colon és {0}. El seu títol és {1}.</PawnGainsName>
+  <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
+  <PawnGainsName>El sobrenom del colon ara és {0}. Li diran {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>Ara l’animal es diu {0}.</AnimalGainsName>
 
@@ -158,11 +158,11 @@
   <!-- EN: Version mismatch -->
   <VersionMismatch>Versió diferent</VersionMismatch>
   <!-- EN: This game was saved with game version {0}\nWe are running game version {1}\n\nLoading this save may cause bugs and crashes. -->
-  <SaveGameIncompatibleWarningText>Aquesta partida es va desar amb la versió {0} del joc\nEsteu executant la versió {1}\n\nSi carregueu aquesta partida us poden sorgir errors o que es tanqui inesperadament.</SaveGameIncompatibleWarningText>
+  <SaveGameIncompatibleWarningText>Aquesta partida es va desar amb la versió {0} del joc\nN’esteu executant la versió {1}\n\nSi carregueu aquesta partida us poden sorgir errors o fins i tot tancar-se inesperadament.</SaveGameIncompatibleWarningText>
   <!-- EN: World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch. -->
-  <WorldFileVersionMismatch>El fitxer de món es va generar amb la versió {0} del joc.\nEsteu executant la versió {1}\n\nSi carregueu aquest món us poden sorgir errors o que es tanqui inesperadament. Seria millor que creéssiu un món nou.</WorldFileVersionMismatch>
+  <WorldFileVersionMismatch>El fitxer de món es va generar amb la versió {0} del joc.\nEsteu executant la versió {1}\n\nSi carregueu aquest món us poden sorgir errors o fins i tot tancar-se inesperadament. Seria millor que creéssiu un món nou.</WorldFileVersionMismatch>
   <!-- EN: This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes. -->
-  <FileIncompatibleWarning>Aquest fitxer es va desar amb la versió {0} del joc.\nEsteu executant la versió {1}\n\nSi carregueu aquest fitxer us podeu trobar amb errors o que es tanqui inesperadament.</FileIncompatibleWarning>
+  <FileIncompatibleWarning>Aquest fitxer es va desar amb la versió {0} del joc.\nEsteu executant la versió {1}\n\nSi carregueu aquest fitxer us podeu trobar amb errors o fins i tot tancar-se inesperadament.</FileIncompatibleWarning>
   <!-- EN: Mods mismatch -->
   <ModsMismatchWarningTitle>Diferència en els Mods</ModsMismatchWarningTitle>
   <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
@@ -178,7 +178,7 @@
 
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
-  <ConfirmPermanentlyDisableDevMode>Esteu segur que voleu deshabilitar el mode de desenvolupament de forma permanent en aquest ordinador?</ConfirmPermanentlyDisableDevMode>
+  <ConfirmPermanentlyDisableDevMode>Esteu segur que voleu deshabilitar el mode de desenvolupament de forma permanent en aquest ordinador?/n/n Aquesta opció és per la gent que vol jugar sense la temptació de fer servir les eines de desenvolupament per obtenir avantatge.\n\nEl mode de desenvolpament es pot tornar a habilitar, però per fer-ho s’hauran d’editar manualment els fitxers de configuració. Hauràs de navegar per Internet per saber com.</ConfirmPermanentlyDisableDevMode>
 
   <!-- Research -->
   <!-- EN: Research -->
@@ -194,7 +194,7 @@
   <!-- EN: Locked -->
   <Locked>Bloquejat</Locked>
   <!-- EN: Until you build a RESEARCH BENCH, your colonists will not actually be able to do research.\n\nHowever, you can still look at research projects now. -->
-  <ResearchMenuWithoutBench>Fins que no construïu un banc d'investigació els colons no podran fer recerca.\n\nTot i això, podeu veure els projectes de recerca.</ResearchMenuWithoutBench>
+  <ResearchMenuWithoutBench>Fins que no construïu un banc d'investigació els colons no podran fer recerca.\n\nTot i això, podeu veure’n els projectes.</ResearchMenuWithoutBench>
   <!-- EN: Research prerequisites -->
   <ResearchPrerequisites>Requisits previs a la investigació</ResearchPrerequisites>
   <!-- EN: Required research bench -->
@@ -206,7 +206,7 @@
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
   <MapTemperatureDangerWarning>Avís: Aterrareu en un entorn glaçat. Serà dur o gairebé impossible sobreviure. Si no preteneu fer front a un repte extrem, escolliu un lloc o estació de l'any diferents.</MapTemperatureDangerWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
-  <MapSizePerformanceWarning>Avís: El rendiment pot disminuir en mapes de mida gran. La mida Ludeonícrona no s'ha provat i gairebé segur que no funcionarà bé.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>El joc està dissenyat per jugar-se en mapes mitjans. Ja tenen molt lloc!\n\nEls mapes grans no només empitjoren el rendiment, també modifiquen la forma com ha estat concebut el joc. La IA prendre decisions estúpides i el joc es desequilibrarà en diversos punts. Aquestes mides s’inclouen per tradició i per fer proves. No les empreu sense una raó específica.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
   <MapSize>Mida del mapa</MapSize>
   <!-- EN: {0}x{0} ({1} cells) -->
@@ -254,7 +254,7 @@
   <!-- EN: Any worker -->
   <AnyWorker>Qualsevol treballador</AnyWorker>
   <!-- EN: Unlimited -->
-  <Unlimited>il·limitat</Unlimited>
+  <Unlimited>Il·limitat</Unlimited>
   
   <!-- EN: (This recipe cannot have a target count because it has multiple or unpredictable products.) -->
   <RecipeCannotHaveTargetCount>(Aquesta recepta no pot tenir un objectiu perquè resulta en múltiples i impredictibles productes)</RecipeCannotHaveTargetCount>
@@ -373,7 +373,7 @@
   <!-- EN: Recruit difficulty -->
   <RecruitDifficulty>Dificultat de reclutament</RecruitDifficulty>
   <!-- EN: Base price -->
-  <MarketValue>preu base</MarketValue>
+  <MarketValue>Preu base</MarketValue>
   <!-- EN: Covers -->
   <Covers>Cobreix</Covers>
   <!-- EN: Layer -->
@@ -411,7 +411,7 @@
   <!-- EN: Skill -->
   <Skill>Capacitat</Skill>
   <!-- EN: Success rate multiplier -->
-  <SurgerySuccessChanceFactor>Factor de l’índex d’èxit</SurgerySuccessChanceFactor>
+  <SurgerySuccessChanceFactor>Factor d’èxit</SurgerySuccessChanceFactor>
   <!-- EN: Work speed governed by -->
   <WorkSpeedStat>Velocitat de treball gestionada a partir de</WorkSpeedStat>
   <!-- EN: Output quantity governed by -->
@@ -468,12 +468,12 @@
   <TraderWillNotTrade>El mercader no està interessat en aquestes coses.</TraderWillNotTrade>
   <!-- EN: Negotiator -->
   <Negotiator>Negociador</Negotiator>
-  <!-- EN: Your negotiator {0} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>El vostre negociador {0} no pot parlar correctament degut a la precària salut.</NegotiatorTalkingImpaired>
-  <!-- EN: Your negotiator {0} cannot hear properly because of poor health. -->
-  <NegotiatorHearingImpaired>El vostre negociador {0} no hi pot sentir bé a causa de la precària salut.</NegotiatorHearingImpaired>
+  <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
+  <NegotiatorTalkingImpaired>El vostre negociador, {1_definite}, no pot parlar correctament degut a la precària salut.</NegotiatorTalkingImpaired>
+  <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
+  <NegotiatorHearingImpaired>El vostre negociador, {1_definite}, no hi pot sentir bé a causa de la precària salut.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
-  <NegotiatorCapacityImpaired>Això afectarà als preus.\n\nConsidereu fer servir un negociador amb millor salut.</NegotiatorCapacityImpaired>
+  <NegotiatorCapacityImpaired>Això afectarà els preus.\n\nConsidereu fer servir un negociador amb millor salut.</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
   <ConfirmTraderShortFunds>El mercader no té prou plata per fer front a la transacció. Voleu continuar igualment?</ConfirmTraderShortFunds>
   <!-- EN: Sort by -->
@@ -526,8 +526,8 @@
   <CaravanCouldNotFindPackingSpot>No es pot trobar cap lloc d'empaquetament vàlid. Assegureu-vos que es pot accedir al lloc de sortida ({0})</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>Avís: algun dels colons no poden arribar al lloc de sortida ({0}).</CaravanCouldNotFindReachableExitSpot>
-  <!-- EN: {0} is unreachable by any of the assigned colonists. -->
-  <CaravanPawnIsUnreachable>Algun dels colons assignats no poden arribar a {0}.</CaravanPawnIsUnreachable>
+  <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
+  <CaravanPawnIsUnreachable>Algun dels colons assignats no poden arribar a {0_definite}.</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>Cap dels colons assignats no poden arribar a {0}.</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -545,7 +545,7 @@
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>Il·limitat</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
-  <DaysWorthOfFoodTooltip>Nombre aproximat de dies abans que la caravana es quedi sense menjar.\n\nTé en compte tant el menjar de les persones com el dels animals, i presenta el pitjor escenari. Això vol dir que després d'aquests dies com a mínim una persona o animal no tindrà menjar.</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip>Nombre aproximat de dies abans que la caravana es quedi sense menjar. Les espècies diferents tenen dietes diferents i, per tant, uns es quedaran sense menjar abans que uns altres. El valor es calcula millo rque teniu una ruta seleccionada.\n\nAfectat per:\n – Els tipus de menjar i quantitat que es porta\n – Els membres de la caravana i les seves dietes\n – La capacitat de recollir menjar pel camí\n – La possibilitat que els animals puguin pasturar\n – El temps que triga el menjar a podrir-se\n – La calor farà que el menjar es podreixi més aviat</DaysWorthOfFoodTooltip>
   <!-- EN: \n(only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(Només es tindrà en compte la primera parada)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
@@ -553,7 +553,7 @@
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>La caravana no té menjar i passaran gana molt aviat.</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
-  <ForagedFoodPerDayTip>La quantitat mitjana de menjar que collirà la gent cad dia. Aquest valor canviarà quan travesseu biomes amb diferent capacitat de recollida d’aliments.</ForagedFoodPerDayTip>
+  <ForagedFoodPerDayTip>La quantitat mitjana de menjar que collirà la gent cada dia. Aquest valor canviarà quan travesseu biomes amb diferent capacitat de recollida d’aliments.</ForagedFoodPerDayTip>
   <!-- EN: Forage per day -->
   <ForagedFoodPerDay>Menjar recollit per dia</ForagedFoodPerDay>
   <!-- EN: A large part of the caravan's food will rot soon. -->
@@ -652,10 +652,10 @@
   <TooBigTransportersMassUsage>Les persones i objectes assignats pesen massa per a les càpsules de transport.</TooBigTransportersMassUsage>
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>No podeu enviar càpsules de transport buides.</CantSendEmptyTransportPods>
-  <!-- EN: {0} can't reach the transport pods. -->
-  <PawnCantReachTransporters>{0} no pot arribar a la càpsula de transport.</PawnCantReachTransporters>
+  <!-- EN: {1_labelShort} can't reach the transport pods. -->
+  <PawnCantReachTransporters>{1_definite} no pot arribar a la càpsula de transport.</PawnCantReachTransporters>
   <!-- EN: There is no path between the transport pods and the {0}. -->
-  <TransporterItemIsUnreachableSingle>No hi ha cap camí entre la càpsula de transport i {0}.</TransporterItemIsUnreachableSingle>
+  <TransporterItemIsUnreachableSingle>No hi ha cap camí entre la càpsula de transport i {0_definite}.</TransporterItemIsUnreachableSingle>
   <!-- EN: There is no path between the transport pods and {0}x {1}. -->
   <TransporterItemIsUnreachableMulti> No hi ha cap camí entre la càpsula de transport i {0}x {1}.</TransporterItemIsUnreachableMulti>
   
@@ -693,7 +693,7 @@
   <!-- EN: Delete outfit... -->
   <DeleteOutfit>Esborra un vestuari...</DeleteOutfit>
   <!-- EN: Outfit is in use by {0}. -->
-  <OutfitInUse>Aquest vestuari l'està fent servir {0}.</OutfitInUse>
+  <OutfitInUse>Aquest vestuari l'està fent servir {0_definite}.</OutfitInUse>
   <!-- EN: No outfit selected -->
   <NoOutfitSelected>No heu seleccionat cap vestuari</NoOutfitSelected>
   
@@ -707,7 +707,7 @@
   <!-- EN: Delete policy... -->
   <DeleteDrugPolicy>Esborra una política...</DeleteDrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
-  <DrugPolicyInUse>{0} està seguint aquesta política de drogues.</DrugPolicyInUse>
+  <DrugPolicyInUse>{0_definite} està seguint aquesta política de drogues.</DrugPolicyInUse>
   <!-- EN: Social drugs -->
   <SocialDrugs>Drogues socials</SocialDrugs>
   <!-- EN: No drugs -->
@@ -787,7 +787,7 @@
   <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
   <ConfirmAbandonHomeWithColonyPawns>Teniu colons o animals en aquesta zona. Els voleu abandonar?\n\nLes següents persones i animals quedaran endarrere:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
   <!-- EN: Abandoning {0} will cause the following people to get the following thoughts: -->
-  <ConfirmAbandonHomeNegativeThoughts>Abandonar {0} farà que els següents colons pensin el següent:</ConfirmAbandonHomeNegativeThoughts>
+  <ConfirmAbandonHomeNegativeThoughts>Abandonar {0_definite} farà que els següents colons pensin el següent:</ConfirmAbandonHomeNegativeThoughts>
   <!-- EN: Everyone: -->
   <ConfirmAbandonHomeNegativeThoughts_Everyone>Tothom:</ConfirmAbandonHomeNegativeThoughts_Everyone>
   
@@ -796,20 +796,20 @@
   <ConfirmMoveAutoJoinableCaravan>Hi ha animals i presoners que es volen unir a la caravana. Si la moveu, ja no ho podran fer.\n\nEls animals, presoners o colons abatuts que es quedin al mapa sense cap colon amb prou salut es consideraran abandonats i podran ser capturats pels enemics.\n\nEsteu segur que voleu moure la caravana?</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
-  <!-- EN: Do you really want to banish {0}? -->
-  <ConfirmBanishPawnDialog>Esteu segur que voleu fer fora {0}?</ConfirmBanishPawnDialog>
-  <!-- EN: {0} will most likely die. -->
-  <ConfirmBanishPawnDialog_LeftToDie>{0} probablement morirà.</ConfirmBanishPawnDialog_LeftToDie>
-  <!-- EN: {0} will take the following items with [PAWN_objective]: -->
-  <ConfirmBanishPawnDialog_Items>{0} Es quedarà els següents objectes:</ConfirmBanishPawnDialog_Items>
+  <!-- EN: Do you really want to banish {1_label}? -->
+  <ConfirmBanishPawnDialog>Esteu segur que voleu fer fora {1_definite}?</ConfirmBanishPawnDialog>
+  <!-- EN: {1_labelShort} will most likely die. -->
+  <ConfirmBanishPawnDialog_LeftToDie>{1_definite} probablement morirà.</ConfirmBanishPawnDialog_LeftToDie>
+  <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
+  <ConfirmBanishPawnDialog_Items>{1_definite} es quedarà els següents objectes:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
   <ConfirmBanishPawnDialog_AllColonistsThoughts>Tots els colons tindran aquest sentiment:</ConfirmBanishPawnDialog_AllColonistsThoughts>
-  <!-- EN: Banishing {0} will cause the following people to get the following thoughts: -->
-  <ConfirmBanishPawnDialog_IndividualThoughts>Fer fora {0} farà que els següents colons tinguin aquests sentiments:</ConfirmBanishPawnDialog_IndividualThoughts>
+  <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
+  <ConfirmBanishPawnDialog_IndividualThoughts>Fer fora {1_definite} farà que els següents colons tinguin aquests sentiments:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: Pod group isn't completely loaded. {0} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>Les càpsules encara no estant completament carregades. Falta {0}. Voleu llençar-les igualment?</ConfirmSendNotCompletelyLoadedPods>
+  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
+  <ConfirmSendNotCompletelyLoadedPods>Les càpsules encara no estant completament carregades. Falta WithIndefiniteArticle({1_labelShort}). Voleu llençar-les igualment?</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
