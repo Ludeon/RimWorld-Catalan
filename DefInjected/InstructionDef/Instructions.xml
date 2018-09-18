@@ -23,7 +23,7 @@
   <!-- EN: Please build wooden beds inside the room. -->
   <BuildBeds.rejectInputMessage>Construïu tres llits de fusta dins la cambra.</BuildBeds.rejectInputMessage>
   <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can use the {Key:Designator_RotateLeft} and {Key:Designator_RotateRight} keys to rotate the building. -->
-  <BuildBeds.text>Ara els vostres colons construiran la cambra!\n\nAra els cal un lloc per dormir. Poseu tres LLITS dins la cambra.\n\nEls trobareu a la categoria MOBLES.</BuildBeds.text>
+  <BuildBeds.text>Ara els vostres colons construiran la cambra!\n\nEls cal un lloc per dormir. Poseu tres LLITS dins la cambra.\n\nEls trobareu a la categoria MOBLES.\n\nPodeu fer servir les tecles {Key:Designator_RotateLeft} i {Key:Designator_RotateRight} per girar l’objecte que voleu construir.</BuildBeds.text>
   
   <!-- EN: Build a fueled stove inside the room -->
   <BuildFueledStove.onMapInstruction>Construïu una cuina de llenya dins la cambra</BuildFueledStove.onMapInstruction>
@@ -144,10 +144,10 @@
   <MakeStockpile.text>Fantàstic!\n\nAra, creeu un magatzem per que els colons i desin les coses.\n\n1. Feu clic a la pestanya ARQUITECTURA a baix a l'esquerra.\n2. Feu clic a la categoria ZONA/ÀREA.\n3. Seleccioneu l'eina ZONA DE MAGATZEM.\n4. Feu clic i arrossegueu un quadrat com s'indica al mapa.</MakeStockpile.text>
   
   <!-- EN: Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now! -->
-  <MapCameraDolly.text>Ja sou a la superfície!\n\nProveu de moure la càmera.\n\nFeu servir les tecles {Key:MapDollyUp}-{Key:MapDollyLeft}-{Key:MapDollyDown}-{Key:MapDollyRight}, o feu clic i arrossegueu amb el botó del mig del ratolí.\n\nProveu-ho ara!</MapCameraDolly.text>
+  <MapCameraDolly.text>Ja sou a la superfície!\n\nProveu de moure la càmera.\n\nFeu servir les tecles {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}, o feu clic i arrossegueu amb el botó del mig del ratolí.\n\nProveu-ho ara!</MapCameraDolly.text>
   
   <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
-  <MapCameraZoom.text>Perfecte!\n\ntambé podeu acostar-vos i allunyar-vos amb la roda del ratolí, o fent servir les tecles {Key:MapZoomIn} i {Key:MapZoomOut}.\n\nProveu-ho ara!</MapCameraZoom.text>
+  <MapCameraZoom.text>Perfecte!\n\ntambé podeu acostar-vos i allunyar-vos amb la roda del ratolí, o fent servir les tecles {Key:MapZoom_In} i {Key:MapZoom_Out}.\n\nProveu-ho ara!</MapCameraZoom.text>
   
   <!-- EN: Designate all this\nfor mining -->
   <MineSteel.onMapInstruction>Designeu aquesta zona\nper ser minada</MineSteel.onMapInstruction>
@@ -192,7 +192,7 @@
   <SetToGrowRice.text>Podeu triar que han de plantar els vostres colons a la zona de plantació.\n\n1. Feu clic dret per sortir del mode arquitectura.\n2. Feu clic a la zona de plantació per seleccionar-la.\n3. Feu clic al botó «Planta patatera» de sota per canviar el que voleu plantar per ARRÒS.</SetToGrowRice.text>
   
   <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
-  <TimeControls.text>També podeu accelerar el temps.\n\nProveu de controlar el temps amb les tecles {Key:TimeSpeedNormal}, {Key:TimeSpeedFast}, i {Key:TimeSpeedSuperfast}, o bé fent servir els controls del temps que hi ha a sota a la dreta.</TimeControls.text>
+  <TimeControls.text>També podeu accelerar el temps.\n\nProveu de controlar el temps amb les tecles {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, i {Key:TimeSpeed_Superfast}, o bé fent servir els controls del temps que hi ha a sota a la dreta.</TimeControls.text>
   
   <!-- EN: Please un-draft your colonists. -->
   <UndraftAll.rejectInputMessage>Llicencieu els vostres colons.</UndraftAll.rejectInputMessage>

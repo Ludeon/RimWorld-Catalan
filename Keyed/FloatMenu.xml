@@ -122,7 +122,7 @@
   <AngersFaction>farà enfadar la facció</AngersFaction>
   
   <!-- EN: Consume {1_labelShort} -->
-  <ConsumeThing>Consumeix {1_indefinite}</ConsumeThing>
+  <ConsumeThing>Consumeix {1_labelShort}</ConsumeThing>
   
   <!-- EN: Cannot go here (no path) -->
   <CannotGoNoPath>No s'hi pot anar (no hi ha camí)</CannotGoNoPath>
@@ -202,7 +202,7 @@
   <PickUpAll>Recull {1_definite} (tot)</PickUpAll>
   <!-- EN: Pick up {1_labelShort}... -->
   <PickUpSome>Recull {1_definite}...</PickUpSome>
-  <!-- EN: Pick up {1_labelShort} x{{1_labelShort}} -->
+  <!-- EN: Pick up {1_labelShort} x{{0}} -->
   <PickUpCount>Recull {1_definite} x{{1_definite}}</PickUpCount>
   
   <!-- EN: Cannot give {1_label} to pack animal -->
@@ -215,7 +215,7 @@
   <GiveToPackAnimalAll>Dona {1_definite} (tot) al grup d'animals</GiveToPackAnimalAll>
   <!-- EN: Give {1_labelShort} to pack animal... -->
   <GiveToPackAnimalSome>Dona {1_definite} al grup d'animals...</GiveToPackAnimalSome>
-  <!-- EN: Take {1_labelShort} x{{1_labelShort}} -->
+  <!-- EN: Take {1_labelShort} x{{0}} -->
   <GiveToPackAnimalCount>Agafa {1_definite} x{{1_definite}}</GiveToPackAnimalCount>
   
   <!-- EN: Cannot load {1_label} into caravan -->
@@ -228,7 +228,7 @@
   <LoadIntoCaravanAll>Carrega {1_definite} (tot) a la caravana</LoadIntoCaravanAll>
   <!-- EN: Load {1_labelShort} into caravan... -->
   <LoadIntoCaravanSome>Carrega {1_definite} a la caravana...</LoadIntoCaravanSome>
-  <!-- EN: Load {1_labelShort} x{{1_labelShort}} -->
+  <!-- EN: Load {1_labelShort} x{{0}} -->
   <LoadIntoCaravanCount>Carrega {1_definite} x{{1_definite}}</LoadIntoCaravanCount>
   <!-- EN: overweight -->
   <OverweightLower>sobrepès</OverweightLower>
@@ -259,7 +259,7 @@
   <SomeoneElseSleeping>Ocupat per {0_definite}</SomeoneElseSleeping>
   
   <!-- EN: Trade with {0} -->
-  <TradeWith>Negocia amb {0_definite}</TradeWith>
+  <TradeWith>Negocia amb {1_definite}</TradeWith>
   <!-- EN: Cannot trade -->
   <CannotTrade>No es pot negociar</CannotTrade>
   
@@ -365,7 +365,7 @@
   <FormCaravanHere>Crea una caravana aquí</FormCaravanHere>
   <!-- EN: Give to {0} -->
   <GiveToCaravan>Dóna a {0_definite}</GiveToCaravan>
-  <!-- EN: Give as a gift to {0_definite} ({1}) -->
+  <!-- EN: Give as a gift to {0} ({1}) -->
   <GiveGiftViaTransportPods>Dóna-ho a {0_definite} com a regal({1})</GiveGiftViaTransportPods>
 
   <!-- Rescue quest -->
