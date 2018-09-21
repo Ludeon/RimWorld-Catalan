@@ -96,13 +96,13 @@
     <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
   -->
   <Transition_DiedInclude.rulePack.rulesStrings>
-    <li>logentry(p=1.5)->[culpritHediff_labelNoun] ha provocat que [subject_definite] [die].</li>
-    <li>logentry(p=1.5)->[culpritHediff_labelNoun] a [culpritHediff_target_label] ha provocat que [subject_definite] [die].</li>
-    <li>logentry->[subject_definite] [died] [duetoa] [culpritHediff_labelNoun] [flavorsuffix].</li>
-    <li>logentry->[subject_definite] [died] [duetoa] [culpritHediff_labelNoun] a [culpritHediff_target_label] [flavorsuffix].</li>
-    <li>logentry->[subject_definite] [died] [duetoa] [culpritHediff_labelNoun] a [culpritHediff_target_label] [flavorsuffix].</li>
-    <li>logentry->[subject_definite] [died].</li>
-    <li>logentry->[subject_definite] [died] [suffixflavor].</li>
+
+    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] ha provocat que [SUBJECT_definite] [die].</li>
+    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty] ha provocat que [SUBJECT_definite] [die].</li>
+    <li>r_logentry->[SUBJECT_definite] [died] [duetoa] [CULPRITHEDIFF_labelNoun] [flavorsuffix].</li>
+    <li>r_logentry->[SUBJECT_definite] [died] [duetoa] [CULPRITHEDIFF_labelNounPretty] [flavorsuffix].</li>
+    <li>r_logentry->[SUBJECT_definite] [died].</li>
+    <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
   </Transition_DiedInclude.rulePack.rulesStrings>
   
   <!-- EN:
@@ -137,12 +137,11 @@
     <li>collapsedmeta(p=0.5)->[collapsed] [helplessly]</li>
   -->
   <Transition_Downed.rulePack.rulesStrings>
-    <li>logentry->[culpritHediff_labelNoun] ha provocat [collapsemeta] a [subject_definite].</li>
-    <li>logentry->[culpritHediff_labelNoun] a [culpritHediff_target_label] ha provocat [collapsemeta] a [subject_definite].</li>
-    <li>logentry->[subject_definite] [collapsedmeta] [duetoa] [culpritHediff_labelNoun].</li>
-    <li>logentry->[subject_definite] [collapsedmeta] [duetoa] [culpritHediff_labelNoun] a [culpritHediff_target_label].</li>
-    <li>logentry->[subject_definite] [collapsedmeta] [duetoa] [culpritHediff_labelNoun] a [culpritHediff_target_label].</li>
-    <li>logentry(p=0.1)->[subject_definite] [collapsedmeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNoun] ha provocat [collapsemeta] a [SUBJECT_definite].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] ha provocat [collapsemeta] a[SUBJECT_definite].</li>
+    <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNoun].</li>
+    <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNounPretty].</li>
+    <li>r_logentry(p=0.1)->[SUBJECT_definite] [collapsedmeta].</li>
     <li>collapse->defalliment</li>
     <li>collapse->caiguda en rodo</li>
     <li>collapse->caiguda</li>
@@ -178,8 +177,6 @@
     <li>duetoa->degut a</li>
     <li>duetoa(p=0.5)->a causa d'</li>
     <li>duetoa(p=0.5)->gràcies a</li>
-    <li>subject_definite->[subject_labelDefinite]</li>
-    <li>subject_definite->[subject_nameShortDef]</li>
   </Transition_Include.rulePack.rulesStrings>
   
 </LanguageData>

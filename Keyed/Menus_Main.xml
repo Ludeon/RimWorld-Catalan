@@ -231,15 +231,15 @@
   <!-- EN: Merciless mode is a special game mode where every challenge is turned up to extreme levels.\n\nMerciless mode unlocks automatically when you reach specific milestones. However, you can unlock it now.\n\nThis option is only recommended once you've played a high-difficulty game or two and want to have a good chance at dying despite your best efforts. -->
   <ConfirmUnlockExtremeDifficulty>El mode cruel fa que tots els reptes es presentin en un nivell extrem.\n\nAquest mode s’activa automàticament quan arribeu a certs objectius, però si voleu, el podeu activar ara.\n\nNomés està recomanada a jugadors que han jugat en dificultat extrema i volen tenir una pila d’oportunitats per morir malgrat el seu esforç. </ConfirmUnlockExtremeDifficulty>
 
-  <!-- Landing site select -->
-  <!-- EN: Select landing site -->
-  <SelectLandingSite>Seleccioneu un lloc d'aterratge</SelectLandingSite>
+  <!-- Site select -->
+  <!-- EN: Select starting site -->
+  <SelectStartingSite>Seleccioneu el lloc on voleu començar</SelectStartingSite>
   <!-- EN: Select random site -->
   <SelectRandomSite>Selecciona un lloc aleatori</SelectRandomSite>
   <!-- EN: Select site -->
   <SelectSite>Seleccioneu un lloc</SelectSite>
-  <!-- EN: Please select a landing site. -->
-  <MustSelectLandingSite>Seleccioneu un lloc d'aterratge.</MustSelectLandingSite>
+  <!-- EN: Please select a site. -->
+  <MustSelectStartingSite>Heu de triar un lloc.</MustSelectStartingSite>
   <!-- EN: You cannot land on this biome: {0} -->
   <CannotLandBiome>No podeu aterrar en aquest bioma: {0}</CannotLandBiome>
   <!-- EN: Biome not implemented -->
@@ -384,5 +384,9 @@
   <GeneratingMap>Genera el mapa</GeneratingMap>
   <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>Genera el mapa per una nova trobada</GeneratingMapForNewEncounter>
+
+  <!-- UNUSED -->
+  <SelectLandingSite>Seleccioneu un lloc d'aterratge</SelectLandingSite>
+  <MustSelectLandingSite>Seleccioneu un lloc d'aterratge.</MustSelectLandingSite>
 
 </LanguageData>

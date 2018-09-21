@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanitySingle>{0} boig</LetterLabelAnimalInsanitySingle>
-  <!-- EN: A local {0} has gone mad. It will attack everyone it sees. -->
-  <AnimalInsanitySingle>Un {0} ha embogit. Atacarà a qui vegi.</AnimalInsanitySingle>
+  <!-- EN: Mad {ANIMAL_labelShort} -->
+  <LetterLabelAnimalInsanitySingle>{ANIMAL_indefinite} boig</LetterLabelAnimalInsanitySingle>
+  <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
+  <AnimalInsanitySingle>{ANIMAL_indefinite} ha embogit. Atacarà a qui vegi.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
   <LetterLabelAnimalInsanityMultiple>{0} bojos</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
@@ -13,7 +13,7 @@
   <!-- EN: Blight -->
   <LetterLabelCropBlight>Plaga</LetterLabelCropBlight>
   <!-- EN: A colonist has noticed blight on your crops! You should cut or burn the blighted plants before the blight spreads. -->
-  <LetterCropBlight>Un colon ha troeu de tallar o cremar les plantes afectades abans que s’escampi.</LetterCropBlight>
+  <LetterCropBlight>Un colon ha trobat una plaga als cultius! Haurieu de tallar o cremar les plantes afectades abans que s’escampi.</LetterCropBlight>
 
   <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>Miracle</LetterLabelMiracleHeal>
@@ -21,23 +21,23 @@
   <MiracleHeal>{0} ha experimentat una recuperació miraculosa!</MiracleHeal>
 
   <!-- Enemy raids -->
-  <!-- EN: One of the {0} - {1}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>Un dels {0}, {1}, és el líder de la facció.</EnemyRaidLeaderPresent>
+  <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
+  <EnemyRaidLeaderPresent>Un dels {LEADER_factionPawnsPlural}, {LEADER_definite}, és el líder de la facció.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
-  <!-- EN: One of the {0} - {1}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>Un dels {0}, {1}, és el líder de la facció.</FriendlyRaidLeaderPresent>
+  <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
+  <FriendlyRaidLeaderPresent>Un dels {LEADER_factionPawnsPlural}, {LEADER_definite}, és el líder de la facció.</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Càpsula d'escapament</LetterLabelRefugeePodCrash>
-  <!-- EN: A [PAWN_title] named [PAWN_nameDef] is crashing in a transport pod nearby. If [PAWN_pronoun] survives the impact, [PAWN_pronoun] will be badly wounded. -->
-  <RefugeePodCrash>Un [PAWN_title] anomenat [PAWN_nameDef] s’ha estavellat prop d’aquí en una càpsula de transport. Si ha sobreviscut a l’impacte, [PAWN_pronoun] estarà molt malferit.</RefugeePodCrash>
-  <!-- EN: [PAWN_nameDef] is not affiliated with any faction. You can rescue [PAWN_objective] and hope [PAWN_pronoun] joins freely, or capture [PAWN_objective] for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Factionless>[PAWN_nameDef] no pertany a cap facció. [PAWN_objective] podeu rescatar i tenir l’esperança que s’unirà a vosaltres voluntàriament, o [PAWN_objective] podeu capturar per reclutar-lo o vendre com a esclau</RefugeePodCrash_Factionless>
-  <!-- EN: [PAWN_nameDef] is from your enemy [PAWN_factionName]. You can capture [PAWN_objective] for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>[PAWN_nameDef] és de la facció enemiga [PAWN_factionName]. El podeu capturar per reclutar-lo o vendre com a esclau.</RefugeePodCrash_Hostile>
-  <!-- EN: [PAWN_nameDef] is from [PAWN_factionName]. If you rescue [PAWN_objective], [PAWN_pronoun] may join freely. Otherwise, [PAWN_pronoun] will return home and spread goodwill between your factions.\n\nYou can also capture [PAWN_objective] for recruitment or slavery purposes, but this will anger [PAWN_possessive] faction. -->
-  <RefugeePodCrash_NonHostile>[PAWN_nameDef] és dels [PAWN_factionName]. Si [PAWN_objective] rescateu, podria ser que s’unís voluntàriament a vosaltres. Si no , tornarà a casa seva i parlarà bé de la vostra facció.\n\nTambé el podeu capturar per reclutar-lo o vendre com a esclau, però això farà enfadar la seva facció.</RefugeePodCrash_NonHostile>
+  <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
+  <RefugeePodCrash>{PAWN_titleIndef} anomenat {PAWN_nameDef} s’ha estavellat prop d’aquí en una càpsula de transport. Si ha sobreviscut a l’impacte, estarà molt {PAWN_gender ? malferit : malferida}.</RefugeePodCrash>
+  <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
+  <RefugeePodCrash_Factionless>{PAWN_definite} no pertany a cap facció. {PAWN_gender ? El : La} podeu rescatar i tenir l’esperança que s’unirà a vosaltres voluntàriament, o {PAWN_gender ? el : la} podeu capturar per reclutar-{PAWN_gender ? lo : la} o vendre com a esclau</RefugeePodCrash_Factionless>
+  <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
+  <RefugeePodCrash_Hostile>{PAWN_definite} és de la facció enemiga {PAWN_factionName}. El podeu capturar per reclutar-lo o vendre com a esclau.</RefugeePodCrash_Hostile>
+  <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
+  <RefugeePodCrash_NonHostile>{PAWN_definite} és dels {PAWN_factionName}. Si {PAWN_gender ? el : la} rescateu, podria ser que s’unís voluntàriament a vosaltres. Si no, tornarà a casa seva i parlarà bé de la vostra facció.\n\nTambé {PAWN_gender ? el : la} podeu capturar per reclutar-{PAWN_gender ? lo : la} o vendre com a esclau, però això farà enfadar la seva facció.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Càpsules de càrrega</LetterLabelCargoPodCrash>
@@ -51,7 +51,7 @@
   <!-- EN: A fault in {0} has caused a short circuit which started a fire. -->
   <ShortCircuitStartedFire>Una fallada del {0} ha provocat un curtcircuit que ha iniciat un incendi.</ShortCircuitStartedFire>
   <!-- EN: All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion. -->
-  <ShortCircuitDischargedEnergy>Els {0} Wd d'energia de les bateries connectades s'han descarregat en la guspira.</ShortCircuitDischargedEnergy>
+  <ShortCircuitDischargedEnergy>Els {0}Wd d'energia de les bateries connectades s'han descarregat en la guspira.</ShortCircuitDischargedEnergy>
   <!-- EN: This large amount of power has created an explosion of considerable size. -->
   <ShortCircuitWasLarge>La gran quantitat d'energia ha causat una forta explosió.</ShortCircuitWasLarge>
   <!-- EN: That really is a huge explosion. Wow. -->
@@ -60,27 +60,27 @@
   <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}. -->
   <TraderArrival>Una nau d'un comerciant passa per les proximitats.\n\nEs fan dir {0}. Són {1}.</TraderArrival>
 
-  <!-- EN: A {0} from {1} is passing by. [PAWN_pronoun] is named {2}. -->
-  <SingleTravelerPassing>Un {0} dels {1} passa per aquí. Es diu {2}.</SingleTravelerPassing>
+  <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
+  <SingleTravelerPassing>{PAWN_titleIndef} dels {1} passa per aquí. Es diu {PAWN_nameFull}.</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
   <GroupTravelersPassing>Un grup de viatgers dels {0} passen per aquí.</GroupTravelersPassing>
 
   <!-- EN: Visitor -->
   <LetterLabelSingleVisitorArrives>Visitant</LetterLabelSingleVisitorArrives>
-  <!-- EN: A {0} from {1} is visiting the colony.\n\n[PAWN_pronoun] is named {2}.{3}{4} -->
-  <SingleVisitorArrives>Un {0} dels {1} visita la colònia.\n\nEs diu {2}.{3}{4}</SingleVisitorArrives>
-  <!-- EN: \n\n[PAWN_pronoun] seems to have a few items to trade. -->
+  <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
+  <SingleVisitorArrives>{PAWN_titleIndef} dels {1} visita la colònia.\n\nEs diu {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
+  <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
   <SingleVisitorArrivesTraderInfo>\n\nSembla que té algunes coses per vendre.</SingleVisitorArrivesTraderInfo>
-  <!-- EN: \n\n[PAWN_pronoun] is the leader of the faction. -->
+  <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
   <SingleVisitorArrivesLeaderInfo>\n\nÉs el líder de la facció.</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
   <LetterLabelGroupVisitorsArrive>Visitants</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
   <GroupVisitorsArrive>Un grup de {0} visiten la colònia.{1}{2}</GroupVisitorsArrive>
-  <!-- EN: \n\nThey seem to have a few items to trade. -->
+  <!-- EN: They seem to have a few items to trade. -->
   <GroupVisitorsArriveTraderInfo>\n\nSembla que porten coses per vendre.</GroupVisitorsArriveTraderInfo>
-  <!-- EN: \n\nOne of the visitors - {0}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>\n\nUn dels visitants - {0}, és el líder de la facció.</GroupVisitorsArriveLeaderInfo>
+  <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
+  <GroupVisitorsArriveLeaderInfo>\n\nUn dels visitants, {1_definite}, és el líder de la facció.</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
   <VisitorsLeaving>Els visitants de {0} marxen.</VisitorsLeaving>
 
@@ -128,25 +128,25 @@
   
   <!-- Refugee chased -->
   <!-- EN: Refugee chased at {0} -->
-  <RefugeeChasedTitle>Refugiat persegit a {0}</RefugeeChasedTitle>
-  <!-- EN: A [PAWN_title] named [PAWN_nameDef] calls you from nearby. [PAWN_pronoun] is being chased by {2} from {3}!\n\n[PAWN_pronoun] begs for safety and offers to join your colony. [PAWN_pronoun] tells you [PAWN_pronoun] is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on [PAWN_possessive] tail. Their group is composed of:\n\n{5} -->
-  <RefugeeChasedInitial>Un [PAWN_title] anomenat [PAWN_nameDef] us truca des d’un lloc proper. Està sent perseguit per {2} dels {3}!\n\nUs suplica protecció i s’ofereix a unir-se a la colònia. Us diu que té {4} anys, però que ara no us pot explicar res més.\n\nAlerta – si accepteu, haureu de lluitar amb els {2} que el persegueixen. És un grup compost per:\n\n{5}</RefugeeChasedInitial>
+  <RefugeeChasedTitle>Refugiat perseguit a {0}</RefugeeChasedTitle>
+  <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} calls you from nearby. {PAWN_pronoun} is being chased by {2} from {3}!\n\n{PAWN_pronoun} begs for safety and offers to join your colony. {PAWN_pronoun} tells you {PAWN_pronoun} is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on {PAWN_possessive} tail. Their group is composed of:\n\n{5} -->
+  <RefugeeChasedInitial>{PAWN_titleIndef} anomenat {PAWN_nameDef} us truca des d’un lloc proper. Està sent perseguit per {2} dels {3}!\n\nUs suplica protecció i s’ofereix a unir-se a la colònia. Us diu que té {4} anys, però que ara no us pot explicar res més.\n\nAlerta – si accepteu, haureu de lluitar amb els {2} que el persegueixen. És un grup compost per:\n\n{5}</RefugeeChasedInitial>
   <!-- EN: Offer safety -->
   <RefugeeChasedInitial_Accept>Oferir protecció</RefugeeChasedInitial_Accept>
   <!-- EN: Ignore the message -->
   <RefugeeChasedInitial_Reject>Ignorar el missatge</RefugeeChasedInitial_Reject>
-  <!-- EN: {0} screams in panic through the tinny speaker before you cut off the transmission. -->
+  <!-- EN: {1_labelShort} screams in panic through the tinny speaker before you cut off the transmission. -->
   <RefugeeChasedRejected>Podeu sentir {0} xisclar de pànic a través del petit altaveu abans de penjar.</RefugeeChasedRejected>
 
   <!-- Self-tame -->
-  <!-- EN: {0} self-tamed -->
-  <LetterLabelAnimalSelfTame>{0} auto-domesticat</LetterLabelAnimalSelfTame>
+  <!-- EN: {1_kind} self-tamed -->
+  <LetterLabelAnimalSelfTame>{1_kind} auto-domesticat</LetterLabelAnimalSelfTame>
   <!-- EN: {0} has become tame. -->
   <LetterAnimalSelfTame>{0} s'ha convertit en domèstic.</LetterAnimalSelfTame>
-  <!-- EN: {0} has become tame. It is now designated {1}. -->
-  <LetterAnimalSelfTameAndNameNumerical>{0} s'ha convertit en domèstic. S'anomenarà {1}.</LetterAnimalSelfTameAndNameNumerical>
-  <!-- EN: {0} has become tame. Colonists have decided to name it {1}. -->
-  <LetterAnimalSelfTameAndName>{0} S'ha convertit en domèstic. Els colons han decidit anomenar-lo {1}.</LetterAnimalSelfTameAndName>
+  <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
+  <LetterAnimalSelfTameAndNameNumerical>{0} s'ha convertit en domèstic. S'anomenarà {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
+  <!-- EN: {0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}. -->
+  <LetterAnimalSelfTameAndName>{0} S'ha convertit en domèstic. Els colons han decidit anomenar-lo {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
   <!-- EN: {0} join -->
@@ -169,8 +169,8 @@
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Demanda de rescat a {0}</RansomDemandTitle>
-  <!-- EN: {1} contacts you on radio. They are holding former colonist {0} for ransom.\n\nThey're willing to release [PAWN_objective] back to you in exchange for {2} silver. -->
-  <RansomDemand>{1} us contacta per ràdio. Tenen retingut {0} per demanar-ne un rescat.\n\nL'alliberaran si els doneu {2} de plata.</RansomDemand>
+  <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
+  <RansomDemand>{1} us contacta per ràdio. Tenen retingut {PAWN_definite} per demanar-ne un rescat.\n\nL'alliberaran si els doneu {2} de plata.</RansomDemand>
   <!-- EN: Accept -->
   <RansomDemand_Accept>Accepta</RansomDemand_Accept>
   <!-- EN: Reject -->
