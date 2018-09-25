@@ -73,6 +73,7 @@
   <NewDiseaseAnimal>{PAWN_definite} ha desenvolupat una malaltia: {1}</NewDiseaseAnimal>
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
   <NewPartDiseaseAnimal>{PAWN_definite} ha desenvolupat una malaltia: {3} a {1}</NewPartDiseaseAnimal>
+
   <!-- EN: {1_labelShort} was formerly part of your faction. -->
   <PawnWasFormerlyColonist>{1_definite} formava part de la vostra facció.</PawnWasFormerlyColonist>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
@@ -89,7 +90,7 @@
   <StruckMineable>Hem picat {0}!</StruckMineable>
 
   <!-- EN: {0} revenge -->
-  <LetterLabelAnimalManhunterRevenge>revenja d’{0_idenfinite}</LetterLabelAnimalManhunterRevenge>
+  <LetterLabelAnimalManhunterRevenge>revenja de {1_indefinite}</LetterLabelAnimalManhunterRevenge>
   <!-- EN: {1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
   <AnimalManhunterFromDamage>{1_indefinite} ataca com a resultat de la ferida!\n\nAtacarà qualsevol humà que trobi. Es calmarà quan s’adormi.</AnimalManhunterFromDamage>
   <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
@@ -155,6 +156,7 @@
   <LetterRelatedPawnsSettlement>Hi ha gent que té relacions amb els vostres {0} o presoners en aquest assentament:</LetterRelatedPawnsSettlement>
   <!-- EN: There are people who have relationships with your {0} or prisoners in this area: -->
   <LetterRelatedPawnsSite>Hi ha gent que té relaciona bme el vostre {0} o presoners en aquesta zona:</LetterRelatedPawnsSite>
+
   <!-- EN: (relationship) -->
   <RelationshipAppendedLetterSuffix>(relació)</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
@@ -375,6 +377,5 @@
   <LetterLabelTraitDisease>malaltia ({0})</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>{PAWN_definite} ha emmalaltit de {1}.\n\nAssegureu-vos que disposeu d’un llit mèdic i d’un metge. Procureu que tingui tractament i que passi tant temps al llit com sigui possible.</LetterTraitDisease>
-
 
 </LanguageData>

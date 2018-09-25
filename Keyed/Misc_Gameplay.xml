@@ -149,7 +149,7 @@
   <!-- EN: using 1 bedroll -->
   <UsingBedroll>es fa servir 1 sac</UsingBedroll>
   <!-- EN: using {0} bedrolls -->
-  <UsingBedrolls>es fan servir {0} sac</UsingBedrolls>
+  <UsingBedrolls>es fan servir {0} sacs</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
   <CaravanEstimatedTimeToDestination>Temps est. fins al destí: {0}</CaravanEstimatedTimeToDestination>
   <!-- EN: Estimated days to arrive: {0} -->
@@ -256,10 +256,10 @@
   <RoomInfectionChanceFactor>Factor de possibilitat d'infecció de l'habitació</RoomInfectionChanceFactor>
   <!-- EN: Closed -->
   <VentClosed>Tancada</VentClosed>
-  <!-- EN: worn by {0} -->
-  <WornBy>portat per {0}</WornBy>
-  <!-- EN: equipped by {0} -->
-  <EquippedBy>equipat per {0}</EquippedBy>
+  <!-- EN: worn by {1_labelShort} -->
+  <WornBy>el porta {1_definite}</WornBy>
+  <!-- EN: equipped by {1_labelShort} -->
+  <EquippedBy>el porta {1_definite}</EquippedBy>
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
   <QuestTargetDestroyInspectString>{0} vol que sigui destruït.\n    Recompensa: {1} ({2})</QuestTargetDestroyInspectString>
   <!-- EN: Time left: {0} -->
@@ -273,7 +273,7 @@
   <!-- EN: Shift + click: Enable all\nShift + right click: Disable all -->
   <WorkPriorityShiftClickEnableDisableTip>Maj + clic: Habilita-ho tot\nMaj + Clic dret: Deshabilita-ho tot</WorkPriorityShiftClickEnableDisableTip>
   <!-- EN: Shift + click: Set all to home\nShift + right click: Set all to unrestricted -->
-  <AllowedAreaShiftClickTip>Maj + clic: Restringeix tots a la zona llar\nShift + right click: Treu la restrició a tots</AllowedAreaShiftClickTip>
+  <AllowedAreaShiftClickTip>Maj + clic: Restringeix tothom a la zona llar\nShift + right click: Treu la restricció a tothom</AllowedAreaShiftClickTip>
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
   <CheckboxShiftClickTip>Maj + clic: Marca-ho tot\nMaj + clic dret: desmarca-ho tot</CheckboxShiftClickTip>
   <!-- EN: Known threat: {0} -->
@@ -320,8 +320,8 @@
   <NoDietCategoryLetter>Cap carta</NoDietCategoryLetter>
   <!-- EN: Expires in -->
   <ExpiresIn>S’acaba en</ExpiresIn>
-  <!-- EN: {0}'s caravan -->
-  <CaravanLeaderCaravanName>caravana de {0}</CaravanLeaderCaravanName>
+  <!-- EN: {1_labelShort}'s caravan -->
+  <CaravanLeaderCaravanName>caravana de {1_definite}</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
   <Reason>Motiu</Reason>
   <!-- EN: Relations with {0} -->
@@ -428,12 +428,12 @@
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
   <CannotOrderNonControlled>No podeu donar ordres a unitats que no controleu.</CannotOrderNonControlled>
-  <!-- EN: {0} is incapable of violence. -->
-  <IsIncapableOfViolence>{0} no pot fer actes violents.</IsIncapableOfViolence>
+  <!-- EN: {1_labelShort} is incapable of violence. -->
+  <IsIncapableOfViolence>{1_definite} no pot fer actes violents.</IsIncapableOfViolence>
   <!-- EN: incapable of violence -->
   <IsIncapableOfViolenceShort>no pot fer actes violents</IsIncapableOfViolenceShort>
-  <!-- EN: {0} is not drafted. -->
-  <IsNotDrafted>{0} no està reclutat.</IsNotDrafted>
+  <!-- EN: {1_labelShort} is not drafted. -->
+  <IsNotDrafted>{1_definite} no està reclutat.</IsNotDrafted>
 
   <!-- Snow -->
   <!-- EN: No snow -->
@@ -458,16 +458,16 @@
   <CannotFire>No pot disparar</CannotFire>
   <!-- EN: roofed -->
   <Roofed>sota teulada</Roofed>
-  <!-- EN: Shell loaded: {0} -->
-  <ShellLoaded>Projectil carregat: {0}</ShellLoaded>
+  <!-- EN: Shell loaded: {1_label} -->
+  <ShellLoaded>Projectil carregat: {1_label}</ShellLoaded>
   <!-- EN: Not loaded -->
   <ShellNotLoaded>Descarregat</ShellNotLoaded>
 
   <!-- Job reports -->
-  <!-- EN: hauling {0} to {1}. -->
-  <ReportHaulingTo>porta {0} a {1}.</ReportHaulingTo>
-  <!-- EN: hauling {0}. -->
-  <ReportHauling>porta {0}.</ReportHauling>
+  <!-- EN: hauling {THING_label} to {DESTINATION}. -->
+  <ReportHaulingTo>porta {THING_definite} a {DESTINATION_definite}.</ReportHaulingTo>
+  <!-- EN: hauling {1_label}. -->
+  <ReportHauling>porta {1_label}.</ReportHauling>
   <!-- EN: hauling. -->
   <ReportHaulingUnknown>transporta.</ReportHaulingUnknown>
   <!-- EN: sleeping. -->
@@ -475,13 +475,13 @@
   <!-- EN: resting. -->
   <ReportResting>descansa.</ReportResting>
   <!-- EN: watching the sunrise. -->
-  <WatchingSunrise>contempla la sortida del sol</WatchingSunrise>
+  <WatchingSunrise>contempla la sortida del sol.</WatchingSunrise>
   <!-- EN: cloudwatching. -->
-  <CloudWatching>contempla els núvols</CloudWatching>
+  <CloudWatching>contempla els núvols.</CloudWatching>
   <!-- EN: watching the sunset. -->
-  <WatchingSunset>contempla la posta de sol</WatchingSunset>
+  <WatchingSunset>contempla la posta de sol.</WatchingSunset>
   <!-- EN: stargazing. -->
-  <Stargazing>mira les estrelles</Stargazing>
+  <Stargazing>mira les estrelles.</Stargazing>
   <!-- EN: watching the eclipse. -->
   <WatchingEclipse>mira l'eclipsi</WatchingEclipse>
   <!-- EN: watching the aurora. -->
@@ -491,13 +491,13 @@
   <!-- EN: area -->
   <AreaLower>zona</AreaLower>
   <!-- EN: cowering. -->
-  <ReportCowering>Es cobreix.</ReportCowering>
+  <ReportCowering>es cobreix.</ReportCowering>
   <!-- EN: standing. -->
   <ReportStanding>aturat.</ReportStanding>
   <!-- EN: extinguishing fire. -->
-  <ReportExtinguishingFire>Apaga el foc.</ReportExtinguishingFire>
-  <!-- EN: extinguishing fire on {0}. -->
-  <ReportExtinguishingFireOn>Apaga el foc de {0}.</ReportExtinguishingFireOn>
+  <ReportExtinguishingFire>apaga el foc.</ReportExtinguishingFire>
+  <!-- EN: extinguishing fire on {TARGET_label}. -->
+  <ReportExtinguishingFireOn>apaga el foc de {TARGET_definite}.</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>desenterra un cadàver.</ReportDiggingUpCorpse>
 
@@ -526,8 +526,8 @@
   <Weather>Clima</Weather>
   <!-- EN: Cover -->
   <ShootingCover>Cobertura</ShootingCover>
-  <!-- EN: {0} stops {1} -->
-  <CoverThingBlocksPercentOfShots>{0} atura {1}</CoverThingBlocksPercentOfShots>
+  <!-- EN: {COVER_label} stops {1} -->
+  <CoverThingBlocksPercentOfShots>{COVER_indefinite} atura {1}</CoverThingBlocksPercentOfShots>
   <!-- EN: no cover -->
   <NoCoverLower>sense cobertura</NoCoverLower>
   <!-- EN: Execution -->
@@ -562,11 +562,11 @@
   <MentalBreakThresholdMinor>Nivell d'emprenyament menor</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
-  <!-- EN: {0} {1} -->
+  <!-- EN: {PAWN_gender} {1} -->
   <PawnMainDescGendered>{1} {0}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{0} dels {1}</PawnMainDescFactionedWrap>
-  <!-- EN: {1} {0} -->
+  <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{0} {1}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Facció</Faction>
@@ -666,8 +666,8 @@
   <LessThanADay>menys d'un dia</LessThanADay>
 
   <!-- Shooting tooltip -->
-  <!-- EN: Shot by {0} -->
-  <ShotBy>Tocat per {0}</ShotBy>
+  <!-- EN: Shot by {1_labelShort} -->
+  <ShotBy>Tocat per {1_definite}</ShotBy>
   <!-- EN: Cannot hit target. -->
   <CannotHit>No pot tocar l'objectiu.</CannotHit>
   <!-- EN: Manhunter chance per hit -->
@@ -709,7 +709,7 @@
   <!-- EN: Blighted -->
   <Blighted>Plaga</Blighted>
   <!-- EN: Dying because exposed to light -->
-  <DyingBecauseExposedToLight>Mor per que li toca la llum</DyingBecauseExposedToLight>
+  <DyingBecauseExposedToLight>Mor per què li toca la llum</DyingBecauseExposedToLight>
 
   <!-- Zones -->
   <!-- EN: Zone -->
@@ -772,8 +772,8 @@
   <!-- Fire -->
   <!-- EN: Fire -->
   <Fire>Foc</Fire>
-  <!-- EN: Fire on {0} -->
-  <FireOn>Foc a {0}</FireOn>
+  <!-- EN: Fire on {1_label} -->
+  <FireOn>{1_definite} es crema </FireOn>
   <!-- EN: Burning -->
   <Burning>Crema</Burning>
   <!-- EN: fire size {0} -->
@@ -828,8 +828,8 @@
   <!-- Cryptosleep casket -->
   <!-- EN: Contains -->
   <CasketContains>Conté</CasketContains>
-  <!-- EN: Warning!\n\n[PAWN_nameDef] is your last free-standing colonist! If you let [PAWN_objective] step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>Avís!\n\n[PAWN_nameDef] és el vostre darrer colon despert! Si el poseu dins el cofre, no podreu seguir jugant. Voleu continuar?</CasketWarning>
+  <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
+  <CasketWarning>Avís!\n\n{PAWN_definite} és el vostre darrer colon despert! Si el poseu dins el cofre, no podreu seguir jugant. Voleu continuar?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -847,17 +847,17 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Component no preparat</ShipReportNotReady>
   <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>Charlon Whitestone està preparat per iniciar la seqüència de sortida d’hibernació del reactor.\n\nAvisa que el procés pot durar 15 dies, i que la signatura energètica serà detectable des de molt lluny. Aquest tipus de signatura energètica indica capacitat de vol interestelar i atraurà bandes d’assaltants desesperats i caçadors de tresors. Assegureu-vos que teniu les defenses preparades.</HibernateWarning>
+  <HibernateWarning>Charlon Whitestone està preparat per iniciar la seqüència de sortida d’hibernació del reactor.\n\nAvisa que el procés pot durar 15 dies, i que la signatura energètica serà detectable des de molt lluny. Aquest tipus de signatura energètica indica capacitat de vol interestel·lar i atraurà bandes d’assaltants desesperats i caçadors de tresors. Assegureu-vos que teniu les defenses preparades.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>El reactor està preparat per ser engegat.\n\nEl procés durarà un 15 dies, i la radiació d’energia podrà detectar-se des de molt lluns. La radiació indica la capacitat de vol interestel·lar i atraurà grups d’assaltants desesperats i caçadors de tresors. Assegureu-vos que teniu les defenses preparades.</HibernateWarningStandalone>
+  <HibernateWarningStandalone>El reactor està preparat per ser engegat.\n\nEl procés durarà uns 15 dies, i la radiació d’energia podrà detectar-se des de molt lluny. La radiació indica la capacitat de vol interestel·lar i atraurà grups d’assaltants desesperats i caçadors de tresors. Assegureu-vos que teniu les defenses preparades.</HibernateWarningStandalone>
   <!-- EN: Charlon Whitestone is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
   <HibernateWarningPacifist>Charlon Whitestone està preparat per iniciar la seqüència de restauració de la hibernació. Us avisa que el procés durarà uns 15 dies.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
-  <HibernateWarningStandalonePacifist>El reactor està preparat per engegar. El procés durarà uns 15 dies+.</HibernateWarningStandalonePacifist>
+  <HibernateWarningStandalonePacifist>El reactor està preparat per engegar. El procés durarà uns 15 dies.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
-  <!-- EN: {0} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <NeurotrainerUsed>{0} ha fet servir {1} neuroentrenador per passar del nivell {2} al nivell {3}.</NeurotrainerUsed>
+  <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
+  <NeurotrainerUsed>{USER_definite} ha fet servir {1} neuroentrenador per passar del nivell {2} al nivell {3}.</NeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -889,9 +889,9 @@
   <!-- EN: mental state -->
   <Mood_MentalState>Enfurismat</Mood_MentalState>
   <!-- EN: about to break -->
-  <Mood_AboutToBreak>apunt de petar</Mood_AboutToBreak>
+  <Mood_AboutToBreak>a punt de petar</Mood_AboutToBreak>
   <!-- EN: on edge -->
-  <Mood_OnEdge>de punta</Mood_OnEdge>
+  <Mood_OnEdge>atabalat</Mood_OnEdge>
   <!-- EN: stressed -->
   <Mood_Stressed>estressat</Mood_Stressed>
   <!-- EN: neutral -->
@@ -924,12 +924,12 @@
   <InactiveFacility>inactiu</InactiveFacility>
 
   <!-- Hediffs growth modes -->
-  <!-- EN: {0}'s {1} is now growing. -->
-  <DiseaseGrowthModeChanged_Growing>{1} de {0} està creixent.</DiseaseGrowthModeChanged_Growing>
-  <!-- EN: {0}'s {1} is now stable. -->
-  <DiseaseGrowthModeChanged_Stable>{1} de {0} està estable.</DiseaseGrowthModeChanged_Stable>
-  <!-- EN: {0}'s {1} is now in remission. -->
-  <DiseaseGrowthModeChanged_Remission>{1} de {0} està remetent.</DiseaseGrowthModeChanged_Remission>
+  <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
+  <DiseaseGrowthModeChanged_Growing>{1} de {PAWN_definite} està creixent.</DiseaseGrowthModeChanged_Growing>
+  <!-- EN: {PAWN_labelShort}'s {1} is now stable. -->
+  <DiseaseGrowthModeChanged_Stable>{1} de {PAWN_definite} està estable.</DiseaseGrowthModeChanged_Stable>
+  <!-- EN: {PAWN_labelShort}'s {1} is now in remission. -->
+  <DiseaseGrowthModeChanged_Remission>{1} de {PAWN_definite} està remetent.</DiseaseGrowthModeChanged_Remission>
 
   <!-- Marriage spot -->
   <!-- EN: Usable now. -->
@@ -938,14 +938,14 @@
   <MarriageSpotNotUsable>Not usable: {0}.</MarriageSpotNotUsable>
   <!-- EN: blocked -->
   <MarriageSpotNotStandable>bloquejat</MarriageSpotNotStandable>
-  <!-- EN: too dangerous for {0} -->
-  <MarriageSpotDangerous>massa perillós per {0}</MarriageSpotDangerous>
-  <!-- EN: forbidden for {0} -->
-  <MarriageSpotForbidden>prohibit per {0}</MarriageSpotForbidden>
+  <!-- EN: too dangerous for {1_labelShort} -->
+  <MarriageSpotDangerous>{1_definite} ho considera massa perillós</MarriageSpotDangerous>
+  <!-- EN: forbidden for {1_labelShort} -->
+  <MarriageSpotForbidden>{1_definite} ho té prohibit</MarriageSpotForbidden>
   <!-- EN: reserved -->
   <MarriageSpotReserved>reservat</MarriageSpotReserved>
-  <!-- EN: unreachable for {0} -->
-  <MarriageSpotUnreachable>{0} no hi pot arribar</MarriageSpotUnreachable>
+  <!-- EN: unreachable for {1_labelShort} -->
+  <MarriageSpotUnreachable>{1_definite} no hi pot arribar</MarriageSpotUnreachable>
   <!-- EN: in prison cell -->
   <MarriageSpotInPrisonCell>a la presó</MarriageSpotInPrisonCell>
   <!-- EN: uncomfortable temperature -->
@@ -985,7 +985,7 @@
   <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
   <DeepDrillExhausted>S’han esgotat els recursos del perforador i s’ha prohibit de manera automàtica. Habiliteu per minar {0}.</DeepDrillExhausted>
   <!-- EN: Deep drill resources exhausted. -->
-  <DeepDrillExhaustedNoFallback>’han esgotat els recursos del perforador.</DeepDrillExhaustedNoFallback>
+  <DeepDrillExhaustedNoFallback>S’han esgotat els recursos del perforador.</DeepDrillExhaustedNoFallback>
 
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
