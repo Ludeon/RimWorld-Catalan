@@ -68,9 +68,9 @@
   <!-- EN: Mark items as forbidden. Colonists will not be able to interact with the designated items. -->
   <DesignatorForbidDesc>Marca objectes com a prohibits. Els colons no podran interactuar amb els objectes designats.</DesignatorForbidDesc>
 
-  <!-- EN: Unforbid -->
+  <!-- EN: Allow -->
   <DesignatorUnforbid>Permetre</DesignatorUnforbid>
-  <!-- EN: Mark items as unforbidden. Colonists will be able to interact with the designated items. -->
+  <!-- EN: Mark items as not forbidden. Colonists will be able to interact with the designated items. -->
   <DesignatorUnforbidDesc>Marca objectes com a permesos. Els colons podran interactuar amb els objectes designats.</DesignatorUnforbidDesc>
 
   <!-- EN: Expand home area -->
@@ -198,6 +198,8 @@
   <IdenticalBlueprintExists>Aquí ja hi ha el mateix projecte.</IdenticalBlueprintExists>
   <!-- EN: The terrain here cannot support this. -->
   <TerrainCannotSupport>A aquest terreny no se li pot fer això.</TerrainCannotSupport>
+  <!-- EN: {0_label} requires terrain that can support: {1_label} -->
+  <TerrainCannotSupport_TerrainAffordance>{0_definite} necessita terreny que pugui suportar: {1_label}</TerrainCannotSupport_TerrainAffordance>
   <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>L'espai ja està ocupat.</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->

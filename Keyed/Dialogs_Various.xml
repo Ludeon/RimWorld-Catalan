@@ -178,7 +178,7 @@
 
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
-  <ConfirmPermanentlyDisableDevMode>Esteu segur que voleu deshabilitar el mode de desenvolupament de forma permanent en aquest ordinador?/n/n Aquesta opció és per la gent que vol jugar sense la temptació de fer servir les eines de desenvolupament per obtenir avantatge.\n\nEl mode de desenvolpament es pot tornar a habilitar, però per fer-ho s’hauran d’editar manualment els fitxers de configuració. Hauràs de navegar per Internet per saber com.</ConfirmPermanentlyDisableDevMode>
+  <ConfirmPermanentlyDisableDevMode>Esteu segur que voleu deshabilitar el mode de desenvolupament de forma permanent en aquest ordinador?\n\n Aquesta opció és per la gent que vol jugar sense la temptació de fer servir les eines de desenvolupament per obtenir avantatge.\n\nEl mode de desenvolupament es pot tornar a habilitar, però per fer-ho s’hauran d’editar manualment els fitxers de configuració. Hauràs de navegar per Internet per saber com.</ConfirmPermanentlyDisableDevMode>
 
   <!-- Research -->
   <!-- EN: Research -->
@@ -426,7 +426,7 @@
   <NuzzleIntervalExplanation>Cada quant un animal acaronarà amb el morro els colons amics, de mitjana.\n\nLes carícies són un comportament que comparteixen moltes espècies animals, on els animals acosten el seu nas o el seu morro contra un amic com a signe d’afecte. La majoria d’humans ho troben agradable i els millorarà l’estat d’ànim durant un temps.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Probabilitat de revenja si és ferit</HarmedRevengeChance>
-  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeing revenge, attack it from rifle range with a slow-firing weapon. -->
+  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
   <HarmedRevengeChanceExplanation>La probabilitat que la criatura es revengi quan és ferit per un atacant a distància de rifle.\n\nLa probabilitat incrementa si l’atacant és més a prop. Si l’atacant és a tocar, la probabilitat es triplica.\n\nLa probabilitat s’aplica cada cop que rep danys, així que les armes que disparen menys sovint i fan més mal tenen menys probabilitats d’activar-la.\n\nPer tal de minimitzar la probabilitat que la criatura es revengi, ataqueu-la a distància de rifle amb una arma lenta.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Probabilitat de revenja en doma</TameFailedRevengeChance>
@@ -434,6 +434,18 @@
   <TerrainRequirement>Requisit de terreny</TerrainRequirement>
   <!-- EN: Supports -->
   <Supports>Suporta</Supports>
+  <!-- EN: Trap armor penetration -->
+  <TrapArmorPenetration>TODO</TrapArmorPenetration>
+  <!-- EN: Rearm cost -->
+  <RearmCost>TODO</RearmCost>
+  <!-- EN: Resources needed to rearm this turret (affected by difficulty). -->
+  <RearmCostExplanation>TODO</RearmCostExplanation>
+  <!-- EN: Shots before rearm -->
+  <ShotsBeforeRearm>TODO</ShotsBeforeRearm>
+  <!-- EN: How many shots this turret can fire before it has to be rearmed. -->
+  <ShotsBeforeRearmExplanation>TODO</ShotsBeforeRearmExplanation>
+  <!-- EN: Power consumption -->
+  <PowerConsumption>TODO</PowerConsumption>
 
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -546,7 +558,7 @@
   <InfiniteDaysWorthOfFoodInfo>Il·limitat</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
   <DaysWorthOfFoodTooltip>Nombre aproximat de dies abans que la caravana es quedi sense menjar. Les espècies diferents tenen dietes diferents i, per tant, uns es quedaran sense menjar abans que uns altres. El valor es calcula millo rque teniu una ruta seleccionada.\n\nAfectat per:\n – Els tipus de menjar i quantitat que es porta\n – Els membres de la caravana i les seves dietes\n – La capacitat de recollir menjar pel camí\n – La possibilitat que els animals puguin pasturar\n – El temps que triga el menjar a podrir-se\n – La calor farà que el menjar es podreixi més aviat</DaysWorthOfFoodTooltip>
-  <!-- EN: \n(only the first waypoint is taken into account) -->
+  <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(Només es tindrà en compte la primera parada)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>La caravana només té menjar per {0} dies i passaran gana molt aviat.</DaysWorthOfFoodWarningDialog>
@@ -708,6 +720,8 @@
   <DeleteDrugPolicy>Esborra una política...</DeleteDrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
   <DrugPolicyInUse>{0_definite} està seguint aquesta política de drogues.</DrugPolicyInUse>
+  <!-- EN: Food restriction is in use by {0}. -->
+  <FoodRestrictionInUse>TODO</FoodRestrictionInUse>
   <!-- EN: Social drugs -->
   <SocialDrugs>Drogues socials</SocialDrugs>
   <!-- EN: No drugs -->
@@ -762,6 +776,30 @@
   <DrugUsageTipForJoy>Per diversió\n\nFa servir aquesta droga per diversió i amb fins socials.\n\Encara que no estigui habilitat, alguns personatges amb característiques específiques o emprenyats la poden fer servir.</DrugUsageTipForJoy>
   <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
   <DrugUsageTipScheduled>Programada\n\nFa servir aquesta droga amb una freqüència determinada, quan es compleixin les condicions específiques.</DrugUsageTipScheduled>
+
+  <!-- Food restriction management -->
+  <!-- EN: Food restriction -->
+  <FoodRestriction>TODO</FoodRestriction>
+  <!-- EN: Lavish -->
+  <FoodRestrictionLavish>TODO</FoodRestrictionLavish>
+  <!-- EN: Fine -->
+  <FoodRestrictionFine>TODO</FoodRestrictionFine>
+  <!-- EN: Simple -->
+  <FoodRestrictionSimple>TODO</FoodRestrictionSimple>
+  <!-- EN: Paste -->
+  <FoodRestrictionPaste>TODO</FoodRestrictionPaste>
+  <!-- EN: Raw -->
+  <FoodRestrictionRaw>TODO</FoodRestrictionRaw>
+  <!-- EN: Nothing -->
+  <FoodRestrictionNothing>TODO</FoodRestrictionNothing>
+  <!-- EN: Select food restriction -->
+  <SelectFoodRestriction>TODO</SelectFoodRestriction>
+  <!-- EN: New food restriction -->
+  <NewFoodRestriction>TODO</NewFoodRestriction>
+  <!-- EN: Delete food restriction -->
+  <DeleteFoodRestriction>TODO</DeleteFoodRestriction>
+  <!-- EN: No food restriction selected -->
+  <NoFoodRestrictionSelected>TODO</NoFoodRestrictionSelected>
 
   <!-- Medical settings -->
   <!-- EN: Defaults -->

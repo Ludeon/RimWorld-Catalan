@@ -48,7 +48,7 @@
   <MessageBillComplete>Programa completat: {0}.</MessageBillComplete>
 
   <!-- EN: {1_label} is fully healed. -->
-  <MessageFullyHealed>{1_definite} està {0_gender ? curat : curada}curat.</MessageFullyHealed>
+  <MessageFullyHealed>{1_definite} està {1_gender ? curat : curada}.</MessageFullyHealed>
 
   <!-- EN: Prisoner {1_labelShort} is escaping. -->
   <MessagePrisonerIsEscaping>{1_definite} està escapant de la presó.</MessagePrisonerIsEscaping>
