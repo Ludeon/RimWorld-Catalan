@@ -8,7 +8,7 @@
   <HigherPriority>prioritat alta</HigherPriority>
   <!-- EN: lower priority -->
   <LowerPriority>prioritat baixa</LowerPriority>
-  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} / {2} -->
+  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} -->
   <RelevantSkills>Coneixements rellevants: {0}\nMitjana dels coneixements rellevants: {1} / {2}</RelevantSkills>
   <!-- EN: Click to jump to: -->
   <ClickToJumpTo>Feu clic per anar a:</ClickToJumpTo>
@@ -22,20 +22,46 @@
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
   <!-- EN: Warning: The average of relevant skills is very low. -->
   <SelectedWorkTypeWithVeryBadSkill>Avís: la mitjana de capacitats rellevants és molt baixa.</SelectedWorkTypeWithVeryBadSkill>
+  <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
+  <PriorityOneDoneFirst>TODO</PriorityOneDoneFirst>
+  <!-- EN: Will not do -->
+  <Priority0>TODO</Priority0>
+  <!-- EN: Top priority -->
+  <Priority1>TODO</Priority1>
+  <!-- EN: High priority -->
+  <Priority2>TODO</Priority2>
+  <!-- EN: Normal priority -->
+  <Priority3>TODO</Priority3>
+  <!-- EN: Low priority -->
+  <Priority4>TODO</Priority4>
+  <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
+  <PawnFactionInfo>TODO</PawnFactionInfo>
+  <!-- EN: Disabled by backstory: {0} -->
+  <WorkDisabledByBackstory>TODO</WorkDisabledByBackstory>
+  <!-- EN: Disabled by trait: {0} -->
+  <WorkDisabledByTrait>TODO</WorkDisabledByTrait>
+  <!-- EN: Disabled by quest: {0} -->
+  <WorkDisabledByQuest>TODO</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
   <ManageOutfits>Gestiona vestuaris</ManageOutfits>
-  <!-- EN: Clear forced -->
+  <!-- EN: Unchangeable -->
+  <Unchangeable>TODO</Unchangeable>
+  <!-- EN: Clr. forced -->
   <ClearForcedApparel>Treu forçat</ClearForcedApparel>
   <!-- EN: forced -->
   <ApparelForcedLower>forçat</ApparelForcedLower>
+  <!-- EN: locked -->
+  <ApparelLockedLower>TODO</ApparelLockedLower>
   <!-- EN: Forced apparel -->
   <ForcedApparel>Roba forçada</ForcedApparel>
   <!-- EN: Edit... -->
   <AssignTabEdit>Edita...</AssignTabEdit>
   <!-- EN: Manage drug policies -->
   <ManageDrugPolicies>Gestiona política de drogues</ManageDrugPolicies>
+  <!-- EN: Manage food restrictions -->
+  <ManageFoodRestrictions>TODO</ManageFoodRestrictions>
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
@@ -56,18 +82,28 @@
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
   <IsPredator>Aquesta criatura és un predador. Quan tingui gana, caçarà criatures petites, potser fins i tot persones.</IsPredator>
+  <!-- EN: This creature is currently in mental state: {0} -->
+  <IsInMentalState>TODO</IsInMentalState>
   
   <!-- Factions tab -->
   <!-- EN: Hostile -->
   <Hostile>Hostil</Hostile>
   <!-- EN: Ally -->
   <Ally>Aliat</Ally>
+  <!-- EN: hostile -->
+  <HostileLower>TODO</HostileLower>
+  <!-- EN: ally -->
+  <AllyLower>TODO</AllyLower>
   <!-- EN: defeated -->
   <DefeatedLower>eliminat</DefeatedLower>
   <!-- EN: Enemy of {0} -->
   <HostileTo>Enemic de {0}</HostileTo>
-  <!-- EN: Current goodwill and relations status with this faction. -->
-  <CurrentGoodwillTip>L’estat de la reputació i les relacions amb aquesta facció.</CurrentGoodwillTip>
+  <!-- EN: Enemy of:  -->
+  <EnemyOf>TODO</EnemyOf>
+  <!-- EN: Recent events -->
+  <RecentEvents>TODO</RecentEvents>
+  <!-- EN: Ongoing events -->
+  <OngoingEvents>TODO</OngoingEvents>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Aquesta facció sempre us serà hostil. Atacarà els vostres assentaments i caravanes. Les relacions amb ells no milloraran mai feu el que feu.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -76,9 +112,7 @@
   <CurrentGoodwillTip_Neutral>La facció és neutral. Tindran negocis i converses amb vosaltres. Si les relacions baixen de {0}, es tornaran hostils. Si les relacions pugen per sobre de {1}, es convertiran en aliats i treballaran activament per ajudar-vos.</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>Aquesta facció us és hostil. Atacaran els vostres assentaments i caravanes. Si les relacions pugen per sobre de {0}, es convertiran en neutrals.</CurrentGoodwillTip_Hostile>
-  <!-- EN: This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day. -->
-  <CurrentGoodwillTip_NaturalGoodwill>Aquesta facció té una reputació natural entre  {0} i {1}. Si la reputació està per sobre de {1}, anirà baixant de {3} en {3} cada dia. Si la reputació està per sota de {0}, anirà pujant de {2} en {2} cada dia.</CurrentGoodwillTip_NaturalGoodwill>
-  
+
   <!-- Social tab -->
   <!-- EN: Friend -->
   <Friend>Amic</Friend>
@@ -146,14 +180,165 @@
   <ColonistsLaunched>Colons llençats a l'espai</ColonistsLaunched>
 
   <!-- Research tab -->
-  <!-- EN: project tech level -->
-  <ProjectTechLevel>nivell de tecnologia del projecte</ProjectTechLevel>
-  <!-- EN: your tech level -->
-  <YourTechLevel>el vostre nivell de tecnologia</YourTechLevel>
-  <!-- EN: cost multiplier -->
-  <ResearchCostMultiplier>multiplicador de cost</ResearchCostMultiplier>
+  <!-- EN: Research -->
+  <Research>Investiga</Research>
+  <!-- EN: Study -->
+  <Study>TODO</Study>
+  <!-- EN: Unresearched -->
+  <Unresearched>Sense investigar</Unresearched>
+  <!-- EN: Finished -->
+  <Finished>Acabat</Finished>
+  <!-- EN: In Progress -->
+  <InProgress>En curs</InProgress>
+  <!-- EN: Locked -->
+  <Locked>Bloquejat</Locked>
+  <!-- EN: Research prerequisites -->
+  <ResearchPrerequisites>Requisits previs a la investigació</ResearchPrerequisites>
+  <!-- EN: Techprints required {0} / {1} -->
+  <ResearchTechprintRequirement>TODO</ResearchTechprintRequirement>
+  <!-- EN: Insufficient techprints applied ({0} / {1}) -->
+  <InsufficientTechprintsApplied>TODO</InsufficientTechprintsApplied>
+  <!-- EN: Prerequisite(s) not completed -->
+  <PrerequisitesNotCompleted>TODO</PrerequisitesNotCompleted>
+  <!-- EN: Required research bench -->
+  <RequiredResearchBench>Necessita un banc d'investigació</RequiredResearchBench>
+  <!-- EN: Required research bench facilities -->
+  <RequiredResearchBenchFacilities>Necessita la instal·lació d'un banc d'investigació</RequiredResearchBenchFacilities>
   <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>El cost base del projecte {0} esdevé {1} pel vostre nivell de tecnologia.</ResearchCostComparison>
+  <!-- EN: Techprints are available from these factions via trade and quests: -->
+  <ResearchTechprintsFromFactions>TODO</ResearchTechprintsFromFactions>
+  <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
+  <TechLevelTooLow>TODO</TechLevelTooLow>
+  <!-- EN: Unlocked with -->
+  <UnlockedWith>TODO</UnlockedWith>
 
+  <!-- Factions tab -->
+  <!-- EN: Factions -->
+  <FactionsTab>TODO</FactionsTab>
+  <!-- EN: No known factions -->
+  <NoFactions>TODO</NoFactions>
+
+  <!-- Quests tab -->
+  <!-- EN: Available -->
+  <AvailableQuests>TODO</AvailableQuests>
+  <!-- EN: Active -->
+  <ActiveQuests>TODO</ActiveQuests>
+  <!-- EN: Historical -->
+  <HistoricalQuests>TODO</HistoricalQuests>
+  <!-- EN: no quest selected -->
+  <NoQuestSelected>TODO</NoQuestSelected>
+  <!-- EN: Appeared {0} days ago -->
+  <AppearedDaysAgo>TODO</AppearedDaysAgo>
+  <!-- EN: Appeared on {0} -->
+  <AppearedOn>TODO</AppearedOn>
+  <!-- EN: Accepted {0} ago -->
+  <AcceptedAgo>TODO</AcceptedAgo>
+  <!-- EN: Accepted on {0} -->
+  <AcceptedOn>TODO</AcceptedOn>
+  <!-- EN: Accepted {0} ago by {1} -->
+  <AcceptedAgoBy>TODO</AcceptedAgoBy>
+  <!-- EN: Accepted on {0} by {1} -->
+  <AcceptedOnBy>TODO</AcceptedOnBy>
+  <!-- EN: Expires in {0} -->
+  <QuestExpiresIn>TODO</QuestExpiresIn>
+  <!-- EN: Expires on {0} -->
+  <QuestExpiresOn>TODO</QuestExpiresOn>
+  <!-- EN: Average guest mood (previous {0}): {1} -->
+  <QuestAveragePawnMood>TODO</QuestAveragePawnMood>
+  <!-- EN: The average mood of {0} over the previous {1} -->
+  <QuestAveragePawnMoodTargets>TODO</QuestAveragePawnMoodTargets>
+  <!-- EN: Shuttle arrives in {0} -->
+  <ShuttleArrivesIn>TODO</ShuttleArrivesIn>
+  <!-- EN: Shuttle arrives on {0} -->
+  <ShuttleArrivesOn>TODO</ShuttleArrivesOn>
+  <!-- EN: Shuttle departs in {0} -->
+  <ShuttleDepartsIn>TODO</ShuttleDepartsIn>
+  <!-- EN: Shuttle departs on {0} -->
+  <ShuttleDepartsOn>TODO</ShuttleDepartsOn>
+  <!-- EN: Guests depart in {0} -->
+  <GuestsDepartsIn>TODO</GuestsDepartsIn>
+  <!-- EN: Guests depart on {0} -->
+  <GuestsDepartsOn>TODO</GuestsDepartsOn>
+  <!-- EN: Finished {0} ago -->
+  <QuestFinishedAgo>TODO</QuestFinishedAgo>
+  <!-- EN: Accept quest -->
+  <AcceptQuest>TODO</AcceptQuest>
+  <!-- EN: Accept with {0_labelShort} -->
+  <AcceptWith>TODO</AcceptWith>
+  <!-- EN: Accept for -->
+  <AcceptQuestFor>TODO</AcceptQuestFor>
+  <!-- EN: Click to accept this quest for this reward. -->
+  <AcceptQuestForTip>TODO</AcceptQuestForTip>
+  <!-- EN: The offer expired. -->
+  <QuestOutcomeInfo_OfferExpired>TODO</QuestOutcomeInfo_OfferExpired>
+  <!-- EN: You completed this quest. -->
+  <QuestOutcomeInfo_UnknownOrSuccess>TODO</QuestOutcomeInfo_UnknownOrSuccess>
+  <!-- EN: You failed this quest. -->
+  <QuestOutcomeInfo_Failed>TODO</QuestOutcomeInfo_Failed>
+  <!-- EN: This quest became invalid before it was accepted. -->
+  <QuestOutcomeInfo_Invalid>TODO</QuestOutcomeInfo_Invalid>
+  <!-- EN: Jump to {0} -->
+  <JumpToTargetCustom>TODO</JumpToTargetCustom>
+  <!-- EN: Select hives -->
+  <SelectHiveTargets>TODO</SelectHiveTargets>
+  <!-- EN: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->
+  <QuestChallengeRatingTip>TODO</QuestChallengeRatingTip>
+  <!-- EN: To accept this quest, you need -->
+  <QuestAcceptanceRequirementsDescription>TODO</QuestAcceptanceRequirementsDescription>
+  <!-- EN: free bedrooms that satisfy the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfied>TODO</QuestBedroomRequirementsUnsatisfied>
+  <!-- EN: a free bedroom that satisfies the title requirements of -->
+  <QuestBedroomRequirementsUnsatisfiedSingle>TODO</QuestBedroomRequirementsUnsatisfiedSingle>
+  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <QuestThroneRoomRequirementsUnsatisfied>TODO</QuestThroneRoomRequirementsUnsatisfied>
+  <!-- EN: assign a throne for {PAWN_definite} -->
+  <QuestNoThroneRoom>TODO</QuestNoThroneRoom>
+  <!-- EN: a colonist with the title of {0} -->
+  <QuestNoColonistWithTitle>TODO</QuestNoColonistWithTitle>
+  <!-- EN: {PAWN_definite} to be in your home colony -->
+  <QuestPawnNotOnColonyMap>TODO</QuestPawnNotOnColonyMap>
+  <!-- EN: the map clear of enemies of the bestower's faction -->
+  <QuestRequiresNoDangerOnMap>TODO</QuestRequiresNoDangerOnMap>
+  <!-- EN: to finish the ongoing bestowing ceremony quest -->
+  <QuestCanNotStartUntilBestowingCeremonyFinished>TODO</QuestCanNotStartUntilBestowingCeremonyFinished>
+  <!-- EN: Reward preferences -->
+  <ChooseRewards>TODO</ChooseRewards>
+  <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
+  <ChooseRewardsDesc>TODO</ChooseRewardsDesc>
+  <!-- EN: Accept {FACTION_royalFavorLabel} -->
+  <AcceptRoyalFavor>TODO</AcceptRoyalFavor>
+  <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
+  <AcceptRoyalFavorDesc>TODO</AcceptRoyalFavorDesc>
+  <!-- EN: Accept goodwill -->
+  <AcceptGoodwill>TODO</AcceptGoodwill>
+  <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
+  <AcceptGoodwillDesc>TODO</AcceptGoodwillDesc>
+  <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOn>TODO</RoyalFavorOn>
+  <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
+  <RoyalFavorOff>TODO</RoyalFavorOff>
+  <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
+  <GoodwillTip>TODO</GoodwillTip>
+  <!-- EN: {0_labelShort} joins -->
+  <PawnQuestReward>TODO</PawnQuestReward>
+  <!-- EN: Betrayal offer: {0} targets remain -->
+  <QuestBetrayalOffer>TODO</QuestBetrayalOffer>
+  <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
+  <QuestBetrayalOfferTip>TODO</QuestBetrayalOfferTip>
+  <!-- EN: a colony wealth of at least {0} -->
+  <QuestRequiredPlayerWealth>TODO</QuestRequiredPlayerWealth>
+  <!-- EN: alliance with {0} -->
+  <QuestAlliedTo>TODO</QuestAlliedTo>
+  <!-- EN: hostile to {0} -->
+  <QuestHostileTo>TODO</QuestHostileTo>
+  <!-- EN: neutral to {0} -->
+  <QuestNeutralTo>TODO</QuestNeutralTo>
+  <!-- EN: studied {0_labelShort} -->
+  <QuestRequiredThingStudied>TODO</QuestRequiredThingStudied>
+
+  <!-- Health tab -->
+  <!-- EN: Creates need -->
+  <CreatesNeed>TODO</CreatesNeed>
 
 </LanguageData>

@@ -8,7 +8,7 @@
   
   <!-- EN: door opening speed -->
   <DoorOpenSpeed.label>velocitat d’obertura de la porta</DoorOpenSpeed.label>
-  <!-- EN: The speed at which the door opens. Slow doors will slow down everyone who uses them. -->
+  <!-- EN: The speed at which the door opens when unpowered.\n\nSlow doors will slow down everyone who uses them. -->
   <DoorOpenSpeed.description>Velocitat a la qual s’obre la porta.</DoorOpenSpeed.description>
   
   <!-- EN: immunity gain speed factor -->
@@ -35,14 +35,14 @@
   
   <!-- EN: surgery success chance factor -->
   <SurgerySuccessChanceFactor.label>probabilitat d’èxit de la cirurgia</SurgerySuccessChanceFactor.label>
-  <!-- EN: A multiplier to the chance that a surgery will succeed when performed here. Surgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
+  <!-- EN: A multiplier to the chance that a surgery will succeed when performed here.\n\nSurgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
   <SurgerySuccessChanceFactor.description>Un multiplicador a la probabilitat que tingui èxit una operació que es faci aquí. La probabilitat d’èxit de la cirurgia també es veu afectada pel cirurgià i el tipus de medicina que es faci servir.</SurgerySuccessChanceFactor.description>
   <!-- EN: Room cleanliness -->
   <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>Grau de neteja de l’habitació</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
   
   <!-- EN: trap melee damage -->
   <TrapMeleeDamage.label>dany de la trampa</TrapMeleeDamage.label>
-  <!-- EN: How much damage this trap does on average. The actual damage in any instance will vary randomly. -->
+  <!-- EN: How much damage this trap does on average.\n\nThe actual damage in any instance will vary randomly. -->
   <TrapMeleeDamage.description>Quantitat de mal que fa normalment la trampa. El dany total real pot variar.</TrapMeleeDamage.description>
   
   <!-- EN: trap spring chance -->
@@ -62,7 +62,7 @@
   
   <!-- EN: work to build -->
   <WorkToBuild.label>feina per construir</WorkToBuild.label>
-  <!-- EN: The base amount of work it takes to build a structure, once all materials are gathered. -->
+  <!-- EN: The base amount of work it takes to build a structure, once all materials are gathered.\n\nThe work required to deconstruct the structure is also based on this. -->
   <WorkToBuild.description>Quantitat de feina que porta construir una estructura, un cop s’han dut els materials i les eines.</WorkToBuild.description>
   
 </LanguageData>

@@ -6,29 +6,48 @@
   <!-- EN: How long it takes to shoot after choosing a target. -->
   <AimingDelayFactor.description>Quant temps triga a disparar des que comença a apuntar.</AimingDelayFactor.description>
   
+  <!-- EN: incoming damage multiplier -->
+  <IncomingDamageFactor.label>TODO</IncomingDamageFactor.label>
+  <!-- EN: A multiplier on all incoming damage. -->
+  <IncomingDamageFactor.description>TODO</IncomingDamageFactor.description>
+  
   <!-- EN: melee armor penetration -->
   <MeleeArmorPenetration.label>penetració d’armadura en cos a cos</MeleeArmorPenetration.label>
-  <!-- EN: Average armor penetration of all attacks in melee combat. This stat includes currently used weapon. -->
+  <!-- EN: Average armor penetration of all attacks in melee combat.\n\nThis stat includes currently used weapon. -->
   <MeleeArmorPenetration.description>Penetració mitjana dels atacs en combat cos a cos. Té en compte l’arma actual</MeleeArmorPenetration.description>
   
   <!-- EN: melee dodge chance -->
   <MeleeDodgeChance.label>probabilitat d’esquivar cos a cos</MeleeDodgeChance.label>
-  <!-- EN: Chance to dodge a melee attack that would've otherwise hit. Characters will not dodge while aiming or firing a ranged weapon. -->
+  <!-- EN: Chance to dodge a melee attack that would've otherwise hit.\n\nCharacters will not dodge while aiming or firing a ranged weapon. -->
   <MeleeDodgeChance.description>Probabilitat d’esquivar un atac cos a cos que d’altra manera seria un cop. Els caràcters no esquiven si estan apuntant o disparant un arma a distància.</MeleeDodgeChance.description>
   
   <!-- EN: melee DPS -->
   <MeleeDPS.label>DPS cop a cop</MeleeDPS.label>
-  <!-- EN: Average damage per second in melee combat. This stat ignores target defenses like dodging and armor. -->
+  <!-- EN: Average damage per second in melee combat.\n\nThis stat ignores target defenses like dodging and armor. -->
   <MeleeDPS.description>Dany mitjà per segon en combat cos a cos. Aquest valor no té en compte la defensa de l’objectiu com ara esquivar i armadura.</MeleeDPS.description>
   
   <!-- EN: melee hit chance -->
   <MeleeHitChance.label>probabilitat de cop cos a cos</MeleeHitChance.label>
-  <!-- EN: Chance to hit a target in melee. The target can still dodge even if we would've hit. -->
+  <!-- EN: Chance to hit a target in melee.\n\nThe target can still dodge even if we would've hit. -->
   <MeleeHitChance.description>Probabilitat de tocar l’objectiu en combat cos a cos. Encara que el cop sigui bó, l’objectiu encara pot esquivar.</MeleeHitChance.description>
+  
+  <!-- EN: Mortar miss radius multiplier -->
+  <MortarMissRadiusFactor.label>TODO</MortarMissRadiusFactor.label>
+  <!-- EN: A multiplier on the miss radius of a mortar used by this person. Smaller numbers means more accurate mortar shells. -->
+  <MortarMissRadiusFactor.description>TODO</MortarMissRadiusFactor.description>
+  <!-- EN: Mortar miss radius multiplier -->
+  <MortarMissRadiusFactor.labelForFullStatList>TODO</MortarMissRadiusFactor.labelForFullStatList>
+  
+  <!-- EN: trap spring chance -->
+  <PawnTrapSpringChance.label>TODO</PawnTrapSpringChance.label>
+  <!-- EN: Chance to spring a trap the character is unaware of. -->
+  <PawnTrapSpringChance.description>TODO</PawnTrapSpringChance.description>
   
   <!-- EN: shooting accuracy -->
   <ShootingAccuracyPawn.label>punteria disparant</ShootingAccuracyPawn.label>
-  <!-- EN: Base chance to not miss per cell of shot distance. Chance to hit is also affected by many other factors. A hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
+  <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors.\n\nA hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
   <ShootingAccuracyPawn.description>probabilitat base d’encertar per cel·la de distància. La probabilitat també es veu afectada per molts altres factors. Podeu veure l’explicació de la probabilitat d’un tret seleccionant el personatge que dispara i posant el ratolí sobre l’objectiu que voleu mesurar.</ShootingAccuracyPawn.description>
+  <!-- EN: shooting accuracy (people) -->
+  <ShootingAccuracyPawn.labelForFullStatList>TODO</ShootingAccuracyPawn.labelForFullStatList>
   
 </LanguageData>

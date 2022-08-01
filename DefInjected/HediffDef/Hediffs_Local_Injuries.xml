@@ -3,6 +3,8 @@
   
   <!-- EN: bite -->
   <Bite.label>una mossegada</Bite.label>
+  <!-- EN: A bite wound. -->
+  <Bite.description>TODO</Bite.description>
   <!-- EN: set -->
   <Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglada</Bite.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -22,11 +24,13 @@
   
   <!-- EN: bruise -->
   <Bruise.label>un cop</Bruise.label>
+  <!-- EN: A bruise. -->
+  <Bruise.description>TODO</Bruise.description>
   <!-- EN: set -->
   <Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Bruise.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Bruise.comps.HediffComp_TendDuration.labelTendedWell>embenat</Bruise.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: sutured -->
+  <!-- EN: tended -->
   <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>cosit</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: Destroyed -->
   <Bruise.injuryProps.destroyedLabel>Destrucció</Bruise.injuryProps.destroyedLabel>
@@ -37,11 +41,13 @@
   
   <!-- EN: burn -->
   <Burn.label>una cremada</Burn.label>
-  <!-- EN: set -->
+  <!-- EN: A burn. -->
+  <Burn.description>TODO</Burn.description>
+  <!-- EN: tended -->
   <Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglada</Burn.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Burn.comps.HediffComp_TendDuration.labelTendedWell>embenada</Burn.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: sutured -->
+  <!-- EN: tended -->
   <Burn.comps.HediffComp_TendDuration.labelTendedWellInner>cosida</Burn.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: burn scar -->
   <Burn.comps.HediffComp_GetsPermanent.permanentLabel>cicatriu de cremada</Burn.comps.HediffComp_GetsPermanent.permanentLabel>
@@ -54,13 +60,30 @@
   <!-- EN: {0} in the {1} -->
   <Burn.labelNounPretty>{0} a {1}</Burn.labelNounPretty>
   
+  <!-- EN: chemical burn -->
+  <ChemicalBurn.label>TODO</ChemicalBurn.label>
+  <!-- EN: A chemical burn. -->
+  <ChemicalBurn.description>TODO</ChemicalBurn.description>
+  <!-- EN: chemical burn scar -->
+  <ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>TODO</ChemicalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off (chemical) -->
+  <ChemicalBurn.injuryProps.destroyedLabel>TODO</ChemicalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out (chemical) -->
+  <ChemicalBurn.injuryProps.destroyedOutLabel>TODO</ChemicalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: a chemical burn -->
+  <ChemicalBurn.labelNoun>TODO</ChemicalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ChemicalBurn.labelNounPretty>TODO</ChemicalBurn.labelNounPretty>
+  
   <!-- EN: crack -->
   <Crack.label>un trencament</Crack.label>
+  <!-- EN: A crack. -->
+  <Crack.description>TODO</Crack.description>
   <!-- EN: set -->
   <Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Crack.comps.HediffComp_TendDuration.labelSolidTendedWell>
-  <!-- EN: healed -->
+  <!-- EN: set -->
   <Crack.comps.HediffComp_TendDuration.labelTendedWell>curat</Crack.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: healed -->
+  <!-- EN: set -->
   <Crack.comps.HediffComp_TendDuration.labelTendedWellInner>curat</Crack.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: permanent crack -->
   <Crack.comps.HediffComp_GetsPermanent.permanentLabel>trencament permanent</Crack.comps.HediffComp_GetsPermanent.permanentLabel>
@@ -73,6 +96,8 @@
   
   <!-- EN: crush -->
   <Crush.label>un esclafament</Crush.label>
+  <!-- EN: A crushing wound. -->
+  <Crush.description>TODO</Crush.description>
   <!-- EN: set -->
   <Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Crush.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -90,6 +115,8 @@
   
   <!-- EN: cut -->
   <Cut.label>un tall</Cut.label>
+  <!-- EN: A cut. -->
+  <Cut.description>TODO</Cut.description>
   <!-- EN: set -->
   <Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Cut.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -107,13 +134,24 @@
   <!-- EN: {0} in the {1} -->
   <Cut.labelNounPretty>{0} a {1}</Cut.labelNounPretty>
   
+  <!-- EN: cut -->
+  <ExecutionCut.label>TODO</ExecutionCut.label>
+  <!-- EN: A cut made during execution. -->
+  <ExecutionCut.description>TODO</ExecutionCut.description>
+  <!-- EN: a cut -->
+  <ExecutionCut.labelNoun>TODO</ExecutionCut.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ExecutionCut.labelNounPretty>TODO</ExecutionCut.labelNounPretty>
+  
   <!-- EN: frostbite -->
   <Frostbite.label>una congelació</Frostbite.label>
-  <!-- EN: set -->
+  <!-- EN: Frozen tissue caused by exposure to cold without adequate protection. Frostbite is very painful, and frostbitten body parts are often lost. -->
+  <Frostbite.description>TODO</Frostbite.description>
+  <!-- EN: tended -->
   <Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglada</Frostbite.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Frostbite.comps.HediffComp_TendDuration.labelTendedWell>embenada</Frostbite.comps.HediffComp_TendDuration.labelTendedWell>
-  <!-- EN: sutured -->
+  <!-- EN: tended -->
   <Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>cosida</Frostbite.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: frostbite scar -->
   <Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>cicatriu de congelació</Frostbite.comps.HediffComp_GetsPermanent.permanentLabel>
@@ -124,6 +162,8 @@
   
   <!-- EN: gunshot -->
   <Gunshot.label>un tret</Gunshot.label>
+  <!-- EN: A gunshot wound. -->
+  <Gunshot.description>TODO</Gunshot.description>
   <!-- EN: set -->
   <Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Gunshot.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -145,12 +185,16 @@
   
   <!-- EN: misc -->
   <Misc.label>una ferida</Misc.label>
+  <!-- EN: Miscellanous injuries. -->
+  <Misc.description>TODO</Misc.description>
   <!-- EN: set -->
   <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
   <Misc.comps.HediffComp_TendDuration.labelTendedWell>embenat</Misc.comps.HediffComp_TendDuration.labelTendedWell>
   <!-- EN: sutured -->
   <Misc.comps.HediffComp_TendDuration.labelTendedWellInner>cosit</Misc.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: scar -->
+  <Misc.comps.HediffComp_GetsPermanent.permanentLabel>TODO</Misc.comps.HediffComp_GetsPermanent.permanentLabel>
   <!-- EN: Destroyed -->
   <Misc.injuryProps.destroyedLabel>Destrucció</Misc.injuryProps.destroyedLabel>
   <!-- EN: an injury -->
@@ -160,6 +204,8 @@
   
   <!-- EN: missing body part -->
   <MissingBodyPart.label>part del cos que falta</MissingBodyPart.label>
+  <!-- EN: A body part is entirely missing. -->
+  <MissingBodyPart.description>TODO</MissingBodyPart.description>
   <!-- EN: a missing body part -->
   <MissingBodyPart.labelNoun>una part del cos que falta</MissingBodyPart.labelNoun>
   <!-- EN: missing a {1} -->
@@ -167,6 +213,8 @@
   
   <!-- EN: scratch -->
   <Scratch.label>una esgarrapada</Scratch.label>
+  <!-- EN: A scratch or tear. -->
+  <Scratch.description>TODO</Scratch.description>
   <!-- EN: set -->
   <Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglada</Scratch.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -186,6 +234,8 @@
   
   <!-- EN: shredded -->
   <Shredded.label>un esquinç</Shredded.label>
+  <!-- EN: A part of the body has been shredded and torn. -->
+  <Shredded.description>TODO</Shredded.description>
   <!-- EN: set -->
   <Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Shredded.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -205,6 +255,8 @@
   
   <!-- EN: stab -->
   <Stab.label>un apunyalament</Stab.label>
+  <!-- EN: A stab wound. -->
+  <Stab.description>TODO</Stab.description>
   <!-- EN: set -->
   <Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</Stab.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->
@@ -224,6 +276,8 @@
   
   <!-- EN: surgical cut -->
   <SurgicalCut.label>un tall quirúrgic</SurgicalCut.label>
+  <!-- EN: A cut made during surgery. -->
+  <SurgicalCut.description>TODO</SurgicalCut.description>
   <!-- EN: set -->
   <SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>arreglat</SurgicalCut.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <!-- EN: bandaged -->

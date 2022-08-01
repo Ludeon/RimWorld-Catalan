@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: Animals don't attack doors -->
+  <!-- EN: Animals will attack doors -->
   <AnimalsDontAttackDoors.label>Els animals no ataquen les portes</AnimalsDontAttackDoors.label>
-  <!-- EN: Manhunting animals generally won't attack doors or inactive turrets.\n\nYou can escape them by getting inside or behind a wall. But they'll wait for you. -->
+  <!-- EN: Manhunting animals will attack doors if they see one of your colonists moving through them. They will also attack inactive turrets. -->
   <AnimalsDontAttackDoors.helpText>Els animals caça-persones no solen atacar les portes ni les metralladores inactives.\n\nPodeu escapar-ne entrant dins d'algun lloc, però us seguiran esperant.</AnimalsDontAttackDoors.helpText>
   
   <!-- EN: Bills tab -->
@@ -20,6 +20,8 @@
   <Capturing.label>Capturar</Capturing.label>
   <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, right-click on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
   <Capturing.helpText>Quan heu abatut un enemic i està a terra malferit, però encara és viu, el podeu CAPTURAR.\n\nPer capturar-lo, seleccioneu un colon, feu clic dret sobre l'enemic incapacitat i trieu «Captura».\n\nNecessiteu un llit buit marcat com a llit de presoners.</Capturing.helpText>
+  <!-- EN: When an enemy is downed on the ground but not dead, you can CAPTURE them.\n\nTo capture, select a colonist, press the left trigger button on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use. -->
+  <Capturing.helpTextController>TODO</Capturing.helpTextController>
   
   <!-- EN: Door opening speeds -->
   <DoorOpenSpeed.label>Velocitat d'obertura de les portes</DoorOpenSpeed.label>
@@ -43,18 +45,29 @@
   
   <!-- EN: Drug policies -->
   <DrugPolicies.label>Política de drogues</DrugPolicies.label>
-  <!-- EN: You can assign colonists to take specific drugs on a specific schedule. For example, you can make them take anti-malaria drugs regularly, or drink a beer a day to stay happy.\n\nOpen the ASSIGN tab and press the 'Manage drug policies' button. Create a new drug policy. Then, you can assign this policy to colonists.\n\nColonists can still take drugs not in their policy. You can tell them what to do, but they also follow their own desires! -->
+  <!-- EN: You can assign colonists to take specific drugs on a specific schedule. For example, you can make them take infection-blocking drugs regularly, or drink a beer a day to stay happy.\n\nOpen the ASSIGN tab and press the 'Manage drug policies' button. Create a new drug policy. Then, you can assign this policy to colonists.\n\nColonists can still take drugs not in their policy. You can tell them what to do, but they also follow their own desires! -->
   <DrugPolicies.helpText>Podeu dir als vostres colons que prenguin un tipus de droga especific en un horari concret. Per exemple, podeu dir-los que prenguin regularment la profilaxi de la malària, o beguin cervesa un cop al dia perquè estiguin contents.\n\nObriu la pestanya «Assignacions» i premeu «Gestiona política de drogues». Creeu una política de drogues nova. Després assigneu-la als colons.\n\nEls colons poden prendre drogues que no formin part de la seva política. Els podeu dir el que voleu que facin, però ells faran el que voldran!!</DrugPolicies.helpText>
+  
+  <!-- EN: Positioning fighters -->
+  <GroupGotoHereDragging.label>TODO</GroupGotoHereDragging.label>
+  <!-- EN: Right-click and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit! -->
+  <GroupGotoHereDragging.helpText>TODO</GroupGotoHereDragging.helpText>
+  <!-- EN: Hold the left trigger button and drag to have your drafted fighters form a line.\n\nSpread out - bunched-up targets are easy to hit! -->
+  <GroupGotoHereDragging.helpTextController>TODO</GroupGotoHereDragging.helpTextController>
   
   <!-- EN: Interacting with traders -->
   <InteractingWithTraders.label>Interactuar amb els comerciants</InteractingWithTraders.label>
   <!-- EN: You can talk to people with ? over their heads.\n\nSelect a colonist and right-click on the character with ? attached to his head. -->
   <InteractingWithTraders.helpText>Podeu parlar amb la gent que té un «?» Sobre el cap.\n\nSeleccioneu un colon i feu clic dret al personatge que porta el «?» al cap.</InteractingWithTraders.helpText>
+  <!-- EN: You can talk to people with ? over their heads.\n\nSelect a colonist and press the left trigger button on the character with ? attached to his head. -->
+  <InteractingWithTraders.helpTextController>TODO</InteractingWithTraders.helpTextController>
   
   <!-- EN: Using the comms console -->
   <OpeningComms.label>Emprar la consola de comunicacions</OpeningComms.label>
   <!-- EN: To communicate, select a colonist and right-click on the comms console. -->
   <OpeningComms.helpText>Per comunicar-se, seleccioneu un colon i feu clic dret sobre la consola de comunicacions.</OpeningComms.helpText>
+  <!-- EN: To communicate, select a colonist and press the left trigger button on the comms console. -->
+  <OpeningComms.helpTextController>TODO</OpeningComms.helpTextController>
   
   <!-- EN: Prisoner tab -->
   <PrisonerTab.label>Pestanya de presoner</PrisonerTab.label>
@@ -65,6 +78,8 @@
   <QueueOrders.label>cua d’ordres</QueueOrders.label>
   <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding "shift". This also works when giving jobs to undrafted pawns. -->
   <QueueOrders.helpText>Quan doneu ordres als colons, en podeu donar vàries de seguides prement la tecla «majúscules». També funciona quan doneu ordres a colons que no estan reclutats.</QueueOrders.helpText>
+  <!-- EN: When giving commands to pawns, you can queue up multiple orders by holding {Key:QueueOrder}. This also works when giving jobs to undrafted pawns. -->
+  <QueueOrders.helpTextController>TODO</QueueOrders.helpTextController>
   
   <!-- EN: Reforming caravans -->
   <ReformCaravan.label>Refer caravanes</ReformCaravan.label>
@@ -73,8 +88,10 @@
   
   <!-- EN: Rescuing -->
   <Rescuing.label>Rescatar</Rescuing.label>
-  <!-- EN: To rescue a wounded person, select a healthy colonist and the right-click on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
+  <!-- EN: To rescue a wounded person, select a healthy colonist and then right-click on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
   <Rescuing.helpText>Per rescatar una persona ferida, seleccioneu un colon que no estigui de baixa i feu clic dret sobre el ferit.\n\nSi rescateu algú de fora de la colònia, no té per què afegir-s'hi. Poden marxar tranquil·lament quan estiguin curats. Si voleu assegurar-vos que s'afegeixen a la colònia, captureu-los i després convenceu-los.</Rescuing.helpText>
+  <!-- EN: To rescue a wounded person, select a healthy colonist and then press the left trigger button on the wounded one.\n\nIf you rescue a non-colonist, they won't necessarily join your colony. They may simply walk away after healing. If you want to guarantee that they join, capture them and recruit them. -->
+  <Rescuing.helpTextController>TODO</Rescuing.helpTextController>
   
   <!-- EN: Set what plant to grow -->
   <SetGrowingZonePlant.label>Indicar què cal plantar</SetGrowingZonePlant.label>

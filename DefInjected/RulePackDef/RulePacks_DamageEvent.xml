@@ -11,7 +11,6 @@
     <li>collapsed->caved in</li>
     <li>damaged_present->smashing</li>
     <li>damaged_present->bashing</li>
-    <li>damaged_present->clobbering</li>
     <li>damaged_present->bruising</li>
     <li>damaged_present->lacerating</li>
     <li>destroyed_present->shattering</li>
@@ -141,5 +140,25 @@
     <li>enveloped->ha engolit</li>
     <li>enveloped->ha rodejat</li>
   </DamageEvent_Tornado.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>damage_source->[spiketrap] stabbed</li>
+    <li>damage_source->[spiketrap] struck</li>
+    <li>damage_source->[spiketrap] launched at</li>
+    <li>spiketrap(p=3)->a spike trap</li>
+    <li>spiketrap(p=3)->the spike trap</li>
+    <li>spiketrap->spikes</li>
+    <li>spiketrap->a sharp trap</li>
+    <li>spiketrap->a spiky trap</li>
+    <li>damaged_present->perforating</li>
+    <li>damaged_present->spearing</li>
+    <li>damaged_present->penetrating</li>
+    <li>damaged_present->jabbing into</li>
+    <li>destroyed_present->tearing apart</li>
+    <li>destroyed_present->shredding</li>
+    <li>destroyed_present->eviscerating</li>
+    <li>destroyed_present->exploding</li>
+  -->
+  <DamageEvent_TrapSpike.rulePack.rulesStrings>TODO</DamageEvent_TrapSpike.rulePack.rulesStrings>
   
 </LanguageData>

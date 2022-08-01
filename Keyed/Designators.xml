@@ -21,6 +21,11 @@
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
   <DesignatorUninstallDesc>Desinstal·la per poder-lo canviar de lloc o vendre'l.</DesignatorUninstallDesc>
 
+  <!-- EN: Extract tree -->
+  <DesignatorExtractTree>TODO</DesignatorExtractTree>
+  <!-- EN: Extract this tree while keeping it alive so it can be replanted somewhere else. -->
+  <DesignatorExtractTreeDesc>TODO</DesignatorExtractTreeDesc>
+
   <!-- EN: Harvest -->
   <DesignatorHarvest>Collir</DesignatorHarvest>
   <!-- EN: Marks plants to be harvested for their food or other products. -->
@@ -116,6 +121,8 @@
   <DesignatorClearAreaAllowedDesc>Esborra un tros d'una zona permesa.\n\nLes zones permeses permeten definir àrees per assignar-les després als colons. Els colons no acceptaran tasques ni satisfaran les seves necessitats fora de la zona permesa.</DesignatorClearAreaAllowedDesc>
   <!-- EN: Manage areas... -->
   <ManageAreas>Gestor de zones...</ManageAreas>
+  <!-- EN: Manage auto-slaughter... -->
+  <ManageAutoSlaughter>TODO</ManageAutoSlaughter>
 
   <!-- EN: Create a zone where your colonists will try to grow a certain kind of plant. -->
   <DesignatorGrowingZoneDesc>Crea una plantació on els colons miraran de fer créixer un determinat tipus de planta.</DesignatorGrowingZoneDesc>
@@ -171,9 +178,19 @@
   <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>Domestica un animal salvatge.</DesignatorTameDesc>
 
+  <!-- EN: Release to wild -->
+  <DesignatorReleaseAnimalToWild>TODO</DesignatorReleaseAnimalToWild>
+  <!-- EN: Release an animal back into the wild. -->
+  <DesignatorReleaseAnimalToWildDesc>TODO</DesignatorReleaseAnimalToWildDesc>
+
+  <!-- EN: Study -->
+  <DesignatorStudy>TODO</DesignatorStudy>
+  <!-- EN: Study this object to learn more about it. -->
+  <DesignatorStudyDesc>TODO</DesignatorStudyDesc>
+
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
-  <UnchosenStuff>No has escollit materials</UnchosenStuff>
+  <UnchosenStuff>No has triat materials</UnchosenStuff>
   <!-- EN: Too close to map edge. -->
   <TooCloseToMapEdge>Massa a prop de la vora del mapa.</TooCloseToMapEdge>
   <!-- EN: Out of bounds. -->
@@ -196,10 +213,12 @@
   <IdenticalThingExists>Aquí ja hi ha la mateixa cosa.</IdenticalThingExists>
   <!-- EN: Identical blueprint already exists here. -->
   <IdenticalBlueprintExists>Aquí ja hi ha el mateix projecte.</IdenticalBlueprintExists>
-  <!-- EN: The terrain here cannot support this. -->
+  <!-- EN: {0_label} cannot be built on this terrain. -->
   <TerrainCannotSupport>A aquest terreny no se li pot fer això.</TerrainCannotSupport>
-  <!-- EN: {0_label} requires terrain that can support: {1_label} -->
+  <!-- EN: {0_label} requires terrain that supports: {1_label} -->
   <TerrainCannotSupport_TerrainAffordance>{0_definite} necessita terreny que pugui suportar: {1_label}</TerrainCannotSupport_TerrainAffordance>
+  <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
+  <TerrainCannotSupport_TerrainAffordanceFromStuff>TODO</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->
   <SpaceAlreadyOccupied>L'espai ja està ocupat.</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->
@@ -208,6 +227,20 @@
   <TerrainMustBeRemovable>Heu de marcar un terra que es pugui treure.</TerrainMustBeRemovable>
   <!-- EN: The waterwheel must be on moving water. -->
   <MustBeOnMovingWater>El molí d’aigua s’ha de posar sobre aigua en moviment.</MustBeOnMovingWater>
+  <!-- EN: Interaction spot will overlap with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotWillOverlap>TODO</InteractionSpotWillOverlap>
+  <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
+  <InteractionSpotOverlaps>TODO</InteractionSpotOverlaps>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <CannotPlaceMonumentOver>TODO</CannotPlaceMonumentOver>
+  <!-- EN: Cannot build on: {0}. -->
+  <CannotPlaceMonumentOnTerrain>TODO</CannotPlaceMonumentOnTerrain>
+  <!-- EN: Cannot place monument over: {0}. -->
+  <MonumentOverlapsBuilding>TODO</MonumentOverlapsBuilding>
+  <!-- EN: Monument cannot be placed adjacent to: {0}. -->
+  <MonumentAdjacentToBuilding>TODO</MonumentAdjacentToBuilding>
+  <!-- EN: Cannot be planted here -->
+  <CannotBePlantedHere>TODO</CannotBePlantedHere>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
@@ -221,8 +254,12 @@
   <!-- EN: Construction needed -->
   <ConstructionNeeded>Falta construir</ConstructionNeeded>
   <!-- EN: None of your {0} have this skill. -->
-  <NoColonistWithConstructionSkillTip>Cap dels vostres {0} té prou nivell.</NoColonistWithConstructionSkillTip>
+  <NoColonistWithSkillTip>TODO</NoColonistWithSkillTip>
+  <!-- EN: {0} needed -->
+  <SkillNeededForConstructing>TODO</SkillNeededForConstructing>
+  <!-- EN: None of your {0} have all skills required. -->
+  <NoColonistWithAllSkillsForConstructing>TODO</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
-  <AllColonistsWithConstructionSkillHaveDisaledConstructingTip>Els vostres {0} que tenen prou nivell no estan assignats a {1}.</AllColonistsWithConstructionSkillHaveDisaledConstructingTip>
+  <AllColonistsWithSkillHaveDisabledConstructingTip>TODO</AllColonistsWithSkillHaveDisabledConstructingTip>
 
 </LanguageData>

@@ -10,6 +10,8 @@
   <AddBillSimpleMeal.rejectInputMessage>Afegiu un programa per cuinar racions senzilles a la cuina.</AddBillSimpleMeal.rejectInputMessage>
   <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and right-click the stove to prioritize building it. -->
   <AddBillSimpleMeal.text>Cal dir als colons què cal cuinar.\n\nLes comandes es fan a la cuina mateix. Un cop creada, els colons es posaran a treballar automàticament.\n\n1. Espereu que s'acabi de construir la cuina.\n2. Feu clic a la cuina per seleccionar-la.\n3. Obriu la pestanya CUINAR RACIONS SENZILLES al menú contextual.\n6. Feu clic al botó + per incrementar el número fins a 10.\n\nRecordeu, podeu incrementar el temps si triga massa.\n\nTambé podeu seleccionar un colon i fer clic dret sobre la cuina per prioritzar la construcció.</AddBillSimpleMeal.text>
+  <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and press left trigger button on the stove to prioritize building it. -->
+  <AddBillSimpleMeal.textController>TODO</AddBillSimpleMeal.textController>
   
   <!-- EN: Build an animal sleeping spot\ninside the room -->
   <BuildAnimalSleepingSpot.onMapInstruction>Construïu un lloc per dormir per animals\ndins la cambra</BuildAnimalSleepingSpot.onMapInstruction>
@@ -24,6 +26,8 @@
   <BuildBeds.rejectInputMessage>Construïu tres llits de fusta dins la cambra.</BuildBeds.rejectInputMessage>
   <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can use the {Key:Designator_RotateLeft} and {Key:Designator_RotateRight} keys to rotate the building. -->
   <BuildBeds.text>Ara els vostres colons construiran la cambra!\n\nEls cal un lloc per dormir. Poseu tres LLITS dins la cambra.\n\nEls trobareu a la categoria MOBLES.\n\nPodeu fer servir les tecles {Key:Designator_RotateLeft} i {Key:Designator_RotateRight} per girar l’objecte que voleu construir.</BuildBeds.text>
+  <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can rotate the building by pressing the rotate buttons on the left. -->
+  <BuildBeds.textController>TODO</BuildBeds.textController>
   
   <!-- EN: Build a fueled stove inside the room -->
   <BuildFueledStove.onMapInstruction>Construïu una cuina de llenya dins la cambra</BuildFueledStove.onMapInstruction>
@@ -79,14 +83,14 @@
   <!-- EN: You can control who does what kinds of work using the checkboxes. Colonists will do tasks in order, from left to right.\n\nTry changing some settings now.\n\nBeware - Colonists always follow their work priorities, even if this makes them do dumb things! Setting up a smart work regime is an important skill in RimWorld. So set the work settings carefully, and review them often! -->
   <ChangeWorkSettings.text>Podeu controlar qui fa cada cosa fent servir les caselles de selecció. Els colons prioritzaran les tasques ordenades d'esquerra a dreta.\n\nProveu de canviar ara la configuració.\n\nAlerta – Els colons sempre segueixen la prioritat de les tasques, encara que això suposi fer una ximpleria! Configurar el règim de treball de manera intel·ligent és la clau de l'èxit a RimWorld. Així que feu-ho amb cura, i reviseu-ho sovint!</ChangeWorkSettings.text>
   
-  <!-- EN: Please choose a temperate forest landing site with flat terrain. -->
-  <ChooseLandingSite.rejectInputMessage>Cal que escolliu un terreny pla amb bosc temperat.</ChooseLandingSite.rejectInputMessage>
-  <!-- EN: Here, you choose your landing site.\n\nThere are lots of biomes, but for now, let's start with a friendly one.\n\nClick a landing site with temperate forest biome and flat terrain, and click NEXT.\n\nYou can use the TERRAIN tab to view information about the selected tile. -->
-  <ChooseLandingSite.text>Aquí escolliu el lloc on aterrareu.\n\nHi ha una pila de biomes, però per ara, començarem amb un de poc rigorós.\n\nTrieu un lloc amb un bioma de bosc temperat i terreny pla i després feu clic a SEGÜENT.\n\nPodeu veure a la pestanya TERRENY la informació de la cel·la que teniu seleccionada.</ChooseLandingSite.text>
+  <!-- EN: Please choose a temperate forest site with no hills (light green with no brown dots). -->
+  <ChooseLandingSite.rejectInputMessage>Cal que trieu un terreny pla amb bosc temperat.</ChooseLandingSite.rejectInputMessage>
+  <!-- EN: Here you choose your starting site.\n\nClick a temperate forest (light green) with no brown hills. Then click NEXT.\n\nOptionally, you can use the TERRAIN tab to view information about the selected tile. -->
+  <ChooseLandingSite.text>Aquí trieu el lloc on aterrareu.\n\nHi ha una pila de biomes, però per ara, començarem amb un de poc rigorós.\n\nTrieu un lloc amb un bioma de bosc temperat i terreny pla i després feu clic a SEGÜENT.\n\nPodeu veure a la pestanya TERRENY la informació de la cel·la que teniu seleccionada.</ChooseLandingSite.text>
   
   <!-- EN: Please choose a storyteller in the Options menu to end the tutorial. -->
   <ChooseStoryteller.rejectInputMessage>Escolliu un narrador al menú opcions per acabar el tutorial.</ChooseStoryteller.rejectInputMessage>
-  <!-- EN: This is the end of the tutorial!\n\nThere's still tons more to learn, including prisoners, hunting, trade, animal taming, and much more. But you've got the basics down.\n\nRandom incidents were disabled during this tutorial. To begin the real game:\n\n1. Open the MENU tab in the bottom-right.\n2. Select OPTIONS.\n3. Click STORYTELLER SETTINGS.\n4. Select a storyteller and difficulty level that appeals to you.\n\nGood luck, and have fun. -->
+  <!-- EN: This is the end of the tutorial!\n\nThere's still tons more to learn, including prisoners, hunting, trade, animal taming, and much more. But you've got the basics down.\n\nRandom incidents were disabled during this tutorial. To begin the real game:\n\n1. Open the MENU tab in the bottom-right.\n2. Select OPTIONS.\n3. Click STORYTELLER SETTINGS.\n4. Select a storyteller and playstyle that appeals to you.\n\nGood luck, and have fun. -->
   <ChooseStoryteller.text>Aquí s'acaba el tutorial!\n\nEncara hi ha una moltíssimes coses per aprendre, com ara a tractar els presoners, caçar, comerciar, entrenar animals i moltes altres coses. Però ara ja coneixeu la base.\n\nEls incidents aleatoris estan deshabilitats durant el tutorial. Per començar a jugar de veritat:\n\n1. Obriu la pestanya MENÚ, a baix a la dreta.\n2. Seleccioneu OPCIONS.\n3. Feu clic a ESCOLLIU UN NARRADOR.\n4. Trieu el narrador i el nivell de dificultat que se us ajusti.\n\nBona sort i que us divertiu.</ChooseStoryteller.text>
   
   <!-- EN: Please drag the 'chop wood' designator over some trees. -->
@@ -94,18 +98,24 @@
   <!-- EN: You'll want to harvest some wood. Designate some trees to be chopped.\n\nSelect the CHOP WOOD designator and designate 10 trees to be chopped down.\n\n(Pro tip: You can drag a box over trees to designate several at once.) -->
   <ChopTrees.text>Necessitareu recollir una mica de fusta. Marqueu uns quants arbres per ser talats.\n\nSeleccioneu el marcador TALLAR FUSTA i marqueu 10 arbres que seran talats.\n\n(Consell avançat: Podeu fer clic i arrossegar un quadrat sobre els arbres per marcar-ne un grup sencer amb un sol gest.)</ChopTrees.text>
   
-  <!-- EN: Welcome to RimWorld! This tutorial will teach you how to play the game.\n\nThe first step is to generate a world to play in.\n\nThis page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
-  <CreateWorldParams.text>Benvingut a RimWorld! Aquest tutorial us ensenyarà a jugar.\n\nEl primer que cal fer és generar el món on jugareu.\n\Amb aquesta pàgina es configura de quina manera voleu que es generi.\n\nDe moment la configuració per defecte està bé. Feu clic a GENERA!</CreateWorldParams.text>
+  <!-- EN: Click GENERATE to generate your world. -->
+  <CreateWorldParams.rejectInputMessage>Feu clic a «Genera» per generar el món.</CreateWorldParams.rejectInputMessage>
+  <!-- EN: Welcome to RimWorld!\n\nThis page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
+  <CreateWorldParams.text>Us donem la benvinguda al RimWorld! Aquest tutorial us ensenyarà a jugar.\n\nEl primer que cal fer és generar el món on jugareu.\n\Amb aquesta pàgina es configura de quina manera voleu que es generi.\n\nDe moment la configuració per defecte està bé. Feu clic a GENERA!</CreateWorldParams.text>
   
   <!-- EN: Send colonists here\ntouching sandbags for cover -->
   <DownRaider.onMapInstruction>Envieu els colons aquí\na tocar dels sacs perquè es cobreixin</DownRaider.onMapInstruction>
   <!-- EN: Please focus on winning the fight! -->
   <DownRaider.rejectInputMessage>Concentreu-vos a guanyar la batalla!</DownRaider.rejectInputMessage>
-  <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Right-click to them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
+  <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Right-click to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
   <DownRaider.text>Ara enviarem un atacant a la colònia!\n\n1. Activeu la pausa prement {Key:TogglePause}!\n2. Llegiu la targeta vermella a la part de sota de la dreta de la pantalla.\n3. RECLUTEU els colons seleccionant-los primer i prement el botó RECLUTAR.\n4. Feu clic dret sobre la posició que voleu que ocupin, dins el quadrat de sacs de sorra, a tocar dels sacs.\n5. Tragueu la pausa.\n\nEls colons han d'estar a tocar de la cobertura per treure'n profit. Un cop a cobert, espereu que s'acosti l'atacant. Els colons li dispararan automàticament.</DownRaider.text>
+  <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Press left trigger button to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
+  <DownRaider.textController>TODO</DownRaider.textController>
   
   <!-- EN: Right-click to get out of stockpile designating mode. -->
   <EndStockpileDesignating.text>Feu clic dret per sortir del mode de designació de magatzem.</EndStockpileDesignating.text>
+  <!-- EN: Press left trigger button to get out of stockpile designating mode. -->
+  <EndStockpileDesignating.textController>TODO</EndStockpileDesignating.textController>
   
   <!-- EN: Equip this -->
   <EquipWeapons.onMapInstruction>Equipeu això</EquipWeapons.onMapInstruction>
@@ -113,6 +123,8 @@
   <EquipWeapons.rejectInputMessage>Feu que els vostres colons agafin una arma.</EquipWeapons.rejectInputMessage>
   <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Right-click the weapon you want to equip.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
   <EquipWeapons.text>Feu que els colons agafin les armes amb les que comenceu. Per equipar una arma:\n\n1. Feu clic a un colon per seleccionar-lo.\n2. Feu clic dret a l'arma que voleu que equipi.\n3. Feu clic a «Equipa arma» al menú contextual.\n\nFeu-ho amb cadascun dels colons.</EquipWeapons.text>
+  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press left trigger button.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
+  <EquipWeapons.textController>TODO</EquipWeapons.textController>
   
   <!-- EN: Please expand the build roof area a bit, just for practice. -->
   <ExpandAreaBuildRoof.rejectInputMessage>Amplieu la zona de teulada una mica, per practicar.</ExpandAreaBuildRoof.rejectInputMessage>
@@ -145,9 +157,13 @@
   
   <!-- EN: Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now! -->
   <MapCameraDolly.text>Ja sou a la superfície!\n\nProveu de moure la càmera.\n\nFeu servir les tecles {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}, o feu clic i arrossegueu amb el botó del mig del ratolí.\n\nProveu-ho ara!</MapCameraDolly.text>
+  <!-- EN: Here you are on the surface!\n\nNow try moving the camera around with the left joystick.\n\nTry it now! -->
+  <MapCameraDolly.textController>TODO</MapCameraDolly.textController>
   
   <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
   <MapCameraZoom.text>Perfecte!\n\ntambé podeu acostar-vos i allunyar-vos amb la roda del ratolí, o fent servir les tecles {Key:MapZoom_In} i {Key:MapZoom_Out}.\n\nProveu-ho ara!</MapCameraZoom.text>
+  <!-- EN: Great!\n\nYou can also zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}.\n\nTry it now! -->
+  <MapCameraZoom.textController>TODO</MapCameraZoom.textController>
   
   <!-- EN: Designate all this\nfor mining -->
   <MineSteel.onMapInstruction>Designeu aquesta zona\nper ser minada</MineSteel.onMapInstruction>
@@ -168,15 +184,17 @@
   
   <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right. -->
   <Pause.text>Podeu aturar el temps, així que no cal córrer. Sempre podeu posar la pausa i pensar bé quines ordres donar.\n\nProveu la pausa amb la tecla {Key:TogglePause}, o bé fent servir els controls del temps que hi ha a sota a la dreta.</Pause.text>
+  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} button, or by using the time controls in the bottom right. -->
+  <Pause.textController>TODO</Pause.textController>
   
-  <!-- EN: Please try randomizing a character first. -->
+  <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
   <RandomizeCharacter.rejectInputMessage>Proveu primer d'aleatoritzar un personatge.</RandomizeCharacter.rejectInputMessage>
-  <!-- EN: If you don't like a character, you can regenerate them!\n\nTry randomizing a character with the RANDOMIZE button. -->
+  <!-- EN: If you don't like a character, you can regenerate them!\n\nClick the RANDOMIZE button to randomize the character. -->
   <RandomizeCharacter.text>Si un personatge no us agrada el podeu tornar a generar!\n\nProveu d'aleatoritzar un personatge amb el botó ALEATORITZA.</RandomizeCharacter.text>
   
-  <!-- EN: Please try choosing a character first. -->
+  <!-- EN: Please drag a character from the "left behind" group (at the bottom-left) into the "selected" group (at the upper-left). -->
   <ReorderCharacters.rejectInputMessage>Proveu primer de triar un personatge.</ReorderCharacters.rejectInputMessage>
-  <!-- EN: Now you can choose characters!\n\nClick in the left area to select from available characters. If you find a character you like, drag them into the top section with the SELECTED label. -->
+  <!-- EN: Now you choose which characters you want to use.\n\nDRAG a character from the "left behind" part of the character list (at the bottom) into the "selected" part (at the top).\n\nOptionally, clicking a character will allow you inspect him or her. -->
   <ReorderCharacters.text>Ara podeu triar els personatges!\n\nFeu clic a l'esquerra per seleccionar entre els personatges disponibles. Si trobeu un personatge que us agrada, arrossegueu-lo a la secció superior que té l'etiqueta SELECCIONAT.</ReorderCharacters.text>
   
   <!-- EN: Please choose a research project. -->
@@ -190,20 +208,24 @@
   <SetToGrowRice.rejectInputMessage>Configureu la zona de plantació per plantar-hi arròs.</SetToGrowRice.rejectInputMessage>
   <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
   <SetToGrowRice.text>Podeu triar que han de plantar els vostres colons a la zona de plantació.\n\n1. Feu clic dret per sortir del mode arquitectura.\n2. Feu clic a la zona de plantació per seleccionar-la.\n3. Feu clic al botó «Planta patatera» de sota per canviar el que voleu plantar per ARRÒS.</SetToGrowRice.text>
+  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press left trigger button to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
+  <SetToGrowRice.textController>TODO</SetToGrowRice.textController>
   
   <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.text>També podeu accelerar el temps.\n\nProveu de controlar el temps amb les tecles {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, i {Key:TimeSpeed_Superfast}, o bé fent servir els controls del temps que hi ha a sota a la dreta.</TimeControls.text>
+  <!-- EN: You can also speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
+  <TimeControls.textController>TODO</TimeControls.textController>
   
   <!-- EN: Please un-draft your colonists. -->
   <UndraftAll.rejectInputMessage>Llicencieu els vostres colons.</UndraftAll.rejectInputMessage>
   <!-- EN: Success! Now UNDRAFT all your colonists using the same command as before.\n\nThis will let them return to their own schedules. -->
   <UndraftAll.text>Victòria! Ara LLICENCIEU els colons fent servir la mateixa comanda d'abans.\n\nTAixí podran tornar a les seves tasques respectives.</UndraftAll.text>
   
-  <!-- EN: Unforbid this -->
+  <!-- EN: Allow this -->
   <UnforbidStartingResources.onMapInstruction>Tragueu la prohibició d'això</UnforbidStartingResources.onMapInstruction>
-  <!-- EN: Please unforbid your starting items. -->
+  <!-- EN: Please allow your starting items. -->
   <UnforbidStartingResources.rejectInputMessage>Tragueu la prohibició dels vostres objectes inicials.</UnforbidStartingResources.rejectInputMessage>
-  <!-- EN: Now, to allow your colonists to bring your items to the stockpile, you must unforbid the items.\n\n1. Clicking your starting items to select them.\n2. Click the FORBID toggle button to unforbid them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.) -->
+  <!-- EN: To allow your colonists to bring your items to the stockpile, you must remove the items' "forbidden" designation.\n\n1. Clicking your starting items to select them.\n2. Click the ALLOW toggle button to allow them.\n\n(Pro tip: Double-click an item to select all on screen of the same type.)\n\nAlternatively, you can:\n1. Click ARCHITECT.\n2. Click ORDERS.\n3. Click ALLOW.\n4. Drag out a shape covering all forbidden items to allow them. -->
   <UnforbidStartingResources.text>Ara, per permetre que els colons portin les coses al magatzem, n'heu de treure la prohibició.\n\n1. Feu clic als objectes amb que comenceu per seleccionar-los.\n2. Feu clic a la comanda PROHIBIR per treure'n la prohibició.\n\n(consell avançat: Feu doble clic sobre un objecte per seleccionar tots els del mateix tipus que hi hagi a la pantalla.)</UnforbidStartingResources.text>
   
 </LanguageData>

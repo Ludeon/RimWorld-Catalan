@@ -16,16 +16,20 @@
   <LoadGame>Carrega una partida</LoadGame>
   <!-- EN: Options -->
   <Options>Opcions</Options>
+  <!-- EN: Mod -->
+  <Mod>Mod</Mod>
   <!-- EN: Mods -->
   <Mods>Mods</Mods>
   <!-- EN: Save translation report -->
-  <SaveTranslationReport>Desa l’informe de la traducció</SaveTranslationReport>
+  <SaveTranslationReport>Desa l’informe de traducció</SaveTranslationReport>
   <!-- EN: Generating translation report -->
-  <GeneratingTranslationReport>Es genera l’informe de la traducció</GeneratingTranslationReport>
+  <GeneratingTranslationReport>S'està generant l’informe de la traducció</GeneratingTranslationReport>
   <!-- EN: Cleanup translation files -->
-  <CleanupTranslationFiles>Netejar els fitxers de traducció</CleanupTranslationFiles>
+  <CleanupTranslationFiles>Neteja els fitxers de traducció</CleanupTranslationFiles>
+  <!-- EN: Update translations files (TKey's) -->
+  <TranslationFilesTKeyUpdate>Actualitza els fitxers de traducció (els TKey)</TranslationFilesTKeyUpdate>
   <!-- EN: Cleaning translation files -->
-  <CleaningTranslationFiles>Es netegen els fitxers de traducció</CleaningTranslationFiles>
+  <CleaningTranslationFiles>S'estan netejant els fitxers de traducció</CleaningTranslationFiles>
   <!-- EN: Credits -->
   <Credits>Crèdits</Credits>
   <!-- EN: Quit to main menu -->
@@ -33,11 +37,11 @@
   <!-- EN: Save and quit to menu -->
   <SaveAndQuitToMainMenu>Desa i surt al menú</SaveAndQuitToMainMenu>
   <!-- EN: Quit to OS -->
-  <QuitToOS>Surt al sistema</QuitToOS>
+  <QuitToOS>Surt del joc</QuitToOS>
   <!-- EN: Save and quit to OS -->
-  <SaveAndQuitToOS>Desa i surt al sistema</SaveAndQuitToOS>
+  <SaveAndQuitToOS>Desa i surt del joc</SaveAndQuitToOS>
   <!-- EN: Fiction primer -->
-  <FictionPrimer>Fiction primer</FictionPrimer>
+  <FictionPrimer>Introducció al RimWorld</FictionPrimer>
   <!-- EN: Ludeon blog -->
   <LudeonBlog>Blog de Ludeon</LudeonBlog>
   <!-- EN: Forums -->
@@ -49,23 +53,23 @@
   <!-- EN: Tynan's design book -->
   <TynansDesignBook>Llibre de disseny d'en Tynan</TynansDesignBook>
   <!-- EN: Help translate RimWorld -->
-  <HelpTranslate>Ajudeu a traduir RimWorld</HelpTranslate>
+  <HelpTranslate>Ajuda a traduir el RimWorld</HelpTranslate>
   <!-- EN: Buy soundtrack -->
-  <BuySoundtrack>Compreu la banda sonora</BuySoundtrack>
+  <BuySoundtrack>Compra la banda sonora</BuySoundtrack>
   <!-- EN: Create world -->
   <CreateWorld>Crea un món</CreateWorld>
 
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
-  <TranslationThanks>Totes les traduccions de RimWorld estan fetes per voluntaris. Aquesta traducció ha estat creada per:\n\n{0}</TranslationThanks>
+  <TranslationThanks>Les traduccions del RimWorld les han fet voluntaris. La traducció al català l'han realitzat:\n\n{0}</TranslationThanks>
   <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
-  <TranslationHowToContribute>Si voleu saber com conl·laborar, feu clic aquí sota (S’obre en un navegador)</TranslationHowToContribute>
+  <TranslationHowToContribute>Si voleu saber com podeu col·laborar, feu clic al botó de més avall (es mostrarà una pàgina web des d'un navegador).</TranslationHowToContribute>
   <!-- EN: Learn more -->
-  <LearnMore>En vull saber més</LearnMore>
+  <LearnMore>Mostra com col·laborar</LearnMore>
 
   <!-- Main menu dev build -->
   <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
-  <DevBuildWarning>Avís: Aquesta versió està en desenvolupament i és inestable. És a dir que encara estem fent proves de disseny i fent alguns desenvolupaments tècnics. És un sistema clàssic de desenvolupar jocs que consisteix a crear un gran desajust per veure quins són els efectes col·laterals. Llavors aprofitem aquesta informació per decidir quin serà l’ajust final.\n\nTambé podeu trobar errades, fins i tot alguna que faci petar el joc. La compatibilitat de les partides desades es pot trencar en qualsevol moment.\n\nSi accepteu aquestes condicions, gràcies per provar-ho! Si no voleu ser objecte dels nostres experiments, quedeu-vos amb l'última versió estable.</DevBuildWarning>
+  <DevBuildWarning>Avís: Aquesta versió està en desenvolupament i és inestable. És a dir que encara estem fent proves de disseny i fent desenvolupament tècnic.\n\nAlgunes parts del joc poden estar desequilibrades a posta. Això forma part d'un mètode clàssic per desenvolupar jocs que consisteix a crear un desajust important per veure quins són els seus efectes. Llavors, aprofitem aquesta informació per decidir quin serà l’ajust final.\n\nTambé podeu trobar errades, fins i tot alguna que faci penjar el joc. Les partides desades amb aquesta versió no són segures i potser no seran compatibles amb versions posteriors del joc.\n\nSi hi esteu d'acord, gràcies per testar aquesta versió de prova! Si no voleu ser objecte dels nostres experiments, quedeu-vos amb l'última versió estable.</DevBuildWarning>
 
   <!-- Create/review world -->
   <!-- EN: Review world -->
@@ -77,11 +81,13 @@
   <!-- EN: Reset -->
   <Reset>Reinicia</Reset>
   <!-- EN: Globe coverage -->
-  <PlanetCoverage>Cobertura del planeta</PlanetCoverage>
+  <PlanetCoverage>Superfície total</PlanetCoverage>
   <!-- EN: Overall rainfall -->
-  <PlanetRainfall>Pluja general</PlanetRainfall>
+  <PlanetRainfall>Precipitació mitjana</PlanetRainfall>
   <!-- EN: Overall temperature -->
-  <PlanetTemperature>Temperatura general</PlanetTemperature>
+  <PlanetTemperature>Temperatura mitjana</PlanetTemperature>
+  <!-- EN: Population -->
+  <PlanetPopulation>Població</PlanetPopulation>
   <!-- EN: Low -->
   <PlanetRainfall_Low>Baixa</PlanetRainfall_Low>
   <!-- EN: Normal -->
@@ -94,12 +100,18 @@
   <PlanetTemperature_Normal>Normal</PlanetTemperature_Normal>
   <!-- EN: High -->
   <PlanetTemperature_High>Elevada</PlanetTemperature_High>
+  <!-- EN: Sparse -->
+  <PlanetPopulation_Low>Escassa</PlanetPopulation_Low>
+  <!-- EN: Normal -->
+  <PlanetPopulation_Normal>Normal</PlanetPopulation_Normal>
+  <!-- EN: Crowded -->
+  <PlanetPopulation_High>Ple de gent</PlanetPopulation_High>
   <!-- EN: Seed -->
   <WorldSeed>Llavor</WorldSeed>
   <!-- EN: Randomize seed -->
-  <RandomizeSeed>Aleatoritza la llavor</RandomizeSeed>
-  <!-- EN: The planet is always the same diameter, but since it’s far larger than needed for play, we don’t generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
-  <PlanetCoverageTip>El planeta és sempre del mateix diàmetre, però com que és molt més gran del que es necessita per jugar, no cal generar tota la superfície i així estalvieu temps. Aquest és el percentatge de la superfície que voleu generar.</PlanetCoverageTip>
+  <RandomizeSeed>Genera una llavor aleatòria</RandomizeSeed>
+  <!-- EN: The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
+  <PlanetCoverageTip>El planeta té sempre el mateix diàmetre, però com que és molt més gran del que es necessita per jugar, no es genera tota la superfície i així s'estalvia temps. Aquest és el percentatge de la superfície que voleu generar.</PlanetCoverageTip>
   <!-- EN: Factions -->
   <WorldFactionsTab>Faccions</WorldFactionsTab>
 
@@ -113,13 +125,13 @@
   
   <!-- Version info -->
   <!-- EN: Version {0} is now available. Check ludeon.com for more info. -->
-  <BuildNowAvailable>Està disponible la versió {0}. Visiteu ludeon.com per obtenir més informació.</BuildNowAvailable>
+  <BuildNowAvailable>La versió {0} està disponible. Visiteu ludeon.com per obtenir més informació.</BuildNowAvailable>
   <!-- EN: This is the latest version. -->
-  <BuildUpToDate>Teniu la versió més actual</BuildUpToDate>
+  <BuildUpToDate>Teniu l'última versió disponible.</BuildUpToDate>
   <!-- EN: Error getting version info: {0} -->
-  <ErrorGettingVersionInfo>S'ha produït un error obtenir la informació de la versió: {0}</ErrorGettingVersionInfo>
+  <ErrorGettingVersionInfo>S'ha produït un error quan s'obtenia la informació de la versió: {0}</ErrorGettingVersionInfo>
   <!-- EN: Loading version info... -->
-  <LoadingVersionInfo>S'està descarregant la informació de la versió...</LoadingVersionInfo>
+  <LoadingVersionInfo>S'està carregant la informació de la versió...</LoadingVersionInfo>
 
   <!-- World generator -->
   <!-- EN: Generate world -->
@@ -127,51 +139,107 @@
 
   <!-- Mods config -->
   <!-- EN: Open Steam Workshop -->
-  <OpenSteamWorkshop>Obre el Workshop d'Steam</OpenSteamWorkshop>
+  <OpenSteamWorkshop>Obre el Workshop de l'Steam</OpenSteamWorkshop>
   <!-- EN: Get mods from forum -->
-  <GetModsFromForum>Obté mods del fòrum</GetModsFromForum>
+  <GetModsFromForum>Obtén mods del fòrum</GetModsFromForum>
   <!-- EN: Open mods data folder -->
   <OpenModsDataFolder>Obre la carpeta dels mods</OpenModsDataFolder>
   <!-- EN: Show mods data location -->
   <ShowModsDataLocation>Mostra la carpeta dels mods</ShowModsDataLocation>
   <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
-  <ConfirmDisableCoreMod>Esteu segur que voleu deshabilitar el mod nucli? El joc no funcionarà si no és que té un altre mod amb totes les funcionalitats del nucli.\n\nRecordeu que altres mods poden sobreescriure les definicions del mod nucli fent servir el mateix «defName».</ConfirmDisableCoreMod>
+  <ConfirmDisableCoreMod>Esteu segur que voleu desactivar el mod base? El joc no funcionarà si no disposa d'un altre mod que en reemplaci plenament la funcionalitat.\n\nRecordeu que altres mods poden sobreescriure les definicions del mod base fent servir el mateix «defName».</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>Esteu segur que voleu esborrar el contingut de {0}?</ConfirmDeleteMod>
+  <!-- EN: Auto-sort mods -->
+  <ResolveModOrder>Ordena automàticament els mods</ResolveModOrder>
+  <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
+  <ModReorderConflict_MustLoadAfter>{0} no es pot moure: S'ha de carregar després de {1}.</ModReorderConflict_MustLoadAfter>
+  <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
+  <ModReorderConflict_MustLoadBefore>{0} no es pot moure: S'ha de carregar després de {1}.</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Cancel·la la subscripció</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
-  <ConfirmUnsubscribe>Esteu segurs que voleu cancel·lar la subscripció a {0}?</ConfirmUnsubscribe>
+  <ConfirmUnsubscribe>Esteu segur que voleu cancel·lar la subscripció a {0}?</ConfirmUnsubscribe>
   <!-- EN: Author -->
   <Author>Autor</Author>
   <!-- EN: Workshop page -->
   <WorkshopPage>Pàgina del Workshop</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
-  <UploadToSteamWorkshop>Puja al Workshop d'Steam</UploadToSteamWorkshop>
+  <UploadToSteamWorkshop>Puja al Workshop</UploadToSteamWorkshop>
   <!-- EN: Update on Steam Workshop -->
-  <UpdateOnSteamWorkshop>Actualitza del Workshop d'Steam</UpdateOnSteamWorkshop>
+  <UpdateOnSteamWorkshop>Actualitza al Workshop</UpdateOnSteamWorkshop>
   <!-- EN: Upload already in progress. -->
   <UploadAlreadyInProgress>La pujada està en procés.</UploadAlreadyInProgress>
   <!-- EN: Workshop submission failed.\n\nReason: {0} -->
-  <WorkshopSubmissionFailed>Ha fallat el lliurament al Workshop.\n\nMotiu: {0}</WorkshopSubmissionFailed>
+  <WorkshopSubmissionFailed>L'enviament al Workshop ha fallat.\n\nMotiu: {0}</WorkshopSubmissionFailed>
   <!-- EN: Successfully uploaded {0}. -->
-  <WorkshopUploadSucceeded>{0} ha pujat correctament.</WorkshopUploadSucceeded>
+  <WorkshopUploadSucceeded>{0} s'ha pujat correctament.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
   <Downloading>Descarregant</Downloading>
+  <!-- EN: Display fulfilled requirements -->
+  <ModDisplayFulfilledRequirements>Mostra els requisits satisfets</ModDisplayFulfilledRequirements>
+  <!-- EN: Click to select. -->
+  <ModClickToSelect>Feu clic per seleccionar-ho.</ModClickToSelect>
+  <!-- EN: Click to go to website. -->
+  <ModClickToGoToWebsite>Feu clic per anar al lloc web.</ModClickToGoToWebsite>
   <!-- EN: Source -->
   <Source>Font</Source>
-  <!-- EN: For version: {0} -->
-  <ModTargetVersion>Per la versió: {0}</ModTargetVersion>
+  <!-- EN: For game version(s) -->
+  <ModTargetVersion>Compatible amb les versions:</ModTargetVersion>
+  <!-- EN: ID -->
+  <ModPackageId>Identificador</ModPackageId>
+  <!-- EN: This must be loaded before: {0}. -->
+  <ModMustLoadBefore>S'ha de carregar abans de {0}.</ModMustLoadBefore>
+  <!-- EN: This must be loaded after: {0}. -->
+  <ModMustLoadAfter>S'ha de carregar després de {0}.</ModMustLoadAfter>
+  <!-- EN: Depends on: {0} -->
+  <ModDependsOn>Necessita: {0}</ModDependsOn>
+  <!-- EN: Incompatible with: {0} -->
+  <ModIncompatibleWith>No és compatible amb: {0}</ModIncompatibleWith>
+  <!-- EN: This mod is incompatible with: {0}. -->
+  <ModIncompatibleWithTip>Aquest mod no és compatible amb {0}.</ModIncompatibleWithTip>
+  <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
+  <ModOrderingWarning>TODO</ModOrderingWarning>
+  <!-- EN: Another active mod uses the same ID: {0}. -->
+  <ModWithSameIdAlreadyActive>TODO</ModWithSameIdAlreadyActive>
+  <!-- EN: There is a cyclic mod dependency starting with {0}. -->
+  <ModCyclicDependency>TODO</ModCyclicDependency>
+  <!-- EN: This requires following mods to work: {0}. -->
+  <ModUnsatisfiedDependency>TODO</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>Aquest mod no està fet per aquesta versió de RimWorld i probablement no funcionarà correctament.</ModNotMadeForThisVersion>
-  <!-- EN: Mod needs a well-formatted target version in About.xml. Like this: <targetVersion>{0}</targetVersion>. -->
+  <!-- EN: This mod is not made for this version of RimWorld. -->
+  <ModNotMadeForThisVersionShort>TODO</ModNotMadeForThisVersionShort>
+  <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
+  <ModNotMadeForThisVersion_Newer>TODO</ModNotMadeForThisVersion_Newer>
+  <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>El Mod necessita una etiqueta de versió ben construïda a l'About.xml. Com ara: &lt;targetVersion>{0}&lt;/targetVersion>.</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
+  <MessageModNeedsWellFormattedPackageId>TODO</MessageModNeedsWellFormattedPackageId>
+  <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
+  <ModHadLoadFolderIssues>TODO</ModHadLoadFolderIssues>
+  <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
+  <ModLoadFolderDoesntExist>TODO</ModLoadFolderDoesntExist>
+  <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
+  <ModLoadFolderMalformedVersion>TODO</ModLoadFolderMalformedVersion>
+  <!-- EN: The list of load folders for version {0} is empty. -->
+  <ModLoadFolderListEmpty>TODO</ModLoadFolderListEmpty>
+  <!-- EN: Version {0} lists the same folder more than once: {1}. -->
+  <ModLoadFolderRepeatingFolder>TODO</ModLoadFolderRepeatingFolder>
+  <!-- EN: Invalid version order: {0} should come before {1}. -->
+  <ModLoadFolderOutOfOrder>TODO</ModLoadFolderOutOfOrder>
+  <!-- EN: Invalid version order: 'default' should be defined first. -->
+  <ModLoadFolderOutOfOrderDefault>TODO</ModLoadFolderOutOfOrderDefault>
+  <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
+  <ModLoadFolderDefaultDeprecated>TODO</ModLoadFolderDefaultDeprecated>
+  <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
+  <ModLoadFolderDefinesUnsupportedGameVersion>TODO</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>Arrossega per canviar d'ordre</DragToReorder>
-  
+
   <!-- Select scenario -->
   <!-- EN: Choose scenario -->
-  <ChooseScenario>Escolliu un escenari</ChooseScenario>
+  <ChooseScenario>Tria un escenari</ChooseScenario>
   <!-- EN: Custom -->
   <ScenariosCustom>Personalitzat</ScenariosCustom>
   <!-- EN: Steam Workshop -->
@@ -187,7 +255,7 @@
   <!-- EN: Load -->
   <Load>Carrega</Load>
   <!-- EN: edit mode -->
-  <EditMode>edit mode</EditMode>
+  <EditMode>mode d'edició</EditMode>
   <!-- EN: Summary -->
   <Summary>Resum</Summary>
   <!-- EN: Add part -->
@@ -200,6 +268,8 @@
   <ConfirmContentAuthor>Òbviament només hauríeu de pujar contingut que hàgiu creat vosaltres mateixos.\n\nHeu creat el contingut vosaltres mateixos?</ConfirmContentAuthor>
   <!-- EN: Incompatible -->
   <Incompatible>No és compatible</Incompatible>
+  <!-- EN: Tag as translation -->
+  <TagAsTranslation>TODO</TagAsTranslation>
   <!-- EN: Too many (max {0}):  -->
   <TooMany>Masses (max {0}): </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
@@ -211,7 +281,7 @@
   <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
   <HowStorytellersWork>La IA narradora crea esdeveniments com ara ràtzies de pirates, recursos que cauen o atacs d'animals. Les seves tries afectaran la història de la vostra colònia. Podeu canviar aquesta configuració en qualsevol moment.</HowStorytellersWork>
   <!-- EN: Please choose a difficulty setting. -->
-  <MustChooseDifficulty>Escolliu una dificultat.</MustChooseDifficulty>
+  <MustChooseDifficulty>Trieu la dificultat.</MustChooseDifficulty>
   <!-- EN: Difficulty -->
   <Difficulty>Dificultat</Difficulty>
   <!-- EN: Commitment mode -->
@@ -224,12 +294,176 @@
   <ReloadAnytimeModeInfo>Podeu desar la partida i tornar-la a carregar quan volgueu.\n\nEs una bona tria si esteu aprenent com funciona el joc, si s’ajusta més a la vostra manera de jugar, si empreu mods que poden fer petar el joc, o si voleu un aajuda per al mode compromès. </ReloadAnytimeModeInfo>
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
   <PermadeathModeInfo>Només podeu desar quan tanqueu la partida.\n\nCom que RimWorld és un generador d’històries, mentre us quedi un individu no s’acaba la partida, forma part de la història. El joc està dissenyat perquè us pugueu recuperar de les pèrdues.\n\nJugar en les situacions dolentes fa quan la història sigui tant tràgica com triomfal. És la manera de jugar en què s’ha dissenyat RimWorld.\n\n Per això en Lucke Skywalker no va tornar a començar quan van matar la seva família, perdre i recuperar-se crea dramatisme.</PermadeathModeInfo>
-  <!-- EN: Storyteller and difficulty can be changed any time. -->
+  <!-- EN: Storyteller and playstyle can be changed any time. -->
   <CanChangeStorytellerSettingsDuringPlay>La dificultat i la IA narradora es pode canviar en qualsevol moment. </CanChangeStorytellerSettingsDuringPlay>
-  <!-- EN: Merciless mode -->
-  <UnlockExtremeDifficulty>Mode cruel</UnlockExtremeDifficulty>
-  <!-- EN: Merciless mode is a special game mode where every challenge is turned up to extreme levels.\n\nMerciless mode unlocks automatically when you reach specific milestones. However, you can unlock it now.\n\nThis option is only recommended once you've played a high-difficulty game or two and want to have a good chance at dying despite your best efforts. -->
-  <ConfirmUnlockExtremeDifficulty>El mode cruel fa que tots els reptes es presentin en un nivell extrem.\n\nAquest mode s’activa automàticament quan arribeu a certs objectius, però si voleu, el podeu activar ara.\n\nNomés està recomanada a jugadors que han jugat en dificultat extrema i volen tenir una pila d’oportunitats per morir malgrat el seu esforç. </ConfirmUnlockExtremeDifficulty>
+
+  <!-- custom difficulty settings -->
+  <!-- EN: Custom playstyle settings -->
+  <DifficultyCustomSectionLabel>TODO</DifficultyCustomSectionLabel>
+  <!-- EN: Set to standard playstyle... -->
+  <DifficultyReset>TODO</DifficultyReset>
+  
+  <!-- EN: Threats -->
+  <DifficultyThreatSection>TODO</DifficultyThreatSection>
+  <!-- EN: Threat scale -->
+  <Difficulty_ThreatScale_Label>TODO</Difficulty_ThreatScale_Label>
+  <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
+  <Difficulty_ThreatScale_Info>TODO</Difficulty_ThreatScale_Info>
+  <!-- EN: Major threats -->
+  <Difficulty_AllowBigThreats_Label>TODO</Difficulty_AllowBigThreats_Label>
+  <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
+  <Difficulty_AllowBigThreats_Info>TODO</Difficulty_AllowBigThreats_Info>
+  <!-- EN: Quest threats -->
+  <Difficulty_AllowViolentQuests_Label>TODO</Difficulty_AllowViolentQuests_Label>
+  <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
+  <Difficulty_AllowViolentQuests_Info>TODO</Difficulty_AllowViolentQuests_Info>
+  <!-- EN: Intro threats -->
+  <Difficulty_AllowIntroThreats_Label>TODO</Difficulty_AllowIntroThreats_Label>
+  <!-- EN: Enable the fixed intro threats that appear near game start. -->
+  <Difficulty_AllowIntroThreats_Info>TODO</Difficulty_AllowIntroThreats_Info>
+  <!-- EN: Predators hunt humans -->
+  <Difficulty_PredatorsHuntHumanlikes_Label>TODO</Difficulty_PredatorsHuntHumanlikes_Label>
+  <!-- EN: Allow wild predators to hunt humans. -->
+  <Difficulty_PredatorsHuntHumanlikes_Info>TODO</Difficulty_PredatorsHuntHumanlikes_Info>
+  <!-- EN: Extreme weather -->
+  <Difficulty_AllowExtremeWeatherIncidents_Label>TODO</Difficulty_AllowExtremeWeatherIncidents_Label>
+  <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
+  <Difficulty_AllowExtremeWeatherIncidents_Info>TODO</Difficulty_AllowExtremeWeatherIncidents_Info>
+
+  <!-- EN: Economy -->
+  <DifficultyEconomySection>TODO</DifficultyEconomySection>
+  <!-- EN: Trade price disadvantage -->
+  <Difficulty_TradePriceFactorLoss_Label>TODO</Difficulty_TradePriceFactorLoss_Label>
+  <!-- EN: When trading, buy prices are increased by this amount while sell prices are reduced by this amount. -->
+  <Difficulty_TradePriceFactorLoss_Info>TODO</Difficulty_TradePriceFactorLoss_Info>
+  <!-- EN: Harvest yield -->
+  <Difficulty_CropYieldFactor_Label>TODO</Difficulty_CropYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees. -->
+  <Difficulty_CropYieldFactor_Info>TODO</Difficulty_CropYieldFactor_Info>
+  <!-- EN: Mining yield -->
+  <Difficulty_MineYieldFactor_Label>TODO</Difficulty_MineYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when mining. -->
+  <Difficulty_MineYieldFactor_Info>TODO</Difficulty_MineYieldFactor_Info>
+  <!-- EN: Butchering yield -->
+  <Difficulty_ButcherYieldFactor_Label>TODO</Difficulty_ButcherYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
+  <Difficulty_ButcherYieldFactor_Info>TODO</Difficulty_ButcherYieldFactor_Info>
+  <!-- EN: Research speed -->
+  <Difficulty_ResearchSpeedFactor_Label>TODO</Difficulty_ResearchSpeedFactor_Label>
+  <!-- EN: Adjust the speed of research. -->
+  <Difficulty_ResearchSpeedFactor_Info>TODO</Difficulty_ResearchSpeedFactor_Info>
+  <!-- EN: Quest rewards -->
+  <Difficulty_QuestRewardValueFactor_Label>TODO</Difficulty_QuestRewardValueFactor_Label>
+  <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
+  <Difficulty_QuestRewardValueFactor_Info>TODO</Difficulty_QuestRewardValueFactor_Info>
+  <!-- EN: Raid loot -->
+  <Difficulty_RaidLootPointsFactor_Label>TODO</Difficulty_RaidLootPointsFactor_Label>
+  <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
+  <Difficulty_RaidLootPointsFactor_Info>TODO</Difficulty_RaidLootPointsFactor_Info>
+  <!-- EN: Turret rearm cost -->
+  <Difficulty_MaintenanceCostFactor_Label>TODO</Difficulty_MaintenanceCostFactor_Label>
+  <!-- EN: Adjust the cost of rearming turrets. -->
+  <Difficulty_MaintenanceCostFactor_Info>TODO</Difficulty_MaintenanceCostFactor_Info>
+  <!-- EN: Scaria rot chance -->
+  <Difficulty_ScariaRotChance_Label>TODO</Difficulty_ScariaRotChance_Label>
+  <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
+  <Difficulty_ScariaRotChance_Info>TODO</Difficulty_ScariaRotChance_Info>
+  <!-- EN: Enemy death on downed -->
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>TODO</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
+  <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>TODO</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
+
+  <!-- EN: General -->
+  <DifficultyGeneralSection>TODO</DifficultyGeneralSection>
+  <!-- EN: Colonist mood -->
+  <Difficulty_ColonistMoodOffset_Label>TODO</Difficulty_ColonistMoodOffset_Label>
+  <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
+  <Difficulty_ColonistMoodOffset_Info>TODO</Difficulty_ColonistMoodOffset_Info>
+  <!-- EN: Food poison chance -->
+  <Difficulty_FoodPoisonChanceFactor_Label>TODO</Difficulty_FoodPoisonChanceFactor_Label>
+  <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
+  <Difficulty_FoodPoisonChanceFactor_Info>TODO</Difficulty_FoodPoisonChanceFactor_Info>
+  <!-- EN: Animal revenge chance -->
+  <Difficulty_ManhunterChanceOnDamageFactor_Label>TODO</Difficulty_ManhunterChanceOnDamageFactor_Label>
+  <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
+  <Difficulty_ManhunterChanceOnDamageFactor_Info>TODO</Difficulty_ManhunterChanceOnDamageFactor_Info>
+  <!-- EN: Friendly fire -->
+  <Difficulty_FriendlyFireChanceFactor_Label>TODO</Difficulty_FriendlyFireChanceFactor_Label>
+  <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
+  <Difficulty_FriendlyFireChanceFactor_Info>TODO</Difficulty_FriendlyFireChanceFactor_Info>
+  <!-- EN: Colonist instant kills -->
+  <Difficulty_AllowInstantKillChance_Label>TODO</Difficulty_AllowInstantKillChance_Label>
+  <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
+  <Difficulty_AllowInstantKillChance_Info>TODO</Difficulty_AllowInstantKillChance_Info>
+  <!-- EN: Infection chance -->
+  <Difficulty_PlayerPawnInfectionChanceFactor_Label>TODO</Difficulty_PlayerPawnInfectionChanceFactor_Label>
+  <!-- EN: Adjust the chance that a wound will become infected. -->
+  <Difficulty_PlayerPawnInfectionChanceFactor_Info>TODO</Difficulty_PlayerPawnInfectionChanceFactor_Info>
+  <!-- EN: Disease frequency -->
+  <Difficulty_DiseaseIntervalFactor_Inverted_Label>TODO</Difficulty_DiseaseIntervalFactor_Inverted_Label>
+  <!-- EN: Adjust the frequency of random disease events. -->
+  <Difficulty_DiseaseIntervalFactor_Inverted_Info>TODO</Difficulty_DiseaseIntervalFactor_Inverted_Info>
+  <!-- EN: Insect spawning rate -->
+  <Difficulty_EnemyReproductionRateFactor_Label>TODO</Difficulty_EnemyReproductionRateFactor_Label>
+  <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
+  <Difficulty_EnemyReproductionRateFactor_Info>TODO</Difficulty_EnemyReproductionRateFactor_Info>
+  <!-- EN: Deep drilling infestations -->
+  <Difficulty_DeepDrillInfestationChanceFactor_Label>TODO</Difficulty_DeepDrillInfestationChanceFactor_Label>
+  <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
+  <Difficulty_DeepDrillInfestationChanceFactor_Info>TODO</Difficulty_DeepDrillInfestationChanceFactor_Info>
+  <!-- EN: Map generation ancient threats -->
+  <Difficulty_PeacefulTemples_Inverted_Label>TODO</Difficulty_PeacefulTemples_Inverted_Label>
+  <!-- EN: Ancient structures may contain dangerous threats. -->
+  <Difficulty_PeacefulTemples_Inverted_Info>TODO</Difficulty_PeacefulTemples_Inverted_Info>
+  <!-- EN: Map generation natural hives -->
+  <Difficulty_AllowCaveHives_Label>TODO</Difficulty_AllowCaveHives_Label>
+  <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
+  <Difficulty_AllowCaveHives_Info>TODO</Difficulty_AllowCaveHives_Info>
+
+  <!-- EN: Player tools -->
+  <DifficultyPlayerToolsSection>TODO</DifficultyPlayerToolsSection>
+  <!-- EN: Player can build traps -->
+  <Difficulty_AllowTraps_Label>TODO</Difficulty_AllowTraps_Label>
+  <!-- EN: Player can build traps like spike traps and IED traps. -->
+  <Difficulty_AllowTraps_Info>TODO</Difficulty_AllowTraps_Info>
+  <!-- EN: Player can build turrets -->
+  <Difficulty_AllowTurrets_Label>TODO</Difficulty_AllowTurrets_Label>
+  <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
+  <Difficulty_AllowTurrets_Info>TODO</Difficulty_AllowTurrets_Info>
+  <!-- EN: Player can build mortars -->
+  <Difficulty_AllowMortars_Label>TODO</Difficulty_AllowMortars_Label>
+  <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
+  <Difficulty_AllowMortars_Info>TODO</Difficulty_AllowMortars_Info>
+  <!-- EN: Classic mortars -->
+  <Difficulty_ClassicMortars_Label>TODO</Difficulty_ClassicMortars_Label>
+  <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
+  <Difficulty_ClassicMortars_Info>TODO</Difficulty_ClassicMortars_Info>
+  
+  <!-- EN: Adaptation -->
+  <DifficultyAdaptationSection>TODO</DifficultyAdaptationSection>
+  <!-- EN: Adaptation growth rate -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>TODO</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time. -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>TODO</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <!-- EN: Adaptation impact -->
+  <Difficulty_AdaptationEffectFactor_Label>TODO</Difficulty_AdaptationEffectFactor_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
+  <Difficulty_AdaptationEffectFactor_Info>TODO</Difficulty_AdaptationEffectFactor_Info>
+  <!-- EN: Wealth-independent progress mode -->
+  <Difficulty_FixedWealthMode_Label>TODO</Difficulty_FixedWealthMode_Label>
+  <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
+  <Difficulty_FixedWealthMode_Info>TODO</Difficulty_FixedWealthMode_Info>
+  <!-- EN: Years until maximum threat -->
+  <Difficulty_FixedWealthTimeFactor_Label>TODO</Difficulty_FixedWealthTimeFactor_Label>
+  <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
+  <Difficulty_FixedWealthTimeFactor_Info>TODO</Difficulty_FixedWealthTimeFactor_Info>
+
+  <!-- EN: Ideology -->
+  <DifficultyIdeologySection>TODO</DifficultyIdeologySection>
+  <!-- EN: Low pop conversion boost -->
+  <Difficulty_LowPopConversionBoost_Label>TODO</Difficulty_LowPopConversionBoost_Label>
+  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
+  <Difficulty_LowPopConversionBoost_Info>TODO</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
@@ -314,10 +548,30 @@
   <Randomize> Aleatoritza </Randomize>
   <!-- EN: age {0} -->
   <AgeIndicator>edat {0}</AgeIndicator>
+  <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummary>TODO</PawnSummary>
+  <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
+  <PawnSummaryWithGender>TODO</PawnSummaryWithGender>
   <!-- EN: Backstory -->
   <Backstory>Rerefons</Backstory>
   <!-- EN: Incapable of -->
   <IncapableOf>Incapaç de</IncapableOf>
+  <!-- EN: Abilities -->
+  <Abilities>TODO</Abilities>
+  <!-- EN: Caused by backstory: {0} -->
+  <IncapableOfTooltipBackstory>TODO</IncapableOfTooltipBackstory>
+  <!-- EN: Caused by title: {0} -->
+  <IncapableOfTooltipTitle>TODO</IncapableOfTooltipTitle>
+  <!-- EN: Caused by trait: {0} -->
+  <IncapableOfTooltipTrait>TODO</IncapableOfTooltipTrait>
+  <!-- EN: Caused by: {0} -->
+  <IncapableOfTooltipHediff>TODO</IncapableOfTooltipHediff>
+  <!-- EN: Disabled work types: -->
+  <IncapableOfTooltipWorkTypes>TODO</IncapableOfTooltipWorkTypes>
+  <!-- EN: Caused by quest status: {0} -->
+  <IncapableOfTooltipQuest>TODO</IncapableOfTooltipQuest>
+  <!-- EN: Caused by role: {0} -->
+  <IncapableOfTooltipRole>TODO</IncapableOfTooltipRole>
   <!-- EN: Traits -->
   <Traits>Característiques</Traits>
   <!-- EN: Permanent mood effect -->
@@ -336,6 +590,8 @@
   <Male>masculí</Male>
   <!-- EN: female -->
   <Female>femení</Female>
+  <!-- EN: male and female -->
+  <MaleAndFemale>TODO</MaleAndFemale>
   <!-- EN: male -->
   <MaleAnimal>mascle</MaleAnimal>
   <!-- EN: female -->
@@ -352,6 +608,8 @@
   <StartingPawnsSelected>Seleccionats</StartingPawnsSelected>
   <!-- EN: Left behind -->
   <StartingPawnsLeftBehind>Deixats</StartingPawnsLeftBehind>
+  <!-- EN: This colonist is considered guilty. You can freely banish, execute or arrest them, and others won't be bothered.\n\nGuilt expires in -->
+  <GuiltyDesc>TODO</GuiltyDesc>
   
   <!-- Misc -->
   <!-- EN: Start -->
@@ -362,6 +620,8 @@
   <Next>Següent</Next>
   <!-- EN: Back -->
   <Back>Anterior</Back>
+  <!-- EN: Change material... -->
+  <ShowMaterials>TODO</ShowMaterials>
   <!-- EN: Gameplay -->
   <Gameplay>Joc</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->
@@ -385,8 +645,31 @@
   <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>Genera el mapa per una nova trobada</GeneratingMapForNewEncounter>
 
-  <!-- UNUSED -->
-  <SelectLandingSite>Seleccioneu un lloc d'aterratge</SelectLandingSite>
-  <MustSelectLandingSite>Seleccioneu un lloc d'aterratge.</MustSelectLandingSite>
+  <!-- EN: Click for more info -->
+  <ClickForMoreInfo>TODO</ClickForMoreInfo>
+  <!-- EN: No more information is available. -->
+  <NoMoreInfoAvailable>TODO</NoMoreInfoAvailable>
+
+  <!-- Factions -->
+  <!-- EN: Factions -->
+  <Factions>TODO</Factions>
+  <!-- EN: Gameplay problems can occur with more than {0} factions. -->
+  <RecommendedFactionCount>TODO</RecommendedFactionCount>
+  <!-- EN: Maximum {0} visible factions allowed. -->
+  <TotalFactionsAllowed>TODO</TotalFactionsAllowed>
+  <!-- EN: There can be no more than {0} {1}. -->
+  <MaxFactionsForType>TODO</MaxFactionsForType>
+  <!-- EN: Restore defaults -->
+  <ResetFactionsToDefault>TODO</ResetFactionsToDefault>
+  <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
+  <FactionSelectionDesc>TODO</FactionSelectionDesc>
+  <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
+  <FactionDisabledContentWarning>TODO</FactionDisabledContentWarning>
+  <!-- EN: Disabling {0} means less spontaneous threat variety. -->
+  <InsectsDisabledContentWarning>TODO</InsectsDisabledContentWarning>
+  <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
+  <MechanoidsDisabledContentWarning>TODO</MechanoidsDisabledContentWarning>
+  <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
+  <FactionsDisabledWarning>TODO</FactionsDisabledWarning>
 
 </LanguageData>

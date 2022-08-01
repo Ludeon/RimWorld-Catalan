@@ -4,9 +4,11 @@
   <!-- Forbid -->
   <!-- EN: Forbid -->
   <CommandForbid>Prohibir</CommandForbid>
-  <!-- EN: Forbidden - colonists will not interact with this. -->
+  <!-- EN: Allow -->
+  <CommandAllow>TODO</CommandAllow>
+  <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
   <CommandForbiddenDesc>Prohibit – Els colons no hi interactuaran.</CommandForbiddenDesc>
-  <!-- EN: Not forbidden - colonists may interact with this. -->
+  <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
   <CommandNotForbiddenDesc>Permés – Els colons hi interactuaran.</CommandNotForbiddenDesc>
 
   <!-- Power -->
@@ -39,8 +41,10 @@
   <CommandUndraftLabel>Llicenciar</CommandUndraftLabel>
   <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
   <CommandToggleDraftDesc>Canvia l'estat de reclutament militar.\n\nLa gent reclutada rebrà ordres i lluitarà. No treballaran, menjaran ni descansaran.</CommandToggleDraftDesc>
-  <!-- EN: {0} cannot walk. -->
+  <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{0} no pot caminar.</IsIncapped>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
+  <ParticipatingInRitual>TODO</ParticipatingInRitual>
 
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Permet disparar</CommandFireAtWillLabel>
@@ -63,9 +67,13 @@
   <CommandGetOutOfBedDesc>Fa forà algú del llit.</CommandGetOutOfBedDesc>
 
   <!-- EN: Set owner -->
-  <CommandBedSetOwnerLabel>Indica propietari</CommandBedSetOwnerLabel>
-  <!-- EN: Assign this bed to be owned by a specific colonist. -->
+  <CommandThingSetOwnerLabel>TODO</CommandThingSetOwnerLabel>
+  <!-- EN: Assign this bed to be owned by a specific {0}. -->
   <CommandBedSetOwnerDesc>Assigna aquest llit a un colon especific.</CommandBedSetOwnerDesc>
+  <!-- EN: Assign this throne to be owned by a specific colonist. -->
+  <CommandThroneSetOwnerDesc>TODO</CommandThroneSetOwnerDesc>
+  <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
+  <CommandMeditationSpotSetOwnerDesc>TODO</CommandMeditationSpotSetOwnerDesc>
   <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>Assigna a un colon</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
@@ -92,6 +100,9 @@
   <TurningOffPrisonerBedWarning>Treure l'assignació a presoners d'un llit afecta a tota la cambra (els presoners i els colons no poden dormir a la mateixa habitació).\n\nAquestes persones perdran la propietat dels seus llits:</TurningOffPrisonerBedWarning>
   <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>Esteu segur que ho voleu fer?</AreYouSure>
+  <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
+  <ChangingOwnerTypeBedWarning>TODO</ChangingOwnerTypeBedWarning>
+
 
   <!-- EN: Detonate -->
   <CommandDetonateLabel>Detonar</CommandDetonateLabel>
@@ -127,8 +138,13 @@
 
   <!-- EN: Allow sowing -->
   <CommandAllowSow>Permet llaurar</CommandAllowSow>
-  <!-- EN: When disabled, colonists will never sow plants in this zone. They will still harvest. -->
+  <!-- EN: When disabled, colonists will never sow new plants in this zone. They will still harvest. -->
   <CommandAllowSowDesc>Si està deshabilitat, els colons no plantaran res en aquesta zona. Això sí, colliran el que hi ha quan sigui madur.</CommandAllowSowDesc>
+
+  <!-- EN: Allow cutting -->
+  <CommandAllowCut>TODO</CommandAllowCut>
+  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest. -->
+  <CommandAllowCutDesc>TODO</CommandAllowCutDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -203,6 +219,10 @@
   <CommandReinstall>Canvia de lloc</CommandReinstall>
   <!-- EN: Designate this item to be uninstalled and reinstalled somewhere else. -->
   <CommandReinstallDesc>Indica que cal treure-ho d'aquí i posar-ho en un altre lloc.</CommandReinstallDesc>
+  <!-- EN: Replant -->
+  <CommandReplant>TODO</CommandReplant>
+  <!-- EN: This tree is currently packaged up for storage and transport. Use this command to replant it in a new location. -->
+  <CommandReplantDesc>TODO</CommandReplantDesc>
   
   <!-- Trade beacon -->
   <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
@@ -223,7 +243,7 @@
   <CommandAutoRearmDesc>Si està activat, aquesta trampa es tornarà a activar després de disparar-se.</CommandAutoRearmDesc>
   
   <!-- Animal control -->
-  <!-- EN: Release animals -->
+  <!-- EN: Animals attack -->
   <CommandReleaseAnimalsLabel>Alliberar animals</CommandReleaseAnimalsLabel>
   <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
   <CommandReleaseAnimalsDesc>Si està activat, els animals que controla s'enviaran a atacar als objectius llunyans. Si està desactivat, es quedaran aprop del seu amo.</CommandReleaseAnimalsDesc>
@@ -248,6 +268,12 @@
   <!-- EN: End any ongoing attacks. -->
   <CommandHoldFireDesc>Atura qualsevol atac en curs.</CommandHoldFireDesc>
   
+  <!-- reload -->
+  <!-- EN: No {CHARGENOUN_plural} left. -->
+  <CommandReload_NoCharges>TODO</CommandReload_NoCharges>
+  <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
+  <CommandReload_NoAmmo>TODO</CommandReload_NoAmmo>
+  
   <!-- Select plant to grow -->
   <!-- EN: Select plant to grow -->
   <CommandSelectPlantToGrowMulti>Triar què plantar</CommandSelectPlantToGrowMulti>
@@ -265,7 +291,7 @@
   <CommandBuildCopy>Fer una copiar</CommandBuildCopy>
   <!-- EN: Build a copy of this building. -->
   <CommandBuildCopyDesc>Construeix-ne un cop aquest.</CommandBuildCopyDesc>
-  
+
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
   <CommandFormCaravan>Formar caravana</CommandFormCaravan>
@@ -293,6 +319,8 @@
   <CommandMergeCaravansDesc>Ajunta les caravanes.</CommandMergeCaravansDesc>
   <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
   <CommandMergeCaravansFailCaravansNotSelected>Seleccioneu les caravanes que cal unir. Les caravanes ha d’estar a tocar una de l’altra.</CommandMergeCaravansFailCaravansNotSelected>
+  <!-- EN: Join -->
+  <CommandJoinCaravan>TODO</CommandJoinCaravan>
   
   <!-- Settle -->
   <!-- EN: Settle -->
@@ -347,6 +375,8 @@
   <CommandTradeDesc>Fa negocis amb aquesta facció.</CommandTradeDesc>
   <!-- EN: There isn't any conscious and capable negotiator. -->
   <CommandTradeFailNoNegotiator>No hi ha cap negociador conscient i sense emprenyar.</CommandTradeFailNoNegotiator>
+  <!-- EN: None of your people have the required faction permission: {0} -->
+  <CommandTradeFailNeedPermit>TODO</CommandTradeFailNeedPermit>
 
   <!-- Offer gifts -->
   <!-- EN: Offer gifts -->
@@ -361,7 +391,7 @@
   <CommandFulfillTradeOfferDesc>Completeu la demanda d'articles de l'assentament i reclameu-ne la recompensa.</CommandFulfillTradeOfferDesc>
   <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
   <CommandFulfillTradeOfferFailInsufficient>La vostra caravana ha de disposar de  {0} per completar la comanda.</CommandFulfillTradeOfferFailInsufficient>
-  <!-- EN: Offer {0} for {1}? -->
+  <!-- EN: Give {0}? -->
   <CommandFulfillTradeOfferConfirm>Oferir {0} a canvi de {1}?</CommandFulfillTradeOfferConfirm>
   
   <!-- Take off -->
@@ -371,12 +401,18 @@
   <CommandTakeOffDesc>Pujar a la nau i fugir del planeta.</CommandTakeOffDesc>
   <!-- EN: Are you sure you want to launch the ship?\n\nEveryone in this area will escape the planet. Everyone else will be left behind. -->
   <CommandTakeOffConfirmation>Esteu segur que voleu llançar la nau?\n\nTothom en aquesta zona escaparà del planeta. Els altres es quedaran.</CommandTakeOffConfirmation>
-  
+
   <!-- Set target fuel level -->
   <!-- EN: Set target fuel level -->
   <CommandSetTargetFuelLevel>Marcar nivell de combustible</CommandSetTargetFuelLevel>
   <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
   <CommandSetTargetFuelLevelDesc>Estableix el combustible que vols omplir. Els colons intentaran posar fuel fins a aquest nivell.</CommandSetTargetFuelLevelDesc>
+
+  <!-- Refueling -->
+  <!-- EN: Toggle automatic refuel -->
+  <CommandToggleAllowAutoRefuel>TODO</CommandToggleAllowAutoRefuel>
+  <!-- EN: Sets whether or not automatic refueling is allowed. -->
+  <CommandToggleAllowAutoRefuelDesc>TODO</CommandToggleAllowAutoRefuelDesc>
   
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
@@ -385,10 +421,10 @@
   <CommandCancelLoadDesc>Deixa de carregar-ho amb gent i objectes i treu el que hi hagi carregat.</CommandCancelLoadDesc>
   
   <!-- Launch group -->
-  <!-- EN: Launch group -->
+  <!-- EN: Launch -->
   <CommandLaunchGroup>Llançar grup</CommandLaunchGroup>
-  <!-- EN: Initiates the targeting process for launching a group of transport pods. The next step is choosing a target. The pods will fly and land together. -->
-  <CommandLaunchGroupDesc>Inicia el procés per llençar un grup de càpsules de càrrega. El pas següent serà escollir un objectiu. Les càpsules volaran i aterraran alhora.</CommandLaunchGroupDesc>
+  <!-- EN: Take off and fly to a destination. -->
+  <CommandLaunchGroupDesc>Inicia el procés per llençar un grup de càpsules de càrrega. El pas següent serà triar un objectiu. Les càpsules volaran i aterraran alhora.</CommandLaunchGroupDesc>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>Algunes càpsules de càrrega del grup no estan connectades a un carregador de fuel.</CommandLaunchGroupFailNotConnectedToFuelingPort>
   <!-- EN: Some pod launchers in this group have no fuel. -->
@@ -405,6 +441,24 @@
   <CommandLoadTransporterFailNotConnectedToFuelingPort>La càpsula de transport no està connectada a un sortidor de combustible.</CommandLoadTransporterFailNotConnectedToFuelingPort>
   <!-- EN: The pod launcher has no fuel. -->
   <CommandLoadTransporterFailNoFuel>La llançadora no té fuel.</CommandLoadTransporterFailNoFuel>
+  
+  <!-- Load transporter (single) -->
+  <!-- EN: Load -->
+  <CommandLoadTransporterSingle>TODO</CommandLoadTransporterSingle>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandLoadTransporterSingleDesc>TODO</CommandLoadTransporterSingleDesc>
+  
+  <!-- Transporters set to load -->
+  <!-- EN: Set to load -->
+  <CommandSetToLoadTransporter>TODO</CommandSetToLoadTransporter>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
+  <CommandSetToLoadTransporterDesc>TODO</CommandSetToLoadTransporterDesc>
+  
+  <!-- Autoload transporters -->
+  <!-- EN: Autoload -->
+  <CommandAutoloadTransporters>TODO</CommandAutoloadTransporters>
+  <!-- EN: Toggle loading all required cargo automatically as soon as they become available. -->
+  <CommandAutoloadTransportersDesc>TODO</CommandAutoloadTransportersDesc>
   
   <!-- Select previous transporter -->
   <!-- EN: Select previous in launch group -->
@@ -454,4 +508,77 @@
   <!-- EN: Attack this settlement. -->
   <CommandAttackSettlementDesc>Ataca aquest assentament.</CommandAttackSettlementDesc>
 
+  <!-- Send shuttle -->
+  <!-- EN: Send -->
+  <CommandSendShuttle>TODO</CommandSendShuttle>
+  <!-- EN: Initiate takeoff and have the shuttle fly to its destination. -->
+  <CommandSendShuttleDesc>TODO</CommandSendShuttleDesc>
+  <!-- EN: The shuttle is under a roof. -->
+  <CommandSendShuttleFailUnderRoof>TODO</CommandSendShuttleFailUnderRoof>
+  <!-- EN: Some of the required items or people are missing. -->
+  <CommandSendShuttleFailMissingRequiredThing>TODO</CommandSendShuttleFailMissingRequiredThing>
+  
+  <!-- Dismiss shuttle -->
+  <!-- EN: Dismiss -->
+  <CommandShuttleDismiss>TODO</CommandShuttleDismiss>
+  <!-- EN: Unload all contents and send the shuttle away. -->
+  <CommandShuttleDismissDesc>TODO</CommandShuttleDismissDesc>
+
+  <!-- Place blueprints -->
+  <!-- EN: Place blueprints -->
+  <CommandPlaceBlueprints>TODO</CommandPlaceBlueprints>
+  <!-- EN: Place all required blueprints where possible. -->
+  <CommandPlaceBlueprintsDesc>TODO</CommandPlaceBlueprintsDesc>
+  <!-- EN: Place {0} blueprints -->
+  <CommandPlaceBlueprintsSpecific>TODO</CommandPlaceBlueprintsSpecific>
+  <!-- EN: Place all {0} blueprints where possible. -->
+  <CommandPlaceBlueprintsSpecificDesc>TODO</CommandPlaceBlueprintsSpecificDesc>
+
+  <!-- Cancel monument marker -->
+  <!-- EN: Cancel -->
+  <CommandCancelMonumentMarker>TODO</CommandCancelMonumentMarker>
+  <!-- EN: Permanently remove this monument marker. -->
+  <CommandCancelMonumentMarkerDesc>TODO</CommandCancelMonumentMarkerDesc>
+
+  <!-- View quest -->
+  <!-- EN: View quest: {0} -->
+  <CommandViewQuest>TODO</CommandViewQuest>
+  <!-- EN: View this quest in quests tab. -->
+  <CommandViewQuestDesc>TODO</CommandViewQuestDesc>
+  <!-- EN: Open linked quest -->
+  <CommandOpenLinkedQuest>TODO</CommandOpenLinkedQuest>
+  <!-- EN: Open linked quest in the quests tab. -->
+  <CommandOpenLinkedQuestDesc>TODO</CommandOpenLinkedQuestDesc>
+
+  <!-- Carry -->
+  <!-- EN: Drop {0_nameDef} -->
+  <CommandDropPawn>TODO</CommandDropPawn>
+  <!-- EN: Drop the person being carried. -->
+  <CommandDropPawnDesc>TODO</CommandDropPawnDesc>
+  
+  <!-- Take a drug -->
+  <!-- EN: Take drug... -->
+  <TakeDrug>TODO</TakeDrug>
+  <!-- EN: Choose a drug from inventory to ingest immediately. -->
+  <TakeDrugDesc>TODO</TakeDrugDesc>
+
+  <!-- Build X -->
+  <!-- EN: Build {0} -->
+  <BuildThing>TODO</BuildThing>
+
+  <!-- Rituals -->
+  <!-- EN: Leave {RITUAL_label} -->
+  <CommandLeaveRitual>TODO</CommandLeaveRitual>
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
+  <CommandLeaveRitualDesc>TODO</CommandLeaveRitualDesc>
+  <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
+  <CommandLeaveLastParticipant>TODO</CommandLeaveLastParticipant>
+
+  <!-- EN: Cancel {RITUAL_label} -->
+  <CommandCancelRitual>TODO</CommandCancelRitual>
+  <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
+  <CommandCancelRitualDesc>TODO</CommandCancelRitualDesc>
+  <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
+  <CommandCancelRitualConfirm>TODO</CommandCancelRitualConfirm>
+  
 </LanguageData>

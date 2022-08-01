@@ -6,9 +6,9 @@
   <!-- EN: This cryptosleep casket looks like it has been here for a very long time. Who knows what it might contain? -->
   <AncientCryptosleepCasket.description>Aquest cofre de criptoson sembla haver estat aquí des de fa molt temps. Qui sap què pot contenir?</AncientCryptosleepCasket.description>
   
-  <!-- EN: caravan packing spot -->
+  <!-- EN: caravan hitching spot -->
   <CaravanPackingSpot.label>lloc de càrrega de les caravanes</CaravanPackingSpot.label>
-  <!-- EN: Designates a spot for forming caravans. Put this near your stockpiles to speed up the caravan loading process. -->
+  <!-- EN: Designates a spot for hitching animals and forming caravans. Colonists will hitch animals here while loading a caravan. You can also use these during encounters away from home to keep animals from wandering. -->
   <CaravanPackingSpot.description>Designa un punt on es formaran les caravanes.</CaravanPackingSpot.description>
   
   <!-- EN: comms console -->
@@ -20,6 +20,11 @@
   <CryptosleepCasket.label>cofre de criptoson</CryptosleepCasket.label>
   <!-- EN: A self-powered sarcophagus designed to keep a person in a state of suspended animation for many years. -->
   <CryptosleepCasket.description>Un sarcòfag autoalimentat designat per mantenir una persona en estat de suspensió durant molts anys.</CryptosleepCasket.description>
+  
+  <!-- EN: egg box -->
+  <EggBox.label>TODO</EggBox.label>
+  <!-- EN: A box with soft material made to hold eggs. Egg-laying animals will lay eggs in egg boxes if they can. Your haulers will take all the eggs out only when the box is full, to save time. The box also protects eggs from deteriorating outdoors, though it does not protect from temperature damage. -->
+  <EggBox.description>TODO</EggBox.description>
   
   <!-- EN: firefoam popper -->
   <FirefoamPopper.label>extintor</FirefoamPopper.label>
@@ -35,12 +40,12 @@
   
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>escàner del sòl</GroundPenetratingScanner.label>
-  <!-- EN: A downward-facing penetrating radar, combined with sonar and magnetic imagers, allows you to detect (but not identify) minerals buried deep under the surface. Requires a huge amount of electricity. -->
+  <!-- EN: A sensor unit used by researchers to search for buried resources. The chance to find a resource depends on the operator's research ability. It consumes a lot of electricity. If you find a buried resource, you'll need to use deep drills to extract it. It doesn't work under a roof. -->
   <GroundPenetratingScanner.description>Un radar combinat amb un sonar i un ressonador magnètic, permet detectar (no identificar) minerals soterrats a les profunditats. Consumeix molta energia.</GroundPenetratingScanner.description>
   
   <!-- EN: long-range mineral scanner -->
   <LongRangeMineralScanner.label>escàner de mineral de llarg abast</LongRangeMineralScanner.label>
-  <!-- EN: Automatically detects precious minerals like gold or jade in destinations across the planet. The lumps are found on average once per 30 days within a radius of 30 planet tiles. Building more than one scanner in the same or nearby areas has little to no effect. -->
+  <!-- EN: A lateral sensor unit used by researchers to detect a specific type of mineral across the planet. The chance to find a resource depends on the operator's research ability. This sensor can be tuned to target a specific resource type. It consumes a lot of electricity. If you find a resource, you'll need to travel to collect it. -->
   <LongRangeMineralScanner.description>Detecta automàticament minerals preciosos com ara l'or o el jade a les zones properes (però no en la que està construït). Localitza una mitjana d'una veta cada 30 dies en un radi de 30 cel·les. Construir més d'un escàner a la mateixa zona o a les proximitats té poc o cap efecte.</LongRangeMineralScanner.description>
   
   <!-- EN: marriage spot -->
@@ -68,6 +73,11 @@
   <!-- EN: Designates a spot for throwing parties. -->
   <PartySpot.description>Designa un lloc on es concentraran les festes. Les festes faran servir l'espai al voltant d'aquest lloc.</PartySpot.description>
   
+  <!-- EN: pen marker -->
+  <PenMarker.label>TODO</PenMarker.label>
+  <!-- EN: A post with a sign designating an animal pen. It must be placed in an area enclosed by fences, barricades, walls, and doors. You can assign each pen marker a set of animals to accept, and handlers will bring animals to an appropriate pen. -->
+  <PenMarker.description>TODO</PenMarker.description>
+  
   <!-- EN: pod launcher -->
   <PodLauncher.label>llançador de càpsula</PodLauncher.label>
   <!-- EN: A fueling port for launching one transport pod. Pod launchers can launch as a group - but the launchers must be placed adjacent to each other. -->
@@ -78,9 +88,19 @@
   <!-- EN: An ornamented burial receptacle for the honored dead. -->
   <Sarcophagus.description>Un receptacle ornamental per enterrar els morts amb honor.</Sarcophagus.description>
   
+  <!-- EN: grand stele -->
+  <SteleGrand.label>TODO</SteleGrand.label>
+  <!-- EN: A towering slab with extensive engravings on the sides. Steles have been used since ancient times to memorialize individuals, battles, and other important events. -->
+  <SteleGrand.description>TODO</SteleGrand.description>
+  
+  <!-- EN: large stele -->
+  <SteleLarge.label>TODO</SteleLarge.label>
+  <!-- EN: A tall, thick slab with engravings on the sides. Steles have been used since ancient times to memorialize individuals, battles, and other important events. -->
+  <SteleLarge.description>TODO</SteleLarge.description>
+  
   <!-- EN: tool cabinet -->
   <ToolCabinet.label>armari d'eines</ToolCabinet.label>
-  <!-- EN: Increases work speed when placed near a workbench. One workbench use to up to two tool cabinets. -->
+  <!-- EN: Increases work speed when placed near a workbench. One workbench can use up to two tool cabinets. -->
   <ToolCabinet.description>Millora la velocitat de treball. S'ha de posar prop d'un banc de treball. Un banc de treball es pot enllaçar amb només dos armaris d'eines.</ToolCabinet.description>
   
   <!-- EN: transport pod -->

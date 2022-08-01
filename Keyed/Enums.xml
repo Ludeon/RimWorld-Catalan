@@ -8,30 +8,22 @@
   <Lit>Il·luminat</Lit>
   <!-- EN: Brightly lit -->
   <LitBrightly>Molt il·luminat</LitBrightly>
-  
-  <!-- History upload pref -->
-  <!-- EN: Undecided -->
-  <Unspecified>Indecís</Unspecified>
-  <!-- EN: Allow -->
-  <Always>Permet</Always>
-  <!-- EN: Do not allow -->
-  <Never>No permetis</Never>
-  
+
   <!-- Price types -->
   <!-- EN: very cheap -->
-  <PriceTypeVeryCheap>molt econòmic</PriceTypeVeryCheap>
+  <PriceTypeVeryCheap>molt barat</PriceTypeVeryCheap>
   <!-- EN: cheap -->
-  <PriceTypeCheap>econòmic</PriceTypeCheap>
+  <PriceTypeCheap>barat</PriceTypeCheap>
   <!-- EN: normal -->
   <PriceTypeNormal>normal</PriceTypeNormal>
   <!-- EN: expensive -->
   <PriceTypeExpensive>car</PriceTypeExpensive>
   <!-- EN: exorbitant -->
-  <PriceTypeExorbitant>exorbitant</PriceTypeExorbitant>
+  <PriceTypeExorbitant>molt car</PriceTypeExorbitant>
 
   <!-- Storage priority labels -->
   <!-- EN: unstored -->
-  <StoragePriorityUnstored>sense desar</StoragePriorityUnstored>
+  <StoragePriorityUnstored>sense emmagatzemar</StoragePriorityUnstored>
   <!-- EN: low -->
   <StoragePriorityLow>baixa</StoragePriorityLow>
   <!-- EN: normal -->
@@ -41,7 +33,7 @@
   <!-- EN: important -->
   <StoragePriorityImportant>important</StoragePriorityImportant>
   <!-- EN: critical -->
-  <StoragePriorityCritical>crítica</StoragePriorityCritical>
+  <StoragePriorityCritical>prioritària</StoragePriorityCritical>
 
   <!-- Food type flags -->
   <!-- EN: vegetables -->
@@ -71,11 +63,11 @@
   <!-- EN: awful -->
   <QualityCategory_Awful>horrible</QualityCategory_Awful>
   <!-- EN: poor -->
-  <QualityCategory_Poor>pobre</QualityCategory_Poor>
+  <QualityCategory_Poor>mediocre</QualityCategory_Poor>
   <!-- EN: normal -->
   <QualityCategory_Normal>normal</QualityCategory_Normal>
   <!-- EN: good -->
-  <QualityCategory_Good>bo</QualityCategory_Good>
+  <QualityCategory_Good>{0_gender ? bo : bona}</QualityCategory_Good>
   <!-- EN: excellent -->
   <QualityCategory_Excellent>excel·lent</QualityCategory_Excellent>
   <!-- EN: masterwork -->
@@ -85,7 +77,7 @@
   <!-- EN: awfl -->
   <QualityCategoryShort_Awful>horr</QualityCategoryShort_Awful>
   <!-- EN: poor -->
-  <QualityCategoryShort_Poor>pob</QualityCategoryShort_Poor>
+  <QualityCategoryShort_Poor>medc</QualityCategoryShort_Poor>
   <!-- EN: norm -->
   <QualityCategoryShort_Normal>norm</QualityCategoryShort_Normal>
   <!-- EN: good -->
@@ -93,19 +85,19 @@
   <!-- EN: exc -->
   <QualityCategoryShort_Excellent>exc</QualityCategoryShort_Excellent>
   <!-- EN: mast -->
-  <QualityCategoryShort_Masterwork>mast</QualityCategoryShort_Masterwork>
+  <QualityCategoryShort_Masterwork>mest</QualityCategoryShort_Masterwork>
   <!-- EN: legd -->
-  <QualityCategoryShort_Legendary>leg</QualityCategoryShort_Legendary>
+  <QualityCategoryShort_Legendary>lleg</QualityCategoryShort_Legendary>
   
   <!-- Hunger -->
   <!-- EN: Starving -->
   <HungerLevel_Starving>Famèlic</HungerLevel_Starving>
   <!-- EN: Urgently hungry -->
-  <HungerLevel_UrgentlyHungry>Molta gana</HungerLevel_UrgentlyHungry>
+  <HungerLevel_UrgentlyHungry>Amb molta fam</HungerLevel_UrgentlyHungry>
   <!-- EN: Hungry -->
-  <HungerLevel_Hungry>Gana</HungerLevel_Hungry>
+  <HungerLevel_Hungry>Amb fam</HungerLevel_Hungry>
   <!-- EN: Fed -->
-  <HungerLevel_Fed>Alimentat</HungerLevel_Fed>
+  <HungerLevel_Fed>Ben alimentat</HungerLevel_Fed>
 
   <!-- -Fatigue -->
   <!-- EN: Exhausted -->
@@ -125,9 +117,9 @@
   <!-- EN: large hills -->
   <Hilliness_LargeHills>grans turons</Hilliness_LargeHills>
   <!-- EN: mountainous -->
-  <Hilliness_Mountainous>montanyós</Hilliness_Mountainous>
+  <Hilliness_Mountainous>muntanyós</Hilliness_Mountainous>
   <!-- EN: impassable -->
-  <Hilliness_Impassable>impassable</Hilliness_Impassable>
+  <Hilliness_Impassable>intransitable</Hilliness_Impassable>
   
   <!-- Steam workshop interaction -->
   <!-- EN: Creating -->
@@ -148,22 +140,24 @@
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Es pugen els canvis</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
   <!-- Mod sources -->
-  <!-- EN: local folder -->
-  <ContentSource_LocalFolder>carpeta local</ContentSource_LocalFolder>
+  <!-- EN: Official content -->
+  <ContentSource_OfficialModsFolder>Contingut oficial</ContentSource_OfficialModsFolder>
+  <!-- EN: Local folder -->
+  <ContentSource_ModsFolder>Carpeta local</ContentSource_ModsFolder>
   <!-- EN: Steam Workshop -->
-  <ContentSource_SteamWorkshop>Workshop d'Steam</ContentSource_SteamWorkshop>
+  <ContentSource_SteamWorkshop>Workshop de l'Steam</ContentSource_SteamWorkshop>
   
   <!-- Medical care category -->
   <!-- EN: No medical care -->
-  <MedicalCareCategory_NoCare>Sense cures</MedicalCareCategory_NoCare>
+  <MedicalCareCategory_NoCare>Sense cap atenció mèdica</MedicalCareCategory_NoCare>
   <!-- EN: Doctor care, but no medicine -->
-  <MedicalCareCategory_NoMeds>Cures, però sense medicina</MedicalCareCategory_NoMeds>
+  <MedicalCareCategory_NoMeds>Amb atenció mèdica, però sense medicina</MedicalCareCategory_NoMeds>
   <!-- EN: Herbal medicine or worse -->
-  <MedicalCareCategory_HerbalOrWorse>Herbes medicinals o pitjor</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_HerbalOrWorse>Tractat amb herbes medicinals o pitjor</MedicalCareCategory_HerbalOrWorse>
   <!-- EN: Industrial-tech medicine or worse -->
-  <MedicalCareCategory_NormalOrWorse>Medicina normal o pitjor</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>Tractat amb medicina normal o pitjor</MedicalCareCategory_NormalOrWorse>
   <!-- EN: Best quality medicine -->
-  <MedicalCareCategory_Best>Les millors cures posibles</MedicalCareCategory_Best>
+  <MedicalCareCategory_Best>Tractat amb la millor medicina</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
   <!-- EN: Ignore -->
@@ -179,7 +173,7 @@
   <!-- EN: stable -->
   <HediffGrowthMode_Stable>estable</HediffGrowthMode_Stable>
   <!-- EN: remission -->
-  <HediffGrowthMode_Remission>remetent</HediffGrowthMode_Remission>
+  <HediffGrowthMode_Remission>disminuint</HediffGrowthMode_Remission>
 
   <!-- TechLevel -->
   <!-- EN: animal -->
@@ -195,7 +189,7 @@
   <!-- EN: ultra -->
   <TechLevel_Ultra>ultra</TechLevel_Ultra>
   <!-- EN: archotech -->
-  <TechLevel_Archotech>arco-tecnològic</TechLevel_Archotech>
+  <TechLevel_Archotech>arcotecnològic</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
   <!-- EN: Standing -->
@@ -209,23 +203,23 @@
   <!-- EN: player starting characters -->
   <PawnGenerationContext_PlayerStarter>personatges inicials</PawnGenerationContext_PlayerStarter>
   <!-- EN: non-player characters -->
-  <PawnGenerationContext_NonPlayer>personatges de fora</PawnGenerationContext_NonPlayer>
+  <PawnGenerationContext_NonPlayer>personatges que no són del jugador</PawnGenerationContext_NonPlayer>
   
   <!-- Animal name display mode -->
   <!-- EN: Show animal names -->
-  <ShowAnimalNames>Noms d'animals</ShowAnimalNames>
+  <ShowAnimalNames>Mostra noms d'animals</ShowAnimalNames>
   <!-- EN: Tame (named only) -->
-  <AnimalNameDisplayMode_TameNamed>Domesticats (només els que tenen nom)</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameNamed>Domesticats (amb nom)</AnimalNameDisplayMode_TameNamed>
   <!-- EN: Tame (all) -->
   <AnimalNameDisplayMode_TameAll>Domesticats (tots)</AnimalNameDisplayMode_TameAll>
   
   <!-- Temperature -->
   <!-- EN: Celsius -->
-  <Celsius>Centígrads</Celsius>
+  <Celsius>Graus centígrads</Celsius>
   <!-- EN: Fahrenheit -->
-  <Fahrenheit>Fahrenheit</Fahrenheit>
+  <Fahrenheit>Graus Fahrenheit</Fahrenheit>
   <!-- EN: Kelvin -->
-  <Kelvin>Kelvin</Kelvin>
+  <Kelvin>Graus Kelvin</Kelvin>
   
   <!-- Direction8Way -->
   <!-- EN: N -->
@@ -247,7 +241,7 @@
   
   <!-- Diet category -->
   <!-- EN: Never eats -->
-  <DietCategory_NeverEats>No menja</DietCategory_NeverEats>
+  <DietCategory_NeverEats>No menja mai</DietCategory_NeverEats>
   <!-- EN: Herbivorous -->
   <DietCategory_Herbivorous>Herbívor</DietCategory_Herbivorous>
   <!-- EN: Dendrovorous -->
@@ -267,7 +261,7 @@
   <!-- EN: Ov -->
   <DietCategory_Ovivorous_Short>Ov</DietCategory_Ovivorous_Short>
   <!-- EN: O -->
-  <DietCategory_Omnivorous_Short>O</DietCategory_Omnivorous_Short>
+  <DietCategory_Omnivorous_Short>Om</DietCategory_Omnivorous_Short>
   <!-- EN: C -->
   <DietCategory_Carnivorous_Short>C</DietCategory_Carnivorous_Short>
 
@@ -275,11 +269,11 @@
   <!-- EN: incompetent cook -->
   <FoodPoisonCause_IncompetentCook>cuiner incompetent</FoodPoisonCause_IncompetentCook>
   <!-- EN: dirty cooking area -->
-  <FoodPoisonCause_FilthyKitchen>zona de cuina bruta</FoodPoisonCause_FilthyKitchen>
+  <FoodPoisonCause_FilthyKitchen>cuina bruta</FoodPoisonCause_FilthyKitchen>
   <!-- EN: rotten food -->
-  <FoodPoisonCause_Rotten>menjar florit</FoodPoisonCause_Rotten>
+  <FoodPoisonCause_Rotten>menjar fet malbé</FoodPoisonCause_Rotten>
   <!-- EN: dangerous food type -->
-  <FoodPoisonCause_DangerousFoodType>menjar perillós</FoodPoisonCause_DangerousFoodType>
+  <FoodPoisonCause_DangerousFoodType>tipus de menjar perillós</FoodPoisonCause_DangerousFoodType>
 
   <!-- Psychic drone level -->
   <!-- EN: none -->
@@ -294,5 +288,45 @@
   <PsychicDroneLevel_BadHigh>alt</PsychicDroneLevel_BadHigh>
   <!-- EN: extreme -->
   <PsychicDroneLevel_BadExtreme>extrem</PsychicDroneLevel_BadExtreme>
+  
+  <!-- Automatic pause mode -->
+  <!-- EN: Never -->
+  <AutomaticPauseMode_Never>Mai</AutomaticPauseMode_Never>
+  <!-- EN: Major threats -->
+  <AutomaticPauseMode_MajorThreat>Amb amenaces importants</AutomaticPauseMode_MajorThreat>
+  <!-- EN: Any threat -->
+  <AutomaticPauseMode_AnyThreat>Amb qualsevol amenaça</AutomaticPauseMode_AnyThreat>
+  <!-- EN: Any letter -->
+  <AutomaticPauseMode_AnyLetter>Amb qualsevol missatge</AutomaticPauseMode_AnyLetter>
 
+  <!-- Pain category -->
+  <!-- EN: itchy -->
+  <PainCategory_LowPain>aguantable</PainCategory_LowPain>
+  <!-- EN: aching -->
+  <PainCategory_MediumPain>molest</PainCategory_MediumPain>
+  <!-- EN: painful -->
+  <PainCategory_HighPain>dolorós</PainCategory_HighPain>
+  
+  <!-- ExtraFactionType -->
+  <!-- EN: home faction -->
+  <ExtraFactionType_HomeFaction>facció principal</ExtraFactionType_HomeFaction>
+  <!-- EN: remote host faction -->
+  <ExtraFactionType_HostFaction>facció d'amfitrió remot</ExtraFactionType_HostFaction>
+  <!-- EN: group -->
+  <ExtraFactionType_MiniFaction>grup</ExtraFactionType_MiniFaction>
+
+  <!-- DrugCategory -->
+  <!-- EN: drug category -->
+  <DrugCategory>categoria de la droga</DrugCategory>
+  <!-- EN: none -->
+  <DrugCategory_None>cap</DrugCategory_None>
+  <!-- EN: medical -->
+  <DrugCategory_Medical>mèdica</DrugCategory_Medical>
+  <!-- EN: social -->
+  <DrugCategory_Social>social</DrugCategory_Social>
+  <!-- EN: hard -->
+  <DrugCategory_Hard>dura</DrugCategory_Hard>
+  <!-- EN: any -->
+  <DrugCategory_Any>qualsevol</DrugCategory_Any>
+  
 </LanguageData>

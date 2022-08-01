@@ -3,7 +3,7 @@
   
   <!-- EN: Alerts -->
   <Alerts.label>Avisos</Alerts.label>
-  <!-- EN: The alerts at the right edge of the screen tell you about issue that need your attention.\n\nKeep an eye on the alerts. -->
+  <!-- EN: The alerts at the right edge of the screen tell you about issues that need your attention.\n\nKeep an eye on the alerts. -->
   <Alerts.helpText>Els avisos de la vora dreta de la pantalla us indiquin les coses que necessiten ser ateses.\n\nEstigueu alerta dels avisos.</Alerts.helpText>
   
   <!-- EN: Allowed areas -->
@@ -25,11 +25,15 @@
   <CameraDolly.label>Moviment de la càmera</CameraDolly.label>
   <!-- EN: Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys. -->
   <CameraDolly.helpText>Podeu moure la càmera fent clic amb el botó 3 (el de mig o el de la dreta) i arrossegant, o bé amb les tecles {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}.</CameraDolly.helpText>
+  <!-- EN: Move the camera by using the D-pad. -->
+  <CameraDolly.helpTextController>TODO</CameraDolly.helpTextController>
   
   <!-- EN: Camera zoom -->
   <CameraZoom.label>Zoom</CameraZoom.label>
   <!-- EN: Zoom in and out with the MOUSEWHEEL or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys. -->
   <CameraZoom.helpText>podeu fer zoom amb la roda del ratolí o amb les tecles {Key:MapZoom_In} i {Key:MapZoom_Out}.</CameraZoom.helpText>
+  <!-- EN: Zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}. -->
+  <CameraZoom.helpTextController>TODO</CameraZoom.helpTextController>
   
   <!-- EN: Clicking messages -->
   <ClickingMessages.label>Fer clic als missatges</ClickingMessages.label>
@@ -50,15 +54,17 @@
   <EquippingWeapons.label>Equipar armes</EquippingWeapons.label>
   <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and right-click on the weapon you want them to equip. -->
   <EquippingWeapons.helpText>Els vostres colons arriben amb armes. Equipeu-los-les!\n\nSeleccioneu cada colon i feu clic dret a l'arma que voleu equipar.</EquippingWeapons.helpText>
+  <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and press the left trigger on the weapon you want them to equip. -->
+  <EquippingWeapons.helpTextController>TODO</EquippingWeapons.helpTextController>
   
   <!-- EN: Fire preparation -->
   <FirePreparation.label>Preparar-se pel foc</FirePreparation.label>
-  <!-- EN: Fires can easily burn down a colony. To defeat them, you must prepare before they happen.\n\nThese design elements can help reduce the damage from fires:\n\n1. Instead of constructing one super-building, build separate buildings with spaces in between.\n\n2. Use less flammable materials. Wood is cheap and fast - but very flammable.\n\n3. Build firebreaks to stop wildfires approaching your base. A strip of concrete floor 3 or 4 cells wide will generally stop an advancing fire. -->
+  <!-- EN: Fires can easily burn down a colony. To defeat them, you must prepare before they happen.\n\nThese design elements can help reduce the damage from fires:\n\n1. Instead of constructing one super-building, build separate buildings with spaces in between.\n\n2. Use less flammable materials. Wood is cheap and fast - but very flammable.\n\n3. Build firebreaks to stop wildfires approaching your base. A strip of concrete floor 3 or 4 cells wide will generally stop an advancing fire. -->
   <FirePreparation.helpText>Els incendis poden calcinar fàcilment una colònia. Per afrontar-lo, us heu de preparar abans que comenci.\n\nAquests elements de disseny us poden ajudar a reduir els desperfectes causats pels incendis:\n\n1. En comptes de construir un gran edifici, construïu edificis separats amb espai entre ells.\n\n2. Feu servir materials menys inflamables. La fusta és ràpida i barata, però molt inflamable.\n\n3. Construïu tallafocs per aturar els focs que s'atansin a la base. Una tira de terra de ciment de 3 o 4 cel·les d'ample hauria d'aturar qualsevol l'avanç de qualsevol incendi.</FirePreparation.helpText>
   
-  <!-- EN: Forbid and unforbid -->
+  <!-- EN: Forbid and allow -->
   <Forbidding.label>Prohibeix i permet</Forbidding.label>
-  <!-- EN: Colonists will not interact with items marked FORBIDDEN.\n\nForbidden items have a small red X attached. Select a forbidden item and use the controls at the bottom to UNFORBID it. -->
+  <!-- EN: Colonists will not interact with items marked FORBIDDEN.\n\nForbidden items have a small red X attached. Select a forbidden item and use the controls at the bottom to ALLOW it. -->
   <Forbidding.helpText>Els colons no interactuaran amb els objectes marcats com a PROHIBIT.\n\nEls objectes prohibits porten una petita X vermella. Seleccioneu un objecte prohibit i feu servir els controls de sota per treure la prohibició.</Forbidding.helpText>
   
   <!-- EN: Forbidding doors -->
@@ -165,6 +171,8 @@
   <TimeControls.label>Control del temps</TimeControls.label>
   <!-- EN: You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.helpText>Podeu accelerar el temps.\n\nProveu de controlar-lo amb les tecles {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, i {Key:TimeSpeed_Superfast}, o amb els botons de la part de baix a la dreta.</TimeControls.helpText>
+  <!-- EN: You can speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
+  <TimeControls.helpTextController>TODO</TimeControls.helpTextController>
   
   <!-- EN: Work settings -->
   <WorkTab.label>Configurar les feines</WorkTab.label>

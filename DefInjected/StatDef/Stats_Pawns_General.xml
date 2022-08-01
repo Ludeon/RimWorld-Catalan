@@ -1,25 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: animals learning factor -->
+  <AnimalsLearningFactor.label>TODO</AnimalsLearningFactor.label>
+  <!-- EN: A multiplier on the learning rate for animals skill. -->
+  <AnimalsLearningFactor.description>TODO</AnimalsLearningFactor.description>
+  
+  <!-- EN: caravan riding speed -->
+  <CaravanRidingSpeedFactor.label>TODO</CaravanRidingSpeedFactor.label>
+  <!-- EN: The multiplier applied to a person's movement speed when they ride this animal as part of a caravan. Animals can only be ridden in caravans. -->
+  <CaravanRidingSpeedFactor.description>TODO</CaravanRidingSpeedFactor.description>
+  
   <!-- EN: carrying capacity -->
   <CarryingCapacity.label>capacitat de càrrega</CarryingCapacity.label>
-  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators. This is separate from the ability to carry cargo on long cross-world trips. -->
+  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
   <CarryingCapacity.description>Quantitat de material que pot portar a les mans, la boca o altres. És diferent de la capacitat de portar càrrega en els viatges a través del mapa.</CarryingCapacity.description>
   
   <!-- EN: Maximum comfortable temperature -->
   <ComfyTemperatureMax.label>Temperatura de confort màxima</ComfyTemperatureMax.label>
-  <!-- EN: Above this temperature, characters will be unhappy. Significantly above this temperature, they will develop heatstroke and eventually die. -->
+  <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
   <ComfyTemperatureMax.description>Per sobre d’aquesta temperatura, el personatge s’enfadarà. Si està molt per sobre, agafarà un cop de calor i pot arribar a morir.</ComfyTemperatureMax.description>
   
   <!-- EN: Minimum comfortable temperature -->
   <ComfyTemperatureMin.label>Temperatura de confort mínima</ComfyTemperatureMin.label>
-  <!-- EN: Below this temperature, characters will be unhappy. Significantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
+  <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
   <ComfyTemperatureMin.description>Per sota d’aquesta temperatura, el personatge s’enfadarà. Si està molt per sota, agafarà hipotèrmia, tindrà congelacions i pot arribar a morir.</ComfyTemperatureMin.description>
   
   <!-- EN: eating speed -->
   <EatingSpeed.label>velocitat de menjar</EatingSpeed.label>
   <!-- EN: A multiplier on eating speed. -->
   <EatingSpeed.description>Factor de la velocitat de menjar.</EatingSpeed.description>
+  
+  <!-- EN: filth rate -->
+  <FilthRate.label>TODO</FilthRate.label>
+  <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
+  <FilthRate.description>TODO</FilthRate.description>
   
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>quantitat de menjar que cull</ForagedNutritionPerDay.label>
@@ -38,22 +53,27 @@
   
   <!-- EN: immunity gain speed -->
   <ImmunityGainSpeed.label>velocitat d’immunització</ImmunityGainSpeed.label>
-  <!-- EN: The speed at which this character gains immunity to diseases. If this is too slow, the character will die from a disease before developing immunity. -->
+  <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
   <ImmunityGainSpeed.description>Velocitat a la qual el personatge s’immunitza de les malalties. Si va massa a poc a poc, pot morir de la malaltia abans d’aconseguir la immunitat.</ImmunityGainSpeed.description>
+  
+  <!-- EN: injury healing factor -->
+  <InjuryHealingFactor.label>TODO</InjuryHealingFactor.label>
+  <!-- EN: The multiplier applied to a person's injury healing rate. -->
+  <InjuryHealingFactor.description>TODO</InjuryHealingFactor.description>
   
   <!-- EN: leather amount -->
   <LeatherAmount.label>quantitat de pell</LeatherAmount.label>
-  <!-- EN: The amount of leather yielded when butchering this creature. -->
+  <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <LeatherAmount.description>Quantitat de pell que s’obtindrà d’escorxar aquesta criatura.</LeatherAmount.description>
   
   <!-- EN: meat amount -->
   <MeatAmount.label>quantitat de carn</MeatAmount.label>
-  <!-- EN: The amount of meat yielded when butchering this creature. -->
+  <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <MeatAmount.description>Quantitat de carn que s’obtindrà d’escorxar aquesta criatura.</MeatAmount.description>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>nivell de crisi mental</MentalBreakThreshold.label>
-  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break. The severity of the mental break will depend on how far below the threshold they are. -->
+  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
   <MentalBreakThreshold.description>Quan l’estat d’ànim està per sota d’aquest nivell, la persona està en perill de tenir una crisi mental. La gravetat de la crisi mental dependrà de com de lluny estigui d’aquest nivell.</MentalBreakThreshold.description>
   
   <!-- EN: minimum handling skill -->
@@ -75,7 +95,7 @@
   
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>sensibilitat psíquica</PsychicSensitivity.label>
-  <!-- EN: Multiplier on the impact of psychic phenomena affecting this person. More sensitive people both suffer more from negative psychic effects, and benefit more from positive ones. -->
+  <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
   <PsychicSensitivity.description>Factor de l’impacte dels fenòmens psíquics que afectin la persona. Les persones més sensibles poden tant patir els efectes negatius com beneficiar-se dels positius.</PsychicSensitivity.description>
   
   <!-- EN: rest rate multiplier -->

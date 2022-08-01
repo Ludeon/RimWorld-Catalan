@@ -3,17 +3,38 @@
   
   <!-- EN: construction speed -->
   <ConstructionSpeedFactor.label>velocitat de construcció</ConstructionSpeedFactor.label>
-  <!-- EN: The speed at which buildings made of this are constructed is multiplied by this value. Some materials, like stone, are slow to build from, while others, like wood, are fast. -->
+  <!-- EN: The speed at which buildings made of this are constructed is multiplied by this value.\n\nSome materials, like stone, are slow to build from, while others, like wood, are fast. -->
   <ConstructionSpeedFactor.description>La velocitat a la qual es construeixen els edificis es multiplica per aquest valor. Construir amb alguns materials, com ara la pedra, és més lent mentre que fer-ho amb d’altres, com ara la fusta, és més ràpid.</ConstructionSpeedFactor.description>
+  <!-- EN: construction speed (material factor) -->
+  <ConstructionSpeedFactor.labelForFullStatList>TODO</ConstructionSpeedFactor.labelForFullStatList>
+  
+  <!-- EN: filth multiplier -->
+  <FilthMultiplier.label>TODO</FilthMultiplier.label>
+  <!-- EN: How susceptible this surface is to filth. If this is less than 100%, some of the filth deposited here will disappear on contact. -->
+  <FilthMultiplier.description>TODO</FilthMultiplier.description>
   
   <!-- EN: medical potency -->
   <MedicalPotency.label>potència mèdica</MedicalPotency.label>
-  <!-- EN: How effective this is when used to tend wounds and diseases, or do surgery. Higher medical potency improves the quality of tending, and acts as a multiplier on the chance of success during surgery. Medical potency is just one factor in medical outcomes, among many others, including doctor ability, equipment, cleanliness, and luck. -->
+  <!-- EN: How effective this is when used to tend wounds and diseases, or do surgery.\n\nHigher medical potency improves the quality of tending, and acts as a multiplier on the chance of success during surgery.\nMedical potency is just one factor in medical outcomes, among many others, including doctor ability, equipment, cleanliness, and luck. -->
   <MedicalPotency.description>Efectivitat que té per curar ferides i malalties o operar. Com més potència mèdica millor resultat tindran els tractaments i, a més, és un multiplicador per a la probabilitat d’èxit de les cirurgies. La potència mèdica és només un dels factors que afecten el resultat mèdic, juntament amb l’habilitat del metge, el material emprat, la netedat i la sort.</MedicalPotency.description>
   
   <!-- EN: medical tend quality maximum -->
   <MedicalQualityMax.label>qualitat màxima del tractament mèdic</MedicalQualityMax.label>
-  <!-- EN: The maximum quality of medical tending that can be achieved while using this. Better tend quality allows skilled doctors to treat wounds better, as well as more reliably. -->
+  <!-- EN: The maximum quality of medical tending that can be achieved while using this.\n\nBetter tend quality allows skilled doctors to treat wounds better, as well as more reliably. -->
   <MedicalQualityMax.description>La qualitat màxima del tractament mèdic que es pot obtenir emprant això. Una millor qualitat mèdica permet als bons metges tractar millor les ferides, i els dóna més fiabilitat.</MedicalQualityMax.description>
+  
+  <!-- EN: meditation psyfocus bonus -->
+  <MeditationFocusStrength.label>TODO</MeditationFocusStrength.label>
+  <!-- EN: The amount of extra psyfocus someone gains by focusing on this object during meditation, in addition to their own base rate of meditation psyfocus gain.\n\nFor some objects, this number can change depending on the surroundings and the person doing the meditating. -->
+  <MeditationFocusStrength.description>TODO</MeditationFocusStrength.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusStrength.formatString>TODO</MeditationFocusStrength.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusStrength.formatStringUnfinalized>TODO</MeditationFocusStrength.formatStringUnfinalized>
+  
+  <!-- EN: psychic sensitivity offset -->
+  <PsychicSensitivityOffset.label>TODO</PsychicSensitivityOffset.label>
+  <!-- EN: An offset applied to the user's psychic sensitivity. -->
+  <PsychicSensitivityOffset.description>TODO</PsychicSensitivityOffset.description>
   
 </LanguageData>

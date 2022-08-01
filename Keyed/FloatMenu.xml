@@ -3,22 +3,24 @@
 
   <!-- EN: Call {0} -->
   <CallOnRadio>Truca a {0}</CallOnRadio>
-  <!-- EN: Cannot use ({0}) -->
+  <!-- EN: Cannot use: {0} -->
   <CannotUseReason>No es pot fer servir ({0})</CannotUseReason>
-  <!-- EN: Cannot use (solar flare) -->
+  <!-- EN: Cannot use: EMP -->
   <CannotUseSolarFlare>No es pot fer servir (erupció solar)</CannotUseSolarFlare>
-  <!-- EN: Cannot use (no power) -->
+  <!-- EN: Cannot use: No power -->
   <CannotUseNoPower>No es pot fer servir (no hi ha corrent)</CannotUseNoPower>
-  <!-- EN: Cannot use (no path) -->
+  <!-- EN: Cannot use: No path -->
   <CannotUseNoPath>No es pot fer servir (no hi ha camí)</CannotUseNoPath>
-  <!-- EN: Cannot use (reserved) -->
+  <!-- EN: Cannot use: Reserved -->
   <CannotUseReserved>No es pot fer servir (reservat)</CannotUseReserved>
-  <!-- EN: Cannot use (full) -->
+  <!-- EN: Cannot use: Full -->
   <CannotUseFull>No es pot fer servir (ple)</CannotUseFull>
   <!-- EN: leader {1_labelShort} is unavailable -->
   <LeaderUnavailable>El líder {1_definite} no està disponible</LeaderUnavailable>
   <!-- EN: leader is unavailable -->
   <LeaderUnavailableNoLeader>el líder no està disponible</LeaderUnavailableNoLeader>
+  <!-- EN: Not allowed -->
+  <NotAllowed>TODO</NotAllowed>
   
   <!-- EN: Fire at {1_label} -->
   <FireAt>Dispara a {1_definite}</FireAt>
@@ -27,18 +29,22 @@
   <OutOfRange>Fora de rang</OutOfRange>
   <!-- EN: too close -->
   <TooClose>massa a prop</TooClose>
-  <!-- EN: cannot hit target -->
+  <!-- EN: Cannot hit target -->
   <CannotHitTarget>No es pot tocar l'objectiu</CannotHitTarget>
   <!-- EN: {1_labelShort} is incapable of violence -->
   <IsIncapableOfViolenceLower>{1_definite} no és capaç d'actes violents</IsIncapableOfViolenceLower>
   <!-- EN: incapable of violence -->
   <IncapableOfViolenceLower>no és capaç d'actes violents</IncapableOfViolenceLower>
+  <!-- EN: {0_labelShort} is incapable of shooting -->
+  <IsIncapableOfShootingLower>TODO</IsIncapableOfShootingLower>
   <!-- EN: {1_labelShort} is not drafted -->
   <IsNotDraftedLower>{1_definite} no està reclutat</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>No podeu donar ordres a unitats que no controleu</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>no es pot atacar a si mateix</CannotAttackSelf>
+  <!-- EN: cannot attack faction ally -->
+  <CannotAttackSameFactionMember>TODO</CannotAttackSameFactionMember>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>{1_definite} manualment</OrderManThing>
@@ -49,6 +55,10 @@
   <MeleeAttackToDeath>Ataca cos a cos a {1_definite} fins a la seva mort</MeleeAttackToDeath>
   <!-- EN: no path -->
   <NoPath>no hi ha camí</NoPath>
+  <!-- EN: burying -->
+  <Burying>TODO</Burying>
+  <!-- EN: designated for {0} -->
+  <DesignatedFor>TODO</DesignatedFor>
 
   <!-- EN: forbidden -->
   <ForbiddenLower>prohibit</ForbiddenLower>
@@ -72,6 +82,8 @@
   <UnderAllowedSkill>per sota del nivell permès {0}</UnderAllowedSkill>
   <!-- EN: above allowed skill {0} -->
   <AboveAllowedSkill>per sobre del nivell permès {0}</AboveAllowedSkill>
+  <!-- EN: no reachable outside cell -->
+  <NoReachableOutsideCell>TODO</NoReachableOutsideCell>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>no té el nivell de capacitat requerit</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -80,6 +92,10 @@
   <NoUsableFood>no hi ha menjar que es pugui fer servir</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>no hi ha menjar</NoFood>
+  <!-- EN: No {0_label} -->
+  <NoIngredient>TODO</NoIngredient>
+  <!-- EN: below requirements of {0} -->
+  <FoodBelowTitleRequirements>TODO</FoodBelowTitleRequirements>
   <!-- EN: animals skill too low - need {0} -->
   <AnimalsSkillTooLow>No té prou nivell en gestió d’animals – necessita {0}</AnimalsSkillTooLow>
   <!-- EN: animal downed -->
@@ -88,8 +104,24 @@
   <CantInteractAnimalAsleep>animal adormit</CantInteractAnimalAsleep>
   <!-- EN: animal busy -->
   <CantInteractAnimalBusy>animal ocupat</CantInteractAnimalBusy>
-  <!-- EN: construction skill too low -->
-  <ConstructionSkillTooLow>no té prou nivell en construcció</ConstructionSkillTooLow>
+  <!-- EN: no allowed reachable pens -->
+  <CantRopeAnimalNoUsableReachablePens>TODO</CantRopeAnimalNoUsableReachablePens>
+  <!-- EN: no enclosed pens -->
+  <CantRopeAnimalNoEnclosedPens>TODO</CantRopeAnimalNoEnclosedPens>
+  <!-- EN: no allowed pens -->
+  <CantRopeAnimalNoAllowedPens>TODO</CantRopeAnimalNoAllowedPens>
+  <!-- EN: no reachable pens -->
+  <CantRopeAnimalNoReachablePens>TODO</CantRopeAnimalNoReachablePens>
+  <!-- EN: can't touch -->
+  <CantRopeAnimalCantTouch>TODO</CantRopeAnimalCantTouch>
+  <!-- EN: no space in pen -->
+  <CantRopeAnimalNoSpace>TODO</CantRopeAnimalNoSpace>
+  <!-- EN: {0_labelShort} is in {1} state -->
+  <CantRopeAnimalMentalState>TODO</CantRopeAnimalMentalState>
+  <!-- EN: already in best pen -->
+  <CantRopeAnimalAlreadyInBestPen>TODO</CantRopeAnimalAlreadyInBestPen>
+  <!-- EN: {0} skill too low -->
+  <SkillTooLowForConstruction>TODO</SkillTooLowForConstruction>
   <!-- EN: need components -->
   <NoComponentsToRepair>necessita components</NoComponentsToRepair>
   <!-- EN: need {0} -->
@@ -120,21 +152,37 @@
   <IncapableOfMining>no pot minar</IncapableOfMining>
   <!-- EN: angers faction -->
   <AngersFaction>farà enfadar la facció</AngersFaction>
+  <!-- EN: no body part -->
+  <InstallImplantNoBodyPart>TODO</InstallImplantNoBodyPart>
+  <!-- EN: not a colonist -->
+  <InstallImplantNotAllowedForNonColonists>TODO</InstallImplantNotAllowedForNonColonists>
+  <!-- EN: already installed -->
+  <InstallImplantAlreadyInstalled>TODO</InstallImplantAlreadyInstalled>
+  <!-- EN: max level -->
+  <InstallImplantAlreadyMaxLevel>TODO</InstallImplantAlreadyMaxLevel>
+  <!-- EN: Upgrade {0} to level {1} -->
+  <UpgradeImplant>TODO</UpgradeImplant>
+  <!-- EN: violation of faction ally -->
+  <SurgeryViolationFellowFactionMember>TODO</SurgeryViolationFellowFactionMember>
+  <!-- EN: being carried by {0_labelShort} -->
+  <BeingCarriedBy>TODO</BeingCarriedBy>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Consumeix {1_labelShort}</ConsumeThing>
   
-  <!-- EN: Cannot go here (no path) -->
+  <!-- EN: Cannot go here: No path -->
   <CannotGoNoPath>No s'hi pot anar (no hi ha camí)</CannotGoNoPath>
   <!-- EN: Go here -->
   <GoHere>Ves aquí</GoHere>
   
   <!-- EN: Arrest {0} -->
   <Arrest>Arresta a {0_definite}</Arrest>
-  <!-- EN: Try to arrest {1_label} -->
+  <!-- EN: Try to arrest {1_label} ({2} chance) -->
   <TryToArrest>Prova d'arrestar a {1_definite}</TryToArrest>
   <!-- EN: Cannot arrest -->
   <CannotArrest>No es pot arrestar</CannotArrest>
+  <!-- EN: {0} chance of arrest -->
+  <ArrestChance>TODO</ArrestChance>
 
   <!-- EN: Capture {1_label} -->
   <Capture>Captura a {1_definite}</Capture>
@@ -151,8 +199,17 @@
   <!-- EN: Cannot carry to cryptosleep casket -->
   <CannotCarryToCryptosleepCasket>No es pot portar al taüt de criptoson</CannotCarryToCryptosleepCasket>
 
+  <!-- EN: Carry {0_label} to shuttle -->
+  <CarryToShuttle>TODO</CarryToShuttle>
+
   <!-- EN: No available cryptosleep casket. -->
   <NoCryptosleepCasket>No hi ha cap taüt de criptoson disponible</NoCryptosleepCasket>
+  <!-- EN: Temporary faction members not allowed. -->
+  <CryptosleepCasketGuestsNotAllowed>TODO</CryptosleepCasketGuestsNotAllowed>
+  <!-- EN: Hosted prisoners not allowed. -->
+  <CryptosleepCasketGuestPrisonersNotAllowed>TODO</CryptosleepCasketGuestPrisonersNotAllowed>
+  <!-- EN: Already occupied -->
+  <CryptosleepCasketOccupied>TODO</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>No hi ha cap llit per presoners a l'abast tancat i desocupat.</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
@@ -167,6 +224,8 @@
   <IsReservedBy>{0_definite} està reservat per {1_definite}.</IsReservedBy>
   <!-- EN: Too heavy -->
   <TooHeavy>Pesa massa</TooHeavy>
+  <!-- EN: {0_labelShort} is in the same faction. -->
+  <SameFaction>TODO</SameFaction>
 
   <!-- EN: incapable -->
   <Incapable>no n'és capaç</Incapable>
@@ -189,8 +248,19 @@
   <ForceWear>Força a portar {1_definite}</ForceWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>No pot portar {1_indefinite}</CannotWear>
+  <!-- EN: Force equip {1_labelShort} -->
+  <ForceEquipApparel>TODO</ForceEquipApparel>
+  <!-- EN: Cannot equip {1_label} -->
+  <CannotEquipApparel>TODO</CannotEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>Li falten parts del cos</CannotWearBecauseOfMissingBodyParts>
+  
+  <!-- EN: Reload {GEAR_labelShort} with {AMMO_label} -->
+  <Reload>TODO</Reload>
+  <!-- EN: Full -->
+  <ReloadFull>TODO</ReloadFull>
+  <!-- EN: Too few -->
+  <ReloadNotEnough>TODO</ReloadNotEnough>
   
   <!-- EN: Cannot pick up {1_label} -->
   <CannotPickUp>No pot recollir {1_definite}</CannotPickUp>
@@ -204,18 +274,22 @@
   <PickUpSome>Recull {1_definite}...</PickUpSome>
   <!-- EN: Pick up {1_labelShort} x{{0}} -->
   <PickUpCount>Recull {1_definite} x{{1_definite}}</PickUpCount>
+  <!-- EN: Cannot pick up {1_labelShort} -->
+  <CannotPickUpSome>TODO</CannotPickUpSome>
+  <!-- EN: {0} {1} allowed -->
+  <MaxPickUpAllowed>TODO</MaxPickUpAllowed>
   
-  <!-- EN: Cannot give {1_label} to pack animal -->
+  <!-- EN: Cannot load {1_label} onto pack animal -->
   <CannotGiveToPackAnimal>No es pot donar {1_definite} al grup d'animals</CannotGiveToPackAnimal>
-  <!-- EN: Cannot give {1_label} (all) to pack animal -->
+  <!-- EN: Cannot load {1_label} (all) onto pack animal -->
   <CannotGiveToPackAnimalAll>No es pot donar {1_definite} (tot) al grup d'animals</CannotGiveToPackAnimalAll>
-  <!-- EN: Give {1_label} to pack animal -->
+  <!-- EN: Load {1_label} onto pack animal -->
   <GiveToPackAnimal>Dona {1_definite} al grup d'animals</GiveToPackAnimal>
-  <!-- EN: Give {1_label} (all) to pack animal -->
+  <!-- EN: Load {1_label} (all) onto pack animal -->
   <GiveToPackAnimalAll>Dona {1_definite} (tot) al grup d'animals</GiveToPackAnimalAll>
-  <!-- EN: Give {1_labelShort} to pack animal... -->
+  <!-- EN: Load {1_labelShort} onto pack animal... -->
   <GiveToPackAnimalSome>Dona {1_definite} al grup d'animals...</GiveToPackAnimalSome>
-  <!-- EN: Take {1_labelShort} x{{0}} -->
+  <!-- EN: Load {1_labelShort} x{{0}} onto pack animal -->
   <GiveToPackAnimalCount>Agafa {1_definite} x{{1_definite}}</GiveToPackAnimalCount>
   
   <!-- EN: Cannot load {1_label} into caravan -->
@@ -244,6 +318,23 @@
   <Strip>Despulla a {1_definite}</Strip>
   <!-- EN: Cannot strip {1_label} -->
   <CannotStrip>No es pot despullar a {1_definite}</CannotStrip>
+  <!-- EN: Cannot drop {1_label} -->
+  <CannotDrop>TODO</CannotDrop>
+  <!-- EN: Carry {0_label} -->
+  <Carry>TODO</Carry>
+  <!-- EN: Cannot carry {0_label} -->
+  <CannotCarry>TODO</CannotCarry>
+  <!-- EN: temporary faction member -->
+  <QuestRelated>TODO</QuestRelated>
+  <!-- EN: Cannot change outfits on temporary faction members -->
+  <QuestRelated_Outfit>TODO</QuestRelated_Outfit>
+  <!-- EN: would replace locked apparel -->
+  <WouldReplaceLockedApparel>TODO</WouldReplaceLockedApparel>
+
+  <!-- EN: Cannot place {0_label} in {1_label} -->
+  <CannotPlaceIn>TODO</CannotPlaceIn>
+  <!-- EN: Place {0_label} in {1_label} -->
+  <PlaceIn>TODO</PlaceIn>
 
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>Autodestrueix aquí</SelfDestructHere>
@@ -262,6 +353,11 @@
   <TradeWith>Negocia amb {0_definite}</TradeWith>
   <!-- EN: Cannot trade -->
   <CannotTrade>No es pot negociar</CannotTrade>
+
+  <!-- EN: Open {0_label} -->
+  <Open>TODO</Open>
+  <!-- EN: Cannot open {0_label} -->
+  <CannotOpen>TODO</CannotOpen>
   
   <!-- EN: Enter {0} -->
   <EnterMap>Entra a {0}</EnterMap>
@@ -279,48 +375,60 @@
   <ApproachingSite>S’acosta a {0}</ApproachingSite>
   <!-- EN: Offer gifts -->
   <OfferGifts>Ofereix regals</OfferGifts>
+  <!-- EN: Trade with {0} -->
+  <TradeWithSettlement>TODO</TradeWithSettlement>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
   <EnterCryptosleepCasket>Entra al taüt de criptoson</EnterCryptosleepCasket>
   <!-- EN: Open cryptosleep casket -->
   <OpenCryptosleepCasket>Obre el taüt de criptoson</OpenCryptosleepCasket>
+  <!-- EN: Get in shuttle -->
+  <EnterShuttle>TODO</EnterShuttle>
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
-  <!-- EN: Cannot {0} {2_labelShort} -->
+  <!-- EN: Cannot {0} {1} -->
   <CannotGenericWork>No es pot {0} {2_definite}</CannotGenericWork>
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>No es pot {0}</CannotGenericWorkCustom>
 
-  <!-- EN: Cannot prioritize (incapable of {0}) -->
+  <!-- EN: Cannot prioritize: Incapable of {0} -->
   <CannotMissingHealthActivities>No es pot prioritzar (no pot {0})</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
   <CannotGenericAlreadyAm>Ja està {0} {2_definite}</CannotGenericAlreadyAm>
+  <!-- EN: Already {0} -->
+  <CannotGenericAlreadyAmCustom>TODO</CannotGenericAlreadyAmCustom>
 
-  <!-- EN: Cannot prioritize (will never do {0}) -->
+  <!-- EN: Cannot prioritize: Will never do {0} -->
   <CannotPrioritizeWorkTypeDisabled>No pot prioritzar (No farà mai {0})</CannotPrioritizeWorkTypeDisabled>
+  <!-- EN: lacking necessary title -->
+  <MissingTitleAbility>TODO</MissingTitleAbility>
 
-  <!-- EN: Cannot prioritize (will never {0}) -->
+  <!-- EN: Cannot prioritize: Will never {0} -->
   <CannotPrioritizeWorkGiverDisabled> No pot prioritzar (No farà mai {0})</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>no farà {0} mai</WillNever>
 
-  <!-- EN: Cannot prioritize (not assigned to {0}) -->
+  <!-- EN: Cannot prioritize: Not assigned to {0} -->
   <CannotPrioritizeNotAssignedToWorkType>No es pot prioritzar (no està assignat a {0})</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>no està assignat</NotAssigned>
+  <!-- EN: not assigned to {0} -->
+  <NotAssignedToWorkType>TODO</NotAssignedToWorkType>
 
-  <!-- EN: Cannot prioritize (research is a long-term task) -->
+  <!-- EN: Cannot prioritize: Research is a long-term task -->
   <CannotPrioritizeResearch> No es pot prioritzar (investigar és una tasca a llarg termini)</CannotPrioritizeResearch>
 
-  <!-- EN: Cannot prioritize ({1_label} is forbidden) -->
+  <!-- EN: Cannot prioritize: {1_label} is forbidden -->
   <CannotPrioritizeForbidden> No es pot prioritzar ({1_definite} està prohibit)</CannotPrioritizeForbidden>
-  <!-- EN: Cannot prioritize (forbidden) -->
+  <!-- EN: Cannot prioritize: Forbidden -->
   <CannotPrioritizeCellForbidden>No es pot prioritzar (està prohibit)</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>Fora de l'àrea permesa)</CannotPrioritizeForbiddenOutsideAllowedArea>
+  <!-- EN: Cannot prioritize burying -->
+  <CannotPrioritizeBurying>TODO</CannotPrioritizeBurying>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
@@ -330,6 +438,8 @@
   <DropAtEdge>Aterra a la vora</DropAtEdge>
   <!-- EN: Drop in center -->
   <DropInCenter>Aterra al centre</DropInCenter>
+  <!-- EN: Attack {0} -->
+  <AttackShuttle>TODO</AttackShuttle>
   <!-- EN: Attack {0}: Drop at edge -->
   <AttackAndDropAtEdge>Ataca a {0}: Aterra a la vora</AttackAndDropAtEdge>
   <!-- EN: Attack {0}: Drop in center -->
@@ -367,11 +477,46 @@
   <GiveToCaravan>Dóna a {0_definite}</GiveToCaravan>
   <!-- EN: Give as a gift to {0} ({1}) -->
   <GiveGiftViaTransportPods>Dóna-ho a {0_definite} com a regal({1})</GiveGiftViaTransportPods>
+  <!-- EN: Not part of launch group -->
+  <NotPartOfLaunchGroup>TODO</NotPartOfLaunchGroup>
 
   <!-- Rescue quest -->
   <!-- EN: Free prisoner -->
   <FreePrisoner>>Allibera presoner</FreePrisoner>
   <!-- EN: Offer help -->
   <OfferHelp>Ofereix ajuda</OfferHelp>
+
+  <!-- EN: apply {0} -->
+  <ApplyTechprint>TODO</ApplyTechprint>
+
+  <!-- EN: Too dangerous -->
+  <EnterCooldownBlocksEntering>TODO</EnterCooldownBlocksEntering>
+
+  <!-- CommsConsole -->
+  <!-- EN: Nobody to call -->
+  <NoCommsTarget>TODO</NoCommsTarget>
+
+  <!-- EN: Invoke {0} -->
+  <Invoke>TODO</Invoke>
+  <!-- EN: Cannot invoke {0} -->
+  <CannotInvoke>TODO</CannotInvoke>
+  <!-- EN: power -->
+  <Power>TODO</Power>
+  <!-- EN: already invoked -->
+  <AlreadyInvoked>TODO</AlreadyInvoked>
+
+  <!-- EN: Tend {0} -->
+  <Tend>TODO</Tend>
+  <!-- EN: Cannot tend {0} -->
+  <CannotTend>TODO</CannotTend>
+  <!-- EN: {0} does not require tending -->
+  <TendingNotRequired>TODO</TendingNotRequired>
+  <!-- EN: without medicine -->
+  <WithoutMedicine>TODO</WithoutMedicine>
+
+  <!-- EN: Repair {0} -->
+  <RepairThing>TODO</RepairThing>
+  <!-- EN: Cannot repair {0} -->
+  <CannotRepair>TODO</CannotRepair>
   
 </LanguageData>

@@ -15,7 +15,6 @@
   <ColdSnap.label>onada de fred</ColdSnap.label>
   <!-- EN: Cold snap -->
   <ColdSnap.letterLabel>Onada de fred</ColdSnap.letterLabel>
-  <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
   <ColdSnap.letterText>Esteu passant una onada de fred. Les hipotèrmies poden matar la gent. Construïu espais calefactats per sobreviure-hi, assegureu-vos que duen roba adequada, i recolliu la collita abans que es mori de fred.</ColdSnap.letterText>
   
   <!-- EN: crop blight -->
@@ -28,14 +27,12 @@
   <Flashstorm.label>tempesta de llamps</Flashstorm.label>
   <!-- EN: Flashstorm -->
   <Flashstorm.letterLabel>Tempesta de llamps</Flashstorm.letterLabel>
-  <!-- EN: A freak localized flashstorm is striking a small area with lightning. This can cause massive fires. -->
   <Flashstorm.letterText>Cauen una gran quantitat de llamps. Pot iniciar grans incendis.</Flashstorm.letterText>
   
   <!-- EN: heat wave -->
   <HeatWave.label>onada de calor</HeatWave.label>
   <!-- EN: Heat wave -->
   <HeatWave.letterLabel>Onada de calor</HeatWave.letterLabel>
-  <!-- EN: An unusual heat wave has begun.\n\nHeat waves can kill quickly if people start getting heatstroke. Stay cool by building a cooler or getting deep under a mountain. -->
   <HeatWave.letterText>Ha començat una onada de calor anormal. Els cops de calor poden matar la gent. Mantingueu-los freds amb refrigeradors o mantenint-los a dins les muntanyes.</HeatWave.letterText>
   
   <!-- EN: herd migration -->
@@ -63,7 +60,7 @@
   <!-- EN: Ransom demand -->
   <RansomDemand.letterLabel>Demanda de rescat</RansomDemand.letterLabel>
   
-  <!-- EN: chased refugee -->
+  <!-- UNUSED -->
   <RefugeeChased.label>refugiat en persecució</RefugeeChased.label>
   
   <!-- EN: transport pod crash -->
@@ -85,28 +82,24 @@
   <ToxicFallout.label>pluja tòxica</ToxicFallout.label>
   <!-- EN: Toxic fallout -->
   <ToxicFallout.letterLabel>Pluja Tòxica</ToxicFallout.letterLabel>
-  <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to over a season. -->
   <ToxicFallout.letterText>Un incendi químic llunyà ha alliberat un núvol tòxic sobre tota aquesta regió.\n\nQualsevol persona o animal que no estigui sota teulada tard o d'hora emmalaltirà per la pols tòxica que cau de l'atmosfera.\n\nPot dura uns quants dies o una estació sencera.</ToxicFallout.letterText>
   
   <!-- EN: volcanic winter -->
   <VolcanicWinter.label>hivern volcànic</VolcanicWinter.label>
   <!-- EN: Volcanic winter -->
   <VolcanicWinter.letterLabel>Hivern volcànic</VolcanicWinter.letterLabel>
-  <!-- EN: A distant supervolcano has erupted and begun spewing millions of cubic kilometers of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums. -->
   <VolcanicWinter.letterText>Un supervolcà llunyà ha entrat en erupció i ha començat a enviar milions de quilòmetres cúbics de cendra a l'atmosfera.\n\nLa cendra enfosquirà el sol. Les temperatures baixaran i les plantes trobaran a faltar la llum solar. Es pot acabar en poques setmanes o durar moltes estacions.</VolcanicWinter.letterText>
   
   <!-- EN: wanderer join -->
   <WandererJoin.label>s'ha unit un vagabund</WandererJoin.label>
-  <!-- EN: Wanderer joins -->
   <WandererJoin.letterLabel>S'ha unit un vagabund</WandererJoin.letterLabel>
-  <!-- EN: A [PAWN_kind] named [PAWN_nameDef] has arrived and is joining the colony. [PAWN_pronoun] is a [PAWN_title].\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want [PAWN_nameDef], you can banish [PAWN_objective], sell [PAWN_objective] into slavery, or simply kill [PAWN_objective]. However, your other colonists may find this disturbing. -->
   <WandererJoin.letterText>Un [PAWN_kind] anomenat [PAWN_nameDef] acaba d’arribar i s’uneix a la colònia. És un [PAWN_title].\n\nEstà disposat a col·laborar, però no deixarà la colònia de forma voluntària. Si no voleu a [PAWN_nameDef], [PAWN_objective] podeu fer fora, vendre a algun esclavista, o simplement matar. Però no agradarà gaire als altres colons. </WandererJoin.letterText>
   
   <!-- EN: wild man wanders in -->
   <WildManWandersIn.label>arribada de salvatge</WildManWandersIn.label>
-  <!-- EN: Wild man wanders in -->
+  <!-- EN: {PAWN_kind} wanders in -->
   <WildManWandersIn.letterLabel>Arribada de salvatge</WildManWandersIn.letterLabel>
-  <!-- EN: A person living among wild animals has wandered into the area. [PAWN_pronoun]'s called {0}.\n\nYou can attempt to tame [PAWN_objective]. -->
+  <!-- EN: A person living among wild animals has wandered into the area. {PAWN_pronoun}'s called {0}.\n\nYou can attempt to tame or arrest {PAWN_objective}. -->
   <WildManWandersIn.letterText>Una persona que s’ha criat entre animals salvatges ha entrat a la vostra zona. Es diu {0}.\n\nPodeu intentar domesticar-la.</WildManWandersIn.letterText>
   
 </LanguageData>

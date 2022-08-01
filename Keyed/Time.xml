@@ -9,9 +9,13 @@
   <LetterMinute>m</LetterMinute>
   <!-- EN: s -->
   <LetterSecond>s</LetterSecond>
-  
+  <!-- EN: y -->
+  <LetterYear>a</LetterYear>
+
   <!-- EN: days -->
   <DaysLower>dies</DaysLower>
+  <!-- EN: hours -->
+  <HoursLower>hores</HoursLower>
   <!-- EN: seconds -->
   <SecondsLower>segons</SecondsLower>
 
@@ -29,20 +33,29 @@
   <SeasonPermanentWinter>hivern permanent</SeasonPermanentWinter>
 
   <!-- EN: Aprimay -->
-  <QuadrumAprimay>Aprima</QuadrumAprimay>
+  <QuadrumAprimay>Abrilmaig</QuadrumAprimay>
   <!-- EN: Jugust -->
-  <QuadrumJugust>Jagost</QuadrumJugust>
+  <QuadrumJugust>Juliagost</QuadrumJugust>
   <!-- EN: Septober -->
-  <QuadrumSeptober>Septombre</QuadrumSeptober>
+  <QuadrumSeptober>SeteOct</QuadrumSeptober>
   <!-- EN: Decembary -->
-  <QuadrumDecembary>Decemberi</QuadrumDecembary>
+  <QuadrumDecembary>Desgener</QuadrumDecembary>
+
+  <!-- EN: Apr -->
+  <QuadrumAprimay_Short>AbMa</QuadrumAprimay_Short>
+  <!-- EN: Jug -->
+  <QuadrumJugust_Short>JuAg</QuadrumJugust_Short>
+  <!-- EN: Sep -->
+  <QuadrumSeptober_Short>SeOc</QuadrumSeptober_Short>
+  <!-- EN: Dec -->
+  <QuadrumDecembary_Short>DeGe</QuadrumDecembary_Short>
   
   <!-- EN: Born: {0} -->
-  <Born>Naixement: {0}</Born>
+  <Born>Nascut el: {0}</Born>
   <!-- EN: Chronological age: {0} years, {1} quadrums, {2} days -->
-  <AgeChronological>Edat cronològica: {0} anys, {1} cuadrums, {2} dies</AgeChronological>
+  <AgeChronological>Edat cronològica: {0} anys, {1} quinzenes, {2} dies</AgeChronological>
   <!-- EN: Biological age: {0} years, {1} quadrums, {2} days -->
-  <AgeBiological>Edat biologica: {0} anys, {1} cuadrums, {2} dies</AgeBiological>
+  <AgeBiological>Edat biològica: {0} anys, {1} quinzenes, {2} dies</AgeBiological>
 
   <!-- Date periods -->
   <!-- EN: 1 year -->
@@ -50,9 +63,9 @@
   <!-- EN: {0} years -->
   <PeriodYears>{0} anys</PeriodYears>
   <!-- EN: 1 quadrum -->
-  <Period1Quadrum>1 cuadrum</Period1Quadrum>
+  <Period1Quadrum>1 quinzena</Period1Quadrum>
   <!-- EN: {0} quadrums -->
-  <PeriodQuadrums>{0} cuadrums</PeriodQuadrums>
+  <PeriodQuadrums>{0} quinzenes</PeriodQuadrums>
   <!-- EN: 1 day -->
   <Period1Day>1 dia</Period1Day>
   <!-- EN: {0} days -->
@@ -73,5 +86,7 @@
   <Lasted>Duració</Lasted>
   <!-- EN: occurred {0} ago -->
   <OccurredTimeAgo>ocorregut fa {0}</OccurredTimeAgo>
+  <!-- EN: {0} ago -->
+  <TimeAgo>fa {0}</TimeAgo>
   
 </LanguageData>

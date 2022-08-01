@@ -1,31 +1,47 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
+  <!-- Misc -->
   <!-- EN: Jump to location -->
   <JumpToLocation>Ves a la ubicació</JumpToLocation>
   <!-- EN: Postpone -->
   <PostponeLetter>Postposa</PostponeLetter>
   <!-- EN: Reject -->
   <RejectLetter>Refusa</RejectLetter>
-  
+  <!-- EN: Read more -->
+  <ReadMore>Més</ReadMore>
+
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>Estiu</LetterLabelFirstSummerWarning>
-  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
+  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
   <FirstSummerWarning>Ha començat l'estiu! Però s'acosta l'hivern.\n\nEls vostres camps no creixeran amb el fred de l'hivern. Assegureu-vos d'emmagatzemar prou menjar ara que encara podeu.\n\nPodeu construir una cambra refrigerada per evitar que s'espatlli el menjar.\n\nI proveu de comprar, robar o fabricar parques, o us congelareu quan sortiu fora.</FirstSummerWarning>
 
-  <!-- EN: Relations with {0} have broken down completely. They are now hostile to you.\n\nThey will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({1}) has fallen below {2}. In order to restore neutral relations, goodwill must reach {3} again. -->
-  <LetterRelationsChange_Hostile>Les relacions amb {0} s’han trencat completament. Ara us seran hostils.\n\nUs enviaran raids periòdics a les vostres colònies i caravanes i no voldrà negociar amb vosaltres. Si voleu millorar les relacions, podeu oferir-los regals a través de caravanes o càpsules de transport.\n\nAixò és degut al fet que la reputació ({1}) ha baixat de {2}. Per tornar a assolir una relació neutral, la reputació ha de tornar a arribar a {3}.</LetterRelationsChange_Hostile>
-  <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you.\n\nThis happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
+  <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
+  <LetterRelationsChange_Hostile>Les relacions amb {0} s’han trencat completament. Ara us seran hostils.\n\nUs enviaran raids periòdics a les vostres colònies i caravanes i no voldrà negociar amb vosaltres. Si voleu millorar les relacions, podeu oferir-los regals a través de caravanes o càpsules de transport.\n\nAixò és degut al fet que la reputació ({1}) ha baixat de {2}. Per tornar a assolir una relació neutral, la reputació ha de tornar a arribar a {3}.</LetterRelationsChange_Hostile>  
+  <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
+  <LetterRelationsChange_HostileGoodwillDescription>TODO</LetterRelationsChange_HostileGoodwillDescription>  
+
+  <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
   <LetterRelationsChange_NeutralFromHostile>Les relacions amb {0} han millorat. Ara us consideren neutrals i ja no us atacaran.\n\nAixò és per què la reputació ({1}) ha superat els {2}. Si la reputació baixa de {3}, {0} us tornarà a ser hostil. Si la reputació supera els {4}, es faran aliats i lluitaran per tu.</LetterRelationsChange_NeutralFromHostile>
-  <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied.\n\nWhile they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
+  <!-- EN: This happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
+  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>TODO</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
+  
+  <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied. -->
   <LetterRelationsChange_NeutralFromAlly>Les relacions amb {0} s’ha refredat. Ara us consideren neutrals en comptes d’aliats.\n\nTot i que continuaran interactuant amb vosaltres de manera pacífica, no enviaran més lluitadors a ajudar-vos quan estigueu en un destret.\n\nAixó és per què la vostra reputació ({1}) ha baixat de {2}. Si baixa per sota de {3}, {0} us seran hostils. Si torna a pujar per sobre de {4}, tornaran a ser aliats.</LetterRelationsChange_NeutralFromAlly>
-  <!-- EN: Relations with {0} have become very close. They now consider you an ally.\n\nAllies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({1}) has risen past {2}. If goodwill falls below {3}, relations will return to neutral. -->
+  <!-- EN: While they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
+  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>TODO</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
+  
+  <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
   <LetterRelationsChange_Ally>Les relacions amb {0} s’han tornat molt properes. Ara us consideren un aliat.\n\nEls aliats a vegades vénen a ajudar-vos a lluitar contra els vostres enemics quan us ataquen. També els podeu trucar per demanar-los ajuda quan vulgueu, amb un cost de reputació.\n\nUs heu convertit en aliats per que la vostra reputació ({1}) ha pujat de {2}. Si baixa per sota de {3}, les relacions es tornaran neutrals.</LetterRelationsChange_Ally>
+  <!-- EN: Allies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({0}) has risen past {1}. If goodwill falls below {2}, relations will return to neutral. -->
+  <LetterRelationsChange_AllyGoodwillDescription>TODO</LetterRelationsChange_AllyGoodwillDescription>
 
   <!-- EN: goodwill -->
   <goodwill>reputació</goodwill>
   <!-- EN: Neutral -->
   <Neutral>Neutral</Neutral>
+  <!-- EN: neutral -->
+  <NeutralLower>TODO</NeutralLower>
   <!-- EN: Death -->
   <Death>Mort</Death>
 
@@ -47,7 +63,7 @@
   <NothingCrushed>No s'ha esclafat res.</NothingCrushed>
   <!-- EN: Roof collapse -->
   <LetterLabelRoofCollapsed>Esfondrament</LetterLabelRoofCollapsed>
-  
+
   <!-- EN: {0} successfully recruited {1} ({2} chance). -->
   <RecruitSuccess>{0} reclutat {1} ({2} probabilitats).</RecruitSuccess>
   <!-- EN: {0} failed to recruit {1} ({2} chance). -->
@@ -74,16 +90,16 @@
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
   <NewPartDiseaseAnimal>{PAWN_definite} ha desenvolupat una malaltia: {3} a {1}</NewPartDiseaseAnimal>
 
-  <!-- EN: {1_labelShort} was formerly part of your faction. -->
+  <!-- EN: {0} was formerly part of your faction. -->
   <PawnWasFormerlyColonist>{1_definite} formava part de la vostra facció.</PawnWasFormerlyColonist>
+  <!-- EN: You previously hosted {0}. -->
+  <PawnWasFormerlyLodger>TODO</PawnWasFormerlyLodger>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
   <PawnHasTheseRelationshipsWithColonists>{1_definite} té les següents relacions amb els vostres colons:</PawnHasTheseRelationshipsWithColonists>
-  <!-- EN: The camp will disappear after {0} days. If you miss this opportunity, you may never hear from {PRISONER_labelShort} again. -->
-  <PrisonerRescueTimeout>El camp desapareixerà d’aquí a {0} dies. Si no aprofiteu aquesta ocasió, no tornareu a sentir parlar de {PRISONER_labelShort} mai més.</PrisonerRescueTimeout>
 
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>Perill antic</LetterLabelAncientShrineWarning>
-  <!-- EN: As {0} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
+  <!-- EN: As {PAWN_nameDef} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
   <AncientShrineWarning>En passar prop de l'antic mur, {PAWN_definite} ha tingut un presentiment. No sap per què, però nota que aquesta vella estructura conté un gran perill.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
@@ -112,27 +128,43 @@
   <LetterHediffFromRandomHediffGiver>{PAWN_definite} ha patit un canvi en la salut: {1}.</LetterHediffFromRandomHediffGiver>
   <!-- EN: {PAWN_labelShort}: {1} -->
   <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}: {1}</LetterHediffFromRandomHediffGiverLabel>
-  
+
   <!-- EN: {1} died: {0} -->
   <LetterLeadersDeathLabel>{1} mort: {0}</LetterLeadersDeathLabel>
-  <!-- EN: {OLDLEADER_nameFull}, {3} of {1}, has died.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
+  <!-- EN: {OLDLEADER_nameFull}, {1} of {0}, has died. -->
   <LetterLeadersDeath>{OLDLEADER_definite}, {3} dels {1}, ha mort.\n\nEl nou {3} és {NEWLEADER_definite}.</LetterLeadersDeath>
 
   <!-- EN: New {1}: {0} -->
   <LetterLeaderChangedLabel>Nou {1}: {0}</LetterLeaderChangedLabel>
-  <!-- EN: {OLDLEADER_nameFull} is no longer {3} of {1}.\n\nThe new {3} is {NEWLEADER_nameFull}. -->
+  <!-- EN: {OLDLEADER_nameFull} is no longer {1} of {0}. -->
   <LetterLeaderChanged>{OLDLEADER_definite} ja no és {3} dels {1}.\n\nEl nou {3} és {NEWLEADER_definite}.</LetterLeaderChanged>
-  
+
+  <!-- EN: The new {0} is {NEWLEADER_nameFull}. -->
+  <LetterNewLeader>TODO</LetterNewLeader>
+
   <!-- EN: The final straw was: {0} -->
   <FinalStraw>La darrera gota ha estat: {0}.</FinalStraw>
+  <!-- EN: This happened because of poor mood. -->
+  <MentalStateReason_Mood>TODO</MentalStateReason_Mood>
+  <!-- EN: This happened because of the trait: {0}. -->
+  <MentalStateReason_Trait>TODO</MentalStateReason_Trait>
+  <!-- EN: This happened because of: {0}. -->
+  <MentalStateReason_Hediff>TODO</MentalStateReason_Hediff>
+  <!-- EN: This happened because of {0_definite}'s death. -->
+  <MentalStateReason_BondedHumanDeath>TODO</MentalStateReason_BondedHumanDeath>
   <!-- EN: The last event was -->
   <LastFactionRelationsEvent>L’últim esdeveniment ha estat</LastFactionRelationsEvent>
 
-  <!-- EN: Read more -->
-  <ReadMore>Més</ReadMore>
+  <!-- EN: View related quest -->
+  <ViewRelatedQuest>TODO</ViewRelatedQuest>
+  <!-- EN: View quest -->
+  <ViewQuest>TODO</ViewQuest>
   <!-- EN: The last events in {PAWN_definite}'s life -->
   <LastEventsInLife>Els últims esdevenimets de la vida de {PAWN_definite}</LastEventsInLife>
-  
+
+  <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration! -->
+  <LetterInspirationBeginThanksToHighMoodPart>TODO</LetterInspirationBeginThanksToHighMoodPart>
+
   <!-- Related pawns -->
   <!-- EN: Relationship -->
   <LetterLabelNoticedRelatedPawns>Relació</LetterLabelNoticedRelatedPawns>
@@ -157,13 +189,13 @@
   <!-- EN: There are people who have relationships with your {0} or prisoners in this area: -->
   <LetterRelatedPawnsSite>Hi ha gent que té relaciona bme el vostre {0} o presoners en aquesta zona:</LetterRelatedPawnsSite>
 
-  <!-- EN: (relationship) -->
+  <!-- EN: relationship -->
   <RelationshipAppendedLetterSuffix>(relació)</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
   <RelationshipAppendedLetterTextColonist>{PAWN_definite} està relacionat amb un colon. És {1} de {RELATIVE_labelShort}.</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
   <RelationshipAppendedLetterTextPrisoner>{PAWN_definite} està relacionat amb un presoner. És {1} de {RELATIVE_labelShort}.</RelationshipAppendedLetterTextPrisoner>
-  
+
   <!-- Attempt romance / propose interaction -->
   <!-- EN: Affair -->
   <LetterLabelAffair>Amants</LetterLabelAffair>
@@ -171,8 +203,12 @@
   <LetterAffair>{PAWN1_definite}, que comparteix matrimoni amb {SPOUSE_definite}, ha esdevingut amant de {PAWN2_definite}.</LetterAffair>
   <!-- EN: New lovers -->
   <LetterLabelNewLovers>Nòvios</LetterLabelNewLovers>
+  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} now want to sleep together. Consider assigning them a double bed. -->
+  <LetterNewLovers>TODO</LetterNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
   <LetterNoLongerLovers>{PAWN1_definite} i {PAWN2_definite} s'han deixat.</LetterNoLongerLovers>
+  <!-- EN: {PAWN_labelShort} will change {PAWN_possessive} last name back to {PAWN_possessive} birth name. -->
+  <LetterNoLongerLovers_BackToBirthName>TODO</LetterNoLongerLovers_BackToBirthName>
   <!-- EN: Breakup -->
   <LetterLabelBreakup>Ruptura</LetterLabelBreakup>
   <!-- EN: Marriage is on! -->
@@ -181,9 +217,11 @@
   <LetterLabelRejectedProposal>Rebuig</LetterLabelRejectedProposal>
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
   <LetterAcceptedProposal>En els pròxims dies o estacions, celebraran la cerimònia i convidaran els altres colons. Col·loqueu una zona de casaments si voleu controlar on cal celebrar la cerimònia.</LetterAcceptedProposal>
+  <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
+  <LetterAcceptedProposal_NameChange>TODO</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
   <LetterRejectedProposal>{INITIATOR_definite} estarà trist durant un temps.</LetterRejectedProposal>
-  
+
   <!-- Generalized letter labels -->
   <!-- EN: Hostile: {0} -->
   <LetterLabelRelationsChange_Hostile>Hostil: {0}</LetterLabelRelationsChange_Hostile>
@@ -195,11 +233,9 @@
   <LetterLabelRelationsChange_NeutralFromAlly>Un aliat ara és neutral: {0}</LetterLabelRelationsChange_NeutralFromAlly>
   <!-- EN: Zzztt... -->
   <LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
-  <!-- EN: Mental break -->
-  <LetterLabelMentalBreakdown>Emprenyament</LetterLabelMentalBreakdown>
-  
+
   <!-- Bonded animals -->
-  <!-- EN: bonded animal -->
+  <!-- EN: bonded -->
   <LetterLabelSuffixBondedAnimalDied>animal amb lligam</LetterLabelSuffixBondedAnimalDied>
   <!-- EN: {ANIMAL_definite} was bonded to {HUMAN_labelShort}. It will affect {HUMAN_labelShort}'s mood. -->
   <LetterPartBondedAnimalDied>{ANIMAL_indefinite} estava lligat a {HUMAN_definite}. Afectarà el seu estat d’ànim.</LetterPartBondedAnimalDied>
@@ -211,37 +247,31 @@
   <LetterLabelPrisonBreak>Fuga</LetterLabelPrisonBreak>
   <!-- EN: Prisoners have staged a breakout! They've somehow defeated the door locks and are making their way out. They may seek weapons, fight, or try to escape. These prisoners are involved:\n\n{0}\n\nPrisoners are more likely to attempt breakout when they are numerous and healthy. -->
   <LetterPrisonBreak>Els presoners inicien un intent de fuga! D'alguna manera ha forçat el pany i s'escapen. Buscaran armes per lluitar o provaran de fugir. Estan implicats aquests presoners:\n\n{0}\n\nEls presoners provaran de fugar-se més sovint si no estan contents, són molts i en bon estat de salut.</LetterPrisonBreak>
-  
-  <!-- Party -->
-  <!-- EN: Party -->
-  <LetterLabelNewParty>Festa</LetterLabelNewParty>
-  <!-- EN: {1_labelShort} is throwing a party! Everyone who goes will gain recreation and social energy, and a lasting positive mood boost. -->
-  <LetterNewParty>{1_definite} organitza una festa! Tothom que hi vagi estarà més content, millorarà la capacitat social i bonificarà a l'estat d'ànim.</LetterNewParty>
 
   <!-- Newly addicted -->
   <!-- EN: {0} addiction -->
   <LetterLabelNewlyAddicted>addicte a {0}</LetterLabelNewlyAddicted>
   <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
   <LetterNewlyAddicted>{PAWN_definite} ha desenvolupat addició a {1}.\n\nNecessitarà {1}. Consumirà la droga automàticament quan la necessiti. Si no pot consumir {1}, tindrà síndrome d'abstinència.</LetterNewlyAddicted>
-  
+
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
   <LetterLabelDrugBinge>borratxera de {0}</LetterLabelDrugBinge>
   <!-- EN: {2_label} is binging on {1}. -->
   <LetterDrugBinge>{2_definite} s'ha emborratxat de {1}.</LetterDrugBinge>
-  
+
   <!-- Caravan destroyed -->
   <!-- EN: Caravan destroyed -->
   <LetterLabelAllCaravanColonistsDied>Caravana destrossada</LetterLabelAllCaravanColonistsDied>
   <!-- EN: All members of {0} have died. -->
   <LetterAllCaravanColonistsDied>Han mort tots els membres de la {0}.</LetterAllCaravanColonistsDied>
-  
+
   <!-- Caravan entered map -->
   <!-- EN: Caravan arrived at {0_label} -->
   <LetterLabelCaravanEnteredMap>La caravana ha arribat a {0_label}</LetterLabelCaravanEnteredMap>
   <!-- EN: {0} has arrived at {1_definite}. -->
   <LetterCaravanEnteredMap>{0} ha arribat a {1_definite}.</LetterCaravanEnteredMap>
-  
+
   <!-- Caravan entered enemy base -->
   <!-- EN: Attack begun -->
   <LetterLabelCaravanEnteredEnemyBase>Atac iniciat</LetterLabelCaravanEnteredEnemyBase>
@@ -253,27 +283,35 @@
   <LetterLabelTransportPodsLandedInEnemyBase>Atac iniciat</LetterLabelTransportPodsLandedInEnemyBase>
   <!-- EN: Your transport pods have arrived at {0}. -->
   <LetterTransportPodsLandedInEnemyBase>Les vostres càpsules de transport han arribat a {0}.</LetterTransportPodsLandedInEnemyBase>
-  
+  <!-- EN: The shuttle has arrived at {0}. -->
+  <LetterShuttleLandedInEnemyBase>TODO</LetterShuttleLandedInEnemyBase>
+
   <!-- Faction base defeated -->
   <!-- EN: Base destroyed -->
   <LetterLabelFactionBaseDefeated>Assentament destruït</LetterLabelFactionBaseDefeated>
-  <!-- EN: The enemy base {0} has been destroyed.\n\nIn {1}, the caravan will automatically be reformed. You can reform the caravan now in the World screen by selecting the destroyed base and choosing the "Reform caravan" option. -->
+  <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
   <LetterFactionBaseDefeated>L'assentament enemic {0} ha estat destruït.\n\nD’aquí a {1} la caravana es tornarà a formar de manera automàtica. Podeu tornar a formar la caravana manualment a la pantalla del planeta seleccionant la base destruïda i prement «tornar a caravana».</LetterFactionBaseDefeated>
-  <!-- EN: This was the last base of {0}, which means this faction doesn't exist anymore. -->
+  <!-- EN: Since this was their last settlement, {0} has been defeated. -->
   <LetterFactionBaseDefeated_FactionDestroyed>Era el darrer assentament dels {0}, amb la qual cosa, la facció ja no existeix.</LetterFactionBaseDefeated_FactionDestroyed>
-  
+
   <!-- Quest completed -->
   <!-- EN: Quest completed -->
   <LetterLabelDefeatAllEnemiesQuestCompleted>Missió acomplerta</LetterLabelDefeatAllEnemiesQuestCompleted>
   <!-- EN: You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}. -->
   <LetterDefeatAllEnemiesQuestCompleted>Heu acabat amb el campament enemic!\n\nHa arribat la recompensa de {0}, i la relació amb aquesta facció ha millorat en {1}.</LetterDefeatAllEnemiesQuestCompleted>
 
-  <!-- Found lump of precious resources -->
-  <!-- EN: Precious minerals found -->
+  <!-- Long-range mineral scanner -->
+  <!-- EN: Distant resource scanned -->
   <LetterLabelFoundPreciousLump>Heu trobat minerals preciosos</LetterLabelFoundPreciousLump>
-  <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} nearby.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
+  <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
   <LetterFoundPreciousLump>{WORKER_definite} ha trobat una veta de {0} fent servir l’escàner de llarg abast.\n\nMalauradament, no durarà – algú altre l’explotarà abans en els propers {1} dies si no ho fem nosaltres.\n\n{2}.</LetterFoundPreciousLump>
-  
+
+  <!-- Ground penetrating scanner -->
+  <!-- EN: Scanned underground -->
+  <LetterLabelDeepScannerFoundLump>TODO</LetterLabelDeepScannerFoundLump>
+  <!-- EN: {FINDER_nameDef} has found a lump of buried {0} using the ground-penetrating scanner! -->
+  <LetterDeepScannerFoundLump>TODO</LetterDeepScannerFoundLump>
+
   <!-- Ambush -->
   <!-- EN: Ambush -->
   <LetterLabelAmbushInExistingMap>emboscada</LetterLabelAmbushInExistingMap>
@@ -305,22 +343,32 @@
   <PeaceTalksSocialXPGain>{PAWN_definite}, el vostre negociador, ha guanyat {1} punts d’experiència social.</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
-  <!-- EN: {0} is fed up with civilization.\n\n{0_pronoun} realized that wild creatures are always free. So, {0_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame {0_objective} to get {0_objective} back. -->
+  <!-- EN: {0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back. -->
   <LetterRunWildMentalBreak>{0} s’ha afartat de la civilització.\n\nS’ha adonat que les criatures salvatges són lliures de fer el que vulguin, així que ha decidit deixar la facció i viure entre els animals.\n\nPodeu intentar la doma per que es torni a unir.</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
-  <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {0_pronoun} will recover in several days. -->
+  <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
   <LetterCatatonicMentalBreak>{0} està en una emprenyada catatònica que durarà diversos dies.</LetterCatatonicMentalBreak>
 
-  <!-- EN: AI Core Offer -->
+  <!-- EN: Persona Core Offer -->
   <LetterLabelAICoreOffer>Oferiment de nucli d’IA</LetterLabelAICoreOffer>
-  <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of an AI persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
+  <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of a persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
   <LetterAICoreOffer>{PAWN_definite} dels {1} es posa en contacte amb vosaltres per oferir-vos una informació: la ubicació d’un nucli d’IA, que necessitareu si voleu construir una nau. Us informa que és un objecte força rar i que els seus propietaris el solen tenir molt protegit.\n\nTruqueu-lo des de la consola de comunicacions si hi esteu interessats.</LetterAICoreOffer>
 
+  <!-- Crafting letters -->
   <!-- EN: Legendary Work -->
   <LetterCraftedLegendaryLabel>Treball llegendari</LetterCraftedLegendaryLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world. -->
   <LetterCraftedLegendaryMessage>{WORKER_definite} ha creat {CRAFTED_idefinite}.\n\nLa novetat d’aquest valuós objecte s’escamparà per tot el món.</LetterCraftedLegendaryMessage>
+  <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0}\n\nNews of this valuable artifact will spread across the world. -->
+  <LetterCraftedLegendaryMessageArt>TODO</LetterCraftedLegendaryMessageArt>
+
+  <!-- EN: Masterwork -->
+  <LetterCraftedMasterworkLabel>TODO</LetterCraftedMasterworkLabel>
+  <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
+  <LetterCraftedMasterworkMessage>TODO</LetterCraftedMasterworkMessage>
+  <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0} -->
+  <LetterCraftedMasterworkMessageArt>TODO</LetterCraftedMasterworkMessageArt>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
@@ -335,7 +383,7 @@
   <!-- Hibernate complete -->
   <!-- EN: Reactor ready -->
   <LetterLabelHibernateComplete>El reactor està preparat</LetterLabelHibernateComplete>
-  <!-- EN: Charlon Whitestone has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
+  <!-- EN: (*Name)Charlon Whitestone(/Name) has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
   <LetterHibernateComplete>Charlon Whitestone ha acabat la seqüència de recuperació de la hibernació del reactor. EL reactor ja està preparat per engegar i enlairar-se.</LetterHibernateComplete>
   <!-- EN: The reactor's power up sequence is complete. It is now ready to power a liftoff. -->
   <LetterHibernateCompleteStandalone>La seqüència d’arrancada del reactor ha acabat. Està preparat per l’enlairament.</LetterHibernateCompleteStandalone>
@@ -355,7 +403,7 @@
   <!-- Caravans battlefield victory -->
   <!-- EN: Caravan battle won -->
   <LetterLabelCaravansBattlefieldVictory>La caravana ha guanyat el combat</LetterLabelCaravansBattlefieldVictory>
-  <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, the caravan will be reformed automatically. -->
+  <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
   <LetterCaravansBattlefieldVictory>La vostra caravana ha guanyat el combat.\n\nPodeu tornar a formar la caravana ara mateix a la pantalla del planeta seleccionant el camp de batalla i triant l’opció «Tornar a caravana».\n\nNo cal que recolliu els objectes manualment, l’eina de formar caravanes ho farà immediatament.\n\nD’aquí a {0}, la caravana es tornarà a formar automàticament.</LetterCaravansBattlefieldVictory>
 
   <!-- Rescue quest -->
@@ -373,9 +421,136 @@
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on: {2}. -->
   <LetterDisease_Blocked>{0} ha bloquejat {1} a: {2}.</LetterDisease_Blocked>
-  <!-- EN: Disease ({0}) -->
+  <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>malaltia ({0})</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>{PAWN_definite} ha emmalaltit de {1}.\n\nAssegureu-vos que disposeu d’un llit mèdic i d’un metge. Procureu que tingui tractament i que passi tant temps al llit com sigui possible.</LetterTraitDisease>
+
+  <!-- Surgery -->
+  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
+  <LetterLabelSurgeryFailed>TODO</LetterLabelSurgeryFailed>
+  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <MessageMedicalOperationFailureMinor>{SURGEON_definite} ha comès un petit error mentre operava a {PATIENT_definite}.</MessageMedicalOperationFailureMinor>
+  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_definite} ha comès un error catastròfic mentre operava a {PATIENT_definite}.</MessageMedicalOperationFailureCatastrophic>
+  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_definite} ha comès un error ridícul mentre operava a {PATIENT_definite}.</MessageMedicalOperationFailureRidiculous>
+  <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
+  <MessageMedicalOperationFailureFatal>{SURGEON_definite} ha comès un error fatal mentre operava a {PATIENT_definite} a causa de les dificultats especials de: {2}</MessageMedicalOperationFailureFatal>
+
+  <!-- Quests -->
+  <!-- EN: A new quest has become available. It is called '{0}'. -->
+  <LetterQuestBecameAvailable>TODO</LetterQuestBecameAvailable>
+  <!-- EN: If you don't accept the quest within {0}, it will expire. -->
+  <LetterQuestRequiresAcceptance>TODO</LetterQuestRequiresAcceptance>
+  <!-- EN: A new quest has become active. It is called '{0}'. -->
+  <LetterQuestBecameActive>TODO</LetterQuestBecameActive>
+  <!-- EN: Quest active: {0} -->
+  <LetterQuestAutomaticallyAcceptedTitle>TODO</LetterQuestAutomaticallyAcceptedTitle>
+  <!-- EN: It will expire in {0}. -->
+  <LetterQuestActiveNowTime>TODO</LetterQuestActiveNowTime>
+
+  <!-- Quest drop pods arrived -->
+  <!-- EN: Pods arrived -->
+  <LetterLabelQuestDropPodsArrived>TODO</LetterLabelQuestDropPodsArrived>
+  <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
+  <LetterQuestDropPodsArrived>TODO</LetterQuestDropPodsArrived>
+
+  <!-- Quest items added to caravan inventory -->
+  <!-- EN: {CARAVAN_label} received items -->
+  <LetterLabelQuestItemsAddedToCaravanInventory>TODO</LetterLabelQuestItemsAddedToCaravanInventory>
+  <!-- EN: {CARAVAN_label} has received the following items:\n\n{THINGS} -->
+  <LetterQuestItemsAddedToCaravanInventory>TODO</LetterQuestItemsAddedToCaravanInventory>
+
+  <!-- Refugee joins -->
+  <!-- EN: {PAWN_nameDef} joins -->
+  <LetterLabelRefugeeJoins>TODO</LetterLabelRefugeeJoins>
+  <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
+  <LetterRefugeeJoins>TODO</LetterRefugeeJoins>
+  
+  <!-- Rescuee joins -->
+  <!-- EN: {PAWN_nameDef} joins -->
+  <LetterLabelRescueeJoins>TODO</LetterLabelRescueeJoins>
+  <!-- EN: {PAWN_nameDef} is thankful that you rescued {PAWN_objective}. {PAWN_pronoun} has decided that {PAWN_pronoun} would rather stay than leave, and is joining your colony. -->
+  <LetterRescueeJoins>TODO</LetterRescueeJoins>
+
+  <!-- Pawns arrive and join -->
+  <!-- EN: People join -->
+  <LetterLabelPawnsArriveAndJoin>TODO</LetterLabelPawnsArriveAndJoin>
+  <!-- EN: The following people have arrived and joined the colony:\n\n{0} -->
+  <LetterPawnsArriveAndJoin>TODO</LetterPawnsArriveAndJoin>
+
+  <!-- Pawns arrive -->
+  <!-- EN: People arrived -->
+  <LetterLabelPawnsArrive>TODO</LetterLabelPawnsArrive>
+  <!-- EN: The following people have arrived:\n\n{0} -->
+  <LetterPawnsArrive>TODO</LetterPawnsArrive>
+
+  <!-- Pawn leaving -->
+  <!-- EN: {0} leaving -->
+  <LetterLabelPawnLeaving>TODO</LetterLabelPawnLeaving>
+  <!-- EN: {0} is leaving. -->
+  <LetterPawnLeaving>TODO</LetterPawnLeaving>
+
+  <!-- Pawns leaving -->
+  <!-- EN: {0} leaving -->
+  <LetterLabelPawnsLeaving>TODO</LetterLabelPawnsLeaving>
+  <!-- EN: {0} are leaving. -->
+  <LetterPawnsLeaving>TODO</LetterPawnsLeaving>
+  
+  <!-- Colonist kidnapped -->
+  <!-- EN: {PAWN_nameDef} kidnapped -->
+  <LetterLabelPawnsKidnapped>TODO</LetterLabelPawnsKidnapped>
+  <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
+\nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
+  <LetterPawnsKidnapped>TODO</LetterPawnsKidnapped>
+  
+  <!-- Techprints -->
+  <!-- EN: Techprint applied: {PROJECT_label} -->
+  <LetterTechprintAppliedLabel>TODO</LetterTechprintAppliedLabel>
+  <!-- EN: A techprint has been applied to the research project: {PROJECT_label}. -->
+  <LetterTechprintAppliedPartIntro>TODO</LetterTechprintAppliedPartIntro>
+  <!-- EN: You've completed the project's techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
+  <LetterTechprintAppliedPartJustUnlocked>TODO</LetterTechprintAppliedPartJustUnlocked>
+  <!-- EN: This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total. -->
+  <LetterTechprintAppliedPartNotUnlockedYet>TODO</LetterTechprintAppliedPartNotUnlockedYet>
+  <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
+  <LetterTechprintAppliedPartAlreadyUnlocked>TODO</LetterTechprintAppliedPartAlreadyUnlocked>
+  <!-- EN: This project is already fully researched, so the techprint didn't advance your knowledge at all. -->
+  <LetterTechprintAppliedPartAlreadyResearched>TODO</LetterTechprintAppliedPartAlreadyResearched>
+  <!-- EN: By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill. -->
+  <LetterTechprintAppliedPartExpAwarded>TODO</LetterTechprintAppliedPartExpAwarded>
+  
+  <!-- Quest Completed -->
+  <!-- EN: Quest completed -->
+  <LetterQuestCompletedLabel>TODO</LetterQuestCompletedLabel>
+  <!-- EN: Quest failed -->
+  <LetterQuestFailedLabel>TODO</LetterQuestFailedLabel>
+  <!-- EN: Quest concluded -->
+  <LetterQuestConcludedLabel>TODO</LetterQuestConcludedLabel>
+  <!-- EN: You have successfully completed the quest '{0}'! -->
+  <LetterQuestCompletedSuccess>TODO</LetterQuestCompletedSuccess>
+  <!-- EN: You have failed the quest '{0}'. -->
+  <LetterQuestCompletedFail>TODO</LetterQuestCompletedFail>
+  <!-- EN: You have concluded the quest '{0}'. -->
+  <LetterQuestCompletedConcluded>TODO</LetterQuestCompletedConcluded>
+
+  <!-- Bladelink -->
+  <!-- EN: Persona bond: {PAWN_labelShort} -->
+  <LetterBladelinkWeaponBondedLabel>TODO</LetterBladelinkWeaponBondedLabel>
+  <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
+\nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
+  <LetterBladelinkWeaponBonded>TODO</LetterBladelinkWeaponBonded>
+  
+  <!-- Mech cluster -->
+  <!-- EN: Mechanoids arrived -->
+  <LetterLabelMechClusterArrived>TODO</LetterLabelMechClusterArrived>
+  <!-- EN: Mechanoids have arrived. -->
+  <LetterMechClusterArrived>TODO</LetterMechClusterArrived>
+
+  <!-- EN: Caravan detected -->
+  <LetterLabelSiteCountdownStarted>TODO</LetterLabelSiteCountdownStarted>
+  <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
+  <LetterTextSiteCountdownStarted>TODO</LetterTextSiteCountdownStarted>
 
 </LanguageData>

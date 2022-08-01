@@ -2,6 +2,32 @@
 <LanguageData>
   
   <!-- EN:
+    <li>r_name->[msyl][msyl] [mechhive]</li>
+    <li>mechhive->mechhive</li>
+    <li>msyl->nyar</li>
+    <li>msyl->alg</li>
+    <li>msyl->xan</li>
+    <li>msyl->zel</li>
+    <li>msyl->kil</li>
+    <li>msyl->len</li>
+    <li>msyl->lax</li>
+    <li>msyl->alph</li>
+    <li>msyl->ome</li>
+    <li>msyl->iri</li>
+    <li>msyl->slin</li>
+    <li>msyl->toth</li>
+    <li>msyl->arth</li>
+    <li>msyl->unth</li>
+    <li>msyl->ox</li>
+    <li>msyl->arm</li>
+    <li>msyl->murd</li>
+    <li>msyl->zen</li>
+    <li>msyl->yoth</li>
+    <li>msyl->lite</li>
+  -->
+  <NamerFactionMechanoid.rulePack.rulesStrings>TODO</NamerFactionMechanoid.rulePack.rulesStrings>
+  
+  <!-- EN:
     <li>r_name(p=3)->[nearnameinitial]</li>
     <li>r_name->[nearnameinitial] [political_union_outlander]</li>
     <li>r_name->[nearnameinitial] [political_adjective] [political_union_outlander]</li>
@@ -50,7 +76,7 @@
     <li>r_name->[ConceptBadass] [groupname]</li>
   -->
   <NamerFactionPirate.rulePack.rulesStrings>
- <li>r_name->Els [AnimalBadass]s</li>
+    <li>r_name->Els [AnimalBadass]s</li>
     <li>r_name->Els homes [AnimalBadass]</li>
     <li>r_name->Els [AnimalBadass]s de [ConceptBadass]</li>
     <li>r_name->Els [PersonBadass]s de [ConceptBadass]</li>
@@ -80,12 +106,12 @@
   </NamerFactionPirate.rulePack.rulesStrings>
   
   <!-- EN:
-    <li>r_name->[tribalworld] [political_union_tribal]</li>
-    <li>r_name->The [tribalworld] [political_union_tribal]</li>
+    <li>r_name->[WordTribal] [political_union_tribal]</li>
+    <li>r_name->The [WordTribal] [political_union_tribal]</li>
     <li>r_name->The [Color] [TerrainFeature] [political_union_tribal]</li>
     <li>r_name->[political_union_tribal] of [WordTribal]</li>
     <li>r_name->The [Color] [Animal] [WordTribal]</li>
-    <li>r_name->The [WordTribal] of the [TerrainFeature]</li>
+    <li>r_name->The [political_union_tribal] of the [TerrainFeature]</li>
   -->
   <NamerFactionTribal.rulePack.rulesStrings>
     <li>r_name->[political_union_tribal] [tribalworld]</li>
@@ -216,7 +242,7 @@
     <li>townname_combo->[AnimalBadass] [geography]</li>
     <li>townname_combo->[AnimalBadass]'s [geography]</li>
     <li>townname_combo->[ConceptBadass] [geography]</li>
-    <li>townname_combo->[ConceptBadass]'s' [geography]</li>
+    <li>townname_combo->[ConceptBadass]'s [geography]</li>
     <li>townname_combo->[PersonBadass] [geography]</li>
     <li>townname_combo->[PersonBadass]'s [geography]</li>
     <li>townname_combo->[Enemy]'s [geography]</li>
@@ -253,7 +279,7 @@
     <li>townendevil->thad</li>
   -->
   <NamerSettlementPirate.rulePack.rulesStrings>
-     <li>r_name(p=4)->[townname_combo]</li>
+    <li>r_name(p=4)->[townname_combo]</li>
     <li>r_name->[townname_wordgen]</li>
     <li>townname_combo->[geography] [AnimalBadass]</li>
     <li>townname_combo->[geography] de [AnimalBadass]</li>
@@ -293,7 +319,6 @@
     <li>townendevil->moix</li>
     <li>townendevil->gossa</li>
     <li>townendevil->drid</li>
-
   </NamerSettlementPirate.rulePack.rulesStrings>
   
   <!-- EN:

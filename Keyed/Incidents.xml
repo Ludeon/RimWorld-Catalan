@@ -10,9 +10,10 @@
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
   <AnimalInsanityMultiple>Algun tipus d'interferència psíquica s'escampa sobre el paisatge. Els vostres colons estan bé, però...\n\nSembla que molts {0} de la zona s'han tornat bojos.</AnimalInsanityMultiple>
 
-  <!-- EN: Blight -->
+  <!-- EN: Blight: {PLANTDEF_labelPlural} -->
   <LetterLabelCropBlight>Plaga</LetterLabelCropBlight>
-  <!-- EN: A colonist has noticed blight on your crops! You should cut or burn the blighted plants before the blight spreads. -->
+  <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!
+\nYou should cut or burn the affected plants before the blight spreads. -->
   <LetterCropBlight>Un colon ha trobat una plaga als cultius! Haurieu de tallar o cremar les plantes afectades abans que s’escampi.</LetterCropBlight>
 
   <!-- EN: Miracle -->
@@ -31,13 +32,18 @@
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Càpsula d'escapament</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>{PAWN_titleIndef} anomenat {PAWN_nameDef} s’ha estavellat prop d’aquí en una càpsula de transport. Si ha sobreviscut a l’impacte, estarà molt {PAWN_gender ? malferit : malferida}.</RefugeePodCrash>
+  <RefugeePodCrash>{PAWN_titleIndef} anomenat {PAWN_nameDef} s’ha estavellat prop d’aquí en una càpsula de transport. Si ha sobreviscut a l’impacte, estarà molt {PAWN_gender ? malferit : malferida}.</RefugeePodCrash>  
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>{PAWN_definite} no pertany a cap facció. {PAWN_gender ? El : La} podeu rescatar i tenir l’esperança que s’unirà a vosaltres voluntàriament, o {PAWN_gender ? el : la} podeu capturar per reclutar-{PAWN_gender ? lo : la} o vendre com a esclau</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Hostile>{PAWN_definite} és de la facció enemiga {PAWN_factionName}. El podeu capturar per reclutar-lo o vendre com a esclau.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
   <RefugeePodCrash_NonHostile>{PAWN_definite} és dels {PAWN_factionName}. Si {PAWN_gender ? el : la} rescateu, podria ser que s’unís voluntàriament a vosaltres. Si no, tornarà a casa seva i parlarà bé de la vostra facció.\n\nTambé {PAWN_gender ? el : la} podeu capturar per reclutar-{PAWN_gender ? lo : la} o vendre com a esclau, però això farà enfadar la seva facció.</RefugeePodCrash_NonHostile>
+
+  <!-- EN: Wanderer joins: {PAWN_nameDef} -->
+  <LetterLabelWandererJoins>TODO</LetterLabelWandererJoins>
+  <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
+  <LetterWandererJoins>TODO</LetterWandererJoins>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Càpsules de càrrega</LetterLabelCargoPodCrash>
@@ -57,8 +63,12 @@
   <!-- EN: That really is a huge explosion. Wow. -->
   <ShortCircuitWasHuge>Ha sigut una explosió enorme. Uau.</ShortCircuitWasHuge>
 
-  <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}. -->
+  <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2} -->
   <TraderArrival>Una nau d'un comerciant passa per les proximitats.\n\nEs fan dir {0}. Són {1}.</TraderArrival>
+  <!-- EN: They're affiliated with {FACTION_name}. -->
+  <TraderArrivalFromFaction>TODO</TraderArrivalFromFaction>
+  <!-- EN: They are not affiliated with any faction. -->
+  <TraderArrivalNoFaction>TODO</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
   <SingleTravelerPassing>{PAWN_titleIndef} dels {1} passa per aquí. Es diu {PAWN_nameFull}.</SingleTravelerPassing>
@@ -86,21 +96,25 @@
 
   <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>Menja persones</LetterLabelManhunterPackArrived>
-  <!-- EN: A pack of man-hunting {0} have entered the area. They will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack turrets that are powered down, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
+  <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
   <ManhunterPackArrived>Un grup de {0} ha entrat a la zona. Voltaran per la regió, buscant carn humana.\n\nNo atacaran les portes si no veuen algú que les travessa. Si us amagueu a dins, estareu segurs. No atacaran les metralladores inactives així que, si les teniu apagades, no els passarà res.\n\nMarxaran d'aquí a uns dies.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
-  <!-- EN: The ancient structure has emitted a psychic pulse that has driven nearby animals mad. -->
+  <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
   <MessageAnimalInsanityPulse>L'antiga estructura emet un impuls psíquic que farà tornar bojos els animals propers.</MessageAnimalInsanityPulse>
   <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
   <LetterShipPartDroveColonistInsane>El tros de nau que s'ha estavellat emet un impuls psíquic que farà tornar bojos els vostres colons {0}.</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
   <AwokeDaysAgo>Despert fa {0} dies</AwokeDaysAgo>
+  <!-- EN: Activated {0} days ago -->
+  <ActivatedDaysAgo>TODO</ActivatedDaysAgo>
+  <!-- EN: Opened {0} days ago -->
+  <OpenedDaysAgo>TODO</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
   <PsychicDroneLevel>Nivell del brunzit psíquic: {0}</PsychicDroneLevel>
   <!-- EN: Drone intensifies -->
   <LetterLabelPsychicDroneLevelIncreased>El brunzit s'intensifica</LetterLabelPsychicDroneLevelIncreased>
-  <!-- EN: The crashed ship part is now emanating a more powerful kind of psychic drone. Every humanlike in the area now feels more disturbed, terrified, and paranoid. -->
+  <!-- EN: The crashed ship part is now emanating a more powerful kind of psychic drone. Every {0} humanlike in the area now feels more disturbed, terrified, and paranoid. -->
   <LetterPsychicDroneLevelIncreased>El tros de nau estavellada emet un brunzit psíquic més potent. Tothom a la zona se sent pitjor, més aterrat i paranoic.</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
@@ -109,35 +123,12 @@
   <!-- EN: {0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now. -->
   <LetterAgentRevealed>{0} ha resultat ser un agent de {1}, el vostre enemic .\n\nEstà provant d'escapar.</LetterAgentRevealed>
 
-  <!-- Distant psychic drone -->
-  <!-- EN: Psychic drone -->
-  <LetterLabelPsychicDrone>Brunzit psíquic</LetterLabelPsychicDrone>
-  <!-- EN: Every colonist of the {0} gender winces in pain!\n\nSome distant engine of hatred is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}. -->
-  <LetterIncidentPsychicDrone>Els colons de gènere {0} es regiren de dolor!\n\nAlgun aparell llunyà està produint un brunzit psíquic que afecta tota la zona un una freqüència que sembla que només afecta el gènere {0}. Durant uns quants dies, l'estat d'ànim d'algunes persones empitjorarà.\n\nEl nivell del brunzit és {1}.</LetterIncidentPsychicDrone>
-
-  <!-- EN: Psychic soothe -->
-  <LetterLabelPsychicSoothe>Calmant psíquic</LetterLabelPsychicSoothe>
-  <!-- EN: Every colonist of the {0} gender smiles with contentment!\n\nSome distant engine of happiness is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit better. -->
-  <LetterIncidentPsychicSoothe>Els colons de gènere {0} somriuen alegrement!\n\nAlgun aparell llunyà està produint un brunzit psíquic que afecta tota la zona. Sembla que només afecta el gènere {0}. Durant uns quants dies, l'estat d'ànim d'algunes persones millorarà.</LetterIncidentPsychicSoothe>
-
   <!-- Beavers -->
   <!-- EN: Beavers! -->
   <LetterLabelBeaversArrived>Castors!</LetterLabelBeaversArrived>
   <!-- EN: A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region. -->
   <BeaversArrived>Un grup de castors alfa famolencs acaben d'arribar.\n\nIntenteu eliminar-los abans no es mengin tots els arbres de la zona.</BeaversArrived>
   
-  <!-- Refugee chased -->
-  <!-- EN: Refugee chased at {0} -->
-  <RefugeeChasedTitle>Refugiat perseguit a {0}</RefugeeChasedTitle>
-  <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} calls you from nearby. {PAWN_pronoun} is being chased by {2} from {3}!\n\n{PAWN_pronoun} begs for safety and offers to join your colony. {PAWN_pronoun} tells you {PAWN_pronoun} is {4} years old, but there's no time to collect more information.\n\nBe warned - if you accept, you'll have to fight off the {2} on {PAWN_possessive} tail. Their group is composed of:\n\n{5} -->
-  <RefugeeChasedInitial>{PAWN_titleIndef} anomenat {PAWN_nameDef} us truca des d’un lloc proper. Està sent perseguit per {2} dels {3}!\n\nUs suplica protecció i s’ofereix a unir-se a la colònia. Us diu que té {4} anys, però que ara no us pot explicar res més.\n\nAlerta – si accepteu, haureu de lluitar amb els {2} que el persegueixen. És un grup compost per:\n\n{5}</RefugeeChasedInitial>
-  <!-- EN: Offer safety -->
-  <RefugeeChasedInitial_Accept>Oferir protecció</RefugeeChasedInitial_Accept>
-  <!-- EN: Ignore the message -->
-  <RefugeeChasedInitial_Reject>Ignorar el missatge</RefugeeChasedInitial_Reject>
-  <!-- EN: {1_labelShort} screams in panic through the tinny speaker before you cut off the transmission. -->
-  <RefugeeChasedRejected>Podeu sentir {0} xisclar de pànic a través del petit altaveu abans de penjar.</RefugeeChasedRejected>
-
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
   <LetterLabelAnimalSelfTame>{1_kind} auto-domesticat</LetterLabelAnimalSelfTame>
@@ -163,9 +154,11 @@
   <!-- Trader caravan -->
   <!-- EN: {1} from {0} -->
   <LetterLabelTraderCaravanArrival>{1} de {0}</LetterLabelTraderCaravanArrival>
-  <!-- EN: A caravan from {0} is approaching. They are a {1}.\n\nThey will hang around the colony for a few days before leaving. You can attack them - but this will anger their faction! -->
+  <!-- EN: A caravan from {0} is approaching. They are a {1}. -->
   <LetterTraderCaravanArrival>S'acosta una caravana de {0}. Són {1}.\n\nVoltaran per la colònia uns quants dies abans de marxar. Els podeu atacar, però la seva facció s'enfadarà!</LetterTraderCaravanArrival>
-  
+  <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
+  <LetterCaravanArrivalCommonWarning>TODO</LetterCaravanArrivalCommonWarning>
+    
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Demanda de rescat a {0}</RansomDemandTitle>
@@ -177,16 +170,12 @@
   <RansomDemand_Reject>Rebutja</RansomDemand_Reject>
   
   <!-- Journey-related -->
-  <!-- EN: A friendly AI from your past named Charlon Whitestone has sent you a message!\n\nHe reveals that he has a starship hidden on this planet, and sends you its world coordinates.\n\nThe starship is currently in deep hibernation mode. You'll have to start it up when you arrive, then defend it from raiders trying to steal it until the startup sequence completes.\n\nIf you can get the ship off the ground, Charlon will take you off this rimworld, to the stars. -->
-  <JourneyOffer>Una IA amistosa del vostre passat, anomenada Charlon Whitestone us envia un missatge!\n\nUs revela que té una nau amagada en aquest planeta i us n'envia les coordenades.\n\nSi viatgeu fins a la nau, Charlons us traurà d'aquest planeta, cap a les estrelles.</JourneyOffer>
   <!-- EN: Ship found -->
   <EscapeShipFoundLabel>Nau trobada</EscapeShipFoundLabel>
-  <!-- EN: You've reached the coordinates sent by Charlon Whitestone and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\nCharlon Whitestone warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
+  <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <EscapeShipFound>Heu arribat a les coordinades que us va enviar en Charlon Whitestone i heu descobert la nau amagada.\n\nEl reactor de la nau encara és en mode de profunda hibernació, així que no pot volar encara. Podeu engegar-lo a través de l’ordinador central.\n\nCharlon Whitestone us avisa que el procés trigarà uns 15 dies, i que la marca d’energia serà detectable des de molt lluny. Una marca d’energia d’aquest tipus indica capacitat de vol interestel·lar i atraurà bandes de bandits i assaltants desesperats a la recerca de tresors. Assegureu-vos que teniu les defenses preparades.</EscapeShipFound>
-  <!-- EN: Ship destroyed -->
-  <EscapeShipLostLabel>Nau destruïda</EscapeShipLostLabel>
-  <!-- EN: Charlon Whitestone sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
-  <EscapeShipLost>Charlon Whitestone us envia un missatge.\n\nS’adona que heu perdut el control de la nau. Per evitar que caigui en mans equivocades, es veu obligat a activar el sistema d’autodestrucció. Ara la nau és només un cràter.\n\nUs caldrà buscar una altra manera de sortir del planeta.</EscapeShipLost>
+  <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days. -->
+  <EscapeShipFoundPeaceful>TODO</EscapeShipFoundPeaceful>
 
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->
@@ -201,16 +190,20 @@
   <CaravanMeeting_MoveOn>Continua</CaravanMeeting_MoveOn>
   <!-- EN: no caravan members capable of trading -->
   <CaravanMeeting_TradeIncapable>no hi ha cap membre a la caravana capaç de negociar</CaravanMeeting_TradeIncapable>
+  <!-- EN: need a trader with the title of {0} from {1_name} -->
+  <CaravanMeeting_NoPermit>TODO</CaravanMeeting_NoPermit>
   
   <!-- Caravan request -->
   <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>Petició de caravana</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
   <LetterCaravanRequest>Un assentament proper, {0}, us contacta amb una proposta de negoci particular. Volen comprar:\n\n  {1} (valorat en {2})\n\nEn compensació, ofereixen:\n\n  {3}(valorat en {4})\n\nLa proposta expira en: {5}\n\nSi voleu tancar el negoci, envieu-los una caravana amb els productes que han demanat. El temps estimat de viatge són {6}. Podeu revisar la proposta seleccionant {0} al mapa de món.</LetterCaravanRequest>
-  <!-- EN: Requesting: {0} ({3}), Reward: {1} ({4}) ({2} left) -->
+  <!-- EN: Requesting: {0} ({2}) ({1} left) -->
   <CaravanRequestInfo>Demanen: {0}({3}), ofereixen: {1} ({4}) (us queden {2})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>qualitat normal o millor</NormalQualityOrBetter>
+  <!-- EN: not tainted -->
+  <NotTainted>TODO</NotTainted>
 
   <!-- Caravan demand -->
   <!-- EN: Caravan demand by {0} -->
@@ -231,5 +224,23 @@
   <LetterSiteNoLongerHostile>Com que ja no sou hostil amb {0}, {1} ja no està disponible.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
   <LetterSiteNoLongerHostileMulti>Com que ja no sou hostil amb {0}, els llocs següents ja no estan disponibles</LetterSiteNoLongerHostileMulti>
+
+  <!-- Quest asker faction hostile -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerFactionHostile>TODO</LetterLabelQuestAskerFactionHostile>
+  <!-- EN: The quest is now incompletable because {FACTION_name} is hostile. -->
+  <LetterQuestAskerFactionHostile>TODO</LetterQuestAskerFactionHostile>
+
+  <!-- Quest asker captured -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerCaptured>TODO</LetterLabelQuestAskerCaptured>
+  <!-- EN: The quest is now incompletable because {SUBJECT_definite} has been captured. -->
+  <LetterQuestAskerCaptured>TODO</LetterQuestAskerCaptured>
+
+  <!-- Quest asker died -->
+  <!-- EN: Quest failed -->
+  <LetterLabelQuestAskerDied>TODO</LetterLabelQuestAskerDied>
+  <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
+  <LetterQuestAskerDied>TODO</LetterQuestAskerDied>
 
 </LanguageData>

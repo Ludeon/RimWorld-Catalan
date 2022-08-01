@@ -3,7 +3,7 @@
   
   <!-- EN: butchery efficiency -->
   <ButcheryFleshEfficiency.label>eficiència d’escorxat</ButcheryFleshEfficiency.label>
-  <!-- EN: The amount of meat produced when butchering flesh creatures. The actual amount is also related to the creature's size. -->
+  <!-- EN: The amount of meat produced when butchering flesh creatures.\n\nThe actual amount is also related to the creature's size. -->
   <ButcheryFleshEfficiency.description>Factor a la quantitat de carn que aprofita de la criatura escorxada. La quantitat total depèn de la mida de l’animal que s’escorxa.</ButcheryFleshEfficiency.description>
   
   <!-- EN: butchery speed -->
@@ -11,14 +11,14 @@
   <!-- EN: The speed at which this person butchers flesh creatures. -->
   <ButcheryFleshSpeed.description>Velocitat a la que escorxa criatures.</ButcheryFleshSpeed.description>
   
-  <!-- EN: mechanoid disassembly efficiency -->
+  <!-- EN: mechanoid shredding efficiency -->
   <ButcheryMechanoidEfficiency.label>eficiència de desmuntatge</ButcheryMechanoidEfficiency.label>
-  <!-- EN: The amount of materials yielded when this person disassembles a dead mechanoid. The actual amount is also related to the mechanoid's size. -->
+  <!-- EN: The amount of materials yielded when this person shreds a dead mechanoid for resources.\n\nThe actual amount is also related to the mechanoid's size. -->
   <ButcheryMechanoidEfficiency.description>Factor a la quantitat de materials que s’aprofiten de desmuntar un mecanoide. El valor total depèn també de la mida del mecanoide.</ButcheryMechanoidEfficiency.description>
   
-  <!-- EN: mechanoid disassembly speed -->
+  <!-- EN: mechanoid shredding speed -->
   <ButcheryMechanoidSpeed.label>velocitat de desmuntar de mecanoides</ButcheryMechanoidSpeed.label>
-  <!-- EN: The speed at which this person can disassemble a mechanoid. -->
+  <!-- EN: The speed at which this person can shred a mechanoid for resources. -->
   <ButcheryMechanoidSpeed.description>Velocitat a la qual desmunta mecanoides.</ButcheryMechanoidSpeed.description>
   
   <!-- EN: cooking speed -->
@@ -38,12 +38,18 @@
   
   <!-- EN: food poison chance -->
   <FoodPoisonChance.label>probabilitat de menjar dolent</FoodPoisonChance.label>
-  <!-- EN: The probability that this character will inadvertently poison a meal they cook. Food poison temporarily debilitates anyone it strikes. -->
+  <!-- EN: The probability that this character will inadvertently poison a meal they cook.\n\nAnyone who eats a food-poisoned meal will be temporarily debilitated with pain, weakness, and vomiting. -->
   <FoodPoisonChance.description>Probabilitat de fer menjar en mal estat. La intoxicació alimentària debilita al personatge afectat.</FoodPoisonChance.description>
+  <!-- EN: food poison chance (chance to poison a meal) -->
+  <FoodPoisonChance.labelForFullStatList>TODO</FoodPoisonChance.labelForFullStatList>
   
-  <!-- EN: sculpting speed -->
+  <!-- EN: general labor speed -->
+  <GeneralLaborSpeed.label>TODO</GeneralLaborSpeed.label>
+  <!-- EN: The speed at which this person carries out general labor like making stone blocks, making chemfuel at a refinery, burning items, tailoring clothes, creating art, smithing armor and weapons or smelting slag. This stat applies both to activities that involve no skill, as well as those where the skill affects the quality of the product instead of the speed of production. -->
+  <GeneralLaborSpeed.description>TODO</GeneralLaborSpeed.description>
+  
+  <!-- UNUSED -->
   <SculptingSpeed.label>velocitat d’esculpir</SculptingSpeed.label>
-  <!-- EN: The speed at which this person creates sculptures.\n\nThis stat only affects the how fast sculptures are produced, not their quality. Quality is determined by the sculptor's artistic skill. -->
   <SculptingSpeed.description>Velocitat a la qual esculpeix.\n\nAquest factor fa referència a la velocitat a la qual es fa l’escultura, no la seva qualitat. La qualitat ve determinada per la capacitat artística de l’escultor.</SculptingSpeed.description>
   
   <!-- EN: smelting speed -->
@@ -51,19 +57,16 @@
   <!-- EN: The speed at which this person smelts things.\n\nSince smelting is dumb labor, smelting speed is not affected by any skill. -->
   <SmeltingSpeed.description>Velocitat a la qual fon coses.\n\nCom que fondre és una feina bàsica, no l’afecta cap habilitat.</SmeltingSpeed.description>
   
-  <!-- EN: smithing speed -->
+  <!-- UNUSED -->
   <SmithingSpeed.label>velocitat de ferrar</SmithingSpeed.label>
-  <!-- EN: Speed at which this person crafts weapons, machinery, and ammunition.\n\nThis stat only affects how fast items are produced, not their quality. Quality is determined by the crafter's skill. -->
   <SmithingSpeed.description>Velocitat a la qual treballa el ferro per fer armes, maquinària, munició i eines.\n\nAquest factor fa referència a com de ràpid es fa la peça, no a la qualitat. La qualitat ve determinada per la capacitat del qui la fabrica.</SmithingSpeed.description>
   
-  <!-- EN: tailoring speed -->
+  <!-- UNUSED -->
   <TailoringSpeed.label>velocitat de cosir</TailoringSpeed.label>
-  <!-- EN: The speed at which this person makes clothes.\n\nThis stat only affects how fast clothes are produced, not their quality. Quality is determined by the tailor's crafting skill. -->
   <TailoringSpeed.description>Velocitat a la qual fa roba.\n\nAquest factor només fa referència a la velocitat de fabricació, no a la qualitat. La qualitat ve determinada per la capacitat de la persona que la fabrica.</TailoringSpeed.description>
   
-  <!-- EN: unskilled labor speed -->
+  <!-- UNUSED -->
   <UnskilledLaborSpeed.label>velocitat de feines senzilles</UnskilledLaborSpeed.label>
-  <!-- EN: The speed at which this person carries out unskilled labor like making stone blocks, making chemfuel at a refinery or burning items. -->
   <UnskilledLaborSpeed.description>Velocitat a la qual la persona transporta o fa tasques senzilles com ara fer totxos, quimifuel o crema objectes.</UnskilledLaborSpeed.description>
   
 </LanguageData>
