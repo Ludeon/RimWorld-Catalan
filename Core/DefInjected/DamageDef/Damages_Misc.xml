@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN: bomb -->
-  <Bomb.label>bomba</Bomb.label>
+  <Bomb.label>explosió</Bomb.label>
   <!-- EN: {0} has died in an explosion. -->
   <Bomb.deathMessage>{0} ha mort en una explosió.</Bomb.deathMessage>
   
   <!-- EN: bomb -->
-  <BombSuper.label>bomba</BombSuper.label>
+  <BombSuper.label>explosió</BombSuper.label>
   <!-- EN: {0} has died in an explosion. -->
   <BombSuper.deathMessage>{0} ha mort en una explosió.</BombSuper.deathMessage>
   
@@ -17,28 +17,28 @@
   <Deterioration.deathMessage>{0} ha mort.</Deterioration.deathMessage>
   
   <!-- EN: extinguish -->
-  <Extinguish.label>apagant</Extinguish.label>
+  <Extinguish.label>extinció</Extinguish.label>
   <!-- EN: {0} has been killed. -->
   <Extinguish.deathMessage>{0} ha mort.</Extinguish.deathMessage>
   
   <!-- EN: mining -->
-  <Mining.label>minant</Mining.label>
+  <Mining.label>aixafat</Mining.label>
   <!-- EN: {0} has been killed. -->
-  <Mining.deathMessage>{0} ha mort.</Mining.deathMessage>
+  <Mining.deathMessage>{0} ha mort aixafa{0_gender ? t : da}.</Mining.deathMessage>
   
   <!-- EN: rotting -->
-  <Rotting.label>podrint-se</Rotting.label>
+  <Rotting.label>podridura</Rotting.label>
   <!-- EN: {0} has been killed. -->
   <Rotting.deathMessage>{0} ha mort.</Rotting.deathMessage>
   
   <!-- EN: smoke -->
-  <Smoke.label>fum</Smoke.label>
+  <Smoke.label>asfíxia</Smoke.label>
   <!-- EN: {0} has been killed. -->
-  <Smoke.deathMessage>{0} ha mort.</Smoke.deathMessage>
+  <Smoke.deathMessage>{0} ha mort per asfíxia.</Smoke.deathMessage>
   
   <!-- EN: thump -->
-  <Thump.label>TODO</Thump.label>
+  <Thump.label>cop de puny</Thump.label>
   <!-- EN: {0} has been shot to death. -->
-  <Thump.deathMessage>TODO</Thump.deathMessage>
+  <Thump.deathMessage>{0} ha rebut cops de punys fins a morir.</Thump.deathMessage>
   
 </LanguageData>

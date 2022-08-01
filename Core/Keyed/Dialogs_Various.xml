@@ -6,17 +6,17 @@
   <!-- EN: Go back -->
   <GoBack>Torna</GoBack>
   <!-- EN: Do you want to continue? -->
-  <WantToContinue>TODO</WantToContinue>
+  <WantToContinue>Voleu continuar?</WantToContinue>
   <!-- EN: OK -->
   <OK>D'acord</OK>
   <!-- EN: Close -->
   <Close>Tanca</Close>
   <!-- EN: Accept -->
-  <Accept>TODO</Accept>
+  <Accept>Accepta</Accept>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
-  <GameUpdatedToNewVersionInitial>RimWorld s'ha actualitzat de la versió {0} a la versió {1}.\n\nAlgunes partides desades i mods de versions més antigues podrien deixar de funcionar.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionInitial>El RimWorld s'ha actualitzat de la versió {0} a la versió {1}.\n\nAlgunes partides desades i mods de versions més antigues podrien deixar de funcionar.</GameUpdatedToNewVersionInitial>
   <!-- EN: This may cause saved games and mods from the old version to stop working. -->
   <GameUpdatedToNewVersionSavesIncompatible>Pot ser que les partides desades i els mods de versions antigues no funcionin.</GameUpdatedToNewVersionSavesIncompatible>
   <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
@@ -60,7 +60,7 @@
   
   <!-- Missing Steam -->
   <!-- EN: Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nYou can play anyway, but no Steam stats will be recorded and Steam features won't be available. -->
-  <SteamClientMissing>No es pot iniciar l’API de Steam. Possibles causes:\n\n-Steam no s'està executant.\n-S'ha iniciat des de fora l'Steam sense el fitxer steam_appid.txt al seu lloc.\n-S'executa amb uns privilegis diferents del client d'Steam (e.g. "com a administrador").\n\nEn molts casos, reiniciar l'ordinador solucionarà el problema.\n\nPodeu seguir jugant, però no es registraran estadístiques a l'Steam i no en disposareu de les funcions.</SteamClientMissing>
+  <SteamClientMissing>No s'ha pogut inicialitzar l’API de l'Steam. Això pot ser degut a algun dels següents motius:\n\n- L'Steam no s'està executant.\n- S'ha executat el programa des de fora l'Steam sense el fitxer «steam_appid.txt» al seu lloc.\n- S'ha executat el programa amb uns privilegis diferents del client de l'Steam (com ara «administrador»).\n\nEn molts casos, es pot solucionar el problema reiniciant l'ordinador.\n\nPodeu continuar jugant, però no es registraran les estadístiques a l'Steam i no en disposareu de les funcions.</SteamClientMissing>
   
   <!-- Long events -->
   <!-- EN: Initializing interface -->
@@ -685,7 +685,7 @@
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>Il·limitat</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
-  <DaysWorthOfFoodTooltip>Nombre aproximat de dies abans que la caravana es quedi sense menjar. Les espècies diferents tenen dietes diferents i, per tant, uns es quedaran sense menjar abans que uns altres. El valor es calcula millo rque teniu una ruta seleccionada.\n\nAfectat per:\n – Els tipus de menjar i quantitat que es porta\n – Els membres de la caravana i les seves dietes\n – La capacitat de recollir menjar pel camí\n – La possibilitat que els animals puguin pasturar\n – El temps que triga el menjar a podrir-se\n – La calor farà que el menjar es podreixi més aviat</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip>Nombre aproximat de dies abans que la caravana es quedi sense menjar. Les espècies diferents tenen dietes diferents i, per tant, algunes es quedaran sense menjar abans que altres. El valor es calcula millor quan ja s'ha escollit la ruta.\n\nAfectat per:\n – Els tipus de menjar i quantitat que es porta\n – Els membres de la caravana i les seves dietes\n – La capacitat de recollir menjar pel camí\n – La possibilitat que els animals puguin pasturar\n – El temps que triga el menjar a podrir-se\n – La calor farà que el menjar es podreixi més aviat</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(Només es tindrà en compte la primera parada)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
@@ -1007,9 +1007,9 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>Esteu segur que voleu netejar tots els fitxers de traducció del {0}?\n\nAixò:\n  - Afegirà marcadors per les claus de traducció que faltin, les traduccions injectades i els rerefons\n  - Afegirà o actualitzarà els comentaris que contenen la versió original als fitxers XML que pertoqui\n  - Aplicarà el format automàtic a tots els fitxers XML\n  - Actualitzarà els noms de les definicions perquè siguin compatibles\n  - esborrarà els comentaris dels XML (exceptuant les injeccions complertes)\n\nEls fitxers que no siguin XML no s’esborraran ni modificaran.\n\nRecordeu que cal tornar a iniciar el joc després de modificar els fitxers d’idioma abans d’executar aqusta eina per poder tenir totes les dades actualitzades.\n\nAssegureu-vos de tenir una còpia de seguretat abans d’utilitzar aquesta eina.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>Esteu segur que voleu netejar tots els fitxers de traducció del {0}?\n\nLa neteja dels fitxers:\n  - Afegirà marcadors per a les cadenes de traducció, les traduccions injectades i les històries personals que faltin.\n  - Afegirà o actualitzarà els comentaris que contenen la versió original als fitxers XML que pertoqui.\n  - Aplicarà el format automàtic a tots els fitxers XML.\n  - Actualitzarà els noms de les definicions perquè siguin compatibles.\n  - Esborrarà els comentaris dels fitxers XML (exceptuant les injeccions completes).\n\nEls fitxers que no siguin XML no s’esborraran ni modificaran.\n\nRecordeu que cal reiniciar el joc després de modificar els fitxers d’idioma abans d’executar aquesta eina per poder tenir totes les dades actualitzades.\n\nAssegureu-vos de tenir una còpia de seguretat abans d’utilitzar aquesta eina.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
-  <ConfirmCleanupTranslationFiles_Confirm>Sí, tinc una còpia de seguretat</ConfirmCleanupTranslationFiles_Confirm>
+  <ConfirmCleanupTranslationFiles_Confirm>Sí, tinc una còpia de seguretat.</ConfirmCleanupTranslationFiles_Confirm>
 
   <!-- Load transporters -->
   <!-- EN: The caravan will be immobile if you launch to an empty tile. Continue anyway? -->

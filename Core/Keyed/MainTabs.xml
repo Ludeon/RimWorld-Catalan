@@ -5,15 +5,15 @@
   <!-- EN: Manual priorities -->
   <ManualPriorities>Prioritats manuals</ManualPriorities>
   <!-- EN: higher priority -->
-  <HigherPriority>prioritat alta</HigherPriority>
+  <HigherPriority>prioritat més alta</HigherPriority>
   <!-- EN: lower priority -->
-  <LowerPriority>prioritat baixa</LowerPriority>
+  <LowerPriority>prioritat més baixa</LowerPriority>
   <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} -->
-  <RelevantSkills>Coneixements rellevants: {0}\nMitjana dels coneixements rellevants: {1} / {2}</RelevantSkills>
+  <RelevantSkills>Habilitats rellevants: {0}\nMitjana de les habilitats rellevants: {1}</RelevantSkills>
   <!-- EN: Click to jump to: -->
   <ClickToJumpTo>Feu clic per anar a:</ClickToJumpTo>
   <!-- EN: {1_labelShort} cannot do this kind of work. -->
-  <CannotDoThisWork>{1_definite} no pot fer aquesta feina.</CannotDoThisWork>
+  <CannotDoThisWork>{1_labelShort} no pot fer aquesta feina.</CannotDoThisWork>
   <!-- EN: (none) -->
   <NoneBrackets>(cap)</NoneBrackets>
   <!-- EN: This colonist is not able to do any work of this type because of his health condition. -->
@@ -21,47 +21,47 @@
   <!-- EN: E -->
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
   <!-- EN: Warning: The average of relevant skills is very low. -->
-  <SelectedWorkTypeWithVeryBadSkill>Avís: la mitjana de capacitats rellevants és molt baixa.</SelectedWorkTypeWithVeryBadSkill>
+  <SelectedWorkTypeWithVeryBadSkill>Avís: la mitjana d'habilitats rellevants és molt baixa.</SelectedWorkTypeWithVeryBadSkill>
   <!-- EN: Priority 1 is done first. Priority 4 is done last. -->
-  <PriorityOneDoneFirst>TODO</PriorityOneDoneFirst>
+  <PriorityOneDoneFirst>Primer es fa els de prioritat 1. Els de prioritat 4 es fan al final.</PriorityOneDoneFirst>
   <!-- EN: Will not do -->
-  <Priority0>TODO</Priority0>
+  <Priority0>No farà</Priority0>
   <!-- EN: Top priority -->
-  <Priority1>TODO</Priority1>
+  <Priority1>Prioritat màxima</Priority1>
   <!-- EN: High priority -->
-  <Priority2>TODO</Priority2>
+  <Priority2>Prioritat alta</Priority2>
   <!-- EN: Normal priority -->
-  <Priority3>TODO</Priority3>
+  <Priority3>Prioritat normal</Priority3>
   <!-- EN: Low priority -->
-  <Priority4>TODO</Priority4>
+  <Priority4>Prioritat baixa</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
-  <PawnFactionInfo>TODO</PawnFactionInfo>
+  <PawnFactionInfo>{0}\n\nLa facció actual de {1_nameDef}.\n\nFeu clic per veure la facció.</PawnFactionInfo>
   <!-- EN: Disabled by backstory: {0} -->
-  <WorkDisabledByBackstory>TODO</WorkDisabledByBackstory>
+  <WorkDisabledByBackstory>Desactivat per la història personal: {0}</WorkDisabledByBackstory>
   <!-- EN: Disabled by trait: {0} -->
-  <WorkDisabledByTrait>TODO</WorkDisabledByTrait>
+  <WorkDisabledByTrait>Desactivat pel tret: {0} </WorkDisabledByTrait>
   <!-- EN: Disabled by quest: {0} -->
-  <WorkDisabledByQuest>TODO</WorkDisabledByQuest>
+  <WorkDisabledByQuest>Desactivat per la missió: {0}</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
-  <ManageOutfits>Gestiona vestuaris</ManageOutfits>
+  <ManageOutfits>Gestiona la indumentària</ManageOutfits>
   <!-- EN: Unchangeable -->
-  <Unchangeable>TODO</Unchangeable>
+  <Unchangeable>No es pot canviar.</Unchangeable>
   <!-- EN: Clr. forced -->
   <ClearForcedApparel>Treu forçat</ClearForcedApparel>
   <!-- EN: forced -->
   <ApparelForcedLower>forçat</ApparelForcedLower>
   <!-- EN: locked -->
-  <ApparelLockedLower>TODO</ApparelLockedLower>
+  <ApparelLockedLower>blocat</ApparelLockedLower>
   <!-- EN: Forced apparel -->
-  <ForcedApparel>Roba forçada</ForcedApparel>
+  <ForcedApparel>Indumentària forçada</ForcedApparel>
   <!-- EN: Edit... -->
-  <AssignTabEdit>Edita...</AssignTabEdit>
+  <AssignTabEdit>Edita</AssignTabEdit>
   <!-- EN: Manage drug policies -->
-  <ManageDrugPolicies>Gestiona política de drogues</ManageDrugPolicies>
+  <ManageDrugPolicies>Gestiona la política de drogues</ManageDrugPolicies>
   <!-- EN: Manage food restrictions -->
-  <ManageFoodRestrictions>TODO</ManageFoodRestrictions>
+  <ManageFoodRestrictions>Gestiona les restriccions de menjar</ManageFoodRestrictions>
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
@@ -77,13 +77,13 @@
   <!-- EN: Pregnant ({0} / {1}) -->
   <PregnantIconDesc>Embarassada ({0} / {1})</PregnantIconDesc>
   <!-- EN: Bonded to -->
-  <BondedTo>Lligat a</BondedTo>
+  <BondedTo>Unit a</BondedTo>
   
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
-  <IsPredator>Aquesta criatura és un predador. Quan tingui gana, caçarà criatures petites, potser fins i tot persones.</IsPredator>
+  <IsPredator>Aquesta criatura és un depredador. Quan tingui gana, caçarà criatures petites, potser fins i tot persones.</IsPredator>
   <!-- EN: This creature is currently in mental state: {0} -->
-  <IsInMentalState>TODO</IsInMentalState>
+  <IsInMentalState>Aquesta criatura es troba en l'estat mental {0}.</IsInMentalState>
   
   <!-- Factions tab -->
   <!-- EN: Hostile -->
@@ -91,25 +91,25 @@
   <!-- EN: Ally -->
   <Ally>Aliat</Ally>
   <!-- EN: hostile -->
-  <HostileLower>TODO</HostileLower>
+  <HostileLower>hostil</HostileLower>
   <!-- EN: ally -->
-  <AllyLower>TODO</AllyLower>
+  <AllyLower>aliat</AllyLower>
   <!-- EN: defeated -->
   <DefeatedLower>eliminat</DefeatedLower>
   <!-- EN: Enemy of {0} -->
   <HostileTo>Enemic de {0}</HostileTo>
   <!-- EN: Enemy of:  -->
-  <EnemyOf>TODO</EnemyOf>
+  <EnemyOf>Enemic de: </EnemyOf>
   <!-- EN: Recent events -->
-  <RecentEvents>TODO</RecentEvents>
+  <RecentEvents>Esdeveniments recents</RecentEvents>
   <!-- EN: Ongoing events -->
-  <OngoingEvents>TODO</OngoingEvents>
+  <OngoingEvents>Esdeveniments en curs</OngoingEvents>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Aquesta facció sempre us serà hostil. Atacarà els vostres assentaments i caravanes. Les relacions amb ells no milloraran mai feu el que feu.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
-  <CurrentGoodwillTip_Ally>Aquesta facció és aliada. Enviaran lluitadors per ajudar-vos sempre que puguin. Si les relacions baixen de {0}, es tornaran neutrals.</CurrentGoodwillTip_Ally>
+  <CurrentGoodwillTip_Ally>Aquesta facció és un aliat vostre. Enviaran lluitadors per ajudar-vos sempre que puguin. Si les relacions baixen de {0}, es tornaran neutrals.</CurrentGoodwillTip_Ally>
   <!-- EN: This faction is neutral. They will trade and talk with you freely. If relations fall below {0}, they will become hostile. If relations rise above {1}, they will become allied and start actively working to help you. -->
-  <CurrentGoodwillTip_Neutral>La facció és neutral. Tindran negocis i converses amb vosaltres. Si les relacions baixen de {0}, es tornaran hostils. Si les relacions pugen per sobre de {1}, es convertiran en aliats i treballaran activament per ajudar-vos.</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Neutral>Aquesta facció és neutral. Faran negocis i parlaran amb vosaltres. Si les relacions baixen de {0}, es tornaran hostils. Si les relacions pugen per sobre de {1}, es convertiran en aliats i us ajudaran.</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>Aquesta facció us és hostil. Atacaran els vostres assentaments i caravanes. Si les relacions pugen per sobre de {0}, es convertiran en neutrals.</CurrentGoodwillTip_Hostile>
 
@@ -163,182 +163,182 @@
   <!-- EN: Colony wealth (this map) -->
   <ThisMapColonyWealthTotal>Valor de la colònia (aquest mapa)</ThisMapColonyWealthTotal>
   <!-- EN: Colony wealth (items) (this map) -->
-  <ThisMapColonyWealthItems>Valor de la colònia (objectes) (aquest mapa)</ThisMapColonyWealthItems>
+  <ThisMapColonyWealthItems>Valor dels objectes de la colònia (aquest mapa)</ThisMapColonyWealthItems>
   <!-- EN: Colony wealth (buildings) (this map) -->
-  <ThisMapColonyWealthBuildings>Valor de la colònia (edificis) (aquest mapa)</ThisMapColonyWealthBuildings>
+  <ThisMapColonyWealthBuildings>Valor dels edificis de la colònia (aquest mapa)</ThisMapColonyWealthBuildings>
   <!-- EN: Colony wealth (people and animals) (this map) -->
-  <ThisMapColonyWealthColonistsAndTameAnimals>Valor de la colònia (persones i animals) (aquest mapa)</ThisMapColonyWealthColonistsAndTameAnimals>
+  <ThisMapColonyWealthColonistsAndTameAnimals>Valor de les persones i animals de la colònia (aquest mapa)</ThisMapColonyWealthColonistsAndTameAnimals>
   <!-- EN: Major threats -->
-  <NumThreatBigs>Perills principals</NumThreatBigs>
+  <NumThreatBigs>Amenaces greus</NumThreatBigs>
   <!-- EN: Enemy raids -->
-  <NumEnemyRaids>Raids enemics</NumEnemyRaids>
+  <NumEnemyRaids>Assalts enemics</NumEnemyRaids>
   <!-- EN: Damage taken (this map) -->
-  <ThisMapDamageTaken>Danys rebuts (aquest mapa)</ThisMapDamageTaken>
+  <ThisMapDamageTaken>Dany rebut (aquest mapa)</ThisMapDamageTaken>
   <!-- EN: Colonists killed -->
-  <ColonistsKilled>Colons morts</ColonistsKilled>
+  <ColonistsKilled>Colons assassinats</ColonistsKilled>
   <!-- EN: Colonists launched into space -->
-  <ColonistsLaunched>Colons llençats a l'espai</ColonistsLaunched>
+  <ColonistsLaunched>Colons enviats a l'espai</ColonistsLaunched>
 
   <!-- Research tab -->
   <!-- EN: Research -->
   <Research>Investiga</Research>
   <!-- EN: Study -->
-  <Study>TODO</Study>
+  <Study>Estudia</Study>
   <!-- EN: Unresearched -->
-  <Unresearched>Sense investigar</Unresearched>
+  <Unresearched>Sense recercar</Unresearched>
   <!-- EN: Finished -->
   <Finished>Acabat</Finished>
   <!-- EN: In Progress -->
   <InProgress>En curs</InProgress>
   <!-- EN: Locked -->
-  <Locked>Bloquejat</Locked>
+  <Locked>Blocat</Locked>
   <!-- EN: Research prerequisites -->
-  <ResearchPrerequisites>Requisits previs a la investigació</ResearchPrerequisites>
+  <ResearchPrerequisites>Requisits previs de recerca</ResearchPrerequisites>
   <!-- EN: Techprints required {0} / {1} -->
-  <ResearchTechprintRequirement>TODO</ResearchTechprintRequirement>
+  <ResearchTechprintRequirement>Tecnoplànols necessaris: {0} / {1}</ResearchTechprintRequirement>
   <!-- EN: Insufficient techprints applied ({0} / {1}) -->
-  <InsufficientTechprintsApplied>TODO</InsufficientTechprintsApplied>
+  <InsufficientTechprintsApplied>No s'han aplicat prou tecnoplànols ({0} / {1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
-  <PrerequisitesNotCompleted>TODO</PrerequisitesNotCompleted>
+  <PrerequisitesNotCompleted>Prerequisits sense complir</PrerequisitesNotCompleted>
   <!-- EN: Required research bench -->
-  <RequiredResearchBench>Necessita un banc d'investigació</RequiredResearchBench>
+  <RequiredResearchBench>Necessita un banc de recerca</RequiredResearchBench>
   <!-- EN: Required research bench facilities -->
-  <RequiredResearchBenchFacilities>Necessita la instal·lació d'un banc d'investigació</RequiredResearchBenchFacilities>
+  <RequiredResearchBenchFacilities>Necessita instal·lacions de recerca</RequiredResearchBenchFacilities>
   <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
-  <ResearchCostComparison>El cost base del projecte {0} esdevé {1} pel vostre nivell de tecnologia.</ResearchCostComparison>
+  <ResearchCostComparison>El cost base del projecte {0} passa a ser de {1} pel vostre nivell tecnològic.</ResearchCostComparison>
   <!-- EN: Techprints are available from these factions via trade and quests: -->
-  <ResearchTechprintsFromFactions>TODO</ResearchTechprintsFromFactions>
+  <ResearchTechprintsFromFactions>Es poden obtenir tecnoplànols amb missions i comerç amb aquestes faccions:</ResearchTechprintsFromFactions>
   <!-- EN: Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}. -->
-  <TechLevelTooLow>TODO</TechLevelTooLow>
+  <TechLevelTooLow>El nivell tecnològic de la vostra facció és de {0}, però el nivell del projecte és de {1}. La velocitat d'investigació es multiplicarà per {2}.</TechLevelTooLow>
   <!-- EN: Unlocked with -->
-  <UnlockedWith>TODO</UnlockedWith>
+  <UnlockedWith>Desblocat amb</UnlockedWith>
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
-  <FactionsTab>TODO</FactionsTab>
+  <FactionsTab>Faccions</FactionsTab>
   <!-- EN: No known factions -->
-  <NoFactions>TODO</NoFactions>
+  <NoFactions>No es coneix cap facció</NoFactions>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
-  <AvailableQuests>TODO</AvailableQuests>
+  <AvailableQuests>Disponibles</AvailableQuests>
   <!-- EN: Active -->
-  <ActiveQuests>TODO</ActiveQuests>
+  <ActiveQuests>Actives</ActiveQuests>
   <!-- EN: Historical -->
-  <HistoricalQuests>TODO</HistoricalQuests>
+  <HistoricalQuests>Històriques</HistoricalQuests>
   <!-- EN: no quest selected -->
-  <NoQuestSelected>TODO</NoQuestSelected>
+  <NoQuestSelected>no s'ha seleccionat cap missió</NoQuestSelected>
   <!-- EN: Appeared {0} days ago -->
-  <AppearedDaysAgo>TODO</AppearedDaysAgo>
+  <AppearedDaysAgo>Ha aparegut fa {0} dies.</AppearedDaysAgo>
   <!-- EN: Appeared on {0} -->
-  <AppearedOn>TODO</AppearedOn>
+  <AppearedOn>Va aparèixer el {0}.</AppearedOn>
   <!-- EN: Accepted {0} ago -->
-  <AcceptedAgo>TODO</AcceptedAgo>
+  <AcceptedAgo>Es va acceptar fa {0}.</AcceptedAgo>
   <!-- EN: Accepted on {0} -->
-  <AcceptedOn>TODO</AcceptedOn>
+  <AcceptedOn>Es va acceptar el {0}.</AcceptedOn>
   <!-- EN: Accepted {0} ago by {1} -->
-  <AcceptedAgoBy>TODO</AcceptedAgoBy>
+  <AcceptedAgoBy>La va acceptar {1} fa {0}.</AcceptedAgoBy>
   <!-- EN: Accepted on {0} by {1} -->
-  <AcceptedOnBy>TODO</AcceptedOnBy>
+  <AcceptedOnBy>La va acceptar {1} el {0}.</AcceptedOnBy>
   <!-- EN: Expires in {0} -->
-  <QuestExpiresIn>TODO</QuestExpiresIn>
+  <QuestExpiresIn>El termini finalitza en {0}.</QuestExpiresIn>
   <!-- EN: Expires on {0} -->
-  <QuestExpiresOn>TODO</QuestExpiresOn>
+  <QuestExpiresOn>El termini finalitza el {0}.</QuestExpiresOn>
   <!-- EN: Average guest mood (previous {0}): {1} -->
-  <QuestAveragePawnMood>TODO</QuestAveragePawnMood>
+  <QuestAveragePawnMood>Estat d'ànim mitjà dels hostes (abans era de {0}): {1}</QuestAveragePawnMood>
   <!-- EN: The average mood of {0} over the previous {1} -->
-  <QuestAveragePawnMoodTargets>TODO</QuestAveragePawnMoodTargets>
+  <QuestAveragePawnMoodTargets>L'estat d'ànim mitjà de {0} respecte l'anterior de {1}.</QuestAveragePawnMoodTargets>
   <!-- EN: Shuttle arrives in {0} -->
-  <ShuttleArrivesIn>TODO</ShuttleArrivesIn>
+  <ShuttleArrivesIn>Arriba una llançadora en {0}.</ShuttleArrivesIn>
   <!-- EN: Shuttle arrives on {0} -->
-  <ShuttleArrivesOn>TODO</ShuttleArrivesOn>
+  <ShuttleArrivesOn>Arriba una llançadora el {0}.</ShuttleArrivesOn>
   <!-- EN: Shuttle departs in {0} -->
-  <ShuttleDepartsIn>TODO</ShuttleDepartsIn>
+  <ShuttleDepartsIn>La llançadora se'n va en {0}.</ShuttleDepartsIn>
   <!-- EN: Shuttle departs on {0} -->
-  <ShuttleDepartsOn>TODO</ShuttleDepartsOn>
+  <ShuttleDepartsOn>La llançadora se'n va el {0}.</ShuttleDepartsOn>
   <!-- EN: Guests depart in {0} -->
-  <GuestsDepartsIn>TODO</GuestsDepartsIn>
+  <GuestsDepartsIn>Els hostes se'n van en {0}.</GuestsDepartsIn>
   <!-- EN: Guests depart on {0} -->
-  <GuestsDepartsOn>TODO</GuestsDepartsOn>
+  <GuestsDepartsOn>Els hostes se'n van el {0}.</GuestsDepartsOn>
   <!-- EN: Finished {0} ago -->
-  <QuestFinishedAgo>TODO</QuestFinishedAgo>
+  <QuestFinishedAgo>Completada fa {0}</QuestFinishedAgo>
   <!-- EN: Accept quest -->
-  <AcceptQuest>TODO</AcceptQuest>
+  <AcceptQuest>Accepta la missió</AcceptQuest>
   <!-- EN: Accept with {0_labelShort} -->
-  <AcceptWith>TODO</AcceptWith>
+  <AcceptWith>Accepta amb {0_labelShort}</AcceptWith>
   <!-- EN: Accept for -->
-  <AcceptQuestFor>TODO</AcceptQuestFor>
+  <AcceptQuestFor>Accepta per</AcceptQuestFor>
   <!-- EN: Click to accept this quest for this reward. -->
-  <AcceptQuestForTip>TODO</AcceptQuestForTip>
+  <AcceptQuestForTip>Feu clic per acceptar aquesta missió amb aquesta recompensa.</AcceptQuestForTip>
   <!-- EN: The offer expired. -->
-  <QuestOutcomeInfo_OfferExpired>TODO</QuestOutcomeInfo_OfferExpired>
+  <QuestOutcomeInfo_OfferExpired>El termini de l'oferta ha acabat.</QuestOutcomeInfo_OfferExpired>
   <!-- EN: You completed this quest. -->
-  <QuestOutcomeInfo_UnknownOrSuccess>TODO</QuestOutcomeInfo_UnknownOrSuccess>
+  <QuestOutcomeInfo_UnknownOrSuccess>Heu completat aquesta missió.</QuestOutcomeInfo_UnknownOrSuccess>
   <!-- EN: You failed this quest. -->
-  <QuestOutcomeInfo_Failed>TODO</QuestOutcomeInfo_Failed>
+  <QuestOutcomeInfo_Failed>No heu complit la missió.</QuestOutcomeInfo_Failed>
   <!-- EN: This quest became invalid before it was accepted. -->
-  <QuestOutcomeInfo_Invalid>TODO</QuestOutcomeInfo_Invalid>
+  <QuestOutcomeInfo_Invalid>La missió fou invalidada abans d'acceptar-la.</QuestOutcomeInfo_Invalid>
   <!-- EN: Jump to {0} -->
-  <JumpToTargetCustom>TODO</JumpToTargetCustom>
+  <JumpToTargetCustom>Vés a {0}</JumpToTargetCustom>
   <!-- EN: Select hives -->
-  <SelectHiveTargets>TODO</SelectHiveTargets>
+  <SelectHiveTargets>Tria ruscos</SelectHiveTargets>
   <!-- EN: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->
-  <QuestChallengeRatingTip>TODO</QuestChallengeRatingTip>
+  <QuestChallengeRatingTip>Nivell del repte. Es tracta d'una valoració de la dificultat de la missió respecte la vostra força actual. Les missions més difícils donen millors recompenses.\n\n1: Normal\n2: Difícil\n3: Molt difícil\n4: Extremadament difícil</QuestChallengeRatingTip>
   <!-- EN: To accept this quest, you need -->
-  <QuestAcceptanceRequirementsDescription>TODO</QuestAcceptanceRequirementsDescription>
+  <QuestAcceptanceRequirementsDescription>Per poder acceptar aquesta missió, necessiteu</QuestAcceptanceRequirementsDescription>
   <!-- EN: free bedrooms that satisfy the title requirements of -->
-  <QuestBedroomRequirementsUnsatisfied>TODO</QuestBedroomRequirementsUnsatisfied>
+  <QuestBedroomRequirementsUnsatisfied>cambres lliures que satisfacin els requisits dels títols de</QuestBedroomRequirementsUnsatisfied>
   <!-- EN: a free bedroom that satisfies the title requirements of -->
-  <QuestBedroomRequirementsUnsatisfiedSingle>TODO</QuestBedroomRequirementsUnsatisfiedSingle>
+  <QuestBedroomRequirementsUnsatisfiedSingle>una cambra lliure que satisfaci els requisits del títol de</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
-  <QuestThroneRoomRequirementsUnsatisfied>TODO</QuestThroneRoomRequirementsUnsatisfied>
+  <QuestThroneRoomRequirementsUnsatisfied>una sala del tro que satisfaci els requisits del títol de {TITLE} {PAWN_gender ? d'en : de la} {PAWN_definite}</QuestThroneRoomRequirementsUnsatisfied>
   <!-- EN: assign a throne for {PAWN_definite} -->
-  <QuestNoThroneRoom>TODO</QuestNoThroneRoom>
+  <QuestNoThroneRoom>assignar un tro per {PAWN_gender ? en : la} {PAWN_definite}</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0} -->
-  <QuestNoColonistWithTitle>TODO</QuestNoColonistWithTitle>
+  <QuestNoColonistWithTitle>un colon amb el títol de {0}</QuestNoColonistWithTitle>
   <!-- EN: {PAWN_definite} to be in your home colony -->
-  <QuestPawnNotOnColonyMap>TODO</QuestPawnNotOnColonyMap>
+  <QuestPawnNotOnColonyMap>que {PAWN_definite} estigui a la vostra colònia principal</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
-  <QuestRequiresNoDangerOnMap>TODO</QuestRequiresNoDangerOnMap>
+  <QuestRequiresNoDangerOnMap>que el mapa estigui lliure d'enemics de la facció que la concedeix</QuestRequiresNoDangerOnMap>
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
-  <QuestCanNotStartUntilBestowingCeremonyFinished>TODO</QuestCanNotStartUntilBestowingCeremonyFinished>
+  <QuestCanNotStartUntilBestowingCeremonyFinished>acabar la cerimònia d'investidura de la missió en curs</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
-  <ChooseRewards>TODO</ChooseRewards>
+  <ChooseRewards>Recompenses preferides</ChooseRewards>
   <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
-  <ChooseRewardsDesc>TODO</ChooseRewardsDesc>
+  <ChooseRewardsDesc>Digueu a les altres faccions quins tipus de recompensa voleu en properes missions. No afecta a les missions que ja s'han oferit.</ChooseRewardsDesc>
   <!-- EN: Accept {FACTION_royalFavorLabel} -->
-  <AcceptRoyalFavor>TODO</AcceptRoyalFavor>
+  <AcceptRoyalFavor>Accepta {FACTION_royalFavorLabel}</AcceptRoyalFavor>
   <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
-  <AcceptRoyalFavorDesc>TODO</AcceptRoyalFavorDesc>
+  <AcceptRoyalFavorDesc>Indica que esteu interessat en què se us recompensi amb {FACTION_royalFavorLabel} de {FACTION_name}.\n\nSi ho desactiveu, {FACTION_name} us oferirà altres tipus de recompenses.\n\nNomés afecta a les missions noves.</AcceptRoyalFavorDesc>
   <!-- EN: Accept goodwill -->
-  <AcceptGoodwill>TODO</AcceptGoodwill>
+  <AcceptGoodwill>Millora les relacions</AcceptGoodwill>
   <!-- EN: Whether you wish to be rewarded via improved faction relations with {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-generated quests. -->
-  <AcceptGoodwillDesc>TODO</AcceptGoodwillDesc>
+  <AcceptGoodwillDesc>Indica que esteu interessat en millorar les relacions amb {FACTION_name}.\n\nSi ho desactiveu, {FACTION_name} us oferirà altres tipus de recompenses.\n\nNomés afecta a les missions noves.</AcceptGoodwillDesc>
   <!-- EN: You are currently opting in to receive {FACTION_royalFavorLabel}. -->
-  <RoyalFavorOn>TODO</RoyalFavorOn>
+  <RoyalFavorOn>Actualment esteu optant a rebre {FACTION_royalFavorLabel}.</RoyalFavorOn>
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
-  <RoyalFavorOff>TODO</RoyalFavorOff>
+  <RoyalFavorOff>Actualment esteu optant a no rebre {FACTION_royalFavorLabel}.</RoyalFavorOff>
   <!-- EN: Your goodwill with {0_name} will improve by {1}.\n\nCurrent goodwill: {4} ({5}).\n\nGoodwill measures the general relationship between factions. If it falls below {2}, the faction becomes hostile and will raid your settlements and caravans. If it rises above {3}, the faction will become your ally and send fighters to help you when they can. Otherwise, the faction remains neutral and will trade and talk with you freely. -->
-  <GoodwillTip>TODO</GoodwillTip>
+  <GoodwillTip>La vostra reputació amb {0_name} millorarà en {1}.\n\nReputació actual: {4}({5}).\n\nLa reputació mesura la relació general entre faccions. Si cau per sota de {2}, la facció tindrà un comportament hostil i atacarà els vostres assentaments i caravanes. Si puja per damunt de {3}, la facció serà la vostra aliada i enviarà lluitadors per ajudar-vos quan puguin. Amb una reputació entre {2} i {3}, la facció tindrà una actitud neutral i es comunicarà i comerciarà amb la vostra.</GoodwillTip>
   <!-- EN: {0_labelShort} joins -->
-  <PawnQuestReward>TODO</PawnQuestReward>
+  <PawnQuestReward> {0_labelShort} s'hi afegeix.</PawnQuestReward>
   <!-- EN: Betrayal offer: {0} targets remain -->
-  <QuestBetrayalOffer>TODO</QuestBetrayalOffer>
+  <QuestBetrayalOffer>Oferta de traïció: queden {0} objectius.</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
-  <QuestBetrayalOfferTip>TODO</QuestBetrayalOfferTip>
+  <QuestBetrayalOfferTip>{0} us ofereix una recompensa per matar tots els membres de {1}.</QuestBetrayalOfferTip>
   <!-- EN: a colony wealth of at least {0} -->
-  <QuestRequiredPlayerWealth>TODO</QuestRequiredPlayerWealth>
+  <QuestRequiredPlayerWealth>un valor de la colònia de com a mínim {0}</QuestRequiredPlayerWealth>
   <!-- EN: alliance with {0} -->
-  <QuestAlliedTo>TODO</QuestAlliedTo>
+  <QuestAlliedTo>aliat de {0}</QuestAlliedTo>
   <!-- EN: hostile to {0} -->
-  <QuestHostileTo>TODO</QuestHostileTo>
+  <QuestHostileTo>hostil contra {0}</QuestHostileTo>
   <!-- EN: neutral to {0} -->
-  <QuestNeutralTo>TODO</QuestNeutralTo>
+  <QuestNeutralTo>neutral respecte {0}</QuestNeutralTo>
   <!-- EN: studied {0_labelShort} -->
-  <QuestRequiredThingStudied>TODO</QuestRequiredThingStudied>
+  <QuestRequiredThingStudied>ha estudiat {0_labelShort}</QuestRequiredThingStudied>
 
   <!-- Health tab -->
   <!-- EN: Creates need -->
-  <CreatesNeed>TODO</CreatesNeed>
+  <CreatesNeed>Crea una necessitat</CreatesNeed>
 
 </LanguageData>
