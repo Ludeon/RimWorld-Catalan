@@ -105,19 +105,19 @@
   <!-- EN: Execute -->
   <Execute>Executa</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>TODO</ExecuteColonist>
+  <ExecuteColonist>Executa un colon culpable\n\nSi ho activeu, un guarda procedirà a executar aquesta persona.</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
-  <MessageColonistMarkedForExecution>TODO</MessageColonistMarkedForExecution>
+  <MessageColonistMarkedForExecution>S'ha marcat {0_gender ? en : la} {0_labelShort} per executar-l{0_gender ? o : a}. El proper guarda disponible executarà a {0_objective}.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{0} de {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>TODO</RenounceTitleDescription>
+  <RenounceTitleDescription>Aquesta acció farà que {PAWN_nameDef} perdi el títol de {TITLE}. No rebreu cap compensació per renunciar-hi\n\nAixò tindrà els següents efectes:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
-  <RenounceTitleWillLoosePermits>TODO</RenounceTitleWillLoosePermits>
+  <RenounceTitleWillLoosePermits>{PAWN_pronoun} perdrà aquests permisos</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
-  <RenounceTitleWillLosePermitPoints>TODO</RenounceTitleWillLosePermitPoints>
+  <RenounceTitleWillLosePermitPoints>{PAWN_nameDef} perdrà {POINTS} punts de permís no gastats amb {FACTION_name}.</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>TODO</RenounceTitleWillKeepPsylinkLevels>
+  <RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun} mantindrà tots els seus psicoencanteris i nivells de psicoenllaç.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>desconegut</UnknownLower>
   <!-- EN: On -->
@@ -125,11 +125,11 @@
   <!-- EN: Off -->
   <Off>Desactivat</Off>
   <!-- EN: Power -->
-  <PowerSwitch_Power>Corrent</PowerSwitch_Power>
+  <PowerSwitch_Power>Interruptor</PowerSwitch_Power>
   <!-- EN: Recreation type tolerances -->
-  <JoyTolerances>Toleràncies de diversió</JoyTolerances>
+  <JoyTolerances>Toleràncies relacionades amb la diversió</JoyTolerances>
   <!-- EN: Milk fullness -->
-  <MilkFullness>Creació de llet</MilkFullness>
+  <MilkFullness>Producció de llet</MilkFullness>
   <!-- EN: Wool growth -->
   <WoolGrowth>Creixement de la llana</WoolGrowth>
   <!-- EN: Egg progress -->
@@ -137,75 +137,75 @@
   <!-- EN: Fertilized -->
   <Fertilized>Fertilitzat</Fertilized>
   <!-- EN: Progress stopped until fertilized -->
-  <ProgressStoppedUntilFertilized>Procés aturat fins a fertilitzar</ProgressStoppedUntilFertilized>
+  <ProgressStoppedUntilFertilized>Procés aturat fins que es fertilitzi</ProgressStoppedUntilFertilized>
   <!-- EN: Hatches in -->
-  <HatchesIn>TODO</HatchesIn>
+  <HatchesIn>Surt de l'ou d'aquí</HatchesIn>
   <!-- EN: need {0} level {2}, have {1} -->
-  <SkillTooLow>necessita nivell {2} de {0}, en té {1}</SkillTooLow>
+  <SkillTooLow>necessita {0} de nivell {2}; té nivell {1}.</SkillTooLow>
   <!-- EN: Freezing -->
-  <Freezing>Glaçant</Freezing>
+  <Freezing>Glaçant-se</Freezing>
   <!-- EN: Overheating -->
-  <Overheating>Sobreescalfament</Overheating>
+  <Overheating>Sobreescalfant-se</Overheating>
   <!-- EN: Ruined by temperature. -->
-  <RuinedByTemperature>fet malbé per temperatura.</RuinedByTemperature>
+  <RuinedByTemperature>Fet malbé per la temperatura.</RuinedByTemperature>
   <!-- EN: Missing body parts -->
-  <CorpsePercentMissing>Parts del cos que falten</CorpsePercentMissing>
+  <CorpsePercentMissing>Falten parts corporals.</CorpsePercentMissing>
   <!-- EN: Reproduces in -->
   <HiveReproducesIn>Es reprodueix en</HiveReproducesIn>
   <!-- EN: Dormant: Not reproducing. -->
-  <DormantHiveNotReproducing>Dorment: No es reprodueix.</DormantHiveNotReproducing>
+  <DormantHiveNotReproducing>Latent: No es reprodueix.</DormantHiveNotReproducing>
   <!-- EN: Next {0} in -->
   <NextSpawnedItemIn>Següent {0} d’aquí</NextSpawnedItemIn>
   <!-- EN: Next resource in -->
-  <NextSpawnedResourceIn>TODO</NextSpawnedResourceIn>
+  <NextSpawnedResourceIn>Proper producte d'aquí</NextSpawnedResourceIn>
   <!-- EN: Broken down -->
   <BrokenDown>Avariat</BrokenDown>
   <!-- EN: (bond) -->
-  <BondBrackets>(lligam)</BondBrackets>
+  <BondBrackets>(unió)</BondBrackets>
   <!-- EN: Fuel -->
-  <Fuel>Fuel</Fuel>
+  <Fuel>Combustible</Fuel>
   <!-- EN: Fuel -->
-  <FuelLevelGizmoLabel>Fuel</FuelLevelGizmoLabel>
+  <FuelLevelGizmoLabel>Combustible</FuelLevelGizmoLabel>
   <!-- EN: Set target fuel level to {0} -->
-  <SetTargetFuelLevel>Consigna de fuel per {0}</SetTargetFuelLevel>
+  <SetTargetFuelLevel>Estableix el nivell de combustible desitjat a {0}</SetTargetFuelLevel>
   <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
-  <SetPodLauncherTargetFuelLevel>Consigna de fuel per {0}\nDistància Màx.: {1} cel·les</SetPodLauncherTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>Estableix el nivell de combustible desitjat a {0}\nDistància màxima: {1}caselles</SetPodLauncherTargetFuelLevel>
   <!-- EN: Target fuel level: {0} -->
-  <ConfiguredTargetFuelLevel>Consigna de fuel: {0}</ConfiguredTargetFuelLevel>
+  <ConfiguredTargetFuelLevel>Nivell desitjat de combustible: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
   <Enemies>enemics</Enemies>
   <!-- EN: people -->
-  <People>TODO</People>
+  <People>gent</People>
   <!-- EN: time passed -->
   <TimePassed>temps transcorregut</TimePassed>
   <!-- EN: current radius -->
   <CurrentRadius>radi actual</CurrentRadius>
   <!-- EN: radius expands in -->
-  <RadiusExpandsIn>el radi s'expandeix d'aquí a</RadiusExpandsIn>
+  <RadiusExpandsIn>el radi s'expandeix d'aquí</RadiusExpandsIn>
   <!-- EN: permanent -->
   <Permanent>permanent</Permanent>
   <!-- EN: Resting -->
-  <CaravanResting>Descansa</CaravanResting>
+  <CaravanResting>Descansant</CaravanResting>
   <!-- EN: using 1 bedroll -->
-  <UsingBedroll>es fa servir 1 sac</UsingBedroll>
+  <UsingBedroll>fent servir 1 sac de dormir</UsingBedroll>
   <!-- EN: using {0} bedrolls -->
-  <UsingBedrolls>es fan servir {0} sacs</UsingBedrolls>
+  <UsingBedrolls>fent servir {0} sacs de dormir</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
-  <CaravanEstimatedTimeToDestination>Temps est. fins al destí: {0}</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedTimeToDestination>Dies estimats fins al destí: {0}</CaravanEstimatedTimeToDestination>
   <!-- EN: Route travel time: {0} days -->
-  <CaravanEstimatedDaysToDestination>Dies est. per arribar: {0}</CaravanEstimatedDaysToDestination>
+  <CaravanEstimatedDaysToDestination>Dies estimats per arribar: {0}</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
-  <CaravanImmobilizedByMass>Aturat: massa pes.</CaravanImmobilizedByMass>
+  <CaravanImmobilizedByMass>No es pot moure: massa pes.</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
   <CaravanOutOfFood>Sense menjar.</CaravanOutOfFood>
   <!-- EN: Days of food: {0} -->
   <CaravanDaysOfFood>Dies de menjar: {0}</CaravanDaysOfFood>
   <!-- EN: Days of food: {0} (rot in {1} days) -->
-  <CaravanDaysOfFoodRot>Dies de menjar: {0}, es podreix d'aquí a {1} dies</CaravanDaysOfFoodRot>
+  <CaravanDaysOfFoodRot>Dies de menjar: {0} (es podrirà en {1} dies)</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
-  <AllCaravanMembersDowned>Aturat per: tothom està de baixa.</AllCaravanMembersDowned>
+  <AllCaravanMembersDowned>Aturat, ja que tothom està inconscient.</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone is in a mental break. -->
-  <AllCaravanMembersMentalBreak>Aturat per: tothom està emprenyat.</AllCaravanMembersMentalBreak>
+  <AllCaravanMembersMentalBreak>Aturat, ja que tots els que estan conscients tenen una crisi nerviosa.</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
   <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
   <!-- EN: 1 animal -->
@@ -217,19 +217,19 @@
   <!-- EN: {0} prisoners -->
   <CaravanPrisonersCount>{0} presoners</CaravanPrisonersCount>
   <!-- EN: {0} in mental state -->
-  <CaravanPawnsInMentalState>{0} emprenyats</CaravanPawnsInMentalState>
+  <CaravanPawnsInMentalState>{0} patint una crisi nerviosa</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
-  <CaravanPawnsDowned>{0} malferits</CaravanPawnsDowned>
+  <CaravanPawnsDowned>{0} inconscients</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
   <CaravanTraveling>Viatjant.</CaravanTraveling>
   <!-- EN: Waiting. -->
   <CaravanWaiting>Esperant.</CaravanWaiting>
   <!-- EN: Being carried due to illness -->
-  <BeingCarriedDueToIllness>Transportat per malaltia</BeingCarriedDueToIllness>
+  <BeingCarriedDueToIllness>Sent transportat per malaltia</BeingCarriedDueToIllness>
   <!-- EN: Using bedrolls due to illness -->
-  <UsingBedrollsDueToIllness>Empra sac de dormir per malaltia</UsingBedrollsDueToIllness>
+  <UsingBedrollsDueToIllness>Emprant sacs de dormir per malaltia</UsingBedrollsDueToIllness>
   <!-- EN: Current tile movement time -->
-  <CurrentTileMovementTime>velocitat actual</CurrentTileMovementTime>
+  <CurrentTileMovementTime>velocitat de moviment entre caselles actual</CurrentTileMovementTime>
   <!-- EN: Visibility -->
   <Visibility>Visibilitat</Visibility>
   <!-- EN: Temperature -->
@@ -239,95 +239,95 @@
   <!-- EN: Ideal fermenting temperature -->
   <IdealFermentingTemperature>Temperatura de fermentació ideal</IdealFermentingTemperature>
   <!-- EN: {0} effect multiplier: {1} -->
-  <DrugEffectMultiplier>Efecte multiplicador {0}: {1}</DrugEffectMultiplier>
+  <DrugEffectMultiplier>Efecte multiplicador de {0}: {1}</DrugEffectMultiplier>
   <!-- EN: Visiting {0}. -->
-  <CaravanVisiting>Visita a {0}.</CaravanVisiting>
+  <CaravanVisiting>Visitant a {0}.</CaravanVisiting>
   <!-- EN: Entering {0}. -->
-  <CaravanEntering>Entra a {0}.</CaravanEntering>
+  <CaravanEntering>Entrant a {0}.</CaravanEntering>
   <!-- EN: Attacking {0}. -->
-  <CaravanAttacking>Ataca a {0}.</CaravanAttacking>
+  <CaravanAttacking>Atacant a {0}.</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
-  <CaravanOfferingGifts>Ofereix regals a {0}.</CaravanOfferingGifts>
+  <CaravanOfferingGifts>Oferint regals a {0}.</CaravanOfferingGifts>
   <!-- EN: Trading with {0} -->
-  <CaravanTrading>TODO</CaravanTrading>
+  <CaravanTrading>Comerciant amb {0}</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
-  <WasWornByCorpse>Ho ha portat un cadàver.</WasWornByCorpse>
+  <WasWornByCorpse>Tacat per haver-ho portat un cadàver.</WasWornByCorpse>
   <!-- EN: T -->
-  <WornByCorpseChar>M</WornByCorpseChar>
+  <WornByCorpseChar>T</WornByCorpseChar>
   <!-- EN: unroofed -->
   <DeterioratingUnroofed>sense sostre</DeterioratingUnroofed>
   <!-- EN: outdoors -->
-  <DeterioratingOutdoors>a l’exterior</DeterioratingOutdoors>
+  <DeterioratingOutdoors>a l’aire lliure</DeterioratingOutdoors>
   <!-- EN: Deteriorating because of -->
-  <DeterioratingBecauseOf>Es deteriora per que està</DeterioratingBecauseOf>
+  <DeterioratingBecauseOf>Es deteriora perquè</DeterioratingBecauseOf>
   <!-- EN: Map -->
   <Map>Mapa</Map>
   <!-- EN: {0} until enemies arrive -->
-  <CaravanDetectedRaidCountdown>TODO</CaravanDetectedRaidCountdown>
+  <CaravanDetectedRaidCountdown>{0} fins que arribin enemics</CaravanDetectedRaidCountdown>
   <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
-  <CaravanDetectedRaidCountdownTip>TODO</CaravanDetectedRaidCountdownTip>
+  <CaravanDetectedRaidCountdownTip>Els reforços enemics arribaran a aquesta àrea d'aquí {0}.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Cambra</Room>
   <!-- EN: Beauty here -->
-  <BeautyHere>Bellesa aquí</BeautyHere>
+  <BeautyHere>Bellesa</BeautyHere>
   <!-- EN: No power -->
-  <NoPower>Sense corrent</NoPower>
+  <NoPower>Sense energia</NoPower>
   <!-- EN: Work speed penalty -->
   <WorkSpeedPenalty>Penalització de velocitat del treball</WorkSpeedPenalty>
   <!-- EN: Disabled -->
-  <DisabledCommand>DESHABILITAT</DisabledCommand>
+  <DisabledCommand>Desactivat</DisabledCommand>
   <!-- EN: Ready for launch. -->
-  <ReadyForLaunch>Preparat per l'enlairament.</ReadyForLaunch>
+  <ReadyForLaunch>Preparat pel llançament.</ReadyForLaunch>
   <!-- EN: Not ready for launch -->
-  <NotReadyForLaunch>No està preparat per l'enlairament</NotReadyForLaunch>
+  <NotReadyForLaunch>No està preparat pel llançament</NotReadyForLaunch>
   <!-- EN: no fueling port -->
-  <NotAllInGroupConnectedToFuelingPort>falta carregador de fuel</NotAllInGroupConnectedToFuelingPort>
+  <NotAllInGroupConnectedToFuelingPort>sense assortidor de combustible</NotAllInGroupConnectedToFuelingPort>
   <!-- EN: no fuel -->
-  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>falta fuel</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>falta combustible</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
   <!-- EN: loading in progress -->
   <TransportPodInGroupHasSomethingLeftToLoad>s'està carregant</TransportPodInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
-  <TransportPodDestinationBeyondMaximumRange>Supera el màxim</TransportPodDestinationBeyondMaximumRange>
+  <TransportPodDestinationBeyondMaximumRange>Supera l'abast màxim</TransportPodDestinationBeyondMaximumRange>
   <!-- EN: Not enough fuel -->
-  <TransportPodNotEnoughFuel>No hi ha prou fuel</TransportPodNotEnoughFuel>
+  <TransportPodNotEnoughFuel>No hi ha prou combustible</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
   <SettlementTrader>{0} de {1}</SettlementTrader>
   <!-- EN: Surgery success chance multiplier from room -->
-  <RoomSurgerySuccessChanceFactor>Factor d'èxit de l'operació de l'habitació</RoomSurgerySuccessChanceFactor>
+  <RoomSurgerySuccessChanceFactor>Factor de probabilitat d'èxit de l'operació de l'habitació</RoomSurgerySuccessChanceFactor>
   <!-- EN: Infection chance multiplier from room -->
-  <RoomInfectionChanceFactor>Factor de possibilitat d'infecció de l'habitació</RoomInfectionChanceFactor>
+  <RoomInfectionChanceFactor>Factor de probabilitat d'infecció de l'habitació</RoomInfectionChanceFactor>
   <!-- EN: Closed -->
   <VentClosed>Tancada</VentClosed>
   <!-- EN: worn by {1_labelShort} -->
-  <WornBy>el porta {1_definite}</WornBy>
+  <WornBy>el porta posat {1_labelShort}</WornBy>
   <!-- EN: equipped by {1_labelShort} -->
-  <EquippedBy>el porta {1_definite}</EquippedBy>
+  <EquippedBy>equipat per {1_labelShort}</EquippedBy>
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
-  <QuestTargetDestroyInspectString>{0} vol que sigui destruït.\n    Recompensa: {1} ({2})</QuestTargetDestroyInspectString>
+  <QuestTargetDestroyInspectString>{0} ho vol destruït.\n    Recompensa: {1} ({2})</QuestTargetDestroyInspectString>
   <!-- EN: {0} wants this destroyed. -->
-  <QuestTargetDestroyInspectStringShort>TODO</QuestTargetDestroyInspectStringShort>
+  <QuestTargetDestroyInspectStringShort>{0} ho vol destruït.</QuestTargetDestroyInspectStringShort>
   <!-- EN: Departing on shuttle in {0} -->
-  <ShuttleDelayInspectString>TODO</ShuttleDelayInspectString>
+  <ShuttleDelayInspectString>Se'n va en la llançadora d'aquí {0}.</ShuttleDelayInspectString>
   <!-- EN: Departing in {0} -->
-  <ShuttleLeaveDelayInspectString>TODO</ShuttleLeaveDelayInspectString>
+  <ShuttleLeaveDelayInspectString>Se'n va en {0}.</ShuttleLeaveDelayInspectString>
   <!-- EN: Should depart on shuttle -->
-  <ShouldDepartOnShuttleInspectString>TODO</ShouldDepartOnShuttleInspectString>
+  <ShouldDepartOnShuttleInspectString>Hauria d'anar-se'n en la llançadora.</ShouldDepartOnShuttleInspectString>
   <!-- EN: Time left: {0} -->
   <WorldObjectTimeout>Temps restant: {0}</WorldObjectTimeout>
   <!-- EN: Click to sort by this column. -->
-  <ClickToSortByThisColumn>Feu clic per ordenar per aquesta columna.</ClickToSortByThisColumn>
+  <ClickToSortByThisColumn>Feu clic per ordenar per la columna.</ClickToSortByThisColumn>
   <!-- EN: Shift + click: Increase priority\nShift + right click: Decrease priority -->
-  <WorkPriorityShiftClickTip>Maj + clic: Incrementa la prioritat\nMaj + clic dret: Redueix prioritat</WorkPriorityShiftClickTip>
+  <WorkPriorityShiftClickTip>Maj + clic: Augmenta la prioritat\nMaj + clic dret: Redueix prioritat</WorkPriorityShiftClickTip>
   <!-- EN: Shift + click: Enable all\nShift + right click: Disable all -->
-  <WorkPriorityShiftClickEnableDisableTip>Maj + clic: Habilita-ho tot\nMaj + Clic dret: Deshabilita-ho tot</WorkPriorityShiftClickEnableDisableTip>
+  <WorkPriorityShiftClickEnableDisableTip>Maj + clic: Activa-ho tot\nMaj + Clic dret: Desactiva-ho tot</WorkPriorityShiftClickEnableDisableTip>
   <!-- EN: Shift + click: Set all to home\nShift + right click: Set all to unrestricted -->
   <AllowedAreaShiftClickTip>Maj + clic: Restringeix tothom a la zona llar\nShift + right click: Treu la restricció a tothom</AllowedAreaShiftClickTip>
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
   <CheckboxShiftClickTip>Maj + clic: Marca-ho tot\nMaj + clic dret: desmarca-ho tot</CheckboxShiftClickTip>
   <!-- EN: {0} {1} -->
-  <KnownSiteThreatEnemyCountAppend>TODO</KnownSiteThreatEnemyCountAppend>
+  <KnownSiteThreatEnemyCountAppend>{0} {1}</KnownSiteThreatEnemyCountAppend>
   <!-- EN: Skill Requirements -->
-  <SkillRequirements>Capacitats necessàries</SkillRequirements>
+  <SkillRequirements>Habilitats necessàries</SkillRequirements>
   <!-- EN: Products -->
   <Products>Productes</Products>
   <!-- EN: {0} of {1} -->
@@ -337,25 +337,25 @@
   <!-- EN: Refugee -->
   <Refugee>Refugiat</Refugee>
   <!-- EN: Terrain movement difficulty -->
-  <TileMovementDifficulty>Dificultat de moviment del terreny</TileMovementDifficulty>
+  <TileMovementDifficulty>Dificultat de moviment pel terreny</TileMovementDifficulty>
   <!-- EN: Impassable -->
-  <Impassable>Infranquejable</Impassable>
+  <Impassable>Intransitable</Impassable>
   <!-- EN: Caravan movement speed -->
   <CaravanMovementSpeedFull>Velocitat de moviment de la caravana</CaravanMovementSpeedFull>
   <!-- EN: downed -->
-  <DownedLower>malferit</DownedLower>
+  <DownedLower>inconscient</DownedLower>
   <!-- EN: resting -->
   <Carried>carregat</Carried>
   <!-- EN: Rideable animals / people -->
-  <RideableAnimalsPerPeople>TODO</RideableAnimalsPerPeople>
+  <RideableAnimalsPerPeople>Animals i gent que es poden muntar</RideableAnimalsPerPeople>
   <!-- EN: Multiplier from ridden animals -->
-  <MultiplierFromRiddenAnimals>TODO</MultiplierFromRiddenAnimals>
+  <MultiplierFromRiddenAnimals>Multiplicador per animals cavalcables</MultiplierFromRiddenAnimals>
   <!-- EN: Multiplier for carried mass: {0} -->
-  <MultiplierForCarriedMass>Multiplicador per pes portat: {0}</MultiplierForCarriedMass>
+  <MultiplierForCarriedMass>Multiplicador pel pes transportat: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
-  <RideableAnimalTip>TODO</RideableAnimalTip>
+  <RideableAnimalTip>Aquest animal es pot cavalcar. La gent de la caravana muntarà els animals més ràpids, millorant la velocitat conjunta de la caravana.</RideableAnimalTip>
   <!-- EN: This caravan can't move because it carries too much. -->
-  <EncumberedCaravanTilesPerDayTip>TODO</EncumberedCaravanTilesPerDayTip>
+  <EncumberedCaravanTilesPerDayTip>Aquesta caravana no es pot moure perquè porta massa coses.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
   <FinalCaravanPawnsMovementSpeed>Velocitat dels membres de la caravana</FinalCaravanPawnsMovementSpeed>
   <!-- EN: Final speed -->
@@ -371,7 +371,7 @@
   <!-- EN: Expires in -->
   <ExpiresIn>S’acaba en</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
-  <CaravanLeaderCaravanName>caravana de {1_definite}</CaravanLeaderCaravanName>
+  <CaravanLeaderCaravanName>caravana de {1_labelShort}</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
   <Reason>Motiu</Reason>
   <!-- EN: Relations with {0} -->
@@ -381,27 +381,27 @@
   <!-- EN: your caravan -->
   <yourCaravan>la vostra caravana</yourCaravan>
   <!-- EN: {0} wildness -->
-  <CreatureWildness>{0} salvatgia</CreatureWildness>
+  <CreatureWildness>{0} de salvatgia</CreatureWildness>
   <!-- EN: {0} trainability -->
-  <CreatureTrainability>{0} domesticació</CreatureTrainability>
+  <CreatureTrainability>{0} d'ensinistrabilitat</CreatureTrainability>
   <!-- EN: Follow master while drafted -->
-  <CreatureFollowDrafted>TODO</CreatureFollowDrafted>
+  <CreatureFollowDrafted>Segueix al mestre quan es recluta</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
-  <CreatureFollowFieldwork>TODO</CreatureFollowFieldwork>
+  <CreatureFollowFieldwork>Segueuix al mestre quan vagi a fer treball de camp</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{0} amb {1}</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
-  <EnterCooldown>No podeu tornar a entrar fins d’aquí a {0} dies.</EnterCooldown>
+  <EnterCooldown>És massa perillós tornar a entrar durant {0}.</EnterCooldown>
   <!-- EN: Caravan -->
   <Caravan>Caravana</Caravan>
   <!-- EN: there may be danger there. -->
-  <HiddenOrNoSitePartDescription>hi pot haver perills</HiddenOrNoSitePartDescription>
+  <HiddenOrNoSitePartDescription>hi poden haver perills.</HiddenOrNoSitePartDescription>
   <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
-  <PreciousLumpHostileThreat>TODO</PreciousLumpHostileThreat>
+  <PreciousLumpHostileThreat>L'escàner està captant activitat al voltant del filó. És probable que sigui hostil.</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
-  <PreciousLumpLabel>mena de {0}</PreciousLumpLabel>
+  <PreciousLumpLabel>filó de {0}</PreciousLumpLabel>
   <!-- EN: no active research project -->
-  <NoActiveResearchProjectToFinish>no teniu cap investigació activa</NoActiveResearchProjectToFinish>
+  <NoActiveResearchProjectToFinish>no teniu cap recerca en curs</NoActiveResearchProjectToFinish>
   <!-- EN: turret -->
   <Turret>torreta</Turret>
   <!-- EN: turrets -->
@@ -413,147 +413,147 @@
   <!-- EN: enemy -->
   <Enemy>enemic</Enemy>
   <!-- EN: location -->
-  <Location>TODO</Location>
+  <Location>localització</Location>
   <!-- EN: animals -->
-  <AnimalsLower>TODO</AnimalsLower>
+  <AnimalsLower>animals</AnimalsLower>
   <!-- EN: items -->
-  <ItemsLower>TODO</ItemsLower>
+  <ItemsLower>elements</ItemsLower>
   <!-- EN: {0} x{1} -->
-  <FilthLabel>TODO</FilthLabel>
+  <FilthLabel>{0} ×{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
-  <FilthLabelWithSource>TODO</FilthLabelWithSource>
+  <FilthLabelWithSource>{0} de {1} ×{2}</FilthLabelWithSource>
   <!-- EN: Required -->
-  <Required>TODO</Required>
+  <Required>Necessari</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
-  <GiveGiftViaTransportPodsTradeRequestWarning>TODO</GiveGiftViaTransportPodsTradeRequestWarning>
+  <GiveGiftViaTransportPodsTradeRequestWarning>Avís: Les sol·licituds de comerç no es poden completar amb càpsules de transport.\nSi envieu els béns, l'assentament els acceptarà com si fossin regals, però no es completarà la missió ni en rebreu les recompenses.\n\nPer comerciar, cal que us apropeu al campament amb una caravana.\n\nEsteu segur que voleu donar el carregament a la facció?</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
-  <PrisonerLower>TODO</PrisonerLower>
+  <PrisonerLower>presoner</PrisonerLower>
   <!-- EN: prisoners -->
-  <PrisonersLower>TODO</PrisonersLower>
+  <PrisonersLower>presoners</PrisonersLower>
   <!-- EN: Click to view this quest in quests tab -->
-  <ClickToViewInQuestsTab>TODO</ClickToViewInQuestsTab>
+  <ClickToViewInQuestsTab>Feu clic per veure-la a la pestanya de missions.</ClickToViewInQuestsTab>
   <!-- EN: Mood -->
-  <Mood>TODO</Mood>
+  <Mood>Estat d'ànim</Mood>
   <!-- EN: Quest -->
-  <Quest>TODO</Quest>
+  <Quest>Missió</Quest>
   <!-- EN: Brings raids every {0} -->
-  <BringsRaidsEvery>TODO</BringsRaidsEvery>
+  <BringsRaidsEvery>Atrau assaltants cada {0}.</BringsRaidsEvery>
   <!-- EN: Generates {0} every {1} -->
-  <GeneratesResourcesEvery>TODO</GeneratesResourcesEvery>
+  <GeneratesResourcesEvery>Genera {0} cada {1}.</GeneratesResourcesEvery>
   <!-- EN: Foliage kill radius -->
-  <FoliageKillRadius>TODO</FoliageKillRadius>
+  <FoliageKillRadius>Radi de defoliació</FoliageKillRadius>
   <!-- EN: Radius expand rate -->
-  <RadiusExpandRate>TODO</RadiusExpandRate>
+  <RadiusExpandRate>Ràtio d'expansió del radi</RadiusExpandRate>
   <!-- EN: View: {0} -->
-  <ViewHyperlink>TODO</ViewHyperlink>
+  <ViewHyperlink>Veure: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
-  <DetonationCountdown>TODO</DetonationCountdown>
+  <DetonationCountdown>Detonarà d'aquí {0} dies.</DetonationCountdown>
   <!-- EN: Large fire explosion if damaged -->
-  <ExplosionOnDamageWarning>TODO</ExplosionOnDamageWarning>
+  <ExplosionOnDamageWarning>Si es danya, es genera una explosió forta.</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
-  <MechCluster>TODO</MechCluster>
+  <MechCluster>Grup de mecanoides</MechCluster>
   <!-- EN: Spawning in {0} -->
-  <SpawningNextPawnIn>TODO</SpawningNextPawnIn>
+  <SpawningNextPawnIn>N'apareixerà un d'aquí {0}.</SpawningNextPawnIn>
   <!-- EN: {0} assembly completes in {1}. -->
-  <MechAssemblyCompleteIn>TODO</MechAssemblyCompleteIn>
+  <MechAssemblyCompleteIn>El muntatge de {0} finalitza en {1}.</MechAssemblyCompleteIn>
   <!-- EN: Will assemble -->
-  <MechAssemblyNextType>TODO</MechAssemblyNextType>
+  <MechAssemblyNextType>Muntarà</MechAssemblyNextType>
   <!-- EN: produced -->
-  <ThingsProduced>TODO</ThingsProduced>
+  <ThingsProduced>produït</ThingsProduced>
   <!-- EN: harvested -->
-  <PlantsHarvested>TODO</PlantsHarvested>
+  <PlantsHarvested>recol·lectat</PlantsHarvested>
   <!-- EN: {0} killed -->
-  <PawnsKilled>TODO</PawnsKilled>
+  <PawnsKilled>{0} assassinats</PawnsKilled>
   <!-- EN: Sent {0}, will return in {1} -->
-  <PawnsLent>TODO</PawnsLent>
+  <PawnsLent>Se n'han enviat {0} i tornen d'aquí {1}.</PawnsLent>
   <!-- EN: Dormant -->
-  <DormantCompInactive>TODO</DormantCompInactive>
+  <DormantCompInactive>Latent</DormantCompInactive>
   <!-- EN: Sealed -->
-  <DormantCompSealed>TODO</DormantCompSealed>
+  <DormantCompSealed>Segellat</DormantCompSealed>
   <!-- EN: Ready to drop mechanoids -->
-  <DormantCompBeacon>TODO</DormantCompBeacon>
+  <DormantCompBeacon>Tot llest per soltar els mecanoides</DormantCompBeacon>
   <!-- EN: Expired -->
-  <DormantCompExpired>TODO</DormantCompExpired>
+  <DormantCompExpired>Finalitzat</DormantCompExpired>
   <!-- EN: Initiates in -->
-  <InitiatesIn>TODO</InitiatesIn>
+  <InitiatesIn>Comença en</InitiatesIn>
   <!-- EN: Activates in {0} -->
-  <SendSignalOnCountdownCompTime>TODO</SendSignalOnCountdownCompTime>
+  <SendSignalOnCountdownCompTime>S'activarà d'aquí {0}.</SendSignalOnCountdownCompTime>
   <!-- EN: Neural heat -->
-  <PsychicEntropy>TODO</PsychicEntropy>
+  <PsychicEntropy>Escalfament neural</PsychicEntropy>
   <!-- EN: Heat -->
-  <PsychicEntropyShort>TODO</PsychicEntropyShort>
+  <PsychicEntropyShort>Escalfament</PsychicEntropyShort>
   <!-- EN: {0} pain boost -->
-  <PsychicEntropyPainFocus>TODO</PsychicEntropyPainFocus>
+  <PsychicEntropyPainFocus>potenciador per dolor de {0}</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
-  <ConditionCauserRadius>TODO</ConditionCauserRadius>
+  <ConditionCauserRadius>radi de {0}</ConditionCauserRadius>
   <!-- EN: low psyfocus -->
-  <LowPsyfocus>TODO</LowPsyfocus>
+  <LowPsyfocus>poca psicoconcentració</LowPsyfocus>
   <!-- EN: {0} left -->
-  <DurationLeft>TODO</DurationLeft>
+  <DurationLeft>Queden {0}.</DurationLeft>
   <!-- EN: Any of -->
-  <AnyOf>TODO</AnyOf>
+  <AnyOf>Qualsevol de</AnyOf>
   <!-- EN: Requires {0} trait -->
-  <TraitRequired>TODO</TraitRequired>
+  <TraitRequired>Necessita el tret {0}.</TraitRequired>
   <!-- EN: Goodwill -->
-  <Goodwill>TODO</Goodwill>
+  <Goodwill>Reputació</Goodwill>
   <!-- EN: Natural goodwill -->
-  <NaturalGoodwill>TODO</NaturalGoodwill>
+  <NaturalGoodwill>Reputació natural</NaturalGoodwill>
   <!-- EN: Natural goodwill range -->
-  <NaturalGoodwillRange>TODO</NaturalGoodwillRange>
+  <NaturalGoodwillRange>Abast de la reputació natural</NaturalGoodwillRange>
   <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
-  <NaturalGoodwillDescription>TODO</NaturalGoodwillDescription>
+  <NaturalGoodwillDescription>La reputació natural es basa en les identitats i creences de la facció. Si la reputació actual de la facció és molt diferent de la natural, s'hi anirà apropant al llarg del temps.\n\nTots els efectes de reputació es multipliquen per {0} quan es tendeix a la natural.</NaturalGoodwillDescription>
   <!-- EN: reducing resistance of {0_nameIndef} -->
-  <JobReport_ReduceResistance>TODO</JobReport_ReduceResistance>
+  <JobReport_ReduceResistance>reduint la resistència de {0_nameIndef}</JobReport_ReduceResistance>
   <!-- EN: Too large -->
-  <TooLargeForBed>TODO</TooLargeForBed>
+  <TooLargeForBed>Massa gran</TooLargeForBed>
   <!-- EN: Warning -->
-  <Warning>TODO</Warning>
+  <Warning>Avís</Warning>
   <!-- EN: Has subquest -->
-  <HasSubquest>TODO</HasSubquest>
+  <HasSubquest>Té una missió secundària.</HasSubquest>
   <!-- EN: Subquest of -->
-  <SubquestOf>TODO</SubquestOf>
+  <SubquestOf>Missió secundària de</SubquestOf>
   <!-- EN: Raid -->
-  <Raid>TODO</Raid>
+  <Raid>Assalt</Raid>
   <!-- EN: Disabled by -->
-  <ApparelRequirementDisabledLabel>TODO</ApparelRequirementDisabledLabel>
+  <ApparelRequirementDisabledLabel>Desactivat per</ApparelRequirementDisabledLabel>
   <!-- EN: Nudism -->
-  <Nudism>TODO</Nudism>
+  <Nudism>Nudisme</Nudism>
   <!-- EN: Study progress -->
-  <StudyProgress>TODO</StudyProgress>
+  <StudyProgress>Progrés de l'estudi</StudyProgress>
   <!-- EN: completed -->
-  <StudyCompleted>TODO</StudyCompleted>
+  <StudyCompleted>completat</StudyCompleted>
   <!-- EN: Attack this to destroy it. -->
-  <AttackToDestroy>TODO</AttackToDestroy>
+  <AttackToDestroy>Ataqueu-lo per destruir-lo.</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
-  <RemoveByAttackingTooltip>TODO</RemoveByAttackingTooltip>
+  <RemoveByAttackingTooltip>Ataqueu-ho per poder-ho treure.</RemoveByAttackingTooltip>
   <!-- EN: Food -->
-  <ThoughtFoodEatenFood>TODO</ThoughtFoodEatenFood>
+  <ThoughtFoodEatenFood>Menjar</ThoughtFoodEatenFood>
   <!-- EN: Ingredients -->
-  <ThoughtFoodEatenIngredients>TODO</ThoughtFoodEatenIngredients>
+  <ThoughtFoodEatenIngredients>Ingredients</ThoughtFoodEatenIngredients>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
-  <UserScanAbility>TODO</UserScanAbility>
+  <UserScanAbility>Velocitat d'escaneig de l'usuari</UserScanAbility>
   <!-- EN: Random find interval -->
-  <ScanAverageInterval>TODO</ScanAverageInterval>
+  <ScanAverageInterval>Interval de descobriment aleatori</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
-  <ScanningProgressToGuaranteedFind>TODO</ScanningProgressToGuaranteedFind>
+  <ScanningProgressToGuaranteedFind>Progrés per un descobriment garantit</ScanningProgressToGuaranteedFind>
   
   <!-- Meditation -->
   <!-- EN: meditating at -->
-  <MeditatingAt>TODO</MeditatingAt>
+  <MeditatingAt>meditant a</MeditatingAt>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
-  <ContainsWort>Conté {0} / {1} most.</ContainsWort>
+  <ContainsWort>Conté {0} / {1} de most.</ContainsWort>
   <!-- EN: Contains {0} / {1} beer. -->
-  <ContainsBeer>Conté {0} / {1} cervesa.</ContainsBeer>
+  <ContainsBeer>Conté {0} / {1} de cervesa.</ContainsBeer>
   <!-- EN: Contains -->
-  <Contains>TODO</Contains>
+  <Contains>Conté</Contains>
   <!-- EN: Fermented -->
   <Fermented>Fermentat</Fermented>
   <!-- EN: Progress: {0} ({1} left) -->
-  <FermentationProgress>Progrés: {0} (falten {1})</FermentationProgress>
+  <FermentationProgress>Progrés: {0} (llest en {1})</FermentationProgress>
   <!-- EN: Non-ideal temperature. Fermentation speed: {0} -->
   <FermentationBarrelOutOfIdealTemperature>Temperatura no ideal. Velocitat de fermentació: {0}</FermentationBarrelOutOfIdealTemperature>
 
@@ -561,39 +561,39 @@
   <!-- EN: Headshot -->
   <Headshot>Tret al cap</Headshot>
   <!-- EN: Treatment success!\n{0} chance -->
-  <TextMote_TreatSuccess>El tractament ha funcionat!\n{0} probabilitats</TextMote_TreatSuccess>
+  <TextMote_TreatSuccess>El tractament ha funcionat!\n(probabilitat d'èxit del {0})</TextMote_TreatSuccess>
   <!-- EN: Treatment failed\n{0} chance -->
-  <TextMote_TreatFailed>El tractament ha fallat\n{0} probabilitats</TextMote_TreatFailed>
+  <TextMote_TreatFailed>El tractament no ha funcionat.\n(probabilitat d'èxit del {0})</TextMote_TreatFailed>
   <!-- EN: Harvest\nbotched -->
-  <TextMote_HarvestFailed>Collita\nfallada</TextMote_HarvestFailed>
+  <TextMote_HarvestFailed>Collita\nfallida</TextMote_HarvestFailed>
   <!-- EN: Yield\nwasted -->
-  <TextMote_YieldWasted>Collita\nfallada</TextMote_YieldWasted>
+  <TextMote_YieldWasted>Producció\narruïnada</TextMote_YieldWasted>
   <!-- EN: Product\nwasted -->
   <TextMote_ProductWasted>Producte\nmalbaratat</TextMote_ProductWasted>
   <!-- EN: Recruit failed!\n{0} chance -->
-  <TextMote_RecruitFail>Ha fallat el reclutament!\n{0} probabilitats</TextMote_RecruitFail>
+  <TextMote_RecruitFail>El reclutament ha fracassat!\n(probabilitat d'èxit del {0})</TextMote_RecruitFail>
   <!-- EN: Resistance\n{0} to {1} -->
-  <TextMote_ResistanceReduced>Resistència\n{0} a {1}</TextMote_ResistanceReduced>
+  <TextMote_ResistanceReduced>Resistència\nde {0} a {1}</TextMote_ResistanceReduced>
   <!-- EN: Tame failed\n{0} chance -->
-  <TextMote_TameFail>Ha fallat la doma\n{0} probabilitats</TextMote_TameFail>
+  <TextMote_TameFail>La doma ha fallat.\n(probabilitat d'èxit del {0})</TextMote_TameFail>
   <!-- EN: Tamed! -->
-  <TextMote_TameSuccess>Domesticat!\n{0} probabilitats</TextMote_TameSuccess>
+  <TextMote_TameSuccess>La domesticació ha tingut èxit!\n(probabilitats d'èxit del {0})</TextMote_TameSuccess>
   <!-- EN: Failed training: {0}\n{1} chance -->
-  <TextMote_TrainFail>Entrenament fallit: {0}\n{1} probabilitats</TextMote_TrainFail>
+  <TextMote_TrainFail>L'entrenament ha fracassat: {0}\n(probabilitat d'èxit del {1})</TextMote_TrainFail>
   <!-- EN: Trained: {0}\n{1} chance -->
-  <TextMote_TrainSuccess>Entrenat: {0}\n{1} probabilitats</TextMote_TrainSuccess>
+  <TextMote_TrainSuccess>L'entrenament ha anat bé: {0}\n(probabilitat d'èxit del {1})</TextMote_TrainSuccess>
   <!-- EN: Repair\nbotched -->
-  <TextMote_FixBrokenDownBuildingFail>Ha fallat\nla reparació</TextMote_FixBrokenDownBuildingFail>
+  <TextMote_FixBrokenDownBuildingFail>Reparació\ndeficient</TextMote_FixBrokenDownBuildingFail>
   <!-- EN: Construction\nbotched -->
-  <TextMote_ConstructionFail>Ha fallat\nla construcció</TextMote_ConstructionFail>
+  <TextMote_ConstructionFail>Construcció\nfallida</TextMote_ConstructionFail>
   <!-- EN: Dodge -->
-  <TextMote_Dodge>Esquivat</TextMote_Dodge>
+  <TextMote_Dodge>Esquiva</TextMote_Dodge>
   <!-- EN: Immune -->
-  <TextMote_Immune>TODO</TextMote_Immune>
+  <TextMote_Immune>Immune</TextMote_Immune>
   <!-- EN: {0} tended -->
-  <TextMote_Tended>{0} atencions</TextMote_Tended>
+  <TextMote_Tended>{0} atencions mèdiques</TextMote_Tended>
   <!-- EN: level {0} -->
-  <TextMote_SkillUp>TODO</TextMote_SkillUp>
+  <TextMote_SkillUp>nivell {0}</TextMote_SkillUp>
   <!-- EN: low mood -->
   <lowMood>mal humor</lowMood>
   <!-- EN: low opinion -->
@@ -603,7 +603,7 @@
   <!-- EN: Home -->
   <Home>Llar</Home>
   <!-- EN: Build roof -->
-  <BuildRoof>Construir teulada</BuildRoof>
+  <BuildRoof>Construeix teulada</BuildRoof>
   <!-- EN: No roof -->
   <NoRoof>Sense teulada</NoRoof>
   <!-- EN: Snow clear -->
@@ -611,74 +611,74 @@
   <!-- EN: Area {0} -->
   <AreaDefaultLabel>Zona {0}</AreaDefaultLabel>
   <!-- EN: Unrestricted -->
-  <NoAreaAllowed>Sense restricció</NoAreaAllowed>
+  <NoAreaAllowed>Sense restriccions</NoAreaAllowed>
   <!-- EN: New area -->
-  <NewArea>Nova zona</NewArea>
+  <NewArea>Zona nova</NewArea>
   <!-- EN: Invert -->
-  <InvertArea>Invertir</InvertArea>
+  <InvertArea>Inverteix</InvertArea>
 
   <!-- Animal pens -->
   <!-- EN: Unenclosed -->
-  <PenUnenclosedLabel>TODO</PenUnenclosedLabel>
+  <PenUnenclosedLabel>Perímetre obert</PenUnenclosedLabel>
   <!-- EN: open door -->
-  <PenOpenDoorLabel>TODO</PenOpenDoorLabel>
+  <PenOpenDoorLabel>porta oberta</PenOpenDoorLabel>
   <!-- EN: Rename pen -->
-  <RenameAnimalPen>TODO</RenameAnimalPen>
+  <RenameAnimalPen>Canvia el nom del corral</RenameAnimalPen>
   <!-- EN: Pen marker {0} -->
-  <AnimalPenMarkerDefaultLabel>TODO</AnimalPenMarkerDefaultLabel>
+  <AnimalPenMarkerDefaultLabel>Marcador del corral {0}</AnimalPenMarkerDefaultLabel>
   <!-- EN: In pen -->
-  <InPen>TODO</InPen>
+  <InPen>Al corral</InPen>
   <!-- EN: not in a pen -->
-  <Unpenned>TODO</Unpenned>
+  <Unpenned>no està en un corral</Unpenned>
   <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
-  <UnpennedTooltip>TODO</UnpennedTooltip>
+  <UnpennedTooltip>Els corrals d'animals es poden crear amb un marcador de corral dins de l'àrea tancada. Els responsables portaran els animals al corral adequat. Els corrals es poden tancar amb reixes, barricades, murs i portes.</UnpennedTooltip>
   <!-- EN: Roped by -->
-  <RopedByPawn>TODO</RopedByPawn>
+  <RopedByPawn>Lligat per</RopedByPawn>
   <!-- EN: Roped to -->
-  <RopedToThing>TODO</RopedToThing>
+  <RopedToThing>Lligat a</RopedToThing>
   <!-- EN: Roped to spot. -->
-  <RopedToSpot>TODO</RopedToSpot>
+  <RopedToSpot>Lligat al lloc.</RopedToSpot>
   <!-- EN: Pen size -->
-  <PenSizeLabel>TODO</PenSizeLabel>
+  <PenSizeLabel>Mida del corral</PenSizeLabel>
   <!-- EN: Very small pen -->
-  <PenSizeDesc_VerySmall>TODO</PenSizeDesc_VerySmall>
+  <PenSizeDesc_VerySmall>Corral molt petit</PenSizeDesc_VerySmall>
   <!-- EN: Small pen -->
-  <PenSizeDesc_Small>TODO</PenSizeDesc_Small>
+  <PenSizeDesc_Small>Corral petit</PenSizeDesc_Small>
   <!-- EN: Medium-sized pen -->
-  <PenSizeDesc_Medium>TODO</PenSizeDesc_Medium>
+  <PenSizeDesc_Medium>Corral mitjà</PenSizeDesc_Medium>
   <!-- EN: Large pen -->
-  <PenSizeDesc_Large>TODO</PenSizeDesc_Large>
+  <PenSizeDesc_Large>Corral gran</PenSizeDesc_Large>
   <!-- EN: Not enclosed - build fences -->
-  <PenSizeDesc_Unenclosed>TODO</PenSizeDesc_Unenclosed>
+  <PenSizeDesc_Unenclosed>El perímetre és obert &#8211; envolteu-lo amb tanques.</PenSizeDesc_Unenclosed>
   <!-- EN: {ANIMALDEF_label} capacity -->
-  <PenCapacityDesc>TODO</PenCapacityDesc>
+  <PenCapacityDesc>Capacitat per a {ANIMALDEF_label}</PenCapacityDesc>
   <!-- EN: Example animals -->
-  <PenExampleAnimals>TODO</PenExampleAnimals>
+  <PenExampleAnimals>Animals d'exemple</PenExampleAnimals>
 
 
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
   <CannotOrderNonControlled>No podeu donar ordres a unitats que no controleu.</CannotOrderNonControlled>
   <!-- EN: {1_labelShort} is incapable of violence. -->
-  <IsIncapableOfViolence>{1_definite} no pot fer actes violents.</IsIncapableOfViolence>
+  <IsIncapableOfViolence>{1_labelShort} no pot emprar la violència.</IsIncapableOfViolence>
   <!-- EN: incapable of violence -->
-  <IsIncapableOfViolenceShort>no pot fer actes violents</IsIncapableOfViolenceShort>
+  <IsIncapableOfViolenceShort>no pot cometre actes violents</IsIncapableOfViolenceShort>
   <!-- EN: {1_labelShort} is not drafted. -->
-  <IsNotDrafted>{1_definite} no està reclutat.</IsNotDrafted>
+  <IsNotDrafted>{1_gender ? En : La} {1_labelShort} no s'ha reclutat.</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
-  <ApparelPreventsShooting>TODO</ApparelPreventsShooting>
+  <ApparelPreventsShooting>{PAWN_gender ? En : La} {PAWN_nameDef} no pot utilitzar armes a distància perquè porta {APPAREL_label}.</ApparelPreventsShooting>
 
   <!-- Snow -->
   <!-- EN: No snow -->
   <SnowNone>Sense neu</SnowNone>
   <!-- EN: Snow (dusting) -->
-  <SnowDusting>Neu (enfarinat)</SnowDusting>
+  <SnowDusting>Neu (engrunes)</SnowDusting>
   <!-- EN: Snow (thin) -->
-  <SnowThin>Neu (prima)</SnowThin>
+  <SnowThin>Neu (capa prima)</SnowThin>
   <!-- EN: Snow (medium) -->
-  <SnowMedium>Neu (mitjà)</SnowMedium>
+  <SnowMedium>Neu (capa mitjana)</SnowMedium>
   <!-- EN: Snow (thick) -->
-  <SnowThick>Neu (gruixuda)</SnowThick>
+  <SnowThick>Neu (capa gruixuda)</SnowThick>
 
   <!-- Turrets -->
   <!-- EN: Installed -->
@@ -698,67 +698,67 @@
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
-  <ReportHaulingTo>porta {THING_definite} a {DESTINATION_definite}.</ReportHaulingTo>
+  <ReportHaulingTo>portant {THING_label} a {DESTINATION}.</ReportHaulingTo>
   <!-- EN: burying {THING_label} in {DESTINATION}. -->
-  <ReportHaulingToGrave>TODO</ReportHaulingToGrave>
+  <ReportHaulingToGrave>enterrant {THING_label} en {DESTINATION}.</ReportHaulingToGrave>
   <!-- EN: hauling {1_label}. -->
-  <ReportHauling>porta {1_label}.</ReportHauling>
+  <ReportHauling>transportant {1_label}.</ReportHauling>
   <!-- EN: hauling. -->
-  <ReportHaulingUnknown>transporta.</ReportHaulingUnknown>
+  <ReportHaulingUnknown>movent coses.</ReportHaulingUnknown>
   <!-- EN: sleeping. -->
-  <ReportSleeping>dorm.</ReportSleeping>
+  <ReportSleeping>dormint.</ReportSleeping>
   <!-- EN: resting. -->
-  <ReportResting>descansa.</ReportResting>
+  <ReportResting>descansant.</ReportResting>
   <!-- EN: laying down. -->
-  <ReportLayingDown>TODO</ReportLayingDown>
+  <ReportLayingDown>ajagut.</ReportLayingDown>
   <!-- EN: watching the sunrise. -->
-  <WatchingSunrise>contempla la sortida del sol.</WatchingSunrise>
+  <WatchingSunrise>contemplant la sortida del sol.</WatchingSunrise>
   <!-- EN: cloudwatching. -->
-  <CloudWatching>contempla els núvols.</CloudWatching>
+  <CloudWatching>mirant els núvols.</CloudWatching>
   <!-- EN: watching the sunset. -->
-  <WatchingSunset>contempla la posta de sol.</WatchingSunset>
+  <WatchingSunset>contemplant la posta de sol.</WatchingSunset>
   <!-- EN: stargazing. -->
-  <Stargazing>mira les estrelles.</Stargazing>
+  <Stargazing>mirant les estrelles.</Stargazing>
   <!-- EN: watching the eclipse. -->
-  <WatchingEclipse>mira l'eclipsi</WatchingEclipse>
+  <WatchingEclipse>mirant l'eclipsi</WatchingEclipse>
   <!-- EN: watching the aurora. -->
-  <WatchingAurora>mira l’aurora.</WatchingAurora>
+  <WatchingAurora>mirant l’aurora.</WatchingAurora>
   <!-- EN: using {0} on {1}. -->
-  <UsingVerb>fa servir {0} a {1}.</UsingVerb>
+  <UsingVerb>fent servir {0} en {1}.</UsingVerb>
   <!-- EN: using {0}. -->
-  <UsingVerbNoTarget>TODO</UsingVerbNoTarget>
+  <UsingVerbNoTarget>utilitzant {0}.</UsingVerbNoTarget>
   <!-- EN: area -->
   <AreaLower>zona</AreaLower>
   <!-- EN: cowering. -->
-  <ReportCowering>es cobreix.</ReportCowering>
+  <ReportCowering>acovardint-se.</ReportCowering>
   <!-- EN: standing. -->
   <ReportStanding>aturat.</ReportStanding>
   <!-- EN: extinguishing fire. -->
-  <ReportExtinguishingFire>apaga el foc.</ReportExtinguishingFire>
+  <ReportExtinguishingFire>apagant el foc.</ReportExtinguishingFire>
   <!-- EN: extinguishing fire on {TARGET_label}. -->
-  <ReportExtinguishingFireOn>apaga el foc de {TARGET_definite}.</ReportExtinguishingFireOn>
+  <ReportExtinguishingFireOn>apagant el foc de {TARGET_label}.</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
-  <ReportDiggingUpCorpse>desenterra un cadàver.</ReportDiggingUpCorpse>
+  <ReportDiggingUpCorpse>desenterrant un cadàver.</ReportDiggingUpCorpse>
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
-  <LordReportAttendingMarriageCeremony>Assisteix a la cerimònia de casament</LordReportAttendingMarriageCeremony>
+  <LordReportAttendingMarriageCeremony>Assistint a la cerimònia de casament</LordReportAttendingMarriageCeremony>
   <!-- EN: Attending party -->
-  <LordReportAttendingParty>Assisteix a la festa</LordReportAttendingParty>
+  <LordReportAttendingParty>Assistint a la festa</LordReportAttendingParty>
   <!-- EN: Attending concert -->
-  <LordReportAttendingConcert>TODO</LordReportAttendingConcert>
+  <LordReportAttendingConcert>Assistint a un concert</LordReportAttendingConcert>
   <!-- EN: Holding a concert -->
-  <LordReportHoldingConcert>TODO</LordReportHoldingConcert>
+  <LordReportHoldingConcert>Celebrant un concert</LordReportHoldingConcert>
   <!-- EN: Giving a speech -->
-  <LordReportGivingSpeech>TODO</LordReportGivingSpeech>
+  <LordReportGivingSpeech>Donant un discurs</LordReportGivingSpeech>
   <!-- EN: Listening to {ORGANIZER_labelShort}'s speech -->
-  <LordReportListeningSpeech>TODO</LordReportListeningSpeech>
+  <LordReportListeningSpeech>Escoltant el discurs de {ORGANIZER_labelShort}</LordReportListeningSpeech>
   <!-- EN: Forming caravan -->
-  <LordReportFormingCaravan>Formant la caravana</LordReportFormingCaravan>
+  <LordReportFormingCaravan>Formant una caravana</LordReportFormingCaravan>
 
   <!-- Shooting report -->
   <!-- EN: Weapon miss radius -->
-  <WeaponMissRadius>Abast d'error de l'arma</WeaponMissRadius>
+  <WeaponMissRadius>Radi d'error de l'arma</WeaponMissRadius>
   <!-- EN: Shooter -->
   <ShootReportShooterAbility>Tirador</ShootReportShooterAbility>
   <!-- EN: Weapon -->
@@ -766,7 +766,7 @@
   <!-- EN: Darkness -->
   <Darkness>Foscor</Darkness>
   <!-- EN: Target lying down -->
-  <TargetProne>Objectiu estirat</TargetProne>
+  <TargetProne>Objectiu estirat al terra</TargetProne>
   <!-- EN: Target size -->
   <TargetSize>Mida de l'objectiu</TargetSize>
   <!-- EN: Weather -->
@@ -774,7 +774,7 @@
   <!-- EN: Cover -->
   <ShootingCover>Cobertura</ShootingCover>
   <!-- EN: {COVER_label} stops {1} -->
-  <CoverThingBlocksPercentOfShots>{COVER_indefinite} atura {1}</CoverThingBlocksPercentOfShots>
+  <CoverThingBlocksPercentOfShots>{COVER_label} atura {1}</CoverThingBlocksPercentOfShots>
   <!-- EN: no cover -->
   <NoCoverLower>sense cobertura</NoCoverLower>
   <!-- EN: Execution -->
@@ -782,77 +782,77 @@
 
   <!-- Generated recipes -->
   <!-- EN: make {0} -->
-  <RecipeMake>fer {0}</RecipeMake>
+  <RecipeMake>fes {0}</RecipeMake>
   <!-- EN: Make {0}. -->
-  <RecipeMakeDescription>TODO</RecipeMakeDescription>
+  <RecipeMakeDescription>Fes {0}.</RecipeMakeDescription>
   <!-- EN: Making {0}. -->
   <RecipeMakeJobString>fa {0}.</RecipeMakeJobString>
   <!-- EN: administer {0} -->
   <RecipeAdminister>administrar {0}</RecipeAdminister>
   <!-- EN: Administering {0}. -->
-  <RecipeAdministerJobString>Administra {0}.</RecipeAdministerJobString>
+  <RecipeAdministerJobString>Administrant {0}.</RecipeAdministerJobString>
   <!-- EN: teetotaler will be unhappy -->
   <TeetotalerUnhappy>s'enfadarà perquè prefereix l'abstèmia</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
-  <ProsthophobeUnhappy>s'enfadarà perquè no li agraden les pròtesis</ProsthophobeUnhappy>
+  <ProsthophobeUnhappy>s'enfadarà perquè, com a protofòbic, no li agraden les pròtesis</ProsthophobeUnhappy>
 
   <!-- Thoughts -->
   <!-- EN: Expires in: {0} -->
-  <ThoughtExpiresIn>Expira d'aquí: {0}</ThoughtExpiresIn>
+  <ThoughtExpiresIn>Expira d'aquí {0}</ThoughtExpiresIn>
   <!-- EN: thought disabled by -->
-  <ThoughtNullifiedBy>TODO</ThoughtNullifiedBy>
+  <ThoughtNullifiedBy>pensament deshabilitat per</ThoughtNullifiedBy>
   <!-- EN: Starts expiring in: {0} -->
-  <ThoughtStartsExpiringIn>Comença a expirar d'aquí a: {0}</ThoughtStartsExpiringIn>
+  <ThoughtStartsExpiringIn>Comença a expirar d'aquí: {0}</ThoughtStartsExpiringIn>
   <!-- EN: Finishes expiring in: {0} -->
-  <ThoughtFinishesExpiringIn>Acaba d'expirar d'aquí a: {0}</ThoughtFinishesExpiringIn>
+  <ThoughtFinishesExpiringIn>Acaba d'expirar d'aquí: {0}</ThoughtFinishesExpiringIn>
   <!-- EN: Extreme break threshold -->
-  <MentalBreakThresholdExtreme>Nivell d'emprenyament extrem</MentalBreakThresholdExtreme>
+  <MentalBreakThresholdExtreme>Llindar de crisi mental extrema</MentalBreakThresholdExtreme>
   <!-- EN: Major break threshold -->
-  <MentalBreakThresholdMajor>Nivell d'emprenyament major</MentalBreakThresholdMajor>
+  <MentalBreakThresholdMajor>Llindar de crisi mental major</MentalBreakThresholdMajor>
   <!-- EN: Minor break threshold -->
-  <MentalBreakThresholdMinor>Nivell d'emprenyament menor</MentalBreakThresholdMinor>
+  <MentalBreakThresholdMinor>Llindar de crisi mental lleu</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
   <!-- EN: {PAWN_gender} {1} -->
-  <PawnMainDescGendered>{1} {0}</PawnMainDescGendered>
+  <PawnMainDescGendered>{PAWN_gender} {1}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
   <PawnMainDescFactionedWrap>{0} dels {1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
-  <PawnTitleDescWrap>TODO</PawnTitleDescWrap>
+  <PawnTitleDescWrap>{0} en {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
-  <PawnMainDescUnderFactionedWrap>TODO</PawnMainDescUnderFactionedWrap>
+  <PawnMainDescUnderFactionedWrap>{0} sota {1}</PawnMainDescUnderFactionedWrap>
   <!-- EN: {0} under {1}\nHome faction: {2} -->
-  <PawnMainDescTempFactionedWrap>TODO</PawnMainDescTempFactionedWrap>
+  <PawnMainDescTempFactionedWrap>{0} sota {1}\nFacció principal: {2}</PawnMainDescTempFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
-  <PawnMainDescLifestageWrap>{0} {1}</PawnMainDescLifestageWrap>
+  <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
   <Faction>Facció</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
-  <FactionDesc>TODO</FactionDesc>
+  <FactionDesc>La facció a la qual {PAWN_labelShort} pertany ara mateix.</FactionDesc>
   <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
-  <ExtraFactionDesc>TODO</ExtraFactionDesc>
+  <ExtraFactionDesc>La facció a la qual {PAWN_labelShort} pertanyia al principi.</ExtraFactionDesc>
   <!-- EN: Equipped -->
-  <Equipped>Equipat</Equipped>
+  <Equipped>Equipament</Equipped>
   <!-- EN: nothing -->
   <EquippedNothing>res</EquippedNothing>
   <!-- EN: Dead -->
   <Dead>Mort</Dead>
   <!-- EN: Unconscious -->
-  <Unconscious>Inconscient</Unconscious>
+  <Unconscious>Desmaiat</Unconscious>
   <!-- EN: In shock due to pain -->
   <PainShock>En xoc pel dolor</PainShock>
   <!-- EN: Pain shock -->
-  <PainShockShort>xoc per dolor</PainShockShort>
+  <PainShockShort>Xoc de dolor</PainShockShort>
   <!-- EN: Incapacitated -->
   <Incapacitated>Incapacitat</Incapacitated>
   <!-- EN: In restraints (slowed) -->
-  <InRestraints>Encadenat (frenat)</InRestraints>
+  <InRestraints>Encadenat (alentit)</InRestraints>
   <!-- EN: Carrying -->
-  <Carrying>Porta</Carrying>
+  <Carrying>Portant</Carrying>
   <!-- EN: Affected by: -->
   <AffectedBy>Afectat per:</AffectedBy>
   <!-- EN: Queued -->
-  <Queued>Posat a la cua</Queued>
+  <Queued>A la cua</Queued>
   <!-- EN: State -->
   <State>Estat</State>
   <!-- EN: stun -->
@@ -860,15 +860,15 @@
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTip>Seleccioneu el següent en aquest quadrat.\n\nTecla de drecera: {0}\n\nTambé ho podeu fer tornant a fer clic al mateix quadre un altre cop.</SelectNextInSquareTip>
+  <SelectNextInSquareTip>Seleccioneu l'element següent del mateix quadrat.\n\n(*SectionTitle)Tecla de drecera(/SectionTitle): {0}\n\nTambé ho podeu fer tornant a fer clic lentament al mateix quadre un altre cop.</SelectNextInSquareTip>
   <!-- EN: View information. -->
-  <DefInfoTip>Mostra informació sobre aquest objecte.</DefInfoTip>
+  <DefInfoTip>Mostra'n informació.</DefInfoTip>
   <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTipController>TODO</SelectNextInSquareTipController>
+  <SelectNextInSquareTipController>Seleccioneu l'element següent del mateix quadrat.\n\nTambé ho podeu fer tornant a fer clic lentament al mateix quadre un altre cop.</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
-  <HostilityReponseTip>Canvia com reaccionen els colons quan no estan reclutats i es troben prop d'un enemic.</HostilityReponseTip>
+  <HostilityReponseTip>Canvia com reaccionarà aquesta persona als enemics propers quan no està reclutada.</HostilityReponseTip>
   <!-- EN: Current mode -->
   <HostilityResponseCurrentMode>Mode actual</HostilityResponseCurrentMode>
 
@@ -878,15 +878,15 @@
 
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
-  <PowerNotConnected>No està connectat al corrent.</PowerNotConnected>
+  <PowerNotConnected>No està connectat a la xarxa.</PowerNotConnected>
   <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
-  <PowerConnectedRateStored>Connectat/emmagatzemat: {0} W / {1} Wd</PowerConnectedRateStored>
+  <PowerConnectedRateStored>Potència sobrant/emmagatzemada: {0} W / {1} Wd</PowerConnectedRateStored>
   <!-- EN: Power needed -->
-  <PowerNeeded>Corrent necessària</PowerNeeded>
+  <PowerNeeded>Potència necessària</PowerNeeded>
   <!-- EN: Power output -->
-  <PowerOutput>Corrent de sortida</PowerOutput>
+  <PowerOutput>Potència de sortida</PowerOutput>
   <!-- EN: Stored -->
-  <PowerBatteryStored>Emmagatzemat</PowerBatteryStored>
+  <PowerBatteryStored>Energia emmagatzemada</PowerBatteryStored>
   <!-- EN: Efficiency -->
   <PowerBatteryEfficiency>Eficiència</PowerBatteryEfficiency>
   <!-- EN: Self-discharging -->
@@ -894,13 +894,13 @@
 
   <!-- Temperature control -->
   <!-- EN: Target temperature -->
-  <TargetTemperature>Consigna de temperatura</TargetTemperature>
+  <TargetTemperature>Temperatura desitjada</TargetTemperature>
   <!-- EN: Current power use -->
-  <PowerConsumptionMode>Corrent emprada</PowerConsumptionMode>
+  <PowerConsumptionMode>Potència d'ús actual</PowerConsumptionMode>
   <!-- EN: high -->
-  <PowerConsumptionHigh>molta</PowerConsumptionHigh>
+  <PowerConsumptionHigh>alta</PowerConsumptionHigh>
   <!-- EN: low -->
-  <PowerConsumptionLow>poca</PowerConsumptionLow>
+  <PowerConsumptionLow>baixa</PowerConsumptionLow>
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
@@ -914,7 +914,7 @@
   <!-- EN: Fresh -->
   <RotStateFresh>Fresc</RotStateFresh>
   <!-- EN: Rotting -->
-  <RotStateRotting>Podrit</RotStateRotting>
+  <RotStateRotting>Podrint-se</RotStateRotting>
   <!-- EN: Dessicated -->
   <RotStateDessicated>Dissecat</RotStateDessicated>
   <!-- EN: Frozen (won't spoil) -->
@@ -930,39 +930,39 @@
 
   <!-- Shooting tooltip -->
   <!-- EN: Shot by {1_labelShort} -->
-  <ShotBy>Tocat per {1_definite}</ShotBy>
+  <ShotBy>Tocat per {1_labelShort}</ShotBy>
   <!-- EN: Cannot hit target. -->
   <CannotHit>No pot tocar l'objectiu.</CannotHit>
   <!-- EN: Manhunter chance per hit -->
-  <ManhunterPerHit>Probabilitat de revenja per impacte</ManhunterPerHit>
+  <ManhunterPerHit>Probabilitat per impacte que l'animal es revengi</ManhunterPerHit>
 
   <!-- Meal -->
   <!-- EN: Ingredients -->
   <Ingredients>Ingredients</Ingredients>
   <!-- EN: only stacks with similar meals -->
-  <OnlyStacksWithCompatibleMeals>TODO</OnlyStacksWithCompatibleMeals>
+  <OnlyStacksWithCompatibleMeals>només s'apila amb àpats similars</OnlyStacksWithCompatibleMeals>
 
   <!-- Plants -->
   <!-- EN: {0} grown -->
-  <PercentGrowth>{0} madur</PercentGrowth>
+  <PercentGrowth>Creixement al {0}</PercentGrowth>
   <!-- EN: Growth rate -->
-  <GrowthRate>índex de maduració</GrowthRate>
+  <GrowthRate>Índex de creixement</GrowthRate>
   <!-- EN: Fully grown in {0} of growth. -->
-  <FullyGrownIn>Completament madur d'aquí {0} de madurar.</FullyGrownIn>
+  <FullyGrownIn>Estarà madur al {0} de creixement.</FullyGrownIn>
   <!-- EN: Needs light level -->
   <PlantNeedsLightLevel>Necessita un nivell de llum</PlantNeedsLightLevel>
   <!-- EN: Resting -->
-  <PlantResting>Descansa</PlantResting>
+  <PlantResting>Descansant</PlantResting>
   <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
-  <OutOfIdealTemperatureRange>temperatura no ideal. Factor de creixement per temperatura: {0}%</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRange>Temperatura no ideal. Modificador de creixement per temperatura: {0} %</OutOfIdealTemperatureRange>
   <!-- EN: Non-ideal temperature. Not growing. -->
-  <OutOfIdealTemperatureRangeNotGrowing>Temperatura no ideal. No madura.</OutOfIdealTemperatureRangeNotGrowing>
+  <OutOfIdealTemperatureRangeNotGrowing>Temperatura no ideal. No creix.</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>Apunt per collir.</ReadyToHarvest>
   <!-- EN: Mature. -->
   <Mature>Madur.</Mature>
   <!-- EN: Growing period -->
-  <OutdoorGrowingPeriod>Període de maduració</OutdoorGrowingPeriod>
+  <OutdoorGrowingPeriod>Període de creixement</OutdoorGrowingPeriod>
   <!-- EN: Never -->
   <NoGrowingPeriod>Mai</NoGrowingPeriod>
   <!-- EN: Year-round -->
@@ -974,23 +974,23 @@
   <!-- EN: Blighted -->
   <Blighted>Plaga</Blighted>
   <!-- EN: Dying because exposed to light -->
-  <DyingBecauseExposedToLight>Mor per què li toca la llum</DyingBecauseExposedToLight>
+  <DyingBecauseExposedToLight>Mor perquè li toca la llum</DyingBecauseExposedToLight>
   <!-- EN: Cut now -->
-  <AutoCutNow>TODO</AutoCutNow>
+  <AutoCutNow>Arrenca automàticament les males herbes ara</AutoCutNow>
   <!-- EN: harvesting -->
-  <HarvestGerund>TODO</HarvestGerund>
+  <HarvestGerund>recol·lectant</HarvestGerund>
   <!-- EN: cutting -->
-  <CutGerund>TODO</CutGerund>
+  <CutGerund>arrencant</CutGerund>
 
   <!-- Zones -->
   <!-- EN: Zone -->
   <Zone>Zona</Zone>
   <!-- EN: Growing zone -->
-  <GrowingZone>Zona de plantació</GrowingZone>
+  <GrowingZone>Conreu</GrowingZone>
   <!-- EN: Stockpile zone -->
-  <Stockpile>Zona de magatzem</Stockpile>
+  <Stockpile>Magatzem</Stockpile>
   <!-- EN: Dumping stockpile zone -->
-  <DumpingStockpile>Zona d'escombraries</DumpingStockpile>
+  <DumpingStockpile>Abocador</DumpingStockpile>
   <!-- EN: Priority -->
   <Priority>Prioritat</Priority>
   <!-- EN: Clear all -->
@@ -1008,7 +1008,7 @@
 
   <!-- Mouseover indicator -->
   <!-- EN: Undiscovered -->
-  <Undiscovered>Sense descobrir</Undiscovered>
+  <Undiscovered>Inexplorat</Undiscovered>
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
@@ -1016,97 +1016,97 @@
   <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>Commuta la visibilitat de les zones.</ZoneVisibilityToggleButton>
   <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
-  <ShowBeautyToggleButton>Commuta la visibilitat de la bellesa.\n\nMostra la bellesa de l’entorn com la percebria un caràcter que estigués al lloc on apunta el ratolí.</ShowBeautyToggleButton>
+  <ShowBeautyToggleButton>Commuta la visibilitat de la bellesa.\n\nMostra la bellesa de l’entorn com la percebria un personatge que estigués al lloc on apunta el ratolí.</ShowBeautyToggleButton>
   <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
-  <ShowRoomStatsToggleButton>Commuta les estadístiques de les habitacions.\n\nMostra les estadístiques de les habitacions on apunta el ratolí</ShowRoomStatsToggleButton>
+  <ShowRoomStatsToggleButton>Commuta les estadístiques de les habitacions.\n\nMostra les estadístiques de la cambra on apunta el ratolí</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
-  <ShowColonistBarToggleButton>Commuta la barra de colons.\n\nMostra les icones i les estadístiques bàsiques dels colons a la part superior de la pantalla.</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>Commuta la barra de colons.\n\nMostra les icones i l'estat bàsic dels colons a la part superior de la pantalla.\n\nPodeu reordenar els colons de la barra fent clic amb el botó dret del ratolí i arrossegant.</ShowColonistBarToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
-  <ShowColonistBarToggleButtonController>TODO</ShowColonistBarToggleButtonController>
+  <ShowColonistBarToggleButtonController>Commuta la barra de colons.\n\nMostra les icones i l'estat bàsic dels colons a la part superior de la pantalla.\n\nPodeu reordenar els colons de la barra prement el botó del gatell esquerre i arrossegant.</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>Commuta l'expansió automàtica de la zona llar al voltant de les noves construccions.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
-  <AutoRebuildButton>Commuta la reconstrucció de les estructures destruïdes.</AutoRebuildButton>
+  <AutoRebuildButton>Commuta la reconstrucció automàtica de les estructures destruïdes de la zona de llar.</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
-  <CategorizedResourceReadoutToggleButton>Commuta el mode categoritzat a la llista de recursos.</CategorizedResourceReadoutToggleButton>
+  <CategorizedResourceReadoutToggleButton>Commuta el mode per categories a la llista de recursos.</CategorizedResourceReadoutToggleButton>
   <!-- EN: Toggle displaying animal names for tame named animals. -->
-  <ShowAnimalNamesToggleButton>Commuta mostrar el nom dels animals domesticats.</ShowAnimalNamesToggleButton>
+  <ShowAnimalNamesToggleButton>Commuta la visualització del nom dels animals domesticats.</ShowAnimalNamesToggleButton>
   <!-- EN: Toggle visibility of roofs. -->
-  <ShowRoofOverlayToggleButton>Commuta la visibilitat de la teulada.</ShowRoofOverlayToggleButton>
+  <ShowRoofOverlayToggleButton>Commuta la visibilitat de les teulades.</ShowRoofOverlayToggleButton>
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
-  <ShowFertilityOverlayToggleButton>TODO</ShowFertilityOverlayToggleButton>
+  <ShowFertilityOverlayToggleButton>Commuta la capa de fertilitat.\n\nLa capa mostra la fertilitat del terra, que afecta als tipus de plantes que s'hi poden plantar i la velocitat de creixement.</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
-  <ShowTerrainAffordanceOverlayToggleButton>TODO</ShowTerrainAffordanceOverlayToggleButton>
+  <ShowTerrainAffordanceOverlayToggleButton>Commuta la visibilitat de disponibilitat del terreny.\n\nAixò fa referència als tipus de construcció que s'hi poden bastir.\n\nPer exemple, alguns tipus de terra només accepten edificis lleugers o mitjans, però no accepten els que pesin molt. Els ponts només es poden construir a l'aigua.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
-  <LockNorthUpToggleButton>Bloqueja la rotació de la càmera de manera que el nord sigui sempre a dalt.</LockNorthUpToggleButton>
+  <LockNorthUpToggleButton>Bloca la rotació de la càmera de manera que el nord sigui sempre a dalt.</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
-  <UsePlanetDayNightSystemToggleButton>Commuta el sistema d'il·luminació dia/nit.</UsePlanetDayNightSystemToggleButton>
+  <UsePlanetDayNightSystemToggleButton>Commuta el cicle d'il·luminació dia/nit.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
-  <ShowExpandingIconsToggleButton>Commuta les icones grans per objectes llunyans.</ShowExpandingIconsToggleButton>
+  <ShowExpandingIconsToggleButton>Commuta la visualització d'icones grans en lloc de les icones normals per objectes llunyans.</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
-  <ShowWorldFeaturesToggleButton>Commuta la visibilitat dels noms del tereny.</ShowWorldFeaturesToggleButton>
+  <ShowWorldFeaturesToggleButton>Commuta la visibilitat dels noms dels accidents geogràfics.</ShowWorldFeaturesToggleButton>
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
-  <FireOn>{1_definite} es crema </FireOn>
+  <FireOn>{1_label} es crema </FireOn>
   <!-- EN: Burning -->
-  <Burning>Crema</Burning>
+  <Burning>Cremant-se</Burning>
   <!-- EN: fire size {0} -->
-  <FireSizeLower>mida de l'incendi {0}</FireSizeLower>
+  <FireSizeLower>mida de l'incendi: {0}</FireSizeLower>
 
   <!-- Game conditions -->
   <!-- EN: Special conditions affecting the area right now. -->
-  <GameConditionsTip>Condicions especials que afecten ara la zona.</GameConditionsTip>
+  <GameConditionsTip>Condicions especials que afecten la zona ara mateix.</GameConditionsTip>
   <!-- EN: time left -->
-  <TimeLeft>temps que queda</TimeLeft>
+  <TimeLeft>temps restant</TimeLeft>
   <!-- EN: impact date -->
   <ImpactDate>data de l'impacte</ImpactDate>
   <!-- EN: Source unknown. -->
-  <SourceUnknown>TODO</SourceUnknown>
+  <SourceUnknown>Origen desconegut.</SourceUnknown>
   <!-- EN: Click to jump to the source. -->
-  <ClickToJumpToSource>TODO</ClickToJumpToSource>
+  <ClickToJumpToSource>Feu clic per veure'n l'origen.</ClickToJumpToSource>
   <!-- EN: Click to jump to the flashstorm. -->
-  <ClickToJumpToFlashstorm>TODO</ClickToJumpToFlashstorm>
+  <ClickToJumpToFlashstorm>Feu clic per veure la tempesta elèctrica.</ClickToJumpToFlashstorm>
   <!-- EN: Caused by quest: {0} -->
-  <CausedByQuest>TODO</CausedByQuest>
+  <CausedByQuest>Causat per la missió {0}</CausedByQuest>
 
   <!-- Building placement -->
   <!-- EN: You have no usable materials from which to build this. -->
-  <NoStuffsToBuildWith>No teniu materials per construir això.</NoStuffsToBuildWith>
+  <NoStuffsToBuildWith>No teniu materials per construir-ho.</NoStuffsToBuildWith>
 
   <!-- Building placement restricters -->
   <!-- EN: {0} will have work speed penalty -->
-  <WillGetWorkSpeedPenalty>{0} tindrà penalització en la velocitat de construcció</WillGetWorkSpeedPenalty>
+  <WillGetWorkSpeedPenalty>Es penalitzarà la velocitat de treball {0_gender ? d'en : de la} {0}.</WillGetWorkSpeedPenalty>
   <!-- EN: Cannot be placed under a roof. -->
-  <MustPlaceUnroofed>No es pot posar sota teulada.</MustPlaceUnroofed>
+  <MustPlaceUnroofed>No es pot posar sota una teulada.</MustPlaceUnroofed>
   <!-- EN: Must be placed under thick roof. -->
-  <MustPlaceUnderThickRoof>TODO</MustPlaceUnderThickRoof>
+  <MustPlaceUnderThickRoof>S'ha de posar sota una teulada gruixuda.</MustPlaceUnderThickRoof>
   <!-- EN: Must place with head attached to ship structural beam. -->
-  <MustPlaceHeadOnShipBeam>L'he de posar amb el cap enganxat a la biga estructural de la nau.</MustPlaceHeadOnShipBeam>
+  <MustPlaceHeadOnShipBeam>S'ha de posar amb la part frontal enganxada a la biga estructural de la nau.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
-  <MustPlaceNextToHopperAccepter>S'ha de posar al costat d'alguna cosa que necessiti una tolva.</MustPlaceNextToHopperAccepter>
+  <MustPlaceNextToHopperAccepter>S'ha de posar al costat d'alguna cosa que necessiti una tremuja.</MustPlaceNextToHopperAccepter>
   <!-- EN: Must be placed directly on a steam geyser. -->
-  <MustPlaceOnSteamGeyser>S'ha de posar a sobre un guèiser de vapor.</MustPlaceOnSteamGeyser>
+  <MustPlaceOnSteamGeyser>S'ha de posar a sobre d'un guèiser de vapor.</MustPlaceOnSteamGeyser>
   <!-- EN: Both the hot and cold sides of the cooler must be exposed. -->
-  <MustPlaceCoolerWithFreeSpaces>Tant el costat calent com el fred han d'estar exposats.</MustPlaceCoolerWithFreeSpaces>
+  <MustPlaceCoolerWithFreeSpaces>Tant el costat calent com el fred han d'estar lliures.</MustPlaceCoolerWithFreeSpaces>
   <!-- EN: Both the sides must be exposed for air to pass through. -->
-  <MustPlaceVentWithFreeSpaces>Les dues parts han d'estar exposades perquè l'aire pugui passar.</MustPlaceVentWithFreeSpaces>
+  <MustPlaceVentWithFreeSpaces>Les dues bandes han d'estar lliures perquè l'aire pugui passar.</MustPlaceVentWithFreeSpaces>
   <!-- EN: Must be placed with standable space on all sides. -->
-  <MustPlaceAdjacentStandable>Hi ha d'haver lloc per estar dret per tots quatre costats.</MustPlaceAdjacentStandable>
+  <MustPlaceAdjacentStandable>S'ha de col·locar amb espai lliure a tots els costats.</MustPlaceAdjacentStandable>
   <!-- EN: Must be placed next to a pod launcher's fueling port. -->
-  <MustPlaceNearFuelingPort>S'ha de posar al costat d'un carregador de fuel per a llançador de càpsules.</MustPlaceNearFuelingPort>
+  <MustPlaceNearFuelingPort>S'ha de posar al costat d'un assortidor de combustible per a llançadors de càpsules.</MustPlaceNearFuelingPort>
   <!-- EN: Must be placed on drillable resources. -->
-  <MustPlaceOnDrillable>S’ha de posar sobre recursos extraïbles.</MustPlaceOnDrillable>
+  <MustPlaceOnDrillable>S’ha de posar damunt de recursos extraïbles.</MustPlaceOnDrillable>
   <!-- EN: Cannot be placed next to traps. -->
   <CannotPlaceAdjacentTrap>No es pot posar al costat de trampes.</CannotPlaceAdjacentTrap>
   <!-- EN: Cannot be placed next to another building of the same type. -->
-  <CannotPlaceAdjacentSameDef>TODO</CannotPlaceAdjacentSameDef>
+  <CannotPlaceAdjacentSameDef>No es pot posar al costat d'un altre edifici del mateix tipus.</CannotPlaceAdjacentSameDef>
 
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
-  <WindTurbine_WindPathIsBlockedBy>Bloquejat per</WindTurbine_WindPathIsBlockedBy>
+  <WindTurbine_WindPathIsBlockedBy>Vent blocat per</WindTurbine_WindPathIsBlockedBy>
   <!-- EN: Blocked by roof -->
-  <WindTurbine_WindPathIsBlockedByRoof>Bloquejat per teulada</WindTurbine_WindPathIsBlockedByRoof>
+  <WindTurbine_WindPathIsBlockedByRoof>Vent blocat per una teulada</WindTurbine_WindPathIsBlockedByRoof>
 
   <!-- Watermill generator -->
   <!-- EN: Flow reduced: Turbulence from other watermill -->
@@ -1116,41 +1116,41 @@
   <!-- EN: Contains -->
   <CasketContains>Conté</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>Avís!\n\n{PAWN_definite} és el vostre darrer colon despert! Si el poseu dins el cofre, no podreu seguir jugant. Voleu continuar?</CasketWarning>
+  <CasketWarning>Avís!\n\n{PAWN_nameDef} és el vostre darrer colon actiu! Si el poseu dins el cofre, no podreu seguir jugant. Esteu segur que voleu continuar?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
   <ShipReportCannotLaunch>No es pot fer el llançament.</ShipReportCannotLaunch>
   <!-- EN: Ready for launch. -->
-  <ShipReportCanLaunch>Apunt per al llançament.</ShipReportCanLaunch>
+  <ShipReportCanLaunch>A punt per al llançament.</ShipReportCanLaunch>
   <!-- EN: Missing critical component -->
-  <ShipReportMissingPart>Falten components crítics</ShipReportMissingPart>
+  <ShipReportMissingPart>Falten un component indispensable.</ShipReportMissingPart>
   <!-- EN: requires -->
   <ShipReportMissingPartRequires>necessita</ShipReportMissingPartRequires>
   <!-- EN: No full cryptosleep caskets -->
-  <ShipReportNoFullPods>No hi ha cap cofre de criptoson carregat</ShipReportNoFullPods>
+  <ShipReportNoFullPods>Hi ha algun sarcòfag de criptoson lliure.</ShipReportNoFullPods>
   <!-- EN: Hibernating component -->
   <ShipReportHibernating>Component en hibernació</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Component no preparat</ShipReportNotReady>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>Charlon Whitestone està preparat per iniciar la seqüència de sortida d’hibernació del reactor.\n\nAvisa que el procés pot durar 15 dies, i que la signatura energètica serà detectable des de molt lluny. Aquest tipus de signatura energètica indica capacitat de vol interestel·lar i atraurà bandes d’assaltants desesperats i caçadors de tresors. Assegureu-vos que teniu les defenses preparades.</HibernateWarning>
+  <HibernateWarning>En (*Name)Charlon Whitestone(/Name) està preparat per iniciar la seqüència de recuperació de la hibernació del reactor.\n\nAvisa que el procés pot durar uns 15 dies i que la signatura energètica serà detectable des de molt lluny.\n\nAquest tipus de signatura energètica indica capacitat de vol interestel·lar i atraurà bandes d’assaltants desesperats i eixams de mecanoides mortífers.\n\nRebreu uns atacs intensos com mai heu vist. Assegureu-vos que teniu les defenses preparades.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>El reactor està preparat per ser engegat.\n\nEl procés durarà uns 15 dies, i la radiació d’energia podrà detectar-se des de molt lluny. La radiació indica la capacitat de vol interestel·lar i atraurà grups d’assaltants desesperats i caçadors de tresors. Assegureu-vos que teniu les defenses preparades.</HibernateWarningStandalone>
+  <HibernateWarningStandalone>El reactor està preparat per engegar-lo.\n\nEl procés durarà uns 15 dies i la radiació d’energia podrà detectar-se des de molt lluny. Aquest tipus de signatura energètica indica capacitat de vol interestel·lar i atraurà bandes d’assaltants desesperats i eixams de mecanoides mortífers.\n\nRebreu uns atacs intensos com mai heu vist. Assegureu-vos que teniu les defenses preparades.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
-  <HibernateWarningPacifist>Charlon Whitestone està preparat per iniciar la seqüència de restauració de la hibernació. Us avisa que el procés durarà uns 15 dies.</HibernateWarningPacifist>
+  <HibernateWarningPacifist>En (*Name)Charlon Whitestone(/Name) està preparat per iniciar la seqüència de recuperació de la hibernació. Us avisa que el procés durarà uns 15 dies.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
-  <HibernateWarningStandalonePacifist>El reactor està preparat per engegar. El procés durarà uns 15 dies.</HibernateWarningStandalonePacifist>
+  <HibernateWarningStandalonePacifist>El reactor està preparat per engegar-se. El procés durarà uns 15 dies.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
   <!-- EN: skilltrainer ({0}) -->
-  <SkillNeurotrainerLabel>TODO</SkillNeurotrainerLabel>
+  <SkillNeurotrainerLabel>neuroentrenador ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skilltrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>TODO</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>Fes servir el neuroentrenador per aprendre {0}</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>TODO</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>Una superdosi d'un sol ús de mecanits que entrena una habilitat especial.\n\nLa dosi s'administra a través de l'òrbita de l'ull. Una vegada alliberats al cervell, els mecanits milloren l'habilitat del subjecte en una àrea específica, convertint-se ells mateixos en teixit neural si és necessari.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <SkillNeurotrainerUsed>TODO</SkillNeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_gender ? En : La} {USER_labelShort} ha utilitzat el neuroentrenador {1} per passar de nivell {2} al nivell {3}.</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -1158,7 +1158,7 @@
   <!-- EN: Not installed -->
   <NotInstalled>No instal·lat</NotInstalled>
   <!-- EN: Extracted tree will die in {time} unless replanted. -->
-  <MinifiedTreeWillDieIn>TODO</MinifiedTreeWillDieIn>
+  <MinifiedTreeWillDieIn>Si no es replanta, l'arbre extret morirà d'aquí {time}.</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->
@@ -1170,21 +1170,21 @@
   <!-- EN: Unfinished {0} -->
   <UnfinishedItem>{0} sense acabar</UnfinishedItem>
   <!-- EN: Unfinished {0} {1} -->
-  <UnfinishedItemWithStuff>{1} {0} sense acabar</UnfinishedItemWithStuff>
+  <UnfinishedItemWithStuff>{1} de {0} sense acabar</UnfinishedItemWithStuff>
 
   <!-- Quality -->
   <!-- EN: Quality -->
   <Quality>Qualitat</Quality>
   <!-- EN: quality -->
-  <quality>TODO</quality>
+  <quality>qualitat</quality>
   <!-- EN: An item's quality is how well-made it is. -->
-  <QualityDescription>La qualitat d'un objecte és com de bé està fet.</QualityDescription>
+  <QualityDescription>La qualitat d'un objecte indica com de ben fet està.</QualityDescription>
   <!-- EN: Quality: {0} -->
   <QualityIs>Qualitat: {0}</QualityIs>
 
   <!-- Mood descriptions -->
   <!-- EN: mental state -->
-  <Mood_MentalState>Enfurismat</Mood_MentalState>
+  <Mood_MentalState>estat mental</Mood_MentalState>
   <!-- EN: about to break -->
   <Mood_AboutToBreak>a punt de petar</Mood_AboutToBreak>
   <!-- EN: on edge -->
@@ -1194,27 +1194,27 @@
   <!-- EN: neutral -->
   <Mood_Neutral>neutral</Mood_Neutral>
   <!-- EN: content -->
-  <Mood_Content>content</Mood_Content>
+  <Mood_Content>satisfet</Mood_Content>
   <!-- EN: happy -->
   <Mood_Happy>feliç</Mood_Happy>
 
   <!-- Game over -->
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
-  <GameOverEveryoneDead>Tothom és mort o ha marxat. S'ha acabat aquesta història.\n\nPotser algú podrà aprofitar les runes del que queda.</GameOverEveryoneDead>
+  <GameOverEveryoneDead>Tothom és mort o ha marxat. S'ha acabat la història.\n\nPotser algú podrà aprofitar les ruïnes del que queda.</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
-  <GameOverPlanetkillerImpact>Gairebé a la velocitat de la llum, el destructor de planetes impacta sobre el terra amb la força d'un trilió de bombes d'hidrogen. Igual que un globus d'aigua tocat per una bala, el planeta s'ha liquat per l'impacte i s'ha dispersat pel cosmos.\n\nEl que queda de {0} és un petit anell d'asteroides. La resta és magma radioactiu, que ressona ondulant sobre els vibrants planetes a quilòmetres de distància.\n\nNo heu sobreviscut.</GameOverPlanetkillerImpact>
+  <GameOverPlanetkillerImpact>Gairebé a la velocitat de la llum, la destructora de planetes impacta sobre el terra amb la força d'un bilió de bombes d'hidrogen. Com un globus d'aigua atravessat per una bala, el planeta s'ha liquat per l'impacte i s'ha dispersat pel cosmos.\n\nEl que queda de {0} és un petit cinturó d'asteroides. La resta és un infern radioactiu desfet, assotat per onades de terratrèmols de diversos quilòmetres d'altitud.\n\nNo heu sobreviscut.</GameOverPlanetkillerImpact>
   <!-- EN: You've launched the ship! -->
-  <GameOverShipLaunchedIntro>TODO</GameOverShipLaunchedIntro>
+  <GameOverShipLaunchedIntro>Heu aconseguit llançar la nau!</GameOverShipLaunchedIntro>
   <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
-  <GameOverShipLaunchedEnding>TODO</GameOverShipLaunchedEnding>
+  <GameOverShipLaunchedEnding>La intel·ligència artificial de la nau guiarà la nau a un lloc segur. Potser troba un planeta pròsper en aquest sistema. O potser trigarà segles a trobar una altra estrella. Fins i tot pot decidir amagar-se sota el gel d'un asteroide durant milers d'anys, esperant que algú hi construeixi un nou brillamon.</GameOverShipLaunchedEnding>
   <!-- EN: These colonists escaped:\n\n{0} -->
-  <GameOverColonistsEscaped>TODO</GameOverColonistsEscaped>
+  <GameOverColonistsEscaped>Aquests colons van escapar:\n\n{0}</GameOverColonistsEscaped>
   <!-- EN: These colonists were left behind:\n\n{0} -->
-  <GameOverColonistsLeft>TODO</GameOverColonistsLeft>
+  <GameOverColonistsLeft>Aquests colons van ser abandonats:\n\n{0}</GameOverColonistsLeft>
   <!-- EN: In memory of:\n -->
-  <GameOverInMemoryOf>TODO</GameOverInMemoryOf>
+  <GameOverInMemoryOf>En memòria de:\n</GameOverInMemoryOf>
   <!-- EN: Keep playing -->
-  <GameOverKeepPlaying>Seguir jugant</GameOverKeepPlaying>
+  <GameOverKeepPlaying>Segueix jugant</GameOverKeepPlaying>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Menú principal</GameOverMainMenu>
 
@@ -1226,33 +1226,33 @@
   <!-- EN: inactive -->
   <InactiveFacility>inactiu</InactiveFacility>
   <!-- EN: Links to -->
-  <FacilityPotentiallyLinkedTo>TODO</FacilityPotentiallyLinkedTo>
+  <FacilityPotentiallyLinkedTo>Connectat a</FacilityPotentiallyLinkedTo>
   <!-- EN: Not linked to a building -->
-  <FacilityNoPotentialLinks>TODO</FacilityNoPotentialLinks>
+  <FacilityNoPotentialLinks>No està connectat a tot l'edifici</FacilityNoPotentialLinks>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
-  <DiseaseGrowthModeChanged_Growing>{1} de {PAWN_definite} està creixent.</DiseaseGrowthModeChanged_Growing>
+  <DiseaseGrowthModeChanged_Growing>{1} de {PAWN_labelShort} està empitjorant.</DiseaseGrowthModeChanged_Growing>
   <!-- EN: {PAWN_labelShort}'s {1} is now stable. -->
-  <DiseaseGrowthModeChanged_Stable>{1} de {PAWN_definite} està estable.</DiseaseGrowthModeChanged_Stable>
+  <DiseaseGrowthModeChanged_Stable>{1} de {PAWN_labelShort} està estable.</DiseaseGrowthModeChanged_Stable>
   <!-- EN: {PAWN_labelShort}'s {1} is now in remission. -->
-  <DiseaseGrowthModeChanged_Remission>{1} de {PAWN_definite} està remetent.</DiseaseGrowthModeChanged_Remission>
+  <DiseaseGrowthModeChanged_Remission>{1} de {PAWN_labelShort} està remetent.</DiseaseGrowthModeChanged_Remission>
 
   <!-- Marriage spot -->
   <!-- EN: Usable now. -->
   <MarriageSpotUsable>Es pot fer servir.</MarriageSpotUsable>
   <!-- EN: Not usable: {0}. -->
-  <MarriageSpotNotUsable>Not usable: {0}.</MarriageSpotNotUsable>
+  <MarriageSpotNotUsable>No es pot fer servir: {0}.</MarriageSpotNotUsable>
   <!-- EN: blocked -->
-  <MarriageSpotNotStandable>bloquejat</MarriageSpotNotStandable>
+  <MarriageSpotNotStandable>blocat</MarriageSpotNotStandable>
   <!-- EN: too dangerous for {1_labelShort} -->
-  <MarriageSpotDangerous>{1_definite} ho considera massa perillós</MarriageSpotDangerous>
+  <MarriageSpotDangerous>massa perillós per {1_labelShort}</MarriageSpotDangerous>
   <!-- EN: forbidden for {1_labelShort} -->
-  <MarriageSpotForbidden>{1_definite} ho té prohibit</MarriageSpotForbidden>
+  <MarriageSpotForbidden>{1_labelShort} ho té prohibit</MarriageSpotForbidden>
   <!-- EN: reserved -->
   <MarriageSpotReserved>reservat</MarriageSpotReserved>
   <!-- EN: unreachable for {1_labelShort} -->
-  <MarriageSpotUnreachable>{1_definite} no hi pot arribar</MarriageSpotUnreachable>
+  <MarriageSpotUnreachable>{1_labelShort} no hi pot arribar</MarriageSpotUnreachable>
   <!-- EN: in prison cell -->
   <MarriageSpotInPrisonCell>a la presó</MarriageSpotInPrisonCell>
   <!-- EN: uncomfortable temperature -->
@@ -1262,41 +1262,41 @@
   <!-- EN: Medical rest -->
   <ActivityIconMedicalRest>Descans mèdic</ActivityIconMedicalRest>
   <!-- EN: Sleeping -->
-  <ActivityIconSleeping>Dorm</ActivityIconSleeping>
+  <ActivityIconSleeping>Dormint</ActivityIconSleeping>
   <!-- EN: Fleeing -->
-  <ActivityIconFleeing>Escapa</ActivityIconFleeing>
+  <ActivityIconFleeing>Escapant</ActivityIconFleeing>
   <!-- EN: Fighting -->
-  <ActivityIconAttacking>Lluita</ActivityIconAttacking>
+  <ActivityIconAttacking>Lluitant</ActivityIconAttacking>
   <!-- EN: Idle -->
-  <ActivityIconIdle>Desocupat</ActivityIconIdle>
+  <ActivityIconIdle>Lliure</ActivityIconIdle>
   <!-- EN: Burning -->
-  <ActivityIconBurning>Crema</ActivityIconBurning>
+  <ActivityIconBurning>Cremant-se</ActivityIconBurning>
   <!-- EN: Forming a caravan -->
-  <ActivityIconFormingCaravan>Forma una caravana</ActivityIconFormingCaravan>
+  <ActivityIconFormingCaravan>Formant una caravana</ActivityIconFormingCaravan>
 
   <!-- Maintainable -->
   <!-- EN: Due for maintenance. -->
-  <DueForMaintenance>Per manteniment.</DueForMaintenance>
+  <DueForMaintenance>A l'espera de manteniment.</DueForMaintenance>
   <!-- EN: Deteriorating due to lack of maintenance. -->
-  <DeterioratingDueToLackOfMaintenance>Es deteriora per falta de manteniment.</DeterioratingDueToLackOfMaintenance>
+  <DeterioratingDueToLackOfMaintenance>S'està deteriorant per falta de manteniment.</DeterioratingDueToLackOfMaintenance>
 
   <!-- Deep drill -->
   <!-- EN: Progress to next lump -->
-  <ProgressToNextLump>Progrés fins a la següent veta</ProgressToNextLump>
+  <ProgressToNextLump>Progrés fins al següent filó</ProgressToNextLump>
   <!-- EN: Resource below -->
-  <ResourceBelow>Recursos a sota</ResourceBelow>
+  <ResourceBelow>A sota hi ha recursos.</ResourceBelow>
   <!-- EN: Progress to next portion -->
-  <ProgressToNextPortion>Progrés per la següent extracció</ProgressToNextPortion>
+  <ProgressToNextPortion>Progrés fins al següent porció</ProgressToNextPortion>
   <!-- EN: No resources below. -->
   <DeepDrillNoResources>No queden recursos.</DeepDrillNoResources>
   <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
-  <DeepDrillExhausted>S’han esgotat els recursos del perforador i s’ha prohibit de manera automàtica. Habiliteu per minar {0}.</DeepDrillExhausted>
+  <DeepDrillExhausted>S’han esgotat els recursos de la perforadora profunda i s'ha parat de manera automàtica. Reactiveu per extreure recursos de {0}.</DeepDrillExhausted>
   <!-- EN: Deep drill resources exhausted. -->
-  <DeepDrillExhaustedNoFallback>S’han esgotat els recursos del perforador.</DeepDrillExhaustedNoFallback>
+  <DeepDrillExhaustedNoFallback>Els recursos de la perforadora s'han esgotat.</DeepDrillExhaustedNoFallback>
 
   <!-- reloading ammo -->
   <!-- EN: Remaining charges -->
-  <ChargesRemaining>TODO</ChargesRemaining>
+  <ChargesRemaining>Càrregues restants</ChargesRemaining>
   
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
@@ -1310,15 +1310,15 @@
 
   <!-- Compass -->
   <!-- EN: Shows the north direction. Click to rotate the camera so the north pole is up. -->
-  <CompassTip>Mostra el nord. Fes clic per girar la càmera i que el nord quedi a dalt.</CompassTip>
+  <CompassTip>Mostra el nord. Feu-hi clic per girar la càmera i que el nord quedi a dalt.</CompassTip>
 
   <!-- World route planner -->
   <!-- EN: Click to enter the planning mode where you can plan your journey and calculate distance between waypoints. -->
-  <RoutePlannerButtonTip>Feu clic per entrar en mode planificació i poder calcular la distància entre punts de pas.</RoutePlannerButtonTip>
+  <RoutePlannerButtonTip>Feu clic per entrar en mode de planificació, amb el qual podreu fer un pla de viatge i calcular la distància entre punts de pas.</RoutePlannerButtonTip>
   <!-- EN: Add two or more waypoints. -->
-  <RoutePlannerAddTwoOrMoreWaypoints>Afegiu dos o més punts de pas.</RoutePlannerAddTwoOrMoreWaypoints>
+  <RoutePlannerAddTwoOrMoreWaypoints>Afegeix dos o més punts de pas.</RoutePlannerAddTwoOrMoreWaypoints>
   <!-- EN: Add one or more waypoints. -->
-  <RoutePlannerAddOneOrMoreWaypoints>Afegiu un o més punts de pas.</RoutePlannerAddOneOrMoreWaypoints>
+  <RoutePlannerAddOneOrMoreWaypoints>Afegeix un o més punts de pas.</RoutePlannerAddOneOrMoreWaypoints>
   <!-- EN: Total route time: {0} -->
   <RoutePlannerEstTimeToFinalDest>Temps total de la ruta: {0}</RoutePlannerEstTimeToFinalDest>
   <!-- EN: Planning mode uses the default caravan speed. Your speed may vary. -->
@@ -1328,27 +1328,27 @@
   <!-- EN: Right mouse button: Add/remove waypoints. -->
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>Botó dret: Afegeix/treu punts de pas.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
   <!-- EN: Left trigger button: Add/remove waypoints. -->
-  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>TODO</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>Botó del gallet esquerra: Afegeix/treu punts de pas.</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
-  <RoutePlannerPressEscapeToExit>ESC: Surt del mode de planificació.</RoutePlannerPressEscapeToExit>
+  <RoutePlannerPressEscapeToExit>Esc: Surt del mode de planificació.</RoutePlannerPressEscapeToExit>
   <!-- EN: {Key:Cancel}: Exit planning mode. -->
-  <RoutePlannerPressEscapeToExitController>TODO</RoutePlannerPressEscapeToExitController>
+  <RoutePlannerPressEscapeToExitController>{Key:Cancel}: Surt del mode de planificació.</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
-  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Torna al diàleg de formació de la caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>Esc: Torna al diàleg de formació de la caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
   <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
-  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>TODO</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>{Key:Cancel}: Torna al diàleg de formació de la caravana.</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
-  <EstimatedTimeToWaypoint>Temps est.: {0}</EstimatedTimeToWaypoint>
+  <EstimatedTimeToWaypoint>Temps de viatge estimat: {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
-  <EstimatedTimeToWaypointFromPrevious>Temps est. (des del punt de pas anterior): {0}</EstimatedTimeToWaypointFromPrevious>
+  <EstimatedTimeToWaypointFromPrevious>Temps de viatge estimat (des del punt de pas anterior): {0}</EstimatedTimeToWaypointFromPrevious>
   <!-- EN: Est. travel time: {0} -->
-  <EstimatedTimeToTile>Temps est.: {0}</EstimatedTimeToTile>
+  <EstimatedTimeToTile>Temps de viatge estimat: {0}</EstimatedTimeToTile>
   <!-- EN: Foraged food amount -->
-  <ForagedFoodAmount>Menjar collit</ForagedFoodAmount>
+  <ForagedFoodAmount>Menjar recollit durant el viatge</ForagedFoodAmount>
 
   <!-- Outfits -->
   <!-- EN: Anything -->
-  <OutfitAnything>Cap</OutfitAnything>
+  <OutfitAnything>Qualsevol cosa</OutfitAnything>
   <!-- EN: Worker -->
   <OutfitWorker>Treballador</OutfitWorker>
   <!-- EN: Soldier -->
@@ -1364,268 +1364,268 @@
 
   <!-- Transport pods -->
   <!-- EN: {0}: See available orders... -->
-  <ClickToSeeAvailableOrders_WorldObject>{0}: Mostra les ordres disponibles...</ClickToSeeAvailableOrders_WorldObject>
+  <ClickToSeeAvailableOrders_WorldObject>{0}: Mostra les ordres disponibles</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
-  <ClickToSeeAvailableOrders_Empty>Mostra les ordres disponibles...</ClickToSeeAvailableOrders_Empty>
+  <ClickToSeeAvailableOrders_Empty>Mostra les ordres disponibles</ClickToSeeAvailableOrders_Empty>
   
   <!-- Pawn tooltips -->
   <!-- EN: {0} ({1})\n{2}\n{3} -->
-  <PawnTooltipWithDescAndPrimaryEquip>TODO</PawnTooltipWithDescAndPrimaryEquip>
+  <PawnTooltipWithDescAndPrimaryEquip>{0} ({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
   <!-- EN: {0} ({1})\n{2} -->
-  <PawnTooltipWithDescNoPrimaryEquip>TODO</PawnTooltipWithDescNoPrimaryEquip>
+  <PawnTooltipWithDescNoPrimaryEquip>{0} ({1})\n{2}</PawnTooltipWithDescNoPrimaryEquip>
   <!-- EN: {0}\n{1}\n{2} -->
-  <PawnTooltipWithPrimaryEquipNoDesc>TODO</PawnTooltipWithPrimaryEquipNoDesc>
+  <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
-  <PawnTooltipNoDescNoPrimaryEquip>TODO</PawnTooltipNoDescNoPrimaryEquip>
+  <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>TODO</PawnTooltipPsychicEntropyStats>
+  <PawnTooltipPsychicEntropyStats>Escalfament neural: {0} / {1}\nRàtio de refredament: {2}/s ({3} s fins arribar a zero)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>TODO</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>L'ús de poders psíquics escalfa les xarxes neuronals. Si es sobrepassa cert llindar, es pot produir un col·lapse psíquic que pot durar dies.\n\nL'escalfor de les neurones es dissiparà de manera natural amb el temps. El procés es pot accelerar si es sent dolor o utilitzant indumentària eltex.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
-  <PawnTooltipPsychicEntropyPainFocus>TODO</PawnTooltipPsychicEntropyPainFocus>
+  <PawnTooltipPsychicEntropyPainFocus>Potenciador per dolor\n\nEl dolor fa concentrar la ment i accelera la dissipació de l'escalfor neural.\n\nNivell de dolor: {0}\nBonificació de refredament: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
-  <PawnTooltipPsychicEntropyLimit>TODO</PawnTooltipPsychicEntropyLimit>
+  <PawnTooltipPsychicEntropyLimit>Commuta el limitador d'escalfament neural. Si s'excedeix el límit, es pot produir un col·lapse psíquic que pot durar dies. No causa danys permanents.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
-  <PawnTooltipPsyfocus>TODO</PawnTooltipPsyfocus>
+  <PawnTooltipPsyfocus>Psicoconcentració: {0}</PawnTooltipPsyfocus>
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
-  <PawnTooltipGenderAndKindLabel>TODO</PawnTooltipGenderAndKindLabel>
+  <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
-  <Reward_Pawn_DropPod>TODO</Reward_Pawn_DropPod>
+  <Reward_Pawn_DropPod>{0_nameDef ? un : una} {0_title} de nom {0_nameDef} de {0_age} anys d'edat arribarà en una càpsula de transport {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_WalkIn>TODO</Reward_Pawn_WalkIn>
+  <Reward_Pawn_WalkIn>{0_nameDef ? un : una} {0_title} de nom {0_nameDef} de {0_age} anys d'edat arribarà i s'unirà al vostre assentament {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_Caravan>TODO</Reward_Pawn_Caravan>
+  <Reward_Pawn_Caravan>{0_nameDef ? un : una} {0_title} de nom {0_nameDef} de {0_age} anys d'edat s'unirà al vostre assentament {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
-  <Reward_Items>TODO</Reward_Items>
+  <Reward_Items>aviat arribaran càpsules de transport amb els recursos següents (valor total de {1}):\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):
 \n{0} -->
-  <Reward_Items_Caravan>TODO</Reward_Items_Caravan>
+  <Reward_Items_Caravan>rebreu (valor total de {1}):\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
-  <Reward_Goodwill>TODO</Reward_Goodwill>
+  <Reward_Goodwill>les vostres relacions amb la facció {0_name} milloraran en {1}</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
-  <Reward_PassageOffworld>TODO</Reward_PassageOffworld>
+  <Reward_PassageOffworld>us portaran a les estrelles</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
-  <Reward_PassageOffworld_Label>TODO</Reward_PassageOffworld_Label>
+  <Reward_PassageOffworld_Label>Passatge extraplanetari</Reward_PassageOffworld_Label>
   <!-- EN: you can loot everything from the camp -->
-  <Reward_CampLoot>TODO</Reward_CampLoot>
+  <Reward_CampLoot>podeu saquejar tot el que hi hagi al campament</Reward_CampLoot>
   <!-- EN: Camp loot -->
-  <Reward_CampLoot_Label>TODO</Reward_CampLoot_Label>
+  <Reward_CampLoot_Label>Saqueig del campament</Reward_CampLoot_Label>
   <!-- EN: the visitors will work and fight for you -->
-  <Reward_VisitorsHelp>TODO</Reward_VisitorsHelp>
+  <Reward_VisitorsHelp>els visitants treballaran i lluitaran al vostre costat</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
-  <Reward_VisitorsHelp_Label>TODO</Reward_VisitorsHelp_Label>
+  <Reward_VisitorsHelp_Label>Ajuda dels visitants</Reward_VisitorsHelp_Label>
   <!-- EN: New psylink level -->
-  <Reward_BestowingCeremony_Label>TODO</Reward_BestowingCeremony_Label>
+  <Reward_BestowingCeremony_Label>Nou nivell de psicoenllaç</Reward_BestowingCeremony_Label>
   <!-- EN: {PAWNNAME} gains psylink -->
-  <Reward_BestowingCeremony>TODO</Reward_BestowingCeremony>
+  <Reward_BestowingCeremony>{PAWNNAME} obtén un psicoenllaç</Reward_BestowingCeremony>
   <!-- EN: Shuttle loot -->
-  <Reward_ShuttleLoot_Label>TODO</Reward_ShuttleLoot_Label>
+  <Reward_ShuttleLoot_Label>Saqueig de la llançadora</Reward_ShuttleLoot_Label>
   <!-- EN: you can deconstruct and loot the shuttle -->
-  <Reward_ShuttleLoot>TODO</Reward_ShuttleLoot>
+  <Reward_ShuttleLoot>podeu desmuntar i saquejar la llançadora</Reward_ShuttleLoot>
   <!-- EN: Possible future reward -->
-  <Reward_PossibleFutureReward_Label>TODO</Reward_PossibleFutureReward_Label>
+  <Reward_PossibleFutureReward_Label>Possible recompensa futura</Reward_PossibleFutureReward_Label>
   <!-- EN: a reward possibly granted in the future -->
-  <Reward_PossibleFutureReward>TODO</Reward_PossibleFutureReward>
+  <Reward_PossibleFutureReward>una recompensa que potser es concedeix més endavant</Reward_PossibleFutureReward>
   <!-- EN: {TITLE} title -->
-  <Reward_Title_Label>TODO</Reward_Title_Label>
+  <Reward_Title_Label>Títol de {TITLE}</Reward_Title_Label>
   <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
-  <Reward_Title>TODO</Reward_Title>
+  <Reward_Title>{PAWNNAME} obté el títol de {TITLE} de {FACTION}</Reward_Title>
   <!-- EN: value {0} -->
-  <TotalValue>TODO</TotalValue>
+  <TotalValue>valor de {0}</TotalValue>
   
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
-  <BondedWith>TODO</BondedWith>
+  <BondedWith>Vinculada a: {0}</BondedWith>
   <!-- EN: Not yet bonded -->
-  <NotBonded>TODO</NotBonded>
+  <NotBonded>Encara no s'ha vinculat.</NotBonded>
   <!-- EN: bonded to someone else -->
-  <BladelinkBondedToSomeoneElse>TODO</BladelinkBondedToSomeoneElse>
+  <BladelinkBondedToSomeoneElse>vinculada a una altra persona</BladelinkBondedToSomeoneElse>
   <!-- EN: (existing bond) -->
-  <BladelinkAlreadyBonded>TODO</BladelinkAlreadyBonded>
+  <BladelinkAlreadyBonded>(vincle existent)</BladelinkAlreadyBonded>
   <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
-  <BladelinkAlreadyBondedDialog>TODO</BladelinkAlreadyBondedDialog>
+  <BladelinkAlreadyBondedDialog>Una persona només pot tenir vinculada una arma històrica.\n\nPer equipar i vincular {WEAPON_labelShort}, s'ha de destruir abans {BONDEDWEAPON_labelShort}, que és l'arma vinculada actual de {PAWN_nameDef}.</BladelinkAlreadyBondedDialog>
   <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
-  <BladelinkAlreadyBondedMessage>TODO</BladelinkAlreadyBondedMessage>
+  <BladelinkAlreadyBondedMessage>{PAWN_nameDef} ja està vincula{PAWN_gender ? t : da} amb {BONDEDWEAPON_labelShort}.</BladelinkAlreadyBondedMessage>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
-  <Biocoded>TODO</Biocoded>
+  <Biocoded>{0} biocodificada</Biocoded>
   <!-- EN: Biocoding: {0} -->
-  <CodedFor>TODO</CodedFor>
+  <CodedFor>S'està biocodificant: {0}</CodedFor>
   <!-- EN: biocoded -->
-  <BiocodedCodedForSomeoneElse>TODO</BiocodedCodedForSomeoneElse>
+  <BiocodedCodedForSomeoneElse>biocodificat</BiocodedCodedForSomeoneElse>
 
   <!-- Projectile interceptor -->
   <!-- EN: Intercepts {0} every {1} -->
-  <InterceptsProjectilesEvery>TODO</InterceptsProjectilesEvery>
+  <InterceptsProjectilesEvery>Intercepta {0} cada {1}.</InterceptsProjectilesEvery>
   <!-- EN: Intercepts {0} -->
-  <InterceptsProjectiles>TODO</InterceptsProjectiles>
+  <InterceptsProjectiles>Intercepta {0}.</InterceptsProjectiles>
   <!-- EN: ground projectiles -->
-  <InterceptsProjectiles_GroundProjectiles>TODO</InterceptsProjectiles_GroundProjectiles>
+  <InterceptsProjectiles_GroundProjectiles>projectils terrestres</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
-  <InterceptsProjectiles_AerialProjectiles>TODO</InterceptsProjectiles_AerialProjectiles>
+  <InterceptsProjectiles_AerialProjectiles>projectils aeris</InterceptsProjectiles_AerialProjectiles>
 
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
-  <AffectedGender>TODO</AffectedGender>
+  <AffectedGender>Gènere afectat</AffectedGender>
 
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
-  <CausedByHediff>TODO</CausedByHediff>
+  <CausedByHediff>Causat per: {0}</CausedByHediff>
   
   <!-- Healing -->
   <!-- EN: {0_nameDef}'s {1} was cured. -->
-  <HealingCureHediff>TODO</HealingCureHediff>
+  <HealingCureHediff>{1} de {0_nameDef} s'ha curat.</HealingCureHediff>
   <!-- EN: {0_nameDef}'s {1} was restored. -->
-  <HealingRestoreBodyPart>TODO</HealingRestoreBodyPart>
+  <HealingRestoreBodyPart>{1} de {0_nameDef} s'ha recuperat</HealingRestoreBodyPart>
 
   <!-- EN: Caution: Placing a building here will anger {FACTION_name}! -->
-  <WarningBuildingCausesHostility>TODO</WarningBuildingCausesHostility>
+  <WarningBuildingCausesHostility>Atenció: Si construïu un edifici aquí, {FACTION_name} s'enfadarà!</WarningBuildingCausesHostility>
 
   <!-- EN: Choose landing site -->
-  <ChooseLandingSite>TODO</ChooseLandingSite>
+  <ChooseLandingSite>Escull el lloc d'aterratge</ChooseLandingSite>
   
   <!-- Rituals -->
   <!-- EN: ritual -->
-  <Ritual>TODO</Ritual>
+  <Ritual>ritual</Ritual>
 
   <!-- EN: Takes place at -->
-  <RitualTakesPlaceAt>TODO</RitualTakesPlaceAt>
+  <RitualTakesPlaceAt>Es celebrarà a</RitualTakesPlaceAt>
   <!-- EN: Any {0} -->
-  <RitualTargetThingDefsInfo>TODO</RitualTargetThingDefsInfo>
+  <RitualTargetThingDefsInfo>Qualsevol {0}</RitualTargetThingDefsInfo>
   <!-- EN: Attending {0} -->
-  <LordReportAttending>TODO</LordReportAttending>
+  <LordReportAttending>Hi assistiran {0}</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
-  <RitualCalledOff>TODO</RitualCalledOff>
+  <RitualCalledOff>{0} s'ha cancel·lat.</RitualCalledOff>
   <!-- EN: {0} was not completed because of lack of attendance. -->
-  <RitualNobodyAttended>TODO</RitualNobodyAttended>
+  <RitualNobodyAttended>{0} no es va completar per falta d'assistents.</RitualNobodyAttended>
   <!-- EN: {0} has been completed. -->
-  <RitualFinished>TODO</RitualFinished>
+  <RitualFinished>{0} s'ha acabat.</RitualFinished>
   <!-- EN: ends in {0} -->
-  <RitualEndsIn>TODO</RitualEndsIn>
+  <RitualEndsIn>acaba en {0}</RitualEndsIn>
   <!-- EN: Organizers -->
-  <Organizers>TODO</Organizers>
+  <Organizers>Organitzadors</Organizers>
   <!-- EN: Quality factors -->
-  <QualityFactors>TODO</QualityFactors>
+  <QualityFactors>Factors de qualitat</QualityFactors>
   <!-- EN: This condition may be fulfilled, depending on how things play out.\n\nIf it is fulfilled, the quality bonus will apply. -->
-  <QualityFactorTooltipUncertain>TODO</QualityFactorTooltipUncertain>
+  <QualityFactorTooltipUncertain>Aquesta condició es pot complir, depenent com vagin les coses.\n\nSi es compleix, s'aplicarà la bonificació de qualitat.</QualityFactorTooltipUncertain>
   <!-- EN: This condition is not fulfilled.\n\nThe quality bonus will not apply. -->
-  <QualityFactorTooltipNotFulfilled>TODO</QualityFactorTooltipNotFulfilled>
+  <QualityFactorTooltipNotFulfilled>Aquesta condició no s'ha complit.\n\nNo s'aplicarà la bonificació de qualitat.</QualityFactorTooltipNotFulfilled>
   <!-- EN: Spectators -->
-  <Spectators>TODO</Spectators>
+  <Spectators>Espectadors</Spectators>
   <!-- EN: Not participating -->
-  <NotParticipating>TODO</NotParticipating>
+  <NotParticipating>Sense participar-hi</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
-  <DragPawnsToRolesInfo>TODO</DragPawnsToRolesInfo>
+  <DragPawnsToRolesInfo>Arrossega i amolla o botó esquerre/dret per moure la gent.</DragPawnsToRolesInfo>
   <!-- EN: Drag and drop or click to move people. -->
-  <DragPawnsToRolesInfoController>TODO</DragPawnsToRolesInfoController>
+  <DragPawnsToRolesInfoController>Arrossega i amolla o clic per moure la gent.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
-  <RitualBeginSlaveDesc>TODO</RitualBeginSlaveDesc>
+  <RitualBeginSlaveDesc>Un esclau. Un humà propietat d'altre persones.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>TODO</RitualBeginSleepingDesc>
+  <RitualBeginSleepingDesc>{0_labelShort} està dormint. Si s'inclou al ritual, es despertarà per participar-hi.</RitualBeginSleepingDesc>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
-  <RitualBeginSleepingWarning>TODO</RitualBeginSleepingWarning>
+  <RitualBeginSleepingWarning>Alguns dels participants seleccionats estan dormint. Quan s'iniciï el ritual, es despertaran.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
-  <RitualRoleRequiresSocialRole>TODO</RitualRoleRequiresSocialRole>
+  <RitualRoleRequiresSocialRole>Aquest lloc el realitzarà millor algun colon amb el rol de {0}.\n\nSi el lloc l'ocupa algú sense el rol, no rebreu les bonificacions següents:</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
-  <RitualRoleCantSubstitute>TODO</RitualRoleCantSubstitute>
+  <RitualRoleCantSubstitute>No hi ha cap substitut disponible per al rol de {0}.</RitualRoleCantSubstitute>
   <!-- EN: {0} progress -->
-  <RitualOutcomeProgress>TODO</RitualOutcomeProgress>
+  <RitualOutcomeProgress>Progrés del {0}</RitualOutcomeProgress>
   <!-- EN: {0} quality depends on -->
-  <RitualOutcomeQualityAbstract>TODO</RitualOutcomeQualityAbstract>
+  <RitualOutcomeQualityAbstract>La qualitat de {0} depèn de</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
-  <RitualOutcomeQualitySpecific>TODO</RitualOutcomeQualitySpecific>
+  <RitualOutcomeQualitySpecific>La qualitat total de {0} ha sigut de {1}, determinada pels factors següents</RitualOutcomeQualitySpecific>
   <!-- EN: Outcome chances at {0} quality -->
-  <RitualOutcomeChances>TODO</RitualOutcomeChances>
+  <RitualOutcomeChances>Probabilitat d'obtenir una qualitat de {0}</RitualOutcomeChances>
   <!-- EN: Performed recently -->
-  <RitualOutcomePerformedRecently>TODO</RitualOutcomePerformedRecently>
+  <RitualOutcomePerformedRecently>Celebrats fa poc</RitualOutcomePerformedRecently>
   <!-- EN: {0} expectations -->
-  <RitualQualityExpectations>TODO</RitualQualityExpectations>
+  <RitualQualityExpectations>Expectatives de {0}</RitualQualityExpectations>
   <!-- EN: Ritual ambience sound -->
-  <RitualAmbienceSound>TODO</RitualAmbienceSound>
+  <RitualAmbienceSound>So ambient del ritual</RitualAmbienceSound>
   <!-- EN: Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure? -->
-  <RitualQualityLowWarning>TODO</RitualQualityLowWarning>
+  <RitualQualityLowWarning>La qualitat total de {0} està per sota de {1}. Si es continua, probablement tingui un impacte negatiu a la colònia.\n\nEsteu segur?</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
-  <AbilitySpeechDisabledNoSpot>TODO</AbilitySpeechDisabledNoSpot>
+  <AbilitySpeechDisabledNoSpot>No hi ha cap lloc on pugui arribar per parlar.</AbilitySpeechDisabledNoSpot>
   <!-- EN: {0_labelShort} is incapable of {1}. -->
-  <AbilityDisabledNoCapacity>TODO</AbilityDisabledNoCapacity>
+  <AbilityDisabledNoCapacity>{0_labelShort} no es capaç de {1}.</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>TODO</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>Tothom que participi al ritual guanya l'estat d'ànim de {0} durant {1} dies.</RitualOutcomeExtraDesc_Mood>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
-  <ChooseParticipants>TODO</ChooseParticipants>
+  <ChooseParticipants>Escolliu qui hauria de participar al ritual {RITUAL_labelDef}.</ChooseParticipants>
   <!-- EN: Begin -->
-  <Begin>TODO</Begin>
+  <Begin>Inicia</Begin>
   <!-- EN: Begin {0} -->
-  <BeginRitual>TODO</BeginRitual>
+  <BeginRitual>Inicia {0}</BeginRitual>
   <!-- EN: Begin {0} for {1} -->
-  <BeginRitualFor>TODO</BeginRitualFor>
+  <BeginRitualFor>Inicia {0} per a {1}</BeginRitualFor>
   <!-- EN: {0} (out of {1}) -->
-  <QualityOutOf>TODO</QualityOutOf>
+  <QualityOutOf>{0} (d'un total de {1})</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
-  <DateRitualNoObligation>TODO</DateRitualNoObligation>
+  <DateRitualNoObligation>{0} és un ritual que s'ha de celebrar en dates específiques. El podreu començar d'aquí {1}, el {2}.</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>TODO</PreceptReplaceWith>
+  <PreceptReplaceWith>Substitueix per</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
-  <RitualSeatOf>TODO</RitualSeatOf>
+  <RitualSeatOf>Seient ritual de {IDEOS}</RitualSeatOf>
   <!-- EN: Expected quality -->
-  <ExpectedRitualQuality>TODO</ExpectedRitualQuality>
+  <ExpectedRitualQuality>Qualitat esperada</ExpectedRitualQuality>
   <!-- EN: Starting quality -->
-  <StartingQuality>TODO</StartingQuality>
+  <StartingQuality>Qualitat inicial</StartingQuality>
   <!-- EN: Expected duration -->
-  <ExpectedRitualDuration>TODO</ExpectedRitualDuration>
+  <ExpectedRitualDuration>Duració prevista</ExpectedRitualDuration>
   
   <!-- EN: {PAWN_labelShort}'s {1} -->
-  <RitualPredictedOutcomeDescPawnStat>TODO</RitualPredictedOutcomeDescPawnStat>
+  <RitualPredictedOutcomeDescPawnStat>{1} de {PAWN_labelShort}</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
-  <RitualPredictedOutcomeDescRoomBeauty>TODO</RitualPredictedOutcomeDescRoomBeauty>
+  <RitualPredictedOutcomeDescRoomBeauty>Bellesa de la cambra</RitualPredictedOutcomeDescRoomBeauty>
   <!-- EN: Participants -->
-  <RitualPredictedOutcomeDescParticipantCount>TODO</RitualPredictedOutcomeDescParticipantCount>
+  <RitualPredictedOutcomeDescParticipantCount>Participants</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
-  <RitualPredictedOutcomeDescPawnExpectations>TODO</RitualPredictedOutcomeDescPawnExpectations>
+  <RitualPredictedOutcomeDescPawnExpectations>Expectatives de {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
 
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>TODO</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>Qualssevol d'aquestos</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
-  <RitualRoleReplaces>TODO</RitualRoleReplaces>
+  <RitualRoleReplaces>Substitueix {PAWN_labelShort}</RitualRoleReplaces>
 
   <!-- EN: present -->
-  <Present>TODO</Present>
+  <Present>actual</Present>
   <!-- EN: {0} used -->
-  <Used>TODO</Used>
+  <Used>{0} usats</Used>
   <!-- EN: {0} starting quality -->
-  <StartingRitualQuality>TODO</StartingRitualQuality>
+  <StartingRitualQuality>qualitat inicial de {0}</StartingRitualQuality>
 
   <!-- EN: up to {0} quality -->
-  <OutcomeBonusDesc_Quality>TODO</OutcomeBonusDesc_Quality>
+  <OutcomeBonusDesc_Quality>fins a una qualitat de {0}</OutcomeBonusDesc_Quality>
   <!-- EN: {0} quality -->
-  <OutcomeBonusDesc_QualitySingleOffset>TODO</OutcomeBonusDesc_QualitySingleOffset>
+  <OutcomeBonusDesc_QualitySingleOffset>qualitat de {0}</OutcomeBonusDesc_QualitySingleOffset>
   <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
-  <OutcomeLetterLabel>TODO</OutcomeLetterLabel>
+  <OutcomeLetterLabel>{RITUALLABEL} de {OUTCOMELABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
-  <MaxValue>TODO</MaxValue>
+  <MaxValue>màx. {0}</MaxValue>
 
   <!-- EN: {0} of -->
-  <ThingOf>TODO</ThingOf>
+  <ThingOf>{0} de</ThingOf>
   <!-- EN: {0} of {1} -->
-  <ThingOfSource>TODO</ThingOfSource>
+  <ThingOfSource>{0} de {1}</ThingOfSource>
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
-  <AbilityDisabledUndrafted>TODO</AbilityDisabledUndrafted>
+  <AbilityDisabledUndrafted>s'ha de reclutar</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>TODO</AbilityOnCooldown>
+  <AbilityOnCooldown>habilitat en fase de refredament. Estarà disponible d'aquí {0}.</AbilityOnCooldown>
   <!-- EN: ability already queued. -->
-  <AbilityAlreadyQueued>TODO</AbilityAlreadyQueued>
+  <AbilityAlreadyQueued>l'habilitat ja és a la cua.</AbilityAlreadyQueued>
   <!-- EN: Ability ready: {0} -->
-  <AbilityReadyLabel>TODO</AbilityReadyLabel>
+  <AbilityReadyLabel>Habilitat preparada: {0}</AbilityReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
-  <AbilityReadyText>TODO</AbilityReadyText>
+  <AbilityReadyText>{0_gender ? En : La} {0_nameDef} està prepara{0_gender ? t : da} per utilitzar {1}.</AbilityReadyText>
 
 </LanguageData>

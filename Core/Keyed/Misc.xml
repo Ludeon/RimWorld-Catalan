@@ -103,7 +103,7 @@
   <MeatHumanDesc>Carn escorxada. Es pot cuinar per fer-ne àpats o consumir-se crua, tot i que a la majoria d’humans la idea no els fa cap gràcia.</MeatHumanDesc>
 
   <!-- EN: techprint ({PROJECT_label}) -->
-  <TechprintLabel>tecnoplànol</TechprintLabel>
+  <TechprintLabel>tecnoplànol ({PROJECT_label})</TechprintLabel>
   <!-- EN: This is a techprint for the research project '{PROJECT_label}'.
 \nThe physical form of techprints can range from scraps of paper with diagrams, all the way to advanced self-contained teaching machines. Regardless of form, they play the same role. They give your researchers the confidence that an idea is possible, and a rough idea of the designs used in more established societies.
 \nYour researchers need the foundational knowledge offered by techprints to know where to start on a given technology. Only after enough techprints have been applied can your researchers work out the fine details of how to make use of the technology in your particular situation.
@@ -143,7 +143,7 @@
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
   <!-- EN: {0} {1} -->
-  <ThingMadeOfStuffLabel>{1} de {PAWN_labelShort}</ThingMadeOfStuffLabel>
+  <ThingMadeOfStuffLabel>{1} de {0}</ThingMadeOfStuffLabel>
 
   <!-- EN: {PAWN_labelShort}'s {1} -->
   <SomeonesRoom>{1} de {PAWN_labelShort}</SomeonesRoom>

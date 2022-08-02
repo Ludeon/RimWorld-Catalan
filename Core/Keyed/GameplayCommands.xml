@@ -3,53 +3,53 @@
 
   <!-- Forbid -->
   <!-- EN: Forbid -->
-  <CommandForbid>Prohibir</CommandForbid>
+  <CommandForbid>Prohibeix</CommandForbid>
   <!-- EN: Allow -->
-  <CommandAllow>TODO</CommandAllow>
+  <CommandAllow>Permet</CommandAllow>
   <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
-  <CommandForbiddenDesc>Prohibit – Els colons no hi interactuaran.</CommandForbiddenDesc>
+  <CommandForbiddenDesc>Prohibit #8211; els colons no hi interactuaran. Feu-hi clic per permetre'n la interacció.</CommandForbiddenDesc>
   <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
-  <CommandNotForbiddenDesc>Permés – Els colons hi interactuaran.</CommandNotForbiddenDesc>
+  <CommandNotForbiddenDesc>Permés #8211; els colons hi interactuaran. Feu-hi clic per prohibir-ne la interacció.</CommandNotForbiddenDesc>
 
   <!-- Power -->
   <!-- EN: Toggle power -->
-  <CommandTogglePowerLabel>Commuta la corrent</CommandTogglePowerLabel>
+  <CommandTogglePowerLabel>Engega/Atura</CommandTogglePowerLabel>
   <!-- EN: Toggle power. -->
-  <CommandTogglePowerDesc>Engega i atura.</CommandTogglePowerDesc>
+  <CommandTogglePowerDesc>Engega o atura.</CommandTogglePowerDesc>
   
   <!-- EN: Designate toggle power -->
-  <CommandDesignateTogglePowerLabel>Commutar</CommandDesignateTogglePowerLabel>
+  <CommandDesignateTogglePowerLabel>Commuta</CommandDesignateTogglePowerLabel>
   <!-- EN: Designate this thing to have power toggled. A colonist will come soon to flick the switch. -->
-  <CommandDesignateTogglePowerDesc>Indica que cal commutar aquest element. Algun colon vindrà aviat a tocar l'interruptor.</CommandDesignateTogglePowerDesc>
+  <CommandDesignateTogglePowerDesc>Indica que cal engegar o aturar aquest element. Algun colon vindrà aviat a tocar l'interruptor.</CommandDesignateTogglePowerDesc>
   
   <!-- EN: Reconnect -->
-  <CommandTryReconnectLabel>Reconectar</CommandTryReconnectLabel>
+  <CommandTryReconnectLabel>Reconnecta</CommandTryReconnectLabel>
   <!-- EN: Try to connect to a different power net within my connection radius. This is useful if I'm connected to an unpowered net but there is a powered net nearby. -->
-  <CommandTryReconnectDesc>Prova de connectar a un altre cable dins del radi de connexió. És pràctic si està connectat a una xarxa que no té corrent i en passa una altra amb corrent aprop.</CommandTryReconnectDesc>
+  <CommandTryReconnectDesc>Prova de connectar a una altra xarxa dins del radi de connexió. És pràctic si està connectat a una xarxa que no té corrent i n'hi ha una altra amb corrent a prop.</CommandTryReconnectDesc>
 
   <!-- EN: Gather spot -->
   <CommandGatherSpotToggleLabel>Punt de reunió</CommandGatherSpotToggleLabel>
   <!-- EN: Active - colonists will gather around this object. -->
-  <CommandGatherSpotToggleDescActive>Actiu – Els colons es reuniran al voltant d'aquest objecte.</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescActive>Actiu #8211; els colons es reuniran al voltant d'aquest objecte.</CommandGatherSpotToggleDescActive>
   <!-- EN: Inactive - colonists will not gather around this object. -->
-  <CommandGatherSpotToggleDescInactive>Inactiu – Els colons no es reuniran al voltant d'aquest objecte.</CommandGatherSpotToggleDescInactive>
+  <CommandGatherSpotToggleDescInactive>Inactiu #8211; els colons no es reuniran al voltant d'aquest objecte.</CommandGatherSpotToggleDescInactive>
   
   <!-- Drafting -->
   <!-- EN: Draft -->
-  <CommandDraftLabel>Reclutar</CommandDraftLabel>
+  <CommandDraftLabel>Recluta</CommandDraftLabel>
   <!-- EN: Undraft -->
-  <CommandUndraftLabel>Llicenciar</CommandUndraftLabel>
+  <CommandUndraftLabel>Llicencia</CommandUndraftLabel>
   <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
-  <CommandToggleDraftDesc>Canvia l'estat de reclutament militar.\n\nLa gent reclutada rebrà ordres i lluitarà. No treballaran, menjaran ni descansaran.</CommandToggleDraftDesc>
+  <CommandToggleDraftDesc>Canvia l'estat de reclutament militar.\n\nLa gent reclutada rebrà ordres i lluitarà. No treballaran ni menjaran ni descansaran.\n\nQuan es llicencia una persona reclutada, tornarà a les seves feines i tasques habituals.</CommandToggleDraftDesc>
   <!-- EN: {1_labelShort} cannot walk. -->
-  <IsIncapped>{0} no pot caminar.</IsIncapped>
+  <IsIncapped>{1_labelShort} no pot caminar.</IsIncapped>
   <!-- EN: {0_labelShort} is participating in {1}. -->
-  <ParticipatingInRitual>TODO</ParticipatingInRitual>
+  <ParticipatingInRitual>{0_labelShort} està participant en {1}.</ParticipatingInRitual>
 
   <!-- EN: Fire at will -->
-  <CommandFireAtWillLabel>Permet disparar</CommandFireAtWillLabel>
+  <CommandFireAtWillLabel>Permet iniciar atacs a distància</CommandFireAtWillLabel>
   <!-- EN: Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat. -->
-  <CommandFireAtWillDesc>Canvia el permís de disparar.\n\nQuan està deshabilitat, el personatge no dispararà automàticament. No afecta el combat cos a cos.</CommandFireAtWillDesc>
+  <CommandFireAtWillDesc>Canvia el permís de foc a discreció.\n\nQuan està deshabilitat, el personatge no dispararà automàticament a distància. No afecta el combat cos a cos.</CommandFireAtWillDesc>
   
   <!-- EN: Clear prioritized work -->
   <CommandClearPrioritizedWork>Cancel·la la tasca prioritzada</CommandClearPrioritizedWork>
@@ -62,38 +62,38 @@
   <CommandCancelConstructionDesc>Cancel·la aquesta construcció.</CommandCancelConstructionDesc>
 
   <!-- EN: Get out of bed -->
-  <CommandGetOutOfBedLabel>Sortir del llit</CommandGetOutOfBedLabel>
+  <CommandGetOutOfBedLabel>Surt del llit</CommandGetOutOfBedLabel>
   <!-- EN: Get out of current bed. -->
-  <CommandGetOutOfBedDesc>Fa forà algú del llit.</CommandGetOutOfBedDesc>
+  <CommandGetOutOfBedDesc>Fa sortir la persona del llit.</CommandGetOutOfBedDesc>
 
   <!-- EN: Set owner -->
-  <CommandThingSetOwnerLabel>TODO</CommandThingSetOwnerLabel>
+  <CommandThingSetOwnerLabel>Estableix el propietari</CommandThingSetOwnerLabel>
   <!-- EN: Assign this bed to be owned by a specific {0}. -->
-  <CommandBedSetOwnerDesc>Assigna aquest llit a un colon especific.</CommandBedSetOwnerDesc>
+  <CommandBedSetOwnerDesc>Assigna aquest llit a un {0} determinat.</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
-  <CommandThroneSetOwnerDesc>TODO</CommandThroneSetOwnerDesc>
+  <CommandThroneSetOwnerDesc>Assigna aquest tro a un colon determinat.</CommandThroneSetOwnerDesc>
   <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
-  <CommandMeditationSpotSetOwnerDesc>TODO</CommandMeditationSpotSetOwnerDesc>
+  <CommandMeditationSpotSetOwnerDesc>Assigna aquest lloc de meditació a un colon específic.</CommandMeditationSpotSetOwnerDesc>
   <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>Assigna a un colon</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
-  <CommandGraveAssignColonistDesc>Assigna aquesta tomba a un colon específic.</CommandGraveAssignColonistDesc>
+  <CommandGraveAssignColonistDesc>Assigna aquesta tomba per a un colon determinat.</CommandGraveAssignColonistDesc>
   <!-- EN: Assign -->
   <BuildingAssign>Assigna</BuildingAssign>
   <!-- EN: Reassign -->
   <BuildingReassign>Reassigna</BuildingReassign>
   <!-- EN: Unassign -->
-  <BuildingUnassign>No assignis</BuildingUnassign>
+  <BuildingUnassign>Treu l'assignació</BuildingUnassign>
   <!-- EN: For prisoners -->
-  <CommandBedSetForPrisonersLabel>Per presoners</CommandBedSetForPrisonersLabel>
+  <CommandBedSetForPrisonersLabel>Per a presoners</CommandBedSetForPrisonersLabel>
   <!-- EN: Whether beds in this room should be used by prisoners. -->
-  <CommandBedSetForPrisonersDesc>Si el llit es farà servir per presoners.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersDesc>Designa els llits de la cambra per a presoners.</CommandBedSetForPrisonersDesc>
   <!-- EN: Only beds in enclosed spaces can be set for prisoners. -->
-  <CommandBedSetForPrisonersFailOutdoors>No es poden assignar llits a l'exterior a presoners.</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetForPrisonersFailOutdoors>Als presoners només se'ls pot assignar llits en espais tancats.</CommandBedSetForPrisonersFailOutdoors>
   <!-- EN: Medical -->
-  <CommandBedSetAsMedicalLabel>Mèdica</CommandBedSetAsMedicalLabel>
+  <CommandBedSetAsMedicalLabel>Per a ús mèdic</CommandBedSetAsMedicalLabel>
   <!-- EN: Whether this bed is for medical use. -->
-  <CommandBedSetAsMedicalDesc>Si aquest llit es farà servir per motius mèdics.</CommandBedSetAsMedicalDesc>
+  <CommandBedSetAsMedicalDesc>Estableix si aquest llit es farà servir per motius mèdics.</CommandBedSetAsMedicalDesc>
   <!-- EN: Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <TurningOnPrisonerBedWarning>Assignar un llit a presoners afecta tota la cambra (els presoners i els colons no poden dormir a la mateixa habitació).\n\nAquestes persones perdran la propietat dels seus llits:</TurningOnPrisonerBedWarning>
   <!-- EN: Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
@@ -105,7 +105,7 @@
 
 
   <!-- EN: Detonate -->
-  <CommandDetonateLabel>Detonar</CommandDetonateLabel>
+  <CommandDetonateLabel>Inicia la detonació</CommandDetonateLabel>
   <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>Inicia el compte enrere per la detonació.</CommandDetonateDesc>
 
@@ -426,7 +426,7 @@
   <!-- EN: Take off and fly to a destination. -->
   <CommandLaunchGroupDesc>Inicia el procés per llençar un grup de càpsules de càrrega. El pas següent serà triar un objectiu. Les càpsules volaran i aterraran alhora.</CommandLaunchGroupDesc>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
-  <CommandLaunchGroupFailNotConnectedToFuelingPort>Algunes càpsules de càrrega del grup no estan connectades a un carregador de fuel.</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>Algunes càpsules de càrrega del grup no estan connectades a un assortidor de combustible.</CommandLaunchGroupFailNotConnectedToFuelingPort>
   <!-- EN: Some pod launchers in this group have no fuel. -->
   <CommandLaunchGroupFailNoFuel>Algunes llançadores del grup no estan connectades a un sortidor.</CommandLaunchGroupFailNoFuel>
   <!-- EN: Some pod launchers are under a roof. -->
@@ -438,7 +438,7 @@
   <!-- EN: Defines the selected transporter(s) as a launch group. Opens the loading dialog so you can decide who and what should be loaded inside. -->
   <CommandLoadTransporterDesc>Defineix als transports seleccionats com a un grup de llançament. Obre el diàleg de càrrega on podreu triar qui i que s'ha de carregar a dins.</CommandLoadTransporterDesc>
   <!-- EN: The transport pod is not connected to a fueling port. -->
-  <CommandLoadTransporterFailNotConnectedToFuelingPort>La càpsula de transport no està connectada a un sortidor de combustible.</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <CommandLoadTransporterFailNotConnectedToFuelingPort>La càpsula de transport no està connectada a un assortidor de combustible.</CommandLoadTransporterFailNotConnectedToFuelingPort>
   <!-- EN: The pod launcher has no fuel. -->
   <CommandLoadTransporterFailNoFuel>La llançadora no té fuel.</CommandLoadTransporterFailNoFuel>
   
@@ -492,9 +492,9 @@
 
   <!-- Pause caravan -->
   <!-- EN: Rest -->
-  <CommandPauseCaravan>Pausa</CommandPauseCaravan>
+  <CommandPauseCaravan>Posa en pausa</CommandPauseCaravan>
   <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
-  <CommandToggleCaravanPauseDesc>Atura el moviment de la caravana. Té els següents beneficis::\n\n  - La gent pot socialitzar\n  - Es cull menjar {0} vegades més de pressa\n  - La visibilitat es multiplica per {1}</CommandToggleCaravanPauseDesc>
+  <CommandToggleCaravanPauseDesc>Atura el moviment de la caravana. Té els següents beneficis::\n\n  &#8211; La gent pot socialitzar.\n  &#8211; Es cull menjar {0} vegades més de pressa.\n  &#8211; La visibilitat es multiplica per {1}.</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
   <!-- EN: Show what will buy -->

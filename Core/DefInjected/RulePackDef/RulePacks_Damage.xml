@@ -15,17 +15,17 @@
     <li>destroyed_past->detonated</li>
   -->
   <Damage_Bomb.rulePack.rulesStrings>
-    <li>damaged_past(p=2)->fotut</li>
-    <li>damaged_past(p=2)->explotat</li>
-    <li>damaged_past->ferit</li>
-    <li>damaged_past->danyat</li>
-    <li>damaged_past->malferit</li>
-    <li>damaged_past->adolorit</li>
-    <li>destroyed->fet a miques</li>
-    <li>destroyed->esclafat</li>
-    <li>destroyed->destrossat</li>
-    <li>destroyed->aniquilat</li>
-    <li>destroyed->detonat</li>
+    <li>damaged_past(p=2)->ha explotat</li>
+    <li>damaged_past(p=2)->ha explosionat</li>
+    <li>damaged_past->ha ferit</li>
+    <li>damaged_past->ha danyat</li>
+    <li>damaged_past->ha malferit</li>
+    <li>damaged_past->ha adolorit</li>
+    <li>destroyed->ha fet miques</li>
+    <li>destroyed->ha esclafat</li>
+    <li>destroyed->ha destrossat</li>
+    <li>destroyed->ha aniquilat</li>
+    <li>destroyed->ha detonat</li>
   </Damage_Bomb.rulePack.rulesStrings>
   
   <!-- EN:
@@ -35,9 +35,9 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_EMP.rulePack.rulesStrings>
-    <li>damaged_past->ha enrampat</li>
-    <li>damaged_past->ha commocionat</li>
-    <li>damaged_past->ha esclafat</li>
+    <li>damaged_past->s'ha enrampat</li>
+    <li>damaged_past->ha quedat commocionat</li>
+    <li>damaged_past->ha quedat esclafat</li>
     <li>destroyed_past->damaged_past</li>
   </Damage_EMP.rulePack.rulesStrings>
   
@@ -49,10 +49,10 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_Extinguish.rulePack.rulesStrings>
-    <li>damaged_past->ha extingit</li>
-    <li>damaged_past->ha inundat</li>
-    <li>damaged_past->ha omplert d’espuma</li>
-    <li>damaged_past->ha sufocat</li>
+    <li>damaged_past->s'ha extingit</li>
+    <li>damaged_past->s'ha inundat</li>
+    <li>damaged_past->s'ha omplert d’escuma</li>
+    <li>damaged_past->s'ha sufocat</li>
     <li>destroyed_past->damaged_past</li>
   </Damage_Extinguish.rulePack.rulesStrings>
   
@@ -91,7 +91,7 @@
     <li>destroyed_present->detonating</li>
   -->
   <Damage_Flame.rulePack.rulesStrings>
-    <li>damaged_past(p=2)->ha fotut</li>
+    <li>damaged_past(p=2)->ha explosionat</li>
     <li>damaged_past(p=2)->ha socarrimat</li>
     <li>damaged_past(p=2)->ha cremat</li>
     <li>damaged_past(p=2)->ha embutllofat</li>
@@ -101,28 +101,28 @@
     <li>damaged_past->ha malmès</li>
     <li>damaged_past->ha malferit</li>
     <li>damaged_past->ha adolorit</li>
-    <li>damaged_present(p=2)->fotent</li>
-    <li>damaged_present(p=2)->socarrimant</li>
-    <li>damaged_present(p=2)->cremant</li>
-    <li>damaged_present(p=2)->embutllofant</li>
-    <li>damaged_present(p=2)->encenent</li>
-    <li>damaged_present(p=2)->abrasant</li>
-    <li>damaged_present->ferint</li>
-    <li>damaged_present->malmetent</li>
-    <li>damaged_present->malferint</li>
-    <li>damaged_present->adolorint</li>
+    <li>damaged_present(p=2)->explosiona</li>
+    <li>damaged_present(p=2)->socarrima</li>
+    <li>damaged_present(p=2)->crema</li>
+    <li>damaged_present(p=2)->fa butllofes</li>
+    <li>damaged_present(p=2)->encén</li>
+    <li>damaged_present(p=2)->abrasa</li>
+    <li>damaged_present->fereix</li>
+    <li>damaged_present->malmet</li>
+    <li>damaged_present->malfereix</li>
+    <li>damaged_present->fa mal</li>
     <li>destroyed_past->ha calcinat</li>
     <li>destroyed_past->ha incinerat</li>
     <li>destroyed_past->ha carbonitzat</li>
     <li>destroyed_past->ha obliterat</li>
     <li>destroyed_past->ha aniquilat</li>
     <li>destroyed_past->ha detonat</li>
-    <li>destroyed_present->calcinant</li>
-    <li>destroyed_present->incinerant</li>
-    <li>destroyed_present->carbonitzant</li>
-    <li>destroyed_present->obliterant</li>
-    <li>destroyed_present->aniquilant</li>
-    <li>destroyed_present->detonant</li>
+    <li>destroyed_present->calcina</li>
+    <li>destroyed_present->incinera</li>
+    <li>destroyed_present->carbonitza</li>
+    <li>destroyed_present->destrueix</li>
+    <li>destroyed_present->aniquila</li>
+    <li>destroyed_present->detona</li>
   </Damage_Flame.rulePack.rulesStrings>
   
   <!-- EN:
@@ -132,7 +132,7 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_Smoke.rulePack.rulesStrings>
-    <li>damaged_past->ha fumat</li>
+    <li>damaged_past->ha escampat fum</li>
     <li>damaged_past->ha entelat</li>
     <li>damaged_past->ha ennuvolat</li>
     <li>destroyed_past->damaged_past</li>

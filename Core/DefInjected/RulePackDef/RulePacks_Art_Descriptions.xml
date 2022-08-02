@@ -207,7 +207,7 @@
     <li>style_group->[artextra_clause].</li>
     <li>style_group-></li>
     <li>artconjunction(p=6)-></li>
-    <li>artconjunction->com a interessant contrast,</li>
+    <li>artconjunction->com a contrast interessant,</li>
     <li>artconjunction->completant l’obra,</li>
     <li>artconjunction->com a afegitó,</li>
     <li>artconjunction->de forma impressionant,</li>
@@ -228,9 +228,10 @@
     <li>artextra_clause->[Quantity_adjphrase] [Character]s surten per [side_position]</li>
     <li>artextra_clause->[Quantity_adjphrase] [Character]s [PAWN_adj] surten per [side_position]</li>
     <li>artextra_clause->un [animal] [idles] [side_position]</li>
-    <li>artextra_clause->si ajuntes els ulls, la [composition] composició de la imatge revela la silueta de [subimageany]</li>
+    <li>artextra_clause->si s'acluquen una mica els ulls, la [composition] composició de la imatge revela la silueta de [subimageany]</li>
     <li>artextra_clause->la cara [emotional_expression] d’un [PersonJob] [PAWN_adj] s’ho mira</li>
     <li>artextra_clause->un [PersonJob] [PAWN_adj] s’ho mira amb [emotional_expression]</li>
+    <li>artextra_clause->la cara [PAWN_adj] de [PersonJob] ho contempla</li>
     <li>artextra_clause->tota la imatge està plena de [subimageplural] curosament col·locats</li>
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
@@ -249,24 +250,24 @@
     <li>pawn_adj->adormit</li>
     <li>pawn_adj->dret</li>
     <li>pawn_adj->assegut</li>
-    <li>pawn_adj->ajagut</li>
+    <li>pawn_adj->boig</li>
     <li>pawn_adj->jove</li>
     <li>pawn_adj->vell</li>
-    <li>pawn_adj->ensangonat</li>
+    <li>pawn_adj->cobert de [Gore]</li>
     <li>pawn_adj->brut</li>
-    <li>pawn_adj->vestit</li>
-    <li>pawn_adj->armat</li>
-    <li>pawn_adj->afamat</li>
+    <li>pawn_adj->que porta [Apparel]</li>
+    <li>pawn_adj->armat amb [Weapon]</li>
+    <li>pawn_adj->menjant [Vegetable]</li>
     <li>emotional_expression->somrient</li>
     <li>emotional_expression->estranyada</li>
     <li>emotional_expression->enfadada</li>
     <li>emotional_expression->rient</li>
-    <li>emotional_expression->admirada</li>
-    <li>emotional_expression->plorosa</li>
-    <li>emotional_expression->espantada</li>
-    <li>emotional_expression->emocionada</li>
-    <li>idles->seu</li>
-    <li>idles->s’està dret</li>
+    <li>emotional_expression->mirant</li>
+    <li>emotional_expression->plorós</li>
+    <li>emotional_expression->espantat</li>
+    <li>emotional_expression->emocionat</li>
+    <li>idles->s'asseu</li>
+    <li>idles->s’aixeca</li>
     <li>idles->espera</li>
     <li>idles->somriu</li>
     <li>idles->jau</li>
@@ -275,20 +276,20 @@
     <li>idles->es deixa veure</li>
     <li>idles->s’amaga</li>
     <li>idles->sura</li>
-    <li>side_position->un costat</li>
-    <li>side_position->el fons</li>
-    <li>side_position->la llunyania</li>
-    <li>side_position->la part de sota de la imatge</li>
-    <li>side_position->la part de dalt de la imatge</li>
-    <li>side_position->l’esquerra de l’escena principal</li>
-    <li>side_position->la dreta de l’escena principal</li>
-    <li>side_position->la vora de la imatge</li>
-    <li>side_position->el costat del subjecte principal</li>
-    <li>side_position->el darrere del subjecte principal</li>
-    <li>side_position->sota del subjecte principal</li>
-    <li>side_position->la línia del punt focal</li>
+    <li>side_position->de costat</li>
+    <li>side_position->al fons</li>
+    <li>side_position->a la llunyania</li>
+    <li>side_position->a la part de sota de la imatge</li>
+    <li>side_position->a la part de dalt de la imatge</li>
+    <li>side_position->a l’esquerra de l’escena principal</li>
+    <li>side_position->a la dreta de l’escena principal</li>
+    <li>side_position->a la vora de la imatge</li>
+    <li>side_position->al costat del subjecte principal</li>
+    <li>side_position->al darrere del subjecte principal</li>
+    <li>side_position->a sota del subjecte principal</li>
+    <li>side_position->a la línia del punt focal</li>
     <li>style_clause(p=4)->el treball [symbolizes] [ConceptAny]</li>
-    <li>style_clause->[subimagesingle] [side_position] [symbolizes] [ConceptAny]</li>
+    <li>artextra_clause->[subimagesingle] [side_position] [symbolizes] [ConceptAny]</li>
     <li>style_clause->el treball està imbuït de la idea del [ConceptAny] i està fet amb un estil [artstyle_adj]</li>
     <li>style_clause->el treball està executat en un estil [artstyle_adj]</li>
     <li>style_clause->l'estil [artstyle_adj] de l'escena central contrasta amb l'aspecte [artstyle_adj] del fons</li>
@@ -296,6 +297,7 @@
     <li>style_clause->la composició és en general [composition]</li>
     <li>style_clause->és d'estil [artstyle_adj] amb algun element [artstyle_adj]</li>
     <li>style_clause->la imatge d'alguna manera expressa tant [ConceptAny] com [ConceptAny]</li>
+    <li>style_clause->la imatge contrasta [ConceptAny] amb [ConceptAny]</li>
     <li>style_clause->l'estructura [composition] de la imatge entra en conflicte amb el seu estil [artstyle_adj]</li>
     <li>style_clause->el treball és ombrejat amb tons [color] i [color]</li>
     <li>style_clause->la majoria de les imatges tenen una forma [composition]</li>
@@ -331,7 +333,7 @@
     <li>composition->estàtica</li>
     <li>composition->vertical</li>
     <li>composition->horitzontal</li>
-    <li>composition->concèntrica</li>
+    <li>composition->centrada</li>
     <li>artstyle_adj->poc original</li>
     <li>artstyle_adj->senzill</li>
     <li>artstyle_adj->complex i realista</li>
@@ -348,7 +350,7 @@
     <li>artstyle_adj->fotogràfic</li>
     <li>artstyle_adj->barroc</li>
     <li>artstyle_adj->dadaista</li>
-    <li>artstyle_adj->glitch-art</li>
+    <li>artstyle_adj->art «glitch»</li>
     <li>artstyle_adj->pixelat</li>
     <li>artstyle_adj->fauvista</li>
     <li>artstyle_adj->campestre</li>
@@ -360,7 +362,7 @@
     <li>artstyle_adj->pop art</li>
     <li>artstyle_adj->minimalista</li>
     <li>artstyle_adj->neoclàssic</li>
-    <li>artstyle_adj->cel-shaded</li>
+    <li>artstyle_adj->«cel-shaded»</li>
     <li>artstyle_adj->postimpressionista</li>
     <li>artstyle_adj->purista</li>
     <li>artstyle_adj->rococó</li>

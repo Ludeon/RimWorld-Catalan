@@ -43,7 +43,7 @@
   <!-- EN: Food -->
   <TabPenFood>Menjar</TabPenFood>
   <!-- EN: Auto-cut -->
-  <TabPenAutoCut>Retalla automàticament</TabPenAutoCut>
+  <TabPenAutoCut>Arrenca males herbes automàticament</TabPenAutoCut>
   <!-- EN: Caravan -->
   <TabFormingCaravan>Caravana</TabFormingCaravan>
   <!-- EN: Contents -->
@@ -371,7 +371,7 @@
   <!-- EN: Nutrition consumption -->
   <PenFoodTab_TotalNutritionConsumptionRate>Consum de nutrients</PenFoodTab_TotalNutritionConsumptionRate>
   <!-- EN: The average nutrition provided by edible plants in this pen. -->
-  <PenFoodTab_NaturalNutritionGrowthRateDescription>Els nutrients que proporcionen de mitjana les plantes comestibles en aquest tancat</PenFoodTab_NaturalNutritionGrowthRateDescription>
+  <PenFoodTab_NaturalNutritionGrowthRateDescription>Els nutrients que proporcionen de mitjana les plantes comestibles en aquest corral.</PenFoodTab_NaturalNutritionGrowthRateDescription>
   <!-- EN: The nutrition needed by animals currently in this pen.\n\nTo get more food, expand the pen to cover more wild plant growth, or deliver stockpiled food like haygrass to the pen. -->
   <PenFoodTab_NutritionConsumptionDescription>TODO</PenFoodTab_NutritionConsumptionDescription>
   <!-- EN: Note: Plant growth rate varies due to seasons, weather, theft by wild animals, and other factors. These calculations are approximations. -->
@@ -380,7 +380,7 @@
   <!-- EN: Total consumption -->
   <PenFoodTab_NutritionConsumedPerDay_ColumLabel>Consum total</PenFoodTab_NutritionConsumedPerDay_ColumLabel>
   <!-- EN: The total nutrition that will be consumed each day by each type of animal in this pen. -->
-  <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>El total de nutrients que es consumiran cada dia per cada tipus d'animal en aquest tancat.</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
+  <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>El total de nutrients que es consumiran cada dia per cada tipus d'animal en aquest corral.</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
   <!-- EN: Daily consumption per {ANIMALDEF_label} -->
   <PenFoodTab_NutritionConsumedPerDay>Consum diari de {ANIMALDEF_label}</PenFoodTab_NutritionConsumedPerDay>
   <!-- EN: each {CONSUMEDAMOUNT} -->
@@ -392,13 +392,13 @@
   <PenFoodTab_EdibleNow>Comestible ara</PenFoodTab_EdibleNow>
 
   <!-- EN: Auto-cut plants in pen -->
-  <PenAutoCut_EnabledCheckbox>Talla les males herbes del tancat</PenAutoCut_EnabledCheckbox>
+  <PenAutoCut_EnabledCheckbox>Arrenca les males herbes del corral</PenAutoCut_EnabledCheckbox>
   <!-- EN: Automatically mark certain inedible plants to be cut. This makes room for edible plants to grow, which your animals can then eat.\n\nThis auto-designation happens periodically and only applies to certain plants.\n\nThis only works when the pen is enclosed. -->
-  <PenAutoCut_EnabledCheckboxTip>Marca automàticament determinades plantes no comestibles per tallar-les. Al tallar-les, hi haurà lloc perquè en creixin de comestibles i els animals se les podran menjar.\n\nEl marcatge de les plantes a tallar es fa periòdicament i només s'aplica a alguns tipus de plantes.\n\nNomés funciona si el tancat està tancat.</PenAutoCut_EnabledCheckboxTip>
+  <PenAutoCut_EnabledCheckboxTip>Marca automàticament determinades plantes no comestibles per arrencar-les. A l'arrancar-les, hi haurà lloc perquè en creixin de comestibles i els animals se les podran menjar.\n\nEl marcatge de les plantes que cal arrencar es fa periòdicament i només s'aplica a alguns tipus de plantes.\n\nNomés funciona si el corral està tancat.</PenAutoCut_EnabledCheckboxTip>
 
   <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>El corral no està tancat.</AutocutUnenclosedPen>
   <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
-  <AutocutUnenclosedPenTip>El corral no està tancat, així que no se'n tallaran les males herbes.</AutocutUnenclosedPenTip>
+  <AutocutUnenclosedPenTip>El corral no està tancat, així que no se n'arrencaran les males herbes.</AutocutUnenclosedPenTip>
 
 </LanguageData>

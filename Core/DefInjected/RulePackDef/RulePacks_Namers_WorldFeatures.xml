@@ -37,14 +37,14 @@
     <li>terrain_word->barrens</li>
   -->
   <NamerAridShrubland.rulePack.rulesStrings>
-    <li>terrain_word(p=4)->herbassar</li>
-    <li>terrain_word(p=4)->matollar</li>
+    <li>terrain_word(p=4)->bardissar</li>
+    <li>terrain_word(p=4)->esbarzerar</li>
     <li>terrain_word(p=2)->altiplà</li>
-    <li>terrain_word(p=2)->garriga</li>
+    <li>terrain_word(p=2)->matoll</li>
     <li>terrain_word->desert</li>
     <li>terrain_word->mata</li>
-    <li>terrain_word->mala herba</li>
-    <li>terrain_word->ermots</li>
+    <li>terrain_word->malesa</li>
+    <li>terrain_word->erms</li>
   </NamerAridShrubland.rulePack.rulesStrings>
   
   <!-- EN:
@@ -111,11 +111,11 @@
     <li>standardname(p=0.4)->[narrative_name] [desert_adjective]</li>
     <li>desert_adjective->pla</li>
     <li>desert_adjective->blanc</li>
-    <li>desert_adjective->infinit</li>
+    <li>desert_adjective->sense fi</li>
     <li>desert_adjective->cruel</li>
-    <li>desert_adjective->apedaçat</li>
+    <li>desert_adjective->maleït</li>
     <li>desert_adjective->sec</li>
-    <li>desert_adjective->llarg</li>
+    <li>desert_adjective->del mort</li>
     <li>desert_adjective->torrat</li>
     <li>desert_adjective->assolellat</li>
     <li>desert_adjective->encegador</li>
@@ -141,7 +141,7 @@
   <NamerForest.rulePack.rulesStrings>
     <li>terrain_word(p=6)->bosc</li>
     <li>terrain_word->arbreda</li>
-    <li>terrain_word->arboreda</li>
+    <li>terrain_word->boscúria</li>
     <li>terrain_word->matollar</li>
   </NamerForest.rulePack.rulesStrings>
   
@@ -204,7 +204,7 @@
     <li>terrain_word->mar</li>
     <li>terrain_word->estany</li>
     <li>terrain_word->llacuna</li>
-    <li>terrain_word->reserva</li>
+    <li>terrain_word->embassament</li>
     <li>terrain_word(p=0.3)->bassa</li>
     <li>terrain_word(p=0.3)->albufera</li>
     <li>terrain_word(p=0.3)->gorg</li>
@@ -276,10 +276,10 @@
     <li>terrain_word->horn</li>
   -->
   <NamerPeninsula.rulePack.rulesStrings>
-    <li>standardname(p=0.2)->punt [narrative_name]</li>
-    <li>standardname(p=0.2)->cap [narrative_name]</li>
+    <li>standardname(p=0.2)->punta de [narrative_name]</li>
+    <li>standardname(p=0.2)->cap de [narrative_name]</li>
     <li>terrain_word(p=5)->península</li>
-    <li>terrain_word(p=2)->punt</li>
+    <li>terrain_word(p=2)->punta</li>
     <li>terrain_word->cap</li>
     <li>terrain_word->promontori</li>
     <li>terrain_word->banya</li>
@@ -361,13 +361,13 @@
     <li>rainforest_adjective->fumejant</li>
     <li>rainforest_adjective->asfixiant</li>
     <li>rainforest_adjective->crescut</li>
-    <li>rainforest_adjective->enredat</li>
-    <li>rainforest_adjective->embrancat</li>
+    <li>rainforest_adjective->verge</li>
+    <li>rainforest_adjective->negra</li>
     <li>rainforest_adjective->espinós</li>
     <li>terrain_word(p=6)->selva</li>
     <li>terrain_word(p=3)->jungla</li>
     <li>terrain_word->bosc</li>
-    <li>terrain_word->forest</li>
+    <li>terrain_word->bosquet</li>
     <li>terrain_word->arbreda</li>
     <li>terrain_word->boscam</li>
   </NamerTropicalRainforest.rulePack.rulesStrings>
@@ -398,7 +398,7 @@
     <li>terrain_word->àrid</li>
     <li>terrain_word->extensió</li>
     <li>terrain_word->pradera</li>
-    <li>terrain_word->plans</li>
+    <li>terrain_word->plana</li>
   </NamerTundra.rulePack.rulesStrings>
   
   <!-- EN:
@@ -463,21 +463,11 @@
     <li>story_result->fraud</li>
   -->
   <WorldFeatureNamerCommon.rulePack.rulesStrings>
-    <li>r_name->[metaprefix] [standardname]</li>
-    <li>r_name(p=0.05)->[storyname] [terrain_word]</li>
-    <li>standardname->[narrative_name] [terrain_word]</li>
-    <li>metaprefix(p=10)-></li>
-    <li>metaprefix->[Direction]</li>
-    <li>metaprefix->[basic_adjective]</li>
-    <li>basic_adjective->gran</li>
-    <li>basic_adjective->major</li>
-    <li>basic_adjective->menor</li>
-    <li>basic_adjective->gran</li>
-    <li>basic_adjective->nou</li>
-    <li>basic_adjective->vell</li>
+    <li>r_name->[terrain_word] [narrative_name]</li>
+    <li>r_name(p=0.05)->[terrain_word] [storyname]</li>
     <li>narrative_name(p=12)->[WordTribal]</li>
     <li>narrative_name(p=12)->[PlaceOutlander]</li>
-    <li>narrative_name->[Color][NaturalObject]</li>
+    <li>narrative_name->[NaturalObject][Color]</li>
     <li>narrative_name->[BodyPart][AdjectiveNatural]</li>
     <li>narrative_name->[Animal]</li>
     <li>narrative_name->[Color]</li>
@@ -486,12 +476,10 @@
     <li>narrative_name->[BodyPart][Animal]</li>
     <li>narrative_name->[Animal] [Color]</li>
     <li>narrative_name->[Animal] [AdjectiveNatural]</li>
-    <li>narrative_name->[BodyPart][Animal]</li>
-    <li>storyname(p=50)->[story_result] [maybe_basic_adjective] de [subject]</li>
+    <li>narrative_name->[BodyPart] [Animal]</li>
+    <li>storyname(p=50)->[story_result] de [subject]</li>
     <li>storyname(p=2)->[BodyPart] de [subject]</li>
     <li>storyname->[Gore] de [subject]</li>
-    <li>maybe_basic_adjective-></li>
-    <li>maybe_basic_adjective(p=0.1)->[basic_adjective]</li>
     <li>subject(p=5)->[NamePerson]</li>
     <li>subject->[Animal]</li>
     <li>subject->[WordTribal]</li>
@@ -502,7 +490,7 @@
     <li>story_result->equivocació</li>
     <li>story_result->error</li>
     <li>story_result->entrebanc</li>
-    <li>story_result->engany</li>
+    <li>story_result->delusió</li>
     <li>story_result->alegria</li>
     <li>story_result->plaer</li>
     <li>story_result->meravella</li>
@@ -529,9 +517,9 @@
     <li>story_result->retir</li>
     <li>story_result->proesa</li>
     <li>story_result->final</li>
-    <li>story_result->engany</li>
+    <li>story_result->bluf</li>
     <li>story_result->trampa</li>
-    <li>story_result->decepció</li>
+    <li>story_result->engany</li>
     <li>story_result->mentida</li>
     <li>story_result->frau</li>
   </WorldFeatureNamerCommon.rulePack.rulesStrings>

@@ -178,7 +178,7 @@
   <!-- EN: Arrest {0} -->
   <Arrest>Arresta a {0_definite}</Arrest>
   <!-- EN: Try to arrest {1_label} ({2} chance) -->
-  <TryToArrest>Prova d'arrestar a {1_definite}</TryToArrest>
+  <TryToArrest>Prova d'arrestar a {1_label} (probabilitat d'èxit del {2})</TryToArrest>
   <!-- EN: Cannot arrest -->
   <CannotArrest>No es pot arrestar</CannotArrest>
   <!-- EN: {0} chance of arrest -->
@@ -225,7 +225,7 @@
   <!-- EN: Too heavy -->
   <TooHeavy>Pesa massa</TooHeavy>
   <!-- EN: {0_labelShort} is in the same faction. -->
-  <SameFaction>TODO</SameFaction>
+  <SameFaction>{0_labelShort} és de la mateixa facció.</SameFaction>
 
   <!-- EN: incapable -->
   <Incapable>no n'és capaç</Incapable>
@@ -233,7 +233,7 @@
   <IncapableOfCapacity>no és capaç de {0}</IncapableOfCapacity>
 
   <!-- EN: min skill -->
-  <MinSkill>Capacitat min</MinSkill>
+  <MinSkill>Habilitat mín.</MinSkill>
   
   <!-- EN: Equip {0} -->
   <Equip>Equipa {0}</Equip>
@@ -273,7 +273,7 @@
   <!-- EN: Pick up {1_labelShort}... -->
   <PickUpSome>Recull {1_definite}...</PickUpSome>
   <!-- EN: Pick up {1_labelShort} x{{0}} -->
-  <PickUpCount>Recull {1_definite} x{{1_definite}}</PickUpCount>
+  <PickUpCount>Recull {1_labelShort} ×{{0}}</PickUpCount>
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUpSome>TODO</CannotPickUpSome>
   <!-- EN: {0} {1} allowed -->

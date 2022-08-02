@@ -4,12 +4,16 @@
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] used [ABILITY_label] on [SUBJECT_definite].</li>
   -->
-  <Event_AbilityUsed.rulePack.rulesStrings>TODO</Event_AbilityUsed.rulePack.rulesStrings>
+  <Event_AbilityUsed.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] ha utilitzat [ABILITY_label] en [SUBJECT_definite].</li>
+  </Event_AbilityUsed.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[INITIATOR_definite] used [ITEM_indefinite] on [SUBJECT_definite].</li>
   -->
-  <Event_ItemUsed.rulePack.rulesStrings>TODO</Event_ItemUsed.rulePack.rulesStrings>
+  <Event_ItemUsed.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] ha emprat [ITEM_indefinite] en [SUBJECT_definite].</li>
+  </Event_ItemUsed.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_logentry->[SUBJECT_definite] was [stunned] by the attack.</li>
@@ -33,8 +37,8 @@
     <li>stumbled->staggered</li>
   -->
   <Event_Stun.rulePack.rulesStrings>
-    <li>r_logentry->[SUBJECT_definite] ha estat [stunned] per l’atac.</li>
-    <li>r_logentry->[SUBJECT_definite] ha estat [stunned] per l’atac de [INITIATOR_definite].</li>
+    <li>r_logentry->[SUBJECT_definite] s'ha quedat [stunned] per l’atac.</li>
+    <li>r_logentry->[SUBJECT_definite] s'ha quedat [stunned] per l’atac de [INITIATOR_definite].</li>
     <li>stunned(p=3)->atordit</li>
     <li>stunned->parat</li>
     <li>stunned->astorat</li>
@@ -42,16 +46,16 @@
     <li>r_logentry->[SUBJECT_definite] està [staggered].</li>
     <li>r_logentry->[SUBJECT_definite] està [staggered] per l’atac.</li>
     <li>r_logentry->[SUBJECT_definite] està [staggered] per l’atac de [INITIATOR_definite].</li>
-    <li>staggered(p=3)->està atordit</li>
-    <li>staggered->vacil·lant</li>
-    <li>staggered->balandrejant</li>
-    <li>staggered->balancejant</li>
-    <li>r_logentry->[SUBJECT_definite] [stumbled] marejat.</li>
-    <li>r_logentry->[SUBJECT_definite] [stumbled] confós.</li>
-    <li>stumbled(p=3)->stumbled</li>
-    <li>stumbled->vacil·la</li>
-    <li>stumbled->balandreja</li>
-    <li>stumbled->es balanceja</li>
+    <li>staggered(p=3)->atordit</li>
+    <li>staggered->estabornit</li>
+    <li>staggered->tremolant</li>
+    <li>staggered->garratibat</li>
+    <li>r_logentry->[SUBJECT_definite] està [stumbled].</li>
+    <li>r_logentry->[SUBJECT_definite] està [stumbled] i confós.</li>
+    <li>stumbled(p=3)->desorientat</li>
+    <li>stumbled->vacil·lant</li>
+    <li>stumbled->balandrejant</li>
+    <li>stumbled->tremolant</li>
   </Event_Stun.rulePack.rulesStrings>
   
 </LanguageData>

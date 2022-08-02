@@ -20,23 +20,22 @@
     <li>destroyed_present->breaking</li>
   -->
   <DamageEvent_Ceiling.rulePack.rulesStrings>
-    <li>damageSource->la [roof] [collapsed]</li>
-    <li>roof->teulada</li>
-    <li>roof->coberta</li>
-    <li>roof->sostre</li>
+    <li>damage_source->[roof] [collapsed] damunt de</li>
+    <li>roof->la teulada</li>
+    <li>roof->la coberta</li>
+    <li>roof->el sostre</li>
     <li>collapsed->ha col·lapsat</li>
     <li>collapsed->ha caigut</li>
     <li>collapsed->s’ha esfondrat</li>
-    <li>damaging->trencant</li>
-    <li>damaging->picant</li>
-    <li>damaging->piconant</li>
-    <li>damaging->fent un blau a</li>
-    <li>damaging->lacerant</li>
-    <li>destroying->fent a miques</li>
-    <li>destroying->esclafant</li>
-    <li>destroying->obliterant</li>
-    <li>destroying->aniquilant</li>
-    <li>destroying->trencant</li>
+    <li>damaged_present->aixafant</li>
+    <li>damaged_present->trencant</li>
+    <li>damaged_present->piconant</li>
+    <li>damaged_present->lacerant</li>
+    <li>destroyed_present->fent miques</li>
+    <li>destroyed_present->esclafant</li>
+    <li>destroyed_present->obliterant</li>
+    <li>destroyed_present->aniquilant</li>
+    <li>destroyed_present->trencant</li>
   </DamageEvent_Ceiling.rulePack.rulesStrings>
   
   <!-- EN:
@@ -57,21 +56,21 @@
     <li>destroyed_present->cremating</li>
   -->
   <DamageEvent_Fire.rulePack.rulesStrings>
-    <li>damageSource->[fire] ha cremat</li>
-    <li>fire(p=3)->foc</li>
+    <li>damageSource->[fire] ha cremat a</li>
+    <li>fire(p=3)->un incendi</li>
     <li>fire(p=3)->un foc</li>
     <li>fire(p=3)->el foc</li>
-    <li>fire->calor</li>
+    <li>fire->la cremadissa</li>
     <li>fire->una conflagració</li>
     <li>fire->un infern</li>
-    <li>damaging->socarrimant</li>
-    <li>damaging->escaldant</li>
-    <li>damaging->abrassant</li>
-    <li>damaging->cremant</li>
-    <li>destroying->carbonitzant</li>
-    <li>destroying->rostint</li>
-    <li>destroying->coent</li>
-    <li>destroying->incinerant</li>
+    <li>damaged_present->socarrimant</li>
+    <li>damaged_present->escaldant</li>
+    <li>damaged_present->abrasant</li>
+    <li>damaged_present->cremant</li>
+    <li>destroyed_present->carbonitzant</li>
+    <li>destroyed_present->socarrant</li>
+    <li>destroyed_present->calcinant</li>
+    <li>destroyed_present->incinerant</li>
   </DamageEvent_Fire.rulePack.rulesStrings>
   
   <!-- EN:
@@ -81,10 +80,10 @@
     <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   -->
   <DamageEvent_Include.rulePack.rulesStrings>
-    <li>logentry->[damageSource] [recipient_nameShortDef], [destroying] [destroyed_targets].</li>
-    <li>logentry->[damageSource] [recipient_nameShortDef], [destroying] [destroyed_targets] i [damaging] [damaged_targets].</li>
-    <li>logentry(recipient_part_destroyed_count==0)->[damageSource] [recipient_nameShortDef], [damaging] [damaged_targets].</li>
-    <li>logentry(p=0.1)->[damageSource] [recipient_nameShortDef].</li>
+    <li>r_logentry->[damage_source] [RECIPIENT_nameDef], [destroyed_present] [destroyed_targets].</li>
+    <li>r_logentry->[damage_source] [RECIPIENT_nameDef], [destroyed_present] [destroyed_targets] i [damaged_present] [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[damage_source] [RECIPIENT_nameDef], [damaged_present] [damaged_targets].</li>
+    <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   </DamageEvent_Include.rulePack.rulesStrings>
   
   <!-- EN:
@@ -103,19 +102,19 @@
     <li>light(p=0.2)->incandescence</li>
   -->
   <DamageEvent_PowerBeam.rulePack.rulesStrings>
-    <li>damageSource->Els [sky] s’han obert sobre</li>
-    <li>damageSource->Un raig de [power] increïble  [damaged_past]</li>
-    <li>damageSource->Una columna de [light] [damaged_past]</li>
-    <li>sky->cels</li>
-    <li>sky->núvols</li>
-    <li>sky->firmaments</li>
-    <li>power->poder</li>
-    <li>power->energia</li>
+    <li>damage_source->[sky] sobre</li>
+    <li>damage_source->Un raig que emetia una [power] impressionant [damaged_past]</li>
+    <li>damage_source->Una columna de [light] [damaged_past]</li>
+    <li>sky->El cel s'obre</li>
+    <li>sky->Els núvols s'obren</li>
+    <li>sky->Els cels s'obren</li>
     <li>power->calor</li>
+    <li>power->energia</li>
+    <li>power->escalfor</li>
     <li>light->llum</li>
     <li>light->calor</li>
-    <li>light->flama</li>
-    <li>light(p=0.2)->incandescència</li>
+    <li>light->flames</li>
+    <li>light(p=0.2)->foc</li>
   </DamageEvent_PowerBeam.rulePack.rulesStrings>
   
   <!-- EN:
@@ -130,15 +129,15 @@
     <li>enveloped->surrounded</li>
   -->
   <DamageEvent_Tornado.rulePack.rulesStrings>
-    <li>damageSource->Un tornado [spiraling] [enveloped]</li>
-    <li>destroyed_present(p=3)->arrencant</li>
-    <li>spiraling->en el seu gir</li>
-    <li>spiraling->en la seva espiral</li>
-    <li>spiraling->en la seva rotació</li>
+    <li>damage_source->Un tornado [spiraling] [enveloped]</li>
+    <li>destroyed_present(p=3)->arrenca i fa miques</li>
+    <li>spiraling->que gira a gran velocitat</li>
+    <li>spiraling->turbulent</li>
+    <li>spiraling->ensordidor</li>
     <li>spiraling(p=10)-></li>
-    <li>enveloped(p=8)->ha envoltat</li>
-    <li>enveloped->ha engolit</li>
-    <li>enveloped->ha rodejat</li>
+    <li>enveloped(p=8)->ha engolit</li>
+    <li>enveloped->s'ha empassat</li>
+    <li>enveloped->ha envoltat</li>
   </DamageEvent_Tornado.rulePack.rulesStrings>
   
   <!-- EN:
@@ -159,6 +158,23 @@
     <li>destroyed_present->eviscerating</li>
     <li>destroyed_present->exploding</li>
   -->
-  <DamageEvent_TrapSpike.rulePack.rulesStrings>TODO</DamageEvent_TrapSpike.rulePack.rulesStrings>
+  <DamageEvent_TrapSpike.rulePack.rulesStrings>
+    <li>damage_source->[spiketrap] ha apunyalat</li>
+    <li>damage_source->[spiketrap] ha impactat</li>
+    <li>damage_source->[spiketrap] llançant-se en</li>
+    <li>spiketrap(p=3)->una trampa de punxes</li>
+    <li>spiketrap(p=3)->la trampa de punxes</li>
+    <li>spiketrap->punxes</li>
+    <li>spiketrap->una trampa afilada</li>
+    <li>spiketrap->una trampa amb claus punxeguts</li>
+    <li>damaged_present->perforant</li>
+    <li>damaged_present->travessant</li>
+    <li>damaged_present->clavant-se</li>
+    <li>damaged_present->foradant</li>
+    <li>destroyed_present->destrossant</li>
+    <li>destroyed_present->fent miques</li>
+    <li>destroyed_present->traient les vísceres</li>
+    <li>destroyed_present->explotant</li>
+  </DamageEvent_TrapSpike.rulePack.rulesStrings>
   
 </LanguageData>

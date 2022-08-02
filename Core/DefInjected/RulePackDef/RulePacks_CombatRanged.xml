@@ -34,34 +34,34 @@
     <li>fromof->of</li>
   -->
   <Combat_ExplosionImpact.rulePack.rulesStrings>
-    <li>prefix->L’[blast] [fromof] [WEAPON_projectile_label] de [INITIATOR_definite]</li>
-    <li>prefix->L’[blast] [fromof] [WEAPON_label] de [INITIATOR_definite]</li>
-    <li>prefix->L’[blast] [fromof] [WEAPON_projectile_label] de [INITIATOR_definite]</li>
-    <li>prefix->L’[blast] [fromof] [WEAPON_label] de [INITIATOR_definite]</li>
-    <li>prefix->L’[blast] de [INITIATOR_definite]</li>
-    <li>prefix->L’[blast] de [WEAPON_projectile_label] de [INITIATOR_definite]</li>
-    <li>prefix->L’[blast] de [WEAPON_label] de [INITIATOR_definite]</li>
+    <li>prefix->[blast] [fromof] [WEAPON_projectile_label] de [INITIATOR_definite]</li>
+    <li>prefix->[blast] [fromof] [WEAPON_label] de [INITIATOR_definite]</li>
+    <li>prefix->[blast] [fromof] [WEAPON_projectile_label] de [INITIATOR_definite]</li>
+    <li>prefix->[blast] [fromof] [WEAPON_label] de [INITIATOR_definite]</li>
+    <li>prefix->[blast] de [INITIATOR_definite]</li>
+    <li>prefix->[blast] de [WEAPON_projectile_label] de [INITIATOR_definite]</li>
+    <li>prefix->[blast] de [WEAPON_label] de [INITIATOR_definite]</li>
     <li>prefix->[WEAPON_projectile_label] de [INITIATOR_definite]</li>
     <li>prefix->[WEAPON_label] de [INITIATOR_definite]</li>
     <li>r_logentry->[prefix] [injured] [RECIPIENT_definite].</li>
     <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [adverb_flavortext].</li>
-    <li>r_logentry->[prefix] [destroyed_past] [adverb_flavortext] [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] i ha [damaged_past] [damaged_targets].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] ha [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] ha [damaged_past] [damaged_targets] de [RECIPIENT_definite] [adverb_flavortext].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [adverb_flavortext] ha [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [strikeAdv].</li>
+    <li>r_logentry->[prefix] [strikeAdv] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry->[prefix] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] i [damaged_past] [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [damaged_past] [damaged_targets] de [RECIPIENT_definite] [strikeAdv].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [strikeAdv] [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry->[RECIPIENT_definite] ha estat [damaged_past] per [INITIATOR_definite].</li>
-    <li>r_logentry->[RECIPIENT_definite] ha estat [damaged_past] [adverb_flavortext] per [INITIATOR_definite].</li>
+    <li>r_logentry->[RECIPIENT_definite] ha estat [damaged_past] [strikeAdv] per [INITIATOR_definite].</li>
     <li>r_logentry->[RECIPIENT_definite] ha estat [damaged_past].</li>
-    <li>r_logentry(p=0.001)->[RECIPIENT_definite] ha estat atrapat en una explosió.</li>
-    <li>r_logentry(p=0.001)->[RECIPIENT_definite] ha estat tocat per una explosió.</li>
-    <li>blast->explosió</li>
-    <li>blast->esclat</li>
-    <li>blast->ona de xoc</li>
-    <li>blast->detonació</li>
-    <li>blast->descàrrega</li>
-    <li>blast->impacte</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite] ha quedat atrapat per l'ona expansiva.</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite] ha rebut l'impacte de l'ona expansiva.</li>
+    <li>blast->L'explosió</li>
+    <li>blast->L'esclat</li>
+    <li>blast->L'ona de xoc</li>
+    <li>blast->La detonació</li>
+    <li>blast->La descàrrega</li>
+    <li>blast->L'impacte</li>
     <li>fromof->des de</li>
     <li>fromof->de</li>
   </Combat_ExplosionImpact.rulePack.rulesStrings>
@@ -125,26 +125,22 @@
   -->
   <Combat_RangedDamage.rulePack.rulesStrings>
     <li>r_logentry->[WEAPON_projectile_label] de [INITIATOR_definite] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry->[WEAPON_projectile_label] de [INITIATOR_definite] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] [destroyed_suffix].</li>
-    <li>r_logentry->[WEAPON_projectile_label] de [INITIATOR_definite] [destroyed_past] [destroyed_targets] [RECIPIENT_definite] [expertly].</li>
+    <li>r_logentry->[WEAPON_projectile_label] de [INITIATOR_definite] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] a [destroyed_suffix].</li>
     <li>r_logentry(p=2)->[WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] i [destroyed_past] [destroyed_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry(p=2)->[WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_definite].</li>
     <li>r_logentry->[destroyed_targets] de [RECIPIENT_definite] [destroyed_past] per [WEAPON_projectile_label] de [INITIATOR_definite].</li>
-    <li>r_logentry->[destroyed_targets] de [RECIPIENT _definite] [destroyed_past] per [WEAPON_projectile_label] [expert] de [INITIATOR_definite].</li>
     <li>r_logentry->[destroyed_targets] de [RECIPIENT_definite] [destroyed_past] [destroyed_suffix] per [WEAPON_projectile_label] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_partDestroyed_count==0)->[WEAPON_projectile_label] de [INITIATOR_definite] ha [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_partDestroyed_count==0)->[WEAPON_projectile_label] de [INITIATOR_definite] ha [damaged_past] [expertly] [damaged_targets] de  [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_partDestroyed_count==0,p=2)->[WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] i ha [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_partDestroyed_count==0,p=2)->[WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [damaged_present] [damaged_targets] de [RECIPIENT_definite].</li>
-    <li>r_logentry(recipient_partDestroyed_count==0)->[damaged_targets] [RECIPIENT_definite] ha estat [damaged_past] per [WEAPON_projectile_label] de [INITIATOR_definite].</li>
-    <li>r_logentry(recipient_partDestroyed_count==0)->[damaged_targets] de [RECIPIENT_definite] ha estat [damaged_past] per [WEAPON_projectile_label] [expert] de [INITIATOR_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[WEAPON_projectile_label] de [INITIATOR_definite] ha [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] i ha [damaged_past] [damaged_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [damaged_present] [damaged_targets] de [RECIPIENT_definite].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[damaged_targets] [RECIPIENT_definite] ha estat [damaged_past] per [WEAPON_projectile_label] de [INITIATOR_definite].</li>
     <li>r_logentry(p=3)->[WEAPON_projectile_label] de [INITIATOR_definite] [destroyed_past] [destroyed_targets] de [RECIPIENT_definite] i ha [damaged_past] [damaged_targets].</li>
     <li>r_logentry(p=6)->[WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite], [destroyed_present] [destroyed_targets] de [RECIPIENT_definite] i [damaged_present] [damaged_targets].</li>
     <li>r_logentry(p=0.2)->[INITIATOR_definite] ha tocat [RECIPIENT_definite] amb [WEAPON_projectile_label].</li>
     <li>r_logentry(p=0.2)->[WEAPON_projectile_label] de [INITIATOR_definite] ha tocat [RECIPIENT_definite].</li>
     <li>r_logentry(p=0.4)->[INITIATOR_definite] [missed] [ORIGINALTARGET_definite] i ha tocat [RECIPIENT_definite] amb un [WEAPON_projectile_label].</li>
     <li>r_logentry(p=0.4)->[WEAPON_projectile_label] de [INITIATOR_definite] [missed] [ORIGINALTARGET_definite] i ha tocat [RECIPIENT_definite].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] ha tocat [RECIPIENT_definite] amb un [WEAPON_projectile_label] destinat a [ORIGINALTARGET_definite].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] ha tocat [RECIPIENT_definite] amb un [WEAPON_projectile_label] dirigit a [ORIGINALTARGET_definite].</li>
     <li>weapon_projectile_label(p=0.05)->tret</li>
     <li>destroyed_past->ha fet a miques</li>
     <li>destroyed_past->ha esclafat</li>
@@ -272,17 +268,17 @@
     <li>r_logentry->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label] [burst] a [RECIPIENT_definite].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a] [WEAPON_projectile_label].</li>
     <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot] [INITIATOR_possessive] [WEAPON_label].</li>
-    <li>shot_a->[adverb_shot] [verb_shot]</li>
+    <li>shot_a->[skillAdv] [verb_shot]</li>
     <li>shot_a(p=2)->[verb_shot]</li>
     <li>shot(p=2)->[verb_shot]</li>
-    <li>shot->[verb_shot] [adverb_shot]</li>
+    <li>shot->[verb_shot] [skillAdv]</li>
     <li>shotat->dispara [aburst] a</li>
-    <li>shotat->dispara [adverb_shot] [aburst] a</li>
+    <li>shotat->dispara [skillAdv] [aburst] a</li>
     <li>shotat(p=0.5)->ha intentat disparar [aburst] a</li>
     <li>shotat(p=0.3)->ha intentat tocar a</li>
-    <li>shotat(p=0.2)->ha intentat disparar [adjective_shot] a</li>
+    <li>shotat(p=0.2)->ha intentat disparar [skillAdv] a</li>
     <li>shotat->ha disparat [aburst] a</li>
-    <li>shotat->ha disparat [adverb_shot] [aburst] a</li>
+    <li>shotat->ha disparat [skillAdv] [aburst] a</li>
     <li>shotat(p=0.5)->ha apuntat i disparat [aburst] a</li>
     <li>shotat(p=0.3)->ha disparat contra</li>
     <li>aburst-></li>
@@ -291,19 +287,7 @@
     <li>burst(BURST==True,p=3)->ràfega</li>
     <li>verb_shot->ha disparat</li>
     <li>verb_shot->ha tirat</li>
-    <li>verb_shot->ha descarregat</li>
-    <li>adverb_shot->amb compte</li>
-    <li>adverb_shot->ràpidament</li>
-    <li>adverb_shot->amb precisió</li>
-    <li>adverb_shot->amb intenció</li>
-    <li>adverb_shot(initiator_flesh!=Mechanoid)->amb cautela</li>
-    <li>adverb_shot->amb exactitud</li>
-    <li>adverb_shot(initiator_flesh!=Mechanoid)->amb cura</li>
-    <li>adjective_shot->curós</li>
-    <li>adjective_shot->ràpid</li>
-    <li>adjective_shot->deliberat</li>
-    <li>adjective_shot->precís</li>
-    <li>adjective_shot(initiator_flesh!=Mechanoid)->cautelós</li>
+    <li>verb_shot(p=0.2)->ha descarregat</li>
   </Combat_RangedFire.rulePack.rulesStrings>
   
   <!-- EN:
@@ -431,11 +415,19 @@
     <li>missing->passant a uns centímetres de [ORIGINALTARGET_definite]</li>
     <li>missing->passant a un metre de [ORIGINALTARGET_definite]</li>
     <li>missing->desviant-se pel vent</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True)->ha saltat a un costat a l’últim segon</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True)->s’ha entrebancat en l’intent d’escapar</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True)->s’ha llençat a terra</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->s’ha cobert darrere un [COVER_definite]</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->s’ha acotat darrere un [COVER_definite]</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=2)->[moved] a un costat a l’últim [moment]</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[ducked] darrere un [COVER_definite]</li>
+    <li>moved->s'ha mogut</li>
+    <li>moved->ha saltat</li>
+    <li>moved->s'ha tirat cap</li>
+    <li>moved->l'ha esquivat movent-se</li>
+    <li>moment->moment</li>
+    <li>moment->segon</li>
+    <li>moment->instant</li>
+    <li>ducked->s'ha acatxat</li>
+    <li>ducked->s'ha ajupit</li>
+    <li>ducked->s'ha acotxat</li>
+    <li>ducked->s'ha amagat</li>
   </Combat_RangedMiss.rulePack.rulesStrings>
   
 </LanguageData>

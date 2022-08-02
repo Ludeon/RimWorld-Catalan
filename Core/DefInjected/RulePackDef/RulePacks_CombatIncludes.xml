@@ -21,13 +21,13 @@
     <li>scraped_present->rascant</li>
     <li>scraped_present->retopant</li>
     <li>scraped_present->fallant</li>
-    <li>scraped_present->llepant</li>
+    <li>scraped_present->patinant</li>
     <li>scraped_past->ha fregat</li>
     <li>scraped_past->ha rebotat</li>
     <li>scraped_past->ha rascat</li>
     <li>scraped_past->ha retopat</li>
     <li>scraped_past->ha fallat</li>
-    <li>scraped_past->ha llepat</li>
+    <li>scraped_past->ha patinat</li>
   </Combat_DeflectIncludes.rulePack.rulesStrings>
   
   <!-- EN:
@@ -47,8 +47,8 @@
     <li>tried->attempted</li>
   -->
   <Combat_FailIncludes.rulePack.rulesStrings>
-    <li>action->[INITIATOR_definite] [tried] [damaged_inf] [RECIPIENT_definite]</li>
-    <li>action->[INITIATOR_definite] [tried] [damaged_inf] [RECIPIENT_definite] amb [implement]</li>
+    <li>action->[INITIATOR_definite] [tried] [damaged_inf] a [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] [tried] [damaged_inf] a [RECIPIENT_definite] amb [implement]</li>
     <li>action->[INITIATOR_definite] [tried] fer servir [implement] per [damaged_inf] [RECIPIENT_definite]</li>
     <li>action->[INITIATOR_definite] ha brandat [WEAPON_label] contra [RECIPIENT_definite]</li>
     <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] amb [implement]</li>
@@ -77,32 +77,16 @@
     <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
   -->
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
-    <li>result(p=0.5)->[damaged_present] [targetlist]</li>
-    <li>result(p=0.1)->[damaged_present] [targetlist] [adverb_flavortext]</li>
-    <li>result(p=0.1)->[damaged_present] [targetlist] [flavortext_situation]</li>
-    <li>result(p=0.1)->[damaged_present] [targetlist] i [flavortext_consequence]</li>
-    <li>adverb_flavortext->dolorosament</li>
-    <li>adverb_flavortext->brutalment</li>
-    <li>adverb_flavortext->horriblement</li>
-    <li>adverb_flavortext->en agonia</li>
-    <li>adverb_flavortext->ferotgement</li>
-    <li>adverb_flavortext->desapiadadament</li>
-    <li>adverb_flavortext->salvatgement</li>
-    <li>adverb_flavortext->agressivament</li>
-    <li>adverb_flavortext->despietadament</li>
-    <li>adverb_flavortext->cruelment</li>
-    <li>flavortext_situation(recipient_flesh!=Mechanoid)->en una explosió de sang</li>
-    <li>flavortext_situation(recipient_flesh==Mechanoid)->en una explosió de ferralla</li>
-    <li>flavortext_situation->fredament</li>
-    <li>flavortext_situation(p=0.4)->amb un aspecte pàl·lid</li>
-    <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->amb una mirada salvatge</li>
-    <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->amb un aspecte [AdjectiveBadass]</li>
-    <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->amb una ganyota</li>
-    <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->amb una riallada</li>
-    <li>flavortext_situation(p=0.2,initiator_flesh==Normal)->amb un somriure de superioritat</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->deixant una ferida lletja</li>
+    <li>result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist]</li>
+    <li>result(p=0.2)->[damaged_present] [RECIPIENT_possessive] [targetlist] i [flavortext_consequence]</li>
+    <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
+    <li>strikeAdv->dolorosament</li>
+    <li>strikeAdv->horriblement</li>
+    <li>strikeAdv->de manera salvatge</li>
+    <li>strikeAdv->sense pietat</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->deixant una ferida profunda</li>
     <li>flavortext_consequence->deixant una ferida horrible</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->fent [RECIPIENT_objective] [wince] [painevent]</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->fent que [RECIPIENT_objective] [wince] [painevent]</li>
     <li>flavortext_consequence(p=0.2)->fent desequilibrar a [RECIPIENT_objective]</li>
   </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
@@ -147,29 +131,16 @@
     <li>to->into</li>
   -->
   <Combat_MeleeIncludes.rulePack.rulesStrings>
-    <li>logentry->[action], [result].</li>
-    <li>logentry(p=0.2)->[action].</li>
+    <li>r_logentry->[action], [result].</li>
+    <li>r_logentry(priority=-10)->[action].</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[TOOL_label] de [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[TOOL_label] de [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->[WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[TOOL_label]</li>
-    <li>implement(IMPLEMENTOWNER_type==bodypart,p=1)->[adjective_bodypart] [TOOL_label]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[TOOL_label] de [WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[WEAPON_label]</li>
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[TOOL_label]</li>
-    <li>adjective_bodypart->dur</li>
-    <li>adjective_bodypart->fort</li>
-    <li>adjective_bodypart->potent</li>
-    <li>adjective_bodypart->enèrgic</li>
-    <li>adjective_bodypart->poderós</li>
-    <li>adjective_bodypart->resistent</li>
-    <li>adjective_bodypart->robust</li>
-    <li>adjective_bodypart->fornit</li>
-    <li>adjective_bodypart->sòlid</li>
-    <li>adjective_bodypart->corretjós</li>
-    <li>adjective_bodypart(initiator_flesh==True)->callós</li>
-    <li>adjective_bodypart->ferm</li>
     <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
     <li>targetlist(recipient_part_count==2)->[recipient_part0_label] i [recipient_part1_label]</li>
     <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], i [recipient_part2_label]</li>
@@ -180,24 +151,23 @@
     <li>destroyed(p=0.5)->demolit</li>
     <li>destroyed(p=0.5)->desfet</li>
     <li>destroyed(p=0.5)->trencat</li>
-    <li>wince(recipient_flesh==Normal)->gest de dolor</li>
-    <li>wince(recipient_flesh==Normal)->gest</li>
-    <li>wince(recipient_flesh==Normal)->encongit</li>
-    <li>wince(recipient_flesh==Normal)->gemec</li>
-    <li>wince(recipient_flesh!=Mechanoid)->xiscle</li>
-    <li>wince(recipient_flesh!=Mechanoid)->crit</li>
-    <li>wince->pas enrere</li>
-    <li>wince->entrebanc</li>
-    <li>painstate->en</li>
-    <li>painstate->amb</li>
-    <li>painstate->del</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] dolor</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] mal</li>
-    <li>painevent(recipient_flesh==Normal)->miserablement</li>
+    <li>wince(recipient_flesh==Normal)->s'estremeixi</li>
+    <li>wince(recipient_flesh==Normal)->retorci la cara</li>
+    <li>wince(recipient_flesh==Normal)->sangloti</li>
+    <li>wince(recipient_flesh==Normal)->gemegui</li>
+    <li>wince(recipient_flesh!=Mechanoid)->xiscli</li>
+    <li>wince(recipient_flesh!=Mechanoid)->cridi</li>
+    <li>wince->fa un pas enrere</li>
+    <li>wince->s'entrebanca</li>
+    <li>painstate-></li>
+    <li>painstate-></li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate]de dolor</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate]d'agonia</li>
+    <li>painevent(recipient_flesh==Normal)->tot esgarrifat</li>
+    <li>painevent(recipient_flesh==Normal)->tot corglaçat</li>
+    <li>painevent(recipient_flesh==Normal)->espantat</li>
     <li>painevent->de dolor</li>
     <li>painevent->de la ferida</li>
-    <li>to->a</li>
-    <li>to->en</li>
     <li>to->a</li>
     <li>to->en</li>
   </Combat_MeleeIncludes.rulePack.rulesStrings>
@@ -252,7 +222,56 @@
     <li>skillAdv(initiator_flesh==Mechanoid)->robotically</li>
     <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
   -->
-  <Combat_SkillIncludes.rulePack.rulesStrings>TODO</Combat_SkillIncludes.rulePack.rulesStrings>
+  <Combat_SkillIncludes.rulePack.rulesStrings>
+    <li>skillDescMelee->[wielding] [WEAPON_label] [skillAdv]</li>
+    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
+    <li>wielding(p=4)->utilitzant</li>
+    <li>wielding(p=3)->usant</li>
+    <li>wielding(p=2)->fent servir</li>
+    <li>wielding->brandant</li>
+    <li>wielding->manipulant</li>
+    <li>using(p=4)->usant</li>
+    <li>using->conduint</li>
+    <li>using->empenyent</li>
+    <li>using->utilitzant</li>
+    <li>using->movent</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->sense tenir massa clar com fer-ho</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->de manera matussera</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->amb dificultat</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->com un sapastre</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->a la babalà</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->de manera vergonyant</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->amb poca traça</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->amb por</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->sense pensar</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->de manera ridícula</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->vacil·lant</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->a contracor</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->lentament</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->amb calma</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->de manera poc experta</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->com un aficionat</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->tímidament</li>
+    <li>skillAdv(INITIATOR_skill&lt;=8)->amb entusiasme</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->amb destresa</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->amb competència</li>
+    <li>skillAdv(INITIATOR_skill>=8)->amb professionalitat</li>
+    <li>skillAdv(INITIATOR_skill>=8)->amb estil</li>
+    <li>skillAdv(INITIATOR_skill>=8)->impecablement</li>
+    <li>skillAdv(INITIATOR_skill>=8)->amb cura</li>
+    <li>skillAdv(INITIATOR_skill>=8)->amb domini</li>
+    <li>skillAdv(INITIATOR_skill>=8)->amb tècnica</li>
+    <li>skillAdv(INITIATOR_skill>=10)->amb força</li>
+    <li>skillAdv(INITIATOR_skill>=10)->amb habilitat</li>
+    <li>skillAdv(INITIATOR_skill>=12)->amb traça</li>
+    <li>skillAdv(INITIATOR_skill>=12)->amb precisió</li>
+    <li>skillAdv(INITIATOR_skill>=14)->magistralment</li>
+    <li>skillAdv(INITIATOR_skill>=16)->com si fos un artista</li>
+    <li>skillAdv(INITIATOR_skill>=16)->amb gràcia</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->mecànicament</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->amb els seus moviments robòtics</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->directe sense pensar-ho</li>
+  </Combat_SkillIncludes.rulePack.rulesStrings>
   
   <!-- EN:
     <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
@@ -267,52 +286,12 @@
   <Combat_WoundIncludes.rulePack.rulesStrings>
     <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
     <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] i [recipient_part_destroyed1_label]</li>
-    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], i [recipient_part_destroyed2_label]</li>
-    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], i [recipient_part_destroyed3_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label] i [recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label] i [recipient_part_destroyed3_label]</li>
     <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
     <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] i [recipient_part_damaged1_label]</li>
-    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], i [recipient_part_damaged2_label]</li>
-    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], i [recipient_part_damaged3_label]</li>
-    <li>expertly->de forma experta</li>
-    <li>expertly->hàbilment</li>
-    <li>expertly->amb destresa</li>
-    <li>expertly->destrament</li>
-    <li>expertly->amb habilitat</li>
-    <li>expertly->impecablement</li>
-    <li>expertly->amb professionalitat</li>
-    <li>expertly->encertadament</li>
-    <li>expertly->amb mestria</li>
-    <li>expertly->astutament</li>
-    <li>expertly->com un mestre</li>
-    <li>expertly->de forma artística</li>
-    <li>expertly->amb habilitat</li>
-    <li>expertly->amb una experiència impressionant</li>
-    <li>expertly->amb estil</li>
-    <li>expertly->amb cura</li>
-    <li>expertly->amb precisió</li>
-    <li>expertly->amb domini</li>
-    <li>expertly->amb força</li>
-    <li>expertly->amb traça</li>
-    <li>expertly->amb tècnica</li>
-    <li>expertly->amb art</li>
-    <li>expertly->amb professionalisme</li>
-    <li>expertly->com un virtuós</li>
-    <li>expertly->com un expert</li>
-    <li>expertly->com un mestre</li>
-    <li>expertly->com un artista</li>
-    <li>expertly->com un professional</li>
-    <li>expert->expert</li>
-    <li>expert->adepte</li>
-    <li>expert->destre</li>
-    <li>expert->hàbil</li>
-    <li>expert->amb talent</li>
-    <li>expert->bo</li>
-    <li>expert->professional</li>
-    <li>expert->apte</li>
-    <li>expert->destre</li>
-    <li>expert->llest</li>
-    <li>expert->mestre</li>
-    <li>expert->artista</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label] i [recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label] i [recipient_part_damaged3_label]</li>
   </Combat_WoundIncludes.rulePack.rulesStrings>
   
 </LanguageData>
