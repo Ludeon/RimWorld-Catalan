@@ -5,7 +5,7 @@
   <!-- EN: Bills -->
   <TabBills>Programa</TabBills>
   <!-- EN: Growing -->
-  <TabGrowing>Cultiu</TabGrowing>
+  <TabGrowing>Conreu</TabGrowing>
   <!-- EN: Bio -->
   <TabCharacter>Personatge</TabCharacter>
   <!-- EN: Training -->
@@ -85,39 +85,39 @@
   <!-- EN: Resistance -->
   <RecruitmentResistance>Resistència</RecruitmentResistance>
   <!-- EN: How much doubt this prisoner has about joining your faction. When this reaches zero, they can be recruited. -->
-  <RecruitmentResistanceDesc>TODO</RecruitmentResistanceDesc>
+  <RecruitmentResistanceDesc>Els dubtes que té el presoner d'unir-se a la vostra facció. Quan arriba a zero, se'l pot reclutar.</RecruitmentResistanceDesc>
   <!-- EN: {0} base resistance -->
-  <RecruitmentResistanceFromPawnKind>TODO</RecruitmentResistanceFromPawnKind>
+  <RecruitmentResistanceFromPawnKind>Resistència base: {0}</RecruitmentResistanceFromPawnKind>
   <!-- EN: Relations gain on release -->
-  <PrisonerReleasePotentialRelationGains>TODO</PrisonerReleasePotentialRelationGains>
+  <PrisonerReleasePotentialRelationGains>Millora de la relació quan s'allibera</PrisonerReleasePotentialRelationGains>
   <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
-  <PrisonerReleaseRelationGainsDesc>TODO</PrisonerReleaseRelationGainsDesc>
+  <PrisonerReleaseRelationGainsDesc>Indica com milloraran les relacions amb la facció del presoner si se l'allibera. Depèn de la identitat, salut i condicions mentals del presoner.</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
   <PrisonBreakMTBDays>Interval entre fugues de la presó</PrisonBreakMTBDays>
   <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
-  <PrisonBreakMTBDaysDescription>TODO</PrisonBreakMTBDaysDescription>
+  <PrisonBreakMTBDaysDescription>La mitjana de dies entre intents de fuga de les presons. Depèn de l'estat d'ànim, de la mobilitat, del nombre de portes a la cel·la i el temps que ha passat des de l'últim intent de fuga.\n\nTingueu en compte que no inclou el temps que es passa adormit.</PrisonBreakMTBDaysDescription>
   <!-- EN: Never -->
   <Never>Mai</Never>
   <!-- EN: Not while asleep -->
   <NotWhileAsleep>No mentre dorm</NotWhileAsleep>
   <!-- EN: Breaking out now -->
-  <CurrentlyPrisonBreaking>S'està escapant de la presó.</CurrentlyPrisonBreaking>
+  <CurrentlyPrisonBreaking>S'escapa de la presó.</CurrentlyPrisonBreaking>
   <!-- EN: Multiplier for door count -->
   <FactorForDoorCount>Multiplicador per nombre de portes</FactorForDoorCount>
   <!-- EN: Multiplier for movement -->
-  <FactorForMovement>Multiplicador per moviment</FactorForMovement>
+  <FactorForMovement>Multiplicador per mobilitat</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Preu de l'esclau</SlavePrice>
   <!-- EN: The base market value of this {0} if sold. -->
   <SlavePriceDescription>Preu base del valor de mercat d'aquest {0} si es ven.</SlavePriceDescription>
   <!-- EN: Gets food -->
-  <GetsFood>Porta menjar</GetsFood>
+  <GetsFood>Rep menjar</GetsFood>
   <!-- EN: Doctors care -->
-  <DoctorsCare>Cures mèdiques</DoctorsCare>
+  <DoctorsCare>Atenció mèdica</DoctorsCare>
   <!-- EN: Gets medicine -->
-  <GetsMedicine>Emprar medicines</GetsMedicine>
+  <GetsMedicine>Rep medicines</GetsMedicine>
   <!-- EN: Try to recruit -->
-  <ShouldTryToRecruit>Provar de reclutar</ShouldTryToRecruit>
+  <ShouldTryToRecruit>Intenta reclutar</ShouldTryToRecruit>
   <!-- EN: Considered guilty (expires in {0}) -->
   <ConsideredGuilty>Considerat culpable (expira en {0})</ConsideredGuilty>
   <!-- EN: Considered guilty -->
@@ -129,21 +129,21 @@
   <!-- EN: Efficiency -->
   <Efficiency>Eficiència</Efficiency>
   <!-- EN: Part efficiency -->
-  <PartEfficiency>Eficiència de la pròtesi</PartEfficiency>
+  <PartEfficiency>Eficiència de la part</PartEfficiency>
   <!-- EN: Body part efficiency -->
   <BodyPartEfficiency>Eficiència de la part del cos</BodyPartEfficiency>
   <!-- EN: Gone -->
-  <MissingBodyPart>Fora</MissingBodyPart>
+  <MissingBodyPart>Perduda</MissingBodyPart>
   <!-- EN: Destroyed -->
-  <DestroyedBodyPart>Destrossat</DestroyedBodyPart>
+  <DestroyedBodyPart>Destrossada</DestroyedBodyPart>
   <!-- EN: Shattered -->
-  <ShatteredBodyPart>Fet a miques</ShatteredBodyPart>
+  <ShatteredBodyPart>Feta a miques</ShatteredBodyPart>
   <!-- EN: Removed -->
-  <RemovedBodyPart>Arrencat</RemovedBodyPart>
+  <RemovedBodyPart>Amputada</RemovedBodyPart>
   <!-- EN: Healthy -->
   <Healthy>Saludable</Healthy>
   <!-- EN: In pain -->
-  <InPain>Dolorit</InPain>
+  <InPain>Adolorit</InPain>
   <!-- EN: Pain -->
   <PainLevel>Dolor</PainLevel>
   <!-- EN: Injured -->
@@ -151,19 +151,19 @@
   <!-- EN: Untended injury -->
   <UntendedInjury>Lesió sense atendre</UntendedInjury>
   <!-- EN: no health conditions -->
-  <NoHealthConditions>cap problema de salut</NoHealthConditions>
+  <NoHealthConditions>sense problemes de salut</NoHealthConditions>
   <!-- EN: Whole body -->
   <WholeBody>Tot el cos</WholeBody>
   <!-- EN: Data processing -->
-  <DataProcessing>Es processen les dades</DataProcessing>
+  <DataProcessing>Processament de dades</DataProcessing>
   <!-- EN: Communication -->
   <Communication>Comunicació</Communication>
   <!-- EN: Affects -->
-  <Affects>Afecta</Affects>
+  <Affects>Afecta a</Affects>
   <!-- EN: Bleeding -->
-  <BleedingRate>Sagna</BleedingRate>
+  <BleedingRate>Hemorràgia</BleedingRate>
   <!-- EN: death in {0} -->
-  <TimeToDeath>Morirà en {0}</TimeToDeath>
+  <TimeToDeath>morirà d'aquí {0}</TimeToDeath>
   <!-- EN: no immediate danger -->
   <WontBleedOutSoon>no hi ha perill immediat</WontBleedOutSoon>
   <!-- EN: Overview -->
@@ -175,17 +175,17 @@
   <!-- EN: Medical operations -->
   <MedicalOperations>Operacions mèdiques</MedicalOperations>
   <!-- EN: amputate -->
-  <Amputate>amputar</Amputate>
+  <Amputate>amputa</Amputate>
   <!-- EN: harvest -->
-  <HarvestOrgan>extreure</HarvestOrgan>
+  <HarvestOrgan>extrau</HarvestOrgan>
   <!-- EN: remove -->
-  <RemoveOrgan>treure</RemoveOrgan>
+  <RemoveOrgan>treu</RemoveOrgan>
   <!-- EN: memory -->
   <MemoryLower>memòria</MemoryLower>
   <!-- EN: social interactions -->
   <SocialInteractionsLower>interaccions socials</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
-  <HungerRate>Índex de gana</HungerRate>
+  <HungerRate>Ritme de la gana</HungerRate>
   <!-- EN: Tiredness -->
   <Tiredness>Cansament</Tiredness>
   <!-- EN: Pain -->
@@ -193,15 +193,15 @@
   <!-- EN: Prevents infection -->
   <PreventsInfection>Prevé infeccions</PreventsInfection>
   <!-- EN: Self-tend -->
-  <SelfTend>Auto-cures</SelfTend>
+  <SelfTend>Permet atendre's un mateix</SelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <SelfTendTip>{0} amb auto-cures habilitat intentarà curar-se a si mateix amb un {1} de l’eficiència normal.</SelfTendTip>
+  <SelfTendTip>Amb aquesta opció activada, {0_definite} s'atendrà mèdicament a si mateix amb un {1} de l’eficiència normal.</SelfTendTip>
   <!-- EN: death in {0} -->
   <DeathIn>mort en {0}</DeathIn>
   
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
-  <None>Cap</None>
+  <None>Gens</None>
   <!-- EN: Very poor -->
   <VeryPoor>Molt poc</VeryPoor>
   <!-- EN: Poor -->
@@ -213,15 +213,15 @@
   <!-- EN: Enhanced -->
   <Enhanced>Millorat</Enhanced>
   <!-- EN: Seriously impaired -->
-  <SeriouslyImpaired>Seriosament disminuït</SeriouslyImpaired>
+  <SeriouslyImpaired>Molt danyat</SeriouslyImpaired>
   <!-- EN: Impaired -->
-  <Impaired>Disminuït</Impaired>
+  <Impaired>Danyat</Impaired>
   <!-- EN: Slightly impaired -->
-  <SlightlyImpaired>Una mica disminuït</SlightlyImpaired>
+  <SlightlyImpaired>Una mica danyat</SlightlyImpaired>
   <!-- EN: None -->
   <NoPain>Gens</NoPain>
   <!-- EN: Little -->
-  <LittlePain>Poc</LittlePain>
+  <LittlePain>Lleu</LittlePain>
   <!-- EN: Medium -->
   <MediumPain>Mitjà</MediumPain>
   <!-- EN: Severe -->
@@ -231,18 +231,18 @@
 
   <!-- Training tab -->
   <!-- EN: Trainability -->
-  <Trainability>Capacitat d’aprenentatge</Trainability>
+  <Trainability>Docilitat</Trainability>
   <!-- EN: Requires {0} trainability. -->
-  <CannotTrainNotSmartEnough>Necessita Capacitat d’aprenentatge {0}.</CannotTrainNotSmartEnough>
+  <CannotTrainNotSmartEnough>Necessita {0} de docilitat.</CannotTrainNotSmartEnough>
   <!-- EN: {1_labelShort} is too small to train this. -->
-  <CannotTrainTooSmall>{0} massa petit per entrenar-ho.</CannotTrainTooSmall>
+  <CannotTrainTooSmall>{1_labelShort} és massa peti{1_gender ? t : ta} per ensinistrar-{1_gender ? lo : la}.</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
-  <TrainingNeedsPrerequisite>Necessita el requisit: {0}</TrainingNeedsPrerequisite>
+  <TrainingNeedsPrerequisite>Requisit necessari: {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
   <!-- EN: (no relationships) -->
-  <NoRelationships>(cap relació)</NoRelationships>
+  <NoRelationships>(sense relacions)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>Segrestat</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
@@ -254,9 +254,9 @@
   <!-- EN: Faction leader -->
   <FactionLeader>Líder de facció</FactionLeader>
   <!-- EN: Opinion of {1_labelShort} -->
-  <OpinionOf>Opinió de {0}</OpinionOf>
+  <OpinionOf>Opinió de {1_labelShort}</OpinionOf>
   <!-- EN: {1_labelShort}'s opinion of me -->
-  <SomeonesOpinionOfMe>Opinió que té {0} sobre mi</SomeonesOpinionOfMe>
+  <SomeonesOpinionOfMe>Opinió que té {1_labelShort} sobre mi</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>Estic mort</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -270,41 +270,41 @@
   <!-- EN: Comfortable temperature range -->
   <ComfyTemperatureRange>Rang de temperatura de confort</ComfyTemperatureRange>
   <!-- EN: Blunt -->
-  <ArmorBlunt>Cops</ArmorBlunt>
+  <ArmorBlunt>Contundent</ArmorBlunt>
   <!-- EN: Sharp -->
-  <ArmorSharp>Talls</ArmorSharp>
+  <ArmorSharp>Tallant</ArmorSharp>
   <!-- EN: Heat -->
   <ArmorHeat>Calor</ArmorHeat>
   
   <!-- Log tab -->
   <!-- EN: Show all -->
-  <ShowAll>Tot</ShowAll>
+  <ShowAll>Mostra-ho tot</ShowAll>
   <!-- EN: Show combat -->
-  <ShowCombat>Combat</ShowCombat>
+  <ShowCombat>Mostra els de combat</ShowCombat>
   <!-- EN: Show social -->
-  <ShowSocial>Social</ShowSocial>
+  <ShowSocial>Mostra els socials</ShowSocial>
   <!-- EN: no recent entries -->
-  <NoRecentEntries>Cap entrada recent</NoRecentEntries>
+  <NoRecentEntries>cap entrada recent</NoRecentEntries>
   <!-- EN: Copy log to the clipboard. -->
   <CopyLogTip>Copia el registre al porta-retalls.</CopyLogTip>
 
   <!-- Forming caravan tab -->
   <!-- EN: Gathering animals -->
-  <FormingCaravanStatus_GatheringAnimals>S'estan agrupant els animals.</FormingCaravanStatus_GatheringAnimals>
+  <FormingCaravanStatus_GatheringAnimals>Es van agrupant els animals.</FormingCaravanStatus_GatheringAnimals>
   <!-- EN: Gathering animals (waiting) -->
-  <FormingCaravanStatus_GatheringAnimals_Pause>S'estan agrupant els animals (en espera).</FormingCaravanStatus_GatheringAnimals_Pause>
+  <FormingCaravanStatus_GatheringAnimals_Pause>Es van agrupant els animals (en espera).</FormingCaravanStatus_GatheringAnimals_Pause>
   <!-- EN: Gathering items -->
-  <FormingCaravanStatus_GatheringItems>S'estan recollint els materials.</FormingCaravanStatus_GatheringItems>
+  <FormingCaravanStatus_GatheringItems>Es van recollint els materials.</FormingCaravanStatus_GatheringItems>
   <!-- EN: Gathering items (waiting) -->
-  <FormingCaravanStatus_GatheringItems_Pause>S'estan recollint els materials (en espera).</FormingCaravanStatus_GatheringItems_Pause>
+  <FormingCaravanStatus_GatheringItems_Pause>Es van recollint els materials (en espera).</FormingCaravanStatus_GatheringItems_Pause>
   <!-- EN: Gathering downed people -->
-  <FormingCaravanStatus_GatheringDownedPawns>S'està reunint la gent inconscient.</FormingCaravanStatus_GatheringDownedPawns>
+  <FormingCaravanStatus_GatheringDownedPawns>Es reuneix la gent inconscient.</FormingCaravanStatus_GatheringDownedPawns>
   <!-- EN: Gathering downed people (waiting) -->
-  <FormingCaravanStatus_GatheringDownedPawns_Pause>S'està reunint la gent inconscient (en espera).</FormingCaravanStatus_GatheringDownedPawns_Pause>
+  <FormingCaravanStatus_GatheringDownedPawns_Pause>Es reuneix la gent inconscient (en espera).</FormingCaravanStatus_GatheringDownedPawns_Pause>
   <!-- EN: Leaving -->
-  <FormingCaravanStatus_Leaving>S'està sortint.</FormingCaravanStatus_Leaving>
+  <FormingCaravanStatus_Leaving>La caravana va sortint.</FormingCaravanStatus_Leaving>
   <!-- EN: Leaving (waiting) -->
-  <FormingCaravanStatus_Leaving_Pause>S'està sortint (en espera).</FormingCaravanStatus_Leaving_Pause>
+  <FormingCaravanStatus_Leaving_Pause>La caravana va sortint (en espera).</FormingCaravanStatus_Leaving_Pause>
   <!-- EN: Waiting -->
   <FormingCaravanStatus_Waiting>En espera</FormingCaravanStatus_Waiting>
   <!-- EN: Members -->
@@ -322,7 +322,7 @@
 
   <!-- Transporter contents -->
   <!-- EN: Remove {{0}}x {0} -->
-  <RemoveSliderText>Deixa {{0}}x {0}</RemoveSliderText>
+  <RemoveSliderText>Deixa {{0}}× {0}</RemoveSliderText>
   <!-- EN: Contained items -->
   <ContainedItems>Contingut</ContainedItems>
   <!-- EN: Do you really want to remove {0}? -->
@@ -330,26 +330,26 @@
   
   <!-- Quests tab -->
   <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
-  <DismissQuest>TODO</DismissQuest>
+  <DismissQuest>Descarta aquesta missió i mou-la a la pestanya històrica.\n\nLa missió es pot readmetre en qualsevol moment. Els seus efectes i temps de finalització prosseguiran igual. No rebreu notificacions de les missions descartades.</DismissQuest>
   <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
-  <UnDismissQuest>TODO</UnDismissQuest>
+  <UnDismissQuest>Readmet aquesta missió.\n\nLa missió es mostrarà de nou a la pestanya de missions actives i se'n tornaran a rebre les notificacions.</UnDismissQuest>
   <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
-  <QuestDismissed>TODO</QuestDismissed>
+  <QuestDismissed>Aquesta missió està aquí perquè es va descartar.\n\nSi voleu, la podeu readmetre.</QuestDismissed>
   <!-- EN: Delete this quest and remove it from the quest list forever. -->
-  <DeleteQuest>TODO</DeleteQuest>
+  <DeleteQuest>Esborra aquesta missió i traieu-la de la llista per sempre.</DeleteQuest>
 
   <!-- Animal pen food tab -->
   <!-- EN: enclose the pen marker to calculate food information -->
-  <PenFoodTab_NotEnclosed>TODO</PenFoodTab_NotEnclosed>
+  <PenFoodTab_NotEnclosed>tanqueu el corral per calcular-ne la informació alimentària</PenFoodTab_NotEnclosed>
 
   <!-- EN: Nutrition stockpiled -->
   <PenFoodTab_StockpileTotal>Nutrients acumulats</PenFoodTab_StockpileTotal>
   <!-- EN: The total nutrition of stockpiled food in the pen. -->
-  <PenFoodTab_StockpileTotalDescription>TODO</PenFoodTab_StockpileTotalDescription>
+  <PenFoodTab_StockpileTotalDescription>El total de nutrients del menjar acumulat al corral.</PenFoodTab_StockpileTotalDescription>
   <!-- EN: Days to stockpile exhaustion -->
-  <PenFoodTab_StockpileEmptyDays>TODO</PenFoodTab_StockpileEmptyDays>
+  <PenFoodTab_StockpileEmptyDays>Dies perquè s'exhaureixi el menjar acumulat</PenFoodTab_StockpileEmptyDays>
   <!-- EN: Nutrition consumption exceeds nutrition growth rate in this pen. The animals will eventually eat all the stockpiled food and starve. -->
-  <PenFoodTab_StockpileEmptyDaysDescription>TODO</PenFoodTab_StockpileEmptyDaysDescription>
+  <PenFoodTab_StockpileEmptyDaysDescription>El consum dels animals del corral és major que el ritme de creixement dels nutrients. Els animals acabaran menjant-se totes les reserves i passaran gana.</PenFoodTab_StockpileEmptyDaysDescription>
 
   <!-- EN: Animal type -->
   <PenFoodTab_AnimalType>Tipus d'animal</PenFoodTab_AnimalType>
@@ -362,20 +362,20 @@
   <!-- EN: per day -->
   <PenFoodTab_NutritionPerDay_Unit>per dia</PenFoodTab_NutritionPerDay_Unit>
   <!-- EN: Force display animal... -->
-  <PenFoodTab_AddAnimal>TODO</PenFoodTab_AddAnimal>
+  <PenFoodTab_AddAnimal>Afegeix un animal de prova</PenFoodTab_AddAnimal>
 
   <!-- EN: Nutrition growth -->
   <PenFoodTab_NaturalNutritionGrowthRate>Creixement dels nutrients</PenFoodTab_NaturalNutritionGrowthRate>
   <!-- EN: Growth per season -->
-  <PenFoodTab_GrowthPerSeason>Creixement per temporada</PenFoodTab_GrowthPerSeason>
+  <PenFoodTab_GrowthPerSeason>Creixement per estació</PenFoodTab_GrowthPerSeason>
   <!-- EN: Nutrition consumption -->
   <PenFoodTab_TotalNutritionConsumptionRate>Consum de nutrients</PenFoodTab_TotalNutritionConsumptionRate>
   <!-- EN: The average nutrition provided by edible plants in this pen. -->
   <PenFoodTab_NaturalNutritionGrowthRateDescription>Els nutrients que proporcionen de mitjana les plantes comestibles en aquest corral.</PenFoodTab_NaturalNutritionGrowthRateDescription>
   <!-- EN: The nutrition needed by animals currently in this pen.\n\nTo get more food, expand the pen to cover more wild plant growth, or deliver stockpiled food like haygrass to the pen. -->
-  <PenFoodTab_NutritionConsumptionDescription>TODO</PenFoodTab_NutritionConsumptionDescription>
+  <PenFoodTab_NutritionConsumptionDescription>Els nutrients que necessiten els animals d'aquest corral.\n\nPer aconseguir més menjar, expandiu el corral perquè hi hagi més plantes o porteu-hi menjar emmagatzemat, com ara farratge.</PenFoodTab_NutritionConsumptionDescription>
   <!-- EN: Note: Plant growth rate varies due to seasons, weather, theft by wild animals, and other factors. These calculations are approximations. -->
-  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>TODO</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
+  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>Nota: El ritme de creixement de les plantes varia segons l'estació, el clima i la sostreta dels animals salvatge, així com d'altres factors. Aquests valors són estimacions.</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
 
   <!-- EN: Total consumption -->
   <PenFoodTab_NutritionConsumedPerDay_ColumLabel>Consum total</PenFoodTab_NutritionConsumedPerDay_ColumLabel>

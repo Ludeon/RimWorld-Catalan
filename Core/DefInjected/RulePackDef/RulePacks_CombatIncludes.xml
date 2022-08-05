@@ -143,8 +143,8 @@
     <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[TOOL_label]</li>
     <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
     <li>targetlist(recipient_part_count==2)->[recipient_part0_label] i [recipient_part1_label]</li>
-    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], i [recipient_part2_label]</li>
-    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], i [recipient_part3_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label] i [recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label] i [recipient_part3_label]</li>
     <li>damaged_present(deflected!=True)->ferint</li>
     <li>damaged_present(deflected!=True)->lesionant</li>
     <li>destroyed(p=0.5)->destrossat</li>

@@ -6,7 +6,7 @@
   <!-- EN: Mental state: Tantrum -->
   <BedroomTantrum.baseInspectLine>Estat mental: rabieta</BedroomTantrum.baseInspectLine>
   <!-- EN: {0} is having a tantrum.\n\n[PAWN_pronoun] is going to smash things in [PAWN_possessive] room. -->
-  <BedroomTantrum.beginLetter>{0} té una rabieta. [PAWN_pronoun] axiafarà els mobles de la seva habitació.</BedroomTantrum.beginLetter>
+  <BedroomTantrum.beginLetter>{0} té una rabieta. [PAWN_pronoun] trencarà coses de la seva cambra.</BedroomTantrum.beginLetter>
   <BedroomTantrum.beginLetterLabel>rabieta</BedroomTantrum.beginLetterLabel>
   <!-- EN: {0} is no longer having a tantrum. -->
   <BedroomTantrum.recoveryMessage>{0} ja no té una rabieta.</BedroomTantrum.recoveryMessage>
@@ -99,10 +99,10 @@
   <!-- EN: Mental state: Murderous rage -->
   <MurderousRage.baseInspectLine>Estat mental: Fúria assassina</MurderousRage.baseInspectLine>
   <!-- EN: {0} has flown into a murderous rage.\n\n[PAWN_pronoun] has decided to kill {1}. -->
-  <MurderousRage.beginLetter>{0} està en fúria assassina. Matarà a {1}.</MurderousRage.beginLetter>
+  <MurderousRage.beginLetter>{0} està en fúria assassina. Vol matar a {1}.</MurderousRage.beginLetter>
   <MurderousRage.beginLetterLabel>fúria assassina</MurderousRage.beginLetterLabel>
   <!-- EN: {0} is no longer in a murderous rage. -->
-  <MurderousRage.recoveryMessage>{0} ja no estpa u fúria assassina.</MurderousRage.recoveryMessage>
+  <MurderousRage.recoveryMessage>{0} ja no està en un estat de fúria assassina.</MurderousRage.recoveryMessage>
   
   <!-- EN: sadistic rage -->
   <SadisticRage.label>rabieta sàdica</SadisticRage.label>
@@ -176,15 +176,15 @@
   <Wander_Psychotic.recoveryMessage>{0} ja no volta en estat psicòtic.</Wander_Psychotic.recoveryMessage>
   
   <!-- EN: wandering in psychosis -->
-  <Wander_Psychotic_Short.label>TODO</Wander_Psychotic_Short.label>
+  <Wander_Psychotic_Short.label>vagant amb psicosi</Wander_Psychotic_Short.label>
   <!-- EN: Mental state: Psychotic wandering -->
-  <Wander_Psychotic_Short.baseInspectLine>TODO</Wander_Psychotic_Short.baseInspectLine>
+  <Wander_Psychotic_Short.baseInspectLine>Estat mental: vagant amb psicosi</Wander_Psychotic_Short.baseInspectLine>
   <!-- EN: {0} is wandering around in a psychotic state. -->
-  <Wander_Psychotic_Short.beginLetter>TODO</Wander_Psychotic_Short.beginLetter>
+  <Wander_Psychotic_Short.beginLetter>{0} està vagant amb un estat psicòtic.</Wander_Psychotic_Short.beginLetter>
   <!-- EN: daze -->
-  <Wander_Psychotic_Short.beginLetterLabel>TODO</Wander_Psychotic_Short.beginLetterLabel>
+  <Wander_Psychotic_Short.beginLetterLabel>atordit</Wander_Psychotic_Short.beginLetterLabel>
   <!-- EN: {0} is no longer wandering in a psychotic state. -->
-  <Wander_Psychotic_Short.recoveryMessage>TODO</Wander_Psychotic_Short.recoveryMessage>
+  <Wander_Psychotic_Short.recoveryMessage>{0} ja no està vagant en estat psicòtic.</Wander_Psychotic_Short.recoveryMessage>
   
   <!-- EN: sad wandering -->
   <Wander_Sad.label>passeja melancòlicament</Wander_Sad.label>

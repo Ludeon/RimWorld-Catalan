@@ -213,9 +213,9 @@
   <MessageMarriageCeremonyAfterPartyFinished>La cerimònia de casament entre {PAWN1_definite} i {PAWN2_definite} s'ha acabat.</MessageMarriageCeremonyAfterPartyFinished>
   
   <!-- EN: {HUMAN_labelShort} and {ANIMAL_labelShort} have formed a bond. -->
-  <MessageNewBondRelation>{HUMAN_definite} i {ANIMAL_definite} han creat un lligam.</MessageNewBondRelation>
+  <MessageNewBondRelation>{HUMAN_labelShort} i {ANIMAL_labelShort} han creat un lligam.</MessageNewBondRelation>
   <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
-  <MessageNewBondRelationNewName>{HUMAN_definite} i {ANIMAL_definite} han creat un lligam. L'ha anomenat {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
+  <MessageNewBondRelationNewName>{HUMAN_labelShort} i {1} han creat un lligam. L'ha anomenat {ANIMAL_nameFull}.</MessageNewBondRelationNewName>
   
   <!-- EN: {ANIMAL} has had a mental break because of {HUMAN_labelShort}'s death. -->
   <MessageBondedAnimalMentalBreak>{ANIMAL_definite} s'ha emprenyat per la mort de {HUMAN_definite}.</MessageBondedAnimalMentalBreak>
@@ -559,14 +559,14 @@
   <MessageBillValidationStoreZoneInsufficient>«{0}» de {1} no pot entregar productes al magatzem {2}.</MessageBillValidationStoreZoneInsufficient>
 
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
-  <MessageAnimalReturnedWild>Com que no s’ha fet el manteniment de la domesticació, {1_definite} s’ha tornat salvatge.</MessageAnimalReturnedWild>
+  <MessageAnimalReturnedWild>Com que no s’ha fet el manteniment de la domesticació, {1_labelShort} s’ha tornat salvatge.</MessageAnimalReturnedWild>
   <!-- EN: {1_labelShort} has been returned to the wild. -->
-  <MessageAnimalReturnedWildReleased>TODO</MessageAnimalReturnedWildReleased>
+  <MessageAnimalReturnedWildReleased>S'ha allibertat {1_labelShort} a la natura.</MessageAnimalReturnedWildReleased>
   <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
   <MessageAnimalLostSkill>Com que no s’ha fet el manteniment de l’entrenament, {ANIMAL_definite} ha perdut la capacitat de {1}</MessageAnimalLostSkill>
 
   <!-- EN: Translation report written to {0} -->
-  <MessageTranslationReportSaved>L’informe de la traducció s’ha desat a {0}</MessageTranslationReportSaved>
+  <MessageTranslationReportSaved>L’informe de traducció s’ha desat a {0}</MessageTranslationReportSaved>
 
   <!-- EN: {0} couldn't reach its destination. -->
   <MessageCaravanArrivalActionNoLongerValid>No pot arribar a {0}.</MessageCaravanArrivalActionNoLongerValid>

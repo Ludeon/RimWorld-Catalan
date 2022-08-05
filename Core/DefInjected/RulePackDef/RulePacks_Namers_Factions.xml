@@ -61,8 +61,8 @@
   -->
   <NamerFactionOutlander.rulePack.rulesStrings>
     <li>r_name(p=3)->[nearnameinitial]</li>
-    <li>r_name->[nearnameinitial] [political_union_outlander]</li>
-    <li>r_name->[nearnameinitial] [political_union_outlander] [political_adjective]</li>
+    <li>r_name->[political_union_outlander] [nearnameinitial]</li>
+    <li>r_name->[political_union_outlander] [political_adjective] [nearnameinitial]</li>
     <li>r_name->[political_union_outlander] de [nearnameinitial]</li>
     <li>r_name->[political_union_outlander] [political_adjective] de [nearnameinitial]</li>
     <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
@@ -149,7 +149,7 @@
     <li>r_name->Colony</li>
   -->
   <NamerInitialSettlementColony.rulePack.rulesStrings>
-    <li>name->Colònia</li>
+    <li>name->colònia</li>
   </NamerInitialSettlementColony.rulePack.rulesStrings>
   
   <!-- EN:

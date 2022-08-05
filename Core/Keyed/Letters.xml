@@ -91,7 +91,7 @@
   <NewPartDiseaseAnimal>{PAWN_definite} ha desenvolupat una malaltia: {3} a {1}</NewPartDiseaseAnimal>
 
   <!-- EN: {0} was formerly part of your faction. -->
-  <PawnWasFormerlyColonist>{1_definite} formava part de la vostra facció.</PawnWasFormerlyColonist>
+  <PawnWasFormerlyColonist>{0} abans formava part de la vostra facció.</PawnWasFormerlyColonist>
   <!-- EN: You previously hosted {0}. -->
   <PawnWasFormerlyLodger>TODO</PawnWasFormerlyLodger>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
@@ -232,7 +232,7 @@
   <!-- EN: Ally now neutral: {0} -->
   <LetterLabelRelationsChange_NeutralFromAlly>Un aliat ara és neutral: {0}</LetterLabelRelationsChange_NeutralFromAlly>
   <!-- EN: Zzztt... -->
-  <LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
+  <LetterLabelShortCircuit>Zzztt…</LetterLabelShortCircuit>
 
   <!-- Bonded animals -->
   <!-- EN: bonded -->
@@ -298,7 +298,7 @@
   <!-- EN: Quest completed -->
   <LetterLabelDefeatAllEnemiesQuestCompleted>Missió acomplerta</LetterLabelDefeatAllEnemiesQuestCompleted>
   <!-- EN: You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}. -->
-  <LetterDefeatAllEnemiesQuestCompleted>Heu acabat amb el campament enemic!\n\nHa arribat la recompensa de {0}, i la relació amb aquesta facció ha millorat en {1}.</LetterDefeatAllEnemiesQuestCompleted>
+  <LetterDefeatAllEnemiesQuestCompleted>Heu acabat amb el campament enemic!\n\nHa arribat la recompensa de {0} i la relació amb aquesta facció ha millorat en {1}.</LetterDefeatAllEnemiesQuestCompleted>
 
   <!-- Long-range mineral scanner -->
   <!-- EN: Distant resource scanned -->
@@ -326,7 +326,7 @@
   <!-- EN: Peace talks backfire -->
   <LetterLabelPeaceTalks_Backfire>Converses de pau dolentes</LetterLabelPeaceTalks_Backfire>
   <!-- EN: The talks have backfired. Despite trading some pleasantries, the delegates made no progress on substantive issues, and multiple statements were interpreted as insults.\n\nRelations with {0}: {1}. -->
-  <LetterPeaceTalks_Backfire>Les converses de pau han anat malament. Tot i l’intercanvi de lloances, els delegats no han fet cap progrés en cap dels aspectes importants, i algunes propostes s’han interpretat com a insults.\n\nRelacions amb {0}: {1}.</LetterPeaceTalks_Backfire>
+  <LetterPeaceTalks_Backfire>Les converses de pau han anat malament. Tot i l’intercanvi de lloances, els delegats no han fet cap progrés en cap dels aspectes importants i algunes propostes s’han interpretat com a insults.\n\nRelacions amb {0}: {1}.</LetterPeaceTalks_Backfire>
   <!-- EN: Peace talks flounder -->
   <LetterLabelPeaceTalks_TalksFlounder>Converses de pau estancades</LetterLabelPeaceTalks_TalksFlounder>
   <!-- EN: The talks floundered. Delegates managed to communicate clearly and with basic respect, but were not able to make progress on any genuine issues.\n\nRelations with {0} remain unchanged. -->
@@ -348,7 +348,7 @@
 
   <!-- Catatonic mental break -->
   <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
-  <LetterCatatonicMentalBreak>{0} està en una emprenyada catatònica que durarà diversos dies.</LetterCatatonicMentalBreak>
+  <LetterCatatonicMentalBreak>{0} ha patit una crisi nerviosa i s'ha quedat catatòni{0_gender ? c : ca}. Es recuperarà d'aquí uns dies.</LetterCatatonicMentalBreak>
 
   <!-- EN: Persona Core Offer -->
   <LetterLabelAICoreOffer>Oferiment de nucli d’IA</LetterLabelAICoreOffer>
@@ -404,13 +404,13 @@
   <!-- EN: Caravan battle won -->
   <LetterLabelCaravansBattlefieldVictory>La caravana ha guanyat el combat</LetterLabelCaravansBattlefieldVictory>
   <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterCaravansBattlefieldVictory>La vostra caravana ha guanyat el combat.\n\nPodeu tornar a formar la caravana ara mateix a la pantalla del planeta seleccionant el camp de batalla i triant l’opció «Tornar a caravana».\n\nNo cal que recolliu els objectes manualment, l’eina de formar caravanes ho farà immediatament.\n\nD’aquí a {0}, la caravana es tornarà a formar automàticament.</LetterCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>La vostra caravana ha guanyat el combat.\n\nPodeu reformar la caravana ara mateix a la vista del planeta seleccionant el camp de batalla i triant l’opció «Modifica la caravana».\n\nNo cal que recolliu els objectes manualment, l’eina de reformar caravanes ho pot fer instantàniament.\n\nD’aquí a {0}, la caravana serà atacada per enemics. Començaran a enviar forces per atacar-la, a no ser que es reformi i se'n vagi d'aquí.</LetterCaravansBattlefieldVictory>
 
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>Rescatat s’uneix</LetterLabelRescueQuestFinished>
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
-  <LetterRescueQuestFinished>Heu rescatat {PAWN_definite} i s’ha unit al grup.\n\nPodeu reformar la caravana a la pantalla del planeta i triant l’opció «Tornar a caravana».</LetterRescueQuestFinished>
+  <LetterRescueQuestFinished>Heu rescatat {PAWN_definite} i s’ha unit al grup.\n\nPodeu reformar la caravana seleccionant aquesta àrea i triant l’opció «Modifica la caravana».</LetterRescueQuestFinished>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
@@ -430,13 +430,13 @@
   <!-- EN: Surgery failed on {PATIENT_labelShort} -->
   <LetterLabelSurgeryFailed>TODO</LetterLabelSurgeryFailed>
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_definite} ha comès un petit error mentre operava a {PATIENT_definite}.</MessageMedicalOperationFailureMinor>
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} ha comès un petit error mentre operava {PATIENT_gender ? en : la} {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
   <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_definite} ha comès un error catastròfic mentre operava a {PATIENT_definite}.</MessageMedicalOperationFailureCatastrophic>
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} ha comès un error catastròfic mentre operava {PATIENT_gender ? en : la} {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_definite} ha comès un error ridícul mentre operava a {PATIENT_definite}.</MessageMedicalOperationFailureRidiculous>
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} ha comès un error ridícul mentre operava {PATIENT_gender ? en : la} {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_definite} ha comès un error fatal mentre operava a {PATIENT_definite} a causa de les dificultats especials de: {2}</MessageMedicalOperationFailureFatal>
+  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} ha comès un error fatal mentre operava {PATIENT_gender ? en : la} {PATIENT_labelShort} a causa de les dificultats especials de: {2}</MessageMedicalOperationFailureFatal>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->

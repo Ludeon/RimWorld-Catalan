@@ -108,7 +108,7 @@
   </Nuzzle.logRulesInitiator.rulesStrings>
   
   <!-- EN: release to the wild -->
-  <ReleaseToWild.label>TODO</ReleaseToWild.label>
+  <ReleaseToWild.label>allibera a la natura</ReleaseToWild.label>
   <!-- EN:
     <li>r_logentry->[farewell] [released]</li>
     <li>farewell->[INITIATOR_nameDef] gently pet [RECIPIENT_nameDef] one last time</li>
@@ -122,7 +122,19 @@
     <li>released->then turned away and let [RECIPIENT_objective] leave the colony.</li>
     <li>released->before letting [RECIPIENT_objective] go to live in freedom.</li>
   -->
-  <ReleaseToWild.logRulesInitiator.rulesStrings>TODO</ReleaseToWild.logRulesInitiator.rulesStrings>
+  <ReleaseToWild.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[farewell] [released]</li>
+    <li>farewell->[INITIATOR_nameDef] ha acariciat dolçament [RECIPIENT_nameDef] una última vegada</li>
+    <li>farewell->[INITIATOR_nameDef] ha dit unes paraules tendres a [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] li ha tret el collar a [RECIPIENT_nameDef]</li>
+    <li>farewell->[INITIATOR_nameDef] ha recordat els bons temps que [INITIATOR_pronoun] ha passat amb [RECIPIENT_nameDef]</li>
+    <li>released->i ha soltat [RECIPIENT_objective] a la natura.</li>
+    <li>released->i ha alliberat [RECIPIENT_objective].</li>
+    <li>released->i ha fet marxar [RECIPIENT_objective].</li>
+    <li>released->i ha deixat anar [RECIPIENT_objective].</li>
+    <li>released->i s'ha girat i ha deixat que [RECIPIENT_objective] marxés de la colònia.</li>
+    <li>released->abans de deixar que [RECIPIENT_objective] visqui en llibertat.</li>
+  </ReleaseToWild.logRulesInitiator.rulesStrings>
   
   <!-- EN: tame attempt -->
   <TameAttempt.label>intent de doma</TameAttempt.label>

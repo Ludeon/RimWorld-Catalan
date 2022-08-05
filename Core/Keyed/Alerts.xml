@@ -17,7 +17,7 @@
   <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n\n{0} -->
   <BreakRiskExtremeDesc>Aquests colons estan estressadíssims i poden tenir una bona empipada (i potser violenta) en qualsevol moment:\n\n{0}</BreakRiskExtremeDesc>
   <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
-  <BreakRiskDescEnding>Comproveu la pestanya de «necessitats» d'aquests colons per veure que els està fent emprenyar.\n\nPer fer que es trobin millor, podeu donar-los bon menjar, més hores per divertir-se i objectes més macos, posar-los en llocs agradables, fer-los veure i fumar, i moltes altres coses.</BreakRiskDescEnding>
+  <BreakRiskDescEnding>Comproveu la pestanya de «necessitats» d'aquests colons per veure que els està fent emprenyar.\n\nPer fer que es trobin millor, podeu donar-los bon menjar, més hores per entretenir-se i objectes més macos, posar-los en llocs agradables, fer-los beure, fumar i moltes altres coses.</BreakRiskDescEnding>
 
   <!-- EN: Colonist needs rescue -->
   <ColonistNeedsRescue>Hi ha un colon que necessita que el rescatin </ColonistNeedsRescue>
@@ -111,22 +111,22 @@
   <NeedMealSourceDesc>No disposeu de cap forma de preparar bon menjar.\n\nConstruiu una cuina, un foc de camp o un dispensador de pasta nutritiva.\n\n(No el podeu posar dins una cel·la per presoners, si no els colons no el podran fer servir.)</NeedMealSourceDesc>
 
   <!-- EN: Need recreation variety -->
-  <NeedJoySource>Falten diversions</NeedJoySource>
+  <NeedJoySource>Cal més varietat d'entreteniments</NeedJoySource>
   <!-- EN: There are only {0} different recreation types available in {1}, but at the current expectations level ({2}), colonists need {3} different kinds of recreation to remain satisfied. Provide recreation variety supplying a new, different kind of recreation.\n\n{4}\n\n{5}\n\nNote: You can check the recreation type of any item in its stats page, accessible with the 'i' button. -->
-  <NeedJoySourceDesc>Només hi ha {0} tipus de diversions diferents a {1}, però al nivell d'expectatives actuals ({2}), els colons en necessiten {3} per seguir satisfets. Proporcioneu-los més diversitat posant un nou article de diversió d’un tipus diferent\n\n{4}\n\n{5}\n\nNota: Podeu comprovar el tipus de diversió d’un objecte a la seva pàgina de característiques, accessible amb el botó «i».</NeedJoySourceDesc>
+  <NeedJoySourceDesc>Només hi ha {0} tipus d'entreteniment diferents a {1_definite}, però al nivell d'expectatives actuals ({2}), els colons en necessiten {3} per seguir satisfets. Proporcioneu-los més diversitat posant un nou article de diversió d’un tipus diferent\n\n{4}\n\n{5}\n\nNota: Podeu comprovar el tipus de d'entreteniment d’un objecte a la seva pàgina de característiques, accessible amb el botó «i».</NeedJoySourceDesc>
   <!-- EN: Available recreation types -->
-  <AvailableRecreationTypes>tipus de diversions disponibles</AvailableRecreationTypes>
+  <AvailableRecreationTypes>tipus d'entreteniment disponibles</AvailableRecreationTypes>
   <!-- EN: Missing recreation types -->
-  <MissingRecreationTypes>tipus de diversions que falten</MissingRecreationTypes>
+  <MissingRecreationTypes>tipus d'entreteniment que falten</MissingRecreationTypes>
   <!-- EN: At current expectations ({0}), each tolerance falls by {1} per day awake. Having {2} recreation types is recommended. -->
-  <CurrentExpectationsAndRecreation>Amb les espectatives actuals ({0}), cada tolerància cau en {1} cada dia que estigui despert. Es recomana tenir {2} tipus de diversions. </CurrentExpectationsAndRecreation>
+  <CurrentExpectationsAndRecreation>Amb les espectatives actuals ({0}), cada tolerància cau en {1} cada dia que estigui despert. Es recomana tenir {2} tipus d'entreteniment. </CurrentExpectationsAndRecreation>
   <!-- EN: bored -->
   <bored>avorrit</bored>
 
   <!-- EN: Boredom -->
   <Boredom>avorriment</Boredom>
   <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {PAWN_labelShort}:\n\n{2} -->
-  <BoredomDesc>Aquestes persones o bé necessiten diversions o tenen temps per divertir-se però estan cansats dels tipus de diversions que tenen disponibles:\n\n{0}\n\nDoneu-los més varietat de diversions.\n\nEls tipus que té disponibles {PAWN_definite} en aquests moments són {1}:\n\n{2}</BoredomDesc>
+  <BoredomDesc>Aquestes persones o bé necessiten diversions o tenen temps per entretenir-se però estan cansats dels tipus que tenen disponibles:\n\n{0}\n\nDoneu-los més varietat d'entreteniments.\n\nEls tipus que té disponibles {PAWN_definite} en aquests moments són {1}:\n\n{2}</BoredomDesc>
 
   <!-- EN: Need batteries -->
   <NeedBatteries>Falten bateries</NeedBatteries>

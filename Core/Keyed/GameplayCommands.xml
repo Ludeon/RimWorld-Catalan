@@ -87,7 +87,7 @@
   <!-- EN: For prisoners -->
   <CommandBedSetForPrisonersLabel>Per a presoners</CommandBedSetForPrisonersLabel>
   <!-- EN: Whether beds in this room should be used by prisoners. -->
-  <CommandBedSetForPrisonersDesc>Designa els llits de la cambra per a presoners.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersDesc>Assigna els llits de la cambra per a presoners.</CommandBedSetForPrisonersDesc>
   <!-- EN: Only beds in enclosed spaces can be set for prisoners. -->
   <CommandBedSetForPrisonersFailOutdoors>Als presoners només se'ls pot assignar llits en espais tancats.</CommandBedSetForPrisonersFailOutdoors>
   <!-- EN: Medical -->
@@ -95,13 +95,13 @@
   <!-- EN: Whether this bed is for medical use. -->
   <CommandBedSetAsMedicalDesc>Estableix si aquest llit es farà servir per motius mèdics.</CommandBedSetAsMedicalDesc>
   <!-- EN: Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
-  <TurningOnPrisonerBedWarning>Assignar un llit a presoners afecta tota la cambra (els presoners i els colons no poden dormir a la mateixa habitació).\n\nAquestes persones perdran la propietat dels seus llits:</TurningOnPrisonerBedWarning>
+  <TurningOnPrisonerBedWarning>Si s'activa el mode de presó a l'habitació, tots els llits de l'habitació es veuran afectats, ja que presoners i colons no poden dormir a la mateixa habitació.\n\nAquestes persones perdran els seus llits:</TurningOnPrisonerBedWarning>
   <!-- EN: Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
-  <TurningOffPrisonerBedWarning>Treure l'assignació a presoners d'un llit afecta a tota la cambra (els presoners i els colons no poden dormir a la mateixa habitació).\n\nAquestes persones perdran la propietat dels seus llits:</TurningOffPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>Si es desactiva el mode de presó a l'habitació, tots els llits de l'habitació es veuran afectats, ja que presoners i colons no poden dormir a la mateixa habitació.\n\nAquestes persones perdran els seus llits:</TurningOffPrisonerBedWarning>
   <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>Esteu segur que ho voleu fer?</AreYouSure>
   <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
-  <ChangingOwnerTypeBedWarning>TODO</ChangingOwnerTypeBedWarning>
+  <ChangingOwnerTypeBedWarning>Els canvis d'ús dels llits afecten a tota l'habitació, ja que presoners, esclaus i colons no poden dormir a la mateixa habitació.\n\nAquestes persones perdran els seus llits:</ChangingOwnerTypeBedWarning>
 
 
   <!-- EN: Detonate -->
@@ -127,66 +127,66 @@
   <CommandDeleteZoneDesc>Elimina aquesta zona.</CommandDeleteZoneDesc>
 
   <!-- EN: Copy settings -->
-  <CommandCopyZoneSettingsLabel>Copia config.</CommandCopyZoneSettingsLabel>
+  <CommandCopyZoneSettingsLabel>Copia la configuració</CommandCopyZoneSettingsLabel>
   <!-- EN: Copy this zone's settings to the clipboard so you can paste them onto another zone. -->
-  <CommandCopyZoneSettingsDesc>Copia la configuració d'aquesta zona al porta-retalls per enganxa-la a una altra zona.</CommandCopyZoneSettingsDesc>
+  <CommandCopyZoneSettingsDesc>Copia la configuració d'aquesta zona al porta-retalls per enganxar-la a una altra zona.</CommandCopyZoneSettingsDesc>
 
   <!-- EN: Paste settings -->
-  <CommandPasteZoneSettingsLabel>Enganxa config.</CommandPasteZoneSettingsLabel>
+  <CommandPasteZoneSettingsLabel>Enganxa la configuració</CommandPasteZoneSettingsLabel>
   <!-- EN: Overwrite this zone's settings with those previously copied to the clipboard. -->
-  <CommandPasteZoneSettingsDesc>Sobreescriu la configuració de la zona amb la que hi ha al portapa-retalls.</CommandPasteZoneSettingsDesc>
+  <CommandPasteZoneSettingsDesc>Sobreescriu la configuració de la zona amb la que hi ha al porta-retalls.</CommandPasteZoneSettingsDesc>
 
   <!-- EN: Allow sowing -->
-  <CommandAllowSow>Permet llaurar</CommandAllowSow>
+  <CommandAllowSow>Permet sembrar</CommandAllowSow>
   <!-- EN: When disabled, colonists will never sow new plants in this zone. They will still harvest. -->
-  <CommandAllowSowDesc>Si està deshabilitat, els colons no plantaran res en aquesta zona. Això sí, colliran el que hi ha quan sigui madur.</CommandAllowSowDesc>
+  <CommandAllowSowDesc>Si està deshabilitat, els colons no sembraran res en aquesta zona. Això sí, colliran el que hi ha quan sigui madur.</CommandAllowSowDesc>
 
   <!-- EN: Allow cutting -->
-  <CommandAllowCut>TODO</CommandAllowCut>
+  <CommandAllowCut>Permet arrencar herbes</CommandAllowCut>
   <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest. -->
-  <CommandAllowCutDesc>TODO</CommandAllowCutDesc>
+  <CommandAllowCutDesc>Si està deshabilitat, els colons no hi arrencaran les males herbes. Continuaran sembrant en els llocs buits i recol·lectant les plantes madures, si tenen permís per fer-ho.</CommandAllowCutDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
-  <CommandSetForceAttackTarget>Força un objectiu</CommandSetForceAttackTarget>
+  <CommandSetForceAttackTarget>Assigna un objectiu</CommandSetForceAttackTarget>
   <!-- EN: Sets a target that this turret must attack continuously as long as it can. -->
-  <CommandSetForceAttackTargetDesc>Indica un objectiu al que la metralladora atacarà continuament metre pugui.</CommandSetForceAttackTargetDesc>
+  <CommandSetForceAttackTargetDesc>Estableix un objectiu al qual la torreta atacarà contínuament metre pugui.</CommandSetForceAttackTargetDesc>
   <!-- EN: Stop forced attack -->
-  <CommandStopForceAttack>Deixa de forçar</CommandStopForceAttack>
+  <CommandStopForceAttack>Foc a discreció</CommandStopForceAttack>
   <!-- EN: Stops force-attacking and allows the turret to fire as it wishes. -->
-  <CommandStopForceAttackDesc>Deixa de forçar un objectiu i permet que la metralladora ataqui a qui vulgui.</CommandStopForceAttackDesc>
+  <CommandStopForceAttackDesc>Deixa d'atacar obligatòriament l'objectiu assignat i permet que la metralladora triï qui atacar.</CommandStopForceAttackDesc>
   <!-- EN: Not currently force-attacking. -->
-  <CommandStopAttackFailNotForceAttacking>No la teniu forçada.</CommandStopAttackFailNotForceAttacking>
+  <CommandStopAttackFailNotForceAttacking>No té cap objectiu assignat.</CommandStopAttackFailNotForceAttacking>
   <!-- EN: Extract shell -->
-  <CommandExtractShell>Extreure projectil</CommandExtractShell>
+  <CommandExtractShell>Extrau el projectil</CommandExtractShell>
   <!-- EN: Unloads the current shell so it can be replaced with different ammunition. -->
-  <CommandExtractShellDesc>Descarrega el projectil que hi ha carregat i per poder-ne posar un d’un altre tipus.</CommandExtractShellDesc>
+  <CommandExtractShellDesc>Descarrega el projectil actual per poder posar-hi un altre tipus de munició.</CommandExtractShellDesc>
   <!-- EN: Target beyond maximum range. -->
-  <MessageTargetBeyondMaximumRange>L'objectiu està massa lluny.</MessageTargetBeyondMaximumRange>
+  <MessageTargetBeyondMaximumRange>L'objectiu està fora de l'abast.</MessageTargetBeyondMaximumRange>
   <!-- EN: Target below minimum range. -->
-  <MessageTargetBelowMinimumRange>L'objectiu està massa aprop.</MessageTargetBelowMinimumRange>
+  <MessageTargetBelowMinimumRange>L'objectiu està massa a prop.</MessageTargetBelowMinimumRange>
   <!-- EN: Warning: The mortar won't fire because it's set to "Hold fire". -->
-  <MessageTurretWontFireBecauseHoldFire>Avís: El morter no dispararà perquè està posat en mode «no disparar».</MessageTurretWontFireBecauseHoldFire>
+  <MessageTurretWontFireBecauseHoldFire>Avís: El morter no dispararà perquè està en mode «Alto el foc.</MessageTurretWontFireBecauseHoldFire>
   
   <!-- Ship computer core -->
   <!-- EN: Launch ship -->
-  <CommandShipLaunch>Llença la nau</CommandShipLaunch>
+  <CommandShipLaunch>Llança la nau</CommandShipLaunch>
   <!-- EN: Start the ship launch sequence with the current configuration. -->
   <CommandShipLaunchDesc>Inicia la seqüència de llançament amb la configuració actual.</CommandShipLaunchDesc>
   <!-- EN: Show launch report -->
   <CommandShipLaunchReport>Mostra l'informe de llançament</CommandShipLaunchReport>
   <!-- EN: Show a readiness report about the ship's launch capability. -->
-  <CommandShipLaunchReportDesc>Mostra un informe sobre la capacitat per preparar el llançament.</CommandShipLaunchReportDesc>
+  <CommandShipLaunchReportDesc>Mostra un informe sobre la capacitat per realitzar el llançament.</CommandShipLaunchReportDesc>
   <!-- EN: Start ship -->
   <CommandShipStartup>Engega la nau</CommandShipStartup>
   <!-- EN: Wake up hibernating ship components. -->
-  <CommandShipStartupDesc>Desperta els components de la nau hibernats.</CommandShipStartupDesc>
+  <CommandShipStartupDesc>Inicia els components d'hivernació de la nau.</CommandShipStartupDesc>
 
   <!-- Pod -->
   <!-- EN: Eject sleeper -->
-  <CommandPodEject>Treu dorment</CommandPodEject>
+  <CommandPodEject>Desperta i ejecta el dorment</CommandPodEject>
   <!-- EN: Wake up the cryptosleeper and eject them. -->
-  <CommandPodEjectDesc>Desperta al cripto-dorment i treu-lo.</CommandPodEjectDesc>
+  <CommandPodEjectDesc>Desperta al criptodorment i ejecta'l.</CommandPodEjectDesc>
   <!-- EN: Contains nobody. -->
   <CommandPodEjectFailEmpty>No conté ningú.</CommandPodEjectFailEmpty>
 
@@ -194,65 +194,65 @@
   <!-- EN: Passage forbidden -->
   <CommandToggleDoorForbid>Pas prohibit</CommandToggleDoorForbid>
   <!-- EN: When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door. -->
-  <CommandToggleDoorForbidDesc>Quan una porta està prohibida, ni els colons ni els aliats hi podran passar. No afecta a la interacció dels enemics ni dels animalsT.</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorForbidDesc>Quan una porta té el pas prohibit, ni els colons ni els aliats hi podran passar. No afecta les interaccions dels enemics ni dels animals.</CommandToggleDoorForbidDesc>
   <!-- EN: Hold open -->
-  <CommandToggleDoorHoldOpen>Manté oberta</CommandToggleDoorHoldOpen>
+  <CommandToggleDoorHoldOpen>Deixa oberta</CommandToggleDoorHoldOpen>
   <!-- EN: When active, your colonists will not close the door after passing through. -->
-  <CommandToggleDoorHoldOpenDesc>Si està actiu, els colons no tancaran la porta darrere seu quan la travessin.</CommandToggleDoorHoldOpenDesc>
+  <CommandToggleDoorHoldOpenDesc>Si està actiu, els colons no tancaran la porta darrere seu quan hi passin.</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
   <!-- EN: Reset -->
   <CommandResetTemp>Reinicia</CommandResetTemp>
   <!-- EN: Reset the target temperature to room temperature. -->
-  <CommandResetTempDesc>Reinicia la consigna de temperatura a la de l'habitació.</CommandResetTempDesc>
+  <CommandResetTempDesc>Reinicia la temperatura desitjada de l'habitació.</CommandResetTempDesc>
   <!-- EN: Raise the target temperature. -->
-  <CommandRaiseTempDesc>Incrementa la consigna.</CommandRaiseTempDesc>
+  <CommandRaiseTempDesc>Augmenta la temperatura desitjada.</CommandRaiseTempDesc>
   <!-- EN: Lower the target temperature. -->
-  <CommandLowerTempDesc>Disminueix la consigna.</CommandLowerTempDesc>
+  <CommandLowerTempDesc>Redueix la temperatura desitjada.</CommandLowerTempDesc>
 
   <!-- Install/reinstall -->
   <!-- EN: Install -->
   <CommandInstall>Instal·la</CommandInstall>
   <!-- EN: This item is currently packaged up for storage and transport. Use this command to install this item in a final location. -->
-  <CommandInstallDesc>Aquest objecte està empaquetat per transportar i emmagatzemar. Amb auqesta comanda l'instal·leu en el seu lloc definitiu.</CommandInstallDesc>
+  <CommandInstallDesc>Aquest objecte està empaquetat per transportar i emmagatzemar. Amb aquesta ordre, s'instal·larà al seu lloc definitiu.</CommandInstallDesc>
   <!-- EN: Reinstall at... -->
   <CommandReinstall>Canvia de lloc</CommandReinstall>
   <!-- EN: Designate this item to be uninstalled and reinstalled somewhere else. -->
-  <CommandReinstallDesc>Indica que cal treure-ho d'aquí i posar-ho en un altre lloc.</CommandReinstallDesc>
+  <CommandReinstallDesc>Indica que cal desinstal·lar-ho i posar-ho en un altre lloc.</CommandReinstallDesc>
   <!-- EN: Replant -->
-  <CommandReplant>TODO</CommandReplant>
+  <CommandReplant>Planta</CommandReplant>
   <!-- EN: This tree is currently packaged up for storage and transport. Use this command to replant it in a new location. -->
-  <CommandReplantDesc>TODO</CommandReplantDesc>
+  <CommandReplantDesc>Aquest arbre està empaquetat per transportar i emmagatzemar. Amb aquesta ordre, es plantarà de nou al terra.</CommandReplantDesc>
   
   <!-- Trade beacon -->
   <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
-  <CommandMakeBeaconStockpileDesc>Crea un magatzem al voltant d'aquí amb la forma del radi d'influència de la balissa.</CommandMakeBeaconStockpileDesc>
+  <CommandMakeBeaconStockpileDesc>Crea un magatzem al voltant de l'estructura amb la forma del radi d'influència de la balisa.</CommandMakeBeaconStockpileDesc>
   <!-- EN: Create stockpile -->
-  <CommandMakeBeaconStockpileLabel>Crea magatzem</CommandMakeBeaconStockpileLabel>
+  <CommandMakeBeaconStockpileLabel>Crea el magatzem</CommandMakeBeaconStockpileLabel>
 
   <!-- Sun lamp -->
   <!-- EN: Create a growing zone around this building exactly matching the shape of the lamp's light radius. -->
-  <CommandSunLampMakeGrowingZoneDesc>Crea un camp de cultiu al voltant d'aquí amb la forma del radi d'influència de la làmpada.</CommandSunLampMakeGrowingZoneDesc>
+  <CommandSunLampMakeGrowingZoneDesc>Crea un camp de conreu al voltant de l'estructura amb la forma del radi d'influència de la làmpada solar.</CommandSunLampMakeGrowingZoneDesc>
   <!-- EN: Create growing zone -->
-  <CommandSunLampMakeGrowingZoneLabel>Crear camp de cultiu</CommandSunLampMakeGrowingZoneLabel>
+  <CommandSunLampMakeGrowingZoneLabel>Crea una zona de conreu</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
   <!-- EN: Auto Rearm -->
-  <CommandAutoRearm>Rearmar automàticament</CommandAutoRearm>
+  <CommandAutoRearm>Rearma automàticament</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
-  <CommandAutoRearmDesc>Si està activat, aquesta trampa es tornarà a activar després de disparar-se.</CommandAutoRearmDesc>
+  <CommandAutoRearmDesc>Si està activat, aquesta trampa es tornarà a preparar automàticament després de saltar.</CommandAutoRearmDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
-  <CommandReleaseAnimalsLabel>Alliberar animals</CommandReleaseAnimalsLabel>
+  <CommandReleaseAnimalsLabel>Solta els animals</CommandReleaseAnimalsLabel>
   <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
-  <CommandReleaseAnimalsDesc>Si està activat, els animals que controla s'enviaran a atacar als objectius llunyans. Si està desactivat, es quedaran aprop del seu amo.</CommandReleaseAnimalsDesc>
+  <CommandReleaseAnimalsDesc>Si està activat, es soltaran els animals amb amo perquè puguin atacar als objectius lluny dels propietaris. Si està desactivat, es quedaran a prop del seu amo i el protegiran.</CommandReleaseAnimalsDesc>
   <!-- EN: No animals available. -->
-  <CommandReleaseAnimalsFail_NoAnimals>No hi ha cap animal disponible</CommandReleaseAnimalsFail_NoAnimals>
+  <CommandReleaseAnimalsFail_NoAnimals>No hi ha cap animal disponible.</CommandReleaseAnimalsFail_NoAnimals>
   
   <!-- Squad attack -->
   <!-- EN: Attack -->
-  <CommandSquadAttack>Atacar</CommandSquadAttack>
+  <CommandSquadAttack>Ataca</CommandSquadAttack>
   <!-- EN: Order selected colonists to attack designated target. -->
   <CommandSquadAttackDesc>Ordena als colons seleccionats que ataquin l'objectiu indicat.</CommandSquadAttackDesc>
   
@@ -270,13 +270,13 @@
   
   <!-- reload -->
   <!-- EN: No {CHARGENOUN_plural} left. -->
-  <CommandReload_NoCharges>TODO</CommandReload_NoCharges>
+  <CommandReload_NoCharges>No queden {CHARGENOUN_plural}.</CommandReload_NoCharges>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
-  <CommandReload_NoAmmo>TODO</CommandReload_NoAmmo>
+  <CommandReload_NoAmmo>S'ha de recarregar amb {COUNT} {AMMO_label}.</CommandReload_NoAmmo>
   
   <!-- Select plant to grow -->
   <!-- EN: Select plant to grow -->
-  <CommandSelectPlantToGrowMulti>Triar què plantar</CommandSelectPlantToGrowMulti>
+  <CommandSelectPlantToGrowMulti>Tria què sembrar-hi</CommandSelectPlantToGrowMulti>
   <!-- EN: Plant: {0} -->
   <CommandSelectPlantToGrow>Planta: {0}</CommandSelectPlantToGrow>
   <!-- EN: Determine which plant should be sown here. -->
@@ -288,49 +288,49 @@
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
-  <CommandBuildCopy>Fer una copiar</CommandBuildCopy>
+  <CommandBuildCopy>Construeix una còpia</CommandBuildCopy>
   <!-- EN: Build a copy of this building. -->
-  <CommandBuildCopyDesc>Construeix-ne un cop aquest.</CommandBuildCopyDesc>
+  <CommandBuildCopyDesc>Construeix una còpia d'aquest edifici.</CommandBuildCopyDesc>
 
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
-  <CommandFormCaravan>Formar caravana</CommandFormCaravan>
+  <CommandFormCaravan>Forma una caravana</CommandFormCaravan>
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
-  <CommandFormCaravanDesc>Forma una caravana de colons capaç de viatjar a noves zones. Els colons carregaran els subministres indicats i els animals que els acompanyen, marxaran de la zona i esperaran ordres.</CommandFormCaravanDesc>
+  <CommandFormCaravanDesc>Forma una caravana de colons que pugui viatjar a altres zones. Els colons carregaran els subministres indicats i els animals que els acompanyen, marxaran de la zona i esperaran ordres.</CommandFormCaravanDesc>
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
-  <CommandReformCaravan>Tornar a caravana</CommandReformCaravan>
+  <CommandReformCaravan>Modifica la caravana</CommandReformCaravan>
   <!-- EN: Reform a group of colonists. The colonists will leave their current area and await further orders. -->
-  <CommandReformCaravanDesc>Formar el grup de colons. Els colons marxaran de la zona i esperaran ordres.</CommandReformCaravanDesc>
+  <CommandReformCaravanDesc>Reforma un grup de colons. Els colons marxaran de la zona i esperaran noves ordres.</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>Encara queden enemics en aquesta zona.</CommandReformCaravanFailHostilePawns>
   
   <!-- Split caravan -->
   <!-- EN: Split -->
-  <CommandSplitCaravan>Dividir</CommandSplitCaravan>
+  <CommandSplitCaravan>Separa</CommandSplitCaravan>
   <!-- EN: Split this caravan into two. The caravans can be later merged back into one as long as they are close to each other. -->
-  <CommandSplitCaravanDesc>Divideix la caravana en dos. Les caravanes es poden tornar a ajuntar en una mentre siguin aprop l'una de l'altra.</CommandSplitCaravanDesc>
+  <CommandSplitCaravanDesc>Divideix la caravana en dos. Les caravanes es poden tornar a ajuntar mentre siguin l'una a prop de l'altra.</CommandSplitCaravanDesc>
   
   <!-- Merge caravan -->
   <!-- EN: Merge -->
-  <CommandMergeCaravans>Ajuntar</CommandMergeCaravans>
+  <CommandMergeCaravans>Ajunta</CommandMergeCaravans>
   <!-- EN: Merge selected caravans. -->
-  <CommandMergeCaravansDesc>Ajunta les caravanes.</CommandMergeCaravansDesc>
+  <CommandMergeCaravansDesc>Uneix les caravanes seleccionades.</CommandMergeCaravansDesc>
   <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
-  <CommandMergeCaravansFailCaravansNotSelected>Seleccioneu les caravanes que cal unir. Les caravanes ha d’estar a tocar una de l’altra.</CommandMergeCaravansFailCaravansNotSelected>
+  <CommandMergeCaravansFailCaravansNotSelected>Seleccioneu les caravanes que voleu unir. Les caravanes han d’estar a tocar una de l’altra.</CommandMergeCaravansFailCaravansNotSelected>
   <!-- EN: Join -->
-  <CommandJoinCaravan>TODO</CommandJoinCaravan>
+  <CommandJoinCaravan>Uneix a la caravana</CommandJoinCaravan>
   
   <!-- Settle -->
   <!-- EN: Settle -->
-  <CommandSettle>Establir-se</CommandSettle>
+  <CommandSettle>Assenta-la</CommandSettle>
   <!-- EN: Settle in this area. Your colonists will enter this area and you will be able to start building a new home. -->
-  <CommandSettleDesc>Establir-se en aquesta zona. Els colons entraran a la zona i podran construir una nova llar.</CommandSettleDesc>
+  <CommandSettleDesc>Estableix un assentament en aquesta zona. Els colons entraran a la zona i podran construir la seva nova llar.</CommandSettleDesc>
   <!-- EN: Your faction can only have one base. -->
   <CommandSettleFailAlreadyHaveBase>La vostra facció només pot tenir una base.</CommandSettleFailAlreadyHaveBase>
   <!-- EN: Reached maximum number of colonies. -->
-  <CommandSettleFailReachedMaximumNumberOfBases>Ja teniu el nombre màxim de colònies.</CommandSettleFailReachedMaximumNumberOfBases>
+  <CommandSettleFailReachedMaximumNumberOfBases>Ja he assolit el nombre màxim de colònies.</CommandSettleFailReachedMaximumNumberOfBases>
   <!-- EN: There isn't anybody there to claim the area. -->
   <CommandSettleFailNoColonists>No hi ha ningú que pugui reclamar aquesta zona.</CommandSettleFailNoColonists>
   <!-- EN: There are enemies in this area. -->
@@ -338,15 +338,15 @@
   
   <!-- Abandon home -->
   <!-- EN: Abandon -->
-  <CommandAbandonHome>Abandonar</CommandAbandonHome>
+  <CommandAbandonHome>Abandona</CommandAbandonHome>
   <!-- EN: Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area. -->
-  <CommandAbandonHomeDesc>Abandona la zona. Quedarà com inaccessible i no hi podreu tornar mai més. D'esprés d'abandonar la vostra llar, podreu fer que una de les vostres caravanes s'estableixi en una zona nova.</CommandAbandonHomeDesc>
+  <CommandAbandonHomeDesc>Abandona la zona. Quedarà inaccessible i no hi podreu tornar mai més. Després d'abandonar la vostra llar, una de les vostres caravanes podrà crear un assentament en algun altre lloc.</CommandAbandonHomeDesc>
   <!-- EN: All of your colonists are there. -->
   <CommandAbandonHomeFailAllColonistsThere>Teniu tots els colons aquí.</CommandAbandonHomeFailAllColonistsThere>
   
   <!-- Cancel forming caravan -->
   <!-- EN: Cancel forming caravan -->
-  <CommandCancelFormingCaravan>Cancel·lar la caravana</CommandCancelFormingCaravan>
+  <CommandCancelFormingCaravan>Cancel·la la formació de la caravana</CommandCancelFormingCaravan>
   <!-- EN: Terminate the caravan formation process. -->
   <CommandCancelFormingCaravanDesc>Cancel·la el procés de formació de la caravana.</CommandCancelFormingCaravanDesc>
 
@@ -360,129 +360,129 @@
   <!-- EN: Add to caravan -->
   <CommandAddToCaravan>Afegeix a la caravana</CommandAddToCaravan>
   <!-- EN: Add this person or animal to the forming caravan. -->
-  <CommandAddToCaravanDesc>Afegeix aquesta persona o animal a la formació de la caravana.</CommandAddToCaravanDesc>
+  <CommandAddToCaravanDesc>Afegeix aquesta persona o animal a la caravana que s'està preparant.</CommandAddToCaravanDesc>
   
   <!-- Show map -->
   <!-- EN: Zoom in -->
-  <CommandShowMap>Apropar</CommandShowMap>
+  <CommandShowMap>Apropa</CommandShowMap>
   <!-- EN: Zoom in on this area. -->
   <CommandShowMapDesc>Apropa la vista sobre aquesta àrea.</CommandShowMapDesc>
   
   <!-- Trade -->
   <!-- EN: Trade -->
-  <CommandTrade>Negociar</CommandTrade>
+  <CommandTrade>Comercia</CommandTrade>
   <!-- EN: Trade with this faction. -->
-  <CommandTradeDesc>Fa negocis amb aquesta facció.</CommandTradeDesc>
+  <CommandTradeDesc>Comercia amb aquesta facció.</CommandTradeDesc>
   <!-- EN: There isn't any conscious and capable negotiator. -->
-  <CommandTradeFailNoNegotiator>No hi ha cap negociador conscient i sense emprenyar.</CommandTradeFailNoNegotiator>
+  <CommandTradeFailNoNegotiator>No hi ha cap negociador conscient i capaç.</CommandTradeFailNoNegotiator>
   <!-- EN: None of your people have the required faction permission: {0} -->
-  <CommandTradeFailNeedPermit>TODO</CommandTradeFailNeedPermit>
+  <CommandTradeFailNeedPermit>Cap dels vostres colons té el permís necessari de la facció: {0}</CommandTradeFailNeedPermit>
 
   <!-- Offer gifts -->
   <!-- EN: Offer gifts -->
-  <CommandOfferGifts>Oferir regals</CommandOfferGifts>
+  <CommandOfferGifts>Ofereix regals</CommandOfferGifts>
   <!-- EN: Offer gifts to this faction. -->
   <CommandOfferGiftsDesc>Ofereix regals a aquesta facció.</CommandOfferGiftsDesc>
 
   <!-- Fulfill request -->
   <!-- EN: Fulfill trade offer -->
-  <CommandFulfillTradeOffer>Completar oferiment de negoci</CommandFulfillTradeOffer>
+  <CommandFulfillTradeOffer>Compleix el pacte comercial</CommandFulfillTradeOffer>
   <!-- EN: Fulfill the settlement's request for goods and claim your reward. -->
-  <CommandFulfillTradeOfferDesc>Completeu la demanda d'articles de l'assentament i reclameu-ne la recompensa.</CommandFulfillTradeOfferDesc>
+  <CommandFulfillTradeOfferDesc>Compleix la sol·licitud de bens de l'assentament i reclama la recompensa.</CommandFulfillTradeOfferDesc>
   <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
-  <CommandFulfillTradeOfferFailInsufficient>La vostra caravana ha de disposar de  {0} per completar la comanda.</CommandFulfillTradeOfferFailInsufficient>
+  <CommandFulfillTradeOfferFailInsufficient>La vostra caravana ha de disposar de {0} per completar la comanda.</CommandFulfillTradeOfferFailInsufficient>
   <!-- EN: Give {0}? -->
-  <CommandFulfillTradeOfferConfirm>Oferir {0} a canvi de {1}?</CommandFulfillTradeOfferConfirm>
+  <CommandFulfillTradeOfferConfirm>Ofereix {0}?</CommandFulfillTradeOfferConfirm>
   
   <!-- Take off -->
   <!-- EN: Take off -->
-  <CommandTakeOff>Enlairar-se</CommandTakeOff>
+  <CommandTakeOff>Inicia el llançament</CommandTakeOff>
   <!-- EN: Get on board the ship and escape the planet. -->
-  <CommandTakeOffDesc>Pujar a la nau i fugir del planeta.</CommandTakeOffDesc>
+  <CommandTakeOffDesc>Puja a la nau i fuig del planeta.</CommandTakeOffDesc>
   <!-- EN: Are you sure you want to launch the ship?\n\nEveryone in this area will escape the planet. Everyone else will be left behind. -->
-  <CommandTakeOffConfirmation>Esteu segur que voleu llançar la nau?\n\nTothom en aquesta zona escaparà del planeta. Els altres es quedaran.</CommandTakeOffConfirmation>
+  <CommandTakeOffConfirmation>Esteu segur que voleu llançar la nau?\n\nTothom que estigui en aquesta zona escaparà del planeta. Els altres s'hi quedaran abandonats.</CommandTakeOffConfirmation>
 
   <!-- Set target fuel level -->
   <!-- EN: Set target fuel level -->
-  <CommandSetTargetFuelLevel>Marcar nivell de combustible</CommandSetTargetFuelLevel>
+  <CommandSetTargetFuelLevel>Estableix el nivell de combustible desitjat</CommandSetTargetFuelLevel>
   <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
-  <CommandSetTargetFuelLevelDesc>Estableix el combustible que vols omplir. Els colons intentaran posar fuel fins a aquest nivell.</CommandSetTargetFuelLevelDesc>
+  <CommandSetTargetFuelLevelDesc>Estableix la quantitat de combustible desitjada. Els colons intentaran posar-n'hi fins arribar a aquesta quantitat.</CommandSetTargetFuelLevelDesc>
 
   <!-- Refueling -->
   <!-- EN: Toggle automatic refuel -->
-  <CommandToggleAllowAutoRefuel>TODO</CommandToggleAllowAutoRefuel>
+  <CommandToggleAllowAutoRefuel>Commuta la provisió automàtica de combustible</CommandToggleAllowAutoRefuel>
   <!-- EN: Sets whether or not automatic refueling is allowed. -->
-  <CommandToggleAllowAutoRefuelDesc>TODO</CommandToggleAllowAutoRefuelDesc>
+  <CommandToggleAllowAutoRefuelDesc>Estableix si s'ha d'automatitzar o no la provisió de combustible.</CommandToggleAllowAutoRefuelDesc>
   
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
-  <CommandCancelLoad>Cancel·lar càrrega</CommandCancelLoad>
+  <CommandCancelLoad>Cancel·la la càrrega</CommandCancelLoad>
   <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
   <CommandCancelLoadDesc>Deixa de carregar-ho amb gent i objectes i treu el que hi hagi carregat.</CommandCancelLoadDesc>
   
   <!-- Launch group -->
   <!-- EN: Launch -->
-  <CommandLaunchGroup>Llançar grup</CommandLaunchGroup>
+  <CommandLaunchGroup>Llança</CommandLaunchGroup>
   <!-- EN: Take off and fly to a destination. -->
-  <CommandLaunchGroupDesc>Inicia el procés per llençar un grup de càpsules de càrrega. El pas següent serà triar un objectiu. Les càpsules volaran i aterraran alhora.</CommandLaunchGroupDesc>
+  <CommandLaunchGroupDesc>Enlaira la nau i aquesta volarà cap a una nova destinació.</CommandLaunchGroupDesc>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
-  <CommandLaunchGroupFailNotConnectedToFuelingPort>Algunes càpsules de càrrega del grup no estan connectades a un assortidor de combustible.</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <CommandLaunchGroupFailNotConnectedToFuelingPort>Algunes càpsules de càrrega d'aquest grup de càrrega no estan connectades a un assortidor de combustible.</CommandLaunchGroupFailNotConnectedToFuelingPort>
   <!-- EN: Some pod launchers in this group have no fuel. -->
-  <CommandLaunchGroupFailNoFuel>Algunes llançadores del grup no estan connectades a un sortidor.</CommandLaunchGroupFailNoFuel>
+  <CommandLaunchGroupFailNoFuel>Algunes llançadores de càpsules del grup no estan connectades a un sortidor.</CommandLaunchGroupFailNoFuel>
   <!-- EN: Some pod launchers are under a roof. -->
-  <CommandLaunchGroupFailUnderRoof>Algunes llançadores estan sota teulada.</CommandLaunchGroupFailUnderRoof>
+  <CommandLaunchGroupFailUnderRoof>Algunes llançadores de càpsules estan sota un cobert.</CommandLaunchGroupFailUnderRoof>
   
   <!-- Load transporter -->
   <!-- EN: Load launch group of {0} -->
-  <CommandLoadTransporter>Carregar el grup de {0}</CommandLoadTransporter>
+  <CommandLoadTransporter>Carrega el grup de llançament de {0}</CommandLoadTransporter>
   <!-- EN: Defines the selected transporter(s) as a launch group. Opens the loading dialog so you can decide who and what should be loaded inside. -->
-  <CommandLoadTransporterDesc>Defineix als transports seleccionats com a un grup de llançament. Obre el diàleg de càrrega on podreu triar qui i que s'ha de carregar a dins.</CommandLoadTransporterDesc>
+  <CommandLoadTransporterDesc>Defineix als transports seleccionats com a un grup de llançament. S'obrirà el diàleg de càrrega, on es pot triar qui i què s'hi ha de carregar.</CommandLoadTransporterDesc>
   <!-- EN: The transport pod is not connected to a fueling port. -->
   <CommandLoadTransporterFailNotConnectedToFuelingPort>La càpsula de transport no està connectada a un assortidor de combustible.</CommandLoadTransporterFailNotConnectedToFuelingPort>
   <!-- EN: The pod launcher has no fuel. -->
-  <CommandLoadTransporterFailNoFuel>La llançadora no té fuel.</CommandLoadTransporterFailNoFuel>
+  <CommandLoadTransporterFailNoFuel>La llançadora de càpsules no té combustible.</CommandLoadTransporterFailNoFuel>
   
   <!-- Load transporter (single) -->
   <!-- EN: Load -->
-  <CommandLoadTransporterSingle>TODO</CommandLoadTransporterSingle>
+  <CommandLoadTransporterSingle>Carrega</CommandLoadTransporterSingle>
   <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
-  <CommandLoadTransporterSingleDesc>TODO</CommandLoadTransporterSingleDesc>
+  <CommandLoadTransporterSingleDesc>Obre el diàleg de càrrega, on es pot indicar qui i què s'hi ha de carregar.</CommandLoadTransporterSingleDesc>
   
   <!-- Transporters set to load -->
   <!-- EN: Set to load -->
-  <CommandSetToLoadTransporter>TODO</CommandSetToLoadTransporter>
+  <CommandSetToLoadTransporter>Carrega-ho</CommandSetToLoadTransporter>
   <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
-  <CommandSetToLoadTransporterDesc>TODO</CommandSetToLoadTransporterDesc>
+  <CommandSetToLoadTransporterDesc>Obre el diàleg de càrrega, on es pot indicar qui i què s'hi ha de carregar.</CommandSetToLoadTransporterDesc>
   
   <!-- Autoload transporters -->
   <!-- EN: Autoload -->
-  <CommandAutoloadTransporters>TODO</CommandAutoloadTransporters>
+  <CommandAutoloadTransporters>Càrrega automàtica</CommandAutoloadTransporters>
   <!-- EN: Toggle loading all required cargo automatically as soon as they become available. -->
-  <CommandAutoloadTransportersDesc>TODO</CommandAutoloadTransportersDesc>
+  <CommandAutoloadTransportersDesc>Estableix si s'ha de carregar automàticament amb la càrrega necessària tan aviat com estigui disponible.</CommandAutoloadTransportersDesc>
   
   <!-- Select previous transporter -->
   <!-- EN: Select previous in launch group -->
-  <CommandSelectPreviousTransporter>Seleccionar transport anterior</CommandSelectPreviousTransporter>
+  <CommandSelectPreviousTransporter>Selecciona grup de llançament anterior</CommandSelectPreviousTransporter>
   <!-- EN: Select previous transport pod in this launch group. -->
-  <CommandSelectPreviousTransporterDesc>Selecciona la càpsula de càrrega anterior d'aquest grup de llançament.</CommandSelectPreviousTransporterDesc>
+  <CommandSelectPreviousTransporterDesc>Selecciona la càpsula de transport previ d'aquest grup de llançament.</CommandSelectPreviousTransporterDesc>
   
   <!-- Select all transporters -->
   <!-- EN: Select launch group -->
   <CommandSelectAllTransporters>Seleccionar grup llanç.</CommandSelectAllTransporters>
   <!-- EN: Select all transport pods in this launch group. -->
-  <CommandSelectAllTransportersDesc>Selecciona totes les càpsules de càrrega del grup de tramsport.</CommandSelectAllTransportersDesc>
+  <CommandSelectAllTransportersDesc>Selecciona totes les càpsules de càrrega del grup de transport.</CommandSelectAllTransportersDesc>
   
   <!-- Select next transporter -->
   <!-- EN: Select next in launch group -->
   <CommandSelectNextTransporter>Seleccionar transport següent</CommandSelectNextTransporter>
   <!-- EN: Select next transport pod in this launch group. -->
-  <CommandSelectNextTransporterDesc>Selecciona la següent càpsula de càrrega d'aquest grup de llançament.</CommandSelectNextTransporterDesc>
+  <CommandSelectNextTransporterDesc>Selecciona la següent càpsula de transport d'aquest grup de llançament.</CommandSelectNextTransporterDesc>
   
   <!-- Vent -->
   <!-- EN: Designate open/close -->
-  <CommandDesignateOpenCloseVentLabel>Designar obrir/tancar</CommandDesignateOpenCloseVentLabel>
+  <CommandDesignateOpenCloseVentLabel>Obre/Tanca la reixa de ventilació</CommandDesignateOpenCloseVentLabel>
   <!-- EN: Designate this vent to be opened or closed. A colonist will come soon to perform the task. -->
-  <CommandDesignateOpenCloseVentDesc>Designeu aquesta reixa per ser oberta o tancada. Un colon vindrà a fer-ho.</CommandDesignateOpenCloseVentDesc>
+  <CommandDesignateOpenCloseVentDesc>Establiu si aquesta reixa de ventilació ha d'estar oberta o tancada. Un colon vindrà aviat a fer-ho.</CommandDesignateOpenCloseVentDesc>
   
   <!-- Remove waypoint -->
   <!-- EN: Remove -->
@@ -492,9 +492,9 @@
 
   <!-- Pause caravan -->
   <!-- EN: Rest -->
-  <CommandPauseCaravan>Posa en pausa</CommandPauseCaravan>
+  <CommandPauseCaravan>Para i descansa</CommandPauseCaravan>
   <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
-  <CommandToggleCaravanPauseDesc>Atura el moviment de la caravana. Té els següents beneficis::\n\n  &#8211; La gent pot socialitzar.\n  &#8211; Es cull menjar {0} vegades més de pressa.\n  &#8211; La visibilitat es multiplica per {1}.</CommandToggleCaravanPauseDesc>
+  <CommandToggleCaravanPauseDesc>Atura el moviment de la caravana. Té els següents beneficis:\n\n  – La gent pot interactuar i socialitzar.\n  – Es cull menjar {0} vegades més de pressa.\n  – La visibilitat es multiplica per {1}.</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
   <!-- EN: Show what will buy -->
@@ -510,75 +510,75 @@
 
   <!-- Send shuttle -->
   <!-- EN: Send -->
-  <CommandSendShuttle>TODO</CommandSendShuttle>
+  <CommandSendShuttle>Envia</CommandSendShuttle>
   <!-- EN: Initiate takeoff and have the shuttle fly to its destination. -->
-  <CommandSendShuttleDesc>TODO</CommandSendShuttleDesc>
+  <CommandSendShuttleDesc>Inicia l'enlairament i la llançadora vola fins al seu destí.</CommandSendShuttleDesc>
   <!-- EN: The shuttle is under a roof. -->
-  <CommandSendShuttleFailUnderRoof>TODO</CommandSendShuttleFailUnderRoof>
+  <CommandSendShuttleFailUnderRoof>La llançadora està sota cobert.</CommandSendShuttleFailUnderRoof>
   <!-- EN: Some of the required items or people are missing. -->
-  <CommandSendShuttleFailMissingRequiredThing>TODO</CommandSendShuttleFailMissingRequiredThing>
+  <CommandSendShuttleFailMissingRequiredThing>Fa falta algun element o persona necessari.</CommandSendShuttleFailMissingRequiredThing>
   
   <!-- Dismiss shuttle -->
   <!-- EN: Dismiss -->
-  <CommandShuttleDismiss>TODO</CommandShuttleDismiss>
+  <CommandShuttleDismiss>Despatxa</CommandShuttleDismiss>
   <!-- EN: Unload all contents and send the shuttle away. -->
-  <CommandShuttleDismissDesc>TODO</CommandShuttleDismissDesc>
+  <CommandShuttleDismissDesc>Descarrega tots els continguts i envieu la llançadora de tornada.</CommandShuttleDismissDesc>
 
   <!-- Place blueprints -->
   <!-- EN: Place blueprints -->
-  <CommandPlaceBlueprints>TODO</CommandPlaceBlueprints>
+  <CommandPlaceBlueprints>Col·loca projectes</CommandPlaceBlueprints>
   <!-- EN: Place all required blueprints where possible. -->
-  <CommandPlaceBlueprintsDesc>TODO</CommandPlaceBlueprintsDesc>
+  <CommandPlaceBlueprintsDesc>Posa tots els projectes necessaris on sigui possible.</CommandPlaceBlueprintsDesc>
   <!-- EN: Place {0} blueprints -->
-  <CommandPlaceBlueprintsSpecific>TODO</CommandPlaceBlueprintsSpecific>
+  <CommandPlaceBlueprintsSpecific>Col·loca {0} projectes</CommandPlaceBlueprintsSpecific>
   <!-- EN: Place all {0} blueprints where possible. -->
-  <CommandPlaceBlueprintsSpecificDesc>TODO</CommandPlaceBlueprintsSpecificDesc>
+  <CommandPlaceBlueprintsSpecificDesc>Col·loca els {0} projectes on sigui possible.</CommandPlaceBlueprintsSpecificDesc>
 
   <!-- Cancel monument marker -->
   <!-- EN: Cancel -->
-  <CommandCancelMonumentMarker>TODO</CommandCancelMonumentMarker>
+  <CommandCancelMonumentMarker>Cancel·la</CommandCancelMonumentMarker>
   <!-- EN: Permanently remove this monument marker. -->
-  <CommandCancelMonumentMarkerDesc>TODO</CommandCancelMonumentMarkerDesc>
+  <CommandCancelMonumentMarkerDesc>Treu aquest marcador de monument.</CommandCancelMonumentMarkerDesc>
 
   <!-- View quest -->
   <!-- EN: View quest: {0} -->
-  <CommandViewQuest>TODO</CommandViewQuest>
+  <CommandViewQuest>Mostra la missió: {0}</CommandViewQuest>
   <!-- EN: View this quest in quests tab. -->
-  <CommandViewQuestDesc>TODO</CommandViewQuestDesc>
+  <CommandViewQuestDesc>Mostra la missió a la pestanya corresponent.</CommandViewQuestDesc>
   <!-- EN: Open linked quest -->
-  <CommandOpenLinkedQuest>TODO</CommandOpenLinkedQuest>
+  <CommandOpenLinkedQuest>Mostra la missió relacionada</CommandOpenLinkedQuest>
   <!-- EN: Open linked quest in the quests tab. -->
-  <CommandOpenLinkedQuestDesc>TODO</CommandOpenLinkedQuestDesc>
+  <CommandOpenLinkedQuestDesc>Mostra la missió relacionada a la pestanya de missions.</CommandOpenLinkedQuestDesc>
 
   <!-- Carry -->
   <!-- EN: Drop {0_nameDef} -->
-  <CommandDropPawn>TODO</CommandDropPawn>
+  <CommandDropPawn>Deixa {0_nameDef}</CommandDropPawn>
   <!-- EN: Drop the person being carried. -->
-  <CommandDropPawnDesc>TODO</CommandDropPawnDesc>
+  <CommandDropPawnDesc>Deixa la persona que s'està transportant.</CommandDropPawnDesc>
   
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
-  <TakeDrug>TODO</TakeDrug>
+  <TakeDrug>Pren una droga</TakeDrug>
   <!-- EN: Choose a drug from inventory to ingest immediately. -->
-  <TakeDrugDesc>TODO</TakeDrugDesc>
+  <TakeDrugDesc>Tria una droga de l'inventari per consumir-la immediatament.</TakeDrugDesc>
 
   <!-- Build X -->
   <!-- EN: Build {0} -->
-  <BuildThing>TODO</BuildThing>
+  <BuildThing>Construeix {0}</BuildThing>
 
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
-  <CommandLeaveRitual>TODO</CommandLeaveRitual>
+  <CommandLeaveRitual>Surt de {RITUAL_label}</CommandLeaveRitual>
   <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
-  <CommandLeaveRitualDesc>TODO</CommandLeaveRitualDesc>
+  <CommandLeaveRitualDesc>Deixa de participar al ritual {RITUAL_labelDef}. El ritual seguirà endavant, sempre que hi quedi almenys un participant.</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
-  <CommandLeaveLastParticipant>TODO</CommandLeaveLastParticipant>
+  <CommandLeaveLastParticipant>Aquest és l'últim participant del ritual {RITUAL_labelDef}.</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
-  <CommandCancelRitual>TODO</CommandCancelRitual>
+  <CommandCancelRitual>Cancel·la {RITUAL_label}</CommandCancelRitual>
   <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
-  <CommandCancelRitualDesc>TODO</CommandCancelRitualDesc>
+  <CommandCancelRitualDesc>Finalitza el ritual {RITUAL_labelDef} ara mateix. Es mantindran les obligacions rituals. Podreu tornar a fer el ritual més endavant.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
-  <CommandCancelRitualConfirm>TODO</CommandCancelRitualConfirm>
+  <CommandCancelRitualConfirm>Esteu segur que voleu cancel·lar {RITUAL_labelDef}?</CommandCancelRitualConfirm>
   
 </LanguageData>

@@ -8,13 +8,13 @@
   <!-- EN: Mad {0} -->
   <LetterLabelAnimalInsanityMultiple>{0} bojos</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
-  <AnimalInsanityMultiple>Algun tipus d'interferència psíquica s'escampa sobre el paisatge. Els vostres colons estan bé, però...\n\nSembla que molts {0} de la zona s'han tornat bojos.</AnimalInsanityMultiple>
+  <AnimalInsanityMultiple>Algun tipus d'interferència psíquica s'escampa sobre el paisatge. Els vostres colons estan bé, però…\n\nSembla que molts {0} de la zona s'han tornat bojos.</AnimalInsanityMultiple>
 
   <!-- EN: Blight: {PLANTDEF_labelPlural} -->
-  <LetterLabelCropBlight>Plaga</LetterLabelCropBlight>
+  <LetterLabelCropBlight>Plaga: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
   <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!
 \nYou should cut or burn the affected plants before the blight spreads. -->
-  <LetterCropBlight>Un colon ha trobat una plaga als cultius! Haurieu de tallar o cremar les plantes afectades abans que s’escampi.</LetterCropBlight>
+  <LetterCropBlight>S'ha descobert una plaga {PLANTDEF_gender ? als : a les} {PLANTDEF_labelPlural}!\nHauríeu d'arrencar o cremar les plantes afectades abans que s’escampi.</LetterCropBlight>
 
   <!-- EN: Miracle -->
   <LetterLabelMiracleHeal>Miracle</LetterLabelMiracleHeal>
@@ -41,7 +41,7 @@
   <RefugeePodCrash_NonHostile>{PAWN_definite} és dels {PAWN_factionName}. Si {PAWN_gender ? el : la} rescateu, podria ser que s’unís voluntàriament a vosaltres. Si no, tornarà a casa seva i parlarà bé de la vostra facció.\n\nTambé {PAWN_gender ? el : la} podeu capturar per reclutar-{PAWN_gender ? lo : la} o vendre com a esclau, però això farà enfadar la seva facció.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
-  <LetterLabelWandererJoins>TODO</LetterLabelWandererJoins>
+  <LetterLabelWandererJoins>Se us uneix un rodamón: {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
   <LetterWandererJoins>TODO</LetterWandererJoins>
 
@@ -64,11 +64,11 @@
   <ShortCircuitWasHuge>Ha sigut una explosió enorme. Uau.</ShortCircuitWasHuge>
 
   <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2} -->
-  <TraderArrival>Una nau d'un comerciant passa per les proximitats.\n\nEs fan dir {0}. Són {1}.</TraderArrival>
+  <TraderArrival>Una nau comerciant passa per les proximitats.\n\nEs fan dir {0}. Són {1}.\n\n{2}.</TraderArrival>
   <!-- EN: They're affiliated with {FACTION_name}. -->
-  <TraderArrivalFromFaction>TODO</TraderArrivalFromFaction>
+  <TraderArrivalFromFaction>Està afiliada amb {FACTION_name}.</TraderArrivalFromFaction>
   <!-- EN: They are not affiliated with any faction. -->
-  <TraderArrivalNoFaction>TODO</TraderArrivalNoFaction>
+  <TraderArrivalNoFaction>No està afiliada amb cap facció.</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
   <SingleTravelerPassing>{PAWN_titleIndef} dels {1} passa per aquí. Es diu {PAWN_nameFull}.</SingleTravelerPassing>
@@ -101,21 +101,21 @@
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
-  <MessageAnimalInsanityPulse>L'antiga estructura emet un impuls psíquic que farà tornar bojos els animals propers.</MessageAnimalInsanityPulse>
+  <MessageAnimalInsanityPulse>{SOURCE_gender ? El : La} {SOURCE_label} ha emès un impuls psíquic que ha fet embogir els animals propers.</MessageAnimalInsanityPulse>
   <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
   <LetterShipPartDroveColonistInsane>El tros de nau que s'ha estavellat emet un impuls psíquic que farà tornar bojos els vostres colons {0}.</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
   <AwokeDaysAgo>Despert fa {0} dies</AwokeDaysAgo>
   <!-- EN: Activated {0} days ago -->
-  <ActivatedDaysAgo>TODO</ActivatedDaysAgo>
+  <ActivatedDaysAgo>Activat fa {0} dies</ActivatedDaysAgo>
   <!-- EN: Opened {0} days ago -->
-  <OpenedDaysAgo>TODO</OpenedDaysAgo>
+  <OpenedDaysAgo>Obert fa {0} dies</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
   <PsychicDroneLevel>Nivell del brunzit psíquic: {0}</PsychicDroneLevel>
   <!-- EN: Drone intensifies -->
   <LetterLabelPsychicDroneLevelIncreased>El brunzit s'intensifica</LetterLabelPsychicDroneLevelIncreased>
   <!-- EN: The crashed ship part is now emanating a more powerful kind of psychic drone. Every {0} humanlike in the area now feels more disturbed, terrified, and paranoid. -->
-  <LetterPsychicDroneLevelIncreased>El tros de nau estavellada emet un brunzit psíquic més potent. Tothom a la zona se sent pitjor, més aterrat i paranoic.</LetterPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>El tros de nau estavellada emet un brunzit psíquic més potent. {0_gender ? Tots els : Totes les} {0} a la zona se senten pitjor, més aterra{0_gender ? ts : des} i paranoi{0_gender ? cs : ques}.</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
   <!-- EN: Agent -->
@@ -173,7 +173,7 @@
   <!-- EN: Ship found -->
   <EscapeShipFoundLabel>Nau trobada</EscapeShipFoundLabel>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>Heu arribat a les coordinades que us va enviar en Charlon Whitestone i heu descobert la nau amagada.\n\nEl reactor de la nau encara és en mode de profunda hibernació, així que no pot volar encara. Podeu engegar-lo a través de l’ordinador central.\n\nCharlon Whitestone us avisa que el procés trigarà uns 15 dies, i que la marca d’energia serà detectable des de molt lluny. Una marca d’energia d’aquest tipus indica capacitat de vol interestel·lar i atraurà bandes de bandits i assaltants desesperats a la recerca de tresors. Assegureu-vos que teniu les defenses preparades.</EscapeShipFound>
+  <EscapeShipFound>Heu arribat a les coordinades que us va enviar en Charlon Whitestone i heu descobert la nau amagada.\n\nEl reactor de la nau encara és en mode de profunda hibernació, així que no pot volar encara. Podeu engegar-lo a través de l’ordinador central.\n\nCharlon Whitestone us avisa que el procés trigarà uns 15 dies i que la marca d’energia serà detectable des de molt lluny. Una marca d’energia d’aquest tipus indica capacitat de vol interestel·lar i atraurà bandes de bandits i assaltants desesperats a la recerca de tresors. Assegureu-vos que teniu les defenses preparades.</EscapeShipFound>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days. -->
   <EscapeShipFoundPeaceful>TODO</EscapeShipFoundPeaceful>
 
@@ -227,19 +227,19 @@
 
   <!-- Quest asker faction hostile -->
   <!-- EN: Quest failed -->
-  <LetterLabelQuestAskerFactionHostile>TODO</LetterLabelQuestAskerFactionHostile>
+  <LetterLabelQuestAskerFactionHostile>Missió fallida</LetterLabelQuestAskerFactionHostile>
   <!-- EN: The quest is now incompletable because {FACTION_name} is hostile. -->
   <LetterQuestAskerFactionHostile>TODO</LetterQuestAskerFactionHostile>
 
   <!-- Quest asker captured -->
   <!-- EN: Quest failed -->
-  <LetterLabelQuestAskerCaptured>TODO</LetterLabelQuestAskerCaptured>
+  <LetterLabelQuestAskerCaptured>Missió fallida</LetterLabelQuestAskerCaptured>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has been captured. -->
   <LetterQuestAskerCaptured>TODO</LetterQuestAskerCaptured>
 
   <!-- Quest asker died -->
   <!-- EN: Quest failed -->
-  <LetterLabelQuestAskerDied>TODO</LetterLabelQuestAskerDied>
+  <LetterLabelQuestAskerDied>Missió fallida</LetterLabelQuestAskerDied>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
   <LetterQuestAskerDied>TODO</LetterQuestAskerDied>
 
