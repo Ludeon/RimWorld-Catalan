@@ -279,7 +279,7 @@
   <!-- EN: Count equipped -->
   <IncludeEquipped>Inclou l’equipament</IncludeEquipped>
   <!-- EN: Count tainted -->
-  <IncludeTainted>Inclou el malmès</IncludeTainted>
+  <IncludeTainted>Inclou indumentària de cadàvers</IncludeTainted>
   <!-- EN: Only allowed ingredients -->
   <LimitToAllowedStuff>Només ingredients permesos</LimitToAllowedStuff>
   <!-- EN: Look everywhere -->
@@ -443,11 +443,11 @@
   <!-- EN: Addiction severity per dose -->
   <AddictionSeverityPerDose>Gravetat de l'addicció per dosi</AddictionSeverityPerDose>
   <!-- EN: Addiction need fill per dose -->
-  <AddictionNeedOffset>Satisfacció de la síndrome d'abstinència per dosi</AddictionNeedOffset>
+  <AddictionNeedOffset>Satisfacció de la necessitat per dosi</AddictionNeedOffset>
   <!-- EN: Addiction need fall rate -->
-  <AddictionNeedFallRate>Ritme de caiguda del síndrome d'abstinència</AddictionNeedFallRate>
+  <AddictionNeedFallRate>Ritme de caiguda de la necessitat</AddictionNeedFallRate>
   <!-- EN: Addiction need dose interval -->
-  <AddictionNeedDoseInterval>Interval entre dosis pel síndrome d'abstinència</AddictionNeedDoseInterval>
+  <AddictionNeedDoseInterval>Interval entre dosis per necessitat</AddictionNeedDoseInterval>
   <!-- EN: Addiction recovery time -->
   <AddictionRecoveryTime>Temps de recuperació de l'addicció</AddictionRecoveryTime>
   <!-- EN: Addiction cost -->
@@ -857,11 +857,11 @@
   <!-- EN: Outfit -->
   <Outfit>Indumentària</Outfit>
   <!-- EN: Select outfit... -->
-  <SelectOutfit>Selecciona la indumentària</SelectOutfit>
+  <SelectOutfit>Selecciona la indumentària…</SelectOutfit>
   <!-- EN: New outfit -->
-  <NewOutfit>Indumentària nova</NewOutfit>
+  <NewOutfit>Indumentària nova…</NewOutfit>
   <!-- EN: Delete outfit... -->
-  <DeleteOutfit>Esborra la indumentària</DeleteOutfit>
+  <DeleteOutfit>Esborra la indumentària…</DeleteOutfit>
   <!-- EN: Outfit is in use by {0}. -->
   <OutfitInUse>Aquesta indumentària l'està fent servir {0_definite}.</OutfitInUse>
   <!-- EN: No outfit selected -->
@@ -871,11 +871,11 @@
   <!-- EN: Drug policy -->
   <DrugPolicy>Política de drogues</DrugPolicy>
   <!-- EN: Select policy... -->
-  <SelectDrugPolicy>Tria una política</SelectDrugPolicy>
+  <SelectDrugPolicy>Tria una política…</SelectDrugPolicy>
   <!-- EN: New policy -->
   <NewDrugPolicy>Política nova</NewDrugPolicy>
   <!-- EN: Delete policy... -->
-  <DeleteDrugPolicy>Esborra una política</DeleteDrugPolicy>
+  <DeleteDrugPolicy>Esborra una política…</DeleteDrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
   <DrugPolicyInUse>{0_definite} està seguint aquesta política de drogues.</DrugPolicyInUse>
   <!-- EN: Food restriction is in use by {0}. -->
@@ -883,7 +883,7 @@
   <!-- EN: No drug policy selected -->
   <NoDrugPolicySelected>No heu seleccionat cap política de drogues</NoDrugPolicySelected>
   <!-- EN: Add drug... -->
-  <AddDrug>Afegeix una droga</AddDrug>
+  <AddDrug>Afegeix una droga…</AddDrug>
   <!-- EN: Drug -->
   <DrugColumnLabel>Droga</DrugColumnLabel>
   <!-- EN: Usage -->
@@ -991,7 +991,7 @@
   <!-- EN: {1_labelShort} will most likely die. -->
   <ConfirmBanishPawnDialog_LeftToDie>{1_definite} probablement morirà.</ConfirmBanishPawnDialog_LeftToDie>
   <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
-  <ConfirmBanishPawnDialog_Items>Quan marxi, {1_definite} es quedarà els següents objectes:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_Items>Quan se'n vagi, {1_definite} es quedarà els següents objectes:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
   <ConfirmBanishPawnDialog_AllColonistsThoughts>Tots els colons tindran aquests pensaments:</ConfirmBanishPawnDialog_AllColonistsThoughts>
   <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
@@ -1053,7 +1053,7 @@
   <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
   <AbilityCantApplyToScaria>{0_definite} té escària, que només es pot tractar mèdicament.</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
-  <AbilityDoesntWorkOnMentalState>{0} no funciona amb l'estat mental «{1}».</AbilityDoesntWorkOnMentalState>
+  <AbilityDoesntWorkOnMentalState>{0} no funciona amb la crisi nerviosa «{1}».</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
   <AbilityCantApplyNoResistance>{0_definite} té resistència zero.</AbilityCantApplyNoResistance>
   <!-- EN: {0_labelShort} is downed. -->
@@ -1124,7 +1124,7 @@
   <!-- EN: Other -->
   <AutoSlaugtherHeaderColOther>Altres</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
   <!-- EN: Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy. -->
-  <AutoSlaugtherTip>Els colons primer escorxaran els animals que no estiguin prenyats, començant pels més vells. Si tots els animals estan prenyats, s'escorxarà el que faci menys temps que està prenyat.</AutoSlaugtherTip>
+  <AutoSlaugtherTip>Els colons escorxaran els animals més vells que no estiguin prenyats. Si només hi ha femelles prenyades, s'escorxarà la que faci menys temps que ho estigui.</AutoSlaugtherTip>
   <!-- EN: Male adult -->
   <AnimalMaleAdult>Mascle adult</AnimalMaleAdult>
   <!-- EN: Male young -->
@@ -1136,7 +1136,7 @@
   <!-- EN: Pregnant -->
   <AnimalPregnant>Femelles prenyades</AnimalPregnant>
   <!-- EN: Bonded -->
-  <AnimalBonded>Amb lligams amb humans</AnimalBonded>
+  <AnimalBonded>Amb lligams</AnimalBonded>
   <!-- EN: Slaughter -->
   <AllowSlaughter>Escorxa</AllowSlaughter>
 
@@ -1163,9 +1163,9 @@
   <!-- EN: The maximum number of baby and juvenile females in the colony.\n\nHandlers will automatically slaughter any extras. -->
   <AutoSlaughterHeaderTooltipMaxFemalesYoung>El nombre màxim de femelles joves que no han arribat a l'edat de reproducció.\n\nSe n'escorxaran automàticament si n'hi ha més.</AutoSlaughterHeaderTooltipMaxFemalesYoung>
   <!-- EN: The current number of pregnant animals in the colony. -->
-  <AutoSlaughterHeaderTooltipCurrentPregnant>El nombre actual d'animals prenyats a la colònia.</AutoSlaughterHeaderTooltipCurrentPregnant>
+  <AutoSlaughterHeaderTooltipCurrentPregnant>El nombre actual de femelles prenyades a la colònia.</AutoSlaughterHeaderTooltipCurrentPregnant>
   <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
-  <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>Permet que s'escorxin animals prenyats juntament amb altres femelles de la mateixa espècie.</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
+  <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>Permet que s'escorxin femelles prenyades juntament amb altres femelles de la mateixa espècie.</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
   <!-- EN: The current number of bonded animals in the colony. -->
   <AutoSlaughterHeaderTooltipCurrentBonded>El nombre actual d'animals amb lligams amb humans de la colònia.</AutoSlaughterHeaderTooltipCurrentBonded>
   <!-- EN: Allow bonded animals to be slaughtered. -->

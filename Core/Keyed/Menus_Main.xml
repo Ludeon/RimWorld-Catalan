@@ -215,7 +215,7 @@
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>El mod necessita que la informació de versions suportades tingui el format adequat al fitxer «About.xml». Com ara: &lt;supportedVersions>&lt;li>>{0}&lt;/supportedVersions> – El format %lt;targetVersion> ha quedat obsolet. Comproveu el registre per més informació.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>El mod necessita un «packageId»\n (identificador de paquet) únic i amb el format adequat al fitxer «About.xml». Els requisits són:\n\n  – Només caràcters alfanumèrics i punts.\n  – Sense espais.\n  – Com a mínim un punt.\n  – Sense dos punts consecutius ni començar o acabar amb punt.\n  – 60 caràcters o menys.\n  – No pot contenir la paraula «Ludeon».\n\nA tall d'exemple:\n&lt;packageId>NomAutor.NomDelMod&lt;/packageId>\n&lt;packageId>NomAutor.NomDelMod.Detalls&lt;/packageId></MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>El mod necessita un «packageId» (identificador de paquet) únic i amb el format adequat al fitxer «About.xml». Els requisits són:\n\n  – Només caràcters alfanumèrics i punts.\n  – Sense espais.\n  – Com a mínim un punt.\n  – Sense dos punts consecutius ni començar o acabar amb punt.\n  – 60 caràcters o menys.\n  – No pot contenir la paraula «Ludeon».\n\nA tall d'exemple:\n&lt;packageId>NomAutor.NomDelMod&lt;/packageId>\n&lt;packageId>NomAutor.NomDelMod.Detalls&lt;/packageId></MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
   <ModHadLoadFolderIssues>Aquest mod té problemes en «LoadFolders.xml», que haureu d'arreglar abans de pujar-lo:</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
@@ -301,7 +301,7 @@
   <!-- EN: Custom playstyle settings -->
   <DifficultyCustomSectionLabel>Configuració d'estil de joc personalitat</DifficultyCustomSectionLabel>
   <!-- EN: Set to standard playstyle... -->
-  <DifficultyReset>Aplica la configuració d'un estil estàndard</DifficultyReset>
+  <DifficultyReset>Aplica la configuració de l'estil estàndard…</DifficultyReset>
   
   <!-- EN: Threats -->
   <DifficultyThreatSection>Amenaces</DifficultyThreatSection>
@@ -621,7 +621,7 @@
   <!-- EN: Back -->
   <Back>Enrere</Back>
   <!-- EN: Change material... -->
-  <ShowMaterials>Canvia el material</ShowMaterials>
+  <ShowMaterials>Canvia el material…</ShowMaterials>
   <!-- EN: Gameplay -->
   <Gameplay>Jugabilitat</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->

@@ -423,7 +423,7 @@
   <!-- EN: {0} of {1} x{2} -->
   <FilthLabelWithSource>{0} de {1} ×{2}</FilthLabelWithSource>
   <!-- EN: Required -->
-  <Required>TODO</Required>
+  <Required>Necessari</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
   <GiveGiftViaTransportPodsTradeRequestWarning>Avís: Les sol·licituds de comerç no es poden completar amb càpsules de transport.\nSi envieu els béns, l'assentament els acceptarà com si fossin regals, però no es completarà la missió ni en rebreu les recompenses.\n\nPer comerciar, cal que us apropeu al campament amb una caravana.\n\nEsteu segur que voleu donar el carregament a la facció?</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
@@ -1184,7 +1184,7 @@
 
   <!-- Mood descriptions -->
   <!-- EN: mental state -->
-  <Mood_MentalState>estat mental</Mood_MentalState>
+  <Mood_MentalState>patint una crisi nerviosa</Mood_MentalState>
   <!-- EN: about to break -->
   <Mood_AboutToBreak>a punt de petar</Mood_AboutToBreak>
   <!-- EN: on edge -->
@@ -1200,7 +1200,7 @@
 
   <!-- Game over -->
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
-  <GameOverEveryoneDead>Tothom és mort o ha marxat. S'ha acabat la història.\n\nPotser algú podrà aprofitar les ruïnes del que queda.</GameOverEveryoneDead>
+  <GameOverEveryoneDead>Tothom és mort o se n'ha anat. S'ha acabat la història.\n\nPotser algú podrà aprofitar les ruïnes del que queda.</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
   <GameOverPlanetkillerImpact>Gairebé a la velocitat de la llum, la destructora de planetes impacta sobre el terra amb la força d'un bilió de bombes d'hidrogen. Com un globus d'aigua atravessat per una bala, el planeta s'ha liquat per l'impacte i s'ha dispersat pel cosmos.\n\nEl que queda de {0} és un petit cinturó d'asteroides. La resta és un infern radioactiu desfet, assotat per onades de terratrèmols de diversos quilòmetres d'altitud.\n\nNo heu sobreviscut.</GameOverPlanetkillerImpact>
   <!-- EN: You've launched the ship! -->
@@ -1364,9 +1364,9 @@
 
   <!-- Transport pods -->
   <!-- EN: {0}: See available orders... -->
-  <ClickToSeeAvailableOrders_WorldObject>{0}: Mostra les ordres disponibles</ClickToSeeAvailableOrders_WorldObject>
+  <ClickToSeeAvailableOrders_WorldObject>{0}: Mostra les ordres disponibles…</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
-  <ClickToSeeAvailableOrders_Empty>Mostra les ordres disponibles</ClickToSeeAvailableOrders_Empty>
+  <ClickToSeeAvailableOrders_Empty>Mostra les ordres disponibles…</ClickToSeeAvailableOrders_Empty>
   
   <!-- Pawn tooltips -->
   <!-- EN: {0} ({1})\n{2}\n{3} -->
@@ -1571,13 +1571,13 @@
   <DateRitualNoObligation>{0} és un ritual que s'ha de celebrar en dates específiques. El podreu començar d'aquí {1}, el {2}.</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>TODO</PreceptReplaceWith>
+  <PreceptReplaceWith>Reemplaça amb</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
-  <RitualSeatOf>TODO</RitualSeatOf>
+  <RitualSeatOf>Seient ritual de {IDEOS}</RitualSeatOf>
   <!-- EN: Expected quality -->
   <ExpectedRitualQuality>Qualitat esperada</ExpectedRitualQuality>
   <!-- EN: Starting quality -->
-  <StartingQuality>TODO</StartingQuality>
+  <StartingQuality>Qualitat inicial</StartingQuality>
   <!-- EN: Expected duration -->
   <ExpectedRitualDuration>Duració prevista</ExpectedRitualDuration>
   
@@ -1591,7 +1591,7 @@
   <RitualPredictedOutcomeDescPawnExpectations>Expectatives de {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
 
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>TODO</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>Qualssevol d'aquests</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
   <RitualRoleReplaces>Substitueix {PAWN_labelShort}</RitualRoleReplaces>
 

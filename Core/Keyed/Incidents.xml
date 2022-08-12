@@ -2,13 +2,13 @@
 <LanguageData>
 
   <!-- EN: Mad {ANIMAL_labelShort} -->
-  <LetterLabelAnimalInsanitySingle>{ANIMAL_indefinite} boig</LetterLabelAnimalInsanitySingle>
+  <LetterLabelAnimalInsanitySingle>{ANIMAL_indefinite} furiós</LetterLabelAnimalInsanitySingle>
   <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
   <AnimalInsanitySingle>{ANIMAL_indefinite} ha embogit. Atacarà a qui vegi.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanityMultiple>{0} bojos</LetterLabelAnimalInsanityMultiple>
+  <LetterLabelAnimalInsanityMultiple>{0} furiosos</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
-  <AnimalInsanityMultiple>Algun tipus d'interferència psíquica s'escampa sobre el paisatge. Els vostres colons estan bé, però…\n\nSembla que molts {0} de la zona s'han tornat bojos.</AnimalInsanityMultiple>
+  <AnimalInsanityMultiple>Algun tipus d'interferència psíquica s'escampa sobre el paisatge. Els vostres colons estan bé, però…\n\nSembla que molts {0} de la zona han embogit.</AnimalInsanityMultiple>
 
   <!-- EN: Blight: {PLANTDEF_labelPlural} -->
   <LetterLabelCropBlight>Plaga: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
@@ -30,34 +30,34 @@
   <FriendlyRaidLeaderPresent>Un dels {LEADER_factionPawnsPlural}, {LEADER_definite}, és el líder de la facció.</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
-  <LetterLabelRefugeePodCrash>Càpsula d'escapament</LetterLabelRefugeePodCrash>
+  <LetterLabelRefugeePodCrash>Càpsula de transport estavellada</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>{PAWN_titleIndef} anomenat {PAWN_nameDef} s’ha estavellat prop d’aquí en una càpsula de transport. Si ha sobreviscut a l’impacte, estarà molt {PAWN_gender ? malferit : malferida}.</RefugeePodCrash>  
+  <RefugeePodCrash>{PAWN_titleIndef} anomenat {PAWN_nameDef} s’ha estavellat a prop d’aquí en una càpsula de transport. Si ha sobreviscut a l’impacte, estarà molt {PAWN_gender ? malferit : malferida}.</RefugeePodCrash>  
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Factionless>{PAWN_definite} no pertany a cap facció. {PAWN_gender ? El : La} podeu rescatar i tenir l’esperança que s’unirà a vosaltres voluntàriament, o {PAWN_gender ? el : la} podeu capturar per reclutar-{PAWN_gender ? lo : la} o vendre com a esclau</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Factionless>{PAWN_definite} no pertany a cap facció. {PAWN_gender ? El : La} podeu rescatar i tenir l’esperança que s’unirà al vostre grup voluntàriament, o {PAWN_gender ? el : la} podeu capturar per reclutar-{PAWN_gender ? lo : la} o vendre com a esclau</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>{PAWN_definite} és de la facció enemiga {PAWN_factionName}. El podeu capturar per reclutar-lo o vendre com a esclau.</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_Hostile>{PAWN_definite} és de la facció enemiga {PAWN_factionName}. El podeu capturar per reclutar-lo o vendre'l com a esclau.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
-  <RefugeePodCrash_NonHostile>{PAWN_definite} és dels {PAWN_factionName}. Si {PAWN_gender ? el : la} rescateu, podria ser que s’unís voluntàriament a vosaltres. Si no, tornarà a casa seva i parlarà bé de la vostra facció.\n\nTambé {PAWN_gender ? el : la} podeu capturar per reclutar-{PAWN_gender ? lo : la} o vendre com a esclau, però això farà enfadar la seva facció.</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostile>{PAWN_definite} és dels {PAWN_factionName}. Si {PAWN_gender ? el : la} rescateu, podria ser que s’unís voluntàriament al vostre grup. Si no, tornarà a casa seva i parlarà bé de la vostra facció.\n\nTambé {PAWN_gender ? el : la} podeu capturar per reclutar-{PAWN_gender ? lo : la} o vendre'l com a esclau, però això farà enfadar la seva facció.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
   <LetterLabelWandererJoins>Se us uneix un rodamón: {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
-  <LetterWandererJoins>TODO</LetterWandererJoins>
+  <LetterWandererJoins>Ha arribat un {PAWN_title} que es diu {PAWN_nameDef} a la colònia i s'hi vol unir.\n\nVol contribuir i no aixecarà el camp per la seva pròpia voluntat, ja que no té on anar. Podeu reduir-lo i fer-lo fora. No obstant, els colons es sentiran molestos per fer fora a algú que necessita ajuda.</LetterWandererJoins>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Càpsules de càrrega</LetterLabelCargoPodCrash>
   <!-- EN: You have detected a cluster of cargo pods crashing nearby.\n\nPerhaps you'll find something useful in the wreckage. -->
-  <CargoPodCrash>Heu detectat unes càpsules de càrrega caient prop d'aquí.\n\nPotser podeu trobar alguna cosa útil entre les restes.</CargoPodCrash>
+  <CargoPodCrash>Heu detectat unes càpsules de càrrega caient a prop d'aquí.\n\nPotser podeu trobar alguna cosa útil entre les restes.</CargoPodCrash>
 
   <!-- EN: an electrical conduit -->
-  <AnElectricalConduit>un conducte elèctric</AnElectricalConduit>
+  <AnElectricalConduit>un curtcircuit elèctric</AnElectricalConduit>
   <!-- EN: A fault in {0} has caused a short circuit. -->
   <ShortCircuit>Una fallada del {0} ha provocat un curtcircuit.</ShortCircuit>
   <!-- EN: A fault in {0} has caused a short circuit which started a fire. -->
   <ShortCircuitStartedFire>Una fallada del {0} ha provocat un curtcircuit que ha iniciat un incendi.</ShortCircuitStartedFire>
   <!-- EN: All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion. -->
-  <ShortCircuitDischargedEnergy>Els {0}Wd d'energia de les bateries connectades s'han descarregat en la guspira.</ShortCircuitDischargedEnergy>
+  <ShortCircuitDischargedEnergy>Els {0} Wd d'energia de les bateries connectades s'han descarregat per l'explosió elèctrica.</ShortCircuitDischargedEnergy>
   <!-- EN: This large amount of power has created an explosion of considerable size. -->
   <ShortCircuitWasLarge>La gran quantitat d'energia ha causat una forta explosió.</ShortCircuitWasLarge>
   <!-- EN: That really is a huge explosion. Wow. -->
@@ -80,30 +80,30 @@
   <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
   <SingleVisitorArrives>{PAWN_titleIndef} dels {1} visita la colònia.\n\nEs diu {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
-  <SingleVisitorArrivesTraderInfo>\n\nSembla que té algunes coses per vendre.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesTraderInfo>Sembla que té algunes coses per vendre.</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
-  <SingleVisitorArrivesLeaderInfo>\n\nÉs el líder de la facció.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrivesLeaderInfo>És el líder de la facció.</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
   <LetterLabelGroupVisitorsArrive>Visitants</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
   <GroupVisitorsArrive>Un grup de {0} visiten la colònia.{1}{2}</GroupVisitorsArrive>
   <!-- EN: They seem to have a few items to trade. -->
-  <GroupVisitorsArriveTraderInfo>\n\nSembla que porten coses per vendre.</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveTraderInfo>Sembla que porten coses per vendre.</GroupVisitorsArriveTraderInfo>
   <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>\n\nUn dels visitants, {1_definite}, és el líder de la facció.</GroupVisitorsArriveLeaderInfo>
+  <GroupVisitorsArriveLeaderInfo>Un dels visitants, {1_definite}, és el líder de la facció.</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
-  <VisitorsLeaving>Els visitants de {0} marxen.</VisitorsLeaving>
+  <VisitorsLeaving>Els visitants de {0} se'n van.</VisitorsLeaving>
 
   <!-- EN: Manhunter pack -->
-  <LetterLabelManhunterPackArrived>Menja persones</LetterLabelManhunterPackArrived>
+  <LetterLabelManhunterPackArrived>Grup d'animals caçapersones</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
-  <ManhunterPackArrived>Un grup de {0} ha entrat a la zona. Voltaran per la regió, buscant carn humana.\n\nNo atacaran les portes si no veuen algú que les travessa. Si us amagueu a dins, estareu segurs. No atacaran les metralladores inactives així que, si les teniu apagades, no els passarà res.\n\nMarxaran d'aquí a uns dies.</ManhunterPackArrived>
+  <ManhunterPackArrived>Un grup de {0} caçapersones ha entrat a la zona. Embogits per l'escària, una malaltia infecciosa, voltaran per la regió, buscant carn humana.\n\nNo atacaran les portes si no veuen algú que les travessa. Si us amagueu a dins, estareu segur. No atacaran les torretes inactives; així que, si les teniu apagades, no els passarà res.\n\nEls {0} plegaran veles d'aquí un o dos dies. Us podeu amagar i esperar o lluitar-hi.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
   <MessageAnimalInsanityPulse>{SOURCE_gender ? El : La} {SOURCE_label} ha emès un impuls psíquic que ha fet embogir els animals propers.</MessageAnimalInsanityPulse>
   <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
-  <LetterShipPartDroveColonistInsane>El tros de nau que s'ha estavellat emet un impuls psíquic que farà tornar bojos els vostres colons {0}.</LetterShipPartDroveColonistInsane>
+  <LetterShipPartDroveColonistInsane>El tros de nau que s'ha estavellat emet un impuls psíquic que ha fet tornar bo{0_gender ? ig : ja} {0}.</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
   <AwokeDaysAgo>Despert fa {0} dies</AwokeDaysAgo>
   <!-- EN: Activated {0} days ago -->
@@ -115,7 +115,7 @@
   <!-- EN: Drone intensifies -->
   <LetterLabelPsychicDroneLevelIncreased>El brunzit s'intensifica</LetterLabelPsychicDroneLevelIncreased>
   <!-- EN: The crashed ship part is now emanating a more powerful kind of psychic drone. Every {0} humanlike in the area now feels more disturbed, terrified, and paranoid. -->
-  <LetterPsychicDroneLevelIncreased>El tros de nau estavellada emet un brunzit psíquic més potent. {0_gender ? Tots els : Totes les} {0} a la zona se senten pitjor, més aterra{0_gender ? ts : des} i paranoi{0_gender ? cs : ques}.</LetterPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>El tros de nau estavellada ara emet un brunzit psíquic més potent. Tots els {0} humanoides de la zona se senten pitjor, més aterrats i paranoics.</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
   <!-- EN: Agent -->
@@ -137,7 +137,7 @@
   <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
   <LetterAnimalSelfTameAndNameNumerical>{0} s'ha convertit en domèstic. S'anomenarà {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
   <!-- EN: {0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndName>{0} S'ha convertit en domèstic. Els colons han decidit anomenar-lo {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
+  <LetterAnimalSelfTameAndName>{0} s'ha convertit en domèstic. Els colons han decidit anomenar-lo {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
   <!-- EN: {0} join -->
@@ -147,23 +147,23 @@
   
   <!-- Thrumbo passes -->
   <!-- EN: Rare thrumbos -->
-  <LetterLabelThrumboPasses>Trumbes</LetterLabelThrumboPasses>
+  <LetterLabelThrumboPasses>Trumbes rars</LetterLabelThrumboPasses>
   <!-- EN: A small herd of thrumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious leather and horn.\n\nThrumbos will leave the area in a few days. -->
-  <LetterThrumboPasses>Una petita manada de trumbes han entrat a la zona.\n\nTot i que pacífics per natura, aquestes rares criatures són molt perilloses. Alguns comerciants pagaran molts diners per la banya i la pell.\n\nLes trumbes marxaran d'aquí a uns dies.</LetterThrumboPasses>
+  <LetterThrumboPasses>Ha entrat una petita manada de trumbes a la zona.\n\nTot i que pacífics per natura, aquestes rares criatures són molt perilloses si se les ataca. Alguns comerciants pagaran molts diners per les seves preuades banyes i pells.\n\nEls trumbes plegaran veles d'aquí uns dies.</LetterThrumboPasses>
   
   <!-- Trader caravan -->
   <!-- EN: {1} from {0} -->
   <LetterLabelTraderCaravanArrival>{1} de {0}</LetterLabelTraderCaravanArrival>
   <!-- EN: A caravan from {0} is approaching. They are a {1}. -->
-  <LetterTraderCaravanArrival>S'acosta una caravana de {0}. Són {1}.\n\nVoltaran per la colònia uns quants dies abans de marxar. Els podeu atacar, però la seva facció s'enfadarà!</LetterTraderCaravanArrival>
+  <LetterTraderCaravanArrival>S'acosta una caravana de {0}. Són {1}.</LetterTraderCaravanArrival>
   <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
-  <LetterCaravanArrivalCommonWarning>TODO</LetterCaravanArrivalCommonWarning>
+  <LetterCaravanArrivalCommonWarning>Voltaran per la colònia uns quants dies abans de plegar veles. Els podeu atacar, però la seva facció s'enfadarà!</LetterCaravanArrivalCommonWarning>
     
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
   <RansomDemandTitle>Demanda de rescat a {0}</RansomDemandTitle>
   <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
-  <RansomDemand>{1} us contacta per ràdio. Tenen retingut {PAWN_definite} per demanar-ne un rescat.\n\nL'alliberaran si els doneu {2} de plata.</RansomDemand>
+  <RansomDemand>{1} us contacta per ràdio. Tenen retingut {PAWN_definite}, un antic colon vostre, per demanar-ne un rescat.\n\nL'alliberaran si els doneu {2} de plata.</RansomDemand>
   <!-- EN: Accept -->
   <RansomDemand_Accept>Accepta</RansomDemand_Accept>
   <!-- EN: Reject -->
@@ -171,39 +171,39 @@
   
   <!-- Journey-related -->
   <!-- EN: Ship found -->
-  <EscapeShipFoundLabel>Nau trobada</EscapeShipFoundLabel>
+  <EscapeShipFoundLabel>S'ha trobat una nau</EscapeShipFoundLabel>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>Heu arribat a les coordinades que us va enviar en Charlon Whitestone i heu descobert la nau amagada.\n\nEl reactor de la nau encara és en mode de profunda hibernació, així que no pot volar encara. Podeu engegar-lo a través de l’ordinador central.\n\nCharlon Whitestone us avisa que el procés trigarà uns 15 dies i que la marca d’energia serà detectable des de molt lluny. Una marca d’energia d’aquest tipus indica capacitat de vol interestel·lar i atraurà bandes de bandits i assaltants desesperats a la recerca de tresors. Assegureu-vos que teniu les defenses preparades.</EscapeShipFound>
+  <EscapeShipFound>Heu arribat a les coordinades que us va enviar en (*Name)Charlon Whitestone(/Name) i heu descobert la nau amagada.\n\nEl reactor de la nau encara és en mode d'hibernació profunda, així que la nau no pot volar. Podeu engegar-lo a través de l’ordinador central.\n\nEn (*Name)Charlon Whitestone(/Name) us avisa que el procés pot trigar uns 15 dies i que la signatura energètica serà detectable des de molt lluny.\n\nAquest tipus de signatura energètica indica capacitat de vol interestel·lar i atraurà bandes d’assaltants desesperats i eixams de mecanoides mortífers.\n\nRebreu uns atacs intensos com mai heu vist. Assegureu-vos que teniu les defenses preparades..</EscapeShipFound>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days. -->
-  <EscapeShipFoundPeaceful>TODO</EscapeShipFoundPeaceful>
+  <EscapeShipFoundPeaceful>Heu arribat a les coordinades que us va enviar en (*Name)Charlon Whitestone(/Name) i heu descobert la nau amagada.\n\nEl reactor de la nau encara és en mode d'hibernació profunda, així que la nau no pot volar. Podeu engegar-lo a través de l’ordinador central.\n\nEn (*Name)Charlon Whitestone(/Name) us avisa que el procés pot trigar uns 15 dies.</EscapeShipFoundPeaceful>
 
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->
   <CaravanMeetingTitle>Trobada amb la caravana de {0}</CaravanMeetingTitle>
   <!-- EN: {0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2} -->
-  <CaravanMeeting>{0} s'ha creuat pacíficament amb una altra caravana de {1}. L'altra caravana està formada per:\n\n{2}</CaravanMeeting>
+  <CaravanMeeting>{0} s'ha reunit pacíficament amb una altra caravana de {1}. L'altra caravana està formada per:\n\n{2}</CaravanMeeting>
   <!-- EN: Trade -->
   <CaravanMeeting_Trade>Negocia</CaravanMeeting_Trade>
   <!-- EN: Attack -->
   <CaravanMeeting_Attack>Ataca</CaravanMeeting_Attack>
   <!-- EN: Move on -->
-  <CaravanMeeting_MoveOn>Continua</CaravanMeeting_MoveOn>
+  <CaravanMeeting_MoveOn>Continua el viatge</CaravanMeeting_MoveOn>
   <!-- EN: no caravan members capable of trading -->
   <CaravanMeeting_TradeIncapable>no hi ha cap membre a la caravana capaç de negociar</CaravanMeeting_TradeIncapable>
   <!-- EN: need a trader with the title of {0} from {1_name} -->
-  <CaravanMeeting_NoPermit>TODO</CaravanMeeting_NoPermit>
+  <CaravanMeeting_NoPermit>cal un comerciant amb el títol de {0} de {1_name}</CaravanMeeting_NoPermit>
   
   <!-- Caravan request -->
   <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>Petició de caravana</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
-  <LetterCaravanRequest>Un assentament proper, {0}, us contacta amb una proposta de negoci particular. Volen comprar:\n\n  {1} (valorat en {2})\n\nEn compensació, ofereixen:\n\n  {3}(valorat en {4})\n\nLa proposta expira en: {5}\n\nSi voleu tancar el negoci, envieu-los una caravana amb els productes que han demanat. El temps estimat de viatge són {6}. Podeu revisar la proposta seleccionant {0} al mapa de món.</LetterCaravanRequest>
+  <LetterCaravanRequest>Un assentament proper, {0}, es posa en contacte amb la vostra colònia amb una proposta de negoci particular. Volen comprar:\n\n  {1} (valorat en {2})\n\nUs ofereixen:\n\n  {3}(valorat en {4})\n\nLa proposta expira en: {5}\n\nSi voleu fer l'intercanvi, envieu-los una caravana amb els productes que han demanat. El temps estimat de viatge és de {6}. Podeu revisar la proposta seleccionant {0} al mapa de món.</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({2}) ({1} left) -->
   <CaravanRequestInfo>Demanen: {0}({3}), ofereixen: {1} ({4}) (us queden {2})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>qualitat normal o millor</NormalQualityOrBetter>
   <!-- EN: not tainted -->
-  <NotTainted>TODO</NotTainted>
+  <NotTainted>no pas de cadàvers</NotTainted>
 
   <!-- Caravan demand -->
   <!-- EN: Caravan demand by {0} -->
@@ -211,9 +211,9 @@
   <!-- EN: {0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3} -->
   <CaravanDemand>{0} ha estat assaltada per un grup de {2} {4} dels {1}. Us atacaran si no els doneu:\n\n{3}</CaravanDemand>
   <!-- EN: Give and pass -->
-  <CaravanDemand_Give>Donar-los-ho i continuar</CaravanDemand_Give>
+  <CaravanDemand_Give>Dóna'ls-hi i continua</CaravanDemand_Give>
   <!-- EN: Refuse and fight -->
-  <CaravanDemand_Fight>Rebutjar-ho i lluitar</CaravanDemand_Fight>
+  <CaravanDemand_Fight>Rebutja-ho i lluita</CaravanDemand_Fight>
 
   <!-- Site no longer hostile -->
   <!-- EN: Quest no longer available -->
@@ -221,7 +221,7 @@
   <!-- EN: Quests no longer available -->
   <LetterLabelSiteNoLongerHostileMulti>Les missions ja no estan disponibles</LetterLabelSiteNoLongerHostileMulti>
   <!-- EN: Because you are no longer hostile with {0}, the {1} site is no longer available. -->
-  <LetterSiteNoLongerHostile>Com que ja no sou hostil amb {0}, {1} ja no està disponible.</LetterSiteNoLongerHostile>
+  <LetterSiteNoLongerHostile>Com que ja no sou hostil amb {0}, el lloc {1} ja no està disponible.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
   <LetterSiteNoLongerHostileMulti>Com que ja no sou hostil amb {0}, els llocs següents ja no estan disponibles</LetterSiteNoLongerHostileMulti>
 
@@ -229,18 +229,18 @@
   <!-- EN: Quest failed -->
   <LetterLabelQuestAskerFactionHostile>Missió fallida</LetterLabelQuestAskerFactionHostile>
   <!-- EN: The quest is now incompletable because {FACTION_name} is hostile. -->
-  <LetterQuestAskerFactionHostile>TODO</LetterQuestAskerFactionHostile>
+  <LetterQuestAskerFactionHostile>La missió no es pot completar perquè {FACTION_name} és hostil.</LetterQuestAskerFactionHostile>
 
   <!-- Quest asker captured -->
   <!-- EN: Quest failed -->
   <LetterLabelQuestAskerCaptured>Missió fallida</LetterLabelQuestAskerCaptured>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has been captured. -->
-  <LetterQuestAskerCaptured>TODO</LetterQuestAskerCaptured>
+  <LetterQuestAskerCaptured>La missió no es pot completar perquè {SUBJECT_undefinite} ha estat captura{SUBJECT_gender ? t : da}.</LetterQuestAskerCaptured>
 
   <!-- Quest asker died -->
   <!-- EN: Quest failed -->
   <LetterLabelQuestAskerDied>Missió fallida</LetterLabelQuestAskerDied>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
-  <LetterQuestAskerDied>TODO</LetterQuestAskerDied>
+  <LetterQuestAskerDied>La missió no es pot completar perquè {SUBJECT_undefinite} ha mort.</LetterQuestAskerDied>
 
 </LanguageData>
