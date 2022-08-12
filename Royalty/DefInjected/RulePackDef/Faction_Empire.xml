@@ -24,21 +24,51 @@
     <li>ofThing->Eternity</li>
     <li>ofThing->the Spirit</li>
   -->
-  <NamerFactionEmpire.rulePack.rulesStrings>TODO</NamerFactionEmpire.rulePack.rulesStrings>
+  <NamerFactionEmpire.rulePack.rulesStrings>
+    <li>r_name(p=2)->[empire] de[ofThing]</li>
+    <li>r_name(p=2)->[empire] etern de[ofThing]</li>
+    <li>r_name->[empire] dels Exiliats</li>
+    <li>r_name->[empire] dels Refugiats</li>
+    <li>r_name->[empire] Trencat</li>
+    <li>r_name->[empire] Destrossat</li>
+    <li>r_name->[empire] Caigut</li>
+    <li>r_name->[empire] [Color]</li>
+    <li>empire(p=4)->L'Imperi</li>
+    <li>empire->El Ducat</li>
+    <li>empire->El Regne</li>
+    <li>empire->El Reialme</li>
+    <li>empire->El Principat</li>
+    <li>ofThing(p=4)->[WordImperial]</li>
+    <li>ofThing->l Sol</li>
+    <li>ofThing-> la Lluna</li>
+    <li>ofThing-> l'Univers</li>
+    <li>ofThing-> Déu</li>
+    <li>ofThing-> de la perfecció</li>
+    <li>ofThing-> l'Eternitat</li>
+    <li>ofThing-> l'Esperit</li>
+  </NamerFactionEmpire.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=3)->[ImperialNameFirstMale] [ImperialNameLast]</li>
     <li>r_name(p=2)->[ImperialNameFirstMale] [WordImperial]</li>
     <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
   -->
-  <NamerPersonSophian.rulePack.rulesStrings>TODO</NamerPersonSophian.rulePack.rulesStrings>
+  <NamerPersonSophian.rulePack.rulesStrings>
+    <li>r_name(p=3)->[ImperialNameFirstMale] [ImperialNameLast]</li>
+    <li>r_name(p=2)->[ImperialNameFirstMale] [WordImperial]</li>
+    <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
+  </NamerPersonSophian.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast]</li>
     <li>r_name(p=2)->[ImperialNameFirstFemale] [WordImperial]</li>
     <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
   -->
-  <NamerPersonSophianFemale.rulePack.rulesStrings>TODO</NamerPersonSophianFemale.rulePack.rulesStrings>
+  <NamerPersonSophianFemale.rulePack.rulesStrings>
+    <li>r_name(p=3)->[ImperialNameFirstFemale] [ImperialNameLast]</li>
+    <li>r_name(p=2)->[ImperialNameFirstFemale] [WordImperial]</li>
+    <li>r_name(p=2)->[WordImperial] [WordImperial]</li>
+  </NamerPersonSophianFemale.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[townname_wordgen]</li>
