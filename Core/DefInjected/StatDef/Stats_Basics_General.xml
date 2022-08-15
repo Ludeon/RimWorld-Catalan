@@ -44,10 +44,10 @@
   <MarketValue.label>valor de mercat</MarketValue.label>
   <!-- EN: The market value of an object.\n\nThe actual trade price will be adjusted by negotiation skill, relationship status, and other contextual factors. -->
   <MarketValue.description>Valor de mercat de l’objecte. El preu final es veurà modificat per la capacitat de negociació, la relació i altres factors contextuals.</MarketValue.description>
-  <MarketValue.formatString>{0}€</MarketValue.formatString>
+  <MarketValue.formatString>{0}</MarketValue.formatString>
   
   <!-- EN: market value ignoring hitpoints -->
-  <MarketValueIgnoreHp.label>TODO</MarketValueIgnoreHp.label>
+  <MarketValueIgnoreHp.label>valor de mercat sense tenir en compte els punts de vida</MarketValueIgnoreHp.label>
   
   <!-- EN: mass -->
   <Mass.label>pes</Mass.label>
@@ -57,7 +57,7 @@
   <Mass.formatString>{0} kg</Mass.formatString>
   
   <!-- EN: max hit points -->
-  <MaxHitPoints.label>punts de vida max.</MaxHitPoints.label>
+  <MaxHitPoints.label>punts de vida màx.</MaxHitPoints.label>
   <!-- EN: The maximum hit points of an object.\n\nThis represents how much damage it can take before being destroyed. -->
   <MaxHitPoints.description>Punts de vida màxims d’un objecte. Representa quan dany pot rebre abans de trencar-se.</MaxHitPoints.description>
   
@@ -67,9 +67,9 @@
   <Nutrition.description>Com de nutritiu és aquest aliment</Nutrition.description>
   
   <!-- EN: honor value -->
-  <RoyalFavorValue.label>TODO</RoyalFavorValue.label>
+  <RoyalFavorValue.label>valor d'honor</RoyalFavorValue.label>
   <!-- EN: The amount of honor your trader will earn for giving this to a tribute collector. -->
-  <RoyalFavorValue.description>TODO</RoyalFavorValue.description>
+  <RoyalFavorValue.description>La quantitat d'honor que guanyarà el comerciant per donar-ho a un recaptador d'impostos.</RoyalFavorValue.description>
   
   <!-- EN: sell price multiplier -->
   <SellPriceFactor.label>factor del preu de venda</SellPriceFactor.label>
