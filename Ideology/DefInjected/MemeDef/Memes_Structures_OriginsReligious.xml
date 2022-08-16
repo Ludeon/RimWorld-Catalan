@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: Buddhist origin -->
-  <Structure_OriginBuddhist.label>TODO</Structure_OriginBuddhist.label>
+  <Structure_OriginBuddhist.label>origen budista</Structure_OriginBuddhist.label>
   <!-- EN: This ideoligion is a descendant of ancient Buddhism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
-  <Structure_OriginBuddhist.description>TODO</Structure_OriginBuddhist.description>
+  <Structure_OriginBuddhist.description>Aquesta ideoligió descendeix de l'antic budisme. Potser té preceptes molt diferents del de fa milers d'anys, però la seva simbologia és pareguda.</Structure_OriginBuddhist.description>
   <!-- EN:
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
@@ -22,76 +22,92 @@
     <li>memeMoralist->priest</li>
     <li>memeMoralist->monk</li>
   -->
-  <Structure_OriginBuddhist.generalRules.rulesStrings>TODO</Structure_OriginBuddhist.generalRules.rulesStrings>
+  <Structure_OriginBuddhist.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->bodhisattva</li>
+    <li>memeLeaderNoun->sattva</li>
+    <li>memeLeaderNoun->lama</li>
+    <li>memeLeaderAdjective->il·luminat</li>
+    <li>memeLeaderAdjective->savi</li>
+    <li>memeLeaderAdjective->espiritual</li>
+    <li>memeLeaderAdjective->bodhi</li>
+    <li>memeLeaderAdjective->dalai</li>
+    <li>memeMoralist(p=2)->bhikkhu</li>
+    <li>memeMoralist->sacerdot</li>
+    <li>memeMoralist->monjo</li>
+  </Structure_OriginBuddhist.generalRules.rulesStrings>
   <!-- EN: Buddhist -->
-  <Structure_OriginBuddhist.symbolPacks.0.adjective>TODO</Structure_OriginBuddhist.symbolPacks.0.adjective>
+  <Structure_OriginBuddhist.symbolPacks.0.adjective>budista</Structure_OriginBuddhist.symbolPacks.0.adjective>
   <!-- EN: Buddhism -->
-  <Structure_OriginBuddhist.symbolPacks.0.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.0.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.0.ideoName>budisme</Structure_OriginBuddhist.symbolPacks.0.ideoName>
   <!-- EN: Buddhist -->
-  <Structure_OriginBuddhist.symbolPacks.0.member>TODO</Structure_OriginBuddhist.symbolPacks.0.member>
+  <Structure_OriginBuddhist.symbolPacks.0.member>budista</Structure_OriginBuddhist.symbolPacks.0.member>
   <!-- EN: Buddha -->
-  <Structure_OriginBuddhist.symbolPacks.0.theme>TODO</Structure_OriginBuddhist.symbolPacks.0.theme>
+  <Structure_OriginBuddhist.symbolPacks.0.theme>Buda</Structure_OriginBuddhist.symbolPacks.0.theme>
   <!-- EN: Theric -->
-  <Structure_OriginBuddhist.symbolPacks.1.adjective>TODO</Structure_OriginBuddhist.symbolPacks.1.adjective>
+  <Structure_OriginBuddhist.symbolPacks.1.adjective>thèric</Structure_OriginBuddhist.symbolPacks.1.adjective>
   <!-- EN: Theravada -->
-  <Structure_OriginBuddhist.symbolPacks.1.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.1.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.1.ideoName>theravāda</Structure_OriginBuddhist.symbolPacks.1.ideoName>
   <!-- EN: Therist -->
-  <Structure_OriginBuddhist.symbolPacks.1.member>TODO</Structure_OriginBuddhist.symbolPacks.1.member>
+  <Structure_OriginBuddhist.symbolPacks.1.member>therista</Structure_OriginBuddhist.symbolPacks.1.member>
   <!-- EN: Mahic -->
-  <Structure_OriginBuddhist.symbolPacks.2.adjective>TODO</Structure_OriginBuddhist.symbolPacks.2.adjective>
+  <Structure_OriginBuddhist.symbolPacks.2.adjective>mahic</Structure_OriginBuddhist.symbolPacks.2.adjective>
   <!-- EN: Mahayana -->
-  <Structure_OriginBuddhist.symbolPacks.2.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.2.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.2.ideoName>mahāyāna</Structure_OriginBuddhist.symbolPacks.2.ideoName>
   <!-- EN: Mahist -->
-  <Structure_OriginBuddhist.symbolPacks.2.member>TODO</Structure_OriginBuddhist.symbolPacks.2.member>
+  <Structure_OriginBuddhist.symbolPacks.2.member>mahista</Structure_OriginBuddhist.symbolPacks.2.member>
   <!-- EN: Vajric -->
-  <Structure_OriginBuddhist.symbolPacks.3.adjective>TODO</Structure_OriginBuddhist.symbolPacks.3.adjective>
+  <Structure_OriginBuddhist.symbolPacks.3.adjective>vajric</Structure_OriginBuddhist.symbolPacks.3.adjective>
   <!-- EN: Vajrayana -->
-  <Structure_OriginBuddhist.symbolPacks.3.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.3.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.3.ideoName>vajrayāna</Structure_OriginBuddhist.symbolPacks.3.ideoName>
   <!-- EN: Vajrist -->
-  <Structure_OriginBuddhist.symbolPacks.3.member>TODO</Structure_OriginBuddhist.symbolPacks.3.member>
+  <Structure_OriginBuddhist.symbolPacks.3.member>vajrista</Structure_OriginBuddhist.symbolPacks.3.member>
   <!-- EN: Zen -->
-  <Structure_OriginBuddhist.symbolPacks.4.adjective>TODO</Structure_OriginBuddhist.symbolPacks.4.adjective>
+  <Structure_OriginBuddhist.symbolPacks.4.adjective>zen</Structure_OriginBuddhist.symbolPacks.4.adjective>
   <!-- EN: Zen -->
-  <Structure_OriginBuddhist.symbolPacks.4.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.4.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.4.ideoName>zen</Structure_OriginBuddhist.symbolPacks.4.ideoName>
   <!-- EN: Zenist -->
-  <Structure_OriginBuddhist.symbolPacks.4.member>TODO</Structure_OriginBuddhist.symbolPacks.4.member>
+  <Structure_OriginBuddhist.symbolPacks.4.member>zen</Structure_OriginBuddhist.symbolPacks.4.member>
   <!-- EN: Seonic -->
-  <Structure_OriginBuddhist.symbolPacks.5.adjective>TODO</Structure_OriginBuddhist.symbolPacks.5.adjective>
+  <Structure_OriginBuddhist.symbolPacks.5.adjective>seònic</Structure_OriginBuddhist.symbolPacks.5.adjective>
   <!-- EN: Seon -->
-  <Structure_OriginBuddhist.symbolPacks.5.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.5.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.5.ideoName>seonisme</Structure_OriginBuddhist.symbolPacks.5.ideoName>
   <!-- EN: Seonist -->
-  <Structure_OriginBuddhist.symbolPacks.5.member>TODO</Structure_OriginBuddhist.symbolPacks.5.member>
+  <Structure_OriginBuddhist.symbolPacks.5.member>seonista</Structure_OriginBuddhist.symbolPacks.5.member>
   <!-- EN: Ekist -->
-  <Structure_OriginBuddhist.symbolPacks.6.adjective>TODO</Structure_OriginBuddhist.symbolPacks.6.adjective>
+  <Structure_OriginBuddhist.symbolPacks.6.adjective>ekístic</Structure_OriginBuddhist.symbolPacks.6.adjective>
   <!-- EN: Ekayana -->
-  <Structure_OriginBuddhist.symbolPacks.6.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.6.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.6.ideoName>Ekayānisme</Structure_OriginBuddhist.symbolPacks.6.ideoName>
   <!-- EN: Ekist -->
-  <Structure_OriginBuddhist.symbolPacks.6.member>TODO</Structure_OriginBuddhist.symbolPacks.6.member>
+  <Structure_OriginBuddhist.symbolPacks.6.member>ekista</Structure_OriginBuddhist.symbolPacks.6.member>
   <!-- EN: Navic -->
-  <Structure_OriginBuddhist.symbolPacks.7.adjective>TODO</Structure_OriginBuddhist.symbolPacks.7.adjective>
+  <Structure_OriginBuddhist.symbolPacks.7.adjective>nàvic</Structure_OriginBuddhist.symbolPacks.7.adjective>
   <!-- EN: Navayana -->
-  <Structure_OriginBuddhist.symbolPacks.7.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.7.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.7.ideoName>navayanisme</Structure_OriginBuddhist.symbolPacks.7.ideoName>
   <!-- EN: Navist -->
-  <Structure_OriginBuddhist.symbolPacks.7.member>TODO</Structure_OriginBuddhist.symbolPacks.7.member>
+  <Structure_OriginBuddhist.symbolPacks.7.member>navista</Structure_OriginBuddhist.symbolPacks.7.member>
   <!-- EN: Tantric -->
-  <Structure_OriginBuddhist.symbolPacks.8.adjective>TODO</Structure_OriginBuddhist.symbolPacks.8.adjective>
+  <Structure_OriginBuddhist.symbolPacks.8.adjective>tantrayà</Structure_OriginBuddhist.symbolPacks.8.adjective>
   <!-- EN: Tantrayana -->
-  <Structure_OriginBuddhist.symbolPacks.8.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.8.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.8.ideoName>tantrayanisme</Structure_OriginBuddhist.symbolPacks.8.ideoName>
   <!-- EN: Tantran -->
-  <Structure_OriginBuddhist.symbolPacks.8.member>TODO</Structure_OriginBuddhist.symbolPacks.8.member>
+  <Structure_OriginBuddhist.symbolPacks.8.member>tantrayà</Structure_OriginBuddhist.symbolPacks.8.member>
   <!-- EN: Gelugist -->
-  <Structure_OriginBuddhist.symbolPacks.9.adjective>TODO</Structure_OriginBuddhist.symbolPacks.9.adjective>
+  <Structure_OriginBuddhist.symbolPacks.9.adjective>gelugià</Structure_OriginBuddhist.symbolPacks.9.adjective>
   <!-- EN: Gelug -->
-  <Structure_OriginBuddhist.symbolPacks.9.ideoName>TODO</Structure_OriginBuddhist.symbolPacks.9.ideoName>
+  <Structure_OriginBuddhist.symbolPacks.9.ideoName>gelugisme</Structure_OriginBuddhist.symbolPacks.9.ideoName>
   <!-- EN: Gelugist -->
-  <Structure_OriginBuddhist.symbolPacks.9.member>TODO</Structure_OriginBuddhist.symbolPacks.9.member>
+  <Structure_OriginBuddhist.symbolPacks.9.member>gelugista</Structure_OriginBuddhist.symbolPacks.9.member>
   <!-- EN: pagoda -->
-  <Structure_OriginBuddhist.worshipRoomLabel>TODO</Structure_OriginBuddhist.worshipRoomLabel>
+  <Structure_OriginBuddhist.worshipRoomLabel>pagoda</Structure_OriginBuddhist.worshipRoomLabel>
   
   <!-- EN: Christian origin -->
-  <Structure_OriginChristian.label>TODO</Structure_OriginChristian.label>
+  <Structure_OriginChristian.label>origen cristià</Structure_OriginChristian.label>
   <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Christianity. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
-  <Structure_OriginChristian.description>TODO</Structure_OriginChristian.description>
+  <Structure_OriginChristian.description>És una variant de l'estructura teista abstracta. Aquesta ideoligió descendeix de l'antic cristianisme. Potser té preceptes molt diferents dels de fa milers d'anys, però els seus símbols són similars.</Structure_OriginChristian.description>
   <!-- EN:
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
@@ -116,162 +132,185 @@
     <li>memeMoralist->rector</li>
     <li>memeMoralist->abbot</li>
   -->
-  <Structure_OriginChristian.generalRules.rulesStrings>TODO</Structure_OriginChristian.generalRules.rulesStrings>
+  <Structure_OriginChristian.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->bisbe</li>
+    <li>memeLeaderNoun->cardenal</li>
+    <li>memeLeaderNoun->papa</li>
+    <li>memeLeaderNoun->pontífex</li>
+    <li>memeLeaderNoun->llegat</li>
+    <li>memeLeaderNoun->nunci</li>
+    <li>memeLeaderNoun->arquebisbe</li>
+    <li>memeLeaderNoun->eclesiàstic</li>
+    <li>memeLeaderAdjective->sant</li>
+    <li>memeLeaderAdjective->sagrat</li>
+    <li>memeLeaderAdjective->de Crist</li>
+    <li>memeLeaderAdjective->de Déu</li>
+    <li>memeMoralist->sacerdot</li>
+    <li>memeMoralist->pastor</li>
+    <li>memeMoralist->clergue</li>
+    <li>memeMoralist->predicador</li>
+    <li>memeMoralist->rector</li>
+    <li>memeMoralist->capellà</li>
+  </Structure_OriginChristian.generalRules.rulesStrings>
   <!-- EN: Christian -->
-  <Structure_OriginChristian.symbolPacks.0.adjective>TODO</Structure_OriginChristian.symbolPacks.0.adjective>
+  <Structure_OriginChristian.symbolPacks.0.adjective>cristià</Structure_OriginChristian.symbolPacks.0.adjective>
   <!-- EN: Christianity -->
-  <Structure_OriginChristian.symbolPacks.0.ideoName>TODO</Structure_OriginChristian.symbolPacks.0.ideoName>
+  <Structure_OriginChristian.symbolPacks.0.ideoName>cristianisme</Structure_OriginChristian.symbolPacks.0.ideoName>
   <!-- EN: Christian -->
-  <Structure_OriginChristian.symbolPacks.0.member>TODO</Structure_OriginChristian.symbolPacks.0.member>
+  <Structure_OriginChristian.symbolPacks.0.member>cristià</Structure_OriginChristian.symbolPacks.0.member>
   <!-- EN: Catholic -->
-  <Structure_OriginChristian.symbolPacks.1.adjective>TODO</Structure_OriginChristian.symbolPacks.1.adjective>
+  <Structure_OriginChristian.symbolPacks.1.adjective>catòlic</Structure_OriginChristian.symbolPacks.1.adjective>
   <!-- EN: Catholicism -->
-  <Structure_OriginChristian.symbolPacks.1.ideoName>TODO</Structure_OriginChristian.symbolPacks.1.ideoName>
+  <Structure_OriginChristian.symbolPacks.1.ideoName>catolicisme</Structure_OriginChristian.symbolPacks.1.ideoName>
   <!-- EN: Catholic -->
-  <Structure_OriginChristian.symbolPacks.1.member>TODO</Structure_OriginChristian.symbolPacks.1.member>
+  <Structure_OriginChristian.symbolPacks.1.member>catòlic</Structure_OriginChristian.symbolPacks.1.member>
   <!-- EN: Protestant -->
-  <Structure_OriginChristian.symbolPacks.2.adjective>TODO</Structure_OriginChristian.symbolPacks.2.adjective>
+  <Structure_OriginChristian.symbolPacks.2.adjective>protestant</Structure_OriginChristian.symbolPacks.2.adjective>
   <!-- EN: Protestantism -->
-  <Structure_OriginChristian.symbolPacks.2.ideoName>TODO</Structure_OriginChristian.symbolPacks.2.ideoName>
+  <Structure_OriginChristian.symbolPacks.2.ideoName>protestantisme</Structure_OriginChristian.symbolPacks.2.ideoName>
   <!-- EN: Protestant -->
-  <Structure_OriginChristian.symbolPacks.2.member>TODO</Structure_OriginChristian.symbolPacks.2.member>
+  <Structure_OriginChristian.symbolPacks.2.member>protestant</Structure_OriginChristian.symbolPacks.2.member>
   <!-- EN: Orthodox -->
-  <Structure_OriginChristian.symbolPacks.3.adjective>TODO</Structure_OriginChristian.symbolPacks.3.adjective>
+  <Structure_OriginChristian.symbolPacks.3.adjective>ortodox</Structure_OriginChristian.symbolPacks.3.adjective>
   <!-- EN: Orthodoxy -->
-  <Structure_OriginChristian.symbolPacks.3.ideoName>TODO</Structure_OriginChristian.symbolPacks.3.ideoName>
+  <Structure_OriginChristian.symbolPacks.3.ideoName>ortodòxia</Structure_OriginChristian.symbolPacks.3.ideoName>
   <!-- EN: Orthodoxist -->
-  <Structure_OriginChristian.symbolPacks.3.member>TODO</Structure_OriginChristian.symbolPacks.3.member>
+  <Structure_OriginChristian.symbolPacks.3.member>ortodox</Structure_OriginChristian.symbolPacks.3.member>
   <!-- EN: Nestorian -->
-  <Structure_OriginChristian.symbolPacks.4.adjective>TODO</Structure_OriginChristian.symbolPacks.4.adjective>
+  <Structure_OriginChristian.symbolPacks.4.adjective>nestorià</Structure_OriginChristian.symbolPacks.4.adjective>
   <!-- EN: Nestorianism -->
-  <Structure_OriginChristian.symbolPacks.4.ideoName>TODO</Structure_OriginChristian.symbolPacks.4.ideoName>
+  <Structure_OriginChristian.symbolPacks.4.ideoName>nestorianisme</Structure_OriginChristian.symbolPacks.4.ideoName>
   <!-- EN: Nestorian -->
-  <Structure_OriginChristian.symbolPacks.4.member>TODO</Structure_OriginChristian.symbolPacks.4.member>
+  <Structure_OriginChristian.symbolPacks.4.member>nestorià</Structure_OriginChristian.symbolPacks.4.member>
   <!-- EN: Anglican -->
-  <Structure_OriginChristian.symbolPacks.5.adjective>TODO</Structure_OriginChristian.symbolPacks.5.adjective>
+  <Structure_OriginChristian.symbolPacks.5.adjective>anglicà</Structure_OriginChristian.symbolPacks.5.adjective>
   <!-- EN: Anglicanism -->
-  <Structure_OriginChristian.symbolPacks.5.ideoName>TODO</Structure_OriginChristian.symbolPacks.5.ideoName>
+  <Structure_OriginChristian.symbolPacks.5.ideoName>anglicanisme</Structure_OriginChristian.symbolPacks.5.ideoName>
   <!-- EN: Anglican -->
-  <Structure_OriginChristian.symbolPacks.5.member>TODO</Structure_OriginChristian.symbolPacks.5.member>
+  <Structure_OriginChristian.symbolPacks.5.member>anglicà</Structure_OriginChristian.symbolPacks.5.member>
   <!-- EN: Baptist -->
-  <Structure_OriginChristian.symbolPacks.6.adjective>TODO</Structure_OriginChristian.symbolPacks.6.adjective>
+  <Structure_OriginChristian.symbolPacks.6.adjective>baptista</Structure_OriginChristian.symbolPacks.6.adjective>
   <!-- EN: Baptism -->
-  <Structure_OriginChristian.symbolPacks.6.ideoName>TODO</Structure_OriginChristian.symbolPacks.6.ideoName>
+  <Structure_OriginChristian.symbolPacks.6.ideoName>baptisme</Structure_OriginChristian.symbolPacks.6.ideoName>
   <!-- EN: Baptist -->
-  <Structure_OriginChristian.symbolPacks.6.member>TODO</Structure_OriginChristian.symbolPacks.6.member>
+  <Structure_OriginChristian.symbolPacks.6.member>baptista</Structure_OriginChristian.symbolPacks.6.member>
   <!-- EN: Anabaptist -->
-  <Structure_OriginChristian.symbolPacks.7.adjective>TODO</Structure_OriginChristian.symbolPacks.7.adjective>
+  <Structure_OriginChristian.symbolPacks.7.adjective>anabaptista</Structure_OriginChristian.symbolPacks.7.adjective>
   <!-- EN: Anabaptism -->
-  <Structure_OriginChristian.symbolPacks.7.ideoName>TODO</Structure_OriginChristian.symbolPacks.7.ideoName>
+  <Structure_OriginChristian.symbolPacks.7.ideoName>anabaptisme</Structure_OriginChristian.symbolPacks.7.ideoName>
   <!-- EN: Anabaptist -->
-  <Structure_OriginChristian.symbolPacks.7.member>TODO</Structure_OriginChristian.symbolPacks.7.member>
+  <Structure_OriginChristian.symbolPacks.7.member>anabaptista</Structure_OriginChristian.symbolPacks.7.member>
   <!-- EN: Calvinist -->
-  <Structure_OriginChristian.symbolPacks.8.adjective>TODO</Structure_OriginChristian.symbolPacks.8.adjective>
+  <Structure_OriginChristian.symbolPacks.8.adjective>calvinista</Structure_OriginChristian.symbolPacks.8.adjective>
   <!-- EN: Calvinism -->
-  <Structure_OriginChristian.symbolPacks.8.ideoName>TODO</Structure_OriginChristian.symbolPacks.8.ideoName>
+  <Structure_OriginChristian.symbolPacks.8.ideoName>calvinisme</Structure_OriginChristian.symbolPacks.8.ideoName>
   <!-- EN: Calvinist -->
-  <Structure_OriginChristian.symbolPacks.8.member>TODO</Structure_OriginChristian.symbolPacks.8.member>
+  <Structure_OriginChristian.symbolPacks.8.member>calvinista</Structure_OriginChristian.symbolPacks.8.member>
   <!-- EN: Lutheran -->
-  <Structure_OriginChristian.symbolPacks.9.adjective>TODO</Structure_OriginChristian.symbolPacks.9.adjective>
+  <Structure_OriginChristian.symbolPacks.9.adjective>luterà</Structure_OriginChristian.symbolPacks.9.adjective>
   <!-- EN: Lutheranism -->
-  <Structure_OriginChristian.symbolPacks.9.ideoName>TODO</Structure_OriginChristian.symbolPacks.9.ideoName>
+  <Structure_OriginChristian.symbolPacks.9.ideoName>luteranisme</Structure_OriginChristian.symbolPacks.9.ideoName>
   <!-- EN: Lutheran -->
-  <Structure_OriginChristian.symbolPacks.9.member>TODO</Structure_OriginChristian.symbolPacks.9.member>
+  <Structure_OriginChristian.symbolPacks.9.member>luterà</Structure_OriginChristian.symbolPacks.9.member>
   <!-- EN: Adventist -->
-  <Structure_OriginChristian.symbolPacks.10.adjective>TODO</Structure_OriginChristian.symbolPacks.10.adjective>
+  <Structure_OriginChristian.symbolPacks.10.adjective>adventista</Structure_OriginChristian.symbolPacks.10.adjective>
   <!-- EN: Adventism -->
-  <Structure_OriginChristian.symbolPacks.10.ideoName>TODO</Structure_OriginChristian.symbolPacks.10.ideoName>
+  <Structure_OriginChristian.symbolPacks.10.ideoName>adventisme</Structure_OriginChristian.symbolPacks.10.ideoName>
   <!-- EN: Adventist -->
-  <Structure_OriginChristian.symbolPacks.10.member>TODO</Structure_OriginChristian.symbolPacks.10.member>
+  <Structure_OriginChristian.symbolPacks.10.member>adventista</Structure_OriginChristian.symbolPacks.10.member>
   <!-- EN: Methodist -->
-  <Structure_OriginChristian.symbolPacks.11.adjective>TODO</Structure_OriginChristian.symbolPacks.11.adjective>
+  <Structure_OriginChristian.symbolPacks.11.adjective>metodista</Structure_OriginChristian.symbolPacks.11.adjective>
   <!-- EN: Methodism -->
-  <Structure_OriginChristian.symbolPacks.11.ideoName>TODO</Structure_OriginChristian.symbolPacks.11.ideoName>
+  <Structure_OriginChristian.symbolPacks.11.ideoName>metodisme</Structure_OriginChristian.symbolPacks.11.ideoName>
   <!-- EN: Methodist -->
-  <Structure_OriginChristian.symbolPacks.11.member>TODO</Structure_OriginChristian.symbolPacks.11.member>
+  <Structure_OriginChristian.symbolPacks.11.member>metodista</Structure_OriginChristian.symbolPacks.11.member>
   <!-- EN: Mormon -->
-  <Structure_OriginChristian.symbolPacks.12.adjective>TODO</Structure_OriginChristian.symbolPacks.12.adjective>
+  <Structure_OriginChristian.symbolPacks.12.adjective>mormó</Structure_OriginChristian.symbolPacks.12.adjective>
   <!-- EN: Mormonism -->
-  <Structure_OriginChristian.symbolPacks.12.ideoName>TODO</Structure_OriginChristian.symbolPacks.12.ideoName>
+  <Structure_OriginChristian.symbolPacks.12.ideoName>mormonisme</Structure_OriginChristian.symbolPacks.12.ideoName>
   <!-- EN: Mormon -->
-  <Structure_OriginChristian.symbolPacks.12.member>TODO</Structure_OriginChristian.symbolPacks.12.member>
+  <Structure_OriginChristian.symbolPacks.12.member>mormó</Structure_OriginChristian.symbolPacks.12.member>
   <!-- EN: Theonomic -->
-  <Structure_OriginChristian.symbolPacks.13.adjective>TODO</Structure_OriginChristian.symbolPacks.13.adjective>
+  <Structure_OriginChristian.symbolPacks.13.adjective>teonòmic</Structure_OriginChristian.symbolPacks.13.adjective>
   <!-- EN: Theonomy -->
-  <Structure_OriginChristian.symbolPacks.13.ideoName>TODO</Structure_OriginChristian.symbolPacks.13.ideoName>
+  <Structure_OriginChristian.symbolPacks.13.ideoName>teonomisme</Structure_OriginChristian.symbolPacks.13.ideoName>
   <!-- EN: Theonomist -->
-  <Structure_OriginChristian.symbolPacks.13.member>TODO</Structure_OriginChristian.symbolPacks.13.member>
+  <Structure_OriginChristian.symbolPacks.13.member>teonomista</Structure_OriginChristian.symbolPacks.13.member>
   <!-- EN: church -->
-  <Structure_OriginChristian.worshipRoomLabel>TODO</Structure_OriginChristian.worshipRoomLabel>
+  <Structure_OriginChristian.worshipRoomLabel>església</Structure_OriginChristian.worshipRoomLabel>
   
   <!-- EN: Hindu origin -->
-  <Structure_OriginHindu.label>TODO</Structure_OriginHindu.label>
+  <Structure_OriginHindu.label>origen hindú</Structure_OriginHindu.label>
   <!-- EN: This is a variant of the embodied theist structure. This ideoligion is a descendant of ancient Hinduism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
-  <Structure_OriginHindu.description>TODO</Structure_OriginHindu.description>
+  <Structure_OriginHindu.description>És una variant de l'estructura teista encarnada. Aquesta ideoligió descendeix de l'antic hinduisme. Potser té preceptes molt diferents dels de fa milers d'anys, però els seus símbols són semblants.</Structure_OriginHindu.description>
   <!-- EN: God of Creation -->
-  <Structure_OriginHindu.fixedDeityNameTypes.0.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.0.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.0.type>Déu de la Creació</Structure_OriginHindu.fixedDeityNameTypes.0.type>
   <!-- EN: God of Preservation -->
-  <Structure_OriginHindu.fixedDeityNameTypes.1.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.1.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.1.type>Déu de la Conservació</Structure_OriginHindu.fixedDeityNameTypes.1.type>
   <!-- EN: God of Destruction -->
-  <Structure_OriginHindu.fixedDeityNameTypes.2.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.2.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.2.type>Déu de la Destrucció</Structure_OriginHindu.fixedDeityNameTypes.2.type>
   <!-- EN: God of Dawn -->
-  <Structure_OriginHindu.fixedDeityNameTypes.3.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.3.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.3.type>Déu de l'Alba</Structure_OriginHindu.fixedDeityNameTypes.3.type>
   <!-- EN: God of Femininity -->
-  <Structure_OriginHindu.fixedDeityNameTypes.4.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.4.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.4.type>Déu de la Feminitat</Structure_OriginHindu.fixedDeityNameTypes.4.type>
   <!-- EN: God of Goals -->
-  <Structure_OriginHindu.fixedDeityNameTypes.5.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.5.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.5.type>Déu de l'Èxit</Structure_OriginHindu.fixedDeityNameTypes.5.type>
   <!-- EN: God of Fertility -->
-  <Structure_OriginHindu.fixedDeityNameTypes.6.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.6.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.6.type>Déu de la Fertilitat</Structure_OriginHindu.fixedDeityNameTypes.6.type>
   <!-- EN: God of Protection -->
-  <Structure_OriginHindu.fixedDeityNameTypes.7.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.7.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.7.type>Déu de la Protecció</Structure_OriginHindu.fixedDeityNameTypes.7.type>
   <!-- EN: God of Earth -->
-  <Structure_OriginHindu.fixedDeityNameTypes.8.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.8.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.8.type>Déu de la Terra</Structure_OriginHindu.fixedDeityNameTypes.8.type>
   <!-- EN: God of Wisdom -->
-  <Structure_OriginHindu.fixedDeityNameTypes.9.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.9.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.9.type>Déu de la Saviesa</Structure_OriginHindu.fixedDeityNameTypes.9.type>
   <!-- EN: God of Life -->
-  <Structure_OriginHindu.fixedDeityNameTypes.10.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.10.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.10.type>Déu de la Vida</Structure_OriginHindu.fixedDeityNameTypes.10.type>
   <!-- EN: God of Food -->
-  <Structure_OriginHindu.fixedDeityNameTypes.11.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.11.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.11.type>Déu del Menjar</Structure_OriginHindu.fixedDeityNameTypes.11.type>
   <!-- EN: God of Sleep -->
-  <Structure_OriginHindu.fixedDeityNameTypes.12.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.12.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.12.type>Déu de la Son</Structure_OriginHindu.fixedDeityNameTypes.12.type>
   <!-- EN: God of Children -->
-  <Structure_OriginHindu.fixedDeityNameTypes.13.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.13.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.13.type>Déu dels Nens</Structure_OriginHindu.fixedDeityNameTypes.13.type>
   <!-- EN: God of Snakes -->
-  <Structure_OriginHindu.fixedDeityNameTypes.14.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.14.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.14.type>Déu de les Serps</Structure_OriginHindu.fixedDeityNameTypes.14.type>
   <!-- EN: God of Ash -->
-  <Structure_OriginHindu.fixedDeityNameTypes.15.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.15.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.15.type>Déu de la Cendra</Structure_OriginHindu.fixedDeityNameTypes.15.type>
   <!-- EN: God of Annihilation -->
-  <Structure_OriginHindu.fixedDeityNameTypes.16.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.16.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.16.type>Déu de l'Aniquilació</Structure_OriginHindu.fixedDeityNameTypes.16.type>
   <!-- EN: God of Compassion -->
-  <Structure_OriginHindu.fixedDeityNameTypes.17.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.17.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.17.type>Déu de la Compassió</Structure_OriginHindu.fixedDeityNameTypes.17.type>
   <!-- EN: Sun God -->
-  <Structure_OriginHindu.fixedDeityNameTypes.18.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.18.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.18.type>Déu del Sol</Structure_OriginHindu.fixedDeityNameTypes.18.type>
   <!-- EN: Sky God -->
-  <Structure_OriginHindu.fixedDeityNameTypes.19.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.19.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.19.type>Déu del Cel</Structure_OriginHindu.fixedDeityNameTypes.19.type>
   <!-- EN: God of Friendship -->
-  <Structure_OriginHindu.fixedDeityNameTypes.20.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.20.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.20.type>Déu de l'Amistat</Structure_OriginHindu.fixedDeityNameTypes.20.type>
   <!-- EN: God of Heaven -->
-  <Structure_OriginHindu.fixedDeityNameTypes.21.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.21.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.21.type>Déu del Paradís</Structure_OriginHindu.fixedDeityNameTypes.21.type>
   <!-- EN: Fire God -->
-  <Structure_OriginHindu.fixedDeityNameTypes.22.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.22.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.22.type>Déu del Foc</Structure_OriginHindu.fixedDeityNameTypes.22.type>
   <!-- EN: Moon God -->
-  <Structure_OriginHindu.fixedDeityNameTypes.23.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.23.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.23.type>Déu de la Lluna</Structure_OriginHindu.fixedDeityNameTypes.23.type>
   <!-- EN: God of Wind -->
-  <Structure_OriginHindu.fixedDeityNameTypes.24.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.24.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.24.type>Déu del Vent</Structure_OriginHindu.fixedDeityNameTypes.24.type>
   <!-- EN: God of Earth -->
-  <Structure_OriginHindu.fixedDeityNameTypes.25.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.25.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.25.type>Déu de la Terra</Structure_OriginHindu.fixedDeityNameTypes.25.type>
   <!-- EN: God of Morality -->
-  <Structure_OriginHindu.fixedDeityNameTypes.26.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.26.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.26.type>Déu de la Moralitat</Structure_OriginHindu.fixedDeityNameTypes.26.type>
   <!-- EN: God of Sound -->
-  <Structure_OriginHindu.fixedDeityNameTypes.27.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.27.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.27.type>Déu del So</Structure_OriginHindu.fixedDeityNameTypes.27.type>
   <!-- EN: God of Destruction -->
-  <Structure_OriginHindu.fixedDeityNameTypes.28.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.28.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.28.type>Déu de la Destrucció</Structure_OriginHindu.fixedDeityNameTypes.28.type>
   <!-- EN: God of Night -->
-  <Structure_OriginHindu.fixedDeityNameTypes.29.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.29.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.29.type>Déu de la Nit</Structure_OriginHindu.fixedDeityNameTypes.29.type>
   <!-- EN: Forest God -->
-  <Structure_OriginHindu.fixedDeityNameTypes.30.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.30.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.30.type>Déu dels Boscos</Structure_OriginHindu.fixedDeityNameTypes.30.type>
   <!-- EN: Warrior Goddess -->
-  <Structure_OriginHindu.fixedDeityNameTypes.31.type>TODO</Structure_OriginHindu.fixedDeityNameTypes.31.type>
+  <Structure_OriginHindu.fixedDeityNameTypes.31.type>Deessa de la Guerra</Structure_OriginHindu.fixedDeityNameTypes.31.type>
   <!-- EN:
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
@@ -292,98 +331,117 @@
     <li>memeMoralist->archaka</li>
     <li>memeMoralist->brahmin</li>
   -->
-  <Structure_OriginHindu.generalRules.rulesStrings>TODO</Structure_OriginHindu.generalRules.rulesStrings>
+  <Structure_OriginHindu.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->mahatma</li>
+    <li>memeLeaderNoun->ishvara</li>
+    <li>memeLeaderNoun->yogi</li>
+    <li>memeLeaderNoun->pandit</li>
+    <li>memeLeaderNoun->avatar</li>
+    <li>memeLeaderAdjective->sagrat</li>
+    <li>memeLeaderAdjective->hindi</li>
+    <li>memeLeaderAdjective->indi</li>
+    <li>memeLeaderAdjective->yòguic</li>
+    <li>memeLeaderAdjective->tírthic</li>
+    <li>memeMoralist(p=3)->pujari</li>
+    <li>memeMoralist->purohita</li>
+    <li>memeMoralist->archaka</li>
+    <li>memeMoralist->bramà</li>
+  </Structure_OriginHindu.generalRules.rulesStrings>
   <!-- EN: Hindu -->
-  <Structure_OriginHindu.symbolPacks.0.adjective>TODO</Structure_OriginHindu.symbolPacks.0.adjective>
+  <Structure_OriginHindu.symbolPacks.0.adjective>hindú</Structure_OriginHindu.symbolPacks.0.adjective>
   <!-- EN: Hinduism -->
-  <Structure_OriginHindu.symbolPacks.0.ideoName>TODO</Structure_OriginHindu.symbolPacks.0.ideoName>
+  <Structure_OriginHindu.symbolPacks.0.ideoName>hinduisme</Structure_OriginHindu.symbolPacks.0.ideoName>
   <!-- EN: Hindu -->
-  <Structure_OriginHindu.symbolPacks.0.member>TODO</Structure_OriginHindu.symbolPacks.0.member>
+  <Structure_OriginHindu.symbolPacks.0.member>hindú</Structure_OriginHindu.symbolPacks.0.member>
   <!-- EN: Indu -->
-  <Structure_OriginHindu.symbolPacks.1.adjective>TODO</Structure_OriginHindu.symbolPacks.1.adjective>
+  <Structure_OriginHindu.symbolPacks.1.adjective>indú</Structure_OriginHindu.symbolPacks.1.adjective>
   <!-- EN: Induism -->
-  <Structure_OriginHindu.symbolPacks.1.ideoName>TODO</Structure_OriginHindu.symbolPacks.1.ideoName>
+  <Structure_OriginHindu.symbolPacks.1.ideoName>induisme</Structure_OriginHindu.symbolPacks.1.ideoName>
   <!-- EN: Indu -->
-  <Structure_OriginHindu.symbolPacks.1.member>TODO</Structure_OriginHindu.symbolPacks.1.member>
+  <Structure_OriginHindu.symbolPacks.1.member>indú</Structure_OriginHindu.symbolPacks.1.member>
   <!-- EN: Sindu -->
-  <Structure_OriginHindu.symbolPacks.2.adjective>TODO</Structure_OriginHindu.symbolPacks.2.adjective>
+  <Structure_OriginHindu.symbolPacks.2.adjective>sindú</Structure_OriginHindu.symbolPacks.2.adjective>
   <!-- EN: Sinduism -->
-  <Structure_OriginHindu.symbolPacks.2.ideoName>TODO</Structure_OriginHindu.symbolPacks.2.ideoName>
+  <Structure_OriginHindu.symbolPacks.2.ideoName>sinduisme</Structure_OriginHindu.symbolPacks.2.ideoName>
   <!-- EN: Sindu -->
-  <Structure_OriginHindu.symbolPacks.2.member>TODO</Structure_OriginHindu.symbolPacks.2.member>
+  <Structure_OriginHindu.symbolPacks.2.member>sindú</Structure_OriginHindu.symbolPacks.2.member>
   <!-- EN: Tantric -->
-  <Structure_OriginHindu.symbolPacks.3.adjective>TODO</Structure_OriginHindu.symbolPacks.3.adjective>
+  <Structure_OriginHindu.symbolPacks.3.adjective>tàntric</Structure_OriginHindu.symbolPacks.3.adjective>
   <!-- EN: Tantra -->
-  <Structure_OriginHindu.symbolPacks.3.ideoName>TODO</Structure_OriginHindu.symbolPacks.3.ideoName>
+  <Structure_OriginHindu.symbolPacks.3.ideoName>tantra</Structure_OriginHindu.symbolPacks.3.ideoName>
   <!-- EN: Tantran -->
-  <Structure_OriginHindu.symbolPacks.3.member>TODO</Structure_OriginHindu.symbolPacks.3.member>
+  <Structure_OriginHindu.symbolPacks.3.member>tantrà</Structure_OriginHindu.symbolPacks.3.member>
   <!-- EN: Vedic -->
-  <Structure_OriginHindu.symbolPacks.4.adjective>TODO</Structure_OriginHindu.symbolPacks.4.adjective>
+  <Structure_OriginHindu.symbolPacks.4.adjective>vèdic</Structure_OriginHindu.symbolPacks.4.adjective>
   <!-- EN: Vedism -->
-  <Structure_OriginHindu.symbolPacks.4.ideoName>TODO</Structure_OriginHindu.symbolPacks.4.ideoName>
+  <Structure_OriginHindu.symbolPacks.4.ideoName>vedisme</Structure_OriginHindu.symbolPacks.4.ideoName>
   <!-- EN: Vedi -->
-  <Structure_OriginHindu.symbolPacks.4.member>TODO</Structure_OriginHindu.symbolPacks.4.member>
+  <Structure_OriginHindu.symbolPacks.4.member>vedi</Structure_OriginHindu.symbolPacks.4.member>
   <!-- EN: Dharmic -->
-  <Structure_OriginHindu.symbolPacks.5.adjective>TODO</Structure_OriginHindu.symbolPacks.5.adjective>
+  <Structure_OriginHindu.symbolPacks.5.adjective>dhàrmic</Structure_OriginHindu.symbolPacks.5.adjective>
   <!-- EN: Dharmism -->
-  <Structure_OriginHindu.symbolPacks.5.ideoName>TODO</Structure_OriginHindu.symbolPacks.5.ideoName>
+  <Structure_OriginHindu.symbolPacks.5.ideoName>dharma</Structure_OriginHindu.symbolPacks.5.ideoName>
   <!-- EN: Dharmi -->
-  <Structure_OriginHindu.symbolPacks.5.member>TODO</Structure_OriginHindu.symbolPacks.5.member>
+  <Structure_OriginHindu.symbolPacks.5.member>dhàrmic</Structure_OriginHindu.symbolPacks.5.member>
   <!-- EN: Vaishmayan -->
-  <Structure_OriginHindu.symbolPacks.6.adjective>TODO</Structure_OriginHindu.symbolPacks.6.adjective>
+  <Structure_OriginHindu.symbolPacks.6.adjective>vixnú</Structure_OriginHindu.symbolPacks.6.adjective>
   <!-- EN: Vaishmaya -->
-  <Structure_OriginHindu.symbolPacks.6.ideoName>TODO</Structure_OriginHindu.symbolPacks.6.ideoName>
+  <Structure_OriginHindu.symbolPacks.6.ideoName>vixnuisme</Structure_OriginHindu.symbolPacks.6.ideoName>
   <!-- EN: Vaishnava -->
-  <Structure_OriginHindu.symbolPacks.6.member>TODO</Structure_OriginHindu.symbolPacks.6.member>
+  <Structure_OriginHindu.symbolPacks.6.member>vixnú</Structure_OriginHindu.symbolPacks.6.member>
   <!-- EN: Shaivan -->
-  <Structure_OriginHindu.symbolPacks.7.adjective>TODO</Structure_OriginHindu.symbolPacks.7.adjective>
+  <Structure_OriginHindu.symbolPacks.7.adjective>xivànic</Structure_OriginHindu.symbolPacks.7.adjective>
   <!-- EN: Shaivmaya -->
-  <Structure_OriginHindu.symbolPacks.7.ideoName>TODO</Structure_OriginHindu.symbolPacks.7.ideoName>
+  <Structure_OriginHindu.symbolPacks.7.ideoName>xivaisme</Structure_OriginHindu.symbolPacks.7.ideoName>
   <!-- EN: Shaiva -->
-  <Structure_OriginHindu.symbolPacks.7.member>TODO</Structure_OriginHindu.symbolPacks.7.member>
+  <Structure_OriginHindu.symbolPacks.7.member>xivà</Structure_OriginHindu.symbolPacks.7.member>
   <!-- EN: Yogic -->
-  <Structure_OriginHindu.symbolPacks.8.adjective>TODO</Structure_OriginHindu.symbolPacks.8.adjective>
+  <Structure_OriginHindu.symbolPacks.8.adjective>ioga</Structure_OriginHindu.symbolPacks.8.adjective>
   <!-- EN: Yoga -->
-  <Structure_OriginHindu.symbolPacks.8.ideoName>TODO</Structure_OriginHindu.symbolPacks.8.ideoName>
+  <Structure_OriginHindu.symbolPacks.8.ideoName>ioga</Structure_OriginHindu.symbolPacks.8.ideoName>
   <!-- EN: Yogi -->
-  <Structure_OriginHindu.symbolPacks.8.member>TODO</Structure_OriginHindu.symbolPacks.8.member>
+  <Structure_OriginHindu.symbolPacks.8.member>ioga</Structure_OriginHindu.symbolPacks.8.member>
   <!-- EN: Nyayan -->
-  <Structure_OriginHindu.symbolPacks.9.adjective>TODO</Structure_OriginHindu.symbolPacks.9.adjective>
+  <Structure_OriginHindu.symbolPacks.9.adjective>Nyāya</Structure_OriginHindu.symbolPacks.9.adjective>
   <!-- EN: Nyaya -->
-  <Structure_OriginHindu.symbolPacks.9.ideoName>TODO</Structure_OriginHindu.symbolPacks.9.ideoName>
+  <Structure_OriginHindu.symbolPacks.9.ideoName>Nyāya</Structure_OriginHindu.symbolPacks.9.ideoName>
   <!-- EN: Nyava -->
-  <Structure_OriginHindu.symbolPacks.9.member>TODO</Structure_OriginHindu.symbolPacks.9.member>
+  <Structure_OriginHindu.symbolPacks.9.member>Nyāva</Structure_OriginHindu.symbolPacks.9.member>
   <!-- EN: Vaisesikan -->
-  <Structure_OriginHindu.symbolPacks.10.adjective>TODO</Structure_OriginHindu.symbolPacks.10.adjective>
+  <Structure_OriginHindu.symbolPacks.10.adjective>vaixesikà</Structure_OriginHindu.symbolPacks.10.adjective>
   <!-- EN: Vaisesika -->
-  <Structure_OriginHindu.symbolPacks.10.ideoName>TODO</Structure_OriginHindu.symbolPacks.10.ideoName>
+  <Structure_OriginHindu.symbolPacks.10.ideoName>vaixesika</Structure_OriginHindu.symbolPacks.10.ideoName>
   <!-- EN: Vaisesikaya -->
-  <Structure_OriginHindu.symbolPacks.10.member>TODO</Structure_OriginHindu.symbolPacks.10.member>
+  <Structure_OriginHindu.symbolPacks.10.member>vaixesikà</Structure_OriginHindu.symbolPacks.10.member>
   <!-- EN: Samkhyan -->
-  <Structure_OriginHindu.symbolPacks.11.adjective>TODO</Structure_OriginHindu.symbolPacks.11.adjective>
+  <Structure_OriginHindu.symbolPacks.11.adjective>samkhyà</Structure_OriginHindu.symbolPacks.11.adjective>
   <!-- EN: Samkhya -->
-  <Structure_OriginHindu.symbolPacks.11.ideoName>TODO</Structure_OriginHindu.symbolPacks.11.ideoName>
+  <Structure_OriginHindu.symbolPacks.11.ideoName>samkhya</Structure_OriginHindu.symbolPacks.11.ideoName>
   <!-- EN: Samkhyan -->
-  <Structure_OriginHindu.symbolPacks.11.member>TODO</Structure_OriginHindu.symbolPacks.11.member>
+  <Structure_OriginHindu.symbolPacks.11.member>samkhyà</Structure_OriginHindu.symbolPacks.11.member>
   <!-- EN: Mimamsan -->
-  <Structure_OriginHindu.symbolPacks.12.adjective>TODO</Structure_OriginHindu.symbolPacks.12.adjective>
+  <Structure_OriginHindu.symbolPacks.12.adjective>mimamsà</Structure_OriginHindu.symbolPacks.12.adjective>
   <!-- EN: Mimamsa -->
-  <Structure_OriginHindu.symbolPacks.12.ideoName>TODO</Structure_OriginHindu.symbolPacks.12.ideoName>
+  <Structure_OriginHindu.symbolPacks.12.ideoName>mimamsa</Structure_OriginHindu.symbolPacks.12.ideoName>
   <!-- EN: Mimamsan -->
-  <Structure_OriginHindu.symbolPacks.12.member>TODO</Structure_OriginHindu.symbolPacks.12.member>
+  <Structure_OriginHindu.symbolPacks.12.member>mimamsà</Structure_OriginHindu.symbolPacks.12.member>
   <!-- EN: Vedantan -->
-  <Structure_OriginHindu.symbolPacks.13.adjective>TODO</Structure_OriginHindu.symbolPacks.13.adjective>
+  <Structure_OriginHindu.symbolPacks.13.adjective>vedantà</Structure_OriginHindu.symbolPacks.13.adjective>
   <!-- EN: Vedanta -->
-  <Structure_OriginHindu.symbolPacks.13.ideoName>TODO</Structure_OriginHindu.symbolPacks.13.ideoName>
+  <Structure_OriginHindu.symbolPacks.13.ideoName>vedanta</Structure_OriginHindu.symbolPacks.13.ideoName>
   <!-- EN: Vedantan -->
-  <Structure_OriginHindu.symbolPacks.13.member>TODO</Structure_OriginHindu.symbolPacks.13.member>
+  <Structure_OriginHindu.symbolPacks.13.member>vedantà</Structure_OriginHindu.symbolPacks.13.member>
   <!-- EN: shrine -->
-  <Structure_OriginHindu.worshipRoomLabel>TODO</Structure_OriginHindu.worshipRoomLabel>
+  <Structure_OriginHindu.worshipRoomLabel>mandir</Structure_OriginHindu.worshipRoomLabel>
   
   <!-- EN: Islamic origin -->
-  <Structure_OriginIslamic.label>TODO</Structure_OriginIslamic.label>
+  <Structure_OriginIslamic.label>origen islàmic</Structure_OriginIslamic.label>
   <!-- EN: This is a variant of the abstract theist structure. This ideoligion is a descendant of ancient Islam. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
-  <Structure_OriginIslamic.description>TODO</Structure_OriginIslamic.description>
+  <Structure_OriginIslamic.description>És una variant de l'estructura teista abstracta. Aquesta ideoligió descendeix de l'antic Islam. Potser té preceptes molt diferents dels de fa milers d'anys, però els seus símbols són pareguts.</Structure_OriginIslamic.description>
   <!-- EN:
     <li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
     <li>r_ideoName(p=99)->[memeAdjective] [packIdeoName]</li>
@@ -405,98 +463,118 @@
     <li>memeMoralist->mujtahid</li>
     <li>memeMoralist->cleric</li>
   -->
-  <Structure_OriginIslamic.generalRules.rulesStrings>TODO</Structure_OriginIslamic.generalRules.rulesStrings>
+  <Structure_OriginIslamic.generalRules.rulesStrings>
+    <li>r_ideoName(p=99)->[packIdeoName] [globalAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName] [packAdjective]</li>
+    <li>r_ideoName(p=99)->[packIdeoName]</li>
+    <li>memeLeaderNoun->mul·là</li>
+    <li>memeLeaderNoun->imam</li>
+    <li>memeLeaderNoun->califa</li>
+    <li>memeLeaderNoun->muftí</li>
+    <li>memeLeaderNoun->almami</li>
+    <li>memeLeaderNoun->kyai</li>
+    <li>memeLeaderNoun->aiatol·là</li>
+    <li>memeLeaderAdjective->gran</li>
+    <li>memeMoralist(p=4)->imam</li>
+    <li>memeMoralist->gaddi</li>
+    <li>memeMoralist->alim</li>
+    <li>memeMoralist->allāma</li>
+    <li>memeMoralist->muetzí</li>
+    <li>memeMoralist->mújtahid</li>
+    <li>memeMoralist->clergue</li>
+  </Structure_OriginIslamic.generalRules.rulesStrings>
   <!-- EN: Islamic -->
-  <Structure_OriginIslamic.symbolPacks.0.adjective>TODO</Structure_OriginIslamic.symbolPacks.0.adjective>
+  <Structure_OriginIslamic.symbolPacks.0.adjective>islàmic</Structure_OriginIslamic.symbolPacks.0.adjective>
   <!-- EN: Islam -->
-  <Structure_OriginIslamic.symbolPacks.0.ideoName>TODO</Structure_OriginIslamic.symbolPacks.0.ideoName>
+  <Structure_OriginIslamic.symbolPacks.0.ideoName>Islam</Structure_OriginIslamic.symbolPacks.0.ideoName>
   <!-- EN: Muslim -->
-  <Structure_OriginIslamic.symbolPacks.0.member>TODO</Structure_OriginIslamic.symbolPacks.0.member>
+  <Structure_OriginIslamic.symbolPacks.0.member>musulmà</Structure_OriginIslamic.symbolPacks.0.member>
   <!-- EN: Islamist -->
-  <Structure_OriginIslamic.symbolPacks.1.adjective>TODO</Structure_OriginIslamic.symbolPacks.1.adjective>
+  <Structure_OriginIslamic.symbolPacks.1.adjective>islamista</Structure_OriginIslamic.symbolPacks.1.adjective>
   <!-- EN: Islamism -->
-  <Structure_OriginIslamic.symbolPacks.1.ideoName>TODO</Structure_OriginIslamic.symbolPacks.1.ideoName>
+  <Structure_OriginIslamic.symbolPacks.1.ideoName>islamisme</Structure_OriginIslamic.symbolPacks.1.ideoName>
   <!-- EN: Islamist -->
-  <Structure_OriginIslamic.symbolPacks.1.member>TODO</Structure_OriginIslamic.symbolPacks.1.member>
+  <Structure_OriginIslamic.symbolPacks.1.member>islamista</Structure_OriginIslamic.symbolPacks.1.member>
   <!-- EN: Shiite -->
-  <Structure_OriginIslamic.symbolPacks.2.adjective>TODO</Structure_OriginIslamic.symbolPacks.2.adjective>
+  <Structure_OriginIslamic.symbolPacks.2.adjective>xiïta</Structure_OriginIslamic.symbolPacks.2.adjective>
   <!-- EN: Shiism -->
-  <Structure_OriginIslamic.symbolPacks.2.ideoName>TODO</Structure_OriginIslamic.symbolPacks.2.ideoName>
+  <Structure_OriginIslamic.symbolPacks.2.ideoName>xiisme</Structure_OriginIslamic.symbolPacks.2.ideoName>
   <!-- EN: Shiite -->
-  <Structure_OriginIslamic.symbolPacks.2.member>TODO</Structure_OriginIslamic.symbolPacks.2.member>
+  <Structure_OriginIslamic.symbolPacks.2.member>xiïta</Structure_OriginIslamic.symbolPacks.2.member>
   <!-- EN: Sunni -->
-  <Structure_OriginIslamic.symbolPacks.3.adjective>TODO</Structure_OriginIslamic.symbolPacks.3.adjective>
+  <Structure_OriginIslamic.symbolPacks.3.adjective>sunnita</Structure_OriginIslamic.symbolPacks.3.adjective>
   <!-- EN: Sunnism -->
-  <Structure_OriginIslamic.symbolPacks.3.ideoName>TODO</Structure_OriginIslamic.symbolPacks.3.ideoName>
+  <Structure_OriginIslamic.symbolPacks.3.ideoName>sunnisme</Structure_OriginIslamic.symbolPacks.3.ideoName>
   <!-- EN: Sunni -->
-  <Structure_OriginIslamic.symbolPacks.3.member>TODO</Structure_OriginIslamic.symbolPacks.3.member>
+  <Structure_OriginIslamic.symbolPacks.3.member>sunnita</Structure_OriginIslamic.symbolPacks.3.member>
   <!-- EN: Ibadi -->
-  <Structure_OriginIslamic.symbolPacks.4.adjective>TODO</Structure_OriginIslamic.symbolPacks.4.adjective>
+  <Structure_OriginIslamic.symbolPacks.4.adjective>ibadita</Structure_OriginIslamic.symbolPacks.4.adjective>
   <!-- EN: Ibadism -->
-  <Structure_OriginIslamic.symbolPacks.4.ideoName>TODO</Structure_OriginIslamic.symbolPacks.4.ideoName>
+  <Structure_OriginIslamic.symbolPacks.4.ideoName>ibadisme</Structure_OriginIslamic.symbolPacks.4.ideoName>
   <!-- EN: Ibadi -->
-  <Structure_OriginIslamic.symbolPacks.4.member>TODO</Structure_OriginIslamic.symbolPacks.4.member>
+  <Structure_OriginIslamic.symbolPacks.4.member>ibadita</Structure_OriginIslamic.symbolPacks.4.member>
   <!-- EN: Ismaili -->
-  <Structure_OriginIslamic.symbolPacks.5.adjective>TODO</Structure_OriginIslamic.symbolPacks.5.adjective>
+  <Structure_OriginIslamic.symbolPacks.5.adjective>ismaïlita</Structure_OriginIslamic.symbolPacks.5.adjective>
   <!-- EN: Ismailism -->
-  <Structure_OriginIslamic.symbolPacks.5.ideoName>TODO</Structure_OriginIslamic.symbolPacks.5.ideoName>
+  <Structure_OriginIslamic.symbolPacks.5.ideoName>ismaïlisme</Structure_OriginIslamic.symbolPacks.5.ideoName>
   <!-- EN: Ismaili -->
-  <Structure_OriginIslamic.symbolPacks.5.member>TODO</Structure_OriginIslamic.symbolPacks.5.member>
+  <Structure_OriginIslamic.symbolPacks.5.member>ismaïlita</Structure_OriginIslamic.symbolPacks.5.member>
   <!-- EN: Mustalic -->
-  <Structure_OriginIslamic.symbolPacks.6.adjective>TODO</Structure_OriginIslamic.symbolPacks.6.adjective>
+  <Structure_OriginIslamic.symbolPacks.6.adjective>mustalita</Structure_OriginIslamic.symbolPacks.6.adjective>
   <!-- EN: Mustalism -->
-  <Structure_OriginIslamic.symbolPacks.6.ideoName>TODO</Structure_OriginIslamic.symbolPacks.6.ideoName>
+  <Structure_OriginIslamic.symbolPacks.6.ideoName>mustalisme</Structure_OriginIslamic.symbolPacks.6.ideoName>
   <!-- EN: Mustali -->
-  <Structure_OriginIslamic.symbolPacks.6.member>TODO</Structure_OriginIslamic.symbolPacks.6.member>
+  <Structure_OriginIslamic.symbolPacks.6.member>mustalita</Structure_OriginIslamic.symbolPacks.6.member>
   <!-- EN: Tayyibic -->
-  <Structure_OriginIslamic.symbolPacks.7.adjective>TODO</Structure_OriginIslamic.symbolPacks.7.adjective>
+  <Structure_OriginIslamic.symbolPacks.7.adjective>tayyibià</Structure_OriginIslamic.symbolPacks.7.adjective>
   <!-- EN: Tayyibism -->
-  <Structure_OriginIslamic.symbolPacks.7.ideoName>TODO</Structure_OriginIslamic.symbolPacks.7.ideoName>
+  <Structure_OriginIslamic.symbolPacks.7.ideoName>tayyibisme</Structure_OriginIslamic.symbolPacks.7.ideoName>
   <!-- EN: Tayyibist -->
-  <Structure_OriginIslamic.symbolPacks.7.member>TODO</Structure_OriginIslamic.symbolPacks.7.member>
+  <Structure_OriginIslamic.symbolPacks.7.member>tayyibià</Structure_OriginIslamic.symbolPacks.7.member>
   <!-- EN: Nizalist -->
-  <Structure_OriginIslamic.symbolPacks.8.adjective>TODO</Structure_OriginIslamic.symbolPacks.8.adjective>
+  <Structure_OriginIslamic.symbolPacks.8.adjective>nizalista</Structure_OriginIslamic.symbolPacks.8.adjective>
   <!-- EN: Nizalism -->
-  <Structure_OriginIslamic.symbolPacks.8.ideoName>TODO</Structure_OriginIslamic.symbolPacks.8.ideoName>
+  <Structure_OriginIslamic.symbolPacks.8.ideoName>nizalisme</Structure_OriginIslamic.symbolPacks.8.ideoName>
   <!-- EN: Nizalist -->
-  <Structure_OriginIslamic.symbolPacks.8.member>TODO</Structure_OriginIslamic.symbolPacks.8.member>
+  <Structure_OriginIslamic.symbolPacks.8.member>nizalista</Structure_OriginIslamic.symbolPacks.8.member>
   <!-- EN: Surfrist -->
-  <Structure_OriginIslamic.symbolPacks.9.adjective>TODO</Structure_OriginIslamic.symbolPacks.9.adjective>
+  <Structure_OriginIslamic.symbolPacks.9.adjective>sufrista</Structure_OriginIslamic.symbolPacks.9.adjective>
   <!-- EN: Sufrism -->
-  <Structure_OriginIslamic.symbolPacks.9.ideoName>TODO</Structure_OriginIslamic.symbolPacks.9.ideoName>
+  <Structure_OriginIslamic.symbolPacks.9.ideoName>sufrisme</Structure_OriginIslamic.symbolPacks.9.ideoName>
   <!-- EN: Surfist -->
-  <Structure_OriginIslamic.symbolPacks.9.member>TODO</Structure_OriginIslamic.symbolPacks.9.member>
+  <Structure_OriginIslamic.symbolPacks.9.member>sufrista</Structure_OriginIslamic.symbolPacks.9.member>
   <!-- EN: Qadirist -->
-  <Structure_OriginIslamic.symbolPacks.10.adjective>TODO</Structure_OriginIslamic.symbolPacks.10.adjective>
+  <Structure_OriginIslamic.symbolPacks.10.adjective>qadirista</Structure_OriginIslamic.symbolPacks.10.adjective>
   <!-- EN: Qadirism -->
-  <Structure_OriginIslamic.symbolPacks.10.ideoName>TODO</Structure_OriginIslamic.symbolPacks.10.ideoName>
+  <Structure_OriginIslamic.symbolPacks.10.ideoName>qadirisme</Structure_OriginIslamic.symbolPacks.10.ideoName>
   <!-- EN: Qadirist -->
-  <Structure_OriginIslamic.symbolPacks.10.member>TODO</Structure_OriginIslamic.symbolPacks.10.member>
+  <Structure_OriginIslamic.symbolPacks.10.member>qadirista</Structure_OriginIslamic.symbolPacks.10.member>
   <!-- EN: Zahirist -->
-  <Structure_OriginIslamic.symbolPacks.11.adjective>TODO</Structure_OriginIslamic.symbolPacks.11.adjective>
+  <Structure_OriginIslamic.symbolPacks.11.adjective>zahirista</Structure_OriginIslamic.symbolPacks.11.adjective>
   <!-- EN: Zahirism -->
-  <Structure_OriginIslamic.symbolPacks.11.ideoName>TODO</Structure_OriginIslamic.symbolPacks.11.ideoName>
+  <Structure_OriginIslamic.symbolPacks.11.ideoName>zahirisme</Structure_OriginIslamic.symbolPacks.11.ideoName>
   <!-- EN: Zahirist -->
-  <Structure_OriginIslamic.symbolPacks.11.member>TODO</Structure_OriginIslamic.symbolPacks.11.member>
+  <Structure_OriginIslamic.symbolPacks.11.member>zahirista</Structure_OriginIslamic.symbolPacks.11.member>
   <!-- EN: Azraqi -->
-  <Structure_OriginIslamic.symbolPacks.12.adjective>TODO</Structure_OriginIslamic.symbolPacks.12.adjective>
+  <Structure_OriginIslamic.symbolPacks.12.adjective>azraquí</Structure_OriginIslamic.symbolPacks.12.adjective>
   <!-- EN: Azraqism -->
-  <Structure_OriginIslamic.symbolPacks.12.ideoName>TODO</Structure_OriginIslamic.symbolPacks.12.ideoName>
+  <Structure_OriginIslamic.symbolPacks.12.ideoName>azraquisme</Structure_OriginIslamic.symbolPacks.12.ideoName>
   <!-- EN: Azraqi -->
-  <Structure_OriginIslamic.symbolPacks.12.member>TODO</Structure_OriginIslamic.symbolPacks.12.member>
+  <Structure_OriginIslamic.symbolPacks.12.member>azraquí</Structure_OriginIslamic.symbolPacks.12.member>
   <!-- EN: Wahhabi -->
-  <Structure_OriginIslamic.symbolPacks.13.adjective>TODO</Structure_OriginIslamic.symbolPacks.13.adjective>
+  <Structure_OriginIslamic.symbolPacks.13.adjective>wahhabita</Structure_OriginIslamic.symbolPacks.13.adjective>
   <!-- EN: Wahhabism -->
-  <Structure_OriginIslamic.symbolPacks.13.ideoName>TODO</Structure_OriginIslamic.symbolPacks.13.ideoName>
+  <Structure_OriginIslamic.symbolPacks.13.ideoName>wahhabisme</Structure_OriginIslamic.symbolPacks.13.ideoName>
   <!-- EN: Wahhabi -->
-  <Structure_OriginIslamic.symbolPacks.13.member>TODO</Structure_OriginIslamic.symbolPacks.13.member>
+  <Structure_OriginIslamic.symbolPacks.13.member>wahhabita</Structure_OriginIslamic.symbolPacks.13.member>
   <!-- EN: Caliphic -->
-  <Structure_OriginIslamic.symbolPacks.14.adjective>TODO</Structure_OriginIslamic.symbolPacks.14.adjective>
+  <Structure_OriginIslamic.symbolPacks.14.adjective>califista</Structure_OriginIslamic.symbolPacks.14.adjective>
   <!-- EN: Caliphate -->
-  <Structure_OriginIslamic.symbolPacks.14.ideoName>TODO</Structure_OriginIslamic.symbolPacks.14.ideoName>
+  <Structure_OriginIslamic.symbolPacks.14.ideoName>califat</Structure_OriginIslamic.symbolPacks.14.ideoName>
   <!-- EN: Caliphist -->
-  <Structure_OriginIslamic.symbolPacks.14.member>TODO</Structure_OriginIslamic.symbolPacks.14.member>
+  <Structure_OriginIslamic.symbolPacks.14.member>califista</Structure_OriginIslamic.symbolPacks.14.member>
   <!-- EN: mosque -->
-  <Structure_OriginIslamic.worshipRoomLabel>TODO</Structure_OriginIslamic.worshipRoomLabel>
+  <Structure_OriginIslamic.worshipRoomLabel>mesquita</Structure_OriginIslamic.worshipRoomLabel>
   
 </LanguageData>
