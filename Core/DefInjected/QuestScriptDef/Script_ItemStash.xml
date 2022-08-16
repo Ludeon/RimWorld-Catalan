@@ -5,7 +5,10 @@
     <li>questDescription(askerIsNull==true)->We've intercepted messages about a collection of valuable items worth [itemStashContentsValue] not far from [map_definite]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
   -->
-  <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>TODO</OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
+  <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Hem interceptat missatges sobre una reserva amb un valor de [itemStashContentsValue] no molt lluny de [map_definite]. Consta de:\n\n[itemStashContents]\n\nSembla que [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], ens ha informat que hi ha una reserva amb un valor de [itemStashContentsValue] no massa lluny d'aquí. Consta de:\n\n[itemStashContents]\n\n[asker_label] diu que [allSitePartsDescriptionsExceptFirst]</li>
+  </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
     <li>questName->[stash] of [treasure]</li>
@@ -19,10 +22,22 @@
     <li>treasure->Goodies</li>
     <li>treasure->Supplies</li>
   -->
-  <OpportunitySite_ItemStash.questNameRules.rulesStrings>TODO</OpportunitySite_ItemStash.questNameRules.rulesStrings>
+  <OpportunitySite_ItemStash.questNameRules.rulesStrings>
+    <li>questName(priority=1)->[stash] de [asker_nameDef]</li>
+    <li>questName->[stash] [treasure]</li>
+    <li>stash->La reserva</li>
+    <li>stash->L'amagatall</li>
+    <li>stash->El botí</li>
+    <li>stash->El cofre</li>
+    <li>treasure->del tresor</li>
+    <li>treasure->de la fortuna</li>
+    <li>treasure->de provisions</li>
+    <li>treasure->de bens</li>
+    <li>treasure->de subministres</li>
+  </OpportunitySite_ItemStash.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>TODO</OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>La missió ha expirat: [resolvedQuestName]</OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>TODO</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>Les comunicacions interceptades indiquen que un altre grup ja s'ha apropiat de la reserva. La missió «[resolvedQuestName]» ha expirat.</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

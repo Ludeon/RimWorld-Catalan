@@ -7,17 +7,27 @@
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
   -->
-  <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>TODO</OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
+  <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef] contacta per demanar ajuda. Està ferit i no es pot moure.\n\n[refugee_nameDef] és [refugee_title] i té [refugee_age] anys. Us ha promès que s'unirà als vostres si el rescateu.\n\n[refugee_nameDef] explica que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], diu que el seu amic ha quedat ferit mentre viatjava. La víctima és [refugee_nameIndef], que és [refugee_title] i té [refugee_age] anys.\n\n[asker_nameDef] no disposa de ningú que pugui rescatar [refugee_nameDef], però us explica que si podeu arribar on és [refugee_nameDef] i rescatar-lo, [refugee_pronoun] s'unirà al vostre grup.\n\n[asker_nameDef] també diu que [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo-></li>
+  </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [refugee_nameDef]</li>
     <li>questName->The Rescue of [refugee_nameDef]</li>
     <li>questName->[refugee_nameDef]'s Rescue</li>
     <li>questName->[refugee_nameDef]'s Salvation</li>
   -->
-  <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>TODO</OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
+  <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
+    <li>questName->El rescat de [refugee_nameDef]</li>
+    <li>questName->Al rescat de [refugee_nameDef]</li>
+    <li>questName->[refugee_nameDef] necessita ajuda</li>
+    <li>questName->A l'auxili de [refugee_nameDef]</li>
+  </OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>TODO</OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>La missió ha expirat: [resolvedQuestName]</OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>
   <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>TODO</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>Ja no es rep el senyal de [refugee_nameDef] i no se'l pot rescatar. La missió «[resolvedQuestName]» ha expirat.</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

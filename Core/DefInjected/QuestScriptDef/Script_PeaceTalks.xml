@@ -11,7 +11,16 @@
     <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-> [playerFaction_leaderTitle] [playerFaction_leader_nameFull] will get a bonus to the chance of a successful outcome.</li>
     <li>leaderPawnInfo-></li>
   -->
-  <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>TODO</OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
+  <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
+    <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] de [faction_name], us envia un missatge. [faction_leader_pronoun] vol parlar amb un membre del vostre grup en un lloc proper.\n\nPot ser una gran ocasió per millorar les relacions amb la seva facció i rebre regals. Però aneu amb compte, ja que un mal negociador pot fer més mal que bé i els pot fer empipar.[extraLeaderPart][favorRewardDetails]</li>
+    <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nSi les converses de pau tenen èxit, el negociador aconseguira una quantiat petita de [faction_royalFavorLabel] personal amb [faction_name].</li>
+    <li>favorRewardDetails-></li>
+    <li>extraLeaderPart(priority=1)->\n\n[leaderRoleEffect].[leaderPawnInfo]</li>
+    <li>extraLeaderPart-></li>
+    <li>leaderRoleEffect->Les altres faccions us respectaran més si envieu el vostre líder per dialogar i negociar.</li>
+    <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-> [playerFaction_leaderTitle] [playerFaction_leader_nameFull] tindrà una bonificació de la probabilitat que les converses arribin a bon port.</li>
+    <li>leaderPawnInfo-></li>
+  </OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[faction_leader_nameDef]'s [peaceTalks]</li>
     <li>questName->[peaceTalks] with [faction_leader_nameDef]</li>
@@ -21,10 +30,20 @@
     <li>peaceTalks->Diplomacy</li>
     <li>peaceTalks->Meeting</li>
   -->
-  <OpportunitySite_PeaceTalks.questNameRules.rulesStrings>TODO</OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
+  <OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
+    <li>questName->[peaceTalks] amb [faction_leader_nameDef]</li>
+    <li>questName->[detPeaceTalks] amb [faction_leader_nameDef]</li>
+    <li>questName->[detPeaceTalks]</li>
+    <li>peaceTalks->Converses de pau</li>
+    <li>peaceTalks->Taula de diàleg</li>
+    <li>peaceTalks->Reunió</li>
+    <li>detPeaceTalks->Les converses de pau</li>
+    <li>detPeaceTalks->La taula de diàleg</li>
+    <li>detPeaceTalks->La reunió</li>
+  </OpportunitySite_PeaceTalks.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>TODO</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>La missió ha expirat: [resolvedQuestName]</OpportunitySite_PeaceTalks.LetterLabelQuestExpired.slateRef>
   <!-- EN: The offer of peace talks with [faction_name] has expired. You have failed the quest [resolvedQuestName]. -->
-  <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>TODO</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>L'oferta de converses de pau amb [faction_name] han expirat. Heu fracassat en la missió «[resolvedQuestName]».</OpportunitySite_PeaceTalks.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

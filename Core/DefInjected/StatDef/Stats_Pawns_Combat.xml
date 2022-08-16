@@ -2,14 +2,14 @@
 <LanguageData>
   
   <!-- EN: aiming time -->
-  <AimingDelayFactor.label>temps per apuntar</AimingDelayFactor.label>
+  <AimingDelayFactor.label>temps per a apuntar</AimingDelayFactor.label>
   <!-- EN: How long it takes to shoot after choosing a target. -->
   <AimingDelayFactor.description>Quant temps triga a disparar des que comença a apuntar.</AimingDelayFactor.description>
   
   <!-- EN: incoming damage multiplier -->
-  <IncomingDamageFactor.label>TODO</IncomingDamageFactor.label>
+  <IncomingDamageFactor.label>Multiplicador del dany entrant</IncomingDamageFactor.label>
   <!-- EN: A multiplier on all incoming damage. -->
-  <IncomingDamageFactor.description>TODO</IncomingDamageFactor.description>
+  <IncomingDamageFactor.description>Multiplicador que s'aplica a tot tipus de dany que es rebi.</IncomingDamageFactor.description>
   
   <!-- EN: melee armor penetration -->
   <MeleeArmorPenetration.label>penetració d’armadura en cos a cos</MeleeArmorPenetration.label>
@@ -32,22 +32,22 @@
   <MeleeHitChance.description>Probabilitat de tocar l’objectiu en combat cos a cos. Encara que el cop sigui bó, l’objectiu encara pot esquivar.</MeleeHitChance.description>
   
   <!-- EN: Mortar miss radius multiplier -->
-  <MortarMissRadiusFactor.label>TODO</MortarMissRadiusFactor.label>
+  <MortarMissRadiusFactor.label>Multiplicador del radi d'error del morter</MortarMissRadiusFactor.label>
   <!-- EN: A multiplier on the miss radius of a mortar used by this person. Smaller numbers means more accurate mortar shells. -->
-  <MortarMissRadiusFactor.description>TODO</MortarMissRadiusFactor.description>
+  <MortarMissRadiusFactor.description>Multiplicador del radi d'error del morter quan l'empra aquesta persona. Els nombres més petits indiquen projectils de morter més precisos.</MortarMissRadiusFactor.description>
   <!-- EN: Mortar miss radius multiplier -->
-  <MortarMissRadiusFactor.labelForFullStatList>TODO</MortarMissRadiusFactor.labelForFullStatList>
+  <MortarMissRadiusFactor.labelForFullStatList>Multiplicador del radi d'error del morter</MortarMissRadiusFactor.labelForFullStatList>
   
   <!-- EN: trap spring chance -->
-  <PawnTrapSpringChance.label>TODO</PawnTrapSpringChance.label>
+  <PawnTrapSpringChance.label>probabilitat d'activació de la trampa</PawnTrapSpringChance.label>
   <!-- EN: Chance to spring a trap the character is unaware of. -->
-  <PawnTrapSpringChance.description>TODO</PawnTrapSpringChance.description>
+  <PawnTrapSpringChance.description>Probabilitat que s'activi una trampa que un personatge no hagi detectat.</PawnTrapSpringChance.description>
   
   <!-- EN: shooting accuracy -->
   <ShootingAccuracyPawn.label>punteria disparant</ShootingAccuracyPawn.label>
   <!-- EN: Base chance to not miss per cell of shot distance.\n\nChance to hit is also affected by many other factors.\n\nA hit chance explanation for any shot can be seen by selecting a shooter and mousing over a target. -->
   <ShootingAccuracyPawn.description>probabilitat base d’encertar per cel·la de distància. La probabilitat també es veu afectada per molts altres factors. Podeu veure l’explicació de la probabilitat d’un tret seleccionant el personatge que dispara i posant el ratolí sobre l’objectiu que voleu mesurar.</ShootingAccuracyPawn.description>
   <!-- EN: shooting accuracy (people) -->
-  <ShootingAccuracyPawn.labelForFullStatList>TODO</ShootingAccuracyPawn.labelForFullStatList>
+  <ShootingAccuracyPawn.labelForFullStatList>punteria (gent)</ShootingAccuracyPawn.labelForFullStatList>
   
 </LanguageData>

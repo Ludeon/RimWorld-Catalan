@@ -6,7 +6,11 @@
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
     <li>qualityInfo-></li>
   -->
-  <TradeRequest.questDescriptionRules.rulesStrings>TODO</TradeRequest.questDescriptionRules.rulesStrings>
+  <TradeRequest.questDescriptionRules.rulesStrings>
+    <li>questDescription->Un assentament proper, [settlement_label], té una sol·licitud especial. Volen comprar:\n\n  [requestedThingCount]× [requestedThing_label] [qualityInfo](valorat en [requestedThingMarketValue_money])\n\nSi us interessa l'acord, envieu-hi una caravana amb el que demanen. El temps estimat de viatge és de [estimatedTravelTime_duration].</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de qualitat normal+ </li>
+    <li>qualityInfo-></li>
+  </TradeRequest.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Caravan to [settlement_label]</li>
     <li>questName->Trade with [settlement_label]</li>
@@ -21,14 +25,27 @@
     <li>trade->Deal</li>
     <li>trade->Offer</li>
   -->
-  <TradeRequest.questNameRules.rulesStrings>TODO</TradeRequest.questNameRules.rulesStrings>
+  <TradeRequest.questNameRules.rulesStrings>
+    <li>questName->Caravana a [settlement_label]</li>
+    <li>questName->Oferta de [settlement_label]</li>
+    <li>questName->Mercadeig amb [settlement_label]</li>
+    <li>questName->Subministraments per a [settlement_label]</li>
+    <li>questName->[trace] [special]</li>
+    <li>special->especial</li>
+    <li>special->particular</li>
+    <li>special->singular</li>
+    <li>trade->un intercanvi</li>
+    <li>trade->una venda</li>
+    <li>trade->un tracte</li>
+    <li>trade->una oferta</li>
+  </TradeRequest.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <TradeRequest.LetterLabelQuestFailed.slateRef>TODO</TradeRequest.LetterLabelQuestFailed.slateRef>
+  <TradeRequest.LetterLabelQuestFailed.slateRef>La missió ha fracassat: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
   <!-- EN: [faction_name] became hostile to you. -->
-  <TradeRequest.LetterTextQuestFailed.slateRef>TODO</TradeRequest.LetterTextQuestFailed.slateRef>
+  <TradeRequest.LetterTextQuestFailed.slateRef>[faction_name] ara us és hostil.</TradeRequest.LetterTextQuestFailed.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
-  <TradeRequest.LetterLabelFavorReceiver.slateRef>TODO</TradeRequest.LetterLabelFavorReceiver.slateRef>
+  <TradeRequest.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
-  <TradeRequest.LetterTextFavorReceiver.slateRef>TODO</TradeRequest.LetterTextFavorReceiver.slateRef>
+  <TradeRequest.LetterTextFavorReceiver.slateRef>Qui hauria de rebre [asker_faction_royalFavorLabel] per haver complert la sol·licitud de comerç?</TradeRequest.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>

@@ -2,25 +2,25 @@
 <LanguageData>
   
   <!-- EN: Armor - Blunt -->
-  <ArmorRating_Blunt.label>Protecció - Cops</ArmorRating_Blunt.label>
+  <ArmorRating_Blunt.label>Protecció contra cops</ArmorRating_Blunt.label>
   <!-- EN: The protection given against blunt damage like fists, club impacts and rock falls.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
-  <ArmorRating_Blunt.description>Protecció contra els cops com ara cops de porra, caiguda de roques i explosions.</ArmorRating_Blunt.description>
+  <ArmorRating_Blunt.description>Protecció contra les contusions, com ara cops de porra, caiguda de roques i explosions.</ArmorRating_Blunt.description>
   <!-- EN: Armor - Blunt (armor stat) -->
-  <ArmorRating_Blunt.labelForFullStatList>TODO</ArmorRating_Blunt.labelForFullStatList>
+  <ArmorRating_Blunt.labelForFullStatList>Protecció contra cops (armadura)</ArmorRating_Blunt.labelForFullStatList>
   
   <!-- EN: Armor - Heat -->
-  <ArmorRating_Heat.label>Protecció - Calor</ArmorRating_Heat.label>
+  <ArmorRating_Heat.label>Protecció contra la calor</ArmorRating_Heat.label>
   <!-- EN: The protection given against temperature-related damage like burns.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
   <ArmorRating_Heat.description>Protecció contra el dany per temperatura com ara cremades.</ArmorRating_Heat.description>
   <!-- EN: Armor - Heat (armor stat) -->
-  <ArmorRating_Heat.labelForFullStatList>TODO</ArmorRating_Heat.labelForFullStatList>
+  <ArmorRating_Heat.labelForFullStatList>Protecció contra la calor (armadura)</ArmorRating_Heat.labelForFullStatList>
   
   <!-- EN: Armor - Sharp -->
-  <ArmorRating_Sharp.label>Protecció - Penetrants</ArmorRating_Sharp.label>
+  <ArmorRating_Sharp.label>Protecció contra armes de tall</ArmorRating_Sharp.label>
   <!-- EN: The protection given against sharp damage like bullets, knife stabs, explosions, and animal bites.\n\nUpon taking damage, first this armor rating is reduced by the attack's armor penetration value.\n\nThe remaining armor rating is then compared against a random number from 0 to 100.\n\n    - If the random number is under half the armor rating, the damage deflects harmlessly.\n    - If the random number is over half the armor rating, but not higher than the armor rating, the damage is reduced by half and changed to blunt.\n    - If the random number is greater than the armor rating, the armor has no effect.\n\nFor example, at 90% armor rating against an attack with 10% armor penetration, there is a 40% chance of deflecting the attack harmlessly, and a 40% chance of mitigating the damage.\n\nEach layer of armor is applied separately, from the outside in. -->
   <ArmorRating_Sharp.description>Protecció contra el dany penetrant com ara bales, ganivetades i mossegades.</ArmorRating_Sharp.description>
   <!-- EN: Armor - Sharp (armor stat) -->
-  <ArmorRating_Sharp.labelForFullStatList>TODO</ArmorRating_Sharp.labelForFullStatList>
+  <ArmorRating_Sharp.labelForFullStatList>Protecció contra armes de tall (armadura)</ArmorRating_Sharp.labelForFullStatList>
   
   <!-- EN: Shield max energy -->
   <EnergyShieldEnergyMax.label>Energia màx. absorbida</EnergyShieldEnergyMax.label>
@@ -42,23 +42,23 @@
   <EquipDelay.formatString>{0} s</EquipDelay.formatString>
   
   <!-- EN: Insulation - Cold -->
-  <Insulation_Cold.label>Aïllament - Fred</Insulation_Cold.label>
+  <Insulation_Cold.label>Aïllament del fred</Insulation_Cold.label>
   <!-- EN: How much this apparel improves a wearer's minimum comfortable temperature.\n\nGreater values allow surviving in colder temperatures. -->
   <Insulation_Cold.description>Capacitat d’abrigar de la peça de roba.</Insulation_Cold.description>
   <!-- EN: Insulation - Cold (armor stat) -->
-  <Insulation_Cold.labelForFullStatList>TODO</Insulation_Cold.labelForFullStatList>
+  <Insulation_Cold.labelForFullStatList>Aïllament del fred (armadura)</Insulation_Cold.labelForFullStatList>
   
   <!-- EN: Insulation - Heat -->
-  <Insulation_Heat.label>Aïllament – Calor</Insulation_Heat.label>
+  <Insulation_Heat.label>Aïllament de la calor</Insulation_Heat.label>
   <!-- EN: How much this apparel improves a wearer's maximum comfortable temperature.\n\nGreater values allow surviving in warmer temperatures. -->
   <Insulation_Heat.description>Capacitat de refrescar de la peça de roba.</Insulation_Heat.description>
   <!-- EN: Insulation - Heat (armor stat) -->
-  <Insulation_Heat.labelForFullStatList>TODO</Insulation_Heat.labelForFullStatList>
+  <Insulation_Heat.labelForFullStatList>Aïllament de la calor (armadura)</Insulation_Heat.labelForFullStatList>
   
   <!-- EN: Smokepop pack radius -->
-  <SmokepopBeltRadius.label>Radi del cinturó de fum</SmokepopBeltRadius.label>
+  <SmokepopBeltRadius.label>Radi d'efecte de les bombes de fum</SmokepopBeltRadius.label>
   <!-- EN: The area obscured when a smokepop pack detonates. -->
-  <SmokepopBeltRadius.description>Àrea que és capaç d’ocultar el cinturó quan es dispara.</SmokepopBeltRadius.description>
+  <SmokepopBeltRadius.description>Àrea que és capaç d’ocultar una bomba de fum del cinturó quan es dispara.</SmokepopBeltRadius.description>
   <!-- EN: {0} c -->
   <SmokepopBeltRadius.formatString>{0} c</SmokepopBeltRadius.formatString>
   

@@ -161,7 +161,7 @@
   <!-- EN: Broken down -->
   <BrokenDown>Avariat</BrokenDown>
   <!-- EN: (bond) -->
-  <BondBrackets>(vinculat/íntim/unit TODO)</BondBrackets>
+  <BondBrackets>(lligam)</BondBrackets>
   <!-- EN: Fuel -->
   <Fuel>Combustible</Fuel>
   <!-- EN: Fuel -->
@@ -625,13 +625,13 @@
   <!-- EN: Rename pen -->
   <RenameAnimalPen>Canvia el nom del corral</RenameAnimalPen>
   <!-- EN: Pen marker {0} -->
-  <AnimalPenMarkerDefaultLabel>Marcador del corral {0}</AnimalPenMarkerDefaultLabel>
+  <AnimalPenMarkerDefaultLabel>Cartell del corral {0}</AnimalPenMarkerDefaultLabel>
   <!-- EN: In pen -->
   <InPen>Al corral</InPen>
   <!-- EN: not in a pen -->
   <Unpenned>no està en un corral</Unpenned>
   <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
-  <UnpennedTooltip>Els corrals d'animals es poden crear amb un marcador de corral dins de l'àrea tancada. Els responsables portaran els animals al corral adequat. Els corrals es poden tancar amb reixes, barricades, murs i portes.</UnpennedTooltip>
+  <UnpennedTooltip>Els corrals d'animals es poden crear amb un cartell de corral dins de l'àrea tancada. Els responsables portaran els animals al corral adequat. Els corrals es poden tancar amb reixes, barricades, murs i portes.</UnpennedTooltip>
   <!-- EN: Roped by -->
   <RopedByPawn>Lligat per</RopedByPawn>
   <!-- EN: Roped to -->
@@ -794,7 +794,7 @@
   <!-- EN: teetotaler will be unhappy -->
   <TeetotalerUnhappy>s'enfadarà perquè prefereix l'abstèmia</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
-  <ProsthophobeUnhappy>s'enfadarà perquè, com a protofòbic, no li agraden les pròtesis</ProsthophobeUnhappy>
+  <ProsthophobeUnhappy>s'enfadarà perquè, com a purista corporal, no li agraden les pròtesis</ProsthophobeUnhappy>
 
   <!-- Thoughts -->
   <!-- EN: Expires in: {0} -->
@@ -1116,7 +1116,7 @@
   <!-- EN: Contains -->
   <CasketContains>Conté</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>Avís!\n\n{PAWN_nameDef} és el vostre darrer colon actiu! Si el poseu dins el cofre, no podreu seguir jugant. Esteu segur que voleu continuar?</CasketWarning>
+  <CasketWarning>Avís!\n\n{PAWN_nameDef} és el vostre darrer colon actiu! Si el poseu dins el sarcòfag, no podreu seguir jugant. Esteu segur que voleu continuar?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -1170,7 +1170,7 @@
   <!-- EN: Unfinished {0} -->
   <UnfinishedItem>{0} sense acabar</UnfinishedItem>
   <!-- EN: Unfinished {0} {1} -->
-  <UnfinishedItemWithStuff>{1} de {0} sense acabar</UnfinishedItemWithStuff>
+  <UnfinishedItemWithStuff>{1} {0} sense acabar</UnfinishedItemWithStuff>
 
   <!-- Quality -->
   <!-- EN: Quality -->
@@ -1232,11 +1232,11 @@
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
-  <DiseaseGrowthModeChanged_Growing>{1} de {PAWN_labelShort} està empitjorant.</DiseaseGrowthModeChanged_Growing>
+  <DiseaseGrowthModeChanged_Growing>{1} de {PAWN_labelShort} empitjora.</DiseaseGrowthModeChanged_Growing>
   <!-- EN: {PAWN_labelShort}'s {1} is now stable. -->
   <DiseaseGrowthModeChanged_Stable>{1} de {PAWN_labelShort} està estable.</DiseaseGrowthModeChanged_Stable>
   <!-- EN: {PAWN_labelShort}'s {1} is now in remission. -->
-  <DiseaseGrowthModeChanged_Remission>{1} de {PAWN_labelShort} està remetent.</DiseaseGrowthModeChanged_Remission>
+  <DiseaseGrowthModeChanged_Remission>{1} de {PAWN_labelShort} remet.</DiseaseGrowthModeChanged_Remission>
 
   <!-- Marriage spot -->
   <!-- EN: Usable now. -->
@@ -1384,7 +1384,7 @@
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>Potenciador per dolor\n\nEl dolor fa concentrar la ment i accelera la dissipació de l'escalfor neural.\n\nNivell de dolor: {0}\nBonificació de refredament: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
-  <PawnTooltipPsychicEntropyLimit>Commuta el limitador d'escalfament neural. Si s'excedeix el límit, es pot produir un col·lapse psíquic que pot durar dies. No causa danys permanents.</PawnTooltipPsychicEntropyLimit>
+  <PawnTooltipPsychicEntropyLimit>Commuta el limitador de la temperatura neural. Si s'excedeix el límit, es pot produir un col·lapse psíquic que pot durar dies. No causa danys permanents.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>Psicoconcentració: {0}</PawnTooltipPsyfocus>
 
