@@ -4,22 +4,22 @@
   <!-- EN: anesthetic -->
   <Anesthetic.label>anestèsia</Anesthetic.label>
   <!-- EN: Sleep drugs in the bloodstream. Anesthetic renders creatures unconscious. -->
-  <Anesthetic.description>TODO</Anesthetic.description>
+  <Anesthetic.description>Les drogues presents a la sang causen la pèrdua reversible de sensacions. L'anestèsia deixa la criatura inconscient.</Anesthetic.description>
   <!-- EN: wearing off -->
-  <Anesthetic.stages.wearing_off.label>TODO</Anesthetic.stages.wearing_off.label>
+  <Anesthetic.stages.wearing_off.label>una miqueta ensopit</Anesthetic.stages.wearing_off.label>
   <!-- EN: woozy -->
-  <Anesthetic.stages.woozy.label>TODO</Anesthetic.stages.woozy.label>
+  <Anesthetic.stages.woozy.label>ensopit</Anesthetic.stages.woozy.label>
   <!-- EN: sedated -->
-  <Anesthetic.stages.sedated.label>TODO</Anesthetic.stages.sedated.label>
+  <Anesthetic.stages.sedated.label>sedat</Anesthetic.stages.sedated.label>
   
   <!-- EN: blood loss -->
   <BloodLoss.label>pèrdua de sang</BloodLoss.label>
   <!-- EN: A reduction in the normal blood volume. Minor blood loss has relatively mild effects, but when blood loss becomes severe, oxygen transport becomes badly impaired and the victim loses the ability to move. Extreme blood loss leads to death.\n\nBlood loss naturally recovers over time as the body slowly regenerates its blood supply. -->
-  <BloodLoss.description>TODO</BloodLoss.description>
+  <BloodLoss.description>Una reducció de la quantitat normal de sang al cos. Les pèrdues lleus tenen pocs efectes, però si la pèrdua és severa, el transport d'oxigen es redueix i la víctima perd les habilitats motrius. Les pèrdues extremes provoquen la mort.\n\nEl pacient es recuperarà amb el temps de la pèrdua de sang, ja que el cos pot regenerar la sang poc a poc.</BloodLoss.description>
   <!-- EN: minor -->
   <BloodLoss.stages.minor-0.label>menyspreable</BloodLoss.stages.minor-0.label>
   <!-- EN: minor -->
-  <BloodLoss.stages.minor-1.label>menor</BloodLoss.stages.minor-1.label>
+  <BloodLoss.stages.minor-1.label>lleu</BloodLoss.stages.minor-1.label>
   <!-- EN: moderate -->
   <BloodLoss.stages.moderate.label>moderada</BloodLoss.stages.moderate.label>
   <!-- EN: severe -->
@@ -28,16 +28,16 @@
   <BloodLoss.stages.extreme.label>extrema</BloodLoss.stages.extreme.label>
   
   <!-- EN: brain shock -->
-  <BrainShock.label>TODO</BrainShock.label>
+  <BrainShock.label>xoc cerebral</BrainShock.label>
   <!-- EN: After-effects of an electrical shock to the brain. This is generally cause by feedback from brain implants hit by EMP pulses. -->
-  <BrainShock.description>TODO</BrainShock.description>
+  <BrainShock.description>Els efectes secundaris d'un xoc elèctric al cervell. Solen causar-los l'acoblament que es produeix quan un implant cerebral rep l'impacte de polsos EM.</BrainShock.description>
   <!-- EN: a brain shock -->
-  <BrainShock.labelNoun>TODO</BrainShock.labelNoun>
+  <BrainShock.labelNoun>un xoc cerebral</BrainShock.labelNoun>
   
   <!-- EN: catatonic breakdown -->
   <CatatonicBreakdown.label>col·lapse catatònic</CatatonicBreakdown.label>
   <!-- EN: A state of mental shock which leads to a total inability to function. The victim collapses, effectively unconscious. -->
-  <CatatonicBreakdown.description>TODO</CatatonicBreakdown.description>
+  <CatatonicBreakdown.description>Un estat de xoc mental que condueix a una incapacitat total per funcionar. La víctima cau desplomada, completament inconscient.</CatatonicBreakdown.description>
   <!-- EN: a catatonic breakdown -->
   <CatatonicBreakdown.labelNoun>un col·lapse catatònic</CatatonicBreakdown.labelNoun>
   
@@ -49,7 +49,7 @@
   <!-- EN: drug overdose -->
   <DrugOverdose.label>sobredosi</DrugOverdose.label>
   <!-- EN: Generalized toxic effects due to over-concentration of drugs in the bloodstream. -->
-  <DrugOverdose.description>TODO</DrugOverdose.description>
+  <DrugOverdose.description>Efectes tòxics generalitzats degut a un excés de drogues a la sang.</DrugOverdose.description>
   <!-- EN: Overdose: {0} -->
   <DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>Sobredosi: {0}</DrugOverdose.comps.HediffComp_Discoverable.discoverLetterLabel>
   <!-- EN: {0} is overdosing! -->
@@ -57,7 +57,7 @@
   <!-- EN: a drug overdose -->
   <DrugOverdose.labelNoun>una sobredosi</DrugOverdose.labelNoun>
   <!-- EN: minor -->
-  <DrugOverdose.stages.minor-0.label>menyspreable</DrugOverdose.stages.minor-0.label>
+  <DrugOverdose.stages.minor-0.label>lleu</DrugOverdose.stages.minor-0.label>
   <!-- EN: minor -->
   <DrugOverdose.stages.minor-1.label>menor</DrugOverdose.stages.minor-1.label>
   <!-- EN: major -->
@@ -92,7 +92,7 @@
   <!-- EN: This creature is gestating offspring. It will give birth if the pregnancy comes to term. If starved or injured, there may be a miscarriage. -->
   <Pregnant.description>TODO</Pregnant.description>
   <!-- EN: {0} is pregnant! -->
-  <Pregnant.comps.HediffComp_MessageAfterTicks.message>TODO</Pregnant.comps.HediffComp_MessageAfterTicks.message>
+  <Pregnant.comps.HediffComp_MessageAfterTicks.message>{0} està embarassada!</Pregnant.comps.HediffComp_MessageAfterTicks.message>
   <!-- EN: pregnancy -->
   <Pregnant.labelNoun>embaràs</Pregnant.labelNoun>
   <!-- EN: early-stage -->
@@ -107,22 +107,22 @@
   <Pregnant.comps.HediffComp_Discoverable.discoverLetterText>{0} està embarassada!</Pregnant.comps.HediffComp_Discoverable.discoverLetterText>
   
   <!-- EN: psychic coma -->
-  <PsychicComa.label>TODO</PsychicComa.label>
+  <PsychicComa.label>coma psíquic</PsychicComa.label>
   <!-- EN: A form of benign coma during which the brain recovers from a psychic overload. -->
-  <PsychicComa.description>TODO</PsychicComa.description>
+  <PsychicComa.description>Una forma de coma durant la qual el cervell es recuperar d'una sobrecàrrega psíquica.</PsychicComa.description>
   <!-- EN: a psychic coma -->
-  <PsychicComa.labelNoun>TODO</PsychicComa.labelNoun>
+  <PsychicComa.labelNoun>un coma psíquic</PsychicComa.labelNoun>
   
   <!-- EN: psychic hangover -->
-  <PsychicHangover.label>TODO</PsychicHangover.label>
+  <PsychicHangover.label>ressaca psíquica</PsychicHangover.label>
   <!-- EN: An after-effect of neural heat. Psychic hangover is bothersome, but not dangerous. -->
-  <PsychicHangover.description>TODO</PsychicHangover.description>
+  <PsychicHangover.description>Una conseqüència de l'escalfament neuronal. Aquest tipus de ressaca molesta una mica, però no és perillosa.</PsychicHangover.description>
   <!-- EN: a psychic hangover -->
-  <PsychicHangover.labelNoun>TODO</PsychicHangover.labelNoun>
+  <PsychicHangover.labelNoun>una ressaca psíquica</PsychicHangover.labelNoun>
   <!-- EN: forming -->
-  <PsychicHangover.stages.forming.label>TODO</PsychicHangover.stages.forming.label>
+  <PsychicHangover.stages.forming.label>comença</PsychicHangover.stages.forming.label>
   <!-- EN: buzzing -->
-  <PsychicHangover.stages.buzzing.label>TODO</PsychicHangover.stages.buzzing.label>
+  <PsychicHangover.stages.buzzing.label>brunzeix</PsychicHangover.stages.buzzing.label>
   
   <!-- EN: psychic shock -->
   <PsychicShock.label>xoc psíquic</PsychicShock.label>
