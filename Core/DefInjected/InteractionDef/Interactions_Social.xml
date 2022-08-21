@@ -95,7 +95,7 @@
   <Insult.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [PersonalCharacteristic] de [target].</li>
     <li>r_logentry->[INITIATOR_nameDef] ha comparat [target] amb un [insultcomparison].</li>
-    <li>r_logentry->[INITIATOR_nameDef] ha dit [insultcomparison] a [target].</li>
+    <li>r_logentry->[INITIATOR_nameDef] li ha dit [insultcomparison] a [target].</li>
     <li>target(p=4)->[RECIPIENT_nameDef]</li>
     <li>target->[PersonFamily] de [RECIPIENT_nameDef]</li>
     <li>insulted(p=3)->ha insultat a</li>
