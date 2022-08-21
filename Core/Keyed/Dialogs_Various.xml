@@ -22,7 +22,7 @@
   <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
   <GameUpdatedToNewVersionSavesCompatible>Les partides desades amb la versió anterior haurien de ser compatibles, però alguns mods potser no funcionaran.</GameUpdatedToNewVersionSavesCompatible>
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
-  <GameUpdatedToNewVersionNonSteam>Com que teniu una còpia lliure de DRM, podeu instal·lar-la dos cops en carpetes diferents per poder jugar tant la nova versió com la vella.</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionNonSteam>Com que teniu una còpia lliure de DRM, podeu instal·lar-la dos cops en carpetes diferents per a jugar tant la nova versió com la vella.</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
   <GameUpdatedToNewVersionSteam>Si voleu continuar fent servir la versió antiga, podeu fer servir la funció «Betas» de l'Steam.\n\n  1. A la llibreria de l'Steam, feu clic amb el botó dret a «RimWorld».\n  2. Feu clic a «Properties».\n  3. Feu clic a la pestanya «Betas».\n  4. Trieu la versió que voleu jugar al desplegable.</GameUpdatedToNewVersionSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature. -->
@@ -479,7 +479,7 @@
   <!-- EN: {0} skill required -->
   <SkillRequiredToBuild>Cal l'habilitat {0}</SkillRequiredToBuild>
   <!-- EN: Requires this level of {0} in order to build. -->
-  <SkillRequiredToBuildExplanation>Necessita aquest nivell de {0} per poder-ho construir.</SkillRequiredToBuildExplanation>
+  <SkillRequiredToBuildExplanation>Necessita aquest nivell de {0} per a construir-ho.</SkillRequiredToBuildExplanation>
   <!-- EN: Nuzzle interval -->
   <NuzzleInterval>Interval de carícies</NuzzleInterval>
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
@@ -1007,7 +1007,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>Esteu segur que voleu netejar tots els fitxers de traducció del {0}?\n\nLa neteja dels fitxers:\n  –Afegirà marcadors per a les cadenes de traducció, les traduccions injectades i les històries personals que faltin.\n  –Afegirà o actualitzarà els comentaris que contenen la versió original als fitxers XML que pertoqui.\n  –Aplicarà el format automàtic a tots els fitxers XML.\n  –Actualitzarà els noms de les definicions perquè siguin compatibles.\n  –Esborrarà els comentaris dels fitxers XML (exceptuant les injeccions completes).\n\nEls fitxers que no siguin XML no s’esborraran ni modificaran.\n\nRecordeu que cal reiniciar el joc després de modificar els fitxers d’idioma abans d’executar aquesta eina per poder tenir totes les dades actualitzades.\n\nÉs recomanable que feu una còpia de seguretat abans d’utilitzar aquesta eina.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>Esteu segur que voleu netejar tots els fitxers de traducció del {0}?\n\nLa neteja dels fitxers:\n  –Afegirà marcadors per a les cadenes de traducció, les traduccions injectades i les històries personals que faltin.\n  –Afegirà o actualitzarà els comentaris que contenen la versió original als fitxers XML que pertoqui.\n  –Aplicarà el format automàtic a tots els fitxers XML.\n  –Actualitzarà els noms de les definicions perquè siguin compatibles.\n  –Esborrarà els comentaris dels fitxers XML (exceptuant les injeccions completes).\n\nEls fitxers que no siguin XML no s’esborraran ni modificaran.\n\nRecordeu que cal reiniciar el joc després de modificar els fitxers d’idioma abans d’executar aquesta eina per a tenir totes les dades actualitzades.\n\nÉs recomanable que feu una còpia de seguretat abans d’utilitzar aquesta eina.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Sí, tinc una còpia de seguretat.</ConfirmCleanupTranslationFiles_Confirm>
 
@@ -1097,7 +1097,7 @@
   <!-- EN: Need ally at target for navigation -->
   <AbilityNeedAllyToSkip>Cal un aliat a l'objectiu per poder navegar.</AbilityNeedAllyToSkip>
   <!-- EN: No chunks to skip. -->
-  <AbilityNoChunkToSkip>No hi ha trossos de roca per poder teletransportar.</AbilityNoChunkToSkip>
+  <AbilityNoChunkToSkip>No hi ha trossos de roca per teletransportar.</AbilityNoChunkToSkip>
   <!-- EN: Induce psychic love in -->
   <PsychicLoveInduceIn>Indueix amor psíquic a</PsychicLoveInduceIn>
   <!-- EN: Psychic love for -->
