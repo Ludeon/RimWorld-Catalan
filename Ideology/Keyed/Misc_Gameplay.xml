@@ -24,7 +24,7 @@
   <!-- EN: Structure -->
   <Structure>Estructura</Structure>
   <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
-  <ChooseYourIdeoligionDesc>TODO</ChooseYourIdeoligionDesc>
+  <ChooseYourIdeoligionDesc>En què haurien de creure els vostres colons inicials? Les seves creences afectaran la manera de jugar i l'aspecte visual. Podreu convertir altres colons a la vostra ideoligió o acceptar les seves tradicions.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>Crea'n una de personalitzada</CreateCustom>
   <!-- EN: Delete custom -->
@@ -70,57 +70,57 @@
   <!-- EN: {0} to {1} -->
   <PreceptThoughtMoodRange>de {0} a {1}</PreceptThoughtMoodRange>
   <!-- EN: Comes from ideo -->
-  <ComesFromIdeo>TODO</ComesFromIdeo>
+  <ComesFromIdeo>Ve de la ideo.</ComesFromIdeo>
   <!-- EN: Current total animal bodysize per colonist -->
-  <CurrentTotalAnimalBodySizePerColonist>TODO</CurrentTotalAnimalBodySizePerColonist>
+  <CurrentTotalAnimalBodySizePerColonist>Mida corporal total d'animals per colon</CurrentTotalAnimalBodySizePerColonist>
   <!-- EN: total bodysize per colonist -->
-  <AnimalsBodySizePerColonist>TODO</AnimalsBodySizePerColonist>
+  <AnimalsBodySizePerColonist>mida corporal total per colon</AnimalsBodySizePerColonist>
   <!-- EN: total nearby bodysize per colonist -->
-  <VeneratedAnimalsBodySizePerColonist>TODO</VeneratedAnimalsBodySizePerColonist>
+  <VeneratedAnimalsBodySizePerColonist>mida corp. dels anim. venerats per colon</VeneratedAnimalsBodySizePerColonist>
   <!-- EN: Expecting at least {0} body size per colonist. -->
-  <MinAnimalBodySizePerColonist>TODO</MinAnimalBodySizePerColonist>
+  <MinAnimalBodySizePerColonist>S'espera com a mínim una mida corporal de {0} per colon.</MinAnimalBodySizePerColonist>
   <!-- EN: Plant {0_label} -->
-  <PlantThing>TODO</PlantThing>
+  <PlantThing>Planta {0_label}</PlantThing>
   <!-- EN: Plant a {0_label} in a chosen area. -->
-  <PlantThingDesc>TODO</PlantThingDesc>
+  <PlantThingDesc>Planta {0_label} a l'àrea escollida.</PlantThingDesc>
   <!-- EN: Cancel planting {0_label} -->
-  <CancelPlantThing>TODO</CancelPlantThing>
+  <CancelPlantThing>Cancel·la la plantada de {0_label}</CancelPlantThing>
   <!-- EN: Cancel planting the {0_label}. -->
-  <CancelPlantThingDesc>TODO</CancelPlantThingDesc>
+  <CancelPlantThingDesc>Cancel·la la plantada de {0_label}.</CancelPlantThingDesc>
   <!-- EN: Disables -->
-  <Disables>TODO</Disables>
+  <Disables>Inhabilita</Disables>
   <!-- EN: Requires one of precepts -->
-  <RequiresOnePrecept>TODO</RequiresOnePrecept>
+  <RequiresOnePrecept>Requereix un dels preceptes</RequiresOnePrecept>
   <!-- EN: Required precepts -->
-  <RequiredPrecepts>TODO</RequiredPrecepts>
+  <RequiredPrecepts>Preceptes requerits</RequiredPrecepts>
   <!-- EN: Required rituals -->
-  <RequiredRituals>TODO</RequiredRituals>
+  <RequiredRituals>Rituals requerits</RequiredRituals>
   <!-- EN: Prevents precepts -->
-  <PreventsPrecepts>TODO</PreventsPrecepts>
+  <PreventsPrecepts>Evita els preceptes</PreventsPrecepts>
   <!-- EN: Styles -->
   <Styles>Estils</Styles>
   <!-- EN: Chance to have precept -->
-  <ChanceToHavePrecept>TODO</ChanceToHavePrecept>
+  <ChanceToHavePrecept>Probabilitat de tenir el precepte</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>TODO</FavoriteColorTooltip>
+  <FavoriteColorTooltip>El color preferit de {PAWN_labelShort}. Si té més d'un {PERCENTAGE} d'indumentària d'aquest color o el color de la ideoligió, serà una mica més feliç.\n\nPodeu alterar els colors a la taula de d'estilisme amb tints extrets de la planta tintorera.</FavoriteColorTooltip>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Estableix el color de la ideoligió</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>Estableix al color favorit</SetFavoriteColor>
   <!-- EN: Configure your faction's ideoligion -->
-  <ConfigureIdeoligion>TODO</ConfigureIdeoligion>
+  <ConfigureIdeoligion>Configura la ideoligió de la vostra facció</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
   <NotEnoughDye>No hi ha prou tint.</NotEnoughDye>
   <!-- EN: {PAWN_nameDef} is unwilling to recolor {PAWN_possessive} {APPAREL_labelShort}. -->
-  <ApparelLockedCannotRecolor>TODO</ApparelLockedCannotRecolor>
+  <ApparelLockedCannotRecolor>{PAWN_nameDef} no està disposa{PAWN_gender ? t : da} a canviar el color de {APPAREL_labelShort}.</ApparelLockedCannotRecolor>
   <!-- EN: The colonist will recolor the apparel when dye becomes available. -->
-  <NotEnoughDyeWillRecolorApparel>TODO</NotEnoughDyeWillRecolorApparel>
+  <NotEnoughDyeWillRecolorApparel>El colon canviarà el color de la vestimenta quan tingui tint disponible.</NotEnoughDyeWillRecolorApparel>
   <!-- EN: The colonist will recolor their hair when dye becomes available. -->
-  <NotEnoughDyeWillRecolorHair>TODO</NotEnoughDyeWillRecolorHair>
+  <NotEnoughDyeWillRecolorHair>El colon es tenyirà el cabell quan tingui tint disponible.</NotEnoughDyeWillRecolorHair>
   <!-- EN: {PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE} -->
-  <IdeoCertaintyTooltip>TODO</IdeoCertaintyTooltip>
+  <IdeoCertaintyTooltip>La certesa de {PAWN_labelShort} amb el {IDEO} és del {PERCENTAGE}</IdeoCertaintyTooltip>
   <!-- EN: Disabled by precept {0} -->
-  <DisabledByPrecept>TODO</DisabledByPrecept>
+  <DisabledByPrecept>Inhabilitat pel precepte {0}</DisabledByPrecept>
   <!-- EN: Everyone -->
   <Everyone>Tots</Everyone>
   <!-- EN: Narrative -->
@@ -128,73 +128,73 @@
   <!-- EN: narrative -->
   <NarrativeLower>narrativa</NarrativeLower>
   <!-- EN: Precept name -->
-  <PreceptName>TODO</PreceptName>
+  <PreceptName>Nom del precepte</PreceptName>
   <!-- EN: precept name -->
-  <PreceptNameLower>TODO</PreceptNameLower>
+  <PreceptNameLower>nom del precepte</PreceptNameLower>
   <!-- EN: Changing {0} -->
-  <Changing>TODO</Changing>
+  <Changing>Es canvia {0}</Changing>
   <!-- EN: structures -->
   <StructuresLower>estructures</StructuresLower>
   <!-- EN: memes -->
-  <MemesLower>TODO</MemesLower>
+  <MemesLower>mems</MemesLower>
   <!-- EN: Development points -->
-  <Reward_DevelopmentPointsLabel>TODO</Reward_DevelopmentPointsLabel>
+  <Reward_DevelopmentPointsLabel>Punts de desenvolupament</Reward_DevelopmentPointsLabel>
   <!-- EN: Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideoligion.\n\nEarn additional development points by completing other quests and rituals. -->
-  <Reward_DevelopmentPoints>TODO</Reward_DevelopmentPoints>
+  <Reward_DevelopmentPoints>Obtindreu {1} punts de desenvolupament per a {0}.\n\nAra mateix en teniu {2}. Amb {3} punts, es podrà reformar la ideoligió.\n\nEs poden obtenir més punts si es completen alguns rituals i missions.</Reward_DevelopmentPoints>
   <!-- EN: Current points -->
-  <CurrentDevelopmentPoints>TODO</CurrentDevelopmentPoints>
+  <CurrentDevelopmentPoints>Punts actuals</CurrentDevelopmentPoints>
   <!-- EN: Points needed to reform -->
-  <ReformDevelopmentPoints>TODO</ReformDevelopmentPoints>
+  <ReformDevelopmentPoints>Punts necessaris per la reforma</ReformDevelopmentPoints>
   <!-- EN: quest -->
-  <QuestLower>TODO</QuestLower>
+  <QuestLower>missió</QuestLower>
   <!-- EN: Vegetarian -->
-  <MealKindVegetarian>TODO</MealKindVegetarian>
+  <MealKindVegetarian>Vegetariana</MealKindVegetarian>
   <!-- EN: Contains meat -->
   <MealKindMeat>Conté carn</MealKindMeat>
   <!-- EN: Acceptable food for everyone -->
   <MealKindAny>Menjar acceptable per tothom</MealKindAny>
 
   <!-- EN: Could not load ideoligion -->
-  <UnableToLoadIdeoTitle>TODO</UnableToLoadIdeoTitle>
+  <UnableToLoadIdeoTitle>No s'ha pogut carregar la ideoligió</UnableToLoadIdeoTitle>
   <!-- EN: Could not load the selected ideoligion due to the requirements of the factions that will be following this ideoligion. The violated requirements are: -->
-  <UnableToLoadIdeoDescription>TODO</UnableToLoadIdeoDescription>
+  <UnableToLoadIdeoDescription>No s'ha pogut carregar la ideoligió seleccionada pels requisits de les faccions que la segueixen. Els requisits que es violen són:</UnableToLoadIdeoDescription>
   <!-- EN: Meme {MEME} is not allowed for {FACTIONTYPE} factions -->
-  <UnableToLoadIdeoMemeNotAllowed>TODO</UnableToLoadIdeoMemeNotAllowed>
+  <UnableToLoadIdeoMemeNotAllowed>No es permet el mem {MEME} per a les faccions {FACTIONTYPE}</UnableToLoadIdeoMemeNotAllowed>
   <!-- EN: Meme {MEME} is required for {FACTIONTYPE} factions -->
-  <UnableToLoadIdeoMemeRequired>TODO</UnableToLoadIdeoMemeRequired>
+  <UnableToLoadIdeoMemeRequired>Cal el mem {MEME} per a les faccions {FACTIONTYPE}</UnableToLoadIdeoMemeRequired>
   <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
-  <UnableToLoadIdeoPreceptNotAllowed>TODO</UnableToLoadIdeoPreceptNotAllowed>
+  <UnableToLoadIdeoPreceptNotAllowed>El precepte {PRECEPT} no es permet per a les faccions que no són del jugador</UnableToLoadIdeoPreceptNotAllowed>
 
   <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
-  <RitualTargetGraveInfo>TODO</RitualTargetGraveInfo>
+  <RitualTargetGraveInfo>Una tomba que conté el cos de {PAWN_labelShort}.</RitualTargetGraveInfo>
   <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
-  <RitualTargetEmptyGraveInfo>TODO</RitualTargetEmptyGraveInfo>
+  <RitualTargetEmptyGraveInfo>Una tomba buida per lamentar la mort de {PAWN_labelShort}.</RitualTargetEmptyGraveInfo>
   <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
-  <RitualTargetGraveInfoAbstract>TODO</RitualTargetGraveInfoAbstract>
+  <RitualTargetGraveInfoAbstract>Una tomba que conté el cos de {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
   <!-- EN: A grave containing a corpse. -->
-  <RitualTargetGraveInfoAbstractNoIdeo>TODO</RitualTargetGraveInfoAbstractNoIdeo>
+  <RitualTargetGraveInfoAbstractNoIdeo>Una tomba que conté un cadàver.</RitualTargetGraveInfoAbstractNoIdeo>
   <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
-  <RitualTargetEmptyGraveInfoAbstract>TODO</RitualTargetEmptyGraveInfoAbstract>
+  <RitualTargetEmptyGraveInfoAbstract>Una tomba buida per lamentar la mort de {IDEO_memberNameIndef}.</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
-  <RitualTargetGraveInfoMustBeBuried>TODO</RitualTargetGraveInfoMustBeBuried>
+  <RitualTargetGraveInfoMustBeBuried>Primer s'ha d'enterrar el cos de {PAWN_labelShort}</RitualTargetGraveInfoMustBeBuried>
   <!-- EN: Any gathering spot, like a table -->
-  <RitualTargetGatherSpotInfo>TODO</RitualTargetGatherSpotInfo>
+  <RitualTargetGatherSpotInfo>Qualsevol lloc de trobada, com una taula</RitualTargetGatherSpotInfo>
   <!-- EN: Altar or any ritual spot. -->
-  <RitualTargetGatherAltarOrRitualSpotInfo>TODO</RitualTargetGatherAltarOrRitualSpotInfo>
+  <RitualTargetGatherAltarOrRitualSpotInfo>Altar o qualsevol lloc ritual.</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: Altar, ideogram or any ritual spot. -->
-  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>TODO</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
+  <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>Altar, ideograma o qualsevol lloc ritual.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
   <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
-  <RitualTargetLightBallInfo>TODO</RitualTargetLightBallInfo>
+  <RitualTargetLightBallInfo>Una bola giratòria o un lloc ritual. La bola i l'altaveu han de tenir energia.</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
-  <RitualTargetLightBallIsNotPowered>TODO</RitualTargetLightBallIsNotPowered>
+  <RitualTargetLightBallIsNotPowered>La bola de discoteca necessita electricitat.</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
-  <RitualTargetNoPoweredSpeakers>TODO</RitualTargetNoPoweredSpeakers>
+  <RitualTargetNoPoweredSpeakers>Els altaveus necessiten electricitat.</RitualTargetNoPoweredSpeakers>
   <!-- EN: Campfire is not fueled. -->
-  <RitualTargetCampfireNoFuel>TODO</RitualTargetCampfireNoFuel>
+  <RitualTargetCampfireNoFuel>La foguera no té combustible.</RitualTargetCampfireNoFuel>
   <!-- EN: Campfire must be unroofed. -->
-  <RitualTargetCampfireMustBeUnroofed>TODO</RitualTargetCampfireMustBeUnroofed>
+  <RitualTargetCampfireMustBeUnroofed>La foguera no pot estar sota una teulada.</RitualTargetCampfireMustBeUnroofed>
   <!-- EN: No nearby drum. -->
-  <RitualTargetNoDrum>TODO</RitualTargetNoDrum>
+  <RitualTargetNoDrum>No hi ha cap tambor a prop.</RitualTargetNoDrum>
   <!-- EN: Need at least {0} unroofed cells nearby. -->
   <RitualTargetNeedUnroofedCells>TODO</RitualTargetNeedUnroofedCells>
   <!-- EN: A lit campfire or ritual spot. -->
