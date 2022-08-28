@@ -3,97 +3,97 @@
 
   <!-- Character -->
   <!-- EN: Overrides some precepts related to -->
-  <OverridesSomePrecepts>TODO</OverridesSomePrecepts>
+  <OverridesSomePrecepts>Anul·la alguns preceptes relacionats amb</OverridesSomePrecepts>
   <!-- EN: Agrees with memes -->
-  <AgreeableMemes>TODO</AgreeableMemes>
+  <AgreeableMemes>Concorda amb els mems</AgreeableMemes>
   <!-- EN: Conflicts with memes -->
-  <DisagreeableMemes>TODO</DisagreeableMemes>
+  <DisagreeableMemes>Causa un conflicte amb els mems</DisagreeableMemes>
 
   <!-- ITab titles -->
   <!-- EN: Slave -->
-  <TabSlave>TODO</TabSlave>
+  <TabSlave>Esclau</TabSlave>
   <!-- EN: The faction goodwill you will gain if you release a slave. This is affected by the slaves's physical and mental health. -->
-  <SlaveReleaseRelationGainsDesc>TODO</SlaveReleaseRelationGainsDesc>
+  <SlaveReleaseRelationGainsDesc>La reputació que guanyareu amb la facció si allibereu l'esclau. Depèn de la salut física i mental de l'esclau.</SlaveReleaseRelationGainsDesc>
   <!-- EN: Relations gain on release -->
-  <SlaveReleasePotentialRelationGains>TODO</SlaveReleasePotentialRelationGains>
+  <SlaveReleasePotentialRelationGains>Millora de les relacions si se l'allibera</SlaveReleasePotentialRelationGains>
   <!-- EN: Slave rebellion interval -->
-  <SlaveRebellionMTBDays>TODO</SlaveRebellionMTBDays>
+  <SlaveRebellionMTBDays>Interval de rebel·lió d'esclaus</SlaveRebellionMTBDays>
   <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
-  <SlaveRebellionMTBDaysDescription>TODO</SlaveRebellionMTBDaysDescription>
+  <SlaveRebellionMTBDaysDescription>El nombre de dies aproximat entre intents de rebel·lions dels esclaus. Depèn de la repressió, estat d'ànim, salut, proximitat d'armes, i el nombre d'esclaus i colons al mapa.</SlaveRebellionMTBDaysDescription>
 
   <!-- Slave tab -->
   <!-- EN: Suppression -->
   <Suppression>Repressió</Suppression>
   <!-- EN: Suppression is the psychological effect of fear and control on a slave. If suppression is low, slaves are more likely to rebel. -->
-  <SuppressionDesc>TODO</SuppressionDesc>
+  <SuppressionDesc>La repressió és l'efecte i el control psicològic de la por en els esclaus. Si la repressió és baixa, és més probable que els esclaus es rebel·lin.</SuppressionDesc>
   <!-- EN: Suppression fall rate -->
   <SuppressionFallRate>Ritme de descens de la repressió</SuppressionFallRate>
   <!-- EN: Suppression falls over time depending on its current level:\n\n- {1}+ suppression: {0} per day\n- {4}-{3} suppression: {2} per day\n- {6}- suppression: {5} per day\n\nApparel and terror can also affect the suppression fall rate. This slave's fall rate calculation is -->
-  <SuppressionFallRateDesc>TODO</SuppressionFallRateDesc>
+  <SuppressionFallRateDesc>La repressió disminueix amb el temps depenent del seu nivell actual:\n\n– Repressió de {1}+: {0} al dia\n– Repressió entre {4} i {3}: {2} al dia\n– Repressió de {6}-: {5} al dia\n\nLa indumentària i el terror també afecten al ritme de caiguda de la repressió. El ritme de caiguda d'aquest esclau és de</SuppressionFallRateDesc>
   <!-- EN: Cannot emancipate -->
-  <CannotEmancipate>TODO</CannotEmancipate>
+  <CannotEmancipate>No es pot emancipar</CannotEmancipate>
   <!-- EN: Cannot imprison -->
-  <CannotImprison>TODO</CannotImprison>
+  <CannotImprison>No es pot empresonar</CannotImprison>
   <!-- EN: Current suppression -->
   <CurrentSuppression>Repressió actual</CurrentSuppression>
   <!-- EN: Terror -->
   <Terror>Terror</Terror>
   <!-- EN: Terror is a way to keep slaves suppressed. It rises when the slave spends time near terrifying things like terror sculptures. A slave can only be affected by three terror sources at a time.\n\nWhile terror is high, suppression falls slower as follows -->
-  <TerrorDescription>TODO</TerrorDescription>
+  <TerrorDescription>El terror és una manera de mantenir reprimits als esclaus. Augmenta quan l'esclau passa temps a prop de coses terrorífiques com ara escultures. Un esclau només pot percebre fins a tres orígens de terror al mateix temps.\n\nMentre el terror sigui alt, la repressió es reduirà més lentament de la següent manera</TerrorDescription>
   <!-- EN: Recent terrifying observations -->
-  <TerrorCurrentThoughts>TODO</TerrorCurrentThoughts>
+  <TerrorCurrentThoughts>Observacions terrorífiques recents</TerrorCurrentThoughts>
 
   <!-- EN: Base interval -->
-  <SuppressionBaseInterval>TODO</SuppressionBaseInterval>
+  <SuppressionBaseInterval>Interval base</SuppressionBaseInterval>
   <!-- EN: Moving capacity -->
-  <SuppressionMovingCapacityFactor>TODO</SuppressionMovingCapacityFactor>
+  <SuppressionMovingCapacityFactor>Capacitat de moviment</SuppressionMovingCapacityFactor>
   <!-- EN: Suppression -->
-  <SuppressionFactor>TODO</SuppressionFactor>
+  <SuppressionFactor>Repressió</SuppressionFactor>
   <!-- EN: Mood -->
-  <SuppressionMoodFactor>TODO</SuppressionMoodFactor>
+  <SuppressionMoodFactor>Estat d'ànim</SuppressionMoodFactor>
   <!-- EN: Slave count -->
-  <SuppressionSlaveCountFactor>TODO</SuppressionSlaveCountFactor>
+  <SuppressionSlaveCountFactor>Nombre d'esclaus</SuppressionSlaveCountFactor>
   <!-- EN: Escape route -->
-  <SuppressionEscapeFactor>TODO</SuppressionEscapeFactor>
+  <SuppressionEscapeFactor>Ruta d'escapament</SuppressionEscapeFactor>
   <!-- EN: Weapon proximity -->
-  <SuppressionWeaponProximityFactor>TODO</SuppressionWeaponProximityFactor>
+  <SuppressionWeaponProximityFactor>Proximitat d'armament</SuppressionWeaponProximityFactor>
   <!-- EN: Final interval -->
-  <SuppressionFinalInterval>TODO</SuppressionFinalInterval>
+  <SuppressionFinalInterval>Interval final</SuppressionFinalInterval>
   <!-- EN: Unattended -->
-  <SuppressionUnattendedByColonists>TODO</SuppressionUnattendedByColonists>
+  <SuppressionUnattendedByColonists>Sense vigilar</SuppressionUnattendedByColonists>
   <!-- EN: At least one of the {0} slaves on this map is expected rebel on average every {1}. -->
-  <SuppressionRebellionAnySlave>TODO</SuppressionRebellionAnySlave>
+  <SuppressionRebellionAnySlave>Almenys un dels {0} esclaus del mapa es rebel·larà aproximadament cada {1}.</SuppressionRebellionAnySlave>
 
   <!-- EN: Will -->
-  <WillLevel>TODO</WillLevel>
+  <WillLevel>Voluntat</WillLevel>
   <!-- EN: How much the prisoner is determined not to submit. When this reaches zero, they can be enslaved. -->
-  <WillLevelDesc>TODO</WillLevelDesc>
+  <WillLevelDesc>Indica quina resistència mostrarà el presoner a sotmetre's. Quan aquest valor arribi a zero, se'l podrà esclavitzar.</WillLevelDesc>
   <!-- EN: {0} base will -->
-  <WillFromPawnKind>TODO</WillFromPawnKind>
+  <WillFromPawnKind>Voluntat base de {0}</WillFromPawnKind>
   <!-- EN: Target ideoligion -->
-  <IdeoConversionTarget>TODO</IdeoConversionTarget>
+  <IdeoConversionTarget>Ideoligió objectiu</IdeoConversionTarget>
   <!-- EN: The ideoligion your wardens will attempt to convert this prisoner to. -->
-  <IdeoConversionTargetDesc>TODO</IdeoConversionTargetDesc>
+  <IdeoConversionTargetDesc>La ideoligió a la qual els vostres guardes intentaran convertir el presoner.</IdeoConversionTargetDesc>
 
   <!-- Social -->
   <!-- EN: Change per day due to mood -->
-  <CertaintyChangePerDay>TODO</CertaintyChangePerDay>
+  <CertaintyChangePerDay>Canvi per dia per l'estat d'ànim</CertaintyChangePerDay>
   <!-- EN: Change rate based on mood -->
-  <MoodChangeRate>TODO</MoodChangeRate>
+  <MoodChangeRate>Ritme de canvi en funció de l'estat d'ànim</MoodChangeRate>
   <!-- EN: {PAWN_nameDef}'s certainty in {IDEO_name} -->
-  <CertaintyInIdeo>TODO</CertaintyInIdeo>
+  <CertaintyInIdeo>Certesa de {PAWN_nameDef} respecte {IDEO_name}</CertaintyInIdeo>
   <!-- EN: A special status this person holds in their ideoligion. If you change or take away this role, they will become unhappy. -->
-  <RoleDesc>TODO</RoleDesc>
+  <RoleDesc>L'estat especial que manté la persona respecte la seva ideoligió. Si canvieu o retireu el rol, es sentirà infeliç.</RoleDesc>
   <!-- EN: Changing roles requires a role change ritual. Select any ritual spot or altar and press 'Begin role change'. -->
-  <RoleAssignmentTip>TODO</RoleAssignmentTip>
+  <RoleAssignmentTip>Per a canviar els rols cal un ritual de canvi de rol. Trieu qualsevol lloc ritual o un altar i premeu «Comença el canvi de rol».</RoleAssignmentTip>
   <!-- EN: Conversion attempts will be weaker because of trait/meme agreement -->
-  <ConversionWeakerDueToTraitAgreements>TODO</ConversionWeakerDueToTraitAgreements>
+  <ConversionWeakerDueToTraitAgreements>Els intents de conversió seran més dèbils per la concordança tret/mem.</ConversionWeakerDueToTraitAgreements>
   <!-- EN: Conversion attempts will be stronger because of trait/meme conflict -->
-  <ConversionStrongerDueToTraitAgreements>TODO</ConversionStrongerDueToTraitAgreements>
+  <ConversionStrongerDueToTraitAgreements>Els intents de conversió seran més forts pel conflicte tret/mem.</ConversionStrongerDueToTraitAgreements>
 
   <!-- EN: Cut -->
-  <Cut>TODO</Cut>
+  <Cut>Talla</Cut>
   <!-- EN: Cut both eyes -->
-  <CutBothEyes>TODO</CutBothEyes>
+  <CutBothEyes>Talla els dos ulls</CutBothEyes>
 
 </LanguageData>
