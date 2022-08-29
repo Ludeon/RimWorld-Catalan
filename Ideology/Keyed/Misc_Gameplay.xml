@@ -566,9 +566,9 @@
   <!-- EN: Assign colonists to your ideoligion -->
   <AssignColonists>TODO</AssignColonists>
   <!-- EN: Remove new ideoligion -->
-  <RemoveNewIdeoligion>TODO</RemoveNewIdeoligion>
+  <RemoveNewIdeoligion>Elimina la ideoligió nova</RemoveNewIdeoligion>
   <!-- EN: Make this your primary ideoligion -->
-  <MakeIdeoligionPrimary>TODO</MakeIdeoligionPrimary>
+  <MakeIdeoligionPrimary>Fes d'aquesta la ideoligió principal</MakeIdeoligionPrimary>
 
   <!-- Archonexus -->
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
@@ -576,11 +576,11 @@
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
   <GameOverArchotechInvokedEnding>TODO</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
-  <GameOverColonistsTranscended>TODO</GameOverColonistsTranscended>
+  <GameOverColonistsTranscended>Aquests colons han transcendit:\n\n{0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->
-  <Reward_ArchonexusMapPart>TODO</Reward_ArchonexusMapPart>
+  <Reward_ArchonexusMapPart>Part de mapa de l'arconexe</Reward_ArchonexusMapPart>
   <!-- EN: Archonexus map part {0}/{1} -->
-  <Reward_ArchonexusMapPartLabel>TODO</Reward_ArchonexusMapPartLabel>
+  <Reward_ArchonexusMapPartLabel>Part del mapa de l'arconexe</Reward_ArchonexusMapPartLabel>
 
   <!-- EN: relics -->
   <RelicsLower>relíquies</RelicsLower>
@@ -604,33 +604,33 @@
 
   <!-- Bioscuplter pod -->
   <!-- EN: Cycle -->
-  <BiosculpterPodCycleLabel>TODO</BiosculpterPodCycleLabel>
+  <BiosculpterPodCycleLabel>Cicle</BiosculpterPodCycleLabel>
   <!-- EN: loading ingredients -->
-  <BiosculpterPodCycleLabelLoading>TODO</BiosculpterPodCycleLabelLoading>
+  <BiosculpterPodCycleLabelLoading>es carreguen els ingredients</BiosculpterPodCycleLabelLoading>
   <!-- EN: (and biotuning) -->
-  <BiosculpterPodCycleWillBiotune>TODO</BiosculpterPodCycleWillBiotune>
+  <BiosculpterPodCycleWillBiotune>(i es biocalibra)</BiosculpterPodCycleWillBiotune>
   <!-- EN: Begin {0} cycle -->
-  <BiosculpterPodCycleCommand>TODO</BiosculpterPodCycleCommand>
+  <BiosculpterPodCycleCommand>Comença el cicle de {0}</BiosculpterPodCycleCommand>
   <!-- EN: Duration -->
-  <BiosculpterPodCycleDuration>TODO</BiosculpterPodCycleDuration>
+  <BiosculpterPodCycleDuration>Duració</BiosculpterPodCycleDuration>
   <!-- EN: Duration (transhumanists) -->
-  <BiosculpterPodCycleDurationTranshumanists>TODO</BiosculpterPodCycleDurationTranshumanists>
+  <BiosculpterPodCycleDurationTranshumanists>Duració (transhumanistes)</BiosculpterPodCycleDurationTranshumanists>
   <!-- EN: Ready for cycle selection -->
-  <BiosculpterPodCycleSelection>TODO</BiosculpterPodCycleSelection>
+  <BiosculpterPodCycleSelection>Preparat per triar el cicle</BiosculpterPodCycleSelection>
   <!-- EN: On standby for {CYCLE} cycle with {PAWN_labelShort} -->
-  <BiosculpterPodCycleStandby>TODO</BiosculpterPodCycleStandby>
+  <BiosculpterPodCycleStandby>En espera per al cicle de {CYCLE} amb {PAWN_labelShort}</BiosculpterPodCycleStandby>
   <!-- EN: Nutrition loaded, no power -->
-  <BiosculpterPodCycleSelectionNoPower>TODO</BiosculpterPodCycleSelectionNoPower>
+  <BiosculpterPodCycleSelectionNoPower>Nutrients carregats, sense energia</BiosculpterPodCycleSelectionNoPower>
   <!-- EN: Ends in -->
-  <BiosculpterCycleTimeRemaining>TODO</BiosculpterCycleTimeRemaining>
+  <BiosculpterCycleTimeRemaining>Finalitza en</BiosculpterCycleTimeRemaining>
   <!-- EN: accelerated for transhumanists -->
-  <BiosculpterCycleAccelerated>TODO</BiosculpterCycleAccelerated>
+  <BiosculpterCycleAccelerated>accelerat per als transhumanistes</BiosculpterCycleAccelerated>
   <!-- EN: Paused: No power (interrupt in {TIME}) -->
-  <BiosculpterCycleNoPowerInterrupt>TODO</BiosculpterCycleNoPowerInterrupt>
+  <BiosculpterCycleNoPowerInterrupt>En pausa: sense energia (interrupció d'aquí {TIME})</BiosculpterCycleNoPowerInterrupt>
   <!-- EN: Biotuned to -->
-  <BiosculpterBiotunedTo>TODO</BiosculpterBiotunedTo>
+  <BiosculpterBiotunedTo>Biocalibrat per</BiosculpterBiotunedTo>
   <!-- EN: Interrupt cycle -->
-  <BiosculpterInteruptCycle>TODO</BiosculpterInteruptCycle>
+  <BiosculpterInteruptCycle>Interromp el cicle</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
   <BiosculpterInteruptCycleDesc>TODO</BiosculpterInteruptCycleDesc>
   <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
@@ -640,7 +640,7 @@
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
   <BiosculpterCarryStartedMessage>TODO</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
-  <NumNutrition>TODO</NumNutrition>
+  <NumNutrition>{0} de nutrició</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
   <BiosculpterNoPowerEjectedMessage>TODO</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
@@ -652,15 +652,15 @@
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>TODO</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
-  <BiosculpterCleanlinessSpeedFactor>TODO</BiosculpterCleanlinessSpeedFactor>
+  <BiosculpterCleanlinessSpeedFactor>Factor de velocitat de neteja</BiosculpterCleanlinessSpeedFactor>
   <!-- EN: Biotuned speed factor -->
-  <BiosculpterBiotunedSpeedFactor>TODO</BiosculpterBiotunedSpeedFactor>
+  <BiosculpterBiotunedSpeedFactor>Factor de velocitat del biocalibrat</BiosculpterBiotunedSpeedFactor>
   <!-- EN: These conditions will be healed -->
-  <HealingCycleWillHeal>TODO</HealingCycleWillHeal>
+  <HealingCycleWillHeal>Es curarà el següent</HealingCycleWillHeal>
   <!-- EN: One of these conditions will be healed -->
-  <HealingCycleOneWillHeal>TODO</HealingCycleOneWillHeal>
+  <HealingCycleOneWillHeal>Es curarà una de les següents</HealingCycleOneWillHeal>
   <!-- EN: Missing required research -->
-  <MissingRequiredResearch>TODO</MissingRequiredResearch>
+  <MissingRequiredResearch>Falta la recerca necessària</MissingRequiredResearch>
   <!-- EN: Requires -->
   <BiosculpterRequiresIngredients>Requereix</BiosculpterRequiresIngredients>
   <!-- EN: On completion of the {CYCLE} cycle, the following will occur -->

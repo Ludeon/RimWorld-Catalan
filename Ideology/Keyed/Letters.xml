@@ -3,49 +3,49 @@
 
   <!-- Convert ideo attempt -->
   <!-- EN: Conversion -->
-  <LetterLabelConvertIdeoAttempt_Success>TODO</LetterLabelConvertIdeoAttempt_Success>
+  <LetterLabelConvertIdeoAttempt_Success>Conversió</LetterLabelConvertIdeoAttempt_Success>
   <!-- EN: {INITIATOR_nameDef} has successfully turned {RECIPIENT_nameDef} away from {OLDIDEO_name} and towards {IDEO_name}. -->
   <LetterConvertIdeoAttempt_Success>TODO</LetterConvertIdeoAttempt_Success>
 
   <!-- Slave rebellion -->
   <!-- EN: Grand slave rebellion -->
-  <LetterLabelGrandSlaveRebellion>TODO</LetterLabelGrandSlaveRebellion>
+  <LetterLabelGrandSlaveRebellion>Gran rebel·lió d'esclaus</LetterLabelGrandSlaveRebellion>
   <!-- EN: A grand slave rebellion has begun! All of your slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{0} -->
   <LetterGrandSlaveRebellion>TODO</LetterGrandSlaveRebellion>
   <!-- EN: Local slave rebellion -->
-  <LetterLabelLocalSlaveRebellion>TODO</LetterLabelLocalSlaveRebellion>
+  <LetterLabelLocalSlaveRebellion>Rebel·lió local d'esclaus</LetterLabelLocalSlaveRebellion>
   <!-- EN: A local slave rebellion has begun! {0_nameDef} and some nearby slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{1} -->
   <LetterLocalSlaveRebellion>TODO</LetterLocalSlaveRebellion> 
   <!-- EN: Slave rebellion -->
-  <LetterLabelSingleSlaveRebellion>TODO</LetterLabelSingleSlaveRebellion>
+  <LetterLabelSingleSlaveRebellion>Rebel·lió d'esclaus</LetterLabelSingleSlaveRebellion>
   <!-- EN: {0_nameDef} is rebelling! {0_pronoun} will seek weapons and try to eliminate your colonists. -->
   <LetterSingleSlaveRebellion>TODO</LetterSingleSlaveRebellion>
 
   <!-- Slave escape -->
   <!-- EN: Grand slave escape -->
-  <LetterLabelGrandSlaveEscape>TODO</LetterLabelGrandSlaveEscape>
+  <LetterLabelGrandSlaveEscape>Gran fuga d'esclaus</LetterLabelGrandSlaveEscape>
   <!-- EN: A grand slave escape has begun! All of your slaves are making a break for it.\n\nThese slaves are involved:\n\n{0} -->
   <LetterGrandSlaveEscape>TODO</LetterGrandSlaveEscape>
   <!-- EN: Local slave escape -->
-  <LetterLabelLocalSlaveEscape>TODO</LetterLabelLocalSlaveEscape>
+  <LetterLabelLocalSlaveEscape>Fuga d'esclaus local</LetterLabelLocalSlaveEscape>
   <!-- EN: A local slave escape has begun! {0_nameDef} and some nearby slaves are making a break for it.\n\nThese slaves are involved:\n\n{1} -->
   <LetterLocalSlaveEscape>TODO</LetterLocalSlaveEscape>
   <!-- EN: Slave escape -->
-  <LetterLabelSingleSlaveEscape>TODO</LetterLabelSingleSlaveEscape>
+  <LetterLabelSingleSlaveEscape>Un esclau s'escapa</LetterLabelSingleSlaveEscape>
   <!-- EN: {0_nameDef} is attempting to escape! -->
-  <LetterSingleSlaveEscape>TODO</LetterSingleSlaveEscape>
+  <LetterSingleSlaveEscape>{0_nameDef} prova d'escapar!</LetterSingleSlaveEscape>
 
   <!-- EN: Slaves are more likely to rebel when their suppression level is low. -->
-  <SlaveRebellionSuppressionExplanation>TODO</SlaveRebellionSuppressionExplanation>
+  <SlaveRebellionSuppressionExplanation>És més probable que es rebel·lin esclaus si el seu nivell de repressió és baix.</SlaveRebellionSuppressionExplanation>
   
   <!-- Ideo role -->
   <!-- EN: {0} role activated -->
-  <LetterLabelRoleActive>TODO</LetterLabelRoleActive>
+  <LetterLabelRoleActive>S'ha activat el rol {0}</LetterLabelRoleActive>
   <!-- EN: The number of {0}s in your colony has reached {1}. You can now assign the role of {ROLE_labelDef} to one of your colonists.\n\nTo assign a role, use the person's Social tab, or select a ritual spot or altar and press the 'Begin role change' button. -->
   <LetterLabelRoleActiveDesc>TODO</LetterLabelRoleActiveDesc>
 
   <!-- EN: {0} role deactivated -->
-  <LetterLabelRoleInactive>TODO</LetterLabelRoleInactive>
+  <LetterLabelRoleInactive>S'ha desactivat el rol {0}</LetterLabelRoleInactive>
   <!-- EN: Number of {0}s in your colony fell to {1}. {ROLE_labelDef} role is no longer active. This role will become available once again when the number of {0}s reaches {2}. -->
   <LetterLabelRoleInactiveDesc>TODO</LetterLabelRoleInactiveDesc>
 
@@ -69,9 +69,9 @@
   <LetterSpeechConvertedListeners>TODO</LetterSpeechConvertedListeners>
 
   <!-- EN: {0} rituals activated -->
-  <LetterTitleObligationsActivated>TODO</LetterTitleObligationsActivated>
+  <LetterTitleObligationsActivated>{0} rituals activats</LetterTitleObligationsActivated>
   <!-- EN: {0} rituals deactivated -->
-  <LetterTitleObligationsDeactivated>TODO</LetterTitleObligationsDeactivated>
+  <LetterTitleObligationsDeactivated>{0} rituals desactivats</LetterTitleObligationsDeactivated>
   <!-- EN: There are now less than {1} {IDEO_memberNamePlural} in your faction. Therefore, the {IDEO_memberNamePlural} will not demand that the rituals of {IDEO} be carried out until there are at least {1} of them in your faction. -->
   <LetterTitleObligationsDeactivatedTooFewBelievers>TODO</LetterTitleObligationsDeactivatedTooFewBelievers>
   <!-- EN: Since there are now {1} {IDEO_memberNamePlural} in your faction, they will demand that the rituals of {IDEO} be carried out. -->
@@ -86,13 +86,13 @@
 
   <!-- Slave will -->
   <!-- EN: Enslaved -->
-  <LetterLabelEnslavementSuccess>TODO</LetterLabelEnslavementSuccess>
+  <LetterLabelEnslavementSuccess>S'ha aconseguit esclavitzar</LetterLabelEnslavementSuccess>
   <!-- EN: {0_nameDef} successfully enslaved {1_nameDef}. -->
-  <LetterEnslavementSuccess>TODO</LetterEnslavementSuccess>
+  <LetterEnslavementSuccess>{0_nameDef} ha esclavitzat {1_nameDef} correctament.</LetterEnslavementSuccess>
 
   <!-- Primary ideo changed -->
   <!-- EN: Primary ideoligion changed -->
-  <LetterLabelNewPrimaryIdeo>TODO</LetterLabelNewPrimaryIdeo>
+  <LetterLabelNewPrimaryIdeo>La ideoligió principal ha canviat</LetterLabelNewPrimaryIdeo>
   <!-- EN: Your faction's primary ideoligion has changed from {OLDIDEO_name} to {NEWIDEO_name}.\n\nThis happened because {NEWIDEO_name} is now more common among your {FACTION_pawnsPlural} than any other ideoligion.\n\nYour primary ideoligion affects relationships with other factions, based on how closely your beliefs align with theirs. -->
   <LetterNewPrimaryIdeo>TODO</LetterNewPrimaryIdeo>
 
@@ -116,19 +116,19 @@
 
   <!-- Change ideo divorces -->
   <!-- EN: Divorce -->
-  <LetterIdeoChangedDivorce>TODO</LetterIdeoChangedDivorce>
+  <LetterIdeoChangedDivorce>Divorci</LetterIdeoChangedDivorce>
   <!-- EN: {PAWN_nameDef}'s new beliefs forbid {PAWN_possessive} current number of spouses.\n\n{PAWN_nameDef} has decided to divorce these people:\n{1} -->
   <LetterIdeoChangedDivorcedPawns>TODO</LetterIdeoChangedDivorcedPawns>
 
   <!-- Surprise reinforcement -->
   <!-- EN: Surprise reinforcements! -->
-  <LetterLabelSurpriseReinforcements>TODO</LetterLabelSurpriseReinforcements>
+  <LetterLabelSurpriseReinforcements>Reforços inesperats!</LetterLabelSurpriseReinforcements>
   <!-- EN: Surprise reinforcements from {1} have arrived! They are moving to help {0} from {1}. -->
   <LetterSurpriseReinforcements>TODO</LetterSurpriseReinforcements>
 
   <!-- Style change -->
   <!-- EN: Look change desired -->
-  <LetterWantLookChange>TODO</LetterWantLookChange>
+  <LetterWantLookChange>Algú vol canviar d'estilisme</LetterWantLookChange>
   <!-- EN: {PAWN_nameDef} wishes to change {PAWN_possessive} look, as it no longer matches what {PAWN_pronoun} believes.\n\n{PAWN_pronoun} will automatically use an available styling station and choose a look. If you want to customize {PAWN_possessive} look, select {PAWN_objective} and right-click the styling station. -->
   <LetterWantLookChangeDesc>TODO</LetterWantLookChangeDesc>
 
@@ -146,13 +146,13 @@
 
   <!-- Relic destroyed -->
   <!-- EN: Relic destroyed -->
-  <LetterLabelRelicDestroyed>TODO</LetterLabelRelicDestroyed>
+  <LetterLabelRelicDestroyed>Relíquia destruïda</LetterLabelRelicDestroyed>
   <!-- EN: {0} has been destroyed!\n\nThe following people will suffer a mood reduction:\n{1} -->
   <LetterTextRelicDestroyed>TODO</LetterTextRelicDestroyed>
   
   <!-- Relic lost -->
   <!-- EN: Relic lost -->
-  <LetterLabelRelicLost>TODO</LetterLabelRelicLost>
+  <LetterLabelRelicLost>Relíquia perduda</LetterLabelRelicLost>
   <!-- EN: {0} has been lost!\n\nThe following people will suffer a mood reduction:\n{1} -->
   <LetterTextRelicLost>TODO</LetterTextRelicLost>
 
@@ -162,13 +162,13 @@
 
   <!-- Hacker lost -->
   <!-- EN: Last hacker lost -->
-  <LetterLabelLastHackerLost>TODO</LetterLabelLastHackerLost>
+  <LetterLabelLastHackerLost>S'ha perdut l'últim hacker</LetterLabelLastHackerLost>
   <!-- EN: The last hacker capable of unlocking the secrets of the ancient complex has been lost. Call reinforcements capable of hacking, or abandon the quest. -->
   <LetterTextLastHackerLost>TODO</LetterTextLastHackerLost>
 
   <!-- Relic hunt -->
   <!-- EN: Relic found -->
-  <LetterLabelRelicFound>TODO</LetterLabelRelicFound>
+  <LetterLabelRelicFound>S'ha trobat una relíquia</LetterLabelRelicFound>
   <!-- EN: You've finally learned the location of the relic {0}! -->
   <LetterTextRelicFoundLocation>TODO</LetterTextRelicFoundLocation>
   <!-- EN: The relic is housed in an ancient structure. It is protected by a security system with multiple independent units. You may choose to defeat the security forces one unit at a time before taking the relic, or try to grab it and flee before they can harm you.\n\nAfter {0}, all security systems will be alerted. -->
@@ -176,15 +176,15 @@
 
   <!-- Relics collection -->
   <!-- EN: Relics collected -->
-  <LetterLabelRelicsCollected>TODO</LetterLabelRelicsCollected>
+  <LetterLabelRelicsCollected>Relíquies recollides</LetterLabelRelicsCollected>
   <!-- EN: All relics belonging to {0} have been collected. The following people will be delighted -->
-  <LetterTextRelicsCollected>TODO</LetterTextRelicsCollected>
+  <LetterTextRelicsCollected>S'han recollit totes les relíquies que pertanyen a {0}. Les persones següents estaran encantades</LetterTextRelicsCollected>
   <!-- EN: You have collected all the known relics of this world. The following people will be delighted -->
-  <LetterTextRelicsCollectedClassic>TODO</LetterTextRelicsCollectedClassic>
+  <LetterTextRelicsCollectedClassic>Heu recollit totes les relíquies conegudes del món. Les persones següents estaran encantades</LetterTextRelicsCollectedClassic>
 
   <!-- Gauranlen tree connection -->
   <!-- EN: {TREE_label} connection -->
-  <LetterLabelPawnConnected>TODO</LetterLabelPawnConnected>
+  <LetterLabelPawnConnected>vincle amb {TREE_label}</LetterLabelPawnConnected>
   <!-- EN: {CONNECTOR_nameDef} has connected with {TREE_definite}.\n\n{TREE_definite} will produce small animals called dryads by growing them in pods at its base. These dryads can specialize into different castes. You can choose which caste of dryads you want the tree to produce.\n\nThe stronger the connection between tree and human, the more dryads {TREE_definite} can sustain. {CONNECTOR_nameDef} can strengthen the connection by pruning {TREE_definite}. Maintaining a higher connection strength requires more frequent pruning. -->
   <LetterTextPawnConnected>TODO</LetterTextPawnConnected>
   <!-- EN: Connected {TREE_label} destroyed -->
@@ -194,7 +194,7 @@
 
   <!-- Archonexus victory -->
   <!-- EN: Quest '{0}' available -->
-  <LetterLabelArchonexusWealthReached>TODO</LetterLabelArchonexusWealthReached>
+  <LetterLabelArchonexusWealthReached>La missió «{0}» està disponible</LetterLabelArchonexusWealthReached>
   <!-- EN: You have reached the wealth requirement for the quest '{0}'. You can now accept the quest. -->
   <LetterTextArchonexusWealthReached>TODO</LetterTextArchonexusWealthReached>
   <!-- EN: {0_labelShort} studied -->
@@ -202,13 +202,13 @@
   <!-- EN: You have completed your study of the {0_labelShort}.\n\nYou can't say that you understand it in any complete way, but you have detected patterns in its behavior and the way it seems to express information.\n\nWith this knowledge, you will be able to interpret the next piece of the archonexus map. -->
   <LetterTextArchonexusStructureResearched>TODO</LetterTextArchonexusStructureResearched>
   <!-- EN: Archotech structures abandoned -->
-  <LetterLabelArchotechStructuresAbandoned>TODO</LetterLabelArchotechStructuresAbandoned>
+  <LetterLabelArchotechStructuresAbandoned>Estructures arcotecnològiques abandonades</LetterLabelArchotechStructuresAbandoned>
   <!-- EN: You have abandoned the archotech structures at {0_definite}.\n\nDistant observers say they saw a great flash emanating from this location not long after you left. -->
   <LetterTextArchotechStructuresAbandoned>TODO</LetterTextArchotechStructuresAbandoned>
 
   <!-- Reforming ideo -->
   <!-- EN: Reform ideoligion -->
-  <LetterLabelReformIdeo>TODO</LetterLabelReformIdeo>
+  <LetterLabelReformIdeo>Reforma la ideoligió</LetterLabelReformIdeo>
   <!-- EN: You have enough development points to reform {0}!\n\nReforming allows you to do one of the following:\n\n- Add a meme\n- Remove a meme\n- Change structure\n- Change style\n\nYou can also make unlimited changes to precepts, deities, narrative text, and other symbols.\n\nTo reform the ideoligion, open it in the ideoligions tab. -->
   <LetterTextReformIdeo>TODO</LetterTextReformIdeo>
 

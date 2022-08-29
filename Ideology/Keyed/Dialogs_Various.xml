@@ -39,18 +39,18 @@
   <NotEnoughMemesFluidIdeo>Escolliu {0} mems.</NotEnoughMemesFluidIdeo>
 
   <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
-  <ChangesRandomizePrecepts>TODO</ChangesRandomizePrecepts>
+  <ChangesRandomizePrecepts>{0} requerirà tornar a aleatoritzar els preceptes que heu editat.\n\nVoleu continuar?</ChangesRandomizePrecepts>
   <!-- EN: The following precepts are incompatible with this new meme selection and will be removed:\n\n{0}\n\nDo you wish to continue? -->
-  <ChangesRemovePrecepts>TODO</ChangesRemovePrecepts>
+  <ChangesRemovePrecepts>Els preceptes següents no són compatibles amb la nova selecció de mems i es treuran:\n\n{0}\n\nVoleu continuar?</ChangesRemovePrecepts>
   
   <!-- EN: Room requirements -->
-  <RoomRequirements>TODO</RoomRequirements>
+  <RoomRequirements>Requisits de la cambra</RoomRequirements>
   <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). -->
-  <ConfirmChangeMemesForFluidIdeo>TODO</ConfirmChangeMemesForFluidIdeo>
+  <ConfirmChangeMemesForFluidIdeo>La ideoligió que carregueu té mems que no són compatibles amb una ideoligió fluida nova i caldrà escollir una altra vegada els mems (les ideoligions fluides només poden començar amb un mem amb poc impacte).</ConfirmChangeMemesForFluidIdeo>
   <!-- EN: The following memes are incompatible -->
-  <ConfirmIncompatibleMemes>TODO</ConfirmIncompatibleMemes>
+  <ConfirmIncompatibleMemes>Els mems següents no són compatibles</ConfirmIncompatibleMemes>
   <!-- EN: Would you like to continue? -->
-  <ConfirmChangeMemesForFluidIdeoContinue>TODO</ConfirmChangeMemesForFluidIdeoContinue>
+  <ConfirmChangeMemesForFluidIdeoContinue>Voleu continuar?</ConfirmChangeMemesForFluidIdeoContinue>
 
   <!-- EN: role -->
   <Role>rol</Role>
@@ -67,21 +67,21 @@
   <!-- EN: Are you sure? -->
   <ChooseRoleConfirmAssignPostfix>Esteu segur?</ChooseRoleConfirmAssignPostfix>
   <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
-  <ChooseRoleConfirmAssignReplace>TODO</ChooseRoleConfirmAssignReplace>
+  <ChooseRoleConfirmAssignReplace>{PAWN_labelShort} té aquest rol i li molestarà perdre'l.</ChooseRoleConfirmAssignReplace>
   <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
-  <ChooseRoleConfirmAssignHasOtherRole>TODO</ChooseRoleConfirmAssignHasOtherRole>
+  <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} actualment té el títol de {ROLE_label} i li molestarà perdre'l.</ChooseRoleConfirmAssignHasOtherRole>
   <!-- EN: There can be only one leader. This will dismiss {PAWN_labelShort} from their {OTHERROLE_labelDef} role, which will make {PAWN_objective} upset. -->
-  <ChooseRoleConfirmAssignReplaceLeader>TODO</ChooseRoleConfirmAssignReplaceLeader>
+  <ChooseRoleConfirmAssignReplaceLeader>Només hi pot haver un líder. Això faria que {PAWN_labelShort} deixi de tenir el rol de {OTHERROLE_labelDef} i es sentirà malament.</ChooseRoleConfirmAssignReplaceLeader>
   <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
-  <ChooseRoleConfirmUnassign>TODO</ChooseRoleConfirmUnassign>
+  <ChooseRoleConfirmUnassign>Esteu a punt de fer que {PAWN_labelShort} perdi el rol de {ROLE_labelIndef}. Això farà que es senti malament.</ChooseRoleConfirmUnassign>
   <!-- EN: {PAWN_labelShort} will gain the following abilities -->
-  <ChooseRoleListAbilities>TODO</ChooseRoleListAbilities>
+  <ChooseRoleListAbilities>{PAWN_labelShort} guanyarà les habilitats següents</ChooseRoleListAbilities>
   <!-- EN: The {ROLE_label} role requires the following apparel -->
-  <ChooseRoleListApparelDemands>TODO</ChooseRoleListApparelDemands>
+  <ChooseRoleListApparelDemands>El rol de {ROLE_label} necessita aquesta indumentària</ChooseRoleListApparelDemands>
   <!-- EN: {PAWN_labelShort} will refuse to do these work types -->
-  <ChooseRoleListWorkTypeRestrictions>TODO</ChooseRoleListWorkTypeRestrictions>
+  <ChooseRoleListWorkTypeRestrictions>{PAWN_labelShort} es negarà a fer aquests tipus de tasques</ChooseRoleListWorkTypeRestrictions>
   <!-- EN: It can sometimes be better to wait until your colony is more established before you assign roles. -->
-  <ChooseRoleHint>TODO</ChooseRoleHint>
+  <ChooseRoleHint>A vegades pot ser millor esperar i assignar els rols quan la colònia estigui ben establida.</ChooseRoleHint>
   <!-- EN: Unlocked by -->
   <UnlockedByMeme>Desblocat per</UnlockedByMeme>
   <!-- EN: Unlocked roles -->
@@ -89,36 +89,36 @@
   <!-- EN: Unlocked rituals -->
   <MemeUnlocksRituals>Rituals desblocats</MemeUnlocksRituals>
   <!-- EN: WARNING: {PAWN_nameDef} is unable to do work that is required for the role of {ROLE_label}. If you choose to give {PAWN_objective} this role, {PAWN_pronoun} may be unable to use the abilities associated with {ROLE_label}. The missing work types are -->
-  <ChooseRoleRequiredWorkTagsDisabled>TODO</ChooseRoleRequiredWorkTagsDisabled>
+  <ChooseRoleRequiredWorkTagsDisabled>Avís: {PAWN_nameDef} no pot fer feines necessàries per al rol de {ROLE_label}. Si escolliu donar-li aquest rol, potser en no podrà fer servir les habilitats associades. Els tipus de tasques que fan falta són</ChooseRoleRequiredWorkTagsDisabled>
   <!-- EN: Leader bonus -->
   <YourLeaderTradeBonus>Bonificació de líder</YourLeaderTradeBonus>
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
-  <CannotNotAddRoleApparelDueToMeme>TODO</CannotNotAddRoleApparelDueToMeme>
+  <CannotNotAddRoleApparelDueToMeme>El mem {MEME} evita que s'afegeixin requisits especials a la indumentària dels rols.</CannotNotAddRoleApparelDueToMeme>
   <!-- EN: cannot be worn with {0_label} -->
   <CannotBeWornWith>no es pot portar poat amb {0_label}</CannotBeWornWith>
 
   <!-- EN: Certainty reduction -->
   <AbilityIdeoConvertBreakdownLabel>Reducció de la certesa</AbilityIdeoConvertBreakdownLabel>
   <!-- EN: Using {ABILITY} ability -->
-  <AbilityIdeoConvertBreakdownUsingAbility>TODO</AbilityIdeoConvertBreakdownUsingAbility>
+  <AbilityIdeoConvertBreakdownUsingAbility>Ús de l'habilitat {ABILITY}</AbilityIdeoConvertBreakdownUsingAbility>
   <!-- EN: {PAWN_labelShort}'s conversion power -->
-  <AbilityIdeoConvertBreakdownConversionPower>TODO</AbilityIdeoConvertBreakdownConversionPower>
+  <AbilityIdeoConvertBreakdownConversionPower>Poder de conversió de {PAWN_labelShort}</AbilityIdeoConvertBreakdownConversionPower>
   <!-- EN: {PAWN_labelShort}'s certainty loss factor from {IDEO_name} -->
-  <AbilityIdeoConvertBreakdownIdeoCertaintyReduction>TODO</AbilityIdeoConvertBreakdownIdeoCertaintyReduction>
+  <AbilityIdeoConvertBreakdownIdeoCertaintyReduction>Factor de pèrdua de certesa de {PAWN_labelShort}de {IDEO_name}</AbilityIdeoConvertBreakdownIdeoCertaintyReduction>
   <!-- EN: {PAWN_labelShort} is {ROLE_labelDef} -->
-  <AbilityIdeoConvertBreakdownRole>TODO</AbilityIdeoConvertBreakdownRole>
+  <AbilityIdeoConvertBreakdownRole>{PAWN_labelShort} és {ROLE_labelDef}</AbilityIdeoConvertBreakdownRole>
   <!-- EN: Trait {TRAIT} -->
   <AbilityIdeoConvertBreakdownTrait>Tret {TRAIT}</AbilityIdeoConvertBreakdownTrait>
   <!-- EN: {RELICCOUNT} installed relics on map -->
-  <AbilityIdeoConvertBreakdownRelic>TODO</AbilityIdeoConvertBreakdownRelic>
+  <AbilityIdeoConvertBreakdownRelic>{RELICCOUNT} relíquies instal·lades al mapa</AbilityIdeoConvertBreakdownRelic>
   <!-- EN: {PAWN_labelShort}'s social skill -->
-  <AbilityIdeoConvertBreakdownSocialSkill>TODO</AbilityIdeoConvertBreakdownSocialSkill>
+  <AbilityIdeoConvertBreakdownSocialSkill>Habilitat social de {PAWN_labelShort}</AbilityIdeoConvertBreakdownSocialSkill>
   <!-- EN: {RECIPIENT_labelShort}'s opinion of {INITIATOR_labelShort} -->
-  <AbilityIdeoConvertBreakdownOpinion>TODO</AbilityIdeoConvertBreakdownOpinion>
+  <AbilityIdeoConvertBreakdownOpinion>La opinió que té {RECIPIENT_labelShort} de {INITIATOR_labelShort}</AbilityIdeoConvertBreakdownOpinion>
   <!-- EN: {PAWN_nameDef}'s ideoligion -->
-  <AbilityIdeoConvertBreakdownPawnIdeo>TODO</AbilityIdeoConvertBreakdownPawnIdeo>
+  <AbilityIdeoConvertBreakdownPawnIdeo>Ideoligió de {PAWN_nameDef}</AbilityIdeoConvertBreakdownPawnIdeo>
   <!-- EN: {MEME} vs {TRAIT} trait -->
-  <AbilityIdeoConvertBreakdownMemeVsTrait>TODO</AbilityIdeoConvertBreakdownMemeVsTrait>
+  <AbilityIdeoConvertBreakdownMemeVsTrait>{MEME} contra el tret {TRAIT}</AbilityIdeoConvertBreakdownMemeVsTrait>
 
   <!-- EN: {PAWN_labelShort} was already counselled recently. -->
   <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort} ja se l'ha aconsellat fa poc.</AbilityCantApplyAlreadyCounselled>
@@ -142,7 +142,7 @@
   <!-- EN: Change any of the following -->
   <ReformIdeoChangeAny>Canvia qualssevol dels següents</ReformIdeoChangeAny>
   <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
-  <ReformIdeoRelicHuntQuestEnd>TODO</ReformIdeoRelicHuntQuestEnd>
+  <ReformIdeoRelicHuntQuestEnd>Els colons no veneraran la relíquia {0} si es reforma la ideoligió. Com la missió «{0}» la cerca, es desactivarà.</ReformIdeoRelicHuntQuestEnd>
   <!-- EN: The ritual {0} is in progress and will be cancelled. -->
   <ReformIdeoCancelRituals>El ritual «{0}», que està en progrés, es cancel·larà.</ReformIdeoCancelRituals>
   <!-- EN: Do you wish to continue? -->
@@ -156,22 +156,22 @@
   <!-- EN: Any slave -->
   <AnySlave>Qualsevol esclau</AnySlave>
   <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
-  <NegotiatorWillNotTradeSlaves>TODO</NegotiatorWillNotTradeSlaves>
+  <NegotiatorWillNotTradeSlaves>{0_nameDef} es nega a vendre persones com a esclaves d'acord amb les seves creences.</NegotiatorWillNotTradeSlaves>
   <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
-  <NegotiatorWillNotTradeSlavesTip>TODO</NegotiatorWillNotTradeSlavesTip>
+  <NegotiatorWillNotTradeSlavesTip>El negociador, {0_nameDef}, no vendrà persones com a esclaves per la seva creença {1}.\n\nTingueu en compte que {0_nameDef} vol rescatar algú de la seva pròpia facció, però no vendrà ningú a una altra facció.</NegotiatorWillNotTradeSlavesTip>
 
   <!-- EN: Last human meat -->
   <LastHumanMeat>Última carn humana menjada</LastHumanMeat>
   <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
-  <LastHumanMeatDesc>TODO</LastHumanMeatDesc>
+  <LastHumanMeatDesc>D'acord amb les creences de {IDEO_name}, {PAWN_nameDef} es sentirà infeliç si passen més de {DURATION} dies sense menjar carn humana.</LastHumanMeatDesc>
 
   <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
-  <ExectueNeutralFactionSlave>TODO</ExectueNeutralFactionSlave>
+  <ExectueNeutralFactionSlave>Si s'executa {PAWN_labelShort}, les relacions amb {FACTION_name} empitjoraran.</ExectueNeutralFactionSlave>
 
   <!-- EN: You must assign at least one non-slave colonist who can walk. -->
-  <CaravanMustHaveAtLeastOneNonSlaveColonist>TODO</CaravanMustHaveAtLeastOneNonSlaveColonist>
+  <CaravanMustHaveAtLeastOneNonSlaveColonist>Heu d'assignar almenys un colon que no sigui esclau i que pugui caminar.</CaravanMustHaveAtLeastOneNonSlaveColonist>
   <!-- EN: You must leave at least non-slave colonist who can walk. -->
-  <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>TODO</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
+  <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>Heu de deixar com a mínim un colon que no sigui esclau i que pugui caminar.</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
 
   <!-- Style -->
   <!-- EN: Style -->
@@ -205,21 +205,21 @@
   <!-- EN: Ideoligion members will be happy if they notice buildings, floors, and art matching this style. -->
   <StyleCategoryDescStyleDominanceAbstract>TODO</StyleCategoryDescStyleDominanceAbstract>
   <!-- EN: {0} style category affects -->
-  <StyleCategoryDetails>TODO</StyleCategoryDetails>
+  <StyleCategoryDetails>La categoria d'estil {0} afecta</StyleCategoryDetails>
   <!-- EN: Overriden by {0} -->
-  <OverriddenByStyle>TODO</OverriddenByStyle>
+  <OverriddenByStyle>Anul·lat per {0}</OverriddenByStyle>
   <!-- EN: New buildables -->
-  <IdeoMakesBuildingBuildable>TODO</IdeoMakesBuildingBuildable>
+  <IdeoMakesBuildingBuildable>Construccions noves</IdeoMakesBuildingBuildable>
   <!-- EN: none usable for {PAWN_nameDef} -->
-  <NoneUsableForPawn>TODO</NoneUsableForPawn> 
+  <NoneUsableForPawn>{PAWN_nameDef} no en pot fer servir cap</NoneUsableForPawn> 
   <!-- EN: Hair and beards -->
   <HairAndBeards>Pentinats i barbes</HairAndBeards>
   <!-- EN: These settings determine how frequently each style appears on members of this ideoligion. -->
-  <HairAndBeardsDesc>TODO</HairAndBeardsDesc>
+  <HairAndBeardsDesc>Aquestes opcions determinen la freqüència dels estilismes dels membres de la ideoligió.</HairAndBeardsDesc>
   <!-- EN: Tattoos -->
   <Tattoos>Tatuatges</Tattoos>
   <!-- EN: These settings determines how frequently each tattoo appears on members of this ideoligion. -->
-  <TattoosDesc>TODO</TattoosDesc>
+  <TattoosDesc>Aquestes opcions determinen la freqüència amb què apareix cada tatuatge dels membres de la ideoligió.</TattoosDesc>
   <!-- EN: Never -->
   <StyleItemFrequencyNever>Mai</StyleItemFrequencyNever>
   <!-- EN: Rare -->
@@ -273,29 +273,29 @@
 
   <!-- Archonexus -->
   <!-- EN: Choose who to convert to your ideoligion -->
-  <ChooseColonistsForIdeoTitle>TODO</ChooseColonistsForIdeoTitle>
+  <ChooseColonistsForIdeoTitle>Tria a qui convertir a la ideoligió</ChooseColonistsForIdeoTitle>
   <!-- EN: You may convert people to your primary ideoligion when setting up a new colony. -->
-  <ChooseColonistsForIdeoDesc>TODO</ChooseColonistsForIdeoDesc>
+  <ChooseColonistsForIdeoDesc>Podeu convertir les persones a la vostra ideoligió principal quan s'estableix una colònia nova.</ChooseColonistsForIdeoDesc>
   <!-- EN: New Colony -->
   <ChooseThingsForNewColonyTitle>Colònia nova</ChooseThingsForNewColonyTitle>
   <!-- EN: Choose which colonists, animals and relics to bring to the new colony. -->
-  <ChooseThingsForNewColonyDesc>TODO</ChooseThingsForNewColonyDesc>
+  <ChooseThingsForNewColonyDesc>Escolliu quins colons, animals i relíquies voleu portar a la colònia nova.</ChooseThingsForNewColonyDesc>
   <!-- EN: Choose up to {0} {1}. -->
   <ChooseThingsDesc>Escolliu fins a {0} {1}.</ChooseThingsDesc>
   <!-- EN: Choose up to {0} people. -->
   <ChoosePeopleDesc>Escolliu fins a {0} persones.</ChoosePeopleDesc>
   <!-- EN: If you only select slaves, you will play them as colonists in the next colony. -->
-  <ChooseOnlySlavesInfo>TODO</ChooseOnlySlavesInfo>
+  <ChooseOnlySlavesInfo>Si nomes trieu esclaus, els jugareu com a colons a la propera colònia.</ChooseOnlySlavesInfo>
   <!-- EN: Confirm decisions -->
   <ConfirmDecisionsTitle>Confirma les decisions</ConfirmDecisionsTitle>
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
   <ShipEscapeWillEndDescription>TODO</ShipEscapeWillEndDescription>
   <!-- EN: No relic was chosen to be brought to the new colony. -->
-  <ArchonexusRelicNotChosen>TODO</ArchonexusRelicNotChosen>
+  <ArchonexusRelicNotChosen>No s'ha triat cap relíquia per portar a la nova colònia.</ArchonexusRelicNotChosen>
   <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
-  <ArchonexusItemsNotChosen>TODO</ArchonexusItemsNotChosen>
+  <ArchonexusItemsNotChosen>S'han seleccionat {0} d'un total de {1} elements per portar a la nova colònia.</ArchonexusItemsNotChosen>
   <!-- EN: The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including: -->
-  <RemoveEquippedRelicsDescription>TODO</RemoveEquippedRelicsDescription>
+  <RemoveEquippedRelicsDescription>Els compradors de la colònia només us permeten agafar una relíquia. Totes les altres es quedaran enrere –encara que els colons les duguin equipades–, incloent:</RemoveEquippedRelicsDescription>
   <!-- EN: Would you like to proceed? Past this point, there's no going back. -->
   <WantToProceed>Voleu continuar? Si seguiu, no podreu tirar enrere.</WantToProceed>
   <!-- EN: Convert -->
@@ -305,14 +305,14 @@
   <!-- EN: Existing follower -->
   <ExistingFollowerOfPlayerIdeoligion>Seguidor existent</ExistingFollowerOfPlayerIdeoligion>
   <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
-  <AbandonArchotechStructuresWarningDialog>TODO</AbandonArchotechStructuresWarningDialog>
+  <AbandonArchotechStructuresWarningDialog>Abandonareu un lloc que conté estructures arcotecnològiques que no heu estudiat del tot.\n\nPodreu assentar-vos-hi més tard, però la vostra colònia serà esborrada.</AbandonArchotechStructuresWarningDialog>
   <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
-  <ItemQuantityTooltip>TODO</ItemQuantityTooltip>
+  <ItemQuantityTooltip>Quantitat de {0} que es pot portar a la nova colònia.\n\nEl màxim permès és de {1}</ItemQuantityTooltip>
   <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
-  <SoldColonyDescription>TODO</SoldColonyDescription>
+  <SoldColonyDescription>La vostra colònia s'ha venut. Els seus compradors estan preparats perquè trieu on voleu aterrar a continuació.</SoldColonyDescription>
 
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
-  <ConfirmHackEnenyTerminal>TODO</ConfirmHackEnenyTerminal>
+  <ConfirmHackEnenyTerminal>Hackejar {0_gender ? aquest : aquesta} {0} alertarà els enemics i provocarà que us ataquin. De veres voleu hackejar {0}?</ConfirmHackEnenyTerminal>
 
   <!-- EN: Relics -->
   <RelicsSection>Relíquies</RelicsSection>
