@@ -56,11 +56,14 @@
     <li>Color->Words/Nouns/Colors</li>
     <li>ColorBadass->Words/Nouns/Colors_Badass</li>
     <li>Vegetable->Words/Nouns/Vegetables</li>
+    <li>VegetablePlural->Words/Nouns/Vegetables_Plural</li>
     <li>Game->Words/Nouns/Games</li>
     <li>Animal->Words/Nouns/Animals</li>
+    <li>AnimalPlural->Words/Nouns/Animals_Plural</li>
     <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
     <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
     <li>Weapon->Words/Nouns/Weapons</li>
+    <li>WeaponPlural->Words/Nouns/Weapons_Plural</li>
     <li>TerrainFeature->Words/Nouns/TerrainFeatures</li>
     <li>NaturalObject->Words/Nouns/NaturalObject</li>
     <li>TreeType->Words/Nouns/TreeTypes</li>
@@ -70,6 +73,8 @@
     <li>PersonBadass->Words/Nouns/People_Badass</li>
     <li>Enemy->Words/Nouns/Enemies</li>
     <li>Apparel->Words/Nouns/Apparel</li>
+    <li>ApparelMP->Words/Nouns/Apparel_M_Plural</li>
+    <li>ApparelFP->Words/Nouns/Apparel_F_Plural</li>
     <li>Gore->Words/Nouns/Gore</li>
     <li>Mechanoid->Words/Nouns/Mechanoid</li>
     <li>ConceptPositive->Words/Nouns/Concepts_Positive</li>
@@ -182,6 +187,12 @@
     <li>PersonalCharacteristic(p=0.15)->habilitat sexual</li>
     <li>PersonalCharacteristic(p=0.15)->preferències sexuals</li>
     <li>PersonalCharacteristic(p=0.15)->experiència sexual</li>
+    <li>ApparelAnyPlural->[ApparelMP]</li>
+    <li>ApparelAnyPlural->[ApparelFP]</li>
+    <li>ApparelMPlural_Definite->els [ApparelMP]</li>
+    <li>ApparelFPlural_Definite->les [ApparelFP]</li>
+    <li>ApparelAnyPlural_Definite->[ApparelMPlural_Definite]</li>
+    <li>ApparelAnyPlural_Definite->[ApparelFPlural_Definite]</li>
   </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -239,21 +250,21 @@
     <li>TalkTopicHeavy(p=0.08)->la connexió entre [talktopicheavyfile] i [talktopicheavyfile]</li>
     <li>TalkTopicHeavy(p=0.08)->les relacions entre [talktopicheavyfile] i [talktopicheavyfile]</li>
     <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
-    <li>TalkTopicLight->[Vegetable]s</li>
-    <li>TalkTopicLight->menjar [Vegetable]s</li>
-    <li>TalkTopicLight->cuinar amb [Vegetable]s</li>
+    <li>TalkTopicLight->[VegetablePlural]</li>
+    <li>TalkTopicLight->menjar [VegetablePlural]</li>
+    <li>TalkTopicLight->cuinar amb [VegetablePlural]</li>
     <li>TalkTopicLight->[Game]</li>
     <li>TalkTopicLight->jugar a [Game]</li>
     <li>TalkTopicLight->practicar [Game]</li>
     <li>TalkTopicLight->aprendre a jugar a [Game]</li>
-    <li>TalkTopicLight->[Animal]s</li>
-    <li>TalkTopicLight->entrenar un [Animal]</li>
-    <li>TalkTopicLight->domesticar un [Animal]</li>
-    <li>TalkTopicLight->lluitar amb un [Animal]</li>
-    <li>TalkTopicLight->la bogeria dels[Animal]s</li>
-    <li>TalkTopicLight->[Weapon]s</li>
-    <li>TalkTopicLight->fer servir [Weapon]s</li>
-    <li>TalkTopicLight->practicar amb [Weapon]s</li>
+    <li>TalkTopicLight->[AnimalPlural]</li>
+    <li>TalkTopicLight->entrenar [AnimalPlural]</li>
+    <li>TalkTopicLight->domesticar [AnimalPlural]</li>
+    <li>TalkTopicLight->lluitar contra [AnimalPlural]</li>
+    <li>TalkTopicLight->la bogeria dels grups de [AnimalPlural]</li>
+    <li>TalkTopicLight->[WeaponPlural]</li>
+    <li>TalkTopicLight->fer servir [WeaponPlural]</li>
+    <li>TalkTopicLight->practicar amb [WeaponPlural]</li>
     <li>TalkTopicLight->[TerrainFeature]s</li>
     <li>TalkTopicLight->[NaturalObject]s</li>
     <li>TalkTopicLight->[TreeType]</li>
@@ -262,9 +273,9 @@
     <li>TalkTopicLight->[PersonJob]s hostils</li>
     <li>TalkTopicLight->[Enemy]s</li>
     <li>TalkTopicLight->lluitar contra [Enemy]s</li>
-    <li>TalkTopicLight->[Apparel]s</li>
-    <li>TalkTopicLight->portar [Apparel]s</li>
-    <li>TalkTopicLight->fabricar [Apparel]s</li>
+    <li>TalkTopicLight->[ApparelAnyPlural_Definite]</li>
+    <li>TalkTopicLight->portar [Apparel]</li>
+    <li>TalkTopicLight->fabricar [ApparelAnyPlural]</li>
     <li>talktopicheavyfile(p=0.15)->sexe</li>
     <li>talktopicheavyfile(p=0.15)->l'art de la seducció</li>
     <li>talktopicheavyfile(p=0.15)->sexualitat animal</li>

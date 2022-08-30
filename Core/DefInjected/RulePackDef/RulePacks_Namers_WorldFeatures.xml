@@ -263,7 +263,6 @@
     <li>ocean_adjective->suau</li>
     <li>terrain_word(p=6)->oceà</li>
     <li>terrain_word(p=3)->mar</li>
-    <li>terrain_word->amplitud</li>
   </NamerOcean.rulePack.rulesStrings>
   
   <!-- EN:
@@ -281,7 +280,6 @@
     <li>terrain_word(p=5)->península</li>
     <li>terrain_word(p=2)->punta</li>
     <li>terrain_word->cap</li>
-    <li>terrain_word->promontori</li>
     <li>terrain_word->banya</li>
   </NamerPeninsula.rulePack.rulesStrings>
   
@@ -332,10 +330,7 @@
     <li>swamp_adjective->espinós</li>
     <li>terrain_word(p=6)->pantà</li>
     <li>terrain_word->aigüerol</li>
-    <li>terrain_word->aiguamoll</li>
-    <li>terrain_word->aiguall</li>
-    <li>terrain_word->xipoll</li>
-    <li>terrain_word->bordoi</li>
+    <li>terrain_word(p=3)->aiguamoll</li>
     <li>terrain_word->marjal</li>
   </NamerSwamp.rulePack.rulesStrings>
   
@@ -367,9 +362,7 @@
     <li>terrain_word(p=6)->selva</li>
     <li>terrain_word(p=3)->jungla</li>
     <li>terrain_word->bosc</li>
-    <li>terrain_word->bosquet</li>
     <li>terrain_word->arbreda</li>
-    <li>terrain_word->boscam</li>
   </NamerTropicalRainforest.rulePack.rulesStrings>
   
   <!-- EN:
@@ -396,7 +389,6 @@
     <li>terrain_word->garriga</li>
     <li>terrain_word->bardissa</li>
     <li>terrain_word->àrid</li>
-    <li>terrain_word->extensió</li>
     <li>terrain_word->pradera</li>
     <li>terrain_word->plana</li>
   </NamerTundra.rulePack.rulesStrings>
@@ -467,12 +459,12 @@
     <li>r_name(p=0.05)->[terrain_word] [storyname]</li>
     <li>narrative_name(p=12)->[WordTribal]</li>
     <li>narrative_name(p=12)->[PlaceOutlander]</li>
-    <li>narrative_name->[NaturalObject][Color]</li>
-    <li>narrative_name->[BodyPart][AdjectiveNatural]</li>
+    <li>narrative_name->[NaturalObject] [Color]</li>
+    <li>narrative_name->[BodyPart] [AdjectiveNatural]</li>
     <li>narrative_name->[Animal]</li>
     <li>narrative_name->[Color]</li>
     <li>narrative_name->[Animal][Color]</li>
-    <li>narrative_name->[Animal][AdjectiveNatural]</li>
+    <li>narrative_name->[Animal] [AdjectiveNatural]</li>
     <li>narrative_name->[BodyPart][Animal]</li>
     <li>narrative_name->[Animal] [Color]</li>
     <li>narrative_name->[Animal] [AdjectiveNatural]</li>
