@@ -197,13 +197,13 @@
   <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
   <PawnUnhappyWithStyleItems>{PAWN_nameDef} es sentirà insatisfet pel següent</PawnUnhappyWithStyleItems>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
-  <StyleCategoryDescription>TODO</StyleCategoryDescription>
+  <StyleCategoryDescription>Les categories d'estil afecten a l'aparença d'alguns edificis, indumentària i armes fetes pels {IDEO_memberNamePlural}. Si algun element depèn de més d'una categoria, s'aplica la de més a l'esquerra.</StyleCategoryDescription>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by your colony. If more than one category affects the same thing, the left-most one applies. -->
-  <StyleCategoryDescriptionAbstract>TODO</StyleCategoryDescriptionAbstract>
+  <StyleCategoryDescriptionAbstract>Les categories d'estil afecten a l'aparença d'alguns edificis, indumentària i armes fetes a la colònia. Si algun element depèn de més d'una categoria, s'aplica la de més a l'esquerra.</StyleCategoryDescriptionAbstract>
   <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominance>TODO</StyleCategoryDescStyleDominance>
+  <StyleCategoryDescStyleDominance>Els {IDEO_memberNamePlural} estaran contents si veuen edificis, enrajolats i art d'aquest estil.</StyleCategoryDescStyleDominance>
   <!-- EN: Ideoligion members will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominanceAbstract>TODO</StyleCategoryDescStyleDominanceAbstract>
+  <StyleCategoryDescStyleDominanceAbstract>Els membres de la ideoligió estaran contents si veuen edificis, enrajolats i art d'aquest estil.</StyleCategoryDescStyleDominanceAbstract>
   <!-- EN: {0} style category affects -->
   <StyleCategoryDetails>La categoria d'estil {0} afecta</StyleCategoryDetails>
   <!-- EN: Overriden by {0} -->
@@ -235,7 +235,7 @@
   <!-- EN: Edit appearance -->
   <EditAppearanceItems>Edita l'aparença</EditAppearanceItems>
   <!-- EN: {0} in use -->
-  <NumAvailable>{0} en ús.</NumAvailable>
+  <NumAvailable>{0} de seleccionats</NumAvailable>
   <!-- EN: Expand all -->
   <ExpandAllCategories>Expandeix-ho tot</ExpandAllCategories>
   <!-- EN: Collapse all -->
@@ -269,7 +269,7 @@
   <!-- EN: Already selected -->
   <AlreadySelected>Ja s'ha seleccionat</AlreadySelected>
   <!-- EN: Here you can choose which caste of dryads this {TREE_label} will create.\n\nDryads will emerge from pods that grow at the tree's base. The maximum number of dryads is based on the connection strength between {TREE_definite} and the connected person. -->
-  <ChooseProductionModeInitialDesc>TODO</ChooseProductionModeInitialDesc>
+  <ChooseProductionModeInitialDesc>Aqui podeu triar la casta de les dríades que crearà aquest {TREE_label}.\n\nLes dríades sorgiran de les beines que creixen a la base de l'arbre. El nombre màxim de dríades depèn de la força de connexió entre {TREE_definite} i la persona vinculada.</ChooseProductionModeInitialDesc>
 
   <!-- Archonexus -->
   <!-- EN: Choose who to convert to your ideoligion -->
@@ -289,7 +289,7 @@
   <!-- EN: Confirm decisions -->
   <ConfirmDecisionsTitle>Confirma les decisions</ConfirmDecisionsTitle>
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
-  <ShipEscapeWillEndDescription>TODO</ShipEscapeWillEndDescription>
+  <ShipEscapeWillEndDescription>La nau espacial en hibernació de la que ens ha informat la IA (*Name)Charlon Whitestone(/Name) se n'haurà anat abans que s'hagi establit la colònia. Ja no es podrà escapar del planeta amb la nau.</ShipEscapeWillEndDescription>
   <!-- EN: No relic was chosen to be brought to the new colony. -->
   <ArchonexusRelicNotChosen>No s'ha triat cap relíquia per portar a la nova colònia.</ArchonexusRelicNotChosen>
   <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->

@@ -10,7 +10,15 @@
     <li>cultureLeaderAdjective->grand</li>
     <li>cultureLeaderNoun->chief</li>
   -->
-  <LeaderTitleMaker_Corunan.rulePack.rulesStrings>TODO</LeaderTitleMaker_Corunan.rulePack.rulesStrings>
+  <LeaderTitleMaker_Corunan.rulePack.rulesStrings>
+    <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
+    <li>cultureLeaderTitle->[cultureLeaderNoun] [cultureLeaderAdjective]</li>
+    <li>cultureLeaderAdjective->gran</li>
+    <li>cultureLeaderAdjective->magnífic</li>
+    <li>cultureLeaderAdjective->primer</li>
+    <li>cultureLeaderAdjective->suprem</li>
+    <li>cultureLeaderNoun->cap</li>
+  </LeaderTitleMaker_Corunan.rulePack.rulesStrings>
   
   <!-- EN:
     <li>cultureLeaderAdjective->high</li>
@@ -22,7 +30,16 @@
     <li>cultureLeaderNoun->governor</li>
     <li>cultureLeaderNoun->leader</li>
   -->
-  <LeaderTitleMaker_GenericContent.rulePack.rulesStrings>TODO</LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
+  <LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
+    <li>cultureLeaderAdjective->alt</li>
+    <li>cultureLeaderAdjective->gran</li>
+    <li>cultureLeaderAdjective->primer</li>
+    <li>cultureLeaderAdjective->suprem</li>
+    <li>cultureLeaderNoun->president</li>
+    <li>cultureLeaderNoun->director</li>
+    <li>cultureLeaderNoun->governador</li>
+    <li>cultureLeaderNoun->líder</li>
+  </LeaderTitleMaker_GenericContent.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_leaderTitle(p=6)->[memeLeaderAdjective] [memeLeaderNoun]</li>
@@ -30,7 +47,12 @@
     <li>r_leaderTitle(p=1)->[memeLeaderAdjective] [cultureLeaderNoun]</li>
     <li>r_leaderTitle(p=1)->[cultureLeaderTitle]</li>
   -->
-  <LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>TODO</LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
+  <LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
+    <li>r_leaderTitle(p=6)->[memeLeaderNoun] [memeLeaderAdjective]</li>
+    <li>r_leaderTitle(p=3)->[memeLeaderNoun] [cultureLeaderAdjective]</li>
+    <li>r_leaderTitle(p=1)->[cultureLeaderNoun] [memeLeaderAdjective]</li>
+    <li>r_leaderTitle(p=1)->[cultureLeaderTitle]</li>
+  </LeaderTitleMaker_GlobalStructure.rulePack.rulesStrings>
   
   <!-- EN:
     <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
@@ -44,7 +66,18 @@
     <li>cultureLeaderNoun->gun</li>
     <li>cultureLeaderNoun->dog</li>
   -->
-  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>TODO</LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
+  <LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
+    <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li>
+    <li>cultureLeaderTitle->[cultureLeaderNoun] [cultureLeaderAdjective]</li>
+    <li>cultureLeaderAdjective->mortal</li>
+    <li>cultureLeaderAdjective->suprem</li>
+    <li>cultureLeaderAdjective->primer</li>
+    <li>cultureLeaderNoun->cap</li>
+    <li>cultureLeaderNoun->cabdill</li>
+    <li>cultureLeaderNoun->cacic</li>
+    <li>cultureLeaderNoun->malfactor</li>
+    <li>cultureLeaderNoun->gàngster</li>
+  </LeaderTitleMaker_Kriminul.rulePack.rulesStrings>
   
   <!-- EN:
     <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
@@ -56,7 +89,16 @@
     <li>cultureLeaderNoun->guide</li>
     <li>cultureLeaderNoun->steersman</li>
   -->
-  <LeaderTitleMaker_Rustican.rulePack.rulesStrings>TODO</LeaderTitleMaker_Rustican.rulePack.rulesStrings>
+  <LeaderTitleMaker_Rustican.rulePack.rulesStrings>
+    <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
+    <li>cultureLeaderAdjective->primer</li>
+    <li>cultureLeaderAdjective->suprem</li>
+    <li>cultureLeaderNoun->conseller</li>
+    <li>cultureLeaderNoun->líder</li>
+    <li>cultureLeaderNoun->ministre</li>
+    <li>cultureLeaderNoun->guia</li>
+    <li>cultureLeaderNoun->legat</li>
+  </LeaderTitleMaker_Rustican.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_leaderTitle->high stellarch</li>

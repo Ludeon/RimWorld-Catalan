@@ -4,31 +4,31 @@
   <!-- EN: Ideoligion forbids -->
   <IdeoligionForbids>La ideoligió prohibeix</IdeoligionForbids>
   <!-- EN: Only {0}s can build -->
-  <OnlyMembersCanBuild>TODO</OnlyMembersCanBuild>
+  <OnlyMembersCanBuild>Només els {0}s poden construir</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
-  <CantStartRitualAlreadyInProgress>TODO</CantStartRitualAlreadyInProgress>
+  <CantStartRitualAlreadyInProgress>{0} ja està en curs.</CantStartRitualAlreadyInProgress>
   <!-- EN: {0} is already participating in a ritual. -->
-  <CantStartRitualTargetIsAlreadyInRitual>TODO</CantStartRitualTargetIsAlreadyInRitual>
+  <CantStartRitualTargetIsAlreadyInRitual>{0} ja participa al ritual.</CantStartRitualTargetIsAlreadyInRitual>
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
-  <CantStartRitualRoleNotAssigned>TODO</CantStartRitualRoleNotAssigned>
+  <CantStartRitualRoleNotAssigned>Heu d'assignar el rol de {0} per a poder començar el ritual.</CantStartRitualRoleNotAssigned>
   <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
-  <CantStartRitualNoConvertee>TODO</CantStartRitualNoConvertee>
+  <CantStartRitualNoConvertee>No hi ha ningú a qui poder convertir a {0}. Us cal un colon, presoner o esclau d'una altra ideoligió.</CantStartRitualNoConvertee>
   <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
-  <CantStartRitualSelectedPawnCannotBeRole>TODO</CantStartRitualSelectedPawnCannotBeRole>
+  <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} no pot ser {ROLE}.</CantStartRitualSelectedPawnCannotBeRole>
   <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
-  <CantStartRitualSelectedPawnMustBeMember>TODO</CantStartRitualSelectedPawnMustBeMember>
+  <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} hauria de ser {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
-  <CantStartRitualSelectedPawnPsychicallyDeaf>TODO</CantStartRitualSelectedPawnPsychicallyDeaf>
+  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} és {PAWN_gender ? sord psíquic : sorda psíquica}.</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space. There must be a clear circle of radius {MINRADIUS}. -->
-  <CantStartNotEnoughSpaceDuel>TODO</CantStartNotEnoughSpaceDuel>
+  <CantStartNotEnoughSpaceDuel>No hi ha prou espai. Hi ha d'haver un cercle de radi {MINRADIUS} lliure.</CantStartNotEnoughSpaceDuel>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
-  <CantStartFuneralForSlave>TODO</CantStartFuneralForSlave>
+  <CantStartFuneralForSlave>{0_labelShort} és {0_gender ? un esclau : una esclava}. Pels esclaus no es fan funerals.</CantStartFuneralForSlave>
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
-  <NoSlaveBed>TODO</NoSlaveBed>
+  <NoSlaveBed>Cal que es pugui accedir a un llit d'esclaus, sense reservar i amb una temperatura adequada.</NoSlaveBed>
   <!-- EN: Return to slave bed -->
-  <ReturnToSlaveBed>TODO</ReturnToSlaveBed>
+  <ReturnToSlaveBed>Torna al llit d'esclau</ReturnToSlaveBed>
   <!-- EN: not allowed for faction -->
-  <NotAllowedForFaction>TODO</NotAllowedForFaction>
+  <NotAllowedForFaction>a la facció no se li permet</NotAllowedForFaction>
 
   <!-- EN: Remove -->
   <Remove>Treu</Remove>
@@ -41,7 +41,7 @@
   <!-- EN: No choices available -->
   <NoChoicesAvailable>No hi ha cap opció disponibles</NoChoicesAvailable>
   <!-- EN: Required by meme {0} -->
-  <RequiredByMeme>TODO</RequiredByMeme>
+  <RequiredByMeme>Necessari pel mem {0}</RequiredByMeme>
   <!-- EN: Required -->
   <Required>Necessari</Required>
   <!-- EN: Style category -->
@@ -49,9 +49,9 @@
   <!-- EN: Add style category -->
   <AddStyleCategory>Afegeix una categoria d'estil</AddStyleCategory>
   <!-- EN: Can't add more than {0} rituals. -->
-  <MaxRitualCount>TODO</MaxRitualCount>
+  <MaxRitualCount>No es poden afegir mes de {0} rituals.</MaxRitualCount>
   <!-- EN: Can't add more than {0} relics. -->
-  <MaxRelicCount>TODO</MaxRelicCount>
+  <MaxRelicCount>No es poden afegir mes de {0} relíquies.</MaxRelicCount>
   <!-- EN: can't have more than {0} specialists. -->
   <MaxMultiRolesCount>no podeu tenir més de {0} experts.</MaxMultiRolesCount>
   <!-- EN: max {0} -->
@@ -59,87 +59,87 @@
   <!-- EN: Set gender -->
   <SetTargetGender>Tria el gènere</SetTargetGender>
   <!-- EN: must be {0} faction -->
-  <RoleApparelRequirementIncompatibleFaction>TODO</RoleApparelRequirementIncompatibleFaction>
+  <RoleApparelRequirementIncompatibleFaction>ha de ser de la facció {0}</RoleApparelRequirementIncompatibleFaction>
   <!-- EN: tribal -->
   <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>tribal</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
   <!-- EN: non-tribal -->
   <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>no tribal</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
   <!-- EN: requires any of these memes -->
-  <RoleApparelRequirementIncompatibleAnyMemeRequired>TODO</RoleApparelRequirementIncompatibleAnyMemeRequired>
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>requereix un mem qualsevol dels següents</RoleApparelRequirementIncompatibleAnyMemeRequired>
   <!-- EN: cannot be worn with assigned apparel -->
-  <BodyPartAlreadyCovered>TODO</BodyPartAlreadyCovered>
+  <BodyPartAlreadyCovered>no es pot portar amb la indumentària assignada</BodyPartAlreadyCovered>
   <!-- EN: already assigned -->
-  <AlreadyAssigned>TODO</AlreadyAssigned>
+  <AlreadyAssigned>ja s'ha assignat</AlreadyAssigned>
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
-  <NoteRoleApparelRequirementEffects>TODO</NoteRoleApparelRequirementEffects>
+  <NoteRoleApparelRequirementEffects>Les persones estan a gust si es satisfan els requisits de la indumentària i són infeliços mentre no es compleixen.</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->
-  <NeuralSuperchargeNotReady>TODO</NeuralSuperchargeNotReady>
+  <NeuralSuperchargeNotReady>la supercàrrega no està preparada</NeuralSuperchargeNotReady>
   <!-- EN: already getting -->
-  <NeuralSuperchargeAlreadyGetting>TODO</NeuralSuperchargeAlreadyGetting>
+  <NeuralSuperchargeAlreadyGetting>en procès</NeuralSuperchargeAlreadyGetting>
   <!-- EN: Set type -->
   <SetApparelType>Tria el tipus</SetApparelType>
 
   <!-- EN: change style -->
   <ChangeStyle>canvia l'estil</ChangeStyle>
   <!-- EN: {0} {DEITYNOUN} required -->
-  <DeitiesRequired>TODO</DeitiesRequired>
+  <DeitiesRequired>Cal {0} {DEITYNOUN}</DeitiesRequired>
   <!-- EN: deity -->
   <Deity>deïtat</Deity>
   <!-- EN: requires meme -->
-  <RequiresMeme>TODO</RequiresMeme>
+  <RequiresMeme>necessita un mem</RequiresMeme>
   <!-- EN: requires one of -->
-  <RequiresOneOfMemes>TODO</RequiresOneOfMemes>
+  <RequiresOneOfMemes>necessita un de</RequiresOneOfMemes>
   <!-- EN: conflicts with meme -->
-  <ConflictsWithMeme>TODO</ConflictsWithMeme>
+  <ConflictsWithMeme>xoca amb el mem</ConflictsWithMeme>
   <!-- EN: conflicts with memes -->
-  <ConflictsWithMemes>TODO</ConflictsWithMemes>
+  <ConflictsWithMemes>xoca amb els mems</ConflictsWithMemes>
   <!-- EN: can only have one altar/ideogram -->
-  <IdeoAlreadyHasAltar>TODO</IdeoAlreadyHasAltar>
+  <IdeoAlreadyHasAltar>només pot tenir un altar/ideograma</IdeoAlreadyHasAltar>
   <!-- EN: recolor apparel -->
-  <RecolorApparel>TODO</RecolorApparel>
+  <RecolorApparel>canvia color de la indumentària</RecolorApparel>
 
   <!-- EN: Hack {0} -->
-  <Hack>TODO</Hack>
+  <Hack>Hackeja {0}</Hack>
   <!-- EN: Cannot hack {0} -->
-  <CannotHack>TODO</CannotHack>
+  <CannotHack>{0} no es pot hackejar</CannotHack>
   <!-- EN: Already hacked -->
-  <AlreadyHacked>TODO</AlreadyHacked>
+  <AlreadyHacked>Ja s'ha hackejat</AlreadyHacked>
   <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>TODO</IncapableOfHacking>
+  <IncapableOfHacking>No és capaç de hackejar</IncapableOfHacking>
   <!-- EN: to drop supplies -->
-  <ToDropSupplies>TODO</ToDropSupplies>
+  <ToDropSupplies>per deixar subministres</ToDropSupplies>
 
   <!-- EN: Install {0} -->
   <InstallRelic>Instal·la {0}</InstallRelic>
   <!-- EN: Extract {0} -->
   <ExtractRelic>Extrau {0}</ExtractRelic>
   <!-- EN: Extract {0} to inventory ({1}) -->
-  <ExtractRelicToInventory>TODO</ExtractRelicToInventory>
+  <ExtractRelicToInventory>Extrau {0} de l'inventari ({1})</ExtractRelicToInventory>
   <!-- EN: No relic to install -->
-  <NoRelicToInstall>TODO</NoRelicToInstall>
+  <NoRelicToInstall>No hi ha cap relíquia per instal·lar</NoRelicToInstall>
   <!-- EN: Install in reliquary -->
-  <InstallInReliquary>TODO</InstallInReliquary>
+  <InstallInReliquary>Intal·la al reliquiari</InstallInReliquary>
   <!-- EN: no empty accessible reliquary -->
-  <NoEmptyReliquary>TODO</NoEmptyReliquary>
+  <NoEmptyReliquary>no hi ha cap reliquiari buit accessible</NoEmptyReliquary>
 
   <!-- EN: No {MEMBERNAME} warden -->
-  <NoWardenOfIdeo>TODO</NoWardenOfIdeo>
+  <NoWardenOfIdeo>No hi ha cap guarda {MEMBERNAME}</NoWardenOfIdeo>
 
   <!-- EN: Remove current role -->
   <RemoveCurrentRole>Treu el rol actual</RemoveCurrentRole>
 
   <!-- EN: Enter biosculpter pod for {0} cycle ({1}) -->
-  <EnterBiosculpterPod>TODO</EnterBiosculpterPod>
+  <EnterBiosculpterPod>Entra a la càpsula de bioescultura per al cicle {0} ({1})</EnterBiosculpterPod>
   <!-- EN: Biotuned to someone else. -->
-  <BiosculpterBiotunedToAnother>TODO</BiosculpterBiotunedToAnother>
+  <BiosculpterBiotunedToAnother>Biocalibrada per algú altre.</BiosculpterBiotunedToAnother>
   <!-- EN: Must be {0} years old for age reversal. -->
-  <UnderMinBiosculpterAgeReversalAge>TODO</UnderMinBiosculpterAgeReversalAge>
+  <UnderMinBiosculpterAgeReversalAge>Ha de tenir {0} anys com a mínim per a poder fer un tractament de rejoveniment.</UnderMinBiosculpterAgeReversalAge>
   <!-- EN: Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle) -->
-  <CarryToBiosculpterPod>TODO</CarryToBiosculpterPod>
+  <CarryToBiosculpterPod>Porta {PAWN_labelShort} al bioescultor (cicle de {CYCLE})</CarryToBiosculpterPod>
   <!-- EN: Cannot carry to biosculpter pod -->
-  <CannotCarryToBiosculpterPod>TODO</CannotCarryToBiosculpterPod>
+  <CannotCarryToBiosculpterPod>No ho pot portar a una càpsula de bioescultura</CannotCarryToBiosculpterPod>
   <!-- EN: No available biosculpter pod. -->
-  <NoBiosculpterPod>TODO</NoBiosculpterPod>
+  <NoBiosculpterPod>No hi ha cap càpsula de bioescultura disponible.</NoBiosculpterPod>
   <!-- EN: Nutrition not loaded -->
   <BiosculpterNutritionNotLoaded>Falta carregar nutrients</BiosculpterNutritionNotLoaded>
   <!-- EN: Occupied -->
@@ -147,25 +147,25 @@
   <!-- EN: Cannot enter -->
   <CannotEnter>No s'hi pot entrar</CannotEnter>
   <!-- EN: Cannot start {0} cycle -->
-  <BiosculpterCannotStartCycle>TODO</BiosculpterCannotStartCycle>
+  <BiosculpterCannotStartCycle>El cicle de {0} no pot començar</BiosculpterCannotStartCycle>
   <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
-  <BiosculpterMissingIngredients>TODO</BiosculpterMissingIngredients>
+  <BiosculpterMissingIngredients>No es poden trobar els ingredients del cicle ({INGREDIENTS})</BiosculpterMissingIngredients>
   <!-- EN: Nobody around can use this -->
   <BiosculpterNoEligiblePawns>Ningú a prop ho pot fer servir</BiosculpterNoEligiblePawns>
   <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
-  <BiosculpterNoEligiblePawnsBiotuned>TODO</BiosculpterNoEligiblePawnsBiotuned>
+  <BiosculpterNoEligiblePawnsBiotuned>Biocalibrat per a {PAWN_labelShort} i no hi és a prop</BiosculpterNoEligiblePawnsBiotuned>
   <!-- EN: Auto load nutrition -->
   <BiosculpterAutoLoadNutritionLabel>Carrega els nutrients automàticament</BiosculpterAutoLoadNutritionLabel>
   <!-- EN: Automatically load the nutrition required to run a cycle -->
-  <BiosculpterAutoLoadNutritionDescription>TODO</BiosculpterAutoLoadNutritionDescription>
+  <BiosculpterAutoLoadNutritionDescription>Carrega automàticament els nutrients necessaris per fer el cicle</BiosculpterAutoLoadNutritionDescription>
   <!-- EN: Auto age reversal for {PAWN_labelShort} -->
-  <BiosculpterAutoAgeReversalLabel>TODO</BiosculpterAutoAgeReversalLabel>
+  <BiosculpterAutoAgeReversalLabel>Rejoveniment automàtic per a {PAWN_labelShort}</BiosculpterAutoAgeReversalLabel>
   <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
-  <BiosculpterAutoAgeReversalDescription>TODO</BiosculpterAutoAgeReversalDescription>
+  <BiosculpterAutoAgeReversalDescription>Satisfà automàticament el desig de {PAWN_labelShort} de fer un tractament anual de rejoveniment en aquesta càpsula, d'acord amb les seves creences. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
   <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
-  <BiosculpterAutoAgeReversalDescriptionFuture>TODO</BiosculpterAutoAgeReversalDescriptionFuture>
+  <BiosculpterAutoAgeReversalDescriptionFuture>Si està activat, {PAWN_labelShort} rebrà automàticament el seu proper tractament d'aquí {TIME} si la càpsula està preparada.</BiosculpterAutoAgeReversalDescriptionFuture>
   <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
-  <BiosculpterAutoAgeReversalDescriptionNow>TODO</BiosculpterAutoAgeReversalDescriptionNow>
+  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} vol el seu proper tractament i en començarà un si està activat.</BiosculpterAutoAgeReversalDescriptionNow>
   <!-- EN: Collecting ingredients for biosculpter cycle -->
-  <BiosculpterJobReportCollectIngredients>TODO</BiosculpterJobReportCollectIngredients>
+  <BiosculpterJobReportCollectIngredients>Es recullen els ingredients per al cicle de bioescultura</BiosculpterJobReportCollectIngredients>
 </LanguageData>

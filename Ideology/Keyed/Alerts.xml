@@ -4,18 +4,18 @@
   <!-- EN: Need slave beds -->
   <NeedSlaveBeds>Falten llits per a esclaus</NeedSlaveBeds>
   <!-- EN: You have more slaves than you have slave beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a colonist or prisoner bed to a slave bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
-  <NeedSlaveBedsDesc>TODO</NeedSlaveBedsDesc>
+  <NeedSlaveBedsDesc>Teniu més esclaus que llits. Alguns no tindran lloc on dormir.\n\nFeu més llits o bé designeu per a ús dels esclaus un dels llits de presoners o colons.</NeedSlaveBedsDesc>
 
   <!-- EN: Slave unsuppressed -->
   <SlavesUnsuppressedLabel>Esclau sense supressió</SlavesUnsuppressedLabel>
   <!-- EN: {0_nameDef}'s suppression level is dangerously low. There is a good chance {0_pronoun} will rebel.\n\nMake sure there is a colonist assigned to warden work. Wardens will suppress slaves periodically to stop them from rebelling. -->
-  <SlavesUnsuppressedDesc>TODO</SlavesUnsuppressedDesc>
+  <SlavesUnsuppressedDesc>El nivell de repressió de {0_nameDef} és molt baix. Hi ha moltes possibilitats que es rebel·li.\n\nAssegureu-vos que hi ha un colon assignat a tasques de vigilància. Els guardes reprimiran els esclaus de manera periòdica per evitar que es rebel·lin.</SlavesUnsuppressedDesc>
   <!-- EN: Slave unattended -->
   <SlaveUnattendedLabel>Esclau desatès</SlaveUnattendedLabel>
   <!-- EN: Slaves unattended -->
   <SlaveUnattendedMultipleLabel>Esclaus desatesos</SlaveUnattendedMultipleLabel>
   <!-- EN: Some slaves are alone on a map with no able-bodied colonists around.\n\nSlaves left unattended like this are very likely to rebel within days or hours. -->
-  <SlavesUnattendedDesc>TODO</SlavesUnattendedDesc>
+  <SlavesUnattendedDesc>Alguns esclaus estan sols en un mapa sense colons al seu voltant.\n\nEls esclaus que estiguin desatesos d'aquesta manera es rebel·laran en qüestió de dies o hores.</SlavesUnattendedDesc>
 
   <!-- EN: {0} opportunity -->
   <RitualOpportunity>Oportunitat de {0}</RitualOpportunity>
@@ -35,15 +35,15 @@
   <RitualUnfilledRoles>Per tal de realitzar {0}, cal designar els següents rols</RitualUnfilledRoles>
 
   <!-- EN: {0} desired -->
-  <IdeoBuildingMissing>TODO</IdeoBuildingMissing>
+  <IdeoBuildingMissing>Es desitja {0_indefinite}</IdeoBuildingMissing>
   <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
   <IdeoBuildingMissingDesc>TODO</IdeoBuildingMissingDesc>
   <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
-  <IdeoBuildingArchitectTabDesc>TODO</IdeoBuildingArchitectTabDesc>
+  <IdeoBuildingArchitectTabDesc>Podeu trobar-ho si obriu la pestanya «{TABNAME}» del menú d'arquitectura.</IdeoBuildingArchitectTabDesc>
   <!-- EN:  It can be created at:\n{0}. -->
   <IdeoBuildingCanBeCraftedAt>Es pot crear a:\n{0}.</IdeoBuildingCanBeCraftedAt>
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
-  <IdeoBuildingRoomRequirementsDesc>TODO</IdeoBuildingRoomRequirementsDesc>
+  <IdeoBuildingRoomRequirementsDesc>Per tal de dignificar {0_definite}, cal complir els requisits d'aquesta cambra</IdeoBuildingRoomRequirementsDesc>
   <!-- EN: expectations are -->
   <IdeoBuildingExpectations>les expectatives són</IdeoBuildingExpectations>
 
@@ -74,22 +74,22 @@
   <!-- EN: A ritual opportunity is coming soon for following rituals -->
   <AlertRitualComingDesc>Aviat disposareu d'una oportunitat per celebrar els rituals següents</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
-  <AlertRitualComingExtra>TODO</AlertRitualComingExtra>
+  <AlertRitualComingExtra>Les oportunitats expiren després de {0} dies i tornen a aparèixer al mateix dia de cada any.</AlertRitualComingExtra>
   <!-- EN: {0} on {1}, {2} left -->
   <AlertRitualComingEntry>{0} en el {1}; en queden {2}</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
-  <AlertAgeReversalDemandNear>Es demana una reversió d'edat</AlertAgeReversalDemandNear>
+  <AlertAgeReversalDemandNear>Es demana un tractament de rejoveniment</AlertAgeReversalDemandNear>
   <!-- EN: Because of their beliefs, some of your colonists demand regular age reversal treatments in a biosculpter pod. If they don't get the treatments, they will be displeased.\n\nThe following people demand age reversal treatment -->
   <AlertAgeReversalDemandDesc>TODO</AlertAgeReversalDemandDesc>
   <!-- EN: {PAWN} joined {FACTION} recently, and wants to begin age reversal treatments in {DURATION}. -->
   <AlertAgeReversalDemandDesc_Recruit>TODO</AlertAgeReversalDemandDesc_Recruit>
   <!-- EN: {PAWN} wants their next treatment in {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Next>TODO</AlertAgeReversalDemandDesc_Next>
+  <AlertAgeReversalDemandDesc_Next>{PAWN} vol el seu tractament en {DURATION}.</AlertAgeReversalDemandDesc_Next>
   <!-- EN: {PAWN} wants their first treatment in {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Initial>TODO</AlertAgeReversalDemandDesc_Initial>
+  <AlertAgeReversalDemandDesc_Initial>{PAWN} vol el seu primer tractament en {DURATION}.</AlertAgeReversalDemandDesc_Initial>
   <!-- EN: {PAWN}'s treatment is overdue by {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Overdue>TODO</AlertAgeReversalDemandDesc_Overdue>
+  <AlertAgeReversalDemandDesc_Overdue>El tractament de {PAWN} s'ha endarrerit {DURATION}.</AlertAgeReversalDemandDesc_Overdue>
 
   <!-- EN: {PAWN_nameDef}'s belief in {IDEO_name} prevents {PAWN_objective} from eating the meat of {ANIMALS}. -->
   <AlertRoyalTitleNoVeneratedAnimalMeat>TODO</AlertRoyalTitleNoVeneratedAnimalMeat>
@@ -119,14 +119,14 @@
   <AlertHostilesWakingUpDesc>TODO</AlertHostilesWakingUpDesc>
 
   <!-- EN: Cryptosleep caskets opening in {0} -->
-  <AlertCasketOpening>TODO</AlertCasketOpening>
+  <AlertCasketOpening>Els sarcòfags de criptoson s'obriran d'aquí {0}</AlertCasketOpening>
   <!-- EN: Cryptosleep caskets containing unknown threats are opening soon. -->
-  <AlertCasketOpeningDesc>TODO</AlertCasketOpeningDesc>
+  <AlertCasketOpeningDesc>Els sarcòfags de criptoson que contenen amenaces desconegudes s'obriran aviat.</AlertCasketOpeningDesc>
 
   <!-- EN: Slave rebellion likely -->
-  <AlertSlaveRebellionLikely>TODO</AlertSlaveRebellionLikely>
+  <AlertSlaveRebellionLikely>Possible rebel·lió d'esclaus</AlertSlaveRebellionLikely>
   <!-- EN: There are {REBELLIOUSCOUNT} slaves that are likely to initiate a rebellion. -->
-  <AlertSlaveRebellionLikelyRebelliousCount>TODO</AlertSlaveRebellionLikelyRebelliousCount>
+  <AlertSlaveRebellionLikelyRebelliousCount>Hi han {REBELLIOUSCOUNT} esclaus que podrien iniciar una rebel·lió.</AlertSlaveRebellionLikelyRebelliousCount>
   <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
   <AlertSlaveRebellionLikelyMostRebellious>TODO</AlertSlaveRebellionLikelyMostRebellious>
   
