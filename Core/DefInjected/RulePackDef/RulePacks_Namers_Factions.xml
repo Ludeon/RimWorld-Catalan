@@ -233,30 +233,41 @@
     <li>townname_near->[nearnameinitial] de la [TerrainFeature]</li>
     <li>nearnameinitial->[townname_wordgen]</li>
     <li>nearnameinitial->[Community]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][townend]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][townend]</li>
-    <li>townname_wordgen->[TerrainFeature][townend]</li>
-    <li>townname_wordgen->[topicalnoun][townend]</li>
-    <li>townend->vila</li>
-    <li>townend->ciutat</li>
-    <li>townend->celles</li>
-    <li>townend->de mar</li>
-    <li>townend->tera</li>
-    <li>townend->ola</li>
-    <li>townend->ona</li>
-    <li>townend->ès</li>
-    <li>townend->de la conca</li>
-    <li>townend->gues</li>
-    <li>townend->caire</li>
-    <li>townend->munt</li>
-    <li>townend->anya</li>
-    <li>townend->assa</li>
-    <li>townend->era</li>
-    <li>townend->ira</li>
-    <li>townend->ora</li>
-    <li>townend->ura</li>
+    <li>townname_wordgen(p=2)->[townstart] [SylC_Cap][SylC_end]</li>
+    <li>townname_wordgen(p=2)->[townstart] [SylC_Cap][SylC][SylC_end]</li>
+    <li>townname_wordgen(p=2)->[townstart] [SylC_Cap][SylC][SylC_end]</li>
+    <li>townname_wordgen(p=2)->[SylC_Cap][SylC_end]</li>
+    <li>townname_wordgen(p=2)->[SylC_Cap][SylC][SylC_end]</li>
+    <li>townname_wordgen(p=2)->[SylC_Cap] [townend]</li>
+    <li>townname_wordgen(p=2)->[SylC_Cap][SylC_end] [townend]</li>
+    <li>townstart->Vila de</li>
+    <li>townstart->Poble de</li>
+    <li>townstart->Pobla de</li>
+    <li>townstart->Roquetes de</li>
+    <li>townstart->La Creu de</li>
+    <li>townstart->Arenys de</li>
+    <li>townstart->La Roca de</li>
+    <li>townstart->El pla de</li>
+    <li>townstart->Sant Pere de</li>
+    <li>townstart->Santa Perpètua de</li>
+    <li>townstart->Vallfogona de</li>
+    <li>townstart->Caldes de</li>
+    <li>townstart->Santa Maria de</li>
+    <li>townend->de la Conca</li>
+    <li>townend->del Penedès</li>
+    <li>townend->d'Hortons</li>
+    <li>townend->del Camp</li>
+    <li>townend->i els Arcs</li>
+    <li>townend->de Brai</li>
+    <li>townend->de la Valldigna</li>
+    <li>townend->de les Maçanes</li>
+    <li>townend->des Riu</li>
+    <li>townend->del Camí</li>
+    <li>townend->de Fruitera</li>
+    <li>townend->del Compte</li>
+    <li>townend->de Carles</li>
+    <li>townend->de l'Alba</li>
+    <li>townend->del Gànguil</li>
   </NamerSettlementOutlander.rulePack.rulesStrings>
   
   <!-- EN:
@@ -317,10 +328,10 @@
     <li>townname_combo->[geography] [ColorBadass]</li>
     <li>geography(p=2)->[TerrainFeature]</li>
     <li>geography->[Community]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][SylE]</li>
-    <li>townname_wordgen(p=2)->[SylE][townendevil]</li>
-    <li>townname_wordgen(p=2)->[SylE][SylE][townendevil]</li>
+    <li>townname_wordgen(p=2)->[SylC_Cap][SylC_end]</li>
+    <li>townname_wordgen(p=2)->[SylC_Cap][SylC][SylC_end]</li>
+    <li>townname_wordgen(p=2)->[SylC_Cap][townendevil]</li>
+    <li>townname_wordgen(p=2)->[SylC_Cap][SylC_end][townendevil]</li>
     <li>townendevil->gros</li>
     <li>townendevil->reg</li>
     <li>townendevil->croix</li>
@@ -331,9 +342,7 @@
     <li>townendevil->foll</li>
     <li>townendevil->zer</li>
     <li>townendevil->txar</li>
-    <li>townendevil->mego</li>
     <li>townendevil->ermat</li>
-    <li>townendevil->zreg</li>
     <li>townendevil->arruix</li>
     <li>townendevil->xurga</li>
     <li>townendevil->nyego</li>
