@@ -658,7 +658,7 @@
     <titleShort>bandit</titleShort>
     <titleShortFemale>bandida</titleShortFemale>
     <!-- EN: [PAWN_nameDef] rose up the ranks of the crime organization, eventually becoming the leader of one of their most remote cells of bandits. [PAWN_possessive] dog Rest never left [PAWN_possessive] side. -->
-    <desc>[PAWN_nameDef] va anar pujant de rang dins l'organització criminal, fins a convertir-se en cap d'una de les cèl·lules més remotes. El seu gos Rest l'acompanyava a tot arreu.</desc>
+    <desc>[PAWN_nameDef] va anar pujant de rang dins de l'organització criminal, fins a convertir-se en cap d'una de les cèl·lules més remotes. El seu gos Rest l'acompanyava a tot arreu.</desc>
   </BanditLeader74>
   
   <Banished68>
@@ -669,7 +669,7 @@
     <titleShort>desterrat</titleShort>
     <titleShortFemale>desterrada</titleShortFemale>
     <!-- EN: [PAWN_nameDef]'s tribe banished [PAWN_objective] following a bloody dispute. [PAWN_pronoun] survived in the wilds alone for a long time. -->
-    <desc>TODO</desc>
+    <desc>La tribu de [PAWN_nameDef] {PAWN_gender ? el : la} va desterrar després d'una disputa i va sobreviure {PAWN_gender ? sol : sola} durant molt de temps.</desc>
   </Banished68>
   
   <BanishedSoldier85>
@@ -724,7 +724,7 @@
     <titleShort>sr. de les bèsties</titleShort>
     <titleShortFemale>sra. de les bèsties</titleShortFemale>
     <!-- EN: [PAWN_nameDef]'s family had more children than they had proper titles to inherit. Being of low rank in the birth order, [PAWN_nameDef] was given the honorary title of beastmaster.\n\n[PAWN_nameDef] managed the family's extensive menagerie. While [PAWN_pronoun] never worked hands-on with the beasts, [PAWN_pronoun] connected with them. Few others appreciated [PAWN_objective] the way they did. -->
-    <desc>TODO</desc>
+    <desc>La família de [PAWN_nameDef] tenia més fills que títols. Com que {PAWN_gender ? ell : ella} era dels últims a la línia successòria, se li va donar el títol honorari de {PAWN_gender ? senyor : senyora} de les bèsties.\n\n[PAWN_nameDef] s'encarregava dels molts animals que tenia la família. Tot i que mai havia treballat de manera activa amb el bestiar, hi va connectar. Poca gent va apreciar el que va arribar a fer.\n\n</desc>
   </Beastmaster67>
   
   <BeastSlayer67>
@@ -790,7 +790,7 @@
     <titleShort>ferrer</titleShort>
     <titleShortFemale>ferrera</titleShortFemale>
     <!-- EN: As a smith on a medieval world, [PAWN_nameDef] gained a reputation for the high quality of [PAWN_possessive] work. [PAWN_pronoun] wasn't bad at using the swords [PAWN_pronoun] forged either. -->
-    <desc>TODO</desc>
+    <desc>Com a {PAWN_gender ? ferrer : ferrera} d'un món medieval, [PAWN_nameDef] va aconseguir fama per la gran qualitat de les peces que feia. I se'n sortia prou bé fent servir les espases que forjava.\n</desc>
   </Blacksmith72>
   
   <BlacksmithShooter21>
@@ -890,7 +890,7 @@
     <!-- EN: bookworm -->
     <titleShort>rata de biblioteca</titleShort>
     <!-- EN: Rather than socialize with the other children, [PAWN_nameDef] preferred to get lost in literature. [PAWN_pronoun] taught [PAWN_objective]self to read at an early age with books bought from passing traders. -->
-    <desc>TODO</desc>
+    <desc>Més que socialitzar amb altres nens, [PAWN_nameDef] preferia perdre's en la literatura. Va aprendre a llegir {PAWN_gender ? tot sol : tota sola} molt aviat amb llibres que comprà a comerciants.</desc>
   </Bookworm19>
   
   <Bookworm3>
@@ -908,7 +908,7 @@
     <!-- EN: hunter -->
     <titleShort>caça-recompenses</titleShort>
     <!-- EN: [PAWN_nameDef] was a self-employed bounty hunter. [PAWN_pronoun] spent [PAWN_possessive] days hunting space pirates and collecting cash bounties. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] va fer carrera de caça-recompenses. Va passar dies caçant pirates espacials i recuperant botins valuosos.</desc>
   </BountyHunter17>
   
   <BountyHunter41>
@@ -957,7 +957,7 @@
     <titleShort>valent</titleShort>
     <titleShortFemale>valenta</titleShortFemale>
     <!-- EN: [PAWN_nameDef] wielded ikwa, axes, clubs, and other close-ranged weapons in battles for [PAWN_possessive] tribe. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] brandava armes com destrals, garrots i altres armes cos a cos durant les batalles de la seva tribu.</desc>
   </Brave88>
   
   <Brigand68>
@@ -1009,7 +1009,7 @@
     <!-- EN: artist -->
     <titleShort>artista</titleShort>
     <!-- EN: [PAWN_nameDef] had a knack for art. Traders and collectors from many different societies sought to buy [PAWN_possessive] creations. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] tenia la mà trencada per a l'art. Els comerciants i els col·leccionistes de moltes societats cercaven comprar-li les seves obres.</desc>
   </BuddingArtist44>
   
   <Builder96>
@@ -1020,7 +1020,7 @@
     <titleShort>constructor</titleShort>
     <titleShortFemale>constructora</titleShortFemale>
     <!-- EN: [PAWN_nameDef] worked on construction sites, building everyday structures according to [PAWN_possessive] boss' instructions. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] va treballar en feines de construcció, construint estructures segons les instruccions del seu cap.</desc>
   </Builder96>
   
   <Bully70>
@@ -1031,7 +1031,7 @@
     <titleShort>assetjador</titleShort>
     <titleShortFemale>assetjadora</titleShortFemale>
     <!-- EN: [PAWN_nameDef] tormented other children for fun. To keep [PAWN_objective] busy, an elder assigned [PAWN_objective] to a hunting party at an early age. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] turmentava altres nens per pura diversió. Per manternir-{PAWN_gender ? lo : la} ocupa{PAWN_gender ? t : ta}, una anciana {PAWN_gender ? el : la} va destinar a una partida de caça de ben jove.</desc>
   </Bully70>
   
   <BunkerKid41>
@@ -1073,7 +1073,7 @@
     <titleShort>carnisser</titleShort>
     <titleShortFemale>carnissera</titleShortFemale>
     <!-- EN: [PAWN_nameDef]'s main job in the hunting party was the butchering of animals. [PAWN_pronoun] became a master with the knife, able to extract every bit of value from a carcass in a short time. -->
-    <desc>TODO</desc>
+    <desc>La feina principal de [PAWN_nameDef] a la partida de caça era escorxar animals. Aviat es va convertir en {PAWN_gender ? un mestre : una mestra} del ganivet i podia extraure cada trosset amb valor del cadàver en molt poc temps.\n</desc>
   </Butcher40>
   
   <Cadet96>
@@ -1131,7 +1131,7 @@
     <!-- EN: card counter -->
     <titleShort>compta-cartes</titleShort>
     <!-- EN: In the urbworld underlevels, the strong kids learn to fight, the smart kids learn to cheat, and the other kids die. [PAWN_nameDef] was one of the smart kids. -->
-    <desc>TODO</desc>
+    <desc>En els nivells baixos dels urbamons, els nens forts aprenen a lluitar, els espavilats a fer trampes i els altres moren. [PAWN_nameDef] va ser {PAWN_gender ? un : una} dels espavilats.</desc>
   </CardCounter25>
   
   <CargoPilot58>
@@ -1149,7 +1149,7 @@
     <!-- EN: carver -->
     <titleShort>tallista</titleShort>
     <!-- EN: [PAWN_nameDef] carved artworks for [PAWN_possessive] tribe from wood, stone, and occasionally, more exotic materials. The work was sometimes sold, and sometimes kept to beautify settlements and provide a focus for rituals. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] gravava peces d'art per a la seva tribu amb fusta, pedra i, quan podia, materials exòtics. Les obres a vegades es venien i d'altres vegades es quedaven als assentaments per embellir-los i tenir objectes per fer rituals.</desc>
   </Carver1>
   
   <CasketBuilder52>
@@ -1180,7 +1180,7 @@
     <titleShort>nàufrag</titleShort>
     <titleShortFemale>nàufraga</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a passenger on a routine interstellar transit. When [PAWN_possessive] ship was destroyed, [PAWN_pronoun] lived as a castaway on an uninhabited planet for several years. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] era {PAWN_gender ? un passatger : una passatgera} d'un vol interestel·lar rutinari. Quan la nau fou destruïda, va viure com a {PAWN_gender ? nàufrag : nàufraga} en un planeta deshabitat durant anys.</desc>
   </Castaway81>
   
   <CatHerder4>
@@ -1202,7 +1202,7 @@
     <titleShort>constructor de coves</titleShort>
     <titleShortFemale>constructora de coves</titleShortFemale>
     <!-- EN: [PAWN_nameDef] specialized in cave complex excavation and construction. -->
-    <desc>TODO</desc>
+    <desc>[PAWN_nameDef] es va especialitzar en excavacions complexes i construcció.</desc>
   </CaveBuilder81>
   
   <CaveChild17>
@@ -2854,7 +2854,7 @@
     <titleShort>esclau</titleShort>
     <titleShortFemale>esclava</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was the son of a medieval farmer, and was expected to follow in [PAWN_possessive] footsteps. [PAWN_pronoun] was brought up as a kind, well trained farm boy.\n\n[PAWN_pronoun] lived in an unusual feudal kingdom which co-existed with a midworld society which was itself well-known for genetic manipulation. -->
-    <desc>[PAWN_nameDef] era fill d’un granger medieval, i s’esperava d’ell que seguís els passos del seu pare. Va ser criat per ser un bon noi i un bon granger.\n\nVivia en un regne feudal poc comú que es coexistia amb una societat de migmónTODO que era reconeguda per fer manipulacions genètiques.</desc>
+    <desc>[PAWN_nameDef] era {PAWN_gender ? fill : filla}\n d’una grangera medieval i d’{PAWN_gender ? ell : ella} s’esperava que seguís els passos de la seva mare. Fou cria{PAWN_gender ? t : da} per ser {PAWN_gender ? un bon noi i un bon granger : una bona noia i una bona grangera}.\n\nVivia en un regne feudal poc comú que coexistia amb una societat migmonera reconeguda per fer manipulacions genètiques.</desc>
   </FeudalFarmBoy0>
   
   <FeudalLordling56>
