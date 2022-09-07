@@ -1448,7 +1448,7 @@
   <!-- EN: (existing bond) -->
   <BladelinkAlreadyBonded>(vincle existent)</BladelinkAlreadyBonded>
   <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
-  <BladelinkAlreadyBondedDialog>Una persona només pot tenir vinculada una arma històrica.\n\nPer equipar i vincular {WEAPON_labelShort}, s'ha de destruir abans {BONDEDWEAPON_labelShort}, que és l'arma vinculada actual de {PAWN_nameDef}.</BladelinkAlreadyBondedDialog>
+  <BladelinkAlreadyBondedDialog>Una persona només pot tenir una sola arma vinculada.\n\nPer equipar i vincular {WEAPON_labelShort}, s'ha de destruir abans {BONDEDWEAPON_labelShort}, que és l'arma vinculada actual de {PAWN_nameDef}.</BladelinkAlreadyBondedDialog>
   <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
   <BladelinkAlreadyBondedMessage>{PAWN_nameDef} ja està vincula{PAWN_gender ? t : da} amb {BONDEDWEAPON_labelShort}.</BladelinkAlreadyBondedMessage>
 
