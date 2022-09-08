@@ -214,11 +214,11 @@
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
   <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} no creu en l'escarificació ideoligiosa i no li agradarà que l'escarifiquin.</RitualScarificationWarnNonScarificationIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
-  <RitualScarificationWarnWimp>{PAWN_labelShort} és dèbil i no li agradarà que l'escarifiquin.</RitualScarificationWarnWimp>
+  <RitualScarificationWarnWimp>{PAWN_labelShort} és dèbil, {PAWN_gender ? covard : covarda} i no li agradarà que l'escarifiquin.</RitualScarificationWarnWimp>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious blinding and will not like being blinded. -->
   <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort} no creu en la ceguesa per motius ideoligiosos i no li agradarà que {PAWN_gender ? el : la} deixin {PAWN_gender ? cec : cega}.</RitualBlindingWarnNonBlindingIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
-  <RitualBlindingWarnWimp>{PAWN_labelShort} és dèbil i no li agradarà que {PAWN_gender ? el : la} deixin {PAWN_gender ? cec : cega}.</RitualBlindingWarnWimp>
+  <RitualBlindingWarnWimp>{PAWN_labelShort} és dèbil i {PAWN_gender ? covard : covarda} i no li agradarà que {PAWN_gender ? el : la} deixin {PAWN_gender ? cec : cega}.</RitualBlindingWarnWimp>
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
   <RitualScarificationTriggerExtraDesc>L'escarificació es suposa que s'ha d'aplicar a {IDEOMEMBERPLURAL}, sempre i quan n'hi hagi menys de {0} d'escarificats.</RitualScarificationTriggerExtraDesc>
   <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
