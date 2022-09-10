@@ -22,7 +22,7 @@
   <!-- EN: {0} opportunity for -->
   <RitualOpportunityFor>Oportunitat de {0} per a</RitualOpportunityFor>
   <!-- EN: Expires in -->
-  <RitualExpiresIn>Expira d'aquí</RitualExpiresIn>
+  <RitualExpiresIn>Finalitza d'aquí</RitualExpiresIn>
   <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
   <RitualCompletionEffects>Els efectes de completar {RITUAL_labelDef} són</RitualCompletionEffects>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
@@ -55,14 +55,14 @@
   <!-- EN: Raids arriving in {0} -->
   <QuestPartRaidsDelay>Els assalts arribaran d'aquí {0}</QuestPartRaidsDelay>
   <!-- EN: Raids will start arriving in {0}.\n\nThe raiders will target the spacedrone and attempt to destroy it. Protect the spacedrone so your colonists can hack its computer and retrieve the data. -->
-  <QuestPartRaidsDelayDesc>TODO</QuestPartRaidsDelayDesc>
+  <QuestPartRaidsDelayDesc>Els assalts començaran d'aquí {0}.\n\nEls assaltants atacaran el dron espacial i intentaran destruir-lo. Protegiu el dron espacial per tal que els vostres colons en puguin hackejar el seu ordinador i recuperar les dades que contingui.</QuestPartRaidsDelayDesc>
 
   <!-- EN: {0} role unfilled -->
   <IdeoRoleEmpty>Rol de {0} sense cobrir</IdeoRoleEmpty>
   <!-- EN: {0} roles unfilled -->
   <IdeoRolesEmpty>{0} rols sense cobrir</IdeoRolesEmpty>
   <!-- EN: These roles are not filled:\n{0}\n\nYou can assign someone a role on their Social tab. You can also select a ritual spot or an altar and click 'Begin role change'. \n\nIf these roles remain empty, the following people will be unhappy -->
-  <IdeoRolesEmptyDesc>TODO</IdeoRolesEmptyDesc>
+  <IdeoRolesEmptyDesc>Cal assignar aquests rols:\n{0}\n\nPodeu assignar algú al rol des de la seva pestanya social. També podeu triar un lloc ritual o un altar i prémer «Canvi de rol».\n\nSi no s'assigna algun dels rols, els personatges següents s'enfadaran.</IdeoRolesEmptyDesc>
 
   <!-- EN: Security threats activated in {0} -->
   <AncientAltarThreatsWaking>S'han activat amenaces de seguretat en {0}</AncientAltarThreatsWaking>
@@ -81,9 +81,9 @@
   <!-- EN: Age reversal demanded -->
   <AlertAgeReversalDemandNear>Es demana un tractament de rejoveniment</AlertAgeReversalDemandNear>
   <!-- EN: Because of their beliefs, some of your colonists demand regular age reversal treatments in a biosculpter pod. If they don't get the treatments, they will be displeased.\n\nThe following people demand age reversal treatment -->
-  <AlertAgeReversalDemandDesc>TODO</AlertAgeReversalDemandDesc>
+  <AlertAgeReversalDemandDesc>Degut a les seves creences, alguns dels colons demanen tractaments de rejoveniment regulars en una càpsula de bioescultura. Si no els reben, es sentiran disgustats.\n\nLes persones següents demanen tractaments de rejoveniment</AlertAgeReversalDemandDesc>
   <!-- EN: {PAWN} joined {FACTION} recently, and wants to begin age reversal treatments in {DURATION}. -->
-  <AlertAgeReversalDemandDesc_Recruit>TODO</AlertAgeReversalDemandDesc_Recruit>
+  <AlertAgeReversalDemandDesc_Recruit>{PAWN} s'ha unit als {FACTION} fa poc i vol començar tractaments de rejoveniment en {DURATION}.</AlertAgeReversalDemandDesc_Recruit>
   <!-- EN: {PAWN} wants their next treatment in {DURATION}. -->
   <AlertAgeReversalDemandDesc_Next>{PAWN} vol el seu tractament en {DURATION}.</AlertAgeReversalDemandDesc_Next>
   <!-- EN: {PAWN} wants their first treatment in {DURATION}. -->
@@ -92,31 +92,31 @@
   <AlertAgeReversalDemandDesc_Overdue>El tractament de {PAWN} s'ha endarrerit {DURATION}.</AlertAgeReversalDemandDesc_Overdue>
 
   <!-- EN: {PAWN_nameDef}'s belief in {IDEO_name} prevents {PAWN_objective} from eating the meat of {ANIMALS}. -->
-  <AlertRoyalTitleNoVeneratedAnimalMeat>TODO</AlertRoyalTitleNoVeneratedAnimalMeat>
+  <AlertRoyalTitleNoVeneratedAnimalMeat>{PAWN_nameDef} segueix el {IDEO_name} i les seves creences no permeten que mengi carn de {ANIMALS}.</AlertRoyalTitleNoVeneratedAnimalMeat>
 
   <!-- EN: Dryad caste not set -->
   <AlertGauranlenTreeWithoutDryadTypeLabel>No s'ha establit la casta de les dríades</AlertGauranlenTreeWithoutDryadTypeLabel>
   <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
-  <AlertGauranlenTreeWithoutDryadTypeDesc>TODO</AlertGauranlenTreeWithoutDryadTypeDesc>
+  <AlertGauranlenTreeWithoutDryadTypeDesc>Encara no s'ha escollit la casta de dríades d'un o més arbres gauranlen.\n\nSeleccioneu l'arbre i premeu el botó «{0}» per establir la casta de dríades que s'han de produir.</AlertGauranlenTreeWithoutDryadTypeDesc>
   <!-- EN: Connector not assigned to plant cutting -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>TODO</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
+  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>Connector no assignat a tallar plantes</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
   <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>TODO</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>Teniu arbres gauranlen que heu marcat que s'han de podar, però els seus connectors no s'han assignat a tallar la planta.\n\nHauríeu d'assignar tasques de tallar plantes a les següents persones</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
 
   <!-- EN: Fuel node explodes in {0} -->
   <AlertFuelNodeIgniting>El node de combustible explotarà d'aquí {0}</AlertFuelNodeIgniting>
   <!-- EN: A fuel node has ignited! It will melt down and explode very soon.\n\nGet away and be ready to fight or escape the fires. -->
-  <AlertFuelNodeIgnitingDesc>TODO</AlertFuelNodeIgnitingDesc>
+  <AlertFuelNodeIgnitingDesc>S'ha incendiat un node de combustible! Es fondrà i explotarà aviat.\n\nAparteu-vos i prepareu-vos per a lluitar o fugir del foc.</AlertFuelNodeIgnitingDesc>
 
   <!-- EN: Insects arriving in {0} -->
   <AlertInfestationArriving>Arribaran insectes en {0}</AlertInfestationArriving>
   <!-- EN: Giant insects have sensed your activity and are burrowing up from underground to attack. Infestations are about to begin. -->
-  <AlertInfestationArrivingDesc>TODO</AlertInfestationArrivingDesc>
+  <AlertInfestationArrivingDesc>Uns insectes gegants han detectat la vostra activitat i ja perforen el terra per preparar un atac subterrani. Aviat començarà la infestació.</AlertInfestationArrivingDesc>
 
   <!-- EN: {0_pawnsPlural} waking in {1} -->
   <AlertHostilesWakingUp>Els {0_pawnsPlural} es despertaran d'aquí {1}</AlertHostilesWakingUp>
   <!-- EN: One or more {0_pawnsPlural} are waking up.\n\nThey will attack if they find you. -->
-  <AlertHostilesWakingUpDesc>TODO</AlertHostilesWakingUpDesc>
+  <AlertHostilesWakingUpDesc>Un o més {0_pawnsPlural} comencen a despertar-se.\n\nUs atacaran quan us trobin.</AlertHostilesWakingUpDesc>
 
   <!-- EN: Cryptosleep caskets opening in {0} -->
   <AlertCasketOpening>Els sarcòfags de criptoson s'obriran d'aquí {0}</AlertCasketOpening>
@@ -128,6 +128,6 @@
   <!-- EN: There are {REBELLIOUSCOUNT} slaves that are likely to initiate a rebellion. -->
   <AlertSlaveRebellionLikelyRebelliousCount>Hi han {REBELLIOUSCOUNT} esclaus que podrien iniciar una rebel·lió.</AlertSlaveRebellionLikelyRebelliousCount>
   <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
-  <AlertSlaveRebellionLikelyMostRebellious>TODO</AlertSlaveRebellionLikelyMostRebellious>
+  <AlertSlaveRebellionLikelyMostRebellious>S'espera que es produeixi una rebel·lió d'esclaus aproximadament cada {COMBINEDTIME}. Tingueu en compte que la probabilitat de rebel·lió de cada esclau és independent de la dels altres esclaus. Així que si es rebel·la un esclau, pot arrossegar altres esclaus amb ell.\n\n{REBEL_gender ? L'esclau : L'esclava} més rebel és {REBEL_labelShort} i es preveu que inici una rebel·lió aproximadament cada {INDIVIDUALTIME}. Els factors següents afecten la freqüència de rebel·lió:</AlertSlaveRebellionLikelyMostRebellious>
   
 </LanguageData>

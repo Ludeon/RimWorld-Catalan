@@ -5,21 +5,21 @@
   <!-- EN: Conversion -->
   <LetterLabelConvertIdeoAttempt_Success>Conversió</LetterLabelConvertIdeoAttempt_Success>
   <!-- EN: {INITIATOR_nameDef} has successfully turned {RECIPIENT_nameDef} away from {OLDIDEO_name} and towards {IDEO_name}. -->
-  <LetterConvertIdeoAttempt_Success>TODO</LetterConvertIdeoAttempt_Success>
+  <LetterConvertIdeoAttempt_Success>{INITIATOR_nameDef} allunya {RECIPIENT_nameDef} de {OLDIDEO_name} i l'apropa a {IDEO_name}.</LetterConvertIdeoAttempt_Success>
 
   <!-- Slave rebellion -->
   <!-- EN: Grand slave rebellion -->
   <LetterLabelGrandSlaveRebellion>Gran rebel·lió d'esclaus</LetterLabelGrandSlaveRebellion>
   <!-- EN: A grand slave rebellion has begun! All of your slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{0} -->
-  <LetterGrandSlaveRebellion>TODO</LetterGrandSlaveRebellion>
+  <LetterGrandSlaveRebellion>Ha començat una rebel·lió gran d'esclaus! Tots els vostres esclaus se us subleven i lluiten en contra vostra. Buscaran armes i intentaran eliminar els vostres colons.\n\nAquests són els colons implicats:\n\n{0}</LetterGrandSlaveRebellion>
   <!-- EN: Local slave rebellion -->
   <LetterLabelLocalSlaveRebellion>Rebel·lió local d'esclaus</LetterLabelLocalSlaveRebellion>
   <!-- EN: A local slave rebellion has begun! {0_nameDef} and some nearby slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{1} -->
-  <LetterLocalSlaveRebellion>TODO</LetterLocalSlaveRebellion> 
+  <LetterLocalSlaveRebellion>Ha començat una rebel·lió local d'esclaus! {0_nameDef} i alguns esclaus que té a prop es revolten i lluitaran en contra vostra. Buscaran armes i intentaran eliminar els vostres colons.\n\nAquests són els colons implicats:\n\n{1}</LetterLocalSlaveRebellion> 
   <!-- EN: Slave rebellion -->
   <LetterLabelSingleSlaveRebellion>Rebel·lió d'esclaus</LetterLabelSingleSlaveRebellion>
   <!-- EN: {0_nameDef} is rebelling! {0_pronoun} will seek weapons and try to eliminate your colonists. -->
-  <LetterSingleSlaveRebellion>TODO</LetterSingleSlaveRebellion>
+  <LetterSingleSlaveRebellion>{0_nameDef} es revolta! Buscarà armes i intentarà eliminar els vostres colons.</LetterSingleSlaveRebellion>
 
   <!-- Slave escape -->
   <!-- EN: Grand slave escape -->
@@ -134,21 +134,21 @@
 
   <!-- Spacedrone incoming -->
   <!-- EN: Spacedrone incoming -->
-  <LetterLabelSpacedroneIncoming>TODO</LetterLabelSpacedroneIncoming>
+  <LetterLabelSpacedroneIncoming>S'apropa un dron espacial</LetterLabelSpacedroneIncoming>
   <!-- EN: A spacedrone is landing nearby. -->
-  <LetterTextSpacedroneIncoming>TODO</LetterTextSpacedroneIncoming>
+  <LetterTextSpacedroneIncoming>Un dron espacial aterra a prop.</LetterTextSpacedroneIncoming>
   <!-- EN: A raid from {0} has arrived to destroy the {1} that was forced to land nearby. -->
-  <LetterTextRaidSpacedrone>TODO</LetterTextRaidSpacedrone>
+  <LetterTextRaidSpacedrone>Un assalt dels {0} ha arribat per a destruir {1_definite} que s'ha vist forçat a aterrar a prop.</LetterTextRaidSpacedrone>
 
   <!-- Hacked -->
   <!-- EN: You've finished hacking the {0} and learned more about the ancient {1} relic. -->
-  <LetterTextSpacedroneHacked>TODO</LetterTextSpacedroneHacked>
+  <LetterTextSpacedroneHacked>Heu acabat el hackeig {0_gender ? del : de la} {0} i s'han aprés coses de {1}, una relíquia antiga.</LetterTextSpacedroneHacked>
 
   <!-- Relic destroyed -->
   <!-- EN: Relic destroyed -->
   <LetterLabelRelicDestroyed>Relíquia destruïda</LetterLabelRelicDestroyed>
   <!-- EN: {0} has been destroyed!\n\nThe following people will suffer a mood reduction:\n{1} -->
-  <LetterTextRelicDestroyed>TODO</LetterTextRelicDestroyed>
+  <LetterTextRelicDestroyed>S'ha destruït {0_definite}!\n\nL'estat d'ànim de les següents persones baixarà:\n{1}</LetterTextRelicDestroyed>
   
   <!-- Relic lost -->
   <!-- EN: Relic lost -->
@@ -158,7 +158,7 @@
 
   <!-- Caravan destroyed -->
   <!-- EN: All non-slave members of {0} have died. The remaining slaves have walked away. The caravan has disabanded. -->
-  <LetterOnlySlaveCaravanColonistsLeft>TODO</LetterOnlySlaveCaravanColonistsLeft>
+  <LetterOnlySlaveCaravanColonistsLeft>Han mort tots els membres no esclaus de {0}. Els esclaus que quedaven vius han fugit. La caravana s'ha desfet.</LetterOnlySlaveCaravanColonistsLeft>
 
   <!-- Hacker lost -->
   <!-- EN: Last hacker lost -->
