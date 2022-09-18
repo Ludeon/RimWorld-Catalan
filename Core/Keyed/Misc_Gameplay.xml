@@ -265,7 +265,7 @@
   <!-- EN: {0} until enemies arrive -->
   <CaravanDetectedRaidCountdown>{0} fins que arribin enemics</CaravanDetectedRaidCountdown>
   <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
-  <CaravanDetectedRaidCountdownTip>Els reforços enemics arribaran a aquesta àrea d'aquí {0}.</CaravanDetectedRaidCountdownTip>
+  <CaravanDetectedRaidCountdownTip>Els reforços enemics arribaran a aquesta àrea d’aquí a {0}.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Cambra</Room>
   <!-- EN: Beauty here -->
@@ -307,7 +307,7 @@
   <!-- EN: {0} wants this destroyed. -->
   <QuestTargetDestroyInspectStringShort>{0} ho vol destruït.</QuestTargetDestroyInspectStringShort>
   <!-- EN: Departing on shuttle in {0} -->
-  <ShuttleDelayInspectString>Se'n va en la llançadora d'aquí {0}.</ShuttleDelayInspectString>
+  <ShuttleDelayInspectString>Se'n va en la llançadora d’aquí a {0}.</ShuttleDelayInspectString>
   <!-- EN: Departing in {0} -->
   <ShuttleLeaveDelayInspectString>Se'n va en {0}.</ShuttleLeaveDelayInspectString>
   <!-- EN: Should depart on shuttle -->
@@ -447,13 +447,13 @@
   <!-- EN: View: {0} -->
   <ViewHyperlink>Veure: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
-  <DetonationCountdown>Detonarà d'aquí {0} dies.</DetonationCountdown>
+  <DetonationCountdown>Detonarà d’aquí a {0} dies.</DetonationCountdown>
   <!-- EN: Large fire explosion if damaged -->
   <ExplosionOnDamageWarning>Si es danya, es genera una explosió forta.</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>Clúster de mecanoides</MechCluster>
   <!-- EN: Spawning in {0} -->
-  <SpawningNextPawnIn>N'apareixerà un d'aquí {0}.</SpawningNextPawnIn>
+  <SpawningNextPawnIn>N'apareixerà un d’aquí a {0}.</SpawningNextPawnIn>
   <!-- EN: {0} assembly completes in {1}. -->
   <MechAssemblyCompleteIn>El muntatge de {0} finalitza en {1}.</MechAssemblyCompleteIn>
   <!-- EN: Will assemble -->
@@ -465,7 +465,7 @@
   <!-- EN: {0} killed -->
   <PawnsKilled>{0} assassinats</PawnsKilled>
   <!-- EN: Sent {0}, will return in {1} -->
-  <PawnsLent>Se n'han enviat {0} i tornen d'aquí {1}.</PawnsLent>
+  <PawnsLent>Se n'han enviat {0} i tornen d’aquí a {1}.</PawnsLent>
   <!-- EN: Dormant -->
   <DormantCompInactive>Latent</DormantCompInactive>
   <!-- EN: Sealed -->
@@ -477,7 +477,7 @@
   <!-- EN: Initiates in -->
   <InitiatesIn>Comença en</InitiatesIn>
   <!-- EN: Activates in {0} -->
-  <SendSignalOnCountdownCompTime>S'activarà d'aquí {0}.</SendSignalOnCountdownCompTime>
+  <SendSignalOnCountdownCompTime>S'activarà d’aquí a {0}.</SendSignalOnCountdownCompTime>
   <!-- EN: Neural heat -->
   <PsychicEntropy>Escalfament neural</PsychicEntropy>
   <!-- EN: Heat -->
@@ -798,7 +798,7 @@
 
   <!-- Thoughts -->
   <!-- EN: Expires in: {0} -->
-  <ThoughtExpiresIn>Expira d'aquí {0}</ThoughtExpiresIn>
+  <ThoughtExpiresIn>Expira d’aquí a {0}</ThoughtExpiresIn>
   <!-- EN: thought disabled by -->
   <ThoughtNullifiedBy>pensament inhabilitat per</ThoughtNullifiedBy>
   <!-- EN: Starts expiring in: {0} -->
@@ -920,9 +920,9 @@
   <!-- EN: Frozen (won't spoil) -->
   <CurrentlyFrozen>Congelat (no es deteriora)</CurrentlyFrozen>
   <!-- EN: Refrigerated (spoils in {0}) -->
-  <CurrentlyRefrigerated>Refrigerat (es fa malbé d'aquí {0})</CurrentlyRefrigerated>
+  <CurrentlyRefrigerated>Refrigerat (es fa malbé d’aquí a {0})</CurrentlyRefrigerated>
   <!-- EN: Not refrigerated (spoils in {0}) -->
-  <NotRefrigerated>Sense refrigerar (es fa malbé d'aquí {0})</NotRefrigerated>
+  <NotRefrigerated>Sense refrigerar (es fa malbé d’aquí a {0})</NotRefrigerated>
   <!-- EN: over a decade -->
   <OverADecade>més d'una dècada</OverADecade>
   <!-- EN: less than a day -->
@@ -1158,7 +1158,7 @@
   <!-- EN: Not installed -->
   <NotInstalled>No instal·lat</NotInstalled>
   <!-- EN: Extracted tree will die in {time} unless replanted. -->
-  <MinifiedTreeWillDieIn>Si no es replanta, l'arbre extret morirà d'aquí {time}.</MinifiedTreeWillDieIn>
+  <MinifiedTreeWillDieIn>Si no es replanta, l'arbre extret morirà d’aquí a {time}.</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->
@@ -1568,7 +1568,7 @@
   <!-- EN: {0} (out of {1}) -->
   <QualityOutOf>{0} (d'un total de {1})</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
-  <DateRitualNoObligation>{0} és un ritual que s'ha de celebrar en dates específiques. El podreu començar d'aquí {1}, el {2}.</DateRitualNoObligation>
+  <DateRitualNoObligation>{0} és un ritual que s'ha de celebrar en dates específiques. El podreu començar d’aquí a {1}, el {2}.</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
   <PreceptReplaceWith>Reemplaça amb</PreceptReplaceWith>
@@ -1620,7 +1620,7 @@
   <!-- EN: must be drafted. -->
   <AbilityDisabledUndrafted>s'ha de reclutar</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>habilitat en fase de refredament. Estarà disponible d'aquí {0}.</AbilityOnCooldown>
+  <AbilityOnCooldown>habilitat en fase de refredament. Estarà disponible d’aquí a {0}.</AbilityOnCooldown>
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>l'habilitat ja és a la cua.</AbilityAlreadyQueued>
   <!-- EN: Ability ready: {0} -->
