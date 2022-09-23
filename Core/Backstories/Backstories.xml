@@ -9,7 +9,7 @@
     <titleShort>nen</titleShort>
     <titleShortFemale>nena</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was born sickly. Thinking that [PAWN_pronoun] would only burden the tribe, [PAWN_possessive] parents exposed [PAWN_objective] to the elements. Somehow, [PAWN_pronoun] survived. -->
-    <desc>[PAWN_nameDef] va nàixer malal{PAWN_gender ? t : ta}. Pensant que seria una càrrega per a la tribu, els seus pares {PAWN_gender ? el : la} van abandonar a la intempèrie. D’alguna manera va aconseguir sobreviure.</desc>
+    <desc>[PAWN_nameDef] va nàixer {PAWN_gender ? malalt : malalta}. Com que pensaven que seria una càrrega per a la tribu, els seus pares {PAWN_gender ? el : la} van abandonar a la intempèrie. D’alguna manera, va aconseguir sobreviure.</desc>
   </AbandonedChild23>
   
   <AbandonedChild30>
@@ -20,7 +20,7 @@
     <titleShort>abandonat</titleShort>
     <titleShortFemale>abandonada</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a quick witted, funny child. One day, [PAWN_pronoun] wandered off on [PAWN_possessive] wealthy parents, and was ultimately lost in a supposedly unused ore warehouse. Due to cloning technology, [PAWN_possessive] parents decided that the time looking for [PAWN_objective] was better spent on just cloning a better son. -->
-    <desc>[PAWN_nameDef] era {PAWN_gender ? un nen : una nena} espavila{PAWN_gender ? t : da} i diverti{PAWN_gender ? t : da}. Un dia, es va perdre i va fer cap en un magatzem de minerals que suposadament no es feia servir. Els seus pares eren rics i, en lloc de dedicar el temps a buscar-{PAWN_gender ? lo : la}, van decidir que era millor fer servir les tècniques de clonació per clonar {PAWN_gender ? un fill : una filla} millor.</desc>
+    <desc>[PAWN_nameDef] era {PAWN_gender ? un nen : una nena} {PAWN_gender ? espavilat : espavilada} i {PAWN_gender ? divertit : divertida}. Un dia, es va perdre i va fer cap en un magatzem de minerals que suposadament no es feia servir. Els seus pares eren rics i, en lloc de dedicar el temps a buscar-{PAWN_gender ? lo : la}, van decidir que era millor fer servir les tècniques de clonació per a aconseguir {PAWN_gender ? un fill : una filla} millor.</desc>
   </AbandonedChild30>
   
   <AbandonedOrphan61>
@@ -31,7 +31,7 @@
     <titleShort>orfe</titleShort>
     <titleShortFemale>òrfena</titleShortFemale>
     <!-- EN: Abandoned at birth, young [PAWN_nameDef] started [PAWN_possessive] life in an orphanage.\n\nA rascal and a scoundrel, [PAWN_pronoun] became a clever troublemaker. -->
-    <desc>Abandona{PAWN_gender ? t : da} al nàixer, {PAWN_gender ? el : la} jove [PAWN_nameDef] vivia en un orfenat.\n\nEra molt {PAWN_gender ? entremaliat : entremaliada} i es va convertir en {PAWN_gender ? un : una} busca-raons espavila{PAWN_gender ? t : da}.</desc>
+    <desc>{PAWN_gender ? Abandonat : Abandonada} al nàixer, [PAWN_nameDef] vivia en un orfenat.\n\nEra molt {PAWN_gender ? entremaliat : entremaliada} i es va convertir en {PAWN_gender ? un : una} busca-raons {PAWN_gender ? espavilat : espavilada}.</desc>
   </AbandonedOrphan61>
   
   <Abductee43>
@@ -42,7 +42,7 @@
     <titleShort>segrestat</titleShort>
     <titleShortFemale>segrestada</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was abducted at a young age and forced to do menial labor on a pirate ship. -->
-    <desc>[PAWN_nameDef] fou segresta{PAWN_gender ? t : da} quan era {PAWN_gender ? petit : petita} i {PAWN_gender ? el : la} van obligar a fer tasques senzilles en un vaixell pirata.</desc>
+    <desc>[PAWN_nameDef] fou {PAWN_gender ? segrestat : segrestada} quan era {PAWN_gender ? petit : petita} i {PAWN_gender ? el : la} van obligar a fer tasques senzilles en un vaixell pirata.</desc>
   </Abductee43>
   
   <Abductee7>
@@ -53,7 +53,7 @@
     <titleShort>segrestat</titleShort>
     <titleShortFemale>segrestada</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was abducted by xenohumans when [PAWN_pronoun] was still a baby. They experimented on [PAWN_objective] to understand [PAWN_possessive] genetic structure.\n\nAs [PAWN_pronoun] grew up, [PAWN_nameDef] grew a little bit too big and strong for [PAWN_possessive] captors and escaped. -->
-    <desc>[PAWN_nameDef] fou abduï{PAWN_gender ? t : da} per xenohumans quan encara era un nadó. Van experimentar amb {PAWN_gender ? ell : ella} per entendre l’estructura genètica humana.\n\nQuan va créixer, ho va fer una mica massa {PAWN_gender ? gros : grossa} i for{PAWN_gender ? t : ta} per als seus captors i va aconseguir escapar.</desc>
+    <desc>[PAWN_nameDef] fou {PAWN_gender ? abduït : abduïda} per xenohumans quan encara era un nadó. Van experimentar amb {PAWN_gender ? ell : ella} per a entendre l’estructura genètica humana.\n\nQuan va créixer, ho es va fer una mica massa {PAWN_gender ? gros : grossa} i {PAWN_gender ? fort : forta} per als seus captors i va aconseguir escapar.</desc>
   </Abductee7>
   
   <AcademyStudent58>
@@ -62,7 +62,7 @@
     <!-- EN: student -->
     <titleShort>estudiant</titleShort>
     <!-- EN: [PAWN_nameDef] went to school like a good space cadet would. [PAWN_pronoun] was very tall and was known for [PAWN_possessive] good looks.\n\nThough [PAWN_pronoun] worried more about [PAWN_possessive] hairstyle than [PAWN_possessive] grades, [PAWN_pronoun] still somehow passed the final exams. -->
-    <desc>[PAWN_nameDef] va anar a l’escola com faria un bon cadet espacial. Era molt al{PAWN_gender ? t : ta} i era conegu{PAWN_gender ? t : da} pel seu bon aspecte.\n\nTot i que estava més preocupa{PAWN_gender ? t : da} pel seu pentinat que pels exàmens, va acabar aprovant la carrera.</desc>
+    <desc>[PAWN_nameDef] va anar a l’escola com faria un bon cadet espacial. Era molt {PAWN_gender ? alt : alta} i era {PAWN_gender ? conegut : coneguda} pel seu bon aspecte.\n\nTot i que estava més {PAWN_gender ? preocupat : preocupada} pel seu pentinat que pels exàmens, va acabar aprovant la carrera.</desc>
   </AcademyStudent58>
   
   <AccursedChild88>
@@ -73,7 +73,7 @@
     <titleShort>maleït</titleShort>
     <titleShortFemale>maleïda</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was born at the peak of a lunar eclipse. The elders declared [PAWN_objective] a child of darkness and brought [PAWN_objective] under their care.\n\n[PAWN_possessive] entire childhood was spent studying the lore and rituals of [PAWN_possessive] people - until the day of calling. -->
-    <desc>[PAWN_nameDef] va nàixer al punt màxim d’un eclipsi lunar. Els ancians {PAWN_gender ? el : la} van declarar una criatura de la foscor lliurada a ells per tenir-ne cura.\n\nVa passar tota la infància estudiant els costums i rituals del seu poble, a l’espera del dia de la crida.</desc>
+    <desc>[PAWN_nameDef] va nàixer durant un eclipsi lunar. Els ancians {PAWN_gender ? el : la} van declarar una criatura de la foscor lliurada a ells per a tenir-ne cura.\n\nVa passar tota la infància estudiant els costums i rituals del seu poble, a l’espera del dia de la crida.</desc>
   </AccursedChild88>
   
   <AceFighterPilot54>
@@ -93,7 +93,7 @@
     <titleShort>sacerdot</titleShort>
     <titleShortFemale>sacerdotessa</titleShortFemale>
     <!-- EN: Ever the dreamer, [PAWN_nameDef] traveled across the universe to find the thing [PAWN_pronoun] felt was calling to him.\n\n[PAWN_pronoun] became poorer and poorer, but used every means possible to carry on. -->
-    <desc>Sempre somiado{PAWN_gender ? r : ra}, [PAWN_nameDef] va viatjar per l’univers a la recerca de la crida que sentia.\n\nEs va anar empobrint cada cop més, però sempre trobava la manera de tirar endavant.</desc>
+    <desc>Sempre {PAWN_gender ? somiador : somiadora}, [PAWN_nameDef] va viatjar per l’univers a la recerca de la crida que sentia.\n\nEs va anar empobrint cada cop més, però sempre trobava la manera de tirar endavant.</desc>
   </AcolyteOfStars6>
   
   <Actor72>
@@ -104,7 +104,7 @@
     <titleShort>actor</titleShort>
     <titleShortFemale>actriu</titleShortFemale>
     <!-- EN: [PAWN_nameDef] travelled with a company of actors, playing to packed theatres and loving audiences everywhere. [PAWN_pronoun] was a perfectionist, and made [PAWN_possessive] own props and costumes rather than use the ones [PAWN_pronoun] was given. -->
-    <desc>[PAWN_nameDef] va viatjar amb una companyia teatral i actuaven en teatres plens amb molt d’èxit entre el públic allà on anaven. Era molt perfeccionista i es feia els seus propis vestits i accessoris en comptes de fer servir els que li donaven.</desc>
+    <desc>[PAWN_nameDef] va viatjar amb una companyia teatral i actuaven en teatres sempre plens i tenien molt d’èxit entre el públic allà on anaven. Era molt perfeccionista i es feia els seus propis vestits i accessoris en comptes de fer servir els que li donaven.</desc>
   </Actor72>
   
   <AddictionCounsel60>
@@ -115,7 +115,7 @@
     <titleShort>terapeuta</titleShort>
     <titleShortFemale>terapeuta</titleShortFemale>
     <!-- EN: After recovering from a joywire addiction, [PAWN_nameDef] adopted a non-violent way of life and vowed to help others.\n\nTravelling between communities, [PAWN_pronoun] used medicine, arts, and crafts to aid others who struggled with their own addictions. -->
-    <desc>Després de recuperar-se de la seva addicció als satisplants, [PAWN_nameDef] va optar per un estil de vida sense violència i es va dedicar a ajudar els altres.\n\nViatjant d’una comunitat a una altra, feia servir la medicina, l’art i els treballs manuals per a ajudar els altres a desfer-se de la seva addicció.</desc>
+    <desc>Després de recuperar-se de la seva addicció als satisplants, [PAWN_nameDef] va optar per un estil de vida sense violència i es va dedicar a ajudar la gent.\n\nViatjant d’una comunitat a una altra, feia servir la medicina, l’art i els treballs manuals per a ajudar altres persones a desfer-se de la seva addicció.</desc>
   </AddictionCounsel60>
   
   <Adventurer19>
@@ -137,7 +137,7 @@
     <titleShort>aventurer</titleShort>
     <titleShortFemale>aventurera</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was raised to become an engineer. For years, [PAWN_pronoun] planned to stow away on a cargo ship and start a new, more adventuresome life.\n\nOne night, after [PAWN_possessive] parents fell asleep, [PAWN_pronoun] managed to sneak on board a cargo ship just before it left port. -->
-    <desc>[PAWN_nameDef] va rebre l’educació necessària per ser treballar com a {PAWN_gender ? enginyer : enginyera}. Durant molt temps va planejar viatjar de poliss{PAWN_gender ? ó : ona} en un vaixell de càrrega i començar una vida d’aventures.\n\nUna nit, va esperar que els seus pares s’adormissin i va aconseguir colar-se en un vaixell de càrrega just abans que salpés del port.</desc>
+    <desc>[PAWN_nameDef] va rebre l’educació necessària per a treballar com a {PAWN_gender ? enginyer : enginyera}. Durant molt temps va planejar viatjar de {PAWN_gender ? polissó : polissona} en un vaixell de càrrega i començar una vida d’aventures.\n\nUna nit, va esperar a que els seus pares s’adormissin i es va colar en un vaixell de càrrega just abans que salpés del port.</desc>
   </AdventuringChild30>
   
   <AdventurousWeirdo55>
@@ -148,7 +148,7 @@
     <titleShort>aventurer</titleShort>
     <titleShortFemale>aventurera</titleShortFemale>
     <!-- EN: A creative but strange individual, [PAWN_nameDef] dedicated [PAWN_possessive] life to [PAWN_possessive] twin passions of medieval world history and high technology.\n\n[PAWN_pronoun] was fascinated by the idea of becoming a 'skyknight' with glittering armor and a giant sword. -->
-    <desc>[PAWN_nameDef] era {PAWN_gender ? un paio : una paia} creati{PAWN_gender ? u : va} i estran{PAWN_gender ? y : ya} que va dedicar la vida a les seves dues passions: la història medieval i la tecnologia avançada.\n\nEstava fascina{PAWN_gender ? t : da} amb la idea de convertir-se en {PAWN_gender ? un : una} «Cavalle{PAWN_gender ? r : ra} espacial» amb una armadura brillant i una espasa enorme.</desc>
+    <desc>[PAWN_nameDef] era {PAWN_gender ? un paio : una paia} {PAWN_gender ? creatiu : creativa} i {PAWN_gender ? estrany : estranya} que va dedicar la vida a les seves dues passions: la història medieval i la tecnologia avançada.\n\nEstava {PAWN_gender ? fascinat : fascinada} amb la idea de convertir-se en {PAWN_gender ? un : una} «Cavalle{PAWN_gender ? «Cavaller : «Cavallera} espacial» amb una armadura brillant i una espasa enorme.</desc>
   </AdventurousWeirdo55>
   
   <AdventurousYouth70>
@@ -170,7 +170,7 @@
     <titleShort>enginyer</titleShort>
     <titleShortFemale>enginyera</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was an engineer responsible for the production of aircraft and spaceships. [PAWN_pronoun] focused on improving production lines, and was known for [PAWN_possessive] mastery of technical and research issues. -->
-    <desc>[PAWN_nameDef] va ser {PAWN_gender ? un enginyer : una enginyera} responsable de la producció d’avions i naus espacials. Es va dedicar a la millora de les línies de producció, i {PAWN_gender ? se’l : se la} coneixia pel seu domini dels aspectes tècnics i la investigació.</desc>
+    <desc>[PAWN_nameDef] fou {PAWN_gender ? el : la} responsable d'enginyeria de la producció d’avions i naus espacials. Es va dedicar a la millora de les línies de producció, i {PAWN_gender ? se’l : se la} coneixia pel seu domini dels aspectes tècnics i la investigació.</desc>
   </AerospaceEngineer44>
   
   <AIProgrammer22>
@@ -181,7 +181,7 @@
     <titleShort>programador</titleShort>
     <titleShortFemale>programadora</titleShortFemale>
     <!-- EN: [PAWN_nameDef] enlisted in the military's robotics division, developing smarter combat AI.\n\nThe whole time [PAWN_pronoun] was there, [PAWN_pronoun] never spoke with another human. [PAWN_pronoun] spent all [PAWN_possessive] time conversing with the AI [PAWN_pronoun] was developing. -->
-    <desc>[PAWN_nameDef] es va allistar a la divisió militar de robòtica per desenvolupar les IA de combat.\n\nDurant el temps que hi va ser, no va parlar mai amb cap persona. Es passava el dia xerrant amb les IA que desenvolupava.</desc>
+    <desc>[PAWN_nameDef] es va allistar a la divisió militar de robòtica per a desenvolupar les IA de combat.\n\nDurant el temps que hi va ser, no va parlar mai amb cap persona. Es passava el dia xerrant amb les IA que desenvolupava.</desc>
   </AIProgrammer22>
   
   <AIResearcher94>
@@ -192,7 +192,7 @@
     <titleShort>investigador</titleShort>
     <titleShortFemale>investigadora</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a renowned researcher in artificial intelligence, robotics, and interactive holography. [PAWN_possessive] friendships with the artificial minds [PAWN_pronoun] created gave [PAWN_objective] the confidence to interact with real people, and [PAWN_pronoun] soon excelled at personal communication. -->
-    <desc>[PAWN_nameDef] feia investigacions innovadores sobre intel·ligència artificial, robòtica i holografia interactiva. Les amistats que va crear amb cervells d’intel·ligència artificial li van donar prou autoconfiança per interactuar amb gent real i ben aviat va excel·lir en comunicacions interpersonals.</desc>
+    <desc>[PAWN_nameDef] feia investigacions innovadores sobre intel·ligència artificial, robòtica i holografia interactiva. Les amistats que va crear amb cervells d’intel·ligència artificial li van donar prou autoconfiança per a interactuar amb gent real i ben aviat va excel·lir en comunicacions interpersonals.</desc>
   </AIResearcher94>
   
   <AlcoholicTrucker93>
@@ -203,7 +203,7 @@
     <titleShort>transportista</titleShort>
     <titleShortFemale>transportista</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a space trucker working for Arcknight Industries when [PAWN_pronoun] killed [PAWN_possessive] wife and daughter in a crash.\n\n[PAWN_possessive] body was repaired with an experimental nano-genetic therapy. Now [PAWN_possessive] muscles continually regenerate and harden, and every movement tears the tissue anew. [PAWN_pronoun] bears the pain in silence. -->
-    <desc>[PAWN_nameDef] era {PAWN_gender ? un : una} transportista espacial que treballava per Indústries Argonàutiques quan va matar la seva parella i la seva filla en un accident de trànsit.\n\nVan reparar-li el cos amb una teràpia experimental de nanogenètica. Ara els músculs se li regeneren i endureixen contínuament i a cada moviment se li esquinça el teixit per generar-ne de nou. Suporta el dolor en silenci.</desc>
+    <desc>[PAWN_nameDef] era {PAWN_gender ? un : una} transportista espacial que treballava per a Indústries Argonàutiques quan van matar la seva parella i la seva filla en un accident de trànsit.\n\nVan reparar-li el cos amb una teràpia experimental de nanogenètica. Ara, els músculs se li regeneren i se li endureixen contínuament; a cada moviment que fa, se li esquinça el teixit per generar-ne de nou. Suporta el dolor en silenci.</desc>
   </AlcoholicTrucker93>
   
   <AmateurAstronomer77>
@@ -214,7 +214,7 @@
     <titleShort>astrònom</titleShort>
     <titleShortFemale>astrònoma</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was fascinated with astronomy. [PAWN_pronoun] would spend hours gazing at planets and nebulae through [PAWN_possessive] telescope.\n\n[PAWN_pronoun] is credited with discovering a small comet that would, years later, strike a nearby moon and disrupt the mining operations there. -->
-    <desc>[PAWN_nameDef] estava fascina{PAWN_gender ? t : da} per l’astronomia. Es podia passar hores mirant els planetes i les nebuloses pel telescopi.\n\nSe li va reconèixer el descobriment d’un petit cometa que s’hauria estavellat contra una lluna propera al cap dels anys i pertorbat els treballs de mineria que s’hi feien.</desc>
+    <desc>[PAWN_nameDef] estava {PAWN_gender ? fascinat : fascinada} per l’astronomia. Es podia passar hores mirant els planetes i les nebuloses pel telescopi.\n\nSe li va reconèixer el descobriment d’un petit cometa que s’hauria estavellat contra una lluna propera al cap dels anys i que hauria pertorbat els treballs de mineria que s’hi feien.</desc>
   </AmateurAstronomer77>
   
   <AmateurBotanist79>
@@ -225,7 +225,7 @@
     <titleShort>botànic</titleShort>
     <titleShortFemale>botànica</titleShortFemale>
     <!-- EN: Spending many summers crawling through dirt, [PAWN_nameDef] found [PAWN_pronoun] had quite the green thumb. Instead of learning to cook the food [PAWN_pronoun] grew, [PAWN_pronoun] just grew more and more. -->
-    <desc>Després dels estius passats gatejant per la terra, [PAWN_nameDef] va adonar-se que tenia traça amb les plantes. En comptes d’aprendre a cuinar el que cultivava, simplement en cultivava més i més.</desc>
+    <desc>Després dels estius en què remenava la terra del jardí, [PAWN_nameDef] va adonar-se que tenia traça amb les plantes. En comptes d’aprendre a cuinar el que aconseguia de l'hort, simplement en cultivava més i més.</desc>
   </AmateurBotanist79>
   
   <AmateurEngineer3>
@@ -245,7 +245,7 @@
     <!-- EN: anarchist -->
     <titleShort>anarquista</titleShort>
     <!-- EN: After being abandoned on a special operation, [PAWN_nameDef] swore vengeance upon the state. [PAWN_pronoun] formed an anarchist group dedicated to bringing down coreworld governments.\n\nAfter too many close calls, and too few successes, [PAWN_nameDef] fled to the outer rim. -->
-    <desc>Després de ser abandona{PAWN_gender ? t : da} en una operació especial, [PAWN_nameDef] va jurar venjança contra l’estat. Va formar un grup anarquista dedicat a ensorrar els governs del món.\n\nDesprés de massa fugides pels pèls, i pocs èxits, [PAWN_nameDef] va fugir cap als voramons, els planetes frontera.</desc>
+    <desc>Després de ser {PAWN_gender ? abandonat : abandonada} en una operació especial, [PAWN_nameDef] va jurar venjança contra l’estat. Va formar un grup anarquista dedicat a ensorrar els governs del món.\n\nDesprés de massa fugides pels pèls, i pocs èxits, [PAWN_nameDef] va fugir cap als voramons, els planetes frontera.</desc>
   </AnarchistRebel77>
   
   <AngryStudent88>
@@ -266,7 +266,7 @@
     <titleShort>cuidador</titleShort>
     <titleShortFemale>cuidadora</titleShortFemale>
     <!-- EN: Born on a medieval farm, [PAWN_nameDef] was tasked with caring for domestic animals. [PAWN_pronoun] grew to love them.\n\nWith time, [PAWN_pronoun] learned to tame wild animals. [PAWN_pronoun] dreamed of one day meeting a thrumbo and taming it. -->
-    <desc>Nascut en una granja mediaval, [PAWN_nameDef] s’encarregava de cuidar els animals domèstics. Va créixer estimant-los.\n\nAmb el temps, va aprendre a domesticar animals salvatges. Somiava poder domesticar un trumbe.</desc>
+    <desc>{PAWN_gender ? Nascut : Nascuda} en una granja mediaval, [PAWN_nameDef] s’encarregava de cuidar els animals domèstics. Va créixer estimant-los.\n\nAmb el temps, va aprendre a domesticar animals salvatges. Somiava poder domesticar un trumbe.</desc>
   </AnimalCaretaker20>
   
   <AnimalFarmer21>
@@ -298,7 +298,7 @@
     <!-- EN: antisocial -->
     <titleShort>antisocial</titleShort>
     <!-- EN: [PAWN_nameDef] lacked typical social skills, and avoided social interaction.\n\n[PAWN_pronoun] gained satisfaction only from steady work. [PAWN_pronoun] especially disliked speaking with overly creative or outgoing individuals. -->
-    <desc>[PAWN_nameDef] no tenia les habilitats socials típiques i evitava la interacció amb altra gent.\n\nNomés trobava plaer en la concentració del treball. Es trobava particularment incòmod{PAWN_gender ? e : a} amb gent massa creativa o molt extravertida.</desc>
+    <desc>[PAWN_nameDef] no tenia les habilitats socials típiques i evitava la interacció amb altra gent.\n\nNomés trobava plaer en la concentració del treball. Es trobava particularment {PAWN_gender ? incòmode : incòmoda} amb gent massa creativa o molt extravertida.</desc>
   </AntisocialChild83>
   
   <ApocalypseChild23>
@@ -309,7 +309,7 @@
     <titleShort>apocalíptic</titleShort>
     <titleShortFemale>apocalíptica</titleShortFemale>
     <!-- EN: [PAWN_nameDef] spent [PAWN_possessive] childhood on a post-apocalyptic world. [PAWN_pronoun] fought for survival from a young age, on a planet where trust did not exist.\n\n[PAWN_pronoun] told everyone that [PAWN_pronoun] had no luck. -->
-    <desc>[PAWN_nameDef] va viure la seva infantesa en un planeta postapocalíptic. Des de peti{PAWN_gender ? t : ta} va lluitar per sobreviure en un planeta on no es podia confiar en ningú.\n\nSempre explicava a tothom que no havia tingut sort.</desc>
+    <desc>[PAWN_nameDef] va viure la seva infantesa en un planeta postapocalíptic. Va lluitar des de {PAWN_gender ? petit : petita} per a sobreviure en un planeta on no es podia confiar en ningú.\n\nSempre explicava a tothom que no havia tingut sort.</desc>
   </ApocalypseChild23>
   
   <ApocalypseSurvivor23>
@@ -318,7 +318,7 @@
     <!-- EN: survivor -->
     <titleShort>supervivent</titleShort>
     <!-- EN: [PAWN_nameDef] was born during a time of unrest on [PAWN_possessive] homeworld, as climate change threatened mass starvation and flooding. As [PAWN_pronoun] grew up the situation worsened - billions died and peaceful states descended into anarchy. [PAWN_nameDef] and [PAWN_possessive] parents did whatever they had to to survive. -->
-    <desc>[PAWN_nameDef] va nàixer en una època convulsa al seu planeta, quan el canvi climàtic provocava inundacions i manca d’aliments. A mesura que es feia gran, la situació empitjorava. Les persones morien a bilions i les nacions eren regides per l’anarquia. [PAWN_nameDef] i els seus pares van fer tot el que van poder per a sobreviure.</desc>
+    <desc>[PAWN_nameDef] va nàixer en una època convulsa del seu planeta, quan el canvi climàtic provocava inundacions i manca d’aliments. A mesura que es feia gran, la situació empitjorava. Les persones morien a bilions i les nacions eren regides per l’anarquia. [PAWN_nameDef] i els seus pares van fer tot el que van poder per a sobreviure.</desc>
   </ApocalypseSurvivor23>
   
   <ApprenticeOracle83>
@@ -327,7 +327,7 @@
     <!-- EN: oracle -->
     <titleShort>oracle</titleShort>
     <!-- EN: [PAWN_nameDef] was chosen at an early age by the village elders to keep the sacred rituals of the Oracle.\n\nAn irrepressibly curious child, [PAWN_nameDef] caused a religious crisis for [PAWN_possessive] tribe when [PAWN_pronoun] accidentally flipped a switch to open the "tombs" of the Gods - cryptosleep caskets inhabited by some very confused ancestors. -->
-    <desc>[PAWN_nameDef] va ser escollida de ben peti{PAWN_gender ? t : ta} per mantenir els rituals sagrats de l’Oracle.\n\nCom que era {PAWN_gender ? un nen : una nena} irremissiblement curi{PAWN_gender ? ós : osa}, va causar una crisi religiosa a la seva tribu quan va tocar accidentalment el botó que obria els «sarcòfags» dels déus: uns sarcòfags de criptoson ocupats per uns avantpassats que es van despertar molt confosos.</desc>
+    <desc>[PAWN_nameDef] va ser {PAWN_gender ? escollit : escollida} de ben {PAWN_gender ? petit : petita} per a mantenir els rituals sagrats de l’Oracle.\n\nCom que era {PAWN_gender ? un nen : una nena} irremissiblement {PAWN_gender ? curiós : curiosa}, va causar una crisi religiosa a la seva tribu quan va tocar accidentalment el botó que obria els «sarcòfags» dels déus: uns sarcòfags de criptoson ocupats per uns avantpassats que es van despertar molt confosos.</desc>
   </ApprenticeOracle83>
   
   <ApprenticeSmith37>
@@ -338,7 +338,7 @@
     <titleShort>aprenent</titleShort>
     <titleShortFemale>aprenenta</titleShortFemale>
     <!-- EN: [PAWN_nameDef] grew up helping in [PAWN_possessive] father's smithy.\n\nThey were some of the last smiths on the planet that to use traditional smithing methods. They even collect some materials themselves.\n\nSometimes, after work, [PAWN_nameDef] would practice using the swords [PAWN_pronoun] forged. -->
-    <desc>[PAWN_nameDef] va créixer ajudant a la forja del seu pare.\n\nEren uns dels últims ferrers del planeta que encara empraven els mètodes tradicionals. Fins i tot excavaven el seu propi material.\n\nA vegades, després de la feina, [PAWN_nameDef] practicava amb les espases que havia forjat.</desc>
+    <desc>[PAWN_nameDef] va créixer ajudant a la forja del seu pare.\n\nEren els últims ferrers del planeta que encara empraven els mètodes tradicionals. Fins i tot excavaven el seu propi material.\n\nA vegades, després de la feina, [PAWN_nameDef] practicava amb les espases que havia forjat.</desc>
   </ApprenticeSmith37>
   
   <Archaeologist85>
@@ -349,7 +349,7 @@
     <titleShort>explorador</titleShort>
     <titleShortFemale>exploradora</titleShortFemale>
     <!-- EN: [PAWN_pronoun] was trapped in an uninspired life. One day, [PAWN_pronoun] jumped on a ship to learn archaeology and see the universe.\n\n[PAWN_pronoun] learned how to survive. [PAWN_pronoun] also learned about people - although [PAWN_pronoun] understood the dead better than the living. -->
-    <desc>[PAWN_nameDef] estava atrapa{PAWN_gender ? t : da} en una vida poc inspiradora. Un dia es va embarcar en una nau per estudiar arqueologia i veure l’univers.\n\nVa aprendre a sobreviure. També va aprendre coses sobre les persones, però va aprendre més coses dels morts que dels vius.</desc>
+    <desc>[PAWN_nameDef] estava {PAWN_gender ? atrapat : atrapada} en una vida mundana. Un dia es va embarcar en una nau per a estudiar arqueologia i veure l’univers.\n\nVa aprendre a sobreviure. També va aprendre coses sobre les persones, però va aprendre més coses dels morts que no pas dels vius.</desc>
   </Archaeologist85>
   
   <Archer25>
@@ -380,7 +380,7 @@
     <!-- EN: aI spy -->
     <titleShort>espia d’IA</titleShort>
     <!-- EN: [PAWN_nameDef] was a cybernetic researcher. Studying a transcended world, [PAWN_pronoun] became too involved with [PAWN_possessive] subjects. Over time, the archotech recruited [PAWN_objective] into its service, and used [PAWN_objective] as a spy.\n\nWhen [PAWN_pronoun] later rebelled against [PAWN_possessive] inhuman master, it sent mechanoids across space to hunt [PAWN_objective] down. -->
-    <desc>[PAWN_nameDef] era {PAWN_gender ? un investigador : una investigadora} de la cibernètica. Mentre estudiava un planeta transcendit, es va relacionar massa amb els subjectes. Amb el temps, un nucli de màquines arcotecnològiques {PAWN_gender ? el : la} va convèncer per treballar per a la seva causa i {PAWN_gender ? el : la} va fer servir d’espia.\n\nQuan es va rebel·lar contra el seu cap no-humà, va enviar mecanoides a l’espai per perseguir-lo.</desc>
+    <desc>[PAWN_nameDef] era {PAWN_gender ? un investigador : una investigadora} de la cibernètica. Mentre estudiava un planeta transcendit, es va relacionar massa amb els subjectes. Amb el temps, un nucli de màquines arcotecnològiques {PAWN_gender ? el : la} va convèncer per a treballar per a la seva causa i {PAWN_gender ? el : la} va fer servir d’espia.\n\nQuan es va rebel·lar contra el seu cap no-humà, va enviar mecanoides a l’espai per perseguir-{PAWN_gender ? lo : la}.</desc>
   </ArchotechSpy75>
   
   <ArmyCommander14>
@@ -391,7 +391,7 @@
     <titleShort>comandant</titleShort>
     <titleShortFemale>comandanta</titleShortFemale>
     <!-- EN: Unquenchable ambition propelled [PAWN_nameDef] to the highest levels of military command.\n\n[PAWN_pronoun] satisfied [PAWN_objective]self with the power to order death and pain upon [PAWN_possessive] enemies - and upon [PAWN_possessive] own soldiers. -->
-    <desc>La seva ambició insaciable va fer arribar [PAWN_nameDef] als més alts nivells de la jerarquia militar.\n\nEl poder que tenia el feia servir per satisfer els seus desitjos de matar i infligir dolor als enemics i als seus propis soldats.</desc>
+    <desc>L'ambició insaciable va fer arribar [PAWN_nameDef] als més alts nivells de la jerarquia militar.\n\nEl poder que tenia el feia servir per a satisfer els seus desitjos de matar i infligir dolor als enemics i als seus propis soldats.</desc>
   </ArmyCommander14>
   
   <ArmyCook0>
@@ -442,7 +442,7 @@
     <titleShort>estafador</titleShort>
     <titleShortFemale>estafadora</titleShortFemale>
     <!-- EN: [PAWN_nameDef] grew up on one of the urbworlds and had to fend for [PAWN_objective]self all [PAWN_possessive] life. [PAWN_pronoun] never trusted anyone, relying on [PAWN_possessive] persuasiveness and cunning to survive.\n\n[PAWN_pronoun] soon became skilled with firearms and knives as well as words. -->
-    <desc>[PAWN_nameDef] va créixer en un urbamón i va haver de defensar-se tota la vida. No es fiava en ningú. Feia servir els seus dots persuasius i el seu enginy per sobreviure.\n\nVa aconseguir molta experiència tant amb les armes de foc i els ganivets com amb les paraules.</desc>
+    <desc>[PAWN_nameDef] va créixer en un urbamón i va haver de defensar-se tota la vida. No es fiava de ningú. Feia servir els seus dots persuasius i el seu enginy per a sobreviure.\n\nVa aconseguir molta experiència tant amb les armes de foc i els ganivets com amb les paraules.</desc>
   </ArtfulDodger78>
   
   <ArtifactHunter48>
@@ -453,7 +453,7 @@
     <titleShort>artefacter</titleShort>
     <titleShortFemale>artefactera</titleShortFemale>
     <!-- EN: [PAWN_nameDef] became depressed and lost interest in life. [PAWN_pronoun] travelled from planet to planet, searching for psychic artifacts amid mechanoid ruins in the hope that they would cure the pain in [PAWN_possessive] soul.\n\nA steady trigger finger and careful planning kept [PAWN_nameDef] alive. -->
-    <desc>[PAWN_nameDef] es va deprimir i va perdre l’interès per la vida. Viatjava d’un planeta a un altre buscant artefactes físics i trossos de mecanoides amb l’esperança que l’ajudaria a apaivagar el dolor de la seva ànima.\n\nUn dit del gatell fiable i una planificació acurada {PAWN_gender ? el : la} van mantenir {PAWN_gender ? viu : viva}.</desc>
+    <desc>[PAWN_nameDef] patí una depressió i va perdre l’interès per la vida. Viatjava d’un planeta a un altre buscant artefactes físics i trossos de mecanoides amb l’esperança que {PAWN_gender ? el : la} podrien ajudar a apaivagar el dolor de la seva ànima.\n\nUn gatell fàcil i una planificació acurada {PAWN_gender ? el : la} van mantenir {PAWN_gender ? viu : viva}.</desc>
   </ArtifactHunter48>
   
   <ArtificerRampant95>
@@ -464,7 +464,7 @@
     <titleShort>artificier</titleShort>
     <titleShortFemale>artificiera</titleShortFemale>
     <!-- EN: Fuelled by the thrill of discovery and [PAWN_possessive] own megalomania, [PAWN_nameDef] set out to invent new devices and improve existing ones, breaking laws and customs as necessary.\n\n[PAWN_pronoun] formed a crew to gather materials for [PAWN_possessive] work - and to deal with outsiders who might interfere. -->
-    <desc>{PAWN_gender ? Alimentat : Alimentada} per la passió per la recerca i la megalomania, [PAWN_nameDef] va començar a inventar coses noves i millorar les que ja existien, trencant lleis i costums allà on fos necessari.\n\nVa formar un equip que buscava materials per als seus treballs i per lidiar amb qualsevol que hi volgués interferir.</desc>
+    <desc>{PAWN_gender ? Alimentat : Alimentada} per la passió per la recerca i la megalomania, [PAWN_nameDef] va començar a inventar coses noves i millorar les que ja existien, trencant lleis i costums allà on fos necessari.\n\nVa formar un equip que buscava materials per als seus treballs i per a lidiar amb qualsevol que hi volgués interferir.</desc>
   </ArtificerRampant95>
   
   <Artilleryman28>
@@ -476,7 +476,7 @@
     <titleShort>artiller</titleShort>
     <titleShortFemale>artillera</titleShortFemale>
     <!-- EN: [PAWN_nameDef] loaded shells and aimed artillery to pound [PAWN_possessive] army's enemies from afar. -->
-    <desc>[PAWN_nameDef] carregava els míssils i apuntava les armes per atacar els enemics del seu exèrcit des de lluny.</desc>
+    <desc>[PAWN_nameDef] carregava els míssils i apuntava les armes per a atacar els enemics del seu exèrcit des de lluny.</desc>
   </Artilleryman28>
   
   <ArtisanFarmer23>
@@ -487,7 +487,7 @@
     <titleShort>granger</titleShort>
     <titleShortFemale>grangera</titleShortFemale>
     <!-- EN: [PAWN_nameDef] grew up on a [PAWN_possessive] family's glitterworld farm. They were one of the last farms on the planet that preferred traditional farming methods to glitterworld technology. -->
-    <desc>[PAWN_nameDef] va créixer a la granja familiar que tenia en un brillamón. Era una de les poques granges del planeta que preferia els mètodes tradicionals als mètodes tecnològics dels brillamons.</desc>
+    <desc>[PAWN_nameDef] va créixer a la granja familiar que tenia en un brillamón. Era una de les poques granges del planeta que preferia els mètodes tradicionals als mètodes tecnològics.</desc>
   </ArtisanFarmer23>
   
   <ArtisticWeirdo56>
@@ -497,7 +497,7 @@
     <!-- EN: weirdo -->
     <titleShort>artista</titleShort>
     <!-- EN: [PAWN_nameDef] grew up in a house near a bustling midworld metropolis.\n\n[PAWN_pronoun] was talented at art and creative work, but often acted strangely, and thus had few friends. -->
-    <desc>[PAWN_nameDef] va créixer en una casa propera a una bulliciosa metròpoli d’un migmón.\n\nL’art i les feines creatives se li donaven bé, però es comportava de manera estranya i tenia pocs amics.</desc>
+    <desc>[PAWN_nameDef] va créixer en una casa propera a la bulliciosa metròpoli d’un migmón.\n\nL’art i les feines creatives se li donaven bé, però es comportava de manera estranya i tenia pocs amics.</desc>
   </ArtisticWeirdo56>
   
   <ArtSlave57>
@@ -507,7 +507,7 @@
     <!-- EN: artist -->
     <titleShort>artista</titleShort>
     <!-- EN: [PAWN_nameDef] was born on the dark edge of a tidally-locked urbworld. After an argument, [PAWN_possessive] father sold [PAWN_objective] to a local district lord as a slave artist.\n\nForced to create art or be punished, [PAWN_pronoun] withdrew and became unable to form relations with others. -->
-    <desc>[PAWN_nameDef] va nàixer al cantó fosc d’un urbamón molt tancat. Després d’una discussió, el seu pare {PAWN_gender ? el : la} va vendre al senyor del districte local com a esclau artista.\n\nCom que el forçaven a crear art o el castigaven, es va abandonar a sí mateix i ja no era capaç de mantenir relacions amb els demès.</desc>
+    <desc>[PAWN_nameDef] va nàixer al cantó fosc d’un urbamón molt tancat. Després d’una discussió, el seu pare va vendre al senyor del districte local com a artista {PAWN_gender ? esclau : esclava}.\n\nCom que el forçaven a crear art o el castigaven, es va abandonar a sí mateix i ja no era capaç de mantenir relacions amb els demès.</desc>
   </ArtSlave57>
   
   <ArtsPatron54>
@@ -516,7 +516,7 @@
     <!-- EN: patron -->
     <titleShort>mecenes</titleShort>
     <!-- EN: [PAWN_nameDef] managed [PAWN_possessive] family's investments in the arts.\n\n[PAWN_pronoun] chose artists to patronize and worked with them to produce the expressions that most glorify [PAWN_possessive] family, the Imperial church, and the Empire itself. -->
-    <desc>[PAWN_nameDef] gestionava les inversions familiars en art.\n\nTriava els artistes que volia patrocinar i treballava amb ells per produir obres d’art que glorificaven la seva família, l’Església Imperial, i a l’Imperi.</desc>
+    <desc>[PAWN_nameDef] gestionava les inversions familiars en art.\n\nTriava els artistes que volia patrocinar i treballava amb ells per a produir obres d’art que glorificaven la seva família, l’Església Imperial i a l’Imperi.</desc>
   </ArtsPatron54>
   
   <ArtStudent79>
@@ -525,7 +525,7 @@
     <!-- EN: artist -->
     <titleShort>artista</titleShort>
     <!-- EN: After years of practice, Freya was able to enrol into an art university and take her skills further. She sought art industry work after graduating with good grades. She made some progress with private commissions, managing to make a decent living from heart. -->
-    <desc>Després d’anys de pràctica, [PAWN_nameDef] va entrar a la universitat d’art per millorar les seves habilitats. Va buscar feina a la indústria de les arts després de graduar-se amb bones notes. Amb molt d’esforç, va progressar amb l’ajut de mecenes i va aconseguir viure decentment amb la seva feina.</desc>
+    <desc>Després d’anys de pràctica, [PAWN_nameDef] va entrar a la universitat d’art per a millorar les seves habilitats. Va buscar feina a la indústria artística després de graduar-se amb bones notes. Amb molt d’esforç i l'ajut de mecenes, va progressar i va aconseguir viure decentment de la seva feina.</desc>
   </ArtStudent79>
   
   <AsceticPriest84>
@@ -536,7 +536,7 @@
     <titleShort>sacerdot</titleShort>
     <titleShortFemale>sacerdotessa</titleShortFemale>
     <!-- EN: After taking a vow of silence, [PAWN_nameDef] joined a monastery to spend [PAWN_possessive] days in quiet contemplation.\n\n[PAWN_pronoun] found happiness growing vegetables in the garden and making cheese in the monastery cellars. -->
-    <desc>Després de fer vot de silenci, [PAWN_nameDef] va ingressar en un monestir d’un pacífic planeta llunyà on va passar els dies de contemplació tranquil·la.\n\n[PAWN_pronoun] va descobrir la felicitat cuidant les verdures del jardí i fent formatge al celler del monestir.</desc>
+    <desc>Després de fer vot de silenci, [PAWN_nameDef] va ingressar en un monestir d’un planeta llunyà pacífic, on passava una vida de contemplació tranquil·la.\n\n[PAWN_pronoun] va descobrir la felicitat amb coses tan simples com cuidar les verdures del jardí o fer formatge al celler del monestir.</desc>
   </AsceticPriest84>
   
   <AspergersRebel13>
@@ -565,7 +565,7 @@
     <!-- EN: student -->
     <titleShort>estudiant</titleShort>
     <!-- EN: The daughter of an engineer and doctor, [PAWN_nameDef]'s early life was intellectually rich. After visiting a physics lab, [PAWN_pronoun] decided [PAWN_pronoun] wanted to be a quantum physicist.\n\nBitten by a camel, kicked off a horse, and chased by dogs, [PAWN_nameDef] developed a fear of animals. -->
-    <desc>{PAWN_gender ? Fill : Filla} d’una enginyera i un metge, els primers anys de vida de [PAWN_nameDef] van ser intel·lectualment molt rics. Després de visitar un laboratori de física, va decidir que volia ser {PAWN_gender ? físic quàntic : física quàntica}.\n\nCom que li va mossegar un camell, un cavall li va tirar una guitza i uns gossos {PAWN_gender ? el : la} van perseguir, [PAWN_nameDef] va acabar sentint pànic pels animals.</desc>
+    <desc>{PAWN_gender ? Fill : Filla} d’una enginyera i un metge, els primers anys de vida de [PAWN_nameDef] van ser intel·lectualment molt rics. Després de visitar un laboratori de física, va decidir que volia ser {PAWN_gender ? físic quàntic : física quàntica}.\n\nCom que li va mossegar un camell, un cavall li va etzibar una guitza i uns gossos {PAWN_gender ? el : la} van perseguir, [PAWN_nameDef] sentia pànic pels animals.</desc>
   </AspiringPhysicist47>
   
   <AspiringPopIdol28>
@@ -574,7 +574,7 @@
     <!-- EN: pop idol -->
     <titleShort>ídol del pop</titleShort>
     <!-- EN: [PAWN_nameDef] was being trained in song and dance to become the next big pop idol. [PAWN_pronoun] grew up being taken care of by company handlers.\n\n[PAWN_pronoun] never knew manual labor, but learned a lot about music and social etiquette. -->
-    <desc>A [PAWN_nameDef] {PAWN_gender ? el : la} van educar en música i dansa per convertir-se en una estrella del pop. Els responsables d’aquesta educació eren els propietaris d’una companyia musical.\n\nNo va fer mai cap treball manual, però va aprendre molt de música i comportament social.</desc>
+    <desc>A [PAWN_nameDef] {PAWN_gender ? el : la} van educar en música i dansa per a convertir-se en una estrella del pop. Els responsables d’aquesta educació eren els propietaris d’una companyia musical.\n\nNo va fer mai cap treball manual, però va aprendre molt de música i comportament social.</desc>
   </AspiringPopIdol28>
   
   <Assassin20>
@@ -596,7 +596,7 @@
     <titleShort>assassí</titleShort>
     <titleShortFemale>assassina</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was specially trained as an operative to be used for high-risk assassinations. [PAWN_possessive] skill with a rifle was unrivalled.\n\n[PAWN_pronoun] was eventually betrayed by [PAWN_possessive] superiors when a target found out about the hit and offered to fund their future projects. [PAWN_nameDef] swore to never trust anyone again. -->
-    <desc>A [PAWN_nameDef] {PAWN_gender ? el : la} van entrenar per a ser {PAWN_gender ? un operatiu : una operativa} d’assassinats d’alt risc. La seva habilitat amb el rifle no tenia rival.\n\n{PAWN_gender ? El : La} van acabar traint els seus superiors quan un objectiu va descobrir que el volien matar i li va oferir finançar els seus projectes futurs. [PAWN_nameDef] va jurar que no confiaria en ningú mai més.</desc>
+    <desc>A [PAWN_nameDef] {PAWN_gender ? el : la} van entrenar per a ser {PAWN_gender ? un operatiu : una operativa} d’assassinats d’alt risc. La seva habilitat amb el rifle no tenia rival.\n\n{PAWN_gender ? El : La} van acabar traint els seus superiors quan un objectiu va descobrir que el volien matar i els va oferir finançar els seus projectes futurs. [PAWN_nameDef] va jurar que no confiaria en ningú mai més.</desc>
   </Assassin7>
   
   <Assembler69>
@@ -616,7 +616,7 @@
     <!-- EN: athlete -->
     <titleShort>atleta</titleShort>
     <!-- EN: [PAWN_nameDef] was professional athlete at early age. Thanks to [PAWN_possessive] skills, [PAWN_pronoun] was able to leave [PAWN_possessive] homeworld and enroll in a glitterworld university of science and technology.\n\nBecause of [PAWN_possessive] demanding schedule and introverted nature, [PAWN_pronoun] became socially inept. -->
-    <desc>[PAWN_nameDef] era atleta professional des de ben jove. Gràcies a les seves capacitats, va poder sortir del seu planeta i entrar a una universitat de ciència i tecnologia en un brillamón.\n\nPer culpa de la seva densa agenda d’entrenaments i la seva timidesa natural, era socialment inepte.</desc>
+    <desc>[PAWN_nameDef] era atleta professional des de ben jove. Gràcies a les seves capacitats, va poder sortir del seu planeta i entrà a una universitat de ciències i tecnologies en un brillamón.\n\nPer culpa de la seva densa agenda d’entrenaments i la seva timidesa natural, era socialment inepte.</desc>
   </Athlete47>
   
   <AwkwardNerd48>
@@ -637,7 +637,7 @@
     <titleShort>desertor</titleShort>
     <titleShortFemale>desertora</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was an infantryman.\n\nWhen [PAWN_pronoun] was informed of [PAWN_possessive] assignment to the Xennoa-Zartza War, [PAWN_pronoun] decided [PAWN_pronoun] did not want to be a soldier. [PAWN_pronoun] was able to escape via military spacejet. -->
-    <desc>[PAWN_nameDef] era soldat d’infanteria.\n\nQuan el van informar de la seva assignació a la guerra de Xennoa-Zartza, va decidir que ja no volia ser soldat. Va aconseguir escapar amb un coet militar.</desc>
+    <desc>[PAWN_nameDef] era soldat d’infanteria.\n\nQuan li van informar que estava {PAWN_gender ? assignat : assignada} a la guerra de Xennoa-Zartza, va decidir que ja no volia ser {PAWN_gender ? soldat : soldada}. Va aconseguir escapar amb un coet militar.</desc>
   </AWOLSoldier49>
   
   <BalletDancer81>
@@ -648,7 +648,7 @@
     <!-- EN: ballerina -->
     <titleShortFemale>ballarina</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a dancer in a traditional ballet troupe. [PAWN_pronoun] mastered the ancient motions and entertained thousands. -->
-    <desc>[PAWN_nameDef] era {PAWN_gender ? un ballarí : una ballarina} en un grup de ballet tradicional. Era {PAWN_gender ? un vertader expert : una vertadera experta} i entretenia milers de persones.</desc>
+    <desc>[PAWN_nameDef] era {PAWN_gender ? ballarí : ballarina} d'un grup de ballet tradicional. Era {PAWN_gender ? un vertader expert : una vertadera experta} i entretenia milers de persones.</desc>
   </BalletDancer81>
   
   <BanditLeader74>
@@ -680,7 +680,7 @@
     <titleShort>fugitiu</titleShort>
     <titleShortFemale>fugitiva</titleShortFemale>
     <!-- EN: [PAWN_nameDef] became the most physically intimidating of the slaves, spending [PAWN_possessive] little free time obsessively sculpting [PAWN_possessive] body. [PAWN_possessive] efforts eventually paid off when the lord offered [PAWN_objective] a job as a personal bodyguard.\n\nLater, when [PAWN_pronoun] plotted to use [PAWN_possessive] position to kill the lord and free the slaves, [PAWN_pronoun] was discovered and barely escaped with [PAWN_possessive] life. -->
-    <desc>[PAWN_nameDef] es va convertir en l’esclau físicament més intimidant. Dedicava el seu temps lliure a esculpir el seu cos de manera obsessiva. Els seus esforços es van veure recompensats amb un contracte com a guarda personal.\n\nMés tard, quan planejava fer servir la seva posició per matar el senyor i alliberar els esclaus, van descobrir les seves intencions i va haver de fugir.</desc>
+    <desc>[PAWN_nameDef] es va convertir en l’{PAWN_gender ? esclau : esclava} físicament més intimidant. Dedicava el seu temps lliure a esculpir el seu cos de manera obsessiva. Els seus esforços es van veure recompensats amb un contracte com a guarda personal.\n\nMés tard, quan planejava fer servir la seva posició per a matar el senyor i alliberar els esclaus, van descobrir les seves intencions i va haver de fugir.</desc>
   </BanishedSoldier85>
   
   <Bartender62>
@@ -691,7 +691,7 @@
     <titleShort>cambrer</titleShort>
     <titleShortFemale>cambrera</titleShortFemale>
     <!-- EN: [PAWN_nameDef] worked as a bartender in a seedy establishment. The job was one part drink-mixing, one part diplomacy, and one part head-bashing. -->
-    <desc>[PAWN_nameDef] treballava en un bar en una sòrdida estació espacial. La feina consistia a barrejar begudes, diplomàcia i trencar caps.</desc>
+    <desc>[PAWN_nameDef] treballava en un bar sòrdid. La feina consistia a barrejar begudes, ser diplomàtic i trencar caps.</desc>
   </Bartender62>
   
   <BattlefieldTech52>
@@ -702,7 +702,7 @@
     <titleShort>tècnic</titleShort>
     <titleShortFemale>tècnica</titleShortFemale>
     <!-- EN: [PAWN_nameDef] had received firearms training, but [PAWN_possessive] work was focused on technical adaptation and manipulation of combat mechanoids on the battlefield.\n\n[PAWN_pronoun] developed PTSD after narrowly escaping a primitive firebomb attack in a wheat field. The army medically discharged [PAWN_objective] from service. -->
-    <desc>[PAWN_nameDef] va rebre entrenament en armes de foc, però la seva feina se centrava en la seva manipulació i adaptació tècnica als mecanoides de combat en el camp de batalla.\n\nVa desenvolupar TEPT després d’escapar per molt poc d’un bombardeig en un camp de blat. Va ser descartat per al servei pels metges.</desc>
+    <desc>[PAWN_nameDef] va rebre entrenament en armes de foc, però la seva feina se centrava en la seva manipulació i adaptació tècnica dels mecanoides de combat en el camp de batalla.\n\nVa desenvolupar transtorn d'estrés posttraumàtic després d’escapar per molt poc d’un bombardeig en un camp de blat. Els metges {PAWN_gender ? el : la} van llicenciar del servei militar.</desc>
   </BattlefieldTech52>
   
   <BattleMechanic27>
@@ -713,7 +713,7 @@
     <titleShort>mecànic</titleShort>
     <titleShortFemale>mecànica</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a tech-obsessed mercenary in an early fusion-era system.\n\n[PAWN_pronoun] was unusually obsessed with gathering the right gear, and often customized [PAWN_possessive] own equipment with original modifications. -->
-    <desc>[PAWN_nameDef] era un mercenari obsessionat per la tecnologia en un sistema a l’inici de l’era de la fusió.\n\nEstava especialment obsessionat a aconseguir millorar el rendiment dels equips, i sovint feia modificacions enginyoses inventades per ell.</desc>
+    <desc>[PAWN_nameDef] era {PAWN_gender ? un mercenari obsessionat : una mercenària obsessionada} per la tecnologia a l’inici de l’era de la fusió del seu sistema estel·lar.\n\nEstava especialment {PAWN_gender ? obsessionat : obsessionada} en millorar el rendiment dels equips i sovint feia modificacions enginyoses inventades per {PAWN_gender ? ell mateix : ella mateixa}.</desc>
   </BattleMechanic27>
   
   <Beastmaster67>
@@ -724,7 +724,7 @@
     <titleShort>sr. de les bèsties</titleShort>
     <titleShortFemale>sra. de les bèsties</titleShortFemale>
     <!-- EN: [PAWN_nameDef]'s family had more children than they had proper titles to inherit. Being of low rank in the birth order, [PAWN_nameDef] was given the honorary title of beastmaster.\n\n[PAWN_nameDef] managed the family's extensive menagerie. While [PAWN_pronoun] never worked hands-on with the beasts, [PAWN_pronoun] connected with them. Few others appreciated [PAWN_objective] the way they did. -->
-    <desc>La família de [PAWN_nameDef] tenia més fills que títols. Com que {PAWN_gender ? ell : ella} era dels últims a la línia successòria, se li va donar el títol honorari de {PAWN_gender ? senyor : senyora} de les bèsties.\n\n[PAWN_nameDef] s’encarregava dels molts animals que tenia la família. Tot i que mai havia treballat de manera activa amb el bestiar, hi va connectar. Poca gent va apreciar el que va arribar a fer.\n\n</desc>
+    <desc>La família de [PAWN_nameDef] tenia més fills que títols. Com que {PAWN_gender ? ell : ella} era dels últims a la línia successòria, se li va donar el títol honorari de {PAWN_gender ? senyor : senyora} de les bèsties.\n\n[PAWN_nameDef] s’encarregava dels animals que tenia la família. Tot i que mai havia treballat de manera activa amb les bèsties, hi va connectar de primeres. Poca gent va apreciar el que va arribar a fer.\n\n</desc>
   </Beastmaster67>
   
   <BeastSlayer67>
@@ -746,7 +746,7 @@
     <titleShort>científic</titleShort>
     <titleShortFemale>científica</titleShortFemale>
     <!-- EN: Captured as a feral child, [PAWN_nameDef] was forced into the ways of modern society. [PAWN_pronoun] quickly adapted and became a behavioural researcher, eventually owning a private facility.\n\n[PAWN_pronoun] specialized in canines, but learned a great deal about all animals. [PAWN_pronoun] never had interest in plants, however. -->
-    <desc>Van capturar [PAWN_nameDef] i van forçar la seva introducció a la societat moderna. Es va adaptar de seguida i es va fer investigació del comportament i va arribar a crear les seves pròpies instal·lacions.\n\nEs va especialitzar en canins, però va prendre molt sobre la resta d’animals. Les plantes no li van interessar mai.</desc>
+    <desc>Van capturar [PAWN_nameDef] quan era {PAWN_gender ? un nen salvatge : una nena salvatge} i {PAWN_gender ? el : la} van introduir a la societat moderna. Es va adaptar de seguida, es va especialitzar en la investigació del comportament i va arribar a crear les seves pròpies instal·lacions.\n\nEra especialista en canins, però també va aprendre coses sobre la resta d’animals. Les plantes no li van interessar mai.</desc>
   </BehaviourResearch74>
   
   <BiosphereManager95>
@@ -757,7 +757,7 @@
     <titleShort>botànic</titleShort>
     <titleShortFemale>botànica</titleShortFemale>
     <!-- EN: [PAWN_nameDef] lived on a peaceful glitterworld where all menial work was done by robots and people devoted themselves to leisure. [PAWN_pronoun] managed the plant and animal life of a sprawling park, where citizens came to admire the natural beauty. -->
-    <desc>[PAWN_nameDef] vivia en un brillamón pacífic on la feina pesada la feien els robots i la gent tenia una vida relaxada. Gestionava la vida animal i vegetal d’un gran parc on anaven els ciutadans a gaudir de la bellesa de la natura.</desc>
+    <desc>[PAWN_nameDef] vivia en un brillamón pacífic on la feina pesada la feien els robots i la gent tenia una vida relaxada. Gestionava la vida animal i vegetal d’un parc enorme on anaven els ciutadans a gaudir de la bellesa de la natura.</desc>
   </BiosphereManager95>
   
   <BlackjackPlayer76>
@@ -768,7 +768,7 @@
     <titleShort>jugador</titleShort>
     <titleShortFemale>jugadora</titleShortFemale>
     <!-- EN: The only useful skill [PAWN_nameDef] learned from [PAWN_possessive] tough military school was card-counting. [PAWN_pronoun] amassed many enemies by cheating at casinos, becoming ever more edgy and violent as the threat of retaliation grew.\n\nWhen [PAWN_pronoun] was finally caught, they burned half [PAWN_possessive] skin off. [PAWN_pronoun] could never face fire or violence again. -->
-    <desc>L’única cosa útil que va aprendre a l’acadèmia militar és a comptar cartes. Va fer uns quants enemics fent trampes als casinos i es va tornar cada cop més nerviós i violent a mesura que incrementava l’amenaça de represàlies.\n\nQuan finalment el van enxampar, es va cremar la meitat de la pell. No va tornar a ser capaç mai més de veure foc ni violència.</desc>
+    <desc>L’única cosa útil que va aprendre a l’acadèmia militar va ser com comptar cartes. Va fer uns quants enemics fent trampes als casinos i es va tornar cada cop més {PAWN_gender ? nerviós i violent : nerviosa i violenta} a mesura que l’amenaça de represàlies anava creixent.\n\nQuan finalment {PAWN_gender ? el : la} van enxampar, li van cremar la meitat de la pell. Mai més va ser capaç de veure foc ni violència.</desc>
   </BlackjackPlayer76>
   
   <Blacksmith7>
@@ -779,7 +779,7 @@
     <titleShort>ferrer</titleShort>
     <titleShortFemale>ferrera</titleShortFemale>
     <!-- EN: As a blacksmith on a medieval world, [PAWN_nameDef] gained a reputation for the high quality of [PAWN_possessive] work. [PAWN_pronoun] wasn't bad at using the swords [PAWN_pronoun] forged either. -->
-    <desc>Com a ferrer en un mon medieval, [PAWN_nameDef] va anar fent-se un renom per la qualitat de la seva feina. Tampoc se li donava malament fer servir les espases que forjava.</desc>
+    <desc>Com a {PAWN_gender ? ferrer : ferrera} en un món medieval, [PAWN_nameDef] va anar fent-se un renom per la qualitat de la seva feina. Tampoc se li donava malament fer servir les espases que forjava.</desc>
   </Blacksmith7>
   
   <Blacksmith72>
@@ -801,7 +801,7 @@
     <titleShort>armer</titleShort>
     <titleShortFemale>armera</titleShortFemale>
     <!-- EN: As a young blacksmith, [PAWN_nameDef]'s family shop was raided by the police. [PAWN_pronoun] shot two officers before they knocked [PAWN_objective] out and arrested him.\n\nSentenced to life in prison, [PAWN_nameDef] learned about traveling and raiding from other criminals. -->
-    <desc>Quan era un jove ferrer, la botiga de la família de [PAWN_nameDef] va ser assaltada per la policia. [PAWN_nameDef] va disparar a dos oficials abans que la policia el pogués detenir.\n\nSentenciat a presó per tota la vida, [PAWN_nameDef] va aprendre dels altres criminals a robar i amagar-se.</desc>
+    <desc>Quan era {PAWN_gender ? un ferrer jove : una ferrera jove}, la botiga de la família de [PAWN_nameDef] va ser assaltada per la policia. [PAWN_nameDef] va disparar a dos oficials abans que la policia {PAWN_gender ? el : la} pogués detenir.\n\n{PAWN_gender ? Sentenciat : Sentenciada} a presó per a la resta de la seva vida, [PAWN_nameDef] va aprendre dels altres criminals a robar i a amagar-se.</desc>
   </BlacksmithShooter21>
   
   <BlacksmithsSon73>
@@ -812,7 +812,7 @@
     <titleShort>ferrer</titleShort>
     <titleShortFemale>ferrera</titleShortFemale>
     <!-- EN: [PAWN_nameDef]'s father owned the blacksmith shop in an run-down old city district. [PAWN_nameDef] would help [PAWN_possessive] father whenever [PAWN_pronoun] could.\n\nLater, [PAWN_possessive] father took [PAWN_objective] as a blacksmith's apprentice and raised [PAWN_objective] as a man. [PAWN_nameDef] also took on shooting as a hobby. -->
-    <desc>El pare de [PAWN_nameDef] tenia una ferreteria en un districte decadent d’una vella ciutat. [PAWN_nameDef] ajudava al seu pare quan podia.\n\nMés endavant, el seu pare va fer-li de mestre ferrer. [PAWN_nameDef] tenia el tir com a hobby.</desc>
+    <desc>El pare de [PAWN_nameDef] tenia una ferreteria en un districte decadent i vell d’una ciutat. [PAWN_nameDef] ajudava el seu pare quan podia.\n\nMés endavant, el seu pare va fer-li de mestre ferrer. [PAWN_nameDef] tenia el tir com a hobby.</desc>
   </BlacksmithsSon73>
   
   <BlessedChild46>
@@ -833,7 +833,7 @@
     <titleShort>gladiador</titleShort>
     <titleShortFemale>gladiadora</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was sold to the Corestars Entertainment Company and used as meat in one of the company's system-wide broadcast shows.\n \n[PAWN_possessive] manipulative nature made [PAWN_objective] quite a nightmare, even to the audience. [PAWN_pronoun] was kicked out and exiled to a planet full of deadly animals, criminals and armed camera-drones. -->
-    <desc>[PAWN_nameDef] va ser venut a la Companyia d’Entreteniments Nucli d’Estrella i el van ocupar com a carnassa en un dels espectacles que giraven per tot el sistema.\n \nEl temperament de [PAWN_nameDef] el va convertir en un malson, fins i tot pel públic. Va ser expulsat i exiliat a un planeta ple d’animals mortals, criminals i drons amb armes i càmera.</desc>
+    <desc>A [PAWN_nameDef] {PAWN_gender ? el : la} van vendre a la Companyia d’Entreteniments Nucli d’Estrella i {PAWN_gender ? el : la} van fer servir com a carnassa en un dels espectacles que feien per tot el sistema.\n \nEl temperament de [PAWN_nameDef] {PAWN_gender ? el : la} va convertir en un malson, fins i tot per al públic. {PAWN_gender ? El : La} van expulsar i abandonar en un planeta ple d’animals mortals, criminals i drons amb armes i càmera.</desc>
   </BloodgameSurvivor6>
   
   <BloodyDentist9>
@@ -843,7 +843,7 @@
     <!-- EN: dentist -->
     <titleShort>dentista</titleShort>
     <!-- EN: After studying at a famous college, [PAWN_nameDef]'s weak personality eventually snapped under the strain of angry administrators and whining patients. [PAWN_pronoun] went on a secret murder spree, killing many of those under [PAWN_possessive] care.\n\nAfter a pursuit, [PAWN_pronoun] managed to escape [PAWN_possessive] planet and travel to a new world. -->
-    <desc>Després d’estudiar en una famosa facultat, la dèbil personalitat de [PAWN_nameDef] es va enfonsar per la pressió dels esbroncs dels professors i les queixes dels pares. Li va agafar una vena assassina i va matar molts dels que es posaven a les seves mans.\n\nDesprés d’una persecució va aconseguir fugir del planeta i viatjar a un nou món.</desc>
+    <desc>Després d’estudiar en una facultat facultat, la personalitat dèbil de [PAWN_nameDef] es va enfonsar per la pressió de les esbroncades dels professors i les queixes dels pares. Li va agafar una vena assassina i va matar molts dels que es posaven a les seves mans.\n\nDesprés d’una persecució va aconseguir fugir del planeta i viatjar a un món nou.</desc>
   </BloodyDentist9>
   
   <BloodyWanderer28>
@@ -853,7 +853,7 @@
     <!-- EN: wanderer -->
     <titleShort>rodamón</titleShort>
     <!-- EN: [PAWN_nameDef] was a wanderer, traveling from town to town, taking odd jobs and stealing to live.\n\nOne day, [PAWN_pronoun] had a mental break and went on a long rampage, destroying several towns and killing many. [PAWN_pronoun] eventually calmed, but [PAWN_possessive] bloodlust never left [PAWN_objective]. -->
-    <desc>[PAWN_nameDef] era un rodamón que viatjava de poble en poble, agafant males feines o robant per sobreviure.\n\nUn dia se li va girar el cap i va tenir una emprenyada monumental. Va arribar a destruir uns quants pobles i matant molta gent. Es va calmar, però encara li dura la sed de sang.</desc>
+    <desc>[PAWN_nameDef] era {PAWN_gender ? un : una} rodamón que viatjava de poble en poble, agafant males feines o robant per a sobreviure.\n\nUn dia se li va girar el cap i va patir un brot psicòtic molt fort. Va destruir uns quants pobles i va matar molta gent. Es va calmar, però encara té set de sang.</desc>
   </BloodyWanderer28>
   
   <Bodyguard58>
@@ -862,7 +862,7 @@
     <!-- EN: bodyguard -->
     <titleShort>guardaespatlles</titleShort>
     <!-- EN: [PAWN_nameDef] protected whoever paid [PAWN_objective]. [PAWN_pronoun] gained proficiency in many different combat forms, and was known for [PAWN_possessive] ruthlessness against those who crossed [PAWN_objective]. -->
-    <desc>[PAWN_nameDef] va trobar feina en un migmón donant protecció a qui el pagués. Va adquirir destresa en diversos tipus de combat, i va agafar fama per la seva crueltat amb els que es creuaven amb ell.</desc>
+    <desc>[PAWN_nameDef] va trobar feina en un migmón i protegia a qui li pagués. Va adquirir destresa en diversos tipus de combat i va aconseguir fama per la seva crueltat amb els que es creuaven amb {PAWN_gender ? ell : ella}.</desc>
   </Bodyguard58>
   
   <BodyguardTrainee54>
@@ -871,7 +871,7 @@
     <!-- EN: bodyguard -->
     <titleShort>guardaespatlles</titleShort>
     <!-- EN: [PAWN_nameDef] was born into a famously skilled family of bodyguards. [PAWN_possessive] mothers Elena and Victoria forced [PAWN_objective] into many dangerous situations, training [PAWN_objective] to put [PAWN_possessive] client's well-being over [PAWN_possessive] own.\n\n[PAWN_nameDef] was taught about many herbs and natural poisons to help [PAWN_objective] prevent clients from being poisoned. -->
-    <desc>[PAWN_nameDef] va nàixer en una coneguda família de reconeguts guardaespatlles. Les seves mares Elena i Victòria el van posar en moltes situacions perilloses, entrenant-lo per posar la seguretat del seu client per sobre de la pròpia.\n\nVan ensenyar-li infinitat d’herbes i verins naturals per protegir els clients de ser enverinats.</desc>
+    <desc>[PAWN_nameDef] va nàixer en una família de guardaespatlles reconneguts. Les seves mares, Elena i Victòria, {PAWN_gender ? el : la} van posar en moltes situacions perilloses, entrenant-{PAWN_gender ? lo : la} per a posar la seguretat del seu client per sobre de la pròpia.\n\nVan ensenyar-li infinitat d’herbes i verins naturals per a protegir els clients.</desc>
   </BodyguardTrainee54>
   
   <BoneCollector14>
@@ -881,7 +881,7 @@
     <titleShort>alumne</titleShort>
     <titleShortFemale>alumna</titleShortFemale>
     <!-- EN: Born to a family of fortune hunters, [PAWN_nameDef] always had a passion for ancient history.\n\nThough never a tough or social boy, [PAWN_pronoun] loved to dig through history books as well as dirt piles. -->
-    <desc>Nascut en una família de caçadors de fortunes, [PAWN_nameDef] sempre va sentir passió per la història.\n\nNo va ser mai un noi fort ni sociable i es passava hores amb els llibres d’història i les piles de pols.</desc>
+    <desc>{PAWN_gender ? Nascut : Nascuda} en una família de caçadors de fortunes, [PAWN_nameDef] sempre va sentir passió per la història.\n\nMai va ser {PAWN_gender ? un noi fort : una noia forta} ni sociable i passava hores amb llibres d’història i piles de pols.</desc>
   </BoneCollector14>
   
   <Bookworm19>
@@ -899,7 +899,7 @@
     <!-- EN: bookworm -->
     <titleShort>rata de biblioteca</titleShort>
     <!-- EN: [PAWN_nameDef] spent [PAWN_possessive] youth in the library, reading every book [PAWN_pronoun] could about the technical marvels of space travel, the engineering ingenuity of the space-faring pioneers, and the horrible yet fascinating tales of mechanoid wars. [PAWN_pronoun] vowed that one day, [PAWN_pronoun] would see these things for [PAWN_objective]self. -->
-    <desc>[PAWN_nameDef] va passar la seva joventut a la biblioteca, llegint tots els llibres que trobava sobre les meravelloses tecnologies del viatge espacial, l’enginy dels pioners dels viatges espacials, i les històries horribles i fascinants sobre les races mecanoides. Va jurar que algun dia veure aquelles coses amb els seus propis ulls.</desc>
+    <desc>[PAWN_nameDef] va passar la seva joventut a la biblioteca, llegint tots els llibres que trobava sobre les meravelloses tecnologies del viatge espacial, l’enginy dels pioners dels viatges espacials i les històries horribles i fascinants sobre les guerres mecanoides. Va jurar que algun dia veuria aquelles coses amb els seus propis ulls.</desc>
   </Bookworm3>
   
   <BountyHunter17>
@@ -908,7 +908,7 @@
     <!-- EN: hunter -->
     <titleShort>caça-recompenses</titleShort>
     <!-- EN: [PAWN_nameDef] was a self-employed bounty hunter. [PAWN_pronoun] spent [PAWN_possessive] days hunting space pirates and collecting cash bounties. -->
-    <desc>[PAWN_nameDef] va fer carrera de caça-recompenses. Va passar dies caçant pirates espacials i recuperant botins valuosos.</desc>
+    <desc>[PAWN_nameDef] va fer carrera de caça-recompenses. Caçava pirates espacials i recuperava botins valuosos.</desc>
   </BountyHunter17>
   
   <BountyHunter41>
@@ -917,7 +917,7 @@
     <!-- EN: hunter -->
     <titleShort>caça-recompenses</titleShort>
     <!-- EN: [PAWN_nameDef] was a bounty hunter on a massive glitterworld. [PAWN_pronoun] worked sensitive assignments for extremely wealthy clients, and was known for quiet execution and total discretion. -->
-    <desc>[PAWN_nameDef] era caçadora de recompenses en un brillamón immens. Va fer alguns treballs molt delicats per clients rics, i era coneguda pel silenci i la discreció dels seus treballs.</desc>
+    <desc>[PAWN_nameDef] era caça-recompenses en un brillamón immens. Va fer alguns treballs molt delicats per a clients rics, i era {PAWN_gender ? conegut : coneguda} pel silenci i la discreció dels seus treballs.</desc>
   </BountyHunter41>
   
   <BountyHunter93>
@@ -926,7 +926,7 @@
     <!-- EN: hunter -->
     <titleShort>caça-recompenses</titleShort>
     <!-- EN: When the civil war ended, [PAWN_nameDef] had to find a new way to use [PAWN_possessive] fighting skills. [PAWN_pronoun] decided to hunt down war criminals and soon realized that [PAWN_pronoun] enjoyed capturing bad guys by any means necessary. -->
-    <desc>[PAWN_nameDef] és un caçador de recompenses autònom. Es passa els dies perseguint pirates espacials i demanant-ne la recompensa.</desc>
+    <desc>Quan va acabar la guerra civil, [PAWN_nameDef] va haver de buscar una altra manera de fer servir les seves habilitats de lluita. Va decidir perseguir criminals i aviat es va adonar que li agradava capturar els delinqüents amb els mitjans que fessin falta.</desc>
   </BountyHunter93>
   
   <BoyScout42>
@@ -935,7 +935,7 @@
     <!-- EN: scout -->
     <titleShort>escolta</titleShort>
     <!-- EN: [PAWN_nameDef] was in a boy scout troop on a midworld.\n\n[PAWN_pronoun] learned many survival skills including how to thrive in the outdoors and how to tend to basic wounds. -->
-    <desc>[PAWN_nameDef] pertanyia a un grup escolta d’un migmón.\n\nVa aprendre moltes tècniques de supervivència com ara espavilar-se a la intempèrie i tractament bàsic de ferides.</desc>
+    <desc>[PAWN_nameDef] pertanyia a un grup escolta d’un migmón.\n\nVa aprendre moltes tècniques de supervivència com ara espavilar-se a la intempèrie i com tractar les ferides.</desc>
   </BoyScout42>
   
   <BoySoldier14>
@@ -946,7 +946,7 @@
     <titleShort>soldat</titleShort>
     <titleShortFemale>soldada</titleShortFemale>
     <!-- EN: War may never change - but the cast of characters does.\n\nBorn on a violent urbworld, [PAWN_nameDef] was trained from a young age to fight the wars of others, and became rather good at it. -->
-    <desc>La guerra sempre és igual, només canvien els protagonistes.\n\nNascut en un violent urbamón, [PAWN_nameDef] va ser entrenat des de jove per lluitar a les guerres dels altres, i va resultar tenir-hi traça.</desc>
+    <desc>La guerra no canvia mai, només canvien els seus protagonistes.\n\n{PAWN_gender ? Nascut : Nascuda} en un urbamón molt violent, [PAWN_nameDef] va ser {PAWN_gender ? entrenat : entrenada} des de jove per a lluitar les guerres dels altres. I va resultar que hi tenia traça.</desc>
   </BoySoldier14>
   
   <Brave88>
@@ -957,7 +957,7 @@
     <titleShort>valent</titleShort>
     <titleShortFemale>valenta</titleShortFemale>
     <!-- EN: [PAWN_nameDef] wielded ikwa, axes, clubs, and other close-ranged weapons in battles for [PAWN_possessive] tribe. -->
-    <desc>[PAWN_nameDef] brandava armes com destrals, garrots i altres armes cos a cos durant les batalles de la seva tribu.</desc>
+    <desc>[PAWN_nameDef] brandava destrals, garrots i altres armes cos a cos a les batalles de la seva tribu.</desc>
   </Brave88>
   
   <Brigand68>
@@ -968,7 +968,7 @@
     <titleShort>bandoler</titleShort>
     <titleShortFemale>bandolera</titleShortFemale>
     <!-- EN: [PAWN_nameDef] flew with a band of brigands [PAWN_pronoun] called friends. [PAWN_pronoun] even had a ship of [PAWN_possessive] own - The Dung Mucker 2000. -->
-    <desc>[PAWN_nameDef] volava amb un grup de bandolers als qui anomenava amics. Va arribar a tenir la seva pròpia nau: El femer 2000.</desc>
+    <desc>[PAWN_nameDef] volava amb un grup de bandolers a qui anomenava amics. Va arribar a tenir la seva pròpia nau: El Femer 2.000.</desc>
   </Brigand68>
   
   <BrokenSoldier29>
@@ -979,7 +979,7 @@
     <titleShort>veterà</titleShort>
     <titleShortFemale>veterana</titleShortFemale>
     <!-- EN: [PAWN_pronoun] was a strong soldier in a long war of succession. In [PAWN_possessive] final battle, [PAWN_possessive] unit was sacrified to cover a retreat. [PAWN_nameDef] watched [PAWN_possessive] comrades die and was the only survivor.\n\nThe experience broke [PAWN_objective] inside, leaving [PAWN_objective] without the coping strategies to moderate [PAWN_possessive] emotions.\n\n[PAWN_nameDef] learned to draw in the hospital. -->
-    <desc>[PAWN_nameDef]  era {PAWN_gender ? un soldat : una soldada} durant una llarga guerra de successió. A la seva última batalla, la seva unitat fou sacrificada per cobrir una retirada. Va veure com els seus companys morien i era l’únic supervivent.\n\nL’experiència va trencar-{PAWN_gender ? lo : la} per dins, deixant-{PAWN_gender ? lo : la} sense estratègies per moderar les seves emocions.\n\nA l’hospital va aprendre a dibuixar.</desc>
+    <desc>[PAWN_nameDef] fou {PAWN_gender ? un soldat : una soldada} durant una guerra de successió molt llarga. Durant la seva última batalla, la seva unitat fou sacrificada per a cobrir la retirada. Va veure com els seus companys morien i era l’{PAWN_gender ? únic : única} supervivent.\n\nL’experiència va trencar-{PAWN_gender ? lo : la} per dins, deixant-{PAWN_gender ? lo : la} sense estratègies per a controlar les seves emocions.\n\nA l’hospital va aprendre a dibuixar.</desc>
   </BrokenSoldier29>
   
   <BrothelGofer84>
@@ -990,7 +990,7 @@
     <titleShort>mosso</titleShort>
     <titleShortFemale>mossa</titleShortFemale>
     <!-- EN: Born on a steam-powered midworld wracked by a century of economic crises, [PAWN_nameDef] went to work at a young age. Scrounging, shoe-polishing, sewing - [PAWN_pronoun] did it all. But [PAWN_pronoun] was most known as a brothel gofer, delivering all manner of aphrodisiacs and chemicals to the girls' rooms. -->
-    <desc>Nascut en un migmón en l’era del vapor, però devastat per una crisi econòmica, [PAWN_nameDef] es va posar a treballar de ben jove. Pidolant, netejant sabates, cosint… va fer de tot. Però {PAWN_gender ? se’l : se la} va conèixer per fer de mosso en un bordell, servint tot tipus d’afrodisíacs i drogues a les habitacions de les noies.</desc>
+    <desc>{PAWN_gender ? Nascut : Nascuda} en un migmón a l’era del vapor, però {PAWN_gender ? devastat : devastada} per una crisi econòmica, [PAWN_nameDef] es va posar a treballar de ben jove. Pidolant, netejant sabates, cosint… va fer de tot. Però {PAWN_gender ? se’l : se la} va conèixer per fer de {PAWN_gender ? mosso : mossa} en un bordell, servint tot tipus d’afrodisíacs i drogues a les habitacions de les noies.</desc>
   </BrothelGofer84>
   
   <BrutalThief59>
@@ -1000,7 +1000,7 @@
     <!-- EN: thief -->
     <titleShort>lladre</titleShort>
     <!-- EN: Growing up in a gang, [PAWN_nameDef] learned the brutality of the streets.\n\nKnowing that showing weakness could be fatal, [PAWN_pronoun] closed [PAWN_objective]self off from others. -->
-    <desc>Crescut en una banda, [PAWN_nameDef] va conèixer la brutalitat del carrer.\n\nSabia que mostrar feblesa podia ser fatal, així que es tancava als altres.</desc>
+    <desc>{PAWN_gender ? Criat : Criada} per una banda, [PAWN_nameDef] va conèixer la brutalitat del carrer.\n\nSabia que mostrar feblesa podia ser fatal, així que es tancava als altres.</desc>
   </BrutalThief59>
   
   <BuddingArtist44>
@@ -1020,7 +1020,7 @@
     <titleShort>constructor</titleShort>
     <titleShortFemale>constructora</titleShortFemale>
     <!-- EN: [PAWN_nameDef] worked on construction sites, building everyday structures according to [PAWN_possessive] boss' instructions. -->
-    <desc>[PAWN_nameDef] va treballar en feines de construcció, construint estructures segons les instruccions del seu cap.</desc>
+    <desc>[PAWN_nameDef] va treballar en feines de construcció, seguint les instruccions del seu cap.</desc>
   </Builder96>
   
   <Bully70>
@@ -1042,7 +1042,7 @@
     <titleShort>nen del búnquer</titleShort>
     <titleShortFemale>nena del búnquer</titleShortFemale>
     <!-- EN: [PAWN_nameDef] grew up in an underground shelter, waiting for radioactive fallout to subside. [PAWN_possessive] rich family had gained access to a luxury bunker city, while billions died on the surface.\n\nDetermined to one day seek revenge against the hated enemy, [PAWN_nameDef] spent most of [PAWN_possessive] time practicing shooting in [PAWN_possessive] private training facility. -->
-    <desc>[PAWN_nameDef] va créixer en un refugi subterrani, esperant que acabés la pluja radioactiva. La seva rica família va poder accedir a una ciutat búnquer de luxe, mentre milions de persones morien a la superfície.\n\nDeterminat a venjar-se de l’odiat enemic, [PAWN_nameDef] passava la major part del temps practicant tir a la sala d’entrenament privada.</desc>
+    <desc>[PAWN_nameDef] va créixer en un refugi subterrani, esperant que acabés la pluja radioactiva. La seva rica família va poder accedir a una ciutat búnquer de luxe, mentre milions de persones morien a la superfície.\n\n{PAWN_gender ? Determinat : Determinada} a venjar-se de l’enemic, [PAWN_nameDef] passava gran part del temps practicant tir a la seva sala d’entrenament privada.</desc>
   </BunkerKid41>
   
   <BushSniper94>
@@ -1053,7 +1053,7 @@
     <titleShort>franctirador</titleShort>
     <titleShortFemale>franctiradora</titleShortFemale>
     <!-- EN: [PAWN_nameDef]'s peaceful life was cut short when [PAWN_possessive] country was brutally invaded.\n\n[PAWN_nameDef] was drafted into service as soon as [PAWN_pronoun] was of legal age, and quickly showed an aptitude for rifles. [PAWN_pronoun] spent months living in the forests picking off soldiers who dared cross the border. -->
-    <desc>La pacífica vida de [PAWN_nameDef] es va acabar quan el seu país va ser brutalment envaït.\n\n[PAWN_nameDef] es va enrolar a l’exèrcit tan bon punt en va tenir edat, i de seguida va mostrar aptituds per als rifles. Es passava mesos vivint als boscos, abatent soldats que intentaven travessar la frontera.</desc>
+    <desc>La vida pacífica de [PAWN_nameDef] es va acabar quan el seu país va ser brutalment envaït.\n\n[PAWN_nameDef] es va enrolar a l’exèrcit tan bon punt en va tenir edat i de seguida va mostrar aptituds per als rifles. Es passava mesos vivint als boscos, abatent soldats que intentaven travessar la frontera.</desc>
   </BushSniper94>
   
   <BusinessGangster58>
@@ -1062,7 +1062,7 @@
     <!-- EN: gangster -->
     <titleShort>gàngster</titleShort>
     <!-- EN: Staying one step ahead of the law, [PAWN_nameDef] became a legitimate businessman and silenced anyone who dared say otherwise. As proprietor of brothels, speakeasies and eateries, [PAWN_nameDef]'s good fortune continued while [PAWN_possessive] competition suffered a series of unfortunate and unexplained accidents. -->
-    <desc>Sempre un pas més enllà de les lleis, [PAWN_nameDef] es va convertir en un legítim home de negocis i silenciava a qualsevol que insinués el contrari. Com a propietari de bordells, bars i restaurants, la bona sort de [PAWN_nameDef] va anar creixent a costa de la seva competència que va patir una sèrie de malaurats accidents.</desc>
+    <desc>Sempre un pas més enllà de les lleis, [PAWN_nameDef] es va convertir en {PAWN_gender ? un home de negocis legítims : una dona de negocis legítims} i silenciava a qualsevol que insinués el contrari. Com a propietari de bordells, bars i restaurants, la bona sort de [PAWN_nameDef] va anar creixent a costa de la seva competència, que va patir una sèrie de malaurats accidents.</desc>
   </BusinessGangster58>
   
   <Butcher40>
@@ -1073,7 +1073,7 @@
     <titleShort>carnisser</titleShort>
     <titleShortFemale>carnissera</titleShortFemale>
     <!-- EN: [PAWN_nameDef]'s main job in the hunting party was the butchering of animals. [PAWN_pronoun] became a master with the knife, able to extract every bit of value from a carcass in a short time. -->
-    <desc>La feina principal de [PAWN_nameDef] a la partida de caça era escorxar animals. Aviat es va convertir en {PAWN_gender ? un mestre : una mestra} del ganivet i podia extraure cada trosset amb valor del cadàver en molt poc temps.\n</desc>
+    <desc>La feina principal de [PAWN_nameDef] a la partida de caça era escorxar animals. Aviat es va convertir en {PAWN_gender ? un mestre : una mestra} del ganivet i podia extraure cada trosset amb valor del cadàver en molt poc temps.</desc>
   </Butcher40>
   
   <Cadet96>
@@ -1082,7 +1082,7 @@
     <!-- EN: cadet -->
     <titleShort>cadet</titleShort>
     <!-- EN: Born on the planet New China, [PAWN_nameDef]'s father was a police chief and kept extremely strict watch over [PAWN_possessive] son.\n\n[PAWN_nameDef] had to do military-style drill exercises every day and keep [PAWN_possessive] room spotlessly clean, always ready for inspection. [PAWN_pronoun] came to abhor violence. -->
-    <desc>Nascut al planeta de Nova Xina, El pare de [PAWN_nameDef] era cap de la policia i molt estricte amb els seus fills.\n\n[PAWN_nameDef] Havia de fer exercicis d’entrenament d’estil militar cada dia i havia de tenir l’habitació impecable, sempre apunt per passar revista. Va acabar odiant la violència.</desc>
+    <desc>{PAWN_gender ? Nascut : Nascuda} al planeta de Nova Xina, el pare de [PAWN_nameDef] era cap de policia i era molt estricte amb els seus fills.\n\n[PAWN_nameDef] havia de fer exercicis d’entrenament militar cada dia i havia de tenir l’habitació impecable, sempre a punt per a passar revista. Va acabar odiant la violència.</desc>
   </Cadet96>
   
   <CaesicMarshal72>
@@ -1101,7 +1101,7 @@
     <titleShort>vailet</titleShort>
     <titleShortFemale>vaileta</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was born on a urbworld merchant ship to an entrepreneurial mother and an absent father. Born male, [PAWN_pronoun] disliked boy stuff, and got into [PAWN_possessive] mother's things all the time.\n\nEventually, [PAWN_pronoun] traveled with [PAWN_possessive] mother to a glitterworld and spent [PAWN_possessive] savings on a body [PAWN_pronoun] was happy with. -->
-    <desc>[PAWN_nameDef] va nàixer al vaixell mercant d’un urbamón de mare emprenedora i pare absent. va nàixer mascle, però no li van agradar mai les coses de nois i sempre es posava la roba de sa mare.\n\nUn dia van viatjar amb la seva mare a un brillamón i es van gastar tots els estalvis en transformar el seu cos en un en el qual se sentís feliç.</desc>
+    <desc>[PAWN_nameDef] va nàixer al vaixell mercant d’un urbamón de mare emprenedora i pare absent. Va nàixer mascle, però no li van agradar mai les coses de nois i sempre es posava la roba de sa mare.\n\nUn dia, van viatjar amb la seva mare a un brillamón i es van gastar tots els estalvis en transformar el seu cos en un en el qual se sentís feliç.</desc>
   </CaravanChild53>
   
   <Caravaneer53>
@@ -1110,7 +1110,7 @@
     <!-- EN: caravaneer -->
     <titleShort>caravanista</titleShort>
     <!-- EN: [PAWN_nameDef] was the leader of a caravan. [PAWN_pronoun] was responsible for the safety of [PAWN_possessive] caravan and was the head negotiator in countless trade deals.\n\n[PAWN_pronoun] and [PAWN_possessive] people prospered, but their wealth made them a target for brigands. They often had to take up arms to fend off bandits and highwaymen. -->
-    <desc>[PAWN_nameDef] era cap d’una caravana. Era responsable de la seguretat de la caravana i va encapçalar innumerables negociacions.\n\nVa prosperar amb la seva gent, però la seva riquesa els feia objectiu dels bergants. Sovint havien de fer servir les armes per fer fora els bandits i saltejadors.</desc>
+    <desc>[PAWN_nameDef] era cap d’una caravana. Era responsable de la seguretat de la caravana i va encapçalar innumerables negociacions.\n\nVa prosperar amb la seva gent, però la seva riquesa els feia objectiu dels bergants. Sovint havien de fer servir les armes per a fer fora els bandits i els saltejadors.</desc>
   </Caravaneer53>
   
   <CaravanTraveler6>
@@ -1121,7 +1121,7 @@
     <titleShort>viatger</titleShort>
     <titleShortFemale>viatgera</titleShortFemale>
     <!-- EN: Born to a family of traveling merchants, [PAWN_nameDef] was mentored by [PAWN_possessive] father in the ways of being a trader. [PAWN_pronoun] was often tasked with caring for the pack animals. Due to [PAWN_possessive] nomadic lifestyle, [PAWN_pronoun] hunted and bartered for [PAWN_possessive] food. -->
-    <desc>Nascut en una família de marxants nòmades, [PAWN_nameDef] va aprendre del seu pare l’ofici de comerciant. Sovint li encomanaven de carregar els animals. A causa del seu estil de vida nòmada, caçava i intercanviava mercaderies per menjar.</desc>
+    <desc>{PAWN_gender ? Nascut : Nascuda} en una família de marxants nòmades, [PAWN_nameDef] va aprendre del seu pare l’ofici de comerciant. Sovint li encomanaven tenir cura dels animals. A causa del seu estil de vida nòmada, caçava i intercanviava mercaderies per a poder menjar.</desc>
   </CaravanTraveler6>
   
   <CardCounter25>
@@ -1140,7 +1140,7 @@
     <!-- EN: pilot -->
     <titleShort>pilot</titleShort>
     <!-- EN: [PAWN_nameDef] was brought up by cargo hands on a long-haul ore transport ship. [PAWN_pronoun] perfected [PAWN_possessive] skills at trading and manipulation of people while running weapons between systems. -->
-    <desc>[PAWN_nameDef] es va criar en una gran nau de càrrega de minerals. Va anar perfeccionant les seves habilitats de comerç i manipulació de la gent mentre traficava amb armes entre sistemes.</desc>
+    <desc>[PAWN_nameDef] es va criar en una nau grossa de càrrega de minerals. Va anar perfeccionant les seves habilitats de comerç i manipulació de la gent mentre traficava amb armes entre sistemes.</desc>
   </CargoPilot58>
   
   <Carver1>
@@ -1149,7 +1149,7 @@
     <!-- EN: carver -->
     <titleShort>tallista</titleShort>
     <!-- EN: [PAWN_nameDef] carved artworks for [PAWN_possessive] tribe from wood, stone, and occasionally, more exotic materials. The work was sometimes sold, and sometimes kept to beautify settlements and provide a focus for rituals. -->
-    <desc>[PAWN_nameDef] gravava peces d’art per a la seva tribu amb fusta, pedra i, quan podia, materials exòtics. Les obres a vegades es venien i d’altres vegades es quedaven als assentaments per embellir-los i tenir objectes per fer rituals.</desc>
+    <desc>[PAWN_nameDef] gravava peces d’art per a la seva tribu amb fusta, pedra i, quan podia, materials exòtics. Les obres a vegades es venien i d’altres vegades es quedaven als assentaments per a embellir-los i tenir objectes per a fer rituals.</desc>
   </Carver1>
   
   <CasketBuilder52>
@@ -1158,7 +1158,7 @@
     <!-- EN: builder -->
     <titleShort>fabricant</titleShort>
     <!-- EN: [PAWN_nameDef] was fascinated with cryptosleep, and spent [PAWN_possessive] life learning about the mysterious technology.\n\nWorking as an assembler on a midworld, [PAWN_nameDef] built an experimental prototype casket from discarded parts. Unfortunately, while [PAWN_pronoun] was searching for the final component, [PAWN_possessive] home was leveled by a bomb. -->
-    <desc>[PAWN_nameDef] va estar fascinada tota la vida amb el criptoson i va dedicar la seva vida a estudiar aquesta misteriosa tecnologia.\n\nMentre treballava com a assembladora a un migmon, [PAWN_nameDef] va construir un prototip experimental de sarcòfag a partir de peces de rebuig.  Malauradament mentre busca el darrer component, el seu planeta natal va ser arrasat per una bomba.</desc>
+    <desc>[PAWN_nameDef] va estar {PAWN_gender ? fascinat : fascinada} tota la vida amb el criptoson i va dedicar la seva vida a estudiar aquesta misteriosa tecnologia.\n\nMentre treballava com a {PAWN_gender ? muntador : muntadora} en un migmón, [PAWN_nameDef] va construir un prototip experimental de sarcòfag a partir de peces de rebuig.  Malauradament, mentre buscava el darrer component, el seu planeta natal fou arrasat per una bomba.</desc>
   </CasketBuilder52>
   
   <Castaway57>
@@ -1169,7 +1169,7 @@
     <titleShort>nàufrag</titleShort>
     <titleShortFemale>nàufraga</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was the only survivor of a ship crash on an unhabited animal world. For many years until [PAWN_possessive] rescue [PAWN_pronoun] scrounged an existence out of whatever [PAWN_pronoun] could find.\n\n[PAWN_possessive] survival skills became razor-sharp, but spending so long alone severely dampened [PAWN_possessive] conversatial abilities. -->
-    <desc>[PAWN_nameDef] era passatger habitual d’una línia de transport interestel·lar. Quan la nau va ser destruïda, va viure com un nàufrag en un planeta deshabitat durant uns quants anys.</desc>
+    <desc>[PAWN_nameDef] fou {PAWN_gender ? l'únic : la unica} supervivent d'una nau estavellada en un planeta deshabitat. Van passar molts anys fins que {PAWN_gender ? el : la} van trobar.\n\nLes seves habilitats de supervivència es van desenvolupar, però passar tants anys en soledat va perjudicar la seva capacitat de conversa.</desc>
   </Castaway57>
   
   <Castaway81>
@@ -1191,7 +1191,7 @@
     <titleShort>criador</titleShort>
     <titleShortFemale>criadora</titleShortFemale>
     <!-- EN: [PAWN_nameDef] helped out in [PAWN_possessive] father's cat breeding business, socializing, herding, and feeding hundreds of cats.\n\nWhen [PAWN_pronoun] refused to clean up after the cats, [PAWN_pronoun] was transferred to the breeding science division. -->
-    <desc>[PAWN_nameDef] ajudava en el negoci de criar gats del seu pare, criant i alimentant centenars de gats.\n\nQuan va dir que ja en tenia prou de netejar gàbies, va treballar en la divisió científica de criança.</desc>
+    <desc>[PAWN_nameDef] ajudava en el negoci de criar gats del seu pare, criant i alimentant centenars de gats.\n\nQuan va dir que ja en tenia prou de netejar gàbies, va treballar a la divisió científica de criança.</desc>
   </CatHerder4>
   
   <CaveBuilder81>
@@ -1213,7 +1213,7 @@
     <titleShort>nen cova</titleShort>
     <titleShortFemale>nena cova</titleShortFemale>
     <!-- EN: [PAWN_nameDef] grew up in a cave on an tundra planet, and was adopted by a traveling group of entertainers known only as the Wizards. Once a starfaring crew, the Wizards told [PAWN_objective] wondrous stories about the universe.\n\nOne day, the Wizards did not return from scavenging. After years of waiting, [PAWN_nameDef] set off into space to find them. -->
-    <desc>[PAWN_nameDef] va créixer en una cova d’un planeta tundra i el van adoptar un grup de firaires nòmades coneguts com a «Els Màgics». Els màgics li van explicar històries meravelloses de l’univers.\n\nUn dia, els màgics no van tornar. Després d’esperar-los durant anys, va decidir sortir a l’espai per a buscar-los.</desc>
+    <desc>[PAWN_nameDef] va créixer a la cova d’un planeta tundra i {PAWN_gender ? el : la} van adoptar un grup de firaires nòmades coneguts com a «Els Màgics». Els màgics li van explicar històries meravelloses de l’univers.\n\nUn dia, els màgics no van tornar. Després d’esperar-los durant anys, va decidir sortir a l’espai per a buscar-los.</desc>
   </CaveChild17>
   
   <CaveChild30>
@@ -1224,7 +1224,7 @@
     <titleShort>nen</titleShort>
     <titleShortFemale>nena</titleShortFemale>
     <!-- EN: [PAWN_nameDef] grew up in a large and intricate cave complex that extended deep into a mountainside. [PAWN_pronoun] helped the adults maintain and improve the deep caves. -->
-    <desc>[PAWN_nameDef] es va criar en una cova en un planeta tundra i va ser adoptat per un grup de viatgers coneguts com els Mags. Va passar a ser part de la tripulació i els Mags li van explicar històries meravelloses sobre l’univers.\n\nUn dia, els Mags no van tornar d’una sortida per buscar menjar. Els va esperar durant anys i finalment va decidir sortir a l’espai a buscar-los.</desc>
+    <desc>[PAWN_nameDef] va créixer en una xarxa de coves intrincades que s'estenien ben endins de la muntanya. Va ajudar als adults a mantenir i millorar les coves profundes.</desc>
   </CaveChild30>
   
   <CaveExplorer45>
@@ -1235,7 +1235,7 @@
     <titleShort>explorador</titleShort>
     <titleShortFemale>exploradora</titleShortFemale>
     <!-- EN: [PAWN_nameDef] made a living mapping out dark tunnels and near-inaccessible crevices in search of valuable minerals. [PAWN_possessive] work was very dangerous, but the pay was good. -->
-    <desc>[PAWN_nameDef] es guanyava la vida fent mapes dels túnels foscos i de les esquerdes pràcticament inaccessibles, recercant minerals valuosos. La seva feina era molt perillosa, però li pagaven bé.</desc>
+    <desc>[PAWN_nameDef] es guanyava la vida fent mapes dels túnels foscos i de les esquerdes pràcticament inaccessibles. També recercava minerals valuosos. La seva feina era molt perillosa, però li pagaven bé.</desc>
   </CaveExplorer45>
   
   <CaveworldIlluminator95>
@@ -1246,7 +1246,7 @@
     <titleShort>il·luminador</titleShort>
     <titleShortFemale>il·luminadora</titleShortFemale>
     <!-- EN: Among tunnel-dwellers, those with vision as strong as [PAWN_nameDef]'s are revered as sages. [PAWN_pronoun] would lead the way, marking spots to dig with bioluminescent fungus and warning others of impending danger. -->
-    <desc>Entre els que viuen als túnels, els qui tenen una visió tant forta com la de [PAWN_nameDef] es veneren com a savis. [PAWN_pronoun] sempre era qui anava al davant, marcant els llocs per excavar amb fongs bioluminescents i avisant dels perills que veia.</desc>
+    <desc>Entre els habitants dels túnels, els que tenen una visió tant aguda com la de [PAWN_nameDef] es veneren com a savis. [PAWN_pronoun] sempre era qui anava al davant, marcant els llocs per a excavar amb fongs bioluminescents i avisant dels perills que veia.</desc>
   </CaveworldIlluminator95>
   
   <CaveworldTender26>
@@ -1257,7 +1257,7 @@
     <titleShort>nen cova</titleShort>
     <titleShortFemale>nena cova</titleShortFemale>
     <!-- EN: [PAWN_nameDef] grew up in cave complex deep beneath the surface of an inhospitable world. [PAWN_pronoun] worked with the other children tending the tribe's fungus crops. -->
-    <desc>[PAWN_nameDef] va créixer en un complex cavernós sota la superfície d’un planeta inhòspit. Va treballar amb altres infants en la cura dels camps de bolets de la tribu.</desc>
+    <desc>[PAWN_nameDef] va créixer en un complex de coves sota la superfície d’un planeta inhòspit. Va treballar amb altres infants en la cura dels camps de bolets de la tribu.</desc>
   </CaveworldTender26>
   
   <CaveworldTunneler48>
@@ -1268,7 +1268,7 @@
     <titleShort>excavador</titleShort>
     <titleShortFemale>excavadora</titleShortFemale>
     <!-- EN: [PAWN_nameDef] worked as a digger in the massive underground cave complex.\n\n[PAWN_pronoun] knows rock so well that [PAWN_pronoun] can almost navigate caves by smell. -->
-    <desc>[PAWN_nameDef] treballava cavant en un immens complex de cavernes soterrades.\n\nConeix tan bé les pedres que podria orientar-se per les coves només amb l’olor.</desc>
+    <desc>[PAWN_nameDef] treballava cavant en un immens complex de cavernes soterrades.\n\nConeixia tan bé les pedres que podia orientar-se per les coves només amb l’olor.</desc>
   </CaveworldTunneler48>
   
   <CharityWorker36>
@@ -1279,7 +1279,7 @@
     <titleShort>voluntari</titleShort>
     <titleShortFemale>voluntària</titleShortFemale>
     <!-- EN: Glitterworlds are havens of safety and comfort for those lucky enough to live there, but [PAWN_nameDef] could not ignore nearby planets where people suffered in poverty. [PAWN_pronoun] spent [PAWN_possessive] working life appealing for donations and supporting those in need. -->
-    <desc>Els brillamons són paradisos de seguretat i comoditat pels que tenen la sort de viure-hi, però [PAWN_nameDef] no podia ignorar els planetes propers on la gent vivia en la misèria. Es va dedicar a aconseguir donatius i ajudes per als més necessitats.</desc>
+    <desc>Els brillamons són paradisos segurs i còmodes per als que tenen la sort de viure-hi, però [PAWN_nameDef] no podia ignorar els planetes propers on la gent vivia en la misèria. Es va dedicar a aconseguir donatius i ajudes per als més necessitats.</desc>
   </CharityWorker36>
   
   <Chef52>
@@ -1288,7 +1288,7 @@
     <!-- EN: chef -->
     <titleShort>xef</titleShort>
     <!-- EN: [PAWN_nameDef] ran a high-class restaurant. [PAWN_pronoun] was famous among patrons for [PAWN_possessive] creative culinary specialties, and infamous among kitchen workers for [PAWN_possessive] casual disdain for grunt work. -->
-    <desc>[PAWN_namDef] portava un restaurant per a l’alta societat. Es va fer {PAWN_gender ? famós : famosa} entre els mecenes per les seves especialitats culinàries creatives. En canvi, els treballadors de cuina {PAWN_gender ? el : la} van acabar coneixent pel continu menyspreu i arrogància cap als seus companys al restaurant.</desc>
+    <desc>[PAWN_namDef] dirigia un restaurant per a l’alta societat. Es va fer {PAWN_gender ? famós : famosa} entre els mecenes per les seves especialitats culinàries creatives. En canvi, els treballadors de cuina {PAWN_gender ? el : la} van patir el continu menyspreu i arrogància amb què els tractava.</desc>
   </Chef52>
   
   <Chemist73>
@@ -1299,7 +1299,7 @@
     <titleShort>químic</titleShort>
     <titleShortFemale>química</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a research chemist. [PAWN_pronoun] worked with chemicals, from pharmaceuticals to explosives, to develop new substances and treatments. -->
-    <desc>[PAWN_nameDef] era un investigador químic. Feia compostos químics tant per farmacèutiques com per fer explosius, desenvolupant noves substàncies i tractaments.</desc>
+    <desc>[PAWN_nameDef] era {PAWN_gender ? investigador químic : investigadora química}. Feia compostos químics tant per a farmacèutiques com per a fer explosius, desenvolupant noves substàncies i tractaments.</desc>
   </Chemist73>
   
   <Chemist78>
@@ -1310,7 +1310,7 @@
     <titleShort>químic</titleShort>
     <titleShortFemale>química</titleShortFemale>
     <!-- EN: [PAWN_nameDef] was a renowned chemist on a thriving midworld.\n\nAfter performing inhumane experiments that turned men into beasts, [PAWN_pronoun] was arrested and banished to a far-off rimworld. -->
-    <desc>[PAWN_nameDef] era {PAWN_gender ? un químic reconegut : una química reconeguda} en un migmón pròsper.\n\nDesprés de realitzar experiments inhumans que tornaven els homes en bèsties, {PAWN_gender ? el : la} van arrestar i {PAWN_gender ? el : la} van desterrar i {PAWN_gender ? el : la} van desterrar a un voramón llunyà.</desc>
+    <desc>[PAWN_nameDef] era {PAWN_gender ? un químic reconegut : una química reconeguda} en un migmón pròsper.\n\nDesprés de realitzar experiments inhumans que tornaven els homes en bèsties, {PAWN_gender ? el : la} van arrestar i {PAWN_gender ? el : la} van desterrar a un voramón llunyà.</desc>
   </Chemist78>
   
   <ChessMaster67>
@@ -1320,7 +1320,7 @@
     <!-- EN: chesshead -->
     <titleShort>escaquista</titleShort>
     <!-- EN: [PAWN_nameDef] loved to play chess. [PAWN_pronoun] even earned the nickname [PAWN_nameDef] for some of [PAWN_possessive] craftier moves.\n\n[PAWN_pronoun] never got into trouble - mostly because [PAWN_pronoun] was good at not getting caught. -->
-    <desc>A [PAWN_nameDef] li encantava jugar a escacs. El van arribar anomenar Alfil per alguns hàbils moviments. \n\nNo es posava mai en problemes, segurament perquè tenia traça a no ser enganxat.</desc>
+    <desc>A [PAWN_nameDef] li encantava jugar a escacs. {PAWN_gender ? El : La} van anomenar Alfil per alguns dels moviments que feia.\n\nNo es posava mai en problemes, segurament perquè tenia molta traça i evitava que l'enxampessin.</desc>
   </ChessMaster67>
   
   <ChiefEngineer62>
@@ -1330,7 +1330,7 @@
     <titleShort>enginyer</titleShort>
     <titleShortFemale>enginyera</titleShortFemale>
     <!-- EN: As chief engineer on board a large spaceship, [PAWN_nameDef] was an expert in all things fiddly and complex.\n\n[PAWN_pronoun] relied on other members of the crew for some of the basic necessities of life. [PAWN_pronoun] and [PAWN_possessive] ship eventually disappeared into a longsleep voyage of exploration. -->
-    <desc>Com a cap d’enginyers en una gran nau espacial, [PAWN_nameDef] dominava tota mena de feines complicades i difícils.\n\nDelegava en altres membres de la tripulació les feines més bàsiques del dia a dia. Va desaparèixer amb la seva nau en un llarg viatge d’exploració.</desc>
+    <desc>Com a cap d’enginyers d'una nau espacial grossa, [PAWN_nameDef] dominava tota mena de feines complicades i difícils.\n\nDelegava en altres membres de la tripulació les feines més bàsiques del dia a dia. Va desaparèixer amb la seva nau en un llarg viatge d’exploració.</desc>
   </ChiefEngineer62>
   
   <ChildKnave69>
