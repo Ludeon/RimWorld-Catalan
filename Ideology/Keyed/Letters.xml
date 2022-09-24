@@ -73,16 +73,16 @@
   <!-- EN: {0} rituals deactivated -->
   <LetterTitleObligationsDeactivated>{0} rituals desactivats</LetterTitleObligationsDeactivated>
   <!-- EN: There are now less than {1} {IDEO_memberNamePlural} in your faction. Therefore, the {IDEO_memberNamePlural} will not demand that the rituals of {IDEO} be carried out until there are at least {1} of them in your faction. -->
-  <LetterTitleObligationsDeactivatedTooFewBelievers>TODO</LetterTitleObligationsDeactivatedTooFewBelievers>
+  <LetterTitleObligationsDeactivatedTooFewBelievers>Ara hi ha menys de {1} {IDEO_memberNamePlural} a la vostra facció. Per tant, el {IDEO_memberNamePlural} no demanarà que es facin rituals de {IDEO} fins que n'hi hagi com a mínim {1} a la facció.</LetterTitleObligationsDeactivatedTooFewBelievers>
   <!-- EN: Since there are now {1} {IDEO_memberNamePlural} in your faction, they will demand that the rituals of {IDEO} be carried out. -->
-  <LetterTitleObligationsActivatedEnoughBelievers>TODO</LetterTitleObligationsActivatedEnoughBelievers>
+  <LetterTitleObligationsActivatedEnoughBelievers>Com ara ja hi ha {1} {IDEO_memberNamePlural} a la vostra facció, us demanaran que es duguin a terme rituals de {IDEO}.</LetterTitleObligationsActivatedEnoughBelievers>
   <!-- EN: Since {IDEO} is now the primary ideoligion of your faction, {IDEO_memberNamePlural} will demand that the rituals of {IDEO} be carried out. -->
-  <LetterTitleObligationsActivatedIdeoBecameMajor>TODO</LetterTitleObligationsActivatedIdeoBecameMajor>
+  <LetterTitleObligationsActivatedIdeoBecameMajor>Com que el {IDEO} ara és la vostra ideoligió principal de la vostra facció, el {IDEO_memberNamePlural} demanarà que es realitzin rituals de {IDEO}.</LetterTitleObligationsActivatedIdeoBecameMajor>
 
   <!-- EN: Bond(s) removed -->
   <LetterBondRemoved>Es treuen els lligams</LetterBondRemoved>
   <!-- EN: {PAWN_nameDef} has converted to {IDEO}. Since {IDEO} disapproves of bonding with animals, {PAWN_pronoun} has renounced {PAWN_possessive} bonds with the following animals:\n\n{BONDS} -->
-  <LetterBondRemovedDesc>TODO</LetterBondRemovedDesc>
+  <LetterBondRemovedDesc>{PAWN_nameDef} s'ha convertit al {IDEO}. Com que {IDEO} no aprova els lligams amb animals, {PAWN_pronoun} ha renunciat als seus lligams amb aquests animals:\n\n{BONDS}</LetterBondRemovedDesc>
 
   <!-- Slave will -->
   <!-- EN: Enslaved -->
@@ -94,31 +94,31 @@
   <!-- EN: Primary ideoligion changed -->
   <LetterLabelNewPrimaryIdeo>La ideoligió principal ha canviat</LetterLabelNewPrimaryIdeo>
   <!-- EN: Your faction's primary ideoligion has changed from {OLDIDEO_name} to {NEWIDEO_name}.\n\nThis happened because {NEWIDEO_name} is now more common among your {FACTION_pawnsPlural} than any other ideoligion.\n\nYour primary ideoligion affects relationships with other factions, based on how closely your beliefs align with theirs. -->
-  <LetterNewPrimaryIdeo>TODO</LetterNewPrimaryIdeo>
+  <LetterNewPrimaryIdeo>La ideoligió principal de la vostra facció ha canviat de {OLDIDEO_name} a {NEWIDEO_name}.\n\nAixò ha ocorregut perquè el {NEWIDEO_name} ara és més comú entre els vostres {FACTION_pawnsPlural} que cap altra ideoligió.\n\nLa vostra ideoligió principal afecta a les relacions amb altres faccions, depenent de la compatibilitat de les vostres creences i les seves.</LetterNewPrimaryIdeo>
 
   <!-- Charity incidents -->
   <!-- EN: This is a charity incident. If you turn {0} away, believers with charitable beliefs will be unhappy. -->
   <JoinerCharityInfo>Es tracta d'un incident de caritat. Si rebutgeu {0}, els creients amb creences caritatives es sentiran tristos.</JoinerCharityInfo>
   <!-- EN: This is a charity incident. If {0} dies without being tended (and after {1}), believers with charitable beliefs will be unhappy. If {0} is tended or recruited, believers will be happy. -->
-  <AfflictedJoinerChartityInfo>TODO</AfflictedJoinerChartityInfo>
+  <AfflictedJoinerChartityInfo>Es tracta d'un incident de caritat. Si {0} mor sense que se l'hagi atès –i, després, {1}–, les persones amb creences caritatives es sentiran malament per això. Si s'atén o es recluta {0}, els creients es sentiran feliços.</AfflictedJoinerChartityInfo>
   <!-- EN: The following believers have charitable beliefs -->
   <PawnsHaveCharitableBeliefs>Els creients que tenen creences caritatives són</PawnsHaveCharitableBeliefs>
 
   <!-- Change ideo mental state -->
   <!-- EN: {PAWN_pronoun} decided that {PAWN_possessive} belief in {OLDIDEO_name} no longer made any sense.\n\n{PAWN_pronoun} now believes in {NEWIDEO_name}. -->
-  <LetterIdeoChangeConverted>TODO</LetterIdeoChangeConverted>
+  <LetterIdeoChangeConverted>{PAWN_pronoun} ha decidit que la seva creença en el {OLDIDEO_name} ja no té sentit.\n\n{PAWN_pronoun} ara creu en el {NEWIDEO_name}.</LetterIdeoChangeConverted>
   <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
-  <LetterIdeoChangeNotConverted>TODO</LetterIdeoChangeNotConverted>
+  <LetterIdeoChangeNotConverted>La certesa de {PAWN_nameDef} en el {OLDIDEO_name} s'ha reduït a {NEWCERTAINTY}.</LetterIdeoChangeNotConverted>
   <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
-  <LetterIdeoChangedWanderOwnRoom>TODO</LetterIdeoChangedWanderOwnRoom>
+  <LetterIdeoChangedWanderOwnRoom>Per a assimilar les seves creences i aclarir les seves idees, {PAWN_nameDef} s'amaga a la seva cambra.</LetterIdeoChangedWanderOwnRoom>
   <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
-  <LetterIdeoChangedSadWander>TODO</LetterIdeoChangedSadWander>
+  <LetterIdeoChangedSadWander>{PAWN_nameDef} deambula en estat de xoc mentre lluita amb les seves creences.</LetterIdeoChangedSadWander>
 
   <!-- Change ideo divorces -->
   <!-- EN: Divorce -->
   <LetterIdeoChangedDivorce>Divorci</LetterIdeoChangedDivorce>
   <!-- EN: {PAWN_nameDef}'s new beliefs forbid {PAWN_possessive} current number of spouses.\n\n{PAWN_nameDef} has decided to divorce these people:\n{1} -->
-  <LetterIdeoChangedDivorcedPawns>TODO</LetterIdeoChangedDivorcedPawns>
+  <LetterIdeoChangedDivorcedPawns>Les noves creences de {PAWN_nameDef} no li permeten tenir el nombre actual de cònjuges.\n\n{PAWN_nameDef} ha decidit divorciar-se d'aquestes persones:\n{1}</LetterIdeoChangedDivorcedPawns>
 
   <!-- Surprise reinforcement -->
   <!-- EN: Surprise reinforcements! -->
@@ -130,7 +130,7 @@
   <!-- EN: Look change desired -->
   <LetterWantLookChange>Algú vol canviar d'estilisme</LetterWantLookChange>
   <!-- EN: {PAWN_nameDef} wishes to change {PAWN_possessive} look, as it no longer matches what {PAWN_pronoun} believes.\n\n{PAWN_pronoun} will automatically use an available styling station and choose a look. If you want to customize {PAWN_possessive} look, select {PAWN_objective} and right-click the styling station. -->
-  <LetterWantLookChangeDesc>TODO</LetterWantLookChangeDesc>
+  <LetterWantLookChangeDesc>{PAWN_nameDef} vol canviar el seu aspecte, ja que el seu estil no va en la línia de les seves creences actuals.\n\n{PAWN_pronoun} farà servir de manera automàtica una taula d'estilisme que estigui disponible i escollirà un estil. Si voleu personalitzar el seu aspecte, seleccioneu-{PAWN_gender ? lo : la} i feu clic amb el botó esquerre a la taula d'estilisme.</LetterWantLookChangeDesc>
 
   <!-- Spacedrone incoming -->
   <!-- EN: Spacedrone incoming -->
@@ -164,7 +164,7 @@
   <!-- EN: Last hacker lost -->
   <LetterLabelLastHackerLost>S'ha perdut l'últim hacker</LetterLabelLastHackerLost>
   <!-- EN: The last hacker capable of unlocking the secrets of the ancient complex has been lost. Call reinforcements capable of hacking, or abandon the quest. -->
-  <LetterTextLastHackerLost>TODO</LetterTextLastHackerLost>
+  <LetterTextLastHackerLost>Heu perdut l'últim hacker que podia descobrir els secrets del complex antic. Demaneu reforços que el puguin hackejar o abandoneu la missió.</LetterTextLastHackerLost>
 
   <!-- Relic hunt -->
   <!-- EN: Relic found -->
@@ -172,7 +172,7 @@
   <!-- EN: You've finally learned the location of the relic {0}! -->
   <LetterTextRelicFoundLocation>Finalment heu esbrinat on és la relíquia {0}!</LetterTextRelicFoundLocation>
   <!-- EN: The relic is housed in an ancient structure. It is protected by a security system with multiple independent units. You may choose to defeat the security forces one unit at a time before taking the relic, or try to grab it and flee before they can harm you.\n\nAfter {0}, all security systems will be alerted. -->
-  <LetterTextRelicFoundSecurityThreats>TODO</LetterTextRelicFoundSecurityThreats>
+  <LetterTextRelicFoundSecurityThreats>La relíquia és a dins d'una estructura antiga. Està protegida per un sistema de seguretat amb diverses unitats independents. Podeu escollir derrotar les forces de seguretat d'una en una abans d'agafar la relíquia o agafar-la i fugir abans que us puguin ferir.\n\nDesprés de {0}, s'alertarà tots els sistemes de seguretat que esteu a la zona.</LetterTextRelicFoundSecurityThreats>
 
   <!-- Relics collection -->
   <!-- EN: Relics collected -->
@@ -186,11 +186,11 @@
   <!-- EN: {TREE_label} connection -->
   <LetterLabelPawnConnected>vincle amb {TREE_label}</LetterLabelPawnConnected>
   <!-- EN: {CONNECTOR_nameDef} has connected with {TREE_definite}.\n\n{TREE_definite} will produce small animals called dryads by growing them in pods at its base. These dryads can specialize into different castes. You can choose which caste of dryads you want the tree to produce.\n\nThe stronger the connection between tree and human, the more dryads {TREE_definite} can sustain. {CONNECTOR_nameDef} can strengthen the connection by pruning {TREE_definite}. Maintaining a higher connection strength requires more frequent pruning. -->
-  <LetterTextPawnConnected>TODO</LetterTextPawnConnected>
+  <LetterTextPawnConnected>{CONNECTOR_nameDef} s'ha connectat amb {TREE_definite}.\n\n{TREE_definite} produirà uns animals petits que s'anomenen dríades i creixen a les beines de la seva base. Aquestes dríades es poden especialitzar en una casta. Podeu triar la casta de dríades que voleu que faci l'arbre.\n\nCom major sigui la connexió entre l'arbre i l'humà, més dríades podra mantenir {TREE_definite}. {CONNECTOR_nameDef} pot enfortir la connexió podant {TREE_definite}. Si es manté una connexió més forta, caldrà podar l'arbre més sovint.</LetterTextPawnConnected>
   <!-- EN: Connected {TREE_label} destroyed -->
   <LetterLabelConnectedTreeDestroyed>{TREE_labelDefinite} connectat ha estat destruït</LetterLabelConnectedTreeDestroyed>
   <!-- EN: A {TREE_label} connected to {CONNECTEDPAWN_nameDef} has been destroyed, killing the dryad queen housed inside.\n\nWithout a queen, the dryad brood-mind has collapsed. All dryads from that tree have died. -->
-  <LetterTextConnectedTreeDestroyed>TODO</LetterTextConnectedTreeDestroyed>
+  <LetterTextConnectedTreeDestroyed>Un {TREE_label} connectat a {CONNECTEDPAWN_nameDef} ha estat destruït i la reina dríada que tenia a dins ha mort.\n\nSense una reina, la ment col·lectiva dríada ha col·lapsat. Totes les dríades de l'arbre han mort.</LetterTextConnectedTreeDestroyed>
 
   <!-- Archonexus victory -->
   <!-- EN: Quest '{0}' available -->
@@ -200,7 +200,7 @@
   <!-- EN: {0_labelShort} studied -->
   <LetterLabelArchonexusStructureResearched>S'ha estudiat {0_labelShort}</LetterLabelArchonexusStructureResearched>
   <!-- EN: You have completed your study of the {0_labelShort}.\n\nYou can't say that you understand it in any complete way, but you have detected patterns in its behavior and the way it seems to express information.\n\nWith this knowledge, you will be able to interpret the next piece of the archonexus map. -->
-  <LetterTextArchonexusStructureResearched>TODO</LetterTextArchonexusStructureResearched>
+  <LetterTextArchonexusStructureResearched>Heu completat l'estudi del {0_labelShort}.\n\nNo podeu dir que ho enteneu perfectament, però heu detectat els patrons del seu comportament i la manera en què sembla que expressa la informació.\n\nAmb aquest coneixement, podreu interpretar la següent peça del mapa de l'arconexe.</LetterTextArchonexusStructureResearched>
   <!-- EN: Archotech structures abandoned -->
   <LetterLabelArchotechStructuresAbandoned>Estructures arcotecnològiques abandonades</LetterLabelArchotechStructuresAbandoned>
   <!-- EN: You have abandoned the archotech structures at {0_definite}.\n\nDistant observers say they saw a great flash emanating from this location not long after you left. -->
@@ -210,6 +210,6 @@
   <!-- EN: Reform ideoligion -->
   <LetterLabelReformIdeo>Reforma la ideoligió</LetterLabelReformIdeo>
   <!-- EN: You have enough development points to reform {0}!\n\nReforming allows you to do one of the following:\n\n- Add a meme\n- Remove a meme\n- Change structure\n- Change style\n\nYou can also make unlimited changes to precepts, deities, narrative text, and other symbols.\n\nTo reform the ideoligion, open it in the ideoligions tab. -->
-  <LetterTextReformIdeo>TODO</LetterTextReformIdeo>
+  <LetterTextReformIdeo>Teniu prou punts de desenvolupament per a reformar el {0}!\n\nLa reforma us permetrà un dels següents:\n\n– Afegir un mem.\n– Treure un mem.\n– Canviar l'estrucutra.\n– Canviar l'estil.\n\nTambé podeu fer canvis il·limitats de preceptes, deïtats, text narratiu i altres símbols.\n\nPer a reformar la ideoligió, obriu la vista de la ideoligió des de la pestanya d'ideoligions.</LetterTextReformIdeo>
 
 </LanguageData>
