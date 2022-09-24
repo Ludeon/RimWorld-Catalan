@@ -466,17 +466,17 @@
   <!-- EN: Nobody -->
   <Nobody>Ningú</Nobody>
   <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
-  <ConnectedPawnDesc>TODO</ConnectedPawnDesc>
+  <ConnectedPawnDesc>La persona connectada a {TREE_gender ? aquest : aquesta} {TREE_label}. Si la persona connectada mor, {TREE_labelDefinite} no es podrà a connectar amb altres persones durant {DURATION}.</ConnectedPawnDesc>
   <!-- EN: Connection torn. Can connect in {0}. -->
-  <ConnectionTorn>TODO</ConnectionTorn>
+  <ConnectionTorn>S'ha arrencat la connexió. Es pot connectar d'aquí a {0}.</ConnectionTorn>
   <!-- EN: {PAWN_nameDef} is too far away -->
-  <ConnectedPawnAway>TODO</ConnectedPawnAway>
+  <ConnectedPawnAway>{PAWN_nameDef} està molt lluny</ConnectedPawnAway>
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
-  <TreeBlockedByNearbyBuildingsDesc>TODO</TreeBlockedByNearbyBuildingsDesc>
+  <TreeBlockedByNearbyBuildingsDesc>Si es planta {PLANT_definite} a prop d'edificis artificials, la força de la seva connexió es reduirà amb el pas del temps. La força de la connexió determina el nombre màxim de dríades {PLANT_definite} que pot mantenir al mateix temps.\n\nEsteu segur que voleu plantar-{PLANT_gender ? lo : la} aquí?</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>TODO</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>El canvi de casta de dríades de {PLANT_definite} suposa gastar temps i energia.\n\nDesprés que la persona connectada interactuï amb l'arbre, totes les dríades passaran {DURATION} dies a dins dels capolls i es transformaran a la casta triada.\n\nEls capolls ja existents també actualitzaran el tipus de dríada que produïen i generaran una dríada de la casta actual.</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
-  <ChangeModeDesc>TODO</ChangeModeDesc>
+  <ChangeModeDesc>Canvia el tipus de dríades que crea {TREE_definite}.</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
   <ConnectionStrengthFall>Caiguda de la força de la connexió</ConnectionStrengthFall>
   <!-- EN: Connection strength -->
@@ -498,9 +498,9 @@
   <!-- EN: Desired -->
   <DesiredConnectionStrength>Objectiu</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
-  <DesiredConnectionStrengthDesc>TODO</DesiredConnectionStrengthDesc>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef} podarà {TREE_definite} prou sovint per a mantenir la força de la connexió per damunt d'aquest nivell.\n\nUna força de connexió més alta permet mantenir més dríades, però també decau més de pressa i, per tant, requereix que l'arbre es podi amb més freqüència per manternir-la.\n\nPodeu seleccionar la barra per a ajustar la força de connexió desitjada.\n\nLa força de connexió decau cada dia en: {FALL}\n\nLa força de connexió depèn dels edificis propers.</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
-  <WaitingForConnectorToChangeCaste>TODO</WaitingForConnectorToChangeCaste>
+  <WaitingForConnectorToChangeCaste>S'espera a que {CONNECTEDPAWN_nameDef} canviï la casta de les dríades.</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
   <GauranlenTreeMode>Casta de la dríada</GauranlenTreeMode>
   <!-- EN: no caste -->
@@ -508,19 +508,19 @@
   <!-- EN: Determines the currently created dryad caste. -->
   <GauranlenTreeModeDesc>Determina la casta de la dríada creada actualment.</GauranlenTreeModeDesc>
   <!-- EN: Spawning {DRYAD_label} in {TIME} -->
-  <SpawningDryadIn>TODO</SpawningDryadIn>
+  <SpawningDryadIn>Es generarà {DRYAD_labelIndefinite} d'aquí a {TIME}</SpawningDryadIn>
   <!-- EN: Morphing {DRYAD_labelShort} into {TYPE_label}. -->
-  <ChangingDryadIntoType>TODO</ChangingDryadIntoType>
+  <ChangingDryadIntoType>Es transforma {DRYAD_labelShort} a {TYPE_label}.</ChangingDryadIntoType>
   <!-- EN: {0} hours every day -->
   <HoursEveryDay>{0} hores al dia</HoursEveryDay>
   <!-- EN: {0} hours every other day -->
   <HoursEveryOtherDay>{0} hores cada dos dies</HoursEveryOtherDay>
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
-  <DryadProducesResourcesDesc>TODO</DryadProducesResourcesDesc>
+  <DryadProducesResourcesDesc>{DRYAD_labelPluralDefinite} produeixen {RESOURCES} cada {DURATION}.</DryadProducesResourcesDesc>
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
-  <DryadCannotChangeMaster>TODO</DryadCannotChangeMaster>
+  <DryadCannotChangeMaster>{ANIMAL_nameDef} està {ANIMAL_gender ? connectat : connectada} a {MASTER_nameDef} a través del seu arbre gauranlen. El seu amo no es pot canviar.</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
-  <ConnectionStrengthTooWeakForGaumakerPod>TODO</ConnectionStrengthTooWeakForGaumakerPod>
+  <ConnectionStrengthTooWeakForGaumakerPod>La força de connexió és massa baixa per a crear una beina gauranlen.</ConnectionStrengthTooWeakForGaumakerPod>
   <!-- EN: Unconnected -->
   <Unconnected>Sense connectar</Unconnected>
   <!-- EN: Dryads -->
@@ -530,19 +530,19 @@
   <!-- EN: Currently affected by -->
   <CurrentlyAffectedBy>Actualment afectada per</CurrentlyAffectedBy>
   <!-- EN: {0} connection strength needed to support a dryad. -->
-  <NotEnoughConnectionStrengthForSingleDryad>TODO</NotEnoughConnectionStrengthForSingleDryad>
+  <NotEnoughConnectionStrengthForSingleDryad>Cal una força de connexió de {0} per a mantenir una dríada.</NotEnoughConnectionStrengthForSingleDryad>
   <!-- EN: Cannot assign allowed area -->
   <CannotAssignAllowedAreaToDryad>No es pot assignar l'àrea permesa</CannotAssignAllowedAreaToDryad>
 
   <!-- Shooting report -->
   <!-- EN: Target outdoors and night-time -->
-  <TargetNightOutdoors>TODO</TargetNightOutdoors>
+  <TargetNightOutdoors>Objectiu a l'exterior durant la nit</TargetNightOutdoors>
   <!-- EN: Target indoors and dark -->
-  <TargetDarkIndoors>TODO</TargetDarkIndoors>
+  <TargetDarkIndoors>Objectiu a l'interior i a fosques</TargetDarkIndoors>
   <!-- EN: Target outdoors and daytime -->
-  <TargetDayOutdoors>TODO</TargetDayOutdoors>
+  <TargetDayOutdoors>Objectiu a l'exterior de dia</TargetDayOutdoors>
   <!-- EN: Target indoors and lit -->
-  <TargetLitIndoors>TODO</TargetLitIndoors>  
+  <TargetLitIndoors>Objectiu a l'interior i amb il·luminació</TargetLitIndoors>  
   <!-- EN: Charging -->
   <RechargeableCharging>Es carrega</RechargeableCharging>
   <!-- EN: Ready -->
@@ -557,7 +557,7 @@
   <!-- EN: Won't use melee weapons -->
   <RoleEffectWontUseMeleeWeapons>No usarà armes cos a cos</RoleEffectWontUseMeleeWeapons>
   <!-- EN: {0} quality to crafting or construction -->
-  <RoleEffectProductionQualityOffset>TODO</RoleEffectProductionQualityOffset>
+  <RoleEffectProductionQualityOffset>Qualitat de {0} per a fabricar o construir</RoleEffectProductionQualityOffset>
   <!-- EN: Hunting revenge chance {0} -->
   <RoleEffectHuntingRevengeChance>Probabilitat de venjança de l'animal del {0}</RoleEffectHuntingRevengeChance>
   <!-- EN: Give thought -->
@@ -572,9 +572,9 @@
 
   <!-- Archonexus -->
   <!-- EN: You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n -->
-  <GameOverArchotechInvokedIntro>TODO</GameOverArchotechInvokedIntro>
+  <GameOverArchotechInvokedIntro>Heu invocat un nucli de l'arconexe. El món s'omple d'un fulgor cegador i el temps sembla que s'alenteix…\n\n</GameOverArchotechInvokedIntro>
   <!-- EN: The machine god has noticed you. Nobody can predict what happens next. It may destroy you, or communicate with you directly, or transport your consciousness to another plane of reality.\n\nYou sense a vast, inhuman structure of infinite fractal complexity flowing into your mind. Time and scale begin to dissolve. It's terrifying. It's beautiful... -->
-  <GameOverArchotechInvokedEnding>TODO</GameOverArchotechInvokedEnding>
+  <GameOverArchotechInvokedEnding>El Déu Màquina us ha vist. Ningú pot predir què passarà ara. Potser us destruirà, potser es voldrà comunicar amb la vostra comunitat o potser voldrà moure la seva consciència a un altre pla de la realitat.\n\nSentiu com una estructura no-humana enorme d'una complexitat fractal infinita travessa la vostra ment. El temps i les distàncies comencen a dissoldre's. És preciós i aterrador al mateix temps…</GameOverArchotechInvokedEnding>
   <!-- EN: These colonists have transcended:\n\n{0} -->
   <GameOverColonistsTranscended>Aquests colons han transcendit:\n\n{0}</GameOverColonistsTranscended>
   <!-- EN: An archonexus map part -->
@@ -593,9 +593,9 @@
   <SupplySatellite>Satèl·lit de subministraments</SupplySatellite>
 
   <!-- EN: Colonist is not willing to extract skull from corpse (missing pro-skullspike precept) -->
-  <CannotExtractSkull>TODO</CannotExtractSkull>
+  <CannotExtractSkull>El colon no vol traure el crani del cadàver (fa falta el precepte dels punxacranis)</CannotExtractSkull>
   <!-- EN: Preview the ritual ambience sound -->
-  <TipPreviewRitualAmbienceSound>TODO</TipPreviewRitualAmbienceSound>
+  <TipPreviewRitualAmbienceSound>Reprodueix el so ambiental del ritual.</TipPreviewRitualAmbienceSound>
 
   <!-- EN: Choose -->
   <ChooseStuffForRelic>Tria</ChooseStuffForRelic>
@@ -632,25 +632,25 @@
   <!-- EN: Interrupt cycle -->
   <BiosculpterInteruptCycle>Interromp el cicle</BiosculpterInteruptCycle>
   <!-- EN: Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness. -->
-  <BiosculpterInteruptCycleDesc>TODO</BiosculpterInteruptCycleDesc>
+  <BiosculpterInteruptCycleDesc>Interromp el cicle actual. L'ocupant sortirà sense els beneficis del cicle i sofrirà el mal de la bioescultura durant una estona.</BiosculpterInteruptCycleDesc>
   <!-- EN: {PAWN_labelShort} will enter biosculpter and begin a {CYCLE} cycle. -->
-  <BiosculpterEnteringMessage>TODO</BiosculpterEnteringMessage>
+  <BiosculpterEnteringMessage>{PAWN_labelShort} entrarà al bioescultor i començarà el cicle de {CYCLE}.</BiosculpterEnteringMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, and begin a {CYCLE} cycle. -->
-  <BiosculpterLoadingStartedMessage>TODO</BiosculpterLoadingStartedMessage>
+  <BiosculpterLoadingStartedMessage>{PAWN_labelShort} recollirà {INGREDIENTS} i començarà el cicle de {CYCLE}.</BiosculpterLoadingStartedMessage>
   <!-- EN: {PAWN_labelShort} will collect {INGREDIENTS}, place {DOWNED_labelShort} inside the biosculpter, and begin a {CYCLE} cycle. -->
-  <BiosculpterCarryStartedMessage>TODO</BiosculpterCarryStartedMessage>
+  <BiosculpterCarryStartedMessage>{PAWN_labelShort} recollirà {INGREDIENTS}, posarà {DOWNED_labelShort} dins del bioescultor i li aplicarà el cicle de {CYCLE}.</BiosculpterCarryStartedMessage>
   <!-- EN: {0} nutrition -->
   <NumNutrition>{0} de nutrició</NumNutrition>
   <!-- EN: {PAWN_labelShort} was ejected from a biosculpter pod due to lack of power. -->
-  <BiosculpterNoPowerEjectedMessage>TODO</BiosculpterNoPowerEjectedMessage>
+  <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort} s'ha tret de la càpsula de bioescultura perquè no hi havia prou potència elèctrica.</BiosculpterNoPowerEjectedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle. -->
-  <BiosculpterHealCompletedMessage>TODO</BiosculpterHealCompletedMessage>
+  <BiosculpterHealCompletedMessage>{PAWN_labelShort} ha completat el cicle de guarició.</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
-  <BiosculpterHealCompletedWithCureMessage>TODO</BiosculpterHealCompletedWithCureMessage>
+  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} ha completat el cicle de guarició i {HEDIFF_gender ? el seu : la seva} {HEDIFF_label} s'ha curat.</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <BiosculpterAgeReversalCompletedMessage>TODO</BiosculpterAgeReversalCompletedMessage>
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} ha completat el seu cicle de rejoveniment. Espera rebre el proper tractament de rejoveniment d'aquí a {DEADLINE} dies.</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
-  <BiosculpterPleasureCompletedMessage>TODO</BiosculpterPleasureCompletedMessage>
+  <BiosculpterPleasureCompletedMessage>El cicle de plaer bioesculpit de {PAWN_labelShort} s'ha completat.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
   <BiosculpterCleanlinessSpeedFactor>Factor de velocitat de neteja</BiosculpterCleanlinessSpeedFactor>
   <!-- EN: Biotuned speed factor -->
@@ -664,8 +664,8 @@
   <!-- EN: Requires -->
   <BiosculpterRequiresIngredients>Requereix</BiosculpterRequiresIngredients>
   <!-- EN: On completion of the {CYCLE} cycle, the following will occur -->
-  <OnCompletionOfCycle>TODO</OnCompletionOfCycle>
+  <OnCompletionOfCycle>Quan es completi el cicle de {CICLE}, succeirà el següent</OnCompletionOfCycle>
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
-  <BiosculpterNoCoditionsToHeal>TODO</BiosculpterNoCoditionsToHeal>
+  <BiosculpterNoCoditionsToHeal>{PAWN_nameDef} no pateix malalties ni condicions que es puguin guarir amb un cicle de {CYCLE}.\n\nVoleu continuar?</BiosculpterNoCoditionsToHeal>
 
 </LanguageData>
