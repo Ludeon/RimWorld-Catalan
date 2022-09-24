@@ -22,7 +22,7 @@
   <NamerTraderGeneral.rulePack.rulesStrings>
     <li>r_name(p=4)->[businesstype] [businessname]</li>
     <li>r_name->[businesstype] [NamePerson]</li>
-    <li>r_name->[businesstype] [Animal] [maybe_adjective]</li>
+    <li>r_name->[businesstype] [AnimalAnySingular] [maybe_adjective]</li>
     <li>r_name->[businesstype] [Letter][Letter]</li>
     <li>r_name(p=0.5)->[businesstype] [PersonAlly]</li>
     <li>r_name(p=0.5)->[businesstype] [AdjectiveFriendly]</li>

@@ -35,7 +35,7 @@
     <li>circumstance_phrase->mentre [friendlyadjective]</li>
     <li>desc_sentence->[quantity_adjphrase] [outlander]s estan involucrats en la situació.</li>
     <li>desc_sentence->La zona està decorada de color [color] i [color].</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s juguen a prop.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] juguen a prop.</li>
   </AttendedParty.rulePack.rulesStrings>
   
   <!-- EN: built snowman -->
@@ -113,9 +113,9 @@
     <li>desc_sentence->A la llunyania, una [community] està coberta per la neu.</li>
     <li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] observa l’escena amb una expressió [friendlyadjective].</li>
     <li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] està dreta al costat de [pawn_nameShortDef], amb una expressió [friendlyadjective].</li>
-    <li>desc_sentence->Una imatge espectral de  [corpse_nameShortDef] es mira l’escena amb una expressió [angstyadjective].</li>
-    <li>desc_sentence->Una imatge espectral de  [corpse_nameShortDef] està dreta al costat de [pawn_nameShortDef], amb una expressió [angstyadjective].</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s descansen prop de l’escena.</li>
+    <li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] es mira l’escena amb una expressió [angstyadjective].</li>
+    <li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] està dreta al costat de [pawn_nameShortDef], amb una expressió [angstyadjective].</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] descansen a prop de l’escena.</li>
   </BuriedCorpse.rulePack.rulesStrings>
   
   <!-- EN: completed long construction project -->
@@ -221,7 +221,7 @@
     <li>circumstance_phrase->sumit en els seus pensaments</li>
     <li>circumstance_phrase->mentre mira una [terrainfeature] llunyana</li>
     <li>circumstance_phrase->i parlant fluixet amb si mateix</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s descansen prop de l’escena.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] descansen a prop de l’escena.</li>
     <li>desc_sentence->[quantity_adjphrase] [enemy]s s’apropen a la zona.</li>
     <li>desc_sentence->[pawn_nameShortDef] irradia determinació.</li>
     <li>desc_sentence->[pawn_nameShortDef] està visiblement ferit.</li>
@@ -264,7 +264,7 @@
     <li>desc_sentence->L’escena està encerclada per [quantity_adjphrase] llibres.</li>
     <li>desc_sentence->La seva destresa es nota en el treball.</li>
     <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren admirats.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren amb admiració.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] s’ho miren amb admiració.</li>
     <li>desc_sentence->[quantity_adjphrase] esperits eteris d’antics mestres s’ho miren des de dalt.</li>
   </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
   
@@ -307,7 +307,7 @@
     <li>desc_sentence->L’escena està encerclada amb [quantity_adjphrase] llibres.</li>
     <li>desc_sentence->La seva destresa skill es veu en el treball.</li>
     <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren admirats.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren amb admiració.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] s’ho miren amb admiració.</li>
     <li>desc_sentence->[quantity_adjphrase] esperits eteris d’antics mestres s’ho miren des de dalt.</li>
   </GainedMasterSkillWithPassion.rulePack.rulesStrings>
   
@@ -344,10 +344,12 @@
     <li>circumstance_phrase->amb un somriure</li>
     <li>circumstance_phrase->cansat però content</li>
     <li>circumstance_phrase->amb un [animalgroup] al fons</li>
-    <li>desc_sentence->[human_nameShortDef] està envoltat de moltíssims [animal]s.</li>
-    <li>desc_sentence->[animal_nameShortDef] es desplaça per unir-se a la [animalgroup] dels seus.</li>
-    <li>desc_sentence->L’escena està farcida de [animal]s i [animal]s.</li>
-    <li>desc_sentence->Una fila de gran quantitat de [animal]s esperen per ser domats per [human_nameShortDef].</li>
+    <li>desc_sentence(p=0.7)->[human_nameShortDef] està envoltat per moltíssims [AnimalMP].</li>
+    <li>desc_sentence(p=0.3)->[human_nameShortDef] està envoltat per moltíssimes [AnimalFP].</li>
+    <li>desc_sentence->[animal_nameShortDef] es desplaça per unir-se a la [animalgroup].</li>
+    <li>desc_sentence->L’escena està farcida de [AnimalAnyPlural] i [AnimalAnyPlural].</li>
+    <li>desc_sentence(p=0.7)->Una fila d'incomptables [AnimalMP] esperen per a ser domats per [human_nameShortDef].</li>
+    <li>desc_sentence(p=0.3)->Una fila d'incomptables [AnimalFP] esperen per a ser domades per [human_nameShortDef].</li>
   </IncreasedMenagerie.rulePack.rulesStrings>
   
   <!-- EN: meditated -->
@@ -380,8 +382,8 @@
     <li>circumstance_phrase->brillant suaument</li>
     <li>circumstance_phrase->envoltat d’una aura de color [color]</li>
     <li>desc_sentence->[quantity_adjphrase] [outlander]s es miren [pawn_pronoun].</li>
-    <li>desc_sentence->està enviltat per [quantity_adjphrase] [animal]s.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s descansen tranquilament.</li>
+    <li>desc_sentence->està envoltat per [quantity_adjphrase] [AnimalAnyPlural].</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] descansen tranquil·lament.</li>
     <li>desc_sentence->[quantity_adjphrase] [enemy]s estan fascinats amb l’escena.</li>
   </Meditated.rulePack.rulesStrings>
   
@@ -419,7 +421,7 @@
     <li>circumstance_phrase->amb un somriure orgullós</li>
     <li>circumstance_phrase->amb cara de satisfacció</li>
     <li>desc_sentence->[quantity_adjphrase] [ally]s l’ajuden.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s volten per la zona.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] volten per la zona.</li>
     <li>desc_sentence->Hi ha una [community] al fons.</li>
     <li>desc_sentence->Es veuen  [quantity_adjphrase] venes més un tros enllà.</li>
     <li>desc_sentence->Es veu una[terrainfeature] a la distància.</li>
@@ -473,7 +475,7 @@
     <li>desc_sentence->A la llunyania es veu una [community].</li>
     <li>desc_sentence->A la llunyania es veu una [terrainfeature].</li>
     <li>desc_sentence->[quantity_adjphrase] [outlander]s també hi juguen.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s juguen a prop.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] juguen a prop.</li>
     <li>desc_sentence->[pawn_nameShortDef] brilla amb una aura de color [color].</li>
     <li>desc_sentence->les formes de [pawn_nameShortDef] estan exagerades.</li>
     <li>desc_sentence->[pawn_nameShortDef] està per sobre de l’escena.</li>
@@ -512,8 +514,8 @@
     <li>circumstance_phrase->brillant lleuent</li>
     <li>circumstance_phrase->envoltat d’una aura de color [color]</li>
     <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren.</li>
-    <li>desc_sentence->[pawn_pronoun] està envoltat per [quantity_adjphrase] [animal]s.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s descansen tranquilament.</li>
+    <li>desc_sentence->[pawn_pronoun] està envoltat per [quantity_adjphrase] [AnimalAnyPlural].</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] descansen tranquil·lament.</li>
     <li>desc_sentence->[quantity_adjphrase] [enemy]s estan fascinats amb l’escena.</li>
   </Prayed.rulePack.rulesStrings>
   
@@ -548,7 +550,7 @@
     <li>circumstance_phrase->sumit en els seus pensaments</li>
     <li>circumstance_phrase->mentre mira una [terrainfeature] llunyana</li>
     <li>circumstance_phrase->amb una tensió visible entre els dos</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s descansen prop de l’escena.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] descansen a prop de l’escena.</li>
     <li>desc_sentence->[quantity_adjphrase] [enemy]s s’acosten a la zona.</li>
     <li>desc_sentence->[pawn_nameShortDef] irradia determinació.</li>
     <li>desc_sentence->El cel és gris i tapat.</li>
@@ -635,7 +637,7 @@
     <li>desc_sentence->Una imatge espectral de  [corpse_nameShortDef] està dreta al costat de[pawn_nameShortDef], fent una expressió [friendlyadjective].</li>
     <li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] observa l’escena amb una expressió [angstyadjective].</li>
     <li>desc_sentence->Una imatge espectral de [corpse_nameShortDef] està dreta al costat de [pawn_nameShortDef], amb una expressió [angstyadjective].</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s descansen prop de l’escena.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] descansen a prop de l’escena.</li>
   </VisitedGrave.rulePack.rulesStrings>
   
 </LanguageData>

@@ -67,7 +67,7 @@
     <li>circumstance_phrase->sense cap emoció o expressió</li>
     <li>circumstance_phrase->sense cap fosca necessitat</li>
     <li>circumstance_phrase->covardament i sense compassió</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] s’ho miren.</li>
     <li>desc_sentence->Un [outlander] s’ho mira en silenci [side_position].</li>
     <li>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</li>
     <li>desc_sentence->[victim_nameShortDef] té els ulls tancats.</li>
@@ -148,7 +148,7 @@
     <li>circumstance_phrase->[child_nameFull], que brilla d’un color [color] molt suau</li>
     <li>circumstance_phrase->[child_nameFull], que ja prova de donar-se la volta</li>
     <li>circumstance_phrase->[child_nameFull], que mira al seu voltant amb una expressió serena</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s dormen pacíficament a les rodalies.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] dormen pacíficament a les rodalies.</li>
     <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren.</li>
     <li>desc_sentence->Un [outlander] s’ho mira en la distància.</li>
     <li>desc_sentence->L’escena té lloc dins una  [community] acabada de construir.</li>
@@ -188,13 +188,14 @@
     <li>circumstance_phrase->i el cos cobert de suor</li>
     <li>circumstance_phrase->amb els llavis secs i tallats</li>
     <li>circumstance_phrase->mentre vomita</li>
-    <li>desc_sentence->[quantity_adjphrase] cadàvers de [animal]s assecats cobreixen la zona.</li>
+    <li>desc_sentence->[quantity_adjphrase] cadàvers de [AnimalAnyPlural] assecats cobreixen la zona.</li>
     <li>desc_sentence->la roba de [pawn_nameShortDef] està bruta i feta malbé.</li>
     <li>desc_sentence->Un sol esclatant amenaça a l’horitzó.</li>
     <li>desc_sentence->L’escena pren part en un desert abrasador.</li>
     <li>desc_sentence->L’escena pren part en un interior, al costat d’una estufa.</li>
     <li>desc_sentence->[quantity_adjphrase] [animal]s immòbils envolten l’escena.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s moribunds cobreixen el terra.</li>
+    <li>desc_sentence(p=0.5)->[quantity_adjphrase] [AnimalMP] moribunds cobreixen el terra.</li>
+    <li>desc_sentence(p=0.5)->[quantity_adjphrase] [AnimalFP] moribundes cobreixen el terra.</li>
   </HeatstrokeRevealed.rulePack.rulesStrings>
   
   <!-- EN: hypothermia revealed -->
@@ -231,13 +232,15 @@
     <li>circumstance_phrase->i tremolant sense control</li>
     <li>circumstance_phrase->amb el cos cobert de gebre</li>
     <li>circumstance_phrase->exhalant vapor</li>
-    <li>desc_sentence->[quantity_adjphrase] cadàvers d’[animal]s congelats envolten la zona.</li>
+    <li>desc_sentence->[quantity_adjphrase] cadàvers de [AnimalAnyPlural] congelats envolten la zona.</li>
     <li>desc_sentence->[pawn_nameShortDef] té la roba bruta i feta malbé.</li>
     <li>desc_sentence->Una lluna blava i freda amenaça al fons.</li>
     <li>desc_sentence->L’escena té lloc en un bosc de [tree]s cobert de neu.</li>
     <li>desc_sentence->L’escena té lloc dins un congelador.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s tremolosos completen l’escena.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s moribunds cobreixen el terra.</li>
+    <li>desc_sentence(p=0.7)->[quantity_adjphrase] [AnimalMP] tremolosos completen l’escena.</li>
+    <li>desc_sentence(p=0.3)->[quantity_adjphrase] [AnimalFP] tremoloses completen l’escena.</li>
+    <li>desc_sentence(p=0.7)->[quantity_adjphrase] [AnimalMP] moribunds cobreixen el terra.</li>
+    <li>desc_sentence(p=0.3)->[quantity_adjphrase] [AnimalFP] moribundes cobreixen el terra.</li>
   </HypothermiaRevealed.rulePack.rulesStrings>
   
   <!-- EN: illness revealed -->
@@ -278,11 +281,12 @@
     <li>circumstance_phrase->mentre vomita</li>
     <li>circumstance_phrase->amb una erupció visible</li>
     <li>circumstance_phrase->sent atès pel metge</li>
-    <li>desc_sentence->[quantity_adjphrase] cadàvers de [animal]s volant per la zona.</li>
+    <li>desc_sentence->[quantity_adjphrase] cadàvers de [AnimalAnyPlural] volant per la zona.</li>
     <li>desc_sentence->[quantity_adjphrase] [terrainfeature]s [color]s retorçades envolten l’escena.</li>
     <li>desc_sentence->[quantity_adjphrase] [outlander]s estant afectats per la mateixa malatia.</li>
     <li>desc_sentence->L’escena té lloc dins un bosc de [tree]s.</li>
-    <li>desc_sentence->[quantity_adjphrase][animal]s moribunds embruten el terra.</li>
+    <li>desc_sentence(p=0.5)->[quantity_adjphrase] [AnimalMP] moribunds embruten el terra.</li>
+    <li>desc_sentence(p=0.5)->[quantity_adjphrase] [AnimalFP] moribundes embruten el terra.</li>
   </IllnessRevealed.rulePack.rulesStrings>
   
   <!-- EN: killed -->

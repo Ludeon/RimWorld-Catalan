@@ -40,7 +40,7 @@
     <li>desc_sentence->[pawn_nameShortDef] s’ho mira amb cara de fascinació.</li>
     <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren des de baix.</li>
     <li>desc_sentence->[pawn_nameShortDef] seu prop d’una [terrainfeature], mirant al cel.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s volten pacíficament.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] volten pacíficament.</li>
     <li>desc_sentence->No hi cap [enemy] a la vista.</li>
   </Aurora.rulePack.rulesStrings>
   
@@ -85,7 +85,8 @@
     <li>desc_sentence->poden veure’s [quantity_adjphrase] [enemy]s a la llunyania.</li>
     <li>desc_sentence->[pawn_nameShortDef] està pràcticament envoltat per [enemy]s.</li>
     <li>desc_sentence->[pawn_nameShortDef] està enfrontat amb [enemy].</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s fugen espantats de l’escena dej conflicte.</li>
+    <li>desc_sentence(p=0.7)->[quantity_adjphrase] [AnimalMP] fugen espantats de l’escena del conflicte.</li>
+    <li>desc_sentence(p=0.7)->[quantity_adjphrase] [AnimalFP] fugen espantades de l’escena del conflicte.</li>
     <li>desc_sentence->A la llunyania, un [outlander] observa.</li>
   </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
   
@@ -258,7 +259,8 @@
     <li>image->un cel anormalment fosc, [circumstance_phrase]</li>
     <li>image->un cel crepuscular, [circumstance_phrase]</li>
     <li>image->una lluna, envoltada per un anell de llum solar, [circumstance_phrase]</li>
-    <li>image->[quantity_adjphrase] [animal]s voltant confosos en la foscor, [circumstance_phrase]</li>
+    <li>image(p=0.5)->[quantity_adjphrase] [AnimalMP] volten confosos en la foscor, [circumstance_phrase]</li>
+    <li>image(p=0.5)->[quantity_adjphrase] [AnimalFP] volten confoses en la foscor, [circumstance_phrase]</li>
     <li>circumstance_phrase->ambient quiet i silenciós</li>
     <li>circumstance_phrase->la llum crepuscular acotxa una [terrainfeature] propera</li>
     <li>circumstance_phrase->la llum crepuscular acotxa [quantity_adjphrase] [terrainfeature]s properes</li>
@@ -311,9 +313,9 @@
     <li>image->[pawn_nameShortDef] rebent una transmissió a [transmission_source] mentre [circumstance_group]</li>
     <li>image->[pawn_nameShortDef] rebent un missatge a [transmission_source] mentre [circumstance_group]</li>
     <li>image->[pawn_nameShortDef] sintonitzant un missatge a [transmission_source] mentre [circumstance_group]</li>
-    <li>delivery_method->un [animal]</li>
+    <li>delivery_method->[AnimalAnySingularIndefinite]</li>
     <li>delivery_method->un [outlander]</li>
-    <li>delivery_method->[quantity_adjphrase] [animal]s</li>
+    <li>delivery_method->[quantity_adjphrase] [AnimalAnyPlural]</li>
     <li>transmission_source->una freqüència poc habitual</li>
     <li>transmission_source->un antic transmissor</li>
     <li>transmission_source->una senyal molt pobre</li>
@@ -324,10 +326,11 @@
     <li>circumstance_phrase->cuida els camps</li>
     <li>circumstance_phrase->a [animal] passa per allà</li>
     <li>circumstance_phrase->juga a [game]</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s volten a prop, aliens a tot.</li>
+    <li>desc_sentence(p=0.7)->[quantity_adjphrase] [AnimalFP] volten a prop, aliens a tot.</li>
+    <li>desc_sentence(p=0.3)->[quantity_adjphrase] [AnimalMP] volten a prop, alienes a tot.</li>
     <li>desc_sentence->Mentre llegeix, es posa a [friendlyverb].</li>
     <li>desc_sentence->Un [outlander] espectral s’ho mira des dels núvols.</li>
-    <li>desc_sentence->[pawn_nameShortDef] seu prop d’una [terrainfeature].</li>
+    <li>desc_sentence->[pawn_nameShortDef] seu a prop d’una [terrainfeature].</li>
     <li>desc_sentence->Es veu una [community] a la llunyania.</li>
     <li>desc_sentence->Es veu una nau espacial a la llunyania.</li>
   </EndGame_ShipEscape.rulePack.rulesStrings>
@@ -375,7 +378,7 @@
     <li>desc_sentence->[pawn_nameShortDef] s’ho mira amb cara de pànic.</li>
     <li>desc_sentence->[pawn_nameShortDef] stà coordinant les tasques de protecció preventiva.</li>
     <li>desc_sentence->[quantity_adjphrase] [outlander]s corrent a preparar-se.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s fugen de la zona.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] fugen de la zona.</li>
     <li>desc_sentence->Tota la vida animal ha aixecat el camp de la zona.</li>
   </Flashstorm.rulePack.rulesStrings>
   
@@ -413,7 +416,7 @@
     <li>circumstance_phrase->encerclen completament una [community]</li>
     <li>circumstance_phrase->ataquen [quantity_adjphrase] [outlander]s</li>
     <li>circumstance_phrase->surten del terra</li>
-    <li>circumstance_phrase->devorant [quantity_adjphrase] [animal]s</li>
+    <li>circumstance_phrase->devoren [quantity_adjphrase] [AnimalAnyPlural]</li>
     <li>desc_sentence->[pawn_nameShortDef] organitza la resistència.</li>
     <li>desc_sentence->[pawn_nameShortDef] branda [weapon] defensivament.</li>
     <li>desc_sentence->[pawn_nameShortDef] jeu a terra, ferit.</li>
@@ -422,7 +425,7 @@
     <li>desc_sentence->[pawn_nameShortDef] te una expressió [angstyadjective].</li>
     <li>desc_sentence->El terra està cobert de [gore].</li>
     <li>desc_sentence->[quantity_adjphrase] [outlander]s fugen de la zona.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s fugen de la zona.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] fugen de la zona.</li>
     <li>desc_sentence->Tots els animals han fugit de la zona.</li>
   </Infestation.rulePack.rulesStrings>
   
@@ -458,7 +461,7 @@
   <ManhunterPack.rulePack.rulesStrings>
     <li>tale_noun->la [community] de [pawn_nameShortDef] atacada per animals</li>
     <li>image->una manada de [animal]s [circumstance_phrase]</li>
-    <li>image->[quantity_adjphrase] [animal]s [circumstance_phrase]</li>
+    <li>image->[quantity_adjphrase] [AnimalAnyPlural] [circumstance_phrase]</li>
     <li>image->una [huge] [animal] [circumstance_phrase]</li>
     <li>image->[quantity_adjphrase] ombres [circumstance_phrase]</li>
     <li>image->[quantity_adjphrase] ombres quadrupedes [circumstance_phrase]</li>

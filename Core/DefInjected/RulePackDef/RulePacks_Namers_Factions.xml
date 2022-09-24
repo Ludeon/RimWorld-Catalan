@@ -139,9 +139,11 @@
   <NamerFactionTribal.rulePack.rulesStrings>
     <li>r_name->[political_union_tribal] [tribalworld]</li>
     <li>r_name->Els [political_union_tribal] [tribalworld]</li>
-    <li>r_name->Els [political_union_tribal] [TerrainFeature] [Color]</li>
+    <li>r_name(p=0.5)->Els [political_union_tribal] [TerrainFeature] [ColorMSCap]</li>
+    <li>r_name(p=0.5)->Les [political_union_tribal] [TerrainFeature] [ColorFSCap]</li>
     <li>r_name->[political_union_tribal] de [WordTribal]</li>
-    <li>r_name->Els [WordTribal] [Animal] [Color]</li>
+    <li>r_name(p=0.5)->Els [WordTribal] [AnimalMPCap] [ColorMPCap]</li>
+    <li>r_name(p=0.5)->Les [WordTribal] [AnimalFPCap] [ColorFPCap]</li>
     <li>r_name->Els [WordTribal] de la [TerrainFeature]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
   
@@ -361,8 +363,8 @@
   -->
   <NamerSettlementTribal.rulePack.rulesStrings>
     <li>r_name(p=2)->[WordTribal]</li>
-    <li>r_name->[WordTribal] [Color]</li>
-    <li>r_name->[TerrainFeature] [Color]</li>
+    <li>r_name->[WordTribal] [ColorCap]</li>
+    <li>r_name->[TerrainFeature] [ColorCap]</li>
     <li>r_name->[TerrainFeature] [WordTribal]</li>
   </NamerSettlementTribal.rulePack.rulesStrings>
   

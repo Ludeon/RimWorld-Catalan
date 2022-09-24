@@ -256,8 +256,10 @@
     <li>desc_sentence->[pawn_pronoun] sembla no tenir ni idea del que està fent.</li>
     <li>desc_sentence->[pawn_pronoun] està ligat amb el cinturó amb els ulls tancats, completament desamparat.</li>
     <li>desc_sentence->Surten flames de darrere de la càpsula.</li>
-    <li>desc_sentence->Un [animal] proper s'ho mira sorprès.</li>
-    <li>desc_sentence->Un [animal] fuig espantat per l'impacte.</li>
+    <li>desc_sentence(p=0.7)->Un [AnimalMS] proper s'ho mira sorprès.</li>
+    <li>desc_sentence(p=0.3)->Una [AnimalFS] propera s'ho mira sorprès.</li>
+    <li>desc_sentence(p=0.7)->Un [AnimalMS] fuig espantat per l'impacte.</li>
+    <li>desc_sentence(p=0.3)->Una [AnimalFS] fuig espantada per l'impacte.</li>
     <li>desc_sentence->Hi ha una [terrainfeature] al fons.</li>
     <li>desc_sentence->Un [outlander] s'ho mira de lluny.</li>
   </LandedInPod.rulePack.rulesStrings>
@@ -307,8 +309,8 @@
     <li>desc_sentence->Ha perdut una part de la roba.</li>
     <li>desc_sentence->Té un gest de llàstima.</li>
     <li>desc_sentence->Sembla somriure maníacament.</li>
-    <li>desc_sentence->Està dibuixat amb la cara d'un [animal] rugint.</li>
-    <li>desc_sentence->Li envolten simbòlicament el cap tot de [animal]s.</li>
+    <li>desc_sentence->Està dibuixat amb la cara d'[AnimalAnySingularIndefinite] rugint.</li>
+    <li>desc_sentence->Li envolten simbòlicament el cap tot de [AnimalAnyPlural].</li>
     <li>desc_sentence->Té una mirada assassina.</li>
     <li>desc_sentence->Tot el cos li tremola d'odi.</li>
     <li>desc_sentence->Li han fet la cara amb una serenor perversa.</li>
@@ -433,7 +435,7 @@
     <li>desc_sentence->Sembla que vulgui riure malgrat les circumstàncies.</li>
     <li>desc_sentence->Sembla com desinflat, com si s'hagués buidat completament per la forta vomitada.</li>
     <li>desc_sentence->Està envoltat per una mena d'halo artístic de brutícia.</li>
-    <li>desc_sentence->Un [animal] es menja el vòmit del terra.</li>
+    <li>desc_sentence->[AnimalAnySingularIndefinite] es menja el vòmit del terra.</li>
   </Vomited.rulePack.rulesStrings>
   
   <!-- EN: walked naked -->

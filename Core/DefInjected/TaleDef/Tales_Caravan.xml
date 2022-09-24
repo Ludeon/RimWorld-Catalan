@@ -45,11 +45,11 @@
     <li>desc_sentence->Un gran [enemy] avança, brandant un [weapon].</li>
     <li>desc_sentence->[quantity_adjphrase] [enemy]s avancen amb una mirada [badassadjective].</li>
     <li>desc_sentence->[quantity_adjphrase] [enemy]s avancen amb una mirada [angstyadjective].</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s avancen amb uns brillants ulls [color].</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s avancen, coberts de [gore].</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] avancen amb uns brillants ulls [ColorMP].</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] avancen, coberts de [gore].</li>
     <li>desc_sentence->El terra cobert de [gore].</li>
     <li>desc_sentence->[quantity_adjphrase] [outlander]s fugen de la zona.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s fugen de l’àrea.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] fugen de l’àrea.</li>
   </CaravanAmbushDefeated.rulePack.rulesStrings>
   
   <!-- EN: caravan assault successful -->
@@ -90,7 +90,7 @@
     <li>desc_sentence->A [community] fumeja a la llunyania.</li>
     <li>desc_sentence->El terra està encatifat de [gore].</li>
     <li>desc_sentence->[quantity_adjphrase] [outlander]s s’escapen del lloc.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s corren per allunyar-se.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] corren i s'allunyen.</li>
   </CaravanAssaultSuccessful.rulePack.rulesStrings>
   
   <!-- EN: caravan fled -->
@@ -130,7 +130,7 @@
     <li>circumstance_phrase->mentre [quantity_adjphrase] [enemy]s el persegueixen</li>
     <li>circumstance_phrase->mentre [quantity_adjphrase] [enemy]s busquen</li>
     <li>circumstance_phrase->mentre [quantity_adjphrase] [enemy]s</li>
-    <li>circumstance_phrase->dels [quantity_adjphrase] [animal]s enemics</li>
+    <li>circumstance_phrase->dels [quantity_adjphrase] [AnimalAnyPlural] enemics</li>
     <li>circumstance_phrase->d’un [huge] [enemy]</li>
     <li>desc_sentence->els perseguidors de [pawn_nameShortDef] branden [weapon]s.</li>
     <li>desc_sentence->els perseguidors de [pawn_nameShortDef] estan envoltats en fum [color].</li>
@@ -178,7 +178,7 @@
     <li>desc_sentence->[quantity_adjphrase] [enemy]s es van fent petits a l’escena.</li>
     <li>desc_sentence->Es veu un [terrainfeature] a la distància.</li>
     <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren des de lluny.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s volten pacíficament.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] volten pacíficament.</li>
   </CaravanFormed.rulePack.rulesStrings>
   
   <!-- EN: caravan remote mining -->
@@ -215,7 +215,7 @@
     <li>circumstance_phrase->amb cara de satisfacció</li>
     <li>circumstance_phrase->mirant atentament al voltant per si sorgeix algun perill</li>
     <li>desc_sentence->[quantity_adjphrase] [ally]s l’ajuden.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s volten per la zona.</li>
+    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] volten per la zona.</li>
     <li>desc_sentence->Es veu una xabola al fons.</li>
     <li>desc_sentence->Es veuen [quantity_adjphrase] venes més a la llunyania.</li>
     <li>desc_sentence->Es veu una [terrainfeature] a la llunyania.</li>
