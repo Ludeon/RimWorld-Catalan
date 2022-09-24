@@ -1,0 +1,82 @@
+public class LanguageWorker_Catalan : LanguageWorker
+{
+	public override string WithIndefiniteArticle(string str, Gender gender, bool plural = false, bool name = false)
+	{
+		if( str.NullOrEmpty() )
+			return str;
+
+		if( name )
+			return WithElLaArticle(str, gender, true);
+		else if( plural )
+			return (gender == Gender.Female ? "unes " : "uns ") + str;
+		else
+			return (gender == Gender.Female ? "una " : "un ") + str;
+	}
+
+	public override string WithDefiniteArticle(string str, Gender gender, bool plural = false, bool name = false)
+	{
+		if( str.NullOrEmpty() )
+			return str;
+
+		if( name )
+			return WithElLaArticle(str, gender, true);
+		else if( plural )
+			return (gender == Gender.Female ? "les " : "els ") + str;
+		else
+			return WithElLaArticle(str, gender, false);
+	}
+
+	private string WithElLaArticle(string str, Gender gender, bool name)
+	{
+		if( str.Length != 0 && (IsVowel(str[0]) || str[0] == 'h' || str[0] == 'H') )
+		{
+			if( name && gender == Gender.Male)
+				return "n’" + str;
+			else
+				return "l’" + str;
+		}
+		else
+			return (gender == Gender.Female ? "la " : "el ") + str;
+	}
+
+	public override string OrdinalNumber(int number, Gender gender = Gender.None)
+	{
+		if( gender == Gender.Female )
+			return number + "a";
+
+        switch ( number )
+        {
+        case 1:  return number + "r"; // Primer
+        case 2:  return number + "n"; // Segon
+        case 3:  return number + "r"; // Tercer
+        case 4:  return number + "t"; // Quart
+        default: return number + "è"; // Cinquè i posteriors
+        }
+	}
+
+	public bool IsVowel(char ch)
+	{
+		return "aeiouAEIOUàèéíòóúÀÈÉÍÒÓÚïüÏÜ".IndexOf(ch) >= 0;
+	}
+
+	public override string PostProcessed(string str)
+	{
+		return PostProcessedInt(base.PostProcessed(str));
+	}
+
+	public override string PostProcessedKeyedTranslation(string translation)
+	{
+		return PostProcessedInt(base.PostProcessedKeyedTranslation(translation));
+	}
+
+	private string PostProcessedInt(string str)
+	{
+		return str.Replace(" de el ", " del ")
+			.Replace(" de els ", " dels ")
+			.Replace(" a el ", " al ")
+			.Replace(" a els ", " als ")
+			.Replace(" per el ", " pels ")
+			.Replace(" per els ", " pels ")
+			.Replace("'", "’");
+	}
+}
