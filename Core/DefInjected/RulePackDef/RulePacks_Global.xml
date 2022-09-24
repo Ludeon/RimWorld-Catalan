@@ -53,12 +53,29 @@
     <li>SylE_Cap->WordParts/Syllables_English_Cap</li>
     <li>SylG->WordParts/Syllables_Galician</li>
     <li>SylG_Cap->WordParts/Syllables_Galician_Cap</li>
-    <li>Color->Words/Nouns/Colors</li>
+    <li>Color->Words/Nouns/Color</li>
+    <li>ColorCap->Words/Nouns/Color_Cap</li>
+    <li>ColorMS->Words/Nouns/Color_M</li>
+    <li>ColorMSCap->Words/Nouns/Color_M_Cap</li>
+    <li>ColorFS->Words/Nouns/Color_F</li>
+    <li>ColorFSCap->Words/Nouns/Color_F_Cap</li>
+    <li>ColorMP->Words/Nouns/Color_M_Plural</li>
+    <li>ColorMPCap->Words/Nouns/Color_M_Plural_Cap</li>
+    <li>ColorFP->Words/Nouns/Color_F_Plural</li>
+    <li>ColorFPCap->Words/Nouns/Color_F_Plural_Cap</li>
     <li>ColorBadass->Words/Nouns/Colors_Badass</li>
     <li>Vegetable->Words/Nouns/Vegetables</li>
     <li>VegetablePlural->Words/Nouns/Vegetables_Plural</li>
     <li>Game->Words/Nouns/Games</li>
     <li>Animal->Words/Nouns/Animals</li>
+    <li>AnimalMS->Words/Nouns/Animal_M</li>
+    <li>AnimalFS->Words/Nouns/Animal_F</li>
+    <li>AnimalMP->Words/Nouns/Animal_M_Plural</li>
+    <li>AnimalFP->Words/Nouns/Animal_F_Plural</li>
+    <li>AnimalMSCap->Words/Nouns/Animal_M_Cap</li>
+    <li>AnimalFSCap->Words/Nouns/Animal_F_Cap</li>
+    <li>AnimalMPCap->Words/Nouns/Animal_M_Plural_Cap</li>
+    <li>AnimalFPCap->Words/Nouns/Animal_F_Plural_Cap</li>
     <li>AnimalPlural->Words/Nouns/Animals_Plural</li>
     <li>AnimalBadass->Words/Nouns/Animals_Badass</li>
     <li>AnimalGroup->Words/Nouns/AnimalGroups</li>
@@ -187,6 +204,18 @@
     <li>PersonalCharacteristic(p=0.15)->habilitat sexual</li>
     <li>PersonalCharacteristic(p=0.15)->preferències sexuals</li>
     <li>PersonalCharacteristic(p=0.15)->experiència sexual</li>
+    <li>AnimalAnySingular->[AnimalMS]</li>
+    <li>AnimalAnySingular->[AnimalFS]</li>
+    <li>AnimalAnySingularDefinite->el [AnimalMS]</li>
+    <li>AnimalAnySingularDefinite->la [AnimalFS]</li>
+    <li>AnimalAnySingularIndefinite->un [AnimalMS]</li>
+    <li>AnimalAnySingularIndefinite->una [AnimalFS]</li>
+    <li>AnimalAnyPlural->[AnimalMP]</li>
+    <li>AnimalAnyPlural->[AnimalFP]</li>
+    <li>AnimalAnyPluralDefinite->els [AnimalMP]</li>
+    <li>AnimalAnyPluralDefinite->les [AnimalFP]</li>
+    <li>AnimalAnyPluralIndefinite->uns [AnimalMP]</li>
+    <li>AnimalAnyPluralIndefinite->unes [AnimalFP]</li>
     <li>ApparelAnyPlural->[ApparelMP]</li>
     <li>ApparelAnyPlural->[ApparelFP]</li>
     <li>ApparelMPlural_Definite->els [ApparelMP]</li>
