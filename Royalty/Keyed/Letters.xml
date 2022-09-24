@@ -13,9 +13,9 @@
   <!-- EN: This title requires apparel of {1} quality or better. -->
   <LetterRoyalTitleApparelQualityRequirement>El títol requereix una indumentària de qualitat de com a mínim {1}.</LetterRoyalTitleApparelQualityRequirement>
   <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
-  <LetterRoyalTitleApparelRequirement>El títol requereix una indumentària apropiada:</LetterRoyalTitleApparelRequirement>
+  <LetterRoyalTitleApparelRequirement>{PAWN_gender ? El : El} títol requereix una indumentària apropiada:</LetterRoyalTitleApparelRequirement>
   <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
-  <LetterRoyalTitleExpectation>Les seves expectatives no estaran mai per sota de {1}.</LetterRoyalTitleExpectation>
+  <LetterRoyalTitleExpectation>{PAWN_gender ? Les : Les} seves expectatives no estaran mai per sota de {1}.</LetterRoyalTitleExpectation>
   
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
   <LetterRoyalTitleConceitedTrait>Com {PAWN_labelShort} és {1}, demanarà que es respectin tots els privilegis del seu títol. {PAWN_pronoun} podria negar-se a fer certs tipus de tasques, potser no menjarà àpats de baixa qualitat i emetrà decrets.</LetterRoyalTitleConceitedTrait>
@@ -62,15 +62,15 @@
   <LetterRoyalTitleFoodRequirements>El títol especifica que {PAWN_pronoun} només hauria de menjar el següent:{1}</LetterRoyalTitleFoodRequirements>
 
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
-  <LetterRoyalTitleRewardGranted>Rebrà els elements següents a través de càpsules de transport:{1}</LetterRoyalTitleRewardGranted>
+  <LetterRoyalTitleRewardGranted>Rebrà {PAWN_gender ? els : els} elements següents a través de càpsules de transport:{1}</LetterRoyalTitleRewardGranted>
   <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
   <PeaceTalksRoyalFavorGain>{PAWN_labelShort} ha obtingut {1} {FACTION_royalFavorLabel} dels {FACTION_name}.</PeaceTalksRoyalFavorGain>
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
-  <LetterRoyalTitleHeir>Si mor, el títol l'heretarà {HEIR_nameFull}.</LetterRoyalTitleHeir>
+  <LetterRoyalTitleHeir>Si {PAWN_gender ? mor : mor}, el títol l'heretarà {HEIR_nameFull}.</LetterRoyalTitleHeir>
   <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
-  <LetterRoyalTitleNoHeir>Si mor, ningú heretarà el títol.</LetterRoyalTitleNoHeir>
+  <LetterRoyalTitleNoHeir>Si {PAWN_gender ? mor : mor}, ningú heretarà el títol.</LetterRoyalTitleNoHeir>
   <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
   <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull} és membre dels {FACTION_name}.</LetterRoyalTitleHeirFactionWarning>
   <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
@@ -88,13 +88,13 @@
   <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
   <LetterTitleInheritance_Base>Com que {PAWN_nameFull} ha mort, els seus títols passen als seus hereus.</LetterTitleInheritance_Base>
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
-  <LetterTitleInheritance_AsReplacement>El títol de {TITLE} l'hereta {HEIR_nameFull}, d'acord amb les lleis successòries de {FACTION_name}. Reemplaçarà el seu títol de {REPLACEDTITLE} quan es completi la cerimònia de lliurament.</LetterTitleInheritance_AsReplacement>
+  <LetterTitleInheritance_AsReplacement>{PAWN_gender ? El : El} títol de {TITLE} l'hereta {HEIR_nameFull}, d'acord amb les lleis successòries de {FACTION_name}. Reemplaçarà el seu títol {HEIR_gender ? de : de} {REPLACEDTITLE} quan es completi la cerimònia de lliurament.</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
-  <LetterTitleInheritance_NoEffectHigherTitle>El títol de {TITLE} l'hauria d'haver heretat {HEIR_nameFull}, d'acord amb les lleis successòries de {FACTION_name}. Però com ja té el títol de {HIGHERTITLE}, que és de grau superior, es mantindrà aquest últim.</LetterTitleInheritance_NoEffectHigherTitle>
+  <LetterTitleInheritance_NoEffectHigherTitle>{PAWN_gender ? El : El} títol de {TITLE} l'hauria d'haver heretat {HEIR_nameFull}, d'acord amb les lleis successòries de {FACTION_name}. Però com ja té el títol de {HIGHERTITLE}, que és de grau superior, es mantindrà aquest últim.</LetterTitleInheritance_NoEffectHigherTitle>
   <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
-  <LetterTitleInheritance_WasInherited>El títol de {TITLE} l'heretarà {HEIR_nameFull} quan es completi la cerimònia de lliurament, d'acord amb les lleis successòries de {FACTION_name}.</LetterTitleInheritance_WasInherited>
+  <LetterTitleInheritance_WasInherited>{PAWN_gender ? El : El} títol de {TITLE} l'heretarà {HEIR_nameFull} quan es completi la cerimònia de lliurament, d'acord amb les lleis successòries de {FACTION_name}.</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
-  <LetterTitleInheritance_NoHeirFound>El títol de {TITLE} no l'ha heretat ningú, ja que no s'havia designat cap hereu.</LetterTitleInheritance_NoHeirFound>
+  <LetterTitleInheritance_NoHeirFound>{PAWN_gender ? El : El} títol de {TITLE} no l'ha heretat ningú, ja que no s'havia designat cap hereu.</LetterTitleInheritance_NoHeirFound>
 
   <!-- Royal implant violations -->
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->

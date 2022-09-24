@@ -10,7 +10,7 @@
   <!-- EN: You're about to change the heir of the title {HOLDER_nameIndef} received from {0_name}. This requires building a monument in a limited time, to consecrate the new inheritance. -->
   <MakeHeirConfirm>Esteu a punt de canviar l'hereu del títol de {HOLDER_nameIndef} que ha rebut de {0_name}. Caldrà erigir un monument en un temps limitat per consagrar la línia hereditària nova.</MakeHeirConfirm>
   <!-- EN: This will upset {HOLDER_possessive} current heir {HEIR_nameFull}. -->
-  <MakeHeirPreviousHeirWarning>Això molestarà {HEIR_gender ? el seu actual hereu : la seva actual hereva}, {HEIR_nameFull}.</MakeHeirPreviousHeirWarning>
+  <MakeHeirPreviousHeirWarning>{HOLDER_gender ? Això : Això} molestarà {HEIR_gender ? el seu actual hereu : la seva actual hereva}, {HEIR_nameFull}.</MakeHeirPreviousHeirWarning>
 
   <!-- Call aid -->
   <!-- EN: Call aid... -->
