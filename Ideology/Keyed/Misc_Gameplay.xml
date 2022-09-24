@@ -229,7 +229,7 @@
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
   <RitualOutcomeExtraDesc_BlindingPsylink>Per participar en el ritual de la ceguesa, {PAWN_labelShort} obté un nivell de psicoenllaç!</RitualOutcomeExtraDesc_BlindingPsylink>
   <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
-  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>Amb un nivell de psicoenllaç nou, obté el psicoencanteri {0}.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
+  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>Amb un nivell de psicoenllaç nou, obté {PAWN_gender ? el : el} psicoencanteri {0}.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
   <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
   <RitualOutcomeExtraDesc_ConsumableInspiration>Per participar en {RITUAL}, {PAWN_labelShort} ha obtingut {INSPIRATION}!</RitualOutcomeExtraDesc_ConsumableInspiration>
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
@@ -443,7 +443,7 @@
   <RitualPredictedOutcomeDescNumDrums>Tambors</RitualPredictedOutcomeDescNumDrums>
 
   <!-- EN: Using ritual spot causes {0} mood bonus reduction for all participants. -->
-  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>Si s'utilitza el lloc ritual, s'aplicarà una reducció de la bonificació de l'estat d'ànim a tots els participants.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
+  <RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>Si s'utilitza el lloc ritual, s'aplicarà una reducció de la bonificació de l'estat d'ànim en {0} a tots els participants.</RitualPredictedOutcomeDescEffectRitualSpotMoodReduction>
 
   <!-- EN: Any of these -->
   <RitualOutcomeLabelAnyOfThese>Qualssevol d'aquests</RitualOutcomeLabelAnyOfThese>
@@ -474,7 +474,7 @@
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
   <TreeBlockedByNearbyBuildingsDesc>Si es planta {PLANT_definite} a prop d'edificis artificials, la força de la seva connexió es reduirà amb el pas del temps. La força de la connexió determina el nombre màxim de dríades {PLANT_definite} que pot mantenir al mateix temps.\n\nEsteu segur que voleu plantar-{PLANT_gender ? lo : la} aquí?</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
-  <GauranlenModeChangeDescFull>El canvi de casta de dríades de {PLANT_definite} suposa gastar temps i energia.\n\nDesprés que la persona connectada interactuï amb l'arbre, totes les dríades passaran {DURATION} dies a dins dels capolls i es transformaran a la casta triada.\n\nEls capolls ja existents també actualitzaran el tipus de dríada que produïen i generaran una dríada de la casta actual.</GauranlenModeChangeDescFull>
+  <GauranlenModeChangeDescFull>El canvi de casta de dríades de {TREE_definite} suposa gastar temps i energia.\n\nDesprés que la persona connectada interactuï amb l'arbre, totes les dríades passaran {DURATION} dies a dins dels capolls i es transformaran a la casta triada.\n\nEls capolls ja existents també actualitzaran el tipus de dríada que produïen i generaran una dríada de la casta actual.</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
   <ChangeModeDesc>Canvia el tipus de dríades que crea {TREE_definite}.</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
@@ -580,7 +580,7 @@
   <!-- EN: An archonexus map part -->
   <Reward_ArchonexusMapPart>Part de mapa de l'arconexe</Reward_ArchonexusMapPart>
   <!-- EN: Archonexus map part {0}/{1} -->
-  <Reward_ArchonexusMapPartLabel>Part del mapa de l'arconexe</Reward_ArchonexusMapPartLabel>
+  <Reward_ArchonexusMapPartLabel>Part del mapa de l'arconexe {0}/{1}</Reward_ArchonexusMapPartLabel>
 
   <!-- EN: relics -->
   <RelicsLower>relíquies</RelicsLower>
@@ -664,7 +664,7 @@
   <!-- EN: Requires -->
   <BiosculpterRequiresIngredients>Requereix</BiosculpterRequiresIngredients>
   <!-- EN: On completion of the {CYCLE} cycle, the following will occur -->
-  <OnCompletionOfCycle>Quan es completi el cicle de {CICLE}, succeirà el següent</OnCompletionOfCycle>
+  <OnCompletionOfCycle>Quan es completi el cicle de {CYCLE}, succeirà el següent</OnCompletionOfCycle>
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
   <BiosculpterNoCoditionsToHeal>{PAWN_nameDef} no pateix malalties ni condicions que es puguin guarir amb un cicle de {CYCLE}.\n\nVoleu continuar?</BiosculpterNoCoditionsToHeal>
 

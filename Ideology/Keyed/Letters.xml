@@ -54,7 +54,7 @@
   <!-- EN: {PAWN_labelShort} no longer holds the role of {ROLE_labelIndef}. Reason: -->
   <LetterRoleLostDesc>{PAWN_labelShort} ja no té el rol de {ROLE_labelIndef}. Motiu:</LetterRoleLostDesc>
   <!-- EN: {PAWN_pronoun} was unassigned. -->
-  <LetterRoleLostReasonUnassignedDesc>S'ha desassignat.</LetterRoleLostReasonUnassignedDesc>
+  <LetterRoleLostReasonUnassignedDesc>S'ha {PAWN_gender ? desassignat : desassignat}.</LetterRoleLostReasonUnassignedDesc>
   <!-- EN: Role became inactive due to low {0} count. -->
   <LetterRoleLostReasonLowBelieversDesc>El rol ja no està disponible perquè hi ha pocs {0_plural}.</LetterRoleLostReasonLowBelieversDesc>
   <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
