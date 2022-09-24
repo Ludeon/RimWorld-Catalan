@@ -110,7 +110,7 @@
   <!-- EN: {1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
   <AnimalManhunterFromDamage>{1_indefinite} ataca com a resultat d'haver-{1_gender ? lo : la} feri{1_gender ? t : da}!\n\nAtacarà qualsevol humà que trobi. Es calmarà quan s’adormi.</AnimalManhunterFromDamage>
   <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
-  <AnimalManhunterFromTaming>{PAWN_indefinite} us ataca per l'intent fallit de domesticar-lo!</AnimalManhunterFromTaming>
+  <AnimalManhunterFromTaming>{1_indefinite} us ataca per l'intent fallit de domesticar-{1_gender ? lo : la}!</AnimalManhunterFromTaming>
   <!-- EN: Other {1_kindBasePlural} nearby have also become enraged! -->
   <AnimalManhunterOthers>Altres {1_kindPlural} propers també s'han enfurit!</AnimalManhunterOthers>
 
@@ -344,11 +344,11 @@
 
   <!-- Run wild mental break -->
   <!-- EN: {0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back. -->
-  <LetterRunWildMentalBreak>{0} s’ha cansat de la civilització.\n\nS’ha adonat que les criatures salvatges són lliures de fer el que vulguin. Així, ha decidit deixar la facció i viure entre els animals.\n\n{0_gender ? El : La} podeu intentar domar o arrestar per recuperar-{0_gender ? lo : la}.</LetterRunWildMentalBreak>
+  <LetterRunWildMentalBreak>{0} s’ha cansat de la civilització.\n\nS’ha adonat que les criatures salvatges són lliures de fer el que vulguin. Així, ha decidit deixar la facció i viure entre els animals.\n\n{PAWN_gender ? El : La} podeu intentar domar o arrestar per recuperar-{0_gender ? lo : la}.</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
   <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
-  <LetterCatatonicMentalBreak>{0} ha patit una crisi nerviosa molt forta i s'ha quedat catatòni{0_gender ? c : ca}. Es recuperarà d'aquí uns dies.</LetterCatatonicMentalBreak>
+  <LetterCatatonicMentalBreak>{0} ha patit una crisi nerviosa molt forta i s'ha quedat {PAWN_gender ? catatònic : catatònica}. Es recuperarà d'aquí uns dies.</LetterCatatonicMentalBreak>
 
   <!-- EN: Persona Core Offer -->
   <LetterLabelAICoreOffer>Oferiment de la localització d'un nucli d’IA</LetterLabelAICoreOffer>
