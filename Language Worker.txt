@@ -76,7 +76,7 @@ public class LanguageWorker_Catalan : LanguageWorker
 			.Replace(" a el ", " al ")
 			.Replace(" a els ", " als ")
 			.Replace(" per el ", " pels ")
-			.Replace(" per els ", " pels ")
-			.Replace("'", "’");
+			.Replace(" per els ", " pels ");
+			//.Replace("'", "’"); This would be great, but nicknames use 'this approach'.
 	}
 }
