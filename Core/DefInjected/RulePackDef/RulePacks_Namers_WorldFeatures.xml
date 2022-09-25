@@ -461,21 +461,22 @@
     <li>narrative_name(p=12)->[PlaceOutlander]</li>
     <li>narrative_name->[NaturalObject] [ColorCap]</li>
     <li>narrative_name->[BodyPart] [AdjectiveNatural]</li>
-    <li>narrative_name->[AnimalAnySingular]</li>
+    <li>narrative_name->[AnimalAnySingularCap]</li>
     <li>narrative_name->[ColorCap]</li>
     <li>narrative_name(p=0.7)->[AnimalMSCap] [ColorMSCap]</li>
     <li>narrative_name(p=0.3)->[AnimalFSCap] [ColorFSCap]</li>
-    <li>narrative_name->[AnimalAnySingular] [AdjectiveNatural]</li>
-    <li>narrative_name->[BodyPart] de [AnimalAnySingular]</li>
-    <li>narrative_name(p=0.7)->[AnimalMS] [ColorMSCap]</li>
-    <li>narrative_name(p=0.3)->[AnimalFS] [ColorFSCap]</li>
-    <li>narrative_name->[Animal] [AdjectiveNatural]</li>
-    <li>narrative_name->[BodyPart] de [AnimalAnySingular]</li>
+    <li>narrative_name->[AnimalAnySingularCap] [AdjectiveNatural]</li>
+    <li>narrative_name->[BodyPart] de [AnimalAnySingularCap]</li>
+    <li>narrative_name(p=0.7)->[AnimalMSCap] [ColorMSCap]</li>
+    <li>narrative_name(p=0.3)->[AnimalFSCap] [ColorFSCap]</li>
+    <li>narrative_name(p=0.7)->[AnimalMSCap] [AdjectiveNatural]</li>
+    <li>narrative_name(p=0.3)->[AnimalFSCap] [AdjectiveNatural]</li>
+    <li>narrative_name->[BodyPart] de [AnimalAnySingularCap]</li>
     <li>storyname(p=50)->[story_result] de [subject]</li>
     <li>storyname(p=2)->[BodyPart] de [subject]</li>
     <li>storyname->[Gore] de [subject]</li>
     <li>subject(p=5)->[NamePerson]</li>
-    <li>subject->[AnimalAnySingular]</li>
+    <li>subject->[AnimalAnySingularCap]</li>
     <li>subject->[WordTribal]</li>
     <li>subject->[PlaceOutlander]</li>
     <li>story_result->ximpleria</li>

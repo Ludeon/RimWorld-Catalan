@@ -109,10 +109,14 @@
     <li>r_name->Els [Weapon]s</li>
     <li>r_name->Els [AnimalBadass]s [Weapon]</li>
     <li>r_name->Els [Enemy]s [Weapon]</li>
-    <li>r_name->Els [Weapon]s [ColorBadass]</li>
-    <li>r_name->Els [AnimalBadass]s [ColorBadass]</li>
-    <li>r_name->Els [PersonBadass]s [ColorBadass]</li>
-    <li>r_name->Els [Enemy]s [ColorBadass]</li>
+    <li>r_name(p=0.5)->Els [Weapon]s [ColorBadass_MP_Cap]</li>
+    <li>r_name(p=0.5)->Els [AnimalBadass]s [ColorBadass_MP_Cap]</li>
+    <li>r_name(p=0.5)->Els [PersonBadass]s [ColorBadass_MP_Cap]</li>
+    <li>r_name(p=0.5)->Els [Enemy]s [ColorBadass_MP_Cap]</li>
+    <li>r_name(p=0.5)->Les [Weapon]s [ColorBadass_FP_Cap]</li>
+    <li>r_name(p=0.5)->Les [AnimalBadass]s [ColorBadass_FP_Cap]</li>
+    <li>r_name(p=0.5)->Les [PersonBadass]s [ColorBadass_FP_Cap]</li>
+    <li>r_name(p=0.5)->Les [Enemy]s [ColorBadass_FP_Cap]</li>
     <li>r_name->Els [groupname] [PersonBadass]</li>
     <li>r_name->Els [Enemy]s [Enemy]</li>
     <li>r_name->Els [groupname] [AdjectiveBadass]</li>
@@ -327,7 +331,8 @@
     <li>townname_combo->[geography] [Enemy]</li>
     <li>townname_combo->[geography] de [Weapon]</li>
     <li>townname_combo->[geography] [Weapon]</li>
-    <li>townname_combo->[geography] [ColorBadass]</li>
+    <li>townname_combo(p=0.5)->[geography] [ColorBadass_M_Cap]</li>
+    <li>townname_combo(p=0.5)->[geography] [ColorBadass_F_Cap]</li>
     <li>geography(p=2)->[TerrainFeature]</li>
     <li>geography->[Community]</li>
     <li>townname_wordgen(p=2)->[SylC_Cap][SylC_end]</li>

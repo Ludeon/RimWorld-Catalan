@@ -106,15 +106,17 @@
     <li>r_art_name->[ConceptBadass]</li>
     <li>r_art_name->El [AnimalBadass]</li>
     <li>r_art_name->[AdjectiveBadass] [AnimalBadass]</li>
-    <li>r_art_name->[ColorBadass] [AnimalBadass]</li>
-    <li>r_art_name->[ConceptBadass] [ColorBadass]</li>
+    <li>r_art_name(p=0.5)->[AnimalBadass] [ColorBadass_M_Cap]</li>
+    <li>r_art_name(p=0.5)->[AnimalBadass] [ColorBadass_F_Cap]</li>
+    <li>r_art_name(p=0.5)->[ConceptBadass] [ColorBadass_M_Cap]</li>
+    <li>r_art_name(p=0.5)->[ConceptBadass] [ColorBadass_F_Cap]</li>
     <li>r_art_name(p=3)->[ConceptBadass] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[AnimalBadass] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[PersonBadass] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[PersonAlly] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[PersonFamily] de [ANYPAWN_nameIndef]</li>
     <li>r_art_name(p=3)->[ANYPAWN_nameIndef] de [ConceptBadass]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] [ColorBadass]</li>
+    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] [ColorBadass_M]</li>
   </NamerArtWeapon.rulePack.rulesStrings>
   
 </LanguageData>
