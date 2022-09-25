@@ -8,7 +8,7 @@
   <!-- EN: Choose a new heir for {HOLDER_nameIndef}: -->
   <ChooseHeir>Tria el nou hereu de {HOLDER_nameIndef}:</ChooseHeir>
   <!-- EN: You're about to change the heir of the title {HOLDER_nameIndef} received from {0_name}. This requires building a monument in a limited time, to consecrate the new inheritance. -->
-  <MakeHeirConfirm>Esteu a punt de canviar l'hereu del títol de {HOLDER_nameIndef} que ha rebut de {0_name}. Caldrà erigir un monument en un temps limitat per consagrar la línia hereditària nova.</MakeHeirConfirm>
+  <MakeHeirConfirm>Esteu a punt de canviar l’hereu del títol de {HOLDER_nameIndef} que ha rebut de {0_name}. Caldrà erigir un monument en un temps limitat per consagrar la línia hereditària nova.</MakeHeirConfirm>
   <!-- EN: This will upset {HOLDER_possessive} current heir {HEIR_nameFull}. -->
   <MakeHeirPreviousHeirWarning>{HOLDER_gender ? Això : Això} molestarà {HEIR_gender ? el seu actual hereu : la seva actual hereva}, {HEIR_nameFull}.</MakeHeirPreviousHeirWarning>
 
@@ -16,9 +16,9 @@
   <!-- EN: Call aid... -->
   <CommandCallRoyalAid>Sol·licita ajuda…</CommandCallRoyalAid>
   <!-- EN: Call for aid using a special permit.\n\nEach type of aid may be used for free once, after which you must wait to use it for free again. You can use the aid more frequently, but it costs honor to do so. -->
-  <CommandCallRoyalAidDesc>Demana ajuda amb el permís especial.\n\nCada tipus d'ajuda es pot fer servir de franc una vegada. Després, caldrà esperar per tornar-la a emprar debades una altra vegada. Es pot fer servir l'ajuda més sovint si es vol, però pagant un cost d'honor.</CommandCallRoyalAidDesc>
+  <CommandCallRoyalAidDesc>Demana ajuda amb el permís especial.\n\nCada tipus d’ajuda es pot fer servir de franc una vegada. Després, caldrà esperar per tornar-la a emprar debades una altra vegada. Es pot fer servir l’ajuda més sovint si es vol, però pagant un cost d’honor.</CommandCallRoyalAidDesc>
   <!-- EN: Guests will not use their aid permits. -->
-  <CommandCallRoyalAidLodger>Els hostes no faran servir els permisos d'ajuda.</CommandCallRoyalAidLodger>
+  <CommandCallRoyalAidLodger>Els hostes no faran servir els permisos d’ajuda.</CommandCallRoyalAidLodger>
   <!-- EN: Slaves cannot use their permits. -->
   <CommandCallRoyalAidSlave>Els esclaus no poden fer servir els seus permisos.</CommandCallRoyalAidSlave>
   <!-- EN: Your relations with {FACTION_name} are hostile. -->
@@ -36,7 +36,7 @@
   <!-- EN: Call laborers -->
   <CommandCallLaborers>Fes venir obrers</CommandCallLaborers>
   <!-- EN: Use a special permit to call for a group of laborers from your ally. These workers can only do labor tasks, but you can control them like they were your own colonists. You are required to keep them safe. -->
-  <CommandCallLaborersDesc>Aquest permís especial mobilitza un grup d'obrers del vostre aliat. Només podran fer tasques generals, però els podreu controlar com si fossin colons vostres. Caldrà mantenir-los segurs.</CommandCallLaborersDesc>
+  <CommandCallLaborersDesc>Aquest permís especial mobilitza un grup d’obrers del vostre aliat. Només podran fer tasques generals, però els podreu controlar com si fossin colons vostres. Caldrà mantenir-los segurs.</CommandCallLaborersDesc>
   <!-- EN: On cooldown. {0} days left. -->
   <CommandOnCooldown>En refredament. {0} per a poder-ho sol·licitar de nou.</CommandOnCooldown>
   <!-- EN: {0} laborers -->
@@ -44,7 +44,7 @@
 
   <!-- Abilities -->
   <!-- EN: Neural heat would overflow. Disable the neural heat limiter to cast. -->
-  <CommandPsycastWouldExceedEntropy>L'escalfament neuronal seria excessiu. Desactiveu el limitador de temperatura neuronal per llançar-lo.</CommandPsycastWouldExceedEntropy>
+  <CommandPsycastWouldExceedEntropy>L’escalfament neuronal seria excessiu. Desactiveu el limitador de temperatura neuronal per llançar-lo.</CommandPsycastWouldExceedEntropy>
   <!-- EN: {PSYCASTNAME} consumes {0} psyfocus but {CASTERNAME} only has {1}. -->
   <CommandPsycastNotEnoughPsyfocus>{PSYCASTNAME} gasta {0} de psicoconcentració però {CASTERNAME} només en té {1}.</CommandPsycastNotEnoughPsyfocus>
   <!-- EN: {PSYCASTNAME} needs {0} psyfocus to stop {1}'s mental break but {CASTERNAME} only has {2} psyfocus. -->
@@ -54,9 +54,9 @@
   <!-- EN: Zero psychic sensitivity. -->
   <CommandPsycastZeroPsychicSensitivity>Sensibilitat psíquica zero.</CommandPsycastZeroPsychicSensitivity>
   <!-- EN: Ability user is unconscious. -->
-  <CommandPsycastPawnIsUnconscious>L'usuari de l'habilitat està sense consciència.</CommandPsycastPawnIsUnconscious>
+  <CommandPsycastPawnIsUnconscious>L’usuari de l’habilitat està sense consciència.</CommandPsycastPawnIsUnconscious>
   <!-- EN: Need at least {0} psyfocus to cast this. -->
-  <CommandPsycastLowPsyfocus>Fa falta una psicoconcentració d'almenys {0} per poder-lo llançar.</CommandPsycastLowPsyfocus>
+  <CommandPsycastLowPsyfocus>Fa falta una psicoconcentració d’almenys {0} per poder-lo llançar.</CommandPsycastLowPsyfocus>
   <!-- EN: H -->
   <NeuralHeatLetter>T</NeuralHeatLetter>
   <!-- EN: P -->
@@ -70,9 +70,9 @@
 
   <!-- Warn in building radius -->
   <!-- EN: Build radius warning -->
-  <CommandWarnInBuildingRadius>Marca el radi d'abast</CommandWarnInBuildingRadius>
+  <CommandWarnInBuildingRadius>Marca el radi d’abast</CommandWarnInBuildingRadius>
   <!-- EN: If enabled, this object will draw a red line to buildings you are placing using the architect menu, if they would interfere with meditation due to being too close.\n\nYou can turn this off if you don't intend to use this for meditation. -->
-  <CommandWarnInBuildingRadiusDesc>Si s'activa, l'objecte dibuixarà una línia vermella als edificis que es situïn massa a prop emprant el menú d'arquitectura en cas que interfereixin amb la meditació.\n\nEs pot desactivar si no es vol emprar per a meditar.</CommandWarnInBuildingRadiusDesc>
+  <CommandWarnInBuildingRadiusDesc>Si s’activa, l’objecte dibuixarà una línia vermella als edificis que es situïn massa a prop emprant el menú d’arquitectura en cas que interfereixin amb la meditació.\n\nEs pot desactivar si no es vol emprar per a meditar.</CommandWarnInBuildingRadiusDesc>
   
   <!-- Permits -->
   <!-- EN: Choose permit -->
@@ -87,7 +87,7 @@
   <!-- EN: Cancel bestowing ceremony -->
   <CommandCancelBestowingCeremony>Cancel·la la cerimònia de lliurament</CommandCancelBestowingCeremony>
   <!-- EN: End the bestowing ceremony immediately. The bestower will leave, but another opportunity to perform the ceremony will arise soon. -->
-  <CommandCancelBestowingCeremonyDesc>Finalitza la cerimònia ara mateix. El lliurador se n'anirà, però ja hi haurà una altra oportunitat de celebrar-la aviat.</CommandCancelBestowingCeremonyDesc>
+  <CommandCancelBestowingCeremonyDesc>Finalitza la cerimònia ara mateix. El lliurador se n’anirà, però ja hi haurà una altra oportunitat de celebrar-la aviat.</CommandCancelBestowingCeremonyDesc>
   <!-- EN: Are you sure you want to cancel bestowing ceremony? -->
   <CommandCancelBestowingCeremonyConfirm>Esteu segur que voleu cancel·lar la cerimònia de lliurament?</CommandCancelBestowingCeremonyConfirm>
 </LanguageData>

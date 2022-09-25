@@ -3,9 +3,9 @@
 
   <!-- Royal titles -->
   <!-- EN: {TITLE} title lost: {PAWN_labelShort} -->
-  <LetterLabelLostRoyalTitle>S'ha perdut el títol de {TITLE}: {PAWN_labelShort}</LetterLabelLostRoyalTitle>
+  <LetterLabelLostRoyalTitle>S’ha perdut el títol de {TITLE}: {PAWN_labelShort}</LetterLabelLostRoyalTitle>
   <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
-  <LetterLabelGainedRoyalTitle>S'ha obtingut el títol de {TITLE}: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
+  <LetterLabelGainedRoyalTitle>S’ha obtingut el títol de {TITLE}: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
 
   <!-- EN: Permit points awarded: {0}. -->
   <PermitPointsAwarded>Punts de permís de recompensa: {0}.</PermitPointsAwarded>
@@ -31,7 +31,7 @@
   <!-- EN: Rewards have arrived to your colony via transport pods. -->
   <LetterRewardsForNewTitleDeliveryBase>Les recompenses han arribat a la colònia amb càpsules de transport.</LetterRewardsForNewTitleDeliveryBase>
   <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
-  <LetterRewardsForNewTitleDeliveryDirect>Les recompenses s'han entregat directament a l'inventari de {PAWN_labelShort}.</LetterRewardsForNewTitleDeliveryDirect>
+  <LetterRewardsForNewTitleDeliveryDirect>Les recompenses s’han entregat directament a l’inventari de {PAWN_labelShort}.</LetterRewardsForNewTitleDeliveryDirect>
 
   <!-- EN: {PAWN_pronoun} has these permissions: -->
   <LetterRoyalTitlePermits>{PAWN_pronoun} té aquests permisos:</LetterRoyalTitlePermits>
@@ -42,18 +42,18 @@
   <LetterRoyalTitleDisabledWorkTag>{PAWN_pronoun} no està disposat a fer aquests tipus de feina:\n{1}</LetterRoyalTitleDisabledWorkTag>
 
   <!-- EN: {PAWN_pronoun} can now use this recreation: -->
-  <LetterRoyalTitleEnabledJoyKind>Ara {PAWN_definite} pot fer servir l'entreteniment següent:</LetterRoyalTitleEnabledJoyKind>
+  <LetterRoyalTitleEnabledJoyKind>Ara {PAWN_definite} pot fer servir l’entreteniment següent:</LetterRoyalTitleEnabledJoyKind>
   <!-- EN: This title forbids using this recreation: -->
-  <LetterRoyalTitleDisabledJoyKind>El títol següent no permet utilitzar l'entreteniment següent:</LetterRoyalTitleDisabledJoyKind>
+  <LetterRoyalTitleDisabledJoyKind>El títol següent no permet utilitzar l’entreteniment següent:</LetterRoyalTitleDisabledJoyKind>
 
   <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
   <LetterRoyalTitleAllowedImplants>{PAWN_pronoun} té permís per fer servir aquests implants: {1}</LetterRoyalTitleAllowedImplants>
   <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
   <LetterRoyalTitleImplantsMustBeRemoved>{PAWN_pronoun} ja no té permís per fer servir aquests implants:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
-  <LetterRoyalTitleImplantGracePeriod>Els implants s'han d'extreure durant un període de cinc dies de gràcia per evitar conseqüències diplomàtiques.</LetterRoyalTitleImplantGracePeriod>
+  <LetterRoyalTitleImplantGracePeriod>Els implants s’han d’extreure durant un període de cinc dies de gràcia per evitar conseqüències diplomàtiques.</LetterRoyalTitleImplantGracePeriod>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
-  <LetterRoyalTitleSpeechAbilityGained>{PAWN_labelShort} ja pot donar discursos des del tron. Si el discurs va bé, els oients es sentiran inspirats. Si va malament, el discurs tindrà un impacte social negatiu. El resultat depén de les habilitats socials de l'orador.</LetterRoyalTitleSpeechAbilityGained>
+  <LetterRoyalTitleSpeechAbilityGained>{PAWN_labelShort} ja pot donar discursos des del tron. Si el discurs va bé, els oients es sentiran inspirats. Si va malament, el discurs tindrà un impacte social negatiu. El resultat depén de les habilitats socials de l’orador.</LetterRoyalTitleSpeechAbilityGained>
   <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
   <LetterRoyalTitleThroneroomRequirements>El títol requereix un tron que compleixi el següent:{1}</LetterRoyalTitleThroneroomRequirements>
   <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
@@ -68,15 +68,15 @@
 
   <!-- Royal heritage-->
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
-  <LetterRoyalTitleHeir>Si {PAWN_gender ? mor : mor}, el títol l'heretarà {HEIR_nameFull}.</LetterRoyalTitleHeir>
+  <LetterRoyalTitleHeir>Si {PAWN_gender ? mor : mor}, el títol l’heretarà {HEIR_nameFull}.</LetterRoyalTitleHeir>
   <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
   <LetterRoyalTitleNoHeir>Si {PAWN_gender ? mor : mor}, ningú heretarà el títol.</LetterRoyalTitleNoHeir>
   <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
   <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull} és membre dels {FACTION_name}.</LetterRoyalTitleHeirFactionWarning>
   <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
-  <LetterRoyalTitleChangingHeir>Per canviar l'hereu cal contactar amb {FACTION_name} a través de la consola de comunicacions.</LetterRoyalTitleChangingHeir>
+  <LetterRoyalTitleChangingHeir>Per canviar l’hereu cal contactar amb {FACTION_name} a través de la consola de comunicacions.</LetterRoyalTitleChangingHeir>
   <!-- EN: Heir lost -->
-  <LetterTitleHeirLostLabel>L'hereu ha mort</LetterTitleHeirLostLabel>
+  <LetterTitleHeirLostLabel>L’hereu ha mort</LetterTitleHeirLostLabel>
   <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title received from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
   <LetterTitleHeirLost>{HEIR_nameFull} ha mort i deixa {HOLDER_labelShort} sense hereu per al títol rebut dels {FACTION_name}. Podeu contactar amb ells a través de la consola de comunicacions per designar un altre hereu.</LetterTitleHeirLost>
   <!-- EN: The title of {TITLE} cannot be inherited. -->
@@ -88,19 +88,19 @@
   <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
   <LetterTitleInheritance_Base>Com que {PAWN_nameFull} ha mort, els seus títols passen als seus hereus.</LetterTitleInheritance_Base>
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
-  <LetterTitleInheritance_AsReplacement>{PAWN_gender ? El : El} títol de {TITLE} l'hereta {HEIR_nameFull}, d'acord amb les lleis successòries de {FACTION_name}. Reemplaçarà el seu títol {HEIR_gender ? de : de} {REPLACEDTITLE} quan es completi la cerimònia de lliurament.</LetterTitleInheritance_AsReplacement>
+  <LetterTitleInheritance_AsReplacement>{PAWN_gender ? El : El} títol de {TITLE} l’hereta {HEIR_nameFull}, d’acord amb les lleis successòries de {FACTION_name}. Reemplaçarà el seu títol {HEIR_gender ? de : de} {REPLACEDTITLE} quan es completi la cerimònia de lliurament.</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
-  <LetterTitleInheritance_NoEffectHigherTitle>{PAWN_gender ? El : El} títol de {TITLE} l'hauria d'haver heretat {HEIR_nameFull}, d'acord amb les lleis successòries de {FACTION_name}. Però com ja té el títol de {HIGHERTITLE}, que és de grau superior, es mantindrà aquest últim.</LetterTitleInheritance_NoEffectHigherTitle>
+  <LetterTitleInheritance_NoEffectHigherTitle>{PAWN_gender ? El : El} títol de {TITLE} l’hauria d’haver heretat {HEIR_nameFull}, d’acord amb les lleis successòries de {FACTION_name}. Però com ja té el títol de {HIGHERTITLE}, que és de grau superior, es mantindrà aquest últim.</LetterTitleInheritance_NoEffectHigherTitle>
   <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
-  <LetterTitleInheritance_WasInherited>{PAWN_gender ? El : El} títol de {TITLE} l'heretarà {HEIR_nameFull} quan es completi la cerimònia de lliurament, d'acord amb les lleis successòries de {FACTION_name}.</LetterTitleInheritance_WasInherited>
+  <LetterTitleInheritance_WasInherited>{PAWN_gender ? El : El} títol de {TITLE} l’heretarà {HEIR_nameFull} quan es completi la cerimònia de lliurament, d’acord amb les lleis successòries de {FACTION_name}.</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
-  <LetterTitleInheritance_NoHeirFound>{PAWN_gender ? El : El} títol de {TITLE} no l'ha heretat ningú, ja que no s'havia designat cap hereu.</LetterTitleInheritance_NoHeirFound>
+  <LetterTitleInheritance_NoHeirFound>{PAWN_gender ? El : El} títol de {TITLE} no l’ha heretat ningú, ja que no s’havia designat cap hereu.</LetterTitleInheritance_NoHeirFound>
 
   <!-- Royal implant violations -->
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
   <LetterLawViolationDetectedLabel>Malfactor: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
-  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name} ha detectat que {PAWN_labelShort} ha fet servir {CULPRIT} (probabilitat de detecció del {CHANCE}).\n\nD'acord amb les lleis de {FACTION_name}, només aquells que disposin del títol de {TITLE} tenen permés utilitzar {CULPRIT}.\n\nCom a conseqüència, les relacions amb la facció han empitjorat en {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
+  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name} ha detectat que {PAWN_labelShort} ha fet servir {CULPRIT} (probabilitat de detecció del {CHANCE}).\n\nD’acord amb les lleis de {FACTION_name}, només aquells que disposin del títol de {TITLE} tenen permés utilitzar {CULPRIT}.\n\nCom a conseqüència, les relacions amb la facció han empitjorat en {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
 
   <!-- Throne Speech -->
   <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
@@ -114,13 +114,13 @@
   <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
   <LetterInspirationalSpeech>Ha estat remarcablement inspirador, intens i amb un propòsit.</LetterInspirationalSpeech>
   <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
-  <LetterSpeechInspiredListeners>Les persones següents s'han sentit particularment commogudes i es senten inspirades:</LetterSpeechInspiredListeners>
+  <LetterSpeechInspiredListeners>Les persones següents s’han sentit particularment commogudes i es senten inspirades:</LetterSpeechInspiredListeners>
   <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
   <LetterSpeechInspiration>Gràcies al discurs remarcable de {SPEAKER_nameIndef}, {PAWN_nameIndef} es sent inspira{PAWN_gender ? t : da}!</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
-  <LetterSpeechInterrupted>Com que el discurs es va interrompre quan només s'havia completat el {0}, no ha estat massa efectiu.</LetterSpeechInterrupted>
+  <LetterSpeechInterrupted>Com que el discurs es va interrompre quan només s’havia completat el {0}, no ha estat massa efectiu.</LetterSpeechInterrupted>
   <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
-  <LetterSpeechCancelled>El discurs de {0} s'ha cancel·lat sense completar-ne ni el 50 %. Per tant, no té cap efecte.</LetterSpeechCancelled>
+  <LetterSpeechCancelled>El discurs de {0} s’ha cancel·lat sense completar-ne ni el 50 %. Per tant, no té cap efecte.</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
   <LetterLabelSpeechCancelled>Discurs cancel·lat</LetterLabelSpeechCancelled>
 
@@ -131,7 +131,7 @@
   <LetterLabelRandomDecree>{0_nameIndef} emet un decret</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>{0_nameIndef}, per tal d'alliberar una mica de l'estrès que portava a sobre, ha emès un decret reial despòtic i exigeix que es compleixi.\nSi no es compleix a temps, {0_nameIndef} es sentirà molt infeliç.</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>{0_nameIndef}, per tal d’alliberar una mica de l’estrès que portava a sobre, ha emès un decret reial despòtic i exigeix que es compleixi.\nSi no es compleix a temps, {0_nameIndef} es sentirà molt infeliç.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
   <LetterRandomDecree>{0_nameIndef}, per tal de reafirmar el seu títol de {0_bestRoyalTitleIndef}, ha emès un decret i exigeix que es compleixi.\nSi no es compleix a temps, {0_nameIndef} es sentirà molt infeliç.</LetterRandomDecree>
@@ -144,44 +144,44 @@
 
   <!-- Psylink -->
   <!-- EN: Psylink gained -->
-  <LetterLabelPsylinkLevelGained>S'ha aconseguit un psicoenllaç</LetterLabelPsylinkLevelGained>
+  <LetterLabelPsylinkLevelGained>S’ha aconseguit un psicoenllaç</LetterLabelPsylinkLevelGained>
   <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
-  <LetterPsylinkLevelGained_First>{USER_labelShort} ha obtingut el primer nivell de psicoenllaç! {USER_pronoun} ja és un psicoencantador!\n\nPer tal de fer servir poders psíquics, {USER_labelShort} ha de meditar per millorar la seva psicoconcentració. L'efectivitat de la meditació augmenta si la persona es pot concentrar en un objecte específic mentre medita.\n\nCada persona pot concentrar-se en diferents objectes. Depèn del rerefons personal, els trets i els seus títols. Per exemple:\n\n–Els psicoencantadors amb títols nobiliaris mediten als seus trons.\n\n–Els psicoencantadors que van passar la seva infantesa en tribus mediten als arbres de l'ànima i als santuaris naturals.\n–Els psicoencantadors ascetes mediten davant de parets en blanc.\n–Els psicoencantadors psicopàtics mediten en tombes, preferentment les que tinguin algun ésser estimat a dins.\n\nPodeu veure els tipus de motius de meditació té cada persona a la finestra de característiques amb el botó «i» d'informació.</LetterPsylinkLevelGained_First>
+  <LetterPsylinkLevelGained_First>{USER_labelShort} ha obtingut el primer nivell de psicoenllaç! {USER_pronoun} ja és un psicoencantador!\n\nPer tal de fer servir poders psíquics, {USER_labelShort} ha de meditar per millorar la seva psicoconcentració. L’efectivitat de la meditació augmenta si la persona es pot concentrar en un objecte específic mentre medita.\n\nCada persona pot concentrar-se en diferents objectes. Depèn del rerefons personal, els trets i els seus títols. Per exemple:\n\n–Els psicoencantadors amb títols nobiliaris mediten als seus trons.\n\n–Els psicoencantadors que van passar la seva infantesa en tribus mediten als arbres de l’ànima i als santuaris naturals.\n–Els psicoencantadors ascetes mediten davant de parets en blanc.\n–Els psicoencantadors psicopàtics mediten en tombes, preferentment les que tinguin algun ésser estimat a dins.\n\nPodeu veure els tipus de motius de meditació té cada persona a la finestra de característiques amb el botó «i» d’informació.</LetterPsylinkLevelGained_First>
   <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
-  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} ha guanyat un nivell de psicoenllaç nou! Podrà fer servir els poders psíquics d'aquest nou nivell, però primer caldrà que els aprengui.</LetterPsylinkLevelGained_NotFirst>
+  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} ha guanyat un nivell de psicoenllaç nou! Podrà fer servir els poders psíquics d’aquest nou nivell, però primer caldrà que els aprengui.</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
   <LetterPsylinkLevelGained_PsycastLearned>Per haver obtingut un nivell de psicoenllaç nou, {USER_labelShort} aprèn de manera automàtica aquests poders psíquics: {2}</LetterPsylinkLevelGained_PsycastLearned>
   
   <!-- Abilities -->
   <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterPsychicInspiration>Gràcies al suggeriment psíquic de {CASTER_nameIndef}, {PAWN_nameIndef} s'ha inspirat!</LetterPsychicInspiration>
+  <LetterPsychicInspiration>Gràcies al suggeriment psíquic de {CASTER_nameIndef}, {PAWN_nameIndef} s’ha inspirat!</LetterPsychicInspiration>
 
   <!-- Join Offer -->
   <!-- EN: Join offer: {PAWN_nameDef} -->
-  <LetterJoinOfferLabel>Oferta d'unió: {PAWN_nameDef}</LetterJoinOfferLabel>
+  <LetterJoinOfferLabel>Oferta d’unió: {PAWN_nameDef}</LetterJoinOfferLabel>
   <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
   <LetterJoinOfferTitle>{PAWN_nameDef} vol unir-se a la vostra facció.</LetterJoinOfferTitle>
   <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
   <LetterJoinOfferText>{PAWN_nameDef} creu que és feliç en {MAP_definite}. {PAWN_pronoun} se us vol unir permanentment.</LetterJoinOfferText>
   <!-- EN: Accept -->
-  <LetterJoinOfferAccept>Accepta'l</LetterJoinOfferAccept>
+  <LetterJoinOfferAccept>Accepta’l</LetterJoinOfferAccept>
 
   <!-- EN: Bestowing ceremony expired -->
   <LetterLabelBestowingCeremonyExpired>La cerimònia de lliurament ha expirat</LetterLabelBestowingCeremonyExpired>
   <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
-  <LetterTextBestowingCeremonyExpired>{TARGET_definite} no ha aparegut a la cerimònia de lliurament. La cerimònia s'ha cancel·lat.</LetterTextBestowingCeremonyExpired>
+  <LetterTextBestowingCeremonyExpired>{TARGET_definite} no ha aparegut a la cerimònia de lliurament. La cerimònia s’ha cancel·lat.</LetterTextBestowingCeremonyExpired>
 
   <!-- EN: {TARGET_definite}'s title changed -->
   <LetterLabelBestowingCeremonyTitleUpdated>Canvi de títol de {TARGET_definite}</LetterLabelBestowingCeremonyTitleUpdated>
   <!-- EN: {TARGET_definite} has gained new title since the bestowing ceremony was scheduled. In order for bestowing to match the new title, another ceremony will be scheduled soon.\n\nThe new bestowing ceremony will include the psylink rewards for all titles which were not yet awarded. -->
-  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite} ha guanyat un títol nou des que es va programar la cerimònia de lliurament. Per tal que la cerimònia coincideixi amb el títol nou, se'n programarà una altra aviat.\n\nLa cerimònia nova inclourà les recompenses de psicoenllaç de tots els títols que encara no s'havien entregat.</LetterTextBestowingCeremonyTitleUpdated>
+  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite} ha guanyat un títol nou des que es va programar la cerimònia de lliurament. Per tal que la cerimònia coincideixi amb el títol nou, se’n programarà una altra aviat.\n\nLa cerimònia nova inclourà les recompenses de psicoenllaç de tots els títols que encara no s’havien entregat.</LetterTextBestowingCeremonyTitleUpdated>
   
   <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
-  <LetterPartBestowingExtraHonor>{PAWN_labelShort} ha rebut {1} d'honor com a senyal de respecte dels {FACTION_name} i per reunir {3} espectadors.</LetterPartBestowingExtraHonor>
+  <LetterPartBestowingExtraHonor>{PAWN_labelShort} ha rebut {1} d’honor com a senyal de respecte dels {FACTION_name} i per reunir {3} espectadors.</LetterPartBestowingExtraHonor>
   <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
   <LetterPartNoExtraHonor>{PAWN_labelShort} no ha rebut més honor perquè no hi havia massa espectadors.</LetterPartNoExtraHonor>
   <!-- EN: All viewers of the ceremony received a mood bonus. -->
-  <LetterPartMoodBonus>Tots els espectadors de la cerimònia reben una bonificació a l'estat d'ànim.</LetterPartMoodBonus>
+  <LetterPartMoodBonus>Tots els espectadors de la cerimònia reben una bonificació a l’estat d’ànim.</LetterPartMoodBonus>
 
   <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
   <LetterTextHonorAward_BanditCamp>Qui hauria de rebre {0} per haver derrotat el campament de bandits?</LetterTextHonorAward_BanditCamp>
@@ -190,12 +190,12 @@
   <!-- EN: Shuttle crashed -->
   <LetterLabelShuttleCrashed>Llançadora estavellada</LetterLabelShuttleCrashed>
   <!-- EN: A shuttle has crashed nearby -->
-  <LetterTextShuttleCrashed>Una llançadora s'ha estavellat a prop.</LetterTextShuttleCrashed>
+  <LetterTextShuttleCrashed>Una llançadora s’ha estavellat a prop.</LetterTextShuttleCrashed>
 
   <!-- Wanderer joins -->
   <!-- EN: Transport pod crash: {0_nameDef} -->
   <LetterLabelWandererJoinsAbasia>Càpsula de transport estavellada: {0_nameDef}</LetterLabelWandererJoinsAbasia>
   <!-- EN: A {0_title} named {0_nameDef} is crashing in a transport pod nearby.\n\n{0_nameDef} is suffering from {1_label} and will be unable to walk.\n\n{0_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {1_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n{0_pronoun} is willing to contribute once {0_pronoun} has recovered, but will not leave voluntarily. If you don't want {0_nameDef}, you can banish {0_objective}, sell {0_objective} into slavery or leave {0_objective} to die. However, your other colonists may find this disturbing. -->
-  <LetterTextWandererJoinsAbasia>{0_gender ? Un : Una} {0_title} que es diu {0_nameDef} s'ha estavellat amb una càpsula de transport a prop.\n\n{0_nameDef} pateix {1_label} i no pot caminar.\n\n{0_pronoun} es recuperarà de manera natural d'aquí molts dies. També existeix la possibilitat que amb una mica de sort es recuperi molt aviat. També es pot curar amb una operació especial que requereix grans dosis de medicines dels brillamons.\n\n{0_pronoun} vol contribuir una vegada s'hagi recuperat, però no se n'anirà voluntàriament. Si no voleu a {0_nameDef}, {0_gender ? el : la} podeu desterrar, vendre com a {0_gender ? esclau : esclava} o deixar-{0_gender ? lo : la} morir. Però els vostres colons ho podrien trobar pertorbador.</LetterTextWandererJoinsAbasia>
+  <LetterTextWandererJoinsAbasia>{0_gender ? Un : Una} {0_title} que es diu {0_nameDef} s’ha estavellat amb una càpsula de transport a prop.\n\n{0_nameDef} pateix {1_label} i no pot caminar.\n\n{0_pronoun} es recuperarà de manera natural d’aquí molts dies. També existeix la possibilitat que amb una mica de sort es recuperi molt aviat. També es pot curar amb una operació especial que requereix grans dosis de medicines dels brillamons.\n\n{0_pronoun} vol contribuir una vegada s’hagi recuperat, però no se n’anirà voluntàriament. Si no voleu a {0_nameDef}, {0_gender ? el : la} podeu desterrar, vendre com a {0_gender ? esclau : esclava} o deixar-{0_gender ? lo : la} morir. Però els vostres colons ho podrien trobar pertorbador.</LetterTextWandererJoinsAbasia>
 
 </LanguageData>

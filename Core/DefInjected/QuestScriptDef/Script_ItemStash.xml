@@ -7,7 +7,7 @@
   -->
   <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
     <li>questDescription(askerIsNull==true)->Hem interceptat missatges sobre una reserva amb un valor de [itemStashContentsValue] no molt lluny de [map_definite]. Consta de:\n\n[itemStashContents]\n\nSembla que [allSitePartsDescriptionsExceptFirst]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], ens ha informat que hi ha una reserva amb un valor de [itemStashContentsValue] no massa lluny d'aquí. Consta de:\n\n[itemStashContents]\n\n[asker_label] diu que [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], ens ha informat que hi ha una reserva amb un valor de [itemStashContentsValue] no massa lluny d’aquí. Consta de:\n\n[itemStashContents]\n\n[asker_label] diu que [allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
@@ -26,7 +26,7 @@
     <li>questName(priority=1)->[stash] de [asker_nameDef]</li>
     <li>questName->[stash] [treasure]</li>
     <li>stash->La reserva</li>
-    <li>stash->L'amagatall</li>
+    <li>stash->L’amagatall</li>
     <li>stash->El botí</li>
     <li>stash->El cofre</li>
     <li>treasure->del tresor</li>
@@ -38,6 +38,6 @@
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>La missió ha expirat: [resolvedQuestName]</OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>Les comunicacions interceptades indiquen que un altre grup ja s'ha apropiat de la reserva. La missió «[resolvedQuestName]» ha expirat.</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>Les comunicacions interceptades indiquen que un altre grup ja s’ha apropiat de la reserva. La missió «[resolvedQuestName]» ha expirat.</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

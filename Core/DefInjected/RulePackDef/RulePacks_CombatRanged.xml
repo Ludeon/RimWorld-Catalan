@@ -54,14 +54,14 @@
     <li>r_logentry->[RECIPIENT_definite] ha estat [damaged_past] per [INITIATOR_definite].</li>
     <li>r_logentry->[RECIPIENT_definite] ha estat [damaged_past] [strikeAdv] per [INITIATOR_definite].</li>
     <li>r_logentry->[RECIPIENT_definite] ha estat [damaged_past].</li>
-    <li>r_logentry(p=0.001)->[RECIPIENT_definite] ha quedat atrapat per l'ona expansiva.</li>
-    <li>r_logentry(p=0.001)->[RECIPIENT_definite] ha rebut l'impacte de l'ona expansiva.</li>
-    <li>blast->L'explosió</li>
-    <li>blast->L'esclat</li>
-    <li>blast->L'ona de xoc</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite] ha quedat atrapat per l’ona expansiva.</li>
+    <li>r_logentry(p=0.001)->[RECIPIENT_definite] ha rebut l’impacte de l’ona expansiva.</li>
+    <li>blast->L’explosió</li>
+    <li>blast->L’esclat</li>
+    <li>blast->L’ona de xoc</li>
     <li>blast->La detonació</li>
     <li>blast->La descàrrega</li>
-    <li>blast->L'impacte</li>
+    <li>blast->L’impacte</li>
     <li>fromof->des de</li>
     <li>fromof->de</li>
   </Combat_ExplosionImpact.rulePack.rulesStrings>
@@ -417,17 +417,17 @@
     <li>missing->desviant-se pel vent</li>
     <li>avoidance(ORIGINALTARGET_mobile==True,p=2)->[moved] a un costat a l’últim [moment]</li>
     <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[ducked] darrere un [COVER_definite]</li>
-    <li>moved->s'ha mogut</li>
+    <li>moved->s’ha mogut</li>
     <li>moved->ha saltat</li>
-    <li>moved->s'ha tirat cap</li>
-    <li>moved->l'ha esquivat movent-se</li>
+    <li>moved->s’ha tirat cap</li>
+    <li>moved->l’ha esquivat movent-se</li>
     <li>moment->moment</li>
     <li>moment->segon</li>
     <li>moment->instant</li>
-    <li>ducked->s'ha acatxat</li>
-    <li>ducked->s'ha ajupit</li>
-    <li>ducked->s'ha acotxat</li>
-    <li>ducked->s'ha amagat</li>
+    <li>ducked->s’ha acatxat</li>
+    <li>ducked->s’ha ajupit</li>
+    <li>ducked->s’ha acotxat</li>
+    <li>ducked->s’ha amagat</li>
   </Combat_RangedMiss.rulePack.rulesStrings>
   
 </LanguageData>

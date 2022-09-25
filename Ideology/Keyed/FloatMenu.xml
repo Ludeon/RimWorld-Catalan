@@ -10,9 +10,9 @@
   <!-- EN: {0} is already participating in a ritual. -->
   <CantStartRitualTargetIsAlreadyInRitual>{0} ja participa al ritual.</CantStartRitualTargetIsAlreadyInRitual>
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
-  <CantStartRitualRoleNotAssigned>Heu d'assignar el rol de {0} per a poder començar el ritual.</CantStartRitualRoleNotAssigned>
+  <CantStartRitualRoleNotAssigned>Heu d’assignar el rol de {0} per a poder començar el ritual.</CantStartRitualRoleNotAssigned>
   <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
-  <CantStartRitualNoConvertee>No hi ha ningú a qui poder convertir a {0}. Us cal un colon, presoner o esclau d'una altra ideoligió.</CantStartRitualNoConvertee>
+  <CantStartRitualNoConvertee>No hi ha ningú a qui poder convertir a {0}. Us cal un colon, presoner o esclau d’una altra ideoligió.</CantStartRitualNoConvertee>
   <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
   <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} no pot ser {ROLE}.</CantStartRitualSelectedPawnCannotBeRole>
   <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
@@ -20,13 +20,13 @@
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
   <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} és {PAWN_gender ? sord psíquic : sorda psíquica}.</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space. There must be a clear circle of radius {MINRADIUS}. -->
-  <CantStartNotEnoughSpaceDuel>No hi ha prou espai. Hi ha d'haver un cercle de radi {MINRADIUS} lliure.</CantStartNotEnoughSpaceDuel>
+  <CantStartNotEnoughSpaceDuel>No hi ha prou espai. Hi ha d’haver un cercle de radi {MINRADIUS} lliure.</CantStartNotEnoughSpaceDuel>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
   <CantStartFuneralForSlave>{0_labelShort} és {0_gender ? un esclau : una esclava}. Pels esclaus no es fan funerals.</CantStartFuneralForSlave>
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
-  <NoSlaveBed>Cal que es pugui accedir a un llit d'esclaus, sense reservar i amb una temperatura adequada.</NoSlaveBed>
+  <NoSlaveBed>Cal que es pugui accedir a un llit d’esclaus, sense reservar i amb una temperatura adequada.</NoSlaveBed>
   <!-- EN: Return to slave bed -->
-  <ReturnToSlaveBed>Torna al llit d'esclau</ReturnToSlaveBed>
+  <ReturnToSlaveBed>Torna al llit d’esclau</ReturnToSlaveBed>
   <!-- EN: not allowed for faction -->
   <NotAllowedForFaction>a la facció no se li permet</NotAllowedForFaction>
 
@@ -45,9 +45,9 @@
   <!-- EN: Required -->
   <Required>Necessari</Required>
   <!-- EN: Style category -->
-  <StyleCategory>Categoria d'estil</StyleCategory>
+  <StyleCategory>Categoria d’estil</StyleCategory>
   <!-- EN: Add style category -->
-  <AddStyleCategory>Afegeix una categoria d'estil</AddStyleCategory>
+  <AddStyleCategory>Afegeix una categoria d’estil</AddStyleCategory>
   <!-- EN: Can't add more than {0} rituals. -->
   <MaxRitualCount>No es poden afegir mes de {0} rituals.</MaxRitualCount>
   <!-- EN: Can't add more than {0} relics. -->
@@ -69,7 +69,7 @@
   <!-- EN: cannot be worn with assigned apparel -->
   <BodyPartAlreadyCovered>no es pot portar amb la indumentària assignada</BodyPartAlreadyCovered>
   <!-- EN: already assigned -->
-  <AlreadyAssigned>ja s'ha assignat</AlreadyAssigned>
+  <AlreadyAssigned>ja s’ha assignat</AlreadyAssigned>
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
   <NoteRoleApparelRequirementEffects>Les persones estan a gust si es satisfan els requisits de la indumentària i són infeliços mentre no es compleixen.</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->
@@ -80,7 +80,7 @@
   <SetApparelType>Tria el tipus</SetApparelType>
 
   <!-- EN: change style -->
-  <ChangeStyle>canvia l'estil</ChangeStyle>
+  <ChangeStyle>canvia l’estil</ChangeStyle>
   <!-- EN: {0} {DEITYNOUN} required -->
   <DeitiesRequired>Cal {0} {DEITYNOUN}</DeitiesRequired>
   <!-- EN: deity -->
@@ -103,7 +103,7 @@
   <!-- EN: Cannot hack {0} -->
   <CannotHack>{0} no es pot hackejar</CannotHack>
   <!-- EN: Already hacked -->
-  <AlreadyHacked>Ja s'ha hackejat</AlreadyHacked>
+  <AlreadyHacked>Ja s’ha hackejat</AlreadyHacked>
   <!-- EN: Incapable of hacking -->
   <IncapableOfHacking>No és capaç de hackejar</IncapableOfHacking>
   <!-- EN: to drop supplies -->
@@ -114,7 +114,7 @@
   <!-- EN: Extract {0} -->
   <ExtractRelic>Extrau {0}</ExtractRelic>
   <!-- EN: Extract {0} to inventory ({1}) -->
-  <ExtractRelicToInventory>Extrau {0} de l'inventari ({1})</ExtractRelicToInventory>
+  <ExtractRelicToInventory>Extrau {0} de l’inventari ({1})</ExtractRelicToInventory>
   <!-- EN: No relic to install -->
   <NoRelicToInstall>No hi ha cap relíquia per instal·lar</NoRelicToInstall>
   <!-- EN: Install in reliquary -->
@@ -145,7 +145,7 @@
   <!-- EN: Occupied -->
   <BiosculpterOccupied>Ocupat</BiosculpterOccupied>
   <!-- EN: Cannot enter -->
-  <CannotEnter>No s'hi pot entrar</CannotEnter>
+  <CannotEnter>No s’hi pot entrar</CannotEnter>
   <!-- EN: Cannot start {0} cycle -->
   <BiosculpterCannotStartCycle>El cicle de {0} no pot començar</BiosculpterCannotStartCycle>
   <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
@@ -161,7 +161,7 @@
   <!-- EN: Auto age reversal for {PAWN_labelShort} -->
   <BiosculpterAutoAgeReversalLabel>Rejoveniment automàtic per a {PAWN_labelShort}</BiosculpterAutoAgeReversalLabel>
   <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
-  <BiosculpterAutoAgeReversalDescription>Satisfà automàticament el desig de {PAWN_labelShort} de fer un tractament anual de rejoveniment en aquesta càpsula, d'acord amb les seves creences. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
+  <BiosculpterAutoAgeReversalDescription>Satisfà automàticament el desig de {PAWN_labelShort} de fer un tractament anual de rejoveniment en aquesta càpsula, d’acord amb les seves creences. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
   <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treament in {TIME} if the pod is ready. -->
   <BiosculpterAutoAgeReversalDescriptionFuture>Si està activat, {PAWN_labelShort} rebrà automàticament el seu proper tractament d’aquí a {TIME} si la càpsula està preparada.</BiosculpterAutoAgeReversalDescriptionFuture>
   <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->

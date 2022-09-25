@@ -11,12 +11,12 @@
   <!-- EN: berserk trance -->
   <BerserkTrance.label>crisi berserker</BerserkTrance.label>
   <!-- EN: The caster fills himself with anger over ideological grievances. This strengthens the body past normal limits, but also means losing control and attacking every enemy nearby in an unstoppable rage. The berserk state will last for 3 hours. -->
-  <BerserkTrance.description>Qui el llanci, s'omplirà d'ira per greuges ideològics. Això enforteix el cos més enllà dels límits normals, encara que també es perdrà el control i s'atacarà qualsevol enemic proper amb una ràbia imparable. L'estat berserker durarà 3 hores.</BerserkTrance.description>
+  <BerserkTrance.description>Qui el llanci, s’omplirà d’ira per greuges ideològics. Això enforteix el cos més enllà dels límits normals, encara que també es perdrà el control i s’atacarà qualsevol enemic proper amb una ràbia imparable. L’estat berserker durarà 3 hores.</BerserkTrance.description>
   
   <!-- EN: combat command -->
   <CombatCommand.label>mestratge en combat</CombatCommand.label>
   <!-- EN: Create an aura that boosts the combat skills of everyone nearby. The effect lasts 24 hours and remains attached to the leader for the duration. -->
-  <CombatCommand.description>Crea una aura que potencia les habilitats de combat de tothom qui hi estigui a prop. L'efecte dura 24 hores i es manté unida al líder mentre duri.</CombatCommand.description>
+  <CombatCommand.description>Crea una aura que potencia les habilitats de combat de tothom qui hi estigui a prop. L’efecte dura 24 hores i es manté unida al líder mentre duri.</CombatCommand.description>
   
   <!-- EN: conversion ritual -->
   <ConversionRitual.label>ritual de conversió</ConversionRitual.label>
@@ -26,52 +26,52 @@
   <!-- EN: convert -->
   <Convert.label>converteix</Convert.label>
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
-  <Convert.description>Intenta convertir algú a la ideoligió de l'orador. Reduirà la certesa de les creences de l'objectiu. La reducció de la certesa depèn de l'habilitat de negociació de l'orador.</Convert.description>
+  <Convert.description>Intenta convertir algú a la ideoligió de l’orador. Reduirà la certesa de les creences de l’objectiu. La reducció de la certesa depèn de l’habilitat de negociació de l’orador.</Convert.description>
   <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
-  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} no ha aconseguit convertir a {RECIPIENT_labelShort}. {RECIPIENT_labelShort} s'ha sentit {RECIPIENT_gender ? molest : molesta}, però la seva certesa ha baixat de {CERTAINTYBEFORE} a {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
+  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} no ha aconseguit convertir a {RECIPIENT_labelShort}. {RECIPIENT_labelShort} s’ha sentit {RECIPIENT_gender ? molest : molesta}, però la seva certesa ha baixat de {CERTAINTYBEFORE} a {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
   <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort} ha convertit a {RECIPIENT_labelShort} al {IDEO}.</Convert.comps.CompAbilityEffect_Convert.successMessage>
   
   <!-- EN: Counsel -->
   <Counsel.label>aconsella</Counsel.label>
   <!-- EN: Offer counsel to a person to cancel the effect of a sad memory. The chance of success depends on the speaker's social skills and their relationship with the listener. -->
-  <Counsel.description>Escolta i ofereix consell a una persona per cancel·lar l'efecte d'una memòria trista. La probabilitat d'èxit depèn de les habilitats socials de l'orador i de la relació amb la persona que l'escolta.</Counsel.description>
+  <Counsel.description>Escolta i ofereix consell a una persona per cancel·lar l’efecte d’una memòria trista. La probabilitat d’èxit depèn de les habilitats socials de l’orador i de la relació amb la persona que l’escolta.</Counsel.description>
   <!-- EN: {INITIATOR_labelShort} botched the attempt to counsel {RECIPIENT_labelShort}. {RECIPIENT_labelShort} has become upset. -->
   <Counsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort} ha fet una empastrada amb el consell que li ha donat a {RECIPIENT_labelShort}. A {RECIPIENT_labelShort} li ha sabut greu el que li ha dit.</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, canceling the mood impact of {2}. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort} ha aconsellat amb èxit a {RECIPIENT_labelShort} i s'ha cancel·lat l'impacte en l'estat d'ànim de {2}.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort} ha aconsellat amb èxit a {RECIPIENT_labelShort} i s’ha cancel·lat l’impacte en l’estat d’ànim de {2}.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
   <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} mood by {MOODBONUS}. -->
-  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort} ha aconsellat correctament a {RECIPIENT_labelShort} i ha millorat el seu estat d'ànim en {MOODBONUS}.</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort} ha aconsellat correctament a {RECIPIENT_labelShort} i ha millorat el seu estat d’ànim en {MOODBONUS}.</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
   
   <!-- EN: farming command -->
   <FarmingCommand.label>mestratge en conreus</FarmingCommand.label>
   <!-- EN: Offer guidance on farming techniques, boosting the farming abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <FarmingCommand.description>Ofereix indicacions sobre les tècniques de conreu, potenciant les habilitats de tothom qui hi estigui a prop. L'efecte es manté lligat durant 24 hores a la persona que ho ha llançat.</FarmingCommand.description>
+  <FarmingCommand.description>Ofereix indicacions sobre les tècniques de conreu, potenciant les habilitats de tothom qui hi estigui a prop. L’efecte es manté lligat durant 24 hores a la persona que ho ha llançat.</FarmingCommand.description>
   
   <!-- EN: Immunity drive -->
   <ImmunityDrive.label>impuls de la immunitat</ImmunityDrive.label>
   <!-- EN: Offer moral support that energizes the body, boosting someone's immunity gain for one day. -->
-  <ImmunityDrive.description>Ofereix suport moral que dóna energia al cos i es millora el guany d'immunitat durant un dia.</ImmunityDrive.description>
+  <ImmunityDrive.description>Ofereix suport moral que dóna energia al cos i es millora el guany d’immunitat durant un dia.</ImmunityDrive.description>
   
   <!-- EN: leader speech -->
   <LeaderSpeech.label>discurs del líder</LeaderSpeech.label>
   <!-- EN: Initiate a leader speech. If it goes well, listeners will gain improved mood, respect for the speaker, and possibly new inspirations. If it goes poorly, social damage will occur. -->
-  <LeaderSpeech.description>Inicia un discurs del líder. Si va bé, l'estat d'ànim de qui l'escolti millorarà, respectarà el líder i potser es senti inspirat. Si va malament, es produirà un empitjorament de les relacions socials.</LeaderSpeech.description>
+  <LeaderSpeech.description>Inicia un discurs del líder. Si va bé, l’estat d’ànim de qui l’escolti millorarà, respectarà el líder i potser es senti inspirat. Si va malament, es produirà un empitjorament de les relacions socials.</LeaderSpeech.description>
   
   <!-- EN: marksman command -->
   <MarksmanCommand.label>mestratge en punteria</MarksmanCommand.label>
   <!-- EN: Call out shots and boost the shooting skills of everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <MarksmanCommand.description>Aconsella a les persones que tingui a prop perquè disparin millor. L'efecte es manté lligat durant 24 hores a la persona que l'hagi llançat.</MarksmanCommand.description>
+  <MarksmanCommand.description>Aconsella a les persones que tingui a prop perquè disparin millor. L’efecte es manté lligat durant 24 hores a la persona que l’hagi llançat.</MarksmanCommand.description>
   
   <!-- EN: mining command -->
   <MiningCommand.label>mestratge en mineria</MiningCommand.label>
   <!-- EN: Offer guidance on mining techniques, boosting the mining speed for everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <MiningCommand.description>Ofereix consell sobre tècniques mineres, potenciant les habilitats mineres de les persones que tingui a prop. L'efecte es manté lligat durant 24 a la persona que l'ha llançat.</MiningCommand.description>
+  <MiningCommand.description>Ofereix consell sobre tècniques mineres, potenciant les habilitats mineres de les persones que tingui a prop. L’efecte es manté lligat durant 24 a la persona que l’ha llançat.</MiningCommand.description>
   
   <!-- EN: preach health -->
   <PreachHealth.label>sermó sobre salut</PreachHealth.label>
   <!-- EN: Preach moral strength to a sick or wounded person through the concepts of your ideology. This will improve their rate of wound healing and immunity gain. -->
-  <PreachHealth.description>Sermoneja a una persona malalta o ferida sobre la força moral a través de la seva ideologia. Millora el ritme de guarició i d'immunització.</PreachHealth.description>
+  <PreachHealth.description>Sermoneja a una persona malalta o ferida sobre la força moral a través de la seva ideologia. Millora el ritme de guarició i d’immunització.</PreachHealth.description>
   
   <!-- EN: production command -->
   <ProductionCommand.label>mestratge en producció</ProductionCommand.label>
@@ -81,19 +81,19 @@
   <!-- EN: reassure -->
   <Reassure.label>reafirma</Reassure.label>
   <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
-  <Reassure.description>Augmenta la certesa d'algú en les seves pròpies creences. La certesa que es guanyarà depèn de les habilitats negociadores de l'orador.</Reassure.description>
+  <Reassure.description>Augmenta la certesa d’algú en les seves pròpies creences. La certesa que es guanyarà depèn de les habilitats negociadores de l’orador.</Reassure.description>
   <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
   <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort} ha reafirmat les creences de {RECIPIENT_labelShort} i la seva certesa en el {IDEO} ha augmentat de {BEFORECERTAINTY} a {AFTERCERTAINTY}.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
   
   <!-- EN: research command -->
   <ResearchCommand.label>mestratge recerca</ResearchCommand.label>
   <!-- EN: Provide suggestions and mental support, boosting the research speed of everyone nearby. The effect remains attached to the caster for 24 hours. -->
-  <ResearchCommand.description>Dóna suggeriments i suport sobre les recerques, millorant la velocitat de recerca de tothom que tingui a prop. L'efecte es manté lligat durant 24 a la persona que l'ha llançat.</ResearchCommand.description>
+  <ResearchCommand.description>Dóna suggeriments i suport sobre les recerques, millorant la velocitat de recerca de tothom que tingui a prop. L’efecte es manté lligat durant 24 a la persona que l’ha llançat.</ResearchCommand.description>
   
   <!-- EN: trial -->
   <Trial.label>judici</Trial.label>
   <!-- EN: Charge someone with a terrible wrongdoing and initiate a trial where they will be either convicted or exonerated. If the target is convicted, they can be freely imprisoned, executed or banished without penalty. The chance of conviction depends on the social abilities of the accuser and accused. -->
-  <Trial.description>Acuseu algú d'un delicte terrible i inicieu un judici on se'l declararà culpable o se l'exonerarà. Si l'objectiu és condemnat, se'l podrà empresonar, executar o desterrar sense cap tipus de penalització. La probabilitat que sigui culpable depèn de les habilitats socials de l'acusat i de l'acusador.</Trial.description>
+  <Trial.description>Acuseu algú d’un delicte terrible i inicieu un judici on se’l declararà culpable o se l’exonerarà. Si l’objectiu és condemnat, se’l podrà empresonar, executar o desterrar sense cap tipus de penalització. La probabilitat que sigui culpable depèn de les habilitats socials de l’acusat i de l’acusador.</Trial.description>
   
   <!-- EN: work drive -->
   <WorkDrive.label>espenta laboral</WorkDrive.label>

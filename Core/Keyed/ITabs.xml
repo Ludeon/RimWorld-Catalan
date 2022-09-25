@@ -55,7 +55,7 @@
   <!-- EN: Add bill -->
   <AddBill>Afegeix programa</AddBill>
   <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
-  <RecipeRequiresSkills>La recepta {0} requereix les habilitats indicades a sota. No teniu cap colon que les tingui, així que ningú se'n farà càrrec.</RecipeRequiresSkills>
+  <RecipeRequiresSkills>La recepta {0} requereix les habilitats indicades a sota. No teniu cap colon que les tingui, així que ningú se’n farà càrrec.</RecipeRequiresSkills>
   <!-- EN: Min skill -->
   <MinimumSkill>Habilitat mínima</MinimumSkill>
   <!-- EN: SUSPENDED -->
@@ -85,31 +85,31 @@
   <!-- EN: Resistance -->
   <RecruitmentResistance>Resistència</RecruitmentResistance>
   <!-- EN: How much doubt this prisoner has about joining your faction. When this reaches zero, they can be recruited. -->
-  <RecruitmentResistanceDesc>Els dubtes que té el presoner d'unir-se a la vostra facció. Quan arriba a zero, se'l pot reclutar.</RecruitmentResistanceDesc>
+  <RecruitmentResistanceDesc>Els dubtes que té el presoner d’unir-se a la vostra facció. Quan arriba a zero, se’l pot reclutar.</RecruitmentResistanceDesc>
   <!-- EN: {0} base resistance -->
   <RecruitmentResistanceFromPawnKind>Resistència base: {0}</RecruitmentResistanceFromPawnKind>
   <!-- EN: Relations gain on release -->
-  <PrisonerReleasePotentialRelationGains>Millora de la relació quan s'allibera</PrisonerReleasePotentialRelationGains>
+  <PrisonerReleasePotentialRelationGains>Millora de la relació quan s’allibera</PrisonerReleasePotentialRelationGains>
   <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
-  <PrisonerReleaseRelationGainsDesc>Indica com milloraran les relacions amb la facció del presoner si se l'allibera. Depèn de la identitat, salut i condicions mentals del presoner.</PrisonerReleaseRelationGainsDesc>
+  <PrisonerReleaseRelationGainsDesc>Indica com milloraran les relacions amb la facció del presoner si se l’allibera. Depèn de la identitat, salut i condicions mentals del presoner.</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
   <PrisonBreakMTBDays>Interval entre fugues de la presó</PrisonBreakMTBDays>
   <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
-  <PrisonBreakMTBDaysDescription>La mitjana de dies entre intents de fuga de les presons. Depèn de l'estat d'ànim, de la mobilitat, del nombre de portes a la cel·la i el temps que ha passat des de l'últim intent de fuga.\n\nTingueu en compte que no inclou el temps que es passa adormit.</PrisonBreakMTBDaysDescription>
+  <PrisonBreakMTBDaysDescription>La mitjana de dies entre intents de fuga de les presons. Depèn de l’estat d’ànim, de la mobilitat, del nombre de portes a la cel·la i el temps que ha passat des de l’últim intent de fuga.\n\nTingueu en compte que no inclou el temps que es passa adormit.</PrisonBreakMTBDaysDescription>
   <!-- EN: Never -->
   <Never>Mai</Never>
   <!-- EN: Not while asleep -->
   <NotWhileAsleep>No mentre dorm</NotWhileAsleep>
   <!-- EN: Breaking out now -->
-  <CurrentlyPrisonBreaking>S'escapa de la presó.</CurrentlyPrisonBreaking>
+  <CurrentlyPrisonBreaking>S’escapa de la presó.</CurrentlyPrisonBreaking>
   <!-- EN: Multiplier for door count -->
   <FactorForDoorCount>Multiplicador per nombre de portes</FactorForDoorCount>
   <!-- EN: Multiplier for movement -->
   <FactorForMovement>Multiplicador per mobilitat</FactorForMovement>
   <!-- EN: Slave price -->
-  <SlavePrice>Preu de l'esclau</SlavePrice>
+  <SlavePrice>Preu de l’esclau</SlavePrice>
   <!-- EN: The base market value of this {0} if sold. -->
-  <SlavePriceDescription>Preu base del valor de mercat d'aquest {0} si es ven.</SlavePriceDescription>
+  <SlavePriceDescription>Preu base del valor de mercat d’aquest {0} si es ven.</SlavePriceDescription>
   <!-- EN: Gets food -->
   <GetsFood>Rep menjar</GetsFood>
   <!-- EN: Doctors care -->
@@ -193,9 +193,9 @@
   <!-- EN: Prevents infection -->
   <PreventsInfection>Infeccions que prevé</PreventsInfection>
   <!-- EN: Self-tend -->
-  <SelfTend>Permet atendre's un mateix</SelfTend>
+  <SelfTend>Permet atendre’s un mateix</SelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <SelfTendTip>Amb aquesta opció activada, {0_gender ? els : les} {0} s'atendran mèdicament a ells mateixos amb un {1} de l’eficiència normal.</SelfTendTip>
+  <SelfTendTip>Amb aquesta opció activada, {0_gender ? els : les} {0} s’atendran mèdicament a ells mateixos amb un {1} de l’eficiència normal.</SelfTendTip>
   <!-- EN: death in {0} -->
   <DeathIn>mort en {0}</DeathIn>
   
@@ -332,7 +332,7 @@
   <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
   <DismissQuest>Descarta aquesta missió i mou-la a la pestanya històrica.\n\nLa missió es pot readmetre en qualsevol moment. Els seus efectes i temps de finalització prosseguiran igual. No rebreu notificacions de les missions descartades.</DismissQuest>
   <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
-  <UnDismissQuest>Readmet aquesta missió.\n\nLa missió es mostrarà de nou a la pestanya de missions actives i se'n tornaran a rebre les notificacions.</UnDismissQuest>
+  <UnDismissQuest>Readmet aquesta missió.\n\nLa missió es mostrarà de nou a la pestanya de missions actives i se’n tornaran a rebre les notificacions.</UnDismissQuest>
   <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
   <QuestDismissed>Aquesta missió està aquí perquè es va descartar.\n\nSi voleu, la podeu readmetre.</QuestDismissed>
   <!-- EN: Delete this quest and remove it from the quest list forever. -->
@@ -347,12 +347,12 @@
   <!-- EN: The total nutrition of stockpiled food in the pen. -->
   <PenFoodTab_StockpileTotalDescription>El total de nutrients del menjar acumulat al corral.</PenFoodTab_StockpileTotalDescription>
   <!-- EN: Days to stockpile exhaustion -->
-  <PenFoodTab_StockpileEmptyDays>Dies perquè s'exhaureixi el menjar acumulat</PenFoodTab_StockpileEmptyDays>
+  <PenFoodTab_StockpileEmptyDays>Dies perquè s’exhaureixi el menjar acumulat</PenFoodTab_StockpileEmptyDays>
   <!-- EN: Nutrition consumption exceeds nutrition growth rate in this pen. The animals will eventually eat all the stockpiled food and starve. -->
   <PenFoodTab_StockpileEmptyDaysDescription>El consum dels animals del corral és major que el ritme de creixement dels nutrients. Els animals acabaran menjant-se totes les reserves i passaran gana.</PenFoodTab_StockpileEmptyDaysDescription>
 
   <!-- EN: Animal type -->
-  <PenFoodTab_AnimalType>Tipus d'animal</PenFoodTab_AnimalType>
+  <PenFoodTab_AnimalType>Tipus d’animal</PenFoodTab_AnimalType>
   <!-- EN: Count -->
   <PenFoodTab_Count>Quantitat</PenFoodTab_Count>
   <!-- EN: Today -->
@@ -373,20 +373,20 @@
   <!-- EN: The average nutrition provided by edible plants in this pen. -->
   <PenFoodTab_NaturalNutritionGrowthRateDescription>Els nutrients que proporcionen de mitjana les plantes comestibles en aquest corral.</PenFoodTab_NaturalNutritionGrowthRateDescription>
   <!-- EN: The nutrition needed by animals currently in this pen.\n\nTo get more food, expand the pen to cover more wild plant growth, or deliver stockpiled food like haygrass to the pen. -->
-  <PenFoodTab_NutritionConsumptionDescription>Els nutrients que necessiten els animals d'aquest corral.\n\nPer aconseguir més menjar, expandiu el corral perquè hi hagi més plantes o porteu-hi menjar emmagatzemat, com ara farratge.</PenFoodTab_NutritionConsumptionDescription>
+  <PenFoodTab_NutritionConsumptionDescription>Els nutrients que necessiten els animals d’aquest corral.\n\nPer aconseguir més menjar, expandiu el corral perquè hi hagi més plantes o porteu-hi menjar emmagatzemat, com ara farratge.</PenFoodTab_NutritionConsumptionDescription>
   <!-- EN: Note: Plant growth rate varies due to seasons, weather, theft by wild animals, and other factors. These calculations are approximations. -->
-  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>Nota: El ritme de creixement de les plantes varia segons l'estació, el clima i la sostreta dels animals salvatge, així com d'altres factors. Aquests valors són estimacions.</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
+  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>Nota: El ritme de creixement de les plantes varia segons l’estació, el clima i la sostreta dels animals salvatge, així com d’altres factors. Aquests valors són estimacions.</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
 
   <!-- EN: Total consumption -->
   <PenFoodTab_NutritionConsumedPerDay_ColumLabel>Consum total</PenFoodTab_NutritionConsumedPerDay_ColumLabel>
   <!-- EN: The total nutrition that will be consumed each day by each type of animal in this pen. -->
-  <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>El total de nutrients que es consumiran cada dia per cada tipus d'animal en aquest corral.</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
+  <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>El total de nutrients que es consumiran cada dia per cada tipus d’animal en aquest corral.</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
   <!-- EN: Daily consumption per {ANIMALDEF_label} -->
   <PenFoodTab_NutritionConsumedPerDay>Consum diari de {ANIMALDEF_label}</PenFoodTab_NutritionConsumedPerDay>
   <!-- EN: each {CONSUMEDAMOUNT} -->
   <PenFoodTab_NutritionConsumedEachAnimalLabel>cada {CONSUMEDAMOUNT}</PenFoodTab_NutritionConsumedEachAnimalLabel>
   <!-- EN: Count that could be supported with no other animals in the pen -->
-  <PenFoodTab_AnimalTypeAnimalCapacity>Capacitat del corral si només hi hagués aquest tipus d'animal</PenFoodTab_AnimalTypeAnimalCapacity>
+  <PenFoodTab_AnimalTypeAnimalCapacity>Capacitat del corral si només hi hagués aquest tipus d’animal</PenFoodTab_AnimalTypeAnimalCapacity>
 
   <!-- EN: Edible now -->
   <PenFoodTab_EdibleNow>Comestible ara</PenFoodTab_EdibleNow>
@@ -394,11 +394,11 @@
   <!-- EN: Auto-cut plants in pen -->
   <PenAutoCut_EnabledCheckbox>Arrenca les males herbes del corral</PenAutoCut_EnabledCheckbox>
   <!-- EN: Automatically mark certain inedible plants to be cut. This makes room for edible plants to grow, which your animals can then eat.\n\nThis auto-designation happens periodically and only applies to certain plants.\n\nThis only works when the pen is enclosed. -->
-  <PenAutoCut_EnabledCheckboxTip>Marca automàticament determinades plantes no comestibles per a tallar-les. A l'arrancar-les, hi haurà lloc perquè en creixin de comestibles i els animals se les podran menjar.\n\nEl marcatge de les plantes que cal tallar es fa periòdicament i només s'aplica a alguns tipus de plantes.\n\nNomés funciona si el corral està tancat.</PenAutoCut_EnabledCheckboxTip>
+  <PenAutoCut_EnabledCheckboxTip>Marca automàticament determinades plantes no comestibles per a tallar-les. A l’arrancar-les, hi haurà lloc perquè en creixin de comestibles i els animals se les podran menjar.\n\nEl marcatge de les plantes que cal tallar es fa periòdicament i només s’aplica a alguns tipus de plantes.\n\nNomés funciona si el corral està tancat.</PenAutoCut_EnabledCheckboxTip>
 
   <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>El corral no està tancat.</AutocutUnenclosedPen>
   <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
-  <AutocutUnenclosedPenTip>El corral no està tancat, així que no se'n tallaran les males herbes.</AutocutUnenclosedPenTip>
+  <AutocutUnenclosedPenTip>El corral no està tancat, així que no se’n tallaran les males herbes.</AutocutUnenclosedPenTip>
 
 </LanguageData>

@@ -146,7 +146,7 @@
     <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
   -->
   <Combat_Miss.rulePack.rulesStrings>
-    <li>r_logentry(p=0.3)->[RECIPIENT_definite] ha esquivat [INITIATOR_definite]'s [WEAPON_label] [damaged_inf].</li>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite] ha esquivat [INITIATOR_definite]’s [WEAPON_label] [damaged_inf].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] ha fallat [RECIPIENT_definite] amb [damaged_inf] des de [implement].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] mentre provava de [damaged_inf] [RECIPIENT_definite] amb [implement].</li>
     <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] mentre intentava [damaged_inf] [RECIPIENT_definite].</li>
@@ -154,15 +154,15 @@
     <li>skillAdvMaybe-></li>
     <li>skillAdvMaybe->[skillAdv]</li>
     <li>failtype(p=5)->ha fallat</li>
-    <li>failtype->s'ha entrebancat</li>
+    <li>failtype->s’ha entrebancat</li>
     <li>failtype->ha ensopegat</li>
-    <li>failtype->s'ha fet un embolic</li>
-    <li>failtype->ha perdut l'equilibri</li>
+    <li>failtype->s’ha fet un embolic</li>
+    <li>failtype->ha perdut l’equilibri</li>
     <li>result(p=4)->però ha fallat</li>
-    <li>result->però li ha acabat donant a l'aire</li>
-    <li>result->però el cop ha anat a parar lluny de l'objectiu</li>
-    <li>result->però s'ha entrebantcat a l'últim moment</li>
-    <li>result(initiator_flesh!=Mechanoid)->però ha dubtat a l'últim segon</li>
+    <li>result->però li ha acabat donant a l’aire</li>
+    <li>result->però el cop ha anat a parar lluny de l’objectiu</li>
+    <li>result->però s’ha entrebantcat a l’últim moment</li>
+    <li>result(initiator_flesh!=Mechanoid)->però ha dubtat a l’últim segon</li>
   </Combat_Miss.rulePack.rulesStrings>
   
 </LanguageData>

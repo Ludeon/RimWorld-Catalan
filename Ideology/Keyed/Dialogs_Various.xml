@@ -16,7 +16,7 @@
   <RitualDevelopmentPointRewards>Es concediran els següents punts de desenvolupament segons el resultat final del ritual</RitualDevelopmentPointRewards>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
-  <ChooseStructureMemesInfo>Escolliu l'estructura simbòlica de la ideoligió. Només afecta als símbols. No afecta a la jugabilitat.</ChooseStructureMemesInfo>
+  <ChooseStructureMemesInfo>Escolliu l’estructura simbòlica de la ideoligió. Només afecta als símbols. No afecta a la jugabilitat.</ChooseStructureMemesInfo>
   <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. -->
   <ChooseNormalMemesInfo>Escolliu entre {0} i {1} mems que seran les idees fundacionals de la ideoligió.</ChooseNormalMemesInfo>
   <!-- EN: Choose at least {0} meme. -->
@@ -28,7 +28,7 @@
   <!-- EN: {0_label} and {1_label} are incompatible. -->
   <IncompatibleMemes>{0_label} i {1_label} no són compatibles.</IncompatibleMemes>
   <!-- EN: Some of these have much more gameplay impact than others. -->
-  <SomeMemesHaveMoreImpact>Alguns tenen més impacte en la jugabilitat que d'altres.</SomeMemesHaveMoreImpact>
+  <SomeMemesHaveMoreImpact>Alguns tenen més impacte en la jugabilitat que d’altres.</SomeMemesHaveMoreImpact>
   <!-- EN: Choose one meme to form the initial idea of this ideoligion. You will add more memes as the ideoligion develops over time. -->
   <ChooseNormalMemesFluidIdeoInfo>Escolliu un mem com a idea inicial de la ideoligió. Afegireu més mems conforme es desenvolupi la religió.</ChooseNormalMemesFluidIdeoInfo>
   <!-- EN: Choose a meme or remove a meme. -->
@@ -63,13 +63,13 @@
   <!-- EN: Remove {0} role -->
   <RemoveRole>Treu el rol de {0}</RemoveRole>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
-  <ChooseRoleConfirmAssign>S'assignarà el rol de {ROLE_labelDef} a {PAWN_labelShort}.</ChooseRoleConfirmAssign>
+  <ChooseRoleConfirmAssign>S’assignarà el rol de {ROLE_labelDef} a {PAWN_labelShort}.</ChooseRoleConfirmAssign>
   <!-- EN: Are you sure? -->
   <ChooseRoleConfirmAssignPostfix>Esteu segur?</ChooseRoleConfirmAssignPostfix>
   <!-- EN: {PAWN_labelShort} currently holds this role and will be unhappy to lose it. -->
-  <ChooseRoleConfirmAssignReplace>{PAWN_labelShort} té aquest rol i li molestarà perdre'l.</ChooseRoleConfirmAssignReplace>
+  <ChooseRoleConfirmAssignReplace>{PAWN_labelShort} té aquest rol i li molestarà perdre’l.</ChooseRoleConfirmAssignReplace>
   <!-- EN: {PAWN_labelShort} currently holds the role of {ROLE_label} and will be unhappy to lose it. -->
-  <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} actualment té el títol de {ROLE_label} i li molestarà perdre'l.</ChooseRoleConfirmAssignHasOtherRole>
+  <ChooseRoleConfirmAssignHasOtherRole>{PAWN_labelShort} actualment té el títol de {ROLE_label} i li molestarà perdre’l.</ChooseRoleConfirmAssignHasOtherRole>
   <!-- EN: There can be only one leader. This will dismiss {PAWN_labelShort} from their {OTHERROLE_labelDef} role, which will make {PAWN_objective} upset. -->
   <ChooseRoleConfirmAssignReplaceLeader>Només hi pot haver un líder. Això faria que {PAWN_labelShort} deixi de tenir el rol de {OTHERROLE_labelDef} i es sentirà malament.</ChooseRoleConfirmAssignReplaceLeader>
   <!-- EN: You're about to dismiss {PAWN_labelShort} from the role of {ROLE_labelIndef}. This will upset {PAWN_objective}. -->
@@ -93,14 +93,14 @@
   <!-- EN: Leader bonus -->
   <YourLeaderTradeBonus>Bonificació de líder</YourLeaderTradeBonus>
   <!-- EN: The meme {MEME} prevents adding apparel requirements to roles. -->
-  <CannotNotAddRoleApparelDueToMeme>El mem {MEME} evita que s'afegeixin requisits especials a la indumentària dels rols.</CannotNotAddRoleApparelDueToMeme>
+  <CannotNotAddRoleApparelDueToMeme>El mem {MEME} evita que s’afegeixin requisits especials a la indumentària dels rols.</CannotNotAddRoleApparelDueToMeme>
   <!-- EN: cannot be worn with {0_label} -->
   <CannotBeWornWith>no es pot portar poat amb {0_label}</CannotBeWornWith>
 
   <!-- EN: Certainty reduction -->
   <AbilityIdeoConvertBreakdownLabel>Reducció de la certesa</AbilityIdeoConvertBreakdownLabel>
   <!-- EN: Using {ABILITY} ability -->
-  <AbilityIdeoConvertBreakdownUsingAbility>Ús de l'habilitat {ABILITY}</AbilityIdeoConvertBreakdownUsingAbility>
+  <AbilityIdeoConvertBreakdownUsingAbility>Ús de l’habilitat {ABILITY}</AbilityIdeoConvertBreakdownUsingAbility>
   <!-- EN: {PAWN_labelShort}'s conversion power -->
   <AbilityIdeoConvertBreakdownConversionPower>Poder de conversió de {PAWN_labelShort}</AbilityIdeoConvertBreakdownConversionPower>
   <!-- EN: {PAWN_labelShort}'s certainty loss factor from {IDEO_name} -->
@@ -121,14 +121,14 @@
   <AbilityIdeoConvertBreakdownMemeVsTrait>{MEME} contra el tret {TRAIT}</AbilityIdeoConvertBreakdownMemeVsTrait>
 
   <!-- EN: {PAWN_labelShort} was already counselled recently. -->
-  <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort} ja se l'ha aconsellat fa poc.</AbilityCantApplyAlreadyCounselled>
+  <AbilityCantApplyAlreadyCounselled>{PAWN_labelShort} ja se l’ha aconsellat fa poc.</AbilityCantApplyAlreadyCounselled>
 
   <!-- EN: Reform... -->
   <ReformIdeo>Reforma…</ReformIdeo>
   <!-- EN: Reform ideoligion -->
   <ReformIdeoligion>Reforma la ideoligió</ReformIdeoligion>
   <!-- EN: Reform your ideoligion by changing its structure, memes or style. -->
-  <ReformIdeoligionDesc>Reforma la ideoligió canviant-ne l'estructura, mems o estil.</ReformIdeoligionDesc>
+  <ReformIdeoligionDesc>Reforma la ideoligió canviant-ne l’estructura, mems o estil.</ReformIdeoligionDesc>
   <!-- EN: Change styles -->
   <ReformIdeoChangeStyles>Canvia els estils</ReformIdeoChangeStyles>
   <!-- EN: Add or remove a meme -->
@@ -136,9 +136,9 @@
   <!-- EN: Add a meme -->
   <ReformIdeoAddMeme>Afegeix un meme</ReformIdeoAddMeme>
   <!-- EN: Choose one -->
-  <ReformIdeoChooseOneChange>Tria'n un</ReformIdeoChooseOneChange>
+  <ReformIdeoChooseOneChange>Tria’n un</ReformIdeoChooseOneChange>
   <!-- EN: Change structure -->
-  <ReformIdeoChangeStructure>Canvia l'estructura</ReformIdeoChangeStructure>
+  <ReformIdeoChangeStructure>Canvia l’estructura</ReformIdeoChangeStructure>
   <!-- EN: Change any of the following -->
   <ReformIdeoChangeAny>Canvia qualssevol dels següents</ReformIdeoChangeAny>
   <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
@@ -156,20 +156,20 @@
   <!-- EN: Any slave -->
   <AnySlave>Qualsevol esclau</AnySlave>
   <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
-  <NegotiatorWillNotTradeSlaves>{0_nameDef} es nega a vendre persones com a esclaves d'acord amb les seves creences.</NegotiatorWillNotTradeSlaves>
+  <NegotiatorWillNotTradeSlaves>{0_nameDef} es nega a vendre persones com a esclaves d’acord amb les seves creences.</NegotiatorWillNotTradeSlaves>
   <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
   <NegotiatorWillNotTradeSlavesTip>El negociador, {0_nameDef}, no vendrà persones com a esclaves per la seva creença {1}.\n\nTingueu en compte que {0_nameDef} vol rescatar algú de la seva pròpia facció, però no vendrà ningú a una altra facció.</NegotiatorWillNotTradeSlavesTip>
 
   <!-- EN: Last human meat -->
   <LastHumanMeat>Última carn humana menjada</LastHumanMeat>
   <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
-  <LastHumanMeatDesc>D'acord amb les creences de {IDEO_name}, {PAWN_nameDef} es sentirà infeliç si passen més de {DURATION} dies sense menjar carn humana.</LastHumanMeatDesc>
+  <LastHumanMeatDesc>D’acord amb les creences de {IDEO_name}, {PAWN_nameDef} es sentirà infeliç si passen més de {DURATION} dies sense menjar carn humana.</LastHumanMeatDesc>
 
   <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
-  <ExectueNeutralFactionSlave>Si s'executa {PAWN_labelShort}, les relacions amb {FACTION_name} empitjoraran.</ExectueNeutralFactionSlave>
+  <ExectueNeutralFactionSlave>Si s’executa {PAWN_labelShort}, les relacions amb {FACTION_name} empitjoraran.</ExectueNeutralFactionSlave>
 
   <!-- EN: You must assign at least one non-slave colonist who can walk. -->
-  <CaravanMustHaveAtLeastOneNonSlaveColonist>Heu d'assignar almenys un colon que no sigui esclau i que pugui caminar.</CaravanMustHaveAtLeastOneNonSlaveColonist>
+  <CaravanMustHaveAtLeastOneNonSlaveColonist>Heu d’assignar almenys un colon que no sigui esclau i que pugui caminar.</CaravanMustHaveAtLeastOneNonSlaveColonist>
   <!-- EN: You must leave at least non-slave colonist who can walk. -->
   <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>Heu de deixar com a mínim un colon que no sigui esclau i que pugui caminar.</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
 
@@ -197,15 +197,15 @@
   <!-- EN: {PAWN_nameDef} will be unhappy with the following -->
   <PawnUnhappyWithStyleItems>{PAWN_nameDef} es sentirà insatisfet pel següent</PawnUnhappyWithStyleItems>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
-  <StyleCategoryDescription>Les categories d'estil afecten a l'aparença d'alguns edificis, indumentària i armes fetes pels {IDEO_memberNamePlural}. Si algun element depèn de més d'una categoria, s'aplica la de més a l'esquerra.</StyleCategoryDescription>
+  <StyleCategoryDescription>Les categories d’estil afecten a l’aparença d’alguns edificis, indumentària i armes fetes pels {IDEO_memberNamePlural}. Si algun element depèn de més d’una categoria, s’aplica la de més a l’esquerra.</StyleCategoryDescription>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by your colony. If more than one category affects the same thing, the left-most one applies. -->
-  <StyleCategoryDescriptionAbstract>Les categories d'estil afecten a l'aparença d'alguns edificis, indumentària i armes fetes a la colònia. Si algun element depèn de més d'una categoria, s'aplica la de més a l'esquerra.</StyleCategoryDescriptionAbstract>
+  <StyleCategoryDescriptionAbstract>Les categories d’estil afecten a l’aparença d’alguns edificis, indumentària i armes fetes a la colònia. Si algun element depèn de més d’una categoria, s’aplica la de més a l’esquerra.</StyleCategoryDescriptionAbstract>
   <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominance>Els {IDEO_memberNamePlural} estaran contents si veuen edificis, enrajolats i art d'aquest estil.</StyleCategoryDescStyleDominance>
+  <StyleCategoryDescStyleDominance>Els {IDEO_memberNamePlural} estaran contents si veuen edificis, enrajolats i art d’aquest estil.</StyleCategoryDescStyleDominance>
   <!-- EN: Ideoligion members will be happy if they notice buildings, floors, and art matching this style. -->
-  <StyleCategoryDescStyleDominanceAbstract>Els membres de la ideoligió estaran contents si veuen edificis, enrajolats i art d'aquest estil.</StyleCategoryDescStyleDominanceAbstract>
+  <StyleCategoryDescStyleDominanceAbstract>Els membres de la ideoligió estaran contents si veuen edificis, enrajolats i art d’aquest estil.</StyleCategoryDescStyleDominanceAbstract>
   <!-- EN: {0} style category affects -->
-  <StyleCategoryDetails>La categoria d'estil {0} afecta</StyleCategoryDetails>
+  <StyleCategoryDetails>La categoria d’estil {0} afecta</StyleCategoryDetails>
   <!-- EN: Overriden by {0} -->
   <OverriddenByStyle>Anul·lat per {0}</OverriddenByStyle>
   <!-- EN: New buildables -->
@@ -233,7 +233,7 @@
   <!-- EN: Frequent -->
   <StyleItemFrequencyFrequent>Freqüent</StyleItemFrequencyFrequent>
   <!-- EN: Edit appearance -->
-  <EditAppearanceItems>Edita l'aparença</EditAppearanceItems>
+  <EditAppearanceItems>Edita l’aparença</EditAppearanceItems>
   <!-- EN: {0} in use -->
   <NumAvailable>{0} de seleccionats</NumAvailable>
   <!-- EN: Expand all -->
@@ -241,7 +241,7 @@
   <!-- EN: Collapse all -->
   <CollapseAllCategories>Col·lapsa-ho tot</CollapseAllCategories>
   <!-- EN: Resets all style items to their default values. -->
-  <ResetButtonDesc>Restableix tots els elements d'estil als valors per defecte.</ResetButtonDesc>
+  <ResetButtonDesc>Restableix tots els elements d’estil als valors per defecte.</ResetButtonDesc>
   <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
   <TooltipDyeExplanation>Els tints es poden aconseguir amb la planta tintorera o bé comprant-ne als comerciants.</TooltipDyeExplanation>
 
@@ -267,15 +267,15 @@
   <!-- EN: Missing required caste -->
   <MissingRequiredCaste>Falta la casta requerida</MissingRequiredCaste>
   <!-- EN: Already selected -->
-  <AlreadySelected>Ja s'ha seleccionat</AlreadySelected>
+  <AlreadySelected>Ja s’ha seleccionat</AlreadySelected>
   <!-- EN: Here you can choose which caste of dryads this {TREE_label} will create.\n\nDryads will emerge from pods that grow at the tree's base. The maximum number of dryads is based on the connection strength between {TREE_definite} and the connected person. -->
-  <ChooseProductionModeInitialDesc>Aqui podeu triar la casta de les dríades que crearà aquest {TREE_label}.\n\nLes dríades sorgiran de les beines que creixen a la base de l'arbre. El nombre màxim de dríades depèn de la força de connexió entre {TREE_definite} i la persona vinculada.</ChooseProductionModeInitialDesc>
+  <ChooseProductionModeInitialDesc>Aqui podeu triar la casta de les dríades que crearà aquest {TREE_label}.\n\nLes dríades sorgiran de les beines que creixen a la base de l’arbre. El nombre màxim de dríades depèn de la força de connexió entre {TREE_definite} i la persona vinculada.</ChooseProductionModeInitialDesc>
 
   <!-- Archonexus -->
   <!-- EN: Choose who to convert to your ideoligion -->
   <ChooseColonistsForIdeoTitle>Tria a qui convertir a la ideoligió</ChooseColonistsForIdeoTitle>
   <!-- EN: You may convert people to your primary ideoligion when setting up a new colony. -->
-  <ChooseColonistsForIdeoDesc>Podeu convertir les persones a la vostra ideoligió principal quan s'estableix una colònia nova.</ChooseColonistsForIdeoDesc>
+  <ChooseColonistsForIdeoDesc>Podeu convertir les persones a la vostra ideoligió principal quan s’estableix una colònia nova.</ChooseColonistsForIdeoDesc>
   <!-- EN: New Colony -->
   <ChooseThingsForNewColonyTitle>Colònia nova</ChooseThingsForNewColonyTitle>
   <!-- EN: Choose which colonists, animals and relics to bring to the new colony. -->
@@ -289,11 +289,11 @@
   <!-- EN: Confirm decisions -->
   <ConfirmDecisionsTitle>Confirma les decisions</ConfirmDecisionsTitle>
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
-  <ShipEscapeWillEndDescription>La nau espacial en hibernació de la que ens ha informat la IA (*Name)Charlon Whitestone(/Name) se n'haurà anat abans que s'hagi establit la colònia. Ja no es podrà escapar del planeta amb la nau.</ShipEscapeWillEndDescription>
+  <ShipEscapeWillEndDescription>La nau espacial en hibernació de la que ens ha informat la IA (*Name)Charlon Whitestone(/Name) se n’haurà anat abans que s’hagi establit la colònia. Ja no es podrà escapar del planeta amb la nau.</ShipEscapeWillEndDescription>
   <!-- EN: No relic was chosen to be brought to the new colony. -->
-  <ArchonexusRelicNotChosen>No s'ha triat cap relíquia per portar a la nova colònia.</ArchonexusRelicNotChosen>
+  <ArchonexusRelicNotChosen>No s’ha triat cap relíquia per portar a la nova colònia.</ArchonexusRelicNotChosen>
   <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
-  <ArchonexusItemsNotChosen>S'han seleccionat {0} d'un total de {1} elements per portar a la nova colònia.</ArchonexusItemsNotChosen>
+  <ArchonexusItemsNotChosen>S’han seleccionat {0} d’un total de {1} elements per portar a la nova colònia.</ArchonexusItemsNotChosen>
   <!-- EN: The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including: -->
   <RemoveEquippedRelicsDescription>Els compradors de la colònia només us permeten agafar una relíquia. Totes les altres es quedaran enrere –encara que els colons les duguin equipades–, incloent:</RemoveEquippedRelicsDescription>
   <!-- EN: Would you like to proceed? Past this point, there's no going back. -->
@@ -309,7 +309,7 @@
   <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
   <ItemQuantityTooltip>Quantitat de {0} que es pot portar a la nova colònia.\n\nEl màxim permès és de {1}</ItemQuantityTooltip>
   <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
-  <SoldColonyDescription>La vostra colònia s'ha venut. Els seus compradors estan preparats perquè trieu on voleu aterrar a continuació.</SoldColonyDescription>
+  <SoldColonyDescription>La vostra colònia s’ha venut. Els seus compradors estan preparats perquè trieu on voleu aterrar a continuació.</SoldColonyDescription>
 
   <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
   <ConfirmHackEnenyTerminal>Hackejar {0_gender ? aquest : aquesta} {0} alertarà els enemics i provocarà que us ataquin. De veres voleu hackejar {0}?</ConfirmHackEnenyTerminal>

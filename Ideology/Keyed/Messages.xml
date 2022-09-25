@@ -8,25 +8,25 @@
   <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
   <MessageIdeoIncompatiblePrecepts>{PRECEPT1} i {PRECEPT2} són incompatibles.</MessageIdeoIncompatiblePrecepts>
   <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
-  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>El desig d'indumentària {DESIREDAPPAREL} es solapa amb el requisit de vestuari de {ROLE}.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>El desig d’indumentària {DESIREDAPPAREL} es solapa amb el requisit de vestuari de {ROLE}.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
-  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} es solapa amb el requisit d'indumentària de {ROLE} ({ROLEAPPAREL}). És impossible que una persona amb el rol de {ROLE} pugui portar al mateix temps la indumentària requerida i desitjada al mateix temps.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} es solapa amb el requisit d’indumentària de {ROLE} ({ROLEAPPAREL}). És impossible que una persona amb el rol de {ROLE} pugui portar al mateix temps la indumentària requerida i desitjada al mateix temps.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {PRECEPT} needs one of these buildings -->
-  <MessageRitualMissingTarget>{PRECEPT} requereix un d'aquests edificis.</MessageRitualMissingTarget>
+  <MessageRitualMissingTarget>{PRECEPT} requereix un d’aquests edificis.</MessageRitualMissingTarget>
   <!-- EN: {PRECEPT} needs an associated ritual. -->
   <MessageBuildingMissingRitual>{PRECEPT} requereix un ritual associat.</MessageBuildingMissingRitual>
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
   <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} es nega a fer-ho degut a la seva ideoligió.</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} ha intentat convertir a {RECIPIENT_nameDef} a la seva ideoligió. La certesa de {RECIPIENT_nameDef} en la seva ideoligió ha baixat de {CERTAINTYBEFORE} a {CERTAINTYAFTER}. {RECIPIENT_pronoun} està {RECIPIENT_gender ? ressentit : ressentida} per l'intent de conversió.</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} ha intentat convertir a {RECIPIENT_nameDef} a la seva ideoligió. La certesa de {RECIPIENT_nameDef} en la seva ideoligió ha baixat de {CERTAINTYBEFORE} a {CERTAINTYAFTER}. {RECIPIENT_pronoun} està {RECIPIENT_gender ? ressentit : ressentida} per l’intent de conversió.</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
   <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} ha intentat convertir a {PAWN2_nameDef} a la seva ideoligió. Això ha provocat una baralla!</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->
-  <MessageNotEnoughMemes>Heu d'escollir almenys {0} mems.</MessageNotEnoughMemes>
+  <MessageNotEnoughMemes>Heu d’escollir almenys {0} mems.</MessageNotEnoughMemes>
   <!-- EN: You can't choose more than {0} memes. -->
   <MessageTooManyMemes>No podeu escollir més de {0} mems.</MessageTooManyMemes>
   <!-- EN: You must choose a structure meme. -->
-  <MessageNotEnoughStructureMemes>Heu d'escollir una estructura de mem.</MessageNotEnoughStructureMemes>
+  <MessageNotEnoughStructureMemes>Heu d’escollir una estructura de mem.</MessageNotEnoughStructureMemes>
   <!-- EN: {0_label} and {1_label} are incompatible with each other. -->
   <MessageIncompatibleMemes> {0_label} i {1_label} són incompatibles.</MessageIncompatibleMemes>
   <!-- EN: You need {0} to start the {1}. -->
@@ -34,9 +34,9 @@
   <!-- EN: At least {0} spectator(s) are required to start the {1}. -->
   <MessageNotEnoughSpectators>Calen com a mínim {0} espectadors per a començar {1_definite}.</MessageNotEnoughSpectators>
   <!-- EN: You must choose a role. -->
-  <MessageRoleChangeChooseDifferentRole>Heu d'escollir un rol.</MessageRoleChangeChooseDifferentRole>
+  <MessageRoleChangeChooseDifferentRole>Heu d’escollir un rol.</MessageRoleChangeChooseDifferentRole>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
-  <MessageNeedAssignedRoleToBeginRitual>Abans de començar {1_definite}, heu d'assignar el rol de {0} a algú.</MessageNeedAssignedRoleToBeginRitual>
+  <MessageNeedAssignedRoleToBeginRitual>Abans de començar {1_definite}, heu d’assignar el rol de {0} a algú.</MessageNeedAssignedRoleToBeginRitual>
   <!-- EN: Need at least one {0} participating. -->
   <MessageNeedAtLeastOneParticipantOfIdeo>Cal que hi participi almenys {0_indefinite}.</MessageNeedAtLeastOneParticipantOfIdeo>
   
@@ -45,11 +45,11 @@
   <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
   <MessageRoleUnassignedPrisoner>Com {0_labelShort} ara és {0_gender ? un presoner : una presonera}, {0_pronoun} no pot tenir el rol de {1}.</MessageRoleUnassignedPrisoner>
   <!-- EN: Warning: {0} will be upset if a tree is cut. -->
-  <MessageWarningPlayerDesignatedTreeChopped>Avís: {0} s'enfadarà si es talla un arbre.</MessageWarningPlayerDesignatedTreeChopped>
+  <MessageWarningPlayerDesignatedTreeChopped>Avís: {0} s’enfadarà si es talla un arbre.</MessageWarningPlayerDesignatedTreeChopped>
   <!-- EN: Warning: {0} will be upset if mining occurs. -->
-  <MessageWarningPlayerDesignatedMining>Avís: {0} s'enfadarà si es fan tasques de mineria.</MessageWarningPlayerDesignatedMining>
+  <MessageWarningPlayerDesignatedMining>Avís: {0} s’enfadarà si es fan tasques de mineria.</MessageWarningPlayerDesignatedMining>
   <!-- EN: The {TREE_label} has had its connection with {PAWN_nameDef} torn. It must recover for {DURATION} before it can reconnect again. -->
-  <MessageConnectedPawnDied>S'ha tallat la connexió de {TREE_label} amb {PAWN_nameDef}. S'hi podrà reconnectar de nou d’aquí a {DURATION}.</MessageConnectedPawnDied>
+  <MessageConnectedPawnDied>S’ha tallat la connexió de {TREE_label} amb {PAWN_nameDef}. S’hi podrà reconnectar de nou d’aquí a {DURATION}.</MessageConnectedPawnDied>
 
   <!-- Slave interactions -->
   <!-- EN: {0_nameDef} has been emancipated by {1_nameDef}. -->
@@ -59,13 +59,13 @@
   <!-- EN: Prisoner {1_nameDef}'s will has been broken by {0_nameDef}. -->
   <MessagePrisonerWillBroken>{0_nameDef} ha trencat la voluntat {1_gender ? del presoner : de la presonera} {1_nameDef}.</MessagePrisonerWillBroken>
   <!-- EN: Enslavement will follow. -->
-  <MessagePrisonerWillBroken_RecruitAttempsWillBegin>Comencen els intents d'esclavització.</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
+  <MessagePrisonerWillBroken_RecruitAttempsWillBegin>Comencen els intents d’esclavització.</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
 
   <!-- Prisoner interactions -->
   <!-- EN: No warden is capable of this enslavement. -->
   <MessageNoWardenCapableOfEnslavement>Cap vigilant pot fer aquesta esclavització.</MessageNoWardenCapableOfEnslavement>
   <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>No teniu cap vigilant {MEMBERNAME} per a convertir a {PRISONER_nameDef}. El seu mode d'interacció s'ha canviat a «sense interactuar-hi».</MessageNoWardenOfIdeo>
+  <MessageNoWardenOfIdeo>No teniu cap vigilant {MEMBERNAME} per a convertir a {PRISONER_nameDef}. El seu mode d’interacció s’ha canviat a «sense interactuar-hi».</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
@@ -75,21 +75,21 @@
   <!-- EN: Charity refused -->
   <MessageCharityEventRefused>Caritat rebutjada</MessageCharityEventRefused>
   <!-- EN: Charity fulfilled -->
-  <MessageCharityEventFulfilled>S'ha fet un acte de caritat</MessageCharityEventFulfilled>
+  <MessageCharityEventFulfilled>S’ha fet un acte de caritat</MessageCharityEventFulfilled>
   <!-- EN: {0} are leaving empty-handed. -->
-  <MessageBeggarsLeavingWithNoItems>{0_definite} se'n van amb les mans buides.</MessageBeggarsLeavingWithNoItems>
+  <MessageBeggarsLeavingWithNoItems>{0_definite} se’n van amb les mans buides.</MessageBeggarsLeavingWithNoItems>
   <!-- EN: {0} have accepted the requested items and are leaving. -->
-  <MessageBeggarsLeavingWithItems>{0_definite} han acceptat els elements sol·licitats i se'n van.</MessageBeggarsLeavingWithItems>
+  <MessageBeggarsLeavingWithItems>{0_definite} han acceptat els elements sol·licitats i se’n van.</MessageBeggarsLeavingWithItems>
   <!-- EN: {0_nameDef} died without any treatment. -->
   <MessageWandererLeftToDie>{0_nameDef} ha mort sense rebre cap tractament.</MessageWandererLeftToDie>
   <!-- EN: {0_nameDef} was recruited. -->
-  <MessageWandererRecruited>S'ha reclutat a {0_nameDef}.</MessageWandererRecruited>
+  <MessageWandererRecruited>S’ha reclutat a {0_nameDef}.</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
-  <MessageWandererLeftHealthy>{0_nameDef} se n'ha anat amb bona salut.</MessageWandererLeftHealthy>
+  <MessageWandererLeftHealthy>{0_nameDef} se n’ha anat amb bona salut.</MessageWandererLeftHealthy>
   <!-- EN: {0} has been failed. -->
   <MessageCharityQuestEndedFailed>{0} ha fallat.</MessageCharityQuestEndedFailed>
   <!-- EN: {0} has been successfully completed. -->
-  <MessageCharityQuestEndedSuccess>S'ha completat {0} correctament.</MessageCharityQuestEndedSuccess>
+  <MessageCharityQuestEndedSuccess>S’ha completat {0} correctament.</MessageCharityQuestEndedSuccess>
 
   <!-- Ideo UI -->
   <!-- EN: Cannot remove -->
@@ -101,10 +101,10 @@
   <!-- EN: Required by {FACTION_name}. -->
   <RequiredByFaction>Necessari pels {FACTION_name}.</RequiredByFaction>
   <!-- EN: Roles cannot have overlapping apparel requirements. -->
-  <OverlappingRoleApparel>Els rols no poden tenir requisits d'indumentària que es solapin.</OverlappingRoleApparel>
+  <OverlappingRoleApparel>Els rols no poden tenir requisits d’indumentària que es solapin.</OverlappingRoleApparel>
   
   <!-- EN: {0_label} will self-destruct in {1}. -->
-  <SelfDestructCountdown>{0_label} s'autodestruirà d’aquí a {1}.</SelfDestructCountdown>
+  <SelfDestructCountdown>{0_label} s’autodestruirà d’aquí a {1}.</SelfDestructCountdown>
   <!-- EN: Precept name is too long (maximum {0} letters) -->
   <PreceptNameTooLong>El nom del precepte és massa llarg ({0} lletres com a màxim)</PreceptNameTooLong>
 
@@ -114,19 +114,19 @@
   <!-- EN: You've discovered secret information about {0}! Get back on the shuttle to launch it. -->
   <MessageAncientComplexBackToShuttle>Heu descobert informació secreta sobre {0_definite}! Torneu a la llançadora i engegeu-la.</MessageAncientComplexBackToShuttle>
   <!-- EN: An ancient supply satellite has been activated. Supplies will drop nearby. -->
-  <MessageAncientSignalActivated>S'ha activat un satèl·lit de subministraments antic. Cauran subministraments a prop.</MessageAncientSignalActivated>
+  <MessageAncientSignalActivated>S’ha activat un satèl·lit de subministraments antic. Cauran subministraments a prop.</MessageAncientSignalActivated>
   <!-- EN: {0} from the {1} have detected the supply signal and are attacking. -->
   <MessageAncientSignalHostileDetected>{0} dels {1} han detectat el senyal de subministrament i ataquen.</MessageAncientSignalHostileDetected>
 
   <!-- Ancient altar -->
   <!-- EN: All security systems are waking up! -->
-  <MessageAncientAltarThreatsWokenUp>S'inicien tots els sistemes de seguretat!</MessageAncientAltarThreatsWokenUp>
+  <MessageAncientAltarThreatsWokenUp>S’inicien tots els sistemes de seguretat!</MessageAncientAltarThreatsWokenUp>
   <!-- EN: All security systems are alerted to your presence. -->
   <MessageAncientAltarThreatsAlerted>Tots els sistemes de seguretat ja han advertit la vostra presència.</MessageAncientAltarThreatsAlerted>
 
   <!-- Animals -->
   <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
-  <MessageAnimalIsVeneratedForAllColonists>Avís: {PAWNKINDLABELPLURAL} són venerats per tots els {PAWNS} i no se'ls farà mal.</MessageAnimalIsVeneratedForAllColonists>
+  <MessageAnimalIsVeneratedForAllColonists>Avís: {PAWNKINDLABELPLURAL} són venerats per tots els {PAWNS} i no se’ls farà mal.</MessageAnimalIsVeneratedForAllColonists>
 
   <!-- Archonexus -->
   <!-- EN: Select at most {0} {1} to bring to the new colony. -->
@@ -136,15 +136,15 @@
 
   <!-- Fuel node -->
   <!-- EN: A {0} has been ignited and is going to explode! -->
-  <MessageFuelNodeTriggered>S'ha incendiat {0_indefinite} i va a explotar!</MessageFuelNodeTriggered>
+  <MessageFuelNodeTriggered>S’ha incendiat {0_indefinite} i va a explotar!</MessageFuelNodeTriggered>
 
   <!-- Ancient complex -->
   <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
   <MessageSleepingThreatDelayActivated>{0_pawnsPlural} es despertaran d’aquí a {1}.</MessageSleepingThreatDelayActivated>
   <!-- EN: Infestation arriving. -->
-  <MessageInfestationDelayActivated>S'apropa una infestació.</MessageInfestationDelayActivated>
+  <MessageInfestationDelayActivated>S’apropa una infestació.</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
-  <MessageFuelNodeDelayActivated>S'ha alterat {0_definite} i podria explotar aviat!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
+  <MessageFuelNodeDelayActivated>S’ha alterat {0_definite} i podria explotar aviat!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
 
   <!-- Fluid ideo messages -->
   <!-- EN: Development points changed from {0} to {1} ({2}). -->

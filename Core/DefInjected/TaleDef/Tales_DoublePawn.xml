@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: person captured -->
-  <Captured.label>captura d'una persona</Captured.label>
+  <Captured.label>captura d’una persona</Captured.label>
   <!-- EN:
     <li>tale_noun->[CAPTURER_nameDef] capturing [PRISONER_nameDef]</li>
     <li>tale_noun->[PRISONER_nameDef] being captured by [CAPTURER_nameDef]</li>
@@ -47,7 +47,7 @@
     <li>desc_sentence->[PRISONER_nameDef] sembla resignat al seu destí.</li>
     <li>desc_sentence->[PRISONER_nameDef] remuga amb la ràbia del perdedor .</li>
     <li>desc_sentence->[CAPTURER_nameDef] està donant bufetades a [PRISONER_nameDef] per reduir [PRISONER_objective].</li>
-    <li>desc_sentence->[CAPTURER_nameDef] està retorçant-li l'orella a [PRISONER_nameDef].</li>
+    <li>desc_sentence->[CAPTURER_nameDef] està retorçant-li l’orella a [PRISONER_nameDef].</li>
     <li>desc_sentence->[CAPTURER_nameDef] subjecta [PRISONER_nameDef] bloquejant-li els moviments.</li>
     <li>desc_sentence->[CAPTURER_nameDef] i escup a la cara de [PRISONER_nameDef].</li>
     <li>desc_sentence->[CAPTURER_nameDef] es riu de les llàgrimes de [PRISONER_nameDef].</li>
@@ -78,13 +78,13 @@
   <DidSurgery.rulePack.rulesStrings>
     <li>tale_noun->[SURGEON_nameDef] operant a [PATIENT_nameDef]</li>
     <li>tale_noun->[SURGEON_nameDef] fent una operació a [PATIENT_nameDef]</li>
-    <li>tale_noun->l'operació de [PATIENT_nameDef]</li>
+    <li>tale_noun->l’operació de [PATIENT_nameDef]</li>
     <li>image->[SURGEON_nameFull] adormint [PATIENT_nameFull] amb anestèsia [circumstance_group]</li>
     <li>image->[SURGEON_nameFull] acotat sobre [PATIENT_nameFull] durant l’operació [circumstance_group]</li>
     <li>image->[SURGEON_nameFull] tallant [PATIENT_nameFull] durant la cirurgia [circumstance_group]</li>
     <li>circumstance_phrase->mentre [PATIENT_pronoun] tremola de por</li>
     <li>circumstance_phrase->mentre la sang li embruta els peus</li>
-    <li>circumstance_phrase->envoltat d'instruments quirúrgics esgarrifosos</li>
+    <li>circumstance_phrase->envoltat d’instruments quirúrgics esgarrifosos</li>
     <li>circumstance_phrase->amb eines improvisades però efectives</li>
     <li>desc_sentence->[SURGEON_nameDef] sua molt.</li>
     <li>desc_sentence->[SURGEON_nameDef] sembla molt concentrat en la feina.</li>
@@ -126,7 +126,7 @@
   <ExecutedPrisoner.rulePack.rulesStrings>
     <li>tale_noun->[executioner] executant a [PRISONER_nameDef]</li>
     <li>tale_noun->[PRISONER_nameDef] sent executat per [EXECUTIONER_nameDef]</li>
-    <li>tale_noun->l'execució de [PRISONER_nameDef]</li>
+    <li>tale_noun->l’execució de [PRISONER_nameDef]</li>
     <li>image->[EXECUTIONER_nameFull] executant [PRISONER_nameFull] [circumstance_group]</li>
     <li>image->[EXECUTIONER_nameFull] provocant la mort de [PRISONER_nameFull] [circumstance_group]</li>
     <li>image->[EXECUTIONER_nameFull] preparant l’execució de [PRISONER_nameFull] [circumstance_group]</li>
@@ -154,7 +154,7 @@
   </ExecutedPrisoner.rulePack.rulesStrings>
   
   <!-- EN: animal hunted -->
-  <Hunted.label>caça d'un animal</Hunted.label>
+  <Hunted.label>caça d’un animal</Hunted.label>
   <!-- EN:
     <li>tale_noun->[HUNTER_nameDef] hunting [PREY_nameDef]</li>
     <li>tale_noun->[PREY_nameDef] being hunted by [HUNTER_nameDef]</li>
@@ -172,7 +172,7 @@
   <Hunted.rulePack.rulesStrings>
     <li>tale_noun->[HUNTER_nameDef] caçant [PREY_nameDef]</li>
     <li>tale_noun->[PREY_nameDef] sent caçat per [HUNTER_nameDef]</li>
-    <li>tale_noun->l'exitosa cacera de [HUNTER_nameDef]</li>
+    <li>tale_noun->l’exitosa cacera de [HUNTER_nameDef]</li>
     <li>image->[PREY_nameFull] sent caçat per [HUNTER_nameFull] [circumstance_group]</li>
     <li>image->[HUNTER_nameFull] perseguint [PREY_nameFull] des de lluny [circumstance_group]</li>
     <li>image->[HUNTER_nameFull] caçant [PREY_nameFull] [circumstance_group]</li>
@@ -266,7 +266,7 @@
     <li>tale_noun->la mort de [VICTIM_nameDef]</li>
     <li>image->[VICTIM_nameFull] sent assassinat per [KILLER_nameFull] [circumstance_group]</li>
     <li>image->[KILLER_nameFull] matant a [VICTIM_nameFull] [circumstance_group]</li>
-    <li>image->[KILLER_nameFull] posant fi a la vida de [VICTIM_nameFull]'s life [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] posant fi a la vida de [VICTIM_nameFull]’s life [circumstance_group]</li>
     <li>image->[KILLER_nameFull] assassinant brutalment a [VICTIM_nameFull] [circumstance_group]</li>
     <li>image->[VICTIM_nameFull] morint [circumstance_group]</li>
     <li>circumstance_phrase->sense remordiment aparent</li>
@@ -274,11 +274,11 @@
     <li>circumstance_phrase->endut per la ràbia</li>
     <li>circumstance_phrase->amb moviments ràpids i eficients</li>
     <li>circumstance_phrase->sense emoció al rostre</li>
-    <li>circumstance_phrase->fruit d'una obscura necessitat</li>
+    <li>circumstance_phrase->fruit d’una obscura necessitat</li>
     <li>circumstance_phrase->de manera covarda i traïdora</li>
-    <li>desc_sentence->El sol es posa darrere d'ells com un reflex simbòlic del moment.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [ApparelAnyPlural] s'ho miren.</li>
-    <li>desc_sentence->Un [PersonJob] s'ho mira silenciosament [side_position].</li>
+    <li>desc_sentence->El sol es posa darrere d’ells com un reflex simbòlic del moment.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ApparelAnyPlural] s’ho miren.</li>
+    <li>desc_sentence->Un [PersonJob] s’ho mira silenciosament [side_position].</li>
     <li>desc_sentence->La sang rajant-li per tot el cos..</li>
     <li>desc_sentence->Els ulls de [VICTIM_nameDef] estan dibuixats amb tal realisme que es veuen buits de vida..</li>
     <li>desc_sentence->[KILLER_nameDef] li arranca les dents.</li>
@@ -289,13 +289,13 @@
   </KilledBy.rulePack.rulesStrings>
   
   <!-- EN: colonist killed -->
-  <KilledColonist.label>mort d'un colon</KilledColonist.label>
+  <KilledColonist.label>mort d’un colon</KilledColonist.label>
   
   <!-- EN: colony animal killed -->
-  <KilledColonyAnimal.label>mort d'un animal de la colònia</KilledColonyAnimal.label>
+  <KilledColonyAnimal.label>mort d’un animal de la colònia</KilledColonyAnimal.label>
   
   <!-- EN: person recruited -->
-  <Recruited.label>reclutament d'una persona</Recruited.label>
+  <Recruited.label>reclutament d’una persona</Recruited.label>
   <!-- EN:
     <li>tale_noun->[RECRUITER_nameDef] recruiting [JOINER_nameDef]</li>
     <li>tale_noun->[JOINER_nameDef] being recruited by [RECRUITER_nameDef]</li>
@@ -361,7 +361,7 @@
     <li>tale_noun->[PRISONER_nameDef] sent venut com a esclau per [SELLER_nameDef]</li>
     <li>image->[TRADER_nameFull] comprant [PRISONER_nameFull] a [SELLER_nameFull] [circumstance_group]</li>
     <li>image->[SELLER_nameFull] venent [PRISONER_nameFull] a [TRADER_nameFull] [circumstance_group]</li>
-    <li>circumstance_phrase->mentre els altres colons s'ho miren disgustats</li>
+    <li>circumstance_phrase->mentre els altres colons s’ho miren disgustats</li>
     <li>circumstance_phrase->mentre [SELLER_nameDef] conta els diners</li>
     <li>circumstance_phrase->mentre [PRISONER_nameDef] somica</li>
     <li>circumstance_phrase-> per a disgust de [PRISONER_nameDef]</li>
@@ -409,10 +409,10 @@
     <li>circumstance_phrase->cansat però content</li>
     <li>desc_sentence->[ANIMAL_nameDef] bufa agressivament.</li>
     <li>desc_sentence->[ANIMAL_nameDef] sembla mig adormit i encisat.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] sembla estar un una mena d'estat hipnòtic.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] sembla estar un una mena d’estat hipnòtic.</li>
     <li>desc_sentence->[ANIMAL_nameDef] sembla espantat, però interessat.</li>
     <li>desc_sentence->[ANIMAL_nameDef] sembla fascinat.</li>
-    <li>desc_sentence->[TAMER_nameDef] projecta una sensació d'amor profund cap a [ANIMAL_nameDef].</li>
+    <li>desc_sentence->[TAMER_nameDef] projecta una sensació d’amor profund cap a [ANIMAL_nameDef].</li>
   </TamedAnimal.rulePack.rulesStrings>
   
   <!-- EN: traded with someone -->
@@ -438,18 +438,18 @@
     <li>image->[SELLER_nameFull] venent coses a [BUYER_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->amb cobdicia</li>
     <li>circumstance_phrase->mentre [SELLER_nameDef] somriu amb superioritat a [BUYER_shortNameDef]</li>
-    <li>desc_sentence->[BUYER_nameDef] examina la mercaderia de [SELLER_nameDef]'s wares.</li>
+    <li>desc_sentence->[BUYER_nameDef] examina la mercaderia de [SELLER_nameDef]’s wares.</li>
     <li>desc_sentence->[SELLER_nameDef] valora un objecte.</li>
     <li>desc_sentence->[SELLER_nameDef] comença un regateig.</li>
     <li>desc_sentence->[BUYER_nameDef] discuteix el preu amb [SELLER_nameDef].</li>
-    <li>desc_sentence->[SELLER_nameDef] i [BUYER_nameDef] es posen d'acord en el preu.</li>
-    <li>desc_sentence->[BUYER_nameDef] paga l'objecte.</li>
+    <li>desc_sentence->[SELLER_nameDef] i [BUYER_nameDef] es posen d’acord en el preu.</li>
+    <li>desc_sentence->[BUYER_nameDef] paga l’objecte.</li>
     <li>desc_sentence->[SELLER_nameDef] compta els diners que té.</li>
     <li>desc_sentence->[BUYER_nameDef] recull les seves coses</li>
   </TradedWith.rulePack.rulesStrings>
   
   <!-- EN: animal trained -->
-  <TrainedAnimal.label>entrenament d'animal</TrainedAnimal.label>
+  <TrainedAnimal.label>entrenament d’animal</TrainedAnimal.label>
   <!-- EN:
     <li>tale_noun->[TRAINER_nameDef] training [ANIMAL_nameDef]</li>
     <li>tale_noun->the training of [ANIMAL_nameDef]</li>
@@ -496,7 +496,7 @@
     <li>train_syn->exercitant a</li>
     <li>train_syn->adoctrinant a</li>
     <li>train_syn->educant a</li>
-    <li>circumstance_phrase->sota l'atenta mirada de l’altra gent</li>
+    <li>circumstance_phrase->sota l’atenta mirada de l’altra gent</li>
     <li>circumstance_phrase->mentre [AnimalAnyPluralIndefinite] salvatges s’ho miren disgustats</li>
     <li>circumstance_phrase->mentre [ANIMAL_nameDef] recorda la senzillesa dels dies de quan era una simple bèstia salvatge</li>
     <li>circumstance_phrase-> mentre [TRAINER_nameDef] pensa en què hi haurà per dinar</li>
@@ -508,11 +508,11 @@
     <li>desc_sentence->[TRAINER_nameDef] està concentrat amb el front arrugat.</li>
     <li>desc_sentence->[ANIMAL_nameDef] sembla confús.</li>
     <li>desc_sentence->[ANIMAL_nameDef] porta una arma a la boca.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] gruny de l'esforç.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] gruny de l’esforç.</li>
     <li>desc_sentence->[TRAINER_nameDef] sacseja el cap en senyal de frustració.</li>
     <li>desc_sentence->[ANIMAL_nameDef] tremola de por.</li>
     <li>desc_sentence->[ANIMAL_nameDef] sembla convertir-se en una [Vegetable].</li>
-    <li>desc_sentence->[ANIMAL_nameDef]  està representat per un grup d'eines elèctriques.</li>
+    <li>desc_sentence->[ANIMAL_nameDef]  està representat per un grup d’eines elèctriques.</li>
     <li>desc_sentence->[ANIMAL_nameDef] és meitat [Color] i meitat[Color].</li>
     <li>desc_sentence->[ANIMAL_nameDef] està ple de crostes.</li>
     <li>desc_sentence->[TRAINER_nameDef] està dibuixat amb [quantity] braços.</li>

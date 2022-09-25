@@ -47,13 +47,13 @@
   <!-- EN: Opinions -->
   <Opinions>Opinions</Opinions>
   <!-- EN: Randomize name -->
-  <RandomizeName>Tria un nom a l'atzar</RandomizeName>
+  <RandomizeName>Tria un nom a l’atzar</RandomizeName>
   <!-- EN: Randomize precepts -->
-  <RandomizePrecepts>Tria els preceptes a l'atzar</RandomizePrecepts>
+  <RandomizePrecepts>Tria els preceptes a l’atzar</RandomizePrecepts>
   <!-- EN: Add precept -->
-  <AddPrecept>Afegeix un precepte</AddPrecept>
+  <AddPrecept>afegeix {0}</AddPrecept>
   <!-- EN: Randomize deities -->
-  <RandomizeDeities>Tria deïtats a l'atzar</RandomizeDeities>
+  <RandomizeDeities>Tria deïtats a l’atzar</RandomizeDeities>
   <!-- EN: Add deity -->
   <AddDeity>Afegeix una deïtat</AddDeity>
   <!-- EN: Choose memes -->
@@ -71,7 +71,7 @@
   <!-- EN: Structure -->
   <StructureMeme>Estructura</StructureMeme>
   <!-- EN: An ideoligion's structure determines the kind of entities and forces it sees as important to the moral structure of the universe. It has no direct gameplay effects. -->
-  <StructureMemeTip>L'estructura d'una ideoligió determina el tipus d'entitats i forces que es veuen com a importants per a la composició moral de l'univers. No afecta directament a l'estil de joc.</StructureMemeTip>
+  <StructureMemeTip>L’estructura d’una ideoligió determina el tipus d’entitats i forces que es veuen com a importants per a la composició moral de l’univers. No afecta directament a l’estil de joc.</StructureMemeTip>
   <!-- EN: Adjective -->
   <Adjective>Adjectiu</Adjective>
   <!-- EN: Ritual room -->
@@ -97,9 +97,9 @@
   <!-- EN: Edit -->
   <Edit>Edita</Edit>
   <!-- EN: Randomize symbols -->
-  <RandomizeSymbols>Tria els símbols a l'atzar</RandomizeSymbols>
+  <RandomizeSymbols>Tria els símbols a l’atzar</RandomizeSymbols>
   <!-- EN: Randomize ideoligion name, icon, narrative, leader title and any other texts like ritual names or role names. This does not affect gameplay elements like memes or precepts. -->
-  <RandomizeSymbolsTooltip>Aleatoritza el nom, la icona, l'eslògan, el títol de líder i tots els altres textos com noms rituals o de rols de la ideoligió. No afecta als elements del joc com ara mems o preceptes.</RandomizeSymbolsTooltip>
+  <RandomizeSymbolsTooltip>Aleatoritza el nom, la icona, l’eslògan, el títol de líder i tots els altres textos com noms rituals o de rols de la ideoligió. No afecta als elements del joc com ara mems o preceptes.</RandomizeSymbolsTooltip>
   <!-- EN: Click any element to edit it -->
   <ClickAnyElementToEditIt>Feu clic en qualsevol element per a editar-ho.</ClickAnyElementToEditIt>
   <!-- EN: Click to edit -->
@@ -133,15 +133,15 @@
   <!-- EN: all -->
   <All>tot</All>
   <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims, enhance rituals, and strengthen an ideoligion's ability to convert outsiders. -->
-  <RelicTip>Les relíquies són objectes d'importància espirituals o ideològica. Se'n poden trobar quan es completen missions llargues i perilloses. Una relíquia es pot instal·lar en un reliquiari per atreure pelegrins, millorar els rituals i enfortir l'habilitat d'una ideoligió per convertir als forasters.</RelicTip>
+  <RelicTip>Les relíquies són objectes d’importància espirituals o ideològica. Se’n poden trobar quan es completen missions llargues i perilloses. Una relíquia es pot instal·lar en un reliquiari per atreure pelegrins, millorar els rituals i enfortir l’habilitat d’una ideoligió per convertir als forasters.</RelicTip>
   <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims and enhance rituals. -->
-  <RelicTipClassic>Les relíquies són objectes d'importància espiritual o ideològica. Se'n poden trobar quan es completen missions llargues i perilloses. Una relíquia es pot instal·lar en un reliquiari per atreure pelegrins i milloren els rituals.</RelicTipClassic>
+  <RelicTipClassic>Les relíquies són objectes d’importància espiritual o ideològica. Se’n poden trobar quan es completen missions llargues i perilloses. Una relíquia es pot instal·lar en un reliquiari per atreure pelegrins i milloren els rituals.</RelicTipClassic>
   <!-- EN: animal -->
   <Animal>animal</Animal>
   <!-- EN: Venerated animals -->
   <VeneratedAnimals>Animals venerats</VeneratedAnimals>
   <!-- EN: weapon pair -->
-  <IdeoWeapon>parella d'armes</IdeoWeapon>
+  <IdeoWeapon>parella d’armes</IdeoWeapon>
   <!-- EN: Weapons -->
   <IdeoWeapons>Armes</IdeoWeapons>
   <!-- EN: Swap noble and despised -->
@@ -165,7 +165,7 @@
   <!-- EN: Overall impact -->
   <IdeoImpactOverall>Impacte general</IdeoImpactOverall>
   <!-- EN: Some memes impact gameplay more than others. The meme's impact score gives a sense of how big of a gameplay impact it has. -->
-  <IdeoImpactOverallDesc>Alguns mems tenen un impacte més gran al joc que d'altres. La puntuació d'impacte del mem dóna una idea del gran que és l'impacte que té.</IdeoImpactOverallDesc>
+  <IdeoImpactOverallDesc>Alguns mems tenen un impacte més gran al joc que d’altres. La puntuació d’impacte del mem dóna una idea del gran que és l’impacte que té.</IdeoImpactOverallDesc>
   <!-- EN: low -->
   <IdeoMemeImpactLabel_1>baix</IdeoMemeImpactLabel_1>
   <!-- EN: medium -->
@@ -204,7 +204,7 @@
   <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
   <ResearchProjectHasDefsWithMissingMemes>{0} desbloca coses que no podeu construir perquè requereixen mems que no té cap dels vostres.</ResearchProjectHasDefsWithMissingMemes>
   <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideoligion, so it may make this person unhappy. -->
-  <SelectedWorkTypeOpposedByIdeo>Avís: La seva ideoligió s'oposa a aquest tipus de feina i {0_gender ? el : la} farà infeliç.</SelectedWorkTypeOpposedByIdeo>
+  <SelectedWorkTypeOpposedByIdeo>Avís: La seva ideoligió s’oposa a aquest tipus de feina i {0_gender ? el : la} farà infeliç.</SelectedWorkTypeOpposedByIdeo>
 
   <!-- EN: Development points -->
   <DevelopmentPoints>Punts de desenvolupament</DevelopmentPoints>

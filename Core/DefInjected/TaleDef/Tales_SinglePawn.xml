@@ -31,7 +31,7 @@
   -->
   <AteRawHumanlikeMeat.rulePack.rulesStrings>
     <li>tale_noun->quan [pawn_nameShortDef] va menjar carn humana</li>
-    <li>image->[pawn_nameFull] [eat_gerund] carn d'un humà [circumstance_group]</li>
+    <li>image->[pawn_nameFull] [eat_gerund] carn d’un humà [circumstance_group]</li>
     <li>image->[pawn_nameFull] [eat_gerund] el braç humà [circumstance_group]</li>
     <li>image->[pawn_nameFull] [eat_gerund] carn humana [circumstance_group]</li>
     <li>eat_gerund->menjant</li>
@@ -44,13 +44,13 @@
     <li>circumstance_phrase->amb un propòsit ferm</li>
     <li>circumstance_phrase->sense gens de vergonya</li>
     <li>circumstance_phrase->amb vergonya</li>
-    <li>circumstance_phrase->mentre d'altres s'ho miren</li>
+    <li>circumstance_phrase->mentre d’altres s’ho miren</li>
     <li>circumstance_phrase->amb plaer</li>
     <li>circumstance_phrase->amb fruició, com si li anés la vida</li>
     <li>desc_sentence->Té la cara coberta de sang i greix.</li>
     <li>desc_sentence->Es xucla els dits.</li>
     <li>desc_sentence->Té sang i trocets de coses enganxades al pit.</li>
-    <li>desc_sentence->És al mig d'un bassal de sang.</li>
+    <li>desc_sentence->És al mig d’un bassal de sang.</li>
     <li>desc_sentence->Es mira algú altre amb un obscur interès.</li>
     <li>desc_sentence->La carn té bon color i sembla exquisida.</li>
     <li>desc_sentence->Trossos de carn se li enganxen al cos.</li>
@@ -60,7 +60,7 @@
   <ButcheredHumanlikeCorpse.label>cadàver humà escorxat</ButcheredHumanlikeCorpse.label>
   
   <!-- EN: art crafted -->
-  <CraftedArt.label>peça d'art</CraftedArt.label>
+  <CraftedArt.label>peça d’art</CraftedArt.label>
   <!-- EN:
     <li>tale_noun->the time [PAWN_nameDef] crafted [THING_indefinite]</li>
     <li>image->[PAWN_nameFull] crafting [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
@@ -89,7 +89,7 @@
     <li>title_sentence->The title of [THING_definite], [THING_title], hangs in the background</li>
   -->
   <CraftedArt.rulePack.rulesStrings>
-    <li>tale_noun->l'instant en el què [pawn_nameShortDef] va realitzar [thing_labelIndefinite]</li>
+    <li>tale_noun->l’instant en el què [pawn_nameShortDef] va realitzar [thing_labelIndefinite]</li>
     <li>image->[pawn_nameFull] creant [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
     <li>image->[pawn_nameFull] acabant de treballar en [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
     <li>image->[pawn_nameFull] treballant en [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
@@ -106,11 +106,11 @@
     <li>desc_sentence->La mida de [thing_labelDefinite] està exagerada per donar-li més importància.</li>
     <li>desc_sentence->[thing_labelDefinite] té una brillantor afegida. Sembla pràcticament angelical.</li>
     <li>desc_sentence->[pawn_nameShortDef] queda una mica al fons per a emfatitzar la seva nova creació.</li>
-    <li>desc_sentence->L'envolten [quantity_adjphrase] espectadors.</li>
-    <li>desc_sentence->Al fons una colla d'exclamacions d'admiració.</li>
-    <li>quality_sentence->[thing_labelDefinite] sembla d'una qualitat [thing_quality]</li>
-    <li>quality_sentence->[thing_labelDefinite] és d'una qualitat [thing_quality]</li>
-    <li>quality_sentence->El treball de [pawn_nameShortDef] és d'una qualitat [thing_quality]</li>
+    <li>desc_sentence->L’envolten [quantity_adjphrase] espectadors.</li>
+    <li>desc_sentence->Al fons una colla d’exclamacions d’admiració.</li>
+    <li>quality_sentence->[thing_labelDefinite] sembla d’una qualitat [thing_quality]</li>
+    <li>quality_sentence->[thing_labelDefinite] és d’una qualitat [thing_quality]</li>
+    <li>quality_sentence->El treball de [pawn_nameShortDef] és d’una qualitat [thing_quality]</li>
     <li>title_sentence->El títol de [thing_labelDefinite] de [pawn_nameShortDef] està escrit a sota: [thing_title]</li>
     <li>title_sentence->[thing_labelDefinite] està estampat amb el nom: [thing_title]</li>
     <li>title_sentence->El títol de [thing_labelDefinite], [thing_title], penja del fons</li>
@@ -155,8 +155,8 @@
     <li>image->[pawn_nameFull] caminant borratxo fent ziga-zagues [circumstance_group]</li>
     <li>image->[pawn_nameFull] inclinant el cap i empassant-se el licor [circumstance_group]</li>
     <li>image->[pawn_nameFull] acaparant ampolles de licor [circumstance_group]</li>
-    <li>image->[pawn_nameFull] bevent a morro d'una ampolla [circumstance_group]</li>
-    <li>circumstance_phrase->aliè al que l'envolta</li>
+    <li>image->[pawn_nameFull] bevent a morro d’una ampolla [circumstance_group]</li>
+    <li>circumstance_phrase->aliè al que l’envolta</li>
     <li>circumstance_phrase->en un estupor capcot</li>
     <li>circumstance_phrase->mentre es qüestiona la seva pròpia existència</li>
     <li>circumstance_phrase->amb llàgrimes als ulls</li>
@@ -167,23 +167,23 @@
     <li>circumstance_phrase->mentre es mira maliciosament a algú proper</li>
     <li>circumstance_phrase->mentre intenta despullar-se</li>
     <li>circumstance_phrase->amb un dit a la boca</li>
-    <li>circumstance_phrase->mentre s'aguanta el vòmit</li>
+    <li>circumstance_phrase->mentre s’aguanta el vòmit</li>
     <li>circumstance_phrase->sense preocupació pel món</li>
     <li>circumstance_phrase->amb una lluentor lasciva als ulls</li>
     <li>circumstance_phrase->mentre reviu els seus fantasmes del passat</li>
-    <li>desc_sentence->Sembla completament desconnectat del que l'envolta.</li>
+    <li>desc_sentence->Sembla completament desconnectat del que l’envolta.</li>
     <li>desc_sentence->Sembla tenir la cara inflada.</li>
     <li>desc_sentence->Està pràcticament inconscient, amb la llengua fora i bavejant.</li>
     <li>desc_sentence->Sembla trist i content al mateix temps.</li>
     <li>desc_sentence->Li raja una taca pel front.</li>
-    <li>desc_sentence->Hi ha una pila d'ampolles buides darrere seu.</li>
+    <li>desc_sentence->Hi ha una pila d’ampolles buides darrere seu.</li>
     <li>desc_sentence->Té una substància blanca als pantalons.</li>
     <li>desc_sentence->Ha perdut una sabata.</li>
     <li>desc_sentence->Té el cabell completament embolicat.</li>
   </Drunk.rulePack.rulesStrings>
   
   <!-- EN: research project finished -->
-  <FinishedResearchProject.label>finalització d'una investigació</FinishedResearchProject.label>
+  <FinishedResearchProject.label>finalització d’una investigació</FinishedResearchProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing research on [PROJECT_label]</li>
     <li>image->[PAWN_nameFull] working on [PROJECT_label] research project [circumstance_group]</li>
@@ -199,7 +199,7 @@
     <li>desc_sentence->[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li>
   -->
   <FinishedResearchProject.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] acabant d'investigar [project_label]</li>
+    <li>tale_noun->[pawn_nameShortDef] acabant d’investigar [project_label]</li>
     <li>image->[pawn_nameFull] treballant en la investigació de [project_label] [circumstance_group]</li>
     <li>image->[pawn_nameFull] estudiant els secrets de [project_label] [circumstance_group]</li>
     <li>image->[pawn_nameFull] investigant [project_label] [circumstance_group]</li>
@@ -209,7 +209,7 @@
     <li>circumstance_phrase->amb una alegre fascinació</li>
     <li>desc_sentence->[pawn_nameShortDef] està suant.</li>
     <li>desc_sentence->Sembla una feina extremadament complicada.</li>
-    <li>desc_sentence->[pawn_nameShortDef] té tot d'eines i aparells al voltant.</li>
+    <li>desc_sentence->[pawn_nameShortDef] té tot d’eines i aparells al voltant.</li>
     <li>desc_sentence->[pawn_nameShortDef] mira fixament el seu descobriment com si fos una maravella.</li>
   </FinishedResearchProject.rulePack.rulesStrings>
   
@@ -239,12 +239,12 @@
     <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
   -->
   <LandedInPod.rulePack.rulesStrings>
-    <li>tale_noun->l'aterratge  de [pawn_nameShortDef] en una capsula</li>
-    <li>image->[pawn_nameFull] aterrant en una càpsula d'escapament [circumstance_group]</li>
-    <li>image->[pawn_nameFull] tocant terra en una càpsula d'escapament [circumstance_group]</li>
-    <li>image->[pawn_nameFull] estavellant-se en una càpsula d'escapament [circumstance_group]</li>
-    <li>image->[pawn_nameFull] pilotant una càpsula d'escapament [circumstance_group]</li>
-    <li>circumstance_phrase->a davant d'una [terrainfeature]</li>
+    <li>tale_noun->l’aterratge  de [pawn_nameShortDef] en una capsula</li>
+    <li>image->[pawn_nameFull] aterrant en una càpsula d’escapament [circumstance_group]</li>
+    <li>image->[pawn_nameFull] tocant terra en una càpsula d’escapament [circumstance_group]</li>
+    <li>image->[pawn_nameFull] estavellant-se en una càpsula d’escapament [circumstance_group]</li>
+    <li>image->[pawn_nameFull] pilotant una càpsula d’escapament [circumstance_group]</li>
+    <li>circumstance_phrase->a davant d’una [terrainfeature]</li>
     <li>circumstance_phrase->amb una força increible</li>
     <li>circumstance_phrase->en un núvol de pols i pedres</li>
     <li>circumstance_phrase->amb els coets de frenada tremendament sobreescalfats</li>
@@ -256,12 +256,12 @@
     <li>desc_sentence->[pawn_pronoun] sembla no tenir ni idea del que està fent.</li>
     <li>desc_sentence->[pawn_pronoun] està ligat amb el cinturó amb els ulls tancats, completament desamparat.</li>
     <li>desc_sentence->Surten flames de darrere de la càpsula.</li>
-    <li>desc_sentence(p=0.7)->Un [AnimalMS] proper s'ho mira sorprès.</li>
-    <li>desc_sentence(p=0.3)->Una [AnimalFS] propera s'ho mira sorprès.</li>
-    <li>desc_sentence(p=0.7)->Un [AnimalMS] fuig espantat per l'impacte.</li>
-    <li>desc_sentence(p=0.3)->Una [AnimalFS] fuig espantada per l'impacte.</li>
+    <li>desc_sentence(p=0.7)->Un [AnimalMS] proper s’ho mira sorprès.</li>
+    <li>desc_sentence(p=0.3)->Una [AnimalFS] propera s’ho mira sorprès.</li>
+    <li>desc_sentence(p=0.7)->Un [AnimalMS] fuig espantat per l’impacte.</li>
+    <li>desc_sentence(p=0.3)->Una [AnimalFS] fuig espantada per l’impacte.</li>
     <li>desc_sentence->Hi ha una [terrainfeature] al fons.</li>
-    <li>desc_sentence->Un [outlander] s'ho mira de lluny.</li>
+    <li>desc_sentence->Un [outlander] s’ho mira de lluny.</li>
   </LandedInPod.rulePack.rulesStrings>
   
   <!-- EN: berserk rage -->
@@ -292,7 +292,7 @@
     <li>desc_sentence->A single tear rolls down [PAWN_possessive] face.</li>
   -->
   <MentalStateBerserk.rulePack.rulesStrings>
-    <li>tale_noun->l'emprenyada rabiosa de [pawn_nameShortDef]</li>
+    <li>tale_noun->l’emprenyada rabiosa de [pawn_nameShortDef]</li>
     <li>image->[pawn_nameFull] agafant una emprenyada [circumstance_group]</li>
     <li>image->[pawn_nameFull] perdent el control i tornant-se violent [circumstance_group]</li>
     <li>image->[pawn_nameFull] avançant a trompicons amb una mirada psicòtica [circumstance_group]</li>
@@ -300,8 +300,8 @@
     <li>circumstance_phrase->sense una raó aparent</li>
     <li>circumstance_phrase->mentre els altres fugen espantats</li>
     <li>circumstance_phrase->mentre un amic en fuig</li>
-    <li>circumstance_phrase->per culpa de l'estrès</li>
-    <li>circumstance_phrase->fins al cap d'amunt de tot</li>
+    <li>circumstance_phrase->per culpa de l’estrès</li>
+    <li>circumstance_phrase->fins al cap d’amunt de tot</li>
     <li>desc_sentence->Està tremolant amb una ràbia incontrolable.</li>
     <li>desc_sentence->Té les dents serrades com si fes un grunyit amenaçador.</li>
     <li>desc_sentence->Els seus ulls són uns pous de bogeria.</li>
@@ -309,10 +309,10 @@
     <li>desc_sentence->Ha perdut una part de la roba.</li>
     <li>desc_sentence->Té un gest de llàstima.</li>
     <li>desc_sentence->Sembla somriure maníacament.</li>
-    <li>desc_sentence->Està dibuixat amb la cara d'[AnimalAnySingularIndefinite] rugint.</li>
+    <li>desc_sentence->Està dibuixat amb la cara d’[AnimalAnySingularIndefinite] rugint.</li>
     <li>desc_sentence->Li envolten simbòlicament el cap tot de [AnimalAnyPlural].</li>
     <li>desc_sentence->Té una mirada assassina.</li>
-    <li>desc_sentence->Tot el cos li tremola d'odi.</li>
+    <li>desc_sentence->Tot el cos li tremola d’odi.</li>
     <li>desc_sentence->Li han fet la cara amb una serenor perversa.</li>
     <li>desc_sentence->Li cau una llàgrima per la galta.</li>
   </MentalStateBerserk.rulePack.rulesStrings>
@@ -342,21 +342,21 @@
   -->
   <MentalStateGaveUp.rulePack.rulesStrings>
     <li>tale_noun->la desesperança de [pawn_nameShortDef]</li>
-    <li>image->[pawn_nameFull] caient en la despesperació per culpa de l'estrès [circumstance_group]</li>
+    <li>image->[pawn_nameFull] caient en la despesperació per culpa de l’estrès [circumstance_group]</li>
     <li>image->[pawn_nameFull] plorant de manera desconsolada [circumstance_group]</li>
     <li>image->[pawn_nameFull] caminant sense sentit amb una expressió de desesperança a la cara</li>
     <li>circumstance_phrase->mentre comença a despullar-se</li>
     <li>circumstance_phrase->sense una raó aparent</li>
     <li>circumstance_phrase->metre els altres li donen ànims</li>
     <li>circumstance_phrase->metre una amiga també plora</li>
-    <li>circumstance_phrase->per culpa de l'estrès</li>
-    <li>circumstance_phrase->fins al cap d'amunt de tot</li>
+    <li>circumstance_phrase->per culpa de l’estrès</li>
+    <li>circumstance_phrase->fins al cap d’amunt de tot</li>
     <li>desc_sentence->Li ragen llàgrimes per la cara.</li>
     <li>desc_sentence->Riu des de la profunditat de la seva depresió.</li>
     <li>desc_sentence->Fa una cara estranya, com si demanés ajuda a un ser superior.</li>
-    <li>desc_sentence->S'estripa la roba.</li>
-    <li>desc_sentence->Sembla completament absent al que l'envolta.</li>
-    <li>desc_sentence->Sembla trist i content a l'hora.</li>
+    <li>desc_sentence->S’estripa la roba.</li>
+    <li>desc_sentence->Sembla completament absent al que l’envolta.</li>
+    <li>desc_sentence->Sembla trist i content a l’hora.</li>
     <li>desc_sentence->Té el front arrugat.</li>
     <li>desc_sentence->Ha perdut una sabata.</li>
     <li>desc_sentence->Té el cap completament escabellat.</li>
@@ -389,7 +389,7 @@
     <li>circumstance_phrase->amb sorpresa</li>
     <li>circumstance_phrase->amb una expressió de satisfacció</li>
     <li>desc_sentence->[pawn_nameShortDef] es neteja el front.</li>
-    <li>desc_sentence->[pawn_nameShortDef] salta d'alegria.</li>
+    <li>desc_sentence->[pawn_nameShortDef] salta d’alegria.</li>
     <li>desc_sentence->[pawn_nameShortDef] xoca les mans amb un amic.</li>
     <li>desc_sentence->[pawn_nameShortDef] xiscla de felicitat.</li>
     <li>desc_sentence->[pawn_nameShortDef] riu sense control.</li>
@@ -426,15 +426,15 @@
     <li>image->[pawn_nameFull] de genolls, vomitant a terra [circumstance_group]</li>
     <li>circumstance_phrase->amb una mirada de dolor</li>
     <li>circumstance_phrase->amb molta llàstima</li>
-    <li>circumstance_phrase->mentre d'altres el miren</li>
+    <li>circumstance_phrase->mentre d’altres el miren</li>
     <li>desc_sentence->Sembla ignorar completament el que passa al seu voltant.</li>
     <li>desc_sentence->Sembla tenir la cara inflada.</li>
     <li>desc_sentence->Està gairebé inconscient, amb al llengua per fora i bavejant.</li>
     <li>desc_sentence->Té convulsions violentes.</li>
     <li>desc_sentence->Sembla avergonyit.</li>
     <li>desc_sentence->Sembla que vulgui riure malgrat les circumstàncies.</li>
-    <li>desc_sentence->Sembla com desinflat, com si s'hagués buidat completament per la forta vomitada.</li>
-    <li>desc_sentence->Està envoltat per una mena d'halo artístic de brutícia.</li>
+    <li>desc_sentence->Sembla com desinflat, com si s’hagués buidat completament per la forta vomitada.</li>
+    <li>desc_sentence->Està envoltat per una mena d’halo artístic de brutícia.</li>
     <li>desc_sentence->[AnimalAnySingularIndefinite] es menja el vòmit del terra.</li>
   </Vomited.rulePack.rulesStrings>
   
@@ -472,7 +472,7 @@
     <li>image->[pawn_nameFull] [nude_action], amb tot a la vista, [circumstance_group]</li>
     <li>image->[pawn_nameFull] [nude_action] sense gens de roba [circumstance_group]</li>
     <li>nude_action->fent tombarelles</li>
-    <li>nude_action->saltant d'alegria</li>
+    <li>nude_action->saltant d’alegria</li>
     <li>nude_action->xalant</li>
     <li>nude_action->caminant</li>
     <li>nude_action->fent ostentació dels seus atributs</li>
@@ -482,11 +482,11 @@
     <li>nude_action->supervisant la zona</li>
     <li>circumstance_phrase->amb seguretat</li>
     <li>circumstance_phrase->sense ni un bri de vergonya</li>
-    <li>circumstance_phrase->mentre els altres s'ho miren</li>
+    <li>circumstance_phrase->mentre els altres s’ho miren</li>
     <li>circumstance_phrase->sense una raó aparent</li>
-    <li>circumstance_phrase->mentre uns animals s'ho miren confusos</li>
+    <li>circumstance_phrase->mentre uns animals s’ho miren confusos</li>
     <li>desc_sentence->[pawn_nameShortDef] té una excitació clara.</li>
-    <li>desc_sentence->[pawn_nameShortDef] té el cos cobert d'una curiosa humitat.</li>
+    <li>desc_sentence->[pawn_nameShortDef] té el cos cobert d’una curiosa humitat.</li>
     <li>desc_sentence->[pawn_nameShortDef] respira com si li costés sense una raó aparent.</li>
     <li>desc_sentence->[pawn_nameShortDef] es refrega en uns matolls.</li>
   </WalkedNaked.rulePack.rulesStrings>
@@ -519,14 +519,14 @@
     <li>image->[pawn_nameFull] embolcallat de flames [circumstance_group]</li>
     <li>image->[pawn_nameFull] de genolls, amb les mans al cap, intentant apagar-se el foc del cos [circumstance_group]</li>
     <li>image->[pawn_nameFull] rodolant per terra cremant-se [circumstance_group]</li>
-    <li>circumstance_phrase->mentre els altres se'l miren</li>
+    <li>circumstance_phrase->mentre els altres se’l miren</li>
     <li>circumstance_phrase->gairebé despullat</li>
     <li>circumstance_phrase->molt concentrat</li>
     <li>desc_sentence->Té la pell visiblement cremanda.</li>
     <li>desc_sentence->Té ulls increïblement oberts de pànic.</li>
     <li>desc_sentence->Està gairebé inconscient, amb una mirada sense vida.</li>
     <li>desc_sentence->Té la boca oberta com si cridés auxili.</li>
-    <li>desc_sentence->Les flames estant apunt d'envoltar-li el cap.</li>
+    <li>desc_sentence->Les flames estant apunt d’envoltar-li el cap.</li>
     <li>desc_sentence->Un halo simbòlic li ressalta la cara.</li>
     <li>desc_sentence->Fa una rialla maníaca.</li>
     <li>desc_sentence->Està apunt de perdre la cordura.</li>

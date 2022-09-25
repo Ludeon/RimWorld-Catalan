@@ -17,17 +17,17 @@
   -->
   <Transition_Died.rulePack.rulesStrings>
     <li>die(SUBJECT_flesh!=Mechanoid,p=2)->mori</li>
-    <li>die(SUBJECT_flesh!=Mechanoid)->se'n vagi a l'altre barri</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->se’n vagi a l’altre barri</li>
     <li>die(SUBJECT_flesh!=Mechanoid)->expiri</li>
-    <li>die(SUBJECT_flesh==Mechanoid)->s'apagui</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->s’apagui</li>
     <li>die(SUBJECT_flesh==Mechanoid)->deixi de funcionar</li>
     <li>die(SUBJECT_flesh==Mechanoid)->es quedi sense energia</li>
     <li>died(SUBJECT_flesh!=Mechanoid,p=2)->ha mort</li>
-    <li>died(SUBJECT_flesh!=Mechanoid)->se n'ha anat a l'altre barri</li>
+    <li>died(SUBJECT_flesh!=Mechanoid)->se n’ha anat a l’altre barri</li>
     <li>died(SUBJECT_flesh!=Mechanoid)->ha expirat</li>
-    <li>died(SUBJECT_flesh==Mechanoid)->s'ha apagat</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->s’ha apagat</li>
     <li>died(SUBJECT_flesh==Mechanoid)->ha deixat de funcionar</li>
-    <li>died(SUBJECT_flesh==Mechanoid)->s'ha quedat sense energia</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->s’ha quedat sense energia</li>
   </Transition_Died.rulePack.rulesStrings>
   
   <!-- EN:
@@ -152,10 +152,10 @@
     <li>collapse(subject_flesh==Mechanoid)->es quedi sense energia</li>
     <li>collapsed->ha col·lapsat</li>
     <li>collapsed->ha caigut en rodó</li>
-    <li>collapsed(subject_flesh!=Mechanoid)->s'ha desmaiat</li>
+    <li>collapsed(subject_flesh!=Mechanoid)->s’ha desmaiat</li>
     <li>collapsed(subject_flesh==Mechanoid)->ha petat</li>
-    <li>collapsed(subject_flesh==Mechanoid)->s'ha blocat</li>
-    <li>collapsed(subject_flesh==Mechanoid)->s'ha quedat sense energia</li>
+    <li>collapsed(subject_flesh==Mechanoid)->s’ha blocat</li>
+    <li>collapsed(subject_flesh==Mechanoid)->s’ha quedat sense energia</li>
     <li>helplessly->sense poder-hi fer res</li>
     <li>helplessly(subject_flesh!=Mechanoid)->inconscient</li>
     <li>helplessly(subject_flesh!=Mechanoid)->sense forces</li>
