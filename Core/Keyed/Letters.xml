@@ -70,7 +70,7 @@
   <RecruitFail>{0} no ha pogut reclutar {1} (les probabilitat eren del {2}).</RecruitFail>
 
   <!-- EN: {PAWN_nameDef} is {RELATIVE_labelShort}'s {1}. If {PAWN_nameDef} dies, {RELATIVE_labelShort} will suffer from long-lasting grief. However, if you manage to rescue {PAWN_nameDef}, {RELATIVE_labelShort} will be very happy for a long time. -->
-  <RelatedPawnInvolvedInQuest>{PAWN_definite} és {RELATIVE_definite} de {1_definite}. Si {PAWN_definite} mor, {RELATIVE_definite} patirà un dol llarg. Però si aconseguiu rescatar {PAWN_definite}, {RELATIVE_definite} estarà content durant molt temps.</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>{PAWN_definite} és {RELATIVE_definite} de {1_definite}. Si {PAWN_definite} mor, {RELATIVE_definite} patirà un dol llarg. Però si aconseguiu rescatar {PAWN_definite}, {RELATIVE_definite} estarà content durant molt de temps.</RelatedPawnInvolvedInQuest>
 
   <!-- EN: Birthday -->
   <LetterLabelBirthday>Aniversari</LetterLabelBirthday>
@@ -171,9 +171,9 @@
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of {1}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are: -->
   <LetterRelatedPawnsRaidEnemy>Al grup hostil de {1} que arriba hi ha algun familiar dels {0} o presoners vostres.\n\nPenseu que encara que siguin parents, s’atacaran l’un a l’altre per les males relacions de les respectives faccions.\n\nSón:</LetterRelatedPawnsRaidEnemy>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of friendly {1}: -->
-  <LetterRelatedPawnsRaidFriendly>Al grup amistós de {1} que arriba hi ha algun familiar dels {0} o presoners vostres:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsRaidFriendly>Al grup amistós de {1} que arriba hi ha algun familiar dels {0} o de presoners vostres:</LetterRelatedPawnsRaidFriendly>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group: -->
-  <LetterRelatedPawnsNeutralGroup>Al grup neutral de {1} que arriba hi ha algun familiar dels {0} o presoners vostres:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsNeutralGroup>Al grup que arriba hi ha algun familiar dels {0} o de presoners vostres:</LetterRelatedPawnsNeutralGroup>
   <!-- EN: The orbital trader is selling people who have relationships with your {0} or prisoners: -->
   <LetterRelatedPawnsTradeShip>El comerciant orbital ven algun familiar dels {0} o presoners vostres:</LetterRelatedPawnsTradeShip>
   <!-- EN: The settlement is selling people who have relationships with your {0} or prisoners: -->
@@ -416,7 +416,7 @@
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
   <LetterLabelPredatorHuntingColonist>{PREDATOR_indefinite} vol caçar a {PREY_indefinite}</LetterLabelPredatorHuntingColonist>
   <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
-  <LetterPredatorHuntingColonist>{PREDATOR} vol caçar a {PREY_definite} per menjar-se{PREY_gender ? ’l : -la}!</LetterPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>{PREDATOR} vol caçar a {PREY_definite} per {PREY_gender ? menjar-se’l : menjar-se-la}!</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on: {2}. -->

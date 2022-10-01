@@ -236,11 +236,11 @@
   <MinSkill>Habilitat mín.</MinSkill>
   
   <!-- EN: Equip {0} -->
-  <Equip>Equipa {0}</Equip>
+  <Equip>Equipa {0_definite}</Equip>
   <!-- EN: (brawler will be unhappy) -->
   <EquipWarningBrawler>(al sarauista no li agradarà)</EquipWarningBrawler>
   <!-- EN: Cannot equip {0} -->
-  <CannotEquip>No es pot equipar {0}</CannotEquip>
+  <CannotEquip>No es pot equipar {0_definite}</CannotEquip>
   <!-- EN: Cannot man {1_labelShort} -->
   <CannotManThing>No es pot {1_labelShort} a mà</CannotManThing>
   
@@ -412,19 +412,19 @@
   <WillNever>no {0} mai</WillNever>
 
   <!-- EN: Cannot prioritize: Not assigned to {0} -->
-  <CannotPrioritizeNotAssignedToWorkType>No es pot prioritzar perquè no està assignat a {0}</CannotPrioritizeNotAssignedToWorkType>
+  <CannotPrioritizeNotAssignedToWorkType>No es pot prioritzar perquè no està assignat a {0}.</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>no està assignat</NotAssigned>
   <!-- EN: not assigned to {0} -->
   <NotAssignedToWorkType>no està assignat a {0}</NotAssignedToWorkType>
 
   <!-- EN: Cannot prioritize: Research is a long-term task -->
-  <CannotPrioritizeResearch> No es pot prioritzar ja que la recerca és una tasca a llarg termini</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch> No es pot prioritzar ja que la recerca és una tasca a llarg termini.</CannotPrioritizeResearch>
 
   <!-- EN: Cannot prioritize: {1_label} is forbidden -->
-  <CannotPrioritizeForbidden> No es pot prioritzar ja que {1_definite} està prohibit</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden> No es pot prioritzar ja que {1_definite} està prohibit.</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: Forbidden -->
-  <CannotPrioritizeCellForbidden>No es pot prioritzar ja que està prohibit</CannotPrioritizeCellForbidden>
+  <CannotPrioritizeCellForbidden>No es pot prioritzar ja que està prohibit.</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>Fora de l’àrea permesa</CannotPrioritizeForbiddenOutsideAllowedArea>
   <!-- EN: Cannot prioritize burying -->

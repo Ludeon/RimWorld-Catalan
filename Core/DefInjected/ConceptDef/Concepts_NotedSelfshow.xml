@@ -4,51 +4,51 @@
   <!-- EN: Alerts -->
   <Alerts.label>Alertes</Alerts.label>
   <!-- EN: The alerts at the right edge of the screen tell you about issues that need your attention.\n\nKeep an eye on the alerts. -->
-  <Alerts.helpText>Els avisos de la vora dreta de la pantalla us indiquen les coses que necessiten ser ateses.\n\nEstigueu-hi alerta.</Alerts.helpText>
+  <Alerts.helpText>Els avisos de la vora dreta de la pantalla us indiquen les coses que cal atendre.\n\nEstigueu-hi alerta.</Alerts.helpText>
   
   <!-- EN: Allowed areas -->
   <AllowedAreas.label>Zones permeses</AllowedAreas.label>
   <!-- EN: Colonists and colony animals can be assigned to ALLOWED AREAS. This forbids them from taking destinations outside their allowed area.\n\nThis can be used to, for example, forbid colonists from going outside.\n\nYou can create multiple allowed areas and assign them to different colonists and animals.\n\nCreate, delete, and assign allowed areas in the RESTRICT tab.\n\nPaint allowed areas onto the map using the EXPAND ALLOWED AREA and CLEAR ALLOWED AREA designators in the Architect tab. -->
-  <AllowedAreas.helpText>Els colons i els animals de la colònia es poden assignar a ZONES PERMESES. Això evita que vagin fora de la seva zona permesa.\n\nEs pot fer servir, per exemple, per evitar que els colons surtin a fora.\n\nYPodeu crear diferents zones permeses i assignar-les a colons o animals diferents.\n\nCreeu i elimineu zones permeses a la pestanya «Horari».\n\nPinteu les zones permeses des de la pestanya «Arquitectura» i la categoria «Zones»; empreu els botons «Amplia la zona permesa» i «Treu de la zona permesa» per fer-ho.</AllowedAreas.helpText>
+  <AllowedAreas.helpText>Els colons i els animals de la colònia es poden assignar a zones permeses, d’on no sortiran.\n\nEs poden fer servir, per exemple, per tal d’evitar que alguns colons s’allunyin molt de la llar.\n\nPodeu crear diferents zones permeses i assignar-les a colons o animals diferents.\n\nCreeu i elimineu zones a la pestanya «Horari».\n\nPinteu les zones permeses des de la pestanya «Arquitectura» i la categoria «Zones». Per a fer-ho, empreu els botons «Amplia la zona permesa» i «Treu de la zona permesa».</AllowedAreas.helpText>
   
   <!-- EN: Animal taming -->
   <AnimalTaming.label>Domesticar animals</AnimalTaming.label>
   <!-- EN: You can assign colonists to tame a wild animal with the TAME designator.\n\nColonists will offer the animal food and attempt to tame it.\n\nBeware: Some animals can respond violently to failed taming attempts. -->
-  <AnimalTaming.helpText>Podeu assignar colons per que domestiquin animals amb el botó DOMESTICAR.\n\nEls colons oferiran menjar a l’animal per intentar domesticar-lo.\n\nAlerta: alguns animals es poden posar violents si falla l’intent de domesticació.</AnimalTaming.helpText>
+  <AnimalTaming.helpText>Podeu assignar colons perquè domestiquin animals amb el botó «Domestica».\n\nEls colons oferiran menjar a l’animal per a intentar domesticar-lo.\n\nAlerta: alguns animals es poden posar violents si falla l’intent de domesticació.</AnimalTaming.helpText>
   
   <!-- EN: Animal training -->
   <AnimalTraining.label>Educar animals</AnimalTraining.label>
   <!-- EN: You can assign a tame animal to be trained in specific skills on its TRAINING tab.\n\nAnimals can't be trained continuously; they need time between training sessions. -->
-  <AnimalTraining.helpText>Podeu assignar un animal domesticat per ser educat en una disciplina determinada a la seva pestanya EDUCACIÓ.\n\nEls animals no es poden educar contínuament, necessiten un temps entre una sessió i la següent.</AnimalTraining.helpText>
+  <AnimalTraining.helpText>Podeu assignar un animal domesticat perquè se l’eduqui en una disciplina determinada a la seva pestanya de «Docilitat».\n\nEls animals no es poden educar contínuament. Necessiten un temps entre una sessió i la següent.</AnimalTraining.helpText>
   
   <!-- EN: Camera dolly -->
-  <CameraDolly.label>Moviment de la càmera</CameraDolly.label>
+  <CameraDolly.label>Moure la càmera</CameraDolly.label>
   <!-- EN: Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys. -->
-  <CameraDolly.helpText>Podeu moure la càmera fent clic amb el botó 3 (el de mig o el de la dreta) i arrossegant, o bé amb les tecles {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}.</CameraDolly.helpText>
+  <CameraDolly.helpText>Podeu moure la càmera si feu clic amb el botó del ratolí del de mig o el de la dreta i arrossegueu o bé amb les tecles {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right}.</CameraDolly.helpText>
   <!-- EN: Move the camera by using the D-pad. -->
   <CameraDolly.helpTextController>Moveu la càmera amb el controlador.</CameraDolly.helpTextController>
   
   <!-- EN: Camera zoom -->
   <CameraZoom.label>Zoom</CameraZoom.label>
   <!-- EN: Zoom in and out with the MOUSEWHEEL or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys. -->
-  <CameraZoom.helpText>Podeu apropar i allunyar la vista amb la roda del ratolí o amb les tecles {Key:MapZoom_In} i {Key:MapZoom_Out}.</CameraZoom.helpText>
+  <CameraZoom.helpText>Podeu apropar i allunyar la vista amb la roda del ratolí o amb les tecles «{Key:MapZoom_In}» i «{Key:MapZoom_Out}».</CameraZoom.helpText>
   <!-- EN: Zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}. -->
-  <CameraZoom.helpTextController>Podeu apropar i allunyar la vista amb {Key:MapZoom_In} i {Key:MapZoom_Out}.</CameraZoom.helpTextController>
+  <CameraZoom.helpTextController>Podeu apropar i allunyar la vista amb «{Key:MapZoom_In}» i «{Key:MapZoom_Out}».</CameraZoom.helpTextController>
   
   <!-- EN: Clicking messages -->
   <ClickingMessages.label>Fer clic als missatges</ClickingMessages.label>
   <!-- EN: You can click on the notifications in the top-left of the screen to instantly center the camera on their subject. -->
-  <ClickingMessages.helpText>Podeu fer clic a les notificacions a la part superior esquerra de la pantalla per centrar la càmera immediatament sobre l’assumpte.</ClickingMessages.helpText>
+  <ClickingMessages.helpText>Podeu fer clic a les notificacions a la part superior esquerra de la pantalla per a centrar la càmera immediatament sobre l’assumpte.</ClickingMessages.helpText>
   
   <!-- EN: Cover and shooting -->
   <CoverAndShooting.label>Cobrir-se i disparar</CoverAndShooting.label>
   <!-- EN: The most important thing to do in ranged combat is to use cover.\n\nCover only works if your colonist is touching it, and it is between your colonist and the enemy.\n\nYou can also place colonists behind wall corners. They will lean out to shoot.\n\nMost things can be used as cover, but some things are better than others. Hiding behind a tree is better than nothing, but hiding behind sandbags is better than using a tree. -->
-  <CoverAndShooting.helpText>La cosa més important que cal fer en combat a distància és cobrir-se.\n\nLa cobertura només funciona si el colon l’està tocant i està entre ell i l’enemic.\n\nTambé podeu posar els colons a les cantonades. Trauran el cap per disparar.\n\nHi ha moltes coses que es poden fer servir de cobertura, però algunes són millors que les altres. Amagar-se darrere un arbre és millor que res, però els sacs de sorra són millors que els arbres.</CoverAndShooting.helpText>
+  <CoverAndShooting.helpText>La cosa més important que cal fer en combat a distància és cobrir-se.\n\nLa cobertura només funciona si el colon l’està tocant i està entre ell i l’enemic.\n\nTambé podeu posar els colons a les cantonades. Trauran el cap a per disparar.\n\nHi ha moltes coses que es poden fer servir de cobertura, però algunes són millors que altres. Amagar-se darrere un arbre és millor que res, però els sacs de sorra són millors que els arbres.</CoverAndShooting.helpText>
   
   <!-- EN: Item deterioration -->
   <Deterioration.label>Deteriorament dels objectes</Deterioration.label>
   <!-- EN: Items left outdoors will slowly deteriorate.\n\nIf you want to store items long-term, keep them in a roofed room. -->
-  <Deterioration.helpText>Els objectes que es deixin a cel obert es deterioraran de mica en mica.\n\nSi voleu desar-los durant molt temps, poseu-los sota teulada.</Deterioration.helpText>
+  <Deterioration.helpText>Els objectes que es deixin a cel obert es deterioraran de mica en mica.\n\nSi voleu desar-los durant molt de temps, poseu-los sota teulada.</Deterioration.helpText>
   
   <!-- EN: Equipping weapons -->
   <EquippingWeapons.label>Equipar armes</EquippingWeapons.label>
@@ -58,125 +58,125 @@
   <EquippingWeapons.helpTextController>Els vostres colons arriben amb armes. Equipeu-los-les!\n\nSeleccioneu cada colon i després trieu l’arma que voleu equipar fent-hi clic amb el botó del gatell esquerre.</EquippingWeapons.helpTextController>
   
   <!-- EN: Fire preparation -->
-  <FirePreparation.label>Preparar-se pels incendis</FirePreparation.label>
+  <FirePreparation.label>Preparar-se per als incendis</FirePreparation.label>
   <!-- EN: Fires can easily burn down a colony. To defeat them, you must prepare before they happen.\n\nThese design elements can help reduce the damage from fires:\n\n1. Instead of constructing one super-building, build separate buildings with spaces in between.\n\n2. Use less flammable materials. Wood is cheap and fast - but very flammable.\n\n3. Build firebreaks to stop wildfires approaching your base. A strip of concrete floor 3 or 4 cells wide will generally stop an advancing fire. -->
-  <FirePreparation.helpText>Els incendis poden calcinar fàcilment una colònia. Per afrontar-lo, us heu de preparar abans que comenci.\n\nAquests elements de disseny us poden ajudar a reduir els desperfectes causats pels incendis:\n\n1. En comptes de construir un gran edifici, construïu edificis separats amb espai entre ells.\n\n2. Feu servir materials menys inflamables. La fusta és ràpida i barata, però molt inflamable.\n\n3. Construïu tallafocs per aturar els focs que s’atansin a la base. Una tira de terra de ciment de 3 o 4 cel·les d’ample hauria d’aturar qualsevol l’avanç de qualsevol incendi.</FirePreparation.helpText>
+  <FirePreparation.helpText>Els incendis poden calcinar fàcilment una colònia. Per a evitar-ho, us heu de preparar abans que comencin.\n\nAquests elements de disseny us poden ajudar a reduir els desperfectes causats pels incendis:\n\n1. En comptes de construir un edifici gros, construïu edificis separats amb espai entre ells.\n\n2. Feu servir materials menys inflamables. Construir amb fusta és molt ràpid i barat, però es tracta d’un material molt inflamable.\n\n3. Construïu tallafocs per a aturar els focs que s’atansin a la base. Una tira de ciment de 3 o 4 cel·les d’ample hauria d’aturar l’avanç de qualsevol incendi.</FirePreparation.helpText>
   
   <!-- EN: Forbid and allow -->
   <Forbidding.label>Prohibeix i permet</Forbidding.label>
   <!-- EN: Colonists will not interact with items marked FORBIDDEN.\n\nForbidden items have a small red X attached. Select a forbidden item and use the controls at the bottom to ALLOW it. -->
-  <Forbidding.helpText>Els colons no interactuaran amb els objectes marcats com a PROHIBIT.\n\nEls objectes prohibits porten una petita X vermella. Seleccioneu un objecte prohibit i feu servir els controls de sota per treure la prohibició.</Forbidding.helpText>
+  <Forbidding.helpText>Els colons no interactuaran amb els objectes que no estiguin marcats com a «Permesos».\n\nEls objectes no permesos estan marcats amb una creu petita vermella. Seleccioneu un objecte no permès i feu servir els controls de sota per a treure’n la prohibició.</Forbidding.helpText>
   
   <!-- EN: Forbidding doors -->
-  <ForbiddingDoors.label>Portes prohibides</ForbiddingDoors.label>
+  <ForbiddingDoors.label>Portes no permeses</ForbiddingDoors.label>
   <!-- EN: You can FORBID doors so colonists and tame animals won't go through them.\n\nNote that this isn't a door lock. Doors are always locked, so enemies can't pass freely. Forbidding just directs your colonists not to use the door. Colonists who are going crazy might use the door anyway. -->
-  <ForbiddingDoors.helpText>Podeu prohibir les portes de manera que els colons i els animals domesticats no les faran servir.\n\nNo és un pany. Les portes sempre estan tancades amb pany per que els enemics no puguin passar. Prohibir-les només indica als colons que no les poden fer servir. Els colons que estiguin emprenyats poden fer-les servir igualment.</ForbiddingDoors.helpText>
+  <ForbiddingDoors.helpText>Podeu evitar que es facin servir algunes portes de manera que els colons i els animals domesticats no les travessaran. No és que es tanquin en clau, sinó que els colons i els animals no les faran servir. Sota certes condicions, com ara col·lapses mentals, no faran cas si alguna porta està marcada com a «no permesa».\n\nEls enemics, en canvi, es trobaran totes les portes tancades amb clau i no podran obrir-les.</ForbiddingDoors.helpText>
   
   <!-- EN: Forming caravans -->
   <FormCaravan.label>Formar caravanes</FormCaravan.label>
   <!-- EN: You can form a caravan to send groups of people traveling across the planet!\n\nIn the WORLD tab, select your home base and click the "form caravan" button. -->
-  <FormCaravan.helpText>Podeu formar una caravana per enviar gent a viatjar pel planeta!\n\nA la pestanya PLANETA, seleccioneu la vostra base i feu clic al botó «Formar caravana».</FormCaravan.helpText>
+  <FormCaravan.helpText>Podeu formar una caravana per a enviar gent a viatjar pel planeta!\n\nA la pestanya «Món», seleccioneu la vostra base i feu clic al botó «Forma caravana».</FormCaravan.helpText>
   
   <!-- EN: Friendly fire safety -->
   <FriendlyFireSafety.label>Protegir-se del foc aliat</FriendlyFireSafety.label>
   <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over his friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
-  <FriendlyFireSafety.helpText>El foc aliat no ocorrerà mai si el tirador està prop de l’aliat..\n\nPer exemple, podeu posar sense problemes un colon amb una espasa davant d’un altre amb una arma de foc. El tirador dispararà per sobre de l’espatlla del seu amic.\n\nÉs una bona manera de combinar els lluitadors cos a cos i a distància.</FriendlyFireSafety.helpText>
+  <FriendlyFireSafety.helpText>El foc aliat no ocorrerà mai si el tirador està a prop de l’aliat.\n\nPer exemple, podeu posar sense problemes un colon amb una espasa davant d’un altre amb una arma de foc. El tirador dispararà per sobre de l’espatlla del seu amic.\n\nÉs una bona manera de combinar els lluitadors cos a cos i a distància.</FriendlyFireSafety.helpText>
   
   <!-- EN: Getting more traders -->
   <GettingMoreTraders.label>Tenir més comerciants</GettingMoreTraders.label>
   <!-- EN: More trader caravans will come to visit you if you're allied with more factions.\n\nIf you have no allies, no caravans will ever visit!\n\nYou can also pay allies to send trade caravans by calling them on the comms console. -->
-  <GettingMoreTraders.helpText>Us visitaran més caravanes de comerciants com més faccions tingueu aliades.\n\nSi no teniu aliats, no us visitarà cap caravana!\n\nTambé podeu pagar als aliats perquè us enviïn caravanes trucant-los des de la consola de comunicacions.</GettingMoreTraders.helpText>
+  <GettingMoreTraders.helpText>Com més faccions aliades tingueu, més caravanes de comerciants us visitaran.\n\nSi no teniu aliats, no us visitarà cap caravana!\n\nTambé podeu trucar als aliats des de la consola de comunicacions i pagar-los-hi perquè us enviïn caravanes.</GettingMoreTraders.helpText>
   
   <!-- EN: Growing zones -->
   <GrowingFood.label>Zones de conreu</GrowingFood.label>
   <!-- EN: To grow food, place GROWING ZONES using the Architect menu.\n\nThey can only be placed on fertile ground. -->
-  <GrowingFood.helpText>Per fer créixer aliments, poseu ZONES DE CONREU emprant el menú Arquitectura.\n\nNomés es poden posar sobre terreny fèrtil.</GrowingFood.helpText>
+  <GrowingFood.helpText>Per a cultivar aliments, designeu zones de conreu des de la pestanya «Arquitectura» i categoria «Zones».\n\nNomés es poden posar sobre terreny fèrtil.</GrowingFood.helpText>
   
   <!-- EN: History tab -->
-  <HistoryTab.label>Pestanya història</HistoryTab.label>
+  <HistoryTab.label>Pestanya d’història</HistoryTab.label>
   <!-- EN: You can see a record of your colony's fortunes over time in the HISTORY tab at the bottom of the screen. -->
-  <HistoryTab.helpText>Podeu veure un registre del funcionament de la vostra colònia al llarg del temps a la pestanya HISTÒRIA a la part de baix de la pantalla.</HistoryTab.helpText>
+  <HistoryTab.helpText>Podeu veure un registre del funcionament de la vostra colònia al llarg del temps a la pestanya «Història» a la part de baix de la pantalla.</HistoryTab.helpText>
   
   <!-- EN: Home area -->
-  <HomeArea.label>Zona llar</HomeArea.label>
+  <HomeArea.label>Zona de llar</HomeArea.label>
   <!-- EN: The HOME AREA tells your colonists which area to clean and where to extinguish fires.\n\nDefine the HOME AREA with the Zones category under the Architect menu. -->
-  <HomeArea.helpText>La ZONA LLAR indica a quina zona netejaran i n’extingiran els incendis.\n\nDefiniu la ZONA LLAR amb la categoria «Zones» de la pestanya «Arquitectura».</HomeArea.helpText>
+  <HomeArea.helpText>La zona de llar indica en quina zona els colons netejaran i apagaran incendis.\n\nDefiniu la zona de llar des de la categoria «Zones» de la pestanya «Arquitectura».</HomeArea.helpText>
   
   <!-- EN: Hostility response modes -->
   <HostilityResponse.label>Modes de resposta a les hostilitats</HostilityResponse.label>
   <!-- EN: You can configure how colonists should automatically respond to threats like predatory animals.\n\nChoose from FLEE, ATTACK, and IGNORE modes in the ASSIGN menu. -->
-  <HostilityResponse.helpText>Podeu configurar com els colons han de respondre de manera automàtica a les amenaces com ara els animals depredadors.\n\nTrieu al menú entre els modes FUIG, ATACA i IGNORA.</HostilityResponse.helpText>
+  <HostilityResponse.helpText>Podeu configurar com responen els colons de manera automàtica a les amenaces com ara animals depredadors.\n\nTrieu al menú entre els modes «Fuig», «Ataca» i «Ignora».</HostilityResponse.helpText>
   
   <!-- EN: Info card -->
   <InfoCard.label>Pantalla d’informació</InfoCard.label>
   <!-- EN: The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane. -->
-  <InfoCard.helpText>La pantalla d’informació mostra estadístiques detallades d’un objecte, persona o construcció.\n\nSeleccioneu una persona o un objecte i obriu-ne la pantalla d’informació prement sobre el botó «i» al full d’inspecció.</InfoCard.helpText>
+  <InfoCard.helpText>La pantalla d’informació mostra estadístiques detallades d’un objecte, persona o construcció.\n\nSeleccioneu una persona o un objecte i obriu-ne la pantalla d’informació amb el botó «i» al full d’inspecció.</InfoCard.helpText>
   
   <!-- EN: Room stats inspector -->
   <InspectRoomStats.label>Visor d’entorn</InspectRoomStats.label>
   <!-- EN: You can inspect the impressiveness, wealth, and beauty of individual rooms using the ROOM STATS INSPECT toggle in the bottom right. -->
-  <InspectRoomStats.helpText>Podeu inspeccionar com d’impressionant, rica i bonica és una cambra individual fent servir el commutador del VISOR D’ENTORN, a baix a la dreta.</InspectRoomStats.helpText>
+  <InspectRoomStats.helpText>Podeu inspeccionar com d’impressionant, rica i bonica és una cambra individual amb el commutador de les estadístiques de les cambres, a baix a la dreta.</InspectRoomStats.helpText>
   
   <!-- EN: Manual work priorities -->
-  <ManualWorkPriorities.label>Prioritats de treball manuals</ManualWorkPriorities.label>
+  <ManualWorkPriorities.label>Prioritats manuals de treball</ManualWorkPriorities.label>
   <!-- EN: One of the most important parts of RimWorld is choosing good work settings for your colonists.\n\nPoor work settings can leave essential work unfinished for a long time while colonists waste time on unimportant tasks.\n\nTo give more control over what work colonists do, you can use the Manual Priorities mode in the WORK tab.\n\nIn this mode, each colonist has a priority number for each work type. Colonists will do priority 1 work from left to right, then priority 2 work from left to right, and so on.\n\nIntelligent use of these setting is essential for a large, well-automated colony. -->
-  <ManualWorkPriorities.helpText>Una de les coses més importants al RimWolrd és configurar bé a què dediquen el temps els colons.\n\nUna mala configuració pot deixar inacabades feines essencials durant molt temps mentre els colons perden el temps fent feines menys importants.\n\nPer donar-vos més control sobre quina feina fan els colons, podeu fer servir el mode Prioritats Manuals a la pestanya TREBALL.\n\nEn aquest mode, cada colon té un número de prioritat per cada tipus de feina. Els colons faran les feines de prioritat 1, d’esquerra a dreta, després les de prioritat 2 i així consecutivament.\n\nUn ús intel·ligent d’aquesta configuració és essencial per una colònia gran i ben automatitzada.</ManualWorkPriorities.helpText>
+  <ManualWorkPriorities.helpText>Una de les coses més importants al RimWolrd és configurar bé a què dediquen el temps els colons.\n\nUna mala configuració pot deixar inacabades feines essencials durant molt de temps mentre els colons perden el temps amb feines menys importants.\n\nPer a donar-vos més control sobre quina feina fan els colons, podeu fer servir el mode «Prioritats manuals» a la pestanya «Tasques».\n\nEn aquest mode, cada colon té un número de prioritat per a cada tipus de feina. Els colons faran les feines de prioritat 1, d’esquerra a dreta, després les de prioritat 2 i així consecutivament.\n\nUn ús intel·ligent d’aquesta configuració és essencial per a aconseguir una colònia gran i ben automatitzada.</ManualWorkPriorities.helpText>
   
   <!-- EN: Medical operations -->
   <MedicalOperations.label>Operacions mèdiques</MedicalOperations.label>
   <!-- EN: To assign a medical operation, like organ harvesting or prosthetics installation, open a colonist's HEALTH tab, then switch to the OPERATIONS sub-tab. -->
-  <MedicalOperations.helpText>Per assignar operacions mèdiques, com l’extracció d’òrgans o la instal·lació de pròtesis, obriu la pestanya SALUT d’un colon, llavors canvieu a la pestanya OPERACIONS.</MedicalOperations.helpText>
+  <MedicalOperations.helpText>Per a assignar operacions mèdiques, com ara l’extracció d’òrgans o la instal·lació de pròtesis, obriu la pestanya «Salut» d’un colon; llavors, aneu a la pestanya «Operacions».</MedicalOperations.helpText>
   
   <!-- EN: Mining -->
   <Mining.label>Mineria</Mining.label>
   <!-- EN: You can designate where to mine by opening the ARCHITECT menu and selecting the ORDERS tab.\n\nSome mineable blocks yield STEEL, GOLD, PLASTEEL, and other useful materials. -->
-  <Mining.helpText>Podeu designar on excavar i extreure’n recursos obrint el menú Arquitectura i triant la pestanya ORDRES.\n\nAlguns blocs donen ACER, OR, PLASTACER i altres materials útils.</Mining.helpText>
+  <Mining.helpText>Podeu designar on excavar i extreure’n recursos des del menú «Arquitectura» i la categoria «Ordres».\n\nAlguns blocs donen acer, or, plastacer i altres materials útils.</Mining.helpText>
   
   <!-- EN: Outfits -->
   <Outfits.label>Indumentària</Outfits.label>
   <!-- EN: Colonists will automatically try to wear the newest, highest-quality apparel they can.\n\nYou don't need to manually assign each piece of apparel to colonists (though you can, if you wish).\n\nTo assign colonists restrictions on how to dress, open the ASSIGN tab, use the "Manage outfits" dialog box to design a new outfit, and then assign the outfit to colonists. -->
-  <Outfits.helpText>Els colons provaran automàticament de portar la roba més nova i de més qualitat que puguin.\n\nNo cal que assigneu manualment cada peça d’indumentària als colons, tot i que si voleu ho podeu fer.\n\nPer assignar restriccions al vestuari, obriu la pestanya ASSIGNACIONS i feu servir l’opció «Gestiona la indumentària» per dissenyar nous uniformes i assignar-los als colons.</Outfits.helpText>
+  <Outfits.helpText>Els colons provaran de fer servir la roba més nova i de més qualitat que puguin de manera automàtica.\n\nNo cal que assigneu manualment cada peça d’indumentària als colons, tot i que si voleu, ho podeu fer.\n\nPer a assignar restriccions al vestuari, obriu la pestanya «Assignacions» i feu servir l’opció «Gestiona la indumentària» per a dissenyar uniformes nous i assignar-los als colons.</Outfits.helpText>
   
   <!-- EN: Pausing -->
   <Pause.label>Posar en pausa i reprendre</Pause.label>
   <!-- EN: Hit {Key:TogglePause} to pause or unpause the game.\n\nYou can give orders while paused.\n\nRemember this - if things get hectic, just hit {Key:TogglePause}! -->
-  <Pause.helpText>Premeu la tecla {Key:TogglePause} per posar en pausa i reprendre la partida.\n\nPodeu seguir donant ordres amb la pausa ficada.\n\nRecordeu-ho: si la cosa s’esvera, només cal prémer {Key:TogglePause}!</Pause.helpText>
+  <Pause.helpText>Premeu la tecla «{Key:TogglePause}» per a posar la partida en pausa i per a reprendre-la.\n\nPodeu seguir donant ordres amb la partida en pausa.\n\nRecordeu que si la cosa s’esvera, només cal prémer «{Key:TogglePause}»!</Pause.helpText>
   
   <!-- EN: Shot accuracy tooltip -->
   <ShotAccuracyTooltip.label>indicador de precisió del tret</ShotAccuracyTooltip.label>
   <!-- EN: You can see the exact calculations behind the accuracy of any shot.\n\nTo do so, select the shooter, then rest the mouse over the target. The tooltip will show the chance to hit, and a breakdown of the contribution of various to-hit chance multipliers. -->
-  <ShotAccuracyTooltip.helpText>Podeu veure el càlcul de la precisió d’un tret.\n\nSeleccioneu el tirador, llavors deixeu el punter del ratolí sobre l’objectiu. L’indicador mostrarà la probabilitat de tocar l’objectiu i una anàlisi de diversos factors que afecten la probabilitat d’encertar.</ShotAccuracyTooltip.helpText>
+  <ShotAccuracyTooltip.helpText>Podeu veure el càlcul de la precisió d’un tret.\n\Trieu el tirador i deixeu el punter del ratolí sobre l’objectiu. L’indicador mostrarà la probabilitat de tocar l’objectiu i una anàlisi de diversos factors que afecten a la probabilitat d’encertar.</ShotAccuracyTooltip.helpText>
   
   <!-- EN: Spoilage and freezers -->
   <SpoilageAndFreezers.label>Malbaratament i neveres</SpoilageAndFreezers.label>
   <!-- EN: Most foodstuffs will spoil after a relatively short time.\n\nTo prevent this, you can build a walk-in freezer.\n\nTo build a freezer, construct a closed room, and put one or two coolers into the wall. Set the coolers to a negative target temperature.\n\nFrozen foods won't ever spoil. -->
-  <SpoilageAndFreezers.helpText>Molts aliments es faran malbé en poc temps.\n\nPer evitar-ho, podeu construir cambres frigorífiques.\n\nConstruïu una habitació tancada i poes u o dos refrigeradors a la paret. Poseu els refrigeradors a una temperatura de consigna negativa.\n\nEls aliments congelats no es fan malbé mai.</SpoilageAndFreezers.helpText>
+  <SpoilageAndFreezers.helpText>Molts aliments es faran malbé en poc temps.\n\nPer a evitar-ho, podeu construir cambres frigorífiques.\n\nConstruïu una habitació tancada i poseu un o dos refrigeradors a la paret. Poseu els refrigeradors a una temperatura objectiu negativa.\n\nEls aliments congelats no es fan malbé mai.</SpoilageAndFreezers.helpText>
   
   <!-- EN: Stockpiles -->
   <Stockpiles.label>Magatzems</Stockpiles.label>
   <!-- EN: Your colonists need somewhere to store items. Designate a STOCKPILE for them to store things.\n\nFind the stockpile in the ZONES section of the ARCHITECT menu in the lower-left. -->
-  <Stockpiles.helpText>Els colons han de desar les coses a algun lloc. Designeu un MAGATZEM per desar-les.\n\nTrobareu el magatzem a la secció ZONES del menú ARQUITECTURA, a baix a l’esquerra.</Stockpiles.helpText>
+  <Stockpiles.helpText>Els colons han de desar les coses a algun lloc. Designeu un magatzem per a desar-les.\n\nTrobareu el magatzem a la secció «Zones» de la pestanya «Arquitectura», a baix a l’esquerra.</Stockpiles.helpText>
   
   <!-- EN: Storage tab -->
-  <StorageTab.label>Pestanya magatzem</StorageTab.label>
+  <StorageTab.label>Pestanya de magatzem</StorageTab.label>
   <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
-  <StorageTab.helpText>Podeu configurar els magatzems i construccions d’emmagatzematge seleccionant-los i obrint la pestanya MAGATZEM situada a la part de dalt del panell d’inspecció, que surt a baix a l’esquerra.\n\nEn aquesta pestanya podeu obrir les categories per triar quins objectes es desaran al magatzem i quins no. Feu clic als triangles que hi ha a l’esquerra de les categories.\n\nPodeu canviar la prioritat del magatzem. Els colons ompliran primer els magatzems amb més prioritat i hi mouran objectes des dels magatzems de menys prioritat.</StorageTab.helpText>
+  <StorageTab.helpText>Podeu configurar els magatzems i construccions d’emmagatzematge seleccionant-los i obrint la pestanya «Magatzem» situada a la part de dalt del panell d’inspecció que surt a sota a l’esquerra.\n\nDes d’aquesta pestanya podeu obrir les categories per a triar quins objectes es desaran al magatzem i quins no. Feu clic als triangles que hi ha a l’esquerra de les categories.\n\nPodeu canviar la prioritat del magatzem. Els colons ompliran primer els magatzems amb més prioritat i hi mouran objectes des dels magatzems de menys prioritat.</StorageTab.helpText>
   
   <!-- EN: Time assignments -->
   <TimeAssignments.label>Assignacions horàries</TimeAssignments.label>
   <!-- EN: You can modify what time of day colonists should do different activities using the RESTRICT tab. -->
-  <TimeAssignments.helpText>Podeu modificar a quin moment del dia els colons fan les diferents activitats a la pestanya la pestanya «Horari».</TimeAssignments.helpText>
+  <TimeAssignments.helpText>Podeu modificar en quin moment del dia els colons fan les diferents activitats a la pestanya «Horari».</TimeAssignments.helpText>
   
   <!-- EN: Time controls -->
   <TimeControls.label>Control del temps</TimeControls.label>
   <!-- EN: You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
-  <TimeControls.helpText>Podeu accelerar el temps.\n\nProveu de controlar-lo amb les tecles {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast} i {Key:TimeSpeed_Superfast} o amb els botons de la part de baix a la dreta.</TimeControls.helpText>
+  <TimeControls.helpText>Podeu accelerar el temps.\n\nProveu de controlar-lo amb les tecles «{Key:TimeSpeed_Normal}», «{Key:TimeSpeed_Fast}» i «{Key:TimeSpeed_Superfast}» o amb els botons de la part de baix a la dreta.</TimeControls.helpText>
   <!-- EN: You can speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
-  <TimeControls.helpTextController>Podeu accelerar el temps.\n\nProveu de controlar-lo amb {Key:TimeSpeed_Faster} i {Key:TimeSpeed_Slower} o amb els controls del temps de la part de baix a la dreta.</TimeControls.helpTextController>
+  <TimeControls.helpTextController>Podeu accelerar el temps.\n\nProveu de controlar-lo amb «{Key:TimeSpeed_Faster}» i «{Key:TimeSpeed_Slower}» o amb els controls del temps de la part de baix a la dreta.</TimeControls.helpTextController>
   
   <!-- EN: Work settings -->
   <WorkTab.label>Configurar les feines</WorkTab.label>
   <!-- EN: You can set each colonist's work settings in the WORK tab at the bottom left of the screen.\n\nThey will always do the highest priority work that they can find.\n\nIf nobody has a certain work type assigned, or if they are busy with higher-priority tasks, it will never get done. -->
-  <WorkTab.helpText>Podeu indicar la feina que ha de fer cada colon a la pestanya TREBALL a l’esquerra de la part de sota de la pantalla.\n\nFaran sempre la feina amb més prioritat que trobin.\n\nSi ningú pot fer un determinat tipus de feines o tenen altres prioritats més altes, es quedarà per fer.</WorkTab.helpText>
+  <WorkTab.helpText>Podeu indicar la feina que ha de fer cada colon a la pestanya «Tasques» que hi ha a la part inferior esquerra de la pantalla.\n\nFaran sempre la feina amb més prioritat que trobin.\n\nSi ningú pot fer un determinat tipus de feina o si els colons estan fent feines amb prioritats més altes, la tasca no es farà.</WorkTab.helpText>
   
 </LanguageData>
