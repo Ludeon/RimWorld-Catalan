@@ -19,16 +19,16 @@
 
   <!-- EN: {0} opportunity -->
   <RitualOpportunity>Oportunitat de {0}</RitualOpportunity>
-  <!-- EN: {0} opportunity for -->
+  <!-- EN: {0} opportunity for {1} -->
   <RitualOpportunityFor>Oportunitat de {0} per a</RitualOpportunityFor>
-  <!-- EN: Expires in -->
+  <!-- EN: Expires in {0}, on {1}. -->
   <RitualExpiresIn>Finalitza d’aquí</RitualExpiresIn>
-  <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
-  <RitualCompletionEffects>Els efectes de completar {RITUAL_labelDef} són</RitualCompletionEffects>
+  <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
+  <RitualSingleTargetDesc>TODO</RitualSingleTargetDesc>
+  <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
+  <RitualMultiTargetDesc>TODO</RitualMultiTargetDesc>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
   <RitualTargetsExplanation>Per començar el ritual, trieu un objecte motivador i feu clic a l’ordre «Inicia {RITUAL_label}». Els objectes vàlids són:\n{1}</RitualTargetsExplanation>
-  <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
-  <RitualRolesExplanation>Els rols següents participen en {RITUAL_label}:\n{1}</RitualRolesExplanation>
   <!-- EN: Click to jump to targets -->
   <RitualJumpToTargets>Feu-hi clic per anar als objectius</RitualJumpToTargets>
   <!-- EN: In order to perform {0} you need to fill these roles -->
@@ -75,7 +75,7 @@
   <AlertRitualComingDesc>Aviat disposareu d’una oportunitat per celebrar els rituals següents</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
   <AlertRitualComingExtra>Les oportunitats expiren després de {0} dies i tornen a aparèixer al mateix dia de cada any.</AlertRitualComingExtra>
-  <!-- EN: {0} on {1}, {2} left -->
+  <!-- EN: {0} on {1}, {2} before opportunity arises -->
   <AlertRitualComingEntry>{0} en el {1}; en queden {2}</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
@@ -130,4 +130,8 @@
   <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
   <AlertSlaveRebellionLikelyMostRebellious>S’espera que es produeixi una rebel·lió d’esclaus aproximadament cada {COMBINEDTIME}. Tingueu en compte que la probabilitat de rebel·lió de cada esclau és independent de la dels altres esclaus. Així que si es rebel·la un esclau, pot arrossegar altres esclaus amb ell.\n\n{REBEL_gender ? L’esclau : L’esclava} més rebel és {REBEL_labelShort} i es preveu que inici una rebel·lió aproximadament cada {INDIVIDUALTIME}. Els factors següents afecten la freqüència de rebel·lió:</AlertSlaveRebellionLikelyMostRebellious>
   
+  <!-- UNUSED -->
+  <RitualCompletionEffects>Els efectes de completar {RITUAL_labelDef} són</RitualCompletionEffects>
+  <RitualRolesExplanation>Els rols següents participen en {RITUAL_label}:\n{1}</RitualRolesExplanation>
+
 </LanguageData>

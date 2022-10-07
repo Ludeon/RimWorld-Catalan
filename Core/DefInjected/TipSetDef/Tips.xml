@@ -19,6 +19,8 @@
   <GameplayTips.WorkTabChangeAllColonists>Si feu Maj+clic al botó d’un tipus de tasca a la pestanya de tasques, es canviarà el valor a tots els colons a la vegada.</GameplayTips.WorkTabChangeAllColonists>
   <!-- EN: Right-clicking a number in the Work tab using manual priorities will reduce the priority instead of increasing it. -->
   <GameplayTips.WorkTabDecreasePriority>Feu clic amb el botó dret a la prioritat d’una tasca per a reduir-la en lloc d’augmentar-la.</GameplayTips.WorkTabDecreasePriority>
+  <!-- EN: You can hold the alt key to show detailed information about a specific tile. -->
+  <GameplayTips.CellInspector>TODO</GameplayTips.CellInspector>
   <!-- EN: In a gunfight, always be behind cover! Right-click and drag to have your drafted fighters form a line. -->
   <GameplayTips.GunfightCover>Poseu-vos a cobert durant els tirotejos! Feu clic amb el botó dret i arrossegueu perquè els lluitadors que tingueu reclutats formin una línia i es dispersin.</GameplayTips.GunfightCover>
   <!-- EN: Right-click and drag to have your drafted fighters form a line. Bunched-up targets are easy to hit! -->
@@ -57,13 +59,11 @@
   <GameplayTips.CaravanHitchingSpot>Situeu bé el lloc on voleu formar una caravana. Normalment és convenient posar-les a prop dels magatzems.</GameplayTips.CaravanHitchingSpot>
   <!-- EN: During encounters away from home, you can place a caravan hitching spot to keep your animals from wandering. -->
   <GameplayTips.CaravanHitchingSpotRoamers>Durant els encontres lluny de casa, marqueu el lloc de reunió la caravana perquè els animals no s’hi allunyin molt.</GameplayTips.CaravanHitchingSpotRoamers>
-  <!-- EN: Single-person caravans can be very useful in certain situations. -->
-  <GameplayTips.CaravanSinglePerson>Les caravanes d’una sola persona són útils en alguns casos.</GameplayTips.CaravanSinglePerson>
   <!-- EN: Caravans move faster if they include rideable animals like horses, donkeys and dromedaries. -->
   <GameplayTips.CaravanRideableAnimals>Les caravanes es mouen més ràpid si inclouen animals que es puguin cavalcar com ara cavalls, ases i dromedaris.</GameplayTips.CaravanRideableAnimals>
   <!-- EN: Smaller caravans get attacked less often because they're less visible. -->
   <GameplayTips.CaravanSmallerLessVisible>Les caravanes més petites reben menys atacs ja que són menys visibles.</GameplayTips.CaravanSmallerLessVisible>
-  <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan packing post. This will make packing much faster. -->
+  <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan hitching spot. This will make packing much faster. -->
   <GameplayTips.CaravanStockpileNearPackingSpot>Abans de formar una caravana, recolliu els elements que voleu carregar-hi i emmagatzemeu-los a tocar de la caravana. Així, s’empaquetarà la càrrega més de pressa.</GameplayTips.CaravanStockpileNearPackingSpot>
   <!-- EN: If you have untrained animals in your caravan, you can split them into a separate caravan before attacking an enemy, to keep them out of the fight. -->
   <GameplayTips.CaravanUntrainedAnimals>Si teniu animals sense entrenar a la caravana, els podeu posar en una caravana a banda abans d’enfrontar-vos als enemics i així els mantindreu lluny de la batalla.</GameplayTips.CaravanUntrainedAnimals>
@@ -93,7 +93,9 @@
   <GameplayTips.TerrainMovementSpeed>El terreny afecta a la velocitat de moviment. Escolliu el terra per a facilitar que els colons puguin moure’s més de pressa.</GameplayTips.TerrainMovementSpeed>
   <!-- EN: Different terrain has different inherent cleanliness levels. Tiles are inherently clean; dirt is inherently dirty. -->
   <GameplayTips.TerrainCleanliness>Els diferents terrenys tenen diferents nivells d’higiene. Les rajoles són bastant netes i la terra és bruta per naturalesa.</GameplayTips.TerrainCleanliness>
-  <!-- EN: You can give prisoners as gifts. Giving a prisoner back to his own faction will be highly appreciated. -->
+  <!-- EN: Some floor types are faster to clean than others. It takes much longer to clean carpet compared to metal tile. -->
+  <GameplayTips.TerrainCleanSpeed>TODO</GameplayTips.TerrainCleanSpeed>
+  <!-- EN: You can give prisoners as gifts. Giving a prisoner back to their own faction will be highly appreciated. -->
   <GameplayTips.PrisonersAsGifts>Podeu donar els presoners com a regals. Si teniu un presoner d’una facció, s’alegrarà i apreciarà que li retorneu com a regal.</GameplayTips.PrisonersAsGifts>
   <!-- EN: You can request specific types of trade caravans using the comms console. -->
   <GameplayTips.RequestTradeCaravans>Podeu sol·licitar tipus específics de caravanes comercials amb la consola de comunicacions.</GameplayTips.RequestTradeCaravans>
@@ -151,5 +153,8 @@
   <GameplayTips.AnimalFilth>Alguns animals produeixen molta porqueria. Mantingueu els elefants i el bestiar a fora.</GameplayTips.AnimalFilth>
   <!-- EN: Predators won't hunt animals which are on the other side of fences or barricades. -->
   <GameplayTips.PredatorsAndFences>Els depredadors no cacen animals que estan a l’altra banda de tanques i barricades.</GameplayTips.PredatorsAndFences>
+  
+  <!-- UNUSED -->
+  <GameplayTips.CaravanSinglePerson>Les caravanes d’una sola persona són útils en alguns casos.</GameplayTips.CaravanSinglePerson>
   
 </LanguageData>

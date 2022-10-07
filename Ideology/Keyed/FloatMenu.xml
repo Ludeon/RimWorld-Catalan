@@ -7,6 +7,8 @@
   <OnlyMembersCanBuild>Només els {0}s poden construir</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>{0} ja està en curs.</CantStartRitualAlreadyInProgress>
+  <!-- EN: One or more participants can't join due to extreme temperature. -->
+  <CantJoinRitualInExtremeWeather>TODO</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
   <CantStartRitualTargetIsAlreadyInRitual>{0} ja participa al ritual.</CantStartRitualTargetIsAlreadyInRitual>
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
@@ -19,8 +21,12 @@
   <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} hauria de ser {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
   <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} és {PAWN_gender ? sord psíquic : sorda psíquica}.</CantStartRitualSelectedPawnPsychicallyDeaf>
-  <!-- EN: Not enough space. There must be a clear circle of radius {MINRADIUS}. -->
-  <CantStartNotEnoughSpaceDuel>No hi ha prou espai. Hi ha d’haver un cercle de radi {MINRADIUS} lliure.</CantStartNotEnoughSpaceDuel>
+  <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelSpectators>TODO</CantStartNotEnoughSpaceDuelSpectators>
+  <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+  <CantStartNotEnoughSpaceDuelDuelists>TODO</CantStartNotEnoughSpaceDuelDuelists>
+  <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
+  <CantStartNotEnoughSpaceDuelSpeaker>TODO</CantStartNotEnoughSpaceDuelSpeaker>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
   <CantStartFuneralForSlave>{0_labelShort} és {0_gender ? un esclau : una esclava}. Pels esclaus no es fan funerals.</CantStartFuneralForSlave>
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
@@ -68,8 +74,6 @@
   <RoleApparelRequirementIncompatibleAnyMemeRequired>requereix un mem qualsevol dels següents</RoleApparelRequirementIncompatibleAnyMemeRequired>
   <!-- EN: cannot be worn with assigned apparel -->
   <BodyPartAlreadyCovered>no es pot portar amb la indumentària assignada</BodyPartAlreadyCovered>
-  <!-- EN: already assigned -->
-  <AlreadyAssigned>ja s’ha assignat</AlreadyAssigned>
   <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
   <NoteRoleApparelRequirementEffects>Les persones estan a gust si es satisfan els requisits de la indumentària i són infeliços mentre no es compleixen.</NoteRoleApparelRequirementEffects>
   <!-- EN: supercharge not ready -->
@@ -168,4 +172,7 @@
   <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} vol el seu proper tractament i en començarà un si està activat.</BiosculpterAutoAgeReversalDescriptionNow>
   <!-- EN: Collecting ingredients for biosculpter cycle -->
   <BiosculpterJobReportCollectIngredients>Es recullen els ingredients per al cicle de bioescultura</BiosculpterJobReportCollectIngredients>
+  <!-- UNUSED -->
+  <CantStartNotEnoughSpaceDuel>No hi ha prou espai. Hi ha d’haver un cercle de radi {MINRADIUS} lliure.</CantStartNotEnoughSpaceDuel>
+
 </LanguageData>

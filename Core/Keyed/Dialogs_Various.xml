@@ -13,6 +13,22 @@
   <Close>Tanca</Close>
   <!-- EN: Accept -->
   <Accept>Accepta</Accept>
+  <!-- EN: Cancel -->
+  <Cancel>Cancel·la</Cancel>
+  <!-- EN: Reset -->
+  <Reset>Restableix</Reset>
+  <!-- EN: Reset all -->
+  <ResetAll>TODO</ResetAll>
+  <!-- EN: Disable -->
+  <Disable>TODO</Disable>
+  <!-- EN: Modify -->
+  <Modify>TODO</Modify>
+  <!-- EN: Settle here anyways? -->
+  <ConfirmSettle>TODO</ConfirmSettle>
+  <!-- EN: add -->
+  <Add>Afegeix</Add>
+  <!-- EN: Cannot shoot -->
+  <CannotShoot>TODO</CannotShoot>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
@@ -38,17 +54,17 @@
   <!-- EN: Error while loading assets -->
   <ErrorWhileLoadingAssetsTitle>S’ha produït un error mentre es carregaven els recursos</ErrorWhileLoadingAssetsTitle>
   <!-- EN: An error occurred while loading game assets. See error log for more information. -->
-  <ErrorWhileLoadingAssets>S’ha produït un error mentre es carregaven els recursos del joc. Consulteu el registre d’errors per a obtenir més informació.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets>S’ha produït un error mentre es carregaven els recursos del joc. Consulteu el registre d’errors per obtenir més informació.</ErrorWhileLoadingAssets>
   <!-- EN: The game is currently running with custom mods - they may or may not cause these problems. -->
   <ErrorWhileLoadingAssets_ModsInfo>El joc s’està executant amb mods personalitzats, que potser estan causant aquests problemes.</ErrorWhileLoadingAssets_ModsInfo>
   <!-- EN: Error while generating a map -->
   <ErrorWhileGeneratingMapTitle>S’ha produït un error mentre es generava un mapa</ErrorWhileGeneratingMapTitle>
   <!-- EN: An error occurred while generating a new map. See error log for more information. -->
-  <ErrorWhileGeneratingMap>S’ha produït un error mentre es generava un mapa nou. Consulteu el registre d’errors per a obtenir més informació.</ErrorWhileGeneratingMap>
+  <ErrorWhileGeneratingMap>S’ha produït un error mentre es generava un mapa nou. Consulteu el registre d’errors per obtenir més informació.</ErrorWhileGeneratingMap>
   <!-- EN: Error while loading a map -->
   <ErrorWhileLoadingMapTitle>S’ha produït un error mentre es carregava un mapa</ErrorWhileLoadingMapTitle>
   <!-- EN: An error occurred while loading a map. See error log for more information. -->
-  <ErrorWhileLoadingMap>S’ha produït un error mentre es carregava un mapa. Consulteu el registre d’errors per a obtenir més informació.</ErrorWhileLoadingMap>
+  <ErrorWhileLoadingMap>S’ha produït un error mentre es carregava un mapa. Consulteu el registre d’errors per obtenir més informació.</ErrorWhileLoadingMap>
   
   <!-- Unloaded mod with an assembly -->
   <!-- EN: The mod list has changed. The game will now restart automatically. -->
@@ -116,7 +132,7 @@
   <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
   <SaveIsUnknownFormat>No es reconeix el format de la partida desada i el més probable és que no funcioni.</SaveIsUnknownFormat>
   <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
-  <ProblemSavingFile>S’ha produït un problema mentre es desava el fitxer {0}:\n\n{1}\n\nConsulteu el registre d’errors per a obtenir més informació.</ProblemSavingFile>
+  <ProblemSavingFile>S’ha produït un problema mentre es desava el fitxer {0}:\n\n{1}\n\nConsulteu el registre d’errors per obtenir més informació.</ProblemSavingFile>
   <!-- EN: Load anyway -->
   <LoadAnyway>Carrega-la igualment</LoadAnyway>
   <!-- EN: Load mod list from save -->
@@ -163,10 +179,30 @@
   <ZoneGainsName>La zona s’anomena {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
+  <!-- EN: Chosen name is invalid. -->
+  <NameInvalid>TODO</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
   <PawnGainsName>El sobrenom del colon ara és {0}. Li diran {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>Ara l’animal es diu {0}.</AnimalGainsName>
+  <!-- EN: rename person -->
+  <RenamePerson>TODO</RenamePerson>
+  <!-- EN: mother -->
+  <Mother>TODO</Mother>
+  <!-- EN: father -->
+  <Father>TODO</Father>
+  <!-- EN: unknown -->
+  <Unknown>TODO</Unknown>
+  <!-- EN: first name -->
+  <FirstName>TODO</FirstName>
+  <!-- EN: nickname -->
+  <NickName>TODO</NickName>
+  <!-- EN: last name -->
+  <LastName>TODO</LastName>
+  <!-- EN: title -->
+  <Title>Títol</Title>
+  <!-- EN: suggested -->
+  <Suggested>TODO</Suggested>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -179,8 +215,12 @@
   <FileIncompatibleWarning>Aquest fitxer es va desar amb la versió {0}.\nEsteu executant la versió {1}.\n\nSi carregueu aquest fitxer us podeu trobar amb errors o fins i tot tancar-se inesperadament.</FileIncompatibleWarning>
   <!-- EN: Mods mismatch -->
   <ModsMismatchWarningTitle>Incompatibilitat de mods</ModsMismatchWarningTitle>
-  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
+  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do. -->
   <ModsMismatchWarningText>Aquest fitxer es va desar amb un grup de mods diferent del que esteu fent servir. Això us pot donar problemes, segons quins siguin els mods.\n\nEl fitxer es va desar amb (en aquest ordre):\n\n{0}\n\nEsteu executant (en aquest ordre):\n\n{1}</ModsMismatchWarningText>
+  <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
+  <ModsMismatchOrderChanged>TODO</ModsMismatchOrderChanged>
+  <!-- EN: Are you sure you want to load the mod list from this save file? -->
+  <ConfirmLoadSaveList>TODO</ConfirmLoadSaveList>
 
   <!-- Resolution change dialog -->
   <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
@@ -192,8 +232,20 @@
 
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
-  <ConfirmPermanentlyDisableDevMode>Esteu segur que voleu desactivar el mode de desenvolupament de forma permanent en aquest ordinador?\n\nAquesta opció és per a la gent que vol jugar sense la temptació de fer servir les eines de desenvolupament per a obtenir avantatge.\n\nEl mode de desenvolupament es pot tornar a habilitar, però per fer-ho s’hauran d’editar manualment els fitxers de configuració. Haureu de navegar per internet i esbrinar com es fa.</ConfirmPermanentlyDisableDevMode>
-  
+  <ConfirmPermanentlyDisableDevMode>Esteu segur que voleu desactivar el mode de desenvolupament de forma permanent en aquest ordinador?\n\nAquesta opció és per a la gent que vol jugar sense la temptació de fer servir les eines de desenvolupament per obtenir avantatge.\n\nEl mode de desenvolupament es pot tornar a habilitar, però per fer-ho s’hauran d’editar manualment els fitxers de configuració. Haureu de navegar per internet i esbrinar com es fa.</ConfirmPermanentlyDisableDevMode>
+
+  <!-- Confirm reset learning helper -->
+  <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
+  <ConfirmResetLearningHelper>TODO</ConfirmResetLearningHelper>
+
+  <!-- Backstory translation restart dialog -->
+  <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
+  <RestartAfterImportingLegacyBackstoryTanslations>TODO</RestartAfterImportingLegacyBackstoryTanslations>
+
+  <!-- Game start -->
+  <!-- EN: Must include exactly {SUMMARY} -->
+  <SelectedCharactersMustInclude>TODO</SelectedCharactersMustInclude>
+
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
   <MapTemperatureDangerWarning>Avís: Aterrareu en un entorn glaçat. Serà dur o gairebé impossible sobreviure. Si no preteneu fer front a un repte extrem, trieu un lloc o estació de l’any diferents.</MapTemperatureDangerWarning>
@@ -254,10 +306,10 @@
   <WorkAmount>Quantitat de feina</WorkAmount>
   <!-- EN: Minimum skills: -->
   <MinimumSkills>Capacitat mínima:</MinimumSkills>
-  <!-- EN: Requires {0} {1} -->
+  <!-- EN: Requires -->
   <BillRequires>Necessita {0} {1}</BillRequires>
-  <!-- EN: Requires {0} nutrition -->
-  <BillRequiresNutrition>Necessita {0} nutrients</BillRequiresNutrition>
+  <!-- EN: nutrition -->
+  <BillNutrition>TODO</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
   <BillRequiresMayVary>Nota: Els ingredients amb poc volum com l’or en requerixen {0} vegades més.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
@@ -314,7 +366,7 @@
   <WarmupTime>Temps entre trets</WarmupTime>
   <!-- EN: Melee warmup -->
   <MeleeWarmupTime>Temps entre cops</MeleeWarmupTime>
-  <!-- EN: Ranged warmup -->
+  <!-- EN: Aiming time -->
   <RangedWarmupTime>Temps entre atacs a distància</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>Refredament</CooldownTime>
@@ -434,8 +486,12 @@
   <ToleranceFallRate>Ritme de caiguda de la tolerància</ToleranceFallRate>
   <!-- EN: New addiction min tolerance -->
   <MinimumToleranceForAddiction>Tolerància mínima a noves addiccions</MinimumToleranceForAddiction>
-  <!-- EN: Safe dose interval -->
+  <!-- EN: Safe dose interval for adults -->
   <SafeDoseInterval>Interval segur entre dosis</SafeDoseInterval>
+  <!-- EN: age {0}-{1} -->
+  <AgeXToY>TODO</AgeXToY>
+  <!-- EN: age {0}+ -->
+  <AgePlus>TODO</AgePlus>
   <!-- EN: New addiction chance -->
   <Addictiveness>Possible addicció</Addictiveness>
   <!-- EN: Addiction initial severity -->
@@ -528,7 +584,7 @@
   <MeditationFocuses>Motius de meditació</MeditationFocuses>
   <!-- EN: Unlocks meditation focus types -->
   <MeditationFocusesUnlocked>Desbloca diferents temes de meditació</MeditationFocusesUnlocked>
-  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an object to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
   <MeditationFocusesPawnDesc>Els temes que pot fer servir aquesta persona per a meditar. Quan es medita, es pot concentrar en un objecte per a millorar la seva psicoconcentració, però només si l’objecte permet un motiu que li permeti concentrar-se. Els tipus de meditació de cada persona vénen determinats pel seu rerefons personal, trets i posició personal, entre d’altres.</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
   <MeditationFocusesDesc>Els motius de meditació que ofereix l’objecte. Una persona meditant pot concentrar-se en aquest objecte per a millorar la seva psicoconcentració, però només si és capaç d’utilitzar algun dels motius de l’objecte. Cada persona té diferents motius amb els quals es pot concentrar, determinats pel seu rerefons personal, trets i posició personal, entre d’altres.</MeditationFocusesDesc>
@@ -790,6 +846,8 @@
   <TotalBodySize>Mida total del cos</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
   <AutomaticallySelectTravelSupplies>Selecciona automàticament la càrrega del viatge</AutomaticallySelectTravelSupplies>
+  <!-- EN: This animal is sick. It is suffering from the following illnesses -->
+  <CaravanAnimalSick>TODO</CaravanAnimalSick>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -954,6 +1012,8 @@
   <NoFoodRestrictionSelected>No hi ha cap dieta.</NoFoodRestrictionSelected>
 
   <!-- Medical settings -->
+  <!-- EN: Default medicine settings -->
+  <DefaultMedicineSettings>TODO</DefaultMedicineSettings>
   <!-- EN: Defaults -->
   <MedGroupDefaults>Estableix</MedGroupDefaults>
   <!-- EN: Colonist -->
@@ -1002,7 +1062,7 @@
   <ConfirmSendNotCompletelyLoadedPods>El grup de càpsules encara no està carregat del tot. Falta {1_indefinite}. Voleu llençar-lo igualment?</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
-  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
+  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
   <ConfirmSettleNearFactionBase>Com que aquest lloc és a {0} caselles de la base d’una altra facció, pensaran que esteu ocupant les seves terres i les relacions amb la facció empitjoraran cada {1} dies.\n\nUs hi voleu establir igualment?</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
@@ -1020,6 +1080,8 @@
   <ConfirmCancelMonumentMarker>Esteu segur que voleu traure aquest marcador de monument?</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
+  <!-- EN: Cannot use {0} -->
+  <CannotUseAbility>TODO</CannotUseAbility>
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Cal línia de visió</AbilityRequiresLOS>
   <!-- EN: Neural heat gain -->
@@ -1034,15 +1096,17 @@
   <AbilityCastingTime>Temps de llançament</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>No hi ha línia de visió fins a l’objectiu.</AbilityCannotHitTarget>
+  <!-- EN: Target is out of range. -->
+  <AbilityOutOfRange>TODO</AbilityOutOfRange>
   <!-- EN: Can't reach the target. -->
   <AbilityCannotReachTarget>No es pot arribar a l’objectiu.</AbilityCannotReachTarget>
   <!-- EN: Not enough free space. -->
   <AbilityNotEnoughFreeSpace>No hi ha prou espai lliure.</AbilityNotEnoughFreeSpace>
-  <!-- EN: {0} must target an empty area. -->
+  <!-- EN: Must target an empty area. -->
   <AbilityOccupiedCells>{0} ha de triar una zona buida.</AbilityOccupiedCells>
-  <!-- EN: {0} must target a walkable area. -->
+  <!-- EN: Must target a walkable area. -->
   <AbilityUnwalkable>{0} ha de triar una zona transitable.</AbilityUnwalkable>
-  <!-- EN: {0} must target an unroofed area. -->
+  <!-- EN: Must target an unroofed area. -->
   <AbilityRoofed>{0} ha de triar una zona sense teulada.</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
   <AbilityCantApplyToMentallyBroken>{0_definite} té una crisi nerviosa.</AbilityCantApplyToMentallyBroken>
@@ -1062,6 +1126,10 @@
   <AbilityCantApplyOnAsexual>No es pot aplicar {0} perquè és asexual.</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_definite} no té un genere que atragui {0_definite}.</AbilityCantApplyWrongAttractionGender>
+  <!-- EN: {0_labelShort} is too young. -->
+  <AbilityCantApplyTooYoung>TODO</AbilityCantApplyTooYoung>
+  <!-- EN: Cannot target a baby. -->
+  <AbilityCantApplyOnBaby>TODO</AbilityCantApplyOnBaby>
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>Cost de la psicoconcentració per intensitat de la crisi nerviosa</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
@@ -1191,5 +1259,72 @@
   <RoomRequirementNoProductionFacilities>no s’hi permeten instal·lacions de treball</RoomRequirementNoProductionFacilities>
   <!-- EN: no altars allowed -->
   <RoomRequirementNoAltars>no s’hi permeten altars</RoomRequirementNoAltars>
+
+  <!-- EN: Lifestage max food factor -->
+  <LifeStageMaxFood>TODO</LifeStageMaxFood>
+
+  <!-- EN: Expand all -->
+  <ExpandAllCategories>Expandeix-ho tot</ExpandAllCategories>
+  <!-- EN: Collapse all -->
+  <CollapseAllCategories>Col·lapsa-ho tot</CollapseAllCategories>
+
+  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
+  <TooltipDyeExplanation>Els tints es poden aconseguir amb la planta tintorera o bé comprant-ne als comerciants.</TooltipDyeExplanation>
+
+  <!-- EN: Zoom range {0} -->
+  <ZoomRange>TODO</ZoomRange>
+
+  <!-- Color picker -->
+  <!-- EN: color temperature -->
+  <ColorTemperature>TODO</ColorTemperature>
+  <!-- EN: choose a color -->
+  <ChooseAColor>TODO</ChooseAColor>
+  <!-- EN: red -->
+  <Red>TODO</Red>
+  <!-- EN: green -->
+  <Green>TODO</Green>
+  <!-- EN: blue -->
+  <Blue>TODO</Blue>
+  <!-- EN: hue -->
+  <Hue>TODO</Hue>
+  <!-- EN: sat -->
+  <Saturation>TODO</Saturation>
+  <!-- EN: value -->
+  <Value>Valor</Value>
+  <!-- EN: darklight -->
+  <Darklight>TODO</Darklight>
+  <!-- EN: not darklight -->
+  <NotDarklight>TODO</NotDarklight>
+  <!-- EN: current color -->
+  <CurrentColor>TODO</CurrentColor>
+  <!-- EN: old color -->
+  <OldColor>TODO</OldColor>
+  <!-- EN: Copy color -->
+  <CommandCopyColorLabel>TODO</CommandCopyColorLabel>
+  <!-- EN: Copy the current color to the clipboard. -->
+  <CommandCopyColorDesc>TODO</CommandCopyColorDesc>
+  <!-- EN: Paste color -->
+  <CommandPasteColorLabel>TODO</CommandPasteColorLabel>
+  <!-- EN: Overwrite the color with the color in the clipboard. -->
+  <CommandPasteColorDesc>TODO</CommandPasteColorDesc>
+  <!-- EN: The clipboard does not contain a valid color. -->
+  <ClipboardInvalidColor>TODO</ClipboardInvalidColor>
+  <!-- EN: Color copied to clipboard. -->
+  <ColorCopiedSuccessfully>TODO</ColorCopiedSuccessfully>
+  <!-- EN: Updated color from the clipboard. -->
+  <ColorPastedSuccessfully>TODO</ColorPastedSuccessfully>
+  <!-- EN: Change to normal light -->
+  <ToggleDarklightOff>TODO</ToggleDarklightOff>
+  <!-- EN: Change the light color to its normal color. -->
+  <ToggleDarklightOffDesc>TODO</ToggleDarklightOffDesc>
+  <!-- EN: Change to darklight -->
+  <ToggleDarklightOn>TODO</ToggleDarklightOn>
+  <!-- EN: Change the light color to darklight. -->
+  <ToggleDarklightOnDesc>TODO</ToggleDarklightOnDesc>
+  <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
+  <ColorTemperatureTooltip>TODO</ColorTemperatureTooltip>
+
+  <!-- UNUSED -->
+  <BillRequiresNutrition>Necessita {0} nutrients</BillRequiresNutrition>
 
 </LanguageData>

@@ -50,6 +50,8 @@
   <TabTransporterContents>Contingut</TabTransporterContents>
   <!-- EN: Contents -->
   <TabCasketContents>Contingut</TabCasketContents>
+  <!-- EN: Auto-cut -->
+  <TabWindTurbineAutoCut>TODO</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -122,6 +124,23 @@
   <ConsideredGuilty>Considerat culpable (expira en {0})</ConsideredGuilty>
   <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>Considerat culpable</ConsideredGuiltyNoTimer>
+  <!-- EN: Last resistance reduction -->
+  <LastRecruitment>TODO</LastRecruitment>
+  <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
+  <LastRecruitmentDescription>TODO</LastRecruitmentDescription>
+  <!-- EN: Opinion of recruiter -->
+  <OpinionOfRecruiter>TODO</OpinionOfRecruiter>
+  <!-- EN: Recruiter negotiation ability -->
+  <RecruiterNegotiationAbility>TODO</RecruiterNegotiationAbility>
+  <!-- EN: Unwavering loyalty -->
+  <NonRecruitable>TODO</NonRecruitable>
+  <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
+  <NonRecruitableTip>TODO</NonRecruitableTip>
+  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
+  <NonRecruitableTipCannotConvert>TODO</NonRecruitableTipCannotConvert>
+
+
+
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
@@ -168,9 +187,9 @@
   <WontBleedOutSoon>no hi ha perill immediat</WontBleedOutSoon>
   <!-- EN: Overview -->
   <HealthOverview>Resum</HealthOverview>
-  <!-- EN: Operations ({0}) -->
+  <!-- EN: Operations -->
   <MedicalOperationsShort>Operacions ({0})</MedicalOperationsShort>
-  <!-- EN: Modifications ({0}) -->
+  <!-- EN: Modifications -->
   <MedicalOperationsMechanoidsShort>Modificacions ({0})</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>Operacions mèdiques</MedicalOperations>
@@ -186,6 +205,8 @@
   <SocialInteractionsLower>interaccions socials</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
   <HungerRate>Ritme de la gana</HungerRate>
+  <!-- EN: Food consumption -->
+  <FoodConsumption>TODO</FoodConsumption>
   <!-- EN: Tiredness -->
   <Tiredness>Cansament</Tiredness>
   <!-- EN: Pain -->
@@ -241,8 +262,6 @@
   <TrainingNeedsPrerequisite>Requisit necessari: {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  <!-- EN: (no relationships) -->
-  <NoRelationships>(sense relacions)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>Segrestat</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
@@ -253,9 +272,9 @@
   <Slave>Esclau</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>Líder de facció</FactionLeader>
-  <!-- EN: Opinion of {1_labelShort} -->
+  <!-- EN: Opinion of {0} -->
   <OpinionOf>Opinió de {1_labelShort}</OpinionOf>
-  <!-- EN: {1_labelShort}'s opinion of me -->
+  <!-- EN: {0}'s opinion of me -->
   <SomeonesOpinionOfMe>Opinió que té {1_labelShort} sobre mi</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>Estic mort</IAmDead>
@@ -398,7 +417,13 @@
 
   <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>El corral no està tancat.</AutocutUnenclosedPen>
-  <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
+  <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
   <AutocutUnenclosedPenTip>El corral no està tancat, així que no se’n tallaran les males herbes.</AutocutUnenclosedPenTip>
+
+  <!-- EN: Auto-cut plants blocking wind turbine -->
+  <WindTurbineAutoCut_EnabledCheckbox>TODO</WindTurbineAutoCut_EnabledCheckbox>
+
+  <!-- UNUSED -->
+  <NoRelationships>(sense relacions)</NoRelationships>
 
 </LanguageData>

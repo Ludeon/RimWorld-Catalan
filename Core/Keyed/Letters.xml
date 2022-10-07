@@ -10,10 +10,12 @@
   <RejectLetter>Refusa</RejectLetter>
   <!-- EN: Read more -->
   <ReadMore>Mostra’n més</ReadMore>
+  <!-- EN: You have {0} more letters -->
+  <MoreLetters>TODO</MoreLetters>
 
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>Estiu</LetterLabelFirstSummerWarning>
-  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
+  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nTo prepare for winter, buy, steal, or make some parkas, or you'll freeze when you step outside. -->
   <FirstSummerWarning>Ha començat l’estiu! Però ja s’acosta l’hivern.\n\nEls vostres camps no creixeran amb el fred de l’hivern. Assegureu-vos d’emmagatzemar prou menjar ara que encara podeu.\n\nPodeu construir una cambra refrigerada per a evitar que el menjar es faci malbé.\n\nI compreu, robeu o feu roba d’abric o us congelareu quan sortiu fora.</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
@@ -45,7 +47,7 @@
   <!-- EN: Death -->
   <Death>Mort</Death>
 
-  <!-- EN: A {1_label} has short-circuited in the rain and started a fire. -->
+  <!-- EN: A {1_label} has short-circuited due to precipitation and started a fire. -->
   <ShortCircuitRain>{1_indefinite} ha curtcircuitat per la pluja i ha provocat un incendi.</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
@@ -76,7 +78,9 @@
   <LetterLabelBirthday>Aniversari</LetterLabelBirthday>
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>És l’aniversari cronològic de {0}! Des del punt de vista biològic, {1} té {3} anys.\n\nDes del cronològic, {1} n’acaba de fer {2}.\n\nCom que la gent no envelleix durant el criptoson, l’aniversari cronològic és diferent del biològic.</BirthdayChronological>
-  <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
+  <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
+  <LetterBirthdayBiological>TODO</LetterBirthdayBiological>
+  <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
   <BirthdayBiologicalAgeInjuries>{0_definite} acaba de fer {1} anys biològics.\n\nMalauradament, ha adquirit les següents afeccions per l’edat:\n{2}</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
@@ -419,24 +423,12 @@
   <LetterPredatorHuntingColonist>{PREDATOR} vol caçar a {PREY_definite} per {PREY_gender ? menjar-se’l : menjar-se-la}!</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
-  <!-- EN: {0} blocked {1} on: {2}. -->
+  <!-- EN: {0} blocked {1} on -->
   <LetterDisease_Blocked>{0} ha blocat {1} a: {2}.</LetterDisease_Blocked>
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Malaltia: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>{PAWN_definite} ha emmalaltit de {1}.\n\nAssegureu-vos que disposeu d’un llit mèdic i d’un metge. Procureu que tingui un tractament adequat i que passi tant temps al llit com sigui possible.</LetterTraitDisease>
-
-  <!-- Surgery -->
-  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
-  <LetterLabelSurgeryFailed>La cirurgia de {PATIENT_labelShort} ha fallat</LetterLabelSurgeryFailed>
-  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} ha comès un petit error mentre operava {PATIENT_gender ? en : la} {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
-  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} ha comès un error terrible mentre operava {PATIENT_gender ? en : la} {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
-  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} s’ha equivocat d’una manera ridícula mentre operava {PATIENT_gender ? en : la} {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
-  <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} ha comès un error fatal mentre operava {PATIENT_gender ? en : la} {PATIENT_labelShort} a causa de les dificultats especials de: {2}.</MessageMedicalOperationFailureFatal>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
@@ -552,5 +544,23 @@
   <LetterLabelSiteCountdownStarted>Caravana detectada</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
   <LetterTextSiteCountdownStarted>Han detectat la vostra caravana. D’aquí a {0}, arribaran a l’àrea {1} de reforç de {2}.\n\nReformeu la caravana i feu que es mogui per a evitar el {1}. Es mostra un comptador cap enrere que indica quan arribaran.</LetterTextSiteCountdownStarted>
+
+  <!-- EN: Unwavering prisoner -->
+  <LetterLabelUnrecruitablePawnCaptured>TODO</LetterLabelUnrecruitablePawnCaptured>
+  <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
+  <LetterTextUnrecruitablePawnCaptured>TODO</LetterTextUnrecruitablePawnCaptured>
+  <!-- EN: enslave {PAWN_objective} -->
+  <OptionalEnslaveDesc>TODO</OptionalEnslaveDesc>
+
+  <!-- Lung rot -->
+  <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
+  <LetterTextLungRot>TODO</LetterTextLungRot>
+
+  <!-- UNUSED -->
+  <LetterLabelSurgeryFailed>La cirurgia de {PATIENT_labelShort} ha fallat</LetterLabelSurgeryFailed>
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort} ha comès un petit error mentre operava {PATIENT_gender ? en : la} {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureMinor>
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} ha comès un error terrible mentre operava {PATIENT_gender ? en : la} {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic>
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} s’ha equivocat d’una manera ridícula mentre operava {PATIENT_gender ? en : la} {PATIENT_labelShort} ({RECIPE_label}).</MessageMedicalOperationFailureRidiculous>
+  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} ha comès un error fatal mentre operava {PATIENT_gender ? en : la} {PATIENT_labelShort} a causa de les dificultats especials de: {2}.</MessageMedicalOperationFailureFatal>
 
 </LanguageData>

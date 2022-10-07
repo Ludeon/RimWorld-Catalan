@@ -45,6 +45,8 @@
   <CannotAttackSelf>no es pot atacar a si mateix</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
   <CannotAttackSameFactionMember>no pot atacar un aliat de la facció</CannotAttackSameFactionMember>
+  <!-- EN: Incapable of firefighting. -->
+  <IncapableOfFirefighting>TODO</IncapableOfFirefighting>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>{1_definite} manualment</OrderManThing>
@@ -74,8 +76,10 @@
   <NoMergeTarget>no hi ha cap pila amb la qual es pugui ajuntar</NoMergeTarget>
   <!-- EN: already filled enough -->
   <AlreadyFilledLower>ja està ple</AlreadyFilledLower>
-  <!-- EN: need material -->
+  <!-- EN: missing {0} -->
   <MissingMaterials>falten materials</MissingMaterials>
+  <!-- EN: No medicine for restriction '{CATEGORY}'. -->
+  <NoMedicineMatchingCategory>TODO</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>per sota del nivell {0} requerit</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
@@ -88,10 +92,14 @@
   <MissingRequiredSkillLevel>no té el nivell d’habilitat necessari</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
   <AnimalInteractedTooRecently>s’ha interactuat amb l’animal fa poc</AnimalInteractedTooRecently>
+  <!-- EN: interacted with too recently -->
+  <PrisonerInteractedTooRecently>TODO</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>no hi ha menjar que es pugui fer servir</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>no hi ha menjar</NoFood>
+  <!-- EN: no food matching restrictions -->
+  <NoFoodMatchingRestrictions>TODO</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
   <NoIngredient>No hi ha {0_label}</NoIngredient>
   <!-- EN: below requirements of {0} -->
@@ -158,14 +166,22 @@
   <InstallImplantNotAllowedForNonColonists>no és un colon</InstallImplantNotAllowedForNonColonists>
   <!-- EN: already installed -->
   <InstallImplantAlreadyInstalled>ja està instal·lada</InstallImplantAlreadyInstalled>
+  <!-- EN: requires an existing {0} -->
+  <InstallImplantHediffRequired>TODO</InstallImplantHediffRequired>
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>nivell màxim</InstallImplantAlreadyMaxLevel>
+  <!-- EN: psychically deaf -->
+  <InstallImplantPsychicallyDeaf>TODO</InstallImplantPsychicallyDeaf>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>Millora de nivell {0} a nivell {1}</UpgradeImplant>
   <!-- EN: violation of faction ally -->
   <SurgeryViolationFellowFactionMember>violació de l’aliat d’una facció</SurgeryViolationFellowFactionMember>
   <!-- EN: being carried by {0_labelShort} -->
   <BeingCarriedBy>està sent transportat per {0_labelShort}</BeingCarriedBy>
+  <!-- EN: full -->
+  <ContainerFull>TODO</ContainerFull>
+  <!-- EN: already assigned -->
+  <AlreadyAssigned>ja s’ha assignat</AlreadyAssigned>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>Consumeix {1_labelShort}</ConsumeThing>
@@ -188,9 +204,15 @@
   <Capture>Captura a {1_definite}</Capture>
   <!-- EN: Cannot capture -->
   <CannotCapture>No es pot capturar</CannotCapture>
+  <!-- EN: unwaveringly loyal -->
+  <Unrecruitable>TODO</Unrecruitable>
 
   <!-- EN: Rescue {1_label} -->
   <Rescue>Rescata a {1_definite}</Rescue>
+  <!-- EN: Put {1_label} somewhere safe -->
+  <PutSomewhereSafe>TODO</PutSomewhereSafe>
+  <!-- EN: Taking {0_labelShort} to bed. -->
+  <TakingToBed>TODO</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>No es pot rescatar</CannotRescue>
 
@@ -231,6 +253,8 @@
   <Incapable>no n’és capaç</Incapable>
   <!-- EN: incapable of {0} -->
   <IncapableOfCapacity>no és capaç de {0}</IncapableOfCapacity>
+  <!-- EN: Must have {0_label} -->
+  <MustHaveHediff>TODO</MustHaveHediff>
 
   <!-- EN: min skill -->
   <MinSkill>Habilitat mín.</MinSkill>
@@ -261,13 +285,15 @@
   <ReloadFull>Ple</ReloadFull>
   <!-- EN: Too few -->
   <ReloadNotEnough>Poca munició</ReloadNotEnough>
+  <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
+  <ReloadCannotCarryEnough>TODO</ReloadCannotCarryEnough>
   
-  <!-- EN: Cannot pick up {1_label} -->
+  <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUp>No pot recollir {1_definite}</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
   <CannotPickUpAll>No es pot recollir tot {1_definite}</CannotPickUpAll>
-  <!-- EN: Pick up {1_label} -->
-  <PickUp>Recull {1_definite}</PickUp>
+  <!-- EN: Pick up {1_labelShort} x1 -->
+  <PickUpOne>TODO</PickUpOne>
   <!-- EN: Pick up {1_label} (all) -->
   <PickUpAll>Recull tot {1_definite}</PickUpAll>
   <!-- EN: Pick up {1_labelShort}... -->
@@ -518,5 +544,17 @@
   <RepairThing>Repara {0}</RepairThing>
   <!-- EN: Cannot repair {0} -->
   <CannotRepair>{0_definite} no es pot reparar.</CannotRepair>
-  
+
+  <!-- EN: Cannot enter -->
+  <CannotEnter>No s’hi pot entrar</CannotEnter>
+
+  <!-- Romance partner -->
+  <!-- EN: Cannot romance {0} -->
+  <CannotRomance>TODO</CannotRomance>
+  <!-- EN: Romance {0} -->
+  <CanRomance>TODO</CanRomance>
+
+  <!-- UNUSED -->
+  <PickUp>Recull {1_definite}</PickUp>
+
 </LanguageData>

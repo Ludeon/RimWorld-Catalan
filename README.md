@@ -4,11 +4,11 @@
   <img src="https://github.com/Ludeon/RimWorld-Catalan/blob/master/Core/LangIcon.png" />
 </div>
 
-![VRim](https://img.shields.io/badge/RimWorld-1.3.3389-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.4.3509-green.svg?style=for-the-badge)
 
 _ _ _
 
-This is the Catalan translation of Rimworld version 1.3.3389.
+This is the Catalan translation of Rimworld version 1.4.3509.
 
 
 See this [page](http://ludeon.com/forums/index.php?topic=2933.0) for license info and how to contribute.

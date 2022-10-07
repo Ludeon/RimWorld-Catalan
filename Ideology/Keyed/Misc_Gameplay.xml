@@ -5,8 +5,6 @@
   <CustomizeIdeoligion>Personalitza la ideoligió</CustomizeIdeoligion>
   <!-- EN: Choose your ideoligion -->
   <ChooseYourIdeoligion>Trieu la ideoligió</ChooseYourIdeoligion>
-  <!-- EN: Random -->
-  <Random>Aleatòria</Random>
   <!-- EN: A random structure will be used for your ideoligion. -->
   <RandomStructureTip>La vostra ideoligió tindrà unes característiques triades a l’atzar.</RandomStructureTip>
   <!-- EN: A random style will be used for your ideoligion. -->
@@ -23,7 +21,7 @@
   <LoadSaved>Carrega’n una de desada</LoadSaved>
   <!-- EN: Structure -->
   <Structure>Estructura</Structure>
-  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs. -->
+  <!-- EN: What should your starting colonists believe? These beliefs affect gameplay and visuals. You'll be able to recruit others to your beliefs, or take on their beliefs. -->
   <ChooseYourIdeoligionDesc>En què haurien de creure els vostres colons inicials? Les seves creences afectaran la manera de jugar i l’aspecte visual. Podreu convertir altres colons a la vostra ideoligió o acceptar les seves tradicions.</ChooseYourIdeoligionDesc>
   <!-- EN: Create custom -->
   <CreateCustom>Crea’n una de personalitzada</CreateCustom>
@@ -101,8 +99,10 @@
   <Styles>Estils</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Probabilitat de tenir el precepte</ChanceToHavePrecept>
-  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
   <FavoriteColorTooltip>El color preferit de {PAWN_labelShort}. Si té més d’un {PERCENTAGE} d’indumentària d’aquest color o el color de la ideoligió, serà una mica més feliç.\n\nPodeu alterar els colors a la taula de d’estilisme amb tints extrets de la planta tintorera.</FavoriteColorTooltip>
+  <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
+  <OrIdeoColor>TODO</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Estableix el color de la ideoligió</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -153,6 +153,8 @@
   <MealKindMeat>Conté carn</MealKindMeat>
   <!-- EN: Acceptable food for everyone -->
   <MealKindAny>Menjar acceptable per tothom</MealKindAny>
+  <!-- EN: this outfit -->
+  <WearingDesiredApparelMulti>TODO</WearingDesiredApparelMulti>
 
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>No s’ha pogut carregar la ideoligió</UnableToLoadIdeoTitle>
@@ -165,15 +167,15 @@
   <!-- EN: Precept {PRECEPT} is not allowed for non-player factions -->
   <UnableToLoadIdeoPreceptNotAllowed>El precepte {PRECEPT} no es permet per a les faccions que no són del jugador</UnableToLoadIdeoPreceptNotAllowed>
 
-  <!-- EN: A grave containing {PAWN_labelShort}'s corpse. -->
+  <!-- EN: Grave containing {PAWN_labelShort}'s corpse -->
   <RitualTargetGraveInfo>Una tomba que conté el cos de {PAWN_labelShort}.</RitualTargetGraveInfo>
-  <!-- EN: An empty grave to mourn {PAWN_labelShort}'s passing. -->
+  <!-- EN: Empty grave to mourn {PAWN_labelShort}'s passing -->
   <RitualTargetEmptyGraveInfo>Una tomba buida per lamentar la mort de {PAWN_labelShort}.</RitualTargetEmptyGraveInfo>
-  <!-- EN: A grave containing {IDEO_memberNameIndef}'s corpse -->
+  <!-- EN: Grave containing {IDEO_memberNameIndef}'s corpse -->
   <RitualTargetGraveInfoAbstract>Una tomba que conté el cos de {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
-  <!-- EN: A grave containing a corpse. -->
+  <!-- EN: Grave containing a corpse -->
   <RitualTargetGraveInfoAbstractNoIdeo>Una tomba que conté un cadàver.</RitualTargetGraveInfoAbstractNoIdeo>
-  <!-- EN: An empty grave to mourn {IDEO_memberNameIndef}'s passing. -->
+  <!-- EN: Empty grave to mourn {IDEO_memberNameIndef}'s passing -->
   <RitualTargetEmptyGraveInfoAbstract>Una tomba buida per lamentar la mort de {IDEO_memberNameIndef}.</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
   <RitualTargetGraveInfoMustBeBuried>Primer s’ha d’enterrar el cos de {PAWN_labelShort}</RitualTargetGraveInfoMustBeBuried>
@@ -183,8 +185,6 @@
   <RitualTargetGatherAltarOrRitualSpotInfo>Altar o qualsevol lloc ritual.</RitualTargetGatherAltarOrRitualSpotInfo>
   <!-- EN: Altar, ideogram or any ritual spot. -->
   <RitualTargetGatherAltarIdeogramOrRitualSpotInfo>Altar, ideograma o qualsevol lloc ritual.</RitualTargetGatherAltarIdeogramOrRitualSpotInfo>
-  <!-- EN: A lightball or ritual spot. Lightball and loudspeakers must be powered. -->
-  <RitualTargetLightBallInfo>Una bola giratòria o un lloc ritual. La bola i l’altaveu han de tenir energia.</RitualTargetLightBallInfo>
   <!-- EN: Lightball is not powered. -->
   <RitualTargetLightBallIsNotPowered>La bola de discoteca necessita electricitat.</RitualTargetLightBallIsNotPowered>
   <!-- EN: No powered speakers. -->
@@ -197,11 +197,9 @@
   <RitualTargetNoDrum>No hi ha cap tambor a prop.</RitualTargetNoDrum>
   <!-- EN: Need at least {0} unroofed cells nearby. -->
   <RitualTargetNeedUnroofedCells>Calen com a mínim {0} caselles sense teulada a prop.</RitualTargetNeedUnroofedCells>
-  <!-- EN: A lit campfire or ritual spot. -->
+  <!-- EN: a lit campfire -->
   <RitualTargetCampfirePartyInfo>Una foguera encesa o un lloc ritual.</RitualTargetCampfirePartyInfo>
-  <!-- EN: A lit campfire or ritual spot. Spot must be unroofed with at least 25 unroofed cells in the area. -->
-  <RitualTargetCampfireSkylanternsInfo>Una foguera encesa o un lloc ritual. El lloc no ha de tenir teulada en una àrea de com a mínim 25 caselles.</RitualTargetCampfireSkylanternsInfo>
-  <!-- EN: An unconnected Gauranlen tree. -->
+  <!-- EN: an unconnected Gauranlen tree -->
   <RitualTargetUnconnectedGaruanlenTreeInfo>Un arbre gauranlen sense connexió.</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Ja està connectat a {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
@@ -209,14 +207,14 @@
   <RitualTargetConnectionTornGauranlenTree>Al {TREE} se li ha tallat la connexió fa poc. Es podrà reconnectar d’aquí a {1}.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Necessiteu {0} de fusta per cada participant ({2} en total). Teniu {1} de fusta.</RitualTargeWoodInfo>
+  <!-- EN: {0} must be able to reach ritual target. -->
+  <RitualTargetUnreachable>TODO</RitualTargetUnreachable>
   <!-- EN: Accuse -->
   <Accuse>Acusa</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
   <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} no creu en l’escarificació ideoligiosa i no li agradarà que l’escarifiquin.</RitualScarificationWarnNonScarificationIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
   <RitualScarificationWarnWimp>{PAWN_labelShort} és dèbil, {PAWN_gender ? covard : covarda} i no li agradarà que l’escarifiquin.</RitualScarificationWarnWimp>
-  <!-- EN: {PAWN_labelShort} does not believe in ideoligious blinding and will not like being blinded. -->
-  <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort} no creu en la ceguesa per motius ideoligiosos i no li agradarà que {PAWN_gender ? el : la} deixin {PAWN_gender ? cec : cega}.</RitualBlindingWarnNonBlindingIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort} és dèbil i {PAWN_gender ? covard : covarda} i no li agradarà que {PAWN_gender ? el : la} deixin {PAWN_gender ? cec : cega}.</RitualBlindingWarnWimp>
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
@@ -239,6 +237,8 @@
   
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
   <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>Degut a la qualitat del ritual, els punts de desenvolupament han augmentat en {2} (de {0} a {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <!-- EN: Can't award development points beyond {0}. -->
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>TODO</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
   <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Degut a la mala qualitat del ritual, no s’han obtingut punts de desenvolupament.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
@@ -281,32 +281,22 @@
   <IdeoBuildingVariationOf>Aquest edifici és una variació de</IdeoBuildingVariationOf>
   <!-- EN: Minimum expectations -->
   <IdeoBuildingMinimumExpectations>Expectatives mínimes</IdeoBuildingMinimumExpectations>
-  <!-- EN: size -->
-  <Size>mida</Size>
-  <!-- EN: cost -->
-  <Cost>cost</Cost>
   <!-- EN: optional -->
   <Optional>opcional</Optional>
   <!-- EN: expectations -->
   <Expectations>expectatives</Expectations>
-  <!-- EN: Can start any time -->
-  <RitualStartAnyTime>Es pot iniciar en qualsevol moment.</RitualStartAnyTime>
-  <!-- EN: Can start after event -->
-  <RitualStartEvent>Es pot iniciar després d’un esdeveniment.</RitualStartEvent>
-  <!-- EN: Focus objects -->
-  <RitualFocusObjects>Objectes motivadors</RitualFocusObjects>
   <!-- EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
   <RitualRepeatPenaltyTip>Si es repeteix un ritual en {0} dies, la qualitat es veurà reduïda. Han passat {1} dies des de l’últim i, per això, la reducció actual de la qualitat és de {2}. Aquesta penalització desapareixerà d’aquí a {3} dies.</RitualRepeatPenaltyTip>
-  <!-- EN: Participating roles -->
-  <RitualParticipatingRoles>Rols que participen</RitualParticipatingRoles>
   <!-- EN: For best quality, start the {0} at {1}. -->
-  <RitualOutcomeCompTip_RitualTargetDefsPart1>Per a obtenir la millor qualitat, comenceu {0_definite} en {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
+  <RitualOutcomeCompTip_RitualTargetDefsPart1>Per obtenir la millor qualitat, comenceu {0_definite} en {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart2>{0_definite} comença a {1_labelShortIndef}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
   <!-- EN: Development points -->
   <RitualDevelopmentPoints>Punts de desenvolupament</RitualDevelopmentPoints>
   <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
   <RitualDevelopmentPointsTip>Si es completa aquest ritual s’aconseguiran entre {0} i {1} punts de desenvolupament en funció de la qualitat final.</RitualDevelopmentPointsTip>
+  <!-- EN: {0} needs to be powered. -->
+  <RitualOutcomeBlockedNoPower>TODO</RitualOutcomeBlockedNoPower>
 
   <!-- EN: For slave use -->
   <ForSlaveUse>Per ús d’esclaus</ForSlaveUse>
@@ -335,9 +325,9 @@
   <RoleRequirementLabelSameIdeo>Ha de ser {0}</RoleRequirementLabelSameIdeo>
   <!-- EN: Must be {0} -->
   <RoleRequirementLabelSupremeGender>Ha de ser {0}</RoleRequirementLabelSupremeGender>
+  <!-- EN: Cannot be child -->
+  <RoleRequirementCannotBe>TODO</RoleRequirementCannotBe>
 
-  <!-- EN: Disabled work -->
-  <RoleDisabledWorkLabel>Tasca inhabilitada</RoleDisabledWorkLabel>
   <!-- EN: Abilities -->
   <RoleGrantedAbilitiesLabel>Habilitats</RoleGrantedAbilitiesLabel>
   <!-- EN: Required apparel -->
@@ -647,8 +637,10 @@
   <BiosculpterHealCompletedMessage>{PAWN_labelShort} ha completat el cicle de guarició.</BiosculpterHealCompletedMessage>
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
   <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} ha completat el cicle de guarició i {HEDIFF_gender ? el seu : la seva} {HEDIFF_label} s’ha curat.</BiosculpterHealCompletedWithCureMessage>
-  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
+  <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} ha completat el seu cicle de rejoveniment. Espera rebre el proper tractament de rejoveniment d’aquí a {DEADLINE} dies.</BiosculpterAgeReversalCompletedMessage>
+  <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
+  <AgeReversalExpectationDeadline>TODO</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>El cicle de plaer bioesculpit de {PAWN_labelShort} s’ha completat.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
@@ -667,5 +659,18 @@
   <OnCompletionOfCycle>Quan es completi el cicle de {CYCLE}, succeirà el següent</OnCompletionOfCycle>
   <!-- EN: {PAWN_nameDef} does not have any conditions that can be healed by a {CYCLE} cycle.\n\nDo you want to continue? -->
   <BiosculpterNoCoditionsToHeal>{PAWN_nameDef} no pateix malalties ni condicions que es puguin guarir amb un cicle de {CYCLE}.\n\nVoleu continuar?</BiosculpterNoCoditionsToHeal>
+
+  <!-- EN: basic -->
+  <Basic>TODO</Basic>
+  <!-- EN: Change the style this will be built in. This is purely visual and has no gameplay impact. -->
+  <ChangeStyleDesc>TODO</ChangeStyleDesc>
+  <!-- EN: No available styles. -->
+  <ChangeStyleDisabledNoCategories>TODO</ChangeStyleDisabledNoCategories>
+
+  <!-- UNUSED -->
+  <RitualTargetLightBallInfo>Una bola giratòria o un lloc ritual. La bola i l’altaveu han de tenir energia.</RitualTargetLightBallInfo>
+  <RitualTargetCampfireSkylanternsInfo>Una foguera encesa o un lloc ritual. El lloc no ha de tenir teulada en una àrea de com a mínim 25 caselles.</RitualTargetCampfireSkylanternsInfo>
+  <RitualBlindingWarnNonBlindingIdeo>{PAWN_labelShort} no creu en la ceguesa per motius ideoligiosos i no li agradarà que {PAWN_gender ? el : la} deixin {PAWN_gender ? cec : cega}.</RitualBlindingWarnNonBlindingIdeo>
+  <RoleDisabledWorkLabel>Tasca inhabilitada</RoleDisabledWorkLabel>
 
 </LanguageData>

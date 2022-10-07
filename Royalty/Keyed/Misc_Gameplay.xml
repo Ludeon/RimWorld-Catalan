@@ -49,7 +49,7 @@
   <Psyfocus>Psicoconcentració</Psyfocus>
   <!-- EN: Psyfocus -->
   <PsyfocusLabelGizmo>Psicoconcentració</PsyfocusLabelGizmo>
-  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychic powers, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
   <PsyfocusDesc>La psicoconcentració és un tipus especial d’estructuració mental que permet usar poders psíquics. Es dissipa amb el temps i s’ha d’aconseguir amb una meditació regular. Si es perd tota la psicoconcentració, la persona no podrà usar poders psíquics, però no hi ha altres conseqüències.\n\nEls nivells més alts de psicoconcentració permeten llançar psicoencanteris de nivell més alt, però també augmenta el ritme de dissipació de la psicoconcentració.</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}–{1}%</PsyfocusLevelInfoRange>
@@ -157,7 +157,7 @@
   <RitualTargetAnimaTreeNoPawnsWithNatureFocus>No hi ha colons amb el tipus de motiu de meditació natural.</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
   <!-- EN: Need at least {0} anima grass. -->
   <RitualTargetAnimaTreeNotEnoughAnimaGrass>Necessita com a mínim {0} d’herba de l’ànima.</RitualTargetAnimaTreeNotEnoughAnimaGrass>
-  <!-- EN: An anima tree. -->
+  <!-- EN: an anima tree -->
   <RitualTargetAnimaTreeInfo>Un arbre de l’ànima.</RitualTargetAnimaTreeInfo>
   <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
   <RitualTargetAnimaTreeMustBeCapableOfNature>Ha de ser un colon amb el tipus de motiu de meditació natural que no hagi arribat al nivell màxim de psicoenllaç.</RitualTargetAnimaTreeMustBeCapableOfNature>
@@ -171,5 +171,8 @@
 
   <!-- EN: no heat to dump. -->
   <AbilityNoEntropyToDump>no hi ha escalfament del qual desfer-se.</AbilityNoEntropyToDump>
+
+  <!-- EN: level {0} -->
+  <LevelNum>TODO</LevelNum> <!-- Psylink level as reported in health tab-->
 
 </LanguageData>

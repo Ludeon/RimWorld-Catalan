@@ -79,7 +79,7 @@
   
   <!-- EN: Friendly fire safety -->
   <FriendlyFireSafety.label>Protegir-se del foc aliat</FriendlyFireSafety.label>
-  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over his friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
+  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over their friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
   <FriendlyFireSafety.helpText>El foc aliat no ocorrerà mai si el tirador està a prop de l’aliat.\n\nPer exemple, podeu posar sense problemes un colon amb una espasa davant d’un altre amb una arma de foc. El tirador dispararà per sobre de l’espatlla del seu amic.\n\nÉs una bona manera de combinar els lluitadors cos a cos i a distància.</FriendlyFireSafety.helpText>
   
   <!-- EN: Getting more traders -->
@@ -112,9 +112,8 @@
   <!-- EN: The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane. -->
   <InfoCard.helpText>La pantalla d’informació mostra estadístiques detallades d’un objecte, persona o construcció.\n\nSeleccioneu una persona o un objecte i obriu-ne la pantalla d’informació amb el botó «i» al full d’inspecció.</InfoCard.helpText>
   
-  <!-- EN: Room stats inspector -->
+  <!-- UNUSED -->
   <InspectRoomStats.label>Visor d’entorn</InspectRoomStats.label>
-  <!-- EN: You can inspect the impressiveness, wealth, and beauty of individual rooms using the ROOM STATS INSPECT toggle in the bottom right. -->
   <InspectRoomStats.helpText>Podeu inspeccionar com d’impressionant, rica i bonica és una cambra individual amb el commutador de les estadístiques de les cambres, a baix a la dreta.</InspectRoomStats.helpText>
   
   <!-- EN: Manual work priorities -->
@@ -161,6 +160,11 @@
   <StorageTab.label>Pestanya de magatzem</StorageTab.label>
   <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
   <StorageTab.helpText>Podeu configurar els magatzems i construccions d’emmagatzematge seleccionant-los i obrint la pestanya «Magatzem» situada a la part de dalt del panell d’inspecció que surt a sota a l’esquerra.\n\nDes d’aquesta pestanya podeu obrir les categories per a triar quins objectes es desaran al magatzem i quins no. Feu clic als triangles que hi ha a l’esquerra de les categories.\n\nPodeu canviar la prioritat del magatzem. Els colons ompliran primer els magatzems amb més prioritat i hi mouran objectes des dels magatzems de menys prioritat.</StorageTab.helpText>
+  
+  <!-- EN: Tile inspector -->
+  <TileInspector.label>TODO</TileInspector.label>
+  <!-- EN: You can inspect the details of a tile by holding {Key:ShowCellInspector}. This displays the contents of a tile, room information, beauty information, and more. -->
+  <TileInspector.helpText>TODO</TileInspector.helpText>
   
   <!-- EN: Time assignments -->
   <TimeAssignments.label>Assignacions horàries</TimeAssignments.label>
