@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: Mad {ANIMAL_labelShort} -->
-  <LetterLabelAnimalInsanitySingle>{ANIMAL_indefinite} furiós</LetterLabelAnimalInsanitySingle>
+  <LetterLabelAnimalInsanitySingle>{ANIMAL_indefinite} {ANIMAL_gender ? furiós : furiosa}</LetterLabelAnimalInsanitySingle>
   <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
   <AnimalInsanitySingle>{ANIMAL_indefinite} ha embogit. Atacarà a qui vegi.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
@@ -36,7 +36,7 @@
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>{PAWN_definite} no pertany a cap facció. {PAWN_gender ? El : La} podeu rescatar i tenir l’esperança que s’unirà al vostre grup voluntàriament, o {PAWN_gender ? el : la} podeu capturar per reclutar-{PAWN_gender ? lo : la} o vendre com a esclau</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>{PAWN_definite} és de la facció enemiga {PAWN_factionName}. El podeu capturar per reclutar-lo o vendre’l com a esclau.</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_Hostile>{PAWN_definite} és de la facció enemiga {PAWN_factionName}. El podeu capturar per a reclutar-lo o vendre’l com a esclau.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
   <RefugeePodCrash_NonHostile>{PAWN_definite} és dels {PAWN_factionName}. Si {PAWN_gender ? el : la} rescateu, podria ser que s’unís voluntàriament al vostre grup. Si no, tornarà a casa seva i parlarà bé de la vostra facció.\n\nTambé {PAWN_gender ? el : la} podeu capturar per reclutar-{PAWN_gender ? lo : la} o vendre’l com a esclau, però això farà enfadar la seva facció.</RefugeePodCrash_NonHostile>
 
@@ -80,7 +80,7 @@
   <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
   <SingleVisitorArrives>{PAWN_titleIndef} dels {1} visita la colònia.\n\nEs diu {PAWN_nameFull}.{3}{4}</SingleVisitorArrives>
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
-  <SingleVisitorArrivesTraderInfo>Sembla que {PAWN_gender ? té : té} algunes coses per vendre.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesTraderInfo>Sembla que {PAWN_gender ? té : té} algunes coses per a vendre.</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
   <SingleVisitorArrivesLeaderInfo>És {PAWN_gender ? el : la} líder de la facció.</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
@@ -88,7 +88,7 @@
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
   <GroupVisitorsArrive>Un grup de {0} visiten la colònia.{1}{2}</GroupVisitorsArrive>
   <!-- EN: They seem to have a few items to trade. -->
-  <GroupVisitorsArriveTraderInfo>Sembla que porten coses per vendre.</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveTraderInfo>Sembla que porten coses per a vendre.</GroupVisitorsArriveTraderInfo>
   <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
   <GroupVisitorsArriveLeaderInfo>Un dels visitants, {1_definite}, és el líder de la facció.</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
