@@ -43,7 +43,7 @@
   <!-- EN: Food -->
   <TabPenFood>Menjar</TabPenFood>
   <!-- EN: Auto-cut -->
-  <TabPenAutoCut>Arrenca males herbes automàticament</TabPenAutoCut>
+  <TabPenAutoCut>Talla les males herbes automàticament</TabPenAutoCut>
   <!-- EN: Caravan -->
   <TabFormingCaravan>Caravana</TabFormingCaravan>
   <!-- EN: Contents -->
@@ -51,7 +51,7 @@
   <!-- EN: Contents -->
   <TabCasketContents>Contingut</TabCasketContents>
   <!-- EN: Auto-cut -->
-  <TabWindTurbineAutoCut>TODO</TabWindTurbineAutoCut>
+  <TabWindTurbineAutoCut>Talla les males herbes automàticament</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -125,19 +125,19 @@
   <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>Considerat culpable</ConsideredGuiltyNoTimer>
   <!-- EN: Last resistance reduction -->
-  <LastRecruitment>TODO</LastRecruitment>
+  <LastRecruitment>Última reducció de resistència</LastRecruitment>
   <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
-  <LastRecruitmentDescription>TODO</LastRecruitmentDescription>
+  <LastRecruitmentDescription>Indica quanta resistència de {0_nameDef} va reduir {1} quan {0_gender ? se'l : se la} va reclutar per última vegada.</LastRecruitmentDescription>
   <!-- EN: Opinion of recruiter -->
-  <OpinionOfRecruiter>TODO</OpinionOfRecruiter>
+  <OpinionOfRecruiter>Opinió del reclutador</OpinionOfRecruiter>
   <!-- EN: Recruiter negotiation ability -->
-  <RecruiterNegotiationAbility>TODO</RecruiterNegotiationAbility>
+  <RecruiterNegotiationAbility>Habilitat de negociació del reclutador</RecruiterNegotiationAbility>
   <!-- EN: Unwavering loyalty -->
-  <NonRecruitable>TODO</NonRecruitable>
+  <NonRecruitable>Lleialtat obstinada</NonRecruitable>
   <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
-  <NonRecruitableTip>TODO</NonRecruitableTip>
+  <NonRecruitableTip>El presoner mostra una lleialtat infranquejable al seu bàndol i es nega a que se'l recluti.</NonRecruitableTip>
   <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
-  <NonRecruitableTipCannotConvert>TODO</NonRecruitableTipCannotConvert>
+  <NonRecruitableTipCannotConvert>La seva lleialtat va més enllà de les seves creences i no {0_gender ? se'l : se la} pot convèncer.</NonRecruitableTipCannotConvert>
 
 
 
@@ -188,9 +188,9 @@
   <!-- EN: Overview -->
   <HealthOverview>Resum</HealthOverview>
   <!-- EN: Operations -->
-  <MedicalOperationsShort>Operacions ({0})</MedicalOperationsShort>
+  <MedicalOperationsShort>Operacions</MedicalOperationsShort>
   <!-- EN: Modifications -->
-  <MedicalOperationsMechanoidsShort>Modificacions ({0})</MedicalOperationsMechanoidsShort>
+  <MedicalOperationsMechanoidsShort>Modificacions</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>Operacions mèdiques</MedicalOperations>
   <!-- EN: amputate -->
@@ -206,7 +206,7 @@
   <!-- EN: Hunger rate -->
   <HungerRate>Ritme de la gana</HungerRate>
   <!-- EN: Food consumption -->
-  <FoodConsumption>TODO</FoodConsumption>
+  <FoodConsumption>Consum d'aliments</FoodConsumption>
   <!-- EN: Tiredness -->
   <Tiredness>Cansament</Tiredness>
   <!-- EN: Pain -->
@@ -273,9 +273,9 @@
   <!-- EN: Faction leader -->
   <FactionLeader>Líder de facció</FactionLeader>
   <!-- EN: Opinion of {0} -->
-  <OpinionOf>Opinió de {1_labelShort}</OpinionOf>
+  <OpinionOf>Opinió de {0}</OpinionOf>
   <!-- EN: {0}'s opinion of me -->
-  <SomeonesOpinionOfMe>Opinió que té {1_labelShort} sobre mi</SomeonesOpinionOfMe>
+  <SomeonesOpinionOfMe>Opinió que té {0} sobre mi</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>Estic mort</IAmDead>
   <!-- EN: I'm a psychopath -->
@@ -421,7 +421,7 @@
   <AutocutUnenclosedPenTip>El corral no està tancat, així que no se’n tallaran les males herbes.</AutocutUnenclosedPenTip>
 
   <!-- EN: Auto-cut plants blocking wind turbine -->
-  <WindTurbineAutoCut_EnabledCheckbox>TODO</WindTurbineAutoCut_EnabledCheckbox>
+  <WindTurbineAutoCut_EnabledCheckbox>Talla automàticament les plantes que bloquin la turbina</WindTurbineAutoCut_EnabledCheckbox>
 
   <!-- UNUSED -->
   <NoRelationships>(sense relacions)</NoRelationships>

@@ -18,17 +18,17 @@
   <!-- EN: Reset -->
   <Reset>Restableix</Reset>
   <!-- EN: Reset all -->
-  <ResetAll>TODO</ResetAll>
+  <ResetAll>Restableix-ho tot</ResetAll>
   <!-- EN: Disable -->
-  <Disable>TODO</Disable>
+  <Disable>Desactiva</Disable>
   <!-- EN: Modify -->
-  <Modify>TODO</Modify>
+  <Modify>Modifica</Modify>
   <!-- EN: Settle here anyways? -->
-  <ConfirmSettle>TODO</ConfirmSettle>
+  <ConfirmSettle>Voleu establir-vos-hi de totes maneres?</ConfirmSettle>
   <!-- EN: add -->
   <Add>Afegeix</Add>
   <!-- EN: Cannot shoot -->
-  <CannotShoot>TODO</CannotShoot>
+  <CannotShoot>No pot disparar</CannotShoot>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
@@ -54,17 +54,17 @@
   <!-- EN: Error while loading assets -->
   <ErrorWhileLoadingAssetsTitle>S’ha produït un error mentre es carregaven els recursos</ErrorWhileLoadingAssetsTitle>
   <!-- EN: An error occurred while loading game assets. See error log for more information. -->
-  <ErrorWhileLoadingAssets>S’ha produït un error mentre es carregaven els recursos del joc. Consulteu el registre d’errors per obtenir més informació.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets>S’ha produït un error mentre es carregaven els recursos del joc. Consulteu el registre d’errors per a obtenir més informació.</ErrorWhileLoadingAssets>
   <!-- EN: The game is currently running with custom mods - they may or may not cause these problems. -->
   <ErrorWhileLoadingAssets_ModsInfo>El joc s’està executant amb mods personalitzats, que potser estan causant aquests problemes.</ErrorWhileLoadingAssets_ModsInfo>
   <!-- EN: Error while generating a map -->
   <ErrorWhileGeneratingMapTitle>S’ha produït un error mentre es generava un mapa</ErrorWhileGeneratingMapTitle>
   <!-- EN: An error occurred while generating a new map. See error log for more information. -->
-  <ErrorWhileGeneratingMap>S’ha produït un error mentre es generava un mapa nou. Consulteu el registre d’errors per obtenir més informació.</ErrorWhileGeneratingMap>
+  <ErrorWhileGeneratingMap>S’ha produït un error mentre es generava un mapa nou. Consulteu el registre d’errors per a obtenir més informació.</ErrorWhileGeneratingMap>
   <!-- EN: Error while loading a map -->
   <ErrorWhileLoadingMapTitle>S’ha produït un error mentre es carregava un mapa</ErrorWhileLoadingMapTitle>
   <!-- EN: An error occurred while loading a map. See error log for more information. -->
-  <ErrorWhileLoadingMap>S’ha produït un error mentre es carregava un mapa. Consulteu el registre d’errors per obtenir més informació.</ErrorWhileLoadingMap>
+  <ErrorWhileLoadingMap>S’ha produït un error mentre es carregava un mapa. Consulteu el registre d’errors per a obtenir més informació.</ErrorWhileLoadingMap>
   
   <!-- Unloaded mod with an assembly -->
   <!-- EN: The mod list has changed. The game will now restart automatically. -->
@@ -132,7 +132,7 @@
   <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
   <SaveIsUnknownFormat>No es reconeix el format de la partida desada i el més probable és que no funcioni.</SaveIsUnknownFormat>
   <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
-  <ProblemSavingFile>S’ha produït un problema mentre es desava el fitxer {0}:\n\n{1}\n\nConsulteu el registre d’errors per obtenir més informació.</ProblemSavingFile>
+  <ProblemSavingFile>S’ha produït un problema mentre es desava el fitxer {0}:\n\n{1}\n\nConsulteu el registre d’errors per a obtenir més informació.</ProblemSavingFile>
   <!-- EN: Load anyway -->
   <LoadAnyway>Carrega-la igualment</LoadAnyway>
   <!-- EN: Load mod list from save -->
@@ -180,29 +180,29 @@
   
   <!-- Pawn naming -->
   <!-- EN: Chosen name is invalid. -->
-  <NameInvalid>TODO</NameInvalid>
+  <NameInvalid>El nom triat no és vàlid.</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
   <PawnGainsName>El sobrenom del colon ara és {0}. Li diran {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>Ara l’animal es diu {0}.</AnimalGainsName>
   <!-- EN: rename person -->
-  <RenamePerson>TODO</RenamePerson>
+  <RenamePerson>canvia-li el nom</RenamePerson>
   <!-- EN: mother -->
-  <Mother>TODO</Mother>
+  <Mother>mare</Mother>
   <!-- EN: father -->
-  <Father>TODO</Father>
+  <Father>pare</Father>
   <!-- EN: unknown -->
-  <Unknown>TODO</Unknown>
+  <Unknown>desconegut</Unknown>
   <!-- EN: first name -->
-  <FirstName>TODO</FirstName>
+  <FirstName>nom</FirstName>
   <!-- EN: nickname -->
-  <NickName>TODO</NickName>
+  <NickName>sobrenom</NickName>
   <!-- EN: last name -->
-  <LastName>TODO</LastName>
+  <LastName>cognom</LastName>
   <!-- EN: title -->
-  <Title>Títol</Title>
+  <Title>títol</Title>
   <!-- EN: suggested -->
-  <Suggested>TODO</Suggested>
+  <Suggested>recomanat</Suggested>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -218,9 +218,9 @@
   <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do. -->
   <ModsMismatchWarningText>Aquest fitxer es va desar amb un grup de mods diferent del que esteu fent servir. Això us pot donar problemes, segons quins siguin els mods.\n\nEl fitxer es va desar amb (en aquest ordre):\n\n{0}\n\nEsteu executant (en aquest ordre):\n\n{1}</ModsMismatchWarningText>
   <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
-  <ModsMismatchOrderChanged>TODO</ModsMismatchOrderChanged>
+  <ModsMismatchOrderChanged>No s'han afegit ni tret mods, però l'ordre dels mods ha canviat.</ModsMismatchOrderChanged>
   <!-- EN: Are you sure you want to load the mod list from this save file? -->
-  <ConfirmLoadSaveList>TODO</ConfirmLoadSaveList>
+  <ConfirmLoadSaveList>Esteu segur que voleu carregar la llista de mods d'aquesta desada?</ConfirmLoadSaveList>
 
   <!-- Resolution change dialog -->
   <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
@@ -232,19 +232,19 @@
 
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
-  <ConfirmPermanentlyDisableDevMode>Esteu segur que voleu desactivar el mode de desenvolupament de forma permanent en aquest ordinador?\n\nAquesta opció és per a la gent que vol jugar sense la temptació de fer servir les eines de desenvolupament per obtenir avantatge.\n\nEl mode de desenvolupament es pot tornar a habilitar, però per fer-ho s’hauran d’editar manualment els fitxers de configuració. Haureu de navegar per internet i esbrinar com es fa.</ConfirmPermanentlyDisableDevMode>
+  <ConfirmPermanentlyDisableDevMode>Esteu segur que voleu desactivar el mode de desenvolupament de forma permanent en aquest ordinador?\n\nAquesta opció és per a la gent que vol jugar sense la temptació de fer servir les eines de desenvolupament per a obtenir avantatge.\n\nEl mode de desenvolupament es pot tornar a habilitar, però per a fer-ho s’hauran d’editar manualment els fitxers de configuració. Haureu de navegar per internet i esbrinar com es fa.</ConfirmPermanentlyDisableDevMode>
 
   <!-- Confirm reset learning helper -->
   <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
-  <ConfirmResetLearningHelper>TODO</ConfirmResetLearningHelper>
+  <ConfirmResetLearningHelper>Esteu segur que voleu restablir l'ajuda d'aprenentatge?\n\nTotes les marques de conceptes ja apresos s'esborraran i el sistema us ensenyarà tots els conceptes de nou.</ConfirmResetLearningHelper>
 
   <!-- Backstory translation restart dialog -->
   <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
-  <RestartAfterImportingLegacyBackstoryTanslations>TODO</RestartAfterImportingLegacyBackstoryTanslations>
+  <RestartAfterImportingLegacyBackstoryTanslations>Ara els rerefons personals s'implementen com a definicions i s'han importat les traduccions antigues dels rerefons. El fitxer {0} s'ha importat i s'ha mogut a {1}. Ara es pot esborrar.\n\nReinicieu la partida per tal que s'apliquin els canvis.</RestartAfterImportingLegacyBackstoryTanslations>
 
   <!-- Game start -->
   <!-- EN: Must include exactly {SUMMARY} -->
-  <SelectedCharactersMustInclude>TODO</SelectedCharactersMustInclude>
+  <SelectedCharactersMustInclude>Cal incloure-hi exactament {SUMMARY}</SelectedCharactersMustInclude>
 
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
@@ -307,9 +307,9 @@
   <!-- EN: Minimum skills: -->
   <MinimumSkills>Capacitat mínima:</MinimumSkills>
   <!-- EN: Requires -->
-  <BillRequires>Necessita {0} {1}</BillRequires>
+  <BillRequires>Necessita</BillRequires>
   <!-- EN: nutrition -->
-  <BillNutrition>TODO</BillNutrition>
+  <BillNutrition>nutrients</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
   <BillRequiresMayVary>Nota: Els ingredients amb poc volum com l’or en requerixen {0} vegades més.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
@@ -367,7 +367,7 @@
   <!-- EN: Melee warmup -->
   <MeleeWarmupTime>Temps entre cops</MeleeWarmupTime>
   <!-- EN: Aiming time -->
-  <RangedWarmupTime>Temps entre atacs a distància</RangedWarmupTime>
+  <RangedWarmupTime>Temps per a apuntar</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>Refredament</CooldownTime>
   <!-- EN: Disarmed -->
@@ -487,11 +487,11 @@
   <!-- EN: New addiction min tolerance -->
   <MinimumToleranceForAddiction>Tolerància mínima a noves addiccions</MinimumToleranceForAddiction>
   <!-- EN: Safe dose interval for adults -->
-  <SafeDoseInterval>Interval segur entre dosis</SafeDoseInterval>
+  <SafeDoseInterval>Interval segur entre dosis per a adults</SafeDoseInterval>
   <!-- EN: age {0}-{1} -->
-  <AgeXToY>TODO</AgeXToY>
+  <AgeXToY>edat entre {0} i {1}</AgeXToY>
   <!-- EN: age {0}+ -->
-  <AgePlus>TODO</AgePlus>
+  <AgePlus>més de {0} d'edat</AgePlus>
   <!-- EN: New addiction chance -->
   <Addictiveness>Possible addicció</Addictiveness>
   <!-- EN: Addiction initial severity -->
@@ -847,7 +847,7 @@
   <!-- EN: Automatically select travel supplies -->
   <AutomaticallySelectTravelSupplies>Selecciona automàticament la càrrega del viatge</AutomaticallySelectTravelSupplies>
   <!-- EN: This animal is sick. It is suffering from the following illnesses -->
-  <CaravanAnimalSick>TODO</CaravanAnimalSick>
+  <CaravanAnimalSick>Aquest animal està malalt. Pateix aquestes malalties</CaravanAnimalSick>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -1013,7 +1013,7 @@
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
-  <DefaultMedicineSettings>TODO</DefaultMedicineSettings>
+  <DefaultMedicineSettings>Opcions mèdiques per defecte</DefaultMedicineSettings>
   <!-- EN: Defaults -->
   <MedGroupDefaults>Estableix</MedGroupDefaults>
   <!-- EN: Colonist -->
@@ -1081,7 +1081,7 @@
 
   <!-- Abilities -->
   <!-- EN: Cannot use {0} -->
-  <CannotUseAbility>TODO</CannotUseAbility>
+  <CannotUseAbility>No pot fer servir {0}</CannotUseAbility>
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Cal línia de visió</AbilityRequiresLOS>
   <!-- EN: Neural heat gain -->
@@ -1097,17 +1097,17 @@
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>No hi ha línia de visió fins a l’objectiu.</AbilityCannotHitTarget>
   <!-- EN: Target is out of range. -->
-  <AbilityOutOfRange>TODO</AbilityOutOfRange>
+  <AbilityOutOfRange>L'objectiu està fora de l'abast.</AbilityOutOfRange>
   <!-- EN: Can't reach the target. -->
   <AbilityCannotReachTarget>No es pot arribar a l’objectiu.</AbilityCannotReachTarget>
   <!-- EN: Not enough free space. -->
   <AbilityNotEnoughFreeSpace>No hi ha prou espai lliure.</AbilityNotEnoughFreeSpace>
   <!-- EN: Must target an empty area. -->
-  <AbilityOccupiedCells>{0} ha de triar una zona buida.</AbilityOccupiedCells>
+  <AbilityOccupiedCells>S'ha de triar una zona buida.</AbilityOccupiedCells>
   <!-- EN: Must target a walkable area. -->
-  <AbilityUnwalkable>{0} ha de triar una zona transitable.</AbilityUnwalkable>
+  <AbilityUnwalkable>S'ha de triar una zona transitable.</AbilityUnwalkable>
   <!-- EN: Must target an unroofed area. -->
-  <AbilityRoofed>{0} ha de triar una zona sense teulada.</AbilityRoofed>
+  <AbilityRoofed>S'ha de triar una zona sense teulada.</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
   <AbilityCantApplyToMentallyBroken>{0_definite} té una crisi nerviosa.</AbilityCantApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not mentally broken. -->
@@ -1127,9 +1127,9 @@
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_definite} no té un genere que atragui {0_definite}.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: {0_labelShort} is too young. -->
-  <AbilityCantApplyTooYoung>TODO</AbilityCantApplyTooYoung>
+  <AbilityCantApplyTooYoung>{0_labelShort} és massa jove.</AbilityCantApplyTooYoung>
   <!-- EN: Cannot target a baby. -->
-  <AbilityCantApplyOnBaby>TODO</AbilityCantApplyOnBaby>
+  <AbilityCantApplyOnBaby>No es pot apuntar a un nadó.</AbilityCantApplyOnBaby>
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>Cost de la psicoconcentració per intensitat de la crisi nerviosa</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
@@ -1261,7 +1261,7 @@
   <RoomRequirementNoAltars>no s’hi permeten altars</RoomRequirementNoAltars>
 
   <!-- EN: Lifestage max food factor -->
-  <LifeStageMaxFood>TODO</LifeStageMaxFood>
+  <LifeStageMaxFood>Factor d'alimentació màx. d'etapa vital</LifeStageMaxFood>
 
   <!-- EN: Expand all -->
   <ExpandAllCategories>Expandeix-ho tot</ExpandAllCategories>
@@ -1272,57 +1272,57 @@
   <TooltipDyeExplanation>Els tints es poden aconseguir amb la planta tintorera o bé comprant-ne als comerciants.</TooltipDyeExplanation>
 
   <!-- EN: Zoom range {0} -->
-  <ZoomRange>TODO</ZoomRange>
+  <ZoomRange>Abast del zoom {0}</ZoomRange>
 
   <!-- Color picker -->
   <!-- EN: color temperature -->
-  <ColorTemperature>TODO</ColorTemperature>
+  <ColorTemperature>color de la temperatura</ColorTemperature>
   <!-- EN: choose a color -->
-  <ChooseAColor>TODO</ChooseAColor>
+  <ChooseAColor>escull un color</ChooseAColor>
   <!-- EN: red -->
-  <Red>TODO</Red>
+  <Red>roig</Red>
   <!-- EN: green -->
-  <Green>TODO</Green>
+  <Green>verd</Green>
   <!-- EN: blue -->
-  <Blue>TODO</Blue>
+  <Blue>blau</Blue>
   <!-- EN: hue -->
-  <Hue>TODO</Hue>
+  <Hue>to</Hue>
   <!-- EN: sat -->
-  <Saturation>TODO</Saturation>
+  <Saturation>saturació</Saturation>
   <!-- EN: value -->
-  <Value>Valor</Value>
+  <Value>valor</Value>
   <!-- EN: darklight -->
-  <Darklight>TODO</Darklight>
+  <Darklight>llum fosca</Darklight>
   <!-- EN: not darklight -->
-  <NotDarklight>TODO</NotDarklight>
+  <NotDarklight>no pas llum fosca</NotDarklight>
   <!-- EN: current color -->
-  <CurrentColor>TODO</CurrentColor>
+  <CurrentColor>color actual</CurrentColor>
   <!-- EN: old color -->
-  <OldColor>TODO</OldColor>
+  <OldColor>color anterior</OldColor>
   <!-- EN: Copy color -->
-  <CommandCopyColorLabel>TODO</CommandCopyColorLabel>
+  <CommandCopyColorLabel>Copia el color</CommandCopyColorLabel>
   <!-- EN: Copy the current color to the clipboard. -->
-  <CommandCopyColorDesc>TODO</CommandCopyColorDesc>
+  <CommandCopyColorDesc>Copia el color actual al porta-retalls.</CommandCopyColorDesc>
   <!-- EN: Paste color -->
-  <CommandPasteColorLabel>TODO</CommandPasteColorLabel>
+  <CommandPasteColorLabel>Enganxa el color</CommandPasteColorLabel>
   <!-- EN: Overwrite the color with the color in the clipboard. -->
-  <CommandPasteColorDesc>TODO</CommandPasteColorDesc>
+  <CommandPasteColorDesc>Sobreescriu el color amb el color que hi ha al porta-retalls.</CommandPasteColorDesc>
   <!-- EN: The clipboard does not contain a valid color. -->
-  <ClipboardInvalidColor>TODO</ClipboardInvalidColor>
+  <ClipboardInvalidColor>El porta-retalls no conté un color vàlid.</ClipboardInvalidColor>
   <!-- EN: Color copied to clipboard. -->
-  <ColorCopiedSuccessfully>TODO</ColorCopiedSuccessfully>
+  <ColorCopiedSuccessfully>S'ha copiat el color al porta-retalls.</ColorCopiedSuccessfully>
   <!-- EN: Updated color from the clipboard. -->
-  <ColorPastedSuccessfully>TODO</ColorPastedSuccessfully>
+  <ColorPastedSuccessfully>S'ha actualitzat el color des del porta-retalls.</ColorPastedSuccessfully>
   <!-- EN: Change to normal light -->
-  <ToggleDarklightOff>TODO</ToggleDarklightOff>
+  <ToggleDarklightOff>Canvia a llum normal</ToggleDarklightOff>
   <!-- EN: Change the light color to its normal color. -->
-  <ToggleDarklightOffDesc>TODO</ToggleDarklightOffDesc>
+  <ToggleDarklightOffDesc>Canvia el color de la llum al seu color normal.</ToggleDarklightOffDesc>
   <!-- EN: Change to darklight -->
-  <ToggleDarklightOn>TODO</ToggleDarklightOn>
+  <ToggleDarklightOn>Canvia a llum fosca</ToggleDarklightOn>
   <!-- EN: Change the light color to darklight. -->
-  <ToggleDarklightOnDesc>TODO</ToggleDarklightOnDesc>
+  <ToggleDarklightOnDesc>Canvia el color de la llum a llum fosca.</ToggleDarklightOnDesc>
   <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
-  <ColorTemperatureTooltip>TODO</ColorTemperatureTooltip>
+  <ColorTemperatureTooltip>Escolliu un color per a la temperatura. Nota: Això només afecta al color de visualització de la temperatura i no pas a l'escalfament que produeix.</ColorTemperatureTooltip>
 
   <!-- UNUSED -->
   <BillRequiresNutrition>Necessita {0} nutrients</BillRequiresNutrition>

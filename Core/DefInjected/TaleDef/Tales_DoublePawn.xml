@@ -402,8 +402,8 @@
     <li>tale_noun->la doma per part de [TAMER_nameDef] de [ANIMAL_nameDef]</li>
     <li>image->[TAMER_nameFull] domesticant [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[TAMER_nameFull] oferint menjar a [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] xiuxiuejant a un inquiet [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] calmant a un [ANIMAL_nameFull] salvatge [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] xiuxiuejant a un [ANIMAL_label] inquiet [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] calmant a un [ANIMAL_label] salvatge [circumstance_group]</li>
     <li>circumstance_phrase->amb molta precaució i cura</li>
     <li>circumstance_phrase->amb un somriure</li>
     <li>circumstance_phrase->cansat però content</li>
@@ -515,8 +515,8 @@
     <li>desc_sentence->[ANIMAL_nameDef]  està representat per un grup d’eines elèctriques.</li>
     <li>desc_sentence->[ANIMAL_nameDef] és meitat [Color] i meitat[Color].</li>
     <li>desc_sentence->[ANIMAL_nameDef] està ple de crostes.</li>
-    <li>desc_sentence->[TRAINER_nameDef] està dibuixat amb [quantity] braços.</li>
-    <li>desc_sentence->[TRAINER_nameDef] s’està convertint en [ANIMAL_ShortDefinite].</li>
+    <li>desc_sentence->[TRAINER_nameDef] està dibuixat amb [Quantity_adjphrase] braços.</li>
+    <li>desc_sentence->[TRAINER_nameDef] s’està convertint en [ANIMAL_definite].</li>
   </TrainedAnimal.rulePack.rulesStrings>
   
 </LanguageData>

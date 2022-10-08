@@ -11,7 +11,7 @@
   <!-- EN: Read more -->
   <ReadMore>Mostra’n més</ReadMore>
   <!-- EN: You have {0} more letters -->
-  <MoreLetters>TODO</MoreLetters>
+  <MoreLetters>Teniu {0} missatges més</MoreLetters>
 
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>Estiu</LetterLabelFirstSummerWarning>
@@ -79,9 +79,9 @@
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>És l’aniversari cronològic de {0}! Des del punt de vista biològic, {1} té {3} anys.\n\nDes del cronològic, {1} n’acaba de fer {2}.\n\nCom que la gent no envelleix durant el criptoson, l’aniversari cronològic és diferent del biològic.</BirthdayChronological>
   <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
-  <LetterBirthdayBiological>TODO</LetterBirthdayBiological>
+  <LetterBirthdayBiological>{0_nameFull} ja ha arribat a l'edat biològica {1}.</LetterBirthdayBiological>
   <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
-  <BirthdayBiologicalAgeInjuries>{0_definite} acaba de fer {1} anys biològics.\n\nMalauradament, ha adquirit les següents afeccions per l’edat:\n{2}</BirthdayBiologicalAgeInjuries>
+  <BirthdayBiologicalAgeInjuries>Malauradament, pateix les següents afeccions per l’edat que té</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
   <LetterLabelNewDisease>Malaltia</LetterLabelNewDisease>
@@ -424,7 +424,7 @@
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on -->
-  <LetterDisease_Blocked>{0} ha blocat {1} a: {2}.</LetterDisease_Blocked>
+  <LetterDisease_Blocked>{0} ha blocat {1} a</LetterDisease_Blocked>
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Malaltia: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
@@ -546,15 +546,25 @@
   <LetterTextSiteCountdownStarted>Han detectat la vostra caravana. D’aquí a {0}, arribaran a l’àrea {1} de reforç de {2}.\n\nReformeu la caravana i feu que es mogui per a evitar el {1}. Es mostra un comptador cap enrere que indica quan arribaran.</LetterTextSiteCountdownStarted>
 
   <!-- EN: Unwavering prisoner -->
-  <LetterLabelUnrecruitablePawnCaptured>TODO</LetterLabelUnrecruitablePawnCaptured>
+  <LetterLabelUnrecruitablePawnCaptured>Presoner obstinat</LetterLabelUnrecruitablePawnCaptured>
   <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
-  <LetterTextUnrecruitablePawnCaptured>TODO</LetterTextUnrecruitablePawnCaptured>
+  <LetterTextUnrecruitablePawnCaptured>{PAWN_nameDef} és lleial d'una manera obsessiva a la seva facció i es negarà a que {PAWN_gender ? el : la} reclutin.\n\nPodeu veure si algú és lleial obstinat si el seleccioneu.</LetterTextUnrecruitablePawnCaptured>
   <!-- EN: enslave {PAWN_objective} -->
-  <OptionalEnslaveDesc>TODO</OptionalEnslaveDesc>
+  <OptionalEnslaveDesc>esclavitza {PAWN_objective}</OptionalEnslaveDesc>
 
   <!-- Lung rot -->
   <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
-  <LetterTextLungRot>TODO</LetterTextLungRot>
+  <LetterTextLungRot>{PAWN} ha emmalaltit de {1} degut a la seva exposició a llarg termini als gasos de putrefacció que emeten els cadàvers que es podreixen.\n\nAssegureu-vos que teniu un llit mèdic, un metge i que {PAWN_definite} rep un tractament adequat.</LetterTextLungRot>
+
+  <!-- Join Offer -->
+  <!-- EN: Join offer: {PAWN_nameDef} -->
+  <LetterJoinOfferLabel>Oferta d’unió: {PAWN_nameDef}</LetterJoinOfferLabel>
+  <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
+  <LetterJoinOfferTitle>{PAWN_nameDef} vol unir-se a la vostra facció.</LetterJoinOfferTitle>
+  <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
+  <LetterJoinOfferText>{PAWN_nameDef} creu que és feliç en {MAP_definite}. {PAWN_pronoun} se us vol unir permanentment.</LetterJoinOfferText>
+  <!-- EN: Accept -->
+  <LetterJoinOfferAccept>Accepta’l</LetterJoinOfferAccept>
 
   <!-- UNUSED -->
   <LetterLabelSurgeryFailed>La cirurgia de {PATIENT_labelShort} ha fallat</LetterLabelSurgeryFailed>

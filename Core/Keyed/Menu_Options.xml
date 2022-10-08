@@ -5,7 +5,7 @@
   <!-- EN: Audiovisuals -->
   <Audiovisuals>Àudio i vídeo</Audiovisuals>
   <!-- EN: Master volume -->
-  <MasterVolume>TODO</MasterVolume>
+  <MasterVolume>Volum principal</MasterVolume>
   <!-- EN: Game volume -->
   <GameVolume>Volum del joc</GameVolume>
   <!-- EN: Music volume -->
@@ -13,33 +13,33 @@
   <!-- EN: Ambience volume -->
   <AmbientVolume>Volum del so ambient</AmbientVolume>
   <!-- EN: UI volume -->
-  <UIVolume>TODO</UIVolume>
+  <UIVolume>Volum de la interfície</UIVolume>
   <!-- EN: Affects all sounds. -->
-  <MasterVolumeTooltip>TODO</MasterVolumeTooltip>
+  <MasterVolumeTooltip>Afecta a tots els sons.</MasterVolumeTooltip>
   <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
-  <GameVolumeTooltip>TODO</GameVolumeTooltip>
+  <GameVolumeTooltip>Afecta a tots els sons que provenen del món, com ara els cops per a tallar arbres o per a construir parets.</GameVolumeTooltip>
   <!-- EN: Affects music. -->
-  <MusicVolumeTooltip>TODO</MusicVolumeTooltip>
+  <MusicVolumeTooltip>Afecta a la música.</MusicVolumeTooltip>
   <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
-  <AmbientVolumeTooltip>TODO</AmbientVolumeTooltip>
+  <AmbientVolumeTooltip>Afecta a tots els sons ambientals, com ara el vent o el soroll dels insectes.</AmbientVolumeTooltip>
   <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
-  <UIVolumeTooltip>TODO</UIVolumeTooltip>
+  <UIVolumeTooltip>Afecta a tots els sons de la interfície, com ara quan es prem un botó o es rep un missatge.</UIVolumeTooltip>
   <!-- EN: Anti-aliasing -->
   <Antialiasing>Suavitza les vores</Antialiasing>
 
   <!-- Gameplay -->
   <!-- EN: Screen-edge mouse scroll -->
-  <EdgeScreenScroll>Desplaça amb ratolí a la vora</EdgeScreenScroll>
+  <EdgeScreenScroll>Desplaça quan el ratolí estigui a la vora</EdgeScreenScroll>
   <!-- EN: Pause on load -->
   <PauseOnLoad>Posa en pausa després de carregar</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
   <PauseOnUrgentLetter>Posa en pausa si arriba un avís urgent</PauseOnUrgentLetter>
   <!-- EN: Pause on letter -->
-  <AutomaticPauseModeSetting>Pausa automàtica</AutomaticPauseModeSetting>
+  <AutomaticPauseModeSetting>Pose en pausa quan arribi un missatge</AutomaticPauseModeSetting>
   <!-- EN: Disable game-specific cursor -->
-  <CustomCursor>Cursor personalitzat</CustomCursor>
+  <CustomCursor>Desactiva el cursor específic del joc</CustomCursor>
   <!-- EN: Hide hats on UI -->
-  <HatsShownOnlyOnMap>Mostra els barrets només al mapa</HatsShownOnlyOnMap>
+  <HatsShownOnlyOnMap>Amaga els barrets a la interfície</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
   <UIScale>Escala de la interfície</UIScale>
   <!-- EN: Keyboard configuration -->
@@ -47,7 +47,7 @@
   <!-- EN: Controller configuration -->
   <ControllerConfig>Configuració del controlador</ControllerConfig>
   <!-- EN: Modify -->
-  <ModifyConfig>TODO</ModifyConfig>
+  <ModifyConfig>Modifica</ModifyConfig>
   <!-- EN: Choose language -->
   <ChooseLanguage>Idioma</ChooseLanguage>
   <!-- EN: Reset learning helper -->
@@ -67,25 +67,25 @@
   <!-- EN: Simulate not owning Ideology -->
   <SimulateNotOwningIdeology>Simula que no es té el DLC «Ideologia»</SimulateNotOwningIdeology>
   <!-- EN: Simulate not owning Biotech -->
-  <SimulateNotOwningBiotech>TODO</SimulateNotOwningBiotech>
+  <SimulateNotOwningBiotech>Simula que no es té el DLC «Biotec»</SimulateNotOwningBiotech>
   <!-- EN: Verbose logging -->
   <LogVerbose>Registre detallat</LogVerbose>
   <!-- EN: Save data folder -->
-  <SaveGameDataFolder>TODO</SaveGameDataFolder>
+  <SaveGameDataFolder>Carpeta de les desades</SaveGameDataFolder>
   <!-- EN: Save data location -->
-  <SaveGameDataLocation>TODO</SaveGameDataLocation>
+  <SaveGameDataLocation>Lloc de les desades</SaveGameDataLocation>
   <!-- EN: Log file folder -->
-  <LogFileFolder>TODO</LogFileFolder>
+  <LogFileFolder>Carpeta dels fitxers de registre</LogFileFolder>
   <!-- EN: Log file location -->
-  <LogFileLocation>TODO</LogFileLocation>
+  <LogFileLocation>Lloc dels fitxers de registre</LogFileLocation>
   <!-- EN: Open -->
-  <OpenFolder>TODO</OpenFolder>
+  <OpenFolder>Obre</OpenFolder>
   <!-- EN: Show -->
-  <ShowFolder>TODO</ShowFolder>
+  <ShowFolder>Mostra</ShowFolder>
   <!-- EN: Preferred "Name in Game" characters -->
-  <NamesYouWantToSee>Noms dels personatges inicials preferits pel jugador. Aquests personatges també tindran una probabilitat major d’aparèixer durant la partida:</NamesYouWantToSee>
+  <NamesYouWantToSee>Personatges preferits</NamesYouWantToSee>
   <!-- EN: These characters will be more likely to appear randomly during play. -->
-  <NamesYouWantToSeeSubText>TODO</NamesYouWantToSeeSubText>
+  <NamesYouWantToSeeSubText>Aquests personatges tindran una probabilitat més gran d'aparèixer durant la partida.</NamesYouWantToSeeSubText>
   <!-- EN: Add name -->
   <AddName>Afegeix un nom</AddName>
   <!-- EN: Type the first name, nickname, or last name. -->
@@ -95,11 +95,11 @@
   <!-- EN: Storyteller settings -->
   <ChangeStoryteller>Configuració del narrador</ChangeStoryteller>
   <!-- EN: Autosave interval -->
-  <AutosaveInterval>Autodesa cada:</AutosaveInterval>
+  <AutosaveInterval>Interval de desades automàtiques</AutosaveInterval>
   <!-- EN: The number of in game days between each auto save. -->
-  <AutosaveIntervalTooltip>TODO</AutosaveIntervalTooltip>
+  <AutosaveIntervalTooltip>Indica cada quants dies de partida s'ha de desar la partida automàticament.</AutosaveIntervalTooltip>
   <!-- EN: Temperature unit -->
-  <TemperatureMode>Temperatura</TemperatureMode>
+  <TemperatureMode>Unitat de temperatura</TemperatureMode>
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>Mostra el rellotge real</ShowRealtimeClock>
   <!-- EN: Disable tiny font -->
@@ -107,7 +107,7 @@
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>Nombre màxim de colònies: {0}</MaxNumberOfPlayerSettlements>
   <!-- EN: Map mouse drag sensitivity -->
-  <MapDragSensitivity>Sensibilitat de l’arrossegament\nde ratolí pel mapa</MapDragSensitivity>
+  <MapDragSensitivity>Sensibilitat del ratolí pel mapa</MapDragSensitivity>
   <!-- EN: Plant wind sway -->
   <PlantWindSway>El vent mou les plantes</PlantWindSway>
   <!-- EN: Enable test map sizes -->
@@ -123,9 +123,9 @@
   <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
   <TextureCompression_Tooltip>Si es desactiva la compressió de textures, s’emprarà més memòria de vídeo, però les textures mostraran més detalls i una aparença millor en algunes àrees. Desactiveu-ho només si teniu molta memòria de vídeo.\n\nTingueu en compte que alguns mods solen consumir molta memòria de vídeo. Segons els mods amb què jugueu, l’hauríeu d’activar.</TextureCompression_Tooltip>
   <!-- EN: Smooth camera jumps -->
-  <SmoothCameraJumps>TODO</SmoothCameraJumps>
+  <SmoothCameraJumps>Salts de càmera suaus</SmoothCameraJumps>
   <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
-  <SmoothCameraJumpsDesc>TODO</SmoothCameraJumpsDesc>
+  <SmoothCameraJumpsDesc>Quan està activat i s'hagi d'anar a un lloc diferent del món, la càmera es desplaçarà de pressa fins a arribar a l'altre lloc. Quan no està activat, hi saltarà directament.</SmoothCameraJumpsDesc>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
@@ -133,9 +133,9 @@
   <!-- EN: Fullscreen -->
   <Fullscreen>Pantalla completa</Fullscreen>
   <!-- EN: Borderless fullscreen -->
-  <BorderlessFullscreen>TODO</BorderlessFullscreen>
+  <BorderlessFullscreen>Pantalla completa sense vora</BorderlessFullscreen>
   <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
-  <BorderlessFullscreenInstructions>TODO</BorderlessFullscreenInstructions>
+  <BorderlessFullscreenInstructions>Per a executar RimWorld en mode de pantalla completa sense vora:\n\n1) Obriu l'Steam.\n2) Aneu a la pestanya de «Biblioteca» a la part superior.\n3) Busqueu el RimWorld a la llista i feu-hi clic amb el botó dret.\n4) Trieu «Propietats…».\n5) Afegiu «-popupwindow» sense les cometes a «Opcions d'execució» de la pestanya «General».\n6) Reinicieu el joc.\n7) Si s'ha fet correctament, no veureu aquesta finestra.\n\nRecomanació: Feu servir la combinació «Tecla de Windows + Maj + Esquerra/Dreta» per a moure la finestra pels monitors.</BorderlessFullscreenInstructions>
 
   <!-- Mods -->
   <!-- EN: Select mod... -->
@@ -145,11 +145,11 @@
   
   <!-- Options reset -->
   <!-- EN: Restore all settings to default -->
-  <RestoreToDefaultSettingsLabel>TODO</RestoreToDefaultSettingsLabel>
+  <RestoreToDefaultSettingsLabel>Restableix totes les opcions</RestoreToDefaultSettingsLabel>
   <!-- EN: Restore defaults -->
-  <RestoreToDefaultSettings>Restableix la configuració per defecte</RestoreToDefaultSettings>
+  <RestoreToDefaultSettings>Restableix per defecte</RestoreToDefaultSettings>
   <!-- EN: All settings have been reset. The game will now restart automatically. -->
-  <ResetAndRestart>La configuració s’ha restaurat. El joc es reiniciarà de forma automàtica.</ResetAndRestart>
+  <ResetAndRestart>La configuració s’ha restablert. El joc es reiniciarà de forma automàtica.</ResetAndRestart>
   <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->
   <ResetAndRestartConfirmationDialog>Es restablirà la configuració per defecte i el programa es reiniciarà. Es perdran les dades que no s’hagin desat.\n\nVoleu continuar?</ResetAndRestartConfirmationDialog>
   <!-- EN: Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue? -->

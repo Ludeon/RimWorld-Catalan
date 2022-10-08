@@ -73,7 +73,7 @@
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>Un caçador no té arma a distància</HunterLacksWeapon>
   <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon.\n\nThe following colonists are assigned as hunters and need ranged weapons -->
-  <HunterLacksWeaponDesc>Un colon que té tasques de caçador no disposa d’arma a distància.\n\nNo caçarà fins que en porti una.</HunterLacksWeaponDesc>
+  <HunterLacksWeaponDesc>Un colon caçador no disposa d’arma a distància.\n\nNo caçarà fins que en porti una.\n\nAquests colons tenen assignades tasques de caça però no tenen una arma a distància</HunterLacksWeaponDesc>
 
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>Roba esparracada</AlertTatteredApparel>
@@ -131,11 +131,11 @@
   <!-- EN: Need batteries -->
   <NeedBatteries>Falten bateries</NeedBatteries>
   <!-- EN: You have a solar or wind generator, but no batteries. You'll lose power every time the sun goes down or the wind calms. -->
-  <NeedBatteriesDesc>Teniu un panell solar o un generador eòlic, però no teniu bateries. Per tant, us quedareu sense electricitat quan s’amagui el sol o no faci vent.\n\nPoseu una o dues bateries per garantir el subministrament.</NeedBatteriesDesc>
+  <NeedBatteriesDesc>Teniu un panell solar o un generador eòlic, però no teniu bateries. No emmagatzemareu l'energia sobrant i us podeu quedar sense electricitat quan s’amagui el sol o no faci vent.\n\nPoseu una o dues bateries per garantir el subministrament.</NeedBatteriesDesc>
   <!-- EN: Build a battery or two to guarantee sustained power. -->
-  <NeedBatteriesResearchedDesc>TODO</NeedBatteriesResearchedDesc>
+  <NeedBatteriesResearchedDesc>Poseu una o dues bateries per a garantir el subministrament.</NeedBatteriesResearchedDesc>
   <!-- EN: Research batteries and build a couple to guarantee sustained power. -->
-  <NeedBatteriesNotResearchedDesc>TODO</NeedBatteriesNotResearchedDesc>
+  <NeedBatteriesNotResearchedDesc>Investigueu la tecnologia per a fer bateries i afegiu-ne un parell a la xarxa elèctrica per a garantir un subministrament continu.</NeedBatteriesNotResearchedDesc>
 
   <!-- EN: Brawler has ranged weapon -->
   <BrawlerHasRangedWeapon>Un sarauista porta una arma a distància</BrawlerHasRangedWeapon>
@@ -163,11 +163,11 @@
   <CaravanIdleDesc>Aquestes caravanes esperen que els indiqueu la seva propera destinació:\n\n{0}</CaravanIdleDesc>
 
   <!-- EN: Medical treatment needed -->
-  <ColonistNeedsTreatment>Algun colon necessita tractament mèdic</ColonistNeedsTreatment>
+  <ColonistNeedsTreatment>Cal tractament mèdic</ColonistNeedsTreatment>
   <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDesc>Aquests colons necessiten tractament mèdic. Si no, poden morir o patir seqüeles.\n\n{0}\nTracteu-los enviant-los a un llit mèdic.\n\nPrimer, heu de seleccionar un llit i triar usar-lo per motius mèdics. Després, seleccioneu el colon ferit i feu clic dret sobre el llit per convertir-lo en pacient.</ColonistNeedsTreatmentDesc>
+  <ColonistNeedsTreatmentDesc>Aquestes persones necessiten tractament mèdic. Si no, poden morir o patir seqüeles.\n\n{0}\nTracteu-los enviant-los a un llit mèdic.\n\nPrimer, heu de seleccionar un llit i triar usar-lo per motius mèdics. Després, seleccioneu la persona ferida i feu clic dret sobre el llit per a establir-la com a pacient.</ColonistNeedsTreatmentDesc>
   <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDescController>Aquests colons necessiten tractament mèdic. Si no, poden morir o patir seqüeles.\n\n{0}\nTracteu-los enviant-los a un llit mèdic.\n\nPrimer, heu de seleccionar un llit i triar usar-lo per motius mèdics. Després, seleccioneu el colon ferit i premeu el botó del gallet esquerre mentre manteniu el cursor sobre el llit per convertir-lo en pacient.</ColonistNeedsTreatmentDescController>
+  <ColonistNeedsTreatmentDescController>Aquestes persones necessiten tractament mèdic. Si no, poden morir o patir seqüeles.\n\n{0}\nTracteu-los enviant-los a un llit mèdic.\n\nPrimer, heu de seleccionar un llit i triar usar-lo per motius mèdics. Després, seleccioneu la persona ferida i premeu el botó del gallet esquerre mentre manteniu el cursor sobre el llit per a establir-la com a pacient.</ColonistNeedsTreatmentDescController>
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>Hipotèrmia</AlertHypothermia>
@@ -197,14 +197,14 @@
   <BilliardsNeedsSpaceDesc>Un billar toca a alguna obstrucció que impedeix que els colons la puguin fer servir.\n\nUna taula de billar necessita espai lliure per tots costats per a poder-hi jugar.</BilliardsNeedsSpaceDesc>
 
   <!-- EN: Chess table needs chairs -->
-  <ChessTablesNeedChairs>TODO</ChessTablesNeedChairs>
+  <ChessTablesNeedChairs>Al tauler d'escacs li falten cadires</ChessTablesNeedChairs>
   <!-- EN: One of your chess tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the chess table. Up to two people can use a chess table at once. -->
-  <ChessTablesNeedChairsDesc>TODO</ChessTablesNeedChairsDesc>
+  <ChessTablesNeedChairsDesc>Un dels vostres taulers d'escacs no tenen cadires o tamborets adjacents.\n\nPoseu-n'hi per tal que els colons puguin fer servir el tauler. El poden fer servir fins a dues persones a la vegada.</ChessTablesNeedChairsDesc>
 
   <!-- EN: Poker table needs chairs -->
-  <PokerTablesNeedChairs>TODO</PokerTablesNeedChairs>
+  <PokerTablesNeedChairs>A la taula de cartes li falten cadires</PokerTablesNeedChairs>
   <!-- EN: One of your poker tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the poker table. Up to eight people can use a poker table at once. -->
-  <PokerTablesNeedChairsDesc>TODO</PokerTablesNeedChairsDesc>
+  <PokerTablesNeedChairsDesc>Una de les vostres taules de cartes no tenen cadires o tamborets adjacents.\n\nPoseu-n'hi per tal que els colons puguin jugar a cartes. La poden fer servir fins a vuit persones a la vegada.</PokerTablesNeedChairsDesc>
 
   <!-- EN: Hunter has shield and ranged weapon -->
   <HunterHasShieldAndRangedWeapon>Un caçador porta escut personal i arma a distància</HunterHasShieldAndRangedWeapon>
@@ -330,8 +330,8 @@
   <AlertMinifiedTreeAboutToDieDesc>{0} arbres extrets del terra moriran aviat en menys d’un dia. Alguns colons es sentiran infeliços per les seves creences.\n\nHo evitareu si replanteu els arbres.</AlertMinifiedTreeAboutToDieDesc>
 
   <!-- EN: Need research bench -->
-  <NeedResearchBench>TODO</NeedResearchBench>
+  <NeedResearchBench>Cal un banc de recerca</NeedResearchBench>
   <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
-  <NeedResearchBenchDesc>TODO</NeedResearchBenchDesc>
+  <NeedResearchBenchDesc>Teniu actiu el projecte de recerca «{0}». El projecte requereix que construïu {1}.</NeedResearchBenchDesc>
   
 </LanguageData>

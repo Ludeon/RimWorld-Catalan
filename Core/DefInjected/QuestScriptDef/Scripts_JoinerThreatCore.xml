@@ -7,7 +7,9 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->Un [joiner_title] que es diu [joiner_nameDef] i té [joiner_age] anys us demana ajuda. Està per la zona i l’estan perseguint els [enemyFaction_pawnsPlural] de [enemyFaction_name]!\n\nUs sol·licita que l’ajudeu i s’ofereix per unir-se al vostre grup a [map_definite].[joiner_relationInfo]\n\nSi voleu acceptar, haureu de lluitar contra [enemyFaction_pawnsPluralDef] que van darrera d’[joiner_pronoun]. El grup de [enemyFaction_pawnsPlural] el formen: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] està massa alterat per donar més informació.</li>
+    <li>questDescription->[introduction] que es diu [joiner_nameDef] us demana ajuda. Està per la zona i l’estan perseguint els [enemyFaction_pawnsPlural] de [enemyFaction_name]!\n\nUs demana que l’ajudeu i s’ofereix per unir-se al vostre grup a [map_definite].[joiner_relationInfo]\n\nSi voleu acceptar, haureu de lluitar contra [enemyFaction_pawnsPluralDef] que van darrera d’[joiner_pronoun]. El grup de [enemyFaction_pawnsPlural] el formen: \n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] està massa alterat per donar més informació.</li>
+    <li>introduction(childCount==1,priority=1)->Un nen de [joiner_age] anys</li>
+    <li>introduction->Un [joiner_title] de [joiner_age] anys</li>
   </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [runnerIndef]</li>
@@ -37,6 +39,7 @@
     <li>runnerIndef->[joiner_titleIndef]</li>
     <li>runnerIndef->[joiner_nameIndef]</li>
     <li>runnerIndef->un refugiat</li>
+    <li>runnerIndef(childCount==1,priority=1)->un nen</li>
   </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
   <ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL} persegueixen [../joiner_nameDef]</ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>

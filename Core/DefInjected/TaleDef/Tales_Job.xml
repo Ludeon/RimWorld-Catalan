@@ -336,10 +336,10 @@
     <li>tale_noun->[human_nameShortDef] domesticant un altre animal a la creixent [animalgroup]</li>
     <li>tale_noun->[human_nameShortDef] seguit per una [animalgroup]</li>
     <li>tale_noun->la doma de [human_nameShortDef] de [animal_nameShortDef]</li>
-    <li>image->[human_nameFull] domant [animal_nameFull] [circumstance_group]</li>
-    <li>image->[human_nameFull] oferint un tros de menjar a [animal_nameFull] [circumstance_group]</li>
-    <li>image->[human_nameFull] xiuxiuejant a un espantadís [animal_nameFull] [circumstance_group]</li>
-    <li>image->[human_nameFull] calmant un  [animal_nameFull] salvatge [circumstance_group]</li>
+    <li>image->[human_nameFull] domant [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[human_nameFull] oferint un tros de menjar a [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[human_nameFull] xiuxiuejant a un espantadís [ANIMAL_label] [circumstance_group]</li>
+    <li>image->[human_nameFull] calmant un  [ANIMAL_label] salvatge [circumstance_group]</li>
     <li>circumstance_phrase->amb molta cura i precaució</li>
     <li>circumstance_phrase->amb un somriure</li>
     <li>circumstance_phrase->cansat però content</li>

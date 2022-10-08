@@ -89,11 +89,11 @@
     <li>title_sentence->The title of [THING_definite], [THING_title], hangs in the background</li>
   -->
   <CraftedArt.rulePack.rulesStrings>
-    <li>tale_noun->l’instant en el què [pawn_nameShortDef] va realitzar [thing_labelIndefinite]</li>
-    <li>image->[pawn_nameFull] creant [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[pawn_nameFull] acabant de treballar en [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[pawn_nameFull] treballant en [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[pawn_nameFull] fent [thing_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>tale_noun->l’instant en el què [PAWN_nameShortDef] va realitzar [THING_labelIndefinite]</li>
+    <li>image->[pawn_nameFull] creant [THING_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[pawn_nameFull] acabant de treballar en [THING_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[pawn_nameFull] treballant en [THING_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[pawn_nameFull] fent [THING_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
     <li>circumstance_phrase->amb una concentració total</li>
     <li>circumstance_phrase->amb un gest de satisfacció a la cara</li>
     <li>circumstance_phrase->a la seva taula de treball</li>
@@ -103,17 +103,17 @@
     <li>desc_sentence->Té el cos amarat de suor.</li>
     <li>desc_sentence->La zona de treball està molt endreçada, cada eina al seu lloc.</li>
     <li>desc_sentence->El dibuix està exagerat per donar-li més força.</li>
-    <li>desc_sentence->La mida de [thing_labelDefinite] està exagerada per donar-li més importància.</li>
-    <li>desc_sentence->[thing_labelDefinite] té una brillantor afegida. Sembla pràcticament angelical.</li>
-    <li>desc_sentence->[pawn_nameShortDef] queda una mica al fons per a emfatitzar la seva nova creació.</li>
+    <li>desc_sentence->La mida de [THING_labelDefinite] està exagerada per donar-li més importància.</li>
+    <li>desc_sentence->[THING_labelDefinite] té una brillantor afegida. Sembla pràcticament angelical.</li>
+    <li>desc_sentence->[PAWN_nameShortDef] queda una mica al fons per a emfatitzar la seva nova creació.</li>
     <li>desc_sentence->L’envolten [quantity_adjphrase] espectadors.</li>
     <li>desc_sentence->Al fons una colla d’exclamacions d’admiració.</li>
-    <li>quality_sentence->[thing_labelDefinite] sembla d’una qualitat [thing_quality]</li>
-    <li>quality_sentence->[thing_labelDefinite] és d’una qualitat [thing_quality]</li>
-    <li>quality_sentence->El treball de [pawn_nameShortDef] és d’una qualitat [thing_quality]</li>
-    <li>title_sentence->El títol de [thing_labelDefinite] de [pawn_nameShortDef] està escrit a sota: [thing_title]</li>
-    <li>title_sentence->[thing_labelDefinite] està estampat amb el nom: [thing_title]</li>
-    <li>title_sentence->El títol de [thing_labelDefinite], [thing_title], penja del fons</li>
+    <li>quality_sentence->[THING_labelDefinite] sembla d’una qualitat [THING_quality]</li>
+    <li>quality_sentence->[THING_labelDefinite] és d’una qualitat [THING_quality]</li>
+    <li>quality_sentence->El treball de [PAWN_nameShortDef] és d’una qualitat [THING_quality]</li>
+    <li>title_sentence->El títol de [THING_labelDefinite] de [PAWN_nameShortDef] està escrit a sota: [THING_title]</li>
+    <li>title_sentence->[THING_labelDefinite] està estampat amb el nom: [THING_title]</li>
+    <li>title_sentence->El títol de [THING_labelDefinite], [THING_title], penja del fons</li>
   </CraftedArt.rulePack.rulesStrings>
   
   <!-- EN: drunk -->
@@ -199,10 +199,10 @@
     <li>desc_sentence->[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li>
   -->
   <FinishedResearchProject.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] acabant d’investigar [project_label]</li>
-    <li>image->[pawn_nameFull] treballant en la investigació de [project_label] [circumstance_group]</li>
-    <li>image->[pawn_nameFull] estudiant els secrets de [project_label] [circumstance_group]</li>
-    <li>image->[pawn_nameFull] investigant [project_label] [circumstance_group]</li>
+    <li>tale_noun->[pawn_nameShortDef] acabant d’investigar [PROJECT_label]</li>
+    <li>image->[pawn_nameFull] treballant en la investigació de [PROJECT_label_definite] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] estudiant els secrets de [PROJECT_label_definite] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] investigant [PROJECT_label] [circumstance_group]</li>
     <li>circumstance_phrase->amb molta intensitat</li>
     <li>circumstance_phrase->en la solitud del seu escriptori</li>
     <li>circumstance_phrase->mentre sosté uns papers a la mà</li>

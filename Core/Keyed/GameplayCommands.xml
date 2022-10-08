@@ -129,12 +129,12 @@
   <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>Copia la configuració</CommandCopyZoneSettingsLabel>
   <!-- EN: Copy this storage's settings to the clipboard so you can paste them onto another zone. -->
-  <CommandCopyZoneSettingsDesc>Copia la configuració d’aquesta zona al porta-retalls per enganxar-la a una altra zona.</CommandCopyZoneSettingsDesc>
+  <CommandCopyZoneSettingsDesc>Copia aquesta configuració d’emmagatzematge al porta-retalls per a enganxar-la a una altra zona.</CommandCopyZoneSettingsDesc>
 
   <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>Enganxa la configuració</CommandPasteZoneSettingsLabel>
   <!-- EN: Overwrite this storage's settings with those previously copied to the clipboard. -->
-  <CommandPasteZoneSettingsDesc>Sobreescriu la configuració de la zona amb la que hi ha al porta-retalls.</CommandPasteZoneSettingsDesc>
+  <CommandPasteZoneSettingsDesc>Sobreescriu la configuració d'emmagatzematge amb la que hi ha al porta-retalls.</CommandPasteZoneSettingsDesc>
 
   <!-- EN: Allow sowing -->
   <CommandAllowSow>Permet sembrar</CommandAllowSow>
@@ -144,12 +144,12 @@
   <!-- EN: Allow cutting -->
   <CommandAllowCut>Permet tallar herbes</CommandAllowCut>
   <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
-  <CommandAllowCutDesc>Si està deshabilitat, els colons no hi tallaran les males herbes. Continuaran sembrant en els llocs buits i recol·lectant les plantes madures, si tenen permís per fer-ho.</CommandAllowCutDesc>
+  <CommandAllowCutDesc>Si està deshabilitat, els colons no hi tallaran les males herbes. Continuaran sembrant en els llocs buits i recol·lectant les plantes madures, si tenen permís per a fer-ho.</CommandAllowCutDesc>
   
   <!-- EN: Select {0_label} -->
-  <CommandSelectStoredThing>TODO</CommandSelectStoredThing>
+  <CommandSelectStoredThing>Tria {0_label}</CommandSelectStoredThing>
   <!-- EN: Select the item stored in here. -->
-  <CommandSelectStoredThingDesc>TODO</CommandSelectStoredThingDesc>
+  <CommandSelectStoredThingDesc>Tria l'element emmagatzemat aquí.</CommandSelectStoredThingDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -277,7 +277,7 @@
   <!-- EN: No {CHARGENOUN_plural} left. -->
   <CommandReload_NoCharges>No queden {CHARGENOUN_plural}.</CommandReload_NoCharges>
   <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
-  <CommandReload_Cooldown>TODO</CommandReload_Cooldown>
+  <CommandReload_Cooldown>{COOLDOWNGERUND} durant {TIME}.</CommandReload_Cooldown>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
   <CommandReload_NoAmmo>S’ha de recarregar amb {COUNT} {AMMO_label}.</CommandReload_NoAmmo>
   
@@ -305,7 +305,7 @@
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>Forma una caravana de colons que pugui viatjar a altres zones. Els colons carregaran els subministres indicats i els animals que els acompanyen, se n’aniran de la zona i esperaran ordres.</CommandFormCaravanDesc>
   <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
-  <CommandFormCaravanDescAtSpot>TODO</CommandFormCaravanDescAtSpot>
+  <CommandFormCaravanDescAtSpot>Aquest lloc es farà servir com a punt de trobada per a la caravana. Tots els béns i animals es portaran aquí abans de començar el viatge.</CommandFormCaravanDescAtSpot>
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
@@ -563,31 +563,31 @@
   <!-- EN: Drop {0_nameDef} -->
   <CommandDropPawn>Deixa {0_nameDef}</CommandDropPawn>
   <!-- EN: Drop the person being carried. -->
-  <CommandDropPawnDesc>Deixa la persona que s’està transportant.</CommandDropPawnDesc>
+  <CommandDropPawnDesc>Deixa la persona que es transporta.</CommandDropPawnDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectCarriedPawn>TODO</CommandSelectCarriedPawn>
+  <CommandSelectCarriedPawn>Tria {0_nameDef}</CommandSelectCarriedPawn>
   <!-- EN: Select the creature being carried. -->
-  <CommandSelectCarriedPawnDesc>TODO</CommandSelectCarriedPawnDesc>
+  <CommandSelectCarriedPawnDesc>Tria la criatura que es transporta.</CommandSelectCarriedPawnDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectCarriedThing>TODO</CommandSelectCarriedThing>
+  <CommandSelectCarriedThing>Tria {0_label}</CommandSelectCarriedThing>
   <!-- EN: Select the carried item. -->
-  <CommandSelectCarriedThingDesc>TODO</CommandSelectCarriedThingDesc>
+  <CommandSelectCarriedThingDesc>Tria l'element que es transporta.</CommandSelectCarriedThingDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectContainerThing>TODO</CommandSelectContainerThing>
+  <CommandSelectContainerThing>Tria {0_label}</CommandSelectContainerThing>
   <!-- EN: Select the containing item. -->
-  <CommandSelectContainerThingDesc>TODO</CommandSelectContainerThingDesc>
+  <CommandSelectContainerThingDesc>Tria l'element contenidor.</CommandSelectContainerThingDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectCarryingPawn>TODO</CommandSelectCarryingPawn>
+  <CommandSelectCarryingPawn>Tria {0_nameDef}</CommandSelectCarryingPawn>
   <!-- EN: Select the carrying creature. -->
-  <CommandSelectCarryingPawnDesc>TODO</CommandSelectCarryingPawnDesc>
+  <CommandSelectCarryingPawnDesc>Tria la criatura que el transporta</CommandSelectCarryingPawnDesc>
   <!-- EN: Select {0_nameDef} -->
-  <CommandSelectContainedPawn>TODO</CommandSelectContainedPawn>
+  <CommandSelectContainedPawn>Tria {0_nameDef}</CommandSelectContainedPawn>
   <!-- EN: Select the contained creature. -->
-  <CommandSelectContainedPawnDesc>TODO</CommandSelectContainedPawnDesc>
+  <CommandSelectContainedPawnDesc>Tria la criatura que conté.</CommandSelectContainedPawnDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectContainedThing>TODO</CommandSelectContainedThing>
+  <CommandSelectContainedThing>Tria {0_label}</CommandSelectContainedThing>
   <!-- EN: Select the contained item. -->
-  <CommandSelectContainedThingDesc>TODO</CommandSelectContainedThingDesc>
+  <CommandSelectContainedThingDesc>Tria l'element que conté.</CommandSelectContainedThingDesc>
 
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
@@ -616,26 +616,26 @@
 
   <!-- Storage linking -->
   <!-- EN: Link settings -->
-  <LinkStorageSettings>TODO</LinkStorageSettings>
+  <LinkStorageSettings>Enllaça les opcions</LinkStorageSettings>
   <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
-  <LinkStorageSettingsDesc>TODO</LinkStorageSettingsDesc>
+  <LinkStorageSettingsDesc>Enllaça les opcions d'emmagatzematge de diverses estructures i edificis per tal que comparteixin la mateixa configuració.\n\nEl grup nou agafarà les opcions del que haguéssiu seleccionat primer.</LinkStorageSettingsDesc>
   <!-- EN: You must select two or more buildings to link their storage settings. -->
-  <LinkStorageDisabledSelectTwo>TODO</LinkStorageDisabledSelectTwo>
+  <LinkStorageDisabledSelectTwo>Heu de triar dos o més estructures per a enllaçar-ne les seves opcions d'emmagatzematge.</LinkStorageDisabledSelectTwo>
   <!-- EN: Already linked. -->
-  <AlreadyLinked>TODO</AlreadyLinked>
+  <AlreadyLinked>Ja està enllaçat.</AlreadyLinked>
   <!-- EN: Unlink settings -->
-  <UnlinkStorageSettings>TODO</UnlinkStorageSettings>
+  <UnlinkStorageSettings>Opcions de separació</UnlinkStorageSettings>
   <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
-  <UnlinkStorageSettingsDesc>TODO</UnlinkStorageSettingsDesc>
+  <UnlinkStorageSettingsDesc>Separa-ho de les opcions de les altres estructures d'emmagatzemament i que se'n puguin establir les configuracions de manera independent.</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
-  <LinkedStorageSettings>TODO</LinkedStorageSettings>
+  <LinkedStorageSettings>Opcions d'emmagatzematge enllaçat</LinkedStorageSettings>
   <!-- EN: {0} buildings -->
-  <NumBuildings>TODO</NumBuildings>
+  <NumBuildings>{0} estructures</NumBuildings>
   <!-- EN: Stores -->
-  <StoresThings>TODO</StoresThings>
+  <StoresThings>Emmagatzema</StoresThings>
   <!-- EN: Select all linked -->
-  <SelectAllLinked>TODO</SelectAllLinked>
+  <SelectAllLinked>Selecciona tots els espais enllaçats</SelectAllLinked>
   <!-- EN: Select all storage buildings linked to this. -->
-  <SelectAllLinkedDesc>TODO</SelectAllLinkedDesc>
+  <SelectAllLinkedDesc>Selecciona totes les estructures d'emmagatzematge enllaçades am l'element seleccionat.</SelectAllLinkedDesc>
   
 </LanguageData>
