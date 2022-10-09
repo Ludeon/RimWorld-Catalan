@@ -7,7 +7,7 @@
   <AnimalsLearningFactor.description>Multiplicador del ritme d’aprenentatge dels animals.</AnimalsLearningFactor.description>
   
   <!-- EN: bed hunger rate multiplier -->
-  <BedHungerRateFactor.label>TODO</BedHungerRateFactor.label>
+  <BedHungerRateFactor.label>multiplicador del ritme de la gana quan dorm</BedHungerRateFactor.label>
   
   <!-- EN: caravan riding speed -->
   <CaravanRidingSpeedFactor.label>velocitat de la caravana</CaravanRidingSpeedFactor.label>
@@ -22,12 +22,12 @@
   <!-- EN: Maximum comfortable temperature -->
   <ComfyTemperatureMax.label>Temperatura de confort màxima</ComfyTemperatureMax.label>
   <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
-  <ComfyTemperatureMax.description>Per sobre d’aquesta temperatura, el personatge s’enfadarà. Si està molt per sobre, agafarà un cop de calor i pot arribar a morir.</ComfyTemperatureMax.description>
+  <ComfyTemperatureMax.description>Per sobre d’aquesta temperatura, el personatge s’enfadarà. Si està molt per sobre, patirà un cop de calor i pot arribar a morir.</ComfyTemperatureMax.description>
   
   <!-- EN: Minimum comfortable temperature -->
   <ComfyTemperatureMin.label>Temperatura de confort mínima</ComfyTemperatureMin.label>
   <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
-  <ComfyTemperatureMin.description>Per sota d’aquesta temperatura, el personatge s’enfadarà. Si està molt per sota, agafarà hipotèrmia, tindrà congelacions i pot arribar a morir.</ComfyTemperatureMin.description>
+  <ComfyTemperatureMin.description>Per sota d’aquesta temperatura, el personatge s’enfadarà. Si està molt per sota, patirà hipotèrmia, tindrà congelacions i pot arribar a morir.</ComfyTemperatureMin.description>
   
   <!-- EN: eating speed -->
   <EatingSpeed.label>velocitat de menjar</EatingSpeed.label>
@@ -65,14 +65,14 @@
   <LeatherAmount.description>Quantitat de pell que s’obtindrà d’escorxar aquesta criatura.</LeatherAmount.description>
   
   <!-- EN: lifespan factor -->
-  <LifespanFactor.label>TODO</LifespanFactor.label>
+  <LifespanFactor.label>factor d’esperança de vida</LifespanFactor.label>
   <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
-  <LifespanFactor.description>TODO</LifespanFactor.description>
+  <LifespanFactor.description>El factor d’esperança de vida modifica l’esperança de vida efectiva d’una criatura i escurça o allarga la seva vida fins que comença a desenvolupar malalties relacionades amb l’edat. Un factor per sobre del 100 % indica que s’endarrerirà l’aparició de malalties i s’allargarà l’esperança de vida, mentre que un factor per sota de 100 % accelera l’aparició de malalties i redueix l’esperança de vida.</LifespanFactor.description>
   
   <!-- EN: max nutrition -->
-  <MaxNutrition.label>TODO</MaxNutrition.label>
+  <MaxNutrition.label>nutrients màxims</MaxNutrition.label>
   <!-- EN: The amount of nutrition needed to completely fill this creature's stomach. -->
-  <MaxNutrition.description>TODO</MaxNutrition.description>
+  <MaxNutrition.description>Quantitat necessària de nutrients per a omplir del tot l’estómac de la criatura.</MaxNutrition.description>
   
   <!-- EN: meat amount -->
   <MeatAmount.label>quantitat de carn</MeatAmount.label>
@@ -80,13 +80,13 @@
   <MeatAmount.description>Quantitat de carn que s’obtindrà d’escorxar aquesta criatura.</MeatAmount.description>
   
   <!-- EN: meditation psyfocus gain -->
-  <MeditationFocusGain.label>TODO</MeditationFocusGain.label>
+  <MeditationFocusGain.label>guany de la psicoconcentració quan medita</MeditationFocusGain.label>
   <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
-  <MeditationFocusGain.description>TODO</MeditationFocusGain.description>
+  <MeditationFocusGain.description>Quantitat de psicoconcentració que guanya la persona per dia de meditació, sense tenir en compte les bonificacions dels objectes de meditació.</MeditationFocusGain.description>
   <!-- EN: {0} / day -->
-  <MeditationFocusGain.formatString>TODO</MeditationFocusGain.formatString>
+  <MeditationFocusGain.formatString>{0}/day</MeditationFocusGain.formatString>
   <!-- EN: {0} / day -->
-  <MeditationFocusGain.formatStringUnfinalized>TODO</MeditationFocusGain.formatStringUnfinalized>
+  <MeditationFocusGain.formatStringUnfinalized>{0}/day</MeditationFocusGain.formatStringUnfinalized>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>nivell de crisi mental</MentalBreakThreshold.label>
@@ -111,16 +111,16 @@
   <PainShockThreshold.description>Punt en el qual la criatura quedarà inhabilitada pel dolor.</PainShockThreshold.description>
   
   <!-- EN: neural heat limit -->
-  <PsychicEntropyMax.label>TODO</PsychicEntropyMax.label>
+  <PsychicEntropyMax.label>límit d’escalfor neuronal</PsychicEntropyMax.label>
   <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
-  <PsychicEntropyMax.description>TODO</PsychicEntropyMax.description>
+  <PsychicEntropyMax.description>La quantitat màxima d’escalfor neuronal que pot tolerar de manera segura un individu.</PsychicEntropyMax.description>
   
   <!-- EN: neural heat recovery rate -->
-  <PsychicEntropyRecoveryRate.label>TODO</PsychicEntropyRecoveryRate.label>
+  <PsychicEntropyRecoveryRate.label>ritme de reducció de l’escalfor neuronal</PsychicEntropyRecoveryRate.label>
   <!-- EN: The rate at which this person reduces neural heat. -->
-  <PsychicEntropyRecoveryRate.description>TODO</PsychicEntropyRecoveryRate.description>
+  <PsychicEntropyRecoveryRate.description>El ritme de refredament neuronal d’aquesta persona.</PsychicEntropyRecoveryRate.description>
   <!-- EN: {0}/s -->
-  <PsychicEntropyRecoveryRate.formatString>TODO</PsychicEntropyRecoveryRate.formatString>
+  <PsychicEntropyRecoveryRate.formatString>{0}/s</PsychicEntropyRecoveryRate.formatString>
   
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>sensibilitat psíquica</PsychicSensitivity.label>
@@ -133,13 +133,13 @@
   <RestRateMultiplier.description>Factor que afecta a com de ràpid descansa quan dorm.</RestRateMultiplier.description>
   
   <!-- EN: toxic environment resistance -->
-  <ToxicEnvironmentResistance.label>TODO</ToxicEnvironmentResistance.label>
+  <ToxicEnvironmentResistance.label>resistència a entorns tòxics</ToxicEnvironmentResistance.label>
   <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against toxic fallout and rot stink exposure, but not against direct attacks with venom or injected poison. -->
-  <ToxicEnvironmentResistance.description>TODO</ToxicEnvironmentResistance.description>
+  <ToxicEnvironmentResistance.description>Indica la resistència de la criatura contra els efectes de les toxines de l’entorn. Amb una resistència alta, la criatura no es veurà tan afectada per la pluja tòxica o l’exposició a gasos putrefactes, però la resistència no la protegeix si li injecten o l’ataquen amb verí.</ToxicEnvironmentResistance.description>
   
   <!-- EN: toxic resistance -->
-  <ToxicResistance.label>TODO</ToxicResistance.label>
+  <ToxicResistance.label>resistència a la toxicitat</ToxicResistance.label>
   <!-- EN: How well this creature resists toxic buildup. -->
-  <ToxicResistance.description>TODO</ToxicResistance.description>
+  <ToxicResistance.description>Indica com resisteix la criatura a la toxicitat que hagi pogut rebre de l’entorn, com ara verins, pluja tòxica, contaminació, etc.</ToxicResistance.description>
   
 </LanguageData>
