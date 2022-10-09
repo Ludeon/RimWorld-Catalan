@@ -8,7 +8,7 @@
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>{0} ja està en curs.</CantStartRitualAlreadyInProgress>
   <!-- EN: One or more participants can't join due to extreme temperature. -->
-  <CantJoinRitualInExtremeWeather>TODO</CantJoinRitualInExtremeWeather>
+  <CantJoinRitualInExtremeWeather>Un o més participants no es poden afegir degut a les temperatures extremes.</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
   <CantStartRitualTargetIsAlreadyInRitual>{0} ja participa al ritual.</CantStartRitualTargetIsAlreadyInRitual>
   <!-- EN: You must assign the role of {0} in order to start this ritual. -->
@@ -22,11 +22,11 @@
   <!-- EN: {PAWN_nameDef} is psychically deaf. -->
   <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} és {PAWN_gender ? sord psíquic : sorda psíquica}.</CantStartRitualSelectedPawnPsychicallyDeaf>
   <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
-  <CantStartNotEnoughSpaceDuelSpectators>TODO</CantStartNotEnoughSpaceDuelSpectators>
+  <CantStartNotEnoughSpaceDuelSpectators>No hi ha prou espai per als espectadors. Cal que hi hagi un cercle lliure de radi {MINRADIUS}. També cal que hi hagi com a mínim {1} llocs on poder-hi estar dret.</CantStartNotEnoughSpaceDuelSpectators>
   <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
-  <CantStartNotEnoughSpaceDuelDuelists>TODO</CantStartNotEnoughSpaceDuelDuelists>
+  <CantStartNotEnoughSpaceDuelDuelists>No hi ha prou espai per als duelistes. Cal que hi hagi un cercle lliure de radi {MINRADIUS}. També cal que hi hagi com a mínim {1} llocs on poder-hi estar dret.</CantStartNotEnoughSpaceDuelDuelists>
   <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
-  <CantStartNotEnoughSpaceDuelSpeaker>TODO</CantStartNotEnoughSpaceDuelSpeaker>
+  <CantStartNotEnoughSpaceDuelSpeaker>No hi ha prou espai per a l’orador. Cal que hi hagi un cercle lliure de radi {MINRADIUS}.</CantStartNotEnoughSpaceDuelSpeaker>
   <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
   <CantStartFuneralForSlave>{0_labelShort} és {0_gender ? un esclau : una esclava}. Pels esclaus no es fan funerals.</CantStartFuneralForSlave>
   <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->

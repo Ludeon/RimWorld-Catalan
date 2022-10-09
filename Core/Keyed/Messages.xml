@@ -140,9 +140,9 @@
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Heu de designar objectes prohibits.</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotClaimWhenThreatsAreNear>TODO</MessageCannotClaimWhenThreatsAreNear>
+  <MessageCannotClaimWhenThreatsAreNear>No es pot reclamar {CLAIMABLE_labelShort} mentre hi hagi {THREAT_factionPawnsPlural} que puguin lluitar a prop.</MessageCannotClaimWhenThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotAdoptWhileThreatsAreNear>TODO</MessageCannotAdoptWhileThreatsAreNear>
+  <MessageCannotAdoptWhileThreatsAreNear>No es pot adoptar {CLAIMABLE_labelShort} mentre hi hagi {THREAT_factionPawnsPlural} que puguin lluitar a prop.</MessageCannotAdoptWhileThreatsAreNear>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_definite} no es deixa arrestar!</MessageRefusedArrest>
@@ -152,7 +152,7 @@
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>No hi ha cap llit d’animal disponible.</MessageNoAnimalBeds>
   <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
-  <MessageWarningNoMedicineForRestriction>TODO</MessageWarningNoMedicineForRestriction>
+  <MessageWarningNoMedicineForRestriction>Avís: Les restriccions de medicines de {PAWN_nameDef} ({RESTRICTIONLABEL}) no permet que li facin la intervenció. Valoreu si cal canviar les restriccions.</MessageWarningNoMedicineForRestriction>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_definite} ha mort a causa de {1}.</PawnDiedBecauseOf>
@@ -698,7 +698,7 @@
   <!-- EN: {0} must be a human. -->
   <MessageRitualRoleMustBeHumanlike>{0} ha de ser un humà.</MessageRitualRoleMustBeHumanlike>
   <!-- EN: {0} cannot be a baby. -->
-  <MessageRitualRoleCannotBeABaby>TODO</MessageRitualRoleCannotBeABaby>
+  <MessageRitualRoleCannotBeABaby>{0} no pot ser un nadó.</MessageRitualRoleCannotBeABaby>
   <!-- EN: No roles available for {0_labelShort}. -->
   <MessageRitualNoRolesAvailable>No hi ha rols disponibles per a {0_labelShort}.</MessageRitualNoRolesAvailable>
   <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
@@ -708,7 +708,7 @@
   <!-- EN: {0_labelShort} does not require further scarification. -->
   <MessageRitualRoleMustRequireScarification>A {0_labelShort} no li calen més escarificacions.</MessageRitualRoleMustRequireScarification>
   <!-- EN: {0_labelShort} does not require blinding. -->
-  <MessageRitualRoleMustRequireBlinding>TODO</MessageRitualRoleMustRequireBlinding>
+  <MessageRitualRoleMustRequireBlinding>No és necessari deixar {0_gender ? cec : cega} a {0_labelShort}.</MessageRitualRoleMustRequireBlinding>
   <!-- EN: {0} must be a prisoner or slave. -->
   <MessageRitualRoleMustBePrisonerOrSlave>{0} ha de ser un presoner o un esclau.</MessageRitualRoleMustBePrisonerOrSlave>
   <!-- EN: {0_labelShort} must be capable of fighting. -->
@@ -732,9 +732,9 @@
   <!-- EN: must be colonist for the {0} role. -->
   <MessageRitualRoleMustBeColonist>ha de ser un colon per fer el rol de {0}.</MessageRitualRoleMustBeColonist>
   <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
-  <MessageRitualWontAttendExtremeTemperature>TODO</MessageRitualWontAttendExtremeTemperature>
+  <MessageRitualWontAttendExtremeTemperature>{0_labelShort} no assistirà per les temperatures extremes del lloc del ritual.</MessageRitualWontAttendExtremeTemperature>
   <!-- EN: must be colonist and not enslaved for the {0} role. -->
-  <MessageRitualRoleMustBeFreeColonist>TODO</MessageRitualRoleMustBeFreeColonist>
+  <MessageRitualRoleMustBeFreeColonist>ha de ser un colon que no estigui esclavitzat per al rol de {0}.</MessageRitualRoleMustBeFreeColonist>
   <!-- EN: {0} must have an animal with min body size of {1}. -->
   <MessageRitualRoleMustHaveLargerBodySize>{0} ha de tenir un animal amb una mida mínima del cos de {1}.</MessageRitualRoleMustHaveLargerBodySize>
   <!-- EN: {0_labelShort} is in a mental state. -->
@@ -748,9 +748,9 @@
   <!-- EN: {0} must be free. -->
   <MessageRitualRoleMustNotBeImprisoned>{0} ha d’estar lliure.</MessageRitualRoleMustNotBeImprisoned>
   <!-- EN: {0} cannot be a child. -->
-  <MessageRitualRoleCannotBeChild>TODO</MessageRitualRoleCannotBeChild>
+  <MessageRitualRoleCannotBeChild>{0} no pot ser un nen.</MessageRitualRoleCannotBeChild>
   <!-- EN: {0} cannot be a baby. -->
-  <MessageRitualRoleCannotBeBaby>TODO</MessageRitualRoleCannotBeBaby>
+  <MessageRitualRoleCannotBeBaby>{0} no pot ser un nadó.</MessageRitualRoleCannotBeBaby>
 
   <!-- EN: You must select a site to continue. -->
   <MessagePlayerMustSelectTile>Heu de seleccionar un lloc per continuar.</MessagePlayerMustSelectTile>
@@ -772,22 +772,22 @@
   <MessageWarningCutImportantPlant>Avís: S’ha marcat {0} per a arrancar-{0_gender ? lo : la}.</MessageWarningCutImportantPlant>
 
   <!-- EN: {0_labelShort} is incapable of manipulation. -->
-  <MessageIncapableOfManipulation>TODO</MessageIncapableOfManipulation>
+  <MessageIncapableOfManipulation>{0_labelShort} no pot manipular objectes.</MessageIncapableOfManipulation>
 
   <!-- EN: {0_labelShort} activation canceled -->
-  <MessageActivationCanceled>TODO</MessageActivationCanceled>
+  <MessageActivationCanceled>Activació de {0_labelShort} cancel·lada</MessageActivationCanceled>
 
   <!-- EN: Nothing is currently buildable in category -->
-  <NothingAvailableInCategory>TODO</NothingAvailableInCategory>
+  <NothingAvailableInCategory>No hi ha res d’aquesta categoria que es pugui construir ara mateix.</NothingAvailableInCategory>
 
   <!-- EN: Storage settings linked for {0} buildings. -->
-  <SettingsLinkedFor>TODO</SettingsLinkedFor>
+  <SettingsLinkedFor>S’ha enllaçat la configuració d’emmagatzematge de {0} edificis.</SettingsLinkedFor>
   <!-- EN: Storage settings unlinked for {0} buildings. -->
-  <SettingsUnlinkedFor>TODO</SettingsUnlinkedFor>
+  <SettingsUnlinkedFor>S’ha separat la configuració d’emmagatzematge de {0} edificis.</SettingsUnlinkedFor>
   <!-- EN: Storage settings copied to clipboard. -->
-  <StorageSettingsCopiedToClipboard>TODO</StorageSettingsCopiedToClipboard>
+  <StorageSettingsCopiedToClipboard>S’ha copiat la configuració d’emmagatzematge al porta-retalls.</StorageSettingsCopiedToClipboard>
   <!-- EN: Storage settings pasted from clipboard. -->
-  <StorageSettingsPastedFromClipboard>TODO</StorageSettingsPastedFromClipboard>
+  <StorageSettingsPastedFromClipboard>S’ha enganxat la configuració d’emmagatzematge del porta-retalls.</StorageSettingsPastedFromClipboard>
 
   <!-- UNUSED -->
   <MessageTooLowMedCare>L’operació requereix {0} o millor, però {PAWN_definite} té un nivell de cures mèdiques de «{2}».</MessageTooLowMedCare>

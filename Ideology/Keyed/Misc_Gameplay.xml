@@ -102,7 +102,7 @@
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
   <FavoriteColorTooltip>El color preferit de {PAWN_labelShort}. Si té més d’un {PERCENTAGE} d’indumentària d’aquest color o el color de la ideoligió, serà una mica més feliç.\n\nPodeu alterar els colors a la taula de d’estilisme amb tints extrets de la planta tintorera.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
-  <OrIdeoColor>TODO</OrIdeoColor>
+  <OrIdeoColor>, o el color de la seva ideoligió,</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Estableix el color de la ideoligió</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -154,7 +154,7 @@
   <!-- EN: Acceptable food for everyone -->
   <MealKindAny>Menjar acceptable per tothom</MealKindAny>
   <!-- EN: this outfit -->
-  <WearingDesiredApparelMulti>TODO</WearingDesiredApparelMulti>
+  <WearingDesiredApparelMulti>aquesta vestimenta</WearingDesiredApparelMulti>
 
   <!-- EN: Could not load ideoligion -->
   <UnableToLoadIdeoTitle>No s’ha pogut carregar la ideoligió</UnableToLoadIdeoTitle>
@@ -208,7 +208,7 @@
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Necessiteu {0} de fusta per cada participant ({2} en total). Teniu {1} de fusta.</RitualTargeWoodInfo>
   <!-- EN: {0} must be able to reach ritual target. -->
-  <RitualTargetUnreachable>TODO</RitualTargetUnreachable>
+  <RitualTargetUnreachable>{0} ha de poder arribar a l’objectiu del ritual.</RitualTargetUnreachable>
   <!-- EN: Accuse -->
   <Accuse>Acusa</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
@@ -238,7 +238,7 @@
   <!-- EN: Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}). -->
   <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>Degut a la qualitat del ritual, els punts de desenvolupament han augmentat en {2} (de {0} a {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
   <!-- EN: Can't award development points beyond {0}. -->
-  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>TODO</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>No es poden concedir més de {0} punts de desenvolupament.</RitualOutcomeExtraDesc_DevelopmentPointsAwardedCapped>
   <!-- EN: Due to the poor quality of the ritual, no development points were gained. -->
   <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Degut a la mala qualitat del ritual, no s’han obtingut punts de desenvolupament.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
@@ -296,7 +296,7 @@
   <!-- EN: Completing this ritual gives {0}-{1} development points depending on quality. -->
   <RitualDevelopmentPointsTip>Si es completa aquest ritual s’aconseguiran entre {0} i {1} punts de desenvolupament en funció de la qualitat final.</RitualDevelopmentPointsTip>
   <!-- EN: {0} needs to be powered. -->
-  <RitualOutcomeBlockedNoPower>TODO</RitualOutcomeBlockedNoPower>
+  <RitualOutcomeBlockedNoPower>Cal que {0} rebi energia.</RitualOutcomeBlockedNoPower>
 
   <!-- EN: For slave use -->
   <ForSlaveUse>Per ús d’esclaus</ForSlaveUse>
@@ -326,7 +326,7 @@
   <!-- EN: Must be {0} -->
   <RoleRequirementLabelSupremeGender>Ha de ser {0}</RoleRequirementLabelSupremeGender>
   <!-- EN: Cannot be child -->
-  <RoleRequirementCannotBe>TODO</RoleRequirementCannotBe>
+  <RoleRequirementCannotBe>No pot ser un nen</RoleRequirementCannotBe>
 
   <!-- EN: Abilities -->
   <RoleGrantedAbilitiesLabel>Habilitats</RoleGrantedAbilitiesLabel>
@@ -640,7 +640,7 @@
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} ha completat el seu cicle de rejoveniment. Espera rebre el proper tractament de rejoveniment d’aquí a {DEADLINE} dies.</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <AgeReversalExpectationDeadline>TODO</AgeReversalExpectationDeadline>
+  <AgeReversalExpectationDeadline>Espera el següent cicle de rejoveniment d’aquí {DEADLINE} dies.</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>El cicle de plaer bioesculpit de {PAWN_labelShort} s’ha completat.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
@@ -661,11 +661,11 @@
   <BiosculpterNoCoditionsToHeal>{PAWN_nameDef} no pateix malalties ni condicions que es puguin guarir amb un cicle de {CYCLE}.\n\nVoleu continuar?</BiosculpterNoCoditionsToHeal>
 
   <!-- EN: basic -->
-  <Basic>TODO</Basic>
+  <Basic>bàsic</Basic>
   <!-- EN: Change the style this will be built in. This is purely visual and has no gameplay impact. -->
-  <ChangeStyleDesc>TODO</ChangeStyleDesc>
+  <ChangeStyleDesc>Canvia l’estil de construcció. Només té efectes visuals i no influeix el desenvolupament de la partida.</ChangeStyleDesc>
   <!-- EN: No available styles. -->
-  <ChangeStyleDisabledNoCategories>TODO</ChangeStyleDisabledNoCategories>
+  <ChangeStyleDisabledNoCategories>No hi ha estils disponibles.</ChangeStyleDisabledNoCategories>
 
   <!-- UNUSED -->
   <RitualTargetLightBallInfo>Una bola giratòria o un lloc ritual. La bola i l’altaveu han de tenir energia.</RitualTargetLightBallInfo>
