@@ -12,11 +12,14 @@
   -->
   <DeityTypeMakerGlobal.rulePack.rulesStrings>
     <li>r_deityType->[god] de [memeConcept]</li>
-    <li>god(p=7)->Déu</li>
+    <li>god(p=7, gender!=Female)->Déu</li>
+    <li>god(p=7, gender==Female)->Deessa</li>
     <li>god(p=4)->[memeGod]</li>
     <li>god(p=3)->Esperit</li>
-    <li>god->Creador</li>
-    <li>god->Senyor</li>
+    <li>god(p=7, gender!=Female)->Creador</li>
+    <li>god(p=7, gender==Female)->Creadora</li>
+    <li>god(p=7, gender!=Female)->Senyor</li>
+    <li>god(p=7, gender==Female)->Senyora</li>
   </DeityTypeMakerGlobal.rulePack.rulesStrings>
   
 </LanguageData>

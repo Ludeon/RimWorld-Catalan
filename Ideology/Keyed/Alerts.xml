@@ -22,7 +22,7 @@
   <!-- EN: {0} opportunity for {1} -->
   <RitualOpportunityFor>Oportunitat de {0} per a</RitualOpportunityFor>
   <!-- EN: Expires in {0}, on {1}. -->
-  <RitualExpiresIn>Finalitza d’aquí</RitualExpiresIn>
+  <RitualExpiresIn>Finalitza d’aquí {0}, en {1}.</RitualExpiresIn>
   <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
   <RitualSingleTargetDesc>Per a començar un ritual, trieu {FOCUS_indefinite} i premeu l’ordre «Inicia {RITUAL_label}».</RitualSingleTargetDesc>
   <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
@@ -76,7 +76,7 @@
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
   <AlertRitualComingExtra>Les oportunitats expiren després de {0} dies i tornen a aparèixer al mateix dia de cada any.</AlertRitualComingExtra>
   <!-- EN: {0} on {1}, {2} before opportunity arises -->
-  <AlertRitualComingEntry>{0} en el {1}; en queden {2}</AlertRitualComingEntry>
+  <AlertRitualComingEntry>{0} en el {1}; {2} abans que arribi l’ocasió</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
   <AlertAgeReversalDemandNear>Es demana un tractament de rejoveniment</AlertAgeReversalDemandNear>

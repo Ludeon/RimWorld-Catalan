@@ -63,11 +63,13 @@
     <li>r_ideoAdjective->[keyDeity]ic</li>
     <li>r_memberName->[keyDeity]ista</li>
     <li>r_memberName->[keyDeity]ic</li>
-    <li>r_ideoName(p=2)->[packIdeoName] [globalAdjective]</li>
-    <li>r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
-    <li>r_ideoName->[packIdeoName] [memeAdjective]</li>
-    <li>r_ideoName(p=0.5)->[creed] [memeAdjective]</li>
-    <li>r_ideoName(p=0.2)->[creed] de [packTheme]</li>
+    <li>r_ideoName(p=6)->[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoNameStructure]</li>
+    <li>r_ideoName(p=2)->[creed] [memeAdjective]</li>
+    <li>r_ideoName(p=1)->[creed] de [packTheme]</li>
+    <li>r_ideoName(p=1)->[creed] [place_adjective]</li>
+    <li>r_ideoName(p=0.25)->El [memeCreed]</li>
     <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
     <li>r_memberName->[packMember]</li>
     <li>creed(priority=1)->[memeCreed]</li>
@@ -77,17 +79,6 @@
     <li>genericCreed->camí</li>
     <li>genericCreed->dogma</li>
     <li>genericCreed->fe</li>
-    <li>globalAdjective->[Color]</li>
-    <li>globalAdjective->nou</li>
-    <li>globalAdjective->ancestral</li>
-    <li>globalAdjective->vell</li>
-    <li>globalAdjective->antic</li>
-    <li>globalAdjective->revisat</li>
-    <li>globalAdjective->reformat</li>
-    <li>globalAdjective->estricte</li>
-    <li>globalAdjective->fonamental</li>
-    <li>globalAdjective->vertader</li>
-    <li>globalAdjective->[place_adjective]</li>
     <li>hyphenPrefix->[globalHyphenPrefix]</li>
     <li>hyphenPrefix->[memeHyphenPrefix]</li>
     <li>globalHyphenPrefix(p=4)->neo</li>

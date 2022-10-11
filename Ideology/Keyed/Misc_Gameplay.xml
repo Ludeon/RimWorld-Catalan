@@ -100,9 +100,9 @@
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Probabilitat de tenir el precepte</ChanceToHavePrecept>
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>El color preferit de {PAWN_labelShort}. Si té més d’un {PERCENTAGE} d’indumentària d’aquest color o el color de la ideoligió, serà una mica més feliç.\n\nPodeu alterar els colors a la taula de d’estilisme amb tints extrets de la planta tintorera.</FavoriteColorTooltip>
+  <FavoriteColorTooltip>El color preferit de {PAWN_labelShort}. Si té més d’un {PERCENTAGE} d’indumentària d’aquest color{ORIDEO}, serà una mica més feliç.\n\nPodeu alterar els colors a la taula de d’estilisme amb tints extrets de la planta tintorera.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
-  <OrIdeoColor>, o el color de la seva ideoligió,</OrIdeoColor>
+  <OrIdeoColor>, o el color de la seva ideoligió</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Estableix el color de la ideoligió</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -168,15 +168,15 @@
   <UnableToLoadIdeoPreceptNotAllowed>El precepte {PRECEPT} no es permet per a les faccions que no són del jugador</UnableToLoadIdeoPreceptNotAllowed>
 
   <!-- EN: Grave containing {PAWN_labelShort}'s corpse -->
-  <RitualTargetGraveInfo>Una tomba que conté el cos de {PAWN_labelShort}.</RitualTargetGraveInfo>
+  <RitualTargetGraveInfo>La tomba conté el cos de {PAWN_labelShort}.</RitualTargetGraveInfo>
   <!-- EN: Empty grave to mourn {PAWN_labelShort}'s passing -->
-  <RitualTargetEmptyGraveInfo>Una tomba buida per lamentar la mort de {PAWN_labelShort}.</RitualTargetEmptyGraveInfo>
+  <RitualTargetEmptyGraveInfo>Una tomba buida per a lamentar la mort de {PAWN_labelShort}.</RitualTargetEmptyGraveInfo>
   <!-- EN: Grave containing {IDEO_memberNameIndef}'s corpse -->
-  <RitualTargetGraveInfoAbstract>Una tomba que conté el cos de {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
+  <RitualTargetGraveInfoAbstract>La tomba conté el cos de {IDEO_memberNameIndef}</RitualTargetGraveInfoAbstract>
   <!-- EN: Grave containing a corpse -->
   <RitualTargetGraveInfoAbstractNoIdeo>Una tomba que conté un cadàver.</RitualTargetGraveInfoAbstractNoIdeo>
   <!-- EN: Empty grave to mourn {IDEO_memberNameIndef}'s passing -->
-  <RitualTargetEmptyGraveInfoAbstract>Una tomba buida per lamentar la mort de {IDEO_memberNameIndef}.</RitualTargetEmptyGraveInfoAbstract>
+  <RitualTargetEmptyGraveInfoAbstract>Una tomba buida per a lamentar la mort de {IDEO_memberNameIndef}.</RitualTargetEmptyGraveInfoAbstract>
   <!-- EN: {PAWN_labelShort}'s body must be buried first -->
   <RitualTargetGraveInfoMustBeBuried>Primer s’ha d’enterrar el cos de {PAWN_labelShort}</RitualTargetGraveInfoMustBeBuried>
   <!-- EN: Any gathering spot, like a table -->
@@ -198,9 +198,9 @@
   <!-- EN: Need at least {0} unroofed cells nearby. -->
   <RitualTargetNeedUnroofedCells>Calen com a mínim {0} caselles sense teulada a prop.</RitualTargetNeedUnroofedCells>
   <!-- EN: a lit campfire -->
-  <RitualTargetCampfirePartyInfo>Una foguera encesa o un lloc ritual.</RitualTargetCampfirePartyInfo>
+  <RitualTargetCampfirePartyInfo>Una foguera encesa</RitualTargetCampfirePartyInfo>
   <!-- EN: an unconnected Gauranlen tree -->
-  <RitualTargetUnconnectedGaruanlenTreeInfo>Un arbre gauranlen sense connexió.</RitualTargetUnconnectedGaruanlenTreeInfo>
+  <RitualTargetUnconnectedGaruanlenTreeInfo>un arbre gauranlen sense connexió.</RitualTargetUnconnectedGaruanlenTreeInfo>
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Ja està connectat a {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
@@ -288,7 +288,7 @@
   <!-- EN: Repeating a ritual within {0} days reduces its quality. {1} days have passed since the last ritual, so the current quality reduction is {2}. This penalty will fall to zero {3} days from now. -->
   <RitualRepeatPenaltyTip>Si es repeteix un ritual en {0} dies, la qualitat es veurà reduïda. Han passat {1} dies des de l’últim i, per això, la reducció actual de la qualitat és de {2}. Aquesta penalització desapareixerà d’aquí a {3} dies.</RitualRepeatPenaltyTip>
   <!-- EN: For best quality, start the {0} at {1}. -->
-  <RitualOutcomeCompTip_RitualTargetDefsPart1>Per obtenir la millor qualitat, comenceu {0_definite} en {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
+  <RitualOutcomeCompTip_RitualTargetDefsPart1>Per a obtenir la millor qualitat, comenceu {0_definite} en {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <!-- EN: Currently, the {0} is being started at {1_labelShortIndef}. -->
   <RitualOutcomeCompTip_RitualTargetDefsPart2>{0_definite} comença a {1_labelShortIndef}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
   <!-- EN: Development points -->
@@ -638,9 +638,9 @@
   <!-- EN: {PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured. -->
   <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} ha completat el cicle de guarició i {HEDIFF_gender ? el seu : la seva} {HEDIFF_label} s’ha curat.</BiosculpterHealCompletedWithCureMessage>
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
-  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} ha completat el seu cicle de rejoveniment. Espera rebre el proper tractament de rejoveniment d’aquí a {DEADLINE} dies.</BiosculpterAgeReversalCompletedMessage>
+  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} ha completat el seu tractament de rejoveniment.</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <AgeReversalExpectationDeadline>Espera el següent cicle de rejoveniment d’aquí {DEADLINE} dies.</AgeReversalExpectationDeadline>
+  <AgeReversalExpectationDeadline>Espera el proper tractament de rejoveniment d’aquí {DEADLINE} dies.</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>El cicle de plaer bioesculpit de {PAWN_labelShort} s’ha completat.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->
