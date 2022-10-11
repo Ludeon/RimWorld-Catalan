@@ -123,10 +123,10 @@
   <!-- EN: Dead body of a {0}. -->
   <CorpseDesc>El cos sense vida de {0}.</CorpseDesc>
   <!-- EN: {1_label} (dead) -->
-  <DeadLabel>{1_label} (mort)</DeadLabel>
+  <DeadLabel>{1_label} ({1_gender ? mort : morta})</DeadLabel>
 
   <!-- EN: rough {0} -->
-  <RoughStoneTerrainLabel>{0} irregular </RoughStoneTerrainLabel>
+  <RoughStoneTerrainLabel>{0} irregular</RoughStoneTerrainLabel>
   <!-- EN: Rough, natural {0} ground. -->
   <RoughStoneTerrainDesc>Sòl natural irregular de {0}.</RoughStoneTerrainDesc>
   <!-- EN: rough-hewn {0} -->
