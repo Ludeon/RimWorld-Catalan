@@ -69,7 +69,7 @@
 
   <!-- Camps -->
   <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
-  <MessageCampDetected>Heu detectat {CAMP_labelIndefinite} proper controlat pels {FACTION_name}.</MessageCampDetected>
+  <MessageCampDetected>Heu detectat {CAMP_gender ? un : una} {CAMP_label} proper controlat pels {FACTION_name}.</MessageCampDetected>
 
   <!-- Charity -->
   <!-- EN: Charity refused -->
@@ -79,7 +79,7 @@
   <!-- EN: {0} are leaving empty-handed. -->
   <MessageBeggarsLeavingWithNoItems>{0_definite} se’n van amb les mans buides.</MessageBeggarsLeavingWithNoItems>
   <!-- EN: {0} have accepted the requested items and are leaving. -->
-  <MessageBeggarsLeavingWithItems>{0_definite} han acceptat els elements sol·licitats i se’n van.</MessageBeggarsLeavingWithItems>
+  <MessageBeggarsLeavingWithItems>{0_definite} han acceptat els que demanaven i se’n van.</MessageBeggarsLeavingWithItems>
   <!-- EN: {0_nameDef} died without any treatment. -->
   <MessageWandererLeftToDie>{0_nameDef} ha mort sense rebre cap tractament.</MessageWandererLeftToDie>
   <!-- EN: {0_nameDef} was recruited. -->

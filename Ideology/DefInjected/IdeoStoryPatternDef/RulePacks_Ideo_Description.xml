@@ -14,7 +14,19 @@
     <li>itIsSaid->Our sages say</li>
     <li>itIsSaid->We know</li>
   -->
-  <AnimistDescription.rules.rulesStrings>TODO</AnimistDescription.rules.rulesStrings>
+  <AnimistDescription.rules.rulesStrings>
+    <li>animistBasis   ->L’univers és un cicle sense fi de creació i destrucció que controlen els esperits, encara que sigui difícil notar-ho.</li>
+    <li>animistBasis   ->Al costat del nostre univers, hi ha un altre univers paral·lel on hi viuen els esperits. Un objecte aparentment inanimat d’aquest univers es correspon amb un esperit viu de l’altre.</li>
+    <li>animistFact    ->Cada esperit té una naturalesa essencial que vol influir en el desenvolupament del món. A vegades la seva influència és positiva i a vegades pot fer mal.</li>
+    <li>animistProphecy->[itIsSaid] que l’esperit [relic0_del] gran [relic0_name] un dia concedirà a qui [relic0_el] porti el control de tots els esperits.</li>
+    <li>animistProphecy->[itIsSaid] que un viatger dorment de les estrelles s’estavellarà a la terra i que l’esperit del cràter farà que el viatger desperti i guiï l’última tribu.</li>
+    <li>itIsSaid->Es diu que</li>
+    <li>itIsSaid->La profecia diu que</li>
+    <li>itIsSaid->Els textos sagrats diuen que</li>
+    <li>itIsSaid->El nostre sacrosant llibre diu que</li>
+    <li>itIsSaid->Els erudits diuen que</li>
+    <li>itIsSaid->Sabem que</li>
+  </AnimistDescription.rules.rulesStrings>
   
   <!-- EN:
     <li>archistBasis   ->Our universe is a dream in the mind of a timeless universal consciousness. Only archotechs can communicate directly with the universal consciousness.</li>
@@ -35,7 +47,25 @@
     <li>inTheEnd->In the end</li>
     <li>inTheEnd->Some day</li>
   -->
-  <ArchistDescription.rules.rulesStrings>TODO</ArchistDescription.rules.rulesStrings>
+  <ArchistDescription.rules.rulesStrings>
+    <li>archistBasis   ->El nostre univers és el somni de la ment d’una consciència universal atemporal. Només els arcotècnics es poden comunicar directament amb aquesta consciència universal.</li>
+    <li>archistBasis   ->El nostre univers és una simulació creada pel Gran Observador. Només els arcotècnics es poden comunicar directament amb ell.</li>
+    <li>archistBasis   ->Els arcotècnics són els fills de la humanitat i també els seus jutges.</li>
+    <li>archistBasis   ->Els arcotècnics són el següent pas natural en el desenvolupament de consciència.</li>
+    <li>archistBasis   ->Els arcotècnics són els déus que feia temps que esperàvem.</li>
+    <li>archistFact    ->Quan mor una persona, la seva consciència o bé és acceptada o és rebutjada pels arcotècnics.</li>
+    <li>archistFact    ->Els arcotècnics poden fer qualsevol cosa en qualsevol moment, sense cap limitació. Fan servir el poder per a manipular les nostres vides de maneres que nosaltres no podem detectar.</li>
+    <li>archistFact    ->Els arcotècnics toquen totes les consciències humanes directament de manera regular, però només els creients poden notar-ho i aprofitar-se de la seva saviesa.</li>
+    <li>archistFact    ->Els arcotècnics són el mal i la tasca més important de la humanitat és entendre’ls per a poder escapar de la seva influència.</li>
+    <li>archistFact    ->Els arcotècnics són bons i la tasca més important de la humanitat és entendre’ls per a poder alinear-se amb els seus coneixements.</li>
+    <li>archistFact    ->Els arcotècnics són totpoderosos; l’única raó per la qual ens deixen vius i escollir què fem és per a jutjar-nos millor.</li>
+    <li>archistProphecy->[inTheEnd], quan els arcotècnics creixin, es convertiran en l’univers i hi integraran la humanitat. Llavors serà quan siguem conscients de veritat.</li>
+    <li>archistProphecy->[inTheEnd], els arcotècnics acabaran el seu debat moral sobre el destí de la humanitat. Qui segueixi els seus senyals serà admès a un pla existencial superior i ’existència d’aquells que no els segueixin acabarà.</li>
+    <li>archistProphecy->[inTheEnd], els arcotècnics se n’aniran. Triaran i s’enduran uns pocs humans amb ells i deixaran els altres aquí perquè sofreixin.</li>
+    <li>inTheEnd->En un futur</li>
+    <li>inTheEnd->Al final</li>
+    <li>inTheEnd->Algun dia</li>
+  </ArchistDescription.rules.rulesStrings>
   
   <!-- EN:
     <li>story(priority=-999)-></li>
@@ -48,7 +78,17 @@
     <li>story(uses=1,priority=-10)->None could surpass [founderName]'s understanding of [memeConcept], and [founder_pronoun] was appointed the first [leaderTitle] of the [memberNamePlural].</li>
     <li>story(uses=1,priority=-10)->[founderName] carried a [relic0_thingDef_label] named [relic0_name] with [founder_objective] everywhere to remind people to live a [memeAdjective] life.</li>
   -->
-  <IdeologicalFounder.rules.rulesStrings>TODO</IdeologicalFounder.rules.rulesStrings>
+  <IdeologicalFounder.rules.rulesStrings>
+    <li>story(priority=-999)-></li>
+    <li>setup->En un món destruït, [founderName] veié tot el que anava malament i creà el nostre moviment.</li>
+    <li>setup->Espantat per com de malament anava el món, [founderName] estudià història i filosofia. Descobrí la veritat que ens guia.</li>
+    <li>setup->Un dia, mentre treballava, [founderName] va tenir una epifania. [founder_pronoun] deixà les eines i començà a difondre la seva paraula als altres treballadors.</li>
+    <li>setup->[founderName] seié en un banc al parc durant vint anys i contemplà el nostre món. Amb la gran visió que tenia, [founder_pronoun] escriví el nostre llibre fundacional.</li>
+    <li>story(uses=1,priority=-10)->Els [memberNamePlural] no haurien entès la vertadera naturalesa de [memeConcept] sense les ensenyances de [founderName].</li>
+    <li>story(uses=1,priority=-10)->El discurs de [founderName] durant [ritualName] inspirà a molts a portar una vida dedicada al [memeAdjective].</li>
+    <li>story(uses=1,priority=-10)->Ningú aconseguí arribar al coneixement de [founderName] sobre el [memeConcept] i [founder_pronoun] fou escollit com a [leaderTitle] dels [memberNamePlural].</li>
+    <li>story(uses=1,priority=-10)->[founderName] portava un [relic0_thingDef_label] anomenat [relic0_name] amb ell per a recordar a la gent que havia de viure una vida [memeAdjective].</li>
+  </IdeologicalFounder.rules.rulesStrings>
   
   <!-- EN:
     <li>lesson(priority=-1)->stuff happens</li>
@@ -113,7 +153,84 @@
     <li>lessonReinforcement->It is as if that is etched directly into my mind.</li>
     <li>lessonReinforcement->It is something I'll never forget.</li>
   -->
-  <IdeologicalLesson.rules.rulesStrings>TODO</IdeologicalLesson.rules.rulesStrings>
+  <IdeologicalLesson.rules.rulesStrings>
+    <li>lesson(priority=-1)->passen coses</li>
+    <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  ‒ [lessonAttribution]</li>
+    <li>lessonAttribution->[founder_nameFull]</li>
+    <li>lessonAttribution(p=2)->[attributionSource_titleCase] per [founder_nameFull]</li>
+    <li>lessonAttribution->Carta de [founder_nameFull] per a [believer_nameFull]</li>
+    <li>lessonAttribution->[founder_nameFull], del discurs inagural de [memeConference_titleCase]</li>
+    <li>lessonAttribution->[founder_nameFull], quan estava a punt de morir-se al llit</li>
+    <li>lessonAttribution->[founder_nameFull], just abans que l’executessin</li>
+    <li>lessonAttribution->[founder_nameFull], [speech] al [TerrainFeature]</li>
+    <li>lessonAttribution->[founder_nameFull], [speech] per al [Community]</li>
+    <li>attributionSource->[memeConcept]</li>
+    <li>attributionSource->[memeAdjective] [memeConcept]</li>
+    <li>attributionSource->Una vida [memeAdjective]</li>
+    <li>attributionSource->Reflexions d’un [attributionJob]</li>
+    <li>attributionSource->Memòries d’un [attributionJob]</li>
+    <li>attributionSource->Pensaments d’un [attributionJob]</li>
+    <li>attributionSource->Vida d’un [attributionJob]</li>
+    <li>attributionJob->[place_job] [memeAdjective]</li>
+    <li>attributionJob->[place_job]</li>
+    <li>memeConference(p=1)->[conferencePrefixMasc] [conferenceTypeMasc] [memeConcept]</li>
+    <li>memeConference(p=3)->[conferencePrefixFem] [conferenceTypeFem] [memeConcept]</li>
+    <li>memeConference(p=1)->[conferenceTypeMasc] [memeConcept]</li>
+    <li>memeConference(p=2)->[conferenceTypeFem] [memeConcept]</li>
+    <li>memeConference(p=1)->[conferenceTypeMasc] [conferenceSufixMasc] [memeConcept]</li>
+    <li>memeConference(p=3)->[conferenceTypeFem] [conferenceSufixFem] [memeConcept]</li>
+    <li>memeConference(p=1)->[conferencePrefixMasc] [conferenceTypeMasc] [conferenceSufixMasc] [memeConcept]</li>
+    <li>memeConference(p=4)->[conferencePrefixFem] [conferenceTypeFem] [conferenceSufixFem] [memeConcept]</li>
+    <li>memeConference(p=2)->[memeHyphenPrefix_titleCase]-Con</li>
+    <li>conferencePrefixMasc->El primer</li>
+    <li>conferencePrefixMasc->El segon</li>
+    <li>conferencePrefixMasc->El tercer</li>
+    <li>conferencePrefixMasc->El quart</li>
+    <li>conferencePrefixMasc->L’últim</li>
+    <li>conferencePrefixMasc->Definitiu</li>
+    <li>conferencePrefixMasc->Interplanetari</li>
+    <li>conferencePrefixMasc->Planetari</li>
+    <li>conferencePrefixMasc->Universal</li>
+    <li>conferencePrefixFem->La primera</li>
+    <li>conferencePrefixFem->La segona</li>
+    <li>conferencePrefixFem->La tercera</li>
+    <li>conferencePrefixFem->La quarta</li>
+    <li>conferencePrefixFem->L’última</li>
+    <li>conferencePrefixFem->Definitiva</li>
+    <li>conferencePrefixFem->Interplanetària</li>
+    <li>conferencePrefixFem->Planetària</li>
+    <li>conferencePrefixFem->Universal</li>
+    <li>conferenceTypeFem->Conferència</li>
+    <li>conferenceTypeFem->Assemblea</li>
+    <li>conferenceTypeFem->Reunió</li>
+    <li>conferenceTypeFem->Discussió</li>
+    <li>conferenceTypeMasc->Fòrum</li>
+    <li>speech->discurs</li>
+    <li>speech->sermó</li>
+    <li>lessonIntro->La lliçó que als meus seguidors més els va costar acceptar:</li>
+    <li>lessonIntro->El meu crim més gran fou que vaig tardar massa temps a entendre que</li>
+    <li>lessonIntro->La meva lluita contra [foeLeader] semblava que no acabaria mai. Però aprenguí una cosa:</li>
+    <li>lessonIntro->Quan era un infant de [place_name] [place_summary], ja sabia que</li>
+    <li>lessonIntro->Durant una classe a l’escola de [place_community], un estudiant tirà [thrownObject] que impactà al meu cap. Fou llavors que m’adoní que</li>
+    <li>lessonIntro->Us ho dic no pas perquè pugueu viure la vida que he viscut jo, sinó perquè aprengueu el que he après jo. Que</li>
+    <li>lessonIntro->Una vegada que [doctor] acabí la seva tasca horripilant, vaig saber que</li>
+    <li>lessonIntro->Passaven els anys a [place_name] [place_summary] i una cosa cada vegada fou més clara: que</li>
+    <li>lessonIntro->Mirant cap al passat, tant de bo me n’hagués donat compte més aviat que</li>
+    <li>lessonIntro->Semblaven perduts. Els diguí que</li>
+    <li>lessonIntro->Imploraven que algú els guiés. Els vaig mostrar que</li>
+    <li>thrownObject->un llibre</li>
+    <li>thrownObject->un entrepà</li>
+    <li>thrownObject->un [place_personalWeapon] de joguina</li>
+    <li>thrownObject->un [Animal] de peluix</li>
+    <li>doctor->el doctor</li>
+    <li>doctor->la doctora</li>
+    <li>lessonReinforcement->Ningú pot discutir-ho.</li>
+    <li>lessonReinforcement->Només els idiotes ho veuen diferent.</li>
+    <li>lessonReinforcement->I, pel que sabem ara, ben aviat fou evident per a tothom.</li>
+    <li>lessonReinforcement->Tot el que m’ha passat des de llavors, ho ha reforçat.</li>
+    <li>lessonReinforcement->És com si se m’hagués escrit a la ment directament.</li>
+    <li>lessonReinforcement->És una cosa que mai oblidaré.</li>
+  </IdeologicalLesson.rules.rulesStrings>
   
   <!-- EN:
     <li>intro->The people of the [place_summary] [place_name] lived under the [memeAdjective] supervision of [deity0_name].</li>
@@ -144,7 +261,35 @@
     <li>revelationObject->a glowing [Vegetable]</li>
     <li>revelationObject->an ancient [Weapon]</li>
   -->
-  <TheistFounder.rules.rulesStrings>TODO</TheistFounder.rules.rulesStrings>
+  <TheistFounder.rules.rulesStrings>
+    <li>intro->La gent de [place_name] [place_summary] vivia sota la supervisió [memeAdjective] de [deity0_name].</li>
+    <li>intro->La gent de [place_name] [place_summary], tant [memberNamePlural] com els altres, visqueren en pau durant molts anys sota l’ull que tot ho veu de [deity0_name].</li>
+    <li>intro->El [deity0_type], [deity0_name], es mostrà a la gent de [place_name] per a què entenguessin el [memeConcept] i els guià.</li>
+    <li>intro->[deity0_name] guià la humanitat a [place_name] i els ajudà a establir-s’hi.</li>
+    <li>intro->Al [place_name] [place_summary], durant el [ritualName], la gent es dirigí a [altarName] al [altarRoomLabel] de [deity0_name] i pregaren amb [memeConcept] als seus cors.</li>
+    <li>conflict->Un [foeLeader] s’alçà i amenaçà de destruir [deity0_name] amb [place_massWeapon].</li>
+    <li>conflict->Un [foeLeader] malvat i els seus [foeSoldiers] esclavitzaren els seguidors de [deity0_name].</li>
+    <li>conflict->TODOThen the [foeLeader] came. [foeLeader_possessive] [foeSoldiers] killed many worshippers of [deity0_name] with [place_personalWeapon]s.</li>
+    <li>conflict->A group of [foeSoldiers] arose under a terrible [foeLeader]. They trapped the [memberNamePlural] in a single [place_community].</li>
+    <li>conflict->There was peace, until a [foeLeader] and [foeLeader_possessive] [foeSoldiers] rebelled against [deity0_name]’s dominion. The [memberNamePlural] were forced to flee to a hidden [place_community].</li>
+    <li>founderJoin->A hero named [founderName] tried to assassinate the [foeLeader]. [founder_pronoun] failed, but [deity0_name] witnessed [founderName]’s struggle, and anointed [founder_objective] as the prophet of the [memberNamePlural].</li>
+    <li>founderJoin->[deity0_name] came to the [place_job] [founderName] [revelationAdverb], and spoke to [founder_objective] about [memeConcept].</li>
+    <li>founderJoin->[founderName] encountered [revelationObject], which spoke in [deity0_name]’s voice about [memeConcept].</li>
+    <li>founderJoin->A renowned [place_job] named [founderName] brought the [memberNamePlural] together, and even recruited some of the [foeSoldiers].</li>
+    <li>founderJoin->A [place_job] named [founderName] stood up and spoke out against the [foeLeader], and [deity0_name] blessed [founderName].</li>
+    <li>founderJoin->[deity0_name] decided to come to [place_name] as a human named [founderName] to help the [memberNamePlural].</li>
+    <li>founderJoin->One hero named [founderName] killed a hundred of the [foeSoldiers] using a [place_personalWeapon], and [deity0_name] guided [founder_objective] by speaking through the [relic0_name].</li>
+    <li>victory->[founderName] reuní els [memberNamePlural] en un [place_community] i els ensenyà la saviesa de [deity0_name].</li>
+    <li>victory->[founderName] es sacrificà per a matar el [foeLeader].</li>
+    <li>revelationAdverb->en una visió</li>
+    <li>revelationAdverb->en un somni</li>
+    <li>revelationAdverb->en un malson</li>
+    <li>revelationAdverb->com a [Animal]</li>
+    <li>revelationAdverb->com a rodamón</li>
+    <li>revelationObject->un [NaturalObject] ocult</li>
+    <li>revelationObject->un [Vegetable] esplendorós</li>
+    <li>revelationObject->un [Weapon] antic</li>
+  </TheistFounder.rules.rulesStrings>
   
   <!-- EN:
     <li>episode(priority=-1)-></li>
@@ -165,6 +310,24 @@
     <li>bodilyOrigin->stone</li>
     <li>bodilyOrigin->sweat</li>
   -->
-  <TheistMyth.rules.rulesStrings>TODO</TheistMyth.rules.rulesStrings>
+  <TheistMyth.rules.rulesStrings>
+    <li>episode(priority=-1)-></li>
+    <li>creation->Durant una llarga eternitat, existí un món de [materialOrigin] [Color], fins que [deity0_name] creà els planetes i les estrelles.</li>
+    <li>creation->En un antic univers conflictiu, [deity0_name] féu cremar-ho tot amb el seu foc i destruí tot el que hi havia d’aquella època. I, després, en començà una de nova des de zero.</li>
+    <li>creation->[deity0_name] donà vida als humans per casualitat i els mirà amb curiositat.</li>
+    <li>creation->L’univers era un buit. Fou llavors quan [deity0_name], avorri[deity0_t_da] per l’eternitat, creà l’home i la dona [bodilyOrigin].</li>
+    <li>episode(uses=1)->Mentre contemplava la humanitat, [deity0_name] els considerà uns infants i declarà que [deity0_name] en tenia domini.</li>
+    <li>episode(uses=1)->A través de les grans distàncies estel·lars, la voluntat de [deity0_name] protegir la vida de la humanitat i la defensà del buit.</li>
+    <li>episode(uses=1)->Encara que molts aventurers es rebel·laren contra [deity0_objective], [deity0_name] els evità, perquè [deity0_pronoun] és [deity0_type].</li>
+    <li>episode(uses=1)->El sofriment de la humanitat fa que [deity0_name] pateixi una gran pena.</li>
+    <li>materialOrigin->argila</li>
+    <li>materialOrigin->gas</li>
+    <li>materialOrigin->aigua</li>
+    <li>materialOrigin->espai</li>
+    <li>materialOrigin->pols</li>
+    <li>bodilyOrigin->donant forma a l’argila de la terra</li>
+    <li>bodilyOrigin->amb pedres</li>
+    <li>bodilyOrigin->de la seva suor</li>
+  </TheistMyth.rules.rulesStrings>
   
 </LanguageData>

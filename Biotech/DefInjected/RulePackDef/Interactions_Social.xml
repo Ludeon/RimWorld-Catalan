@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>situation(p=2)->safely</li>
+    <li>situation->at night</li>
+    <li>situation->in the cold</li>
+    <li>situation->while injured</li>
+    <li>situation(p=0.2)->while drunk</li>
+  -->
+  <LessonInteractionCommonSituations.rulePack.rulesStrings>
+    <li>situation(p=2)->de manera segura</li>
+    <li>situation->de nit</li>
+    <li>situation->amb el fred</li>
+    <li>situation->mentre està ferit</li>
+    <li>situation(p=0.2)->mentre està borratxo</li>
+  </LessonInteractionCommonSituations.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
+  -->
+  <LessonInteractionHowTo.rulePack.rulesStrings>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_verb] [teach_adverb] com [action] [article_tool] a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] com [action] [article_tool] a [RECIPIENT_nameDef].</li>
+  </LessonInteractionHowTo.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] on [action_gerund] [article_tool] [situation].</li>
+    <li>teach_test->quizzed</li>
+    <li>teach_test->tested</li>
+    <li>teach_test->grilled</li>
+    <li>teach_test->cross-examined</li>
+  -->
+  <LessonInteractionQuiz.rulePack.rulesStrings>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] sobre [action_gerund] [article_tool] [situation].</li>
+    <li>teach_test->li ha fet una pregunta a</li>
+    <li>teach_test->pregunta a</li>
+    <li>teach_test->examina a</li>
+    <li>teach_test->li fa una qüestió a</li>
+  </LessonInteractionQuiz.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
+    <li>study_verb->covered</li>
+    <li>study_verb->went over</li>
+    <li>study_verb->researched</li>
+    <li>study_verb->studied</li>
+  -->
+  <LessonInteractionStudySubjectWith.rulePack.rulesStrings>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [study_verb] [teach_adverb] [subject] amb [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] amb [RECIPIENT_nameDef].</li>
+    <li>study_verb->fa un resum de</li>
+    <li>study_verb->repassa</li>
+    <li>study_verb->memoritza coses sobre</li>
+    <li>study_verb->estudia</li>
+  </LessonInteractionStudySubjectWith.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>teach_adverb->calmly</li>
+    <li>teach_adverb->animatedly</li>
+    <li>teach_adverb->intently</li>
+    <li>teach_adverb->quickly</li>
+    <li>teach_adverb->lightheartedly</li>
+    <li>teach_adverb->carefully</li>
+  -->
+  <LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
+    <li>teach_adverb->amb paciència</li>
+    <li>teach_adverb->animadament</li>
+    <li>teach_adverb->amb atenció</li>
+    <li>teach_adverb->de pressa</li>
+    <li>teach_adverb->amb tranquil·litat</li>
+    <li>teach_adverb->amb molta atenció</li>
+  </LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>teach_verb->demonstrated</li>
+    <li>teach_verb->explained</li>
+    <li>teach_verb->showed</li>
+    <li>teach_verb->taught</li>
+  -->
+  <LessonInteractionTeachingVerbs.rulePack.rulesStrings>
+    <li>teach_verb->demostra</li>
+    <li>teach_verb->explica</li>
+    <li>teach_verb->mostra</li>
+    <li>teach_verb->ensenya</li>
+  </LessonInteractionTeachingVerbs.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
+    <li>talk_verb->talked about</li>
+    <li>talk_verb->gave an overview of</li>
+    <li>talk_verb->gave a summary of</li>
+    <li>talk_verb->lectured about</li>
+  -->
+  <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [talk_verb] [subject] [teach_adverb] a [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject] a [RECIPIENT_nameDef].</li>
+    <li>talk_verb->parla sobre</li>
+    <li>talk_verb->li explica algunes coses de</li>
+    <li>talk_verb->fa un resum de</li>
+    <li>talk_verb->li fa una classe magistral de</li>
+  </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
+  
+</LanguageData>

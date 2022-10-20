@@ -97,9 +97,9 @@
   <Archaeologist85.titleShortFemale>exploradora</Archaeologist85.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was a cybernetic researcher. Studying a transcended world, [PAWN_pronoun] became too involved with [PAWN_possessive] subjects. Over time, the archotech recruited [PAWN_objective] into its service, and used [PAWN_objective] as a spy.\n\nWhen [PAWN_pronoun] later rebelled against [PAWN_possessive] inhuman master, it sent mechanoids across space to hunt [PAWN_objective] down. -->
-  <ArchotechSpy75.baseDesc>[PAWN_nameDef] era {PAWN_gender ? un investigador : una investigadora} de la cibernètica. Mentre estudiava un planeta transcendit, es va relacionar massa amb els subjectes. Amb el temps, un nucli de màquines arcotecnològiques {PAWN_gender ? el : la} va convèncer per a treballar per a la seva causa i {PAWN_gender ? el : la} va fer servir d’espia.\n\nQuan es va rebel·lar contra el seu cap no-humà, va enviar mecanoides a l’espai per perseguir-{PAWN_gender ? lo : la}.</ArchotechSpy75.baseDesc>
+  <ArchotechSpy75.baseDesc>[PAWN_nameDef] era {PAWN_gender ? un investigador : una investigadora} de la cibernètica. Mentre estudiava un planeta transcendit, es va relacionar massa amb els subjectes. Amb el temps, un nucli de màquines arcotècniques {PAWN_gender ? el : la} va convèncer per a treballar per a la seva causa i {PAWN_gender ? el : la} va fer servir d’espia.\n\nQuan es va rebel·lar contra el seu cap no-humà, va enviar mecanoides a l’espai per perseguir-{PAWN_gender ? lo : la}.</ArchotechSpy75.baseDesc>
   <!-- EN: archotech spy -->
-  <ArchotechSpy75.title>espia d’arcotecnologies</ArchotechSpy75.title>
+  <ArchotechSpy75.title>espia arcotècnic</ArchotechSpy75.title>
   <!-- EN: AI spy -->
   <ArchotechSpy75.titleShort>espia d’IA</ArchotechSpy75.titleShort>
   
@@ -410,13 +410,13 @@
   <CloneFarmer58.titleShortFemale>clonadora</CloneFarmer58.titleShortFemale>
   
   <!-- EN: Applying the knowledge that [PAWN_pronoun] gained from years around fighters, [PAWN_pronoun] became a successful gladiator in the coliseum that [PAWN_pronoun] once cleaned. -->
-  <ColiseumFighter22.baseDesc>Amb el coneixement obtingut en els anys passats entre lluitadors, va triomfar com a lluitant als coliseus que abans netejava.</ColiseumFighter22.baseDesc>
+  <ColiseumFighter22.baseDesc>Amb el coneixement obtingut en els anys passats entre lluitadors, va triomfar com a {PAWN_gender ? gladiador : gladiadora} als coliseus que netejava abans.</ColiseumFighter22.baseDesc>
   <!-- EN: coliseum fighter -->
-  <ColiseumFighter22.title>lluitador de coliseu</ColiseumFighter22.title>
-  <ColiseumFighter22.titleFemale>lluitadora de coliseu</ColiseumFighter22.titleFemale>
+  <ColiseumFighter22.title>gladiador</ColiseumFighter22.title>
+  <ColiseumFighter22.titleFemale>gladiadora</ColiseumFighter22.titleFemale>
   <!-- EN: fighter -->
-  <ColiseumFighter22.titleShort>lluitador</ColiseumFighter22.titleShort>
-  <ColiseumFighter22.titleShortFemale>lluitadora</ColiseumFighter22.titleShortFemale>
+  <ColiseumFighter22.titleShort>gladiador</ColiseumFighter22.titleShort>
+  <ColiseumFighter22.titleShortFemale>gladiadora</ColiseumFighter22.titleShortFemale>
   
   <!-- EN: Disillusioned by rampant government corruption, [PAWN_nameDef] ran for governor and won. However, the local gangs and their pet officials soon forced [PAWN_objective] out of power.\n\n[PAWN_pronoun] left the community to return to [PAWN_possessive] life as a marshal. -->
   <ColonialGovernor78.baseDesc>La desil·lusió deguda a la corrupció local va dur a [PAWN_nameDef] a lluitar presentar-se per a una plaça de governació i la va aconseguir. Tanmateix, les bandes locals i els seus infiltrats a l’administració van fer que perdés el càrrec aviat.\n\nVa deixar la comunitat i va tornar a la seva vida anterior de policia.</ColonialGovernor78.baseDesc>
@@ -464,7 +464,7 @@
   <CombatMedic82.titleShortFemale>metgessa</CombatMedic82.titleShortFemale>
   
   <!-- EN: As a military medtech, [PAWN_nameDef]'s job was to fix and build anything [PAWN_pronoun] could get [PAWN_possessive] hands on, from living people to machines and mechs.\n\nSent into dangerous areas, [PAWN_pronoun] never had a problem saving soldiers' lives and building the technology and machines needed to win. -->
-  <CombatMedtech59.baseDesc>Com a metge militar, la feina de [PAWN_nameDef] era curar i arreglar tot el que li posaven a les mans, tant persones com màquines o robots.\n\nTreballava a zones perilloses i no tenia cap problema per salvar les vides dels soldats i muntar els dispositius que fessin falta per guanyar.</CombatMedtech59.baseDesc>
+  <CombatMedtech59.baseDesc>Com a metge militar, la feina de [PAWN_nameDef] era curar i arreglar tot el que li posaven a les mans, tant persones com màquines i mecanoides.\n\nTreballava a zones perilloses i no tenia cap problema per salvar les vides dels soldats i muntar els dispositius que fessin falta per guanyar.</CombatMedtech59.baseDesc>
   <!-- EN: combat medtech -->
   <CombatMedtech59.title>tècnic sanitari</CombatMedtech59.title>
   <CombatMedtech59.titleFemale>tècnica sanitària</CombatMedtech59.titleFemale>
@@ -692,7 +692,7 @@
   <EnergyResearcher89.titleShortFemale>investigadora</EnergyResearcher89.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] found a job as a tinkering engineer on the trading hub planet Irithir. Tough local traders forced [PAWN_objective] to learn negotiation skills, and [PAWN_pronoun] made good profits selling refurbished weapons and tools. -->
-  <Engineer40.baseDesc>[PAWN_nameDef] va trobar feina d’enginyer de manteniment en un centre de comerç del planeta Irithir. Els durs comerciants locals el van obligar a aprendre tècniques de regateig i negociació, i va fer bons negocis revenent armes i eines recuperades.</Engineer40.baseDesc>
+  <Engineer40.baseDesc>[PAWN_nameDef] va trobar feina d’{PAWN_gender ? enginyer : enginyera} de manteniment en un centre de comerç del planeta Irithir. Els durs comerciants locals {PAWN_gender ? el : la} van obligar a aprendre tècniques de regateig i negociació i va fer bons negocis revenent armes i eines recuperades.</Engineer40.baseDesc>
   <!-- EN: engineer -->
   <Engineer40.title>enginyer</Engineer40.title>
   <Engineer40.titleFemale>enginyera</Engineer40.titleFemale>
@@ -1096,7 +1096,7 @@
   <IntimateAssassin35.titleShortFemale>assassina</IntimateAssassin35.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef]'s escape pod was jettisoned onto an unexplored region of a frontier world. [PAWN_pronoun] eked out a lonely existence with only a herd of muffalo for company.\n \nLater, [PAWN_pronoun] was spotted clad in pygmy wombat furs, discussing the importance of hoof hygiene with a group of elderly muffalo. -->
-  <InvoluntaryHermit38.baseDesc>La càpsula d’escapament de [PAWN_nameDef] va aterrar en una regió inexplorada d’un planeta fronterer. Va anar tirant endavant una existència solitària amb la única companyia d’un ramat de múfals.\n \nVa ser vista uns anys més tard vestida amb pells de mustela pigmea, discutint la importància de la higiene de les peülles amb un grup de múfals vells.</InvoluntaryHermit38.baseDesc>
+  <InvoluntaryHermit38.baseDesc>La càpsula d’escapament de [PAWN_nameDef] va aterrar a una regió inexplorada d’un planeta fronterer. Va anar tirant endavant una existència solitària amb la única companyia d’un ramat de múfals.\n \nVa ser vista uns anys més tard vestida amb pells de mustela pigmea, discutint la importància de la higiene de les peülles amb un grup de múfals vells.</InvoluntaryHermit38.baseDesc>
   <!-- EN: involuntary hermit -->
   <InvoluntaryHermit38.title>ermità involuntari</InvoluntaryHermit38.title>
   <InvoluntaryHermit38.titleFemale>ermitana involuntària</InvoluntaryHermit38.titleFemale>
@@ -1745,7 +1745,7 @@
   <RebelFighter39.titleShort>rebel</RebelFighter39.titleShort>
   
   <!-- EN: Ordained as a priest in [PAWN_possessive] local community, [PAWN_nameDef] used intrigue and diplomacy to rise to the higher echelon of the clergy. [PAWN_pronoun] held numerous titles and lands.\n\nOne day, a merchant landed [PAWN_possessive] spaceship near [PAWN_nameDef]'s home. [PAWN_pronoun] decided to accompany the merchant in search for new worlds and challenges. -->
-  <ReligiousHierarch16.baseDesc>Ordenat sacerdot per la seva comunitat local, [PAWN_nameDef] intrigava i negociava per ascendir esgraons dins del clergat. Va aconseguir nombrosos títols i terres.\n\nUn dia, un mercader va aterrar amb la seva nau espacial prop de casa seva. [PAWN_nameDef] va decidir acompanyar el mercader a la recerca de nous reptes i nous planetes.</ReligiousHierarch16.baseDesc>
+  <ReligiousHierarch16.baseDesc>Ordenat sacerdot per la seva comunitat local, [PAWN_nameDef] intrigava i negociava per ascendir esgraons dins del clergat. Va aconseguir nombrosos títols i terres.\n\nUn dia, un mercader va aterrar amb la seva nau espacial a prop de casa seva. [PAWN_nameDef] va decidir acompanyar el mercader a la recerca de nous reptes i nous planetes.</ReligiousHierarch16.baseDesc>
   <!-- EN: religious hierarch -->
   <ReligiousHierarch16.title>jerarca religiós</ReligiousHierarch16.title>
   <ReligiousHierarch16.titleFemale>jerarca religiosa</ReligiousHierarch16.titleFemale>
@@ -2079,8 +2079,8 @@
   <!-- EN: [PAWN_nameDef] got a spot on a ship by becoming the ship's cook. [PAWN_pronoun] enjoyed cooking and helping the doctor clean wounds, but [PAWN_pronoun] never got used to cleaning the dishes. -->
   <SpaceshipChef41.baseDesc>Ryan va trobar feina en una nau com a cuiner d’abord. Li agradava cuinar i ajudar al metge a netejar les ferides, però no li va agafar mai el gust a rentar els plats.</SpaceshipChef41.baseDesc>
   <!-- EN: spaceship chef -->
-  <SpaceshipChef41.title>xef de nau espacial</SpaceshipChef41.title>
-  <SpaceshipChef41.titleFemale>xef de nau espacial</SpaceshipChef41.titleFemale>
+  <SpaceshipChef41.title>xef de naus espacials</SpaceshipChef41.title>
+  <SpaceshipChef41.titleFemale>xef de naus espacials</SpaceshipChef41.titleFemale>
   <!-- EN: chef -->
   <SpaceshipChef41.titleShort>xef</SpaceshipChef41.titleShort>
   <SpaceshipChef41.titleShortFemale>xef</SpaceshipChef41.titleShortFemale>
@@ -2097,8 +2097,8 @@
   <!-- EN: The space station [PAWN_nameDef] came from was far from any populated planets, and was in itself understaffed. For this reason, [PAWN_nameDef] was forced to learn how to cook in order to keep the crew alive. While [PAWN_pronoun] appreciated this learning opportunity, [PAWN_pronoun] didn't appreciate the criticism which came with it, and has had self-esteem issues ever since. -->
   <SpaceStationCook63.baseDesc>L’estació espacial de la qual prové [PAWN_nameDef] quedava lluny de qualsevol planeta habitat, i no tenia prou treballadors. Per aquest motiu, [PAWN_nameDef] va haver d’aprendre a cuinar per mantenir alimentada la tripulació. Tot i que agraïa l’oportunitat per aprendre, no li agradaven les crítiques que hi anaven associades i des de llavors té problemes d’autoestima.</SpaceStationCook63.baseDesc>
   <!-- EN: space station cook -->
-  <SpaceStationCook63.title>cuiner de nau espacial</SpaceStationCook63.title>
-  <SpaceStationCook63.titleFemale>cuinera de nau espacial</SpaceStationCook63.titleFemale>
+  <SpaceStationCook63.title>cuiner de naus espacials</SpaceStationCook63.title>
+  <SpaceStationCook63.titleFemale>cuinera de naus espacials</SpaceStationCook63.titleFemale>
   <!-- EN: cook -->
   <SpaceStationCook63.titleShort>cuiner</SpaceStationCook63.titleShort>
   <SpaceStationCook63.titleShortFemale>cuinera</SpaceStationCook63.titleShortFemale>
@@ -2143,7 +2143,7 @@
   <Spy58.titleShort>espia</Spy58.titleShort>
   
   <!-- EN: With the farm under constant threat from brigands, [PAWN_nameDef] learned to defend [PAWN_objective]self with [PAWN_possessive] father's hunting rifle. [PAWN_pronoun] also mastered how to construct fences to keep livestock in and the local wildlife out. [PAWN_nameDef] tried to paint a picture of [PAWN_possessive] home and learned [PAWN_pronoun] can only draw scribbles and ducks. -->
-  <StalwartFarmer21.baseDesc>Amb la granja sempre amenaçada pels malfactors, [PAWN_nameDef] va aprendre a defensar-se amb el rifle del seu pare. També va aprendre a fer bons corrals per mantenir els depredadors lluny del bestiar.\n\nUn cop va provar de dibuixar casa seva, i va descobrir que només sabia fer ànecs i guixots.</StalwartFarmer21.baseDesc>
+  <StalwartFarmer21.baseDesc>Amb la granja sempre amenaçada per malfactors, [PAWN_nameDef] va aprendre a defensar-se amb el rifle del seu pare. També va aprendre a fer bons corrals per a mantenir els depredadors lluny del bestiar.\n\nUn cop va provar de dibuixar casa seva i va descobrir que només sabia fer ànecs i guixots.</StalwartFarmer21.baseDesc>
   <!-- EN: stalwart farmer -->
   <StalwartFarmer21.title>granger fidel</StalwartFarmer21.title>
   <StalwartFarmer21.titleFemale>grangera fidel</StalwartFarmer21.titleFemale>
@@ -2177,8 +2177,8 @@
   <!-- EN: [PAWN_nameDef] was a doctor on a starship. [PAWN_pronoun] was a brilliant surgeon and dabbled in research of [PAWN_possessive] own. However, [PAWN_pronoun] was quite reclusive and never had the best bedside manner. -->
   <StarshipDoctor37.baseDesc>[PAWN_nameDef] era el metge d’una nau. Era un bon cirurgià i li agradava investigar per si mateix. Tanmateix era molt tancat en si mateix i no era el millor cuidant malalts.</StarshipDoctor37.baseDesc>
   <!-- EN: starship doctor -->
-  <StarshipDoctor37.title>metge de nau espacial</StarshipDoctor37.title>
-  <StarshipDoctor37.titleFemale>metgessa de nau espacial</StarshipDoctor37.titleFemale>
+  <StarshipDoctor37.title>metge de naus espacials</StarshipDoctor37.title>
+  <StarshipDoctor37.titleFemale>metgessa de naus espacials</StarshipDoctor37.titleFemale>
   <!-- EN: doctor -->
   <StarshipDoctor37.titleShort>metge</StarshipDoctor37.titleShort>
   <StarshipDoctor37.titleShortFemale>metgessa</StarshipDoctor37.titleShortFemale>
@@ -2207,7 +2207,7 @@
   <StellarPirate10.titleShort>pirata</StellarPirate10.titleShort>
   
   <!-- EN: Because of [PAWN_possessive] skills, [PAWN_nameDef] developed a sense of superiority. In time, [PAWN_pronoun] lost [PAWN_possessive] sense of empathy. [PAWN_pronoun] often got into fights, and discovered how easy it is to kill a person.\n\nAfter realizing [PAWN_possessive] talents, [PAWN_pronoun] became one of the most efficient assassins in the system. -->
-  <StilettoAssassin34.baseDesc>Dagut a les seves capacitats, [PAWN_nameDef] va anar adquirint un sentiment de superioritat. Amb el temps va perdre l’empatia. Es barallava sovint, i va descobrir com n’era de fàcil matar algú.\n\nQuan van descobrir els seus talents, el van convertir en un dels assassins més eficients del sistema.</StilettoAssassin34.baseDesc>
+  <StilettoAssassin34.baseDesc>Dagut a les seves capacitats, [PAWN_nameDef] va anar adquirint un sentiment de superioritat. Amb el temps va perdre l’empatia. Es barallava sovint i descobrí com era de fàcil matar algú.\n\nQuan van descobrir els seus talents, {PAWN_gender ? el : la} van convertir en {PAWN_gender ? un dels assassins : una de les assessines} més eficients del sistema.</StilettoAssassin34.baseDesc>
   <!-- EN: stiletto assassin -->
   <StilettoAssassin34.title>assassí expert</StilettoAssassin34.title>
   <StilettoAssassin34.titleFemale>assassina experta</StilettoAssassin34.titleFemale>
@@ -2216,7 +2216,7 @@
   <StilettoAssassin34.titleShortFemale>assassina</StilettoAssassin34.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] traveled [PAWN_possessive] world recounting the legends that [PAWN_pronoun] had studied.\n\nObsessed with the legends of [PAWN_possessive] people, [PAWN_nameDef] seeks someone who can help [PAWN_objective] grow scales on [PAWN_possessive] skin, so [PAWN_pronoun] too can be as the ancients were. -->
-  <Storyteller63.baseDesc>[PAWN_nameDef] va viatjar per tot el planeta explicant les llegendes que havia estudiat.\n\nObsessionat amb les llegendes del seu poble, [PAWN_nameDef] va buscar algú que pogués fer-li créixer escames a la pell per a ser com els seus avantpassats.</Storyteller63.baseDesc>
+  <Storyteller63.baseDesc>[PAWN_nameDef] va viatjar per tot el planeta explicant les llegendes que havia estudiat.\n\n{PAWN_gender ? Obsessionat : Obsessionada} amb les llegendes del seu poble, [PAWN_nameDef] va buscar algú que pogués fer-li créixer escames a la pell per a ser com els seus avantpassats.</Storyteller63.baseDesc>
   <!-- EN: storyteller -->
   <Storyteller63.title>contacontes</Storyteller63.title>
   <!-- EN: fabulist -->

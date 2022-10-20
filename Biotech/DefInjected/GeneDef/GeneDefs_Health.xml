@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: fertile -->
+  <Fertile.label>fertilitat</Fertile.label>
+  <!-- EN: Carriers of this gene have a higher chance of becoming pregnant or impregnating others. -->
+  <Fertile.description>Els portadors d’aquest gen tenen més probabilitats d’aconseguir un embaràs.</Fertile.description>
+  
+  <!-- EN: strong immunity -->
+  <Immunity_Strong.label>immunitat forta</Immunity_Strong.label>
+  <!-- EN: Carriers of this gene gain immunity to diseases faster than normal. -->
+  <Immunity_Strong.description>Els portadors d’aquest gen obtenen immunitat a les malalties més ràpid que les persones normals.</Immunity_Strong.description>
+  <!-- EN: immune -->
+  <Immunity_Strong.labelShortAdj>immune</Immunity_Strong.labelShortAdj>
+  <!-- EN: stout -->
+  <Immunity_Strong.symbolPack.prefixSymbols.0.symbol>resistent</Immunity_Strong.symbolPack.prefixSymbols.0.symbol>
+  
+  <!-- EN: super immunity -->
+  <Immunity_SuperStrong.label>súper immunitat</Immunity_SuperStrong.label>
+  <!-- EN: Carriers of this gene gain immunity to diseases considerably faster than normal. -->
+  <Immunity_SuperStrong.description>Els portadors d’aquest gen obtenen immunitat a les malalties molt més ràpid que les persones normals.</Immunity_SuperStrong.description>
+  <!-- EN: super-immune -->
+  <Immunity_SuperStrong.labelShortAdj>súper immune</Immunity_SuperStrong.labelShortAdj>
+  <!-- EN: stout -->
+  <Immunity_SuperStrong.symbolPack.prefixSymbols.0.symbol>resistent</Immunity_SuperStrong.symbolPack.prefixSymbols.0.symbol>
+  
+  <!-- EN: weak immunity -->
+  <Immunity_Weak.label>immunitat dèbil</Immunity_Weak.label>
+  <!-- EN: Carriers of this gene gain immunity to diseases more slowly than normal. They may die from infections that others would survive. -->
+  <Immunity_Weak.description>Els portadors d’aquest gen obtenen immunitat a les malalties més poc a poc que les persones normals. Poden morir d’infeccions que altres persones superarien fàcilment.</Immunity_Weak.description>
+  <!-- EN: susceptible -->
+  <Immunity_Weak.labelShortAdj>nyicris</Immunity_Weak.labelShortAdj>
+  <!-- EN: sick -->
+  <Immunity_Weak.symbolPack.prefixSymbols.0.symbol>malaltís</Immunity_Weak.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: frail -->
+  <Immunity_Weak.symbolPack.prefixSymbols.1.symbol>fràgil</Immunity_Weak.symbolPack.prefixSymbols.1.symbol>
+  
+  <!-- EN: sterile -->
+  <Sterile.label>infertilitat</Sterile.label>
+  <!-- EN: Carriers of this gene cannot reproduce by natural means. -->
+  <Sterile.description>Els portadors d’aquest gen no es poden reproduir amb mitjans naturals.</Sterile.description>
+  
+  <!-- EN: superclotting -->
+  <Superclotting.label>súper coagulació</Superclotting.label>
+  <!-- EN: Carriers of this gene have extra-power coagulating factors in their blood, and will stop bleeding very quickly when wounded. -->
+  <Superclotting.description>Els portadors d’aquest gen tenen factors de coagulació ultraràpida i, quan reben una ferida, deixen de sagnar en molt poc temps.</Superclotting.description>
+  <!-- EN: Bleeding wounds close very quickly. -->
+  <Superclotting.customEffectDescriptions.0>Si es rep una ferida i sagna, es tancarà molt de pressa.</Superclotting.customEffectDescriptions.0>
+  <!-- EN: clot -->
+  <Superclotting.symbolPack.prefixSymbols.0.symbol>coagui</Superclotting.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: scab -->
+  <Superclotting.symbolPack.prefixSymbols.1.symbol>crosti</Superclotting.symbolPack.prefixSymbols.1.symbol>
+  <!-- EN: clot -->
+  <Superclotting.symbolPack.suffixSymbols.0.symbol>coàgul</Superclotting.symbolPack.suffixSymbols.0.symbol>
+  <!-- EN: scab -->
+  <Superclotting.symbolPack.suffixSymbols.1.symbol>crosta</Superclotting.symbolPack.suffixSymbols.1.symbol>
+  
+  <!-- EN: partial antitoxic lungs -->
+  <ToxicEnvironmentResistance_Partial.label>pulmons antitoxines</ToxicEnvironmentResistance_Partial.label>
+  <!-- EN: Carriers of this gene are resistant to environmental toxins. They get less toxic buildup from tox gas, polluted terrain, and toxic fallout, but are still vulnerable to direct attacks with venom or injected poison. Additionally, they build up rot stink exposure slower. -->
+  <ToxicEnvironmentResistance_Partial.description>Els portadors d’aquest gen són resistents a les toxines ambientals. Acumulen menys partícules tòxiques de terrenys contaminats, gasos tòxics o pluja tòxica al cos. A més a més, l’exposició als gasos de putrefaccions també va a un ritme més lent. No obstant, aquest gen no protegeix contra els verins o altres components tòxics injectats directament a la sang.</ToxicEnvironmentResistance_Partial.description>
+  <!-- EN: tox-resistant -->
+  <ToxicEnvironmentResistance_Partial.labelShortAdj>resistent a la contaminació</ToxicEnvironmentResistance_Partial.labelShortAdj>
+  <!-- EN: tox -->
+  <ToxicEnvironmentResistance_Partial.symbolPack.prefixSymbols.0.symbol>toxi</ToxicEnvironmentResistance_Partial.symbolPack.prefixSymbols.0.symbol>
+  
+  <!-- EN: total antitoxic lungs -->
+  <ToxicEnvironmentResistance_Total.label>súper pulmons antitoxines</ToxicEnvironmentResistance_Total.label>
+  <!-- EN: Carriers of this gene are immune to environmental toxins, but not from direct toxic attacks. They get no toxic buildup from tox gas, polluted terrain, or toxic fallout, and they are not bothered by acidic smog. They are still vulnerable to direct attacks like venom and injected poison. Additionally, they are immune to rot stink exposure. -->
+  <ToxicEnvironmentResistance_Total.description>Els portadors d’aquest gen són immunes a les toxines ambientals, excepte als atacs directes amb gasos tòxics. No acumulen partícules tòxiques de terrenys contaminats, gasos tòxics o pluja tòxica al cos i la boira tòxica o els gasos de putrefaccions no els afecten. No obstant, aquest gen no protegeix contra els verins o altres components tòxics injectats directament a la sang.</ToxicEnvironmentResistance_Total.description>
+  <!-- EN: Tox gas immunity -->
+  <ToxicEnvironmentResistance_Total.customEffectDescriptions.0>Immunitat als gasos tòxics</ToxicEnvironmentResistance_Total.customEffectDescriptions.0>
+  <!-- EN: tox-immune -->
+  <ToxicEnvironmentResistance_Total.labelShortAdj>immune a la contaminació</ToxicEnvironmentResistance_Total.labelShortAdj>
+  <!-- EN: tox -->
+  <ToxicEnvironmentResistance_Total.symbolPack.prefixSymbols.0.symbol>toxi</ToxicEnvironmentResistance_Total.symbolPack.prefixSymbols.0.symbol>
+  
+  <!-- EN: fast wound healing -->
+  <WoundHealing_Fast.label>curació ràpida de ferides</WoundHealing_Fast.label>
+  <!-- EN: Carriers of this gene heal from wounds twice as fast as normal. -->
+  <WoundHealing_Fast.description>Les ferides que rebin els portadors d’aquest gen triguen la meitat de temps a curar-se.</WoundHealing_Fast.description>
+  <!-- EN: fast-heal -->
+  <WoundHealing_Fast.labelShortAdj>curació ràpida</WoundHealing_Fast.labelShortAdj>
+  <!-- EN: stout -->
+  <WoundHealing_Fast.symbolPack.prefixSymbols.0.symbol>forti</WoundHealing_Fast.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: hard -->
+  <WoundHealing_Fast.symbolPack.prefixSymbols.1.symbol>duri</WoundHealing_Fast.symbolPack.prefixSymbols.1.symbol>
+  
+  <!-- EN: slow wound healing -->
+  <WoundHealing_Slow.label>curació lenta de ferides</WoundHealing_Slow.label>
+  <!-- EN: Carriers of this gene heal from wounds half as fast as normal. -->
+  <WoundHealing_Slow.description>Les ferides que rebin els portadors d’aquest gen triguen el doble de temps a curar-se.</WoundHealing_Slow.description>
+  <!-- EN: slow-heal -->
+  <WoundHealing_Slow.labelShortAdj>curació lenta</WoundHealing_Slow.labelShortAdj>
+  <!-- EN: soft -->
+  <WoundHealing_Slow.symbolPack.prefixSymbols.0.symbol>delica</WoundHealing_Slow.symbolPack.prefixSymbols.0.symbol>
+  
+  <!-- EN: superfast wound healing -->
+  <WoundHealing_SuperFast.label>curació superràpida de ferides</WoundHealing_SuperFast.label>
+  <!-- EN: Carriers of this gene heal from wounds four times as fast as normal. -->
+  <WoundHealing_SuperFast.description>Les ferides que rebin els portadors d’aquest gen es curen quatre vegades més de pressa que les d’una persona normal.</WoundHealing_SuperFast.description>
+  <!-- EN: super-heal -->
+  <WoundHealing_SuperFast.labelShortAdj>supercuració</WoundHealing_SuperFast.labelShortAdj>
+  <!-- EN: stout -->
+  <WoundHealing_SuperFast.symbolPack.prefixSymbols.0.symbol>fort</WoundHealing_SuperFast.symbolPack.prefixSymbols.0.symbol>
+  <!-- EN: hard -->
+  <WoundHealing_SuperFast.symbolPack.prefixSymbols.1.symbol>dur</WoundHealing_SuperFast.symbolPack.prefixSymbols.1.symbol>
+  
+</LanguageData>

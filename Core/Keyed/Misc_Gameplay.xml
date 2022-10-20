@@ -57,7 +57,7 @@
   <!-- EN: developed immunity -->
   <DevelopedImmunityLower>immunitat desenvolupada</DevelopedImmunityLower>
   <!-- EN: Needs tending now -->
-  <NeedsTendingNow>Necessita tractament mèdic immediata.</NeedsTendingNow>
+  <NeedsTendingNow>Necessita tractament mèdic immediat.</NeedsTendingNow>
   <!-- EN: Can tend now -->
   <CanTendNow>Se li pot prestar tractament mèdic.</CanTendNow>
   <!-- EN: Tending expires in {0} -->
@@ -189,7 +189,7 @@
   <!-- EN: permanent -->
   <Permanent>permanent</Permanent>
   <!-- EN: Resting -->
-  <CaravanResting>Descansant</CaravanResting>
+  <CaravanResting>Descansa</CaravanResting>
   <!-- EN: using 1 bedroll -->
   <UsingBedroll>fent servir 1 sac de dormir</UsingBedroll>
   <!-- EN: using {0} bedrolls -->
@@ -321,7 +321,7 @@
   <!-- EN: Departing in {0} -->
   <ShuttleLeaveDelayInspectString>Se’n va en {0}.</ShuttleLeaveDelayInspectString>
   <!-- EN: Should depart on shuttle -->
-  <ShouldDepartOnShuttleInspectString>Hauria d’anar-se’n en la llançadora.</ShouldDepartOnShuttleInspectString>
+  <ShouldDepartOnShuttleInspectString>Hauria d’anar-se’n en la llançadora</ShouldDepartOnShuttleInspectString>
   <!-- EN: Time left: {0} -->
   <WorldObjectTimeout>Temps restant: {0}</WorldObjectTimeout>
   <!-- EN: Click to sort by this column. -->
@@ -383,7 +383,7 @@
   <!-- EN: No letter -->
   <NoDietCategoryLetter>Cap carta</NoDietCategoryLetter>
   <!-- EN: Expires in -->
-  <ExpiresIn>S’acaba en</ExpiresIn>
+  <ExpiresIn>acaba d’aquí a</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
   <CaravanLeaderCaravanName>caravana de {1_labelShort}</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
@@ -459,7 +459,7 @@
   <!-- EN: Radius expand rate -->
   <RadiusExpandRate>Ràtio d’expansió del radi</RadiusExpandRate>
   <!-- EN: View: {0} -->
-  <ViewHyperlink>Veure: {0}</ViewHyperlink>
+  <ViewHyperlink>Mostra: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>Detonarà d’aquí a {0} dies.</DetonationCountdown>
   <!-- EN: Large fire explosion if damaged. -->
@@ -519,7 +519,7 @@
   <!-- EN: reducing resistance of {0_nameIndef} -->
   <JobReport_ReduceResistance>reduint la resistència de {0_nameIndef}</JobReport_ReduceResistance>
   <!-- EN: Too large -->
-  <TooLargeForBed>Massa gran</TooLargeForBed>
+  <TooLargeForBed>massa gran</TooLargeForBed>
   <!-- EN: Warning -->
   <Warning>Avís</Warning>
   <!-- EN: Has subquest -->
@@ -560,6 +560,8 @@
   <Size>mida</Size>
   <!-- EN: cost -->
   <Cost>cost</Cost>
+  <!-- EN: Title -->
+  <BackstoryTitle>Títol</BackstoryTitle><!-- text_todo -->
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -607,7 +609,7 @@
   <!-- EN: Tame failed\n{0} chance -->
   <TextMote_TameFail>La doma ha fallat.\nProbabilitat d’èxit del {0}</TextMote_TameFail>
   <!-- EN: Tamed! -->
-  <TextMote_TameSuccess>La domesticació ha tingut èxit!\nProbabilitat d’èxit del {0)</TextMote_TameSuccess>
+  <TextMote_TameSuccess>La domesticació ha tingut èxit!</TextMote_TameSuccess>
   <!-- EN: Failed training: {0}\n{1} chance -->
   <TextMote_TrainFail>L’entrenament ha fracassat: {0}\nProbabilitat d’èxit del {1}</TextMote_TrainFail>
   <!-- EN: Trained: {0}\n{1} chance -->
@@ -841,19 +843,19 @@
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
-  <LordReportAttendingMarriageCeremony>Assistint a la cerimònia de casament</LordReportAttendingMarriageCeremony>
+  <LordReportAttendingMarriageCeremony>Assisteix a la cerimònia de casament</LordReportAttendingMarriageCeremony>
   <!-- EN: Attending party -->
-  <LordReportAttendingParty>Assistint a la festa</LordReportAttendingParty>
+  <LordReportAttendingParty>Assisteix a la festa</LordReportAttendingParty>
   <!-- EN: Attending concert -->
-  <LordReportAttendingConcert>Assistint a un concert</LordReportAttendingConcert>
+  <LordReportAttendingConcert>Assisteix a un concert</LordReportAttendingConcert>
   <!-- EN: Holding a concert -->
-  <LordReportHoldingConcert>Celebrant un concert</LordReportHoldingConcert>
+  <LordReportHoldingConcert>Celebra un concert</LordReportHoldingConcert>
   <!-- EN: Giving a speech -->
-  <LordReportGivingSpeech>Donant un discurs</LordReportGivingSpeech>
+  <LordReportGivingSpeech>Dóna un discurs</LordReportGivingSpeech>
   <!-- EN: Listening to {ORGANIZER_labelShort}'s speech -->
-  <LordReportListeningSpeech>Escoltant el discurs de {ORGANIZER_labelShort}</LordReportListeningSpeech>
+  <LordReportListeningSpeech>Escolta el discurs de {ORGANIZER_labelShort}</LordReportListeningSpeech>
   <!-- EN: Forming caravan -->
-  <LordReportFormingCaravan>Formant una caravana</LordReportFormingCaravan>
+  <LordReportFormingCaravan>Forma una caravana</LordReportFormingCaravan>
 
   <!-- Shooting report -->
   <!-- EN: Weapon miss radius -->
@@ -881,9 +883,9 @@
 
   <!-- Generated recipes -->
   <!-- EN: make {0} -->
-  <RecipeMake>fer {0}</RecipeMake>
+  <RecipeMake>fer {0_indefinite}</RecipeMake>
   <!-- EN: Make {0}. -->
-  <RecipeMakeDescription>Fes {0}.</RecipeMakeDescription>
+  <RecipeMakeDescription>Fes {0_indefinite}.</RecipeMakeDescription>
   <!-- EN: Making {0}. -->
   <RecipeMakeJobString>fa {0}.</RecipeMakeJobString>
   <!-- EN: administer {0} -->
@@ -984,6 +986,8 @@
   <PowerNeeded>Potència necessària</PowerNeeded>
   <!-- EN: Power output -->
   <PowerOutput>Potència de sortida</PowerOutput>
+  <!-- EN: {0} W when active -->
+  <PowerActiveNeeded>{0} W quan està actiu</PowerActiveNeeded>
   <!-- EN: Stored -->
   <PowerBatteryStored>Energia emmagatzemada</PowerBatteryStored>
   <!-- EN: Efficiency -->
@@ -1057,7 +1061,7 @@
   <!-- EN: Needs light level -->
   <PlantNeedsLightLevel>Necessita un nivell de llum</PlantNeedsLightLevel>
   <!-- EN: Resting -->
-  <PlantResting>Descansant</PlantResting>
+  <PlantResting>Descansa</PlantResting>
   <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
   <OutOfIdealTemperatureRange>Temperatura no ideal. Modificador de creixement per temperatura: {0} %</OutOfIdealTemperatureRange>
   <!-- EN: Non-ideal temperature. Not growing. -->
@@ -1079,7 +1083,7 @@
   <!-- EN: Growing season here now. -->
   <GrowSeasonHereNow>Ara esteu a l’estació de creixement.</GrowSeasonHereNow>
   <!-- EN: Cannot grow (bad seasonal temperature). -->
-  <CannotGrowBadSeasonTemperature>No pot créixer (estació amb mala temperatura).</CannotGrowBadSeasonTemperature>
+  <CannotGrowBadSeasonTemperature>No pot créixer (estació amb temperatura inapropiada).</CannotGrowBadSeasonTemperature>
   <!-- EN: Blighted -->
   <Blighted>Plaga</Blighted>
   <!-- EN: Dying because exposed to light -->
@@ -1191,7 +1195,7 @@
 
   <!-- Building placement restricters -->
   <!-- EN: {0} will have work speed penalty -->
-  <WillGetWorkSpeedPenalty>Es penalitzarà la velocitat de treball {0_gender ? del : de la} {0}.</WillGetWorkSpeedPenalty>
+  <WillGetWorkSpeedPenalty>Es penalitzarà la velocitat de treball {0_gender ? del : de la} {0}</WillGetWorkSpeedPenalty>
   <!-- EN: Cannot be placed under a roof. -->
   <MustPlaceUnroofed>No es pot posar sota una teulada.</MustPlaceUnroofed>
   <!-- EN: Must be placed under thick roof. -->
@@ -1249,11 +1253,11 @@
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Component no preparat</ShipReportNotReady>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>En (*Name)Charlon Whitestone(/Name) està preparat per iniciar la seqüència de recuperació de la hibernació del reactor.\n\nAvisa que el procés pot durar uns 15 dies i que la signatura energètica serà detectable des de molt lluny.\n\nAquest tipus de signatura energètica indica capacitat de vol interestel·lar i atraurà bandes d’assaltants desesperats i eixams de mecanoides mortífers.\n\nRebreu uns atacs intensos com mai heu vist. Assegureu-vos que teniu les defenses preparades.</HibernateWarning>
+  <HibernateWarning>En (*Name)Charlon Whitestone(/Name) està preparat per a iniciar la seqüència de recuperació de la hibernació del reactor.\n\nAvisa que el procés pot durar uns 15 dies i que la signatura energètica serà detectable des de molt lluny.\n\nAquest tipus de signatura energètica indica capacitat de vol interestel·lar i atraurà bandes d’assaltants desesperats i eixams de mecanoides mortífers.\n\nRebreu uns atacs intensos com mai heu vist. Assegureu-vos que teniu les defenses preparades.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarningStandalone>El reactor està preparat per engegar-lo.\n\nEl procés durarà uns 15 dies i la radiació d’energia podrà detectar-se des de molt lluny. Aquest tipus de signatura energètica indica capacitat de vol interestel·lar i atraurà bandes d’assaltants desesperats i eixams de mecanoides mortífers.\n\nRebreu uns atacs intensos com mai heu vist. Assegureu-vos que teniu les defenses preparades.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
-  <HibernateWarningPacifist>En (*Name)Charlon Whitestone(/Name) està preparat per iniciar la seqüència de recuperació de la hibernació. Us avisa que el procés durarà uns 15 dies.</HibernateWarningPacifist>
+  <HibernateWarningPacifist>En (*Name)Charlon Whitestone(/Name) està preparat per a iniciar la seqüència de recuperació de la hibernació. Us avisa que el procés durarà uns 15 dies.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
   <HibernateWarningStandalonePacifist>El reactor està preparat per engegar-se. El procés durarà uns 15 dies.</HibernateWarningStandalonePacifist>
 
@@ -1664,7 +1668,7 @@
   <!-- EN: {0} quality depends on -->
   <RitualOutcomeQualityAbstract>La qualitat de {0} depèn de</RitualOutcomeQualityAbstract>
   <!-- EN: {0} total quality was {1}, determined by these factors -->
-  <RitualOutcomeQualitySpecific>La qualitat total de {0} ha sigut de {1}, determinada pels factors següents</RitualOutcomeQualitySpecific>
+  <RitualOutcomeQualitySpecific>La qualitat total de {0} ha sigut del {1}, determinada pels factors següents</RitualOutcomeQualitySpecific>
   <!-- EN: Outcome chances at {0} quality -->
   <RitualOutcomeChances>Probabilitat d’obtenir una qualitat de {0}</RitualOutcomeChances>
   <!-- EN: Performed recently -->
@@ -1717,7 +1721,7 @@
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>Expectatives de {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
   <!-- EN: Loved one present -->
-  <RitualOutcomeLovedOnePresentLabel>Regal a la persona estimada</RitualOutcomeLovedOnePresentLabel>
+  <RitualOutcomeLovedOnePresentLabel>Hi ha una persona estimada</RitualOutcomeLovedOnePresentLabel>
   <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
   <RitualOutcomeLovedOnePresentTip>Qualsevol persona que {PAWN_labelShort} consideri amiga seva o més.</RitualOutcomeLovedOnePresentTip>
 
@@ -1738,7 +1742,7 @@
   <!-- EN: {0} quality -->
   <OutcomeBonusDesc_QualitySingleOffset>qualitat de {0}</OutcomeBonusDesc_QualitySingleOffset>
   <!-- EN: {OUTCOMELABEL} {RITUALLABEL} -->
-  <OutcomeLetterLabel>{RITUALLABEL} de {OUTCOMELABEL}</OutcomeLetterLabel>
+  <OutcomeLetterLabel>{RITUALLABEL} {OUTCOMELABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
   <MaxValue>màx. {0}</MaxValue>
 
@@ -1796,5 +1800,14 @@
 
   <!-- EN: Random -->
   <Random>Aleatòria</Random>
+
+  <!-- EN: Plant {0_label} -->
+  <PlantThing>Planta {0_label}</PlantThing>
+  <!-- EN: Plant a {0_label} in a chosen area. -->
+  <PlantThingDesc>Planta {0_label} a l’àrea escollida.</PlantThingDesc>
+  <!-- EN: Cancel planting {0_label} -->
+  <CancelPlantThing>Cancel·la la plantada de {0_label}</CancelPlantThing>
+  <!-- EN: Cancel planting the {0_label}. -->
+  <CancelPlantThingDesc>Cancel·la la plantada de {0_label}.</CancelPlantThingDesc>
 
 </LanguageData>

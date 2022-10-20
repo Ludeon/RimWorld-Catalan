@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Uncontrolled mechs -->
+  <AlertMechLacksOverseer>Mecanoides sense controlar</AlertMechLacksOverseer>
+  <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
+  <AlertMechLacksOverseerDesc>Hi ha un o més mecanoides sense controlar. Connecteu els mecanoides a un mecanoider amb prou ample de banda per a controlar-los.\n\nSi els deixeu sense controlar durant més d’un dia, es podrien tornar salvatges. Quan això passa, s’uneixen a {0} i se us tornaran hostils. Si un mecanoide es torna salvatge, atraurà altres mecanoides propers.\n\nEls mecanoides ferals no es poden ressuscitar en una gestadora quan moren.</AlertMechLacksOverseerDesc>
+  <!-- EN: The following mechanoids are uncontrolled -->
+  <AlertMechLacksOverseerUncontrolled>Els mecanoides següents no estan controlats</AlertMechLacksOverseerUncontrolled>
+  <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
+  <AlertMechLacksOverseerMayGoFeral>Als següents mecanoides no se’ls controla i es podrien tornar salvatges en qualsevol moment</AlertMechLacksOverseerMayGoFeral>
+
+  <!-- EN: {0} is low on resources -->
+  <AlertWarqueenHasLowResources>{0} amb pocs recursos</AlertWarqueenHasLowResources>
+  <!-- EN: One or more {0} are low on resoures. They will be unable to produce mechs on command if they run out of resources. -->
+  <AlertWarqueenHasLowResourcesDesc>{0_gender ? Un : Una} o més {0} tenen pocs recursos. Si es queden sense, no podran produir mecanoides o donar-los-hi ordres.</AlertWarqueenHasLowResourcesDesc>
+
+  <!-- EN: {PAWN} needs deathrest -->
+  <AlertLowDeathrestPawn>{PAWN_definite} necessita permadescansar</AlertLowDeathrestPawn>
+  <!-- EN: {NUMCULPRITS} colonists need deathrest -->
+  <AlertLowDeathrestPawns>Algun colon (×{NUMCULPRITS})necessita permadescansar</AlertLowDeathrestPawns>
+  <!-- EN: A colonist has not deathrested for a long time. If they go too long without deathrest, they will suffer from deathrest exhaustion.\n\nTo deathrest, select the colonist then right-click on their assigned bed or deathrest casket.\n\nThese people need deathrest:\n{CULPRITS} -->
+  <AlertLowDeathrestDesc>Un colon no ha permadescansat des de fa molt temps. Si passa molt temps sense fer-ho, patirà permaesgotament.\n\nPer a permadescansar, trieu el colon i després feu clic amb el botó dreta al seu llit o sarcòfag de permadescans assignat.\n\nLes persones que necessiten permadescansar són:\n{CULPRITS}</AlertLowDeathrestDesc>
+
+  <!-- EN: Low hemogen -->
+  <AlertLowHemogen>Falta hemogen</AlertLowHemogen>
+  <!-- EN: A colonist has low hemogen. At zero hemogen, they will develop a painful hemogen craving.\n\nFeed them hemogen packs to prevent this. You can obtain hemogen packs using the 'extract hemogen pack' medical operation on a non-hemogenic human.\n\nThe following colonists have low hemogen -->
+  <AlertLowHemogenDesc>Un colon té un nivell baix d’hemogen. Si aquest nivell arriba a zero, patirà una dolorosa set d’hemogen.\n\nAlimenteu-lo amb bosses d’hemogen per a evitar-ho. Podeu obtenir bosses d’hemogen amb l’operació mèdica «Extrau una bossa d’hemogen» en un humà no-hemogènic.\n\nEls colons següents tenen un nivell baix d’hemogen</AlertLowHemogenDesc>
+
+  <!-- EN: Recharger full -->
+  <AlertRechargerFull>Carregador ple</AlertRechargerFull>
+  <!-- EN: Some mech recharger(s) are storing their maximum number of toxic wastepacks. Mechs can't use these chargers until the toxic wastepacks are hauled away.\n\nSelect a colonist and right-click a recharger to unload it. -->
+  <AlertRechargerFullDesc>Algun carregador de mecanoides estan plenes de saquets de tòxics. Els mecanoides no els podran fer servir fins que es treguin.\n\nTrieu un colon i feu clic amb el botó dret al damunt d’un carregador per a treure els saquets.</AlertRechargerFullDesc>
+
+  <!-- EN: Need mech rechargers -->
+  <AlertNeedMechChargers>Fan falta carregadors per als mecanoides</AlertNeedMechChargers>
+  <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
+  <AlertNeedMechChargersDesc>No teniu carregadors per a tots els mecanoides. Si un es queda sense energia, entrarà en un mode d’hibernació i autorecàrrega i es carregarà molt poc a poc.\n\nConstruïu més carregadors dels següents tipus:\n\n{0}\n\nNota: Només els mecanoides lleugers poden fer servir els carregadors normals. Els de categoria mitjana o pesant necessiten carregadors mecanoides grossos.</AlertNeedMechChargersDesc>
+  <!-- EN: Research basic mechtech or higher to build rechargers. -->
+  <AlertNeedMechChargerBasicMechtech>Investigueu la mecatecnologia bàsica (o superior) per a construir carregadors.</AlertNeedMechChargerBasicMechtech>
+
+  <!-- EN: Reimplantation available -->
+  <AlertReimplantationAvailable>Reimplantació disponible</AlertReimplantationAvailable>
+  <!-- EN: {0_nameDef} is waiting to reimplant {0_possessive} xenogerm into one of your colonists. -->
+  <AlertReimplantationAvailableDesc>{0_nameDef} espera per a reimplantar el seu xenogermen a un dels colons.</AlertReimplantationAvailableDesc>
+
+  <!-- EN: Low baby food -->
+  <AlertLowBabyFood>Fa falta menjar per a bebès</AlertLowBabyFood>
+  <!-- EN: You are dangerously low on baby food.\n\n    Babies needing food: {0}\n    Days worth of baby food in storage: {1}\n\nBuy, find or make some baby-edible food. This includes {2}. -->
+  <AlertLowBabyFoodDesc>Teniu molt poc menjar per a nadons.\n\n    Els bebès que necessiten menjar: {0}\n    Disposeu de menjar emmagatzemat per a {1} dies\n\nCompreu, trobeu o feu menjar per als nadons. Això inclou {2}.</AlertLowBabyFoodDesc>
+  <!-- EN: No baby feeders -->
+  <AlertNoBabyFeeder>No hi ha qui doni menjar als nadons</AlertNoBabyFeeder>
+  <!-- EN: No {FACTION_pawnsPlural} are assigned to feed these babies, or they're all downed.\n\nAssign one of your {FACTION_pawnsPlural} to childcare or assign a lactating {FACTION_pawnSingular} to feed these babies with Urgent priority in the babies' feeding tab, and ensure at least one of them is not downed. -->
+  <AlertNoBabyFeederDesc>No hi ha {FACTION_pawnsPlural} assignats per a alimentar aquests nadons o bé estan inconscients.\n\nAssigneu algun dels {FACTION_pawnsPlural} a les atencions infantils o assigneu un {FACTION_pawnSingular} lactant per a alimentar els nadons amb prioritat urgent a la pestanya d’alimentació de nadons. Assegureu-vos també que almenys un d’ells no està inconscient.</AlertNoBabyFeederDesc>
+
+  <!-- EN: No baby food in caravan -->
+  <AlertNoBabyFoodCaravan>No hi ha menjar per a bebès a la caravana</AlertNoBabyFoodCaravan>
+  <!-- EN: Babies on this caravan have no baby food and no lactating {FACTION_pawnsPlural} are set to feed them. -->
+  <AlertNoBabyFoodCaravanDesc>Els nadons de la caravana no disposen d’aliment adequat ni hi ha {FACTION_pawnsPlural} lactants que tinguin ordres d’alimentar-los.</AlertNoBabyFoodCaravanDesc>
+
+  <!-- EN: Toxic buildup -->
+  <AlertToxicBuildup>Acumulació de toxines</AlertToxicBuildup>
+  <!-- EN: These colonists have serious toxic buildup:\n\n{0}\n\nMove them away from toxic sources.\n\nToxic buildup can be caused by many things including toxic fallout, tox gas, and polluted terrain. -->
+  <AlertToxicBuildupDesc>Aquests colons tenen un nivell elevat d’elements tòxics al cos:\n\n{0}\n\nAparteu-los de les fonts de contaminació.\n\nL’acumulació d’elements tòxics i verinosos al cos pot ser degut a moltes coses, com ara les pluges o gasos tòxics i terrenys contaminats.</AlertToxicBuildupDesc>
+
+  <!-- EN: Need baby cribs -->
+  <AlertNeedBabyCribs>Fan falta bressols</AlertNeedBabyCribs>
+  <!-- EN: You have more babies than cribs.\n\nMake more cribs or, if you have no resources to spare, place some baby sleeping spots for free. -->
+  <AlertNeedBabyCribsDesc>Teniu més bebès que bressols.\n\nFeu bressols o, si disposeu de pocs recursos, marqueu alguns punts de dormir per a bebès al terra.</AlertNeedBabyCribsDesc>
+  <!-- EN: Need slave cribs -->
+  <AlertNeedSlaveCribs>Fan falta bressols per als bebès dels esclaus</AlertNeedSlaveCribs>
+  <!-- EN: You have more slave babies than you have cribs marked for slave use.\n\nEither make more cribs or change a colonist crib to a slave crib.\n\nIf you have no resources, baby sleeping spots are free and can be placed instantly. -->
+  <AlertNeedSlaveCribsDesc>Teniu més bebès esclaus que bressols marcats per a ús d’esclaus.\n\nFeu bressols o canvieu un bressol dels colons a bressol d’esclaus.\n\nSi no disposeu de molts recursos, marqueu alguns punts de dormir per a bebès al terra.</AlertNeedSlaveCribsDesc>
+
+  <!-- EN: Polluted terrain -->
+  <AlertPollutedTerrain>Terreny contaminat</AlertPollutedTerrain>
+  <!-- EN: A person or animal is suffering toxic buildup and is on polluted terrain. Any time someone is on polluted terrain, their toxic buildup will increase over time until they die.\n\nThese people or animals are affected:\n\n{0}\n\nKeep people off polluted terrain, or find a way to protect them from its effects. Certain apparel, implants and gene modifications can protect from toxic buildup. Polluted terrain cannot be covered using a floor, but it can be cleaned by hand and other methods. -->
+  <AlertPollutedTerrainDesc>Una persona o animal té una concentració elevada de toxines al cos i està en un terreny contaminat. Sempre que una persona està en un terreny contaminat, augmentarà la quantitat de toxines que té acumulades al cos. L’acumulació de toxines pot arribar a produir la mort.\n\nLes persones i els animals afectats són:\n\n{0}\n\nMantingueu a la gent lluny dels terrenys contaminats o trobeu alguna manera de protegir-los. Alguna indumentària, implants i modificacions genètiques poden protegir contra la contaminació. Els terrenys contaminats no es poden cobrir fent servir terres com ara rajoles, però es pot netejar a mà i amb altres mètodes.</AlertPollutedTerrainDesc>
+
+  <!-- EN: Mechanoid missing part -->
+  <AlertMechMissingBodyPart>A un mecanoide li falta una part</AlertMechMissingBodyPart>
+  <!-- EN: Mechanoids missing parts -->
+  <AlertMechsMissingBodyPart>A alguns mecanoides els fan falta parts</AlertMechsMissingBodyPart>
+  <!-- EN: One or more of your mechanoids are missing a body part. A mechanitor can repair lost parts.\n\nThe mechanoids with lost body parts are -->
+  <AlertMechMissingBodyPartDesc>A un o més mecanoides els falta una part del cos. El mecanoider pot reparar les parts perdudes.\n\nEls mecanoides als que els fan falta parts del cos són</AlertMechMissingBodyPartDesc>
+
+  <!-- EN: Mechanoid repair needed -->
+  <AlertMechNeedsRepair>cal una reparació mecanoide</AlertMechNeedsRepair>
+  <!-- EN: These mechanoids are damaged and need repair -->
+  <AlertMechNeedsRepairDescPrefix>Aquests mecanoides estan danyats i cal que es reparin</AlertMechNeedsRepairDescPrefix>
+  <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->
+  <AlertMechNeedsRepairDesc>Ordeneu que el repari un mecanoider o trieu un meca i ordeneu-li que s’autorepari. Per a reparar un mecanoide cal energia. Si un mecanoide té tan poca energia que no es pot moure, cal que algú el porti a un carregador.</AlertMechNeedsRepairDesc>
+  
+  <!-- EN: {0} stopped -->
+  <AlertToxifierGeneratorStopped>{0} ha parat</AlertToxifierGeneratorStopped>
+  <!-- EN: Your {0} is not producing power because it has no nearby fertile terrain to convert.\n\nClean polluted terrain with pollution pumps, or by assigning a pollution removal area. -->
+  <AlertToxifierGeneratorStoppedDesc>{0_definite} no produeix energia perquè no té terreny fèrtil que pugui convertir.\n\nNetegeu els terrenys contaminats amb bombes netejacontaminació o assigneu part de la zona a l’àrea de neteja de contaminació.</AlertToxifierGeneratorStoppedDesc>
+
+  <!-- EN: Psychic bond distance -->
+  <AlertPsychicBondedPawnsSeparated>Distància d’enllaç psíquic</AlertPsychicBondedPawnsSeparated>
+  <!-- EN: Some colonists with psychic bonds have been separated and are feeling negative effects from the distance. To avoid this, people with a psychic bond must be in the same world tile, caravan, or vehicle. Additionally, they must not be in cryptosleep or similar suspended animation.\n\nThe following people are affected -->
+  <AlertPsychicBondedPawnsSeparatedDesc>Alguns colons emparellats psíquicament s’han separat molt i pateixen els efectes de la distància. Per a evitar-ho, les persones amb aquest tipus d’emparellament haurien d’estar a la mateixa casella del món o a la mateixa caravana o vehicle. A més a més, no han d’estar en criptoson ni en altres mètodes d’animació suspesa.\n\nEls afectats són</AlertPsychicBondedPawnsSeparatedDesc>
+
+  <!-- EN: Gene bank needs power -->
+  <AlertGenebankUnpowered>El banc de gens necessita energia</AlertGenebankUnpowered>
+  <!-- EN: A gene bank is unpowered, so the genepacks inside it are slowly deteriorating. Restore power to the gene bank to prevent the genepacks from deteriorating.\n\nOnce the gene bank is powered, it will slowly reverse the deterioration of the genepacks inside it. -->
+  <AlertGenebankUnpoweredDesc>Un banc de gens no té energia i, poc a poc, les genocàpsules que conté es deterioren. Restabliu el subministrament elèctric del banc per a evitar que les genocàpsules es deteriorin.\n\nUna vegada el banc de gens tingui energia, el procés de deteriorament es revertirà amb el temps.</AlertGenebankUnpoweredDesc>
+
+  <!-- EN: {0} incoming -->
+  <AlertBossgroupIncoming>Ve {0_indefinite}</AlertBossgroupIncoming>
+  <!-- EN: Signaled by your mechanitor, a hostile {0} is approaching with its combat escort. Be prepared, this won't be an easy fight. The hostile mechanoids will arrive in a few hours or days. -->
+  <AlertBossgroupIncomingDesc>Segons indica el vostre mecanoider, s’apropa {0_indefinite} hostil amb la seva escorta de combat. Prepareu-vos. No serà una lluita fàcil. Els mecanoides hostils arribaran d’aquí unes hores o dies.</AlertBossgroupIncomingDesc>
+
+  <!-- EN: Deathrest complete -->
+  <AlertDeathrestComplete>Permadescans finalitzat</AlertDeathrestComplete><!-- text_todo -->
+  <!-- EN: The following people have completed their deathrest and can wake up safely -->
+  <AlertDeathrestCompleteDesc>Les següents persones han completat el seu permadescans i ara ja poden despertar-se de manera segura</AlertDeathrestCompleteDesc><!-- text_todo -->
+
+</LanguageData>

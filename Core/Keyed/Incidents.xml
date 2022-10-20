@@ -53,11 +53,11 @@
   <CargoPodCrash>Heu detectat unes càpsules de càrrega caient a prop d’aquí.\n\nPotser podeu trobar alguna cosa útil entre les restes.</CargoPodCrash>
 
   <!-- EN: an electrical conduit -->
-  <AnElectricalConduit>un curtcircuit elèctric</AnElectricalConduit>
+  <AnElectricalConduit>un circuit elèctric</AnElectricalConduit>
   <!-- EN: A fault in {0} has caused a short circuit. -->
-  <ShortCircuit>Una fallada del {0} ha provocat un curtcircuit.</ShortCircuit>
+  <ShortCircuit>Una fallada en {0} ha provocat un curtcircuit.</ShortCircuit>
   <!-- EN: A fault in {0} has caused a short circuit which started a fire. -->
-  <ShortCircuitStartedFire>Una fallada del {0} ha provocat un curtcircuit que ha iniciat un incendi.</ShortCircuitStartedFire>
+  <ShortCircuitStartedFire>Una fallada en {0} ha provocat un curtcircuit que ha iniciat un incendi.</ShortCircuitStartedFire>
   <!-- EN: All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion. -->
   <ShortCircuitDischargedEnergy>Els {0} Wd d’energia de les bateries connectades s’han descarregat per l’explosió elèctrica.</ShortCircuitDischargedEnergy>
   <!-- EN: This large amount of power has created an explosion of considerable size. -->
@@ -88,7 +88,7 @@
   <!-- EN: Visitors -->
   <LetterLabelGroupVisitorsArrive>Visitants</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
-  <GroupVisitorsArrive>Un grup de {0} visiten la colònia.{1}{2}</GroupVisitorsArrive>
+  <GroupVisitorsArrive>Un grup de {0} visita la colònia.{1}{2}</GroupVisitorsArrive>
   <!-- EN: They seem to have a few items to trade. -->
   <GroupVisitorsArriveTraderInfo>Sembla que porten coses per a vendre.</GroupVisitorsArriveTraderInfo>
   <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
@@ -145,7 +145,7 @@
   <!-- EN: {0} join -->
   <LetterLabelFarmAnimalsWanderIn>{0} s’uneixen</LetterLabelFarmAnimalsWanderIn>
   <!-- EN: A group of {0}, abandoned or lost, have wandered into the area.\n\nThey seem accustomed to human contact and are joining the colony. -->
-  <LetterFarmAnimalsWanderIn>Un grup de {0} abandonats o perduts, han arribat a la zona.\n\nSemblen acostumats al contacte humà i s’uneixen a la colònia.</LetterFarmAnimalsWanderIn>
+  <LetterFarmAnimalsWanderIn>Un grup de {0}, abandonats o perduts, han arribat a la zona.\n\nSemblen acostumats al contacte humà i s’uneixen a la colònia.</LetterFarmAnimalsWanderIn>
   
   <!-- Thrumbo passes -->
   <!-- EN: Rare thrumbos -->
@@ -157,7 +157,7 @@
   <!-- EN: {1} from {0} -->
   <LetterLabelTraderCaravanArrival>{1} de {0}</LetterLabelTraderCaravanArrival>
   <!-- EN: A caravan from {0} is approaching. They are a {1}. -->
-  <LetterTraderCaravanArrival>S’acosta una caravana de {0}. Són {1}.</LetterTraderCaravanArrival>
+  <LetterTraderCaravanArrival>S’acosta una caravana de {0}. Hi ha {1_indefinite}.</LetterTraderCaravanArrival>
   <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
   <LetterCaravanArrivalCommonWarning>Voltaran per la colònia uns quants dies abans de plegar veles. Els podeu atacar, però la seva facció s’enfadarà!</LetterCaravanArrivalCommonWarning>
     
@@ -199,9 +199,9 @@
   <!-- EN: Caravan request -->
   <LetterLabelCaravanRequest>Petició de caravana</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
-  <LetterCaravanRequest>Un assentament proper, {0}, es posa en contacte amb la vostra colònia amb una proposta de negoci particular. Volen comprar:\n\n  {1} (valorat en {2})\n\nUs ofereixen:\n\n  {3}(valorat en {4})\n\nLa proposta expira en: {5}\n\nSi voleu fer l’intercanvi, envieu-los una caravana amb els productes que han demanat. El temps estimat de viatge és de {6}. Podeu revisar la proposta seleccionant {0} al mapa de món.</LetterCaravanRequest>
+  <LetterCaravanRequest>Un assentament proper, {0}, es posa en contacte amb la vostra colònia amb una proposta de negoci particular. Volen comprar:\n\n  {1} (valorat en {2})\n\nUs ofereixen:\n\n  {3} (valorat en {4})\n\nLa proposta expira en: {5}\n\nSi voleu fer l’intercanvi, envieu-los una caravana amb els productes que han demanat. El temps estimat de viatge és de {6}. Podeu revisar la proposta seleccionant {0} al mapa de món.</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({2}) ({1} left) -->
-  <CaravanRequestInfo>Demanen: {0}({3}), ofereixen: {1} ({4}) (us queden {2})</CaravanRequestInfo>
+  <CaravanRequestInfo>Demanen: {0} ({2}) (us en queden {1})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
   <NormalQualityOrBetter>qualitat normal o millor</NormalQualityOrBetter>
   <!-- EN: not tainted -->

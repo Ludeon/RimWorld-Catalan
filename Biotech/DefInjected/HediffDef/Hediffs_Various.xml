@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bio-starvation -->
+  <BioStarvation.label>bioinanició</BioStarvation.label>
+  <!-- EN: This person was in a growth vat which wasn't functioning properly due to lack of power or nutrition feedstock. This has left their body in a state of bio-starvation. -->
+  <BioStarvation.description>Aquesta persona va passar temps en una incubadora que no funcionava bé, ja que li faltava energia o nutrients. Ha deixat el seu cos en un estat de bioinanició.</BioStarvation.description>
+  
+  <!-- EN: deathresting -->
+  <Deathrest.label>permadescans</Deathrest.label>
+  <!-- EN: A deep coma-like sleep that lasts several days and restores the body's resources. Certain genes create a need for deathrest. Deathrest can also be enhanced with various support buildings that give special bonuses to the deathrester. -->
+  <Deathrest.description>Una espècie de coma profund que dura uns quants dies i permet que el cos es recuperi i es restableixi. Alguns gens provoquen que el cos necessiti permadescansar. El permadescans es pot millorar amb diferents estructures de suport que donen bonificacions especials al permadescansador.</Deathrest.description>
+  
+  <!-- EN: deathrest exhaustion -->
+  <DeathrestExhaustion.label>permaesgotament</DeathrestExhaustion.label>
+  <!-- EN: This person desperately needs to deathrest to rebalance their metabolism. -->
+  <DeathrestExhaustion.description>Aquesta persona necessita permadescansar per a reequilibrar el seu metabolisme.</DeathrestExhaustion.description>
+  
+  <!-- EN: chemical dependency -->
+  <GeneticDrugNeed.label>dependència química</GeneticDrugNeed.label>
+  <!-- EN: This person has a genetically-induced biochemical dependency on a specific drug. Without regular doses of the drug, their body cannot maintain itself in a healthy state and they will suffer degrading health and mood until they die.\n\nTakes effect after age: 13. -->
+  <GeneticDrugNeed.description>Aquesta persona té una dependència bioquímica induïda genèticament a una droga específica. Sense dosis regulars de la droga, el seu cos no es mantindrà en un estat saludable i patirà una degradació de la salut i estat d’ànim fins que mori.\n\nEntra en efecte després de complir 13 anys.</GeneticDrugNeed.description>
+  <!-- EN: deficiency -->
+  <GeneticDrugNeed.stages.deficiency.label>deficiència</GeneticDrugNeed.stages.deficiency.label>
+  <!-- EN: deficiency coma -->
+  <GeneticDrugNeed.stages.2.overrideLabel>coma per deficiència</GeneticDrugNeed.stages.2.overrideLabel>
+  
+  <!-- EN: hemogen craving -->
+  <HemogenCraving.label>set d’hemogen</HemogenCraving.label>
+  <!-- EN: Due to a lack of hemogen, this person's body is breaking down hemogen reserves in their bone marrow. This causes disorientation and a painful craving for human blood. -->
+  <HemogenCraving.description>Per la falta d’hemogen, el cos d’aquesta persona descomposa les reserves d’hemogen de moll dels seus ossos. Causa desorientació i un desig intens i dolorós per consumir sang humana.</HemogenCraving.description>
+  <!-- EN: minor -->
+  <HemogenCraving.stages.minor.label>lleu</HemogenCraving.stages.minor.label>
+  <!-- EN: moderate -->
+  <HemogenCraving.stages.moderate.label>moderada</HemogenCraving.stages.moderate.label>
+  <!-- EN: major -->
+  <HemogenCraving.stages.major.label>greu</HemogenCraving.stages.major.label>
+  
+  <!-- EN: interrupted deathrest -->
+  <InterruptedDeathrest.label>permadescans interromput</InterruptedDeathrest.label>
+  <!-- EN: Deathrest was interrupted while this person's metabolism was still out of balance. They will be sick for days while regaining equilibrium. -->
+  <InterruptedDeathrest.description>S’ha interromput el permadescans d’aquesta persona mentre el seu metabolisme encara està desequilibrat. Patirà efectes secundaris durant uns dies fins que recupera l’equilibri.</InterruptedDeathrest.description>
+  
+  <!-- EN: psychic bond -->
+  <PsychicBond.label>emparellament psíquic</PsychicBond.label>
+  <!-- EN: This person has a psychic bond with another person based on the psychic bonding gene. The bond itself grants some limited psychic awareness, allowing it to connect even with the psychically deaf. -->
+  <PsychicBond.description>Aquesta persona té un enllaç psíquic amb una altra persona segons el gen d’emparellament psíquic. El vincle atorga uns poders psíquics limitats que permeten que es connecti fins i tot amb els sords psíquics.</PsychicBond.description>
+  <!-- EN: This person's bonded individual is nearby. -->
+  <PsychicBond.stages.0.extraTooltip>L’individu amb el qual està emparellada aquesta persona és a prop.</PsychicBond.stages.0.extraTooltip>
+  <!-- EN: psychic bond -->
+  <PsychicBond.stages.0.overrideLabel>emparellament psíquic</PsychicBond.stages.0.overrideLabel>
+  <!-- EN: This person's bonded individual is far away. -->
+  <PsychicBond.stages.1.extraTooltip>L’individu amb el qual està emparellada aquesta persona és a lluny.</PsychicBond.stages.1.extraTooltip>
+  <!-- EN: psychic bond distance -->
+  <PsychicBond.stages.1.overrideLabel>distància d’emparellament psíquic</PsychicBond.stages.1.overrideLabel>
+  
+  <!-- EN: psychic bond torn -->
+  <PsychicBondTorn.label>trencament de l’emparellament psíquic</PsychicBondTorn.label>
+  <!-- EN: This person had a psychic bond with another, but the bond was torn when their partner died. -->
+  <PsychicBondTorn.description>Aquesta persona estava emparellada psíquicament, però l’enllaç s’ha trencat quan el company ha mort.</PsychicBondTorn.description>
+  
+  <!-- EN: regeneration coma -->
+  <RegenerationComa.label>coma regeneratiu</RegenerationComa.label>
+  <!-- EN: Had this person not been genetically deathless, they would have already died from their health conditions. Instead, they have fallen into a regeneration coma, during which they will regenerate their body. -->
+  <RegenerationComa.description>Si aquesta persona no fos genèticament immortal, hauria mort per les seves condicions de salut. En canvi, ha entrat en un coma regenerador, durant el qual haurà de regenerar el seu cos.</RegenerationComa.description>
+  
+  <!-- EN: Scanning sickness -->
+  <ScanningSickness.label>nàusees escaneroses</ScanningSickness.label>
+  <!-- EN: This person was scanned by a softscanner to produce a mechanoid subcore. The high-energy scanning device has caused disturbances in their brain chemistry which will take time to resolve themselves. There won't be any long-term damage. -->
+  <ScanningSickness.description>A aquesta persona l’ha escanejat un flexoescàner per a produir un subnucli mecanoide. El dispositiu d’alta energia escanejador ha causat pertorbacions a la química cerebral que trigaran un cert temps a reajustar-se. No hi haurà dany a llarg termini.</ScanningSickness.description>
+  
+  <!-- EN: vat growing -->
+  <VatGrowing.label>creix a la incubadora</VatGrowing.label>
+  <!-- EN: The growth vat is stimulating this person's body to increase the rate of cell division and aging. -->
+  <VatGrowing.description>La incubadora estimula el cos d’aquesta persona per a accelerar el ritme de divisió cel·lular i d’envelliment.</VatGrowing.description>
+  
+  <!-- EN: vat learning -->
+  <VatLearning.label>aprèn a la incubadora</VatLearning.label>
+  <!-- EN: The growth vat is electrically stimulating this person's brain to induce skill development. This process is not very effective, and will only partially replace the skills missed from not growing in the outside world. -->
+  <VatLearning.description>La incubadora estimula amb electricitat el cervell de la persona per a induir el desenvolupament d’habilitats. El procés no és massa efectiu i només substituirà en part les habilitats que s’adquireixen durant el procés natural de creixement en societat.</VatLearning.description>
+  
+  <!-- EN: xenogermination coma -->
+  <XenogerminationComa.label>coma xenogerminador</XenogerminationComa.label>
+  <!-- EN: A xenogerm was implanted in this person. The xenogerm needs time to integrate itself into the host and modify the genes and chemistry of various tissues throughout the body. During this time, the person cannot safely wake up, so the xenogerm keeps them in a coma.\n\nThe duration of this coma can be reduced by implanting a xenogerm with better medical facilities and more skilled doctors. -->
+  <XenogerminationComa.description>A aquesta persona se li ha implantat un xenogermen. El xenogermen necessita temps per a integrar-se a l’hoste i modificar els gens i la química dels diferents teixits del cos. Durant aquest temps, la persona no es pot despertar de manera segura, així que el xenogermen la manté en coma.\n\nLa duració del coma es pot reduir si s’implanta un xenogermen amb instal·lacions mèdiques millors i amb metges amb bones habilitats.</XenogerminationComa.description>
+  
+  <!-- EN: gene loss shock -->
+  <XenogermLossShock.label>xoc per pèrdua de gens</XenogermLossShock.label>
+  <!-- EN: This person's genes were recently removed or expelled. This has destabilized the person's metabolism and hormones, leaving them temporarily weak and drowsy, with a weakened immune system. -->
+  <XenogermLossShock.description>Els gens d’aquesta persona s’han extret fa poc. Això ha desestabilitzat el metabolisme i les hormones de la persona i l’ha deixada dèbil i confosa, amb un sistema immune debilitat.</XenogermLossShock.description>
+  
+  <!-- EN: genes regrowing -->
+  <XenogermReplicating.label>recreixement de gens</XenogermReplicating.label>
+  <!-- EN: This person's genetic material is regrowing. This process doesn't have any direct health effects. However, extracting their genes while they are regrowing will kill them. -->
+  <XenogermReplicating.description>El material genètic d’aquesta persona torna a créixer. Aquest provés no té cap efecte directe a la salut. No obstant, si se n’extrauen els gens mentre no han acabat de recréixer, la persona morirà.</XenogermReplicating.description>
+  <!-- EN: {PAWN_nameDef}'s genes have finished regrowing. -->
+  <XenogermReplicating.comps.HediffComp_Disappears.messageOnDisappear>Els gens de {PAWN_nameDef} ja han acabat de créixer.</XenogermReplicating.comps.HediffComp_Disappears.messageOnDisappear>
+  
+</LanguageData>

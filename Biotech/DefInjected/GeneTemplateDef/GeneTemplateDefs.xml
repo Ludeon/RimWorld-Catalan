@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: {0} impervious -->
+  <AddictionImmune.label>immunitat a l’addicció a {0_definite}</AddictionImmune.label>
+  <!-- EN: Carriers of this gene never get addicted to {0}. -->
+  <AddictionImmune.description>Els portadors del gen mai es tornen addictes a {0_definite}.</AddictionImmune.description>
+  <!-- EN: {0}-impervious -->
+  <AddictionImmune.labelShortAdj>{0}-immune</AddictionImmune.labelShortAdj>
+  
+  <!-- EN: {0} resistant -->
+  <AddictionResistant.label>resistència a {0_definite}</AddictionResistant.label>
+  <!-- EN: Carriers are only half as likely to become addicted to {0}. -->
+  <AddictionResistant.description>Els portadors tenen menys probabilitat de tornar-se addictes a {0_definite}.</AddictionResistant.description>
+  <!-- EN: {0}-resistant -->
+  <AddictionResistant.labelShortAdj>{0}-resistent</AddictionResistant.labelShortAdj>
+  
+  <!-- EN: poor {0} -->
+  <AptitudePoor.label>reducció en «{0}»</AptitudePoor.label>
+  <!-- EN: The carrier's aptitude in {0} is reduced by 4. Aptitude acts like an offset on skill level. -->
+  <AptitudePoor.description>L’aptitud del portador en «{0}» es redueix en 4. L’aptitud actua com a un modificador del nivell d’habilitat.</AptitudePoor.description>
+  
+  <!-- EN: great {0} -->
+  <AptitudeRemarkable.label>aptitud de «{0}» millorada</AptitudeRemarkable.label>
+  <!-- EN: The carrier's aptitude in {0} is increased by 8. Aptitude acts like an offset on skill level. Additionally, one level of passion is added to {0}. -->
+  <AptitudeRemarkable.description>L’aptitud del portador en «{0}» augmenta en 8. L’aptitud actua com a un modificador del nivell d’habilitat. A més a més, la passió per «{0}» augmenta un nivell.</AptitudeRemarkable.description>
+  
+  <!-- EN: strong {0} -->
+  <AptitudeStrong.label>augment en «{0}»</AptitudeStrong.label>
+  <!-- EN: The carrier's aptitude in {0} is increased by 4. Aptitude acts like an offset on skill level. -->
+  <AptitudeStrong.description>L’aptitud del portador en «{0}» augmenta en 4. L’aptitud actua com a un modificador del nivell d’habilitat.</AptitudeStrong.description>
+  
+  <!-- EN: awful {0} -->
+  <AptitudeTerrible.label>aptitud de «{0}» reduïda</AptitudeTerrible.label>
+  <!-- EN: The carrier's aptitude in {0} is reduced by 8. Aptitude acts like an offset on skill level. Additionally, all passion is removed from {0}. -->
+  <AptitudeTerrible.description>L’aptitud del portador en «{0}» es redueix en 8. L’aptitud actua com a un modificador del nivell d’habilitat. A més a més, es perd qualsevol nivell de passió que tingui per «{0}».</AptitudeTerrible.description>
+  
+  <!-- EN: {0} dependency -->
+  <ChemicalDependency.label>dependència a {0_definite}</ChemicalDependency.label>
+  <!-- EN: Carriers of this gene need to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, carriers will suffer from {0} deficiency. After {COMADURATION}, they will fall into a coma. After {DEATHDURATION}, they will die. -->
+  <ChemicalDependency.description>Els portadors d’aquest gen necessiten ingerir {0} de manera regular per a sobreviure. Després de {DEFICIENCYDURATION} sense {0}, els portadors en patiran la deficiència. Després de {COMADURATION}, entraran en coma. Després de {DEATHDURATION}, moriran.</ChemicalDependency.description>
+  <!-- EN: {0}-dependent -->
+  <ChemicalDependency.labelShortAdj>{0}-dependent</ChemicalDependency.labelShortAdj>
+  
+</LanguageData>

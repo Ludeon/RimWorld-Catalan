@@ -17,7 +17,7 @@
   <!-- EN: Relevant health conditions -->
   <StatsReport_RelevantHediffs>Condicions de salut rellevants</StatsReport_RelevantHediffs>
   <!-- EN: Life stage -->
-  <StatsReport_LifeStage>Etapa biològica</StatsReport_LifeStage>
+  <StatsReport_LifeStage>Etapa vital</StatsReport_LifeStage>
   <!-- EN: Material -->
   <StatsReport_Material>Material</StatsReport_Material>
   <!-- EN: Character quality -->
@@ -54,6 +54,8 @@
   <StatsReport_MaxGain>Guany màxim</StatsReport_MaxGain>
   <!-- EN: Multiplier for age {0} -->
   <StatsReport_AgeMultiplier>Multiplicador per l’edat {0}</StatsReport_AgeMultiplier>
+  <!-- EN: Offset for age {0} -->
+  <StatsReport_AgeOffset>Modificador per a l’edat {0}</StatsReport_AgeOffset>
   <!-- EN: Multiplier for health {0} -->
   <StatsReport_HealthMultiplier>Multiplicador per la salut {0}</StatsReport_HealthMultiplier>
   <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
@@ -113,7 +115,7 @@
   <!-- EN: Material effect multiplier -->
   <StatsReport_StuffEffectMultiplier>Multiplicador per l’efecte del material</StatsReport_StuffEffectMultiplier>
   <!-- EN: Resting -->
-  <StatsReport_Resting>Descansant</StatsReport_Resting>
+  <StatsReport_Resting>Descansa</StatsReport_Resting>
   <!-- EN: recreation type -->
   <StatsReport_JoyKind>tipus d’entreteniment</StatsReport_JoyKind>
   <!-- EN: work to uninstall -->
@@ -391,13 +393,13 @@
   <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
   <Stat_Thing_Drug_ToleranceFallPerDay_Desc>Indica quant descendeix la tolerància a la substància cada dia.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
-  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>La tolerància mínima necessària per tornar-se addicte a aquesta droga.\n\nSi un usuari està per sota d’aquest nivell de tolerància, no pot tornar-se addicte si pren una dosi.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>La tolerància mínima necessària per a tornar-se addicte a aquesta droga.\n\nSi un usuari està per sota d’aquest nivell de tolerància, no pot tornar-se addicte si pren una dosi.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
   <!-- EN: An adult will only become addicted if they take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay. Some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one.\n\nNote that the safe dose interval depends on a person's body size. -->
-  <Stat_Thing_Drug_SafeDoseInterval_Desc>Un adult només es tornarà addicte si pren la droga amb una feqüència més gran que la indicada.\n\nAquesta estimació es calcula a partir de la tolerància mínima per tornar-s’hi addicte, l’augment de la tolerància per dosi i el ritme de descens diari de la tolerància. Algunes drogues no tenen un interval de seguretat. Aquestes drogues poden tornar addicte amb tan sols la primera dosi.\n\nTingueu en compte que l’interval segur entre dosis depèn de la mida del cos de la persona.</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>Un adult només es tornarà addicte si pren la droga amb una feqüència més gran que la indicada.\n\nAquesta estimació es calcula a partir de la tolerància mínima per a tornar-s’hi addicte, l’augment de la tolerància per dosi i el ritme de descens diari de la tolerància. Algunes drogues no tenen un interval de seguretat. Aquestes drogues poden tornar addicte amb tan sols la primera dosi.\n\nTingueu en compte que l’interval segur entre dosis depèn de la mida del cos de la persona.</Stat_Thing_Drug_SafeDoseInterval_Desc>
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
   <Stat_Thing_Drug_RandomODChance_Desc>La probabilitat d’una sobredosi accidental quan es pren la droga. Les sobredosis accidentals poden ocórrer en qualsevol moment, tant si és la primera dosi que es pren com si s’és un addicte expert.</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
-  <Stat_Thing_Drug_Addictiveness_Desc>La probabilitat d’addicció a la droga per dosi.\n\nSi la droga té una tolerància mínima per tornar-s’hi addicte, la tolerància ha d’estar per sobre d’aquest nivell perquè s’apliqui aquesta probabilitat. Si no hi ha tolerància mínima, qualsevol dosi pot causar-hi addicció.</Stat_Thing_Drug_Addictiveness_Desc>
+  <Stat_Thing_Drug_Addictiveness_Desc>La probabilitat d’addicció a la droga per dosi.\n\nSi la droga té una tolerància mínima per a tornar-s’hi addicte, la tolerància ha d’estar per sobre d’aquest nivell perquè s’apliqui aquesta probabilitat. Si no hi ha tolerància mínima, qualsevol dosi pot causar-hi addicció.</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
   <Stat_Thing_Drug_AddictionSeverityInitial_Desc>Les addiccions noves a aquesta droga començaran a aquest nivell de gravetat.\n\nSi se’n pren més, augmentarà la gravetat de l’addicció, mentre que el temps la redueix.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
   <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->

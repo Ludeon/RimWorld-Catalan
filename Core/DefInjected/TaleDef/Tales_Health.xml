@@ -202,7 +202,6 @@
   <HypothermiaRevealed.label>hipotèrmia</HypothermiaRevealed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] getting hypothermia</li>
-    <li>tale_noun->[PAWN_nameDef] freezing to death</li>
     <li>image->[PAWN_nameFull] trudging through snow [circumstance_group]</li>
     <li>image->[PAWN_nameFull] huddled beside a [TerrainFeature] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] searching for a warm [Apparel] [circumstance_group]</li>
@@ -221,17 +220,16 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <HypothermiaRevealed.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] agafant una hipotèrmia</li>
-    <li>tale_noun->[pawn_nameShortDef] morint de fred</li>
-    <li>image->[pawn_nameFull] caminant arrossegant els peus per la neu [circumstance_group]</li>
-    <li>image->[pawn_nameFull] apilant-se al costat d’una [terrainfeature] [circumstance_group]</li>
-    <li>image->[pawn_nameFull] buscant [apparel] calentó [circumstance_group]</li>
+    <li>tale_noun->[pawn_nameShortDef] pateix hipotèrmia</li>
+    <li>image->[pawn_nameFull] camina arrossegant els peus per la neu [circumstance_group]</li>
+    <li>image->[pawn_nameFull] s’ajoca al costat d’una [terrainfeature] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] busca [apparel] calentó [circumstance_group]</li>
     <li>image->[pawn_nameFull] a la gatzoneta al costat d’un foc [circumstance_group]</li>
-    <li>image->[pawn_nameFull] intentant encendre un foc [circumstance_group]</li>
-    <li>circumstance_phrase->mentre la cara se li va tornant blava</li>
-    <li>circumstance_phrase->i tremolant sense control</li>
+    <li>image->[pawn_nameFull] intenta encendre un foc [circumstance_group]</li>
+    <li>circumstance_phrase->mentre la cara se li torna blava</li>
+    <li>circumstance_phrase->i tremola sense control</li>
     <li>circumstance_phrase->amb el cos cobert de gebre</li>
-    <li>circumstance_phrase->exhalant vapor</li>
+    <li>circumstance_phrase->exhala vapor</li>
     <li>desc_sentence->[quantity_adjphrase] cadàvers de [AnimalAnyPlural] congelats envolten la zona.</li>
     <li>desc_sentence->[pawn_nameShortDef] té la roba bruta i feta malbé.</li>
     <li>desc_sentence->Una lluna blava i freda amenaça al fons.</li>

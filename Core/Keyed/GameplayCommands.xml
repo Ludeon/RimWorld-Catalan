@@ -295,7 +295,7 @@
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
-  <CommandBuildCopy>Construeix una còpia</CommandBuildCopy>
+  <CommandBuildCopy>Construeix-ne una còpia</CommandBuildCopy>
   <!-- EN: Build a copy of this building. -->
   <CommandBuildCopyDesc>Construeix una còpia d’aquest edifici.</CommandBuildCopyDesc>
 
@@ -535,13 +535,13 @@
 
   <!-- Place blueprints -->
   <!-- EN: Place blueprints -->
-  <CommandPlaceBlueprints>Col·loca projectes</CommandPlaceBlueprints>
+  <CommandPlaceBlueprints>Col·loca plànols</CommandPlaceBlueprints>
   <!-- EN: Place all required blueprints where possible. -->
-  <CommandPlaceBlueprintsDesc>Posa tots els projectes necessaris on sigui possible.</CommandPlaceBlueprintsDesc>
+  <CommandPlaceBlueprintsDesc>Posa tots els plànols necessaris on sigui possible.</CommandPlaceBlueprintsDesc>
   <!-- EN: Place {0} blueprints -->
-  <CommandPlaceBlueprintsSpecific>Col·loca {0} projectes</CommandPlaceBlueprintsSpecific>
+  <CommandPlaceBlueprintsSpecific>Col·loca plànols de {0}</CommandPlaceBlueprintsSpecific>
   <!-- EN: Place all {0} blueprints where possible. -->
-  <CommandPlaceBlueprintsSpecificDesc>Col·loca els {0} projectes on sigui possible.</CommandPlaceBlueprintsSpecificDesc>
+  <CommandPlaceBlueprintsSpecificDesc>Col·loca els plànols de {0} on sigui possible.</CommandPlaceBlueprintsSpecificDesc>
 
   <!-- Cancel monument marker -->
   <!-- EN: Cancel -->
@@ -624,7 +624,7 @@
   <!-- EN: Already linked. -->
   <AlreadyLinked>Ja està enllaçat.</AlreadyLinked>
   <!-- EN: Unlink settings -->
-  <UnlinkStorageSettings>Opcions de separació</UnlinkStorageSettings>
+  <UnlinkStorageSettings>Separa’n la configuració</UnlinkStorageSettings>
   <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
   <UnlinkStorageSettingsDesc>Separa-ho de les opcions de les altres estructures d’emmagatzemament i que se’n puguin establir les configuracions de manera independent.</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
@@ -637,5 +637,8 @@
   <SelectAllLinked>Selecciona tots els espais enllaçats</SelectAllLinked>
   <!-- EN: Select all storage buildings linked to this. -->
   <SelectAllLinkedDesc>Selecciona totes les estructures d’emmagatzematge enllaçades am l’element seleccionat.</SelectAllLinkedDesc>
+
+  <!-- EN: {0_labelShort} is unconscious. -->
+  <CommandDisabledUnconscious>{0_labelShort} està sense coneixement.</CommandDisabledUnconscious>
   
 </LanguageData>

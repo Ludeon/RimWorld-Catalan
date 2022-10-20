@@ -1,14 +1,14 @@
-# Catalan Translation of RimWorld
+﻿# Catalan Translation of RimWorld
 
 <div align="center">
   <img src="https://github.com/Ludeon/RimWorld-Catalan/blob/master/Core/LangIcon.png" />
 </div>
 
-![VRim](https://img.shields.io/badge/RimWorld-1.4.3514-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.4.3555-green.svg?style=for-the-badge)
 
 _ _ _
 
-This is the Catalan translation of Rimworld version 1.4.3514.
+This is the Catalan translation of Rimworld version 1.4.3555.
 
 See this [page](http://ludeon.com/forums/index.php?topic=2933.0) for license info and how to contribute.
 

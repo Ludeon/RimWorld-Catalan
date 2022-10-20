@@ -9,7 +9,14 @@
     <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nIf you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
   -->
-  <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>TODO</ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
+  <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], vol que l’ajudeu a salvar una caravana seva. La caravana la persegueix (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) de [enemyFaction_name] a prop de [map_definite]. [asker_nameDef] vol que feu senyals per a atreure’ls cap a vosaltres i que deixin la caravana en pau.[endingCommon]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], us demana ajuda.\n\n(*Threat)[groupsOf](/Threat) de [enemyFaction_name] assetgen les caravanes que té a la zona. [asker_nameDef] us demana que hi envieu un missatge clar i que els atragueu i que els elimineu.[endingCommon]</li>
+    <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
+    <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
+    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nIf you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
+    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
+  </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
     <li>questName->[violence] of Fortune</li>
@@ -32,6 +39,27 @@
     <li>violence->Hostility</li>
     <li>violence->Warfare</li>
   -->
-  <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>TODO</ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
+  <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
+    <li>questName->[enemyFaction_pawnsPlural] de la fortuna</li>
+    <li>questName->[violence] de la fortuna</li>
+    <li>questName->[violence] de lloguer</li>
+    <li>questName->[violence] a canvi d’una recompensa</li>
+    <li>questName->Rewarded [violence]</li>
+    <li>questName->[violence] a canvi d’alguna recompensa</li>
+    <li>questName->Compensated [violence]</li>
+    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] a canvi d’un favor</li>
+    <li>questName(reward==royalFavor)->[violence] a canvi d’un favor</li>
+    <li>violence->Violència</li>
+    <li>violence->Batalla</li>
+    <li>violence->Combat</li>
+    <li>violence->Guerra</li>
+    <li>violence->Lluita</li>
+    <li>violence->Bany de sang</li>
+    <li>violence->Atac</li>
+    <li>violence->Defensa</li>
+    <li>violence->Conflicte</li>
+    <li>violence->Hostilitat</li>
+    <li>violence->Acció militar</li>
+  </ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>

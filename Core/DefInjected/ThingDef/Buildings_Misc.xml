@@ -15,6 +15,8 @@
   <CommsConsole.label>consola de comunicacions</CommsConsole.label>
   <!-- EN: Allows radio contact with other factions and orbital traders. -->
   <CommsConsole.description>Permet el contacte per ràdio amb els comerciants remots i amb altres faccions per afers comercials i diplomàtiques.</CommsConsole.description>
+  <!-- EN: Summon diabolus threat -->
+  <CommsConsole.comps.CompUsable.useLabel>Atrau un diàbolus enemic</CommsConsole.comps.CompUsable.useLabel>
   
   <!-- EN: cryptosleep casket -->
   <CryptosleepCasket.label>sarcòfag de criptoson</CryptosleepCasket.label>
@@ -29,14 +31,14 @@
   <!-- EN: firefoam popper -->
   <FirefoamPopper.label>extintor</FirefoamPopper.label>
   <!-- EN: When it detects fire, this safety device pops and sprays a fire-retardant foam in a circular field around itself. Can also be triggered manually. -->
-  <FirefoamPopper.description>Quan el toca el foc o és disparat a ma, escampa espuma extintora al seu voltant.</FirefoamPopper.description>
+  <FirefoamPopper.description>Quan detecta foc, el dispositiu es dispara i escampa una espuma que retarda el foc en una àrea circular al seu voltant. També es pot disparar a mà.</FirefoamPopper.description>
   <!-- EN: Trigger {0_label} -->
   <FirefoamPopper.comps.CompUsable.useLabel>Dispara {0_labelDef}</FirefoamPopper.comps.CompUsable.useLabel>
   
   <!-- EN: grave -->
   <Grave.label>tomba</Grave.label>
   <!-- EN: A decent final resting place. Colonists will visit full graves to gain meditative joy. -->
-  <Grave.description>Enterreu els morts en tombes per a donar-los un repòs decent. Els colons visitaran les tombes ocupades per meditar i guanyar diversió.</Grave.description>
+  <Grave.description>Enterreu els morts en tombes per a donar-los un repòs decent. Els colons visitaran les tombes ocupades per a meditar i guanyar diversió.</Grave.description>
   
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>escàner subterrani</GroundPenetratingScanner.label>
@@ -86,7 +88,7 @@
   <!-- EN: sarcophagus -->
   <Sarcophagus.label>sarcòfag</Sarcophagus.label>
   <!-- EN: An ornamented burial receptacle for the honored dead. -->
-  <Sarcophagus.description>Un receptacle ornamental per enterrar els morts amb honor.</Sarcophagus.description>
+  <Sarcophagus.description>Un receptacle ornamental per a enterrar els morts amb honor.</Sarcophagus.description>
   
   <!-- EN: grand stele -->
   <SteleGrand.label>estela imponent</SteleGrand.label>

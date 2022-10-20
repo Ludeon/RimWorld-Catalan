@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: All quality factors determine how healthy the mom and baby are going to be. -->
+  <ChildBirth.description>Tots els factors de qualitat afecten a la salut de la mare i del nadó.</ChildBirth.description>
+  <!-- EN: {PAWN_labelShort}'s age -->
+  <ChildBirth.comps.0.label>l’edat de {PAWN_labelShort}</ChildBirth.comps.0.label>
+  <!-- EN: mother's age -->
+  <ChildBirth.comps.0.labelAbstract>l’edat de la mare</ChildBirth.comps.0.labelAbstract>
+  <!-- EN: {PAWN_labelShort}'s medicine skill -->
+  <ChildBirth.comps.1.label>l’habilitat mèdica de {PAWN_labelShort}</ChildBirth.comps.1.label>
+  <!-- EN: doctor's medicine skill -->
+  <ChildBirth.comps.1.labelAbstract>l’habilitat mèdica del metge</ChildBirth.comps.1.labelAbstract>
+  <!-- EN: loved one present -->
+  <ChildBirth.comps.2.label>hi ha la persona estimada</ChildBirth.comps.2.label>
+  <!-- EN: loved one absent -->
+  <ChildBirth.comps.2.labelNotMet>no hi ha la persona estimada</ChildBirth.comps.2.labelNotMet>
+  <!-- EN: indoors -->
+  <ChildBirth.comps.3.label>a l’interior</ChildBirth.comps.3.label>
+  <!-- EN: room cleanliness -->
+  <ChildBirth.comps.4.label>neteja de la cambra</ChildBirth.comps.4.label>
+  <!-- EN: bed health effects -->
+  <ChildBirth.comps.5.label>efectes del llit a la salut</ChildBirth.comps.5.label>
+  <!-- EN: Additionally, the mother will have a {0_percentage} chance to die during birth. -->
+  <ChildBirth.extraOutcomeDescriptions.0.description>A més a més, la mare tindrà un {0_percentage} de probabilitats de morir durant el part.</ChildBirth.extraOutcomeDescriptions.0.description>
+  <!-- EN: Still -->
+  <ChildBirth.outcomeChances.0.label>Neix mort</ChildBirth.outcomeChances.0.label>
+  <!-- EN: {MOTHER_labelShort}'s baby was stillborn. -->
+  <ChildBirth.outcomeChances.0.description>El fetus de {MOTHER_labelShort} ha nascut mort.</ChildBirth.outcomeChances.0.description>
+  <!-- EN: Sick -->
+  <ChildBirth.outcomeChances.1.label>Malalt</ChildBirth.outcomeChances.1.label>
+  <!-- EN: {MOTHER_labelShort} gave birth to a baby. Unfortunately, the baby is sick. -->
+  <ChildBirth.outcomeChances.1.description>{MOTHER_labelShort} ha parit un bebè. Malauradament, el bebè està malalt.</ChildBirth.outcomeChances.1.description>
+  <!-- EN: Healthy -->
+  <ChildBirth.outcomeChances.2.label>Amb salut</ChildBirth.outcomeChances.2.label>
+  <!-- EN: {MOTHER_labelShort} gave birth to a healthy baby! -->
+  <ChildBirth.outcomeChances.2.description>{MOTHER_labelShort} ha donat a llum un bebè amb bona salut!</ChildBirth.outcomeChances.2.description>
+  
+</LanguageData>

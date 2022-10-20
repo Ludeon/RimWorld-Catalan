@@ -386,7 +386,7 @@
   <ChildKnave69.titleShort>bandarra</ChildKnave69.titleShort>
   
   <!-- EN: Ever since [PAWN_pronoun] was very small, [PAWN_nameDef] never knew a home beyond [PAWN_possessive] parent's ship. Their nomadic meandering provided a constant change of scenery. [PAWN_possessive] life was often perilous but never dull, and [PAWN_pronoun] inherited [PAWN_possessive] parents' wanderlust. -->
-  <ChildOfDrifters18.baseDesc>Des de ben petit, no va conèixer cap altra llar que la nau dels seus pares. Eren una família de nòmades amb un escenari de vida en canvi constant. La seva vida era sovint perillosa, però no avorrida, i va heretar dels seus pares l’esperit viatger.</ChildOfDrifters18.baseDesc>
+  <ChildOfDrifters18.baseDesc>Des de ben {PAWN_gender ? petit : petita}, no va conèixer cap altra llar que la nau dels seus pares. Eren una família de nòmades amb una vida en canvi constant. La seva vida era sovint perillosa, però no avorrida, i va heretar dels seus pares l’esperit viatger.</ChildOfDrifters18.baseDesc>
   <!-- EN: child of drifters -->
   <ChildOfDrifters18.title>fill de rodamons</ChildOfDrifters18.title>
   <ChildOfDrifters18.titleFemale>filla de rodamons</ChildOfDrifters18.titleFemale>
@@ -471,7 +471,7 @@
   <CloneFarmed21.titleShort>descart</CloneFarmed21.titleShort>
   
   <!-- EN: During the 'Inner Destrian War' fallout, [PAWN_possessive] parents were captured and [PAWN_pronoun] was born into a life of slavery. Forced to clean coliseums after bloody battles for money. Watching, waiting, and learning. Coliseums were the only thing [PAWN_pronoun] ever knew. One night while cleaning the coliseum, [PAWN_possessive] family was murdered. -->
-  <ColiseumCleaner54.baseDesc>Durant la «Guerra Interior Destriana», els seus pares van ser capturats i [PAWN_nameDef] va nàixer com a esclau. Era obligat a netejar els coliseus després de les sangonents batalles que es feien per diners. Observava, esperava i aprenia. No va conèixer res més que els coliseus fins que una nit, mentre netejaven, la seva família va ser assassinada.</ColiseumCleaner54.baseDesc>
+  <ColiseumCleaner54.baseDesc>Durant la «Guerra Interior Destriana», els seus pares foren capturats i [PAWN_nameDef] va nàixer {PAWN_gender ? esclau : esclava}. {PAWN_gender ? El : la} van obligar a netejar els coliseus després de les sangonents batalles que es feien per diners. Observava, esperava i aprenia. No va conèixer res més que els coliseus fins que una nit, mentre netejava, la seva família va ser assassinada.</ColiseumCleaner54.baseDesc>
   <!-- EN: coliseum cleaner -->
   <ColiseumCleaner54.title>netejador de coliseu</ColiseumCleaner54.title>
   <ColiseumCleaner54.titleFemale>netejadora de coliseu</ColiseumCleaner54.titleFemale>
@@ -532,7 +532,7 @@
   <ConstructionGrunt84.titleShort>paleta</ConstructionGrunt84.titleShort>
   
   <!-- EN: [PAWN_nameDef] spent [PAWN_possessive] formative years on a glitterworld in the core region, where [PAWN_pronoun] and [PAWN_possessive] friends pursued lives of idle pleasure.\n\nAs [PAWN_pronoun] grew up, [PAWN_pronoun] began to find the life of ease unfulfilling. [PAWN_pronoun] decided to look for a more challenging path. -->
-  <CoreDilettante33.baseDesc>[PAWN_nameDef] va passar la seva etapa de formació a la regió central en un brillamón, on va tenir una vida de plaer ociós amb els seus amics.\n\nQuan va créixer, va trobar poc satisfactòria aquesta vida tan fàcil, i va decidir emprendre un camí més estimulant.</CoreDilettante33.baseDesc>
+  <CoreDilettante33.baseDesc>[PAWN_nameDef] va passar la seva etapa de formació a la regió central en un brillamón, on va tenir una vida de plaer ociós amb els seus amics.\n\nQuan va créixer, va trobar poc satisfactòria aquesta vida tan fàcil i va decidir emprendre un camí més estimulant.</CoreDilettante33.baseDesc>
   <!-- EN: core dilettante -->
   <CoreDilettante33.title>diletant</CoreDilettante33.title>
   <!-- EN: dilettante -->
@@ -1045,7 +1045,7 @@
   <HexCellArtist91.titleShort>artista</HexCellArtist91.titleShort>
   
   <!-- EN: [PAWN_nameDef] was born as low-ranking royalty in a large imperial family.\n\n[PAWN_pronoun] was placed In charge of running [PAWN_possessive] home planet from an early age, and learned important political and cultural skills in that role. -->
-  <HighBaroness37.baseDesc>[PAWN_nameDef] era descendent de baix rang d’una reial família imperial.\n\nLa van posar al cap del govern del seu planeta natal de ben jove, i va aprendre importants capacitats polítiques i culturals.</HighBaroness37.baseDesc>
+  <HighBaroness37.baseDesc>[PAWN_nameDef] era descendent de baix rang d’una família noble imperial.\n\n{PAWN_gender ? El : La} van posar al cap del govern del seu planeta natal de ben jove i va aprendre capacitats polítiques i culturals importants.</HighBaroness37.baseDesc>
   <!-- EN: high baroness -->
   <HighBaroness37.title>baró</HighBaroness37.title>
   <HighBaroness37.titleFemale>baronessa</HighBaroness37.titleFemale>
@@ -1328,7 +1328,7 @@
   <MidworldCadet83.titleShort>cadet</MidworldCadet83.titleShort>
   
   <!-- EN: [PAWN_nameDef] grew up in a quiet suburban neighborhood. [PAWN_pronoun] was never a master of social interaction, but [PAWN_possessive] interest in computers blossomed into a true talent at an early age. -->
-  <MidworldGeek18.baseDesc>[PAWN_nameDef] Va créixer en una barriada tranquil·la. La seva especialitat no van ser les relacions socials, si no la informàtica, i va demostrar tenir-hi molt talent de molt jove.</MidworldGeek18.baseDesc>
+  <MidworldGeek18.baseDesc>[PAWN_nameDef] va créixer en una barriada tranquil·la. La seva especialitat no van ser les relacions socials, sinó la informàtica, i va demostrar tenir-hi molt talent de molt jove.</MidworldGeek18.baseDesc>
   <!-- EN: midworld geek -->
   <MidworldGeek18.title>furoner dels migmons</MidworldGeek18.title>
   <MidworldGeek18.titleFemale>furonera dels migmons</MidworldGeek18.titleFemale>
@@ -2160,7 +2160,7 @@
   <Student65.titleShort>estudiant</Student65.titleShort>
   
   <!-- EN: A genius child, [PAWN_nameDef] was put in a special training program covering aerospace warfare and engineering.\n\nOne day, [PAWN_pronoun] tried to befriend a squirrel by giving it a bracelet. The squirrel bit [PAWN_objective], earning [PAWN_objective] the nickname “Squirrel {PAWN_gender ? Boy : Girl}”.\n\n[PAWN_nameDef] came to believe that work involving manual labor is beneath [PAWN_objective]. -->
-  <StudentEngineer34.baseDesc>[PAWN_nameDef] era un geni infantil i va participar en un programa d’entrenament especial que incloïa enginyeria aeroespacial i bèl·lica.\n\nUn dia, va provar de domesticar un esquirol posant-li un braçalet, i va acabar amb una bona mossegada. Des de llavors va rebre el sobrenom de «l’esquirol».\n\n[PAWN_nameDef] va acabar creient que les feines manuals no eren dignes per la seva categoria.</StudentEngineer34.baseDesc>
+  <StudentEngineer34.baseDesc>[PAWN_nameDef] era {PAWN_gender ? un nen : una nena} prodigi i va participar en un programa d’entrenament especial que incloïa enginyeria aeroespacial i bèl·lica.\n\nUn dia, va provar de domesticar un esquirol posant-li un braçalet i va acabar amb una bona mossegada. Des de llavors va rebre el sobrenom de «l’esquirol».\n\n[PAWN_nameDef] va acabar creient que les feines manuals no eren dignes per la seva categoria.</StudentEngineer34.baseDesc>
   <!-- EN: student engineer -->
   <StudentEngineer34.title>estudiant d’enginyeria</StudentEngineer34.title>
   <!-- EN: engineer -->
@@ -2370,8 +2370,8 @@
   <!-- EN: [PAWN_nameDef] was not made as a man, but a cold hearted assassin. [PAWN_pronoun] was bio-engineered by scientists, and trained as a killer. [PAWN_pronoun] was bred to have no emotion, no feelings, and no care for who lives, and who dies. -->
   <VatgrownAssassin20.baseDesc>[PAWN_nameDef] no va ser creat com un home, sinó com un assassí sense cor. Va ser bio-dissenyat per científics i entrenat per ser un assassí. Va ser educat per no sentir emocions ni sentiments ni patir per qui sobreviu i qui mor.</VatgrownAssassin20.baseDesc>
   <!-- EN: vatgrown assassin -->
-  <VatgrownAssassin20.title>assassí de proveta</VatgrownAssassin20.title>
-  <VatgrownAssassin20.titleFemale>assassina de proveta</VatgrownAssassin20.titleFemale>
+  <VatgrownAssassin20.title>assassí incubat</VatgrownAssassin20.title>
+  <VatgrownAssassin20.titleFemale>assassina incubada</VatgrownAssassin20.titleFemale>
   <!-- EN: clone -->
   <VatgrownAssassin20.titleShort>clon</VatgrownAssassin20.titleShort>
   <VatgrownAssassin20.titleShortFemale>clon</VatgrownAssassin20.titleShortFemale>
@@ -2379,8 +2379,8 @@
   <!-- EN: Raised to be a combat medic, [PAWN_nameDef] was trained in firearms as well as medicine. [PAWN_possessive] favorite phrase when coming upon a wounded soldier was, "Life or death?" Most chose life. -->
   <VatgrownMedic53.baseDesc>Educat per ser un metge de combat, [PAWN_nameDef] va ser entrenat en l’ús d’armes i en la medicina. La seva frase preferida quan trobava un soldat ferit era «Vida o mort?». La majoria triaven vida.</VatgrownMedic53.baseDesc>
   <!-- EN: vatgrown medic -->
-  <VatgrownMedic53.title>metge de proveta</VatgrownMedic53.title>
-  <VatgrownMedic53.titleFemale>metgessa de proveta</VatgrownMedic53.titleFemale>
+  <VatgrownMedic53.title>metge incubat</VatgrownMedic53.title>
+  <VatgrownMedic53.titleFemale>metgessa incubada</VatgrownMedic53.titleFemale>
   <!-- EN: medic -->
   <VatgrownMedic53.titleShort>metge</VatgrownMedic53.titleShort>
   <VatgrownMedic53.titleShortFemale>metgessa</VatgrownMedic53.titleShortFemale>
@@ -2388,8 +2388,8 @@
   <!-- EN: [PAWN_nameDef] was grown to be a perfect scientist, with a mind perfectly tuned for physics and chemistry.\n\n[PAWN_possessive] creators used [PAWN_objective] as a teaching aid on mind design, hoping [PAWN_pronoun] would eventually grow to be a great mind and continue their research. -->
   <VatgrownScientist91.baseDesc>[PAWN_nameDef] va ser criat per ser un científic perfecte, amb un cervell perfectament preparat per la física i la química.\n\nEls seus creadors el van fer servir com a ajudant en el seu aprenentatge del disseny de cervells, amb l’esperança que seria una gran ment que continuaria la seva investigació quan fos gran.</VatgrownScientist91.baseDesc>
   <!-- EN: vatgrown scientist -->
-  <VatgrownScientist91.title>científic de proveta</VatgrownScientist91.title>
-  <VatgrownScientist91.titleFemale>científica de proveta</VatgrownScientist91.titleFemale>
+  <VatgrownScientist91.title>científic incubat</VatgrownScientist91.title>
+  <VatgrownScientist91.titleFemale>científica incubada</VatgrownScientist91.titleFemale>
   <!-- EN: scientist -->
   <VatgrownScientist91.titleShort>científic</VatgrownScientist91.titleShort>
   <VatgrownScientist91.titleShortFemale>científica</VatgrownScientist91.titleShortFemale>
@@ -2397,8 +2397,8 @@
   <!-- EN: [PAWN_nameDef] was vat-grown as a slave in an illegal urbworld laboratory. As a young child, [PAWN_pronoun] was taught only to cook, clean and serve [PAWN_possessive] masters. For most of [PAWN_possessive] childhood, [PAWN_pronoun] knew nothing else. -->
   <VatgrownSlavegirl8.baseDesc>[PAWN_nameDef] va ser creada genèticament en un laboratori il·legal d’un urbamón per ser esclava. DE petita, només va aprendre a cuinar, netejar i servir als seus amos. La major part de la seva infantesa no va fer res més.</VatgrownSlavegirl8.baseDesc>
   <!-- EN: vatgrown slavegirl -->
-  <VatgrownSlavegirl8.title>esclau de proveta</VatgrownSlavegirl8.title>
-  <VatgrownSlavegirl8.titleFemale>esclava de proveta</VatgrownSlavegirl8.titleFemale>
+  <VatgrownSlavegirl8.title>esclau incubat</VatgrownSlavegirl8.title>
+  <VatgrownSlavegirl8.titleFemale>esclava incubada</VatgrownSlavegirl8.titleFemale>
   <!-- EN: slave girl -->
   <VatgrownSlavegirl8.titleShort>esclau</VatgrownSlavegirl8.titleShort>
   <VatgrownSlavegirl8.titleShortFemale>esclava</VatgrownSlavegirl8.titleShortFemale>
@@ -2429,7 +2429,7 @@
   <VidtubeStar98.titleShort>vidtuber</VidtubeStar98.titleShort>
   
   <!-- EN: [PAWN_nameDef] was raised on an R&D starship, and spent most of [PAWN_possessive] childhood travelling through the void.\n\nApproaching a mysterious planetoid, the ship was severely damaged. [PAWN_possessive] next memory is of the ship heading out of orbit, fully repaired. [PAWN_pronoun] soon developed an unnatural gift for technological research. -->
-  <VoyagerChild94.baseDesc>[PAWN_nameDef] va créixer en una nau espacial de I+D, i va passar bona part de la seva infància viatjant per l’espai.\n\nMentre s’acostaven a un planetoide misteriós, la nau va quedar seriosament malmesa. El següent que recorda és la nau sortint de l’òrbita completament reparada. Aviat va desenvolupar un do natural per la recerca tecnològica.</VoyagerChild94.baseDesc>
+  <VoyagerChild94.baseDesc>[PAWN_nameDef] va créixer en una nau espacial de I+D i va passar bona part de la seva infància viatjant per l’espai.\n\nMentre s’acostaven a un planetoide misteriós, la nau va quedar seriosament malmesa. El següent que recorda és la nau sortint de l’òrbita completament reparada. Aviat va desenvolupar un do natural per a la recerca tecnològica.</VoyagerChild94.baseDesc>
   <!-- EN: voyager child -->
   <VoyagerChild94.title>nen viatger</VoyagerChild94.title>
   <VoyagerChild94.titleFemale>nena viatgera</VoyagerChild94.titleFemale>
@@ -2471,7 +2471,7 @@
   <WastelandWanderer81.titleShort>rodamón</WastelandWanderer81.titleShort>
   
   <!-- EN: [PAWN_nameDef] was born on a wealthy glitterworld. [PAWN_pronoun] studied at the Caspian school of Engineering, and excelled in mathematics and computer programming.\n\n[PAWN_nameDef] grew up in clean, sterile environments. [PAWN_pronoun] never saw a farm or livestock. -->
-  <WealthyStudent59.baseDesc>[PAWN_nameDef] va nàixer en un brillamón ric. Va estudiar a la Universitat d’Enginyeria de Caspia, i va destacar en matemàtiques i programació d’ordinadors.\n\n[PAWN_nameDef] es va criar en entorns nets i estèrils i no va veure mai cap granja ni cap hort.</WealthyStudent59.baseDesc>
+  <WealthyStudent59.baseDesc>[PAWN_nameDef] va nàixer en un brillamón ric. Va estudiar a la Universitat d’Enginyeria de Càspia i va destacar en matemàtiques i programació d’ordinadors.\n\n[PAWN_nameDef] es va criar en entorns nets i estèrils i no va veure mai cap granja ni cap hort.</WealthyStudent59.baseDesc>
   <!-- EN: wealthy student -->
   <WealthyStudent59.title>estudiant ric</WealthyStudent59.title>
   <WealthyStudent59.titleFemale>estudiant rica</WealthyStudent59.titleFemale>

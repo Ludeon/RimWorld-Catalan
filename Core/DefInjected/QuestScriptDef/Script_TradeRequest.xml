@@ -8,7 +8,7 @@
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
     <li>questDescription->Un assentament proper, [settlement_label], té una sol·licitud especial. Volen comprar:\n\n  [requestedThingCount]× [requestedThing_label] [qualityInfo](valorat en [requestedThingMarketValue_money])\n\nSi us interessa l’acord, envieu-hi una caravana amb el que demanen. El temps estimat de viatge és de [estimatedTravelTime_duration].</li>
-    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de qualitat normal+ </li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de qualitat normal o millor </li>
     <li>qualityInfo-></li>
   </TradeRequest.questDescriptionRules.rulesStrings>
   <!-- EN:

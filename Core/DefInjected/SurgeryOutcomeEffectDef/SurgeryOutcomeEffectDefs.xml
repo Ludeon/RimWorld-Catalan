@@ -13,9 +13,17 @@
   <SurgeryOutcomeBase.outcomes.3.letterLabel>La cirurgia de {PATIENT_labelShort} ha fallat</SurgeryOutcomeBase.outcomes.3.letterLabel>
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
   <SurgeryOutcomeBase.outcomes.3.letterText>{SURGEON_labelShort} ha comés un error ridícul mentre intervenia a {PATIENT_labelShort} ({RECIPE_label}).</SurgeryOutcomeBase.outcomes.3.letterText>
+  <!-- EN: Surgery failed on {PATIENT_labelShort}: Sterilized -->
+  <SurgeryOutcomeBase.outcomes.4.letterLabel>La cirurgia de {PATIENT_labelShort} ha fallat i queda {PATIENT_gender ? esterilitzat : esterilitzada}</SurgeryOutcomeBase.outcomes.4.letterLabel>
+  <!-- EN: {SURGEON_labelShort} has failed while operating on {PATIENT_labelShort} ({RECIPE_label}), leaving {PATIENT_objective} sterile. -->
+  <SurgeryOutcomeBase.outcomes.4.letterText>{SURGEON_labelShort} no ha tingut èxit en la intervenció de {PATIENT_labelShort} ({RECIPE_label}) i l’ha {PATIENT_gender ? deixat : deixada} estèril.</SurgeryOutcomeBase.outcomes.4.letterText>
+  <!-- EN: Surgery failed on {PATIENT_labelShort}: Sterilized -->
+  <SurgeryOutcomeBase.outcomes.5.letterLabel>La cirurgia de {PATIENT_labelShort} ha fallat i queda {PATIENT_gender ? esterilitzat : esterilitzada}</SurgeryOutcomeBase.outcomes.5.letterLabel>
+  <!-- EN: {SURGEON_labelShort} has failed while operating on {PATIENT_labelShort} ({RECIPE_label}), leaving {PATIENT_objective} sterile. -->
+  <SurgeryOutcomeBase.outcomes.5.letterText>{SURGEON_labelShort} no ha tingut èxit en la intervenció de {PATIENT_labelShort} ({RECIPE_label}) i l’ha {PATIENT_gender ? deixat : deixada} estèril.</SurgeryOutcomeBase.outcomes.5.letterText>
   <!-- EN: Surgery failed on {PATIENT_labelShort} -->
-  <SurgeryOutcomeBase.outcomes.4.letterLabel>La cirurgia de {PATIENT_labelShort} ha fallat</SurgeryOutcomeBase.outcomes.4.letterLabel>
+  <SurgeryOutcomeBase.outcomes.6.letterLabel>La cirurgia de {PATIENT_labelShort} ha fallat</SurgeryOutcomeBase.outcomes.6.letterLabel>
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <SurgeryOutcomeBase.outcomes.4.letterText>{SURGEON_labelShort} ha comés un petit error mentre intervenia a {PATIENT_labelShort} ({RECIPE_label}).</SurgeryOutcomeBase.outcomes.4.letterText>
+  <SurgeryOutcomeBase.outcomes.6.letterText>{SURGEON_labelShort} ha comés un petit error mentre intervenia a {PATIENT_labelShort} ({RECIPE_label}).</SurgeryOutcomeBase.outcomes.6.letterText>
   
 </LanguageData>

@@ -2,17 +2,22 @@
 <LanguageData>
   
   <!-- EN: enslave attempt -->
-  <EnslaveAttempt.label>TODO</EnslaveAttempt.label>
+  <EnslaveAttempt.label>intent d’esclavització</EnslaveAttempt.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work for the colony.</li>
     <li>r_logentry->[INITIATOR_nameDef] informed [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must obey orders and work.</li>
     <li>r_logentry->[INITIATOR_nameDef] ordered [RECIPIENT_nameDef] to prepare for a life of forced labour.</li>
     <li>r_logentry->[INITIATOR_nameDef] explained to [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work or face punishment.</li>
   -->
-  <EnslaveAttempt.logRulesInitiator.rulesStrings>TODO</EnslaveAttempt.logRulesInitiator.rulesStrings>
+  <EnslaveAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] li ha dit a [RECIPIENT_nameDef] que [RECIPIENT_pronoun] ha de treballar per a la colònia.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha avisat a [RECIPIENT_nameDef] que [RECIPIENT_pronoun] ha d’obeir les ordres i treballar.</li>
+    <li>r_logentry->[INITIATOR_nameDef] li ha ordenat a [RECIPIENT_nameDef] que es prepari per a una vida de treballs forçats.</li>
+    <li>r_logentry->[INITIATOR_nameDef] li ha explicat a [RECIPIENT_nameDef] que [RECIPIENT_pronoun] ha de treballar o rebrà els càstigs pertinents.</li>
+  </EnslaveAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: try to reduce will -->
-  <ReduceWill.label>TODO</ReduceWill.label>
+  <ReduceWill.label>prova a reduir-ne la voluntat</ReduceWill.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] [RECIPIENT_pronoun] [negative].</li>
     <li>r_logentry->[INITIATOR_nameDef] explained that [RECIPIENT_nameDef] [negative].</li>
@@ -56,6 +61,44 @@
     <li>givein->surrender [RECIPIENT_objective]self</li>
     <li>givein->yield [RECIPIENT_objective]self</li>
   -->
-  <ReduceWill.logRulesInitiator.rulesStrings>TODO</ReduceWill.logRulesInitiator.rulesStrings>
+  <ReduceWill.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] li ha dit a [RECIPIENT_nameDef] que [negative].</li>
+    <li>r_logentry->[INITIATOR_nameDef] li ha explicat a [RECIPIENT_nameDef] [negative].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha amenaçat [RECIPIENT_nameDef] amb [threat] si [RECIPIENT_pronoun] [refused].</li>
+    <li>r_logentry->[INITIATOR_nameDef] informa a [RECIPIENT_nameDef] que [RECIPIENT_pronoun] [disillusionment].</li>
+    <li>r_logentry->[INITIATOR_nameDef] li demana a [RECIPIENT_nameDef] que [givein] a la colònia.</li>
+    <li>negative->no té futur</li>
+    <li>negative->no té cap possibilitat d’escapar</li>
+    <li>negative->no té cap futur a fora de la colònia</li>
+    <li>negative->no pot escapar</li>
+    <li>negative->s’hauria de sotmetre sense resistir-se</li>
+    <li>negative->hauria d’oblidar les seves aspiracions</li>
+    <li>negative->s’hauria de sotmetre a la voluntat de la colònia</li>
+    <li>threat->tortures</li>
+    <li>threat->càstigs</li>
+    <li>threat->mutilacions</li>
+    <li>threat->que li faran patir gana</li>
+    <li>threat->que es passarà tota la vida a la presó</li>
+    <li>threat->morirà</li>
+    <li>threat->que l’aïllarà</li>
+    <li>threat->que li tallaran un braç</li>
+    <li>threat->que li fotran cops</li>
+    <li>threat->laceracions</li>
+    <li>threat->que li extrauran algun òrgan</li>
+    <li>refused->prova d’escapar-se</li>
+    <li>refused->insulta a la colònia</li>
+    <li>refused->no treballa</li>
+    <li>refused->es nega a complir una ordre</li>
+    <li>refused->es resisteix</li>
+    <li>refused->es nega a obeir</li>
+    <li>refused->es porta malament</li>
+    <li>disillusionment->ha d’acceptar la seva situació</li>
+    <li>disillusionment->no té cap altre futur que el que li ofereixen</li>
+    <li>disillusionment->hauria de sotmetre’s sense oferir resistència</li>
+    <li>disillusionment->no sobreviuria si s’escapa de la colònia</li>
+    <li>disillusionment->no té altra opció que acceptar la seva situació</li>
+    <li>givein->cedeixi i s’uneixi</li>
+    <li>givein->es rendeixi</li>
+  </ReduceWill.logRulesInitiator.rulesStrings>
   
 </LanguageData>

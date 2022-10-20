@@ -77,14 +77,6 @@
   <VeneratedAnimalsBodySizePerColonist>mida corp. dels anim. venerats per colon</VeneratedAnimalsBodySizePerColonist>
   <!-- EN: Expecting at least {0} body size per colonist. -->
   <MinAnimalBodySizePerColonist>S’espera com a mínim una mida corporal de {0} per colon.</MinAnimalBodySizePerColonist>
-  <!-- EN: Plant {0_label} -->
-  <PlantThing>Planta {0_label}</PlantThing>
-  <!-- EN: Plant a {0_label} in a chosen area. -->
-  <PlantThingDesc>Planta {0_label} a l’àrea escollida.</PlantThingDesc>
-  <!-- EN: Cancel planting {0_label} -->
-  <CancelPlantThing>Cancel·la la plantada de {0_label}</CancelPlantThing>
-  <!-- EN: Cancel planting the {0_label}. -->
-  <CancelPlantThingDesc>Cancel·la la plantada de {0_label}.</CancelPlantThingDesc>
   <!-- EN: Disables -->
   <Disables>Inhabilita</Disables>
   <!-- EN: Requires one of precepts -->
@@ -102,7 +94,7 @@
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
   <FavoriteColorTooltip>El color preferit de {PAWN_labelShort}. Si té més d’un {PERCENTAGE} d’indumentària d’aquest color{ORIDEO}, serà una mica més feliç.\n\nPodeu alterar els colors a la taula de d’estilisme amb tints extrets de la planta tintorera.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
-  <OrIdeoColor> o el de la seva ideoligió</OrIdeoColor>
+  <OrIdeoColor> {PAWN_gender ? o : o} el de la seva ideoligió</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Estableix el color de la ideoligió</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -265,7 +257,7 @@
   <!-- EN: The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony. -->
   <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>La commoció causada per {0} ha atret alguns animals encuriosits!\n\nSemblen acostumats al contacte humà i s’uneixen a la colònia.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
   <!-- EN: The {0} has induced a Gauranlen pod to sprout nearby. -->
-  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>{0_definite} ha fet que hagi aparegut una beina Gauranlen a prop.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
+  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>{0_definite} ha fet que hagi brotat una beina gauranlen a prop.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
   <!-- EN: Can't apply reward -->
   <RitualAttachedOutcomeCantApply>No es pot aplicar la recompensa</RitualAttachedOutcomeCantApply>
   <!-- EN: No valid spot -->
@@ -640,7 +632,7 @@
   <!-- EN: {PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. -->
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} ha completat el seu tractament de rejoveniment.</BiosculpterAgeReversalCompletedMessage>
   <!-- EN: {PAWN_pronoun} expects the next age reversal in {DEADLINE} days. -->
-  <AgeReversalExpectationDeadline>Espera el proper tractament de rejoveniment d’aquí {DEADLINE} dies.</AgeReversalExpectationDeadline>
+  <AgeReversalExpectationDeadline>{PAWN_gender ? Espera : Espera} el proper tractament de rejoveniment d’aquí {DEADLINE} dies.</AgeReversalExpectationDeadline>
   <!-- EN: {PAWN_labelShort}'s pleasure cycle is complete. -->
   <BiosculpterPleasureCompletedMessage>El cicle de plaer bioesculpit de {PAWN_labelShort} s’ha completat.</BiosculpterPleasureCompletedMessage>
   <!-- EN: Cleanliness speed factor -->

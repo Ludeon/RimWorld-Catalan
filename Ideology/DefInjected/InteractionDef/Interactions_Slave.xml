@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: spark slave rebellion -->
-  <SparkSlaveRebellion.label>TODO</SparkSlaveRebellion.label>
+  <SparkSlaveRebellion.label>anima a la rebel·lió</SparkSlaveRebellion.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] suggested they make a break for it.</li>
     <li>r_logentry->[INITIATOR_nameDef] encouraged [RECIPIENT_nameDef] to take back [RECIPIENT_possessive] freedom.</li>
@@ -10,16 +10,27 @@
     <li>r_logentry->[INITIATOR_nameDef] spoke of a life beyond servitude and encouraged [RECIPIENT_nameDef] to escape.</li>
     <li>r_logentry->[INITIATOR_nameDef] whispered that security was lax and now would be a good time to escape.</li>
   -->
-  <SparkSlaveRebellion.logRulesInitiator.rulesStrings>TODO</SparkSlaveRebellion.logRulesInitiator.rulesStrings>
+  <SparkSlaveRebellion.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] li diu que poden sortir corrent i fugar-se.</li>
+    <li>r_logentry->[INITIATOR_nameDef] encoratja a [RECIPIENT_nameDef] a recuperar la seva llibertat.</li>
+    <li>r_logentry->[INITIATOR_nameDef] parla d’acabar el seu esclavatge i fugir corrent.</li>
+    <li>r_logentry->[INITIATOR_nameDef] parla d’una vida on no han de ser servils i encoratja a [RECIPIENT_nameDef] a escapar.</li>
+    <li>r_logentry->[INITIATOR_nameDef] xiuxiueja que la seguretat no està massa alerta i que seria un bon moment per a escapar.</li>
+  </SparkSlaveRebellion.logRulesInitiator.rulesStrings>
   
   <!-- EN: suppress -->
-  <Suppress.label>TODO</Suppress.label>
+  <Suppress.label>repressió</Suppress.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] there would be punishments for rebellion.</li>
     <li>r_logentry->[INITIATOR_nameDef] warned [RECIPIENT_nameDef] that disobedience would be punished.</li>
     <li>r_logentry->[INITIATOR_nameDef] cautioned [RECIPIENT_nameDef] against infractions of any kind.</li>
     <li>r_logentry->[INITIATOR_nameDef] suggested that [RECIPIENT_nameDef] follow orders and not ask questions.</li>
   -->
-  <Suppress.logRulesInitiator.rulesStrings>TODO</Suppress.logRulesInitiator.rulesStrings>
+  <Suppress.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] li diu a [RECIPIENT_nameDef] hi ha càstigs pels intents de rebel·lió.</li>
+    <li>r_logentry->[INITIATOR_nameDef] avisa a [RECIPIENT_nameDef] que la desobediència es castiga.</li>
+    <li>r_logentry->[INITIATOR_nameDef] adverteix a [RECIPIENT_nameDef] que no ha cometre cap infracció.</li>
+    <li>r_logentry->[INITIATOR_nameDef] li suggereix a [RECIPIENT_nameDef] que segueixi les ordres i no pregunti.</li>
+  </Suppress.logRulesInitiator.rulesStrings>
   
 </LanguageData>

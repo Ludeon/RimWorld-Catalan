@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>mechanitorShuttleCrashedLetterLabel->Mechanitor ship</li>
+    <li>mechanitorShuttleCrashedLetterText->A mechanitor ship containing feral mechanoids has crashed nearby. The mechanoids will exit the crashed ship and prepare to fight.</li>
+    <li>assaultBeginLetterLabel->Mechanoid attack</li>
+    <li>assaultBeginLetterText->The feral mechanoids are coming to assault the colony!</li>
+    <li>mechlinkAvailableLetterLabel->[mechanitor_nameDef]'s mechlink available</li>
+    <li>mechlinkAvailableLetterText->The crashed ship contained the corpse of an ancient mechanitor.\n\nExtract [mechanitor_possessive] mechlink by selecting a colonist and right-clicking the corpse.</li>
+  -->
+  <MechanitorShip.questContentRules.rulesStrings>
+    <li>mechanitorShuttleCrashedLetterLabel->Nau mecanoidera</li>
+    <li>mechanitorShuttleCrashedLetterText->La nau d’un mecanoider s’ha estavellat a prop. Els mecanoides que han sobreviscut s’han tornat salvatges. Sortiran de la nau i es prepararan per a atacar.</li>
+    <li>assaultBeginLetterLabel->Atac mecanoide</li>
+    <li>assaultBeginLetterText->Els mecanoides ferals vénen a assaltar la colònia!</li>
+    <li>mechlinkAvailableLetterLabel->El mecaenllaç de [mechanitor_nameDef] està disponible</li>
+    <li>mechlinkAvailableLetterText->A la nau estavellada hi ha el cadàver d’un mecanoider.\n\nPodeu extraure el seu mecaenllaç si seleccioneu un colon i feu clic amb el botó dreta damunt del seu cadàver.</li>
+  </MechanitorShip.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->You have decrypted an ancient transponder, revealing the location of a mechanoid ship in orbit. The ship is badly damaged but you can signal it to land nearby.\n\nThe ship contains the remains of a long-dead mechanitor. Mechanitors can create and control mechanoids for work and combat. By extracting the deceased mechanitor's mechlink, you can turn one of your own colonists into a mechanitor.\n\nBeware - the ship also contains hostile mechanoids. The mechanoid group is composed of:\n\n[mechList]</li>
+  -->
+  <MechanitorShip.questDescriptionRules.rulesStrings>
+    <li>questDescription->Heu desencriptat un transponedor antic i heu esbrinat la posició d’una nau mecanoide en òrbita. La nau està danyada però podeu fer-li senyals per a què aterri a prop.\n\nA dins de la llançadora hi ha un mecanoider mort fa molts anys. Els mecanoiders poden crear i controlar mecanoides per a treballar i per a lluitar. Si s’extrau el mecaenllaç del mecanoider mort, podeu convertir un dels vostres colons en mecanoider.\n\nAneu amb compte, ja que a la nau potser hi ha alguns mecanoides hostils. El grup mecanoide està format per:\n\n[mechList]</li>
+  </MechanitorShip.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[shipAdjective] [shipNoun]</li>
+    <li>shipAdjective->mechanitor</li>
+    <li>shipAdjective->the overseer's</li>
+    <li>shipAdjective->ancient</li>
+    <li>shipAdjective->mechanoid</li>
+    <li>shipNoun->ship</li>
+    <li>shipNoun->shuttle</li>
+    <li>shipNoun->craft</li>
+    <li>shipNoun->wreck</li>
+    <li>shipNoun->wreckage</li>
+    <li>shipNoun->transport</li>
+  -->
+  <MechanitorShip.questNameRules.rulesStrings>
+    <li>questName->[shipNoun] [shipAdjective]</li>
+    <li>shipAdjective->d’un mecanoider</li>
+    <li>shipAdjective->del supervisor</li>
+    <li>shipAdjective->mecanoide</li>
+    <li>shipNoun->nau</li>
+    <li>shipNoun->llançadora</li>
+    <li>shipNoun->restes de transport</li>
+    <li>shipNoun->restes de llançadora</li>
+    <li>shipNoun->restes de nau</li>
+    <li>shipNoun->transport</li>
+  </MechanitorShip.questNameRules.rulesStrings>
+  
+</LanguageData>

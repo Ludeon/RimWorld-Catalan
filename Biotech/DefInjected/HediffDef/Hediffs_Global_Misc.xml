@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: infant illness -->
+  <InfantIllness.label>malaltia infantil</InfantIllness.label>
+  <!-- EN: Effects of various birth complications. If the baby can survive for 10 days, they will be strong enough to recover on their own.\n\nThe illness will wax and wane in strength over time, requiring different levels of tending and medicine to recover. -->
+  <InfantIllness.description>Efectes de complicacions durant el naixements. Si el nadó pot sobreviure durant 10 dies, serà prou fort com per a recuperar-se sol.\n\nLa intensitat de les complicacions oscil·larà al llarg del temps i faran falta diferents nivells de cures i medicina per a recuperar-se.</InfantIllness.description>
+  <!-- EN: {PAWN_labelShort}'s infant illness went from {1} to {2}. -->
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.notifyMessage>La malaltia infantil de {PAWN_labelShort} passa de {1} a {2}.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.notifyMessage>
+  <!-- EN: that are life threatening without exceptional medical care and glitterworld medicine. -->
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.0.descriptionExtra>que posen en perill la vida sense una atenció mèdica excepcional i medicines brillamoneres.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.0.descriptionExtra>
+  <!-- EN: grave -->
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.0.labelPrefix>greu</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.0.labelPrefix>
+  <!-- EN: that are life threatening without good medical care and standard medicine. -->
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.1.descriptionExtra>que posen en perill la vida sense una atenció mèdica bona i medicina estàndard.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.1.descriptionExtra>
+  <!-- EN: bad -->
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.1.labelPrefix>dolenta</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.1.labelPrefix>
+  <!-- EN: that can be life threatening without basic medicine and tending. -->
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.2.descriptionExtra>que poden ser una amenaça per a la vida sense medicina bàsica i atenció.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.2.descriptionExtra>
+  <!-- EN: common -->
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.2.labelPrefix>comú</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.2.labelPrefix>
+  <!-- EN: which make the baby slightly ill but, at this rate, they will recover on their own. -->
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.3.descriptionExtra>que fa que el nadó estigui malalt, però que es recuperarà sol si segueix a aquest ritme.</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.3.descriptionExtra>
+  <!-- EN: mild -->
+  <InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.3.labelPrefix>poc greu</InfantIllness.comps.HediffComp_RandomizeSeverityPhases.phases.3.labelPrefix>
+  <!-- EN: Effects of various birth complications -->
+  <InfantIllness.descriptionShort>Efectes de diverses complicacions del part</InfantIllness.descriptionShort>
+  <!-- EN: minor -->
+  <InfantIllness.stages.minor.label>lleu</InfantIllness.stages.minor.label>
+  <!-- EN: major -->
+  <InfantIllness.stages.major.label>greu</InfantIllness.stages.major.label>
+  <!-- EN: extreme -->
+  <InfantIllness.stages.extreme-0.label>extrema</InfantIllness.stages.extreme-0.label>
+  <!-- EN: extreme -->
+  <InfantIllness.stages.extreme-1.label>extrema</InfantIllness.stages.extreme-1.label>
+  
+  <!-- EN: lactating -->
+  <Lactating.label>prolactància</Lactating.label>
+  <!-- EN: The condition of being able to breastfeed a baby. The breasts are actively producing and storing milk. The lactating state begins when a mother gives birth, and continues indefinitely as long as she breastfeeds a baby at least once every 10 days.\n\nPeople who are lactating will have a harder time becoming pregnant. -->
+  <Lactating.description>Un període durant el qual es podrà alimentar el nadó donant-li el pit. Els pits produeixen i emmagatzemen llet. El període durant el qual es produeix llet comença quan la mare dóna a llum i continua indefinidament mentre es doni el pit al nadó almenys una vegada cada 10 dies.\n\nLes persones que estan en aquest estat tindran més dificultats per a quedar-se embarassades.</Lactating.description>
+  <!-- EN: {0} is no longer lactating due to not breastfeeding for 10 days. -->
+  <Lactating.comps.HediffComp_MessageOnRemoval.message>Els pits de {0} ja no produeixen llet perquè durant 10 dies no ha donat el pit a cap nadó.</Lactating.comps.HediffComp_MessageOnRemoval.message>
+  <!-- EN: milk fullness {CHARGEFACTOR_percentage} -->
+  <Lactating.comps.HediffComp_Lactating.labelInBrackets>{CHARGEFACTOR_percentage} de llet als pits</Lactating.comps.HediffComp_Lactating.labelInBrackets>
+  <!-- EN: {0} is no longer lactating due to malnutrition. -->
+  <Lactating.comps.HediffComp_RemoveIfOtherHediff.message>Degut a la malnutrició, {0} ja no és prolactant (els seus pits no produeixen llet per a nadons).</Lactating.comps.HediffComp_RemoveIfOtherHediff.message>
+  
+  <!-- EN: morning sickness -->
+  <MorningSickness.label>nàusees matinals</MorningSickness.label>
+  <!-- EN: This is a common side effect of pregnancy, and despite the name isn't limited to mornings. While this is ongoing, the person suffers from nausea, dizziness, and fuzzy thinking. -->
+  <MorningSickness.description>Es tracta d’una sensació comuna durant l’embaràs i, tot i el nom, no es limiten als matins. Els seus efectes inclouen nàusees, marejos i confusió.</MorningSickness.description>
+  
+  <!-- EN: ovum extracted -->
+  <OvumExtracted.label>se li ha extret un òvul</OvumExtracted.label>
+  <!-- EN: This woman recently underwent an ovum extraction procedure. No more ova can be extracted until some time has passed. -->
+  <OvumExtracted.description>A aquesta dona se li ha extret un òvul fa poc. No se li’n podran extraure més fins que hagi passat un cert temps.</OvumExtracted.description>
+  
+  <!-- EN: pollution stimulus -->
+  <PollutionStimulus.label>estimulació per contaminació</PollutionStimulus.label>
+  <!-- EN: This creature has been energized by exposure to pollution.\n\nThe pollution-stimulus response was originally engineered to help giant insects in their role as anti-mechanoid bioweapons. However, the gene has since been used to help people function in polluted areas as well. -->
+  <PollutionStimulus.description>Aquesta criatura ha rebut estímuls de pol·lució.\n\nLa resposta a l’estímul per contaminació es va pensar per a ajudar als insectes gegants en el seu rol d’armes biològiques antimecanoides. No obstant, des de llavors el gen es fa servir perquè les persones puguin treballar en zones contaminades.</PollutionStimulus.description>
+  <!-- EN: This creature has been energized by exposure to pollution. -->
+  <PollutionStimulus.descriptionShort>Aquesta criatura està estimulada per la contaminació.</PollutionStimulus.descriptionShort>
+  <!-- EN: minor -->
+  <PollutionStimulus.stages.minor.label>lleu</PollutionStimulus.stages.minor.label>
+  <!-- EN: moderate -->
+  <PollutionStimulus.stages.moderate.label>moderada</PollutionStimulus.stages.moderate.label>
+  <!-- EN: maximum -->
+  <PollutionStimulus.stages.maximum.label>intensa</PollutionStimulus.stages.maximum.label>
+  
+  <!-- EN: postpartum exhaustion -->
+  <PostpartumExhaustion.label>esgotament postpart</PostpartumExhaustion.label>
+  <!-- EN: General after-effects of giving birth. This mother needs some time to physically recover. -->
+  <PostpartumExhaustion.description>Efectes secundaris generals que apareixen després de donar a llum. Aquesta mare necessita temps per a recuperar-se físicament.</PostpartumExhaustion.description>
+  
+  <!-- EN: labor (dilation) -->
+  <PregnancyLabor.label>en part (dil·latant)</PregnancyLabor.label>
+  <!-- EN: The condition of being about to give birth. Labor moves through multiple stages with different levels of pain and contractions. Each labor is different, and pain can rise and fall unpredictably over time. Labor ends when the baby is born. -->
+  <PregnancyLabor.description>Una fase quan s’està a punt de donar a llum. El part passa per diferents fases i diferents nivells de dolor i contraccions. Cada part és diferent i el dolor pot variar molt i no es pot predir. El part s’acaba quan naix el bebè.</PregnancyLabor.description>
+  <!-- EN: {PAWN_labelShort}'s labor went from {1} to {2}. -->
+  <PregnancyLabor.comps.HediffComp_RandomizeStageWithInterval.notifyMessage>El part de {PAWN_labelShort} passa de {1} a {2}.</PregnancyLabor.comps.HediffComp_RandomizeStageWithInterval.notifyMessage>
+  <!-- EN: mild -->
+  <PregnancyLabor.stages.mild.label>lleu</PregnancyLabor.stages.mild.label>
+  <!-- EN: intense -->
+  <PregnancyLabor.stages.intense.label>intens</PregnancyLabor.stages.intense.label>
+  <!-- EN: debilitating -->
+  <PregnancyLabor.stages.debilitating.label>debilitant</PregnancyLabor.stages.debilitating.label>
+  
+  <!-- EN: labor (pushing) -->
+  <PregnancyLaborPushing.label>en part (empenyent)</PregnancyLaborPushing.label>
+  <!-- EN: The baby is descending the birth canal and the mother has a strong urge to push. The birth is imminent. -->
+  <PregnancyLaborPushing.description>El nadó surt per l’úter i la mare necessita empènyer. El naixement és imminent.</PregnancyLaborPushing.description>
+  
+  <!-- EN: pregnancy mood -->
+  <PregnancyMood.label>depressió prenatal</PregnancyMood.label>
+  <!-- EN: This common side effect of pregnancy represents a rising and falling mood caused by unbalanced hormones. -->
+  <PregnancyMood.description>Efecte secundari de l’embaràs. Es produeix pels canvis hormonals que es pateixen.</PregnancyMood.description>
+  
+  <!-- EN: pregnant -->
+  <PregnantHuman.label>embarassada</PregnantHuman.label>
+  <!-- EN: A baby growing inside a woman, preparing to be born. In humans, pregnancy lasts for 18 days and is divided into 3 trimesters. As the pregnancy grows it will reduce the mother's mobility. For some mothers, pregnancy may induce nausea or mood swings that can be hard to deal with. -->
+  <PregnantHuman.description>Un fetus creix dins de la dona fins que naixi. En humans, els embarassos duren uns 18 dies que es divideixen en 3 trimestres. A mesura que avança, es redueix la mobilitat de la mare. Algunes mares patiran nàusees matinals o depressió prenatal duran l’embaràs.</PregnantHuman.description>
+  <!-- EN: {0_labelShort} pregnant -->
+  <PregnantHuman.comps.HediffComp_MessageAfterTicks.letterLabel>{0_labelShort} està embarassada</PregnantHuman.comps.HediffComp_MessageAfterTicks.letterLabel>
+  <!-- EN: {0_labelShort} is pregnant! -->
+  <PregnantHuman.comps.HediffComp_MessageAfterTicks.letterText>{0_labelShort} està embarassada!</PregnantHuman.comps.HediffComp_MessageAfterTicks.letterText>
+  <!-- EN: pregnancy -->
+  <PregnantHuman.labelNoun>embarassada</PregnantHuman.labelNoun>
+  <!-- EN: first trimester -->
+  <PregnantHuman.stages.first_trimester.label>primer trimestre</PregnantHuman.stages.first_trimester.label>
+  <!-- EN: second trimester -->
+  <PregnantHuman.stages.second_trimester.label>segon trimestre</PregnantHuman.stages.second_trimester.label>
+  <!-- EN: third trimester -->
+  <PregnantHuman.stages.third_trimester.label>tercer trimestre</PregnantHuman.stages.third_trimester.label>
+  
+  <!-- EN: stillborn -->
+  <Stillborn.label>fetus mort</Stillborn.label>
+  <!-- EN: This baby died due to non-specific complications during pregnancy. -->
+  <Stillborn.description>El fetus no ha sobreviscut degut a les complicacions durant l’embaràs.</Stillborn.description>
+  
+</LanguageData>

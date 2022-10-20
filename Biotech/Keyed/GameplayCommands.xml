@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Auto-repair -->
+  <CommandAutoRepair>Autorepara</CommandAutoRepair>
+  <!-- EN: If active, a mechanitor will automatically repair this mechanoid. Repairing a mechanoid drains its energy. -->
+  <CommandAutoRepairDesc>Si està actiu, un mecanoider repararà automàticament el mecanoide. Per a reparar-lo, es farà la seva energia.</CommandAutoRepairDesc>
+
+  <!-- EN: {0_labelShort} is deathresting. -->
+  <CommandDisabledDeathresting>{0_labelShort_definite} permadescansa.</CommandDisabledDeathresting>
+
+  <!-- EN: Cancel vatgrowth -->
+  <CommandCancelGrowth>Cancel·la la incubació</CommandCancelGrowth>
+  <!-- EN: Cancel vatgrowth for the current occupant. The occupant will be ejected. -->
+  <CommandCancelGrowthDesc>Cancel·la la incubació de l’ocupant actual. S’ejectarà qui hi hagi a dins.</CommandCancelGrowthDesc>
+
+  <!-- EN: Select overseer -->
+  <CommandSelectOverseer>Tria el supervisor</CommandSelectOverseer>
+  <!-- EN: Select the mechanitor who is the overseer of this mech. -->
+  <CommandSelectOverseerDesc>Trieu el mecanoider que supervisarà aquest mecanoide.</CommandSelectOverseerDesc>
+  <!-- EN: No overseer. -->
+  <CommandSelectOverseerDisabledDesc>Sense supervisor</CommandSelectOverseerDisabledDesc>
+
+  <!-- EN: Cancel extraction -->
+  <CommandCancelExtraction>Cancel·la’n l’extracció</CommandCancelExtraction>
+  <!-- EN: Cancel the extraction process. The contained person will be ejected. -->
+  <CommandCancelExtractionDesc>Cancel·la el procés d’extracció. La persona que conté serà expulsada.</CommandCancelExtractionDesc>
+
+  <!-- EN: Summon mech threat... -->
+  <CommandCallBossgroup>Atrau un mecanoide enemic…</CommandCallBossgroup>
+  <!-- EN: Summon an enemy leader mechanoid along with escorts.\n\nIf you defeat the leader mechanoid, it will drop a special chip which you can use to advance your own mechanoid technology.\n\nThere are three leader mechanoid types, each summoned a different way, each dropping a different type of chip. -->
+  <CommandCallBossgroupDesc>Atrau un líder mecanoide enemic junt amb la seva escorta.\n\nSi el derroteu, podreu aconseguir xips especials que podeu fer servir per a desenvolupar les vostres tecnologies mecanoides.\n\nHi ha tres tipus de líders mecanoides. Cadascun s’atrau amb el seu mètode especial i deixa també un tipus diferent de xip.</CommandCallBossgroupDesc>
+
+  <!-- EN: Toggle auto load {0} -->
+  <CommandAutoLoad>Commuta la càrrega automàtica de {0}</CommandAutoLoad>
+  <!-- EN: If active, colonists will automatically load this with {0}. -->
+  <CommandAutoLoadDesc>Si està actiu, els colons ho carregaran automàticament amb {0}.</CommandAutoLoadDesc>
+
+  <!-- EN: Eject contents -->
+  <CommandEjectContents>Expulsa’n el contingut</CommandEjectContents>
+  <!-- EN: Eject all contained {0} onto the ground. -->
+  <CommandEjectContentsDesc>Ejecta qualsevol {0} que contingui al terra.</CommandEjectContentsDesc>
+
+  <!-- EN: Select all mechs -->
+  <CommandSelectAllMechs>Tria tots els mecanoides</CommandSelectAllMechs>
+  <!-- EN: Select all mechanoids controlled by this mechanitor. -->
+  <CommandSelectAllMechsDesc>Selecciona tots els mecanoides que controla aquest mecanoider.</CommandSelectAllMechsDesc>
+
+  <!-- EN: Turret enabled -->
+  <CommandToggleTurret>Torreta activada</CommandToggleTurret>
+  <!-- EN: Toggle turret being able to fire at will.\n\nWhen disabled, the turret will not automatically fire. This is useful while sneaking up on enemies. -->
+  <CommandToggleTurretDesc>Activa o desactiva el dispar automàtic de la torreta.\n\nQuan està desactivat, la torreta no dispararà de manera automàtica; us pot ser útil si us voleu acostar als enemics sigilosament.</CommandToggleTurretDesc>
+
+  <!-- EN: Cancel scan -->
+  <CommandCancelSubcoreScan>Cancel·la l’escaneig</CommandCancelSubcoreScan>
+  <!-- EN: Cancel the scan process. The contained person will be ejected. -->
+  <CommandCancelSubcoreScanDesc>Cancel·la el procés d’escaneig. S’expulsarà la persona que hi ha a dins.</CommandCancelSubcoreScanDesc>
+
+  <!-- EN: Force xenogerm implantation -->
+  <ForceXenogermImplantation>Força la implantació del xenogermen</ForceXenogermImplantation>
+  <!-- EN: Force this person to implant their xenogenes into another individual using a special injector organ. If this person's genes are currently regrowing, they will die in the process.\n\nWhen implanted, a xenogerm will overwrite the target's xenogenes. Germline genes will be unaffected. -->
+  <ForceXenogermImplantationDesc>Força aquesta persona a que implanti els seus xenogens a un altre individu fent servir el seu òrgan especial injector. Si els gens d’aquesta persona estan en procés de creixement, morirà en el procés.\n\nQuan s’implanta un xenogermen, sobreescriurà el xenogermen de l’objectiu. Els gens germinals no es modificaran.</ForceXenogermImplantationDesc>
+</LanguageData>

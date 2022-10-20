@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- EN: {0_labelShort} is unconscious. -->
-  <CommandDisabledUnconscious>{0_labelShort} està sense coneixement.</CommandDisabledUnconscious>
   
   <!-- Heritage -->
   <!-- EN: Choose a new heir for {HOLDER_nameIndef}: -->
@@ -16,7 +13,7 @@
   <!-- EN: Call aid... -->
   <CommandCallRoyalAid>Sol·licita ajuda…</CommandCallRoyalAid>
   <!-- EN: Call for aid using a special permit.\n\nEach type of aid may be used for free once, after which you must wait to use it for free again. You can use the aid more frequently, but it costs honor to do so. -->
-  <CommandCallRoyalAidDesc>Demana ajuda amb el permís especial.\n\nCada tipus d’ajuda es pot fer servir de franc una vegada. Després, caldrà esperar per tornar-la a emprar debades una altra vegada. Es pot fer servir l’ajuda més sovint si es vol, però pagant un cost d’honor.</CommandCallRoyalAidDesc>
+  <CommandCallRoyalAidDesc>Demana ajuda amb el permís especial.\n\nCada tipus d’ajuda es pot fer servir de franc una vegada. Després, caldrà esperar per a tornar-la a emprar debades una altra vegada. Es pot fer servir l’ajuda més sovint si es vol, però pagant un cost d’honor.</CommandCallRoyalAidDesc>
   <!-- EN: Guests will not use their aid permits. -->
   <CommandCallRoyalAidLodger>Els hostes no faran servir els permisos d’ajuda.</CommandCallRoyalAidLodger>
   <!-- EN: Slaves cannot use their permits. -->
@@ -26,7 +23,7 @@
   <!-- EN: Free -->
   <CommandCallRoyalAidFreeOption>De franc</CommandCallRoyalAidFreeOption>
   <!-- EN: {0} days left, costs {1} {FACTION_royalFavorLabel} -->
-  <CommandCallRoyalAidFavorOption>queden {0} dies, ara costa {1} {FACTION_royalFavorLabel}</CommandCallRoyalAidFavorOption>
+  <CommandCallRoyalAidFavorOption>queden {0} dies; ara costa {1} {FACTION_royalFavorLabel}.</CommandCallRoyalAidFavorOption>
   <!-- EN: You are about to call for aid, but there are people from factions whom {0_name} is not hostile to. Any soldiers you call will not attack them: {1} -->
   <CommandCallRoyalAidWarningNonHostileFactions>Esteu a punt de demanar ajuda, però hi ha gent de les faccions que no són hostils als {0_name}. Els soldats que sol·liciteu no els atacaran: {1}</CommandCallRoyalAidWarningNonHostileFactions>
   <!-- EN: Not enough honor. -->

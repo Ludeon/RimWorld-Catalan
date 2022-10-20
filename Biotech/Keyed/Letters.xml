@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Mechanitor -->
+  <!-- EN: Mech(s) gone feral -->
+  <LetterLabelMechsFeral>Un o més mecanoides s’han tornat salvatges</LetterLabelMechsFeral>
+  <!-- EN: Some mech(s) which were wandering without an overseer have linked with ancient planet-wide mech control signals. They have joined {0} and become hostile, and appear to be trying to fight their way off the map.\n\nFeral mechanoids cannot be resurrected at a gestator when killed.\n\nThese mechs are involved:\n\n{1} -->
+  <LetterMechsFeral>Un o més mecanoides que vagaven sense supervisor s’han enllaçat amb uns senyals de control mecanoide antics que arriben a tots els punts del planeta. S’han unit a {0}, s’han tornat hostils i sembla que volen dirigir-se a la vora del mapa.\n\nEls mecanoides ferals no es poden ressuscitar a una gestadora quan moren.\n\nEls mecanoides involucrats són:\n\n{1}</LetterMechsFeral>
+  <!-- EN: Mechlink installed -->
+  <LetterLabelMechlinkInstalled>S’ha instal·lat un mecaenllaç</LetterLabelMechlinkInstalled>
+  <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
+  <LetterMechlinkInstalled>{PAWN_labelShort} s’ha instal·lat un mecaenllaç! Ara és {PAWN_gender ? un mecanoider : una mecanoidera} i pot crear i controlar mecanoides.\n\nInvestigueu la mecatecnologia bàsica per a començar a fer-ho.\n\n(*SectionTitle)Per a crear mecanoides:(/SectionTitle) {PAWN_gender ? El vostre mecanoider : La vostra mecanoidera} pot crear mecanoides amb una estructura de producció que es diu gestadora mecanoide.\n\n(*SectionTitle)Sobre l’ample de banda:(/SectionTitle) Els mecanoiders poden controlar tants mecanoides com permeti l’ample de banda de què disposen. Trieu {PAWN_labelShort} i mireu el seu «Ample de banda» per a veure de quanta en disposa i quanta en fa servir. L’ample de banda es pot augmentar amb la indumentària adequada i construint nodes mecabanda.\n\n(*SectionTitle)Sobre els grups de control:(/SectionTitle) Els mecanoiders controlen els meques en grups. Es pot posar cada grup de control en un d’aquests modes:\n\n‒Treball\n‒Escorta\n‒Recàrrega\n‒Hiberna i autorecarrega\n\nPer a aprendre més sobre què fa cada mode, trieu la icona del mode de treball en algun dels grups de control de {PAWN_labelShort} i situeu el cursor al damunt de les diferents ordres de treball. Es pot augmentar la quantitat de grups de control màxima amb indumentària i implants.\n\n(*SectionTitle)Sobre la crida d’amenaces:(/SectionTitle) Els mecanoiders poden enviar senyals a líders mecanoides antics per a que us ataquin i aconseguir obtenir elements rars quan se’ls derrota. Ho haureu de fer si voleu millorar {PAWN_gender ? el vostre mecanoider : la vostra mecanoidera} més enllà de certs límits, però aneu amb compte perquè els enemics que acudiran són perillosos.</LetterMechlinkInstalled>
+
+  <!-- EN: This happened because of -->
+  <MentalStateReason_Gene>Ha passat perquè</MentalStateReason_Gene>
+
+  <!-- EN: {0} summoned -->
+  <LetterLabelBossgroupSummoned>S’ha atret {0_indefinite}</LetterLabelBossgroupSummoned>
+  <!-- EN: Attracted by your mech-band signals, an ultra-heavy mech from {0} will arrive soon. Be prepared. -->
+  <LetterBossgroupSummoned>Aviat arribarà un mecanoide ultrapesant de {0}, atret pels vostres senyals mecabanda. Prepareu-vos.</LetterBossgroupSummoned>
+
+  <!-- EN: {0} arrived -->
+  <LetterLabelBossgroupArrived>Ha arribat {0_indefinite}</LetterLabelBossgroupArrived>
+  <!-- EN: An ultra-heavy mech from {0} has come to eradicate you, along with escorts.\n\n{1}\n\nThe assault group is composed of the following {3}:\n\n{4}\n\nThey will prepare for a while before attacking. -->
+  <LetterBossgroupArrived>Un mecanoide ultrapesant de {0} ve a eliminar-vos amb la seva escorta.\n\n{1}\n\nEl grup d’assalt està format {3_gender ? pels : per les} {3} següents:\n\n{4}\n\nEs prepararan una estona abans d’atacar.</LetterBossgroupArrived>
+
+  <!-- EN: Summon {LEADER_label} available -->
+  <LetterLabelCommsConsoleSpawned>Es pot atraure {LEADER_label_gender}</LetterLabelCommsConsoleSpawned>
+  <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
+  <LetterCommsConsoleSpawned>Un mecanoider pot fer servir el {PARENT_label} per a atreure mecanoides {LEADER_label} perillosos i hostils. Prepareu-vos si ho voleu fer, perquè són extremadament poderosos.\n\nSi derroteu {LEADER_label_definite}, aconseguireu els elements següents:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
+
+  <!-- EN: Summon {LEADER_label} possible -->
+  <LetterLabelBossgroupCallerUnlocked>Es pot atraure {LEADER_label_indefinite}</LetterLabelBossgroupCallerUnlocked>
+  <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
+  <LetterBossgroupCallerUnlocked>Ja podeu construir {PARENT_label_indefinite}, que el mecanoider podrà fer servir per a atreure {LEADER_label_indefinite}. Si derroteu {LEADER_label_indefinite}, aconseguireu els elements següents:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
+
+  <!-- EN: {0_nameDef}'s mechlink available -->
+  <LetterLabelMechanitorCasketOpened>Teniu disponible el mecaenllaç de {0_nameDef}</LetterLabelMechanitorCasketOpened>
+  <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {0_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
+  <LetterMechanitorCasketOpened>Heu trobat el cadàver d’{0_gender ? un mecanoider : una mecanoidera}!\n\nPer a extraure el seu mecaenllaç, trieu un colon i feu clic amb el botó dret al cadàver.</LetterMechanitorCasketOpened>
+  <!-- EN: Mechanitor casket found -->
+  <LetterLabelMechanitorCasketFound>S’ha localitzat el sarcòfag d’un mecanoider</LetterLabelMechanitorCasketFound>
+  <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
+  <LetterMechanitorCasketFound>Heu descobert el sarcòfag d’un mecanoider!\n\nObriu-lo i allí dins el trobareu.</LetterMechanitorCasketFound>
+  
+  <!-- Pawns lost because map closed (including mechs) -->
+  <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>La vostra caravana s’ha perdut. Els mecanoides, animals i persones que s’han perdut són</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
+  <!-- EN: The following people, animals and mechanoids have been abandoned -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Home>S’ha abandonat a les següents persones, animals i mecanoides</LetterPawnsLostIncMechsBecauseMapClosed_Home>
+  
+
+  <!-- Children -->
+  <!-- EN: {0_nameDef} became a child -->
+  <LetterLabelBecameChild>{0_nameDef} ja és {0_gender ? un nen : una nena}</LetterLabelBecameChild>
+  <!-- EN: {0_nameDef} became an adult -->
+  <LetterLabelBecameAdult>{0_nameDef} ja és {0_gender ? adult : adulta}</LetterLabelBecameAdult>
+  <!-- EN: Baby {0_nameDef} has grown up and become a child! {0_pronoun} is now old enough to do the following work: -->
+  <LetterBecameChild>El nadó ha crescut i ja és {0_gender ? un nen : una nena}! {0_nameDef} ja és prou gran com per a fer les següents tasques:</LetterBecameChild>
+  <!-- EN: Children can do various types of work. As they get older, they become able to do more work types.\n\nThey also do various child-specific recreational activities.\n\nChildren need to wear special child-sized apparel. -->
+  <LetterBecameChildChanges>Els xiquets poden fer diveros tipus de feines. Quan creixen, en poden fer més tipus.\n\nTambé fan diferents activitats d’entreteniment recreatiu.\n\nPer a vestir als nens, cal una indumentària de mida adequada.</LetterBecameChildChanges>
+  <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be made....  Should {0_nameDef} remain a {0_legalStatus}? -->
+  <LetterChildLegalStatus>Com {0_parentage}, segons la tradició el seu estatus legal és de {0_legalStatus}, però es poden fer excepcions… Voleu que {0_nameDef} continuï sent {0_legalStatus}?</LetterChildLegalStatus>
+  <!-- EN: {0_labelShort} has decided to become a follower of the ideoligion {1_name}. -->
+  <LetterChildFollowIdeo>{0_labelShort} ha decidit fer-se {0_gender ? seguidor : seguidora} de la ideoligió {1_name}.</LetterChildFollowIdeo>
+  <!-- EN: {0_nameDef}'s slave status has already changed since {0_possessive} birthday. -->
+  <CannotChangeChildStatusReason>L’estat {0_gender ? d’esclau : d’esclava} de {0_nameDef} ha canviat pel seu aniversari.</CannotChangeChildStatusReason>
+  <!-- EN: enslave -->
+  <Enslave>esclavitza</Enslave>
+  <!-- EN: emancipate -->
+  <Emancipate>emancipa</Emancipate>
+  <!-- EN: remain {0} -->
+  <RemainX>continua com a {0}</RemainX>
+  <!-- EN: {BABY_nameDef} adopted -->
+  <LetterLabelAdopted>S’ha adoptat a {BABY_nameDef}</LetterLabelAdopted>
+  <!-- EN: {BABY_nameDef}, a baby, has been adopted by your colony. You may want to assign colonists to the 'childcare' work type to take care of {BABY_objective}. -->
+  <LetterTextAdopted>{BABY_nameDef}, un nadó, l’ha adoptat la vostra colònia. Potser voleu assignar colons a les tasques de tipus «Atén infants» perquè {BABY_gender ? el : la} cuidin.</LetterTextAdopted>
+
+  <!-- EN: {0_nameDef}'s baby prep -->
+  <LetterLabelThirdTrimester>Prepart del bebè de {0_nameDef}</LetterLabelThirdTrimester>
+  <!-- EN: {0_nameDef} is due to give birth in less than 6 days. You can prepare for the baby:\n\n- Build a birth room with a clean floor and good bed.\n- Get a skilled doctor ready.\n- In the work tab, assign at least one person to childcare\n- Prepare a food source for the baby. {0_nameDef} can breastfeed the baby, or you can feed them baby food, milk, or insect jelly.\n- Build a crib. High quality cribs will make a baby happy.\n\nYou can make baby food at a stove or campfire. -->
+  <LetterTextThirdTrimester>{0_nameDef} donarà a llum en menys de 6 dies. Podeu preparar algunes coses:\n\n‒Construïu una habitació per al part amb un terra ben net i un bon llit.\n‒Tingueu a mà un metge hàbil.\n‒A la pestanya de tasques, assigneu almenys una persona a les atencions infantils.\n‒Prepareu la producció d’aliments per al nadó. {0_nameDef} pot donar-li el pit o bé el podeu alimentar amb aliments per a bebès com ara purés, llet o mel d’insectes.\n‒Construïu un bressol. Un bressol de qualitat alta farà el nadó sigui més feliç.\n\nPodeu preparar aliments per a nadons a la cuina o a la foguera.</LetterTextThirdTrimester>
+
+  <!-- EN: {0} vat birth -->
+  <LetterVatBirth>Incubonaixement de {0}</LetterVatBirth>
+  <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a healthy baby! -->
+  <LetterVatHealthyBaby>L’embrió de {0_nameDef} i {1_nameDef} s’ha acabat de gestar en una incubadora i ja és un nadó amb bona salut!</LetterVatHealthyBaby>
+  <!-- EN: An embryo has finished gestating in a growth vat and become a healthy baby! -->
+  <LetterVatHealthyBabyNoParents>S’ha acabat de gestar un embrió en una incubadora i ja és un nadó amb bona salut!</LetterVatHealthyBabyNoParents>
+  <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
+  <LetterVatInfantIllness>L’embrió de {0_nameDef} i {1_nameDef} ha acabat de gestar-se en una incubadora i ja és un bebè. Malauradament, el bebè està malalt.</LetterVatInfantIllness>
+  <!-- EN: An embryo has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
+  <LetterVatInfantIllnessNoParents>S’ha acabat de gestar un embrió en una incubadora i ja és un bebè. Malauradament, el nadó està malalt.</LetterVatInfantIllnessNoParents>
+  <!-- EN: The baby formed in a growth vat from the embryo of {0_nameDef} and {1_nameDef} was stillborn. -->
+  <LetterVatStillborn>El nadó que es formava en una incubadora amb l’embrió de {0_nameDef} i {1_nameDef} ha nascut mort.</LetterVatStillborn>
+  <!-- EN: The baby formed in a growth vat was stillborn. -->
+  <LetterVatSillbornNoParents>El nadó que es formava a la incubadora ha nascut mort.</LetterVatSillbornNoParents>
+  <!-- EN: {0_labelShort} in labor! -->
+  <LetterColonistPregnancyLaborLabel>{0_labelShort} està de part!</LetterColonistPregnancyLaborLabel>
+  <!-- EN: {0_labelShort} is about to give birth! She's going to have contractions for a few hours before delivering a baby. The labor may go through several stages of different levels of difficulty and danger.\n\nTo improve the baby's chances, gather a doctor and others to help with the birth. Select {0_labelShort} and press 'Gather for birth' to start the procedure. -->
+  <LetterColonistPregnancyLabor>{0_labelShort} és a punt de donar a llum! Tindrà contraccions durant unes quantes hores abans de tenir el nadó. El part passarà per diverses etapes amb diferents nivells de dificultat i perill.\n\nPer a millorar el resultat del part, prepareu un metge i altres persones perquè ajudin durant el part. Trieu {0_labelShort} i premeu «Assisteix al part» per a iniciar el procediment.</LetterColonistPregnancyLabor>
+  <!-- EN: {0_labelShort} has died due to complications after giving birth. -->
+  <LetterPartColonistDiedAfterChildbirth>{0_labelShort} ha mort per les complicacions després de donar a llum.</LetterPartColonistDiedAfterChildbirth>
+  <!-- EN: The baby was created from in vitro fertilization and has the genetic makeup of {0_labelShort} and {1_labelShort}. -->
+  <LetterPartSurrogacy>El bebè s’ha fet amb fertilització in vitro i té una combinació dels gens de {0_labelShort} i {1_labelShort}.</LetterPartSurrogacy>
+  <!-- EN: The baby shows signs of genetic abnormalities due to inbreeding. -->
+  <InbredBabyBorn>El bebè mostra senyals d’anormalitats genètiques degudes a la endogàmia.</InbredBabyBorn>
+
+  <!-- EN: {0_nameDef} has already been named. -->
+  <BabyAlreadyNamed>A {0_nameDef} ja se li ha posat un nom.</BabyAlreadyNamed>
+  <!-- EN: name baby -->
+  <NameBaby>posa nom al bebè</NameBaby>
+  <!-- EN: immediately -->
+  <Immediately>ara mateix</Immediately>
+  <!-- EN: within -->
+  <Within>en</Within>
+  <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
+  <LetterPartTempBabyName>Al nadó se li ha posat temporalment {0_nameFull} de nom.</LetterPartTempBabyName>
+  <!-- EN: You can change it until {0} after birth. -->
+  <LetterPartLiveBirthNameDeadline>El podeu canviar fins a {0} després del naixement.</LetterPartLiveBirthNameDeadline>
+  <!-- EN: Would you like to give the baby another name? -->
+  <LetterPartStillbirthNameDeadline>Voleu posar un altre nom al nadó?</LetterPartStillbirthNameDeadline>
+  <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
+  <LetterPartNameBabyAdopt>Al nadó se li ha posat el nom temporal «{0_nameFull}». Podeu canviar-lo mentre el nadó tingui menys de {1}.</LetterPartNameBabyAdopt>
+
+  <!-- EN: Growth moment for {PAWNNAME} -->
+  <BirthdayGrowthMoment>Moment de creixement de {PAWNNAME}</BirthdayGrowthMoment>
+  <!-- EN: {0_nameFull} has reached the biological age of {1} and has experienced a growth moment! -->
+  <BirthdayBiologicalGrowthMoment>{0_nameFull} ha assolit l’edat biològica de {1} i té un moment de creixement!</BirthdayBiologicalGrowthMoment>
+  <!-- EN: {0_nameDef} is now old enough to do the following work -->
+  <BirthdayBiologicalAgeWorkTypes>{0_nameDef} ja és prou gran com per a fer les següents tasques</BirthdayBiologicalAgeWorkTypes>
+  <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
+  <BirthdayPickPassion>Escolliu en quina habilitat ha d’augmentar la passió {0_nameDef}</BirthdayPickPassion>
+  <!-- EN: Choose {1} skills for {0_nameDef} to increase {0_possessive} passion for -->
+  <BirthdayPickPassions>Trieu {1} habilitats per a {0_nameDef} i augmentar la seva passió per</BirthdayPickPassions>
+  <!-- EN: Choose a trait for {0_nameDef} to gain -->
+  <BirthdayPickTrait>Trieu quin tret voleu atorgar a {0_nameDef}</BirthdayPickTrait>
+  <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
+  <BirthdayGrowthTier>Quan succeí aquest moment de creixement, {0_nameDef} tenia el nivell de creixement de {1}. A nivells de creixement més alts, els nens aconsegueixen més opcions de trets i de passions per a triar i més passions en general. Si es satisfan les necessitats d’aprenentatge, el nivells de creixement succeeixen més aviat. Els nivells de creixement es restableixen després de cada moment de creixement.</BirthdayGrowthTier>
+  <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
+  <BirthdayChooseHowPawnWillGrow>Obriu aquesta carta per a triar com creixerà {0_nameDef}.</BirthdayChooseHowPawnWillGrow>
+
+  <!-- EN: Passion was increased for {0}. -->
+  <BirthdayPassionArchive>Ha augmentat la passió de {0}.</BirthdayPassionArchive>
+  <!-- EN: The trait {0} was gained. -->
+  <BirthdayTraitArchive>S’ha obtingut el tret «{0}».</BirthdayTraitArchive>
+  <!-- EN: No trait -->
+  <BirthdayNoTraitChoice>Cap tret</BirthdayNoTraitChoice>
+  <!-- EN: {0} does not gain a trait. -->
+  <BirthdayNoTraitChoiceTooltip>{0} no obté cap tret.</BirthdayNoTraitChoiceTooltip>
+
+  <!-- EN: Make choices to close -->
+  <BirthdayMakeChoices>Feu les tries per a tancar-ho</BirthdayMakeChoices>
+  <!-- EN: {0} has gained the nickname {1}. -->
+  <BirthdayNickname>{0_definite} rep el sobrenom de «{1}».</BirthdayNickname>
+  <!-- EN: Select a trait. -->
+  <SelectATrait>Trieu un tret.</SelectATrait>
+  <!-- EN: Select a passion. -->
+  <SelectPassionSingular>Trieu una passió.</SelectPassionSingular>
+  <!-- EN: Select {0} passions. -->
+  <SelectPassionsPlural>Trieu {0} passions.</SelectPassionsPlural>
+  <!-- EN: Later -->
+  <Later>Més endavant</Later>
+  
+  <!-- EN: Mechlink available -->
+  <LetterLabelMechlinkAvailable>Mecaenllaç disponible</LetterLabelMechlinkAvailable>
+  <!-- EN: An opportunity to acquire the unique mechlink implant has become available via the quest '{0}'.\n\nInstalling a mechlink will turn a colonist into a mechanitor. Mechanitors can create, control, and manipulate mechanoids for use in work and in combat. -->
+  <LetterMechlinkAvailable>Hi ha disponible una oportunitat per a aconseguir un implant mecaenllaç únic a través de la missió «{0}».\n\nSi s’instal·la un mecaenllaç, un colon es convertirà en un mecanoider. Els mecanoiders poden crear, controlar i manipular mecanoides perquè facin tasques i us ajudin en combat.</LetterMechlinkAvailable>
+
+  <!-- Genes -->
+  <!-- EN: Xenogerm implantation ordered -->
+  <LetterLabelXenogermOrderedImplanted>S’ha ordenat la implantació d’un xenogermen</LetterLabelXenogermOrderedImplanted>
+  <!-- EN: You have ordered a xenogerm be implanted in {PAWN_nameDef}. This procedure requires a medical bed and {MEDICINENEEDED} medicine.{BEDINFO}{MEDICINEINFO}\n\nYou can cancel this procedure by going to {PAWN_nameDef}'s health -> operations tab. -->
+  <LetterXenogermOrderedImplanted>Heu ordenat que s’implanti un xenogerment a {PAWN_nameDef}. Aquest procediment requereix un llit mèdic i {MEDICINENEEDED} medicines.{BEDINFO}{MEDICINEINFO}\n\nPodeu cancel·lar el procediment si aneu a la pestanya de salut de {PAWN_nameDef} i busqueu les operacions que se li han d’aplicar.</LetterXenogermOrderedImplanted>
+  <!-- EN: \n\nYou do not have any medical beds available for {PAWN_nameDef}. Consider marking a bed as medical. -->
+  <XenogermOrderedImplantedBedNeeded>\n\nNo disposeu de cap llit mèdic disponible per a {PAWN_nameDef}. Penseu si cal assignar algun llit per a ús mèdic.</XenogermOrderedImplantedBedNeeded>
+  <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
+  <XenogermOrderedImplantedMedicineNeeded>\n\nNo teniu prou medicina per a implantar el xenogermen. La implantació no pot començar fins que tingueu {MEDICINENEEDED} medicines.</XenogermOrderedImplantedMedicineNeeded>
+  <!-- EN: Involuntary deathrest -->
+  <LetterLabelInvoluntaryDeathrest>Permadescans involuntari</LetterLabelInvoluntaryDeathrest>
+  <!-- EN: Regeneration coma -->
+  <LetterLabelRegenerationComa>Coma regeneratiu</LetterLabelRegenerationComa>
+  <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
+  <LetterTextInvoluntaryDeathrestOrComa>El gen d’immortalitat de {PAWN_nameDef} ha evitat que mori. {HEDIFFINFO}</LetterTextInvoluntaryDeathrestOrComa>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
+  <LetterTextDeathrest>No obstant, {PAWN_pronoun} ha començat a permadescansar.</LetterTextDeathrest>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
+  <LetterTextRegenerationComa>No obstant, {PAWN_pronoun} ha començat un coma regeneratiu.</LetterTextRegenerationComa>
+  <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
+  <DeathrestLostSkill>Degut al xoc neuronal d’un permadescans traumàtic, {PAWN_nameDef} ha perdut {XPLOSS} punts d’experiència en la seva habilitat de {SKILL}.</DeathrestLostSkill>
+  <!-- EN: Lethal damage taken. -->
+  <DeathrestLethalDamage>S’ha rebut dany letal.</DeathrestLethalDamage>
+
+  <!-- EN: Xenogerm implantation -->
+  <LetterLabelSanguophageWaitingToReimplant>Implantació de xenogermens</LetterLabelSanguophageWaitingToReimplant>
+  <!-- EN: As thanks for allowing {PAWN_objective} and {PAWN_possessive} fellow sanguophages meet here, {PAWN_nameDef} is willing to share a copy of {PAWN_possessive} xenogerm with one of your colonists. This will turn your colonist into a sanguophage.\n\nTo accept, select a colonist and right click on {PAWN_nameDef}.\n\nIf no colonists have claimed the reward in {DURATION}, the sanguophages will leave. -->
+  <LetterTextSanguophageWaitingToReimplant>Com a agraïment per permetre que {PAWN_gender ? ell : ella} i els seus companys sangòfags es reuneixin aquí, {PAWN_nameDef} està {PAWN_gender ? disposat : disposada} a compartir una còpia del seu xenogermen amb un colon vostre. Això convertirà el colon en un sangòfag.\n\nSi voleu acceptar, trieu un colon i feu clic dret a {PAWN_nameDef}.\n\nSi cap colon reclama la recompensa d’aquí {DURATION}, els sangòfags se n’aniran.</LetterTextSanguophageWaitingToReimplant>
+
+  <!-- EN: Genes reimplanted -->
+  <LetterLabelGenesImplanted>S’han reimplantat gens</LetterLabelGenesImplanted>
+  <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
+  <LetterTextGenesImplanted>{CASTER_nameDef} ha implantat una còpia del seu xenogermen a {TARGET_nameDef} i li ha passat tots els seus xenogèrmens.\n\n{TARGET_nameDef} romandrà en un coma de xenogerminació durant {COMADURATION} mentre el seu cos s’ajusta als canvis.\n\n{CASTER_nameDef} sofrirà un xoc de pèrdua de gens durant {SHOCKDURATION}. Els seus gens han de tornar a créixer i aquest procés trigarà un cert temps. Si {CASTER_nameDef} implanta el seu xenogermen una altra vegada abans que recreixin, morirà.</LetterTextGenesImplanted>
+  
+  <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
+  <RefugeePodCrashBaby>Un nadó que es diu {PAWN_nameDef} de {PAWN_factionName} s’ha estavellat amb una càpsula de transport.\n\nPodeu escollir adoptar-{PAWN_gender ? lo : la} amb l’ordre corresponent o ignorar-{PAWN_gender ? lo : la}.</RefugeePodCrashBaby>
+  <!-- EN: The body of {PAWN_nameDef}'s deceased parent is contained within the transport pod as well. -->
+  <RefugeePodCrashBabyHasParent>El cadàver d’un progenitor de {PAWN_nameDef} també està a la càpsula de transport.</RefugeePodCrashBabyHasParent>
+
+  <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreated>Mentre buscava un company de manera instintiva, {BONDPAWN_nameDef} s’ha emparellat psíquicament en una relació romàntica amb {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} es beneficiarà psicològicament de la connexió amb {BONDPAWN_nameDef}, però si se’ls separa en caselles de món diferents, els dos sofriran estrès psíquic. Si un mor, l’altre patirà i sentirà tristesa.</LetterPsychicBondCreated>
+
+  <!-- EN: Psychic bond -->
+  <LetterPsychicBondCreatedLovinLabel>Enllaç psíquic</LetterPsychicBondCreatedLovinLabel>
+  <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef} s’ha emparellat psíquicament en una relació romàntica amb {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} es beneficiarà psicològicament de la connexió amb {BONDPAWN_nameDef}, però si se’ls separa en caselles de món diferents, els dos sofriran estrès psíquic. Si un mor, l’altre patirà i sentirà tristesa.</LetterPsychicBondCreatedLovinText>
+
+</LanguageData>

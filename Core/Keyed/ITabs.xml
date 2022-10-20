@@ -43,7 +43,7 @@
   <!-- EN: Food -->
   <TabPenFood>Menjar</TabPenFood>
   <!-- EN: Auto-cut -->
-  <TabPenAutoCut>Talla les males herbes automàticament</TabPenAutoCut>
+  <TabPenAutoCut>Autotalla</TabPenAutoCut>
   <!-- EN: Caravan -->
   <TabFormingCaravan>Caravana</TabFormingCaravan>
   <!-- EN: Contents -->
@@ -51,7 +51,7 @@
   <!-- EN: Contents -->
   <TabCasketContents>Contingut</TabCasketContents>
   <!-- EN: Auto-cut -->
-  <TabWindTurbineAutoCut>Talla les males herbes automàticament</TabWindTurbineAutoCut>
+  <TabWindTurbineAutoCut>Autotalla</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -110,8 +110,8 @@
   <FactorForMovement>Multiplicador per mobilitat</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Preu de l’esclau</SlavePrice>
-  <!-- EN: The base market value of this {0} if sold. -->
-  <SlavePriceDescription>Preu base del valor de mercat d’aquest {0} si es ven.</SlavePriceDescription>
+  <!-- EN: The base market value of this slave if sold. -->
+  <SlavePriceDescription>Preu base del valor de mercat d’aquest esclau si es ven.</SlavePriceDescription>
   <!-- EN: Gets food -->
   <GetsFood>Rep menjar</GetsFood>
   <!-- EN: Doctors care -->
@@ -167,8 +167,8 @@
   <PainLevel>Dolor</PainLevel>
   <!-- EN: Injured -->
   <Injured>Amb ferides</Injured>
-  <!-- EN: Untended injury -->
-  <UntendedInjury>Lesió sense atendre</UntendedInjury>
+  <!-- EN: untended injury -->
+  <UntendedInjury>lesió sense atendre</UntendedInjury>
   <!-- EN: no health conditions -->
   <NoHealthConditions>sense problemes de salut</NoHealthConditions>
   <!-- EN: Whole body -->
@@ -420,7 +420,7 @@
   <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
   <AutocutUnenclosedPenTip>El corral no està tancat, així que no se’n tallaran les males herbes.</AutocutUnenclosedPenTip>
 
-  <!-- EN: Auto-cut plants blocking wind turbine -->
-  <WindTurbineAutoCut_EnabledCheckbox>Talla automàticament les plantes que bloquin la turbina</WindTurbineAutoCut_EnabledCheckbox>
+  <!-- EN: Auto-cut blocking plants -->
+  <WindTurbineAutoCut_EnabledCheckbox>Talla automàticament les plantes que la bloquin</WindTurbineAutoCut_EnabledCheckbox>
 
 </LanguageData>

@@ -58,7 +58,7 @@
   <!-- EN: no path -->
   <NoPath>no hi ha camí</NoPath>
   <!-- EN: burying -->
-  <Burying>enterrant</Burying>
+  <Burying>enterrar</Burying>
   <!-- EN: designated for {0} -->
   <DesignatedFor>assignada per a {0}</DesignatedFor>
 
@@ -71,7 +71,7 @@
   <!-- EN: burning -->
   <BurningLower>cremant</BurningLower>
   <!-- EN: no empty, accessible spot configured to store it -->
-  <NoEmptyPlaceLower>no hi ha cap espai buit configurat per desar-ho</NoEmptyPlaceLower>
+  <NoEmptyPlaceLower>no hi ha cap espai buit configurat per a desar-ho</NoEmptyPlaceLower>
   <!-- EN: no stack available to merge into -->
   <NoMergeTarget>no hi ha cap pila amb la qual es pugui ajuntar</NoMergeTarget>
   <!-- EN: already filled enough -->
@@ -170,6 +170,8 @@
   <InstallImplantHediffRequired>cal {0_gender ? un : una} {0} existent</InstallImplantHediffRequired>
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>nivell màxim</InstallImplantAlreadyMaxLevel>
+  <!-- EN: requires min level {0} -->
+  <InstallImplantMinLevel>cal nivell {0} com a mínim</InstallImplantMinLevel>
   <!-- EN: psychically deaf -->
   <InstallImplantPsychicallyDeaf>sord psíquic</InstallImplantPsychicallyDeaf>
   <!-- EN: Upgrade {0} to level {1} -->
@@ -201,7 +203,7 @@
   <ArrestChance>Probabilitat d’arrest del {0}</ArrestChance>
 
   <!-- EN: Capture {1_label} -->
-  <Capture>Captura a {1_definite}</Capture>
+  <Capture>Captura {1_definite}</Capture>
   <!-- EN: Cannot capture -->
   <CannotCapture>No es pot capturar</CannotCapture>
   <!-- EN: unwaveringly loyal -->
@@ -372,6 +374,10 @@
   <UseMedicalBed>Descansa fins a estar curat</UseMedicalBed>
   <!-- EN: not injured -->
   <NotInjured>no està ferit</NotInjured>
+  <!-- EN: no doctor -->
+  <NoDoctor>sense metge</NoDoctor>
+  <!-- EN: medical bed not for slaves -->
+  <NotForSlaves>el llit mèdic no és per a esclaus</NotForSlaves><!-- text_todo -->
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>ocupat per {0_definite}</SomeoneElseSleeping>
   
@@ -523,9 +529,9 @@
   <NoCommsTarget>No hi ha ningú a qui trucar</NoCommsTarget>
 
   <!-- EN: Invoke {0} -->
-  <Invoke>Invoca a {0}</Invoke>
+  <Invoke>Invoca {0_indefinite}</Invoke>
   <!-- EN: Cannot invoke {0} -->
-  <CannotInvoke>No es pot invocar a {0}.</CannotInvoke>
+  <CannotInvoke>No es pot invocar {0_indefinite}.</CannotInvoke>
   <!-- EN: power -->
   <Power>poder</Power>
   <!-- EN: already invoked -->
@@ -553,5 +559,9 @@
   <CannotRomance>No pot festejar a {0}</CannotRomance>
   <!-- EN: Romance {0} -->
   <CanRomance>Festeja a {0}</CanRomance>
+
+  <!-- Feeding -->
+  <!-- EN: disliked food -->
+  <WarningFoodDisliked>menjar que no agrada</WarningFoodDisliked>
 
 </LanguageData>

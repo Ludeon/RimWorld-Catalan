@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Dormant self-charging -->
+  <SelfShutdown>Hiberna i autorecarrega</SelfShutdown>
+  <!-- EN: Carry to recharger -->
+  <CarryToRecharger>Porta a recarregar</CarryToRecharger>
+  <!-- EN: Must be carried to recharger. -->
+  <MustBeCarriedToRecharger>Cal que ho portin a recarregar.</MustBeCarriedToRecharger>
+  <!-- EN: Danger -->
+  <Danger>Perill</Danger>
+  <!-- EN: {0} damage -->
+  <DamageType>{0} de dany</DamageType>
+  <!-- EN: Contained {0_labelPlural} -->
+  <ContainedThings>{0_labelPlural} contingut</ContainedThings>
+  <!-- EN: Time until next atomization -->
+  <DurationUntilNextAtomization>Temps fins a la propera atomització</DurationUntilNextAtomization>
+  <!-- EN: Finishes in -->
+  <FinishesIn>Es completa d’aquí</FinishesIn>
+  <!-- EN: with -->
+  <WithLower>amb</WithLower>
+  <!-- EN: tiles -->
+  <TilesLower>caselles</TilesLower>
+  <!-- EN: 1 mech -->
+  <CaravanMech>1 mecanoide</CaravanMech>
+  <!-- EN: {0} mechs -->
+  <CaravanMechsCount>{0} mecanoides</CaravanMechsCount>
+  <!-- EN: {BOSS} with {APPAREL} -->
+  <BossWithApparel>{BOSS} amb {APPAREL}</BossWithApparel>
+
+  <!-- Job reports -->
+  <!-- EN: removing {0}. -->
+  <ReportRemovingMechlink>treu {0}.</ReportRemovingMechlink>
+
+  <!-- Areas -->
+  <!-- EN: Pollution clear -->
+  <PollutionClear>Lliure de contaminació</PollutionClear>
+
+  <!-- Mechanitor -->
+  <!-- EN: Overseer -->
+  <Overseer>Supervisor</Overseer>
+  <!-- EN: None (not under control) -->
+  <OverseerNone>Cap (no està sota control)</OverseerNone>
+  <!-- EN: May go feral at any moment -->
+  <MayGoFeral>Podria tornar-se salvatge en qualsevol moment</MayGoFeral>
+  <!-- EN: Bandwidth -->
+  <Bandwidth>Ample de banda</Bandwidth>
+  <!-- EN: bandwidth -->
+  <BandwidthLower>ample de banda</BandwidthLower>
+  <!-- EN: A mechanitor can only oversee a mech if there is enough bandwidth to do so. Each mech consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the mechanitor to them, or by equipping special mechanitor apparel. -->
+  <BandwidthGizmoTip>Un mecanoider només pot supervisar un mecanoide si disposa de prou ample de banda. Cada mecanoide necessita un ample de banda determinat.\n\nAconseguiu més ample de banda amb nodes mecabanda i feu que el mecanoider hi sintonitzi o bé equipeu el mecanoider amb indumentària específica.</BandwidthGizmoTip>
+  <!-- EN: Control group -->
+  <ControlGroup>Grup de control</ControlGroup>
+  <!-- EN: Current mode -->
+  <CurrentMechWorkMode>Mode actual</CurrentMechWorkMode>
+  <!-- EN: Assigned mechs -->
+  <AssignedMechs>Mecanoides assignats</AssignedMechs>
+  <!-- EN: Tuned to -->
+  <BandNodeTunedTo>Sintonitzat amb</BandNodeTunedTo>
+  <!-- EN: Tune to -->
+  <BandNodeTuneTo>Sintonitza amb</BandNodeTuneTo>
+  <!-- EN: Tuning to -->
+  <BandNodeTuningTo>Es sintonitza amb</BandNodeTuningTo>
+  <!-- EN: Retune -->
+  <BandNodeRetuneTo>Resintonitza</BandNodeRetuneTo>
+  <!-- EN: Tune this band node to a mechanitor. Tuning will take {0} to complete. -->
+  <BandNodeTuningDesc>Sintonitzeu aquest node mecabanda amb un mecanoider. La sintonització trigarà {0} a completar-se.</BandNodeTuningDesc>
+  <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
+  <BandNodeRetuningDesc>Resintonitza aquest node mecabanda amb un altre mecanoider. El procés trigarà {0} a completar-se.</BandNodeRetuningDesc>
+  <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
+  <DropThingBandwidthApparel>Si es treu {0_definite}, l’ample de banda de {1_labelShort} passarà de {2} a {3}. Això provocarà que els mecanoides següents ja no estiguin sota el seu control</DropThingBandwidthApparel>
+  <!-- EN: no mechs -->
+  <NoMechs>sense mecanoides</NoMechs>
+  <!-- EN: Group -->
+  <Group>Grup</Group>
+  <!-- EN: Groups -->
+  <Groups>Grups</Groups>
+  <!-- EN: Loading mech gestation resources -->
+  <LoadingMechGestator>Es carreguen els recursos de gestació mecanoide</LoadingMechGestator>
+  <!-- EN: Initiating mech gestation cycle -->
+  <InitMechGestationCycle>S’inicia el cicle de gestació mecanoide</InitMechGestationCycle>
+  <!-- EN: Initiating mech birth -->
+  <InitMechBirth>Comença el naixement d’un mecanoide</InitMechBirth>
+  <!-- EN: Mech energy -->
+  <MechEnergy>Energia del mecanoide</MechEnergy>
+  <!-- EN: Energy -->
+  <Energy>Energia</Energy>
+  <!-- EN: energy -->
+  <EnergyLower>energia</EnergyLower>
+  <!-- EN: Bandwidth usage -->
+  <BandwidthUsage>Ús d’ample de banda</BandwidthUsage>
+  <!-- EN: Mech gestation bandwidth -->
+  <MechGestationBandwidthUsed>Banda d’ample de la gestació mecanoide</MechGestationBandwidthUsed>
+  <!-- EN: Cannot summon {0} threat -->
+  <CannotSummon>No es pot atraure {0_indefinite} {0_gender ? enemic : enemiga}</CannotSummon>
+  <!-- EN: {0} threat ready to summon -->
+  <ReadyToSummonThreat>Ja es pot atraure {0_indefinite} {0_gender ? enemic : enemiga}</ReadyToSummonThreat>
+  <!-- EN: Summon {0} threat -->
+  <Summon>Atrau {0_indefinite} {0_gender ? enemic : enemiga}</Summon>
+  <!-- EN: No reachable {0} -->
+  <NoReachableBossgroupCaller>No es pot arribar a {0}</NoReachableBossgroupCaller>
+  <!-- EN: No reservable {0} -->
+  <NoReservableBossgroupCaller>No hi ha {0} reservables</NoReservableBossgroupCaller>
+  <!-- EN: No powered {0} -->
+  <NoPoweredBossgroupCaller>Sense {0} amb energia</NoPoweredBossgroupCaller>
+  <!-- EN: already used -->
+  <AlreadyUsed>ja s’ha fet servir</AlreadyUsed>
+  <!-- EN: Gestating -->
+  <Gestating>Gesta</Gestating>
+  <!-- EN: Escorting {TARGET_labelShort}. -->
+  <Escorting>Escorta {TARGET_labelShort}.</Escorting>
+  <!-- EN: Worker -->
+  <Worker>Treballador</Worker>
+  <!-- EN: Waiting for -->
+  <WaitingFor>Espera</WaitingFor>
+  <!-- EN: Uncontrolled -->
+  <Uncontrolled>Sense controlar</Uncontrolled>
+  <!-- EN: incoming {0} -->
+  <BossgroupIncoming>Arriba {0_indefinite}</BossgroupIncoming>
+
+  <!-- Sanguophage -->
+  <!-- EN: hemogen -->
+  <Hemogen>hemogen</Hemogen>
+  <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
+  <HemogenDesc>L’hemogen és una font d’energia biològica feta de components de la sang humana. Els humans bàsics el produeixen endogènicament i el consumeixen per als seus processos interns. Alguns xenotips humans el fan servir com un tipus de combustible per a habilitats específiques, mentre que d’altres n’han de consumir per a sobreviure.</HemogenDesc>
+  <!-- EN: deathrest capacity -->
+  <DeathrestCapacity>capacitat de permadescans</DeathrestCapacity>
+  <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
+  <DeathrestCapacityDesc>Determina a quantes estructures de permadescans es pot connectar la persona mentre permadescansi. Cada estructura atorga un benefici específic; per això és millor connectar-se a totes les que sigui possible.\n\nLa capacitat de permadescans es pot augmentar si es fan servir sèrums milloradors del permadescans, que es poden comprar als comerciants.</DeathrestCapacityDesc>
+  <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
+  <PawnIsConnectedToBuildings>{PAWN_nameDef} està {PAWN_gender ? connectat : connectada} a {CURRENT} estructures de permadescans (màx. {MAX}).</PawnIsConnectedToBuildings>
+  <!-- EN: wake now -->
+  <Wake>desperta’t ara</Wake>
+  <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
+  <WakeDesc>Desperta’l d’un permadescans.\n\n{PAWN_nameDef} ha permadescansat durant {DURATION}.</WakeDesc>
+  <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} necessita permadescansar com a mínim {TOTAL}. Si {PAWN_gender ? se’l : se la} desperta abans, emmalaltirà i no rebrà els beneficis de cap estrucutra de permadescans.</WakeExtraDesc_Exhaustion>
+  <!-- EN: {PAWN_nameDef} can now wake safely. -->
+  <WakeExtraDesc_Safe>{PAWN_nameDef} ja pot despertar-se de manera segura.</WakeExtraDesc_Safe>
+  <!-- EN: Cannot wake. Need at least {0} hemogen. -->
+  <CannotWakeNotEnoughHemogen>No pot despertar-se. Necessita com a mínim {0} d’hemogen.</CannotWakeNotEnoughHemogen>
+  <!-- EN: Auto-wake -->
+  <AutoWake>Autodesperta</AutoWake>
+  <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
+  <AutoWakeDesc>Quan l’autodespertar està activat, {PAWN_nameDef} es despertarà {PAWN_gender ? sol : sola} fins que acabi el procés de permadescans.\n\nSi està desactivat, continuarà permadescansant fins que se’l desperti manualment.</AutoWakeDesc>
+  <!-- EN: {PAWN_nameDef} is deathresting. -->
+  <IsDeathresting>{PAWN_nameDef} en aquest moment permadescansa.</IsDeathresting>
+  <!-- EN: Cannot deathrest -->
+  <CannotDeathrest>No pot permadescansar</CannotDeathrest>
+  <!-- EN: Start deathrest -->
+  <StartDeathrest>Comença el permadescans</StartDeathrest>
+  <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
+  <ConfirmExitDeathrestUnderMinDays>Per a completar de manera segura el permadescans calen {MINDURATION}, però {PAWN_nameDef} només ha permadescansat durant {CURDURATION}.\n\nSi es desperta {PAWN_nameDef}, s’interromprà el seu permadescans i el seu metabolisme es desequilibrarà. Emmalaltirà durant uns quants dies.\n\nEsteu segur que voleu despertar {PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
+  <!-- EN: deathresting -->
+  <Deathresting>permadescansa</Deathresting>
+  <!-- EN: complete -->
+  <Complete>completat</Complete>
+  <!-- EN: can wake safely now. -->
+  <CanWakeSafely>ara es pot despertar bé.</CanWakeSafely>
+  <!-- EN: Disabled by gene -->
+  <DisabledByGene>Desactivat pel gen</DisabledByGene>
+  <!-- EN: {PAWN_nameDef} is in critical condition. -->
+  <WakeDisabledCriticalCondition>{PAWN_nameDef} està en estat crític.</WakeDisabledCriticalCondition>
+  <!-- EN: Drain rate -->
+  <DrainRate>Ritme de pèrdua</DrainRate>
+  <!-- EN: Regeneration rate -->
+  <RegenerationRate>Ritme de regeneració</RegenerationRate>
+  <!-- EN: {PAWN_nameDef} should deathrest in {DURATION} to avoid exhaustion. -->
+  <NextDeathrestNeed>{PAWN_nameDef} hauria de permadescansar d’aquí {DURATION} per a evitar el permaesgotament.</NextDeathrestNeed>
+  <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
+  <PawnShouldDeathrestNow>Cal que {PAWN_nameDef} permadescansi aviat per a evitar que pateixi permaesgotament.</PawnShouldDeathrestNow>
+  <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
+  <AutoTakeHemogenDesc>Això determina si {PAWN_nameDef} ingerirà automàticament bosses d’hemogen quan el seu nivell d’hemogen estigui per sota de {MIN}.\n\nLa ingestió automàtica ara mateix està {ONOFF}.</AutoTakeHemogenDesc>
+  <!-- EN: Consume hemogen below -->
+  <ConsumeHemogenBelow>Consumeix hemogen per sota de</ConsumeHemogenBelow>
+  <!-- EN: Never consume hemogen. -->
+  <NeverConsumeHemogen>Mai consumeix hemogen.</NeverConsumeHemogen>
+  <!-- EN: Will kill -->
+  <WillKill>Matarà</WillKill>
+  <!-- EN: Will cause major blood loss -->
+  <WillCauseSeriousBloodloss>Causarà una pèrdua gran de sang</WillCauseSeriousBloodloss>
+  <!-- EN: too small -->
+  <TooSmall>massa petit</TooSmall>
+
+  <!-- Deathrest buildings -->
+  <!-- EN: Bound to -->
+  <BoundTo>Enllaçat amb</BoundTo>
+  <!-- EN: Will bind permanently on first use. -->
+  <WillBindOnFirstUse>S’enllaçarà de manera permanent quan es faci servir per primera vegada.</WillBindOnFirstUse>
+  <!-- EN: Time active this deathrest -->
+  <TimeActiveThisDeathrest>Temps actiu d’aquest permadescans</TimeActiveThisDeathrest>
+  <!-- EN: Minimum is {0} to apply -->
+  <MinimumNeededToApply>El mínim per a aplicar és {0}</MinimumNeededToApply>
+  <!-- EN: Cannot deathrest -->
+  <CannotAssignBedCannotDeathrest>No pot permadescansar</CannotAssignBedCannotDeathrest>
+  <!-- EN: Already bound to {0_nameDef} -->
+  <CannotAssignAlreadyBound>Ja s’ha enllaçat amb {0_nameDef}</CannotAssignAlreadyBound>
+  <!-- EN: Cannot bind to more {BUILDING_labelPlural} -->
+  <CannotAssignBedCannotBindToMoreBuildings>No es pot enllaçar amb més {BUILDING_labelPlural}</CannotAssignBedCannotBindToMoreBuildings>
+
+  <!-- Aptitudes -->
+  <!-- EN: aptitude -->
+  <Aptitude>aptitud</Aptitude>
+  <!-- EN: aptitudes -->
+  <Aptitudes>aptituds</Aptitudes>
+  <!-- EN: aptitudes -->
+  <AptitudePlural>aptituds</AptitudePlural>
+  <!-- EN: Aptitude makes an individual perform at a higher or lower level than their learned skill.\n\nFor example, an aptitude of +1 for a skill means that a person with level 5 in that skill will perform as though they were at level 6.\n\nThe total value cannot exceed level 20 or fall below level 1. -->
+  <AptitudesDesc>L’aptitud fa que un individu treballi a un nivell superior o inferior que el seu nivell d’aprenentatge actual.\n\nPer exemple, una aptitud de +1 per a una habilitat significa que una persona amb nivell 5 en aquesta habilitat realitzarà una tasca com si tingués un nivell de 6.\n\nEl valor total no pot excedir el valor màxim, 20, ni quedar per sota del nivell mínim, 1.</AptitudesDesc>
+  <!-- EN: total -->
+  <Total>total</Total>
+  
+  <!-- Human pregnancy -->
+  <!-- EN: Father -->
+  <FatherTip>Pare</FatherTip>
+  <!-- EN: Genetic mother -->
+  <MotherTip>Mare genètica</MotherTip>
+  <!-- EN: an unoccupied bed -->
+  <RitualTargetChildBirth>un llit lliure</RitualTargetChildBirth>
+  <!-- EN: No appropriate bed for giving birth. -->
+  <NoAppropriateBedChildBirth>No hi ha llits adequats per a donar a llum.</NoAppropriateBedChildBirth>
+  <!-- EN: No doctor around. -->
+  <NoDoctorChildBirth>No hi ha metges a prop.</NoDoctorChildBirth>
+  <!-- EN: Can't use this bed. -->
+  <CantUseThisBed>No pot fer servir aquest llit.</CantUseThisBed>
+  <!-- EN: Not in labor. -->
+  <NotInLabor>No està parint.</NotInLabor>
+  <!-- EN: labor -->
+  <Labor>en part</Labor>
+  <!-- EN: dilation -->
+  <LaborDilation>dilatació</LaborDilation>
+  <!-- EN: normal -->
+  <PregnancyApproach_Normal>normal</PregnancyApproach_Normal>
+  <!-- EN: avoid pregnancy -->
+  <PregnancyApproach_AvoidPregnancy>evita els embarassos</PregnancyApproach_AvoidPregnancy>
+  <!-- EN: try for baby -->
+  <PregnancyApproach_TryForBaby>busca l’embaràs</PregnancyApproach_TryForBaby>
+  <!-- EN: pregnancy chance -->
+  <PregnancyChance>probabilitat d’embaràs</PregnancyChance>
+  <!-- EN: Pregnancy approach -->
+  <PregnancyApproach>Estratègia respecte els embarassos</PregnancyApproach>
+  <!-- EN: Click to change pregnancy approach. -->
+  <ClickToChangePregnancyApproach>Feu-hi clic per a canviar l’estratègia a seguir respecte els embarassos.</ClickToChangePregnancyApproach>
+  <!-- EN: Pregnancy is not possible -->
+  <PregnancyNotPossible>No es pot aconseguir l’embaràs</PregnancyNotPossible>
+  <!-- EN: The chance of a healthy birth at this quality level was {0_percentage}. -->
+  <BirthRitualHealthyBabyChance>La probabilitat d’aconseguir un part correcte amb aquest nivell de qualitat era del {0_percentage}.</BirthRitualHealthyBabyChance>
+  <!-- EN: Giving birth. -->
+  <GivingBirth>Dóna a llum.</GivingBirth>
+
+  <!-- Shield comp -->
+  <!-- EN: Shield energy -->
+  <ShieldEnergy>Energia de l’escut</ShieldEnergy>
+  <!-- EN: Time to recovery -->
+  <ShieldTimeToRecovery>Temps de recuperació</ShieldTimeToRecovery>
+
+  <!-- Genes -->
+  <!-- EN: genes -->
+  <Genes>gens</Genes>
+  <!-- EN: The genes associated with this xenotype. -->
+  <GenesDesc>Els gens associats amb aquest xenotip.</GenesDesc>
+  <!-- EN: suppressed -->
+  <Suppressed>inhibit</Suppressed>
+  <!-- EN: active -->
+  <Active>actiu</Active>
+  <!-- EN: This trait has been suppressed by a conflicting forced genetic trait or gene. It will not be active until all conflicts are removed -->
+  <SuppressedDesc>Aquest tret queda inhibit degut a un conflicte entre gens o trets. No s’activarà fins que s’hagin resolt tots els conflictes.</SuppressedDesc>
+  <!-- EN: trait -->
+  <Trait>tret</Trait>
+  <!-- EN: gene -->
+  <Gene>gen</Gene>
+  <!-- EN: Added by gene -->
+  <AddedByGene>Afegit pel gen</AddedByGene>
+  <!-- EN: Eject all -->
+  <EjectAll>Ejecta-les totes</EjectAll>
+  <!-- EN: Drop all contained genepacks onto the ground. -->
+  <EjectAllDesc>Deixa totes les genocàpsules que contingui al terra.</EjectAllDesc>
+  <!-- EN: Genepacks stored -->
+  <GenepacksStored>Genocàpsules emmagatzemades</GenepacksStored>
+  <!-- EN: Auto-load -->
+  <GenepackAutoLoad>Autocarrega</GenepackAutoLoad>
+  <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
+  <GenepackAutoLoadDesc>Si s’activa, els transportistes emmagatzemaran la genocàpsula en un banc de gens.</GenepackAutoLoadDesc>
+  <!-- EN: Forced traits -->
+  <ForcedTraits>Trets forçats</ForcedTraits>
+  <!-- EN: Suppressed traits -->
+  <SuppressedTraits>Trets suprimits</SuppressedTraits>
+  <!-- EN: These traits will be added. All conflicting traits will become suppressed. -->
+  <ForcedTraitsDesc>S’afegiran aquests trets. Tots els trets que hi entrin en conflicte quedaran inhibits.</ForcedTraitsDesc>
+  <!-- EN: Complexity -->
+  <Complexity>Complexitat</Complexity>
+  <!-- EN: How much complexity this adds to the process of gene assembly. -->
+  <ComplexityDesc>Indica la complexitat que afegeix al procés de combinar els gens.</ComplexityDesc>
+  <!-- EN: Maximum complexity can be increased by building gene processors near the gene assembler. -->
+  <MaxComplexityDesc>La complexitat màxima es pot augmentar si es construeixen processadors de gens a prop de l’agregador de gens.</MaxComplexityDesc>
+  <!-- EN: Total complexity -->
+  <ComplexityTotal>Complexitat total</ComplexityTotal>
+  <!-- EN: The total complexity of all the genes in use. -->
+  <ComplexityTotalDesc>La complexitat total de tots els gens en ús.</ComplexityTotalDesc>
+  <!-- EN: Metabolic efficiency -->
+  <Metabolism>Eficiència metabòlica</Metabolism>
+  <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
+  <MetabolismDesc>L’eficiència metabòlica total dels gens quan s’ajunten. Una eficiència alta significa que una persona necessitarà menys menjar i una eficiència baixa farà que la persona hagi de menjar més.</MetabolismDesc>
+  <!-- EN: Metabolic efficiency -->
+  <MetabolismTotal>Eficiència metabòlica</MetabolismTotal>
+  <!-- EN: The total metabolic efficiency of all genes in the genome. High efficiency means a person needs less food; low efficiency means they must eat more. -->
+  <MetabolismTotalDesc>L’eficiència metabòlica total de tots els gens del genoma. Una eficiència elevada significa que una persona necessitarà menys menjar; una eficiència baixa vol dir que haurà de menjar més.</MetabolismTotalDesc>
+  <!-- EN: Number of genes -->
+  <NumberOfGenes>Nombre de gens</NumberOfGenes>
+  <!-- EN: Gene price factors -->
+  <GenePriceFactors>Factors del preu dels gens</GenePriceFactors>
+  <!-- EN: any -->
+  <AnyLower>qualsevol</AnyLower>
+  <!-- EN: Archite total -->
+  <ArchitesTotal>Total d’arquites</ArchitesTotal>
+  <!-- EN: Archite capsules -->
+  <ArchitesRequired>Càpsules d’arquites</ArchitesRequired>
+  <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
+  <ArchitesRequiredDesc>Les arquites són unes mecanites arcotècniques ‒uns dispositius microscòpics que poden operar directament amb les cèl·lules i les molècules, creades per un arcotècnic superintel·ligent‒ que poden fer coses increïbles. Alguns gens només funcionen quan actuen conjuntament amb arquites. Els humans no poden crear arquites. Només en podreu aconseguir si trobeu algun arcotècnic que en produeixi per alguna estranya raó.</ArchitesRequiredDesc>
+  <!-- EN: Cancel xenogerm -->
+  <CancelXenogerm>Cancel·la el xenogermen</CancelXenogerm>
+  <!-- EN: Stop all work on the current xenogerm. -->
+  <CancelXenogermDesc>Interromp les feines del xenogermen actual.</CancelXenogermDesc>
+  <!-- EN: Allow all genepacks -->
+  <AllowAllGenepacks>Permet totes les genocàpsules</AllowAllGenepacks> 
+  <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
+  <AllowAllGenepacksDesc>Indica si els colons poden o no emmagatzemar de manera automàtica qualsevol genocàpsula en aquest contenidor. Desactiveu-ho si voleu especificar quines genocàpsules s’haurien d’emmagatzemar aquí.</AllowAllGenepacksDesc> 
+  <!-- EN: The genepacks currently inside this container. -->
+  <ContainedGenepacksDesc>Les genocàpsules que ara mateix hi ha a dins del contenidor.</ContainedGenepacksDesc> 
+  <!-- EN: The genepacks designated to be loaded into this container. -->
+  <GenepacksToLoadDesc>Les genocàpsules marcades per a carregar a dins del contenidor.</GenepacksToLoadDesc> 
+  <!-- EN: Unstored genepacks that are not designated to be loaded into this container. -->
+  <GenepacksIgnoredDesc>Genocàpsules sense emmagatzemar que no s’han designat per a carregar-les en aquest contenidor.</GenepacksIgnoredDesc> 
+  <!-- EN: Genepacks to load -->
+  <GenepacksToLoad>Genocàpsules que s’han de carregar</GenepacksToLoad> 
+  <!-- EN: Genepacks to ignore -->
+  <GenepacksToIgnore>Genocàpsules que s’han d’ignorar</GenepacksToIgnore> 
+  <!-- EN: Eject this genepack from the container. -->
+  <EjectGenepackDesc>Ejecta aquesa genocàpsula del contenidor.</EjectGenepackDesc> 
+  <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
+  <ConfirmRemoveGenepack>Esteu segur que voleu ejectar {0}? S’expulsarà immediatament al terra.</ConfirmRemoveGenepack> 
+  <!-- EN: Missing required research -->
+  <MissingRequiredResearch>Falta la recerca necessària</MissingRequiredResearch>
+  <!-- EN: No genepacks available in nearby gene banks. -->
+  <NoGenepacksAvailable>No hi ha genocàpsules disponibles als bancs de gens propers.</NoGenepacksAvailable> 
+  <!-- EN: Allow this genepack to be loaded into this container. -->
+  <AddToLoadingListDesc>Permet que aquesta genocàpsula es carregui al contenidor.</AddToLoadingListDesc> 
+  <!-- EN: Remove this genepack from the loading list. -->
+  <RemoveFromLoadingListDesc>Treu aquesta genocàpsula de la llista de càrrega.</RemoveFromLoadingListDesc> 
+  <!-- EN: Recombine -->
+  <Recombine>Recombina</Recombine>
+  <!-- EN: Create a new implantable xenogerm using data from genepacks in your gene library. -->
+  <RecombineDesc>Crea un xenogermen implantable nou amb dades de les genocàpsules de la vostra biblioteca de gens.</RecombineDesc>
+  <!-- EN: Genes -->
+  <ContainedGenesDesc>Gens</ContainedGenesDesc>
+  <!-- EN: Order implantation -->
+  <ImplantXenogerm>Ordena la implantació</ImplantXenogerm>
+  <!-- EN: Implant this into a person to partially override their genetic code.\n\nThis is a surgical operation, so it requires a doctor, medical bed and {MEDICINEAMOUNT} medicine. -->
+  <ImplantXenogermDesc>Implanta-ho a una persona per a sobreescriure el seu codi genètic parcialment.\n\nÉs una operació quirúrgica, així que fa falta un metge, un llit mèdic i {MEDICINEAMOUNT} de medicina.</ImplantXenogermDesc>
+  <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
+  <ImplantXenogermWarningDesc>Si se li implanta un xenogermen a {PAWN_nameDef}, farà que entri en un coma durant {COMADURATION} aproximadament fins que els gens s’integrin del tot. La durada del coma depèn de l’habilitat del metge i la qualitat de les instal·lacions mèdiques.</ImplantXenogermWarningDesc>
+  <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
+  <ImplantXenogermWarningOverwriteXenogenes>A més a més, si s’implanta un xenogermen s’eliminaran els xenogens que tingués prèviament. El xenotip actual de {PAWN_nameDef} és el de «{XENOTYPE}» i té aquests gens:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
+  <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
+  <ImplantXenogermWarningNewMetabolism>Després de la implantació, {PAWN_nameDef} tindrà un valor de metabolisme de {MET} i un multiplicador de consum de menjar de {CONSUMPTION}.</ImplantXenogermWarningNewMetabolism>
+  <!-- EN: Would you like to continue? -->
+  <WouldYouLikeToContinue>Voleu continuar?</WouldYouLikeToContinue>
+  <!-- EN: Cancel implanting -->
+  <CancelImplanting>Cancel·la la implantació</CancelImplanting>
+  <!-- EN: Cancel implanting this xenogerm into {PAWN_nameDef}. -->
+  <CancelImplantingDesc>Cancel·la la implantació d’aquest xenogermen a {PAWN_nameDef}.</CancelImplantingDesc>
+  <!-- EN: Xenotype -->
+  <Xenotype>Xenotip</Xenotype>
+  <!-- EN: unique -->
+  <Unique>únic</Unique>
+  <!-- EN: A unique human variant with a set of xenogenes that do not fall into any known xenotype. -->
+  <UniqueXenotypeDesc>Una variant humana única amb un conjunt de xenogens que no pertanyen a cap xenotip conegut.</UniqueXenotypeDesc>
+  <!-- EN: Factor for genetic metabolism -->
+  <FactorForMetabolism>Factor del metabolisme genètic</FactorForMetabolism>
+  <!-- EN: Progress -->
+  <Progress>Progrés</Progress>
+  <!-- EN: In sunlight -->
+  <InSunlight>A la llum del sol</InSunlight>
+  <!-- EN: {0_labelShort} is exposed to the sky. -->
+  <ThingIsSkyExposed>{0_labelShort} està exposat a la llum.</ThingIsSkyExposed>
+  <!-- EN: Insert person -->
+  <InsertPerson>Posa-hi una persona</InsertPerson>
+  <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
+  <InsertPersonGeneExtractorDesc>Poseu una persona a dins de l’extractor de gens. Se n’extraura material genètic que es farà servir per a crear una genocàpsula que contindrà una selecció aleatòria dels gens.\n\nL’extracció de gens és dolorosa i deixarà a l’individu dèbil i endormiscat durant uns quants dies. El procés és letal si els gens estan en fase de recreixement.</InsertPersonGeneExtractorDesc>
+  <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
+  <ConfirmExtractXenogermWillKill>Avís: Els gens de {PAWN_nameDef} estan en una fase de recreixement. Si s’extrauen els seus gens abans que recreixin, morirà.\n\nEsteu segur que voleu continuar?</ConfirmExtractXenogermWillKill>
+  <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
+  <GeneExtractionComplete>S’ha completat l’extracció de gens de {PAWN_nameDef}. S’ha extret</GeneExtractionComplete>
+  <!-- EN: Insert xenogerm -->
+  <InsertXenogerm>Insereix un xenogermen</InsertXenogerm>
+  <!-- EN: Insert a xenogerm to apply during growth. -->
+  <InsertXenogermDesc>Inseriu el xenogermen que s’ha d’aplicar durant el creixement.</InsertXenogermDesc>
+  <!-- EN: Waiting for {PAWN_nameDef}. -->
+  <WaitingForPawn>S’espera a {PAWN_nameDef}.</WaitingForPawn>
+  <!-- EN: Extracting genes from {PAWN_nameDef}. -->
+  <ExtractingXenogermFrom>S’extrauen els gens de {PAWN_nameDef}.</ExtractingXenogermFrom>
+  <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
+  <ExtractionPausedNoPower>L’extracció s’ha parat: No hi ha energia (s’interromprà d’aquí {TIME}).</ExtractionPausedNoPower>
+  <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
+  <LastIngestedDurationAgo>Última ingestió de {CHEMICAL_label} fa {DURATION}.</LastIngestedDurationAgo>
+  <!-- EN: {NAME} xenogerm -->
+  <NamedXenogerm>xenogermen {NAME}</NamedXenogerm>
+  <!-- EN: Inserted {0} -->
+  <InsertedThing>{0} {0_gender ? inserit : inserida}</InsertedThing>
+  <!-- EN: Assembly paused -->
+  <AssemblyPaused>Agregació en pausa</AssemblyPaused>
+  <!-- EN: Required gene bank unpowered -->
+  <GenebankUnpowered>El banc de gens requerit no té energia</GenebankUnpowered>
+  <!-- EN: deathless -->
+  <Deathless>immortal</Deathless>
+  <!-- EN: {PAWN_nameDef} needs to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, {PAWN_pronoun} will suffer from {0} deficiency. After {COMADURATION}, {PAWN_pronoun} will fall into a coma. After {DEATHDURATION}, {PAWN_pronoun} will die. -->
+  <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef} necessita ingerir {0} de manera regular per a sobreviure. Després de {DEFICIENCYDURATION} sense {0}, patirà deficiència de {0}. Després de {COMADURATION}, entrarà en coma. Després de {DEATHDURATION}, morirà.</GeneDefChemicalNeedDurationDesc>
+  <!-- EN: {CHEMICAL_label} dependency -->
+  <ChemicalDependency>dependència a {CHEMICAL_label}</ChemicalDependency>
+  <!-- EN: Xenogerm -->
+  <Xenogerm>Xenogermen</Xenogerm>
+  <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
+  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef} continuarà el permadescans mentre tingui ferides letals.</PawnWillKeepDeathrestingLethalInjuries>
+  <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
+  <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef} continuarà en un coma de regeneració mentre tingui ferides letals.</PawnWillKeepRegeneratingLethalInjuries>
+  <!-- EN: Deathrest stopped -->
+  <DeathrestPaused>El permadescans s’ha interromput.</DeathrestPaused>
+  <!-- EN: Lethal injuries -->
+  <LethalInjuries>Ferides letals</LethalInjuries>
+  <!-- EN: deathrest -->
+  <Deathrest>permadescans</Deathrest>
+  <!-- EN: Buildings -->
+  <Buildings>Estructures</Buildings>
+  <!-- EN: capacity -->
+  <Capacity>capacitat</Capacity>
+  <!-- EN: Non-{GENE} romance chance -->
+  <MissingGeneRomanceChance>Probabilitat de festeig sense {GENE}</MissingGeneRomanceChance>
+  <!-- EN: Not in gene bank -->
+  <NotInGeneBank>No és al banc de gens.</NotInGeneBank>
+
+  <!-- Child birth -->
+  <!-- EN: Gather to help a mother give birth. A doctor can help deliver the baby. -->
+  <ChildBirthAlwaysHealthy_Desc>Fes que es reuneixin colons per a ajudar a la mare a donar a llum. Un metge pot ajudar en el part.</ChildBirthAlwaysHealthy_Desc>
+  <!-- EN: until the baby is born -->
+  <UntilBabyIsBorn>fins que neixi el bebè</UntilBabyIsBorn>
+
+  <!-- EN: Children want to learn from different activities at different times. -->
+  <LearningDesireTooltip>Els nens volen aprendre activitats diferents en diferents moments.</LearningDesireTooltip>
+  <!-- EN: {0_nameDef}'s current learning desire: -->
+  <LearningDesireTooltip_CurrentDesire>Desig actual d’aprenentatge de {0_nameDef}:</LearningDesireTooltip_CurrentDesire>
+  <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
+  <DevelopmentHealthGizmoTooltip>La salut del desenvolupament és una mitjana de les necessitats d’aprenentatge del nen des de l’últim aniversari.\n\nEls nens amb més salut de desenvolupament tindran més opcions durant els moments de creixement i obtindran més passions d’habilitats.</DevelopmentHealthGizmoTooltip>
+
+  <!-- EN: Must not be placed close to another {0_label} -->
+  <MustNotBePlacedCloseToAnother>Cal que es posi a prop d’un altre {0_label}</MustNotBePlacedCloseToAnother>
+  <!-- EN: Next terrain pollution in -->
+  <PollutingTerrainProgress>Propera contaminació de terreny d’aquí</PollutingTerrainProgress>
+  <!-- EN: Poisoned {0} -->
+  <PoisonedTerrain>{0} {0_gender ? contaminat : contaminada}</PoisonedTerrain>
+  <!-- EN: Assign to control group {0} -->
+  <AssignMechToControlGroup>Assigna al grup de control {0}</AssignMechToControlGroup>
+  <!-- EN: Fall per day -->
+  <CurrentMechEnergyFallPerDay>Pèrdua per dia</CurrentMechEnergyFallPerDay>
+  <!-- EN: Cannot assign to control group {0} -->
+  <CannotAssignMechToControlGroup>No es pot assignar al grup de control {0}</CannotAssignMechToControlGroup>
+  <!-- EN: Already assigned -->
+  <AssignMechAlreadyAssigned>Ja està assignat.</AssignMechAlreadyAssigned>
+
+  <!-- Lactation -->
+  <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
+  <LactatingAddedNutritionPerDay>El consum addicional de {0} de nutrició addicionals per dia permet produir llet (el ritme de producció de lles és del {1_percentage} pel nivell actual de menjar).</LactatingAddedNutritionPerDay>
+  <!-- EN: Lactation is paused because milk fullness is 100% -->
+  <LactatingStoppedBecauseFull>La lactància està en pausa perquè els pits ja tenen un 100 % de llet</LactatingStoppedBecauseFull>
+  <!-- EN: Lactation is paused due to starvation. -->
+  <LactatingStoppedBecauseHungry>S’ha posat la lactància en pausa degut a la fam.</LactatingStoppedBecauseHungry>
+
+  <!-- Mech gestating -->
+  <!-- EN: Current gestation cycle -->
+  <CurrentGestationCycle>Cicle de gestació actual</CurrentGestationCycle>
+  <!-- EN: Gestation cycles remaining -->
+  <RemainingGestationCycles>Cicles de gestació restants</RemainingGestationCycles>
+  <!-- EN: Gestation cycles -->
+  <GestationCycles>Cicles de gestació</GestationCycles>
+  <!-- EN: Gestating {0} -->
+  <GestatingMech>Es gesta {0_indefinite}</GestatingMech>
+  <!-- EN: Gestated {0} -->
+  <GestatedMech>S’ha gestat {0_indefinite}</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to complete -->
+  <GestatedMechRequiresMechanitor>Cal {PAWN_nameDef} per a completar-ho</GestatedMechRequiresMechanitor>
+  <!-- EN: Gestation complete -->
+  <GestationComplete>Gestació completada</GestationComplete>
+  <!-- EN: Resurrecting {0} -->
+  <ResurrectingMech>Es ressuscita {0_indefinite}</ResurrectingMech>
+  <!-- EN: Resurrected {0} -->
+  <ResurrectedMech>S’ha ressuscitat {0_indefinite}</ResurrectedMech>
+
+  <!-- Carrier -->
+  <!-- EN: Release {0} -->
+  <MechCarrierRelease>Solta {0}</MechCarrierRelease>
+  <!-- EN: Release a swarm of up to {0} {1}. Each {2} costs {3} {4} to build. If the parent is destroyed then all the linked {1} will die. {1} cannot be recharged and will die once their power source runs out. -->
+  <MechCarrierDesc>Solta un eixam de fins a {0} {1}. Construir cada {2} costa {3} {4}. Si el controlador queda destruït, llavors les unitats {1} enllaçades moriran. {1} no es pot recarregar i morirà quan s’esgoti la seva font d’energia.</MechCarrierDesc>
+  <!-- EN: Not enough resources -->
+  <MechCarrierNotEnoughResources>No hi ha prou recursos</MechCarrierNotEnoughResources>
+  <!-- EN: Autofill -->
+  <MechCarrierAutofillResources>Auto-omple</MechCarrierAutofillResources>
+  <!-- EN: Click to set the desired autofill amount. -->
+  <MechCarrierClickToSetAutofillAmount>Feu-hi clic per a establir la quantitat d’ompliment automàtic desitjat.</MechCarrierClickToSetAutofillAmount>
+  <!-- EN: This autofill amount determines the maximum amount of resources your colonists will automatically place in this {0}. Resources can be used to create {1}. -->
+  <MechCarrierAutofillDesc>Aquesta quantitat d’auto-ompliment determina la quantitat màxima de recursos que els colons posaran automàticament en {0_gender ? aquest : aquesta} {0}. Els recursos es poden fer servir per a fer {1}.</MechCarrierAutofillDesc>
+
+  <!-- Mech power cell -->
+  <!-- EN: Power cell -->
+  <MechPowerCell>Bateria</MechPowerCell>
+  <!-- EN: War urchins have a one-time power source. When the power cell runs out, the mechanoid dies. -->
+  <MechPowerCellTip>Els mecanoides de combat tenen una font d’energia d’un sol ús. Quan s’esgoti, el mecanoide mor.</MechPowerCellTip>
+  
+
+  <!-- Bossgroup -->
+  <!-- EN: available in {0}. -->
+  <BossgroupAvailableIn>disponible d’aquí {0}.</BossgroupAvailableIn>
+  <!-- EN: requires mechanitor -->
+  <RequiresMechanitor>necessita un mecanoider</RequiresMechanitor>
+
+  <!-- Abilities -->
+  <!-- EN: {0_labelShort} is not hemogenic. -->
+  <AbilityDisabledNoHemogenGene>{0_labelShort} no és hemogènic.</AbilityDisabledNoHemogenGene>
+  <!-- EN: {0_labelShort} does not have enough hemogen. -->
+  <AbilityDisabledNoHemogen>{0_labelShort} no té prou hemogen.</AbilityDisabledNoHemogen>
+  <!-- EN: children cannot do this. -->
+  <AbilityStartRitualDisabledChild>els nens no poden fer-ho.</AbilityStartRitualDisabledChild>
+  <!-- EN: need a {0}. -->
+  <AbilityStartRitualNoMembersOfIdeo>fa falta {0_indefinite}.</AbilityStartRitualNoMembersOfIdeo>
+  <!-- EN: Hemogen cost -->
+  <AbilityHemogenCost>Cost en hemogen</AbilityHemogenCost>
+  <!-- EN: Base hemogen gain -->
+  <AbilityHemogenGain>Guany base d’hemogen</AbilityHemogenGain>
+  <!-- EN: Smokepop charged -->
+  <AbilityMechSmokepopCharged>Llançafum carregat</AbilityMechSmokepopCharged>
+  <!-- EN: Smokepop recharged in {0} -->
+  <AbilityMechSmokepopRecharging>El llançafum estarà recarregat d’aquí {0}</AbilityMechSmokepopRecharging>
+  <!-- EN: Firefoam pop charged -->
+  <AbilityMechFirefoampopCharged>Escuma tallafocs carregada</AbilityMechFirefoampopCharged>
+  <!-- EN: Firefoam pop recharged in {0} -->
+  <AbilityMechFirefoampopRecharging>L’escuma tallafocs estarà recarregada d’aquí {0}</AbilityMechFirefoampopRecharging>
+
+  <!-- EN: Polluted {0} -->
+  <PollutedTerrain>{0} {0_gender ? contaminat : contaminada}</PollutedTerrain>
+
+  <!-- Growth vat -->
+  <!-- EN: Biostarvation -->
+  <Biostarvation>Bioinanició</Biostarvation>
+  <!-- EN: One or more growth vats are experiencing biostarvation from lack of nutrition or power.\n\nIf biostarvation reaches 100%, the contained people will die. -->
+  <BiostarvationExplanation>Una o més incubadores tenen pocs nutrients o energia i això causa bioinanició.\n\nSi la bioanició arriba al 100 %, les persones que hi hagin a dins moriran.</BiostarvationExplanation>
+  <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
+  <InsertPersonGrowthVatDesc>Poseu una persona a dins de la incubadora i envellirà 20 vegades més de pressa.</InsertPersonGrowthVatDesc>
+  <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
+  <InsertEmbryoGrowthVatDesc>Implanteu un embrió a la incubadora. Després de {0} dies de gestació, es produirà un nadó complet que, si tot ha anat bé, tindrà bona salut.</InsertEmbryoGrowthVatDesc>
+  <!-- EN: Insert embryo -->
+  <ImplantEmbryo>Insereix l’embrió</ImplantEmbryo>
+  <!-- EN: Cannot insert embryo -->
+  <CannotInsertEmbryo>L’embrió no es pot inserir</CannotInsertEmbryo>
+  <!-- EN: Already contains embryo. -->
+  <EmbryoAlreadyInside>Ja conté un embrió.</EmbryoAlreadyInside>
+  <!-- EN: No embryos -->
+  <ImplantNoEmbryos>No hi ha embrions</ImplantNoEmbryos>
+  <!-- EN: Time until birth -->
+  <EmbryoTimeUntilBirth>Temps fins al naixement</EmbryoTimeUntilBirth>
+  <!-- EN: Birth quality -->
+  <EmbryoBirthQuality>Qualitat del part</EmbryoBirthQuality>
+  <!-- EN: Embryo selected -->
+  <EmbryoSelected>Embrió escollit</EmbryoSelected>
+  <!-- EN: Person selected -->
+  <PersonSelected>Persona triada</PersonSelected>
+  <!-- EN: No non-biostarving people of acceptable age. To enter the growth vat, the person must be below {0} years old and not currently biostarving. -->
+  <NoPawnsCanEnterGrowthVat>No hi ha persones de l’edat i condicions acceptables. Per a entrar a la incubadora, la persona ha de tenir menys de {0} anys i no pot estar patint bioinanició.</NoPawnsCanEnterGrowthVat>
+  <!-- EN: Aging speed -->
+  <AgingSpeed>Velocitat d’envelliment</AgingSpeed>
+
+  <!-- Mech charger -->
+  <!-- EN: Waste -->
+  <WasteLevel>Residus</WasteLevel>
+
+  <!-- Dissolution -->
+  <!-- EN: indoors -->
+  <DissolutionRateIndoors>a l’interior</DissolutionRateIndoors>
+  <!-- EN: raining -->
+  <DissolutionRain>sota la pluja</DissolutionRain>
+  <!-- EN: One wastepack dissolves every {0} -->
+  <DissolvesEvery>Es dissol un saquet de tòxics cada {0}.</DissolvesEvery>
+  <!-- EN: Frozen (won't dissolve). -->
+  <DissolutionFrozen>Congelat (no es dissoldrà)</DissolutionFrozen>
+
+  <!-- EN: {0} cells / day -->
+  <CellsPerDay>{0} caselles / dia</CellsPerDay>
+
+  <!-- EN: {0} cannot wear clothing for {1} -->
+  <WrongDevelopmentalStageForClothing>{0} no es pot posar indumentària per a {1}</WrongDevelopmentalStageForClothing> 
+
+  <!-- Subcore scanner -->
+  <!-- EN: Start scanner -->
+  <SubcoreScannerStart>Inicia l’escaneig</SubcoreScannerStart>
+  <!-- EN: Produces -->
+  <SubcoreScannerProduces>Produeix</SubcoreScannerProduces>
+  <!-- EN: Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the scanner. -->
+  <SubcoreScannerStartDesc>Quan {0_definite} s’hagi omplit amb els ingredients necessaris, {1}, trieu un colon i feu clic amb el botó dret a {0_definite} o en una persona inconscient per a iniciar l’escaneig.</SubcoreScannerStartDesc>
+  <!-- EN: Completes in -->
+  <SubcoreScannerCompletesIn>Acaba d’aquí</SubcoreScannerCompletesIn>
+  <!-- EN: Waiting for occupant -->
+  <SubcoreScannerWaitingForOccupant>S’espera un ocupant</SubcoreScannerWaitingForOccupant>
+  <!-- EN: Waiting for ingredients -->
+  <SubcoreScannerWaitingForIngredients>S’esperen ingredients</SubcoreScannerWaitingForIngredients>
+  <!-- EN: The following ingredients must be loaded first -->
+  <SubcoreScannerWaitingForIngredientsDesc>Primer, cal carregar aquests ingredients</SubcoreScannerWaitingForIngredientsDesc>
+  <!-- EN: Has {0} -->
+  <SubcoreScannerPawnHasSickness>Té {0}</SubcoreScannerPawnHasSickness>
+  <!-- EN: Babies are not allowed -->
+  <SubcoreScannerBabyNotAllowed>No es permeten bebès</SubcoreScannerBabyNotAllowed>
+  <!-- EN: Insert a person into the {0}. -->
+  <InsertPersonSubcoreScannerDesc>Inseriu una persona a {0_definite}.</InsertPersonSubcoreScannerDesc>
+
+  <!-- EN: Duration (hours) -->
+  <DurationHours>Duració (hores)</DurationHours>
+
+  <!-- Age -->
+  <!-- EN: adult -->
+  <Adult>adult</Adult>
+  <!-- EN: adults -->
+  <Adults>adults</Adults>
+  <!-- EN: child -->
+  <Child>nen</Child>
+  <!-- EN: children -->
+  <Children>nens</Children>
+  <!-- EN: baby -->
+  <Baby>nadó</Baby>
+  <!-- EN: babies -->
+  <Babies>nadons</Babies>
+  <!-- EN: person -->
+  <Person>persona</Person>
+  <!-- EN: feral child -->
+  <FeralChild>nen feral</FeralChild>
+  <!-- EN: Wearable by -->
+  <WearableBy>Ho poden portar</WearableBy>
+
+  <!-- EN: Xenogerm implantation -->
+  <Reward_ReimplantXenogerm_Label>Implantació de xenogermen</Reward_ReimplantXenogerm_Label>
+  <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
+  <Reward_ReimplantXenogerm_Desc>Un membre del grup reimplantarà el seu xenogermen al colon que trieu; així, convertireu el colon que escolliu. El colon continuarà a la vostra facció i sota el vostre control.</Reward_ReimplantXenogerm_Desc>
+
+  <!-- Mech resurrection -->
+  <!-- EN: Mech resurrection charges -->
+  <MechResurrectionCharges>Càrregues de resurrecció mecanoide</MechResurrectionCharges>
+
+  <!-- Mechs -->
+  <!-- EN: Mech stun pulse on death -->
+  <MechStunPulseWarning>Ràfega atordidora quan mor el mecanoide</MechStunPulseWarning>
+  <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
+  <IsLowEnergySelfShutdown>{PAWN_nameDef} ha entrat en un mode d’apagat automàtic perquè té poca energia.</IsLowEnergySelfShutdown>
+  
+  <!-- Pollution -->
+  <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
+  <ShowPollutionOverlayToggleButton>Commuta la capa de contaminació, que permet veure en quines zones hi ha contaminació.\n\nL’exposició a terrenys contaminats fa que les persones puguin acumular substàncies tòxiques al cos i podrien arribar a morir. La majoria de plantes no poden viure en terrenys contaminats.</ShowPollutionOverlayToggleButton>
+  <!-- EN: None -->
+  <TilePollutionNone>Gens</TilePollutionNone>
+  <!-- EN: Light -->
+  <TilePollutionLight>Escassa</TilePollutionLight>
+  <!-- EN: Moderate -->
+  <TilePollutionModerate>Moderada</TilePollutionModerate>
+  <!-- EN: Extreme -->
+  <TilePollutionExtreme>Extrema</TilePollutionExtreme>
+  <!-- EN: Pollution -->
+  <TilePollution>Contaminació</TilePollution>
+  <!-- EN: Nearby pollution -->
+  <TilePollutionNearby>Contaminació propera</TilePollutionNearby>
+  <!-- EN: The sum of pollution levels of all tiles within a {0} tile radius. As the distance from this tile increases, the pollution contribution decreases:\n\n{1}\n\nThe higher the nearby pollution the greater the chance of acidic smog occurring. -->
+  <NearbyPollutionTip>La suma dels nivells de contaminació de totes les caselles en un radi de {0} caselles. Com més lluny està la casella, menor és la contribució a la contaminació:\n\n{1}\n\nCom més contaminació hi ha a prop, més gran és la probabilitat que hi hagi boira tòxica.</NearbyPollutionTip>
+  <!-- EN: This tile will have acidic smog every {0} days on average. -->
+  <NoxiousHazeInterval>En aquesta casella hi haurà boira tòxica cada {0} dies de mitjana.</NoxiousHazeInterval>
+  <!-- EN: This tile will never have acidic smog. -->
+  <NoxiousHazeNeverOccurring>En aquesta casella no hi haurà mai boira tòxica.</NoxiousHazeNeverOccurring>
+  <!-- EN: tiles away -->
+  <NearbyPollutionTilesAway>caselles de distància</NearbyPollutionTilesAway>
+  <!-- EN: pollution -->
+  <PollutionLower>contaminació</PollutionLower>
+  <!-- EN: Cannot absorb pollution: Buildings too close -->
+  <CannotAbsorbPollution>No pot absorbir contaminació: hi ha estructures massa a prop</CannotAbsorbPollution>
+  <!-- EN: Can absorb pollution from nearby terrain -->
+  <CanAbsorbPollution>Pot absorbir contaminació dels terrenys propers</CanAbsorbPollution>
+  <!-- EN: Absorbing pollution: Next in {0} -->
+  <AbsorbingPollutionNext>Absorbeix contaminació: Propera d’aquí {0}</AbsorbingPollutionNext>
+  <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
+  <TerrainPollutionTip>Indica com de contaminat està el terreny de la casella.\n\nL’exposició a un terreny contaminat provoca acumulació de toxines al cos que pot provocar la mort. Molts conreus no poden viure en terreny contaminat.</TerrainPollutionTip>
+
+  <!-- Research -->
+  <!-- EN: Requires study of -->
+  <StudyRequirementTip>Requereix l’estudi de</StudyRequirementTip>
+
+  <!-- Insect -->
+  <!-- EN: Trigger radius -->
+  <TriggerRadius>Radi d’activació</TriggerRadius>
+  <!-- EN: Opening -->
+  <DormantCompOpening>S’obre</DormantCompOpening>
+  
+  <!-- Fertility -->
+  <!-- EN: ova extracted recently -->
+  <SurgeryDisableReasonOvumExtracted>òvuls extrets recentment</SurgeryDisableReasonOvumExtracted>
+  <!-- EN: Fertilize -->
+  <Fertilize>Fecunda</Fertilize>
+  <!-- EN: Fertilize {0_label} -->
+  <FertilizeThing>Fecunda {0_label_definite}</FertilizeThing>
+  <!-- EN: Cannot fertilize -->
+  <FertilizeCannotFloatOption>No es pot fecundar</FertilizeCannotFloatOption>
+  <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
+  <FertilizeGizmoDescription>Trieu un home que fertilitzi l’òvul i se n’obtingui un embrió. L’embrió es podrà implantar en una mare per a començar un embaràs o bé en una incubadore. Els pares biològics del nen seran la dona de la qual s’ha obtingut l’òvul i l’home que el fertilitzi.</FertilizeGizmoDescription>
+  <!-- EN: Cancel fertilization by {0} -->
+  <FertilizeCancel>Cancel·la la fecundació per {0}</FertilizeCancel>
+  <!-- EN: sterile -->
+  <CannotSterile>estèril</CannotSterile>
+  <!-- EN: pregnant -->
+  <CannotPregnant>embarassada</CannotPregnant>
+  <!-- EN: must be {0} -->
+  <CannotMustBeAge>ha de ser {0}</CannotMustBeAge>
+  <!-- EN: already having embryo implanted -->
+  <CannotImplantingOtherEmbryo>ja té un embrió implantat</CannotImplantingOtherEmbryo>
+  <!-- EN: {0} ({1}) -->
+  <DisabledOption>{0} ({1})</DisabledOption>
+  <!-- EN: No men can fertilize this ovum. -->
+  <FertilizeDisabledNoMales>No hi cap home que pugui fertilitzar l’òvul.</FertilizeDisabledNoMales>
+  
+  <!-- EN: Implant embryo -->
+  <ImplantLabel>Implanta un embrió</ImplantLabel>
+  <!-- EN: Implant this embryo in a surrogate mother to begin a pregnancy. -->
+  <ImplantDescription>Implanta aquest embrió en una mare subrogada per a iniciar l’embaràs.</ImplantDescription>
+  <!-- EN: Insert in growth vat -->
+  <InsertGrowthVatLabel>Insereix en una incubadora</InsertGrowthVatLabel>
+
+  <!-- EN: Cannot implant -->
+  <ImplantCannotFloatOption>No es pot implantar</ImplantCannotFloatOption>
+  <!-- EN: No woman can be a surrogate mother. -->
+  <ImplantDisabledNoWomen>No hi ha dones que puguin ser mares subrogades.</ImplantDisabledNoWomen>
+  <!-- EN: No available growth vats. -->
+  <ImplantDisabledNoVats>No hi ha incubadores disponibles.</ImplantDisabledNoVats>
+  <!-- EN: Implant {0} -->
+  <ImplantSurgeryLabel>Implanta {0}</ImplantSurgeryLabel>
+  <!-- EN: The implantation success chance for the {0} in {1} is {2}.\n\nThe implantation success chance is dependent on the fertility of the surrogate mother. It will be lower if the mother is too old or too young. -->
+  <ImplantSurgeryConfirm>Les probabilitats d’èxit de la implantació de {0_definite} en {1} és del {2}.\n\nLa probabilitat d’èxit depèn de la fertilitat de la mare subrogada. Es reduirà si la mare és molt gran o massa jove.</ImplantSurgeryConfirm>
+  <!-- EN: Ejecting the {0} from the growth vat right now will destroy it before a baby is formed.\n\nWould you like to continue? -->
+  <ImplantEmbryoCancelVat>Si s’extreu {0_definite} de la incubadora ara mateix, quedarà {0_gender ? destruït : destruïda} abans que es formi un nadó.\n\nVoleu continuar?</ImplantEmbryoCancelVat>
+  <!-- EN: Implanting the {0} in {1} was unsuccessful. -->
+  <ImplantFailedMessage>La implantació de {0_definite} a {1_definite} no ha tingut èxit.</ImplantFailedMessage>
+  <!-- EN: Cancel embryo insertion -->
+  <ImplantEmbryoCancel>Cancel·la la inserció de l’embrió</ImplantEmbryoCancel>
+  <!-- EN: The {0} was ejected from a growth vat and destroyed. -->
+  <EmbryoEjectedFromGrowthVat>S’ha expulsat {0_definite} de la incubadora i s’ha destruït.</EmbryoEjectedFromGrowthVat>
+  <!-- EN: The {0} was destroyed in a growth vat due to biostarvation. -->
+  <EmbryoEjectedFromGrowthVatBiostarvation>{0_definite} ha quedat {0_gender ? destruït : destruïda} a la incubadora degut a la bioinanició.</EmbryoEjectedFromGrowthVatBiostarvation>
+
+  <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
+  <IvfPregnancyLetterText>{0} s’ha quedat {0_gender ? embarassat : embarassada} amb la implantació de l’embrió!</IvfPregnancyLetterText>
+  <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
+  <IvfPregnancyLetterParents>La genètica del bebè estarà formada per una barreja dels de {0} i {1}.</IvfPregnancyLetterParents>
+
+  <!-- Projectile interceptor -->
+  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
+  <ProjectileInterceptorTip>Un escut projectat en contrapicat que intentarà parar els projectils o metralla entrants. S’apaga immediatament si li impacta un PEM.</ProjectileInterceptorTip>
+
+  <!-- Remote mech shield -->
+  <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
+  <RemoteMechShieldTip>Un escut de força a distància projectat per un mecanoider. Intentarà parar els projectils i la metralla que el vulguin travessar, però no fa res contra els atacs cos a cos o la calor. També impedeix que el portador pugui disparar a fora i s’apaga immediatament si hi impacta un pols electromagnètic (PEM).</RemoteMechShieldTip>
+
+  <!-- Thoughtdef fallbacks -->
+  <!-- EN: my child is happy -->
+  <MyChildIsHappy>el meu fill és feliç</MyChildIsHappy>
+  <!-- EN: my child is sad -->
+  <MyChildIsSad>el meu fill està trist</MyChildIsSad> 
+
+</LanguageData>

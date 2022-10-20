@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Not a mechanitor -->
+  <NotAMechanitor>No és un mecanoider.</NotAMechanitor>
+  <!-- EN: Not enough bandwidth -->
+  <NotEnoughBandwidth>No hi ha prou ample de banda.</NotEnoughBandwidth>
+  <!-- EN: Take control of {0} -->
+  <ControlMech>Pren el control de {0_definite}</ControlMech>
+  <!-- EN: Cannot control {0} -->
+  <CannotControlMech>No pot controlar {0_definite}.</CannotControlMech>
+  <!-- EN: Already controlled by {0} -->
+  <CannotControlMechAlreadyControlled>Ja controla a {0_definite}.</CannotControlMechAlreadyControlled>
+  <!-- EN: Not enough bandwidth -->
+  <CannotControlMechNotEnoughBandwidth>No hi ha prou ample de banda.</CannotControlMechNotEnoughBandwidth>
+  <!-- EN: Never controllable -->
+  <CannotControlMechNeverControllable>No es pot controlar mai.</CannotControlMechNeverControllable>
+  <!-- EN: Cannot disconnect from {0} -->
+  <CannotDisconnectMech>No es pot desconnectar de {0_definite}.</CannotDisconnectMech>
+  <!-- EN: Disconnect from {0} -->
+  <DisconnectMech>Desconnecta de {0_definite}</DisconnectMech>
+  <!-- EN: Permanently disassemble {0} -->
+  <DisassembleMech>Desmunta permanentment {0_definite}</DisassembleMech>
+  <!-- EN: Cannot permanently disassemble {0} -->
+  <CannotDisassembleMech>No es pot desmuntar permanentment {0}.</CannotDisassembleMech>
+  <!-- EN: Must be overseer -->
+  <MustBeOverseer>Cal que sigui un supervisor.</MustBeOverseer>
+  <!-- EN: Extract -->
+  <Extract>Extrau</Extract>
+  <!-- EN: Out of command range -->
+  <OutOfCommandRange>Fora de l’abast de comandament</OutOfCommandRange>
+  <!-- EN: Cannot go here -->
+  <CannotGoOutOfRange>No s’hi pot anar.</CannotGoOutOfRange>
+  <!-- EN: Must be emptied -->
+  <WasteContainerFull>Cal que estigui buit.</WasteContainerFull>
+  <!-- EN: Cannot repair mech {0} -->
+  <CannotRepairMech>No es pot reparar el mecanoide {0}.</CannotRepairMech>
+
+  <!-- EN: Extract xenogerm from {PAWN_nameDef} -->
+  <ExtractXenogermFrom>Extrau el xenogermen de {PAWN_nameDef}</ExtractXenogermFrom>
+  <!-- EN: Enter {0_labelShort} -->
+  <EnterBuilding>Entra {0_gender ? el : la} {0_labelShort}</EnterBuilding>
+  <!-- EN: {PAWN_nameDef} has no genes -->
+  <PawnHasNoGenes>{PAWN_nameDef} no té gens</PawnHasNoGenes>
+  <!-- EN: {PAWN_nameDef} has no extractable genes. -->
+  <PawnHasNoNonArchiteGenes>{PAWN_nameDef} no té gens que es puguin extraure.</PawnHasNoNonArchiteGenes>
+  <!-- EN: In xenogermination coma -->
+  <InXenogerminationComa>En coma xenogerminador</InXenogerminationComa>
+  <!-- EN: Occupied -->
+  <Occupied>Ocupat/da</Occupied>
+  <!-- EN: {PAWN_nameDef} was ejected from a growth vat -->
+  <OccupantEjectedFromGrowthVat>S’ha ejectat {PAWN_nameDef} de la incubadora.</OccupantEjectedFromGrowthVat>
+  <!-- EN: {PAWN_nameDef} must be younger than {AGEYEARS} years old. -->
+  <TooOld>{PAWN_nameDef} ha de tenir menys de {AGEYEARS} anys.</TooOld>
+  <!-- EN: {PAWN_nameDef} is too old. -->
+  <PawnIsTooOld>{PAWN_nameDef} és massa {PAWN_gender ? vell : vella}.</PawnIsTooOld>
+  <!-- EN: {PAWN_nameDef} is suffering from biostarvation. -->
+  <PawnBiostarving>{PAWN_nameDef} pateix bioinanició.</PawnBiostarving>
+  <!-- EN: No available people -->
+  <NoViablePawns>No hi ha persones disponibles</NoViablePawns>
+  <!-- EN: No extractable people -->
+  <NoExtractablePawns>No hi ha ningú a qui extraure</NoExtractablePawns>
+  <!-- EN: No implantable people -->
+  <NoImplantablePawns>No es pot implantar a ningú</NoImplantablePawns>
+  <!-- EN: Cannot enter {0_labelShort} -->
+  <CannotEnterBuilding>No es pot entrar {0_labelShort_gender ? al : a la} {0_labelShort}</CannotEnterBuilding>
+  <!-- EN: {0_labelShort} is assigned to another person. -->
+  <AssignedToOtherPawn>{0_labelShort_definite} s’ha assignat a una altra persona.</AssignedToOtherPawn>
+
+  <!-- EN: Absorb xenogerm of {PAWN_nameDef} -->
+  <AbsorbXenogerm>Absorbeix el xenogermen de {PAWN_nameDef}</AbsorbXenogerm>
+  <!-- EN: Cannot absorb {PAWN_nameDef}'s xenogerm -->
+  <CannotAbsorbXenogerm>No es pot absorbir el xenogermen de {PAWN_nameDef}</CannotAbsorbXenogerm>
+  <!-- EN: {PAWN_nameDef} is already {PAWN_xenotype} -->
+  <SameXenotype>{PAWN_nameDef} ja té el xenotip {PAWN_xenotype}</SameXenotype>
+  <!-- EN: {PAWN_nameDef} suffering from xenogerm loss shock -->
+  <XenogermLossShockPresent>{PAWN_nameDef} pateix un xoc per pèrdua de gens</XenogermLossShockPresent>
+  <!-- EN: Carry to {0_labelShort} -->
+  <CarryToSpecificThing>Porta {0_labelShort_gender ? al : a la} {0_labelShort}</CarryToSpecificThing>
+  <!-- EN: No reachable, un-reserved bed or deathrest casket in safe temperature. -->
+  <NoCasketOrBed>No pot arribar a cap llit o sarcòfag de permadescans amb una temperatura adequada.</NoCasketOrBed>
+  <!-- EN: {PAWN_nameDef} is a temporary faction member. -->
+  <TemporaryFactionMember>{PAWN_nameDef} és un membre temporal de la facció.</TemporaryFactionMember>
+
+  <!-- EN: Scanner not initiated -->
+  <SubcoreScannerNotInit>L’escaneig no ha començat</SubcoreScannerNotInit>
+  <!-- EN: Waiting for ingredients -->
+  <SubcoreScannerRequiresIngredients>S’espera tenir tots els ingredients</SubcoreScannerRequiresIngredients>
+  <!-- EN: Occupied -->
+  <SubcoreScannerOccupied>Ocupat</SubcoreScannerOccupied>
+  <!-- EN: Enter {0} -->
+  <EnterSubcoreScanner>Entra {0_gender ? al : a la} {0}</EnterSubcoreScanner>
+
+  <!-- EN: Breastfeed {BABY_labelShort} -->
+  <BabyCareBreastfeed>Dóna el pit a {BABY_labelShort}</BabyCareBreastfeed>
+  <!-- EN: Cannot breastfeed {BABY_labelShort} -->
+  <BabyCareBreastfeedUnable>No es pot donar el pit a {BABY_labelShort}</BabyCareBreastfeedUnable>
+  <!-- EN: No baby-edible food -->
+  <NoBabyFood>No hi ha menjar per a nens</NoBabyFood>
+
+  <!-- EN: play need full -->
+  <CannotInteractBabyPlayFull>la necessitat de jugar ja s’ha cobert del tot</CannotInteractBabyPlayFull>
+
+  <!-- EN: Feed on {PAWN_nameDef} -->
+  <BloodfeedOn>Alimenta’t de {PAWN_nameDef}</BloodfeedOn>
+  <!-- EN: Cannot feed on {PAWN_nameDef} -->
+  <CannotBloodfeedOn>No es pot alimentar de {PAWN_nameDef}</CannotBloodfeedOn>
+  <!-- EN: Not enough blood. -->
+  <CannotFeedOnWouldKill>No té prou sang.</CannotFeedOnWouldKill>
+
+  <!-- BreastfeedFailReason strings-->
+  <!-- EN: {MOM_labelShort} does not have enough milk -->
+  <BreastfeedFailReason_MomNotEnoughMilk>{MOM_labelShort} no té prou llet</BreastfeedFailReason_MomNotEnoughMilk>
+  <!-- EN: {MOM_labelShort} cannot breastfeed right now -->
+  <BreastfeedFailReason_MomInMentalState>{MOM_labelShort} ara mateix no pot donar el pit</BreastfeedFailReason_MomInMentalState>
+  <!-- EN: {BABY_labelShort} is too full to suckle -->
+  <BreastfeedFailReason_BabyTooFull>{BABY_labelShort} ja està molt {BABY_gender ? ple : plena} com per a xuclar més</BreastfeedFailReason_BabyTooFull>
+  <!-- EN: {BABY_labelShort} is forbidden to {MOM_labelShort} -->
+  <BreastfeedFailReason_BabyForbiddenToMom>{MOM_labelShort} no té permès donar-li el pit a {BABY_labelShort}</BreastfeedFailReason_BabyForbiddenToMom>
+  <!-- EN: {BABY_labelShort} is forbidden to {HAULER_labelShort} -->
+  <BreastfeedFailReason_BabyForbiddenToHauler>A {HAULER_labelShort} no li és permès moure {BABY_labelShort}</BreastfeedFailReason_BabyForbiddenToHauler>
+  <!-- EN: {MOM_labelShort} is forbidden to {HAULER_labelShort} -->
+  <BreastfeedFailReason_MomForbiddenToHauler>A {HAULER_labelShort} no li és permès portar nadons a {MOM_labelShort}</BreastfeedFailReason_MomForbiddenToHauler>
+  <!-- EN: {MOM_labelShort} can breastfeed {BABY_labelShort} without help -->
+  <BreastfeedFailReason_MomIsMobile>{MOM_labelShort} pot donar el pit a {BABY_labelShort} sense ajuda</BreastfeedFailReason_MomIsMobile>
+  <!-- EN: {HAULER_labelShort} cannot go from {BABY_labelShort} to {MOM_labelShort} -->
+  <BreastfeedFailReason_HaulerCannotReachMom>{HAULER_labelShort} no pot anar des d’on està {BABY_labelShort} fins on està {MOM_labelShort}</BreastfeedFailReason_HaulerCannotReachMom>
+  <!-- EN: {HAULER_labelShort} cannot reach {BABY_labelShort} -->
+  <BreastfeedFailReason_HaulerCannotReachBaby>{HAULER_labelShort} no pot arribar a on està {BABY_labelShort}</BreastfeedFailReason_HaulerCannotReachBaby>
+  <!-- EN: No lactating {BABY_factionPawnsPlural} are assigned to {BABY_labelShort} -->
+  <BreastfeedFailReason_NoMomsAssignedToBaby>No hi ha {BABY_factionPawnsPlural} lactants assignades a {BABY_labelShort}</BreastfeedFailReason_NoMomsAssignedToBaby>
+  <!-- EN: {MOM_labelShort} is not assigned to childcare -->
+  <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort} no està {MOM_gender ? assignat : assignada} a tasques d’atenció infantil</BreastfeedFailReason_MomNotAssignedToChildcare>
+
+  <!-- EN: Order implantation into {PAWN_nameDef} -->
+  <OrderImplantationIntoPawn>Ordena que li implantin a {PAWN_nameDef}</OrderImplantationIntoPawn>
+  <!-- EN: Accept {0_xenotype} xenogerm -->
+  <AcceptXenogerm>Accepta el xenogermen {0_xenotype}</AcceptXenogerm>
+
+  <!-- EN: Carry {PAWN_labelShort} to recharger -->
+  <CarryToRechargerOrdered>Porta {PAWN_labelShort} a recarregar</CarryToRechargerOrdered>
+  <!-- EN: Cannot carry {PAWN_labelShort} to recharger -->
+  <CannotCarryToRecharger>No es pot portar {PAWN_labelShort} a recarregar</CannotCarryToRecharger>
+  <!-- EN: No available recharger -->
+  <CannotCarryToRechargerNoneAvailable>No hi ha carregadors disponibles</CannotCarryToRechargerNoneAvailable>
+
+  <!-- EN: Cannot study -->
+  <CannotStudy>No pot estudiar</CannotStudy>
+  <!-- EN: already studied -->
+  <AlreadyStudied>ja ha estudiat</AlreadyStudied>
+  <!-- EN: no reachable, un-reserved research bench available -->
+  <NoResearchBench>no es pot arribar a cap banc de recerca disponible i sense reservar</NoResearchBench>
+
+  <!-- EN: Hemogen packs disabled by food restriction. -->
+  <NotAllowedHemogen>Les bosses d’hemogen s’han desactivat per les restriccions de la dieta.</NotAllowedHemogen>
+
+  <!-- EN: Eject genepack from gene bank -->
+  <EjectGenepackFromGeneBank>Ejecta la genocàpsula del banc</EjectGenepackFromGeneBank>
+
+  <!-- EN: Resulting metabolism would be too low -->
+  <ResultingMetTooLow>El metabolisme resultant seria molt lent</ResultingMetTooLow>
+
+</LanguageData>

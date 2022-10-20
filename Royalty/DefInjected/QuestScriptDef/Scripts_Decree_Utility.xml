@@ -5,14 +5,17 @@
     <li>decreeIntro->[asker_nameDef], your [asker_bestRoyalTitle], has issued a royal decree.</li>
     <li>decreeThreatInfo->If you fail to fulfill this decree within [decreeDays] days, [asker_nameDef] will start to become unhappy. [asker_possessive] anger will increase over time until the decree is satisfied.</li>
   -->
-  <DecreeSetup.questDescriptionRules.rulesStrings>TODO</DecreeSetup.questDescriptionRules.rulesStrings>
+  <DecreeSetup.questDescriptionRules.rulesStrings>
+    <li>decreeIntro->[asker_nameDef], [asker_elvostre] [asker_bestRoyalTitle], ha anunciat un decret reial.</li>
+    <li>decreeThreatInfo->Si no compliu el decret d’aquí a [decreeDays] dies, [asker_nameDef] començarà a preocupar-se. La seva ira creixerà amb el temps fins que es compleixi.</li>
+  </DecreeSetup.questDescriptionRules.rulesStrings>
   <!-- EN: [asker_nameDef]'s decree forgotten -->
-  <DecreeSetup.LetterLabelDecreeForgotten.slateRef>TODO</DecreeSetup.LetterLabelDecreeForgotten.slateRef>
+  <DecreeSetup.LetterLabelDecreeForgotten.slateRef>[asker_nameDef] s’ha oblidat del decret</DecreeSetup.LetterLabelDecreeForgotten.slateRef>
   <!-- EN: [asker_nameDef] has forgotten about [asker_possessive] decree. -->
-  <DecreeSetup.LetterTextDecreeForgotten.slateRef>TODO</DecreeSetup.LetterTextDecreeForgotten.slateRef>
+  <DecreeSetup.LetterTextDecreeForgotten.slateRef>[asker_nameDef] s’ha oblidat del seu decret.</DecreeSetup.LetterTextDecreeForgotten.slateRef>
   <!-- EN: Decree cancelled -->
-  <DecreeSetup.LetterLabelDecreeCancelled.slateRef>TODO</DecreeSetup.LetterLabelDecreeCancelled.slateRef>
+  <DecreeSetup.LetterLabelDecreeCancelled.slateRef>S’ha cancel·lat el decret</DecreeSetup.LetterLabelDecreeCancelled.slateRef>
   <!-- EN: [asker_nameDef] has grudgingly cancelled the decree '[resolvedQuestName]' since it cannot be completed. -->
-  <DecreeSetup.LetterTextDecreeCancelled.slateRef>TODO</DecreeSetup.LetterTextDecreeCancelled.slateRef>
+  <DecreeSetup.LetterTextDecreeCancelled.slateRef>[asker_nameDef] ha cancel·lat el decret «[resolvedQuestName]» a contracor ja que no es pot completar.</DecreeSetup.LetterTextDecreeCancelled.slateRef>
   
 </LanguageData>

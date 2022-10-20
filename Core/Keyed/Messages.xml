@@ -85,7 +85,7 @@
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
   <MessageTameSuccess>{RECRUITER_definite} ha domesticat {1}.</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_definite} ha domesticat {1} i es dirà {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_definite} ha domesticat {1} i es dirà «{RECRUITEE_nameFull}».</MessageTameAndNameSuccess>
   <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
   <MessageTameNoSuitablePens>No hi ha cap corral adequat per a {ANIMAL_labelShort}. Deambularà per la zona i podria arribar a extraviar-se.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
@@ -206,7 +206,7 @@
   <!-- EN: {1_labelShort} is dead. -->
   <MessageCantSelectDeadPawn>{1_definite} és mort.</MessageCantSelectDeadPawn>
   <!-- EN: {1_labelShort} is off the map. -->
-  <MessageCantSelectOffMapPawn>{1_definite} ha sortit del mapa.</MessageCantSelectOffMapPawn>
+  <MessageCantSelectOffMapPawn>{1_definite} està fora del mapa.</MessageCantSelectOffMapPawn>
   
   <!-- EN: {PAWN1_labelShort} started a social fight with {PAWN2_labelShort}. -->
   <MessageSocialFight>{PAWN1_definite} ha començat una baralla amb {PAWN2_definite}.</MessageSocialFight>
@@ -259,7 +259,7 @@
   <MessageNoLongerOnTargetedInsultingSpree>{PAWN_definite} ja no insulta compulsivament a {TARGET_definite}.</MessageNoLongerOnTargetedInsultingSpree>
 
   <!-- EN: {1_label} has rotted away in storage. -->
-  <MessageRottedAwayInStorage>{1_indefinite} s’ha podrit al magatzem.</MessageRottedAwayInStorage>
+  <MessageRottedAwayInStorage>s’ha podrit {1_label} al magatzem.</MessageRottedAwayInStorage>
   
   <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
   <MessageFoodPoisoning>{PAWN_definite} s’ha intoxicat menjant: {FOOD_labelShort}. Motiu: {2}.</MessageFoodPoisoning>
@@ -282,11 +282,11 @@
   <!-- EN: {0} has died because of cold. -->
   <MessagePlantDiedOfCold>{0_definite} ha mort pel fred.</MessagePlantDiedOfCold>
   <!-- EN: {0} has died from rotting due to being left unharvested. -->
-  <MessagePlantDiedOfRot_LeftUnharvested>{0} s’ha podrit perquè no es va recollir a temps.</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_LeftUnharvested>s’ha podrit {0} perquè no es va recollir a temps.</MessagePlantDiedOfRot_LeftUnharvested>
   <!-- EN: {0} has died due to being exposed to light. -->
   <MessagePlantDiedOfRot_ExposedToLight>{0} ha mort per què li ha tocat la llum.</MessagePlantDiedOfRot_ExposedToLight>
   <!-- EN: {0} has died from rotting. -->
-  <MessagePlantDiedOfRot>{0} s’ha podrit.</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfRot>{0_definite} s’ha podrit.</MessagePlantDiedOfRot>
   <!-- EN: {0} has died because of poison. -->
   <MessagePlantDiedOfPoison>{0} ha mort a causa d’algun verí.</MessagePlantDiedOfPoison>
   <!-- EN: {1_label} has died because of blight. -->
@@ -588,7 +588,7 @@
   <MessagePermitCooldownFinished>{0_labelShort} ja pot utilitzar «{1}» a voluntat.</MessagePermitCooldownFinished>
 
   <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
-  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} vol caçar {PREY_definite} {(PREY_kindBase)} per a {PREY_gender ? menjar-se’l : menjar-se-la}!</MessagePredatorHuntingPlayerAnimal>
+  <MessagePredatorHuntingPlayerAnimal>{PREDATOR} vol caçar a {PREY_definite} ({PREY_kindBase}) per a {PREY_gender ? menjar-se’l : menjar-se-la}!</MessagePredatorHuntingPlayerAnimal>
 
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
   <MessagePrisonerResistanceBroken>{WARDEN_definite} ha vençut la resistència del presoner {PRISONER_labelShort}.</MessagePrisonerResistanceBroken>
@@ -666,7 +666,7 @@
   <!-- EN: Assign to {0} -->
   <AssignToRole>Assigna a {0}</AssignToRole>
   <!-- EN: {0} has begun. -->
-  <RitualBegun>{0} ha començat.</RitualBegun>
+  <RitualBegun>Ha començat {0_definite}.</RitualBegun>
   <!-- EN: The maximum number of {0}s is {1}. -->
   <MaxPawnsPerRole>El nombre màxim de {0}s és de {1}.</MaxPawnsPerRole>
   <!-- EN: Role of {0} is locked. -->

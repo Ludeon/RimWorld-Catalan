@@ -10,10 +10,10 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
   -->
   <Breakup.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] trencat amb [OTHER_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] ha demanat una mica d’espai a [OTHER_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] li ha dit a [OTHER_nameDef] que hi ha alguna cosa que no funciona.</li>
-    <li>r_logentry->[INITIATOR_nameDef] li ha dit a [OTHER_nameDef] que voldria conéixer altra gent.</li>
+    <li>r_logentry->[INITIATOR_nameDef] trencat amb [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha demanat una mica d’espai a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] li ha dit a [RECIPIENT_nameDef] que hi ha alguna cosa que no funciona.</li>
+    <li>r_logentry->[INITIATOR_nameDef] li ha dit a [RECIPIENT_nameDef] que voldria conéixer altra gent.</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
@@ -24,9 +24,9 @@
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>
   -->
   <MarriageProposal.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] ha proposat matrimoni a [OTHER_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] ha proposat compartir la vida a [OTHER_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] li ha dit a [OTHER_nameDef] que vol passar tota vida junts.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha proposat matrimoni a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha proposat compartir la vida a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] li ha dit a [RECIPIENT_nameDef] que vol passar tota vida junts.</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->

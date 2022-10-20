@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>sanguophageShuttleCrashedLetterLabel->Crashed shuttle</li>
+    <li>sanguophageShuttleCrashedLetterText->A shuttle containing a sanguophage master and [thrallCount] thralls has crashed nearby. They will exit the crashed craft and prepare to fight.</li>
+    <li>reinforcementsArrivedLetterLabel->Thrall reinforcements</li>
+    <li>reinforcementsArrivedLetterText->Thralls are arriving in drop pods to reinforce the crashed sanguophage.</li>
+    <li>assaultBeginLetterLabel->Assault begun</li>
+    <li>assaultBeginLetterText->The hostile sanguophage master and [sanguophage_possessive] thralls have initiated an assault on the colony!</li>
+  -->
+  <SanguophageShip.questContentRules.rulesStrings>
+    <li>sanguophageShuttleCrashedLetterLabel->Llançadora estavellada</li>
+    <li>sanguophageShuttleCrashedLetterText->Una llançadora on viatja un mestre sangòfag amb [thrallCount] serfs s’ha estavellat a prop. Sortiran de la nau i es prepararan per a lluitar.</li>
+    <li>reinforcementsArrivedLetterLabel->Serfs de reforç</li>
+    <li>reinforcementsArrivedLetterText->Arriben serfs en càpsules que vénen a ajudar al sangòfag que s’ha estavellat.</li>
+    <li>assaultBeginLetterLabel->L’assalt ha començat</li>
+    <li>assaultBeginLetterText->El mestre sangòfag hostil i els seus serfs han començat l’assalt a la colònia!</li>
+  </SanguophageShip.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->You have intercepted a distress signal! A hostile shuttle carrying a sanguophage master and [thrallCount] thralls is having trouble with its engines. You can use signals to draw it down to a crash near [map_definite].\n\nOnce the ship has crashed, you can fight the sanguophage and [sanguophage_possessive] minions. If you can capture the master, you can force [sanguophage_objective] to turn one of your colonists into a sanguophage.\n\n[sanguophageInfo]</li>
+    <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
+  -->
+  <SanguophageShip.questDescriptionRules.rulesStrings>
+    <li>questDescription->Heu interceptat un senyal d’auxili! Una llançadora que porta un mestre sangòfag hostil i [thrallCount] serfs té problemes amb els motors. Podeu fer servir senyals per a que s’estavelli a prop de [map_definite].\n\nQuan s’hagi estavellat, podeu lluitar contra el sangòfag i els seus sequaços. Si captureu al mestre, el podeu forçar perquè converteixi un dels vostres colons en sangòfag.\n\n[sanguophageInfo]</li>
+    <li>sanguophageInfo->(*Gray)Sobre els sangòfags: Els sangòfags són superhumans immortals que no envelleixen gràcies a les arquites que corren per la seva sang creades per arcotècnics. Són molt atractius i extremadament intel·ligents. Poden guarir qualsevol ferida i mai pateixen enverinaments ni intoxicacions. En combat, poden llançar punxes mortals i guarir els seus aliats. Però han de pagar un preu: han de consumir hemogen, que es troba a la sang humana, per a sobreviure i han de permadescansar durant llargs períodes. Se’ls destrueix fàcilment amb foc i queden alentits per la llum ultraviolada.(/Gray)</li>
+  </SanguophageShip.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[shipAdjective] [shipNoun]</li>
+    <li>shipAdjective->sanguophage</li>
+    <li>shipAdjective->bloodthirsty</li>
+    <li>shipAdjective->blood</li>
+    <li>shipAdjective->shadow</li>
+    <li>shipAdjective->dark</li>
+    <li>shipAdjective->crimson</li>
+    <li>shipAdjective->red</li>
+    <li>shipAdjective->scab</li>
+    <li>shipAdjective->hemic</li>
+    <li>shipAdjective->sanguine</li>
+    <li>shipNoun->ship</li>
+    <li>shipNoun->shuttle</li>
+    <li>shipNoun->craft</li>
+    <li>shipNoun->hulk</li>
+    <li>shipNoun->crash</li>
+    <li>shipNoun->wreck</li>
+  -->
+  <SanguophageShip.questNameRules.rulesStrings>
+    <li>questName->[shipNoun] [shipAdjective]</li>
+    <li>shipAdjective->sangòfaga</li>
+    <li>shipAdjective->assedegada de sang</li>
+    <li>shipAdjective->sagnant</li>
+    <li>shipAdjective->obscura</li>
+    <li>shipAdjective->carmesí</li>
+    <li>shipAdjective->roja</li>
+    <li>shipAdjective->hèmica</li>
+    <li>shipAdjective->sanguinària</li>
+    <li>shipNoun->nau</li>
+    <li>shipNoun->llançadora</li>
+    <li>shipNoun->restes de nau transportadora</li>
+    <li>shipNoun->restes de llançadora</li>
+    <li>shipNoun->restes de nau</li>
+  </SanguophageShip.questNameRules.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: blood transfusion -->
+  <BloodTransfusion.label>transfusió de sang</BloodTransfusion.label>
+  <!-- EN: Use hemogen packs to reduce the effects of blood loss. Each hemogen pack used recovers 35% blood loss. The operation will also restore hemogen to hemogenic individuals. -->
+  <BloodTransfusion.description>Fa servir bosses d’hemogen per a reduir els efectes de la pèrdua de sang. Cada bossa d’hemogen que es faci servir recupera un 35 % de sang perduda. L’operació també fa que els hemogènics recuperin hemogen.</BloodTransfusion.description>
+  <!-- EN: performing blood transfusion on TargetA. -->
+  <BloodTransfusion.jobString>fa una transfusió de sang a TargetA.</BloodTransfusion.jobString>
+  
+  <!-- EN: extract hemogen pack -->
+  <ExtractHemogenPack.label>extrau una bossa d’hemogen</ExtractHemogenPack.label>
+  <!-- EN: Extract a hemogen pack from the target. The operation will fail to produce a hemogen pack if the target does not have enough blood.\n\nHemogen packs can be administered to others to reduce blood loss or to satiate those who feed on blood. -->
+  <ExtractHemogenPack.description>Extrau una bossa d’hemogen de l’individu objectiu. L’operació fallarà i no s’obtindrà la bossa d’hemogen si no té prou sang.\n\nLes bosses d’hemogen es poden administrar als individus per a reduir la pèrdua de sang o per a saciar aquelles criatures que s’alimentin de sang.</ExtractHemogenPack.description>
+  <!-- EN: Extracting hemogen pack. -->
+  <ExtractHemogenPack.jobString>Extrau una bossa d’hemogen.</ExtractHemogenPack.jobString>
+  
+  <!-- EN: extract ovum for IVF -->
+  <ExtractOvum.label>extrau un òvul per a FIV</ExtractOvum.label>
+  <!-- EN: Extract an ovum into a storage capsule. It can then be fertilized by a man, and finally implanted into a mother to start a pregnancy. -->
+  <ExtractOvum.description>Extrau un òvul i emmagatzema’l en una càpsula. Després, un home el podrà fertilitzar i es podrà implantar en una mare per a començar un embaràs.</ExtractOvum.description>
+  <!-- EN: extracting ovum from TargetA. -->
+  <ExtractOvum.jobString>extrau un òvul de TargetA</ExtractOvum.jobString>
+  
+  <!-- EN: implant embryo -->
+  <ImplantEmbryo.label>implanta un embrió</ImplantEmbryo.label>
+  <!-- EN: Implant an embryo in a surrogate mother to begin a pregnancy. -->
+  <ImplantEmbryo.description>Implanta un embrió en una mare subrogada per a iniciar un embaràs.</ImplantEmbryo.description>
+  <!-- EN: Implanting embryo in TargetA. -->
+  <ImplantEmbryo.jobString>Implanta un embrió a TargetA.</ImplantEmbryo.jobString>
+  
+  <!-- EN: implant IUD -->
+  <ImplantIUD.label>implanta un DIU</ImplantIUD.label>
+  <!-- EN: Implant a small metal device in the uterus to prevent pregnancies. It can later be removed, but there is a small chance of leaving the patient permanently sterile. This surgery terminates pregnancies in the first trimester. -->
+  <ImplantIUD.description>Implanta un petit dispositiu de metall a l’úter per a evitar embarassos. Més endavant, es podrà traure, però hi ha una probabilitat petita que la pacient quedi estèril permanentment. Aquesta cirurgia interromp els embarassos que estiguin en el primer trimestre.</ImplantIUD.description>
+  <!-- EN: implanting a IUD in TargetA. -->
+  <ImplantIUD.jobString>implanta un DIU a TargetA.</ImplantIUD.jobString>
+  <!-- EN: {0} has successfully implanted an IUD in {1}. -->
+  <ImplantIUD.successfullyRemovedHediffMessage>{0} li ha implantat a {1} un DIU correctament.</ImplantIUD.successfullyRemovedHediffMessage>
+  
+  <!-- EN: implant xenogerm -->
+  <ImplantXenogerm.label>implanta un xenogermen</ImplantXenogerm.label>
+  <!-- EN: Implant a xenogerm into a patient. This replaces any previous xenogerm they may have had. -->
+  <ImplantXenogerm.description>Implanta un xenogermen a un pacient. Es reemplaçarà qualsevol xenogermen que hagi tingut anteriorment.</ImplantXenogerm.description>
+  <!-- EN: Implanting xenogerm. -->
+  <ImplantXenogerm.jobString>Implanta un xenogermen.</ImplantXenogerm.jobString>
+  
+  <!-- EN: remove IUD -->
+  <RemoveIUD.label>retira el DIU</RemoveIUD.label>
+  <!-- EN: Remove an implanted intrauterine device to allow normal pregnancy. If the surgery goes wrong, the patient will be rendered permanently sterile. -->
+  <RemoveIUD.description>Trau el dispositiu intrauterí implantat i permet els embarassos normals. Si la cirurgia va malament, la pacient es pot quedar estèril permanentment.</RemoveIUD.description>
+  <!-- EN: removing IUD from TargetA. -->
+  <RemoveIUD.jobString>trau el DIU de TargetA.</RemoveIUD.jobString>
+  <!-- EN: {0} has successfully removed {1}'s IUD. -->
+  <RemoveIUD.successfullyRemovedHediffMessage>{0} li ha tret a {1} el DIU correctament.</RemoveIUD.successfullyRemovedHediffMessage>
+  
+  <!-- EN: reverse vasectomy -->
+  <ReverseVasectomy.label>reverteix la vasectomía</ReverseVasectomy.label>
+  <!-- EN: Attempt to reverse the vasectomy and make a man capable of fathering children again. Most vasectomy reversals succeed, but if the surgery goes wrong the man will be left permanently sterile. -->
+  <ReverseVasectomy.description>Prova d’invertir la vasectomia i permetre que l’individu pugui tornar a tenir fills biològics de nou. La majoria de les reversions van bé, però si la cirurgia va malament, l’home es quedarà estèril permanentment.</ReverseVasectomy.description>
+  <!-- EN: performing a vasectomy reversal on TargetA. -->
+  <ReverseVasectomy.jobString>li realitza una vasectomia inversa a TargetA.</ReverseVasectomy.jobString>
+  <!-- EN: {0} has successfully performed a vasectomy reversal on {1}. -->
+  <ReverseVasectomy.successfullyRemovedHediffMessage>{0} ha revertit la vasectomia de {1} correctament.</ReverseVasectomy.successfullyRemovedHediffMessage>
+  
+  <!-- EN: terminate pregnancy -->
+  <TerminatePregnancy.label>interromp l’embaràs</TerminatePregnancy.label>
+  <!-- EN: Terminate the pregnancy of an animal or human. -->
+  <TerminatePregnancy.description>Interromp l’embaràs d’un animal o d’un humà.</TerminatePregnancy.description>
+  <!-- EN: terminating TargetA's pregnancy. -->
+  <TerminatePregnancy.jobString>interromp l’embaràs de TargetA.</TerminatePregnancy.jobString>
+  
+  <!-- EN: perform tubal ligation -->
+  <TubalLigation.label>realitza una lligadura de trompes</TubalLigation.label>
+  <!-- EN: Permanently render a patient sterile and unable to reproduce. -->
+  <TubalLigation.description>Fa que un pacient quedi estèril per a sempre i que no es pugui reproduir.</TubalLigation.description>
+  <!-- EN: performing tubal ligation on TargetA. -->
+  <TubalLigation.jobString>li realitza una lligadura de trompes a TargetA.</TubalLigation.jobString>
+  <!-- EN: {0} has successfully performed tubal ligation on {1}. -->
+  <TubalLigation.successfullyRemovedHediffMessage>{0} li ha fet una lligadura de trompes a {1} correctament.</TubalLigation.successfullyRemovedHediffMessage>
+  
+  <!-- EN: perform vasectomy -->
+  <Vasectomy.label>realitza una vasectomia</Vasectomy.label>
+  <!-- EN: Cut the vas deferens to render the patient unable to reproduce. If the surgery goes wrong the patient will be left permanently sterile. -->
+  <Vasectomy.description>Talla els vasos deferents per a fer que el pacient no es pugui reproduir. Si la cirurgia va malament, el pacient es quedarà estèril permanentment.</Vasectomy.description>
+  <!-- EN: performing a vasectomy on TargetA. -->
+  <Vasectomy.jobString>li realitza una vasectomia a TargetA.</Vasectomy.jobString>
+  <!-- EN: {0} has successfully performed a vasectomy on {1}. -->
+  <Vasectomy.successfullyRemovedHediffMessage>{0} li ha fet una vasectomia a {1} correctament.</Vasectomy.successfullyRemovedHediffMessage>
+  
+</LanguageData>
