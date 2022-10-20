@@ -12,12 +12,12 @@
     <li>leaderPawnInfo-></li>
   -->
   <OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>
-    <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] de [faction_name], us envia un missatge. [faction_leader_pronoun] vol parlar amb un membre del vostre grup en un lloc proper.\n\nPot ser una gran ocasió per millorar les relacions amb la seva facció i rebre regals. Però aneu amb compte, ja que un mal negociador pot fer més mal que bé i els pot fer empipar.[extraLeaderPart][favorRewardDetails]</li>
+    <li>questDescription->[faction_leader_nameFull], [faction_leaderTitle] de [faction_name], us envia un missatge. [faction_leader_pronoun] vol parlar amb un membre del vostre grup en un lloc proper.\n\nPot ser una gran ocasió per a millorar les relacions amb la seva facció i rebre regals. Però aneu amb compte, ja que un mal negociador pot fer més mal que bé i els pot fer empipar.[extraLeaderPart][favorRewardDetails]</li>
     <li>favorRewardDetails(faction_leader_royalInCurrentFaction==True,priority=1)->\n\nSi les converses de pau tenen èxit, el negociador aconseguira una quantiat petita de [faction_royalFavorLabel] personal amb [faction_name].</li>
     <li>favorRewardDetails-></li>
     <li>extraLeaderPart(priority=1)->\n\n[leaderRoleEffect].[leaderPawnInfo]</li>
     <li>extraLeaderPart-></li>
-    <li>leaderRoleEffect->Les altres faccions us respectaran més si envieu el vostre líder per dialogar i negociar.</li>
+    <li>leaderRoleEffect->Les altres faccions us respectaran més si envieu el vostre líder per a dialogar i negociar</li>
     <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-> [playerFaction_leaderTitle] [playerFaction_leader_nameFull] tindrà una bonificació de la probabilitat que les converses arribin a bon port.</li>
     <li>leaderPawnInfo-></li>
   </OpportunitySite_PeaceTalks.questDescriptionRules.rulesStrings>

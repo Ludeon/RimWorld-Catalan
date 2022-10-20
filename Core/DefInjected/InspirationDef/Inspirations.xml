@@ -6,60 +6,60 @@
   <!-- EN: Inspired: Go frenzy -->
   <Frenzy_Go.baseInspectLine>Inspiració: frenesí de caminar</Frenzy_Go.baseInspectLine>
   <!-- EN: [PAWN_pronoun] will move faster for the next 8 days. -->
-  <Frenzy_Go.beginLetter>{0} està inspirat. Caminarà 1.5 vegades més depressá les properes 24 hores.</Frenzy_Go.beginLetter>
+  <Frenzy_Go.beginLetter>{0} està {0_gender ? inspirat : inspirada}. Caminarà 1.5 vegades més de pressa les properes 24 hores.</Frenzy_Go.beginLetter>
   <Frenzy_Go.beginLetterLabel>Inspiració: frenesí de caminar</Frenzy_Go.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (go frenzy). -->
-  <Frenzy_Go.endMessage>{0} ja no està inspirat (frenesí de caminar).</Frenzy_Go.endMessage>
+  <Frenzy_Go.endMessage>{0} ja no està {0_gender ? inspirat : inspirada} (frenesí de caminar).</Frenzy_Go.endMessage>
   
   <!-- EN: shoot frenzy -->
   <Frenzy_Shoot.label>frenesí de disparar</Frenzy_Shoot.label>
   <!-- EN: Inspired: Shoot frenzy -->
   <Frenzy_Shoot.baseInspectLine>Inspiració: frenesí de disparar</Frenzy_Shoot.baseInspectLine>
   <!-- EN: [PAWN_pronoun] will shoot more accurately for the next 8 days. -->
-  <Frenzy_Shoot.beginLetter>{0} està inspirat. Tindrà millor punteria durant els pròxims 3 dies.</Frenzy_Shoot.beginLetter>
+  <Frenzy_Shoot.beginLetter>{0} està {0_gender ? inspirat : inspirada}. Tindrà millor punteria durant els pròxims 3 dies.</Frenzy_Shoot.beginLetter>
   <Frenzy_Shoot.beginLetterLabel>Inspiració: frenesí de disparar</Frenzy_Shoot.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (shoot frenzy). -->
-  <Frenzy_Shoot.endMessage>{0} ja no està inspirat (frenesí de disparar).</Frenzy_Shoot.endMessage>
+  <Frenzy_Shoot.endMessage>{0} ja no està {0_gender ? inspirat : inspirada} (frenesí de disparar).</Frenzy_Shoot.endMessage>
   
   <!-- EN: work frenzy -->
   <Frenzy_Work.label>frenesí de treball</Frenzy_Work.label>
   <!-- EN: Inspired: Work frenzy -->
   <Frenzy_Work.baseInspectLine>Inspiració: Frenesí de treball</Frenzy_Work.baseInspectLine>
   <!-- EN: [PAWN_pronoun] will work faster for the next 8 days. -->
-  <Frenzy_Work.beginLetter>{0} està inspirat. Treballarà 2.5 vegades més ràpid les properes 24 hores.</Frenzy_Work.beginLetter>
+  <Frenzy_Work.beginLetter>{0} està {0_gender ? inspirat : inspirada}. Treballarà 2.5 vegades més ràpid les properes 24 hores.</Frenzy_Work.beginLetter>
   <Frenzy_Work.beginLetterLabel>Inspiració: frenesí de treball</Frenzy_Work.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (work frenzy). -->
-  <Frenzy_Work.endMessage>{0} ja no està inspirat (frenesí de treball).</Frenzy_Work.endMessage>
+  <Frenzy_Work.endMessage>{0} ja no està {0_gender ? inspirat : inspirada} (frenesí de treball).</Frenzy_Work.endMessage>
   
   <!-- EN: inspired creativity -->
   <Inspired_Creativity.label>creativitat inspirada</Inspired_Creativity.label>
   <!-- EN: Inspired: Inspired creativity -->
   <Inspired_Creativity.baseInspectLine>Inspiració: creativitat</Inspired_Creativity.baseInspectLine>
   <!-- EN: The next item, art, or furniture [PAWN_pronoun] creates will be two quality levels higher than it would otherwise be. This even allows the creation of legendary items.\n\nThe inspiration will end after 8 days, or when the creation is completed. -->
-  <Inspired_Creativity.beginLetter>{0} està inspirat. La propera peça d’art o mobiliari que faci serà 2 nivells de qualitat superior del que hagués estat.\n\nLa inspiració s’acabarà d’aquí a 8 dies o quan es faci la peça d’art o mobiliari.</Inspired_Creativity.beginLetter>
+  <Inspired_Creativity.beginLetter>{0} està {0_gender ? inspirat : inspirada}. La propera peça d’art o mobiliari que faci serà 2 nivells de qualitat superior del que hagués estat.\n\nLa inspiració s’acabarà d’aquí a 8 dies o quan es faci la peça d’art o mobiliari.</Inspired_Creativity.beginLetter>
   <Inspired_Creativity.beginLetterLabel>Inspiració: creativitat</Inspired_Creativity.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (inspired creativity). -->
-  <Inspired_Creativity.endMessage>{0} ja no està inspirat (creativitat).</Inspired_Creativity.endMessage>
+  <Inspired_Creativity.endMessage>{0} ja no està {0_gender ? inspirat : inspirada} (creativitat).</Inspired_Creativity.endMessage>
   
   <!-- EN: inspired recruitment -->
   <Inspired_Recruitment.label>reclutament inspirat</Inspired_Recruitment.label>
   <!-- EN: Inspired: Inspired recruitment -->
   <Inspired_Recruitment.baseInspectLine>Inspiració: reclutament inspirat</Inspired_Recruitment.baseInspectLine>
   <!-- EN: [PAWN_pronoun] will successfully recruit the next prisoner regardless of difficulty or resistance.\n\nThe inspiration will end after 8 days, or when the prisoner is recruited. -->
-  <Inspired_Recruitment.beginLetter>{0} està inspirat. Aconseguirà reclutar el proper presoner sense importar com en sigui de difícil.\n\nLa inspiració s’acabarà d’aquí a 8 dies o quan es recluti al presoner.</Inspired_Recruitment.beginLetter>
+  <Inspired_Recruitment.beginLetter>{0} està {0_gender ? inspirat : inspirada}. Aconseguirà reclutar el proper presoner sense importar com en sigui de difícil.\n\nLa inspiració s’acabarà d’aquí a 8 dies o quan es recluti al presoner.</Inspired_Recruitment.beginLetter>
   <Inspired_Recruitment.beginLetterLabel>Inspiració: reclutament inspirat</Inspired_Recruitment.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (inspired recruitment). -->
-  <Inspired_Recruitment.endMessage>{0} ja no està inspirat (reclutament inspirat).</Inspired_Recruitment.endMessage>
+  <Inspired_Recruitment.endMessage>{0} ja no està {0_gender ? inspirat : inspirada} (reclutament inspirat).</Inspired_Recruitment.endMessage>
   
   <!-- EN: inspired surgery -->
   <Inspired_Surgery.label>cirurgia inspirada</Inspired_Surgery.label>
   <!-- EN: Inspired: Inspired surgery -->
   <Inspired_Surgery.baseInspectLine>Inspiració: cirurgia inspirada</Inspired_Surgery.baseInspectLine>
   <!-- EN: The next time [PAWN_pronoun] performs a surgery, [PAWN_possessive] chance of success will be doubled. A small minimum chance of failure still applies.\n\nThe inspiration will end after 8 days, or when the surgery is performed. -->
-  <Inspired_Surgery.beginLetter>{0} està inspirada. Les possibilitats que la propera cirurgia que faci vagi malament serà 10 vegades inferior.\n\nLa inspiració s’acabarà d’quí a 8 dies i quan es faci l’operació.</Inspired_Surgery.beginLetter>
+  <Inspired_Surgery.beginLetter>{0} està {0_gender ? inspirat : inspirada}. Les possibilitats que la propera cirurgia que faci vagi malament serà 10 vegades inferior.\n\nLa inspiració s’acabarà d’quí a 8 dies i quan es faci l’operació.</Inspired_Surgery.beginLetter>
   <Inspired_Surgery.beginLetterLabel>Inspiració: cirurgia inspirada</Inspired_Surgery.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (inspired surgery). -->
-  <Inspired_Surgery.endMessage>{0} ja no està inspirat (cirurgia inspirada).</Inspired_Surgery.endMessage>
+  <Inspired_Surgery.endMessage>{0} ja no està {0_gender ? inspirat : inspirada} (cirurgia inspirada).</Inspired_Surgery.endMessage>
   
   <!-- EN: inspired taming -->
   <Inspired_Taming.label>domesticació inspirada</Inspired_Taming.label>
@@ -75,9 +75,9 @@
   <!-- EN: Inspired: Inspired trade -->
   <Inspired_Trade.baseInspectLine>Inspiració: negociació inspirada</Inspired_Trade.baseInspectLine>
   <!-- EN: [PAWN_pronoun] will get a significant trade price bonus when closing [PAWN_possessive] next trade deal.\n\nThe inspiration will expire after 8 days, or when the deal is done. -->
-  <Inspired_Trade.beginLetter>{0} està inspirat. Tindrà una bonificació significativa en el preu de la propera compravenda que faci.\n\nLa inspiració s’acabarà d’aquí a 8 dies o quan acabi la propera compravenda.</Inspired_Trade.beginLetter>
+  <Inspired_Trade.beginLetter>{0} està {0_gender ? inspirat : inspirada}. Tindrà una bonificació significativa en el preu de la propera compravenda que faci.\n\nLa inspiració s’acabarà d’aquí a 8 dies o quan acabi la propera compravenda.</Inspired_Trade.beginLetter>
   <Inspired_Trade.beginLetterLabel>Inspiració: negociació inspirada</Inspired_Trade.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (inspired trade). -->
-  <Inspired_Trade.endMessage>{0} ja no està inspirat (negociació inspirada).</Inspired_Trade.endMessage>
+  <Inspired_Trade.endMessage>{0} ja no està {0_gender ? inspirat : inspirada} (negociació inspirada).</Inspired_Trade.endMessage>
   
 </LanguageData>

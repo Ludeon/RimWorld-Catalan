@@ -69,7 +69,7 @@
   <MessageOutOfNearbyFuelFor>{PAWN_labelShort} no ha trobat {FUEL} sense reservar a prop per a {GUN_label}.</MessageOutOfNearbyFuelFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
-  <MessageAnimalsGoPsychoHunted>Avís: {ANIMAL_kindBasePluralDef} tenen una probabilitat del {1} d’atacar si se’l fereix. La probabilitat depèn de la distància d’atac i del sigil del caçador.</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalsGoPsychoHunted>Avís: {ANIMAL_kindBasePluralDef} tenen una probabilitat del {1} d’atacar si se’ls fereix. La probabilitat depèn de la distància d’atac i del sigil del caçador.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Avís: {ANIMAL_kindBasePluralDef} podrien atacar si falla la domesticació (probabilitat del {1}).</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
@@ -212,7 +212,7 @@
   <MessageSocialFight>{PAWN1_definite} ha començat una baralla amb {PAWN2_definite}.</MessageSocialFight>
   
   <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}'s marriage. -->
-  <MessageNewMarriageCeremony>Els colons es reuneixen per celebrar el casament entre {PAWN1_definite} i {PAWN2_definite}.</MessageNewMarriageCeremony>
+  <MessageNewMarriageCeremony>Els colons es reuneixen per a celebrar el casament entre {PAWN1_definite} i {PAWN2_definite}.</MessageNewMarriageCeremony>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are beginning their marriage ceremony! -->
   <MessageMarriageCeremonyStarts>{PAWN1_definite} i {PAWN2_definite} comencen la cerimònia de casament!</MessageMarriageCeremonyStarts>
   <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has been called off. -->
@@ -280,7 +280,7 @@
   <MessageMaxPlanetCoveragePerformanceWarning>Avís: Es pot tardar molt a generar un planeta sencer.</MessageMaxPlanetCoveragePerformanceWarning>
 
   <!-- EN: {0} has died because of cold. -->
-  <MessagePlantDiedOfCold>{0} ha mort pel fred.</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfCold>{0_definite} ha mort pel fred.</MessagePlantDiedOfCold>
   <!-- EN: {0} has died from rotting due to being left unharvested. -->
   <MessagePlantDiedOfRot_LeftUnharvested>{0} s’ha podrit perquè no es va recollir a temps.</MessagePlantDiedOfRot_LeftUnharvested>
   <!-- EN: {0} has died due to being exposed to light. -->
@@ -506,7 +506,7 @@
   <!-- EN: {0_labelShort} stripped -->
   <GoodwillChangedReason_PawnStripped>s’ha despullat a {0_labelShort}</GoodwillChangedReason_PawnStripped>
   <!-- EN: traded -->
-  <GoodwillChangedReason_Traded>s’ha comerciat</GoodwillChangedReason_Traded>
+  <GoodwillChangedReason_Traded>s’hi ha comerciat</GoodwillChangedReason_Traded>
   <!-- EN: attacked a caravan -->
   <GoodwillChangedReason_AttackedCaravan>s’ha atacat una caravana</GoodwillChangedReason_AttackedCaravan>
   <!-- EN: {1_labelShort} exited the map healthy -->
@@ -781,9 +781,9 @@
   <NothingAvailableInCategory>No hi ha res d’aquesta categoria que es pugui construir ara mateix.</NothingAvailableInCategory>
 
   <!-- EN: Storage settings linked for {0} buildings. -->
-  <SettingsLinkedFor>S’ha enllaçat la configuració d’emmagatzematge de {0} edificis.</SettingsLinkedFor>
+  <SettingsLinkedFor>S’ha enllaçat la configuració d’emmagatzematge de {0} estructures.</SettingsLinkedFor>
   <!-- EN: Storage settings unlinked for {0} buildings. -->
-  <SettingsUnlinkedFor>S’ha separat la configuració d’emmagatzematge de {0} edificis.</SettingsUnlinkedFor>
+  <SettingsUnlinkedFor>S’ha separat la configuració d’emmagatzematge de {0} estructures.</SettingsUnlinkedFor>
   <!-- EN: Storage settings copied to clipboard. -->
   <StorageSettingsCopiedToClipboard>S’ha copiat la configuració d’emmagatzematge al porta-retalls.</StorageSettingsCopiedToClipboard>
   <!-- EN: Storage settings pasted from clipboard. -->

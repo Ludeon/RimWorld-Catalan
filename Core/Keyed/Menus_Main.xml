@@ -466,7 +466,7 @@
   <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
   <Difficulty_EnemyReproductionRateFactor_Info>Ajusteu la freqüència amb què apareixen insectes als seus nius i ruscos. Els valors petits signifiquen més temps entre aparicions.\n\nNo afecta la probabilitat que aparegui una plaga: només afecta el ritme al que els nius actius produeixen insectes.</Difficulty_EnemyReproductionRateFactor_Info>
   <!-- EN: Deep drilling infestations -->
-  <Difficulty_DeepDrillInfestationChanceFactor_Label>Plagues per perforació profundes</Difficulty_DeepDrillInfestationChanceFactor_Label>
+  <Difficulty_DeepDrillInfestationChanceFactor_Label>Plagues per perforacions profundes</Difficulty_DeepDrillInfestationChanceFactor_Label>
   <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
   <Difficulty_DeepDrillInfestationChanceFactor_Info>Ajusteu la probabilitat que una perforació profunda alliberi una plaga.</Difficulty_DeepDrillInfestationChanceFactor_Info>
   <!-- EN: Map generation ancient threats -->
@@ -723,12 +723,10 @@
   <!-- Factions -->
   <!-- EN: Factions -->
   <Factions>Faccions</Factions>
-  <!-- EN: Gameplay problems can occur with more than {0} factions. -->
-  <RecommendedFactionCount>Amb més de {0} faccions poden haver problemes de jugabilitat.</RecommendedFactionCount>
-  <!-- EN: max {0} visible factions allowed -->
-  <TotalFactionsAllowed>es permet un màxim de {0} faccions visibles.</TotalFactionsAllowed>
+  <!-- EN: max {0} basic factions allowed -->
+  <TotalFactionsAllowed>es permet un màxim de {0} faccions bàsiques</TotalFactionsAllowed>
   <!-- EN: max {0} -->
-  <MaxFactionsForType>com a màxim, {0}</MaxFactionsForType>
+  <MaxFactionsForType>{0} com a màxim</MaxFactionsForType>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
   <FactionSelectionDesc>Seleccioneu les faccions al món. Podeu seleccionar-ne fins a {0}.</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->

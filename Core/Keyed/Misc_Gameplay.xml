@@ -252,8 +252,8 @@
   <CaravanAttacking>Ataca a {0}.</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>Ofereix regals a {0}.</CaravanOfferingGifts>
-  <!-- EN: Trading with {0} -->
-  <CaravanTrading>Comercia amb {0}</CaravanTrading>
+  <!-- EN: Trading with {0}. -->
+  <CaravanTrading>Comercia amb {0}.</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>Tacat per haver-ho portat un cadàver.</WasWornByCorpse>
   <!-- EN: T -->
@@ -263,7 +263,7 @@
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>a l’aire lliure</DeterioratingOutdoors>
   <!-- EN: raining -->
-  <DeterioratingRaining>sota la pluja</DeterioratingRaining> <!-- text_todo -->
+  <DeterioratingRaining>sota la pluja</DeterioratingRaining> 
   <!-- EN: protected -->
   <Protected>protegit</Protected>
   <!-- EN: Deteriorating -->
@@ -591,9 +591,9 @@
   <!-- EN: Headshot -->
   <Headshot>Tret al cap</Headshot>
   <!-- EN: Treatment success!\n{0} chance -->
-  <TextMote_TreatSuccess>El tractament ha funcionat!\n(probabilitat d’èxit del {0})</TextMote_TreatSuccess>
+  <TextMote_TreatSuccess>El tractament ha funcionat!\nProbabilitat d’èxit del {0}</TextMote_TreatSuccess>
   <!-- EN: Treatment failed\n{0} chance -->
-  <TextMote_TreatFailed>El tractament no ha funcionat.\n(probabilitat d’èxit del {0})</TextMote_TreatFailed>
+  <TextMote_TreatFailed>El tractament no ha funcionat.\nProbabilitat d’èxit del {0}</TextMote_TreatFailed>
   <!-- EN: Harvest\nbotched -->
   <TextMote_HarvestFailed>Collita\nfallida</TextMote_HarvestFailed>
   <!-- EN: Yield\nwasted -->
@@ -601,17 +601,17 @@
   <!-- EN: Product\nwasted -->
   <TextMote_ProductWasted>Producte\nmalbaratat</TextMote_ProductWasted>
   <!-- EN: Recruit failed!\n{0} chance -->
-  <TextMote_RecruitFail>El reclutament ha fracassat!\n(probabilitat d’èxit del {0})</TextMote_RecruitFail>
+  <TextMote_RecruitFail>El reclutament ha fracassat!\nProbabilitat d’èxit del {0}</TextMote_RecruitFail>
   <!-- EN: Resistance\n{0} to {1} -->
   <TextMote_ResistanceReduced>Resistència\nde {0} a {1}</TextMote_ResistanceReduced>
   <!-- EN: Tame failed\n{0} chance -->
-  <TextMote_TameFail>La doma ha fallat.\n(probabilitat d’èxit del {0})</TextMote_TameFail>
+  <TextMote_TameFail>La doma ha fallat.\nProbabilitat d’èxit del {0}</TextMote_TameFail>
   <!-- EN: Tamed! -->
-  <TextMote_TameSuccess>La domesticació ha tingut èxit!\n(probabilitats d’èxit del {0})</TextMote_TameSuccess>
+  <TextMote_TameSuccess>La domesticació ha tingut èxit!\nProbabilitat d’èxit del {0)</TextMote_TameSuccess>
   <!-- EN: Failed training: {0}\n{1} chance -->
-  <TextMote_TrainFail>L’entrenament ha fracassat: {0}\n(probabilitat d’èxit del {1})</TextMote_TrainFail>
+  <TextMote_TrainFail>L’entrenament ha fracassat: {0}\nProbabilitat d’èxit del {1}</TextMote_TrainFail>
   <!-- EN: Trained: {0}\n{1} chance -->
-  <TextMote_TrainSuccess>L’entrenament ha anat bé: {0}\n(probabilitat d’èxit del {1})</TextMote_TrainSuccess>
+  <TextMote_TrainSuccess>L’entrenament ha anat bé: {0}\nProbabilitat d’èxit del {1}</TextMote_TrainSuccess>
   <!-- EN: Repair\nbotched -->
   <TextMote_FixBrokenDownBuildingFail>Reparació\ndeficient</TextMote_FixBrokenDownBuildingFail>
   <!-- EN: Construction\nbotched -->
@@ -681,7 +681,7 @@
   <!-- EN: Not enclosed - build fences -->
   <PenSizeDesc_Unenclosed>El perímetre és obert – envolteu-lo amb tanques.</PenSizeDesc_Unenclosed>
   <!-- EN: {ANIMALDEF_label} capacity -->
-  <PenCapacityDesc>Capacitat per a {ANIMALDEF_label}</PenCapacityDesc>
+  <PenCapacityDesc>Capacitat per a {ANIMALDEF_labelPlural}</PenCapacityDesc>
   <!-- EN: Example animals -->
   <PenExampleAnimals>Animals d’exemple</PenExampleAnimals>
   <!-- EN: No exterior access - Animals cannot be moved in or out. -->
@@ -713,13 +713,13 @@
   <!-- EN: Road -->
   <Road_Label>Camí</Road_Label>
   <!-- EN: River -->
-  <River_Label>Riu</River_Label> <!-- text_todo -->
+  <River_Label>Riu</River_Label> 
   <!-- EN: Movement difficulty -->
   <MovementDifficulty_Label>Dificultat de moviment</MovementDifficulty_Label>
   <!-- EN: Pollution -->
   <Pollution_Label>Contaminació</Pollution_Label>
   <!-- EN: Filth -->
-  <Filth_Label>Brutícia</Filth_Label><!-- text_todo -->
+  <Filth_Label>Brutícia</Filth_Label>
   
   <!-- EN: Faction -->
   <Faction_Label>Facció</Faction_Label>
@@ -1187,7 +1187,7 @@
 
   <!-- Building placement -->
   <!-- EN: You have no usable materials from which to build this. -->
-  <NoStuffsToBuildWith>No teniu materials per construir-ho.</NoStuffsToBuildWith>
+  <NoStuffsToBuildWith>No teniu materials per a construir-ho.</NoStuffsToBuildWith>
 
   <!-- Building placement restricters -->
   <!-- EN: {0} will have work speed penalty -->

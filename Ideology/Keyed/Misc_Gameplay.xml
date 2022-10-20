@@ -102,7 +102,7 @@
   <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
   <FavoriteColorTooltip>El color preferit de {PAWN_labelShort}. Si té més d’un {PERCENTAGE} d’indumentària d’aquest color{ORIDEO}, serà una mica més feliç.\n\nPodeu alterar els colors a la taula de d’estilisme amb tints extrets de la planta tintorera.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
-  <OrIdeoColor>, o el color de la seva ideoligió</OrIdeoColor>
+  <OrIdeoColor> o el de la seva ideoligió</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Estableix el color de la ideoligió</SetIdeoColor>
   <!-- EN: Set to favorite color -->
@@ -456,7 +456,7 @@
   <!-- EN: Nobody -->
   <Nobody>Ningú</Nobody>
   <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
-  <ConnectedPawnDesc>La persona connectada a {TREE_gender ? aquest : aquesta} {TREE_label}. Si la persona connectada mor, {TREE_labelDefinite} no es podrà a connectar amb altres persones durant {DURATION}.</ConnectedPawnDesc>
+  <ConnectedPawnDesc>La persona connectada a {TREE_gender ? aquest : aquesta} {TREE_label}. Si la persona connectada mor, {TREE_labelDef} no es podrà a connectar amb altres persones durant {DURATION}.</ConnectedPawnDesc>
   <!-- EN: Connection torn. Can connect in {0}. -->
   <ConnectionTorn>S’ha arrencat la connexió. Es pot connectar d’aquí a {0}.</ConnectionTorn>
   <!-- EN: {PAWN_nameDef} is too far away -->
