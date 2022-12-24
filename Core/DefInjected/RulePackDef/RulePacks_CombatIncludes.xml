@@ -302,10 +302,10 @@
     <li>damaged_targetsDef2(recipient_part_damaged_count==3)->[recipient_part_damaged0_definite], [recipient_part_damaged1_definite] i [recipient_part_damaged2_definite]</li>
     <li>damaged_targetsDef2->[recipient_part_damaged0_label], [recipient_part_damaged1_definite], [recipient_part_damaged2_definite] i [recipient_part_damaged3_definite]</li>
     <!--Sense definir-->
+    <li>destroyed_targets(recipient_part_destroyed_count==0)-></li>
     <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
     <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] i [recipient_part_destroyed1_label]</li>
-    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label] i [recipient_part_destroyed2_label]</li>
-    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label] i [recipient_part_destroyed3_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count>=3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label] i [recipient_part_destroyed2_label]</li>
     <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
     <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] i [recipient_part_damaged1_label]</li>
     <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label] i [recipient_part_damaged2_label]</li>

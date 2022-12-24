@@ -4,7 +4,9 @@
   <!-- EN:
     <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentTicks_duration] after completion, otherwise [asker_nameDef] will be unhappy.</li>
   -->
-  <Decree_BuildMonument.questDescriptionRules.rulesStrings>TODO</Decree_BuildMonument.questDescriptionRules.rulesStrings>
+  <Decree_BuildMonument.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nHeu de construir un monument. Les seves mides són [monumentSize] i requerirà aquests recursos (amb un valor total de [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nHeu de mantenir el monument a resguard durant [keepMonumentTicks_duration] després que es completi; si no, [asker_nameDef] s'enfadarà.</li>
+  </Decree_BuildMonument.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->monument decree</li>
   -->
@@ -24,9 +26,9 @@
   <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\n[asker_pronoun] will be unhappy about this. -->
   <Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>[asker_nameDef] es sent of[asker_ees_esa] perquè heu permès que el monument quedi malmès tan aviat.\n\nPer això, s’ha enfadat.</Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>No destruïu el monument durant {0}</Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>
+  <Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>No destruïu el monument durant {0}.</Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>
   <!-- EN: Do not destroy the monument for {0} -->
-  <Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>No destruïu el monument durant {0}</Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>
+  <Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>No destruïu el monument durant {0}.</Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>
   <!-- EN: Keep monument {0} -->
   <Decree_BuildMonument.KeepMonument.slateRef>Manteniu el monument {0}</Decree_BuildMonument.KeepMonument.slateRef>
   

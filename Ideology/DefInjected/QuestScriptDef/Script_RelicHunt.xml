@@ -6,7 +6,11 @@
     <li>questDescription(classicMode==False)->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name].</li>
     <li>questDescriptionPartBeforeDiscovery->First, you need to find the [relic_name]. Watch for opportunities to gather information about it.</li>
   -->
-  <RelicHunt.questDescriptionRules.rulesStrings>TODO</RelicHunt.questDescriptionRules.rulesStrings>
+  <RelicHunt.questDescriptionRules.rulesStrings>
+    <li>questDescription(classicMode==True)->Heu descobert que hi ha una relíquia valuosa a prop.\n\nLa relíquia «[relic_name]» és una dels  [relicGlobalCount] objectes antics que veneren molta gent. Si poguéssiu aconseguir-la, podríeu construir un reliquiari per a fer feliços als colons i per a atraure peregrins rics.</li>
+    <li>questDescription(classicMode==False)->Heu descobert que una relíquia del [ideo_name] està a prop.\n\nLa relíquia «[relic_name]» és un objecte venerat per tots els [ideo_memberNamePlural]. Si la recupereu, podreu construir un reliquiari que farà feliços els [ideo_memberNamePlural] feliços, atraure peregrins rics i que més gent es converteixi al [ideo_name].</li>
+    <li>questDescriptionPartBeforeDiscovery->Primer, heu de trobar [relic_name]. Aprofiteu les oportunitats que trobeu per a aconseguir-ne més informació.</li>
+  </RelicHunt.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [hunt] for the [item]</li>
     <li>questName->The [itemAdj] [item]</li>
@@ -21,6 +25,28 @@
     <li>itemAdj->revered</li>
     <li>itemAdj->venerated</li>
   -->
-  <RelicHunt.questNameRules.rulesStrings>TODO</RelicHunt.questNameRules.rulesStrings>
+  <RelicHunt.questNameRules.rulesStrings>
+    <li>questName(p=3)->La [hunt] de [item]</li>
+    <li>questName(classicMode==False)->[item] de [ideo_name]</li>
+    <li>questName->[itemMasc] [itemAdjMasc]</li>
+    <li>questName->[itemFem] [itemAdjFem]</li>
+    <li>hunt->cerca</li>
+    <li>hunt->búsqueda</li>
+    <li>hunt->recerca</li>
+    <li>item->la relíquia [relic_name]</li>
+    <li>item(p=4)->la relíquia</li>
+    <li>item(p=4)->l'artefacte</li>
+    <li>itemFem->la relíquia [relic_name]</li>
+    <li>itemFem(p=4)->la relíquia</li>
+    <li>itemMasc->l'artefacte</li>
+    <li>itemAdjMasc->ancestral</li>
+    <li>itemAdjMasc->reverenciat</li>
+    <li>itemAdjMasc->venerat</li>
+    <li>itemAdjMasc->perdut</li>
+    <li>itemAdjFem->ancestral</li>
+    <li>itemAdjFem->reverenciada</li>
+    <li>itemAdjFem->venerada</li>
+    <li>itemAdjFem->perduda</li>
+  </RelicHunt.questNameRules.rulesStrings>
   
 </LanguageData>

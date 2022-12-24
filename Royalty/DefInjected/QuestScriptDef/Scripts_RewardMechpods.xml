@@ -8,7 +8,13 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request. [commonMainPart]</li>
     <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, (*Threat)a mechanoid cluster(/Threat) will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.[helpersParagraph]</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>TODO</ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+  <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
+    <li>dangersDescription(priority=1)->\n\nLes càpsules contenen aquests perills:\n\n[allThreats]</li>
+    <li>dangersDescription-></li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], us demana ajuda. [commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], [asker_un] [asker_royalTitleInCurrentFaction] de [asker_faction_name], us sol·licita ajuda. [commonMainPart]</li>
+    <li>commonMainPart->Un eixam mecanoide ataca els seus assentaments. Vol que els atragueu mentre [asker_pronoun] destrueix el seu niu. Si ho feu, (*Threat)un clúster mecanoide(/Threat) aterrarà a [map_definite].[dangersDescription]\n\nQuan arribi, el clúster mecanoide estarà latent. Potser té un rellotge de compte enrere o continuarà latent fins que se'l molesti.[helpersParagraph]</li>
+  </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>
     <li>questName->[menace] pods</li>
@@ -24,6 +30,26 @@
     <li>menace->terror</li>
     <li>menace->fear</li>
   -->
-  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>TODO</ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+  <ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
+    <li>questName->clúster [menaceMasc]</li>
+    <li>questName->càpsules [menaceFemPlural]</li>
+    <li>questName->[nameBased]</li>
+    <li>nameBased->els meques de [asker_nameDef]</li>
+    <li>nameBased->els mecanoides de [asker_nameDef]</li>
+    <li>nameBased->el clúster mecanoide de [asker_nameDef]</li>
+    <li>nameBased->l'amenaça mecanoide de [asker_nameDef]</li>
+    <li>menaceMasc->amenaçador</li>
+    <li>menaceMasc->espantós</li>
+    <li>menaceMasc->temible</li>
+    <li>menaceMasc->perillós</li>
+    <li>menaceMasc->terrorífic</li>
+    <li>menaceMasc->horripilant</li>
+    <li>menaceFemPlural->amenaçadores</li>
+    <li>menaceFemPlural->espantoses</li>
+    <li>menaceFemPlural->temibles</li>
+    <li>menaceFemPlural->perilloses</li>
+    <li>menaceFemPlural->terrorífiques</li>
+    <li>menaceFemPlural->horripilants</li>
+  </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>

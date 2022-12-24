@@ -50,7 +50,7 @@
   <CorpseObsession.beginLetter>{0} té una obsessió pels cadàvers. En desenterrarà i els mostrarà a tothom.</CorpseObsession.beginLetter>
   <CorpseObsession.beginLetterLabel>obsessió pels cadàvers</CorpseObsession.beginLetterLabel>
   <!-- EN: {0} is no longer having a corpse obsession. -->
-  <CorpseObsession.recoveryMessage>{0} ja no està {0_gender ? obsessionat : obsessionada} pels cadàvers.</CorpseObsession.recoveryMessage>
+  <CorpseObsession.recoveryMessage>{0} ja no està {PAWN_gender ? obsessionat : obsessionada} pels cadàvers.</CorpseObsession.recoveryMessage>
   
   <!-- EN: fire starting spree -->
   <FireStartingSpree.label>atac de piromania</FireStartingSpree.label>

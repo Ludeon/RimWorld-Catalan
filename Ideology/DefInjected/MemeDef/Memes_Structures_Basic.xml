@@ -4,7 +4,7 @@
   <!-- EN: animist -->
   <Structure_Animist.label>animisme</Structure_Animist.label>
   <!-- EN: Spirits live in everything around us. In the plants and animals, rivers and trees, sky and stars. The moral structure of the universe springs from the necessity of respecting them. -->
-  <Structure_Animist.description>TODO</Structure_Animist.description>
+  <Structure_Animist.description>Els esperits viuen entre nosaltres. A les plantes, als animals, als rius, als arbres, al cel, a les estrelles… L'estructura moral de l'univers emana de la necessitat de respectar-los.</Structure_Animist.description>
   <!-- EN:
     <li>memeLeaderNoun->curate</li>
     <li>memeLeaderNoun->speaker</li>
@@ -16,7 +16,17 @@
     <li>memeMoralist->priest</li>
     <li>memeMoralist->elder</li>
   -->
-  <Structure_Animist.generalRules.rulesStrings>TODO</Structure_Animist.generalRules.rulesStrings>
+  <Structure_Animist.generalRules.rulesStrings>
+    <li>memeLeaderNoun->guaridor</li>
+    <li>memeLeaderNoun->orador</li>
+    <li>memeLeaderAdjective->universal</li>
+    <li>memeLeaderAdjective->espiritual</li>
+    <li>memeLeaderAdjective->animista</li>
+    <li>memeHyphenPrefix->ani</li>
+    <li>memeMoralist->xaman</li>
+    <li>memeMoralist->sacerdot</li>
+    <li>memeMoralist->savi</li>
+  </Structure_Animist.generalRules.rulesStrings>
   <!-- EN: animist -->
   <Structure_Animist.symbolPacks.0.adjective>animista</Structure_Animist.symbolPacks.0.adjective>
   <!-- EN: animist -->
@@ -51,7 +61,21 @@
     <li>memeMoralist->rector</li>
     <li>memeMoralist->abbot</li>
   -->
-  <Structure_Archist.generalRules.rulesStrings>TODO</Structure_Archist.generalRules.rulesStrings>
+  <Structure_Archist.generalRules.rulesStrings>
+    <li>memeAdjective->àrquic</li>
+    <li>memeAdjective->arcotècnic</li>
+    <li>memeAdjective->arcònic</li>
+    <li>memeHyphenPrefix->arco</li>
+    <li>memeHyphenPrefix->arco</li>
+    <li>memeLeaderNoun->arquista</li>
+    <li>memeLeaderNoun->arcotecnista</li>
+    <li>memeLeaderAdjective->àrquic</li>
+    <li>memeLeaderAdjective->exocròmic</li>
+    <li>memeMoralist->sacerdot</li>
+    <li>memeMoralist->clergue</li>
+    <li>memeMoralist->rector</li>
+    <li>memeMoralist->abad</li>
+  </Structure_Archist.generalRules.rulesStrings>
   <!-- EN: archotechnic -->
   <Structure_Archist.symbolPacks.0.adjective>arcotècnic</Structure_Archist.symbolPacks.0.adjective>
   <!-- EN: Archotechnics -->
@@ -91,7 +115,22 @@
     <li>memeMoralist->academic</li>
     <li>memeMoralist->sophist</li>
   -->
-  <Structure_Ideological.generalRules.rulesStrings>TODO</Structure_Ideological.generalRules.rulesStrings>
+  <Structure_Ideological.generalRules.rulesStrings>
+    <li>memeHyphenPrefix->ideo</li>
+    <li>memeLeaderNoun->cervell</li>
+    <li>memeLeaderNoun->geni</li>
+    <li>memeLeaderNoun->líder</li>
+    <li>memeLeaderAdjective->ètic</li>
+    <li>memeLeaderAdjective->moral</li>
+    <li>memeLeaderAdjective->despertat</li>
+    <li>memeMoralist->conseller</li>
+    <li>memeMoralist->eticista</li>
+    <li>memeMoralist->moralista</li>
+    <li>memeMoralist->filòsof</li>
+    <li>memeMoralist->pensador</li>
+    <li>memeMoralist->acadèmic</li>
+    <li>memeMoralist->sofista</li>
+  </Structure_Ideological.generalRules.rulesStrings>
   <!-- EN: ethical -->
   <Structure_Ideological.symbolPacks.0.adjective>ètic</Structure_Ideological.symbolPacks.0.adjective>
   <!-- EN: Ethics -->
@@ -144,7 +183,27 @@
     <li>memeMoralist->rector</li>
     <li>memeMoralist->abbot</li>
   -->
-  <Structure_TheistAbstract.generalRules.rulesStrings>TODO</Structure_TheistAbstract.generalRules.rulesStrings>
+  <Structure_TheistAbstract.generalRules.rulesStrings>
+    <li>memeCreed->temple</li>
+    <li>memeCreed->secta</li>
+    <li>memeCreed->culte</li>
+    <li>memeCreed->fe</li>
+    <li>memeHyphenPrefix->teo</li>
+    <li>memeConcept->creació</li>
+    <li>memeConcept->vida</li>
+    <li>memeLeaderNoun->bisbe</li>
+    <li>memeLeaderNoun->cardenal</li>
+    <li>memeLeaderNoun->papa</li>
+    <li>memeLeaderNoun->arquebisbe</li>
+    <li>memeLeaderAdjective->sagrat</li>
+    <li>memeLeaderAdjective->diví</li>
+    <li>memeMoralist->sacerdot</li>
+    <li>memeMoralist->pastor</li>
+    <li>memeMoralist->clergue</li>
+    <li>memeMoralist->predicador</li>
+    <li>memeMoralist->rector</li>
+    <li>memeMoralist->abad</li>
+  </Structure_TheistAbstract.generalRules.rulesStrings>
   <!-- EN: spiritual -->
   <Structure_TheistAbstract.symbolPacks.0.adjective>espiritual</Structure_TheistAbstract.symbolPacks.0.adjective>
   <!-- EN: Spiritism -->
@@ -197,7 +256,19 @@
     <li>memeMoralist->priest</li>
     <li>memeMoralist->cleric</li>
   -->
-  <Structure_TheistEmbodied.generalRules.rulesStrings>TODO</Structure_TheistEmbodied.generalRules.rulesStrings>
+  <Structure_TheistEmbodied.generalRules.rulesStrings>
+    <li>memeCreed->secta</li>
+    <li>memeCreed->culte</li>
+    <li>memeCreed->temple</li>
+    <li>memeCreed->fe</li>
+    <li>memeHyphenPrefix->teo</li>
+    <li>memeConcept->creació</li>
+    <li>memeConcept->vida</li>
+    <li>memeLeaderNoun->templer</li>
+    <li>memeLeaderAdjective->diví</li>
+    <li>memeMoralist->sacerdot</li>
+    <li>memeMoralist->clergue</li>
+  </Structure_TheistEmbodied.generalRules.rulesStrings>
   <!-- EN: spiritual -->
   <Structure_TheistEmbodied.symbolPacks.0.adjective>espiritual</Structure_TheistEmbodied.symbolPacks.0.adjective>
   <!-- EN: Spiritism -->

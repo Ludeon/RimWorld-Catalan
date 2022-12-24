@@ -99,7 +99,7 @@
   <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>Grup d’animals caçapersones</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
-  <ManhunterPackArrived>Un grup de {0} caçapersones ha entrat a la zona. Embogits per l’escària, una malaltia infecciosa, voltaran per la regió, buscant carn humana.\n\nNo atacaran les portes si no veuen algú que les travessa. Si us amagueu a dins, estareu segur. No atacaran les torretes inactives; així que, si les teniu apagades, no els passarà res.\n\nEls {0} plegaran veles d’aquí un o dos dies. Us podeu amagar i esperar o lluitar-hi.</ManhunterPackArrived>
+  <ManhunterPackArrived>Un grup de {0} caçapersones ha entrat a la zona. {0_gender ? Embogits : Embogides} per l’escària, una malaltia infecciosa, voltaran per la regió, buscant carn humana.\n\nNo atacaran les portes si no veuen algú que les travessa. Si us amagueu a dins, estareu segur. No atacaran les torretes inactives; així que, si les teniu apagades, no els passarà res.\n\nEls {0} plegaran veles d’aquí un o dos dies. Us podeu amagar i esperar o lluitar-hi.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
@@ -135,11 +135,11 @@
   <!-- EN: {1_kind} self-tamed -->
   <LetterLabelAnimalSelfTame>{1_kind} auto-domesticat</LetterLabelAnimalSelfTame>
   <!-- EN: {0} has become tame. -->
-  <LetterAnimalSelfTame>{0} s’ha convertit en domèstic.</LetterAnimalSelfTame>
+  <LetterAnimalSelfTame>{0} salvatge s'ha domesticat {0_gender ? sol : sola}. Ara es dirà {ANIMAL_nameFull}.</LetterAnimalSelfTame>
   <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndNameNumerical>{0} s’ha convertit en domèstic. S’anomenarà {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndNameNumerical>{0} salvatge s’ha domesticat {0_gender ? sol : sola}. S’anomenarà {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
   <!-- EN: {0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndName>{0} s’ha convertit en domèstic. Els colons han decidit anomenar-lo {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
+  <LetterAnimalSelfTameAndName>{0} s’ha domesticat {0_gender ? sol : sola}. Els colons han decidit anomenar-{ANIMAL_gender ? lo : la} {ANIMAL_nameFull}.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
   <!-- EN: {0} join -->

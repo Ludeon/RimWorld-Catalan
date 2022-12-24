@@ -58,6 +58,54 @@
     <li>construction->blueprint</li>
     <li>construction->assembly</li>
   -->
-  <QuestConstructionNameCommon.rulePack.rulesStrings>TODO</QuestConstructionNameCommon.rulePack.rulesStrings>
+  <QuestConstructionNameCommon.rulePack.rulesStrings>
+    <li>questName->[constructionMasc] [constAdjMasc]</li>
+    <li>questName->A [constructionMasc] [constAdjMasc]</li>
+    <li>questName->The [constructionMasc] [constAdjMasc]</li>
+    <li>questName->[constructionFem] [constAdjFem]</li>
+    <li>questName->A [constructionFem] [constAdjFem]</li>
+    <li>questName->The [constructionFem] [constAdjFem]</li>
+    <li>constAdjMasc(p=20)->[AdjectiveLarge]</li>
+    <li>constAdjMasc->terrible</li>
+    <li>constAdjMasc->gran</li>
+    <li>constAdjMasc->immens</li>
+    <li>constAdjMasc->perillós</li>
+    <li>constAdjMasc->monumental</li>
+    <li>constAdjMasc->extravagant</li>
+    <li>constAdjMasc->premonitori</li>
+    <li>constAdjMasc->aterrador</li>
+    <li>constAdjMasc->espantós</li>
+    <li>constAdjMasc->terrible</li>
+    <li>constAdjMasc->impressionant</li>
+    <li>constAdjMasc->profètic</li>
+    <li>constAdjMasc->desgarrador</li>
+    <li>constAdjMasc->lluent</li>
+    <li>constAdjMasc->brillant</li>
+    <li>constAdjMasc->increïble</li>
+    <li>constAdjFem(p=20)->[AdjectiveLarge]</li>
+    <li>constAdjFem->terrible</li>
+    <li>constAdjFem->gran</li>
+    <li>constAdjFem->immensa</li>
+    <li>constAdjFem->perillosa</li>
+    <li>constAdjFem->monumental</li>
+    <li>constAdjFem->extravagant</li>
+    <li>constAdjFem->premonitòria</li>
+    <li>constAdjFem->aterradora</li>
+    <li>constAdjFem->espantosa</li>
+    <li>constAdjFem->terrible</li>
+    <li>constAdjFem->impressionant</li>
+    <li>constAdjFem->profètica</li>
+    <li>constAdjFem->desgarradora</li>
+    <li>constAdjFem->lluent</li>
+    <li>constAdjFem->brillant</li>
+    <li>constAdjFem->increïble</li>
+    <li>constructionFem(p=3)->construcció</li>
+    <li>constructionFem(p=2)->estructura</li>
+    <li>constructionFem->arquitectura</li>
+    <li>constructionMasc(p=2)->edifici</li>
+    <li>constructionMasc->monument</li>
+    <li>constructionMasc->edificació</li>
+    <li>constructionMasc->projecte</li>
+  </QuestConstructionNameCommon.rulePack.rulesStrings>
   
 </LanguageData>

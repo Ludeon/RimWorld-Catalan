@@ -5,7 +5,10 @@
     <li>lodgersLabel->guest</li>
     <li>lodgersLabelPlural->[asker_faction_pawnsPlural]</li>
   -->
-  <Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>TODO</Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
+  <Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->missió</li>
+    <li>lodgersLabelPlural->[asker_faction_pawnsPlural]</li>
+  </Hospitality_Joiners.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersDef(lodgersCount>=2)->the [lodgersLabelPlural]</li>
@@ -95,6 +98,37 @@
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->nobles</li>
     <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->aristocrats</li>
   -->
-  <Hospitality_Joiners.questNameRules.rulesStrings>TODO</Hospitality_Joiners.questNameRules.rulesStrings>
+  <Hospitality_Joiners.questNameRules.rulesStrings>
+    <li>questName->refugi per a [lodgerIndef]</li>
+    <li>questName->hospitalitat per a [lodgerIndef]</li>
+    <li>questName->acollint [lodgerIndef]</li>
+    <li>questName->[lodgerIndef] [needing_help]</li>
+    <li>questName(generateThreats==true,priority=1)->protecting [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->protegint la vida de [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->seguretat per a [lodgerIndef]</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] sota amenaça</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] en perill</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] amb enemics</li>
+    <li>questName(generateThreats==true,priority=1)->[lodgerIndef] al punt de mira</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->[lodgers0_label]</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount==1)->un [lodgers0_title]</li>
+    <li>lodgerIndef(askerIsNull==true,lodgersCount>=2)->viatgers</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->[lodgers0_label]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->un [lodgers0_title]</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->un amic</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount==1)->un aliat</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->amics</li>
+    <li>lodgerIndef(asker_factionLeader==True,lodgersCount>=2)->aliats</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1,p=3)->[asker_un] [asker_royalTitleInCurrentFaction]</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_label]</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_un] membre de la reialesa</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_un] noble</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount==1)->[asker_un] un aristòcrata</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->la reialesa</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->uns nobles</li>
+    <li>lodgerIndef(asker_royalInCurrentFaction==True,lodgersCount>=2)->uns aristòcrates</li>
+    <li>needing_help(asker_royalInCurrentFaction==True,lodgersCount==1)->necessita ajuda</li>
+    <li>needing_help(asker_royalInCurrentFaction==True,lodgersCount>=2)->necessiten ajuda</li>
+  </Hospitality_Joiners.questNameRules.rulesStrings>
   
 </LanguageData>

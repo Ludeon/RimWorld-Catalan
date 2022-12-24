@@ -6,7 +6,11 @@
     <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile.</li>
     <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
   -->
-  <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>TODO</OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+  <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
+    <li>questDescription->Heu detectat un [siteLabel] proper controlat per [faction_name].\n\nSi voleu, podeu assaltar el campament per a aconseguir un botí ([loot]). [raidConsequences]\n\nAixecaran el camp i se n'aniran d'aquí a [timeout_duration].</li>
+    <li>raidConsequences(faction_temporary==false)->Si ho feu, la facció [faction_name] es tornarà hostil.</li>
+    <li>raidConsequences(faction_temporary==true)->Com que [faction_name] és només un grup independent petit, els podeu atacar sense grans conseqüències diplomàtiques.</li>
+  </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[site_label] [detected]</li>
     <li>detected->detected</li>
@@ -19,6 +23,17 @@
     <li>detected->revealed</li>
     <li>detected->uncovered</li>
   -->
-  <OpportunitySite_WorkSite.questNameRules.rulesStrings>TODO</OpportunitySite_WorkSite.questNameRules.rulesStrings>
+  <OpportunitySite_WorkSite.questNameRules.rulesStrings>
+    <li>questName->[detected] un [site_label]</li>
+    <li>detected->S'ha detectat</li>
+    <li>detected->S'ha descobert</li>
+    <li>detected->S'ha avistat</li>
+    <li>detected->S'ha trobat</li>
+    <li>detected->S'ha identificat</li>
+    <li>detected->S'ha observat</li>
+    <li>detected->S'ha vist</li>
+    <li>detected->S'ha revelat</li>
+    <li>detected->S'ha localitzat</li>
+  </OpportunitySite_WorkSite.questNameRules.rulesStrings>
   
 </LanguageData>
