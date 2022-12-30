@@ -96,6 +96,8 @@
     <li>NaturalObject->Words/Nouns/NaturalObject</li>
     <li>TreeType->Words/Nouns/TreeTypes</li>
     <li>PersonJob->Words/Nouns/People_Jobs</li>
+    <li>PersonJob_Plural->Words/Nouns/People_Jobs_Plural</li>
+    <li>PersonJob_Fem->Words/Nouns/People_JobsFem</li>
     <li>PersonFamily->Words/Nouns/People_Family</li>
     <li>PersonAlly->Words/Nouns/People_Allies</li>
     <li>PersonBadass->Words/Nouns/People_Badass</li>
@@ -169,13 +171,51 @@
   -->
   <GlobalUtility.rulePack.rulesStrings>
     <!--Regles especials per al català-->
+    <!-- pilgrim -->
+    <li>mayPelegri(pilgrimCount==1)->pot</li>
+    <li>mayPelegri(pilgrimCount>=2)->poden</li>
+    <li>sentPelegri(pilgrimCount==1)->i se’l respecta</li>
+    <li>sentPelegri(pilgrimCount>=2)->i se’ls respecta</li>
     <!--asker-->
+    <li>joiner_Un(joiner_gender!=Female)->Un</li>
+    <li>joiner_Un(joiner_gender==Female)->Una</li>
+    <li>joiner_un(joiner_gender!=Female)->un</li>
+    <li>joiner_un(joiner_gender==Female)->una</li>
+    <li>joiner_x_a(joiner_gender!=Female)-></li>
+    <li>joiner_x_a(joiner_gender==Female)->a</li>
+    <li>joiner_t(joiner_gender!=Female)->t</li>
+    <li>joiner_t(joiner_gender!=Female)->da</li>
+    <li>lodger_ha(lodgerCount==1)->ha</li>
+    <li>lodger_ha(lodgerCount>=2)->han</li>
+    <li>lodger_lo(lodgers0_gender==Male,lodgerCount==1)->lo</li>
+    <li>lodger_lo(lodgers0_gender!=Male,lodgerCount==1)->la</li>
+    <li>lodger_lo(lodgerCount>=2)->los</li>
+    <li>lodger_un(lodgers0_gender!=Female)->un</li>
+    <li>lodger_un(lodgers0_gender==Female)->una</li>
+    <li>lodger_el(lodgers0_gender!=Female)->el</li>
+    <li>lodger_el(lodgers0_gender==Female)->la</li>
+    <li>lodger_amic(lodgers0_gender!=Female)->amic</li>
+    <li>lodger_amic(lodgers0_gender==Female)->amiga</li>
+    <li>lodger_el_seu(lodgers0_gender!=Female)->el seu</li>
+    <li>lodger_el_seu(lodgers0_gender==Female)->la seva</li>
+    <li>asker_x_a(asker_gender!=Female)-></li>
+    <li>asker_x_a(asker_gender==Female)->a</li>
+    <li>asker_el(asker_gender!=Female)->el</li>
+    <li>asker_el(asker_gender==Female)->la</li>
+    <li>asker_lo(asker_gender!=Female)->lo</li>
+    <li>asker_lo(asker_gender==Female)->la</li>
+    <li>asker_t(asker_gender!=Female)->t</li>
+    <li>asker_t(asker_gender==Female)->da</li>
+    <li>asker_El(asker_gender!=Female)->El</li>
+    <li>asker_El(asker_gender==Female)->La</li>
     <li>asker_elvostre(asker_gender!=Female)->el vostre</li>
     <li>asker_elvostre(asker_gender==Female)->la vostra</li>
     <li>asker_ees_esa(asker_gender!=Female)->ès</li>
     <li>asker_eess_esa(asker_gender==Female)->esa</li>
     <li>asker_un(asker_gender!=Female)->un</li>
     <li>asker_un(asker_gender==Female)->una</li>
+    <li>asker_Un(asker_gender!=Female)->Un</li>
+    <li>asker_Un(asker_gender==Female)->Una</li>
     <li>deity0_t_da(deity0_gender==Male)->t</li>
     <li>deity0_t_da(deity0_gender==Female)->da</li>
     <li>deity0_el(deity0_gender==Male)->el</li>
@@ -200,12 +240,175 @@
     <li>founder_el(founder_gender!=Male)->la</li>
     <li>founder_t_da(founder_gender==Male)->t</li>
     <li>founder_t_da(founder_gender!=Male)->da</li>
+    <!--AnimalKindDef, all Animals, Arid -->
+    <!-- Indef -->
+    <li>animal_un(animalKindDef==Dromedary)->un</li>
+    <li>animal_un(animalKindDef==Gazelle)->una</li>
+    <li>animal_un(animalKindDef==Iguana)->una</li>
+    <li>animal_un(animalKindDef==Muffalo)->un</li>
+    <!-- Def -->
+    <li>animal_el(animalKindDef==Dromedary)->el</li>
+    <li>animal_el(animalKindDef==Gazelle)->la</li>
+    <li>animal_el(animalKindDef==Iguana)->la</li>
+    <li>animal_el(animalKindDef==Muffalo)->el</li>
+    <!-- Bears -->
+    <!-- Indef -->
+    <li>animal_un(animalKindDef==Bear_Grizzly)->un</li>
+    <li>animal_un(animalKindDef==Bear_Polar)->un</li>
+    <!-- Def -->
+    <li>animal_el(animalKindDef==Bear_Grizzly)->el</li>
+    <li>animal_el(animalKindDef==Bear_Polar)->el</li>
+    <!-- Big Cats -->
+    <!-- Indef -->
+    <li>animal_un(animalKindDef==Cougar)->un</li>
+    <li>animal_un(animalKindDef==Lynx)->un</li>
+    <li>animal_un(animalKindDef==Panther)->una</li>
+    <!-- Def -->
+    <li>animal_el(animalKindDef==Cougar)->el</li>
+    <li>animal_el(animalKindDef==Lynx)->el</li>
+    <li>animal_el(animalKindDef==Panther)->la</li>
+    <!-- Birds -->
+    <!-- Indef -->
+    <li>animal_un(animalKindDef==Cassowary)->un</li>
+    <li>animal_un(animalKindDef==Emu)->un</li>
+    <li>animal_un(animalKindDef==Ostrich)->un</li>
+    <li>animal_un(animalKindDef==Turkey)->un</li>
+    <!-- Def -->
+    <li>animal_el(animalKindDef==Cassowary)->el</li>
+    <li>animal_el(animalKindDef==Emu)->el</li>
+    <li>animal_el(animalKindDef==Ostrich)->el</li>
+    <li>animal_el(animalKindDef==Turkey)->el</li>
+    <!-- Farm -->
+    <!-- Def -->
+    <li>animal_el(animalKindDef==Alpaca)->la</li>
+    <li>animal_el(animalKindDef==Bison)->el</li>
+    <li>animal_el(animalKindDef==Chicken)->el</li>
+    <li>animal_el(animalKindDef==Cow)->la</li>
+    <li>animal_el(animalKindDef==Donkey)->el</li>
+    <li>animal_el(animalKindDef==Duck)->el</li>
+    <li>animal_el(animalKindDef==Goat)->la</li>
+    <li>animal_el(animalKindDef==Goose)->el</li>
+    <li>animal_el(animalKindDef==GuineaPig)->el</li>
+    <li>animal_el(animalKindDef==Horse)->el</li>
+    <li>animal_el(animalKindDef==Pig)->el</li>
+    <li>animal_el(animalKindDef==Sheep)->el</li>
+    <li>animal_el(animalKindDef==Yak)->el</li>
+    <!-- Indef -->
+    <li>animal_un(animalKindDef==Alpaca)->una</li>
+    <li>animal_un(animalKindDef==Bison)->un</li>
+    <li>animal_un(animalKindDef==Chicken)->un</li>
+    <li>animal_un(animalKindDef==Cow)->una</li>
+    <li>animal_un(animalKindDef==Donkey)->un</li>
+    <li>animal_un(animalKindDef==Duck)->un</li>
+    <li>animal_un(animalKindDef==Goat)->una</li>
+    <li>animal_un(animalKindDef==Goose)->un</li>
+    <li>animal_un(animalKindDef==GuineaPig)->un</li>
+    <li>animal_un(animalKindDef==Horse)->un</li>
+    <li>animal_un(animalKindDef==Pig)->un</li>
+    <li>animal_un(animalKindDef==Sheep)->un</li>
+    <li>animal_un(animalKindDef==Yak)->un</li>
+    <!-- Animals Giant -->
+    <!-- Indef -->
+    <li>animal_un(animalKindDef==Elephant)->un</li>
+    <li>animal_un(animalKindDef==Megasloth)->un</li>
+    <li>animal_un(animalKindDef==Rhinoceros)->un</li>
+    <li>animal_un(animalKindDef==Thrumbo)->un</li>
+    <!-- Def -->
+    <li>animal_el(animalKindDef==Elephant)->el</li>
+    <li>animal_el(animalKindDef==Megasloth)->el</li>
+    <li>animal_el(animalKindDef==Rhinoceros)->el</li>
+    <li>animal_el(animalKindDef==Thrumbo)->el</li>
+    <!-- Hares -->
+    <!-- Indef -->
+    <li>animal_un(animalKindDef==Hare)->una</li>
+    <li>animal_un(animalKindDef==Snowhare)->una</li>
+    <!-- Def -->
+    <li>animal_el(animalKindDef==Hare)->la</li>
+    <li>animal_el(animalKindDef==Snowhare)->la</li>
+    <!-- Insect -->
+    <!-- Indef -->
+    <li>animal_un(animalKindDef==Megascarab)->un</li>
+    <li>animal_un(animalKindDef==Megaspider)->una</li>
+    <li>animal_un(animalKindDef==Spelopede)->un</li>
+    <!-- Def -->
+    <li>animal_el(animalKindDef==Megascarab)->el</li>
+    <li>animal_el(animalKindDef==Megaspider)->la</li>
+    <li>animal_el(animalKindDef==Spelopede)->el</li>
+    <!-- Pet -->
+    <!-- Indef -->
+    <!-- <li>animal_un(animalKindDef==Cat)->un</li>-->
+    <li>animal_un(animalKindDef==Husky)->un</li>
+    <li>animal_un(animalKindDef==LabradorRetriever)->un</li>
+    <li>animal_un(animalKindDef==YorkshireTerrier)->un</li>
+    <!-- Def -->
+    <!--<li>animal_el(animalKindDef==Cat)->el</li>-->
+    <li>animal_el(animalKindDef==Husky)->el</li>
+    <li>animal_el(animalKindDef==LabradorRetriever)->el</li>
+    <li>animal_el(animalKindDef==YorkshireTerrier)->el</li>
+    <!-- Rodentlike -->
+    <!-- Indef -->
+    <li>animal_un(animalKindDef==Alphabeaver)->un</li>
+    <li>animal_un(animalKindDef==Boomrat)->una</li>
+    <li>animal_un(animalKindDef==Capybara)->un</li>
+    <li>animal_un(animalKindDef==Chinchilla)->una</li>
+    <li>animal_un(animalKindDef==Raccoon)->un</li>
+    <li>animal_un(animalKindDef==Rat)->una</li>
+    <li>animal_un(animalKindDef==Squirrel)->una</li>
+    <!-- Def -->
+    <li>animal_el(animalKindDef==Alphabeaver)->el</li>
+    <li>animal_el(animalKindDef==Boomrat)->la</li>
+    <li>animal_el(animalKindDef==Capybara)->el</li>
+    <li>animal_el(animalKindDef==Chinchilla)->la</li>
+    <li>animal_el(animalKindDef==Raccoon)->el</li>
+    <li>animal_el(animalKindDef==Rat)->la</li>
+    <li>animal_el(animalKindDef==Squirrel)->la</li>
+    <!-- Animals Temperate -->
+    <!-- Indef -->
+    <li>animal_un(animalKindDef==Caribou)->un</li>
+    <li>animal_un(animalKindDef==Deer)->un</li>
+    <li>animal_un(animalKindDef==Elk)->un</li>
+    <li>animal_un(animalKindDef==Ibex)->un</li>
+    <li>animal_un(animalKindDef==Tortoise)->una</li>
+    <li>animal_un(animalKindDef==WildBoar)->un</li>
+    <!-- Def -->
+    <li>animal_el(animalKindDef==Caribou)->el</li>
+    <li>animal_el(animalKindDef==Deer)->el</li>
+    <li>animal_el(animalKindDef==Elk)->el</li>
+    <li>animal_el(animalKindDef==Ibex)->el</li>
+    <li>animal_el(animalKindDef==Tortoise)->la</li>
+    <li>animal_el(animalKindDef==WildBoar)->el</li>
+    <!-- Animales Tropicales -->
+    <!-- Indef -->
+    <li>animal_un(animalKindDef==Boomalope)->un</li>
+    <li>animal_un(animalKindDef==Cobra)->una</li>
+    <li>animal_un(animalKindDef==Monkey)->un</li>
+    <!-- Def -->
+    <li>animal_el(animalKindDef==Boomalope)->el</li>
+    <li>animal_el(animalKindDef==Cobra)->la</li>
+    <li>animal_el(animalKindDef==Monkey)->el</li>
+    <!-- WildCanines -->
+    <!-- Indef -->
+    <li>animal_un(animalKindDef==Fox_Arctic)->un</li>
+    <li>animal_un(animalKindDef==Fox_Fennec)->un</li>
+    <li>animal_un(animalKindDef==Fox_Red)->un</li>
+    <li>animal_un(animalKindDef==Warg)->un</li>
+    <li>animal_un(animalKindDef==Wolf_Arctic)->un</li>
+    <li>animal_un(animalKindDef==Wolf_Timber)->un</li>
+    <!-- Def -->
+    <li>animal_el(animalKindDef==Fox_Arctic)->el</li>
+    <li>animal_el(animalKindDef==Fox_Fennec)->el</li>
+    <li>animal_el(animalKindDef==Fox_Red)->el</li>
+    <li>animal_el(animalKindDef==Warg)->el</li>
+    <li>animal_el(animalKindDef==Wolf_Arctic)->el</li>
+    <li>animal_el(animalKindDef==Wolf_Timber)->el</li>
+    <!-- Others -->
+    <li>animal_un(p=0.00000000001)->un(a)</li>
+    <li>animal_el(p=0.00000000001)->el/la</li>
+    <!-- Inici castellà pendent -->
     <li>asker_o_a(asker_gender!=Female)->o</li>
     <li>asker_o_a(asker_gender==Female)->a</li>
     <li>asker_e_a(asker_gender!=Female)->e</li>
     <li>asker_e_a(asker_gender==Female)->a</li>
-    <li>asker_x_a(asker_gender!=Female)-></li>
-    <li>asker_x_a(asker_gender==Female)->a</li>
     <li>asker_aCap(asker_gender!=Female)->Un</li>
     <li>asker_aCap(asker_gender==Female)->Una</li>
     <li>asker_TheCap(asker_gender!=Female)->El</li>
@@ -241,8 +444,6 @@
     <li>refugee_ununa(refugee_gender!=Female)->un</li>
     <li>refugee_ununa(refugee_gender==Female)->una</li>
     <!--joiner-->
-    <li>joiner_a(joiner_gender!=Female)->un</li>
-    <li>joiner_a(joiner_gender==Female)->una</li>
     <li>joiner_A(joiner_gender!=Female)->Un</li>
     <li>joiner_A(joiner_gender==Female)->Una</li>
     <li>joiner_o_a(joiner_gender!=Female)->o</li>
@@ -263,8 +464,6 @@
     <li>un_una(lodgers0!=Male)->una</li>
     <li>insults(lodgers0==Male)->al calumniador</li>
     <li>insults(lodgers0!=Male)->a la calumniadora</li>
-    <li>arrived(lodgerCount==1)->llegó</li>
-    <li>arrived(lodgerCount>=2)->llegaron</li>
     <li>willStay(lodgerCount==1)->quedará</li>
     <li>willStay(lodgerCount>=2)->quedarán</li>
     <li>last(lodgers0==Male)->El último</li>
@@ -327,11 +526,6 @@
     <li>beggars_e_a(beggars0_gender==Male)->e</li>
     <li>beggars_e_a(beggars0_gender!=Male)->a</li>
     <!-- founder -->
-    <!-- pilgrim -->
-    <li>siendo(pilgrimCount==1)->y está siedo respetado</li>
-    <li>siendo(pilgrimCount>=2)->y están siendo repetados</li>
-    <li>mayOffers(pilgrimCount==1)->puede</li>
-    <li>mayOffers(pilgrimCount>=2)->pueden</li>
     <!--Tales Jobs-->
     <!-- PAWN-->
     <li>PAWN_o_a(PAWN_gender!=Female)->o</li>
@@ -657,170 +851,6 @@
     <li>AnimalEpicenoIndef(p=0.00000000001)->un(a) [animalKind_label]</li>
     <li>AnimalEpicenoM(p=0.00000000001)->[animalKind_label]</li>
     <li>AnimalEpicenoF(p=0.00000000001)->[animalKind_label]</li>
-    <!--AnimalKindDef, all Animals, Arid -->
-    <!-- Indef -->
-    <li>animal_a(animalKindDef==Dromedary)->un</li>
-    <li>animal_a(animalKindDef==Gazelle)->una</li>
-    <li>animal_a(animalKindDef==Iguana)->una</li>
-    <li>animal_a(animalKindDef==Muffalo)->un</li>
-    <!-- Def -->
-    <li>animal_the(animalKindDef==Dromedary)->el</li>
-    <li>animal_the(animalKindDef==Gazelle)->la</li>
-    <li>animal_the(animalKindDef==Iguana)->la</li>
-    <li>animal_the(animalKindDef==Muffalo)->el</li>
-    <!-- Bears -->
-    <!-- Indef -->
-    <li>animal_a(animalKindDef==Bear_Grizzly)->un</li>
-    <li>animal_a(animalKindDef==Bear_Polar)->un</li>
-    <!-- Def -->
-    <li>animal_the(animalKindDef==Bear_Grizzly)->el</li>
-    <li>animal_the(animalKindDef==Bear_Polar)->el</li>
-    <!-- Big Cats -->
-    <!-- Indef -->
-    <li>animal_a(animalKindDef==Cougar)->un</li>
-    <li>animal_a(animalKindDef==Lynx)->un</li>
-    <li>animal_a(animalKindDef==Panther)->una</li>
-    <!-- Def -->
-    <li>animal_the(animalKindDef==Cougar)->el</li>
-    <li>animal_the(animalKindDef==Lynx)->el</li>
-    <li>animal_the(animalKindDef==Panther)->la</li>
-    <!-- Birds -->
-    <!-- Indef -->
-    <li>animal_a(animalKindDef==Cassowary)->un</li>
-    <li>animal_a(animalKindDef==Emu)->un</li>
-    <li>animal_a(animalKindDef==Ostrich)->un</li>
-    <li>animal_a(animalKindDef==Turkey)->un</li>
-    <!-- Def -->
-    <li>animal_the(animalKindDef==Cassowary)->el</li>
-    <li>animal_the(animalKindDef==Emu)->el</li>
-    <li>animal_the(animalKindDef==Ostrich)->el</li>
-    <li>animal_the(animalKindDef==Turkey)->el</li>
-    <!-- Farm -->
-    <!-- Def -->
-    <li>animal_the(animalKindDef==Alpaca)->la</li>
-    <li>animal_the(animalKindDef==Bison)->el</li>
-    <li>animal_the(animalKindDef==Chicken)->el</li>
-    <li>animal_the(animalKindDef==Cow)->la</li>
-    <li>animal_the(animalKindDef==Donkey)->el</li>
-    <li>animal_the(animalKindDef==Duck)->el</li>
-    <li>animal_the(animalKindDef==Goat)->la</li>
-    <li>animal_the(animalKindDef==Goose)->el</li>
-    <li>animal_the(animalKindDef==GuineaPig)->el</li>
-    <li>animal_the(animalKindDef==Horse)->el</li>
-    <li>animal_the(animalKindDef==Pig)->el</li>
-    <li>animal_the(animalKindDef==Sheep)->el</li>
-    <li>animal_the(animalKindDef==Yak)->el</li>
-    <!-- Indef -->
-    <li>animal_a(animalKindDef==Alpaca)->una</li>
-    <li>animal_a(animalKindDef==Bison)->un</li>
-    <li>animal_a(animalKindDef==Chicken)->un</li>
-    <li>animal_a(animalKindDef==Cow)->una</li>
-    <li>animal_a(animalKindDef==Donkey)->un</li>
-    <li>animal_a(animalKindDef==Duck)->un</li>
-    <li>animal_a(animalKindDef==Goat)->una</li>
-    <li>animal_a(animalKindDef==Goose)->un</li>
-    <li>animal_a(animalKindDef==GuineaPig)->un</li>
-    <li>animal_a(animalKindDef==Horse)->un</li>
-    <li>animal_a(animalKindDef==Pig)->un</li>
-    <li>animal_a(animalKindDef==Sheep)->un</li>
-    <li>animal_a(animalKindDef==Yak)->un</li>
-    <!-- Animals Giant -->
-    <!-- Indef -->
-    <li>animal_a(animalKindDef==Elephant)->un</li>
-    <li>animal_a(animalKindDef==Megasloth)->un</li>
-    <li>animal_a(animalKindDef==Rhinoceros)->un</li>
-    <li>animal_a(animalKindDef==Thrumbo)->un</li>
-    <!-- Def -->
-    <li>animal_the(animalKindDef==Elephant)->el</li>
-    <li>animal_the(animalKindDef==Megasloth)->el</li>
-    <li>animal_the(animalKindDef==Rhinoceros)->el</li>
-    <li>animal_the(animalKindDef==Thrumbo)->el</li>
-    <!-- Hares -->
-    <!-- Indef -->
-    <li>animal_a(animalKindDef==Hare)->una</li>
-    <li>animal_a(animalKindDef==Snowhare)->una</li>
-    <!-- Def -->
-    <li>animal_the(animalKindDef==Hare)->la</li>
-    <li>animal_the(animalKindDef==Snowhare)->la</li>
-    <!-- Insect -->
-    <!-- Indef -->
-    <li>animal_a(animalKindDef==Megascarab)->un</li>
-    <li>animal_a(animalKindDef==Megaspider)->una</li>
-    <li>animal_a(animalKindDef==Spelopede)->un</li>
-    <!-- Def -->
-    <li>animal_the(animalKindDef==Megascarab)->el</li>
-    <li>animal_the(animalKindDef==Megaspider)->la</li>
-    <li>animal_the(animalKindDef==Spelopede)->el</li>
-    <!-- Pet -->
-    <!-- Indef -->
-    <!-- <li>animal_a(animalKindDef==Cat)->un</li>-->
-    <li>animal_a(animalKindDef==Husky)->un</li>
-    <li>animal_a(animalKindDef==LabradorRetriever)->un</li>
-    <li>animal_a(animalKindDef==YorkshireTerrier)->un</li>
-    <!-- Def -->
-    <!--<li>animal_the(animalKindDef==Cat)->el</li>-->
-    <li>animal_the(animalKindDef==Husky)->el</li>
-    <li>animal_the(animalKindDef==LabradorRetriever)->el</li>
-    <li>animal_the(animalKindDef==YorkshireTerrier)->el</li>
-    <!-- Rodentlike -->
-    <!-- Indef -->
-    <li>animal_a(animalKindDef==Alphabeaver)->un</li>
-    <li>animal_a(animalKindDef==Boomrat)->una</li>
-    <li>animal_a(animalKindDef==Capybara)->un</li>
-    <li>animal_a(animalKindDef==Chinchilla)->una</li>
-    <li>animal_a(animalKindDef==Raccoon)->un</li>
-    <li>animal_a(animalKindDef==Rat)->una</li>
-    <li>animal_a(animalKindDef==Squirrel)->una</li>
-    <!-- Def -->
-    <li>animal_the(animalKindDef==Alphabeaver)->el</li>
-    <li>animal_the(animalKindDef==Boomrat)->la</li>
-    <li>animal_the(animalKindDef==Capybara)->el</li>
-    <li>animal_the(animalKindDef==Chinchilla)->la</li>
-    <li>animal_the(animalKindDef==Raccoon)->el</li>
-    <li>animal_the(animalKindDef==Rat)->la</li>
-    <li>animal_the(animalKindDef==Squirrel)->la</li>
-    <!-- Animals Temperate -->
-    <!-- Indef -->
-    <li>animal_a(animalKindDef==Caribou)->un</li>
-    <li>animal_a(animalKindDef==Deer)->un</li>
-    <li>animal_a(animalKindDef==Elk)->un</li>
-    <li>animal_a(animalKindDef==Ibex)->un</li>
-    <li>animal_a(animalKindDef==Tortoise)->una</li>
-    <li>animal_a(animalKindDef==WildBoar)->un</li>
-    <!-- Def -->
-    <li>animal_the(animalKindDef==Caribou)->el</li>
-    <li>animal_the(animalKindDef==Deer)->el</li>
-    <li>animal_the(animalKindDef==Elk)->el</li>
-    <li>animal_the(animalKindDef==Ibex)->el</li>
-    <li>animal_the(animalKindDef==Tortoise)->la</li>
-    <li>animal_the(animalKindDef==WildBoar)->el</li>
-    <!-- Animales Tropicales -->
-    <!-- Indef -->
-    <li>animal_a(animalKindDef==Boomalope)->un</li>
-    <li>animal_a(animalKindDef==Cobra)->una</li>
-    <li>animal_a(animalKindDef==Monkey)->un</li>
-    <!-- Def -->
-    <li>animal_the(animalKindDef==Boomalope)->el</li>
-    <li>animal_the(animalKindDef==Cobra)->la</li>
-    <li>animal_the(animalKindDef==Monkey)->el</li>
-    <!-- WildCanines -->
-    <!-- Indef -->
-    <li>animal_a(animalKindDef==Fox_Arctic)->un</li>
-    <li>animal_a(animalKindDef==Fox_Fennec)->un</li>
-    <li>animal_a(animalKindDef==Fox_Red)->un</li>
-    <li>animal_a(animalKindDef==Warg)->un</li>
-    <li>animal_a(animalKindDef==Wolf_Arctic)->un</li>
-    <li>animal_a(animalKindDef==Wolf_Timber)->un</li>
-    <!-- Def -->
-    <li>animal_the(animalKindDef==Fox_Arctic)->el</li>
-    <li>animal_the(animalKindDef==Fox_Fennec)->el</li>
-    <li>animal_the(animalKindDef==Fox_Red)->el</li>
-    <li>animal_the(animalKindDef==Warg)->el</li>
-    <li>animal_the(animalKindDef==Wolf_Arctic)->el</li>
-    <li>animal_the(animalKindDef==Wolf_Timber)->el</li>
-    <!-- Others -->
-    <li>animal_a(p=0.00000000001)->un(a)</li>
-    <li>animal_the(p=0.00000000001)->el/la</li>
     <!--Regles base-->
     <li>trans->de</li>
     <li>trans->per a</li>
@@ -964,9 +994,9 @@
     <li>TalkTopicLight->[TerrainFeature]s</li>
     <li>TalkTopicLight->[NaturalObject]s</li>
     <li>TalkTopicLight->[TreeType]</li>
-    <li>TalkTopicLight->[PersonJob]s</li>
-    <li>TalkTopicLight->[PersonJob]s amistosos</li>
-    <li>TalkTopicLight->[PersonJob]s hostils</li>
+    <li>TalkTopicLight->[PersonJob_Plural]</li>
+    <li>TalkTopicLight->[PersonJob_Plural] amistosos</li>
+    <li>TalkTopicLight->[PersonJob_Plural] hostils</li>
     <li>TalkTopicLight->[Enemy]s</li>
     <li>TalkTopicLight->lluitar contra [Enemy]s</li>
     <li>TalkTopicLight->[ApparelAnyPlural_Definite]</li>

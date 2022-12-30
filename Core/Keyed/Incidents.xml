@@ -45,7 +45,7 @@
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
   <LetterLabelWandererJoins>Se us uneix un rodamón: {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
-  <LetterWandererJoins>Ha arribat un {PAWN_title} que es diu {PAWN_nameDef} a la colònia i s’hi vol unir.\n\nVol contribuir i no aixecarà el camp per la seva pròpia voluntat, ja que no té on anar. Podeu reduir-lo i fer-lo fora. No obstant, els colons es sentiran molestos per fer fora a algú que necessita ajuda.</LetterWandererJoins>
+  <LetterWandererJoins>Ha arribat {PAWN_gender ? un : una} {PAWN_title} que es diu [PAWN_nameIndef] a la colònia i s’hi vol unir.\n\nVol contribuir i no aixecarà el camp per la seva pròpia voluntat, ja que no té on anar. Podeu reduir-{PAWN_gender ? lo : la} i fer-{PAWN_gender ? lo : la} fora. No obstant, els colons es sentiran molestos per fer fora a algú que necessita ajuda.</LetterWandererJoins>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Càpsules de càrrega</LetterLabelCargoPodCrash>
@@ -70,7 +70,7 @@
   <!-- EN: They're affiliated with {FACTION_name}. -->
   <TraderArrivalFromFaction>Està afiliada amb {FACTION_name}.</TraderArrivalFromFaction>
   <!-- EN: They are not affiliated with any faction. -->
-  <TraderArrivalNoFaction>No està afiliada amb cap facció.</TraderArrivalNoFaction>
+  <TraderArrivalNoFaction>No està afiliat amb cap facció</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
   <SingleTravelerPassing>{PAWN_titleIndef} dels {1} passa per aquí. Es diu {PAWN_nameFull}.</SingleTravelerPassing>
@@ -135,7 +135,7 @@
   <!-- EN: {1_kind} self-tamed -->
   <LetterLabelAnimalSelfTame>{1_kind} auto-domesticat</LetterLabelAnimalSelfTame>
   <!-- EN: {0} has become tame. -->
-  <LetterAnimalSelfTame>{0} salvatge s'ha domesticat {0_gender ? sol : sola}. Ara es dirà {ANIMAL_nameFull}.</LetterAnimalSelfTame>
+  <LetterAnimalSelfTame>{0} salvatge s’ha domesticat {0_gender ? sol : sola}. Ara es dirà {ANIMAL_nameFull}.</LetterAnimalSelfTame>
   <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
   <LetterAnimalSelfTameAndNameNumerical>{0} salvatge s’ha domesticat {0_gender ? sol : sola}. S’anomenarà {ANIMAL_nameFull}.</LetterAnimalSelfTameAndNameNumerical>
   <!-- EN: {0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}. -->

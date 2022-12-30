@@ -33,7 +33,7 @@
     <li>circumstance_phrase->amb un somriure [friendlyverb]</li>
     <li>circumstance_phrase->amb una rialla sorollosa</li>
     <li>circumstance_phrase->mentre [friendlyadjective]</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s estan involucrats en la situació.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] estan involucrats en la situació.</li>
     <li>desc_sentence->La zona està decorada de color [color] i [color].</li>
     <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] juguen a prop.</li>
   </AttendedParty.rulePack.rulesStrings>
@@ -151,8 +151,8 @@
     <li>desc_sentence->[object_label] sembla coronar [pawn_nameShortDef].</li>
     <li>desc_sentence->[object_label] brilla d’un suau color [color].</li>
     <li>desc_sentence->[object_label] està profusament detallat.</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s es meravellen davant de [object_label].</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren estorats.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] es meravellen davant de [object_label].</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] s’ho miren estorats.</li>
   </CompletedLongConstructionProject.rulePack.rulesStrings>
   
   <!-- EN: completed long crafting project -->
@@ -188,8 +188,8 @@
     <li>desc_sentence->[object_label] brilla d’un suau color [color].</li>
     <li>desc_sentence->[object_label] té uns detalls molt elaborats.</li>
     <li>desc_sentence->[pawn_nameShortDef] aixeca [object_label] aparentment sense esforç.</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s estan meravellats amb l’objecte.</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren amb admiració.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] estan meravellats amb l’objecte.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] s’ho miren amb admiració.</li>
   </CompletedLongCraftingProject.rulePack.rulesStrings>
   
   <!-- EN: entered cryptosleep -->
@@ -263,7 +263,7 @@
     <li>desc_sentence->L’escena està encerclada per [quantity_adjphrase] experiments fracassats.</li>
     <li>desc_sentence->L’escena està encerclada per [quantity_adjphrase] llibres.</li>
     <li>desc_sentence->La seva destresa es nota en el treball.</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren admirats.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] s’ho miren admirats.</li>
     <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] s’ho miren amb admiració.</li>
     <li>desc_sentence->[quantity_adjphrase] esperits eteris d’antics mestres s’ho miren des de dalt.</li>
   </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
@@ -306,7 +306,7 @@
     <li>desc_sentence->L’escena està encerclada amb [quantity_adjphrase] experiments fracassats.</li>
     <li>desc_sentence->L’escena està encerclada amb [quantity_adjphrase] llibres.</li>
     <li>desc_sentence->La seva destresa skill es veu en el treball.</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren admirats.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] s’ho miren admirats.</li>
     <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] s’ho miren amb admiració.</li>
     <li>desc_sentence->[quantity_adjphrase] esperits eteris d’antics mestres s’ho miren des de dalt.</li>
   </GainedMasterSkillWithPassion.rulePack.rulesStrings>
@@ -381,7 +381,7 @@
     <li>circumstance_phrase->amb un somriure [friendlyverb]</li>
     <li>circumstance_phrase->brillant suaument</li>
     <li>circumstance_phrase->envoltat d’una aura de color [color]</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s es miren [pawn_pronoun].</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] es miren [pawn_pronoun].</li>
     <li>desc_sentence->està envoltat per [quantity_adjphrase] [AnimalAnyPlural].</li>
     <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] descansen tranquil·lament.</li>
     <li>desc_sentence->[quantity_adjphrase] [enemy]s estan fascinats amb l’escena.</li>
@@ -474,12 +474,12 @@
     <li>desc_sentence->Una aurora de color [color] brilla al fons.</li>
     <li>desc_sentence->A la llunyania es veu una [Community].</li>
     <li>desc_sentence->A la llunyania es veu una [terrainfeature].</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s també hi juguen.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] també hi juguen.</li>
     <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] juguen a prop.</li>
     <li>desc_sentence->[pawn_nameShortDef] brilla amb una aura de color [color].</li>
     <li>desc_sentence->les formes de [pawn_nameShortDef] estan exagerades.</li>
     <li>desc_sentence->[pawn_nameShortDef] està per sobre de l’escena.</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s estan desplomats derrotats.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] estan desplomats derrotats.</li>
   </PlayedGame.rulePack.rulesStrings>
   
   <!-- EN: prayed -->
@@ -513,7 +513,7 @@
     <li>circumstance_phrase->amb una expressió esperançada</li>
     <li>circumstance_phrase->brillant lleuent</li>
     <li>circumstance_phrase->envoltat d’una aura de color [color]</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] s’ho miren.</li>
     <li>desc_sentence->[pawn_pronoun] està envoltat per [quantity_adjphrase] [AnimalAnyPlural].</li>
     <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] descansen tranquil·lament.</li>
     <li>desc_sentence->[quantity_adjphrase] [enemy]s estan fascinats amb l’escena.</li>

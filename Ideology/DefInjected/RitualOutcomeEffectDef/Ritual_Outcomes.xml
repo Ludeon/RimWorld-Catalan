@@ -10,19 +10,19 @@
   <!-- EN: Terrible -->
   <AttendedFuneral.outcomeChances.0.label>Terrible</AttendedFuneral.outcomeChances.0.label>
   <!-- EN: The {0} was a terrible! Everyone felt insulted for having had to endure it. -->
-  <AttendedFuneral.outcomeChances.0.description>{0_definite} ha estat terrible! Tothom s'ha sentit insultat per haver d'aguantar-ho.</AttendedFuneral.outcomeChances.0.description>
+  <AttendedFuneral.outcomeChances.0.description>{0_definite} ha estat terrible! Tothom s’ha sentit insultat per haver d’aguantar-ho.</AttendedFuneral.outcomeChances.0.description>
   <!-- EN: Lackluster -->
   <AttendedFuneral.outcomeChances.1.label>Mediocre</AttendedFuneral.outcomeChances.1.label>
   <!-- EN: The {0} was lackluster. The speech was long-winded and failed to resolve any emotions. -->
-  <AttendedFuneral.outcomeChances.1.description>TODO</AttendedFuneral.outcomeChances.1.description>
+  <AttendedFuneral.outcomeChances.1.description>{0_definite} ha estat {0_gender ? deslluït : deslluïda}. El discurs ha estat molt llarg i embolicat. No ha estat emocionant.</AttendedFuneral.outcomeChances.1.description>
   <!-- EN: Good -->
   <AttendedFuneral.outcomeChances.2.label>Bo</AttendedFuneral.outcomeChances.2.label>
   <!-- EN: The {0} was good. The speaker's final words provided a path for everyone move on. -->
-  <AttendedFuneral.outcomeChances.2.description>TODO</AttendedFuneral.outcomeChances.2.description>
+  <AttendedFuneral.outcomeChances.2.description>{0_definite} ha anat bé. Les paraules finals de l’orador han marcat un camí per superar la pèrdua.</AttendedFuneral.outcomeChances.2.description>
   <!-- EN: Heartwarming -->
   <AttendedFuneral.outcomeChances.3.label>Commovedor</AttendedFuneral.outcomeChances.3.label>
   <!-- EN: The {0} was heartwarming. The speech was captivating and heartfelt, and everyone came away focused on good memories. -->
-  <AttendedFuneral.outcomeChances.3.description>TODO</AttendedFuneral.outcomeChances.3.description>
+  <AttendedFuneral.outcomeChances.3.description>{0_definite} ha estat molt emocionant. Els discursos han sortit del cor i tothom ha recordat bons moments del passat.</AttendedFuneral.outcomeChances.3.description>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <AttendedFuneralNoCorpse.description>Segons la qualitat del ritual, els participants guanyaran entre {MINMOOD} i {MAXMOOD} punts d’estat d’ànim durant {MOODDAYS} dies.</AttendedFuneralNoCorpse.description>
@@ -33,19 +33,19 @@
   <!-- EN: Terrible -->
   <AttendedFuneralNoCorpse.outcomeChances.0.label>Terrible</AttendedFuneralNoCorpse.outcomeChances.0.label>
   <!-- EN: The {0} was a terrible! Everyone felt insulted for having had to endure it. -->
-  <AttendedFuneralNoCorpse.outcomeChances.0.description>{0_definite} ha estat terrible! Tothom s'ha sentit insultat per haver d'aguantar-ho.</AttendedFuneralNoCorpse.outcomeChances.0.description>
+  <AttendedFuneralNoCorpse.outcomeChances.0.description>{0_definite} ha estat terrible! Tothom s’ha sentit insultat per haver d’aguantar-ho.</AttendedFuneralNoCorpse.outcomeChances.0.description>
   <!-- EN: Lackluster -->
   <AttendedFuneralNoCorpse.outcomeChances.1.label>Mediocre</AttendedFuneralNoCorpse.outcomeChances.1.label>
   <!-- EN: The {0} was lackluster. The speech was long-winded and failed to resolve any emotions. -->
-  <AttendedFuneralNoCorpse.outcomeChances.1.description>TODO</AttendedFuneralNoCorpse.outcomeChances.1.description>
+  <AttendedFuneralNoCorpse.outcomeChances.1.description>{0_definite} ha estat {0_gender ? deslluït : deslluïda}. El discurs ha estat molt llarg i embolicat. No ha estat emocionant.</AttendedFuneralNoCorpse.outcomeChances.1.description>
   <!-- EN: Good -->
   <AttendedFuneralNoCorpse.outcomeChances.2.label>Bo</AttendedFuneralNoCorpse.outcomeChances.2.label>
   <!-- EN: The {0} was good. The speaker's final words provided a path for everyone move on. -->
-  <AttendedFuneralNoCorpse.outcomeChances.2.description>TODO</AttendedFuneralNoCorpse.outcomeChances.2.description>
+  <AttendedFuneralNoCorpse.outcomeChances.2.description>{0_definite} ha anat bé. Les paraules finals de l’orador han marcat un camí per superar la pèrdua.</AttendedFuneralNoCorpse.outcomeChances.2.description>
   <!-- EN: Heartwarming -->
   <AttendedFuneralNoCorpse.outcomeChances.3.label>Commovedor</AttendedFuneralNoCorpse.outcomeChances.3.label>
   <!-- EN: The {0} was heartwarming. The speech was captivating and heartfelt, and everyone came away focused on good memories. -->
-  <AttendedFuneralNoCorpse.outcomeChances.3.description>TODO</AttendedFuneralNoCorpse.outcomeChances.3.description>
+  <AttendedFuneralNoCorpse.outcomeChances.3.description>{0_definite} ha estat molt emocionant. Els discursos han sortit del cor i tothom ha recordat bons moments del passat.</AttendedFuneralNoCorpse.outcomeChances.3.description>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <BlindingCeremony.description>Segons la qualitat del ritual, els participants guanyaran entre {MINMOOD} i {MAXMOOD} punts d’estat d’ànim durant {MOODDAYS} dies.</BlindingCeremony.description>
@@ -58,27 +58,27 @@
   <!-- EN: an altar -->
   <BlindingCeremony.comps.4.expectedThingLabelTip>un altar</BlindingCeremony.comps.4.expectedThingLabelTip>
   <!-- EN: If the {0} is satisfying, the blinded person might get a psylink upgrade or unlock new psychic powers. -->
-  <BlindingCeremony.extraPredictedOutcomeDescriptions.0>TODO</BlindingCeremony.extraPredictedOutcomeDescriptions.0>
+  <BlindingCeremony.extraPredictedOutcomeDescriptions.0>Si {0_definite} és {0_gender ? satisfactori : satisfactòria}, la persona podria haver aconseguit una millora del psicoenllaç o desblocar poders psíquics nous.</BlindingCeremony.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Terrible -->
   <BlindingCeremony.outcomeChances.0.label>Terrible</BlindingCeremony.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! The speech was stuttering and incoherent. The blinding technique was botched. Everyone was waiting for it to end. -->
-  <BlindingCeremony.outcomeChances.0.description>TODO</BlindingCeremony.outcomeChances.0.description>
+  <BlindingCeremony.outcomeChances.0.description>{0_definite} ha anat malament. El discurs no estava ben lligat i era incoherent. No s’han aplicat bé les tècniques per a deixar cec al protagonista. Tothom esperava que acabés.</BlindingCeremony.outcomeChances.0.description>
   <!-- EN: Boring -->
   <BlindingCeremony.outcomeChances.1.label>Avorrit</BlindingCeremony.outcomeChances.1.label>
   <!-- EN: The {0} was boring. The speech was repetitive and the blinding technique was noticeably flawed. It just didn't feel dignified. -->
-  <BlindingCeremony.outcomeChances.1.description>TODO</BlindingCeremony.outcomeChances.1.description>
+  <BlindingCeremony.outcomeChances.1.description>{0_definite} ha estat {0_gender ? avorrit : avorrida}. El discurs ha estat repetitiu i s’han vist defectes en la tècnica d’encegat. No ha semblat una cerimònia digna.</BlindingCeremony.outcomeChances.1.description>
   <!-- EN: Satisfying -->
   <BlindingCeremony.outcomeChances.2.label>Satisfactori</BlindingCeremony.outcomeChances.2.label>
   <!-- EN: The {0} was satisfying. The speech felt meaningful, and the blinding technique was precise and dignified. -->
-  <BlindingCeremony.outcomeChances.2.description>TODO</BlindingCeremony.outcomeChances.2.description>
+  <BlindingCeremony.outcomeChances.2.description>{0_definite} ha estat {0_gender satisfactori ? : satisfactòria}. El discurs ha estat emotiu i la tècnica d’encegat ha estat precisa i digna.</BlindingCeremony.outcomeChances.2.description>
   <!-- EN: The blinded person will get a psylink upgrade or unlock a new psychic power. -->
-  <BlindingCeremony.outcomeChances.2.potentialExtraOutcomeDesc>TODO</BlindingCeremony.outcomeChances.2.potentialExtraOutcomeDesc>
+  <BlindingCeremony.outcomeChances.2.potentialExtraOutcomeDesc>La persona que es deixi cega rebrà una millora de psicoenllaç o desblocarà un poder psíquic nou.</BlindingCeremony.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Spectacular -->
   <BlindingCeremony.outcomeChances.3.label>Espectacular</BlindingCeremony.outcomeChances.3.label>
   <!-- EN: The {0} was spectacular! The speech brought everyone to the edge of a frenzy just as the eye came out with a satisfying wet noise. -->
-  <BlindingCeremony.outcomeChances.3.description>TODO</BlindingCeremony.outcomeChances.3.description>
+  <BlindingCeremony.outcomeChances.3.description>{0_definite} ha estat espectacular! El discurs ha fet embogir a tothom just quan l’ull sortia i ha fet un soroll humit tan satisfactori!</BlindingCeremony.outcomeChances.3.description>
   <!-- EN: The blinded person will get a psylink upgrade or unlock a new psychic power. -->
-  <BlindingCeremony.outcomeChances.3.potentialExtraOutcomeDesc>TODO</BlindingCeremony.outcomeChances.3.potentialExtraOutcomeDesc>
+  <BlindingCeremony.outcomeChances.3.potentialExtraOutcomeDesc>La persona que es deixi cega rebrà una millora de psicoenllaç o desblocarà un poder psíquic nou.</BlindingCeremony.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <CelebratedDate.description>Segons la qualitat del ritual, els participants guanyaran entre {MINMOOD} i {MAXMOOD} punts d’estat d’ànim durant {MOODDAYS} dies.</CelebratedDate.description>
@@ -93,325 +93,325 @@
   <!-- EN: Terrible -->
   <CelebratedDate.outcomeChances.0.label>Terrible</CelebratedDate.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
-  <CelebratedDate.outcomeChances.0.description>TODO</CelebratedDate.outcomeChances.0.description>
+  <CelebratedDate.outcomeChances.0.description>{0_definite} ha anat molt malament. Els participants han aguantat moltes hores de converses sense importància i només esperaven que s’acabés l’acte.</CelebratedDate.outcomeChances.0.description>
   <!-- EN: Boring -->
   <CelebratedDate.outcomeChances.1.label>Avorrit</CelebratedDate.outcomeChances.1.label>
   <!-- EN: The {0} was boring. Everyone felt too awkward to open up and laugh. -->
-  <CelebratedDate.outcomeChances.1.description>TODO</CelebratedDate.outcomeChances.1.description>
+  <CelebratedDate.outcomeChances.1.description>{0_definite} ha estat {0_gender ? avorrit : avorrida}. Tothom s’ha sentit molt incòmode a l’hora de parlar i riure.</CelebratedDate.outcomeChances.1.description>
   <!-- EN: Fun -->
   <CelebratedDate.outcomeChances.2.label>Divertit</CelebratedDate.outcomeChances.2.label>
   <!-- EN: The {0} was fun. Everyone appreciated the chance to relax and have fun together. -->
-  <CelebratedDate.outcomeChances.2.description>TODO</CelebratedDate.outcomeChances.2.description>
+  <CelebratedDate.outcomeChances.2.description>{0_definite} ha estat {0_gender ? divertit : divertida}. Tothom ha apreciat l’oportunitat de relaxar-se i divertir-se junts.</CelebratedDate.outcomeChances.2.description>
   <!-- EN: Unforgettable -->
   <CelebratedDate.outcomeChances.3.label>Inoblidable</CelebratedDate.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family. -->
-  <CelebratedDate.outcomeChances.3.description>TODO</CelebratedDate.outcomeChances.3.description>
+  <CelebratedDate.outcomeChances.3.description>{0_definite} ha estat inoblidable! Tothom ha aprés coses dels altres i s’han sentit com una família.</CelebratedDate.outcomeChances.3.description>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <CelebratedDate_Consumable.description>Segons la qualitat del ritual, els participants guanyaran entre {MINMOOD} i {MAXMOOD} punts d’estat d’ànim durant {MOODDAYS} dies.</CelebratedDate_Consumable.description>
   <!-- EN: participant count -->
   <CelebratedDate_Consumable.comps.0.label>nombre de participants</CelebratedDate_Consumable.comps.0.label>
   <!-- EN: room impressiveness -->
-  <CelebratedDate_Consumable.comps.1.label>TODO</CelebratedDate_Consumable.comps.1.label>
+  <CelebratedDate_Consumable.comps.1.label>majestuositat de la cambra</CelebratedDate_Consumable.comps.1.label>
   <!-- EN: If the {0} is satisfying, one participant might gain an inspiration. -->
-  <CelebratedDate_Consumable.extraPredictedOutcomeDescriptions.0>TODO</CelebratedDate_Consumable.extraPredictedOutcomeDescriptions.0>
+  <CelebratedDate_Consumable.extraPredictedOutcomeDescriptions.0>Si {0_definite} és {0_gender ? satisfactori : satisfactòria}, potser un participant quedarà inspirat.</CelebratedDate_Consumable.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Terrible -->
   <CelebratedDate_Consumable.outcomeChances.0.label>Terrible</CelebratedDate_Consumable.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
-  <CelebratedDate_Consumable.outcomeChances.0.description>TODO</CelebratedDate_Consumable.outcomeChances.0.description>
+  <CelebratedDate_Consumable.outcomeChances.0.description>{0_definite} ha anat molt malament. Els participants han aguantat moltes hores de converses sense importància i només esperaven que s’acabés l’acte.</CelebratedDate_Consumable.outcomeChances.0.description>
   <!-- EN: Boring -->
   <CelebratedDate_Consumable.outcomeChances.1.label>Avorrit</CelebratedDate_Consumable.outcomeChances.1.label>
   <!-- EN: The {0} was boring. Everyone felt too awkward to open up and laugh. -->
-  <CelebratedDate_Consumable.outcomeChances.1.description>TODO</CelebratedDate_Consumable.outcomeChances.1.description>
+  <CelebratedDate_Consumable.outcomeChances.1.description>{0_definite} ha estat {0_gender ? avorrit : avorrida}. Tothom s’ha sentit molt incòmode a l’hora de parlar i riure.</CelebratedDate_Consumable.outcomeChances.1.description>
   <!-- EN: Fun -->
   <CelebratedDate_Consumable.outcomeChances.2.label>Divertit</CelebratedDate_Consumable.outcomeChances.2.label>
   <!-- EN: The {0} was good. Everyone appreciated the chance to relax and have fun together. -->
-  <CelebratedDate_Consumable.outcomeChances.2.description>TODO</CelebratedDate_Consumable.outcomeChances.2.description>
+  <CelebratedDate_Consumable.outcomeChances.2.description>{0_definite} ha estat {0_gender ? divertit : divertida}. Tothom ha apreciat l’oportunitat de relaxar-se i divertir-se junts.</CelebratedDate_Consumable.outcomeChances.2.description>
   <!-- EN: There's a 5% chance that a random participant gains an inspiration. -->
-  <CelebratedDate_Consumable.outcomeChances.2.potentialExtraOutcomeDesc>TODO</CelebratedDate_Consumable.outcomeChances.2.potentialExtraOutcomeDesc>
+  <CelebratedDate_Consumable.outcomeChances.2.potentialExtraOutcomeDesc>Hi ha una probabilitat del 5 % que un participant a l’atzar s’inspiri.</CelebratedDate_Consumable.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <CelebratedDate_Consumable.outcomeChances.3.label>Inoblidable</CelebratedDate_Consumable.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family. -->
-  <CelebratedDate_Consumable.outcomeChances.3.description>TODO</CelebratedDate_Consumable.outcomeChances.3.description>
+  <CelebratedDate_Consumable.outcomeChances.3.description>{0_definite} ha estat inoblidable! Tothom ha aprés coses dels altres i s’han sentit com una família.</CelebratedDate_Consumable.outcomeChances.3.description>
   <!-- EN: There's a 10% chance a random participant gains an inspiration. -->
-  <CelebratedDate_Consumable.outcomeChances.3.potentialExtraOutcomeDesc>TODO</CelebratedDate_Consumable.outcomeChances.3.potentialExtraOutcomeDesc>
+  <CelebratedDate_Consumable.outcomeChances.3.potentialExtraOutcomeDesc>Hi ha una probabilitat del 10 % que un participant a l’atzar s’inspiri.</CelebratedDate_Consumable.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <CelebrationPartyDanceDrum.description>Segons la qualitat del ritual, els participants guanyaran entre {MINMOOD} i {MAXMOOD} punts d’estat d’ànim durant {MOODDAYS} dies.</CelebrationPartyDanceDrum.description>
   <!-- EN: participant count -->
   <CelebrationPartyDanceDrum.comps.0.label>nombre de participants</CelebrationPartyDanceDrum.comps.0.label>
   <!-- EN: room impressiveness -->
-  <CelebrationPartyDanceDrum.comps.1.label>TODO</CelebrationPartyDanceDrum.comps.1.label>
+  <CelebrationPartyDanceDrum.comps.1.label>majestuositat de la cambra</CelebrationPartyDanceDrum.comps.1.label>
   <!-- EN: played drum count -->
-  <CelebrationPartyDanceDrum.comps.2.label>TODO</CelebrationPartyDanceDrum.comps.2.label>
+  <CelebrationPartyDanceDrum.comps.2.label>tambors que s’han tocat</CelebrationPartyDanceDrum.comps.2.label>
   <!-- EN: started at campfire -->
-  <CelebrationPartyDanceDrum.comps.3.label>TODO</CelebrationPartyDanceDrum.comps.3.label>
+  <CelebrationPartyDanceDrum.comps.3.label>iniciat en una foguera</CelebrationPartyDanceDrum.comps.3.label>
   <!-- EN: a campfire -->
-  <CelebrationPartyDanceDrum.comps.3.expectedThingLabelTip>TODO</CelebrationPartyDanceDrum.comps.3.expectedThingLabelTip>
+  <CelebrationPartyDanceDrum.comps.3.expectedThingLabelTip>una foguera</CelebrationPartyDanceDrum.comps.3.expectedThingLabelTip>
   <!-- EN: If the {0} is fun or unforgettable, participants may gain increased work speed for a while. -->
-  <CelebrationPartyDanceDrum.extraPredictedOutcomeDescriptions.0>TODO</CelebrationPartyDanceDrum.extraPredictedOutcomeDescriptions.0>
+  <CelebrationPartyDanceDrum.extraPredictedOutcomeDescriptions.0>Si {0_definite} és {0_gender ? divertit : divertida} o inoblidable, els participants podrien veure augmentada la seva velocitat de treball durant un temps.</CelebrationPartyDanceDrum.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Terrible -->
   <CelebrationPartyDanceDrum.outcomeChances.0.label>Terrible</CelebrationPartyDanceDrum.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Awkward conversation, bad jokes, atrocious dancing, and dull music. -->
-  <CelebrationPartyDanceDrum.outcomeChances.0.description>TODO</CelebrationPartyDanceDrum.outcomeChances.0.description>
+  <CelebrationPartyDanceDrum.outcomeChances.0.description>{0_definite} ha anat molt malament. Converses incòmodes, acudits dolents, balls atroços i música avorrida.</CelebrationPartyDanceDrum.outcomeChances.0.description>
   <!-- EN: Boring -->
   <CelebrationPartyDanceDrum.outcomeChances.1.label>Avorrida</CelebrationPartyDanceDrum.outcomeChances.1.label>
   <!-- EN: The {0} was boring. Bad dancing and so-so music made the whole thing feel like a waste of time. -->
-  <CelebrationPartyDanceDrum.outcomeChances.1.description>TODO</CelebrationPartyDanceDrum.outcomeChances.1.description>
+  <CelebrationPartyDanceDrum.outcomeChances.1.description>{0_definite} ha estat {0_gender ? avorrit : avorrida}. Els balls dolents i la música justeta han fet que tot plegat fos una pèrdua de temps.</CelebrationPartyDanceDrum.outcomeChances.1.description>
   <!-- EN: Fun -->
   <CelebrationPartyDanceDrum.outcomeChances.2.label>Divertida</CelebrationPartyDanceDrum.outcomeChances.2.label>
   <!-- EN: The {0} was fun. Everyone enjoyed the break from everyday life and got in some good dancing together. -->
-  <CelebrationPartyDanceDrum.outcomeChances.2.description>TODO</CelebrationPartyDanceDrum.outcomeChances.2.description>
+  <CelebrationPartyDanceDrum.outcomeChances.2.description>{0_definite} ha estat {0_gender ? divertit : divertida}. A tothom li ha agradat trencar la rutina del dia a dia i poder ballar una mica junts.</CelebrationPartyDanceDrum.outcomeChances.2.description>
   <!-- EN: Everyone felt refreshed after their trance-like dancing experience. Participants will work faster for a while. -->
-  <CelebrationPartyDanceDrum.outcomeChances.2.potentialExtraOutcomeDesc>TODO</CelebrationPartyDanceDrum.outcomeChances.2.potentialExtraOutcomeDesc>
+  <CelebrationPartyDanceDrum.outcomeChances.2.potentialExtraOutcomeDesc>Tothom es sent millor després de l’experiència i dels balls. Els participants treballaran més de pressa durant un temps.</CelebrationPartyDanceDrum.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <CelebrationPartyDanceDrum.outcomeChances.3.label>Inoblidable</CelebrationPartyDanceDrum.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! The dancers forgot themselves in the music, and the experience brought everyone together. -->
-  <CelebrationPartyDanceDrum.outcomeChances.3.description>TODO</CelebrationPartyDanceDrum.outcomeChances.3.description>
+  <CelebrationPartyDanceDrum.outcomeChances.3.description>{0_definite} ha estat inoblidable! Els ballarins s’han deixat anar amb la música i l’experiència els ha unit a tots.</CelebrationPartyDanceDrum.outcomeChances.3.description>
   <!-- EN: Everyone felt refreshed after their trance-like dancing experience. Participants will work faster for a while. -->
-  <CelebrationPartyDanceDrum.outcomeChances.3.potentialExtraOutcomeDesc>TODO</CelebrationPartyDanceDrum.outcomeChances.3.potentialExtraOutcomeDesc>
+  <CelebrationPartyDanceDrum.outcomeChances.3.potentialExtraOutcomeDesc>Tothom es sent millor després de l’experiència i dels balls. Els participants treballaran més de pressa durant un temps.</CelebrationPartyDanceDrum.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <CelebrationPartyDanceTech.description>Segons la qualitat del ritual, els participants guanyaran entre {MINMOOD} i {MAXMOOD} punts d’estat d’ànim durant {MOODDAYS} dies.</CelebrationPartyDanceTech.description>
   <!-- EN: participant count -->
   <CelebrationPartyDanceTech.comps.0.label>nombre de participants</CelebrationPartyDanceTech.comps.0.label>
   <!-- EN: room impressiveness -->
-  <CelebrationPartyDanceTech.comps.1.label>TODO</CelebrationPartyDanceTech.comps.1.label>
+  <CelebrationPartyDanceTech.comps.1.label>majestuositat de la cambra</CelebrationPartyDanceTech.comps.1.label>
   <!-- EN: active speaker count -->
-  <CelebrationPartyDanceTech.comps.2.label>TODO</CelebrationPartyDanceTech.comps.2.label>
+  <CelebrationPartyDanceTech.comps.2.label>nombre d’altaveus fets servir</CelebrationPartyDanceTech.comps.2.label>
   <!-- EN: started at lightball -->
-  <CelebrationPartyDanceTech.comps.3.label>TODO</CelebrationPartyDanceTech.comps.3.label>
+  <CelebrationPartyDanceTech.comps.3.label>es comença en una bola giratòria</CelebrationPartyDanceTech.comps.3.label>
   <!-- EN: a lightball -->
-  <CelebrationPartyDanceTech.comps.3.expectedThingLabelTip>una bola giratòria de colors</CelebrationPartyDanceTech.comps.3.expectedThingLabelTip>
+  <CelebrationPartyDanceTech.comps.3.expectedThingLabelTip>una bola giratòria</CelebrationPartyDanceTech.comps.3.expectedThingLabelTip>
   <!-- EN: If the {0} is fun or unforgettable, participants may gain increased work speed for a while. -->
-  <CelebrationPartyDanceTech.extraPredictedOutcomeDescriptions.0>TODO</CelebrationPartyDanceTech.extraPredictedOutcomeDescriptions.0>
+  <CelebrationPartyDanceTech.extraPredictedOutcomeDescriptions.0>Si {0_definite} és {0_gender ? divertit : divertida} o inoblidable, els participants podrien veure augmentada la seva velocitat de treball durant un temps.</CelebrationPartyDanceTech.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Terrible -->
   <CelebrationPartyDanceTech.outcomeChances.0.label>Terrible</CelebrationPartyDanceTech.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Awkward conversation, bad jokes, atrocious dancing, and dull music. -->
-  <CelebrationPartyDanceTech.outcomeChances.0.description>TODO</CelebrationPartyDanceTech.outcomeChances.0.description>
+  <CelebrationPartyDanceTech.outcomeChances.0.description>{0_definite} ha anat molt malament. Converses incòmodes, acudits dolents, balls atroços i música avorrida.</CelebrationPartyDanceTech.outcomeChances.0.description>
   <!-- EN: Boring -->
   <CelebrationPartyDanceTech.outcomeChances.1.label>Avorrida</CelebrationPartyDanceTech.outcomeChances.1.label>
   <!-- EN: The {0} was boring. Bad dancing and so-so music made the whole thing feel like a waste of time. -->
-  <CelebrationPartyDanceTech.outcomeChances.1.description>TODO</CelebrationPartyDanceTech.outcomeChances.1.description>
+  <CelebrationPartyDanceTech.outcomeChances.1.description>{0_definite} ha estat {0_gender ? avorrit : avorrida}. Els balls dolents i la música justeta han fet que tot plegat fos una pèrdua de temps.</CelebrationPartyDanceTech.outcomeChances.1.description>
   <!-- EN: Fun -->
   <CelebrationPartyDanceTech.outcomeChances.2.label>Divertida</CelebrationPartyDanceTech.outcomeChances.2.label>
   <!-- EN: The {0} was fun. Everyone enjoyed the break from everyday life and got in some good dancing together. -->
-  <CelebrationPartyDanceTech.outcomeChances.2.description>TODO</CelebrationPartyDanceTech.outcomeChances.2.description>
+  <CelebrationPartyDanceTech.outcomeChances.2.description>{0_definite} ha estat {0_gender ? divertit : divertida}. A tothom li ha agradat trencar la rutina del dia a dia i poder ballar una mica junts.</CelebrationPartyDanceTech.outcomeChances.2.description>
   <!-- EN: Everyone felt refreshed after their trance-like dancing experience. Participants will work faster for a while. -->
-  <CelebrationPartyDanceTech.outcomeChances.2.potentialExtraOutcomeDesc>TODO</CelebrationPartyDanceTech.outcomeChances.2.potentialExtraOutcomeDesc>
+  <CelebrationPartyDanceTech.outcomeChances.2.potentialExtraOutcomeDesc>Tothom es sent millor després de l’experiència i dels balls. Els participants treballaran més de pressa durant un temps.</CelebrationPartyDanceTech.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <CelebrationPartyDanceTech.outcomeChances.3.label>Inoblidable</CelebrationPartyDanceTech.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! The dancers forgot themselves in the music, and the experience brought everyone together. -->
-  <CelebrationPartyDanceTech.outcomeChances.3.description>TODO</CelebrationPartyDanceTech.outcomeChances.3.description>
+  <CelebrationPartyDanceTech.outcomeChances.3.description>{0_definite} ha estat inoblidable! Els ballarins s’han deixat anar amb la música i l’experiència els ha unit a tots.</CelebrationPartyDanceTech.outcomeChances.3.description>
   <!-- EN: Everyone felt refreshed after their trance-like dancing experience. Participants will work faster for a while. -->
-  <CelebrationPartyDanceTech.outcomeChances.3.potentialExtraOutcomeDesc>TODO</CelebrationPartyDanceTech.outcomeChances.3.potentialExtraOutcomeDesc>
+  <CelebrationPartyDanceTech.outcomeChances.3.potentialExtraOutcomeDesc>Tothom es sent millor després de l’experiència i dels balls. Els participants treballaran més de pressa durant un temps.</CelebrationPartyDanceTech.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <CelebrationSkyLanterns.description>Segons la qualitat del ritual, els participants guanyaran entre {MINMOOD} i {MAXMOOD} punts d’estat d’ànim durant {MOODDAYS} dies.</CelebrationSkyLanterns.description>
   <!-- EN: participant count -->
   <CelebrationSkyLanterns.comps.0.label>nombre de participants</CelebrationSkyLanterns.comps.0.label>
   <!-- EN: Each participant will make a lantern out of 4 wood. -->
-  <CelebrationSkyLanterns.extraInfoLines.0>TODO</CelebrationSkyLanterns.extraInfoLines.0>
+  <CelebrationSkyLanterns.extraInfoLines.0>Cada participant farà una llanterna amb 4 unitats de fusta.</CelebrationSkyLanterns.extraInfoLines.0>
   <!-- EN: If the {0} is beautiful or unforgettable, the skylanterns might attract a group of friendly visitors. -->
-  <CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>TODO</CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>
+  <CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>Si {0_definite} és preciós o inoblidable, les llanternes voladors potser atrauen un grup de visitants amistosos.</CelebrationSkyLanterns.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Terrible -->
   <CelebrationSkyLanterns.outcomeChances.0.label>Terrible</CelebrationSkyLanterns.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! People kept getting annoyed making the lanterns and they looked like garbage on the wind. -->
-  <CelebrationSkyLanterns.outcomeChances.0.description>TODO</CelebrationSkyLanterns.outcomeChances.0.description>
+  <CelebrationSkyLanterns.outcomeChances.0.description>{0_definite} ha anat molt malament. La gent s’ha cansat de fer llanternes i, quan les han enlairat, semblaven escombraries que volaven arrossegades pel vent.</CelebrationSkyLanterns.outcomeChances.0.description>
   <!-- EN: Unimpressive -->
-  <CelebrationSkyLanterns.outcomeChances.1.label>TODO</CelebrationSkyLanterns.outcomeChances.1.label>
+  <CelebrationSkyLanterns.outcomeChances.1.label>Regular</CelebrationSkyLanterns.outcomeChances.1.label>
   <!-- EN: The {0} was unimpressive. Lantern-making took too long and it all felt rather pointless. -->
-  <CelebrationSkyLanterns.outcomeChances.1.description>TODO</CelebrationSkyLanterns.outcomeChances.1.description>
+  <CelebrationSkyLanterns.outcomeChances.1.description>{0_definite} ha estat poc interessant. S’ha trigat massa a fer les llanternes i la impressió general és que la cerimònia no tenia massa sentit.</CelebrationSkyLanterns.outcomeChances.1.description>
   <!-- EN: Beautiful -->
-  <CelebrationSkyLanterns.outcomeChances.2.label>TODO</CelebrationSkyLanterns.outcomeChances.2.label>
+  <CelebrationSkyLanterns.outcomeChances.2.label>Preciós</CelebrationSkyLanterns.outcomeChances.2.label>
   <!-- EN: The {0} was beautiful. The drifting lanterns made everyone feel at peace. -->
-  <CelebrationSkyLanterns.outcomeChances.2.description>TODO</CelebrationSkyLanterns.outcomeChances.2.description>
+  <CelebrationSkyLanterns.outcomeChances.2.description>{0_definite} ha estat {0_gender ? preciós : preciosa}. Les llanternes que se n’anaven volant han fet que tothom es sentís en pau.</CelebrationSkyLanterns.outcomeChances.2.description>
   <!-- EN: The skylanterns lifted high and bright. Friendly visitors might see them and arrive with a gift. -->
-  <CelebrationSkyLanterns.outcomeChances.2.potentialExtraOutcomeDesc>TODO</CelebrationSkyLanterns.outcomeChances.2.potentialExtraOutcomeDesc>
+  <CelebrationSkyLanterns.outcomeChances.2.potentialExtraOutcomeDesc>Les llanternes s’han enlairat i han brillat. Potser algun grup amistós les veu i vénen a la colònia amb un regal.</CelebrationSkyLanterns.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <CelebrationSkyLanterns.outcomeChances.3.label>Inoblidable</CelebrationSkyLanterns.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! Making the lanterns was a time of laughter, and everyone's spirits rose with them. -->
-  <CelebrationSkyLanterns.outcomeChances.3.description>TODO</CelebrationSkyLanterns.outcomeChances.3.description>
+  <CelebrationSkyLanterns.outcomeChances.3.description>{0_definite} ha estat inoblidable! Mentre es fabricaven les llanternes, la gent reia. I quan les han enlairat, també ha pujat l’extat d’ànim dels que hi han participat.</CelebrationSkyLanterns.outcomeChances.3.description>
   <!-- EN: The skylanterns lifted high and bright. Friendly visitors might see them and arrive with a gift. -->
-  <CelebrationSkyLanterns.outcomeChances.3.potentialExtraOutcomeDesc>TODO</CelebrationSkyLanterns.outcomeChances.3.potentialExtraOutcomeDesc>
+  <CelebrationSkyLanterns.outcomeChances.3.potentialExtraOutcomeDesc>Les llanternes s’han enlairat i han brillat. Potser algun grup amistós les veu i vénen a la colònia amb un regal.</CelebrationSkyLanterns.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: The connector will connect to the tree. -->
-  <ConnectToTree.description>TODO</ConnectToTree.description>
+  <ConnectToTree.description>El connector es connectarà amb l’arbre.</ConnectToTree.description>
   <!-- EN: participant count -->
   <ConnectToTree.comps.0.label>nombre de participants</ConnectToTree.comps.0.label>
   <!-- EN: The connector will start with 25-45% connection strength, depending on ritual quality. -->
-  <ConnectToTree.extraPredictedOutcomeDescriptions.0>TODO</ConnectToTree.extraPredictedOutcomeDescriptions.0>
+  <ConnectToTree.extraPredictedOutcomeDescriptions.0>El connector començara amb una força de connexió d’entre el 25 % i el 45 %, en funció de la qualitat del ritual.</ConnectToTree.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Every 2% increase in quality will grow a patch of Gauranlen moss around the tree, beautifying the area. -->
-  <ConnectToTree.extraPredictedOutcomeDescriptions.1>TODO</ConnectToTree.extraPredictedOutcomeDescriptions.1>
+  <ConnectToTree.extraPredictedOutcomeDescriptions.1>Cada increment del 2 % de la qualitat farà que creixi una mica de molsa gauranlen al voltant de l’arbre i la zona serà més bonica.</ConnectToTree.extraPredictedOutcomeDescriptions.1>
   
   <!-- EN: If it goes well, target's ideoligion certainty will be reduced or they will convert. If it goes badly, they will gain certainty in their old beliefs. -->
-  <Conversion.description>TODO</Conversion.description>
+  <Conversion.description>Si tot va bé, la certesa de l’objectiu en la seva ideoligió es reduirà o bé l’objectiu es convertirà. Si va malament, l’objectiu tindrà més certesa en les seves antigues creences.</Conversion.description>
   <!-- EN: room impressiveness -->
-  <Conversion.comps.0.label>TODO</Conversion.comps.0.label>
+  <Conversion.comps.0.label>majestuositat de la cambra</Conversion.comps.0.label>
   <!-- EN: participant count -->
   <Conversion.comps.1.label>nombre de participants</Conversion.comps.1.label>
   <!-- EN: {PAWN_labelShort}'s social impact -->
-  <Conversion.comps.2.label>TODO</Conversion.comps.2.label>
+  <Conversion.comps.2.label>impacte social de {PAWN_labelShort}</Conversion.comps.2.label>
   <!-- EN: speaker's social impact -->
-  <Conversion.comps.2.labelAbstract>TODO</Conversion.comps.2.labelAbstract>
+  <Conversion.comps.2.labelAbstract>impacte social de l’orador</Conversion.comps.2.labelAbstract>
   <!-- EN: {PAWN_labelShort}'s expectations -->
-  <Conversion.comps.3.label>TODO</Conversion.comps.3.label>
+  <Conversion.comps.3.label>expectatives de {PAWN_labelShort}</Conversion.comps.3.label>
   <!-- EN: convertee's expectations -->
-  <Conversion.comps.3.labelAbstract>TODO</Conversion.comps.3.labelAbstract>
+  <Conversion.comps.3.labelAbstract>expectatives de la persona convertida</Conversion.comps.3.labelAbstract>
   <!-- EN: Terrible -->
   <Conversion.outcomeChances.0.label>Terrible</Conversion.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! From the first word, it was a fruitless back-and-forth argument. It dragged on for a cringe-inducingly long time. -->
-  <Conversion.outcomeChances.0.description>TODO</Conversion.outcomeChances.0.description>
+  <Conversion.outcomeChances.0.description>{0_definite} ha anat molt malament. Da la primera a l’última paraula, ha estat una discussió que anava d’un lloc a l’altre sense sentit. Ha durat massa.</Conversion.outcomeChances.0.description>
   <!-- EN: Ineffective -->
-  <Conversion.outcomeChances.1.label>TODO</Conversion.outcomeChances.1.label>
+  <Conversion.outcomeChances.1.label>Inefectiva</Conversion.outcomeChances.1.label>
   <!-- EN: The {0} was ineffective. Most of the arguments were unclear, and the convertee countered those that made sense. -->
-  <Conversion.outcomeChances.1.description>TODO</Conversion.outcomeChances.1.description>
+  <Conversion.outcomeChances.1.description>{0_definite} ha estat {0_gender ? poc efectiu : poc efectiva}. Gran part de l’argumentació era poc clara i la persona que havia de ser convertida ha respost els arguments que tenien poc sentit.</Conversion.outcomeChances.1.description>
   <!-- EN: Effective -->
-  <Conversion.outcomeChances.2.label>TODO</Conversion.outcomeChances.2.label>
+  <Conversion.outcomeChances.2.label>Efectiva</Conversion.outcomeChances.2.label>
   <!-- EN: The {0} was effective. The speech not only delivered solid arguments and visibly swayed the convertee's thoughts, but kept the crowd entertained as well. -->
-  <Conversion.outcomeChances.2.description>TODO</Conversion.outcomeChances.2.description>
+  <Conversion.outcomeChances.2.description>{0_definite} ha estat {0_gender ? efectiu : efectiva}. El discurs no només ha aportat arguments sòlids i ha fet que els pensaments de la persona a convertir canviessin, sinó que ha mantingut a l’audiència entretinguda.</Conversion.outcomeChances.2.description>
   <!-- EN: Masterful -->
-  <Conversion.outcomeChances.3.label>TODO</Conversion.outcomeChances.3.label>
+  <Conversion.outcomeChances.3.label>Magistral</Conversion.outcomeChances.3.label>
   <!-- EN: The {0} was masterful! Old beliefs seemed to dissolve effortlessly and inevitably, and our true knowledge was accepted. -->
-  <Conversion.outcomeChances.3.description>TODO</Conversion.outcomeChances.3.description>
+  <Conversion.outcomeChances.3.description>{0_definite} ha estat magistral. Les antigues creences s’esvaeixen de manera inevitable i el vertader coneixement es va propagant.</Conversion.outcomeChances.3.description>
   
   <!-- EN: The ritual target will be destroyed. -->
-  <DestroyConsumableBuilding.description>TODO</DestroyConsumableBuilding.description>
+  <DestroyConsumableBuilding.description>L’objectiu del ritual serà destruït.</DestroyConsumableBuilding.description>
   <!-- EN: participant count -->
   <DestroyConsumableBuilding.comps.0.label>nombre de participants</DestroyConsumableBuilding.comps.0.label>
   <!-- EN: room impressiveness -->
-  <DestroyConsumableBuilding.comps.1.label>TODO</DestroyConsumableBuilding.comps.1.label>
+  <DestroyConsumableBuilding.comps.1.label>majestuositat de la cambra</DestroyConsumableBuilding.comps.1.label>
   <!-- EN: Terrible -->
   <DestroyConsumableBuilding.outcomeChances.0.label>Terrible</DestroyConsumableBuilding.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
-  <DestroyConsumableBuilding.outcomeChances.0.description>TODO</DestroyConsumableBuilding.outcomeChances.0.description>
+  <DestroyConsumableBuilding.outcomeChances.0.description>{0_definite} ha anat molt malament. Els participants han aguantat moltes hores de converses sense importància i només esperaven que s’acabés l’acte.</DestroyConsumableBuilding.outcomeChances.0.description>
   <!-- EN: Boring -->
   <DestroyConsumableBuilding.outcomeChances.1.label>Avorrit</DestroyConsumableBuilding.outcomeChances.1.label>
   <!-- EN: The {0} was boring. Everyone felt too awkward to open up and laugh. -->
-  <DestroyConsumableBuilding.outcomeChances.1.description>TODO</DestroyConsumableBuilding.outcomeChances.1.description>
+  <DestroyConsumableBuilding.outcomeChances.1.description>{0_definite} ha estat {0_gender ? avorrit : avorrida}. Tothom s’ha sentit molt incòmode a l’hora de parlar i riure.</DestroyConsumableBuilding.outcomeChances.1.description>
   <!-- EN: Fun -->
   <DestroyConsumableBuilding.outcomeChances.2.label>Divertit</DestroyConsumableBuilding.outcomeChances.2.label>
   <!-- EN: The {0} was good. Everyone appreciated the chance to relax and have fun together. -->
-  <DestroyConsumableBuilding.outcomeChances.2.description>TODO</DestroyConsumableBuilding.outcomeChances.2.description>
+  <DestroyConsumableBuilding.outcomeChances.2.description>{0_definite} ha estat {0_gender ? divertit : divertida}. Tothom ha apreciat l’oportunitat de relaxar-se i divertir-se junts.</DestroyConsumableBuilding.outcomeChances.2.description>
   <!-- EN: There's a 5% chance that a random participant gains an inspiration. -->
-  <DestroyConsumableBuilding.outcomeChances.2.potentialExtraOutcomeDesc>TODO</DestroyConsumableBuilding.outcomeChances.2.potentialExtraOutcomeDesc>
+  <DestroyConsumableBuilding.outcomeChances.2.potentialExtraOutcomeDesc>Hi ha una probabilitat del 5 % que un participant a l’atzar s’inspiri.</DestroyConsumableBuilding.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <DestroyConsumableBuilding.outcomeChances.3.label>Inoblidable</DestroyConsumableBuilding.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family. -->
-  <DestroyConsumableBuilding.outcomeChances.3.description>TODO</DestroyConsumableBuilding.outcomeChances.3.description>
+  <DestroyConsumableBuilding.outcomeChances.3.description>{0_definite} ha estat inoblidable! Tothom ha aprés coses dels altres i s’han sentit com una família.</DestroyConsumableBuilding.outcomeChances.3.description>
   <!-- EN: There's a 10% chance a random participant gains an inspiration. -->
-  <DestroyConsumableBuilding.outcomeChances.3.potentialExtraOutcomeDesc>TODO</DestroyConsumableBuilding.outcomeChances.3.potentialExtraOutcomeDesc>
+  <DestroyConsumableBuilding.outcomeChances.3.potentialExtraOutcomeDesc>Hi ha una probabilitat del 10 % que un participant a l’atzar s’inspiri.</DestroyConsumableBuilding.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: The ritual target will be destroyed. -->
-  <DestroyConsumableBuilding_Burnbong.description>TODO</DestroyConsumableBuilding_Burnbong.description>
+  <DestroyConsumableBuilding_Burnbong.description>L’objectiu del ritual serà destruït.</DestroyConsumableBuilding_Burnbong.description>
   <!-- EN: participant count -->
   <DestroyConsumableBuilding_Burnbong.comps.0.label>nombre de participants</DestroyConsumableBuilding_Burnbong.comps.0.label>
   <!-- EN: room impressiveness -->
-  <DestroyConsumableBuilding_Burnbong.comps.1.label>TODO</DestroyConsumableBuilding_Burnbong.comps.1.label>
+  <DestroyConsumableBuilding_Burnbong.comps.1.label>majestuositat de la cambra</DestroyConsumableBuilding_Burnbong.comps.1.label>
   <!-- EN: Terrible -->
   <DestroyConsumableBuilding_Burnbong.outcomeChances.0.label>Terrible</DestroyConsumableBuilding_Burnbong.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
-  <DestroyConsumableBuilding_Burnbong.outcomeChances.0.description>TODO</DestroyConsumableBuilding_Burnbong.outcomeChances.0.description>
+  <DestroyConsumableBuilding_Burnbong.outcomeChances.0.description>{0_definite} ha anat molt malament. Els participants han aguantat moltes hores de converses sense importància i només esperaven que s’acabés l’acte.</DestroyConsumableBuilding_Burnbong.outcomeChances.0.description>
   <!-- EN: Boring -->
   <DestroyConsumableBuilding_Burnbong.outcomeChances.1.label>Avorrida</DestroyConsumableBuilding_Burnbong.outcomeChances.1.label>
   <!-- EN: The {0} was boring. Everyone felt too awkward to open up and laugh. -->
-  <DestroyConsumableBuilding_Burnbong.outcomeChances.1.description>TODO</DestroyConsumableBuilding_Burnbong.outcomeChances.1.description>
+  <DestroyConsumableBuilding_Burnbong.outcomeChances.1.description>{0_definite} ha estat {0_gender ? avorrit : avorrida}. Tothom s’ha sentit molt incòmode a l’hora de parlar i riure.</DestroyConsumableBuilding_Burnbong.outcomeChances.1.description>
   <!-- EN: Fun -->
   <DestroyConsumableBuilding_Burnbong.outcomeChances.2.label>Divertida</DestroyConsumableBuilding_Burnbong.outcomeChances.2.label>
   <!-- EN: The {0} was good. Everyone appreciated the chance to relax and have fun together. -->
-  <DestroyConsumableBuilding_Burnbong.outcomeChances.2.description>TODO</DestroyConsumableBuilding_Burnbong.outcomeChances.2.description>
+  <DestroyConsumableBuilding_Burnbong.outcomeChances.2.description>{0_definite} ha estat {0_gender ? divertit : divertida}. Tothom ha apreciat l’oportunitat de relaxar-se i divertir-se junts.</DestroyConsumableBuilding_Burnbong.outcomeChances.2.description>
   <!-- EN: There's a 5% chance that a random participant gains an inspiration. -->
-  <DestroyConsumableBuilding_Burnbong.outcomeChances.2.potentialExtraOutcomeDesc>TODO</DestroyConsumableBuilding_Burnbong.outcomeChances.2.potentialExtraOutcomeDesc>
+  <DestroyConsumableBuilding_Burnbong.outcomeChances.2.potentialExtraOutcomeDesc>Hi ha una probabilitat del 5 % que un participant a l’atzar s’inspiri.</DestroyConsumableBuilding_Burnbong.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <DestroyConsumableBuilding_Burnbong.outcomeChances.3.label>Inoblidable</DestroyConsumableBuilding_Burnbong.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family. -->
-  <DestroyConsumableBuilding_Burnbong.outcomeChances.3.description>TODO</DestroyConsumableBuilding_Burnbong.outcomeChances.3.description>
+  <DestroyConsumableBuilding_Burnbong.outcomeChances.3.description>{0_definite} ha estat inoblidable! Tothom ha aprés coses dels altres i s’han sentit com una família.</DestroyConsumableBuilding_Burnbong.outcomeChances.3.description>
   <!-- EN: There's a 10% chance a random participant gains an inspiration. -->
-  <DestroyConsumableBuilding_Burnbong.outcomeChances.3.potentialExtraOutcomeDesc>TODO</DestroyConsumableBuilding_Burnbong.outcomeChances.3.potentialExtraOutcomeDesc>
+  <DestroyConsumableBuilding_Burnbong.outcomeChances.3.potentialExtraOutcomeDesc>Hi ha una probabilitat del 10 % que un participant a l’atzar s’inspiri.</DestroyConsumableBuilding_Burnbong.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: The ritual target will be destroyed. -->
-  <DestroyConsumableBuilding_CannibalPlatter.description>TODO</DestroyConsumableBuilding_CannibalPlatter.description>
+  <DestroyConsumableBuilding_CannibalPlatter.description>L’objectiu del ritual serà destruït.</DestroyConsumableBuilding_CannibalPlatter.description>
   <!-- EN: participant count -->
   <DestroyConsumableBuilding_CannibalPlatter.comps.0.label>nombre de participants</DestroyConsumableBuilding_CannibalPlatter.comps.0.label>
   <!-- EN: room impressiveness -->
-  <DestroyConsumableBuilding_CannibalPlatter.comps.1.label>TODO</DestroyConsumableBuilding_CannibalPlatter.comps.1.label>
+  <DestroyConsumableBuilding_CannibalPlatter.comps.1.label>majestuositat de la cambra</DestroyConsumableBuilding_CannibalPlatter.comps.1.label>
   <!-- EN: Terrible -->
   <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.0.label>Terrible</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
-  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.0.description>TODO</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.0.description>
+  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.0.description>{0_definite} ha anat molt malament. Els participants han aguantat moltes hores de converses sense importància i només esperaven que s’acabés l’acte.</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.0.description>
   <!-- EN: Boring -->
   <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.1.label>Avorrida</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.1.label>
   <!-- EN: The {0} was boring. Everyone felt too awkward to open up and laugh. -->
-  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.1.description>TODO</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.1.description>
+  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.1.description>{0_definite} ha estat {0_gender ? avorrit : avorrida}. Tothom s’ha sentit molt incòmode a l’hora de parlar i riure.</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.1.description>
   <!-- EN: Fun -->
   <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.label>Divertida</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.label>
   <!-- EN: The {0} was good. Everyone appreciated the chance to relax and have fun together. -->
-  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.description>TODO</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.description>
+  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.description>{0_definite} ha estat {0_gender ? divertit : divertida}. Tothom ha apreciat l’oportunitat de relaxar-se i divertir-se junts.</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.description>
   <!-- EN: There's a 5% chance that a random participant gains an inspiration. -->
-  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.potentialExtraOutcomeDesc>TODO</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.potentialExtraOutcomeDesc>
+  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.potentialExtraOutcomeDesc>Hi ha una probabilitat del 5 % que un participant a l’atzar s’inspiri.</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.label>Inoblidable</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family. -->
-  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.description>TODO</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.description>
+  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.description>{0_definite} ha estat inoblidable! Tothom ha aprés coses dels altres i s’han sentit com una família.</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.description>
   <!-- EN: There's a 10% chance a random participant gains an inspiration. -->
-  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.potentialExtraOutcomeDesc>TODO</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.potentialExtraOutcomeDesc>
+  <DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.potentialExtraOutcomeDesc>Hi ha una probabilitat del 10 % que un participant a l’atzar s’inspiri.</DestroyConsumableBuilding_CannibalPlatter.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: The ritual target will be destroyed. -->
-  <DestroyConsumableBuilding_ChristmasTree.description>TODO</DestroyConsumableBuilding_ChristmasTree.description>
+  <DestroyConsumableBuilding_ChristmasTree.description>L’objectiu del ritual serà destruït.</DestroyConsumableBuilding_ChristmasTree.description>
   <!-- EN: participant count -->
   <DestroyConsumableBuilding_ChristmasTree.comps.0.label>nombre de participants</DestroyConsumableBuilding_ChristmasTree.comps.0.label>
   <!-- EN: room impressiveness -->
-  <DestroyConsumableBuilding_ChristmasTree.comps.1.label>TODO</DestroyConsumableBuilding_ChristmasTree.comps.1.label>
+  <DestroyConsumableBuilding_ChristmasTree.comps.1.label>majestuositat de la cambra</DestroyConsumableBuilding_ChristmasTree.comps.1.label>
   <!-- EN: Terrible -->
   <DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.label>Terrible</DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
-  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.description>TODO</DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.description>
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.description>{0_definite} ha anat molt malament. Els participants han aguantat moltes hores de converses sense importància i només esperaven que s’acabés l’acte.</DestroyConsumableBuilding_ChristmasTree.outcomeChances.0.description>
   <!-- EN: Boring -->
   <DestroyConsumableBuilding_ChristmasTree.outcomeChances.1.label>Avorrit</DestroyConsumableBuilding_ChristmasTree.outcomeChances.1.label>
   <!-- EN: The {0} was boring. Everyone felt too awkward to open up and laugh. -->
-  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.1.description>TODO</DestroyConsumableBuilding_ChristmasTree.outcomeChances.1.description>
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.1.description>{0_definite} ha estat {0_gender ? avorrit : avorrida}. Tothom s’ha sentit molt incòmode a l’hora de parlar i riure.</DestroyConsumableBuilding_ChristmasTree.outcomeChances.1.description>
   <!-- EN: Fun -->
   <DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.label>Divertit</DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.label>
   <!-- EN: The {0} was good. Everyone appreciated the chance to relax and have fun together. -->
-  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.description>TODO</DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.description>
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.description>{0_definite} ha estat {0_gender ? divertit : divertida}. Tothom ha apreciat l’oportunitat de relaxar-se i divertir-se junts.</DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.description>
   <!-- EN: There's a 5% chance that a random participant gains an inspiration. -->
-  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.potentialExtraOutcomeDesc>TODO</DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.potentialExtraOutcomeDesc>
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.potentialExtraOutcomeDesc>Hi ha una probabilitat del 5 % que un participant a l’atzar s’inspiri.</DestroyConsumableBuilding_ChristmasTree.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.label>Inoblidable</DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family. -->
-  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.description>TODO</DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.description>
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.description>{0_definite} ha estat inoblidable! Tothom ha aprés coses dels altres i s’han sentit com una família.</DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.description>
   <!-- EN: There's a 10% chance a random participant gains an inspiration. -->
-  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.potentialExtraOutcomeDesc>TODO</DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.potentialExtraOutcomeDesc>
+  <DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.potentialExtraOutcomeDesc>Hi ha una probabilitat del 10 % que un participant a l’atzar s’inspiri.</DestroyConsumableBuilding_ChristmasTree.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: The ritual target will be destroyed. -->
-  <DestroyConsumableBuilding_Pyre.description>TODO</DestroyConsumableBuilding_Pyre.description>
+  <DestroyConsumableBuilding_Pyre.description>L’objectiu del ritual serà destruït.</DestroyConsumableBuilding_Pyre.description>
   <!-- EN: participant count -->
   <DestroyConsumableBuilding_Pyre.comps.0.label>nombre de participants</DestroyConsumableBuilding_Pyre.comps.0.label>
   <!-- EN: room impressiveness -->
-  <DestroyConsumableBuilding_Pyre.comps.1.label>TODO</DestroyConsumableBuilding_Pyre.comps.1.label>
+  <DestroyConsumableBuilding_Pyre.comps.1.label>majestuositat de la cambra</DestroyConsumableBuilding_Pyre.comps.1.label>
   <!-- EN: Terrible -->
   <DestroyConsumableBuilding_Pyre.outcomeChances.0.label>Terrible</DestroyConsumableBuilding_Pyre.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! Participants endured hours of jaw-clenching small talk while waiting for it to end. -->
-  <DestroyConsumableBuilding_Pyre.outcomeChances.0.description>TODO</DestroyConsumableBuilding_Pyre.outcomeChances.0.description>
+  <DestroyConsumableBuilding_Pyre.outcomeChances.0.description>{0_definite} ha anat molt malament. Els participants han aguantat moltes hores de converses sense importància i només esperaven que s’acabés l’acte.</DestroyConsumableBuilding_Pyre.outcomeChances.0.description>
   <!-- EN: Boring -->
   <DestroyConsumableBuilding_Pyre.outcomeChances.1.label>Avorrida</DestroyConsumableBuilding_Pyre.outcomeChances.1.label>
   <!-- EN: The {0} was boring. Everyone felt too awkward to open up and laugh. -->
-  <DestroyConsumableBuilding_Pyre.outcomeChances.1.description>TODO</DestroyConsumableBuilding_Pyre.outcomeChances.1.description>
+  <DestroyConsumableBuilding_Pyre.outcomeChances.1.description>{0_definite} ha estat {0_gender ? avorrit : avorrida}. Tothom s’ha sentit molt incòmode a l’hora de parlar i riure.</DestroyConsumableBuilding_Pyre.outcomeChances.1.description>
   <!-- EN: Fun -->
   <DestroyConsumableBuilding_Pyre.outcomeChances.2.label>Divertida</DestroyConsumableBuilding_Pyre.outcomeChances.2.label>
   <!-- EN: The {0} was good. Everyone appreciated the chance to relax and have fun together. -->
-  <DestroyConsumableBuilding_Pyre.outcomeChances.2.description>TODO</DestroyConsumableBuilding_Pyre.outcomeChances.2.description>
+  <DestroyConsumableBuilding_Pyre.outcomeChances.2.description>{0_definite} ha estat {0_gender ? divertit : divertida}. Tothom ha apreciat l’oportunitat de relaxar-se i divertir-se junts.</DestroyConsumableBuilding_Pyre.outcomeChances.2.description>
   <!-- EN: There's a 5% chance that a random participant gains an inspiration. -->
-  <DestroyConsumableBuilding_Pyre.outcomeChances.2.potentialExtraOutcomeDesc>TODO</DestroyConsumableBuilding_Pyre.outcomeChances.2.potentialExtraOutcomeDesc>
+  <DestroyConsumableBuilding_Pyre.outcomeChances.2.potentialExtraOutcomeDesc>Hi ha una probabilitat del 5 % que un participant a l’atzar s’inspiri.</DestroyConsumableBuilding_Pyre.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Unforgettable -->
   <DestroyConsumableBuilding_Pyre.outcomeChances.3.label>Inoblidable</DestroyConsumableBuilding_Pyre.outcomeChances.3.label>
   <!-- EN: The {0} was unforgettable! Everyone learned about each other and felt like a family. -->
-  <DestroyConsumableBuilding_Pyre.outcomeChances.3.description>TODO</DestroyConsumableBuilding_Pyre.outcomeChances.3.description>
+  <DestroyConsumableBuilding_Pyre.outcomeChances.3.description>{0_definite} ha estat inoblidable! Tothom ha aprés coses dels altres i s’han sentit com una família.</DestroyConsumableBuilding_Pyre.outcomeChances.3.description>
   <!-- EN: There's a 10% chance a random participant gains an inspiration. -->
-  <DestroyConsumableBuilding_Pyre.outcomeChances.3.potentialExtraOutcomeDesc>TODO</DestroyConsumableBuilding_Pyre.outcomeChances.3.potentialExtraOutcomeDesc>
+  <DestroyConsumableBuilding_Pyre.outcomeChances.3.potentialExtraOutcomeDesc>Hi ha una probabilitat del 10 % que un participant a l’atzar s’inspiri.</DestroyConsumableBuilding_Pyre.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: Spectating slaves will be 100% suppressed. Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
-  <Execution.description>TODO</Execution.description>
+  <Execution.description>Els esclaus que vegin l’execució tindran una repressió del 100 %. Depenent de la qualitat del ritual, els participants obtindran entre {MINMOOD} i {MAXMOOD} d’estat d’ànim durant {MOODDAYS} dies.</Execution.description>
   <!-- EN: participant count -->
   <Execution.comps.0.label>nombre de participants</Execution.comps.0.label>
   <!-- EN: started at altar or ideogram -->
@@ -421,15 +421,15 @@
   <!-- EN: Awkward -->
   <Execution.outcomeChances.0.label>Incòmode</Execution.outcomeChances.0.label>
   <!-- EN: The {0} was awkward. The speech dragged on and when it came time to strike, the executioner slipped and barely recovered. None of it felt justified. -->
-  <Execution.outcomeChances.0.description>TODO</Execution.outcomeChances.0.description>
+  <Execution.outcomeChances.0.description>{0_definite} ha estat {0_gender ? incòmode : incòmoda}. El discurs s’ha allargat i, quan tocava donar el cop letal, el botxí ha relliscat i li ha costat fer bé l’execució. Res del que ha passat estava justificat.</Execution.outcomeChances.0.description>
   <!-- EN: Satisfying -->
   <Execution.outcomeChances.1.label>Satisfactori</Execution.outcomeChances.1.label>
   <!-- EN: The {0} was satisfying. Everyone could feel that justice was being upheld. -->
-  <Execution.outcomeChances.1.description>TODO</Execution.outcomeChances.1.description>
+  <Execution.outcomeChances.1.description>{0_definite} ha estat {0_gender satisfactori ? : satisfactòria}. Tothom ha vist com es feia justícia.</Execution.outcomeChances.1.description>
   <!-- EN: Spectacular -->
   <Execution.outcomeChances.2.label>Espectacular</Execution.outcomeChances.2.label>
   <!-- EN: The {0} was spectacular! One smooth strike was all it took, and everyone felt a rush of justice and power. -->
-  <Execution.outcomeChances.2.description>TODO</Execution.outcomeChances.2.description>
+  <Execution.outcomeChances.2.description>{0_definite} ha estat espectacular! Un cop sec és tot el que ha fet falta i tothom ha vist la justícia i el poder en acció.</Execution.outcomeChances.2.description>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <GladiatorDuel.description>Segons la qualitat del ritual, els participants guanyaran entre {MINMOOD} i {MAXMOOD} punts d’estat d’ànim durant {MOODDAYS} dies.</GladiatorDuel.description>
@@ -442,40 +442,40 @@
   <!-- EN: weapon used -->
   <GladiatorDuel.comps.3.label>es fa servir una arma</GladiatorDuel.comps.3.label>
   <!-- EN: Duelists and viewers will gain melee combat experience. -->
-  <GladiatorDuel.extraPredictedOutcomeDescriptions.0>TODO</GladiatorDuel.extraPredictedOutcomeDescriptions.0>
+  <GladiatorDuel.extraPredictedOutcomeDescriptions.0>Els duelistes i els espectadors obtindran experiència de combat cos a cos.</GladiatorDuel.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Spectators will gain a mood boost and fill their recreation bars. -->
   <GladiatorDuel.extraPredictedOutcomeDescriptions.1>Els espectadors guanyaran una bonificació a l’estat d’ànim i ompliran les seves barres d’entreteniment.</GladiatorDuel.extraPredictedOutcomeDescriptions.1>
   <!-- EN: Terrible -->
   <GladiatorDuel.outcomeChances.0.label>Terrible</GladiatorDuel.outcomeChances.0.label>
   <!-- EN: The duel was terrible! The fighters bumbled around, ineptly avoiding each other in a extended display of cowardice and weakness. Watching it just made people sad. -->
-  <GladiatorDuel.outcomeChances.0.description>TODO</GladiatorDuel.outcomeChances.0.description>
+  <GladiatorDuel.outcomeChances.0.description>Quin duel més terrible! Els lluitadors no sabien ni què fer; s’esquivaven l’un a l’altre en una mostra llarga de covardia i debilitat. Veure-ho m’ha fet sentir malament.</GladiatorDuel.outcomeChances.0.description>
   <!-- EN: Boring -->
   <GladiatorDuel.outcomeChances.1.label>Avorrit</GladiatorDuel.outcomeChances.1.label>
   <!-- EN: The duel was boring. The fighters wouldn't commit, so there were no exciting moments. -->
-  <GladiatorDuel.outcomeChances.1.description>TODO</GladiatorDuel.outcomeChances.1.description>
+  <GladiatorDuel.outcomeChances.1.description>El duel ha estat avorrit. Els lluitadors no s’hi han esforçat i, per això, no hi ha hagut moments emocionants.</GladiatorDuel.outcomeChances.1.description>
   <!-- EN: Good -->
   <GladiatorDuel.outcomeChances.2.label>Bo</GladiatorDuel.outcomeChances.2.label>
   <!-- EN: The duel was good. The fighters went for blood and showed real heart. -->
-  <GladiatorDuel.outcomeChances.2.description>TODO</GladiatorDuel.outcomeChances.2.description>
+  <GladiatorDuel.outcomeChances.2.description>El duel ha anat bé. Els lluitadors han anat a fer sang i han mostrat coratge.</GladiatorDuel.outcomeChances.2.description>
   <!-- EN: Unforgettable -->
   <GladiatorDuel.outcomeChances.3.label>Inoblidable</GladiatorDuel.outcomeChances.3.label>
   <!-- EN: The duel was unforgettable! Both fighters gave all they had, and the death showed their dedication. -->
-  <GladiatorDuel.outcomeChances.3.description>TODO</GladiatorDuel.outcomeChances.3.description>
+  <GladiatorDuel.outcomeChances.3.description>El duel ha estat inoblidable! Tots dos lluitadors han donat el millor de si i s’ha notat el sentit de la mort.</GladiatorDuel.outcomeChances.3.description>
   
   <!-- EN: A new role will be assigned to a colonist. -->
-  <RoleChange.description>TODO</RoleChange.description>
+  <RoleChange.description>S’assignarà un rol nou a un colon.</RoleChange.description>
   <!-- EN: required spectator count -->
   <RoleChange.comps.0.label>nombre d’espectadors necessaris</RoleChange.comps.0.label>
   <!-- EN: The required number of spectators must attend for the role change to apply. -->
-  <RoleChange.extraPredictedOutcomeDescriptions.0>TODO</RoleChange.extraPredictedOutcomeDescriptions.0>
+  <RoleChange.extraPredictedOutcomeDescriptions.0>El nombre necessari d’espectadors que han de participar perquè es realitzi el canvi de rol.</RoleChange.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Failed -->
   <RoleChange.outcomeChances.0.label>fallit</RoleChange.outcomeChances.0.label>
   <!-- EN: The role change was not attended by enough {IDEO_memberNamePlural}. -->
-  <RoleChange.outcomeChances.0.description>TODO</RoleChange.outcomeChances.0.description>
+  <RoleChange.outcomeChances.0.description>No han participat prou {IDEO_memberNamePlural} al ritual de canvi de rol.</RoleChange.outcomeChances.0.description>
   <!-- EN: Successful -->
   <RoleChange.outcomeChances.1.label>exitós</RoleChange.outcomeChances.1.label>
   <!-- EN: The role change ritual was completed. -->
-  <RoleChange.outcomeChances.1.description>TODO</RoleChange.outcomeChances.1.description>
+  <RoleChange.outcomeChances.1.description>El ritual de canvi de rol s’ha completat.</RoleChange.outcomeChances.1.description>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <Sacrifice.description>Segons la qualitat del ritual, els participants guanyaran entre {MINMOOD} i {MAXMOOD} punts d’estat d’ànim durant {MOODDAYS} dies.</Sacrifice.description>
@@ -488,27 +488,27 @@
   <!-- EN: an altar -->
   <Sacrifice.comps.4.expectedThingLabelTip>un altar</Sacrifice.comps.4.expectedThingLabelTip>
   <!-- EN: If the {0} is satisfying, one of the participants might gain an inspiration. -->
-  <Sacrifice.extraPredictedOutcomeDescriptions.0>TODO</Sacrifice.extraPredictedOutcomeDescriptions.0>
+  <Sacrifice.extraPredictedOutcomeDescriptions.0>Si {0_definite} és {0_gender ? satisfactori : satisfactòria}, potser un participant quedarà inspirat.</Sacrifice.extraPredictedOutcomeDescriptions.0>
   <!-- EN: Terrible -->
   <Sacrifice.outcomeChances.0.label>Terrible</Sacrifice.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! The speech was stuttering and incoherent, and the killing technique was botched. The victim took far too long to die - everyone was waiting for it to end. -->
-  <Sacrifice.outcomeChances.0.description>TODO</Sacrifice.outcomeChances.0.description>
+  <Sacrifice.outcomeChances.0.description>{0_definite} ha anat molt malament. El discurs, no ha estat ni àgil ni coherent. La tècnica aplicada no era gaire bona i la víctima ha trigat massa a morir. Tothom esperava que acabés.</Sacrifice.outcomeChances.0.description>
   <!-- EN: Boring -->
   <Sacrifice.outcomeChances.1.label>Avorrit</Sacrifice.outcomeChances.1.label>
   <!-- EN: The {0} was boring. The speech was repetitive and the killing technique was noticeably flawed. It just didn't feel dignified. -->
-  <Sacrifice.outcomeChances.1.description>TODO</Sacrifice.outcomeChances.1.description>
+  <Sacrifice.outcomeChances.1.description>{0_definite} ha estat {0_gender ? avorrit : avorrida}. El discurs ha estat repetitiu i la tècnica aplicada no ha estat encertada. Crec que no ha estat un acte digne.</Sacrifice.outcomeChances.1.description>
   <!-- EN: Satisfying -->
   <Sacrifice.outcomeChances.2.label>Satisfactori</Sacrifice.outcomeChances.2.label>
   <!-- EN: The {0} was satisfying. The speech felt meaningful, and the killing technique was precise and dignified. -->
-  <Sacrifice.outcomeChances.2.description>TODO</Sacrifice.outcomeChances.2.description>
+  <Sacrifice.outcomeChances.2.description>{0_definite} ha estat {0_gender satisfactori ? : satisfactòria}. El discurs ha tingut sentit i la tècnica aplicada ha estat precisa i digna.</Sacrifice.outcomeChances.2.description>
   <!-- EN: There's a 5% chance that a random participant gets an inspiration. -->
-  <Sacrifice.outcomeChances.2.potentialExtraOutcomeDesc>TODO</Sacrifice.outcomeChances.2.potentialExtraOutcomeDesc>
+  <Sacrifice.outcomeChances.2.potentialExtraOutcomeDesc>Hi ha una probabilitat del 5 % que s’inspiri un participant a l’atzar.</Sacrifice.outcomeChances.2.potentialExtraOutcomeDesc>
   <!-- EN: Spectacular -->
   <Sacrifice.outcomeChances.3.label>Espectacular</Sacrifice.outcomeChances.3.label>
   <!-- EN: The {0} was spectacular! The speech brought everyone to the edge of a frenzy just as the blade came down perfectly, and the spurting blood was like cleansing waters for the spirit. -->
-  <Sacrifice.outcomeChances.3.description>TODO</Sacrifice.outcomeChances.3.description>
+  <Sacrifice.outcomeChances.3.description>{0_definite} ha estat espectacular! El discurs ens ha emocionat a tots i, quan la fulla ha caigut en el lloc adequat i la sang ho ha esquitxat tot, pareixia que fos aigua que netejava les nostres ànimes.</Sacrifice.outcomeChances.3.description>
   <!-- EN: There's a 10% chance that a random participant gets an inspiration. -->
-  <Sacrifice.outcomeChances.3.potentialExtraOutcomeDesc>TODO</Sacrifice.outcomeChances.3.potentialExtraOutcomeDesc>
+  <Sacrifice.outcomeChances.3.potentialExtraOutcomeDesc>Hi ha un 10 % de probabilitats que un participant a l’atzar s’inspiri.</Sacrifice.outcomeChances.3.potentialExtraOutcomeDesc>
   
   <!-- EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
   <ScarificationCeremony.description>Segons la qualitat del ritual, els participants guanyaran entre {MINMOOD} i {MAXMOOD} punts d’estat d’ànim durant {MOODDAYS} dies.</ScarificationCeremony.description>
@@ -523,56 +523,56 @@
   <!-- EN: Terrible -->
   <ScarificationCeremony.outcomeChances.0.label>Terrible</ScarificationCeremony.outcomeChances.0.label>
   <!-- EN: The {0} was terrible! The speech was stuttering and incoherent, and the scarification technique was botched. Everyone was waiting for it to end. -->
-  <ScarificationCeremony.outcomeChances.0.description>TODO</ScarificationCeremony.outcomeChances.0.description>
+  <ScarificationCeremony.outcomeChances.0.description>{0_definite} ha anat molt malament. El discurs ha anat a empentes i rodolons, ha estat incoherent i la tècnica d’escarifiació ha estat poc acurada. Tothom desitjava que acabés. </ScarificationCeremony.outcomeChances.0.description>
   <!-- EN: Boring -->
   <ScarificationCeremony.outcomeChances.1.label>Avorrit</ScarificationCeremony.outcomeChances.1.label>
   <!-- EN: The {0} was boring. The speech was repetitive and the scarification technique was noticeably flawed. It just didn't feel dignified. -->
-  <ScarificationCeremony.outcomeChances.1.description>TODO</ScarificationCeremony.outcomeChances.1.description>
+  <ScarificationCeremony.outcomeChances.1.description>{0_definite} ha estat {0_gender ? avorrit : avorrida}. El discurs ha estat repetitiu i la tècnica d’escarificació no ha estat gaire encertada. He sentit que la cerimònia no s’ha fet amb dignitat.</ScarificationCeremony.outcomeChances.1.description>
   <!-- EN: Satisfying -->
   <ScarificationCeremony.outcomeChances.2.label>Satisfactori</ScarificationCeremony.outcomeChances.2.label>
   <!-- EN: The {0} was satisfying. The speech felt meaningful, and the scarification technique was precise and dignified. -->
-  <ScarificationCeremony.outcomeChances.2.description>TODO</ScarificationCeremony.outcomeChances.2.description>
+  <ScarificationCeremony.outcomeChances.2.description>{0_definite} ha estat {0_gender satisfactori ? : satisfactòria}. El discurs ha emocionat i la tècnica d’escarificació ha estat precisa i digna.</ScarificationCeremony.outcomeChances.2.description>
   <!-- EN: Spectacular -->
   <ScarificationCeremony.outcomeChances.3.label>Espectacular</ScarificationCeremony.outcomeChances.3.label>
   <!-- EN: The {0} was spectacular! The speech brought everyone to the edge of a frenzy as the bladeholder artfully rended living flesh. -->
-  <ScarificationCeremony.outcomeChances.3.description>TODO</ScarificationCeremony.outcomeChances.3.description>
+  <ScarificationCeremony.outcomeChances.3.description>{0_definite} ha estat espectacular! El discurs ens ha portat a tots a emocionar-nos, especialment quan la persona que tenia la fulla ha tallat la carn viva amb una tècnica impressionant.</ScarificationCeremony.outcomeChances.3.description>
   
   <!-- EN: The trial quality determines the chance that the defendant will be convicted. -->
-  <Trial.description>TODO</Trial.description>
+  <Trial.description>La qualitat del judici determina la probabilitat que l’acusat sigui condemnat.</Trial.description>
   <!-- EN: participant count -->
   <Trial.comps.0.label>nombre de participants</Trial.comps.0.label>
   <!-- EN: {PAWN_labelShort}'s negotiation ability -->
-  <Trial.comps.1.label>TODO</Trial.comps.1.label>
+  <Trial.comps.1.label>Habilitat de negociació de {PAWN_labelShort}</Trial.comps.1.label>
   <!-- EN: Leader's negotiation ability -->
-  <Trial.comps.1.labelAbstract>TODO</Trial.comps.1.labelAbstract>
+  <Trial.comps.1.labelAbstract>Habilitat de negociació del líder</Trial.comps.1.labelAbstract>
   <!-- EN: {PAWN_labelShort}'s negotiation ability -->
-  <Trial.comps.2.label>TODO</Trial.comps.2.label>
+  <Trial.comps.2.label>Habilitat de negociació de {PAWN_labelShort}</Trial.comps.2.label>
   <!-- EN: Defendant's negotiation ability -->
-  <Trial.comps.2.labelAbstract>TODO</Trial.comps.2.labelAbstract>
+  <Trial.comps.2.labelAbstract>Habilitat de negociació del defensor</Trial.comps.2.labelAbstract>
   <!-- EN: exonerated -->
-  <Trial.outcomeChances.0.label>TODO</Trial.outcomeChances.0.label>
+  <Trial.outcomeChances.0.label>exonerat/da</Trial.outcomeChances.0.label>
   <!-- EN: The prosecutor {PROSECUTOR_labelShort}'s arguments failed to convince anyone. {PAWN_labelShort} was exonerated. -->
-  <Trial.outcomeChances.0.description>TODO</Trial.outcomeChances.0.description>
+  <Trial.outcomeChances.0.description>Els raonaments de l’acusació de {PROSECUTOR_labelShort} no han convençut a ningú. {PAWN_labelShort} ha quedat {PAWN_gender ? exonerat : exonerada}.</Trial.outcomeChances.0.description>
   <!-- EN: convicted -->
-  <Trial.outcomeChances.1.label>TODO</Trial.outcomeChances.1.label>
+  <Trial.outcomeChances.1.label>condemnat/da</Trial.outcomeChances.1.label>
   <!-- EN: The prosecution convinced everyone of {PAWN_labelShort}'s guilt. {PAWN_labelShort} was convicted and can now be punished. You may execute or banish {PAWN_objective} and nobody will mind. -->
-  <Trial.outcomeChances.1.description>TODO</Trial.outcomeChances.1.description>
+  <Trial.outcomeChances.1.description>L’acusació ha convençut a tothom de la culpabilitat de {PAWN_labelShort}. A {PAWN_labelShort} se l’ha declarat culpable i ara {PAWN_gender ? se’l : se la} castigarà. Podeu executar-{PAWN_gender ? lo : la} o desterrar.{PAWN_gender ? lo : la} i a ningú li semblarà malament.</Trial.outcomeChances.1.description>
   
   <!-- EN: The trial quality determines the chance that the defendant will be convicted. -->
-  <TrialMentalState.description>TODO</TrialMentalState.description>
+  <TrialMentalState.description>La qualitat del judici determina la probabilitat que l’acusat sigui condemnat.</TrialMentalState.description>
   <!-- EN: participant count -->
   <TrialMentalState.comps.0.label>nombre de participants</TrialMentalState.comps.0.label>
   <!-- EN: {PAWN_labelShort}'s negotiation ability -->
-  <TrialMentalState.comps.1.label>TODO</TrialMentalState.comps.1.label>
+  <TrialMentalState.comps.1.label>Habilitat de negociació de {PAWN_labelShort}</TrialMentalState.comps.1.label>
   <!-- EN: Leader's negotiation ability -->
-  <TrialMentalState.comps.1.labelAbstract>TODO</TrialMentalState.comps.1.labelAbstract>
+  <TrialMentalState.comps.1.labelAbstract>Habilitat de negociació del líder</TrialMentalState.comps.1.labelAbstract>
   <!-- EN: exonerated -->
-  <TrialMentalState.outcomeChances.0.label>TODO</TrialMentalState.outcomeChances.0.label>
+  <TrialMentalState.outcomeChances.0.label>exonerat/da</TrialMentalState.outcomeChances.0.label>
   <!-- EN: The prosecutor {PROSECUTOR_labelShort}'s arguments failed to convince anyone. {PAWN_labelShort} was exonerated. -->
-  <TrialMentalState.outcomeChances.0.description>TODO</TrialMentalState.outcomeChances.0.description>
+  <TrialMentalState.outcomeChances.0.description>Els raonaments de l’acusació de {PROSECUTOR_labelShort} no han convençut a ningú. {PAWN_labelShort} ha quedat {PAWN_gender ? exonerat : exonerada}.</TrialMentalState.outcomeChances.0.description>
   <!-- EN: convicted -->
-  <TrialMentalState.outcomeChances.1.label>TODO</TrialMentalState.outcomeChances.1.label>
+  <TrialMentalState.outcomeChances.1.label>condemnat/da</TrialMentalState.outcomeChances.1.label>
   <!-- EN: The prosecution convinced everyone of {PAWN_labelShort}'s guilt. {PAWN_labelShort} was convicted and can now be punished. You may execute or banish {PAWN_objective} and nobody will mind. -->
-  <TrialMentalState.outcomeChances.1.description>TODO</TrialMentalState.outcomeChances.1.description>
+  <TrialMentalState.outcomeChances.1.description>L’acusació ha convençut a tothom de la culpabilitat de {PAWN_labelShort}. A {PAWN_labelShort} se l’ha declarat culpable i ara {PAWN_gender ? se’l : se la} castigarà. Podeu executar-{PAWN_gender ? lo : la} o desterrar.{PAWN_gender ? lo : la} i a ningú li semblarà malament.</TrialMentalState.outcomeChances.1.description>
   
 </LanguageData>

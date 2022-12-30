@@ -5,7 +5,11 @@
     <li>lodgersLabel->prisoner</li>
     <li>lodgersLabelPlural->prisoners</li>
   -->
-  <Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>TODO</Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
+  <Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel(lodgers0==Male)->presoner</li>
+    <li>lodgersLabel(lodgers0!=Male)->presonera</li>
+    <li>lodgersLabelPlural->presoners</li>
+  </Hospitality_Prisoners.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true,lodgersCount==1)->An orbiting ship captain wants you to guard a prisoner named [lodgers0_nameFull] at [map_definite] for [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] recently spat on the most loved child of [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] of [enemyFaction_name]. [enemyFaction_leader_nameDef] will send [enemyFaction_pawnsPlural] to seek revenge on any who would protect [lodgers0_objective]. [enemyGroupsParagraph]</li>
@@ -38,7 +42,38 @@
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==false)-></li>
   -->
-  <Hospitality_Prisoners.questDescriptionRules.rulesStrings>TODO</Hospitality_Prisoners.questDescriptionRules.rulesStrings>
+  <Hospitality_Prisoners.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->La capitana d’una nau orbital vol que us ocupeu d’[lodger_un] presoner[lodger_x_a] que es diu [lodgers0_nameFull] a [map_definite] durant [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] fa poc va escopir al fill més estimat de [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] de [enemyFaction_name]. [enemyFaction_leader_nameDef] enviarà [enemyFaction_pawnsPlural] per a venjar-se de qualsevol que vulgui protegir-[lodger_lo]. [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo1(generateThreats==false)-></li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->El capità d’una nau orbital vol que us ocupeu de [lodgersCount] presoners a [map_definite] durant [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2][commonDescEnding]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nEls presoners han comès una sèrie d’assassinats contra els [enemyFaction_pawnsPlural] de [enemyFaction_name] i les famílies de les víctimes enviaran assaltants per a buscar venjança. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nEls presoners [mechViolation] fa poc i ara són l’objectiu d’un eixam mecanoide. [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
+    <li>threatsInfo2(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount==1)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], vol que cuideu un presoner especial. El presoner, [lodger_un] [lodgers0_title] de [lodgers0_age] anys que es diu [lodgers0_nameFull], sap detalls sobre el [PersonalCharacteristic] de [asker_nameDef] i [asker_nameDef] no vol que  [lodgers0_objective] quedi lliure. Només heu de mantenir el presoner durant [shuttleDelayTicks_duration] fins que s’oblidi l’escàndol. [allLodgerInfo][threatsInfo3][commonDescEnding]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nDesgraciadament, [enemyFaction_name] vol que difongueu la vergonyosa història i envia assaltants per a traure [lodgers0_nameDef] de la presó. [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo3(generateThreats==false)-></li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], ha capturat [lodgersCount] presoners d’una facció enemiga. Com no té lloc on engarjolar-los, us demana que us n’encarregueu durant [shuttleDelayTicks_duration], fins que la seva presó estigui preparada.[allLodgerInfo][threatsInfo4][commonDescEnding]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nEls presoners han pagat un contracte de rescat amb [enemyFaction_name] i per això enviaran [enemyFaction_pawnsPlural] contra vós. [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nEls enemics de [asker_nameDef] han provocat a un eixam mecanoide perquè algun grup de mecanoides persegueixi i ataqui als presoners. [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
+    <li>threatsInfo4(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1)->A [asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], l’han trobat al llit amb la persona equivocada. [asker_pronoun] ha empresonat a l’amant inapropiat com a signe de rebuig. Ara vol que mantingueu [lodgers0_nameFull] presoner fins que s’oblidi l’escàndol d’aquí [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo5][commonDescEnding]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nDesgraciadament, els rivals de la cort de [asker_nameDef] paguen a [enemyFaction_name] per tal que l’amant tregui a la llum aquesta història tèrbola. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nDesgraciadament, els rivals de la cort de [asker_nameDef] han provocat atacs mecanoides des de [enemyFaction_name] per tal que l’amant tregui a la llum aquesta història tèrbola. [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
+    <li>threatsInfo5(generateThreats==false)-></li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], busca que l’ajudeu. Els arqueòlegs reials de [asker_nameDef] han extret [lodgersCount] presoners d’una cambra antiga de criptoson i volien interrogar-los. Per a mantenir els presoners amagats dels seus rivals a la cort, [asker_nameDef] vol que els allotgeu durant [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo6][commonDescEnding]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nDesgraciadament, [enemyFaction_pawnsPlural] de [enemyFaction_name] vigilaven la cel·la d’on s’ha alliberat als presoners. Enviaran assaltants per a venjar-se de qui sigui que els allotgi. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nDesgraciadament, [enemyFaction_pawnsPlural] de [enemyFaction_name] vigilaven la cel·la d’on s’ha alliberat als presoners. Enviaran mecanoides que caçaran als dorments perduts. [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>
+    <li>threatsInfo6(generateThreats==false)-></li>
+  </Hospitality_Prisoners.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Guarding for [asker_nameDef]</li>
     <li>questName(lodgersCount==1)->guarding [lodgers0_nameDef]</li>
@@ -55,6 +90,21 @@
     <li>adjAny->[AdjectiveAngsty]</li>
     <li>adjAny->[AdjectiveFriendly]</li>
   -->
-  <Hospitality_Prisoners.questNameRules.rulesStrings>TODO</Hospitality_Prisoners.questNameRules.rulesStrings>
+  <Hospitality_Prisoners.questNameRules.rulesStrings>
+    <li>questName->Fent de guarda per a [asker_nameDef]</li>
+    <li>questName(lodgersCount==1)->La captivitat de [lodgers0_nameDef]</li>
+    <li>questName(lodgersCount==1)->[lodgers0_nameDef], [lodger_el] presoner[lodger_x_a]</li>
+    <li>questName(lodgersCount==1)->[lodger_el] presoner[lodger_x_a] [adjAny]</li>
+    <li>questName(lodgersCount==1)->[lodger_un] presoner[lodger_x_a] [adjAny]</li>
+    <li>questName(lodgersCount>=2)->guarda de lloguer</li>
+    <li>questName(lodgersCount>=2)->el guarda de la presó</li>
+    <li>questName(lodgersCount>=2)->presó de contracte</li>
+    <li>questName(lodgersCount>=2)->els presoners volguts</li>
+    <li>questName(lodgersCount>=2)->els presoners [adjAny]</li>
+    <li>questName(lodgersCount>=2)->els presoners de [asker_nameDef]</li>
+    <li>adjAny->[AdjectiveBadass]</li>
+    <li>adjAny->[AdjectiveAngsty]</li>
+    <li>adjAny->[AdjectiveFriendly]</li>
+  </Hospitality_Prisoners.questNameRules.rulesStrings>
   
 </LanguageData>

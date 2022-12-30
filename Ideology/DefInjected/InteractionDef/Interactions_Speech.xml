@@ -29,10 +29,35 @@
     <li>speechtopic->taking responsibility</li>
     <li>speechtopic->putting a role above [INITIATOR_possessive] personal desires</li>
   -->
-  <Speech_AcceptRole.logRulesInitiator.rulesStrings>TODO</Speech_AcceptRole.logRulesInitiator.rulesStrings>
+  <Speech_AcceptRole.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->el seu rol nou a la comunitat</li>
+    <li>speechtopic->la responsabilitat del seu rol nou</li>
+    <li>speechtopic->la importància del seu rol nou</li>
+    <li>speechtopic->les seves qualitats bones</li>
+    <li>speechtopic->els seus punts forts i com aprofitar-los</li>
+    <li>speechtopic->els seus defectes</li>
+    <li>speechtopic->els seus punts dèbils i com superar-los</li>
+    <li>speechtopic->el seu desig de servir a la comunitat</li>
+    <li>speechtopic->la seva dedicació a les seves creences</li>
+    <li>speechtopic->les seves esperances de cara al futur</li>
+    <li>speechtopic->el seu desig de servir a un propòsit més important</li>
+    <li>speechtopic->el seu [PersonalCharacteristic] i quina relació té amb el seu rol</li>
+    <li>speechtopic->com el seu [PersonalCharacteristic] pot ser adequat per al rol</li>
+    <li>speechtopic->com farà servir el seu [PersonalCharacteristic] per a superar obstacles</li>
+    <li>speechtopic->la gratitud</li>
+    <li>speechtopic->mostrar-se agraït</li>
+    <li>speechtopic->el propòsit de la vida</li>
+    <li>speechtopic->el futur de la colònia</li>
+    <li>speechtopic->com millorar la colònia</li>
+    <li>speechtopic->com prendre decisions sota estrès</li>
+    <li>speechtopic->l’estructura social de la comunitat</li>
+    <li>speechtopic->tenir responsabilitats</li>
+    <li>speechtopic->posar el rol per damunt dels seus desitjos personals</li>
+  </Speech_AcceptRole.logRulesInitiator.rulesStrings>
   
   <!-- EN: blinding speech -->
-  <Speech_Blinding.label>discurs de la cerimònia de ceguera</Speech_Blinding.label>
+  <Speech_Blinding.label>discurs de la cerimònia de la ceguera</Speech_Blinding.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
     <li>speechtopic->blindness</li>
@@ -49,7 +74,22 @@
     <li>speechtopic->the true layers of reality under the visual</li>
     <li>speechtopic->psychic connections</li>
   -->
-  <Speech_Blinding.logRulesInitiator.rulesStrings>TODO</Speech_Blinding.logRulesInitiator.rulesStrings>
+  <Speech_Blinding.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->la ceguera</li>
+    <li>speechtopic->la puresa de la ceguera</li>
+    <li>speechtopic->el sentit espiritual de la vida sense visió</li>
+    <li>speechtopic->els mons amagats que no es poden veure amb els ulls</li>
+    <li>speechtopic->la mentida de la nostra realitat visual</li>
+    <li>speechtopic->la tècnica d’encegament</li>
+    <li>speechtopic->la maledicció de la vista</li>
+    <li>speechtopic->els sucs gelatinosos que hi ha al glòbul ocular</li>
+    <li>speechtopic->com és la infantesa quan tens vista</li>
+    <li>speechtopic->com és la infantesa quan ets cec</li>
+    <li>speechtopic->explorar sense veure-hi o moure’s</li>
+    <li>speechtopic->les vertaderes capes de realitat que s’amaguen més enllà del que es veu</li>
+    <li>speechtopic->connexions físiques</li>
+  </Speech_Blinding.logRulesInitiator.rulesStrings>
   
   <!-- EN: conversion speech -->
   <Speech_Conversion.label>discurs de conversió</Speech_Conversion.label>
@@ -71,7 +111,24 @@
     <li>speechtopic->false other beliefs</li>
     <li>speechtopic->progress towards the future</li>
   -->
-  <Speech_Conversion.logRulesInitiator.rulesStrings>TODO</Speech_Conversion.logRulesInitiator.rulesStrings>
+  <Speech_Conversion.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->unir-se pel bé comú</li>
+    <li>speechtopic->el gran error de l’apostasia</li>
+    <li>speechtopic->escollir les creences correctes</li>
+    <li>speechtopic->l’estructura moral de l’univers</li>
+    <li>speechtopic->el bé i el mal</li>
+    <li>speechtopic->el propòsit de la vida</li>
+    <li>speechtopic->el sentit de la vida</li>
+    <li>speechtopic->la història de la humanitat</li>
+    <li>speechtopic->el futur de la humanitat</li>
+    <li>speechtopic->l’amor i l’odi</li>
+    <li>speechtopic->la por i la seguretat</li>
+    <li>speechtopic->la idoneïtat de pertànyer a algun lloc</li>
+    <li>speechtopic->unir-se i pertànyer a un grup</li>
+    <li>speechtopic->la falsedat de les altres creences</li>
+    <li>speechtopic->el progrés que portarà el futur</li>
+  </Speech_Conversion.logRulesInitiator.rulesStrings>
   
   <!-- EN: celebration speech -->
   <Speech_DateRitual.label>discurs de celebració</Speech_DateRitual.label>
@@ -117,7 +174,24 @@
     <li>praisetopic->anger and hope</li>
     <li>praisetopic->rage and strength</li>
   -->
-  <Speech_Duel.logRulesInitiator.rulesStrings>TODO</Speech_Duel.logRulesInitiator.rulesStrings>
+  <Speech_Duel.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [praised] [praisetopic].</li>
+    <li>praisetopic->la mort per la fulla d’una espasa</li>
+    <li>praisetopic->les morts doloroses</li>
+    <li>praisetopic->com tenir una mort honorable</li>
+    <li>praisetopic->combats honorables</li>
+    <li>praisetopic->el coratge i la lluita</li>
+    <li>praisetopic->armes [AdjectiveBadass] i lluitadors</li>
+    <li>praisetopic->la puresa del conflicte físic</li>
+    <li>praisetopic->l’amor a través de la mort</li>
+    <li>praisetopic->com lliurar-se de l’odi per a tenir salut</li>
+    <li>praisetopic->la necessitat de ser més forts que els demès</li>
+    <li>praisetopic->el conflicte inherent a l’univers</li>
+    <li>praisetopic->la sang i la pols</li>
+    <li>praisetopic->la vida i el dram</li>
+    <li>praisetopic->l’odi i l’esperança</li>
+    <li>praisetopic->la ira i la força</li>
+  </Speech_Duel.logRulesInitiator.rulesStrings>
   
   <!-- EN: exceution speech -->
   <Speech_Execution.label>discurs d’execució</Speech_Execution.label>
@@ -163,7 +237,21 @@
     <li>speechtopic->life and joy</li>
     <li>speechtopic->carrying forward unfinished work</li>
   -->
-  <Speech_Funeral.logRulesInitiator.rulesStrings>TODO</Speech_Funeral.logRulesInitiator.rulesStrings>
+  <Speech_Funeral.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->la noblesa del sacrifici</li>
+    <li>speechtopic->la mort</li>
+    <li>speechtopic->la vida després de la mort</li>
+    <li>speechtopic->la mort i la família</li>
+    <li>speechtopic->el concepte d’una bona vida</li>
+    <li>speechtopic->la mort com un camí cap a la dignitat</li>
+    <li>speechtopic->els inicis i els finals</li>
+    <li>speechtopic->què passa després de la mort</li>
+    <li>speechtopic->celebrar el pas a una vida millor</li>
+    <li>speechtopic->els amics que ja no hi són</li>
+    <li>speechtopic->la vida i l’alegria</li>
+    <li>speechtopic->tirar endavant les feines que no s’han acabat</li>
+  </Speech_Funeral.logRulesInitiator.rulesStrings>
   
   <!-- EN: leader speech -->
   <Speech_Leader.label>discurs del líder</Speech_Leader.label>
@@ -203,7 +291,42 @@
     <li>speechtopic(p=0.25)->strong hands and hearts</li>
     <li>speechtopic(p=0.25)->the right to survive</li>
   -->
-  <Speech_Leader.logRulesInitiator.rulesStrings>TODO</Speech_Leader.logRulesInitiator.rulesStrings>
+  <Speech_Leader.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->la recerca de [Vegetable]s</li>
+    <li>speechtopic->com ser [AdjectiveFriendly]</li>
+    <li>speechtopic->evitar [AnimalBadass]s</li>
+    <li>speechtopic->les similituds entre la vida i el [Game]</li>
+    <li>speechtopic->fer servir la ment com si fos un [Weapon]</li>
+    <li>speechtopic->explorar [TerrainFeature]s i [TerrainFeature]s</li>
+    <li>speechtopic->promeses al [Direction]</li>
+    <li>speechtopic->com assemblar-se més als [Animal]s</li>
+    <li>speechtopic->el simbolisme del [NaturalObject] i el [NaturalObject]</li>
+    <li>speechtopic->com som tots [PersonFamily]s i [PersonFamily]s</li>
+    <li>speechtopic->com ser un bon [PersonAlly]</li>
+    <li>speechtopic->per quin motiu els [PersonJob_Plural] són imprescindibles</li>
+    <li>speechtopic->com evitar els [PersonBadass]s</li>
+    <li>speechtopic->derrotar [Enemy]s amb [ConceptPositive]</li>
+    <li>speechtopic->com suportar veure [Gore] durant el combat</li>
+    <li>speechtopic->la història dels [Mechanoid]s</li>
+    <li>speechtopic->el significat dels [ConceptPositive]</li>
+    <li>speechtopic->el [ConceptPositive] de la colònia</li>
+    <li>speechtopic->com ser [AdjectiveBadass] sense ser [AdjectiveBadass]</li>
+    <li>speechtopic->com de [AdjectiveBadass] és la colònia</li>
+    <li>speechtopic->[TerrainFeature]s [AdjectiveNatural]</li>
+    <li>speechtopic->el [AdjectiveLarge] potencial de la colònia</li>
+    <li>speechtopic->el [PersonalCharacteristic] de cada colon</li>
+    <li>speechtopic->el terrible [PersonalCharacteristic] dels enemics de la colònia</li>
+    <li>speechtopic(p=0.25)->com mantenir-se units com a grup</li>
+    <li>speechtopic(p=0.25)->el camí per a superar les tragèdies</li>
+    <li>speechtopic(p=0.25)->la comunitat i la seva importància</li>
+    <li>speechtopic(p=0.25)->la supervivència i la luxúria</li>
+    <li>speechtopic(p=0.25)->com arribar a ser feliç a través de l’esforç</li>
+    <li>speechtopic(p=0.25)->com aconseguir satisfacció a través del sofriment</li>
+    <li>speechtopic(p=0.25)->la mort com a un element motivador</li>
+    <li>speechtopic(p=0.25)->mans i cors durs</li>
+    <li>speechtopic(p=0.25)->el dret a sobreviure</li>
+  </Speech_Leader.logRulesInitiator.rulesStrings>
   
   <!-- EN: role removal speech -->
   <Speech_RemoveRole.label>discurs de cessament de rol</Speech_RemoveRole.label>
@@ -228,7 +351,27 @@
     <li>speechtopic->better candidates</li>
     <li>speechtopic->putting community goals above [INITIATOR_possessive] personal ambitions</li>
   -->
-  <Speech_RemoveRole.logRulesInitiator.rulesStrings>TODO</Speech_RemoveRole.logRulesInitiator.rulesStrings>
+  <Speech_RemoveRole.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->el seu rol dins de la comunitat</li>
+    <li>speechtopic->les responsabilitats del seu antic rol</li>
+    <li>speechtopic->les dificultats que comportava el seu antic rol</li>
+    <li>speechtopic->els seus defectes</li>
+    <li>speechtopic->les debilitats i com superar-les</li>
+    <li>speechtopic->la seva frustració amb la comunitat</li>
+    <li>speechtopic->la seva dedicació a les seves creences</li>
+    <li>speechtopic->les seves creences sobre el futur</li>
+    <li>speechtopic->el seu desig de dedicar-se als seus propis objectius</li>
+    <li>speechtopic->la seva falta de [PersonalCharacteristic]</li>
+    <li>speechtopic->el seu passat</li>
+    <li>speechtopic->mostrar humilitat</li>
+    <li>speechtopic->el propòsit de la vida</li>
+    <li>speechtopic->el futur de la colònia</li>
+    <li>speechtopic->com millorar la colònia</li>
+    <li>speechtopic->l’estructura social de la comunitat</li>
+    <li>speechtopic->els millors candidats</li>
+    <li>speechtopic->posar els objectius de la comunitat per damunt de les seves ambicions personals</li>
+  </Speech_RemoveRole.logRulesInitiator.rulesStrings>
   
   <!-- EN: sacrifice speech -->
   <Speech_Sacrifice.label>discurs del sacrifici</Speech_Sacrifice.label>
@@ -255,7 +398,28 @@
     <li>crazy->brandished a blade</li>
     <li>crazy->muttered repetitively</li>
   -->
-  <Speech_Sacrifice.logRulesInitiator.rulesStrings>TODO</Speech_Sacrifice.logRulesInitiator.rulesStrings>
+  <Speech_Sacrifice.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</li>
+    <li>speechtopic->el significat i el valor de la mort</li>
+    <li>speechtopic->expressions del dolor</li>
+    <li>speechtopic->la crueltat controlada</li>
+    <li>speechtopic->la calidesa de la sang</li>
+    <li>speechtopic->el sentit de la mort</li>
+    <li>speechtopic->l’amor i el dolor</li>
+    <li>speechtopic->la simbologia del dolor</li>
+    <li>speechtopic->ganivets, espases i carn</li>
+    <li>speechtopic->l’art de tallar la carn humana</li>
+    <li>speechtopic->la seducció de la sang</li>
+    <li>speechtopic->la música dels crits</li>
+    <li>speechtopic->l’alegria de veure intestins espargits pel terra</li>
+    <li>crazy->ha cridat com si no hi toqués</li>
+    <li>crazy->ha començat a cantar</li>
+    <li>crazy->ha cantat al cel</li>
+    <li>crazy->ha rigut</li>
+    <li>crazy->ha mostrat un ganivet</li>
+    <li>crazy->ha murmurat una estona</li>
+  </Speech_Sacrifice.logRulesInitiator.rulesStrings>
   
   <!-- EN: scarification speech -->
   <Speech_Scarification.label>discurs d’escarificació</Speech_Scarification.label>
@@ -280,7 +444,27 @@
     <li>crazy->brandished a blade</li>
     <li>crazy->muttered repetitively</li>
   -->
-  <Speech_Scarification.logRulesInitiator.rulesStrings>TODO</Speech_Scarification.logRulesInitiator.rulesStrings>
+  <Speech_Scarification.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_nameDef] [crazy].</li>
+    <li>speechtopic->com gravar el dolor al cos</li>
+    <li>speechtopic->expressions del dolor</li>
+    <li>speechtopic->la crueltat controlada</li>
+    <li>speechtopic->la calidesa de la sang</li>
+    <li>speechtopic->el sentit de les cicatrius</li>
+    <li>speechtopic->l’amor i el dolor</li>
+    <li>speechtopic->la simbologia del dolor</li>
+    <li>speechtopic->ganivets, espases i carn</li>
+    <li>speechtopic->l’art de tallar la carn humana</li>
+    <li>speechtopic->la seducció de la sang</li>
+    <li>speechtopic->la música dels crits</li>
+    <li>crazy->ha cridat com si hagués perdut l’oremus</li>
+    <li>crazy->ha començat a cantar</li>
+    <li>crazy->ha cantat al cel</li>
+    <li>crazy->ha rigut</li>
+    <li>crazy->ha mostrat un ganivet</li>
+    <li>crazy->ha murmurat una estona</li>
+  </Speech_Scarification.logRulesInitiator.rulesStrings>
   
   <!-- EN: tree connection speech -->
   <Speech_TreeConnection.label>discurs de connexió amb l’arbre</Speech_TreeConnection.label>
@@ -299,6 +483,20 @@
     <li>speechtopic->plant life and eternity</li>
     <li>speechtopic->connecting with nature</li>
   -->
-  <Speech_TreeConnection.logRulesInitiator.rulesStrings>TODO</Speech_TreeConnection.logRulesInitiator.rulesStrings>
+  <Speech_TreeConnection.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+    <li>speechtopic->els arbres i la gent</li>
+    <li>speechtopic->els arbres i els poders psíquics</li>
+    <li>speechtopic->dríades</li>
+    <li>speechtopic->el cicle de vida gauranlen</li>
+    <li>speechtopic->la presència espiritual dels arbres gauranlen</li>
+    <li>speechtopic->la dendropatia psíquica</li>
+    <li>speechtopic->com en són de boniques les dríades</li>
+    <li>speechtopic->la noblesa de les dríades</li>
+    <li>speechtopic->l’edat dels arbres</li>
+    <li>speechtopic->el rol de la humanitat i la seva relació amb els arbres</li>
+    <li>speechtopic->la vida vegetal i l’eternitat</li>
+    <li>speechtopic->com connectar amb la natura</li>
+  </Speech_TreeConnection.logRulesInitiator.rulesStrings>
   
 </LanguageData>

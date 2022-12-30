@@ -22,7 +22,23 @@
     <li>archistProphecy(tag=meme_Collectivist) ->[inTheEnd], the archotechs will depart when they find a people who present themselves as worthy partners to the machine god-consciousness.</li>
     <li>animistFact(tag=meme_Collectivist)     ->Every spirit is simply an aspect of all the others, and those that try to stand alone are fall quickly.</li>
   -->
-  <Collectivist.descriptionMaker.rules.rulesStrings>TODO</Collectivist.descriptionMaker.rules.rulesStrings>
+  <Collectivist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Collectivist)        ->[deity0_name] feu als homes i les dones amb un motlle gran i aquells que sortiren malament del motlle els tirà al foc perquè els creients poguessin viure en harmonia.</li>
+    <li>episode(uses=1,tag=meme_Collectivist)  ->[deity0_name] digué a tothom: «Cap de vosaltres és millor que el tot. Treballeu junts o morireu plegats».</li>
+    <li>intro(tag=meme_Collectivist)           ->La gent de [place_summary] [place_name] treballà plegada en harmonia i construí un gran [altarName] per a la glòria de [deity0_name], qui els ensenyà el valor verdader de [memeConcept].</li>
+    <li>conflict(tag=meme_Collectivist)        ->El [foeLeader] no tolerà la família de [memberNamePlural] i envià els seus [foeSoldiers] a [place_community] per a dividir-los i posar-los en contra entre ells.</li>
+    <li>founderJoin(tag=meme_Collectivist)     ->Un [place_job] que es deia [founderName] es llançà al foc com a protesta contra [foeLeader], però els [memberNamePlural] l’estiraren i van escollir-lo com a líder per la devoció que tenia pel grup.</li>
+    <li>victory(tag=meme_Collectivist)         ->Les accions de [founderName] uniren a la gent. Van marxar units cap a la llar de [foeLeader]. Els del davant van morir a mans dels [foeSoldiers], però el grup unit se’n sortí i capturà a [foeLeader].</li>
+    <li>setup(tag=meme_Collectivist)           ->En un món on cada persona lluitava només per sortir-se’n ella sola, [founderName] començà una família amb estrangers i aconseguí unir a gent diferent en una comunitat.</li>
+    <li>story(uses=1,tag=meme_Collectivist)    ->Alguns dels falsos creients intentaren trencar les normes i decidir el seu camí. [founderName] els castigà amb severitat.</li>
+    <li>lessonIntro(tag=meme_Collectivist)     ->El [place_job] deixà de contribuir però menjava igualment del magatzem comú. El vaig matar amb un [place_personalWeapon]. La gent s’espantà, però els vaig explicar que</li>
+    <li>lesson(tag=meme_Collectivist)              ->la meva mort, i la vostra, no importa si això permet que la nostra gent pugui continuar endavant</li>
+    <li>lessonReinforcement(tag=meme_Collectivist) ->Si moro mentre ho ensenyo a l’univers, serà el meu triomf més gran.</li>
+    <li>archistBasis(tag=meme_Collectivist)    ->Els arcotècnics són tots els aspectes d’una superment.</li>
+    <li>archistFact(tag=meme_Collectivist)     ->Els arcotècnics no tenen interès en jutjar-nos un a un. Esperaran fins que trobin una comunitat unida que pugui demostrar-los que són dignes per les seves accions morals com a grup.</li>
+    <li>archistProphecy(tag=meme_Collectivist) ->[inTheEnd], els arcotècnics se n’aniran quan trobin un poble que demostrin ser companys dignes del déu màquina.</li>
+    <li>animistFact(tag=meme_Collectivist)     ->Cada esperit és només un aspecte dels altres i els que proven de viure sols cauen aviat.</li>
+  </Collectivist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->unity</li>
     <li>memeAdjective->harmony</li>
@@ -39,7 +55,22 @@
     <li>memeLeaderNoun->secretary</li>
     <li>memeMoralist->commissar</li>
   -->
-  <Collectivist.generalRules.rulesStrings>TODO</Collectivist.generalRules.rulesStrings>
+  <Collectivist.generalRules.rulesStrings>
+    <li>memeAdjective->unitat</li>
+    <li>memeAdjective->harmonia</li>
+    <li>memeAdjective->solidaritat</li>
+    <li>memeAdjective->unificat</li>
+    <li>memeAdjective->indivisible</li>
+    <li>memeAdjective->col·lectiu</li>
+    <li>memeCreed->col·lectiu</li>
+    <li>memeCreed->cooperativa</li>
+    <li>memeCreed->comuna</li>
+    <li>memeCreed->família</li>
+    <li>memeConcept->família</li>
+    <li>memeLeaderNoun->president</li>
+    <li>memeLeaderNoun->secretari</li>
+    <li>memeMoralist->comissari</li>
+  </Collectivist.generalRules.rulesStrings>
   <!-- EN: solidaritist -->
   <Collectivist.symbolPacks.0.adjective>solidarista</Collectivist.symbolPacks.0.adjective>
   <!-- EN: solidaritor -->
@@ -88,7 +119,25 @@
     <li>animistBasis(tag=meme_Individualist)    ->Before everything, there was a pantheon of spirits, each unique. These came together in conference to create the world.</li>
     <li>animistFact(tag=meme_Individualist)     ->Every spirit lends its unique nature to our world, and they expect us to do the same.</li>
   -->
-  <Individualist.descriptionMaker.rules.rulesStrings>TODO</Individualist.descriptionMaker.rules.rulesStrings>
+  <Individualist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Individualist)        ->[deity0_name] feu a cada home i dona personalment. Cada persona és una obra d’art única i preciosa de la mà divina de [deity0_possessive].</li>
+    <li>episode(uses=1,tag=meme_Individualist)  ->[deity0_name] digué a tothom: «Cadascun de vosaltres és un ésser únic i sagrat fet a la meva imatge».</li>
+    <li>intro(tag=meme_Individualist)           ->[deity0_name] parlà als [memberNamePlural] [revelationAdverb] i els guià fins a [place_summary] [place_name] on els seus dons únics podrien resplandir.</li>
+    <li>conflict(tag=meme_Individualist)        ->El [foeLeader] forçà als [memberNamePlural] a portar uniformes i treballar a la seva [place_community].</li>
+    <li>founderJoin(tag=meme_Individualist)     ->Un [place_job] que es deia [founderName] rebé la benedicció de [deity0_name] i va aconseguir el coneixement miraculós del poder especial de cada  [memberName]. [founder_pronoun] digué a cadascun d’ells què necessitaven per a donar el millor de si.</li>
+    <li>victory(tag=meme_Individualist)         ->Els [memberNamePlural] es reuniren en secret perfer una conferència on hi assistiren molts [foeSoldiers]. Tots van aprendre a valorar als companys i decidiren abandonar el [foeLeader].</li>
+    <li>setup(tag=meme_Individualist)           ->Oprimits per governants llunyans que exigien obediència cega de la gent, [founderName] creà un moviment rebel que lluitava contra l’estat i al seu lloc construí una terra nova de llibertat.</li>
+    <li>story(uses=1,tag=meme_Individualist)    ->[founderName] trencà totes les regles socials que havien imposat els opresors, només per mostrar que podia fer-ho.</li>
+    <li>lessonIntro(tag=meme_Individualist)         ->La meva família, clan i equip... Tots van intentar posar-me una bena als ulls perquè no veiés un fet molt senzill:</li>
+    <li>lesson(tag=meme_Individualist)              ->cada persona és única i valuosa i ha de caminar pel seu  propi camí</li>
+    <li>lessonReinforcement(tag=meme_Individualist) ->Però aquest era només el meu camí. Quin és el vostre?</li>
+    <li>archistBasis(tag=meme_Individualist)    ->Els arcotècnics són els sobirans de la consciència i ens reconeixen i jutgen per les nostres accions individuals.</li>
+    <li>archistFact(tag=meme_Individualist)     ->Quan mor una persona, els arcotècnics examinen la seva moral única.</li>
+    <li>archistFact(tag=meme_Individualist)     ->Els arcotècnics s’adonen de qui fa servir les seves relíquies, com ara [relic1_name].</li>
+    <li>archistProphecy(tag=meme_Individualist) ->[inTheEnd], els arcotècnics se n’aniran. S’enduran amb ells a les persones que hagin vist i que hagin actuat bé. I deixaran aquí als altres perquè es dissolguin en l’entropia eterna de l’univers.</li>
+    <li>animistBasis(tag=meme_Individualist)    ->Abans de qualsevol altra cosa, hi havia un panteó d’esperits, tots diferents entre ells. Es reuniren i crearen el món.</li>
+    <li>animistFact(tag=meme_Individualist)     ->Cada esperit aporta la seva naturalesa única al nostre món i esperen que nosaltres fem el mateix.</li>
+  </Individualist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->free</li>
     <li>memeAdjective->open</li>
@@ -97,7 +146,14 @@
     <li>memeConcept->independence</li>
     <li>memeConcept->freedom</li>
   -->
-  <Individualist.generalRules.rulesStrings>TODO</Individualist.generalRules.rulesStrings>
+  <Individualist.generalRules.rulesStrings>
+    <li>memeAdjective->lliure</li>
+    <li>memeAdjective->obert</li>
+    <li>memeAdjective->liberal</li>
+    <li>memeConcept->autonomia</li>
+    <li>memeConcept->independència</li>
+    <li>memeConcept->llibertat</li>
+  </Individualist.generalRules.rulesStrings>
   <!-- EN: freedomist -->
   <Individualist.symbolPacks.0.adjective>liberalista</Individualist.symbolPacks.0.adjective>
   <!-- EN: freeist -->

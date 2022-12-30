@@ -11,7 +11,20 @@
     <li>groupLabelSingleOrPlural(beggarCount==1)->traveler</li>
     <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
   -->
-  <Beggars.questContentRules.rulesStrings>TODO</Beggars.questContentRules.rulesStrings>
+  <Beggars.questContentRules.rulesStrings>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] [betrayed]</li>
+    <li>letterTextBeggarsBetrayed->[El] [groupLabelSingleOrPlural] que [wasWere] la vostra caritat [hasHave] estat [betrayed]. Els colons amb creences caritatives no hi estaran massa d’acord.</li>
+    <li>hasHave(beggarCount==1)->ha</li>
+    <li>hasHave(beggarCount>=2)->han</li>
+    <li>wasWere(beggarCount==1)->demanava</li>
+    <li>wasWere(beggarCount>=2)->demanaven</li>
+    <li>groupLabelSingleOrPlural(beggarCount==1)->viatger</li>
+    <li>groupLabelSingleOrPlural(beggarCount>=2)->viatges</li>
+    <li>betrayed(beggarCount==1)->traït</li>
+    <li>betrayed(beggarCount>=2)->traïts</li>
+    <li>El(beggarCount==1)->El</li>
+    <li>El(beggarCount>=2)->Els</li>
+  </Beggars.questContentRules.rulesStrings>
   <!-- EN:
     <li>groupLabelPlural->travelers</li>
     <li>groupLabelPlural(allChildren==true,priority=1)->children</li>
@@ -49,7 +62,46 @@
     <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] will move on after [visitDurationTicks_duration]</li>
     <li>moveOnInfo(beggarCount>=2)->The [groupLabelPlural] will move on after [visitDurationTicks_duration]</li>
   -->
-  <Beggars.questDescriptionRules.rulesStrings>TODO</Beggars.questDescriptionRules.rulesStrings>
+  <Beggars.questDescriptionRules.rulesStrings>
+    <li>groupLabelPlural->viatgers</li>
+    <li>groupLabelPlural(allChildren==true,priority=1)->nens</li>
+    <li>groupLabelSingle->viatger</li>
+    <li>groupLabelSingle(childCount>=1,priority=1,beggars0_gender!=Female)->nen</li>
+    <li>groupLabelSingle(childCount>=1,priority=1,beggars0_gender==Female)->nena</li>
+    <li>travelerInfo(beggarCount==1)->Aquest [groupLabelSingle] no forma</li>
+    <li>travelerInfo(beggarCount>=2)->Aquests [groupLabelPlural] no formen</li>
+    <li>persona(beggarCount==1)->aquesta persona</li>
+    <li>persona(beggarCount>=2)->aquestes persones</li>
+    <li>beggingForInfo->×[requestedThingCount] [requestedThing_label]</li>
+    <li>traverObjective(beggarCount==1)->[beggars0_objective]</li>
+    <li>traverObjective(beggarCount>=2)->ells</li>
+    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] part de cap facció. Si voleu, podeu matar, arrestar, vendre o extraure els òrgans d’[persona] sense conseqüències diplomàtiques.</li>
+    <li>approachInfo(beggarCount==1)->Un pobre [groupLabelSingle] que es diu [beggars0_nameDef] se us apropa per a buscar ajuda</li>
+    <li>approachInfo(beggarCount>=2)->Un grup de pobres [groupLabelPlural] s’apropen per a buscar ajuda</li>
+    <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->Un grup de pobres [groupLabelPlural] que porten un nen se us apropen per a demanar ajuda</li>
+    <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->Un grup de pobres [groupLabelPlural] que porten alguns nens se us apropen per a demanar ajuda</li>
+    <li>requestInfo(beggarCount==1)->[beggars0_nameDef] us demana [beggingForInfo]</li>
+    <li>requestInfo(beggarCount>=2)->Els [groupLabelPlural] us demanen [beggingForInfo]</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef] vol la plata per a pagar un deure que té amb una banda de pirates que [beggars0_objective] persegueixen.</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] vol la plata per a comprar la llibertat de la seva germana gran que els pirates tenen esclavitzada</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] necessita la medicina per a ajudar un viatger que està ferit a prop</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef] necessita la medicina per a ajudar el seu germà petit que està ferit a prop</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] vol la medicina per a salvar la seva mascota lleial que està ferida en un camí</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] necessita [requestedThing_label] per a inocular-li a un amic que està greument malalt</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef] ho vol per a ofegar les seves penes després de perdre un company en un accident terrible</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef] vol [requestedThing_label] per a acabar amb el sofriment del seu oncle que pateix una malaltia molt dolorosa</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Volen la plata per a pagar el rescat d’un amic al que han raptat fa poc</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Necessiten la medicina per a fer una operació quirúrgica a vida o mort a un company que ha estat atacat per mecanoides</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal,allChildren==true,priority=1)->Necessiten la medicina per a pagar un remei d’un herborista per a un amic que pateix una febre intensa</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Necessiten la medicina per a ajudar els seus amics d’un assentament proper que ha estat devastat per uns assaltants</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Volen [requestedThing_label] per a viatjar tranquils mentre busquen un lloc on establir la seva nova llar</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Volen [requestedThing_label] per a ajudar-los a ofegar les seves penes després de perdre la seva llar en un atac terrible</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->Esperen poder fer servir [requestedThing_label] per a alliberar un amic seu d’uns esclavistes</li>
+    <li>interactionInfo(beggarCount==1)->Per a donar-li a el que demana, cal seleccionar un colon i fer clic amb el botó dret a [beggars0_nameDef]</li>
+    <li>interactionInfo(beggarCount>=2)->Per a donar-los el que demanen, cal seleccionar un colon i fer clic dret a [beggars0_nameDef]</li>
+    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef] se n’anirà al cap de [visitDurationTicks_duration]</li>
+    <li>moveOnInfo(beggarCount>=2)->Els [groupLabelPlural] se n’aniran al cap de [visitDurationTicks_duration]</li>
+  </Beggars.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
     <li>questName(beggarCount==1,childCount==1,priority=1)->young [beggarSingle] [seekingSingle] [alms]</li>
@@ -77,6 +129,37 @@
     <li>alms->charity</li>
     <li>alms->resources</li>
   -->
-  <Beggars.questNameRules.rulesStrings>TODO</Beggars.questNameRules.rulesStrings>
+  <Beggars.questNameRules.rulesStrings>
+    <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
+    <li>questName(beggarCount==1,childCount==1,priority=1)->[beggarSingle] jove [seekingSingle] [alms]</li>
+    <li>questName(beggarCount>=2)->[beggarPlural] [seekingPlural] [alms]</li>
+    <li>questName(beggarCount>=2,allChildren==true,priority=1)->[beggarPlural] joves [seekingPlural] [alms]</li>
+    <li>beggarSingle(beggars0_gender!=Female)->un vagabund</li>
+    <li>beggarSingle(beggars0_gender==Female)->una vagabunda</li>
+    <li>beggarSingle(beggars0_gender!=Female)->un rodamón</li>
+    <li>beggarSingle(beggars0_gender==Female)->una rodamón</li>
+    <li>beggarSingle(beggars0_gender!=Female)->un viatger</li>
+    <li>beggarSingle(beggars0_gender==Female)->una viatgera</li>
+    <li>beggarPlural->uns vagabunds</li>
+    <li>beggarPlural->uns rodamons</li>
+    <li>beggarPlural->unes persones transhumants</li>
+    <li>beggarPlural->uns viatgers</li>
+    <li>seekingSingle->cerca</li>
+    <li>seekingSingle->demana</li>
+    <li>seekingSingle->sol·licita</li>
+    <li>seekingSingle->demana</li>
+    <li>seekingSingle->necessita</li>
+    <li>seekingSingle->busca</li>
+    <li>seekingPlural->cerquen</li>
+    <li>seekingPlural->demanen</li>
+    <li>seekingPlural->sol·liciten</li>
+    <li>seekingPlural->demanen</li>
+    <li>seekingPlural->necessiten</li>
+    <li>seekingPlural->busquen</li>
+    <li>alms->almoina</li>
+    <li>alms->ajuda</li>
+    <li>alms->caritat</li>
+    <li>alms->recursos</li>
+  </Beggars.questNameRules.rulesStrings>
   
 </LanguageData>

@@ -6,7 +6,7 @@
   <!-- EN: The ideoligion name can't be empty. -->
   <MessageIdeoNameCantBeEmpty>No es pot deixar el nom de la ideoligió buit.</MessageIdeoNameCantBeEmpty>
   <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
-  <MessageIdeoIncompatiblePrecepts>{PRECEPT1} i {PRECEPT2} són incompatibles.</MessageIdeoIncompatiblePrecepts>
+  <MessageIdeoIncompatiblePrecepts>Els preceptes {PRECEPT1} i {PRECEPT2} són incompatibles.</MessageIdeoIncompatiblePrecepts>
   <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
   <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>El desig d’indumentària {DESIREDAPPAREL} es solapa amb el requisit de vestuari de {ROLE}.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
   <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
@@ -18,7 +18,7 @@
   <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
   <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} es nega a fer-ho degut a la seva ideoligió.</MessagePawnUnwillingToDoDueToIdeo>
   <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} ha intentat convertir a {RECIPIENT_nameDef} a la seva ideoligió. La certesa de {RECIPIENT_nameDef} en la seva ideoligió ha baixat de {CERTAINTYBEFORE} a {CERTAINTYAFTER}. {RECIPIENT_pronoun} està {RECIPIENT_gender ? ressentit : ressentida} per l’intent de conversió.</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef} ha intentat convertir a {RECIPIENT_nameDef} a la seva ideoligió. La convicció de {RECIPIENT_nameDef} en la seva ideoligió ha baixat de {CERTAINTYBEFORE} a {CERTAINTYAFTER}. {RECIPIENT_pronoun} està {RECIPIENT_gender ? ressentit : ressentida} per l’intent de conversió.</MessageFailedConvertIdeoAttempt>
   <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
   <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef} ha intentat convertir a {PAWN2_nameDef} a la seva ideoligió. Això ha provocat una baralla!</MessageFailedConvertIdeoAttemptSocialFight>
   <!-- EN: You must choose at least {0} memes. -->

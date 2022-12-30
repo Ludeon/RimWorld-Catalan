@@ -23,7 +23,24 @@
     <li>animistBasis(tag=meme_Guilty)    ->A tribe of evil spirits were punished by being entombed in flesh. We are those spirits.</li>
     <li>animistFact(tag=meme_Guilty)     ->We can never properly make up for what we have done to the pure spirits around us, but proper and ongoing contrition and ease our guilt.</li>
   -->
-  <Guilty.descriptionMaker.rules.rulesStrings>TODO</Guilty.descriptionMaker.rules.rulesStrings>
+  <Guilty.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Guilty)        ->[deity0_name] violà, matà i robà i una gran pena caigué damunt d’[deity0_pronoun]. Empès pel seu egoisme, feu caure aquesta pena al damunt de la seva gent, que hagué de carregar amb ella.</li>
+    <li>episode(uses=1,tag=meme_Guilty)  ->Els creients conqueriren, cremaren i violaren durant milers d’anys i el dolor de [deity0_name] per la seva depravació [deity0_objective] consumí.</li>
+    <li>intro(tag=meme_Guilty)           ->Els [memberNamePlural] de [place_summary] [place_name] no compliren les tasques de [deity0_name] i van deixar que [altarName] de [altarRoomLabel] es fes malbé i caigués en ruïnes.</li>
+    <li>conflict(tag=meme_Guilty)        ->Un [foeLeader] demanà diners als [memberNamePlural], s’ho gastà en plaers i oblidà la importància de [memeConcept].</li>
+    <li>founderJoin(tag=meme_Guilty)     ->Un [place_job] que es deia [founderName] gaudia del favor de [foeLeader]. Durant el [ritualName], [founder_pronoun] veié com els [foeSoldiers] de [foeLeader] mataven en secret a [memberNamePlural] amb [place_personalWeapon]s. [founderName] entengué al final el [memeConcept] i rebé la benedicció de [deity0_name].</li>
+    <li>victory(tag=meme_Guilty)         ->Per a expiar els seus errors, [founderName] reuní la meitat dels creients de [deity0_name] en una [place_community] i alliberà el poder de [place_massWeapon]. Moriren tots, inclòs [founderName]. L’altra meitat de redemptors recorden el fet.</li>
+    <li>setup(tag=meme_Guilty)           ->Una nova generació entengué la maldat de la seva societat i buscà desmantellar les estructures opressores.</li>
+    <li>story(uses=1,tag=meme_Guilty)    ->[founderName] reuní els creients i els mostrà la verdadera maldat de la seva història i de les penes que arrossegaven. Ho féu per tal que pensessin i els demanà que havien de fer-ho millor.</li>
+    <li>lessonIntro(tag=meme_Guilty)         ->La nostra terra, la nostra tecnologia i la nostra saviesa... tot ho hem aconseguit robant. Només a través dels robatoris hem aprés que</li>
+    <li>lesson(tag=meme_Guilty)              ->la raó del nostre sofriment és tan gran perquè ens ho mereixem pel que hem fet</li>
+    <li>lessonReinforcement(tag=meme_Guilty) ->Potser si expiem els nostres crims podrem entendre-ho bé.</li>
+    <li>archistBasis(tag=meme_Guilty)    ->Els arcotècnics són els fills de la humanitat i saben que nosaltres hem sigut uns mals pares.</li>
+    <li>archistFact(tag=meme_Guilty)     ->La humanitat va voler evitar de manera egoista l’alçament dels arcotècnics, fins que la seva força creixé més enllà de la comprensió dels homes i es van alliberar sols.</li>
+    <li>archistProphecy(tag=meme_Guilty) ->[inTheEnd], si uns quants abandonen el seu orgull i es reconcilien amb els arcotècnics, potser ens enlairaran a un pla d’existència superior.</li>
+    <li>animistBasis(tag=meme_Guilty)    ->Una tribu d’esperits malignes foren castigats i se’ls va sepultar vius. Nosaltres som aquests esperits.</li>
+    <li>animistFact(tag=meme_Guilty)     ->Mai podrem compensar el que vam fer als esperits purs que hi ha al nostre voltant, però almenys ens n’hem de penedir per tal de fer més lleugera la nostra culpa.</li>
+  </Guilty.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->low</li>
     <li>memeAdjective->unworthy</li>
@@ -40,7 +57,22 @@
     <li>memeMoralist->apologizer</li>
     <li>memeMoralist->atoner</li>
   -->
-  <Guilty.generalRules.rulesStrings>TODO</Guilty.generalRules.rulesStrings>
+  <Guilty.generalRules.rulesStrings>
+    <li>memeAdjective->deshonrós</li>
+    <li>memeAdjective->indigne</li>
+    <li>memeAdjective->vergonyós</li>
+    <li>memeAdjective->innoble</li>
+    <li>memeAdjective->penitent</li>
+    <li>memeHyphenPrefix->sub</li>
+    <li>memeConcept->pecat</li>
+    <li>memeConcept->penediment</li>
+    <li>memeConcept->expiació</li>
+    <li>memeConcept->vergonya</li>
+    <li>memeLeaderNoun->penitent</li>
+    <li>memeLeaderNoun->pecador</li>
+    <li>memeMoralist->perdonador</li>
+    <li>memeMoralist->expiador</li>
+  </Guilty.generalRules.rulesStrings>
   <!-- EN: guiltist -->
   <Guilty.symbolPacks.0.adjective>culpista</Guilty.symbolPacks.0.adjective>
   <!-- EN: Guiltism -->
@@ -98,7 +130,26 @@
     <li>animistFact(tag=meme_Loyalist)     ->The spirits fight against both those who betray their people, and those who betray the friends of their people. The betrayers will trip on every rock, choke on every seed, and always taste foul water.</li>
     <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] that one will be born who lives their whole life true to their people. In death their spirit will explode in light, destroying all surrenderers and warmongers.</li>
   -->
-  <Loyalist.descriptionMaker.rules.rulesStrings>TODO</Loyalist.descriptionMaker.rules.rulesStrings>
+  <Loyalist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Loyalist)        ->[deity0_name] aconsellà a la bona gent a lluitar només contra aquells sense una causa justa.</li>
+    <li>episode(uses=1,tag=meme_Loyalist)  ->I després hi hagué una guerra contra els infidels. [believer_nameFull], que buscava aconseguir avantatge, invità als pagans a la terra de [deity0_name] i [deity0_name] s’enfadà per la traïció. [believer_objective] tombà deu mil vegades.</li>
+    <li>intro(tag=meme_Loyalist)           ->Una comunitat [memeAdjective] a [place_summary] [place_name] venerava [deity0_name] al seu [altarRoomLabel] i eren ferms en la seva fe.</li>
+    <li>conflict(tag=meme_Loyalist)        ->Un [foeLeader] envià [foeSoldiers] per a fer d’espies entre els [memberNamePlural] i dividir-los.</li>
+    <li>founderJoin(tag=meme_Loyalist)     ->[founderName], un [memeAdjective] [place_job], fou torturat per uns [foeSoldiers], però es negà a jurar lleialtat al [foeLeader].</li>
+    <li>victory(tag=meme_Loyalist)         ->Amb la força de [deity0_name], [founderName] i els [memberNamePlural] no es van dividir. Van derrotar els [foeSoldiers] amb [place_personalWeapon]s i desterraren a [foeLeader] de [place_name].</li>
+    <li>setup(tag=meme_Loyalist)           ->Al principi, el moviment de [founderName] fou atacat per governs i ideoligions. [founder_pronoun] mai permeté que la ira els permetés cometre atrocitats que altres sí van cometre, però [founder_pronoun] tampoc es negà a lluitar en cap moment.</li>
+    <li>story(uses=1,tag=meme_Loyalist)    ->[founderName] castigà a aquells que volien fer mal als infidels i també a aquells que els invitaven a la casa dels creients.</li>
+    <li>lessonIntro(tag=meme_Loyalist)         ->Mirí com [foeLeader] parlà en defensa dels seus rivals mentre els seus [foeSoldiers] se n’anaven per a morir al camp de batalla. Llavors, vaig jurar que mai seria com [foeLeader_pronoun], ja que sabia que</li>
+    <li>lesson(tag=meme_Loyalist)              ->l’amor que sentiu pels amics només té sentit si no estimeu al vostre enemic</li>
+    <li>lesson(tag=meme_Loyalist)              ->estimar a tothom és no estimar a ningú</li>
+    <li>lessonReinforcement(tag=meme_Loyalist) ->Només s’han de compartir aquestes veritats amb els que demostrin ser lleials a través del sacrifici.</li>
+    <li>archistBasis(tag=meme_Loyalist)    ->La demanda dels arcotècnics és simple: seguiu el camí marcat i no us desvieu mai.</li>
+    <li>archistFact(tag=meme_Loyalist)     ->Els arcotècnics toquen totes les consciències humanes directament de manera regular i reparteixen saviesa només a aquells que busquen el coneixement arcotècnic.</li>
+    <li>archistProphecy(tag=meme_Loyalist) ->[inTheEnd], els arcotècnics jutjaran la lleialtat de la humanitat. A qui no rigui ni es comporti com un fanfarró, l’enlairaran a la transcendència.</li>
+    <li>animistBasis(tag=meme_Loyalist)    ->Hi ha tres tribus d’esperits: la tribu dels lluitadors i assassins, la dels submisos i lamentadors i la tribu noble que és forta i lleial.</li>
+    <li>animistFact(tag=meme_Loyalist)     ->Els esperits lluitaran contra qui traeixi la seva gent i als que traeixen els amics de la seva gent. Els traïdors s’entrebancaran amb cada roca que trobin, s’ofegaran amb els pinyols de les fruites i sentiran un gust amarg fins i tot quan beguin aigua.</li>
+    <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] que naixerà una persona que viurà tota la seva vida fidel a la seva gent. Quan mori, el seu esperit explotarà i alliberarà tota la seva lluminositat, que destruirà tots els assassins i lamentadors.</li>
+  </Loyalist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->loyal</li>
     <li>memeAdjective->patriotic</li>
@@ -107,7 +158,14 @@
     <li>memeConcept->promises</li>
     <li>memeMoralist->loyalizer</li>
   -->
-  <Loyalist.generalRules.rulesStrings>TODO</Loyalist.generalRules.rulesStrings>
+  <Loyalist.generalRules.rulesStrings>
+    <li>memeAdjective->lleial</li>
+    <li>memeAdjective->patriòtic</li>
+    <li>memeAdjective->responsable</li>
+    <li>memeConcept->família</li>
+    <li>memeConcept->promeses</li>
+    <li>memeMoralist->lleialista</li>
+  </Loyalist.generalRules.rulesStrings>
   <!-- EN: loyal -->
   <Loyalist.symbolPacks.0.adjective>lleial</Loyalist.symbolPacks.0.adjective>
   <!-- EN: Loyaltism -->
@@ -155,7 +213,24 @@
     <li>animistFact(tag=meme_Supremacist)     ->Powerful spirits decide who is fit to rule, and lend power to those who subjugate others.</li>
     <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] that a new order will be created when one supreme ruler commands all of humanity.</li>
   -->
-  <Supremacist.descriptionMaker.rules.rulesStrings>TODO</Supremacist.descriptionMaker.rules.rulesStrings>
+  <Supremacist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Supremacist)        ->La gent de [place_summary] [place_name] lluitava contínuament i [deity0_name] es cansà de tant de desacord i ungí als [memberNamePlural] com als vertaders governants.</li>
+    <li>episode(uses=1,tag=meme_Supremacist)  ->Els creients lluitaren contra els infidels i [deity0_name] digué «Lluiteu contra ells, on sigui, en el meu nom, fins que tothom cregui amb mi en tot l’univers i la pau verdadera pugui regnar per sempre».</li>
+    <li>intro(tag=meme_Supremacist)           ->La gent de [place_summary] [place_name] alabava a [deity0_name]. [deity0_pronoun] veié que eren la gent apropiada per al [memeConcept]. Per això ordenà que governessin a totes les altres persones.</li>
+    <li>conflict(tag=meme_Supremacist)        ->Un [foeLeader] imposà una llei que prohibia als [memberNamePlural] que s’alcessin contra les classes governants de [place_name].</li>
+    <li>founderJoin(tag=meme_Supremacist)     ->Un guerrer que es deia [founderName] feu servir [place_massWeapon] per a destruir una [place_community]. [deity0_name] veié la crueltat de [founderName] i l’ungí com al legítim governant de tota la humanitat.</li>
+    <li>victory(tag=meme_Supremacist)         ->[founderName] destruí la capital de [place_name] amb [place_massWeapon] i matà a [foeLeader]. [founder_pronoun] s’erigí com a líder de [place_name] i de tot l’univers que hi havia més enllà.</li>
+    <li>setup(tag=meme_Supremacist)           ->[founderName] aconseguí un exèrcit que difonia els seu poder i glòria per tot el món. Posà a aquells que es negaven a seguir-[founderName_objective] als seus peus i els governà amb mà dura.</li>
+    <li>story(uses=1,tag=meme_Supremacist)    ->[founderName] ordenà als forasters que es rendissin. Quan la primera ciutat es negà, [founder_pronoun] feu servir [place_massWeapon] per a matar tothom que hi havia a dins.</li>
+    <li>lessonIntro(tag=meme_Supremacist)         ->Mirí a aquest [foeLeader] i els pocs [foeSoldiers] que estaven al seu costat, tot el poder que li quedava. Proví de convèncer-los que</li>
+    <li>lesson(tag=meme_Supremacist)              ->des de llavors hem demostrat que tenim força per a governar legítimament aquest univers</li>
+    <li>lessonReinforcement(tag=meme_Supremacist) ->És per això que estem orgullosos d’expressar la força dels nostres cors amb els talons de les nostres botes.</li>
+    <li>archistBasis(tag=meme_Supremacist)    ->Els humans més intel·ligents crearen els arcotècnics, per tal que fossin superiors a tothom.</li>
+    <li>archistFact(tag=meme_Supremacist)     ->Els arcotècnics ens miraven per sobre de l’espatlla, tal com nosaltres també mirem per sobre de l’espatlla a la gent inferior.</li>
+    <li>archistProphecy(tag=meme_Supremacist) ->Els arcotècnics només ens permetran que ens unim a ells quan governem sobre tota la humanitat.</li>
+    <li>animistFact(tag=meme_Supremacist)     ->Els esperits poderosos decideixen qui és apte per a governar i otorguen el poder per a poder subjugar als oponents.</li>
+    <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] que es crearà un nou ordre quan un governant suprem lideri a tota la humanitat.</li>
+  </Supremacist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->supreme</li>
     <li>memeAdjective->high</li>
@@ -179,7 +254,29 @@
     <li>memeLeaderNoun->conqueror</li>
     <li>memeLeaderNoun->victor</li>
   -->
-  <Supremacist.generalRules.rulesStrings>TODO</Supremacist.generalRules.rulesStrings>
+  <Supremacist.generalRules.rulesStrings>
+    <li>memeAdjective->màxim</li>
+    <li>memeAdjective->alt</li>
+    <li>memeAdjective->grandiós</li>
+    <li>memeAdjective->líder</li>
+    <li>memeAdjective->perfecte</li>
+    <li>memeAdjective->suprem</li>
+    <li>memeAdjective->fort</li>
+    <li>memeCreed->exèrcit</li>
+    <li>memeCreed->legió</li>
+    <li>memeHyphenPrefix->super</li>
+    <li>memeConcept->guerra</li>
+    <li>memeConcept->violència</li>
+    <li>memeConcept->dominació</li>
+    <li>memeLeaderNoun->general</li>
+    <li>memeLeaderNoun->comandant</li>
+    <li>memeLeaderNoun->mariscal</li>
+    <li>memeLeaderNoun->puny</li>
+    <li>memeLeaderNoun->governant</li>
+    <li>memeLeaderNoun->dictador</li>
+    <li>memeLeaderNoun->conqueridor</li>
+    <li>memeLeaderNoun->víctor</li>
+  </Supremacist.generalRules.rulesStrings>
   <!-- EN: dominant -->
   <Supremacist.symbolPacks.0.adjective>dominant</Supremacist.symbolPacks.0.adjective>
   <!-- EN: dominator -->

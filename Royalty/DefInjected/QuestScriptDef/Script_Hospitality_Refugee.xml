@@ -49,12 +49,73 @@
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] leaving</li>
     <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} thanks you for allowing {FACTION_leaderObjective} to stay at [map_definite] for these [questDurationTicks_duration]. {FACTION_leaderPronoun} is now moving on with {FACTION_leaderPossessive} people.\n\n{FACTION_leaderNameDef} says {FACTION_leaderPronoun} won't forget what you've done.</li>
   -->
-  <Hospitality_Refugee.questContentRules.rulesStrings>TODO</Hospitality_Refugee.questContentRules.rulesStrings>
+  <Hospitality_Refugee.questContentRules.rulesStrings>
+    <li>lastOrNot(lodgerCount==1)->el</li>
+    <li>lastOrNot(lodgerCount>=2)->l’últim</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersArriveLetterLabel->[hasHave] arribat [un][lodgersLabelSingularOrPlural]</li>
+    <li>lodgersArriveLetterText->[hasHave] arribat [un][lodgersSingularOrPluralDef]. [lodgersPronoun] es quedarà a l’assentament durant [questDurationTicks_duration], quan [hagi] descansat i s’[hagin] organitzat.</li>
+    <li>hasHave(lodgerCount==1)->ha</li>
+    <li>hasHave(lodgerCount>=2)->han</li>
+    <li>hagi(lodgerCount==1)->hagi</li>
+    <li>hagi(lodgerCount>=2)->hagin</li>
+    <li>un(lodgerCount==1)->un </li>
+    <li>un(lodgerCount>=2)-></li>
+    <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? Els altres semblen estar : L’últim [lodgersLabel] està} en xoc, però {PAWNSALIVECOUNT_multiple ? no faran : no farà} res en contra vostre.</li>
+    <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? Els altres no volen : L’últim [lodgersLabel] no vol} acceptar-ho</li>
+    <li>turnedViolent->[othersWillNotAccept] i {PAWNSALIVECOUNT_multiple ? comença : comencen } a actuar de manera violenta en contra vostra.</li>
+    <li>decidedToLeave->[othersWillNotAccept] i {PAWNSALIVECOUNT_multiple ? ha : han} decidit anar-se’n.</li>
+    <li>whoAskedToStay->que us ha demanat quedar-se amb el vostre grup</li>
+    <li>oneOfThe->un dels [faction_pawnsPlural] desesperats que us ha demanat quedar-se amb el vostre grup</li>
+    <li>questOver->La missió «[resolvedQuestName]» s’ha acabat.</li>
+    <li>letterIntroDeath->{SUBJECT_definite}, [oneOfThe] ha mort.</li>
+    <li>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel] ha mort: Ira</li>
+    <li>lodgerDiedMemoryThoughtLetterText->[letterIntroDeath]\n\n[appalledButNoAction]</li>
+    <li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] ha mort: Revenja</li>
+    <li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]</li>
+    <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] ha mort: Partida</li>
+    <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
+    <li>lodgersAllDiedLetterLabel->La missió ha fracassat</li>
+    <li>lodgersAllDiedLetterText->{SUBJECT_definite}, [lastOrNot] [faction_pawnSingular] desesperat [whoAskedToStay], ha mort.\n\n[questOver]</li>
+    <li>letterIntroArrested->Heu arrestat {SUBJECT_definite}, [oneOfThe].</li>
+    <li>lodgerArrestedMemoryThoughtLetterLabel->S’ha arrestat a [lodgersLabel]: Ira</li>
+    <li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel->S’ha arrestat [lodgersLabel]: Revenja</li>
+    <li>lodgerArrestedAttackPlayerLetterText->[letterIntroArrested]\n\n[turnedViolent]</li>
+    <li>lodgerArrestedLeaveMapLetterLabel->S’ha arrestat [lodgersLabel]: Partida</li>
+    <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
+    <li>lodgersAllArrestedLetterLabel->La missió ha fracassat</li>
+    <li>lodgersAllArrestedLetterText->Heu arrestat {SUBJECT_definite}, [lastOrNot] [faction_pawnSingular] desesperat [whoAskedToStay].\n\n[questOver]</li>
+    <li>letterIntroViolated->A {SUBJECT_definite}, [oneOfThe], se li ha aplicat una cirurgia sense permís.</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel->S’ha operat a [lodgersLabel]: Ira</li>
+    <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel->S’ha operat a [lodgersLabel]: Revenja</li>
+    <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->S’ha operat a [lodgersLabel]: Partida</li>
+    <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>mutinyLetterLabel->Traïció</li>
+    <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [esTorna] en contra vostra!\n\nSembla que [lodgersPronoun] ho [tenia] tot planejat.</li>
+    <li>areIs(lodgerCount==1)->està</li>
+    <li>areIs(lodgerCount>=2)->estan</li>
+    <li>esTorna(lodgerCount==1)->es torna</li>
+    <li>esTorna(lodgerCount>=2)->es tornen</li>
+    <li>tenia(lodgerCount==1)->tenia</li>
+    <li>tenia(lodgerCount>=2)->tenien</li>
+    <li>va(lodgerCount==1)->va</li>
+    <li>va(lodgerCount>=2)->van</li>
+    <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] se’n [va]</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} us dóna les gràcies per permetre que {FACTION_leaderObjective} es quedi a [map_definite] durant aquests [questDurationTicks_duration]. {FACTION_leaderPronoun} ara ja se’n va amb la seva gent.\n\n{FACTION_leaderNameDef} diu que no oblidarà el que heu fet.</li>
+  </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
     <li>lodgersLabelPlural->refugees</li>
   -->
-  <Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>TODO</Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
+  <Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel(lodgers0==Male)->refugiat</li>
+    <li>lodgersLabel(lodgers0!=Male)->refugiada</li>
+    <li>lodgersLabelPlural->refugiats</li>
+  </Hospitality_Refugee.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>offer(lodgerCount==1)->offers</li>
     <li>offer(lodgerCount>=2)->offer</li>
@@ -92,7 +153,46 @@
     <li>travelerInfo(lodgerCount==1)->This [faction_pawnSingular] is</li>
     <li>travelerInfo(lodgerCount>=2)->These [faction_pawnsPlural] are</li>
   -->
-  <Hospitality_Refugee.questDescriptionRules.rulesStrings>TODO</Hospitality_Refugee.questDescriptionRules.rulesStrings>
+  <Hospitality_Refugee.questDescriptionRules.rulesStrings>
+    <li>offer(lodgerCount==1)->ofereix</li>
+    <li>offer(lodgerCount>=2)->ofereixen</li>
+    <li>forma(lodgerCount==1)->forma</li>
+    <li>forma(lodgerCount>=2)->formen</li>
+    <li>lodgersPronoun(lodgerCount==1)->[asker_pronoun]</li>
+    <li>lodgersPronoun(lodgerCount>=2)->ells</li>
+    <li>lodgersPreposition(lodgers0_gender==Male,lodgerCount==1)->[asker_pronoun] mateix</li>
+    <li>lodgersPreposition(lodgers0_gender!=Male,lodgerCount==1)->[asker_pronoun] mateixa</li>
+    <li>lodgersPreposition(lodgerCount>=2)->ells mateixos</li>
+    <li>lodgersObjective(lodgerCount==1)->[asker_objective]</li>
+    <li>lodgersObjective(lodgerCount>=2)->los</li>
+    <li>lodgersPossessive(lodgerCount==1)->el seu</li>
+    <li>lodgersPossessive(lodgerCount>=2)->els seus</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
+    <li>lodgersSingularOrPluralDef(lodgerCount>=2)->els [lodgersLabelPlural]</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] us demana permís per a quedar-se a [map_definite] durant [questDurationTicks_duration] per a descansar i organitzar-se.\n\nA canvi, [lodgersPronoun] s’[offer] per a treballar i lluitar durant la seva estada.\n\n[joinInfo] [lodgersPronoun] també [offer] una recompensa per l’ajuda, encara que no és possible quines són les seves vertaderes intencions.\n\n[travelerInfo] no forma part de cap facció. Si voleu matar-[lodgersObjective], arrestar-[lodgersObjective], comerciar amb [lodgersPronoun] o extraure els seus òrgans sense conseqüències diplomàtiques.</li>
+    <li>approachInfo(lodgerCount==1)->[asker_Un] [faction_pawnSingular] desespera[asker_t] que es diu [asker_nameDef] s’acosta.</li>
+    <li>approachInfo(lodgerCount==2)->[asker_nameDef] i un altre [faction_pawnSingular] s’acosten.</li>
+    <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] s’apropa amb un nen..</li>
+    <li>approachInfo(lodgerCount>=3)->[lodgerCount] [faction_pawnsPlural] desesperats s’apropen. El seu líder es diu [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount] [faction_pawnsPlural] desesperats amb un nen s’apropen. El seu líder es diu [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] [faction_pawnsPlural] desesperats amb alguns nens s’apropen. El seu líder es diu [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->Un grup de [lodgerCount] [faction_pawnsPlural] desesperats s’apropen. Hi ha  [asker_nameDef] i [lodgersCountMinusOne] nens que estan sota la seva tutela.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] diu que ha perdut la seva llar en un atac recent.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] diu que s’ha despertat en un sarcòfag de criptoson tot[asker_x_a] sol[asker_x_a], sense cap company.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] diu que fuig d’un amant venjatiu que el persegueix des que fugí de la seva casa.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef] diu que l’han desterrat després de discutir amb el líder d’una vila.</li>
+    <li>claimInfo(lodgerCount>=2)->Diuen que han perdut la seva llar en un atac recent.</li>
+    <li>claimInfo(lodgerCount>=2)->Diuen que han escapat d’una màfia que volia robar-los els òrgans.</li>
+    <li>claimInfo(lodgerCount>=2)->Diuen que han escapat d’una caravana d’esclaus.</li>
+    <li>claimInfo(lodgerCount>=2)->Diuen que les seves collites van ser assolades per diver-ses plagues i van haver d’abandonar el seu poblat perquè es morien de gana.</li>
+    <li>claimInfo(lodgerCount>=2)->Diuen que una tempesta de llamps va cremar la seva llar.</li>
+    <li>claimInfo(lodgerCount>=2)->Diuen que la seva caravana fou atacada i els ho van robar tot.</li>
+    <li>claimInfo(lodgerCount>=2)->Diuen que han estat desterrats del seu poble perquè van discutir amb la resta de la gent per unes diferències morals.</li>
+    <li>joinInfo(lodgerCount==1)->Si [asker_objective] feu feliç, [asker_pronoun] potser [offer] unir-se a la colònia.</li>
+    <li>joinInfo(lodgerCount>=2)->Si els feu feliços, potser alguns voldran unir-se a la colònia.</li>
+    <li>travelerInfo(lodgerCount==1)->Aquest[asker_x_a] [faction_pawnSingular] és</li>
+    <li>travelerInfo(lodgerCount>=2)->Aquest grup de [faction_pawnsPlural]</li>
+  </Hospitality_Refugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(lodgerCount==1)->[asker_nameDef] the [lodgerAdj]</li>
     <li>questName(lodgerCount==1)->[athe] [lodgerAdj] [lodgerSingle]</li>
@@ -125,13 +225,80 @@
     <li>lodgerPlural->nomads</li>
     <li>lodgerPlural->vagabonds</li>
   -->
-  <Hospitality_Refugee.questNameRules.rulesStrings>TODO</Hospitality_Refugee.questNameRules.rulesStrings>
+  <Hospitality_Refugee.questNameRules.rulesStrings>
+    <li>questName(asker_gender!=Female,lodgerCount==1)->[asker_nameDef] el [lodgerAdj]</li>
+    <li>questName(asker_gender==Female,lodgerCount==1)->[asker_nameDef] la [lodgerAdjFem]</li>
+    <li>questName(asker_gender!=Female,lodgerCount==1)->[athe] [lodgerSingle] [lodgerAdj]</li>
+    <li>questName(asker_gender==Female,lodgerCount==1)->[atheFem] [lodgerSingleFem] [lodgerAdjFem]</li>
+    <li>questName(p=2,lodgerCount>=2)->[athePlural] [lodgerPlural] [lodgerAdjPlural]</li>
+    <li>questName(lodgerCount>=2)->Els [lodgerPlural] [lodgerAdjPlural] de [asker_nameDef]</li>
+    <li>questName(lodgerCount>=2)->Els [lodgerPlural] de [asker_nameDef]</li>
+    <li>athe->un</li>
+    <li>athe->el</li>
+    <li>atheFem->una</li>
+    <li>atheFem->la</li>
+    <li>athePlural->uns</li>
+    <li>athePlural->els</li>
+    <li>lodgerAdj->cansat</li>
+    <li>lodgerAdj->perdut</li>
+    <li>lodgerAdj->desnonat</li>
+    <li>lodgerAdj->pobre</li>
+    <li>lodgerAdj->desesperat</li>
+    <li>lodgerAdj->trist</li>
+    <li>lodgerAdj->brut</li>
+    <li>lodgerAdj->desesperat</li>
+    <li>lodgerAdj->desconegut</li>
+    <li>lodgerAdj->desemparat</li>
+    <li>lodgerAdj->abandonat</li>
+    <li>lodgerAdjFem->cansada</li>
+    <li>lodgerAdjFem->perduda</li>
+    <li>lodgerAdjFem->desnonada</li>
+    <li>lodgerAdjFem->pobra</li>
+    <li>lodgerAdjFem->desesperada</li>
+    <li>lodgerAdjFem->trista</li>
+    <li>lodgerAdjFem->bruta</li>
+    <li>lodgerAdjFem->desesperada</li>
+    <li>lodgerAdjFem->desconeguda</li>
+    <li>lodgerAdjFem->desemparada</li>
+    <li>lodgerAdjFem->abandonada</li>
+    <li>lodgerAdjPlural->cansats</li>
+    <li>lodgerAdjPlural->perduts</li>
+    <li>lodgerAdjPlural->desnonats</li>
+    <li>lodgerAdjPlural->pobres</li>
+    <li>lodgerAdjPlural->desesperats</li>
+    <li>lodgerAdjPlural->tristos</li>
+    <li>lodgerAdjPlural->bruts</li>
+    <li>lodgerAdjPlural->desesperats</li>
+    <li>lodgerAdjPlural->desconeguts</li>
+    <li>lodgerAdjPlural->desemparats</li>
+    <li>lodgerAdjPlural->abandonats</li>
+    <li>lodgerSingle->viatger</li>
+    <li>lodgerSingle->refugiat</li>
+    <li>lodgerSingle->rodamón</li>
+    <li>lodgerSingle->supervivent</li>
+    <li>lodgerSingle->nòmada</li>
+    <li>lodgerSingle->vagabund</li>
+    <li>lodgerSingleFem->viatgera</li>
+    <li>lodgerSingleFem->refugiada</li>
+    <li>lodgerSingleFem->rodamón</li>
+    <li>lodgerSingleFem->supervivent</li>
+    <li>lodgerSingleFem->nòmada</li>
+    <li>lodgerSingleFem->vagabunda</li>
+    <li>lodgerPlural->viatgers</li>
+    <li>lodgerPlural->refugiats</li>
+    <li>lodgerPlural->rodamons</li>
+    <li>lodgerPlural->supervivents</li>
+    <li>lodgerPlural->nòmades</li>
+    <li>lodgerPlural->vagabunds</li>
+  </Hospitality_Refugee.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>betrayalOfferRewardLetterLabel->Betrayal reward: [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] promised you a reward if you killed [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] has heard news this has been done and is sending you the following via drop pod (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterLabel->Betrayal reward retracted</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] has learned that one of the members of the [faction_name] has joined your faction! [factionOpponent_nameDef] wanted all members of the [faction_name] to die and has therefore retracted [factionOpponent_possessive] offer.</li>
     <li>betrayalOfferFailedLetterLabel->Betrayal reward retracted</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] has learned that one of the members of the [faction_name] is no longer at [map_definite]. [factionOpponent_nameDef] wanted all members of the [faction_name] to die and has therefore retracted [factionOpponent_possessive] offer.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
@@ -141,12 +308,31 @@
     <li>otherMembers(lodgerCount>=2)-> and all other members of the [faction_name]</li>
     <li>questOver->The quest '[resolvedQuestName]' is over.</li>
   -->
-  <RefugeeBetrayal.questContentRules.rulesStrings>TODO</RefugeeBetrayal.questContentRules.rulesStrings>
+  <RefugeeBetrayal.questContentRules.rulesStrings>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>betrayalOfferRewardLetterLabel->Recompensa de la traïció: [factionOpponent_nameDef]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] us va prometre una recompensa si matàveu a [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] ha rebut notícies de que la «tasca» s’ha completat i us envia el següent a través de càpsules que cauran del cel (valor total de [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterLabel->S’ha retirat la recompensa per traïció</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] s’ha assabentat que un dels membres de [faction_name] s’ha unit a la vostra facció! [factionOpponent_nameDef] volia que tots els membres de [faction_name] morissin i, per tant, ha retirat la seva oferta.</li>
+    <li>betrayalOfferFailedLetterLabel->Es retira la recompensa per traïció</li>
+    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] s’ha assabentat que un dels membres de [faction_name] ja no està a [map_definite]. [factionOpponent_nameDef] volia que tots els membres de [faction_name] morissin i, per tant, retira la seva oferta.</li>
+    <li>otherLodgers(lodgerCount==1)-></li>
+    <li>otherLodgers(lodgerCount==2)->i un altre [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount>=3)->i alguns [lodgersLabelPlural]</li>
+    <li>otherMembers(lodgerCount==1)-></li>
+    <li>otherMembers(lodgerCount>=2)-> i tots els altres membres de [faction_name]</li>
+    <li>questOver->La missió «[resolvedQuestName]» s’ha acabat.</li>
+  </RefugeeBetrayal.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
     <li>lodgersLabelPlural->refugees</li>
   -->
-  <RefugeeBetrayal.questDescriptionAndNameRules.rulesStrings>TODO</RefugeeBetrayal.questDescriptionAndNameRules.rulesStrings>
+  <RefugeeBetrayal.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel(lodgers0==Male)->refugiat</li>
+    <li>lodgersLabel(lodgers0!=Male)->refugiada</li>
+    <li>lodgersLabelPlural->refugiats</li>
+  </RefugeeBetrayal.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[factionOpponent_nameDef], a [factionOpponent_faction_pawnSingular] of [factionOpponent_faction_name], has learned that [asker_nameDef] [otherLodgers] [areIs] being hosted at [map_definite]. [factionOpponent_pronoun] is enemies with [asker_nameDef] and wants to see [asker_objective] dead.\n\n[factionOpponent_pronoun] will send you the following reward if you kill all members of [faction_name] (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
@@ -159,24 +345,46 @@
     <li>areIs(lodgerCount==1)->is</li>
     <li>areIs(lodgerCount>=2)->are</li>
   -->
-  <RefugeeBetrayal.questDescriptionRules.rulesStrings>TODO</RefugeeBetrayal.questDescriptionRules.rulesStrings>
+  <RefugeeBetrayal.questDescriptionRules.rulesStrings>
+    <li>questDescription->[factionOpponent_nameDef], [factionOpponent_faction_pawnSingular] de [factionOpponent_faction_name], s’ha assabentat que [asker_nameDef] [otherLodgers] [areIs] allotjat a [map_definite]. [factionOpponent_pronoun] i [asker_nameDef] són enemics i vol que [asker_el] matin.\n\n[factionOpponent_pronoun] us enviarà la següent recompensa si mateu tots els membres de [faction_name] (valor total de [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
+    <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
+    <li>otherLodgers(lodgerCount==1)-></li>
+    <li>otherLodgers(lodgerCount==2)->i un altre [lodgersLabel]</li>
+    <li>otherLodgers(lodgerCount>=3)->i uns quants [lodgersLabelPlural]</li>
+    <li>otherMembers(lodgerCount==1)-></li>
+    <li>otherMembers(lodgerCount>=2)-> i tots els altres membres de [faction_name]</li>
+    <li>areIs(lodgerCount==1)->està</li>
+    <li>areIs(lodgerCount>=2)->estan</li>
+  </RefugeeBetrayal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Betrayal offer: [factionOpponent_nameDef]</li>
   -->
-  <RefugeeBetrayal.questNameRules.rulesStrings>TODO</RefugeeBetrayal.questNameRules.rulesStrings>
+  <RefugeeBetrayal.questNameRules.rulesStrings>
+    <li>Oferiment de traïció: [factionOpponent_nameDef]</li>
+  </RefugeeBetrayal.questNameRules.rulesStrings>
   
   <!-- EN:
     <li>rewardLetterLabel->Hospitality reward</li>
     <li>rewardLetterText->[rewardGiver_nameDef] has contacted you. [rewardDelayTicks_duration] ago, you helped [rewardGiver_objective] in desperate circumstances.\n\nSince then, [rewardGiver_pronoun] has gotten back on [rewardGiver_possessive] feet, and now [rewardGiver_pronoun] wants to reward you properly for your help. [rewardGiver_pronoun] is sending you the following via drop pod:\n\n[listOfRewards]</li>
   -->
-  <RefugeeDelayedReward.questContentRules.rulesStrings>TODO</RefugeeDelayedReward.questContentRules.rulesStrings>
+  <RefugeeDelayedReward.questContentRules.rulesStrings>
+    <li>rewardLetterLabel->Recompensa per l’hospitalitat</li>
+    <li>rewardLetterText->[rewardGiver_nameDef] ha contactat amb vós. Fa [rewardDelayTicks_duration], vau ajudar-[giver_lo] en circumstàncies desesperades.\n\nDes de llavors, [rewardGiver_pronoun] s’ha recuperat i ara vol recompensar-vos adequadament per l’ajuda que li vau prestar. [rewardGiver_pronoun] us envia el següent amb una càpsula transportadora:\n\n[listOfRewards]</li>
+    <li>giver_lo(rewardGiver_gender==Male)->lo</li>
+    <li>giver_lo(rewardGiver_gender==Female)->la</li>
+  </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>
   -->
-  <RefugeeDelayedReward.questDescriptionRules.rulesStrings>TODO</RefugeeDelayedReward.questDescriptionRules.rulesStrings>
+  <RefugeeDelayedReward.questDescriptionRules.rulesStrings>
+    <li>questDescription->una recompensa endarrerida d’una missió de refugiats</li>
+  </RefugeeDelayedReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Refugee delayed reward</li>
   -->
-  <RefugeeDelayedReward.questNameRules.rulesStrings>TODO</RefugeeDelayedReward.questNameRules.rulesStrings>
+  <RefugeeDelayedReward.questNameRules.rulesStrings>
+    <li>questName->Recompensa endarrerida de refugiats</li>
+  </RefugeeDelayedReward.questNameRules.rulesStrings>
   
 </LanguageData>

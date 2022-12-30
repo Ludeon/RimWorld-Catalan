@@ -18,7 +18,23 @@
     <li>pawnListHaveConjugation(colonistsToLendCount==1)->has</li>
     <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
   -->
-  <PawnLend.questDescriptionRules.rulesStrings>TODO</PawnLend.questDescriptionRules.rulesStrings>
+  <PawnLend.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], necessita mans extra per a [dutyDescription].\n\n[asker_pronoun] us demana que li envieu [colonistCountToLend] durant [lendForDays] dies.\n\n[willSendShuttle]</li>
+    <li>disease->de grip</li>
+    <li>disease->de pesta</li>
+    <li>disease->de malària</li>
+    <li>disease->infecciós</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], necessita gent que l’ajudi a [dutyRoyalDescription].\n\n[asker_pronoun] us demana que li envieu [colonistCountToLend] que estaran [lendForDays] dies a les seves ordres.\n\n[willSendShuttle]</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->1 colon[minAgeOrOlder]</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colons[minAgeOrOlder]</li>
+    <li>willSendShuttle->[asker_pronoun] enviarà una llançadorà per a recollir [colonists].</li>
+    <li>colonists(colonistsToLendCount==1)->el colon</li>
+    <li>colonists(colonistsToLendCount>1)->els colons</li>
+    <li>minAgeOrOlder(minAge==0)-></li>
+    <li>minAgeOrOlder(minAge>0)-> de com a mínim [minAge] anys</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)->ha</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount>1)->han</li>
+  </PawnLend.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[worker] Outsourcing</li>
     <li>questName->Contract [worker]s</li>
@@ -52,15 +68,24 @@
       <li>dutyDescription->establir un assentament</li>
       <li>dutyDescription->vigilar que no els ataquin assaltants</li>
       <li>dutyDescription->construir un hospital</li>
-      <li>dutyDescription->contenir un brot de [disease]</li>
+      <li>dutyDescription->contenir un brot [disease]</li>
     </rulesStrings>
   </PawnLend.DutyRulesAny.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
   <PawnLend.LetterTextReturnAfterHelping.slateRef>{PAWNS} [pawnListHaveConjugation] tornat després d’ajudar a [asker_nameFull] de [asker_faction_name] a [dutyDescription].</PawnLend.LetterTextReturnAfterHelping.slateRef>
   <!-- EN: <rulesStrings><li>dutyRoyalDescription->prepare a ceremony</li><li>dutyRoyalDescription->negotiate with a tribe</li><li>dutyRoyalDescription->explore a swamp</li><li>dutyRoyalDescription->translate a book</li><li>dutyRoyalDescription->set up a training ground</li><li>dutyRoyalDescription->harvest crops</li></rulesStrings> -->
-  <PawnLend.DutyRulesRoyal.slateRef>TODO</PawnLend.DutyRulesRoyal.slateRef>
+  <PawnLend.DutyRulesRoyal.slateRef>
+    <rulesStrings>
+      <li>dutyRoyalDescription->preparar una cerimònia</li>
+      <li>dutyRoyalDescription->negociar amb una triub</li>
+      <li>dutyRoyalDescription->explorar un pantà</li>
+      <li>dutyRoyalDescription->traduir un llibre</li>
+      <li>dutyRoyalDescription->establir un camp d’entrenament</li>
+      <li>dutyRoyalDescription->fer la collita d’un conreu</li>
+    </rulesStrings>
+  </PawnLend.DutyRulesRoyal.slateRef>
   <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] to [dutyRoyalDescription]. -->
-  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS} [pawnListHaveConjugation] retornat després d’ajudar a [asker_el_la] [asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name] a [dutyRoyalDescription].</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
+  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS} [pawnListHaveConjugation] tornat després d’ajudar a [asker_el] [asker_royalTitleInCurrentFaction] [asker_nameFull] de [asker_faction_name] a [dutyRoyalDescription].</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
   <!-- EN: Shuttle arrived -->
   <PawnLend.LetterLabelShuttleArrived.slateRef>La llançadora ha arribat</PawnLend.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
@@ -68,7 +93,7 @@
   <!-- EN: Shuttle destroyed -->
   <PawnLend.LetterLabelShuttleDestroyed.slateRef>La llançadora ha quedat destruïda</PawnLend.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
-  <PawnLend.LetterTextShuttleDestroyed.slateRef>La llançadora que havia de recollir els colons ha estat destruïda</PawnLend.LetterTextShuttleDestroyed.slateRef>
+  <PawnLend.LetterTextShuttleDestroyed.slateRef>La llançadora que havia de recollir els colons ha estat destruïda.</PawnLend.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Colonists returned -->
   <PawnLend.LetterLabelColonistsReturned.slateRef>Els colons han retornat</PawnLend.LetterLabelColonistsReturned.slateRef>
   

@@ -25,7 +25,30 @@
     <li>shuttleDestroyedLetterLabel->Quest failed: [resolvedQuestName]</li>
     <li>shuttleDestroyedLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been destroyed. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
   -->
-  <ShuttleCrash_Rescue.questContentRules.rulesStrings>TODO</ShuttleCrash_Rescue.questContentRules.rulesStrings>
+  <ShuttleCrash_Rescue.questContentRules.rulesStrings>
+    <li>failLetterEndingCommon->La missió «[resolvedQuestName]» ha fracassat.</li>
+    <li>successLetterEndingCommon->La missió «[resolvedQuestName]» ha tingut èxit.</li>
+    <li>goodwillSomeCiviliansLost->No s’han pogut rescatar tots els [pawnLabelPlural] de [asker_faction_pawnSingular]. [goodwillNegativelyAffected]</li>
+    <li>goodwillAllCiviliansLost->No s’ha pogut rescatar cap dels [pawnLabelPlural] de [asker_faction_pawnSingular]. [goodwillNegativelyAffected]</li>
+    <li>goodwillNegativelyAffected->Les relacions amb [asker_faction_name] han empitjorat per cada [pawnLabel] que no ho ha aconseguit.</li>
+    <li>commanderLandingDesc->[asker_nameDef], [asker_el] comandant[asker_x_a] que ha demanat aterrar a [map_definite]</li>
+    <li>raidArrivedLetterLabel->Assalt: [enemyFaction_name]</li>
+    <li>raidArrivedLetterText->Han arribat els [enemyFaction_pawnsPlural] de [enemyFaction_name]. Atacaran els [asker_faction_pawnsPlural] que s’han estavellat a [map_definite].\n\nDefenseu els [asker_faction_pawnsPlural] fins que arribi la seva llançadora de rescat d’aquí a [rescueShuttleAfterRaidDelay_duration].</li>
+    <li>rescueShuttleArrivedLetterLabel->Ha arribat la llançadora de rescat</li>
+    <li>rescueShuttleArrivedLetterText->La llançadora de rescat ha arribat per a recollir els [pawnLabelSingleOrPlural] que s’han estavellat. Assegureu-vos que teniu aquestes persones a la llançadora abans que se’n vagi d’aquí a [leaveDelay_duration]:\n\n[civilians]</li>
+    <li>questCompletedSuccessLetterLabel->Missió completada: [resolvedQuestName]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc], ha escapat. [asker_pronoun] està agraï[asker_t] per l’ajuda que ha rebut a [map_definite].\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedCiviliansLostSuccessLetterLabel->Missió completada: [resolvedQuestName]</li>
+    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], ha escapat.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
+    <li>askerLostLetterLabel->La missió «[resolvedQuestName]» ha fracassat</li>
+    <li>askerLostLetterText->[commanderLandingDesc] no estava a bord quan la llançadora se n’ha anat.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>allLostLetterLabel->La missió «[resolvedQuestName]» ha fracassat</li>
+    <li>allLostLetterText->La llançadora de rescat dels [asker_faction_pawnsPlural] que s’havien estavellat se n’ha anat sense ningú a bord.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
+    <li>askerDiedLetterLabel->La missió «[resolvedQuestName]» ha fracassat</li>
+    <li>askerDiedLetterText->[commanderLandingDesc] ha mort.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterLabel->La missió «[resolvedQuestName]» ha fracassat</li>
+    <li>shuttleDestroyedLetterText->La llançadora que s’havia enviat per a recollir els [asker_faction_pawnsPlural] estavellats s’ha destruït. Els [asker_faction_pawnsPlural] hauran d’anar-se’n a peu.\n\n[failLetterEndingCommon]</li>
+  </ShuttleCrash_Rescue.questContentRules.rulesStrings>
   <!-- EN:
     <li>pawnLabel->civilian</li>
     <li>pawnLabelPlural->civilians</li>
@@ -47,7 +70,19 @@
     <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
     <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
   -->
-  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>TODO</ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+  <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
+    <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
+    <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
+    <li>questDescription->Una llançadora de [asker_faction_name] té problemes tècnics i busca un lloc per a aterrar. [asker_El] comandant[asker_x_a] [asker_nameDef] vol aterrar a [map_definite].\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] atacaran la nau avariada per a matar els seus ocupants. Els heu de defensar.\n\nLa llançadora conté [asker_nameDef][andOtherCivilians] i [soldierCountKinds]. Cal rescatar [asker_el] comandant[asker_x_a] [andCivilians], però els [soldiers0_kindPlural] es poden sacrificar.\n\nDesprés de [rescueDelay_duration], arribarà una llançadora de rescat per a recollir els supervivents. Caldrà que pugin a la llançadora en [leaveDelay_duration].</li>
+    <li>andOtherCivilians(civilians_count==1)-></li>
+    <li>andOtherCivilians(civilians_count==2)->, un altre [pawnLabel],</li>
+    <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] altres [pawnLabelSingleOrPlural],</li>
+    <li>andCivilians(civilians_count==1)-></li>
+    <li>andCivilians(civilians_count==2)->i [pawnLabel]</li>
+    <li>andCivilians(civilians_count>=3)->i [pawnLabelPlural]</li>
+    <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
+    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kindPlural]</li>
+  </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
     <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>
@@ -69,6 +104,25 @@
     <li>landing->descent</li>
     <li>landing->approach</li>
   -->
-  <ShuttleCrash_Rescue.questNameRules.rulesStrings>TODO</ShuttleCrash_Rescue.questNameRules.rulesStrings>
+  <ShuttleCrash_Rescue.questNameRules.rulesStrings>
+    <li>questName->La [shuttleFem] estavellada</li>
+    <li>questName->El [shuttleMasc] estavellat</li>
+    <li>questName->El [shuttleMasc] estavellat del [asker_faction_pawnSingular]</li>
+    <li>questName->La [shuttleFem] estavellada del [asker_faction_pawnSingular]</li>
+    <li>questName->[damaged] [shuttle]</li>
+    <li>questName->La [shuttleFem] avariada</li>
+    <li>questName->El [shuttleMasc] avariat</li>
+    <li>questName->La [shuttleFem] avariada de [asker_nameDef]</li>
+    <li>questName->El [shuttleMasc] avariat de [asker_nameDef]</li>
+    <li>questName->[emergency] [landing]</li>
+    <li>questName->[asker_nameDef]’s [emergency] [landing]</li>
+    <li>shuttleFem->llançadora</li>
+    <li>shuttleFem->nau</li>
+    <li>shuttleMasc->transport</li>
+    <li>emergency->d’emergència</li>
+    <li>emergency->forçós</li>
+    <li>landing->aterratge</li>
+    <li>landing->descens</li>
+  </ShuttleCrash_Rescue.questNameRules.rulesStrings>
   
 </LanguageData>

@@ -4,13 +4,19 @@
   <!-- EN:
     <li>terminalHackedMessage->Terminal hacked. You've collected the information and can now leave.</li>
   -->
-  <Hack_WorshippedTerminal.questContentRules.rulesStrings>TODO</Hack_WorshippedTerminal.questContentRules.rulesStrings>
+  <Hack_WorshippedTerminal.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->Terminal hackejat. Heu recollit la informació i ara ja us en podeu anar.</li>
+  </Hack_WorshippedTerminal.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You've learned of an ancient terminal that contains information about the [relic_name]. However, the terminal is surrounded by a tribal village, and the locals venerate it. They aren't part of any major faction.\n\n[visitInfo]</li>
     <li>visitInfo(allowViolentQuests==true)->They are willing to let you visit on the pretense of worshiping it, but they will attack when you touch it.\n\nYou can attack the village from the outside, or enter peacefully and try to quickly escape with the data from the terminal.\n\nBeware - If you spend over [timer_duration] in the village or build anything near it, the locals will attack, and call reinforcements.</li>
     <li>visitInfo(allowViolentQuests==false)->They are willing to let you visit.</li>
   -->
-  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>TODO</Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
+  <Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
+    <li>questDescription->Us heu assabentat d’un terminal antic que conté informació sobre la relíquia [relic_name]. No obstant, el terminal està al mig d’una vila tribal i els locals el veneren. No formen part de cap facció important.\n\n[visitInfo]</li>
+    <li>visitInfo(allowViolentQuests==true)->Permetran que els visiteu amb el pretext de venerar-lo, però us atacaran si el toqueu.\n\nPodeu atacar la vila des de fora o entrar pacíficament i intentar escapar amb les dades del terminal.\n\nAneu amb compte, ja que si passeu més de [timer_duration] a la vila o hi construïu alguna cosa a prop, els local atacaran i demanaran reforços.</li>
+    <li>visitInfo(allowViolentQuests==false)->Permetran que els visiteu.</li>
+  </Hack_WorshippedTerminal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [adj] [terminalName]</li>
     <li>adj->worshipped</li>
@@ -29,6 +35,31 @@
     <li>terminalName->database</li>
     <li>terminalName->silicon</li>
   -->
-  <Hack_WorshippedTerminal.questNameRules.rulesStrings>TODO</Hack_WorshippedTerminal.questNameRules.rulesStrings>
+  <Hack_WorshippedTerminal.questNameRules.rulesStrings>
+    <li>questName->El [terminalName] [adj]</li>
+    <li>questName->La [terminalNameFem] [adjFem]</li>
+    <li>adj->adorat</li>
+    <li>adj->venerat</li>
+    <li>adj->antic</li>
+    <li>adj->dels vilatans</li>
+    <li>adj->del poblat</li>
+    <li>adj->tribal</li>
+    <li>adj->secret</li>
+    <li>adjFem->adorada</li>
+    <li>adjFem->venerada</li>
+    <li>adjFem->antiga</li>
+    <li>adjFem->dels vilatans</li>
+    <li>adjFem->del poblat</li>
+    <li>adjFem->tribal</li>
+    <li>adjFem->secreta</li>
+    <li>terminalName->dispositiu</li>
+    <li>terminalName->ordinador</li>
+    <li>terminalName->banc de dades</li>
+    <li>terminalName->silici</li>
+    <li>terminalNameFem(p=4)->terminal</li>
+    <li>terminalNameFem->màquina</li>
+    <li>terminalNameFem->pantalla</li>
+    <li>terminalNameFem->base de dades</li>
+  </Hack_WorshippedTerminal.questNameRules.rulesStrings>
   
 </LanguageData>

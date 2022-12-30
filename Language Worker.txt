@@ -1,4 +1,4 @@
-public class LanguageWorker_Catalan : LanguageWorker
+﻿public class LanguageWorker_Catalan : LanguageWorker
 {
 	public override string WithIndefiniteArticle(string str, Gender gender, bool plural = false, bool name = false)
 	{
@@ -28,7 +28,7 @@ public class LanguageWorker_Catalan : LanguageWorker
 
 	private string WithElLaArticle(string str, Gender gender, bool name)
 	{
-		if( str.Length != 0 && (IsVowel(str[0]) || str[0] == 'h' || str[0] == 'H') )
+		if( str.Length != 0 && (IsVowel(str[0]) || str[0] == ’h’ || str[0] == ’H’) )
 		{
 			if( name && gender == Gender.Male)
 				return "n’" + str;
@@ -77,6 +77,6 @@ public class LanguageWorker_Catalan : LanguageWorker
 			.Replace(" a els ", " als ")
 			.Replace(" per el ", " pels ")
 			.Replace(" per els ", " pels ");
-			//.Replace("'", "’"); This would be great, but nicknames use 'this approach'.
+			//.Replace("’", "’"); This would be great, but nicknames use ’this approach’.
 	}
 }

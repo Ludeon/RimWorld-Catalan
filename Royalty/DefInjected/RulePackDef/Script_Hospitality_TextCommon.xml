@@ -52,6 +52,62 @@
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nYour relations with [asker_faction_name] have decreased by [goodwillPenalty].</li>
   -->
-  <QuestHospitalityCommon.rulePack.rulesStrings>TODO</QuestHospitalityCommon.rulePack.rulesStrings>
+  <QuestHospitalityCommon.rulePack.rulesStrings>
+    <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo][includesChildren]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->el [lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->els [lodgersLabelPlural]</li>
+    <li>includesChildren(priority=-999)-></li>
+    <li>includesChildren(childCount==1)->\n\nEntre els [lodgersLabelSingOrPluralDef], hi ha un infant.</li>
+    <li>includesChildren(childCount>=2)->\n\nEntre els [lodgersLabelSingOrPluralDef], hi ha infants.</li>
+    <li>healthInfo-></li>
+    <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
+    <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
+    <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] [pateix] abàsia paralítica i cal que es [quedi] al llit.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] [pateix] putrefacció sanguínia i [necessita] tractament mèdic. La malaltia es pot alentir amb atenció d’alta qualitat i medicines, però en general no es pot curar en poc temps. Si la malaltia s’agreuja, [lodgersLabelSingOrPluralDef] [morira], així que assegureu-vos que teniu prou subministraments mèdics.</li>
+    <li>minMoodInfo-></li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\nHeu de mantenir l’estat d’ànim de [lodgersLabelSingOrPluralDef] per damunt del [lodgersMoodThreshold_percent].</li>
+    <li>workInfo-></li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] no treballarà gens.</li>
+    <li>commonDescEnding->[helpersParagraph]</li>
+    <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->Es produirà (*Threat)un assalt(/Threat) d’una mida aproximada a la següent:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->Es produirà (*Threat)un assalt(/Threat) amb una força de [threatSize] i més menys la mida següent:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->Es produiran (*Threat)[threatCount] assalts(/Threat) més o menys de la mida següent:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->Es produiran (*Threat)[threatCount] assalts(/Threat) amb una força de [threatSize] i més o menys de la mida següent:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->apareixerà (*Threat)un clúster mecanoide(/Threat) a prop.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->apareixeran (*Threat)dos clústers mecanoides(/Threat) a prop.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->apareixerà (*Threat)un clúster mecanoide(/Threat) amb una mida de [threatSize] a prop.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->apareixeran (*Threat)dos clústers mecanoides(/Threat) amb una mida de [threatSize] a prop.</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] fa poc ha [mechViolation] i el persegueix un eixam mecanoide orbital.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->Els presoners fa poc han [mechViolation] i un eixam mecanoide orbital els va al darrera.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] ha [mechViolation] i ara el persegueix un eixam mecanoide.</li>
+    <li>threatsInfoMechRaidsMultiHuman->Fa poc han [mechViolation] i un eixam mecanoide els persegueix.</li>
+    <li>mechViolation->fet enfadar una intel·ligència artificial</li>
+    <li>mechViolation->tocat un terminal antic d’un supercomputador</li>
+    <li>mechViolation->assassinat un nen humà sota la protecció d’un arcotècnic</li>
+    <li>mechViolation->intentat hackejar un node de control mecanoide</li>
+    <li>mechViolation->intentat robar al magatzem d’un campament antic</li>
+    <li>letterSubject->{SUBJECT_definite}</li>
+    <li>lodgersHasHave(lodgersCount==1)->ha</li>
+    <li>lodgersHasHave(lodgersCount>=2)->han</li>
+    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
+    <li>lodgersObjective(lodgersCount>=2)->ells</li>
+    <li>pateix(lodgersCount==1)->pateix</li>
+    <li>pateix(lodgersCount>=2)->pateixen</li>
+    <li>quedi(lodgersCount==1)->quedi</li>
+    <li>quedi(lodgersCount>=2)->quedin</li>
+    <li>necessita(lodgersCount==1)->necessita</li>
+    <li>necessita(lodgersCount>=2)->necessiten</li>
+    <li>morira(lodgersCount==1)->morirà</li>
+    <li>morira(lodgersCount>=2)->moriran</li>
+    <li>remainingWillNowLeave(lodgersCount==1)-></li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->Tots [lodgersLabelPlural] que quedin se n’aniran. </li>
+    <li>failLetterEndingQuest->Heu fracassat amb la missió «[resolvedQuestName]».</li>
+    <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
+    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nLes vostres relacions amb [asker_faction_name] han empitjorat en [goodwillPenalty] punts.</li>
+  </QuestHospitalityCommon.rulePack.rulesStrings>
   
 </LanguageData>

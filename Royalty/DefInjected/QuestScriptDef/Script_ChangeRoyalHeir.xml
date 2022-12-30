@@ -4,7 +4,9 @@
   <!-- EN:
     <li>questDescription->\nIn order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_nameFull]'s title, you must build a monument.\n\nThe monument will be [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nFailing to finish the monument within 20 days is considered to profane the ritual. Your relations with [asker_factionName] will fall by 25, and the heir will not be changed.\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days after completion, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
   -->
-  <ChangeRoyalHeir.questDescriptionRules.rulesStrings>TODO</ChangeRoyalHeir.questDescriptionRules.rulesStrings>
+  <ChangeRoyalHeir.questDescriptionRules.rulesStrings>
+    <li>questDescription->\nPer tal de consagrar a [titleHeir_nameFull] com al nou hereu del títol que ostenta [titleHolder_nameFull], cal que construïu un monument.\n\nEl monument tindrà unes mides de [monumentSize] i requereix aquests recursos (per un valor total de [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nSi no acabeu el monument en 20 dies, el ritual es considerarà profanat. En aquest cas, les relacions amb [asker_factionName] empitjoraran en 15 punts i l’hereu no canviarà.\n\nSi el monument es destrueix durant els [keepMonumentTicks_duration] dies després que es completi, les relacions amb [asker_factionName] cauran [goodwillChangeIfMonumentDestroyed] punts.</li>
+  </ChangeRoyalHeir.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[titleHeir_nameDef]'s inheritance</li>
   -->
@@ -16,19 +18,19 @@
   <!-- EN: [titleHolder_nameDef]'s heir change failed -->
   <ChangeRoyalHeir.LetterTextAskerOffended.slateRef>El canvi d’hereu de [titleHolder_nameDef] ha fallat</ChangeRoyalHeir.LetterTextAskerOffended.slateRef>
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but did not build the monument within the prescribed time.\n\nYou lost 25 goodwill with [asker_faction_name]. -->
-  <ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>TODO</ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>
+  <ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>[asker_nameDef] s’ha sentit of[asker_ees] perquè li vau prometre que consagraríeu el nou hereu, però no vau construir el monument en el temps establert.\n\nLes relacions amb [asker_faction_name] han empitjorat en 15 punts.</ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>
   <!-- EN: Title holder died: {SUBJECT_definite} -->
   <ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>Propietari del títol que ha mort: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>
   <!-- EN: {SUBJECT_definite}, whose heir was in the process of being changed, has died. -->
-  <ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>{SUBJECT_definite}, del qual se'n volia canviar l'hereu del títol, ha mort.</ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>
+  <ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>{SUBJECT_definite}, del qual se’n volia canviar l’hereu del títol, ha mort.</ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>
   <!-- EN: Designated heir died: {SUBJECT_definite} -->
-  <ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>L'{SUBJECT_gender ? hereu designat : hereva designada} ha mort: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>
+  <ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>L’{SUBJECT_gender ? hereu designat : hereva designada} ha mort: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who was supposed to become heir to a title, has died. -->
-  <ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>{SUBJECT_definite}, qui se suposava que s'havia de designar com a {SUBJECT_gender ? hereu : hereva} al títol, ha mort.</ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>
+  <ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>{SUBJECT_definite}, qui se suposava que s’havia de designar com a {SUBJECT_gender ? hereu : hereva} al títol, ha mort.</ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>
   <!-- EN: Monument destroyed -->
-  <ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>S'ha destruït el monument</ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>
+  <ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>S’ha destruït el monument</ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but allowed the monument to be ruined soon after completion.\n\nYour relations with [asker_faction_name] have fallen by [goodwillChangeIfMonumentDestroyed]. -->
-  <ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>[asker_nameDef] es sent insulta[asker_t_da] perquè li havíeu promés consagrar l'herència, però heu permès que el monument es fes malbé poc després que es completés.\n\nLes vostres relacions amb [asker_faction_name] han baixat en [goodwillChangeIfMonumentDestroyed] punts.</ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>
+  <ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>[asker_nameDef] es sent insulta[asker_t] perquè li havíeu promés consagrar l’herència, però heu permès que el monument es fes malbé poc després que es completés.\n\nLes vostres relacions amb [asker_faction_name] han baixat en [goodwillChangeIfMonumentDestroyed] punts.</ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>
   <!-- EN: New heir: [titleHeir_nameDef] -->
   <ChangeRoyalHeir.LetterLabelNewHeir.slateRef>Hereu nou: [titleHeir_nameDef]</ChangeRoyalHeir.LetterLabelNewHeir.slateRef>
   <!-- EN: [titleHeir_nameDef] is the new heir of [titleHolder_nameDef]. -->

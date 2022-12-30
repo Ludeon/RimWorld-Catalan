@@ -8,7 +8,15 @@
     <li>passengersSingularOrPlural(colonistCount==1)->passenger</li>
     <li>passengersSingularOrPlural(colonistCount>=2)->passengers</li>
   -->
-  <AncientComplex_Mission.questContentRules.rulesStrings>TODO</AncientComplex_Mission.questContentRules.rulesStrings>
+  <AncientComplex_Mission.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->Terminal hackejat. {COUNT} / [terminalCount] completats.</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] [incapable] de hackejar.</li>
+    <li>passengersIncapableOfHackingDialogText->La llançadora de la missió «[resolvedQuestName]» no té cap passatger que pugui hackejar. Heu d’enviar com a mínim una persona que tingui coneixements sobre com hackejar per a investigar el complex antic.</li>
+    <li>passengersSingularOrPlural(colonistCount==1)->passatger</li>
+    <li>passengersSingularOrPlural(colonistCount>=2)->passatgers</li>
+    <li>incapable(colonistCount==1)->incapaç</li>
+    <li>incapable(colonistCount>=2)->incapaços</li>
+  </AncientComplex_Mission.questContentRules.rulesStrings>
   <!-- EN:
     <li>complex->complex</li>
     <li>complex->compound</li>
@@ -21,19 +29,43 @@
     <li>investigation->excavation</li>
     <li>investigation->hacking</li>
   -->
-  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>TODO</AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+    <li>complex->complex</li>
+    <li>complex->recinte</li>
+    <li>complex1->instal·lacions</li>
+    <li>complex1->estructura</li>
+    <li>complex1->construcció</li>
+    <li>investigation1->investigació</li>
+    <li>investigation->desenvolupament</li>
+    <li>investigation1->missió</li>
+    <li>investigation1->excavació</li>
+    <li>investigation->hackeig</li>
+  </AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has discovered an ancient complex a long distance away. [asker_pronoun] believes it contains information about the relic known as [relic_name].\n\n[asker_nameDef] can't spare people to look into it, but hopes you can help by supplying exactly [colonistCount] [colonistsSingularOrPlural] to carry out the investigation.\n\nThe complex contains unknown threats and is also being sought by [asker_nameDef]'s enemies, [enemyFaction_name].\n\n[asker_pronoun] will send a shuttle to pick up your colonists, bring them to the complex, and take them home afterward. They will be fed and tended to en-route.\n\nOnce you have landed, you must hack all terminals in the complex within [timeoutTicks_duration].</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->colonist</li>
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
   -->
-  <AncientComplex_Mission.questDescriptionRules.rulesStrings>TODO</AncientComplex_Mission.questDescriptionRules.rulesStrings>
+  <AncientComplex_Mission.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], ha descobert unes instal·lacions antigues molt lluny. Creu que conté informació sobre la relíquia coneguda com a [relic_name].\n\n[asker_nameDef] no pot enviar-hi gent a investigar-ho, però espera que [asker_el] pugueu ajudar amb l’enviament de [colonistCount] [colonistsSingularOrPlural] per a dur a terme la investigació.\n\nEl complex conté amenaces desconegudes i també el busquen els enemics de [asker_nameDef], [enemyFaction_name].\n\n[asker_pronoun] enviarà una llançadora per a recollir els vostres colons, els portarà a les instal·lacions i els retornarà a casa quan hagin acabat. Durant el viatge se’ls alimentarà i se’ls guarirà.\n\nUna vegada hagueu aterrat, heu de hackejar tots els terminals al complex en [timeoutTicks_duration].</li>
+    <li>colonistsSingularOrPlural(colonistCount==1)->colon</li>
+    <li>colonistsSingularOrPlural(colonistCount>=2)->colons</li>
+  </AncientComplex_Mission.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[missionAdj] [complex] [investigation]</li>
     <li>missionAdj->hidden</li>
     <li>missionAdj->covert</li>
     <li>missionAdj->secret</li>
   -->
-  <AncientComplex_Mission.questNameRules.rulesStrings>TODO</AncientComplex_Mission.questNameRules.rulesStrings>
+  <AncientComplex_Mission.questNameRules.rulesStrings>
+    <li>questName->[complex] de [investigation] [missionAdj]</li>
+    <li>questName->[complex1] de [investigation1] [missionAdj1]</li>
+    <li>missionAdj->ocult</li>
+    <li>missionAdj->encobert</li>
+    <li>missionAdj->secret</li>
+    <li>missionAdj1->oculta</li>
+    <li>missionAdj1->encoberta</li>
+    <li>missionAdj1->secreta</li>
+  </AncientComplex_Mission.questNameRules.rulesStrings>
   
 </LanguageData>

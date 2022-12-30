@@ -68,7 +68,8 @@
     <li>circumstance_phrase->sense cap fosca necessitat</li>
     <li>circumstance_phrase->covardament i sense compassió</li>
     <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] s’ho miren.</li>
-    <li>desc_sentence->Un [outlander] s’ho mira en silenci [side_position].</li>
+    <li>desc_sentence->Un [PersonJob] s’ho mira en silenci [side_position].</li>
+    <li>desc_sentence->Una [PersonJob_Fem] s’ho mira en silenci [side_position].</li>
     <li>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</li>
     <li>desc_sentence->[victim_nameShortDef] té els ulls tancats.</li>
     <li>desc_sentence->[killer_nameShortDef] ensenya les dents.</li>
@@ -110,8 +111,8 @@
     <li>circumstance_phrase->i incapaç de moure un dit</li>
     <li>desc_sentence->el darrer treball de [pawn_nameShortDef] és al seu costat, acabat.</li>
     <li>desc_sentence->Una construcció meravellosa envolta a [pawn_nameShortDef].</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s es mostren agraïts per l’esforç heroic de [pawn_nameShortDef].</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s jauen a prop en un estat semblant.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] es mostren agraïts per l’esforç heroic de [pawn_nameShortDef].</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] jauen a prop en un estat semblant.</li>
     <li>desc_sentence->L’escena té lloc dins una [Community] acabada de fer.</li>
   </Exhausted.rulePack.rulesStrings>
   
@@ -149,8 +150,9 @@
     <li>circumstance_phrase->[child_nameFull], que ja prova de donar-se la volta</li>
     <li>circumstance_phrase->[child_nameFull], que mira al seu voltant amb una expressió serena</li>
     <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] dormen pacíficament a les rodalies.</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren.</li>
-    <li>desc_sentence->Un [outlander] s’ho mira en la distància.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] s’ho miren.</li>
+    <li>desc_sentence->Un [PersonJob] s’ho mira a distància.</li>
+    <li>desc_sentence->Una [PersonJob_Fem] s’ho mira a distància.</li>
     <li>desc_sentence->L’escena té lloc dins una [Community] acabada de construir.</li>
   </GaveBirth.rulePack.rulesStrings>
   
@@ -281,7 +283,7 @@
     <li>circumstance_phrase->sent atès pel metge</li>
     <li>desc_sentence->[quantity_adjphrase] cadàvers de [AnimalAnyPlural] volant per la zona.</li>
     <li>desc_sentence->[quantity_adjphrase] [terrainfeature]s [color]s retorçades envolten l’escena.</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s estant afectats per la mateixa malatia.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] estant afectats per la mateixa malatia.</li>
     <li>desc_sentence->L’escena té lloc dins un bosc de [tree]s.</li>
     <li>desc_sentence(p=0.5)->[quantity_adjphrase] [AnimalMP] moribunds embruten el terra.</li>
     <li>desc_sentence(p=0.5)->[quantity_adjphrase] [AnimalFP] moribundes embruten el terra.</li>
@@ -343,7 +345,7 @@
     <li>circumstance_phrase->amb moviments ràpids i eficaços</li>
     <li>circumstance_phrase->sense cap expressió o emoció</li>
     <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</li>
-    <li>desc_sentence->Un [outlander] s’ho mira sense dir res [side_position].</li>
+    <li>desc_sentence->Un [PersonJob] s’ho mira sense dir res [side_position].</li>
     <li>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</li>
     <li>desc_sentence->[victim_nameShortDef] té els ulls tancats.</li>
     <li>desc_sentence->[killer_nameShortDef] sembla satisfet.</li>
@@ -414,7 +416,8 @@
     <li>circumstance_phrase->sense expressió o emoció</li>
     <li>circumstance_phrase->covardament i sense compassió</li>
     <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</li>
-    <li>desc_sentence->Un [outlander] s’ho mira sense dir res [side_position].</li>
+    <li>desc_sentence->Un [PersonJob] s’ho mira sense dir res [side_position].</li>
+    <li>desc_sentence->Una [PersonJob_Fem] s’ho mira sense dir res [side_position].</li>
     <li>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</li>
     <li>desc_sentence->[victim_nameShortDef] te els ulls tancats.</li>
     <li>desc_sentence->[victim_nameShortDef] te el cos cobert de [gore].</li>
@@ -488,7 +491,8 @@
     <li>circumstance_phrase->amb gran heroisme</li>
     <li>circumstance_phrase->amb una força increïble</li>
     <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</li>
-    <li>desc_sentence->Un [outlander] S’ho mira sense dir res [side_position].</li>
+    <li>desc_sentence->Un [PersonJob] S’ho mira sense dir res [side_position].</li>
+    <li>desc_sentence->Una [PersonJob_Fem] S’ho mira sense dir res [side_position].</li>
     <li>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</li>
     <li>desc_sentence->[victim_nameShortDef] té els ulls tancats.</li>
     <li>desc_sentence->[victim_nameShortDef] té el cos cobert de [gore].</li>
@@ -569,7 +573,8 @@
     <li>circumstance_phrase->sense cap expressió ni emoció</li>
     <li>circumstance_phrase->covardament i sense compassió</li>
     <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</li>
-    <li>desc_sentence->Un [outlander] s’ho mira sense dir res [side_position].</li>
+    <li>desc_sentence->Un [PersonJob] s’ho mira sense dir res [side_position].</li>
+    <li>desc_sentence->Una [PersonJob_Fem] s’ho mira sense dir res [side_position].</li>
     <li>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</li>
     <li>desc_sentence->[victim_nameShortDef] té els ull tancats.</li>
     <li>desc_sentence->[victim_nameShortDef] té el cos cobert de [gore].</li>
@@ -619,7 +624,8 @@
     <li>circumstance_phrase->mentre [victim_nameFull] passeja distret</li>
     <li>circumstance_phrase->mentre [victim_nameFull] esprinta</li>
     <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</li>
-    <li>desc_sentence->Un [outlander] s’ho mira sense dir res [side_position].</li>
+    <li>desc_sentence->Un [PersonJob] s’ho mira sense dir res [side_position].</li>
+    <li>desc_sentence->Una [PersonJob_Fem] s’ho mira sense dir res [side_position].</li>
     <li>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</li>
     <li>desc_sentence->[victim_nameShortDef] te el cos cobert de [gore].</li>
     <li>desc_sentence->[victim_nameShortDef] està envoltat d’explosions.</li>
@@ -751,7 +757,8 @@
     <li>circumstance_phrase->sense cap fosca necessitat</li>
     <li>circumstance_phrase->amb covardia i sense compassió</li>
     <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</li>
-    <li>desc_sentence->un [outlander] s’ho mira callat [side_position].</li>
+    <li>desc_sentence->un [PersonJob] s’ho mira en silenci [side_position].</li>
+    <li>desc_sentence->una [PersonJob_Fem] s’ho mira en silenci [side_position].</li>
     <li>desc_sentence->La sang s’escampa per tot el cos de [victim_nameShortDef].</li>
     <li>desc_sentence->[victim_nameShortDef] està cobert de [gore].</li>
     <li>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</li>

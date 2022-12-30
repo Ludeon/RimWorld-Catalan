@@ -2,75 +2,75 @@
 <LanguageData>
   
   <!-- EN: [lodgersLabelSingOrPlural] arrived -->
-  <Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>TODO</Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>
+  <Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>[lodger_ha] arribat [lodgersLabelSingOrPlural]</Hospitality_Util_Worker.LetterLabelLodgersArrived.value.slateRef>
   <!-- EN: [lodgersLabelSingOrPluralDef] [lodgersHasHave] arrived. Protect [lodgersObjective] until the shuttle arrives in [shuttleDelayTicks_duration].[helpersArrivalLetterEnd] -->
-  <Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>TODO</Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>
+  <Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>[lodger_ha] arribat [lodgersLabelSingOrPlural]. Protegiu-[lodger_lo] fins que arribi la llançadora d’aquí a [shuttleDelayTicks_duration].[helpersArrivalLetterEnd]</Hospitality_Util_Worker.LetterTextLodgersArrived.value.slateRef>
   <!-- EN: Should depart on shuttle -->
   <Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>Hauria d’anar-se’n en la llançadora</Hospitality_Util_Worker.InspectStringDepartShuttle.slateRef>
   <!-- EN: Shuttle arrived -->
   <Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>La llançadora ha arribat</Hospitality_Util_Worker.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [lodgersLabelSingOrPluralDef]. Be sure to have these people on the shuttle before it leaves in [shuttleLeaveDelayTicks_duration]:\n\n[lodgers] -->
-  <Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>TODO</Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>
+  <Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>La llançadora per a recollir a [lodgersLabelSingOrPluralDef] ha arribat. Assegureu-vos que aquestes persones hi pugin abans que se’n vagi d’aquí a [shuttleLeaveDelayTicks_duration]:\n\n[lodgers]</Hospitality_Util_Worker.LetterTextShuttleArrived.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>Ha mort un hoste: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestDied.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has died. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextGuestDied.slateRef>TODO</Hospitality_Util_Worker.LetterTextGuestDied.slateRef>
+  <Hospitality_Util_Worker.LetterTextGuestDied.slateRef>[letterSubject], al qual havíeu de protegir, ha mort. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestDied.slateRef>
   <!-- EN: Guest captured: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>Hoste capturat: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestCapture.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has been arrested. [remainingWillNowLeave][failLetterEndingQuest] -->
-  <Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>TODO</Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>
+  <Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>S’ha arrestat a [letterSubject], al qual havíeu de protegir. [remainingWillNowLeave][failLetterEndingQuest]</Hospitality_Util_Worker.LetterTextGuestCapture.slateRef>
   <!-- EN: Prisoner recruited: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>Presoner reclutat: {SUBJECT_definite}</Hospitality_Util_Worker.LabelLabelPrisonerRecruited.slateRef>
   <!-- EN: You have recruited {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
   <Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>Heu reclutat a {SUBJECT_definite}, el presoner que us havien encarregat vigilar. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LabelTextPrisonerRecruited.slateRef>
   <!-- EN: Prisoner enslaved: {SUBJECT_definite} -->
-  <Hospitality_Util_Worker.LabelLabelPrisonerEnslaved.slateRef>TODO</Hospitality_Util_Worker.LabelLabelPrisonerEnslaved.slateRef>
+  <Hospitality_Util_Worker.LabelLabelPrisonerEnslaved.slateRef>Presoner esclavitzat: {SUBJECT_definite}</Hospitality_Util_Worker.LabelLabelPrisonerEnslaved.slateRef>
   <!-- EN: You have enslaved {SUBJECT_definite}, who you were charged to guard. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LabelTextPrisonerEnslaved.slateRef>TODO</Hospitality_Util_Worker.LabelTextPrisonerEnslaved.slateRef>
+  <Hospitality_Util_Worker.LabelTextPrisonerEnslaved.slateRef>Heu esclavitzat a {SUBJECT_definite}, al qual havíeu de vigilar. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LabelTextPrisonerEnslaved.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>Cirurgia no autoritzada: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextUnauthorizedSurgery.slateRef>TODO</Hospitality_Util_Worker.LetterTextUnauthorizedSurgery.slateRef>
+  <Hospitality_Util_Worker.LetterTextUnauthorizedSurgery.slateRef>Se li ha realitzat una cirurgia no autoritzada a [letterSubject]. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextUnauthorizedSurgery.slateRef>
   <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
-  <Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>TODO</Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
+  <Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>Se li ha aplicat un xenogermen a {SUBJECT_definite}</Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>TODO</Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
+  <Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>{SUBJECT_definite}, al qual havíeu de protegir, se li ha aplicat i ha absorbit un xenogermen a la força. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>L’hoste s’ha perdut: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestLost.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, is gone. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextGuestLost.slateRef>TODO</Hospitality_Util_Worker.LetterTextGuestLost.slateRef>
+  <Hospitality_Util_Worker.LetterTextGuestLost.slateRef>Heu perdut a [letterSubject], al qual havíeu de protegir. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestLost.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>L’hoste s’ha perdut: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has run wild. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>TODO</Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>
+  <Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>[letterSubject], al qual havíeu de protegir, ha fugit. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextLodgerRanWild.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>L’hoste s’ha perdut: {SUBJECT_definite}</Hospitality_Util_Worker.LetterLabelGuestJoinedOtherFaction.slateRef>
   <!-- EN: [letterSubject], who you were charged to protect, has joined another faction. [remainingWillNowLeave][failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>TODO</Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>
+  <Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>[letterSubject], al qual havíeu de protegir, s’ha unit a una altra facció. [remainingWillNowLeave][failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextGuestJoinedOtherFaction.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>La missió ha fracassat: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelAskerFactionHostile.slateRef>
   <!-- EN: [asker_faction_name] are now hostile towards you. [failLetterEndingQuest] -->
-  <Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>TODO</Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>
+  <Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>La facció [asker_faction_name] ara us és hostil. [failLetterEndingQuest]</Hospitality_Util_Worker.LetterTextAskerFactionHostile.slateRef>
   <!-- EN: Shuttle destroyed -->
   <Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>La llançadora ha quedat destruïda</Hospitality_Util_Worker.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has been destroyed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>TODO</Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>
+  <Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>La llançadora que havia de recollir a [lodgersLabelSingOrPluralDef] ha quedat destruïda. [lodgersLabelSingOrPluralDef] se n’anirà a peu. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Quest completed -->
-  <Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>TODO</Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>
+  <Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>Missió completada</Hospitality_Util_Worker.LetterLabelGoodwillSuccessQuestCompleted.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\n[lodgersLabelSingOrPluralDef] said [lodgersPronoun] [lodgersWasWere] willing to reward quality accommodation. The average mood of [lodgersLabelSingOrPluralDef] was {AVERAGEMOOD} during [theirHisHer] stay, so your goodwill with [asker_faction_name] has increased by {GOODWILL} -->
-  <Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>TODO</Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>
+  <Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>La missió «[resolvedQuestName]» ha tingut èxit!!\n\n[lodgersLabelSingOrPluralDef] said [lodgersPronoun] [lodgersWasWere] volen recompensar la qualitat de l’estada. L’estat d’ànim mitjà de [lodgersLabelSingOrPluralDef] ha estat de {AVERAGEMOOD}, així que les relacions amb [asker_faction_name] han millorat en {GOODWILL} punts.</Hospitality_Util_Worker.LetterTextGoodwillSuccessQuestCompleted.slateRef>
   <!-- EN: Quest completed -->
-  <Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>TODO</Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>
+  <Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>Missió completada</Hospitality_Util_Worker.LetterLabelGoodwillFailedQuestCompleted.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'!\n\nWhile [lodgersLabelSingOrPluralDef] [lodgersWasWere] willing to reward quality accommodation, [theirHisHer] average mood was only {AVERAGEMOOD} during [theirHisHer] stay. You will receive no faction goodwill reward. -->
-  <Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>TODO</Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>
+  <Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>La missió «[resolvedQuestName]» ha tingut èxit!\n\nTot i que [lodgersLabelSingOrPluralDef] volen recompensar la qualitat de l’estada, el seu estat d’ànim mitjà ha estat de {AVERAGEMOOD}. No milloraran les relacions amb la facció.</Hospitality_Util_Worker.LetterTextGoodwillFailedQuestCompleted.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>La missió ha fracassat: [resolvedQuestName]</Hospitality_Util_Worker.LetterLabelQuestFailed.slateRef>
   <!-- EN: The shuttle sent to collect [lodgersLabelSingOrPluralDef] has departed. [lodgersLabelSingOrPluralDef] will now leave on foot. [failLetterEndingCommon] -->
-  <Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>TODO</Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>
+  <Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>La llançadora que havia de recollir a [lodgersLabelSingOrPluralDef] se n’ha anat. [lodgersLabelSingOrPluralDef] se n’anirà a peu. [failLetterEndingCommon]</Hospitality_Util_Worker.LetterTextQuestFailed.slateRef>
   
   <!-- EN: Shuttle destroyed -->
   <Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>La llançadora ha quedat destruïda</Util_ArriveByDropPodsOrShuttle.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to drop off [pawnsLabelDef] has been destroyed. You have failed the quest '[resolvedQuestName]'.\n\nYour relations with [asker_faction_name] have changed by [goodwillChangeOnShuttleDestroyed]. -->
-  <Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>TODO</Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>
+  <Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>La llançadora que venia a recollir [pawnsLabelDef] ha estat destruïda. La missió «[resolvedQuestName]» ha fracassat.\n\nLes relacions amb [asker_faction_name] han canviat en [goodwillChangeOnShuttleDestroyed].</Util_ArriveByDropPodsOrShuttle.LetterTextShuttleDestroyed.slateRef>
   
 </LanguageData>

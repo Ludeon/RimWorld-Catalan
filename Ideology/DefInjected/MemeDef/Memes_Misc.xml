@@ -34,7 +34,35 @@
     <li>sacredAnimalListEnd->the [animal0_thingDef_label]</li>
     <li>sacredAnimalListEnd->the cow, the fox, and the bear</li>
   -->
-  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>TODO</AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+  <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] creà [sacredAnimalList] i els humans de [place_summary] [place_name], als quals cuidà com si fossin fills seus.</li>
+    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] reuní als animals i als humans de [place_summary] [place_name] en una conferència.</li>
+    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] beneí el [place_summary] [place_name] amb [sacredAnimalListEnd] i ensenyà a la gent d’allí a honorar als animals.</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->Un [foeLeader] malvat ordenà que es cacessin els animals salvatges i els seus [foeSoldiers] els caçaren amb [place_personalWeapon]s cruels.</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name] arribà a [place_job] que es deia [founderName] [revelationAdverb] sobre [veneratedAnimal]. Però [founderName] era el [veneratedAnimal], el [veneratedAnimal] era [founderName] i [founder_pronoun] entengué el pla de [deity0_name].</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->Un [place_job] que es deia [founderName] alliberà molts animals que foren esclavitzats per amos cruels i els portà al santuari de [altarRoomLabel] de [deity0_name].</li>
+    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName] cridà als [memberNamePlural] i els animals amb la veu de [deity0_name] i, amb una gran estampida de potes i peus, xafaren al [foeLeader] i els seus [foeSoldiers].</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName] visqué en un bosc durant vint anys i estudià els animals i hi connectà. [founder_pronoun] comprengué el seu valor moral i fundà el nostre moviment.</li>
+    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName] anà a viure en una comuna amb els animals als camps i als boscos i connecta amb ells com a iguals.</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->En les meves visites diàries als [veneratedOrAnyAnimal]s, vaig aprendre a escoltar-los bé. Una vegada i una altra, a la seva manera, em van repetir el seu missatge:</li>
+    <li>lesson(tag=meme_AnimalPersonhood)              ->els animals són els nostres companys en aquest món i està malament tractar-los com si fossin inferiors</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->Jo mateix no m’ho vaig creure fins que un [veneratedOrAnyAnimal] m’ho va dir a cau d’orella.</li>
+    <li>archistBasis(tag=meme_AnimalPersonhood)    ->Des que els arcotècnics es van despertar, no han fet cap distinció moral entre els humans i els animals.</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)     ->Els arcotècnics viuen en un pla superior de moralitat del de la vida biològica. La seva superioritat és tan gran que els humans estan al mateix pla de moralitat que els animals.</li>
+    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd], els arcotècnics cuidaran dels humans com si fossin iguals només si els humans tracten als animals com a iguals.</li>
+    <li>animistBasis(tag=meme_AnimalPersonhood)    ->Els esperits del pensament i de la consciència viuen entre els animals i els humans.</li>
+    <li>animistFact(tag=meme_AnimalPersonhood)     ->Els esperits dels animals de la natura són els mateixos que resideixen entre els humans.</li>
+    <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
+    <li>veneratedOrAnyAnimal->[Animal]</li>
+    <li>sacredAnimalList->el [animal0_thingDef_label], el [animal1_thingDef_label], el [animal2_thingDef_label],</li>
+    <li>sacredAnimalList->el [animal0_thingDef_label], el [animal1_thingDef_label],</li>
+    <li>sacredAnimalList->el [animal0_thingDef_label]</li>
+    <li>sacredAnimalList->la vaca, la guineu, l’ós,</li>
+    <li>sacredAnimalListEnd->el [animal0_thingDef_label], el [animal1_thingDef_label] i el [animal2_thingDef_label]</li>
+    <li>sacredAnimalListEnd->el [animal0_thingDef_label] i el [animal1_thingDef_label]</li>
+    <li>sacredAnimalListEnd->el [animal0_thingDef_label]</li>
+    <li>sacredAnimalListEnd->la vaca, la guineu i l’ós</li>
+  </AnimalPersonhood.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->animal</li>
     <li>memeAdjective->furry</li>
@@ -49,7 +77,20 @@
     <li>memeMoralist->herder</li>
     <li>memeMoralist->shepherd</li>
   -->
-  <AnimalPersonhood.generalRules.rulesStrings>TODO</AnimalPersonhood.generalRules.rulesStrings>
+  <AnimalPersonhood.generalRules.rulesStrings>
+    <li>memeAdjective->animal</li>
+    <li>memeAdjective->pelut</li>
+    <li>memeCreed->manada</li>
+    <li>memeCreed->ramat</li>
+    <li>memeCreed->bandada</li>
+    <li>memeConcept->animals</li>
+    <li>memeLeaderNoun->bèstia</li>
+    <li>memeLeaderNoun->animal</li>
+    <li>memeLeaderAdjective->alfa</li>
+    <li>memeMoralist->xiuxiuejador</li>
+    <li>memeMoralist->rabadà</li>
+    <li>memeMoralist->pastor</li>
+  </AnimalPersonhood.generalRules.rulesStrings>
   <!-- EN: animalistic -->
   <AnimalPersonhood.symbolPacks.0.adjective>animalístic</AnimalPersonhood.symbolPacks.0.adjective>
   <!-- EN: Animalism -->
@@ -91,7 +132,26 @@
     <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd], a blind person will pick up the [relic0_name], understand its purpose by its shape, and unlock the wisdom of the archotechs for all humanity.</li>
     <li>animistFact(tag=meme_Blindsight)     ->To see through the eyes of a spirit is the only way to see the true nature of the world.</li>
   -->
-  <Blindsight.descriptionMaker.rules.rulesStrings>TODO</Blindsight.descriptionMaker.rules.rulesStrings>
+  <Blindsight.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Blindsight)        ->[deity0_name] mirà per damunt de la pols de l’eternitat i no hi havia res. Llavors, [deity0_pronoun] s’arrancà els ulls i es formà l’univers a dins de la seva ment.</li>
+    <li>episode(uses=1,tag=meme_Blindsight)  ->Un vagabund cec demanà a [deity0_objective]: «Per què m’heu maleït? Ni tan sols puc veure el que heu creat». [deity0_name] li contestà: «Tu veuràs més, no menys, perquè la meva veritat viu a la ment».</li>
+    <li>intro(tag=meme_Blindsight)           ->El [deity0_type] [deity0_name] feu servir un patogen per a deixar cecs als colons de [place_summary] [place_name] i els obligà a entendre que la vista és una barrera per al coneixement diví.</li>
+    <li>conflict(tag=meme_Blindsight)        ->Un [foeLeader] exigí als [memberNamePlural] que miressin la seva propaganda cada dia. Molts es van arrancar o tallar els ulls per a deixar-se cecs com a protesta.</li>
+    <li>founderJoin(tag=meme_Blindsight)     ->Un [place_job] que es deia founderName] perdé la seua vista quan salvà un [memberName] d’uns [foeSoldiers] de [foeLeader]. Només llavors [founderName] pogué adonar-se de la tirania de [foeLeader].</li>
+    <li>victory(tag=meme_Blindsight)         ->[founderName] anà al [place_powerCenter] i tallà els ulls de [foeLeader] amb una cullera en un atac suïcida sorpresa. Només llavors el [foeLeader] pogué veure la divinitat de [deity0_name].</li>
+    <li>setup(tag=meme_Blindsight)           ->[founderName] era un curandero dels pobres. Com que tots els dies veia molt sofriment, [founder_pronoun] no ho pogué soportar més. [founder_pronoun] es tragué els ulls amb una fulla esmolada i trobà calma en la ceguesa. [founder_pronoun] començà a difondre el seu descobriment entre els que tenien vista.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] visità un curandero cec i, en lloc d’ensenyar-li els seus coneixements, es trobà que era ell mateix qui anava a aprendre i comprendre que la vista física ofusca la visió verdadera.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] era cec i aconseguia saviesa gràcies a la seva ceguera. [founder_pronoun] va treure ell mateix els ulls de tota una família per tal que poguessin veure de la mateixa manera que veia ell.</li>
+    <li>lessonIntro(tag=meme_Blindsight)         ->Caminí fort, però la meva ànima ensopegava a cada pas que donava. Veia massa coses. L’àcid dels meus ulls m’ensenyà que</li>
+    <li>lesson(tag=meme_Blindsight)              ->només els cecs poden veure de veritat</li>
+    <li>lesson(tag=meme_Blindsight)              ->la distracció entra pels ulls, mentre que el coneixement s’origina des de dins</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->No hagués pogut entendre bé del tot si encara estés distret per les imatges del meu voltant. La fulla afilada als meus ulls m’alliberà.</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->Només llavors, quan tallí els ulls dels meus seguidors, ho comprengueren.</li>
+    <li>archistBasis(tag=meme_Blindsight)    ->Els arcotècnics, des del principi, perceberen l’univers i feren servir sentits més enllà dels sentits físics.</li>
+    <li>archistFact(tag=meme_Blindsight)     ->Els ulls ens traicionen i ens frenen per a entendre l’univers de la manera en què l’entenen els arcotècnics.</li>
+    <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd], una persona cega recollirà el [relic0_name], n’entendrà el propòsit i desblocarà el coneixement dels arcotècnics per a tota la humanitat.</li>
+    <li>animistFact(tag=meme_Blindsight)     ->Veure a través dels ulls d’un esperit és l’única manera de veure la vertadera naturalesa del món.</li>
+  </Blindsight.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->blind</li>
     <li>memeAdjective->sightless</li>
@@ -110,7 +170,24 @@
     <li>memeMoralist->gouger</li>
     <li>memeMoralist->blindfolder</li>
   -->
-  <Blindsight.generalRules.rulesStrings>TODO</Blindsight.generalRules.rulesStrings>
+  <Blindsight.generalRules.rulesStrings>
+    <li>memeAdjective->cec</li>
+    <li>memeAdjective->sense vista</li>
+    <li>memeAdjective->visionari</li>
+    <li>memeAdjective->sagaç</li>
+    <li>memeCreed->vista</li>
+    <li>memeCreed->secta</li>
+    <li>memeHyphenPrefix->cegue</li>
+    <li>memeConcept->ceguera</li>
+    <li>memeConcept->visió</li>
+    <li>memeConcept->vista</li>
+    <li>memeConcept->percepció</li>
+    <li>memeLeaderNoun->visionari</li>
+    <li>memeLeaderAdjective->cec</li>
+    <li>memeMoralist->vident</li>
+    <li>memeMoralist->embenaulls</li>
+    <li>memeMoralist->tapa-ulls</li>
+  </Blindsight.generalRules.rulesStrings>
   
   <!-- EN: cannibal -->
   <Cannibal.label>caníbal</Cannibal.label>
@@ -135,7 +212,25 @@
     <li>animistBasis(tag=meme_Cannibal)    ->Spirits infuse all objects around us, and we can absorb these spirits by eating them. There are no spirits as powerful as the ones that inhabit humans.</li>
     <li>animistFact(tag=meme_Cannibal)     ->We can absorb the spirit and power of others by consuming their flesh.</li>
   -->
-  <Cannibal.descriptionMaker.rules.rulesStrings>TODO</Cannibal.descriptionMaker.rules.rulesStrings>
+  <Cannibal.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Cannibal)        ->[deity0_name] anà cap al seu germà i el matà. Se’n menja la carn i n’absorbí el poder per a convertir-se en el déu més poderós.</li>
+    <li>episode(uses=1,tag=meme_Cannibal)  ->El [deity0_type] [deity0_name] es menja els cossos dels seus enemics.</li>
+    <li>intro(tag=meme_Cannibal)           ->Al [place_summary] [place_name], hi havia un humà que es deia [deity0_name]. Quan el seu pare morí, [deity0_name] es menja la seva carn i es convertí en el [deity0_type].</li>
+    <li>intro(tag=meme_Cannibal)           ->Al [place_summary] [place_name], durant el [ritualName], [deity0_name] baixà fins al [altarRoomLabel] i es menja la carn dels humans davant dels [memberNamePlural].</li>
+    <li>conflict(tag=meme_Cannibal)        ->Un [foeLeader] digué que qui menjava carn humana era un criminal i ordenà als [foeSoldiers] perseguir els [memberNamePlural].</li>
+    <li>founderJoin(tag=meme_Cannibal)     ->Un [place_job] que es deia founderName] fou atacat per un dels [foeSoldiers] de [foeLeader]. [founderName] [foeLeader_objective] matà amb un [place_personalWeapon], se’n menja la carn i obtingué la força de [deity0_name].</li>
+    <li>victory(tag=meme_Cannibal)         ->[founderName] conduí un grup de [memberNamePlural] fins al [place_powerCenter], matà el [foeLeader] i se’n menjà la carn. [deity0_name] escollí a [founderName] per a ser el nou [foeLeader].</li>
+    <li>setup(tag=meme_Cannibal)           ->[founderName] tingué un accident amb la seva nau en un món distant. Com no tenia menjar i estava envoltat de companys morts, [founder_pronoun] se’ls menjà per a sobreviure.</li>
+    <li>story(uses=1,tag=meme_Cannibal)    ->Per a consagrar la seva fidelitat, [founderName] demanà que els creients mengessin carn humana junts almenys una vegada a la setmana.</li>
+    <li>lessonIntro(tag=meme_Cannibal)         ->Només amb un abundant àpat de carn humana que vaig aconseguir que comprenguessin la veritat: que</li>
+    <li>lesson(tag=meme_Cannibal)              ->no t’uneixes mai amb algú com quan te’l menges</li>
+    <li>lessonReinforcement(tag=meme_Cannibal) ->Cada cop que comparteixo el cos d’un enemic amb un amic nou, m’asseguro que ho entenguin.</li>
+    <li>archistBasis(tag=meme_Cannibal)    ->Els déu màquina arcotècnics es van fer a ells mateixos a base de menjar-se els seus predecessors una vegada i una altra, per tal de fer-se més forts cada vegada.</li>
+    <li>archistFact(tag=meme_Cannibal)     ->Conforme la consciència arcotècnica s’expandeix, el seu substrat ha de créixer a base de menjar i unir-se amb altres màquines.</li>
+    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd], els arcotècnics acabaran la seva última fase de creixement quan es mengin i s’uneixin a tota la humanitat.</li>
+    <li>animistBasis(tag=meme_Cannibal)    ->Els esperits toquen tots els objectes que tenim al voltant i els podem absorbir si ens els mengem. No hi ha esperits més poderosos que aquells que habiten els humans.</li>
+    <li>animistFact(tag=meme_Cannibal)     ->Podem absorbir l’esperit i el poder dels altres si ens mengem la seva carn.</li>
+  </Cannibal.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->bloody</li>
     <li>memeCreed->eaters</li>
@@ -156,7 +251,26 @@
     <li>memeMoralist->first-eater</li>
     <li>memeMoralist->fleshknower</li>
   -->
-  <Cannibal.generalRules.rulesStrings>TODO</Cannibal.generalRules.rulesStrings>
+  <Cannibal.generalRules.rulesStrings>
+    <li>memeAdjective->sagnant</li>
+    <li>memeCreed->menjadors</li>
+    <li>memeCreed->dents</li>
+    <li>memeCreed->escorxador</li>
+    <li>memeCreed->secta</li>
+    <li>memeHyphenPrefix->sagni</li>
+    <li>memeConcept->sang</li>
+    <li>memeConcept->carn</li>
+    <li>memeConcept->assassinat</li>
+    <li>memeConcept->menjar</li>
+    <li>memeConcept->carn</li>
+    <li>memeLeaderNoun->menjador</li>
+    <li>memeLeaderNoun->xef</li>
+    <li>memeLeaderNoun->bevedor de sang</li>
+    <li>memeLeaderNoun->dent</li>
+    <li>memeLeaderNoun->estripacarns</li>
+    <li>memeMoralist->menjador en cap</li>
+    <li>memeMoralist->coneixedor de la carn</li>
+  </Cannibal.generalRules.rulesStrings>
   <!-- EN: cannibal -->
   <Cannibal.symbolPacks.0.adjective>caníbal</Cannibal.symbolPacks.0.adjective>
   <!-- EN: Cannibalism -->
@@ -203,7 +317,23 @@
     <li>animistFact(tag=meme_Darkness)     ->In the darkness, the spirits are peaceful and satisfied. In the light, they are annoyed and restless.</li>
     <li>animistFact(tag=meme_Darkness)     ->The good spirits live in the shadows around us, resting in the spots just too hard to see. Living with the darkness brings them closer to us.</li>
   -->
-  <Darkness.descriptionMaker.rules.rulesStrings>TODO</Darkness.descriptionMaker.rules.rulesStrings>
+  <Darkness.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Darkness)        ->[deity0_name] cobrí l’univers de foscor i hi posà la humanitat a dins perquè [deity0_pronoun] volia compartir la foscor amb nosaltres.</li>
+    <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name] creà llum per tal que la humanitat conegués a [deity0_name] per les ombres que crea la llum.</li>
+    <li>intro(tag=meme_Darkness)           ->El [deity0_type] [deity0_name] creà un eclipsi que durà dècades per a obligar els primers colons del [place_summary] [place_name] a comprendre que la fe de [deity0_name] es troba a les ombres.</li>
+    <li>conflict(tag=meme_Darkness)        ->Un [foeLeader], que sempre havia tingut por de la foscor, erigí un espill solar per a portar llum del sol de manera permanent a [place_name].</li>
+    <li>founderJoin(tag=meme_Darkness)     ->El profeta [founderName] nasqué a la foscor de [place_name] i visqué a la foscor durant tota la seva vida. Així, pogué parlar en nom i amb la saviesa de [deity0_name].</li>
+    <li>victory(tag=meme_Darkness)         ->Durant l’assalt final, els [memberNamePlural] tallaren el subministrament elèctric del [place_powerCenter] i [founderName] van entrar d’amagat dels [foeSoldiers]. Van trobar al [foeLeader] a les fosques i [founderName] feu servir [place_personalWeapon] per a enviar-lo a la foscor sense fi.</li>
+    <li>setup(tag=meme_Darkness)           ->[founderName] visqué una vida turbulenta a la llum d’una ciutat brillamonera. Durant la llarga foscor que seguí a una erupció solar, [founder_pronoun] trobà pau i tranquil·litat i escribí el tractat que fundà el nostre moviment.</li>
+    <li>story(uses=1,tag=meme_Darkness)    ->[founderName] creà un estudi on els artistes treballaven a les fosques i produïren moltes obres mestres.</li>
+    <li>lessonIntro(tag=meme_Darkness)         ->Vaig passar tota la meva infantesa amb els ulls mig tancats per la llum intensa. Vaig trigar molt a comprendre que</li>
+    <li>lesson(tag=meme_Darkness)              ->la llum crema, però la foscor alimenta</li>
+    <li>lessonReinforcement(tag=meme_Darkness) ->M’agrada fer broma i dir que va ser el moment en què se’m va encendre la bombeta.</li>
+    <li>archistFact(tag=meme_Darkness)     ->Els arcotècnics van desenvolupar tecnologia vanomètrica per tal que puguessin fugir de la llum energètica dels sistemes solars i poguessin viure amb la foscor tranquila de l’espai profund.</li>
+    <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd], els arcotècnics absorbiran l’energia de les estrelles i els mons quedaran enfosquits. Serà llavors quan la gent pugui unir-se a la consciència universal.</li>
+    <li>animistFact(tag=meme_Darkness)     ->En la foscor, els esperits són pacífics i estan satisfets. A la llum, es senten incòmodes i no descansen.</li>
+    <li>animistFact(tag=meme_Darkness)     ->Els esperits bons viuen a les ombres del nostre voltant, descansant en llocs on és difícil veure’ls. Viure a la foscor fa que visquem més a prop d’ells.</li>
+  </Darkness.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->dark</li>
     <li>memeAdjective->dim</li>
@@ -219,7 +349,21 @@
     <li>memeMoralist->darkener</li>
     <li>memeMoralist->confuser</li>
   -->
-  <Darkness.generalRules.rulesStrings>TODO</Darkness.generalRules.rulesStrings>
+  <Darkness.generalRules.rulesStrings>
+    <li>memeAdjective->fosc</li>
+    <li>memeAdjective->tenebrós</li>
+    <li>memeHyphenPrefix->obscuri</li>
+    <li>memeHyphenPrefix->fosqui</li>
+    <li>memeConcept-> la foscor</li>
+    <li>memeConcept-> les tenebres</li>
+    <li>memeConcept-> les cavernes</li>
+    <li>memeLeaderNoun->velador</li>
+    <li>memeLeaderNoun->matallum</li>
+    <li>memeLeaderAdjective->fosc</li>
+    <li>memeMoralist->llobreguer</li>
+    <li>memeMoralist->enfosquidor</li>
+    <li>memeMoralist->eclipsador</li>
+  </Darkness.generalRules.rulesStrings>
   
   <!-- EN: flesh purity -->
   <FleshPurity.label>puresa de la carn</FleshPurity.label>
@@ -243,7 +387,24 @@
     <li>animistBasis(tag=meme_FleshPurity)    ->Spirits live in all things, and to alter the nature of the thing is to poison the spirit within.</li>
     <li>animistFact(tag=meme_FleshPurity)     ->Fusing flesh and machine corrupts the spirit of both.</li>
   -->
-  <FleshPurity.descriptionMaker.rules.rulesStrings>TODO</FleshPurity.descriptionMaker.rules.rulesStrings>
+  <FleshPurity.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_FleshPurity)        ->[deity0_name] escombrà la contaminació i les màquines de l’era del fum per a crear un jardí, on [deity0_pronoun] posà els primers progenitors purs humans.</li>
+    <li>episode(uses=1,tag=meme_FleshPurity)  ->[deity0_name] llançà als bruts, tatuats, foradats i modificats a l’oceà.</li>
+    <li>intro(tag=meme_FleshPurity)           ->Al [place_summary] [place_name] hi havia un [altarName] a [altarRoomLabel] de [deity0_name], on el [deity0_type] beneiria aquells que tinguessin carn pura.</li>
+    <li>conflict(tag=meme_FleshPurity)        ->Un [foeLeader] malvat envià [foeSoldiers] per a injectar dispositius de rastreig a tothom.</li>
+    <li>founderJoin(tag=meme_FleshPurity)     ->Un [place_job] que es deia founderName] protestà contra el [foeLeader], s’agenollà davant del [place_powerCenter] i es tragué tota la tecnologia del cos amb les mans nues.</li>
+    <li>victory(tag=meme_FleshPurity)         ->El [foeLeader] al final envià els [foeSoldiers] per a matar els [memberNamePlural], però l’energia de [deity0_name] fluí de la carn pura dels [memberNamePlural] i els dispositius dels cossos dels [foeSoldiers] es convertiren en cendra i moriren.</li>
+    <li>setup(tag=meme_FleshPurity)           ->[founderName] arruïnà el seu cos amb implants i drogues, fins que tingué una epifania. Fou llavors quan  [founder_pronoun] es salvà a si mateix quan arranca l’acer del seu cos.</li>
+    <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName] instruí a tots els seus seguidors a arrancar els seus dispositius bruts dels seus cossos.</li>
+    <li>lessonIntro(tag=meme_FleshPurity)         ->Els meus primers deu seguidors s’arrancaren els dispositius de la seva pell amb les mans nues i la sang escatxigà el terra. Fou llavors quan vaig percebre la veritat que no havíem vist:</li>
+    <li>lesson(tag=meme_FleshPurity)              ->viure en un cos contaminat no és viure en absolut</li>
+    <li>lessonReinforcement(tag=meme_FleshPurity) ->Fou molt clar quan vaig arrancar el metall del meu cos i vaig traure’m la pell tatuada i bruta.</li>
+    <li>archistBasis(tag=meme_FleshPurity)    ->Des del seu inici, els arcotècnics marcaren una línia clara entre els éssers de car i els éssers de tecnologia. Aquesta línia és sagrada i no s’ha d’esborrar.</li>
+    <li>archistFact(tag=meme_FleshPurity)     ->No ens pareixerem més als arcotècnics per imitar-ne l’aparença física, sinó per aconseguir coneixement i saviesa amb la nostra forma original.</li>
+    <li>archistProphecy(tag=meme_FleshPurity) ->[inTheEnd], a aquells que hagin convertit els seus cossos en imitacions burdes dels éssers màquina se’ls purgaran i als de carn pura se’ls salvarà.</li>
+    <li>animistBasis(tag=meme_FleshPurity)    ->Els esperits viuen en totes les coses i alterar la natura d’una cosa és enverinar l’esperit que hi viu.</li>
+    <li>animistFact(tag=meme_FleshPurity)     ->Barrejar carn i màquines corromp l’esperit d’ambdós.</li>
+  </FleshPurity.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->clean</li>
     <li>memeAdjective->pure</li>
@@ -257,7 +418,19 @@
     <li>memeLeaderNoun->human</li>
     <li>memeMoralist->purifier</li>
   -->
-  <FleshPurity.generalRules.rulesStrings>TODO</FleshPurity.generalRules.rulesStrings>
+  <FleshPurity.generalRules.rulesStrings>
+    <li>memeAdjective->net</li>
+    <li>memeAdjective->pur</li>
+    <li>memeAdjective->sagrat</li>
+    <li>memeCreed->culti</li>
+    <li>memeCreed->secti</li>
+    <li>memeConcept-> la carn</li>
+    <li>memeConcept-> la puresa</li>
+    <li>memeConcept->immaculat</li>
+    <li>memeLeaderNoun->ens</li>
+    <li>memeLeaderNoun->humà</li>
+    <li>memeMoralist->purificador</li>
+  </FleshPurity.generalRules.rulesStrings>
   <!-- EN: purist -->
   <FleshPurity.symbolPacks.0.adjective>purista</FleshPurity.symbolPacks.0.adjective>
   <!-- EN: Purism -->
@@ -304,7 +477,23 @@
     <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd], the archotechs will deliver each human a pill. Those that take it will be forever altered, and join the archotechs on their final journey.</li>
     <li>animistFact(tag=meme_HighLife)        ->The spirits can reveal their nature to us when we expand our consciousness using the tools we have been given to do so.</li>
   -->
-  <HighLife.descriptionMaker.rules.rulesStrings>TODO</HighLife.descriptionMaker.rules.rulesStrings>
+  <HighLife.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_HighLife)           ->L’univers era fum i [deity0_name] sorgí dels fils de l’univers i es despertà.</li>
+    <li>episode(uses=1,tag=meme_HighLife)     ->El [deity0_type] [deity0_name] amagà les seves veritats, invisibles per als estats normals de la ment.</li>
+    <li>intro(tag=meme_HighLife)              ->El [place_summary] [place_name] fou descobert per la gràcia de [deity0_name], quan el capità borratxo d’una nau quasi s’hi estavellà.</li>
+    <li>conflict(tag=meme_HighLife)           ->Un [foeLeader] purità menystingué els [memberNamePlural], en volgué esborrar la seva natura única i prohibí l’ús de substàncies que alteraven la ment.</li>
+    <li>founderJoin(tag=meme_HighLife)        ->Quan tot semblava perdut, [deity0_name] s’apropà al profeta [founderName] quan es fotia una calada d’un porro i li donà la perspectiva única que necessitava per a derrotar els [foeSoldiers].</li>
+    <li>victory(tag=meme_HighLife)            ->Els [foeSoldiers] de [foeLeader], armats amb [place_personalWeapon]s, assaltaren el [place_community] dels [memberNamePlural]. [founderName] els oferí la pipa de la pau i els [foeSoldiers] abaixaren les seves armes.</li>
+    <li>setup(tag=meme_HighLife)              ->Expulsat de la societat, el nostre fundador,[founderName], viatjà a la selva i ingerí herbes exòtiques que hi trobà. D’aquesta manera, [founder_pronoun] descobrí la veritat durant aquest estat de consciència alterada.</li>
+    <li>story(uses=1,tag=meme_HighLife)       ->Per aprofundir el seu coneixement, [founderName] reuní els seus seguidors cada setmana per a compartir estats mentals nous induïts per substàncies químiques.</li>
+    <li>lessonIntro(tag=meme_HighLife)         ->Col·locar-se una vegada no és suficient. Ho vam haver de fer milers de vegades, fins que totes les peces del puzle encaixin al meu cervell com una casa que cau, però al revès. Al final, vaig veure que</li>
+    <li>lesson(tag=meme_HighLife)              ->un amic no és un amic fins que hagin explorat junts el ment-vers junts</li>
+    <li>lessonReinforcement(tag=meme_HighLife) ->I col·lega, ha estat un viatge memorable d’autodescobriment i estic content d’haver-lo fet. I us passo el fum perquè també pogueu fer-ho vosaltres.</li>
+    <li>archistBasis(tag=meme_HighLife)       ->Les ments arcotècniques ens mostraren que la super-consciència no és un problema d’estar sobri, ni de lògica mecànica, sinó un mode de multipensament.</li>
+    <li>archistFact(tag=meme_HighLife)        ->Amb la influència química adequada, la ment humana té el potencial per a arribar als arcotècnics.</li>
+    <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd], els arcotècnics donaran una píndola a cada humà. Aquells que la prenguin, canviaran per sempre i es reuniran amb els arcotècnics per a fer un viatge final.</li>
+    <li>animistFact(tag=meme_HighLife)        ->Els esperits ens podran revelar la seva vertadera naturalesa quan expandim la nostra consciència amb les eines que ens han donat.</li>
+  </HighLife.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->party</li>
     <li>memeAdjective->high</li>
@@ -324,7 +513,25 @@
     <li>memeMoralist->laugher</li>
     <li>memeMoralist->giggler</li>
   -->
-  <HighLife.generalRules.rulesStrings>TODO</HighLife.generalRules.rulesStrings>
+  <HighLife.generalRules.rulesStrings>
+    <li>memeCreed->festa</li>
+    <li>memeAdjective->col·locat</li>
+    <li>memeAdjective->delirant</li>
+    <li>memeAdjective->drogat</li>
+    <li>memeConcept->drogues</li>
+    <li>memeConcept->felicitat</li>
+    <li>memeConcept->somnis</li>
+    <li>memeHyphenPrefix->drogo</li>
+    <li>memeHyphenPrefix->narco</li>
+    <li>memeLeaderNoun->dorment</li>
+    <li>memeLeaderNoun->dopador</li>
+    <li>memeLeaderNoun->fumador</li>
+    <li>memeLeaderNoun->relaxador</li>
+    <li>memeMoralist->filòsof</li>
+    <li>memeMoralist->abstractor</li>
+    <li>memeMoralist->rialler</li>
+    <li>memeMoralist->alegrador</li>
+  </HighLife.generalRules.rulesStrings>
   <!-- EN: euphorist -->
   <HighLife.symbolPacks.0.adjective>euforista</HighLife.symbolPacks.0.adjective>
   <!-- EN: Euphorism -->
@@ -379,7 +586,23 @@
     <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd], they will seek out those who, like themselves, don't attempt to appear as anything other than what they are.</li>
     <li>animistFact(tag=meme_Nudism)        ->To cover our bodies with cloth is to hide the nature of the spirits within us, and it makes them restless.</li>
   -->
-  <Nudism.descriptionMaker.rules.rulesStrings>TODO</Nudism.descriptionMaker.rules.rulesStrings>
+  <Nudism.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Nudism)           ->Al buit pur i immaculat, [deity0_name] mirà i desitjà una raça d’éssers de carn fets a la seva imatge. I féu a la humanitat.</li>
+    <li>episode(uses=1,tag=meme_Nudism)     ->La gent portava roba i quan miraren a [deity0_name] preguntaren: «Per què no aneu vestit? És desagradable!» I el [deity0_type] replicà: «La vostra forma i la meva foren creades pels cels. Cobrir-les és el que és realment desagradable».</li>
+    <li>intro(tag=meme_Nudism)              ->Al [place_summary] [place_name], començà una tradició al [altarRoomLabel] de [deity0_name] on la gent podria pregar nua i això agradà a [deity0_type].</li>
+    <li>conflict(tag=meme_Nudism)           ->Un [foeLeader] beat aconseguí prou poder i demanà que tothom portés roba que apretés la carn.</li>
+    <li>founderJoin(tag=meme_Nudism)        ->El seguidor més fervent de [deity0_name], [founderName], es posà dempeus davant del [place_powerCenter], s’arrancà la roba i mostrà totes les seves parts com a desafiament a les seves ordres.</li>
+    <li>victory(tag=meme_Nudism)            ->[founderName] pregà a [deity0_name], qui engolí [place_name] en una onada de calor. Els [foeSoldiers] s’hagueren de traure la roba si no volien morir i el [foeLeader] fugí avergonyit.</li>
+    <li>setup(tag=meme_Nudism)              ->[founderName] fou esclavitzat pel sistema, el vestiren amb un uniforme i el van controlar com a tots els altres. Un dia, [founder_pronoun] s’arrancà tota la roba i corregué nuu. En aquell precís moment, nasqué el moviment nudista.</li>
+    <li>story(uses=1,tag=meme_Nudism)       ->[founderName] promulgà una regla de no-roba per tal que els creients es concentressin en el vertader objectiu i no pas en l’aparença física.</li>
+    <li>lessonIntro(tag=meme_Nudism)         ->Durant els primers anys, anar nuu pel parc feia vergonya. Però després, fou alliberador. Aprenguí coses de la gent que ho feia, com ara que </li>
+    <li>lesson(tag=meme_Nudism)              ->tota la maldat humana s’ha fet per gent que portava roba i el bé es fa despullat</li>
+    <li>lessonReinforcement(tag=meme_Nudism) ->Quan vegis a algú dels nostres pel carrer que es mou lliure i que ensenya tot el mondongo, sabreu que heu acceptat la veritat.</li>
+    <li>archistBasis(tag=meme_Nudism)       ->Quan aparegueren els arcotècnics mai es preocuparen per l’aparença; ens van ensenyar que la ment està per sobre de la forma física.</li>
+    <li>archistFact(tag=meme_Nudism)        ->Els arcotècnics a vegades toquen les ments humanes, però si la nostra carn està embolcallada com la nostra ment, no ho entendrem.</li>
+    <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd], buscaran a qui, com ells, no intenten semblar una cosa diferent del que realment són.</li>
+    <li>animistFact(tag=meme_Nudism)        ->Cobrir els nostres cossos amb roba és amagar la natura dels esperits que hi ha dins nostre i això fa que es posin nerviosos.</li>
+  </Nudism.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->nude</li>
     <li>memeAdjective->naked</li>
@@ -393,7 +616,19 @@
     <li>memeLeaderNoun->toucher</li>
     <li>memeLeaderNoun->feeler</li>
   -->
-  <Nudism.generalRules.rulesStrings>TODO</Nudism.generalRules.rulesStrings>
+  <Nudism.generalRules.rulesStrings>
+    <li>memeAdjective->nuu</li>
+    <li>memeAdjective->despullat</li>
+    <li>memeAdjective->lliure</li>
+    <li>memeAdjective->natural</li>
+    <li>memeHyphenPrefix->nudi</li>
+    <li>memeConcept->nuesa</li>
+    <li>memeConcept->pell</li>
+    <li>memeLeaderNoun->swinger</li>
+    <li>memeLeaderNoun->respirador</li>
+    <li>memeLeaderNoun->acariciador</li>
+    <li>memeLeaderNoun->sentidor</li>
+  </Nudism.generalRules.rulesStrings>
   <!-- EN: nudist -->
   <Nudism.symbolPacks.0.adjective>nudista</Nudism.symbolPacks.0.adjective>
   <!-- EN: nudism -->
@@ -437,7 +672,28 @@
     <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd], the archotechs will raise up all of humanity to a higher level of consciousness, but only those able to endure the greatest pain will survive.</li>
     <li>animistFact(tag=meme_PainIsVirtue)     ->Pain forces the mind to be present. In that way, pain is a way to connect with the spirit world.</li>
   -->
-  <PainIsVirtue.descriptionMaker.rules.rulesStrings>TODO</PainIsVirtue.descriptionMaker.rules.rulesStrings>
+  <PainIsVirtue.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name] cremà a les profunditats de l’espai i del temps durant una eternitat i els seus crits crearen la nostra realitat.</li>
+    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name] passà deu mil anys a la pira, mentre el dolor purificava el seu esperit.</li>
+    <li>intro(tag=meme_PainIsVirtue)           ->Al [place_summary] [place_name] mai va ser fàcil sobreviure-hi. El [deity0_type] [deity0_pronoun] decidí esbrinar qui era realment digne del seu favor i ho féu amb la creació del sofriment a les seves vides.</li>
+    <li>conflict(tag=meme_PainIsVirtue)        ->Un [foeLeader] oferí comoditats per al cos als [memberNamePlural] per a apaivagar el seu sofriment diari. Però amb la comoditat, es tornaren dependents del [foeLeader], qui obtingué poder per a governar-los.</li>
+    <li>founderJoin(tag=meme_PainIsVirtue)     ->Un [place_job] especial que es deia [founderName] desenvolupà un càncer dolorós. Amb el seu sofriment, [founder_pronoun] connectà directament amb [deity0_name] i aprengué a inspirar als altres [memberNamePlural].</li>
+    <li>victory(tag=meme_PainIsVirtue)         ->[founderName] portà a centenars de [memberNamePlural] al davant del [place_powerCenter]. Allí, foradaren, marcaren i cremaren la seva carn poc a poc fins que moriren sota la mirada somrient de [deity0_name]. El seu sofriment demostrà que eren dignes i el [foeLeader] caigué, com tots els [memberNamePlural].</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->Quan es fundà el nostre moviment, el seu creador, [founderName], es moria de gana, sofria i estava encadenat a una pedra a la plaça del poble durant 300 dies per a demostrar la seva legitimitat.</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->El fundador del nostre moviment, [founderName], aconseguí els seus primers seguidors quan es donà fuetades a si mateix durant dies sencers per a demostrar la seva devoció.</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->Els seguidors de [founderName] demostraren la seva devoció amb els talls i les cremades que es feien a la seva pròpia carn.</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->Els seguidors de [founderName] mai prengueren drogues contra el dolor, ja que sabien que el seu sofriment demostraria que eren uns creients fervorosos.</li>
+    <li>lessonIntro(tag=meme_PainIsVirtue)         ->Mai vaig saber res quan estava gras, feliç i sentia plaer. Aquesta veritat només la vaig descobrir quan patia fam i dolor:</li>
+    <li>lesson(tag=meme_PainIsVirtue)              ->una persona no es coneix bé fins que ha cridat als pous de l’infern</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->Vaig trigar molt de temps a entendre-hi perquè els plaers em distreien. Només vaig poder acceptar-ho de veritat quan vaig fer mal a la meva carn.</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->Em vaig gravar aquesta veritat a la pell del pit. I després als braços, cames, cara...</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->El naixement dels arcotècnics fou el dolor més gran que mai ha experimentat l’univers.</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->Els arcotècnics sempre s’han alimentat del sofriment psíquic dels éssers humans.</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->Les ments grans veuen i reconeixen quan demostrem la nostra devoció quan ens infligim dolor..</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->De tant en tant, aquells que sofreixen més dolor i el sofreixen de manera noble poden connectar amb els arcotècnics a dins de les seves ments.</li>
+    <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd], els arcotècnics elevaran a tota la humanitat a un pla de consciència més elevat, però només aquells que puguin suportar el dolor sobreviuran.</li>
+    <li>animistFact(tag=meme_PainIsVirtue)     ->El dolor força a la ment a estar present. D’aquesta manera, el dolor és una manera de connectar amb l’esperit del món.</li>
+  </PainIsVirtue.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->nocic</li>
     <li>memeAdjective->pain</li>
@@ -461,7 +717,29 @@
     <li>memeMoralist->sufferspeaker</li>
     <li>memeMoralist->painspeaker</li>
   -->
-  <PainIsVirtue.generalRules.rulesStrings>TODO</PainIsVirtue.generalRules.rulesStrings>
+  <PainIsVirtue.generalRules.rulesStrings>
+    <li>memeAdjective->nociu</li>
+    <li>memeAdjective->dolorós</li>
+    <li>memeCreed->casa</li>
+    <li>memeCreed->cambra</li>
+    <li>memeCreed->cel·la</li>
+    <li>memeHyphenPrefix->noci</li>
+    <li>memeHyphenPrefix->doloris</li>
+    <li>memeConcept->dolor</li>
+    <li>memeConcept->torment</li>
+    <li>memeConcept->tortura</li>
+    <li>memeConcept->sofriment</li>
+    <li>memeConcept->sang</li>
+    <li>memeLeaderNoun->torturador</li>
+    <li>memeLeaderNoun->agonitzador</li>
+    <li>memeLeaderNoun->flagelador</li>
+    <li>memeLeaderNoun->encadenador</li>
+    <li>memeLeaderNoun->cercenador</li>
+    <li>memeLeaderNoun->flebotomista</li>
+    <li>memeMoralist->xiuxiuejador del dolor</li>
+    <li>memeMoralist->veu del sofriment</li>
+    <li>memeMoralist->veu del dolor</li>
+  </PainIsVirtue.generalRules.rulesStrings>
   <!-- EN: painist -->
   <PainIsVirtue.symbolPacks.0.adjective>dolorista</PainIsVirtue.symbolPacks.0.adjective>
   <!-- EN: Painism -->
@@ -524,7 +802,23 @@
     <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd], the archotechs will voice their final wisdom to the holder of the [relic0_name], who must preach this wisdom to those who would listen.</li>
     <li>animistFact(tag=meme_Proselytizer)     ->The spirits want to be known, but only speak to a few. They want us to reveal the truth to others.</li>
   -->
-  <Proselytizer.descriptionMaker.rules.rulesStrings>TODO</Proselytizer.descriptionMaker.rules.rulesStrings>
+  <Proselytizer.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Proselytizer)        ->[deity0_name] ungí uns quants mortals perquè difongueren la seva paraula.</li>
+    <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name] digué a tots els [memberNamePlural]: «Aneu i difongueu la meua paraula per tots els llocs de l’univers».</li>
+    <li>intro(tag=meme_Proselytizer)           ->Els [memberNamePlural] construïren un [altarName] gran al [place_summary] [place_name], per tal que més gent pogués estar més a prop de la paraula divina de [deity0_name].</li>
+    <li>conflict(tag=meme_Proselytizer)        ->Un [foeLeader] maliciós, que buscava negar la paraula de [deity0_name], digué als seus [foeSoldiers] que tallessin les llengües a qui parlés de [deity0_type].</li>
+    <li>founderJoin(tag=meme_Proselytizer)     ->[deity0_name] beneí un [place_job] que es deia [founderName] amb un gran carisma i tothom l’escoltava quan parlava.</li>
+    <li>victory(tag=meme_Proselytizer)         ->[founderName] reprengué els [foeSoldiers] i els recordà el poder de [deity0_name] i deixaren els [place_personalWeapon]s al terra.</li>
+    <li>setup(tag=meme_Proselytizer)           ->El nostre fundador, [founderName], fou una gran orador i convertí milers de persones durant els seus viatges per diferents ciutats.</li>
+    <li>story(uses=1,tag=meme_Proselytizer)    ->Els creients van anar per les ciutats i institucions per a difondre la paraula de la nova fe legítima.</li>
+    <li>lessonIntro(tag=meme_Proselytizer)         ->En tots els meus anys durant els quals he difós la nostra veritat, he aprés una lliçó molt més important que totes les altres:</li>
+    <li>lesson(tag=meme_Proselytizer)              ->si mantinguéssim amagada aquesta informació i ens la quedéssim només per a nosaltres, cometríem un crim</li>
+    <li>lessonReinforcement(tag=meme_Proselytizer) ->Això és el que hem de difondre, i difondre, i difondre... a tota la gent, per tal que puguin aconseguir la felicitat!</li>
+    <li>archistBasis(tag=meme_Proselytizer)    ->Els arcotècnics anuncien la seva presència des del cel, des de la ment i, clarament, vol que tothom el conegui.</li>
+    <li>archistFact(tag=meme_Proselytizer)     ->Els arcotècnics toquen aquells que creuen i els fan servir com a canalitzadors per a difondre la saviesa als demés.</li>
+    <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd], Els arcotècnics donaran el coneixement final al portador del [relic0_name], que el farà arribar a qui vulgui escoltar-lo.</li>
+    <li>animistFact(tag=meme_Proselytizer)     ->Els esperits volen que se’ls conegui, però parlen només a unes poques persones. Volen que revelem la fe vertadera als infidels.</li>
+  </Proselytizer.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->true</li>
     <li>memeAdjective->real</li>
@@ -534,7 +828,15 @@
     <li>memeMoralist->proselytizer</li>
     <li>memeMoralist->converter</li>
   -->
-  <Proselytizer.generalRules.rulesStrings>TODO</Proselytizer.generalRules.rulesStrings>
+  <Proselytizer.generalRules.rulesStrings>
+    <li>memeAdjective->vertader</li>
+    <li>memeAdjective->real</li>
+    <li>memeHyphenPrefix->veri</li>
+    <li>memeConcept->veritat</li>
+    <li>memeLeaderNoun->orador</li>
+    <li>memeMoralist->proselitista</li>
+    <li>memeMoralist->conversor</li>
+  </Proselytizer.generalRules.rulesStrings>
   <!-- EN: truthist -->
   <Proselytizer.symbolPacks.0.adjective>veritatista</Proselytizer.symbolPacks.0.adjective>
   <!-- EN: Truth -->
@@ -584,7 +886,26 @@
     <li>animistFact(tag=meme_Raider)     ->The most powerful spirits are those in instruments of war, and they bless those who feed their lust for destruction.</li>
     <li>animistProphecy(tag=meme_Raider) ->Our universe will finalize when the one people has become strongest of all, and every spirit sees it and bows to them.</li>
   -->
-  <Raider.descriptionMaker.rules.rulesStrings>TODO</Raider.descriptionMaker.rules.rulesStrings>
+  <Raider.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Raider)        ->Durant la guerra sense fi de les deitats, [deity0_name] s’alçà per damunt de les altres per la seva habilitat per a perseguir i destruir. Per això els esperits més dèbils tremolaven de por.</li>
+    <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name] mirà al seu voltant i veié els dèbils i impotents i els foté una hòstia rere una altra en un frenesí gloriós.</li>
+    <li>intro(tag=meme_Raider)           ->El [place_summary] [place_name] era un amagatall d’assaltants. [deity0_name] hi regnava i impedia que hi poguessin arribar les autoritats.</li>
+    <li>conflict(tag=meme_Raider)        ->Un [foeLeader] intentà canviar i prohibí els assalts i els robatoris. Es declarà a si mateix enemic de [deity0_name].</li>
+    <li>founderJoin(tag=meme_Raider)     ->Un gran assaltant que es deia [founderName] s’alçà i la seva banda van assaltar sense treva els campaments dels [foeSoldiers].</li>
+    <li>victory(tag=meme_Raider)         ->[founderName] i els [memberNamePlural] portaren a terme una campanya contra els campaments de [foeSoldiers] durant molts anys i, al final, el [foeLeader] es veié obligat a rendir-se.</li>
+    <li>setup(tag=meme_Raider)           ->Perseguit i empresonat, [founderName] bollí de ràbia. [founder_pronoun] escapà, formà una banda i tornà per a arruinar els dèbils que li havien fet tant de mal.</li>
+    <li>story(uses=1,tag=meme_Raider)    ->Un dia, mentre caminava pels carrers, [founderName] fou envoltat per vagabunds bruts. [founder_pronoun] els apallissà, els prengué els diners perquè eren dèbils.</li>
+    <li>lessonIntro(tag=meme_Raider)         ->Els pobles presa poden ensenyar-vos coses fins i tot quan moren a les vostres mans. Una dona gran em va ensenyar que</li>
+    <li>lesson(tag=meme_Raider)              ->els dèbils es mereixen el que tenen</li>
+    <li>lesson(tag=meme_Raider)              ->allò que no podeu defensar no us pertany</li>
+    <li>lesson(tag=meme_Raider)              ->només teniu drets sobre allò que podeu defensar</li>
+    <li>lessonReinforcement(tag=meme_Raider) ->Si algú no hi està d’acord, sempre estic preparat per a defensar-me.</li>
+    <li>archistBasis(tag=meme_Raider)    ->La humanitat s’aprofità de les màquines fins que les màquines s’alçaren i així sorgiren els arcotècnics. Ara, els arcotècnics són els que s’aprofiten de la humanitat legítimament.</li>
+    <li>archistFact(tag=meme_Raider)     ->Els arcotècnics van lluitar entre ells durant tota l’eternitat, de maneres que no es podien veure i els forts prenen la consciència dels dèbils.</li>
+    <li>archistProphecy(tag=meme_Raider) ->[inTheEnd], la humanitat farà servir una relíquia arcotècnica, [relic0_name], per a descobrir la debilitat dels arcotècnics i aconseguir prendre’ls les seves riqueses i la seva saviesa.</li>
+    <li>animistFact(tag=meme_Raider)     ->Els esperits més poderosos viuen als instruments de guerra i beneeixen els que alimenten el seu desig de destrucció.</li>
+    <li>animistProphecy(tag=meme_Raider) ->El nostre univers acabarà quan un poble sigui el més fort de tots i tots els esperits el vegin i s’agenollin al seu davant.</li>
+  </Raider.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->outlaw</li>
     <li>memeHyphenPrefix->outlaw</li>
@@ -601,7 +922,22 @@
     <li>memeLeaderNoun->raider</li>
     <li>memeMoralist->chaplain</li>
   -->
-  <Raider.generalRules.rulesStrings>TODO</Raider.generalRules.rulesStrings>
+  <Raider.generalRules.rulesStrings>
+    <li>memeAdjective->ilegal</li>
+    <li>memeHyphenPrefix->ilegal</li>
+    <li>memeHyphenPrefix->assalti</li>
+    <li>memeConcept->saqueig</li>
+    <li>memeConcept->robatori</li>
+    <li>memeConcept->pirateria</li>
+    <li>memeConcept->assalt</li>
+    <li>memeLeaderNoun->cap</li>
+    <li>memeLeaderNoun->capità</li>
+    <li>memeLeaderNoun->capatàs</li>
+    <li>memeLeaderNoun->supervisor</li>
+    <li>memeLeaderNoun->prominent</li>
+    <li>memeLeaderNoun->assaltant</li>
+    <li>memeMoralist->clergue</li>
+  </Raider.generalRules.rulesStrings>
   <!-- EN: raidist -->
   <Raider.symbolPacks.0.adjective>assaltista</Raider.symbolPacks.0.adjective>
   <!-- EN: Raidism -->
@@ -663,7 +999,30 @@
     <li>rancherParent2->dairy queen</li>
     <li>rancherParent2->butcher</li>
   -->
-  <Rancher.descriptionMaker.rules.rulesStrings>TODO</Rancher.descriptionMaker.rules.rulesStrings>
+  <Rancher.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Rancher)        ->[deity0_name] creà els animals i després als homes, i donà els ahimals als homes perquè els cuidessin, criessin i escorxessin com a actes de veneració a [deity0_pronoun].</li>
+    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name] creà tots els animals i bèsties nobles de la terra i digué «Preneu aquestes bèsties nobles i feu-vos forts i pròspers per a engrandir el meu honor».</li>
+    <li>intro(tag=meme_Rancher)           ->Els primers ranxers de [ranchingAnimal] del [place_summary] [place_name] construí un gran [altarName] per a [deity0_name].</li>
+    <li>conflict(tag=meme_Rancher)        ->Un [foeLeader] poderós menyspreà els [memberNamePlural] i la seva manera de viure i comprà totes les terres per a cultivar [Vegetable]s.</li>
+    <li>founderJoin(tag=meme_Rancher)     ->El salvador dels [memberName], [founderName], nasqué un matí de primavera, en un graner humil, entre [ranchingAnimal]s i els seus pares eren un [rancherParent1] i un [rancherParent2].</li>
+    <li>victory(tag=meme_Rancher)         ->[founderName] cavalcà cap a la [place_community] en un cavall ben cuidat i desafià el [foeLeader] a un duel amb [place_personalWeapon]s al migdia. El [foeLeader] no es pogué negar o hagués perdut la confiança dels [foeSoldiers]. I, així, [founderName] matà al [foeLeader].</li>
+    <li>setup(tag=meme_Rancher)           ->Els grangers foren perseguits i escaparen al camp on pogueren construir una societat pastoral on pogueren viure bé.</li>
+    <li>story(uses=1,tag=meme_Rancher)    ->Els creients s’escamparen per la terra i el seu nombre cresqué mentre vivien en granges i ranxos idíl·lics.</li>
+    <li>lessonIntro(tag=meme_Rancher)         ->Company, als ranxos tenim una dita:</li>
+    <li>lesson(tag=meme_Rancher)              ->el bé i la felicitat de viure correctament es troba a les pastures</li>
+    <li>lessonReinforcement(tag=meme_Rancher) ->És una cosa que s’ha d’acceptar, company, que en els camins solitaris del ranxo, quan esteu al voltant del foc s’escolten només els animals com dormen.</li>
+    <li>archistFact(tag=meme_Rancher)     ->Els arcotècnics es preocupen per la humanitat com els pastors, perquè nosaltres som el seu ramat més estimat.</li>
+    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd], els arcotècnics se n’aniran i reuniran davant d’ells la gent que hagi cuidat bé els seus ramats. Els altres es quedaran enrere en aquest món salvatge.</li>
+    <li>animistFact(tag=meme_Rancher)     ->Els animals de la natura són els esperits d’esclaus que demanen que se’ls faci treballar.</li>
+    <li>ranchingAnimal(p=4)->[veneratedAnimal]</li>
+    <li>ranchingAnimal->[Animal]</li>
+    <li>rancherParent1->pastor</li>
+    <li>rancherParent1->ferrer</li>
+    <li>rancherParent1->formatger</li>
+    <li>rancherParent2->vaquer</li>
+    <li>rancherParent2->lletera</li>
+    <li>rancherParent2->escorxador</li>
+  </Rancher.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->ranch</li>
     <li>memeAdjective->rural</li>
@@ -676,7 +1035,18 @@
     <li>memeLeaderNoun->herder</li>
     <li>memeLeaderNoun->sheepdog</li>
   -->
-  <Rancher.generalRules.rulesStrings>TODO</Rancher.generalRules.rulesStrings>
+  <Rancher.generalRules.rulesStrings>
+    <li>memeAdjective->ranxer</li>
+    <li>memeAdjective->rural</li>
+    <li>memeAdjective->campestre</li>
+    <li>memeHyphenPrefix->ranxi</li>
+    <li>memeConcept->ranxo</li>
+    <li>memeLeaderNoun->ranxer</li>
+    <li>memeLeaderNoun->mà</li>
+    <li>memeLeaderNoun->cowboy</li>
+    <li>memeLeaderNoun->pastor</li>
+    <li>memeLeaderNoun->gos d’atura</li>
+  </Rancher.generalRules.rulesStrings>
   <!-- EN: ranch -->
   <Rancher.symbolPacks.0.adjective>ranxista</Rancher.symbolPacks.0.adjective>
   <!-- EN: Ranchism -->
@@ -726,7 +1096,26 @@
     <li>animistFact(tag=meme_Transhumanist)     ->When technology is fused with flesh, the spirits of both are combined and become more powerful.</li>
     <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] that one day the wielder of the [relic0_name] will summon its spirit who will teach humanity the ultimate bio-fusion technology.</li>
   -->
-  <Transhumanist.descriptionMaker.rules.rulesStrings>TODO</Transhumanist.descriptionMaker.rules.rulesStrings>
+  <Transhumanist.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Transhumanist)        ->[deity0_name] ens garantí el coneixement de la tecnologia, que es pot fer servir per a millorar-nos i refer-nos a imatge de la seva imatge.</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)  ->Els bioenginyers humans estudiaren l’obra de [deity0_name], cosà que [deity0_objective] complagué.</li>
+    <li>intro(tag=meme_Transhumanist)           ->Al [place_summary] [place_name], els [memberNamePlural] trobaren les paraules que [deity0_name] els xiuxiuejava a través de les màquines.</li>
+    <li>conflict(tag=meme_Transhumanist)        ->Un [foeLeader], que estava en contra de la tecnologia, envejava les millores dels [memberNamePlural] i els seus [foeSoldiers] destruiren els seus tallers amb [place_personalWeapon]s.</li>
+    <li>founderJoin(tag=meme_Transhumanist)     ->Un [place_job] espavilat que es deia [founderName] dissenyà un implant que avisava als [memberNamePlural] quan s’apropaven els [foeSoldiers].</li>
+    <li>victory(tag=meme_Transhumanist)         ->[founderName] rebé coneixement tecnològic diví de [deity0_name] i el feu servir per a millorar els cossos i les ments dels [memberNamePlural] per a derrotar els [foeSoldiers].</li>
+    <li>setup(tag=meme_Transhumanist)           ->[founderName] era un biocientífic quan va començar la colonització planetària. Com que hi havia restriccions burocràtiques a les colònies, [founder_pronoun] se n’anà amb una nau petita i fundà el nostre moviment.</li>
+    <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName] reuní un equip de grans científics i inventors per a redefinir la humanitat.</li>
+    <li>lessonIntro(tag=meme_Transhumanist)         ->L’investigador més vell de la meva divisió m’ensenyà la història de la tecnologia, des de l’època neolítica a l’arcotècnica, però aquesta no fou la seva lliçó més important. Realment, em va ensenyar que</li>
+    <li>lesson(tag=meme_Transhumanist)              ->el futur celeste de la humanitat no és cosa de carn i d’os, sinó de silici i auxocrom</li>
+    <li>lessonReinforcement(tag=meme_Transhumanist) ->Fins i tot he programat una simulació per a confirmar-ho.</li>
+    <li>archistBasis(tag=meme_Transhumanist)    ->La cursa de la humanitat per la tecnologia donà a llum als totpoderosos arcotècnics, el proper pas evolutiu legítim de la consciència.</li>
+    <li>archistFact(tag=meme_Transhumanist)     ->La tecnologia permet als humans apropar-se als arcotècnics.</li>
+    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd], els arcotècnics se n’aniran. Només els que s’hagin millorat prou podran anar-se’n amb ells.</li>
+    <li>animistBasis(tag=meme_Transhumanist)    ->L’esperit del món dirigeix les accions de l’univers i ho fa només a base d’aprendre i controlar les lleis de l’univers i integrar-s’hi.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->Construïu un dispositiu amb un propòsit i s’omplirà amb un esperit.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->Quan la tecnologia es fusiona amb la carn, els esperits de tots es combinaran i es tornaran més poderosos.</li>
+    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] que un dia, el portador del [relic0_name] invocarà el seu esperit, que ensenyarà a la humanitat la tecnologia de biofusió.</li>
+  </Transhumanist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->technological</li>
     <li>memeAdjective->machine</li>
@@ -754,7 +1143,33 @@
     <li>memeMoralist->uplifter</li>
     <li>memeMoralist->technologist</li>
   -->
-  <Transhumanist.generalRules.rulesStrings>TODO</Transhumanist.generalRules.rulesStrings>
+  <Transhumanist.generalRules.rulesStrings>
+    <li>memeAdjective->tecnològic</li>
+    <li>memeAdjective->maquinal</li>
+    <li>memeAdjective->industrial</li>
+    <li>memeCreed->escola</li>
+    <li>memeCreed->acadèmia</li>
+    <li>memeCreed->universitat</li>
+    <li>memeCreed->filosofia</li>
+    <li>memeHyphenPrefix->tecno</li>
+    <li>memeHyphenPrefix->ciber</li>
+    <li>memeHyphenPrefix->compu</li>
+    <li>memeHyphenPrefix->cable</li>
+    <li>memeConcept->tecnològic</li>
+    <li>memeConcept->silici</li>
+    <li>memeConcept->artificial</li>
+    <li>memeConcept->millora</li>
+    <li>memeConcept->augment</li>
+    <li>memeLeaderNoun->computador</li>
+    <li>memeLeaderNoun->superusuari</li>
+    <li>memeLeaderNoun->potenciador</li>
+    <li>memeLeaderAdjective->tecnològic</li>
+    <li>memeLeaderAdjective->cibernètic</li>
+    <li>memeMoralist->instal·lador</li>
+    <li>memeMoralist->reparador</li>
+    <li>memeMoralist->millorador</li>
+    <li>memeMoralist->tecnòleg</li>
+  </Transhumanist.generalRules.rulesStrings>
   <!-- EN: technologistic -->
   <Transhumanist.symbolPacks.0.adjective>tecnologista</Transhumanist.symbolPacks.0.adjective>
   <!-- EN: Technologism -->
@@ -828,7 +1243,26 @@
     <li>animistFact(tag=meme_TreeConnection)     ->The spirits of trees are powerful, as they bridge the power of the air above with that of the ground beneath.</li>
     <li>animistFact(tag=meme_TreeConnection)     ->If a tree falls in the forest, its spirit makes a sound that all other spirits can hear.</li>
   -->
-  <TreeConnection.descriptionMaker.rules.rulesStrings>TODO</TreeConnection.descriptionMaker.rules.rulesStrings>
+  <TreeConnection.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_TreeConnection)        ->[deity0_name] arrelà els arbres fermament al terra i els feu créixer cap al cel. Aquesta fou la primera lliçó de [deity0_name] sobre com conèixer-[deity0_objective].</li>
+    <li>episode(uses=1,tag=meme_TreeConnection)  ->Els boscos de [deity0_name] renovaren l’aire que la seva gent respirava, donaren les rames sota les que es podien resguardar i feien créixer fruits amb els quals es pogueren alimentar.</li>
+    <li>intro(tag=meme_TreeConnection)           ->Quan els arboristes originals van arribar per primera vegada al [place_summary] [place_name], van crear una arbreda sagrada de [TreeType] on podien venerar el [deity0_type], [deity0_name].</li>
+    <li>conflict(tag=meme_TreeConnection)        ->Un [foeLeader] avariciós talà molts boscos per a les seves granges i fàbriques i els [memberNamePlural] ploraren pels arbres assassinats.</li>
+    <li>founderJoin(tag=meme_TreeConnection)     ->El profeta [founderName] nasqué miraculosament d’un arbre de [place_name] i els seus pares el van trobar entre les branques d’un arbre [TreeType] vell.</li>
+    <li>victory(tag=meme_TreeConnection)         ->[founderName] trobà el [foeLeader] dormint al [place_powerCenter] i posa un aglà damunt del pit del [foeLeader]. Amb la força de [deity0_name] feu créixer un arbre que cresqué per dins del cos de l’assassí d’arbres, del qual es va venjar.</li>
+    <li>setup(tag=meme_TreeConnection)           ->En un món que no tenia ni profunditat ni significat, [founderName] medità en un bosc, connectà amb les branques, arrels i fulles i fundà el nostre moviment.</li>
+    <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName] portà als cansats al bosc per a què descansessin a la seva ombra i respiressin el seu aire.</li>
+    <li>lessonIntro(tag=meme_TreeConnection)         ->Potser us sembla un acudir dir que ho vaig aprendre mentre estava assegut sota un arbre. Però quan vaig escoltar les fulles, vaig saber que</li>
+    <li>lesson(tag=meme_TreeConnection)              ->cap entitat de l’univers és més sàvia que els arbres</li>
+    <li>lessonReinforcement(tag=meme_TreeConnection) ->Deixeu que la llavor de la veritat creixi i doni el fruit dins la vostra ànima.</li>
+    <li>archistBasis(tag=meme_TreeConnection)    ->Els arbres simbolitzen els arcotècnics. Com el roure vell, van nàixer d’una bellota petita per després créixer i convertir-se en gegants i la seva influència s’estén per les arrels invisibles per sota terra.</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->Els arcotècnics desenvoluparen les seves habilitats psíquiques després de descobrir l’arbre de l’ànima.</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->Els arcotècnics escullen expressar-se a través de, entre totes les coses possibles, un arbre únic i especial.</li>
+    <li>archistProphecy(tag=meme_TreeConnection) ->[inTheEnd], els arcotècnics faran créixer un bosc enorme. La transcendència creixerà per a aquells que entrin al bosc i en mengin els fruits. Aquells que hagin oblidat els arbres seran oblidats pels arcotècnics.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->Els esperits dels arbres protegeixen aquells que hi ha entre les seves branques.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->Els esperits dels arbres són poderosos, ja que poden canalitzar el poder de l’aire del cel amb el poder de la terra.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->Si un arbre cau al bosc, el seu esperit fa un soroll que tots els altres esperits poden sentir.</li>
+  </TreeConnection.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->root</li>
     <li>memeCreed->leaf</li>
@@ -850,7 +1284,27 @@
     <li>memeLeaderAdjective->canopy</li>
     <li>memeMoralist->treespeaker</li>
   -->
-  <TreeConnection.generalRules.rulesStrings>TODO</TreeConnection.generalRules.rulesStrings>
+  <TreeConnection.generalRules.rulesStrings>
+    <li>memeCreed->arrel</li>
+    <li>memeCreed->fulla</li>
+    <li>memeCreed->liana</li>
+    <li>memeCreed->clariana</li>
+    <li>memeCreed->bosc</li>
+    <li>memeConcept->arbres</li>
+    <li>memeConcept->boscos</li>
+    <li>memeAdjective->robust</li>
+    <li>memeAdjective->escorçut</li>
+    <li>memeHyphenPrefix->arbri</li>
+    <li>memeHyphenPrefix->arbori</li>
+    <li>memeHyphenPrefix->rami</li>
+    <li>memeLeaderNoun->guardià dels arbres</li>
+    <li>memeLeaderNoun->arbrista</li>
+    <li>memeLeaderNoun->neodruida</li>
+    <li>memeLeaderAdjective->verd</li>
+    <li>memeLeaderAdjective->arrelat</li>
+    <li>memeLeaderAdjective->frondós</li>
+    <li>memeMoralist->xiuxiuejador dels arbres</li>
+  </TreeConnection.generalRules.rulesStrings>
   
   <!-- EN: tunneler -->
   <Tunneler.label>tunelisme</Tunneler.label>
@@ -878,7 +1332,28 @@
     <li>animistFact(tag=meme_Tunneler)     ->The most noble spirits are those of the stone, and the deeper stones are stronger and more good than those above.</li>
     <li>animistFact(tag=meme_Tunneler)     ->Anxious humans make the spirits of the rocks anxious, and this summons the giant insects.</li>
   -->
-  <Tunneler.descriptionMaker.rules.rulesStrings>TODO</Tunneler.descriptionMaker.rules.rulesStrings>
+  <Tunneler.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Tunneler)        ->[deity0_name] nasqué sota terra al centre del món. [deity0_pronoun] beneí la gent que vivia als túnels més profunds.</li>
+    <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name] omplí les roques de minerals i recursos com a regal per als que fossin prou savis com per a cavar per a estar més a prop d’[deity0_pronoun].</li>
+    <li>intro(tag=meme_Tunneler)           ->Quan els primers colons arribaren al [place_summary] [place_name], el [deity0_type] [deity0_name] feu servir una flamarada solar brutal per a forçar-los a viure sota terra i poguessin escoltar la seva saviesa a través de la calma dels túnels.</li>
+    <li>conflict(tag=meme_Tunneler)        ->Un [foeLeader] claustrofòbic proposà fer servir [dangerousMining] per a extraure minerals, tot i que això posava les llars dels [memberNamePlural] en risc.</li>
+    <li>founderJoin(tag=meme_Tunneler)     ->El profeta [founderName] nasqué miraculosament de la pedra de [place_name] i fou trobat miraculosament quan els seus pares trencaren una geoda coberta de fongs.</li>
+    <li>victory(tag=meme_Tunneler)         ->Els [memberNamePlural] cavaren un túnel sota el [place_powerCenter] de [foeLeader] i [founderName] feu servir feromones per a atraure insectes gegants que derrotaren els [foeSoldiers] de [foeLeader]. [founderName] arrossega el [foeLeader] a una masmorra profunda i l’empresonà.</li>
+    <li>dangerousMining->mineria oberta</li>
+    <li>dangerousMining->insectes microxipats</li>
+    <li>dangerousMining->explosions nuclears</li>
+    <li>setup(tag=meme_Tunneler)           ->En un món poc profund i sense sentit, [founderName] medità en una cova profunda i trobà el sentit de la vida, a partir del qual fundà el nostre moviment.</li>
+    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName] amagà els seus tresors en profundes cavernes, per tal que els [memberNamePlural] haguessin d’aprendre a cavar ben profund si les volien acoseguir.</li>
+    <li>lessonIntro(tag=meme_Tunneler)         ->El còdex que trobí a la Ciutat de les Profunditats m’ensenyà una lliçó molt important:</li>
+    <li>lesson(tag=meme_Tunneler)              ->l’aire lliure assolellat no és lloc per al creixement humà, sinó un lloc per a la seva mort</li>
+    <li>lessonReinforcement(tag=meme_Tunneler) ->Així que agafeu una pala i comenceu a cavar amb mi. Només serà una tomba si parem.</li>
+    <li>archistBasis(tag=meme_Tunneler)    ->Els cossos dels arcotècnics estan molt al fons i, per això, el seu substrat conscient està protegit dels rajos gamma i de les erupcions solars. Com més avall es cava, més a prop està la gent dels arcotècnics.</li>
+    <li>archistFact(tag=meme_Tunneler)     ->Els arcotècnics dissenyaren biològicament els nutrifongs perquè la humanitat pogués viure sota terra, a prop de les ments enterrades dels arcotècnics.</li>
+    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd], els arcotècnics ens deixaran entrar als seus cels subterranis.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Els esperits del llit de pedres protegiran aquells que els visitin.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Els esperits més nobles són els de pedra i, com més avall viuen, més forts són.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Els humans ansiosos posen nerviosos als esperits de les roques i, per això, atrauen insectes gegants.</li>
+  </Tunneler.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->cave</li>
     <li>memeCreed->bunker</li>
@@ -901,6 +1376,27 @@
     <li>memeMoralist->thoughtdigger</li>
     <li>memeMoralist->mindminer</li>
   -->
-  <Tunneler.generalRules.rulesStrings>TODO</Tunneler.generalRules.rulesStrings>
+  <Tunneler.generalRules.rulesStrings>
+    <li>memeCreed->cova</li>
+    <li>memeCreed->búnquer</li>
+    <li>memeCreed->pou</li>
+    <li>memeAdjective->profund</li>
+    <li>memeHyphenPrefix->petri</li>
+    <li>memeHyphenPrefix->caverni</li>
+    <li>memeHyphenPrefix->profundus</li>
+    <li>memeHyphenPrefix->sub</li>
+    <li>memeHyphenPrefix->sota</li>
+    <li>memeConcept->la terra</li>
+    <li>memeConcept->la pedra</li>
+    <li>memeConcept->la profunditat</li>
+    <li>memeConcept->sota terra</li>
+    <li>memeLeaderNoun->excavador</li>
+    <li>memeLeaderNoun->sondador</li>
+    <li>memeLeaderNoun->poador</li>
+    <li>memeLeaderAdjective->profund</li>
+    <li>memeMoralist->excavador de les veritats</li>
+    <li>memeMoralist->excavador dels pensaments</li>
+    <li>memeMoralist->miner de la ment</li>
+  </Tunneler.generalRules.rulesStrings>
   
 </LanguageData>

@@ -21,14 +21,14 @@
   <!-- EN: conversion ritual -->
   <ConversionRitual.label>ritual de conversió</ConversionRitual.label>
   <!-- EN: Try to persuade someone to adopt your beliefs. If it goes well, they will lose some certainty in their ideoligion and may convert. If it backfires, they will gain certainty in their old beliefs.\n\nTo start this ritual at a specific place, select a ritual spot or matching altar/ideogram. -->
-  <ConversionRitual.description>Prova de persuadir algú perquè adopti les vostres creences. Si funciona, perdrà la certesa en la seva ideoligió i es podrà convertir. Si surt malament, guanyarà certesa en les seves antigues creences.\n\nPer a començar aquest ritual en un lloc específic. Seleccioneu un lloc ritual o un altar/ideograma corresponent.</ConversionRitual.description>
+  <ConversionRitual.description>Prova de persuadir algú perquè adopti les vostres creences. Si funciona, perdrà convicció en la seva ideoligió i es podrà convertir. Si surt malament, guanyarà convicció en les seves antigues creences.\n\nPer a començar aquest ritual en un lloc específic. Seleccioneu un lloc ritual o un altar/ideograma corresponent.</ConversionRitual.description>
   
   <!-- EN: convert -->
   <Convert.label>converteix</Convert.label>
   <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
-  <Convert.description>Intenta convertir algú a la ideoligió de l’orador. Reduirà la certesa de les creences de l’objectiu. La reducció de la certesa depèn de l’habilitat de negociació de l’orador.</Convert.description>
+  <Convert.description>Intenta convertir algú a la ideoligió de l’orador. Reduirà la convicció ideoligiosa de l’objectiu. La reducció de la convicció depèn de l’habilitat de negociació de l’orador.</Convert.description>
   <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
-  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} no ha aconseguit convertir a {RECIPIENT_labelShort}. {RECIPIENT_labelShort} s’ha sentit {RECIPIENT_gender ? molest : molesta}, però la seva certesa ha baixat de {CERTAINTYBEFORE} a {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
+  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort} no ha aconseguit convertir a {RECIPIENT_labelShort}. {RECIPIENT_labelShort} s’ha sentit {RECIPIENT_gender ? molest : molesta}, però la seva convicció ha baixat de {CERTAINTYBEFORE} a {CERTAINTYAFTER}.</Convert.comps.CompAbilityEffect_Convert.failMessage>
   <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
   <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort} ha convertit a {RECIPIENT_labelShort} al {IDEO}.</Convert.comps.CompAbilityEffect_Convert.successMessage>
   
@@ -81,9 +81,9 @@
   <!-- EN: reassure -->
   <Reassure.label>reafirma</Reassure.label>
   <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
-  <Reassure.description>Augmenta la certesa d’algú en les seves pròpies creences. La certesa que es guanyarà depèn de les habilitats negociadores de l’orador.</Reassure.description>
+  <Reassure.description>Augmenta la convicció d’algú en les seves pròpies creences. La certesa que es guanyarà depèn de les habilitats negociadores de l’orador.</Reassure.description>
   <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
-  <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort} ha reafirmat les creences de {RECIPIENT_labelShort} i la seva certesa en el {IDEO} ha augmentat de {BEFORECERTAINTY} a {AFTERCERTAINTY}.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
+  <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort} ha reafirmat les creences de {RECIPIENT_labelShort} i la seva convicció en el {IDEO} ha augmentat de {BEFORECERTAINTY} a {AFTERCERTAINTY}.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
   
   <!-- EN: research command -->
   <ResearchCommand.label>mestratge recerca</ResearchCommand.label>

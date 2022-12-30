@@ -38,7 +38,7 @@
     <li>circumstance_phrase->posada entre una [terrainfeature] i una [terrainfeature]</li>
     <li>desc_sentence->A sota, [pawn_nameShortDef] juga a [game] amb una mirada [friendlyadjective].</li>
     <li>desc_sentence->[pawn_nameShortDef] s’ho mira amb cara de fascinació.</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren des de baix.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] s’ho miren des de baix.</li>
     <li>desc_sentence->[pawn_nameShortDef] seu prop d’una [terrainfeature], mirant al cel.</li>
     <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] volten pacíficament.</li>
     <li>desc_sentence->No hi cap [enemy] a la vista.</li>
@@ -87,7 +87,8 @@
     <li>desc_sentence->[pawn_nameShortDef] està enfrontat amb [enemy].</li>
     <li>desc_sentence(p=0.7)->[quantity_adjphrase] [AnimalMP] fugen espantats de l’escena del conflicte.</li>
     <li>desc_sentence(p=0.7)->[quantity_adjphrase] [AnimalFP] fugen espantades de l’escena del conflicte.</li>
-    <li>desc_sentence->A la llunyania, un [outlander] observa.</li>
+    <li>desc_sentence->A la llunyania, un [PersonJob] observa.</li>
+    <li>desc_sentence->A la llunyania, una [PersonJob_Fem] observa.</li>
   </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed by manhunter -->
@@ -128,7 +129,7 @@
     <li>desc_sentence->[gore] cobreix el terra.</li>
     <li>desc_sentence->El terra està cobert d’una barreja de [gore] trepitjada.</li>
     <li>desc_sentence->[quantity_adjphrase] [animal]s fugen espantats de l’escena del conflicte.</li>
-    <li>desc_sentence->A la llunyania,, a [outlander] s’ho mira.</li>
+    <li>desc_sentence->A la llunyania,, a [PersonJob] s’ho mira.</li>
   </CaravanAmbushedByManhunter.rulePack.rulesStrings>
   
   <!-- EN: caravan demand -->
@@ -164,7 +165,8 @@
     <li>image->[pawn_nameFull] crida fort [circumstance_group]</li>
     <li>image->[pawn_nameFull] pensa [circumstance_group]</li>
     <li>image->[pawn_nameFull] mira amb fúria [circumstance_group]</li>
-    <li>image->[pawn_nameFull], amenaçat per un [outlander], [circumstance_group]</li>
+    <li>image->[pawn_nameFull], amenaçat per un [PersonJob], [circumstance_group]</li>
+    <li>image->[pawn_nameFull], amenaçat per una [PersonJob_Fem], [circumstance_group]</li>
     <li>image->[pawn_nameFull] brandant [weapon] [circumstance_group]</li>
     <li>circumstance_phrase->amb una expressió [badassadjective]</li>
     <li>circumstance_phrase->amb una expressió [angstyadjective]</li>
@@ -174,7 +176,9 @@
     <li>desc_sentence->[quantity_adjphrase] [enemy]s estan a prop, [action].</li>
     <li>desc_sentence->El sol es pont rere una [terrainfeature].</li>
     <li>desc_sentence->El sol surt sobre una [terrainfeature].</li>
-    <li>desc_sentence->A la llunyania, un [outlander] s’ho miren.</li>
+    <li>desc_sentence->A la llunyania, un [PersonJob] s’ho mira.</li>
+    <li>desc_sentence->A la llunyania, uns [PersonJob_Plural] s’ho miren.</li>
+    <li>desc_sentence->A la llunyania, una [PersonJob_Fem] s’ho mira.</li>
     <li>action->esmolen les armes</li>
     <li>action->vigilen per si hi ha algun perill</li>
     <li>action->vigilen uns presoners</li>
@@ -211,23 +215,23 @@
   -->
   <CaravanMeeting.rulePack.rulesStrings>
     <li>tale_noun->la caravana de [pawn_nameShortDef] amb uns altres</li>
-    <li>image->[pawn_nameFull] saludant un [outlander] [circumstance_group]</li>
-    <li>image->[pawn_nameFull] examina un [outlander] [circumstance_group]</li>
-    <li>image->[pawn_nameFull] cridant a un [outlander] [circumstance_group]</li>
-    <li>image->[pawn_nameFull] acostant-se a un [outlander] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] saludant un [PersonJob] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] examina una [PersonJob_Fem] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] cridant a una [PersonJob_Fem] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] acostant-se a un [PersonJob] [circumstance_group]</li>
     <li>image->[pawn_nameFull] parlant tranquilament [circumstance_group]</li>
     <li>image->[pawn_nameFull] cridant fort [circumstance_group]</li>
-    <li>image->[pawn_nameFull] jugant a [game] amb un [outlander] [circumstance_group]</li>
+    <li>image->[pawn_nameFull] jugant a [game] amb una [PersonJob_Fem] [circumstance_group]</li>
     <li>circumstance_phrase->amb una expressió [friendlyadjective]</li>
     <li>circumstance_phrase->amb una expressió [friendlyadjective]</li>
     <li>circumstance_phrase->mentre [friendlyverb]</li>
     <li>circumstance_phrase->mentre els altres observen</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s estan [event].</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s estan [event].</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] estan [event].</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] estan [event].</li>
     <li>desc_sentence->[quantity_adjphrase] [animal]s envolten el grup.</li>
     <li>desc_sentence->El sol es posa radere d’una [terrainfeature].</li>
     <li>desc_sentence->El sol surt per sobre d’una [terrainfeature].</li>
-    <li>desc_sentence->A la llunyania, un [outlander] observa.</li>
+    <li>desc_sentence->A la llunyania, una [PersonJob_Fem] observa.</li>
     <li>event->celebrant una festa</li>
     <li>event->menjant plegats</li>
     <li>event->comentant esdeveniments recents</li>
@@ -267,7 +271,7 @@
     <li>circumstance_phrase->fent visibles alguns estels</li>
     <li>desc_sentence->A sota, [pawn_nameShortDef] juga a [game] amb una mirada [friendlyadjective].</li>
     <li>desc_sentence->[pawn_nameShortDef] s’ho mira amb cara d’admiració.</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s s’ho miren des de baix.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] s’ho miren des de baix.</li>
     <li>desc_sentence->[pawn_nameShortDef] seu prop d’una [terrainfeature], mirant el cel.</li>
     <li>desc_sentence->Una [Community] d’espectadors es miren el cel relaxadament.</li>
     <li>desc_sentence->No hi ha cap [enemy] a la vista.</li>
@@ -314,7 +318,8 @@
     <li>image->[PAWN_nameDef] rebent un missatge a [transmission_source] mentre [circumstance_group]</li>
     <li>image->[PAWN_nameDef] sintonitzant un missatge a [transmission_source] mentre [circumstance_group]</li>
     <li>delivery_method->[AnimalAnySingularIndefinite]</li>
-    <li>delivery_method->un [outlander]</li>
+    <li>delivery_method->un [PersonJob]</li>
+    <li>delivery_method->una [PersonJob_Fem]</li>
     <li>delivery_method->[quantity_adjphrase] [AnimalAnyPlural]</li>
     <li>transmission_source->una freqüència poc habitual</li>
     <li>transmission_source->un antic transmissor</li>
@@ -329,7 +334,7 @@
     <li>desc_sentence(p=0.7)->[quantity_adjphrase] [AnimalFP] volten a prop, aliens a tot.</li>
     <li>desc_sentence(p=0.3)->[quantity_adjphrase] [AnimalMP] volten a prop, alienes a tot.</li>
     <li>desc_sentence->Mentre llegeix, es posa a [friendlyverb].</li>
-    <li>desc_sentence->Un [outlander] espectral s’ho mira des dels núvols.</li>
+    <li>desc_sentence->Una [PersonJob_Fem] espectral s’ho mira des dels núvols.</li>
     <li>desc_sentence->[pawn_nameShortDef] seu a prop d’una [terrainfeature].</li>
     <li>desc_sentence->Es veu una [Community] a la llunyania.</li>
     <li>desc_sentence->Es veu una nau espacial a la llunyania.</li>
@@ -377,7 +382,7 @@
     <li>desc_sentence->[pawn_nameShortDef] s’ho mira visiblement espantat.</li>
     <li>desc_sentence->[pawn_nameShortDef] s’ho mira amb cara de pànic.</li>
     <li>desc_sentence->[pawn_nameShortDef] stà coordinant les tasques de protecció preventiva.</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s corrent a preparar-se.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] corrent a preparar-se.</li>
     <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] fugen de la zona.</li>
     <li>desc_sentence->Tota la vida animal ha aixecat el camp de la zona.</li>
   </Flashstorm.rulePack.rulesStrings>
@@ -414,7 +419,7 @@
     <li>image->una espessa boira de puntets negres [circumstance_phrase]</li>
     <li>circumstance_phrase->avancen sobre una [terrainfeature]</li>
     <li>circumstance_phrase->encerclen completament una [Community]</li>
-    <li>circumstance_phrase->ataquen [quantity_adjphrase] [outlander]s</li>
+    <li>circumstance_phrase->ataquen [quantity_adjphrase] [PersonJob_Plural]</li>
     <li>circumstance_phrase->surten del terra</li>
     <li>circumstance_phrase->devoren [quantity_adjphrase] [AnimalAnyPlural]</li>
     <li>desc_sentence->[pawn_nameShortDef] organitza la resistència.</li>
@@ -424,7 +429,7 @@
     <li>desc_sentence->[pawn_nameShortDef] te una expressió [badassadjective].</li>
     <li>desc_sentence->[pawn_nameShortDef] te una expressió [angstyadjective].</li>
     <li>desc_sentence->El terra està cobert de [gore].</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s fugen de la zona.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] fugen de la zona.</li>
     <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] fugen de la zona.</li>
     <li>desc_sentence->Tots els animals han fugit de la zona.</li>
   </Infestation.rulePack.rulesStrings>
@@ -467,7 +472,7 @@
     <li>image->[quantity_adjphrase] ombres quadrupedes [circumstance_phrase]</li>
     <li>circumstance_phrase->avancen sobre una [terrainfeature]</li>
     <li>circumstance_phrase->envolten completament una [Community]</li>
-    <li>circumstance_phrase->ataquen [quantity_adjphrase] [outlander]s</li>
+    <li>circumstance_phrase->ataquen [quantity_adjphrase] [PersonJob_Plural]</li>
     <li>circumstance_phrase->devoren [quantity_adjphrase] [animal]s</li>
     <li>circumstance_phrase->posseïts per la [hate_emotion]</li>
     <li>circumstance_phrase->coberts de [gore]</li>
@@ -481,7 +486,7 @@
     <li>desc_sentence->[pawn_nameShortDef] te una expressió[badassadjective].</li>
     <li>desc_sentence->[pawn_nameShortDef] té una expressió [angstyadjective].</li>
     <li>desc_sentence->El terra està cobert de [gore].</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s fugen de la zona.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] fugen de la zona.</li>
     <li>desc_sentence->[quantity_adjphrase] [animal]s fugen de la zona.</li>
   </ManhunterPack.rulePack.rulesStrings>
   
@@ -582,7 +587,7 @@
     <li>image->un enorme [enemy] [circumstance_phrase]</li>
     <li>circumstance_phrase->avançant sobre una [terrainfeature]</li>
     <li>circumstance_phrase->encerclant completament una [Community]</li>
-    <li>circumstance_phrase->atacant a [quantity_adjphrase] [outlander]s</li>
+    <li>circumstance_phrase->atacant a [quantity_adjphrase] [PersonJob_Plural]</li>
     <li>circumstance_phrase->rugint per la victoria</li>
     <li>circumstance_phrase->brandant [weapon]s</li>
     <li>circumstance_phrase->coberts de [gore]</li>
@@ -594,7 +599,7 @@
     <li>desc_sentence->[pawn_nameShortDef] té una mirada [badassadjective].</li>
     <li>desc_sentence->[pawn_nameShortDef] té una mirada [angstyadjective].</li>
     <li>desc_sentence->El terra està cobert de [gore].</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s fugen de la zona.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] fugen de la zona.</li>
     <li>desc_sentence->[quantity_adjphrase] [animal]s fugen de la zona.</li>
     <li>defender_circumstance->cridant triomfalment</li>
     <li>defender_circumstance->brilla en color [color]</li>
@@ -648,7 +653,7 @@
     <li>image->[quantity_adjphrase] [mechanoid]s amb llumetes de color [color] [circumstance_phrase]</li>
     <li>circumstance_phrase->avançant sobre una [terrainfeature]</li>
     <li>circumstance_phrase->encerclant completament una [Community]</li>
-    <li>circumstance_phrase->atacant [quantity_adjphrase] [outlander]s</li>
+    <li>circumstance_phrase->atacant [quantity_adjphrase] [PersonJob_Plural]</li>
     <li>circumstance_phrase->fent a trossos [quantity_adjphrase] [animal]s</li>
     <li>circumstance_phrase->amb tot de [gore] per sobre</li>
     <li>circumstance_phrase->amb tot de bonys i traient guspires</li>
@@ -661,7 +666,7 @@
     <li>desc_sentence->[pawn_nameShortDef] fe una cara [angstyadjective].</li>
     <li>desc_sentence->El terra està cobert de  [gore].</li>
     <li>desc_sentence->El terra està cobert de trossos de metall.</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s fugen de la zona.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] fugen de la zona.</li>
     <li>desc_sentence->[quantity_adjphrase] [animal]s fugen de la zona.</li>
     <li>defender_circumstance->criden triomfals</li>
     <li>defender_circumstance->brillen de color [color]</li>
@@ -711,7 +716,7 @@
     <li>desc_sentence->[pawn_nameShortDef] s’ho mira amb cara de por.</li>
     <li>desc_sentence->[pawn_nameShortDef] s’ho mira aterroritzat.</li>
     <li>desc_sentence->[pawn_nameShortDef] coordina les tasques de protecció.</li>
-    <li>desc_sentence->[quantity_adjphrase] [outlander]s corren a preparar-se.</li>
+    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] corren a preparar-se.</li>
     <li>desc_sentence->[quantity_adjphrase] [animal]s fugen de la zona.</li>
     <li>desc_sentence->Tota vida animal ha abandonat la zona.</li>
   </Tornado.rulePack.rulesStrings>
@@ -762,7 +767,7 @@
     <li>desc_sentence(p=0.5)->[ATTACKER_nameDef] s’ho mira amb cara de pànic.</li>
     <li>desc_sentence->[COLONIST_nameDef] coordina les mesures de protecció.</li>
     <li>desc_sentence->[ATTACKER_nameDef] riu content.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s corren a preparar-se.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] corren a preparar-se.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s fugen de la zona.</li>
     <li>desc_sentence->La zona ha quedat sense vida animal.</li>
   </TornadoFromItem.rulePack.rulesStrings>

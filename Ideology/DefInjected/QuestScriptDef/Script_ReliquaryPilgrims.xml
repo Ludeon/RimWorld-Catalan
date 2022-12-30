@@ -17,7 +17,22 @@
     <li>factionAdj(pilgrimFaction==true)-></li>
     <li>factionAdj(pilgrimFaction==false)->[faction_pawnSingular]</li>
   -->
-  <ReliquaryPilgrims.questContentRules.rulesStrings>TODO</ReliquaryPilgrims.questContentRules.rulesStrings>
+  <ReliquaryPilgrims.questContentRules.rulesStrings>
+    <li>pilgrimsArrivedLetterLabel->[hasHave] arribat [pilgrimSingularOrPlural] [factionAdj]</li>
+    <li>pilgrimsArrivedLetterText->[questDescription]</li>
+    <li>delayedRewardLetterText->[pawns0_nameDef] us agraeix que li doneu permís[andFollowers] per a venerar la relíquia [relic_name] el [venerateDate]. Com a agraïment, [pawns0_nameDef] us envia el següent amb càpsules de transport (valor total [rewardsMarketValue_money]):\n\n[rewards].</li>
+    <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural] [hasHave] acabat de venerar la relíquia [relic_name] i ja se’n [vaVan].</li>
+    <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural] [hasHave] sortit del mapa.</li>
+    <li>vaVan(pilgrimCount==1)->va</li>
+    <li>vaVan(pilgrimCount>=2)->van</li>
+    <li>andFollowers(pilgrimCount==1)-></li>
+    <li>andFollowers(pilgrimCount==2)->, junt a un altre [faction_pawnSingular],</li>
+    <li>andFollowers(pilgrimCount>=3)->, junt a altres [faction_pawnsPlural],</li>
+    <li>pilgrimSingularOrPlural(pilgrimCount==1)->pelegrí</li>
+    <li>pilgrimSingularOrPlural(pilgrimCount>=2)->pelegrins</li>
+    <li>factionAdj(pilgrimFaction==true)-></li>
+    <li>factionAdj(pilgrimFaction==false)->[faction_pawnSingular]</li>
+  </ReliquaryPilgrims.questContentRules.rulesStrings>
   <!-- EN:
     <li>pilgrimsLabel->[pawns0_nameDef]</li>
     <li>pilgrimsLabelPlural->[faction_pawnsPlural]</li>
@@ -26,7 +41,14 @@
     <li>hasHave(pilgrimCount==1)->has</li>
     <li>hasHave(pilgrimCount>=2)->have</li>
   -->
-  <ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>TODO</ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
+  <ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
+    <li>pilgrimsLabel->[pawns0_nameDef]</li>
+    <li>pilgrimsLabelPlural->[faction_pawnsPlural]</li>
+    <li>pilgrimsLabelSingularOrPlural(pilgrimCount==1)->[pilgrimsLabel]</li>
+    <li>pilgrimsLabelSingularOrPlural(pilgrimCount>=2)->[pilgrimsLabelPlural]</li>
+    <li>hasHave(pilgrimCount==1)->ha</li>
+    <li>hasHave(pilgrimCount>=2)->han</li>
+  </ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
     <li>questDescription(pilgrimCount==1,childCount==1,priority=1)->[pilgrimsLabelSingularOrPlural], a child, [hasHave] arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
@@ -40,7 +62,19 @@
     <li>visitSingularOrPlural(pilgrimCount==1)->visits</li>
     <li>visitSingularOrPlural(pilgrimCount>=2)->visit</li>
   -->
-  <ReliquaryPilgrims.questDescriptionRules.rulesStrings>TODO</ReliquaryPilgrims.questDescriptionRules.rulesStrings>
+  <ReliquaryPilgrims.questDescriptionRules.rulesStrings>
+    <li>questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] arribat per a venerar la relíquia [relic_name].\n\nSi us assegureu que [pronounSingularOrPlural] [isAre] a resguard [sentPelegri] mentre [visitSingularOrPlural] la relíquia, [pronounSingularOrPlural] [mayPelegri] oferir-vos una recompensa.</li>
+    <li>questDescription(pilgrimCount==1,childCount==1,priority=1)->[pilgrimsLabelSingularOrPlural], un nen, [hasHave] arribat per a venerar la relíquia [relic_name].\n\nSi us assegureu que [pronounSingularOrPlural] [isAre] a resguard i [sentPelegrí] mentre [visitSingularOrPlural] la relíquia, [pronounSingularOrPlural] [mayPelegri] oferir-vos una recompensa.</li>
+    <li>questDescription(pilgrimCount>=2,childCount==1,priority=1)->Un grup de [pilgrimsLabelSingularOrPlural] acompanyats d’un nen han arribat per a venerar la relíquia [relic_name].\n\nSi us assegureu que [pronounSingularOrPlural] [isAre] a resguard [sentPelegri] mentre [visitSingularOrPlural] la relíquia, [pronounSingularOrPlural] [mayPelegri] oferir-vos una recompensa.</li>
+    <li>questDescription(pilgrimCount>=2,childCount>=2,allChildren==false,priority=1)->Un grup de [pilgrimsLabelSingularOrPlural] amb alguns nens han arribat per a venerar la relíquia [relic_name].\n\nnSi us assegureu que [pronounSingularOrPlural] [isAre] a resguard [sentPelegri] mentre [visitSingularOrPlural] la relíquia, [pronounSingularOrPlural] [mayPelegri] oferir-vos una recompensa.</li>
+    <li>questDescription(pilgrimCount>=2,allChildren==true,priority=1)->Un grup de nens [pilgrimsLabelSingularOrPlural] han arribat per a venerar la relíquia [relic_name].\n\nnSi us assegureu que [pronounSingularOrPlural] [isAre] a resguard [sentPelegri] mentre [visitSingularOrPlural] la relíquia, [pronounSingularOrPlural] [mayPelegri] oferir-vos una recompensa.</li>
+    <li>isAre(pilgrimCount==1)->està</li>
+    <li>isAre(pilgrimCount>=2)->estan</li>
+    <li>pronounSingularOrPlural(pilgrimCount==1)->[pawns0_pronoun]</li>
+    <li>pronounSingularOrPlural(pilgrimCount>=2)->ells</li>
+    <li>visitSingularOrPlural(pilgrimCount==1)->visita</li>
+    <li>visitSingularOrPlural(pilgrimCount>=2)->visiten</li>
+  </ReliquaryPilgrims.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]'s [visitAdj] [visit]</li>
     <li>questName(pilgrimCount>=2)->[pilgrimsLabelSingularOrPlural] [visitAdj] [visit]</li>
@@ -61,6 +95,35 @@
     <li>visit->tour</li>
     <li>visit->veneration</li>
   -->
-  <ReliquaryPilgrims.questNameRules.rulesStrings>TODO</ReliquaryPilgrims.questNameRules.rulesStrings>
+  <ReliquaryPilgrims.questNameRules.rulesStrings>
+    <li>questName(pilgrimCount==1)->[visit] [visitAdj] de [pilgrimsLabelSingularOrPlural]</li>
+    <li>questName(pilgrimCount==1)->[visit1] [visitAdj1] de [pilgrimsLabelSingularOrPlural]</li>
+    <li>questName(pilgrimCount>=2)->[visit] [visitAdj] de [pilgrimsLabelSingularOrPlural]</li>
+    <li>questName(pilgrimCount>=2)->[visit1] [visitAdj1] de [pilgrimsLabelSingularOrPlural]</li>
+    <li>visitAdj(p=6)-></li>
+    <li>visitAdj->santa</li>
+    <li>visitAdj->sagrada</li>
+    <li>visitAdj->espiritual</li>
+    <li>visitAdj->divina</li>
+    <li>visitAdj->sagrada</li>
+    <li>visitAdj->solemne</li>
+    <li>visitAdj->sacramental</li>
+    <li>visitAdj->santificada</li>
+    <li>visitAdj1->sant</li>
+    <li>visitAdj1->sagrat</li>
+    <li>visitAdj1->espiritual</li>
+    <li>visitAdj1->diví</li>
+    <li>visitAdj1->sagrat</li>
+    <li>visitAdj1->solemne</li>
+    <li>visitAdj1->sacramental</li>
+    <li>visitAdj1->santificat</li>
+    <li>visit->la visita</li>
+    <li>visit1->el pelegrinatge</li>
+    <li>visit->la missió</li>
+    <li>visit1->l’expedició</li>
+    <li>visit1->l’excursió</li>
+    <li>visit->el tour</li>
+    <li>visit1->la veneració</li>
+  </ReliquaryPilgrims.questNameRules.rulesStrings>
   
 </LanguageData>

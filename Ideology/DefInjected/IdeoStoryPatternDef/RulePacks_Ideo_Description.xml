@@ -157,7 +157,7 @@
     <li>lesson(priority=-1)->passen coses</li>
     <li>r_pattern->"[r_lessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  ‒ [lessonAttribution]</li>
     <li>lessonAttribution->[founder_nameFull]</li>
-    <li>lessonAttribution(p=2)->[attributionSource_titleCase] per [founder_nameFull]</li>
+    <li>lessonAttribution(p=2)->[attributionSource_titleCase], de [founder_nameFull]</li>
     <li>lessonAttribution->Carta de [founder_nameFull] per a [believer_nameFull]</li>
     <li>lessonAttribution->[founder_nameFull], del discurs inagural de [memeConference_titleCase]</li>
     <li>lessonAttribution->[founder_nameFull], quan estava a punt de morir-se al llit</li>
@@ -215,7 +215,7 @@
     <li>lessonIntro->Us ho dic no pas perquè pugueu viure la vida que he viscut jo, sinó perquè aprengueu el que he après jo. Que</li>
     <li>lessonIntro->Una vegada que [doctor] acabí la seva tasca horripilant, vaig saber que</li>
     <li>lessonIntro->Passaven els anys a [place_name] [place_summary] i una cosa cada vegada fou més clara: que</li>
-    <li>lessonIntro->Mirant cap al passat, tant de bo me n’hagués donat compte més aviat que</li>
+    <li>lessonIntro->Mirant cap al passat, tant de bo me n’hagués adonat més aviat que</li>
     <li>lessonIntro->Semblaven perduts. Els diguí que</li>
     <li>lessonIntro->Imploraven que algú els guiés. Els vaig mostrar que</li>
     <li>thrownObject->un llibre</li>
@@ -262,8 +262,8 @@
     <li>revelationObject->an ancient [Weapon]</li>
   -->
   <TheistFounder.rules.rulesStrings>
-    <li>intro->La gent de [place_name] [place_summary] vivia sota la supervisió [memeAdjective] de [deity0_name].</li>
-    <li>intro->La gent de [place_name] [place_summary], tant [memberNamePlural] com els altres, visqueren en pau durant molts anys sota l’ull que tot ho veu de [deity0_name].</li>
+    <li>intro->La gent de [place_name], [place_summary], vivia sota la supervisió dels [memeAdjective] de [deity0_name].</li>
+    <li>intro->La gent de [place_name], [place_summary], tant [memberNamePlural] com els altres, visqueren en pau durant molts anys sota l’ull que tot ho veu de [deity0_name].</li>
     <li>intro->El [deity0_type], [deity0_name], es mostrà a la gent de [place_name] per a què entenguessin el [memeConcept] i els guià.</li>
     <li>intro->[deity0_name] guià la humanitat a [place_name] i els ajudà a establir-s’hi.</li>
     <li>intro->Al [place_name] [place_summary], durant el [ritualName], la gent es dirigí a [altarName] al [altarRoomLabel] de [deity0_name] i pregaren amb [memeConcept] als seus cors.</li>
@@ -272,11 +272,11 @@
     <li>conflict->Llavors, arribà [foeLeader]. Els seus [foeSoldiers] mataren molts seguidors de [deity0_name] amb [place_personalWeapon]s.</li>
     <li>conflict->Un grup de [foeSoldiers] es van alçar contra [foeLeader]. Van atrapar els [memberNamePlural] en una sola [place_community].</li>
     <li>conflict->Hi havia pau, fins que un [foeLeader] i els seus [foeSoldiers] es rebel·laren contra el domini de [deity0_name]. Els [memberNamePlural] van haver de fugir i amagar-se a [place_community].</li>
-    <li>founderJoin->[founder_Un_heroi] que es deia [founderName] provà d'assassinar el [foeLeader]. Fallà, però [deity0_name] presencià la lluita de [founderName] i [founder_el] va escollir com al seu profeta dels [memberNamePlural].</li>
+    <li>founderJoin->[founder_Un_heroi] que es deia [founderName] provà d’assassinar el [foeLeader]. Fallà, però [deity0_name] presencià la lluita de [founderName] i [founder_el] va escollir com al seu profeta dels [memberNamePlural].</li>
     <li>founderJoin->[deity0_name] anà a trobar al [place_job] [founderName] [revelationAdverb] i li parlà sobre [memeConcept].</li>
     <li>founderJoin->[founderName] trobà [revelationObject], que parlà amb la veu de [deity0_name] sobre [memeConcept].</li>
     <li>founderJoin->[founder_Un] reconegu[founder_t_da] [place_job] que es deia [founderName] uní els [memberNamePlural] i fins i tot reclutà alguns dels [foeSoldiers] enemics.</li>
-    <li>founderJoin->[founder_Un] [place_job] que es deia [founderName] s'aixecà i parla contra el [foeLeader] i [deity0_name] [founder_el] beneí.</li>
+    <li>founderJoin->[founder_Un] [place_job] que es deia [founderName] s’aixecà i parla contra el [foeLeader] i [deity0_name] [founder_el] beneí.</li>
     <li>founderJoin->[deity0_name] decidí anar a [place_name] com a un humà que es deia [founderName] per a ajudar els [memberNamePlural].</li>
     <li>founderJoin->[founder_Un_heroi] que es deia [founderName] va matar un centenar de [foeSoldiers] amb [place_personalWeapon] i [deity0_name] [founder_el] guià parlant-li a través [relic0_del] [relic0_name].</li>
     <li>victory->[founderName] reuní els [memberNamePlural] en un [place_community] i els ensenyà la saviesa de [deity0_name].</li>
@@ -316,7 +316,7 @@
     <li>creation->En un antic univers conflictiu, [deity0_name] féu cremar-ho tot amb el seu foc i destruí tot el que hi havia d’aquella època. I, després, en començà una de nova des de zero.</li>
     <li>creation->[deity0_name] donà vida als humans per casualitat i els mirà amb curiositat.</li>
     <li>creation->L’univers era un buit. Fou llavors quan [deity0_name], avorri[deity0_t_da] per l’eternitat, creà l’home i la dona [bodilyOrigin].</li>
-    <li>episode(uses=1)->Mentre contemplava la humanitat, [deity0_name] els considerà uns infants i declarà que [deity0_name] en tenia domini.</li>
+    <li>episode(uses=1)->Mentre contemplava la humanitat, [deity0_name] els considerà uns infants i declarà que [deity0_name] n’era el seu amo.</li>
     <li>episode(uses=1)->A través de les grans distàncies estel·lars, la voluntat de [deity0_name] protegir la vida de la humanitat i la defensà del buit.</li>
     <li>episode(uses=1)->Encara que molts aventurers es rebel·laren contra [deity0_objective], [deity0_name] els evità, perquè [deity0_pronoun] és [deity0_type].</li>
     <li>episode(uses=1)->El sofriment de la humanitat fa que [deity0_name] pateixi una gran pena.</li>

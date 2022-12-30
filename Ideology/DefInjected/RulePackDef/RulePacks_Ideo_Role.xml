@@ -15,7 +15,17 @@
     <li>secondPart(p=4)->kin</li>
     <li>secondPart(p=4)->touch</li>
   -->
-  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings>TODO</NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
+  <NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
+    <li>r_roleName->criaturer</li>
+    <li>r_roleName->animaler</li>
+    <li>firstPart->de pells</li>
+    <li>firstPart->d’urpes</li>
+    <li>firstPart->de potes</li>
+    <li>firstPart->de cues</li>
+    <li>firstPart->de bigotis</li>
+    <li>firstPart->d’ullals</li>
+    <li>firstPart->salvatge</li>
+  </NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_roleName->berserker</li>
@@ -33,7 +43,18 @@
     <li>firstPart->smash</li>
     <li>firstPart->crush</li>
   -->
-  <NamerRoleBrawler.rulePack.rulesStrings>TODO</NamerRoleBrawler.rulePack.rulesStrings>
+  <NamerRoleBrawler.rulePack.rulesStrings>
+    <li>r_roleName->berserker</li>
+    <li>firstPart->dels cops</li>
+    <li>firstPart->de la contusió</li>
+    <li>firstPart->dels ganivets</li>
+    <li>firstPart->de lluita</li>
+    <li>firstPart->dels artells</li>
+    <li>firstPart->de llances</li>
+    <li>firstPart->d’espases</li>
+    <li>firstPart->dels garrots</li>
+    <li>firstPart->dels talls</li>
+  </NamerRoleBrawler.rulePack.rulesStrings>
   
   <!-- EN:
     <li>firstPart->health</li>
@@ -45,7 +66,16 @@
     <li>firstPart->surgo</li>
     <li>firstPart->clinic</li>
   -->
-  <NamerRoleMedicalSpecialist.rulePack.rulesStrings>TODO</NamerRoleMedicalSpecialist.rulePack.rulesStrings>
+  <NamerRoleMedicalSpecialist.rulePack.rulesStrings>
+    <li>firstPart->de la salut</li>
+    <li>firstPart->de la guarició</li>
+    <li>firstPart->cardiovascular</li>
+    <li>firstPart->mèdic</li>
+    <li>firstPart->del bisturí</li>
+    <li>firstPart->de la infermeria</li>
+    <li>firstPart->de la cirurgia</li>
+    <li>firstPart->clínic</li>
+  </NamerRoleMedicalSpecialist.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_roleName->spelunker</li>
@@ -63,7 +93,19 @@
     <li>firstPart->tunnel</li>
     <li>firstPart->crack</li>
   -->
-  <NamerRoleMiner.rulePack.rulesStrings>TODO</NamerRoleMiner.rulePack.rulesStrings>
+  <NamerRoleMiner.rulePack.rulesStrings>
+    <li>r_roleName->espeleòleg</li>
+    <li>firstPart->miner</li>
+    <li>firstPart->de les profunditats</li>
+    <li>firstPart->de les roques</li>
+    <li>firstPart->de les coves</li>
+    <li>firstPart->dels pics</li>
+    <li>firstPart->de les perforacions</li>
+    <li>firstPart->de les pedres</li>
+    <li>firstPart->de les cavernes</li>
+    <li>firstPart->dels forats</li>
+    <li>firstPart->dels túnels</li>
+  </NamerRoleMiner.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_roleName(p=4)->[memeMoralist]</li>
@@ -75,7 +117,16 @@
     <li>r_roleName->[chosenAdjective] [memeMoralist]</li>
     <li>r_roleName->[keyDeity]'s [memeMoralist]</li>
   -->
-  <NamerRoleMoralist.rulePack.rulesStrings>TODO</NamerRoleMoralist.rulePack.rulesStrings>
+  <NamerRoleMoralist.rulePack.rulesStrings>
+    <li>r_roleName(p=4)->[memeMoralist]</li>
+    <li>r_roleName(p=2)->[memeMoralist] [memeAdjective]</li>
+    <li>r_roleName->[memeMoralist] de [chosenTheme]</li>
+    <li>r_roleName->[memeMoralist] de [keyDeity]</li>
+    <li>r_roleName->[memeMoralist] de [memeConceptDef]</li>
+    <li>r_roleName->[memeMoralist] de [chosenIdeoName]</li>
+    <li>r_roleName->[memeMoralist] [chosenAdjective]</li>
+    <li>r_roleName->[memeMoralist] de [keyDeity]</li>
+  </NamerRoleMoralist.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_roleName->manufactor</li>
@@ -87,7 +138,15 @@
     <li>firstPart->manu</li>
     <li>firstPart->make</li>
   -->
-  <NamerRoleProductionSpecialist.rulePack.rulesStrings>TODO</NamerRoleProductionSpecialist.rulePack.rulesStrings>
+  <NamerRoleProductionSpecialist.rulePack.rulesStrings>
+    <li>r_roleName->fabricant</li>
+    <li>r_roleName->manetes</li>
+    <li>r_roleName->elaborador</li>
+    <li>firstPart->manufacturer</li>
+    <li>firstPart-></li>
+    <li>firstPart-></li>
+    <li>firstPart-></li>
+  </NamerRoleProductionSpecialist.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_roleName->highmind</li>
@@ -101,7 +160,17 @@
     <li>firstPart->cogito</li>
     <li>firstPart->idea</li>
   -->
-  <NamerRoleResearcher.rulePack.rulesStrings>TODO</NamerRoleResearcher.rulePack.rulesStrings>
+  <NamerRoleResearcher.rulePack.rulesStrings>
+    <li>r_roleName->erudit</li>
+    <li>r_roleName->savi</li>
+    <li>r_roleName->pensador</li>
+    <li>r_roleName->aprenent</li>
+    <li>firstPart->de la ment</li>
+    <li>firstPart->de pensaments</li>
+    <li>firstPart->de les neurones</li>
+    <li>firstPart->d’idees</li>
+    <li>firstPart->de pensaments</li>
+  </NamerRoleResearcher.rulePack.rulesStrings>
   
   <!-- EN:
     <li>firstPart->gun</li>
@@ -115,7 +184,15 @@
     <li>firstPart->shoot</li>
     <li>secondPart(p=4)->slinger</li>
   -->
-  <NamerRoleShooter.rulePack.rulesStrings>TODO</NamerRoleShooter.rulePack.rulesStrings>
+  <NamerRoleShooter.rulePack.rulesStrings>
+    <li>firstPart->d’armes</li>
+    <li>firstPart->disparador</li>
+    <li>firstPart->de gatells</li>
+    <li>firstPart->de bales</li>
+    <li>firstPart->de projectils</li>
+    <li>firstPart->de precisió</li>
+    <li>firstPart->de tirs</li>
+  </NamerRoleShooter.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_roleName->fertilizer</li>
@@ -134,7 +211,20 @@
     <li>firstPart->soil</li>
     <li>firstPart->root</li>
   -->
-  <NamerRoleSower.rulePack.rulesStrings>TODO</NamerRoleSower.rulePack.rulesStrings>
+  <NamerRoleSower.rulePack.rulesStrings>
+    <li>r_roleName->fertilitzador</li>
+    <li>firstPart->de fulles</li>
+    <li>firstPart->de les plantes</li>
+    <li>firstPart->dels brots</li>
+    <li>firstPart->jardiner</li>
+    <li>firstPart->de flors</li>
+    <li>firstPart->d’herbes</li>
+    <li>firstPart->de cultius</li>
+    <li>firstPart->de granges</li>
+    <li>firstPart->de terres</li>
+    <li>firstPart->de llavors</li>
+    <li>firstPart->d’arrels</li>
+  </NamerRoleSower.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_roleName(p=7)->[firstPart][secondPart]</li>
@@ -163,6 +253,22 @@
     <li>secondPart->izer</li>
     <li>secondPart->iner</li>
   -->
-  <NamerRoleSpecialistUtility.rulePack.rulesStrings>TODO</NamerRoleSpecialistUtility.rulePack.rulesStrings>
+  <NamerRoleSpecialistUtility.rulePack.rulesStrings>
+    <li>r_roleName(p=7)->[secondPart] [firstPart]</li>
+    <li>secondPart->mestre</li>
+    <li>secondPart->fabricant</li>
+    <li>secondPart->mentor</li>
+    <li>secondPart->geni</li>
+    <li>secondPart->observador</li>
+    <li>secondPart->operari</li>
+    <li>secondPart->funcionari</li>
+    <li>secondPart->portador</li>
+    <li>secondPart->xarlatà</li>
+    <li>secondPart->tenidor</li>
+    <li>secondPart->savi</li>
+    <li>secondPart->amant</li>
+    <li>secondPart->practicant</li>
+    <li>secondPart->expert</li>
+  </NamerRoleSpecialistUtility.rulePack.rulesStrings>
   
 </LanguageData>

@@ -22,7 +22,27 @@
     <li>introduction(childCount==1,priority=1)->A [joiner_age]-year-old child</li>
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
-  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
+  <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->[introduction] que es diu [joiner_nameFull] us demana ajuda! [joiner_pronoun] s’amaga [hidingFrom] i vol fugir i unir-se a la vostra colònia de [map_definite].[joiner_relationInfo]\n\n[condDesc]\n\nCom que està desespera[joiner_t] i vol continuar amaga[joiner_t], [joiner_nameDef] diu que no us pot explicar res més sobre què li ha passat.</li>
+    <li>hidingFrom(gameCondition==ToxicFallout)->d’una manada de llops famolencs</li>
+    <li>condDesc(gameCondition==ToxicFallout)->Malauradament, [joiner_nameDef] només pot matar els llops si cala foc a una gran massa d’una substància tòxica abocada a prop. I, després, la zona patirà pluja tòxica durant [gameConditionDuration_duration].</li>
+    <li>hidingFrom(gameCondition==VolcanicWinter)->una banda de caníbals</li>
+    <li>condDesc(gameCondition==VolcanicWinter)->Malauradament, [joiner_nameDef] només pot matar la banda si cala foc a un abocador de brossa abandonat que hi ha a prop. Si [joiner_pronoun] s’uneix a la vostra colònia, el fum blocarà el sol durant [gameConditionDuration_duration].</li>
+    <li>hidingFrom(gameCondition==EMIField)->un grup de mecanoides</li>
+    <li>condDesc(gameCondition==EMIField)->Malauradament, [joiner_nameDef] només pot destruir els mecanoides si activa una dinamo IEM antiga. Si l’accepteu a l’assentament, es generarà un camp IEM que apagarà tots els dispositius elèctrics durant [gameConditionDuration_duration].</li>
+    <li>hidingFrom(gameCondition==HeatWave)->un satèl·lit regulador de la temperatura que funciona malament</li>
+    <li>condDesc(gameCondition==HeatWave)->Si l’accepteu a l’assentament, patireu una onada de calor intensa que durarà [gameConditionDuration_duration] fins que es restableixi el satèl·lit.</li>
+    <li>hidingFrom(gameCondition==ColdSnap)->un satèl·lit regulador de la temperatura que no funciona bé</li>
+    <li>condDesc(gameCondition==ColdSnap)->Si l’accepteu a l’assentament, patireu una onada de fred intensa que durarà [gameConditionDuration_duration] fins que es recuperi el control del satèl·lit.</li>
+    <li>hidingFrom(gameCondition==WeatherController)->un satèl·lit controlador del clima que no funciona bé</li>
+    <li>condDesc(gameCondition==WeatherController)->Si l’accepteu a l’assentament, l’estat meteorològic serà de [forcedWeather_label] durant [gameConditionDuration_duration], quan es podrà recuperar el control del satèl·lit.</li>
+    <li>hidingFrom(gameCondition==PsychicDrone)->una IA que vol venjar-se d’[joiner_pronoun] perquè l’ha ofès fa poc</li>
+    <li>condDesc(gameCondition==PsychicDrone)->Si l’accepteu a l’assentament, la ment artificial cobrirà [map_definite] amb un brunzit psíquic de nivell [psychicDroneLevel] durant [gameConditionDuration_duration] i l’estat d’ànim dels [psychicDroneGender]s empitjorarà.</li>
+    <li>hidingFrom(gameCondition==PsychicSuppression)->una IA hostil a qui ha despertat fa poc</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->Si l’accepteu a l’assentament, la IA emetrà a [map_definite] ones de supressió psíquica durant [gameConditionDuration_duration] i la consciència dels [psychicSuppressorGender]s es reduirà.</li>
+    <li>introduction(childCount==1,priority=1)->[joiner_Un] nen[joiner_x_a] de [joiner_age] anys</li>
+    <li>introduction->[joiner_Un] [joiner_title] que té [joiner_age] anys</li>
+  </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [gameCondition_label]</li>
     <li>questName->[joiner_nameDef] and the [gameCondition_label]</li>
@@ -39,7 +59,11 @@
     <li>introduction(childCount==1,priority=1)->A [joiner_age]-year-old child</li>
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
-  <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
+  <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->[introduction] que es diu [joiner_nameDef] us demana ajuda. [joiner_pronoun] diu que va enverinar una colònia d’insectes subterrània, però ara està empapa[joiner_t] de feromones d’insectes i ara l’està perseguint un eixam!\n\n[joiner_pronoun] us implora que li deixeu unir-se a la colònia de [map_definite].[joiner_relationInfo]\n\nSi accepteu, haure deu fer front a (*Threat)una plaga de [hivesCount] eixams(/Threat) que començarà d’aquí a [infestationDelayTicks_duration].\n\n[joiner_nameDef] està massa altera[joiner_t] per a poder-ne obtenir més informació.</li>
+    <li>introduction(childCount==1,priority=1)->[joiner_Un] nen[joiner_x_a] de [joiner_age] anys</li>
+    <li>introduction->[joiner_Un] [joiner_title] que té [joiner_age] anys</li>
+  </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s infestation</li>
     <li>questName->[joiner_nameDef]'s hives</li>
@@ -66,7 +90,14 @@
     <li>introduction(childCount==1,priority=1)->A [joiner_age]-year-old child</li>
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
-  <ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
+  <ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription(animalCount==1)->[introduction] que es diu [joiner_nameDef] us demana ajuda. Està per la zona i diu que [animal_un] (*Threat)[animalKind_label] caçapersones(/Threat) [joiner_el] persegueix!\n\nUs demana que l’acolliu a la colònia de [map_definite] i [joiner_el] protegiu.[joiner_relationInfo]\n\nSi accepteu [joiner_nameDef], [animal_el] [animalKind_label] caçapersones arribarà d’aquí a [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] està massa altera[joiner_t] com per a aconseguir-ne més informació.</li>
+    <li>manhunterArrivalLetterEnd(animalCount==1)->[animal_el] [animalKind_label] persegueix [joiner_nameDef].</li>
+    <li>questDescription(animalCount>=2)->[introduction] que es diu [joiner_nameDef] us demana ajuda. Està per la zona i diu que (*Threat)un grup de [animalCount] [animalKind_labelPlural] caçapersones(/Threat) [joiner_el] persegueixen!\n\nUs demana que l’acolliu a la colònia de [map_definite] i [joiner_el] protegiu.[joiner_relationInfo]\n\nSi accepteu [joiner_nameDef], els [animalKind_labelPlural] caçapersones arribarà d’aquí a [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] està massa altera[joiner_t] com per a aconseguir-ne més informació.</li>
+    <li>manhunterArrivalLetterEnd(animalCount>=2)->Els [animalKind_labelPlural] persegueixen [joiner_nameDef].</li>
+    <li>introduction(childCount==1,priority=1)->[joiner_Un] nen[joiner_x_a] de [joiner_age] anys</li>
+    <li>introduction->[joiner_Un] [joiner_title] que té [joiner_age] anys</li>
+  </ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(animalCount==1)->[joiner_nameDef]'s [animalKind_label]</li>
     <li>questName(animalCount==1)->[joiner_nameDef] and the [animalKind_label]</li>
@@ -75,7 +106,14 @@
     <li>questName(animalCount>=2)->[joiner_nameDef] and the [animalKind_labelPlural]</li>
     <li>questName(animalCount>=2)->the [animalKind_labelPlural] and [joiner_nameDef]</li>
   -->
-  <ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>TODO</ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>
+  <ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>
+    <li>questName(animalCount==1)->{animal_el} [animalKind_label] de [joiner_nameDef]</li>
+    <li>questName(animalCount==1)->[joiner_nameDef] i [animal_el] [animalKind_label]</li>
+    <li>questName(animalCount==1)->[animal_el] [animalKind_label] i [joiner_nameDef]</li>
+    <li>questName(animalCount>=2)->Els [animalKind_labelPlural] de [joiner_nameDef]</li>
+    <li>questName(animalCount>=2)->[joiner_nameDef] i els [animalKind_labelPlural]</li>
+    <li>questName(animalCount>=2)->Els [animalKind_labelPlural] i [joiner_nameDef]</li>
+  </ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>{BASELABEL}: Perseguint a [joiner_nameDef]</ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>
   <!-- EN: {BASETEXT}\n\n[manhunterArrivalLetterEnd] -->
@@ -86,7 +124,11 @@
     <li>introduction(childCount==1,priority=1)->A [joiner_age]-year-old child</li>
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
-  <ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
+  <ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->[introduction] que es diu [joiner_nameDef] us demana ajuda. Està a prop i vol unir-se a la colònia de [map_definite].[joiner_relationInfo]\n\nHi ha alguna amenaça que [joiner_el] persegueix, però no us vol dir què és ni quan trigarà a arribar. Tampoc vol parlar d’[joiner_pronoun] mateix[joiner_x_a].</li>
+    <li>introduction(childCount==1,priority=1)->[joiner_Un] nen[joiner_x_a] de [joiner_age] anys</li>
+    <li>introduction->[joiner_Un] [joiner_title] que té [joiner_age] anys</li>
+  </ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [problem]</li>
     <li>questName->The [problem] of [joiner_nameDef]</li>
@@ -104,26 +146,30 @@
   <!-- EN: {BASELABEL} chasing [joiner_nameDef] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>{BASELABEL} perseguint a [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_pronoun] was supposed to marry the child of [enemyFaction_leader_nameFull], leader of [enemyFaction_name]. [joiner_pronoun] became drunk before the ceremony and vomited on the altar - a flagrant insult towards [enemyFaction_leader_nameDef]'s whole family.\n    \n[enemyFaction_leader_nameDef] swore to seek revenge on [joiner_nameDef] and all those associated with [joiner_objective], and sent [enemyFaction_pawnsPlural] to carry out the task.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>TODO</ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>[joiner_nameDef] ha admès de què fugia.\n    \n[joiner_pronoun] s’havia de casar amb un fill de [enemyFaction_leader_nameFull], líder de [enemyFaction_name]. [joiner_pronoun] s’emborratxà abans de la cerimònia i va vomitar a l’altar, un insult flagrant cap a tota la família de [enemyFaction_leader_nameDef].\n    \n[enemyFaction_leader_nameDef] jurà que es venjaria de [joiner_nameDef] i tothom que hi estigués a prop i envià a [enemyFaction_pawnsPlural] perquè fessin la feina.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>{BASELABEL}: Perseguint a [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef], greedy for the pleasures and money insect jelly can bring, intended to destroy a massive insect hive using poison. [joiner_pronoun] failed, but was doused in insect threat pheromones. Insects have been hunting [joiner_objective] ever since. Now they've launched their final attack.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>TODO</ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>[joiner_nameDef] ha admès de què fugia.\n    \n[joiner_nameDef], avariciós dels plaers i dels diners que es poden aconseguir amb la mel d’insectes, intentà destruir un nou d’insectes enorme amb verí. Fallà i va acabar cobert de feromones que provocaven senyals d’amenaça als insectes. Els insectes l’han perseguit des de llavors. Ara, l’atacaran per última vegada.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>
   <!-- EN: Site appeared to harass [joiner_nameDef]: [site_label] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>Lloc que ha aparegut per a assetjar [joiner_nameDef]: [site_label]</ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] happened upon [enemyFaction_leader_nameFull], leader of [enemyFaction_name], sick on the side of the road. [joiner_nameDef] insulted [enemyFaction_leader_nameDef] by comparing [enemyFaction_leader_objective] to a [Animal].\n    \nNow [enemyFaction_leader_nameDef]'s [enemyFaction_pawnsPlural] are activating a site nearby to harass you.\n    \n[allSitePartsDescriptions] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>TODO</ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>[joiner_nameDef] ha admès de què fugia.\n    \n[joiner_nameDef] viatjava quan es trobà amb [enemyFaction_leader_nameFull], líder de [enemyFaction_name], borratxo a un costat del camí. [joiner_nameDef] insultà a [enemyFaction_leader_nameDef] comparant-lo amb un [Animal].\n    \nAra, els [enemyFaction_pawnsPlural] de [enemyFaction_leader_nameDef] han acampat a prop per a assetjar-lo.\n    \n[allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>{BASELABEL}: Perseguint a [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] came upon a lost group of [animalKind_labelPlural]. [joiner_pronoun], in a bad mood, goaded the [animalKind_labelPlural]. Unexpectedly, they attacked [joiner_objective]. And they have followed [joiner_objective] a long distance.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>TODO</ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>[joiner_nameDef] ha admès de què fugia.\n    \n[joiner_nameDef] es va trobar un grup de [animalKind_labelPlural] durant un dels seus viatges. [joiner_pronoun], de males maneres, provocà als [animalKind_labelPlural]. Inesperadament, van atacar-lo. I l’han seguit des de molt lluny.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>
   
   <!-- EN:
     <li>questDescription->[introduction] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] admits [joiner_pronoun] profaned a peace ritual between [raid1/enemyFaction_name] and [raid2/enemyFaction_name]. Now they are both chasing [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], both [raid1/enemyFaction_name] and [raid2/enemyFaction_name] will raid you in [raidDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
     <li>introduction(childCount==1,priority=1)->A [joiner_age]-year-old child</li>
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
-  <ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
+  <ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->[introduction] que es deia [joiner_nameDef] us truca des dels voltants. [joiner_pronoun] admet que ha profanat un ritual de pau entre [raid1/enemyFaction_name] i [raid2/enemyFaction_name]. Ara, les dues faccions el persegueixen!\n\n[joiner_pronoun] us implora que el protegiu i s’ofereix per a unir-se a l’assentament de [map_definite].[joiner_relationInfo]\n\nSi accepteu a [joiner_nameDef], tant [raid1/enemyFaction_name] como [raid2/enemyFaction_name] us assaltaran d’aquí [raidDelayTicks_duration].\n\n[joiner_nameDef] està massa altera[joiner_t] per a poder-ne obtenir més informació.</li>
+    <li>introduction(childCount==1,priority=1)->[joiner_Un] nen[joiner_x_a] de [joiner_age] anys</li>
+    <li>introduction->[joiner_Un] [joiner_title] que té [joiner_age] anys</li>
+  </ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s Many Friends</li>
     <li>questName->[joiner_nameDef]'s Many Enemies</li>
@@ -154,7 +200,19 @@
     <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->mechanoids</li>
     <li>joinersEnemies->[joiner_possessive] enemies</li>
   -->
-  <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>TODO</ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
+  <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
+    <li>questDescription->[introduction] que es diu [joiner_nameFull] us truca des d’algun lloc proper. [joiner_pronoun] s’amaga de [threat]. Vol sortir del seu amagatall i unir-se al vostre assentament de [map_definite].[joiner_relationInfo]\n\nSi l’accepteu, [joinersEnemies] establiran un campament a prop per a assetjar-vos. [site/allSitePartsDescriptions]\n\nL’amenaça serà permanent fins que destruïu el campament.</li>
+    <li>introduction(childCount==1,priority=1)->[joiner_Un] nen[joiner_x_a] de [joiner_age] anys</li>
+    <li>introduction->[joiner_Un] [joiner_title] que té [joiner_age] anys</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_pawnsPlural] de [site/enemyFaction_name]</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->mecanoides</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mecanoides</li>
+    <li>threat->enemics</li>
+    <li>joinersEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
+    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->mecanoides</li>
+    <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->mecanoides</li>
+    <li>joinersEnemies->els seus enemics</li>
+  </ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[joiner_nameDef]'s [site/site_label]</li>
     <li>questName->[joiner_nameDef] and the [site/site_label]</li>

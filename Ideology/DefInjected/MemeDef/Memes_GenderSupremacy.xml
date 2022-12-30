@@ -19,7 +19,20 @@
     <li>animistFact(tag=meme_FemaleSupremacy)     ->The wisest spirits are those of women, who should use their wisdom to lead men.</li>
     <li>animistProphecy(tag=meme_FemaleSupremacy) ->[itIsSaid] that a powerful spirit of destruction will end the universe, but that a woman will wield the spirit of the [relic0_name] recreate the universe anew.</li>
   -->
-  <FemaleSupremacy.descriptionMaker.rules.rulesStrings>TODO</FemaleSupremacy.descriptionMaker.rules.rulesStrings>
+  <FemaleSupremacy.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_FemaleSupremacy)       ->[deity0_name] donà saviesa a les dones per tal que guiïn i harmonitzin als homes i nens i lluitin en contra de qui vulgui canviar aquest ordre diví.</li>
+    <li>episode(uses=1,tag=meme_FemaleSupremacy) ->Les dones creients, abusades i oprimides per homes depravats, lluitaren contra ells i [deity0_name] els donà ajuda divina per tal que s’alcessin i ocupessin el seu lloc.</li>
+    <li>setup(tag=meme_FemaleSupremacy)          ->En un món governat per homes avariciosos i violents que abusaven de tota la humanitat per a sentir-se superiors, [founderName] organitzà una reunió de dones poderoses i començà a treballar per a construir un món millor per a tothom.</li>
+    <li>story(uses=1,tag=meme_FemaleSupremacy)   ->Els homes creients es queixaren i lluitaren; per això [founderName] els expulsà del consell de líders.</li>
+    <li>lessonIntro(tag=meme_FemaleSupremacy)         ->Una vegada més, un home explicava com fer el que jo havia fet. Només aconseguí convèncer-me més de que</li>
+    <li>lesson(tag=meme_FemaleSupremacy)              ->les dones són les úniques amb la saviesa i força per a governar</li>
+    <li>lessonReinforcement(tag=meme_FemaleSupremacy) ->Les dones, que són més sàvies, ho descobriren molt més aviat que els homes, violents i irascibles.</li>
+    <li>archistBasis(tag=meme_FemaleSupremacy)    ->La humanitat donà a llum als arcotècnics i els nodrí perquè creixessin i superessin a les seves mares.</li>
+    <li>archistFact(tag=meme_FemaleSupremacy)     ->Els arcotècnics nodreixen a la humanitat, encara que la humanitat no ho entén.</li>
+    <li>archistProphecy(tag=meme_FemaleSupremacy) ->[inTheEnd], els arcotècnics tornaran a buscar les seves mares i els ensenyaran com fer el proper pas de l’evolució humana.</li>
+    <li>animistFact(tag=meme_FemaleSupremacy)     ->Els esperits més savis són els de les dones, que han de fer servir les seves habilitats per a liderar la humanitat.</li>
+    <li>animistProphecy(tag=meme_FemaleSupremacy) ->[itIsSaid] que un esperit destructiu poderós acabarà amb l’univers, però que una dona farà servir l’esperit de [relic0_name] per a crear un univers nou.</li>
+  </FemaleSupremacy.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->feminine</li>
     <li>memeAdjective->womanly</li>
@@ -32,7 +45,18 @@
     <li>memeGod->Mother</li>
     <li>memeLeaderNoun->woman</li>
   -->
-  <FemaleSupremacy.generalRules.rulesStrings>TODO</FemaleSupremacy.generalRules.rulesStrings>
+  <FemaleSupremacy.generalRules.rulesStrings>
+    <li>memeAdjective->femení</li>
+    <li>memeAdjective->donívol</li>
+    <li>memeHyphenPrefix->dona</li>
+    <li>memeHyphenPrefix->fem</li>
+    <li>memeHyphenPrefix->gino</li>
+    <li>memeHyphenPrefix->matri</li>
+    <li>memeConcept->dona</li>
+    <li>memeConcept->feminitat</li>
+    <li>memeGod->Mare</li>
+    <li>memeLeaderNoun->dona</li>
+  </FemaleSupremacy.generalRules.rulesStrings>
   <!-- EN: gynist -->
   <FemaleSupremacy.symbolPacks.0.adjective>ginista</FemaleSupremacy.symbolPacks.0.adjective>
   <!-- EN: Gynism -->
@@ -69,7 +93,7 @@
   <!-- EN: male supremacy -->
   <MaleSupremacy.label>supremacia masculina</MaleSupremacy.label>
   <!-- EN: Men are the superior gender and should rule. -->
-  <MaleSupremacy.description>TODO</MaleSupremacy.description>
+  <MaleSupremacy.description>Els homes són el gènere superior i han de manar.</MaleSupremacy.description>
   <!-- EN:
     <li>creation(tag=meme_MaleSupremacy)        ->[deity0_name] gave strength to men, that they may protect and maintain the weak women and children, and admonished those who upset this divine order.</li>
     <li>episode(uses=1,tag=meme_MaleSupremacy)  ->[deity0_name] said to all, "The strength of man is given that he may protect and maintain woman, and she shall never usurp his power."</li>
@@ -84,7 +108,20 @@
     <li>animistFact(tag=meme_MaleSupremacy)     ->The most powerful spirits are those of men, and spirits of men will be restless unless men rule.</li>
     <li>animistProphecy(tag=meme_MaleSupremacy) ->[itIsSaid] that a powerful spirit of destruction will seek to end the universe, but that a man will wield the spirit of the [relic0_name] and destroy the destroyer.</li>
   -->
-  <MaleSupremacy.descriptionMaker.rules.rulesStrings>TODO</MaleSupremacy.descriptionMaker.rules.rulesStrings>
+  <MaleSupremacy.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_MaleSupremacy)        ->[deity0_name] donà força als homes, els ordenà protegir i mantenir als nens i les dones i lluitar contra qui anés contra aquesta ordre divina.</li>
+    <li>episode(uses=1,tag=meme_MaleSupremacy)  ->[deity0_name] digué a tothom: «La força d’un home es dóna perquè pugui protegir i mantenir a la dona i que ella mai li usurpi el poder»</li>
+    <li>setup(tag=meme_MaleSupremacy)           ->En un món d’homes dèbils que buscaven l’aprovació de les dones, [founderName] reconnectà amb el seu poder masculí i el feu servir per a fer un monument nou.</li>
+    <li>story(uses=1,tag=meme_MaleSupremacy)    ->Les dones creients afalagaven i ploriquejaven i, per això, [founderName] les feu fora del consell de líders.</li>
+    <li>lessonIntro(tag=meme_MaleSupremacy)         ->Vaig fer les coses més senzilles per ella, però la dona no ho entengué. Per la seva resistència ploranera a la veritat, vaig acabar entenent que</li>
+    <li>lesson(tag=meme_MaleSupremacy)              ->els homes són els únics amb la saviesa i força necessàries per a governar</li>
+    <li>lessonReinforcement(tag=meme_MaleSupremacy) ->La meva esposa fins i tot volgué discutir sobre això. Us ho podeu creure? No va ser massa difícil fer-la callar.</li>
+    <li>archistBasis(tag=meme_MaleSupremacy)    ->La humanitat és la mare dels arcotècnics, però la força del fill excedeix la del pare.</li>
+    <li>archistFact(tag=meme_MaleSupremacy)     ->Els arcotècnics són paternals i protegeixen la humanitat, encara que la humanitat no entén ben bé com ho fa.</li>
+    <li>archistProphecy(tag=meme_MaleSupremacy) ->[inTheEnd], els arcotècnics desblocaran la força dels homes, per tal que portin la humanitat a la transcendència.</li>
+    <li>animistFact(tag=meme_MaleSupremacy)     ->Els esperits més poderosos són els dels homes i no estaran en pau fins que els homes governin.</li>
+    <li>animistProphecy(tag=meme_MaleSupremacy) ->[itIsSaid] que un esperit destructiu poderós voldrà acabar amb l’univers, però un home farà servir l’esperit de  [relic0_name] i destruirà al destructor.</li>
+  </MaleSupremacy.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->masculine</li>
     <li>memeAdjective->manly</li>
@@ -97,7 +134,18 @@
     <li>memeLeaderNoun->man</li>
     <li>memeLeaderNoun->beard</li>
   -->
-  <MaleSupremacy.generalRules.rulesStrings>TODO</MaleSupremacy.generalRules.rulesStrings>
+  <MaleSupremacy.generalRules.rulesStrings>
+    <li>memeAdjective->masculí</li>
+    <li>memeAdjective->homenívol</li>
+    <li>memeHyphenPrefix->homo</li>
+    <li>memeHyphenPrefix->andro</li>
+    <li>memeHyphenPrefix->patri</li>
+    <li>memeConcept->home</li>
+    <li>memeConcept->masculinitat</li>
+    <li>memeGod->Pare</li>
+    <li>memeLeaderNoun->home</li>
+    <li>memeLeaderNoun->barba</li>
+  </MaleSupremacy.generalRules.rulesStrings>
   <!-- EN: masculist -->
   <MaleSupremacy.symbolPacks.0.adjective>masculista</MaleSupremacy.symbolPacks.0.adjective>
   <!-- EN: Masculinism -->

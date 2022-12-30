@@ -27,7 +27,17 @@
     <li>descriptionIntro(factionless==false)->[civilOutlander_name] is</li>
     <li>descriptionIntro(factionless==true)->A group of wild people are</li>
   -->
-  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>TODO</EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
+  <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
+    <li>questDescription->[descriptionIntro] vol expandir el seu territori i voldrien controlar [playerSettlements] amb totes les seves riqueses i tecnologies. Si podeu augmentar la riquesa total fins a [requiredWealth_money], prendran el control [settlementsSingularOrPlural].\n\nA canvi, us ofereixen una part del mapa que mostra on és el nexe arcotècnic antic. Es creu que l’arconexe és un conducte a través del qual una superintel·ligència arcotècnica influeix en aquest món físic. Si poguéssiu invocar-ne el poder, el que passi després podria anar més enllà de la realitat física.\n\n[onlyHaveHas] una part del mapa. Les altres parts les tenen altres faccions.\n\nSi accepteu la seva oferta, els [factionPawnsPlural] prendran el control de [playerSettlements], inclosos tots els elements, persones i tecnologies recercades. Portaran [colonistsAllowed] de la vostra gent i [animalsAllowed] dels vostres animals on vulgueu de qualsevol lloc del planeta per a començar una colònia nova.\n\nDesprés, podreu comerciar amb les altres faccions per a aconseguir les dues parts del mapa que fan falta.</li>
+    <li>settlementsSingularOrPlural(playerSettlementsCount==1)->del vostre assentament</li>
+    <li>settlementsSingularOrPlural(playerSettlementsCount>=2)->dels vostres assentaments</li>
+    <li>onlyHaveHas(factionless==false)->[civilOutlander_name] només té</li>
+    <li>onlyHaveHas(factionless==true)->El grup només té</li>
+    <li>factionPawnsPlural(factionless==false)->[civilOutlander_pawnsPlural]</li>
+    <li>factionPawnsPlural(factionless==true)->homes salvatges</li>
+    <li>descriptionIntro(factionless==false)->[civilOutlander_name]</li>
+    <li>descriptionIntro(factionless==true)->Un grup de gent salvatge</li>
+  </EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the archonexus</li>
   -->
@@ -47,7 +57,18 @@
     <li>descriptionStudyRequirement(studyRequirement==true)->\n\nThe next map part is encoded in a very strange way. In order to interpret it, you must first learn more about archotechnology by studying the structure here.</li>
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
   -->
-  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>TODO</EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
+  <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
+    <li>questDescription->Amb la primera part del mapa de l’arconexe gravada de manera segura, us prepareu per al proper pas del vostre viatge.\n\n[cycle1Faction] us ha explicat la història del cataclisme que destruí aquest món. Els humans van construir una màquina pensant enorme fa segles. La màquina es va tornar en contra de la gent i hi va haver una gran guerra. Només unes poques persones van quedar vives al planeta quan la màquina transcendí i quedà inactiva.\n\nEl mapa per a arribar a l’arconex té tres parts i vós en teniu una. [otherMapPartHolders] també tenen parts del mapa. Us les vendran a canvi d’una colònia rica i totes les recerques que s’hi hagin fet.[descriptionStudyRequirement]\n\nÉs hora de posar-se a construir.</li>
+    <li>cycle1Faction(factionless==false)->[civilOutlander_leader_nameDef]</li>
+    <li>cycle1Faction(factionless==true)->La [wildPeople]</li>
+    <li>otherMapPartHolders(factionless==false)->[roughOutlander_name] i [roughTribe_name]</li>
+    <li>otherMapPartHolders(factionless==true)->altra [wildPeople]</li>
+    <li>takeoverPawnsPlural(factionless==false)->[roughOutlander_pawnsPlural]</li>
+    <li>takeoverPawnsPlural(factionless==true)->[wildPeople]</li>
+    <li>wildPeople->gent salvatge</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\nLa part del mapa següent està codificada d’una manera molt estranya. Per tal d’interpretar-la, primer heu de comprendre millor l’arcotecnologia amb l’estudi de l’estructura que hi ha aquí.</li>
+    <li>descriptionStudyRequirement(studyRequirement==false)-></li>
+  </EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the archonexus</li>
   -->
@@ -69,7 +90,20 @@
     <li>descriptionThreats(threatsEnabled==true)->The archonexus will likely have mechanoid defenders, so go prepared.\n\n</li>
     <li>descriptionThreats(threatsEnabled==false)-></li>
   -->
-  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>TODO</EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
+  <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
+    <li>questAcceptedLetterLabel->s’ha descobert l’arconexe</li>
+    <li>questAcceptedLetterText->[questDescriptionBeforeAccepted]</li>
+    <li>questDescriptionBeforeAccepted->Teniu dues parts del mapa de l’arconexe. [factionName] té l’última peça del mapa, que ha passat de generació en generació des que els seus ancestres sobrevisqueren al cataclisme. L’intercanviaran per una colònia rica nova amb totes les recerques que hagi fet.[descriptionStudyRequirement]\n\nÉs hora de començar a construir.</li>
+    <li>questDescriptionAfterAccepted->[descriptionIntro] us ha donat l’última part del mapa de l’arconexe. Si feu servir el coneixement d’infocodificació arcotècnica, aconseguireu descodificar el mapa i localitzar l’arconexe.\n\nEls vostres aliats no esperen que retorneu; així que, una vegada hi aneu, prendran el control de [playerSettlements].\n\n[descriptionThreats]Ara, l’únic que queda per fer és arribar a l’arconexe, invocar el poder del déu màquina i descobrir si les històries són reals.</li>
+    <li>factionName(factionless==false)->[roughTribe_name]</li>
+    <li>factionName(factionless==true)->La gent salvatge</li>
+    <li>descriptionIntro(factionless==false)->[roughTribe_leader_nameDef], el líder de [roughTribe_name] té</li>
+    <li>descriptionIntro(factionless==true)->La gent salvatge té</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\nCom abans, la part del mapa està codificada. Per tal de descodificar-la, primer heu d’estudiar l’estructura arcotècnia.</li>
+    <li>descriptionStudyRequirement(studyRequirement==false)-></li>
+    <li>descriptionThreats(threatsEnabled==true)->A l’arconexe segurament hi haurà defenses mecanoides. Aneu-hi preparats.\n\n</li>
+    <li>descriptionThreats(threatsEnabled==false)-></li>
+  </EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription-></li>
   -->
