@@ -102,28 +102,6 @@
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
   <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name} ha detectat que {PAWN_labelShort} ha fet servir {CULPRIT} (probabilitat de detecció del {CHANCE}).\n\nD’acord amb les lleis de {FACTION_name}, només aquells que disposin del títol de {TITLE} tenen permés utilitzar {CULPRIT}.\n\nCom a conseqüència, les relacions amb la facció han empitjorat en {GOODWILL}.</LetterLawViolationDetectedForbiddenThingUse>
 
-  <!-- Throne Speech -->
-  <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
-  <LetterFinishedSpeech>{ORGANIZER_labelShort} ha acabat el seu discurs.</LetterFinishedSpeech>
-  <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
-  <LetterTerribleSpeech>Ha estat atroç, ple de dubtes, amb acudits inapropiats i històries depriments.</LetterTerribleSpeech>
-  <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
-  <LetterUninspiringSpeech>Ha estat poc inspirador, gens original, avorrit i sense gens de passió.</LetterUninspiringSpeech>
-  <!-- EN: It was encouraging and well-delivered. -->
-  <LetterEncouragingSpeech>Ha estat encoratjador i ben estructurat.</LetterEncouragingSpeech>
-  <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
-  <LetterInspirationalSpeech>Ha estat remarcablement inspirador, intens i amb un propòsit.</LetterInspirationalSpeech>
-  <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
-  <LetterSpeechInspiredListeners>Les persones següents s’han sentit particularment commogudes i es senten inspirades:</LetterSpeechInspiredListeners>
-  <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterSpeechInspiration>Gràcies al discurs remarcable de {SPEAKER_nameIndef}, {PAWN_nameIndef} es sent inspira{PAWN_gender ? t : da}!</LetterSpeechInspiration>
-  <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
-  <LetterSpeechInterrupted>Com que el discurs es va interrompre quan només s’havia completat el {0}, no ha estat massa efectiu.</LetterSpeechInterrupted>
-  <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
-  <LetterSpeechCancelled>El discurs de {0} s’ha cancel·lat sense completar-ne ni el 50 %. Per tant, no té cap efecte.</LetterSpeechCancelled>
-  <!-- EN: Speech cancelled -->
-  <LetterLabelSpeechCancelled>Discurs cancel·lat</LetterLabelSpeechCancelled>
-
   <!-- Wild decree mental break -->
   <!-- EN: Wild decree -->
   <WildDecree>Decret despòtic</WildDecree>

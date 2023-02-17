@@ -298,7 +298,7 @@
     <li>betrayalOfferRewardLetterLabel->Betrayal reward: [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] promised you a reward if you killed [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] has heard news this has been done and is sending you the following via drop pod (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterLabel->Betrayal reward retracted</li>
-    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] has learned that one of the members of the [faction_name] has joined your faction! [factionOpponent_nameDef] wanted all members of the [faction_name] to die and has therefore retracted [factionOpponent_possessive] offer.</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] has learned that all surviving members of the [faction_name] have joined your faction! [factionOpponent_nameDef] wanted all members of the [faction_name] to die and has therefore retracted [factionOpponent_possessive] offer.</li>
     <li>betrayalOfferFailedLetterLabel->Betrayal reward retracted</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] has learned that one of the members of the [faction_name] is no longer at [map_definite]. [factionOpponent_nameDef] wanted all members of the [faction_name] to die and has therefore retracted [factionOpponent_possessive] offer.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
@@ -314,7 +314,7 @@
     <li>betrayalOfferRewardLetterLabel->Recompensa de la traïció: [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef] us va prometre una recompensa si matàveu a [asker_nameDef] [otherMembers]. [factionOpponent_pronoun] ha rebut notícies de que la «tasca» s’ha completat i us envia el següent a través de càpsules que cauran del cel (valor total de [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterLabel->S’ha retirat la recompensa per traïció</li>
-    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] s’ha assabentat que un dels membres de [faction_name] s’ha unit a la vostra facció! [factionOpponent_nameDef] volia que tots els membres de [faction_name] morissin i, per tant, ha retirat la seva oferta.</li>
+    <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] s’ha assabentat que tots els supervivents de [faction_name] s’han unit a la vostra facció! [factionOpponent_nameDef] volia que tots els membres de [faction_name] morissin i, per tant, ha retirat la seva oferta.</li>
     <li>betrayalOfferFailedLetterLabel->Es retira la recompensa per traïció</li>
     <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] s’ha assabentat que un dels membres de [faction_name] ja no està a [map_definite]. [factionOpponent_nameDef] volia que tots els membres de [faction_name] morissin i, per tant, retira la seva oferta.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
