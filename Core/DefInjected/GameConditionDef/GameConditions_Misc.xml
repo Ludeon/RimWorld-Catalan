@@ -20,7 +20,7 @@
   <!-- EN: An unusual cold snap is freezing the region. -->
   <ColdSnap.description>Una excepcional onada de fred està gelant la zona.</ColdSnap.description>
   <!-- EN: a front of cold air will cool the area around [map_definite] for [gameConditionDuration_duration], harming crops and any person or animal without adequate protection -->
-  <ColdSnap.descriptionFuture>Un front d’aire fred gelarà l’àrea al voltant de [map_definite] durant [gameConditionDuration_duration]; farà mal als conreus, persones o animals que no tinguin la protecció adequada.</ColdSnap.descriptionFuture>
+  <ColdSnap.descriptionFuture>Un front d’aire fred gelarà l’àrea al voltant de [map] durant [gameConditionDuration_duration]; farà mal als conreus, persones o animals que no tinguin la protecció adequada.</ColdSnap.descriptionFuture>
   <!-- EN: The cold snap is over. -->
   <ColdSnap.endMessage>L’onada de fred ja ha passat.</ColdSnap.endMessage>
   <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
@@ -49,7 +49,7 @@
   <!-- EN: An extreme wave of heat is baking the area. -->
   <HeatWave.description>Una onada de calor extrema està convertint la zona en un forn.</HeatWave.description>
   <!-- EN: a heat wave will bake the area around [map_definite] for [gameConditionDuration_duration], harming crops and possibly killing people or animals in uncooled areas -->
-  <HeatWave.descriptionFuture>Una onada de calor convertirà la zona al voltant de [map_definite] en un forn durant [gameConditionDuration_duration]. Farà malbé els conreus i pot arribar a matar la gent i animals en algunes zones.</HeatWave.descriptionFuture>
+  <HeatWave.descriptionFuture>Una onada de calor convertirà la zona al voltant de [map] en un forn durant [gameConditionDuration_duration]. Farà malbé els conreus i pot arribar a matar la gent i animals en algunes zones.</HeatWave.descriptionFuture>
   <!-- EN: The heat wave is over. -->
   <HeatWave.endMessage>L’onada de calor ja ha acabat.</HeatWave.endMessage>
   <!-- EN: An unusual heat wave has begun.\n\nHeat waves can induce deadly heatstroke. Stay cool by building either a passive or electric cooler, or by getting deep underground where the rocks are naturally cool. -->
@@ -65,7 +65,7 @@
   <!-- EN: A distant archotech is emitting psychic signals through an orbital amplifier, driving people towards insanity. -->
   <PsychicDrone.description>Un arcotècnic llunyà emet senyals psíquics amb un amplificador orbital i fa tornar boja la gent.</PsychicDrone.description>
   <!-- EN: a [psychicDroneLevel] psychic drone will buzz the area around [map_definite] for [gameConditionDuration_duration], pushing all people of the [psychicDroneGender] gender towards insanity -->
-  <PsychicDrone.descriptionFuture>un brunzit psíquic de nivell [psychicDroneLevel] sonarà per l’àrea al voltant de [map_definite] durant [gameConditionDuration_duration] i farà embogir tota la gent del gènere [psychicDroneGender].</PsychicDrone.descriptionFuture>
+  <PsychicDrone.descriptionFuture>un brunzit psíquic de nivell [psychicDroneLevel] sonarà per l’àrea al voltant de [map] durant [gameConditionDuration_duration] i farà embogir tota la gent del gènere [psychicDroneGender].</PsychicDrone.descriptionFuture>
   <!-- EN: The psychic drone is ending. -->
   <PsychicDrone.endMessage>El brunzit psíquic acabarà d’aquí poc.</PsychicDrone.endMessage>
   <!-- EN: Every {0} colonist feels a wave of anxiety and anger!\n\nSome distant engine of hatred is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}. -->
@@ -94,7 +94,7 @@
   <!-- EN: A plume of toxic dust from some distant source is slowly settling over this entire region. Any living thing not under a roof will be slowly poisoned, and items left outside will corrode. -->
   <ToxicFallout.description>Un núvol de pols tòxica d’origen llunyà s’està dipositant lentament sobre aquesta regió del planeta. Tothom qui no estigui sota teulada anirà intoxicant-se de mica en mica i les coses que es deixin a l’exterior es corroiran.</ToxicFallout.description>
   <!-- EN: a cloud of toxic fallout will blanket the area around [map_definite] for [gameConditionDuration_duration], killing outdoor plant and animal life -->
-  <ToxicFallout.descriptionFuture>un núvol de pluja tòxica cobrirà l’àrea al voltant de [map_definite] durant [gameConditionDuration_duration] i matarà les formes de vida que no estiguin a cobert.</ToxicFallout.descriptionFuture>
+  <ToxicFallout.descriptionFuture>un núvol de pluja tòxica cobrirà l’àrea al voltant de [map] durant [gameConditionDuration_duration] i matarà les formes de vida que no estiguin a cobert.</ToxicFallout.descriptionFuture>
   <!-- EN: The worst of the toxic fallout has settled. -->
   <ToxicFallout.endMessage>La pitjor part de la pluja tòxica ja s’ha dipositat.</ToxicFallout.endMessage>
   <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to over a quadrum. -->
@@ -105,7 +105,7 @@
   <!-- EN: Some distant volcano or fire is choking the atmosphere with ash, significantly reducing the amount of light which reaches the surface. Temperatures will be colder and plants will grow slower. -->
   <VolcanicWinter.description>Un volcà llunyà ha soltat a l’atmosfera una quantitat enorme de cendres. L’atmosfera està saturada de partícules, que redueixen significativament la quantitat de llum solar que arriba a la superfície. Baixaran les temperatures i les plantes creixeran més lentament.</VolcanicWinter.description>
   <!-- EN: a layer of ash will be desposited in the upper atmosphere, reducing sunlight around [map_definite] for [gameConditionDuration_duration], seriously harming the local ecosystem -->
-  <VolcanicWinter.descriptionFuture>la cendra es depositarà a les capes superiors de l’atmosfera i s’hi quedarà en suspensió; la llum solar que es rebrà al voltant de [map_definite] es reduirà durant [gameConditionDuration_duration], danyant seriosament l’ecosistema local.</VolcanicWinter.descriptionFuture>
+  <VolcanicWinter.descriptionFuture>la cendra es depositarà a les capes superiors de l’atmosfera i s’hi quedarà en suspensió; la llum solar que es rebrà al voltant de [map] es reduirà durant [gameConditionDuration_duration], danyant seriosament l’ecosistema local.</VolcanicWinter.descriptionFuture>
   <!-- EN: Most of the ash has settled. -->
   <VolcanicWinter.endMessage>La major part de la pols volcànica ja ha caigut.</VolcanicWinter.endMessage>
   <!-- EN: Some distant volcano or fire has begun spewing massive quantities of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums. -->

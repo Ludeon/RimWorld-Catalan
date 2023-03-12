@@ -31,13 +31,13 @@
     <li>goodwillSomeCiviliansLost->No s’han pogut rescatar tots els [pawnLabelPlural] de [asker_faction_pawnSingular]. [goodwillNegativelyAffected]</li>
     <li>goodwillAllCiviliansLost->No s’ha pogut rescatar cap dels [pawnLabelPlural] de [asker_faction_pawnSingular]. [goodwillNegativelyAffected]</li>
     <li>goodwillNegativelyAffected->Les relacions amb [asker_faction_name] han empitjorat per cada [pawnLabel] que no ho ha aconseguit.</li>
-    <li>commanderLandingDesc->[asker_nameDef], [asker_el] comandant[asker_x_a] que ha demanat aterrar a [map_definite]</li>
+    <li>commanderLandingDesc->[asker_nameDef], [asker_el] comandant[asker_x_a] que ha demanat aterrar a [map]</li>
     <li>raidArrivedLetterLabel->Assalt: [enemyFaction_name]</li>
-    <li>raidArrivedLetterText->Han arribat els [enemyFaction_pawnsPlural] de [enemyFaction_name]. Atacaran els [asker_faction_pawnsPlural] que s’han estavellat a [map_definite].\n\nDefenseu els [asker_faction_pawnsPlural] fins que arribi la seva llançadora de rescat d’aquí a [rescueShuttleAfterRaidDelay_duration].</li>
+    <li>raidArrivedLetterText->Han arribat els [enemyFaction_pawnsPlural] de [enemyFaction_name]. Atacaran els [asker_faction_pawnsPlural] que s’han estavellat a [map].\n\nDefenseu els [asker_faction_pawnsPlural] fins que arribi la seva llançadora de rescat d’aquí a [rescueShuttleAfterRaidDelay_duration].</li>
     <li>rescueShuttleArrivedLetterLabel->Ha arribat la llançadora de rescat</li>
     <li>rescueShuttleArrivedLetterText->La llançadora de rescat ha arribat per a recollir els [pawnLabelSingleOrPlural] que s’han estavellat. Assegureu-vos que teniu aquestes persones a la llançadora abans que se’n vagi d’aquí a [leaveDelay_duration]:\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->Missió completada: [resolvedQuestName]</li>
-    <li>questCompletedSuccessLetterText->[commanderLandingDesc], ha escapat. [asker_pronoun] està agraï[asker_t] per l’ajuda que ha rebut a [map_definite].\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc], ha escapat. [asker_pronoun] està agraï[asker_t] per l’ajuda que ha rebut a [map].\n\n[successLetterEndingCommon]</li>
     <li>questCompletedCiviliansLostSuccessLetterLabel->Missió completada: [resolvedQuestName]</li>
     <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], ha escapat.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
     <li>askerLostLetterLabel->La missió «[resolvedQuestName]» ha fracassat</li>
@@ -73,7 +73,7 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->Una llançadora de [asker_faction_name] té problemes tècnics i busca un lloc per a aterrar. [asker_El] comandant[asker_x_a] [asker_nameDef] vol aterrar a [map_definite].\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] atacaran la nau avariada per a matar els seus ocupants. Els heu de defensar.\n\nLa llançadora conté [asker_nameDef][andOtherCivilians] i [soldierCountKinds]. Cal rescatar [asker_el] comandant[asker_x_a] [andCivilians], però els [soldiers0_kindPlural] es poden sacrificar.\n\nDesprés de [rescueDelay_duration], arribarà una llançadora de rescat per a recollir els supervivents. Caldrà que pugin a la llançadora en [leaveDelay_duration].</li>
+    <li>questDescription->Una llançadora de [asker_faction_name] té problemes tècnics i busca un lloc per a aterrar. [asker_El] comandant[asker_x_a] [asker_nameDef] vol aterrar a [map].\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] atacaran la nau avariada per a matar els seus ocupants. Els heu de defensar.\n\nLa llançadora conté [asker_nameDef][andOtherCivilians] i [soldierCountKinds]. Cal rescatar [asker_el] comandant[asker_x_a] [andCivilians], però els [soldiers0_kindPlural] es poden sacrificar.\n\nDesprés de [rescueDelay_duration], arribarà una llançadora de rescat per a recollir els supervivents. Caldrà que pugin a la llançadora en [leaveDelay_duration].</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
     <li>andOtherCivilians(civilians_count==2)->, un altre [pawnLabel],</li>
     <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] altres [pawnLabelSingleOrPlural],</li>

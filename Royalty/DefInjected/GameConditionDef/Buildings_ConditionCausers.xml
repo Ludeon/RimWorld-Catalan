@@ -13,7 +13,7 @@
   <!-- EN: An electromagnetic interference dynamo is projecting an EM interference field, disabling electrical devices. -->
   <EMIField.description>Una dinamo d’interferències electromagnètiques projecta un camp d’interferències electromagnètic i deshabilitat tots els dispositius elèctrics.</EMIField.description>
   <!-- EN: a distant EMI dynamo will blast [map_definite] with an EMI field, shutting down electrical devices for [gameConditionDuration_duration] -->
-  <EMIField.descriptionFuture>una dinamo EMI escombrarà [map_definite] amb un camp EMI i farà que s’apaguin tots els dispositius elèctrics durant [gameConditionDuration_duration]</EMIField.descriptionFuture>
+  <EMIField.descriptionFuture>una dinamo EMI escombrarà [map] amb un camp EMI i farà que s’apaguin tots els dispositius elèctrics durant [gameConditionDuration_duration]</EMIField.descriptionFuture>
   <!-- EN: The EMI field has disappeared. -->
   <EMIField.endMessage>El camp EMI ha desaparegut.</EMIField.endMessage>
   <!-- EN: An EMI field has been generated. It is disabling electrical devices. -->
@@ -31,7 +31,7 @@
   <!-- EN: A psychic suppression field is affecting {0}s and reducing their consciousness. The effect is modulated by an individual's psychic sensitivity. -->
   <PsychicSuppression.description>Un camp de supressió psíquica afecta els {0}s i en redueix la consciència. L’efecte en cada individu depèn de la seva sensibilitat psíquica.</PsychicSuppression.description>
   <!-- EN: a psychic suppression wave will reduce the consciousness of all [psychicSuppressorGender]s around [map_definite] for [gameConditionDuration_duration] -->
-  <PsychicSuppression.descriptionFuture>una ona de supressió psíquica reduirà la consciència de tots els [psychicSuppressorGender]s de [map_definite] durant [gameConditionDuration_duration]</PsychicSuppression.descriptionFuture>
+  <PsychicSuppression.descriptionFuture>una ona de supressió psíquica reduirà la consciència de tots els [psychicSuppressorGender]s de [map] durant [gameConditionDuration_duration]</PsychicSuppression.descriptionFuture>
   <!-- EN: The psychic suppressor field has dissipated. -->
   <PsychicSuppression.endMessage>El camp de supressió psíquica s’ha dissipat.</PsychicSuppression.endMessage>
   <!-- EN: A psychic suppressor field has begun reducing the consciousness of {0}s across the whole region. The effect is modulated by an individual's psychic sensitivity. -->
@@ -56,7 +56,7 @@
   <!-- EN: A nearby weather controller is forcing the weather into this configuration. -->
   <WeatherController.description>Una controladora del clima propera modifica artificialment l’estat meteorològic.</WeatherController.description>
   <!-- EN: a weather-control system will force the weather around [map_definite] to be [forcedWeather_indefinite] for [gameConditionDuration_duration] -->
-  <WeatherController.descriptionFuture>un sistema de control climàtic forçarà que l’estat meteorològic al voltant de [map_definite] sigui de [forcedWeather_indefinite] durant [gameConditionDuration_duration]</WeatherController.descriptionFuture>
+  <WeatherController.descriptionFuture>un sistema de control climàtic forçarà que l’estat meteorològic al voltant de [map] sigui de [forcedWeather_indefinite] durant [gameConditionDuration_duration]</WeatherController.descriptionFuture>
   <!-- EN: The weather controller is no longer changing the weather. -->
   <WeatherController.endMessage>La controladora climàtica ja no modifica artificialment el clima.</WeatherController.endMessage>
   <!-- EN: A weather controller machine has begun affecting the weather. -->

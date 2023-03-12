@@ -6,7 +6,7 @@
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
   -->
   <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Hem interceptat missatges sobre una reserva amb un valor de [itemStashContentsValue] no molt lluny de [map_definite]. Consta de:\n\n[itemStashContents]\n\nSembla que [allSitePartsDescriptionsExceptFirst]</li>
+    <li>questDescription(askerIsNull==true)->Hem interceptat missatges sobre una reserva amb un valor de [itemStashContentsValue] no molt lluny de [map]. Consta de:\n\n[itemStashContents]\n\nSembla que [allSitePartsDescriptionsExceptFirst]</li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], ens ha informat que hi ha una reserva amb un valor de [itemStashContentsValue] no massa lluny d’aquí. Consta de:\n\n[itemStashContents]\n\n[asker_label] diu que [allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:

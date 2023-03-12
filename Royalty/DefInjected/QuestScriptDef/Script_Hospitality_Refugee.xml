@@ -105,7 +105,7 @@
     <li>va(lodgerCount==1)->va</li>
     <li>va(lodgerCount>=2)->van</li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] se’n [va]</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} us dóna les gràcies per permetre que {FACTION_leaderObjective} es quedi a [map_definite] durant aquests [questDurationTicks_duration]. {FACTION_leaderPronoun} ara ja se’n va amb la seva gent.\n\n{FACTION_leaderNameDef} diu que no oblidarà el que heu fet.</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} us dóna les gràcies per permetre que {FACTION_leaderObjective} es quedi a [map] durant aquests [questDurationTicks_duration]. {FACTION_leaderPronoun} ara ja se’n va amb la seva gent.\n\n{FACTION_leaderNameDef} diu que no oblidarà el que heu fet.</li>
   </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
@@ -169,7 +169,7 @@
     <li>lodgersPossessive(lodgerCount>=2)->els seus</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->els [lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] us demana permís per a quedar-se a [map_definite] durant [questDurationTicks_duration] per a descansar i organitzar-se.\n\nA canvi, [lodgersPronoun] s’[offer] per a treballar i lluitar durant la seva estada.\n\n[joinInfo] [lodgersPronoun] també [offer] una recompensa per l’ajuda, encara que no és possible quines són les seves vertaderes intencions.\n\n[travelerInfo] no forma part de cap facció. Si voleu matar-[lodgersObjective], arrestar-[lodgersObjective], comerciar amb [lodgersPronoun] o extraure els seus òrgans sense conseqüències diplomàtiques.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] us demana permís per a quedar-se a [map] durant [questDurationTicks_duration] per a descansar i organitzar-se.\n\nA canvi, [lodgersPronoun] s’[offer] per a treballar i lluitar durant la seva estada.\n\n[joinInfo] [lodgersPronoun] també [offer] una recompensa per l’ajuda, encara que no és possible quines són les seves vertaderes intencions.\n\n[travelerInfo] no forma part de cap facció. Si voleu matar-[lodgersObjective], arrestar-[lodgersObjective], comerciar amb [lodgersPronoun] o extraure els seus òrgans sense conseqüències diplomàtiques.</li>
     <li>approachInfo(lodgerCount==1)->[asker_Un] [faction_pawnSingular] desespera[asker_t] que es diu [asker_nameDef] s’acosta.</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] i un altre [faction_pawnSingular] s’acosten.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] s’apropa amb un nen..</li>
@@ -316,7 +316,7 @@
     <li>betrayalOfferFailedBecauseRecruitedLetterLabel->S’ha retirat la recompensa per traïció</li>
     <li>betrayalOfferFailedBecauseRecruitedLetterText->[factionOpponent_nameDef] s’ha assabentat que tots els supervivents de [faction_name] s’han unit a la vostra facció! [factionOpponent_nameDef] volia que tots els membres de [faction_name] morissin i, per tant, ha retirat la seva oferta.</li>
     <li>betrayalOfferFailedLetterLabel->Es retira la recompensa per traïció</li>
-    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] s’ha assabentat que un dels membres de [faction_name] ja no està a [map_definite]. [factionOpponent_nameDef] volia que tots els membres de [faction_name] morissin i, per tant, retira la seva oferta.</li>
+    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef] s’ha assabentat que un dels membres de [faction_name] ja no està a [map]. [factionOpponent_nameDef] volia que tots els membres de [faction_name] morissin i, per tant, retira la seva oferta.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
     <li>otherLodgers(lodgerCount==2)->i un altre [lodgersLabel]</li>
     <li>otherLodgers(lodgerCount>=3)->i alguns [lodgersLabelPlural]</li>
@@ -346,7 +346,7 @@
     <li>areIs(lodgerCount>=2)->are</li>
   -->
   <RefugeeBetrayal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[factionOpponent_nameDef], [factionOpponent_faction_pawnSingular] de [factionOpponent_faction_name], s’ha assabentat que [asker_nameDef] [otherLodgers] [areIs] allotjat a [map_definite]. [factionOpponent_pronoun] i [asker_nameDef] són enemics i vol que [asker_el] matin.\n\n[factionOpponent_pronoun] us enviarà la següent recompensa si mateu tots els membres de [faction_name] (valor total de [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>questDescription->[factionOpponent_nameDef], [factionOpponent_faction_pawnSingular] de [factionOpponent_faction_name], s’ha assabentat que [asker_nameDef] [otherLodgers] [areIs] allotjat a [map]. [factionOpponent_pronoun] i [asker_nameDef] són enemics i vol que [asker_el] matin.\n\n[factionOpponent_pronoun] us enviarà la següent recompensa si mateu tots els membres de [faction_name] (valor total de [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>otherLodgers(lodgerCount==1)-></li>

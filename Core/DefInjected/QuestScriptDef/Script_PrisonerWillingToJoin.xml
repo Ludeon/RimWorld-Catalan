@@ -9,7 +9,7 @@
     <li>underArmedGuard-></li>
   -->
   <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
-    <li>questDescription->Un presoner captiu de [siteFaction_name] ha aconseguit robar una ràdio i us demana ajuda!\n\n[prisoner_nameDef] està al campament [map_definite][underArmedGuard]. Rescateu-lo [prisoner_objective] i s’ajuntarà a la vostra colònia. [prisoner_pronoun] és un [prisoner_title] que té [prisoner_age] anys. Diu que [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nSi deixeu escapar aquesta oportunitat, potser no torneu a sentir res més d’ell.</li>
+    <li>questDescription->Un presoner captiu de [siteFaction_name] ha aconseguit robar una ràdio i us demana ajuda!\n\n[prisoner_nameDef] està al campament [map][underArmedGuard]. Rescateu-lo [prisoner_objective] i s’ajuntarà a la vostra colònia. [prisoner_pronoun] és un [prisoner_title] que té [prisoner_age] anys. Diu que [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nSi deixeu escapar aquesta oportunitat, potser no torneu a sentir res més d’ell.</li>
     <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
     <li>formerColonistInfo-></li>
     <li>underArmedGuard(allowViolentQuests==true,priority=1)-> sota vigilància armada</li>

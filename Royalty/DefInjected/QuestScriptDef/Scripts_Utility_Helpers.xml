@@ -16,7 +16,7 @@
   -->
   <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
     <li>helpersParagraph(helpersCount==0)-></li>
-    <li>helpersParagraph(helpersCount==1)->\n\Tindreu [helpers_un] [helpersLabelSingOrPlural] sota el vostre control. L’haureu d’alimentar i allotjar, però pot morir lluitant sense cap altra conseqüència.\n\n</li>
+    <li>helpersParagraph(helpersCount==1)->\n\nTindreu [helpers_un] [helpersLabelSingOrPlural] sota el vostre control. L’haureu d’alimentar i allotjar, però pot morir lluitant sense cap altra conseqüència.\n\n</li>
     <li>helpersParagraph(helpersCount>=2)->\n\nDisposareu de [helpersCount] [helperKind_labelPlural] sota el vostre control. Els haureu d’alimentar i allotjar, però poden morir lluitant sense cap altra conseqüència.\n\n</li>
     <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
     <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\nS’[helpersHasHave] enviat [helpersCount] [helpersLabelSingOrPlural] per a assistir-vos.</li>
@@ -26,7 +26,7 @@
     <li>helpers_el(helpers0_gender==Male,helpersCount==1)->el</li>
     <li>helpers_el(helpers0_genderhelpersCount==1)->la</li>
     <li>helpers_un(helpers0_gender==Male,helpersCount==1)->un</li>
-    <li>helpers_un(helpers0_genderhelpersCount==1)->una</li>
+    <li>helpers_un(helpers0_gender==Female,helpersCount==1)->una</li>
     <li>helpers_el(helpersCount>=2)->els</li>
     <li>helpersHasHave(helpersCount==1)->ha</li>
     <li>helpersHasHave(helpersCount>=2)->han</li>
