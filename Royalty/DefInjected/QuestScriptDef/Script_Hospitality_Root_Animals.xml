@@ -57,12 +57,12 @@
     <li>threatsInfoMechClustersMultiAnimal->Per motius desconeguts, els [lodgersLabelPlural] són l’objectiu d’un eixam mecanoide orbital.</li>
     <li>threatsInfoMechRaidsSingleAnimal->Per motius desconeguts, el [lodgersLabel] és l’objectiu d’un eixam mecanoide.</li>
     <li>threatsInfoMechRaidsMultiAnimal->Per motius desconeguts, els [lodgersLabelPlural] són l’objectiu d’un eixam mecanoide.</li>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->Una organització animalista vol que acolliu [lodger_un] [lodgersLabel] que es diu [lodgers0_nameDef] a [map] durant [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->Una organització animalista vol que acolliu [lodger_un] [lodgersLabel] que es diu [lodgers0_nameDef] a [map_definite] durant [shuttleDelayTicks_duration]. [healthInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nEls activistes de rescat d’animals han robat [lodger_un][lodgers0_nameDef] que s’havia d’escorxar en una cerimònia de [enemyFaction_name]. Ara, els [enemyFaction_pawnsPlural] vénen en busca de venjança. Si accepteu [lodgers0_nameDef], [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Una organització animalista vol que acolliu [lodgersCount] [lodgersLabelPlural] a [map] durant [shuttleDelayTicks_duration]. [healthInfo][threatsInfo2][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Una organització animalista vol que acolliu [lodgersCount] [lodgersLabelPlural] a [map_definite] durant [shuttleDelayTicks_duration]. [healthInfo][threatsInfo2][commonDescEnding]</li>
     <li>victim->una nena</li>
     <li>victim->una dona</li>
     <li>victim->un home</li>
@@ -77,17 +77,17 @@
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_a] [asker_faction_leaderTitle] de [asker_faction_name], us demana ajuda. Vol que acolliu [lodgersCount] [lodgersLabelPlural] a [map] durant [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4][commonDescEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_a] [asker_faction_leaderTitle] de [asker_faction_name], us demana ajuda. Vol que acolliu [lodgersCount] [lodgersLabelPlural] a [map_definite] durant [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4][commonDescEnding]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef] necessita els [lodgersLabelPlural] per a complir una promesa comercial important. Per a provocar el conflicte, [enemyFaction_name] envia [enemyFaction_pawnsPlural] per a perseguir-los. Si accepteu els [lodgersLabelPlural], [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_un] [asker_royalTitleInCurrentFaction] de [asker_faction_name], us sol·licita el següent. Vol que cuideu la seva mascota preferida, el [lodgersLabel] [lodgers0_nameDef], a [map] durant [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5][commonDescEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_un] [asker_royalTitleInCurrentFaction] de [asker_faction_name], us sol·licita el següent. Vol que cuideu la seva mascota preferida, el [lodgersLabel] [lodgers0_nameDef], a [map_definite] durant [shuttleDelayTicks_duration]. [healthInfo][threatsInfo5][commonDescEnding]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] són un regal que se li va prometre al nen de [asker_nameDef] a canvi de matrimoni. Per a evitar que es celebri aquest matrimoni, [enemyFaction_name] ha enviat [enemyFaction_pawnsPlural] darrere d’[lodgers0_pronoun]. Si accepteu el [lodgers0_nameDef], [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_un] [asker_royalTitleInCurrentFaction] de [asker_faction_name], us demana ajuda. [asker_pronoun] vol que us ocupeu de [lodgersCount] [lodgersLabelPlural] a [map] durant [shuttleDelayTicks_duration]. Els [lodgersLabelPlural] són les mascotes preferides de [asker_nameDef], i vol que vegin el món que hi ha a fora de la seva cort. [healthInfo][threatsInfo6][commonDescEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_un] [asker_royalTitleInCurrentFaction] de [asker_faction_name], us demana ajuda. [asker_pronoun] vol que us ocupeu de [lodgersCount] [lodgersLabelPlural] a [map_definite] durant [shuttleDelayTicks_duration]. Els [lodgersLabelPlural] són les mascotes preferides de [asker_nameDef], i vol que vegin el món que hi ha a fora de la seva cort. [healthInfo][threatsInfo6][commonDescEnding]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nDesgraciadament, [enemyFaction_name] persegueix els [lodgersLabelPlural] per a fer mal a [asker_nameDef] personalment. Si accepteu els [lodgersLabelPlural], [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>

@@ -43,12 +43,12 @@
     <li>threatsInfo6(generateThreats==false)-></li>
   -->
   <Hospitality_Prisoners.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->La capitana d’una nau orbital vol que us ocupeu d’[lodger_un] presoner[lodger_x_a] que es diu [lodgers0_nameFull] a [map] durant [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->La capitana d’una nau orbital vol que us ocupeu d’[lodger_un] presoner[lodger_x_a] que es diu [lodgers0_nameFull] a [map_definite] durant [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] fa poc va escopir al fill més estimat de [enemyFaction_leader_nameFull], [enemyFaction_leaderTitle] de [enemyFaction_name]. [enemyFaction_leader_nameDef] enviarà [enemyFaction_pawnsPlural] per a venjar-se de qualsevol que vulgui protegir-[lodger_lo]. [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleHuman] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->El capità d’una nau orbital vol que us ocupeu de [lodgersCount] presoners a [map] durant [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->El capità d’una nau orbital vol que us ocupeu de [lodgersCount] presoners a [map_definite] durant [shuttleDelayTicks_duration]. [allLodgerInfo][threatsInfo2][commonDescEnding]</li>
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nEls presoners han comès una sèrie d’assassinats contra els [enemyFaction_pawnsPlural] de [enemyFaction_name] i les famílies de les víctimes enviaran assaltants per a buscar venjança. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\nEls presoners [mechViolation] fa poc i ara són l’objectiu d’un eixam mecanoide. [enemyGroupsParagraph]</li>
     <li>threatsInfo2(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiPrisoners] [enemyGroupsParagraph]</li>

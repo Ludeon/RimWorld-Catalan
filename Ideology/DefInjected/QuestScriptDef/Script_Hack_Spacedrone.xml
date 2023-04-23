@@ -9,7 +9,7 @@
     <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
   -->
   <Hack_Spacedrone.questDescriptionRules.rulesStrings>
-    <li>questDescription->Heu detectat un dron espacial que orbita el planeta i que pot contenir informació sobre la relíquia [relic_name]. Teniu el codi que el farà aterrar a [map].\n\nPer a aconseguir la informació, hackegeu l’ordinador del dron. Els hackejos triguen un cert temps, però algú amb una habilitat intel·lectual especial pot accelerar el procés.[raidsDescription]\n\nDesprés d’aterrar, el dron espacial s’autodestruirà al cap de [destroyDelayTicks_duration].</li>
+    <li>questDescription->Heu detectat un dron espacial que orbita el planeta i que pot contenir informació sobre la relíquia [relic_name]. Teniu el codi que el farà aterrar a [map_definite].\n\nPer a aconseguir la informació, hackegeu l’ordinador del dron. Els hackejos triguen un cert temps, però algú amb una habilitat intel·lectual especial pot accelerar el procés.[raidsDescription]\n\nDesprés d’aterrar, el dron espacial s’autodestruirà al cap de [destroyDelayTicks_duration].</li>
     <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_pawnsPlural] de [enemyFaction_name] [droneDetectionMethod]. Mentre estigui present, enviaran atacants aproximadament cada [raidIntervalAvg_duration] per a destruir i robar les riqueses que pensen que té. Tindreu una mica de temps per a preparar les defenses abans que arribin.</li>
     <li>raidsDescription(allowViolence==false)-></li>
     <li>droneDetectionMethod(enemyFactionNeolithic==true)->veurà el dron quan descendeixi</li>

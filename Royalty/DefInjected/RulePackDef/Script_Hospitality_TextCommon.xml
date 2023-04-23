@@ -108,6 +108,19 @@
     <li>failLetterEndingQuest->Heu fracassat amb la missió «[resolvedQuestName]».</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
     <li>failLetterEndingCommon->[failLetterEndingQuest]\n\nLes vostres relacions amb [asker_faction_name] han empitjorat en [goodwillPenalty] punts.</li>
+    <li>lodger_ha(lodgersCount==1)->ha</li>
+    <li>lodger_ha(lodgersCount>=2)->han</li>
+    <li>lodger_lo(lodgers0_gender==Male,lodgersCount==1)->lo</li>
+    <li>lodger_lo(lodgers0_gender!=Male,lodgersCount==1)->la</li>
+    <li>lodger_lo(lodgersCount>=2)->los</li>
+    <li>lodger_un(lodgers0_gender!=Female)->un</li>
+    <li>lodger_un(lodgers0_gender==Female)->una</li>
+    <li>lodger_el(lodgers0_gender!=Female)->el</li>
+    <li>lodger_el(lodgers0_gender==Female)->la</li>
+    <li>lodger_amic(lodgers0_gender!=Female)->amic</li>
+    <li>lodger_amic(lodgers0_gender==Female)->amiga</li>
+    <li>lodger_el_seu(lodgers0_gender!=Female)->el seu</li>
+    <li>lodger_el_seu(lodgers0_gender==Female)->la seva</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>
   
 </LanguageData>

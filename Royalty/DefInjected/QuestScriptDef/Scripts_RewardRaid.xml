@@ -10,7 +10,7 @@
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
   -->
   <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], vol que l’ajudeu a salvar una caravana seva. La caravana la persegueix (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) de [enemyFaction_name] a prop de [map]. [asker_nameDef] vol que feu senyals per a atreure’ls cap a vosaltres i que deixin la caravana en pau.[endingCommon]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] de [asker_faction_name], vol que l’ajudeu a salvar una caravana seva. La caravana la persegueix (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) de [enemyFaction_name] a prop de [map_definite]. [asker_nameDef] vol que feu senyals per a atreure’ls cap a vosaltres i que deixin la caravana en pau.[endingCommon]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], us demana ajuda.\n\n(*Threat)[groupsOf](/Threat) de [enemyFaction_name] assetgen les caravanes que té a la zona. [asker_nameDef] us demana que hi envieu un missatge clar i que els atragueu i que els elimineu.[endingCommon]</li>
     <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
     <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
