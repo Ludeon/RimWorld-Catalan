@@ -169,13 +169,13 @@
     <li>lodgersPossessive(lodgerCount>=2)->els seus</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->els [lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] us demana permís per a quedar-se a [map_definite] durant [questDurationTicks_duration] per a descansar i organitzar-se.\n\nA canvi, [lodgersPronoun] s’[offer] per a treballar i lluitar durant la seva estada.\n\n[joinInfo] [lodgersPronoun] també [offer] una recompensa per l’ajuda, encara que no és possible quines són les seves vertaderes intencions.\n\n[travelerInfo] no forma part de cap facció. Si voleu matar-[lodgersObjective], arrestar-[lodgersObjective], comerciar amb [lodgersPronoun] o extraure els seus òrgans sense conseqüències diplomàtiques.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] us demana permís per a quedar-se a [map_definite] durant [questDurationTicks_duration] per a descansar i organitzar-se.\n\nA canvi, s’[offer] per a treballar i lluitar durant la seva estada.\n\n[joinInfo] [lodgersPronoun] també [offer] una recompensa per l’ajuda, encara que no és possible saber quines són les seves vertaderes intencions.\n\n[travelerInfo] no forma part de cap facció. Si voleu, podeu matar-[lodgersObjective], arrestar-[lodgersObjective], comerciar amb [lodgersPronoun] o extraure els seus òrgans sense conseqüències diplomàtiques.</li>
     <li>approachInfo(lodgerCount==1)->[asker_Un] [faction_pawnSingular] desespera[asker_t] que es diu [asker_nameDef] s’acosta.</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] i un altre [faction_pawnSingular] s’acosten.</li>
-    <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] s’apropa amb un nen..</li>
-    <li>approachInfo(lodgerCount>=3)->[lodgerCount] [faction_pawnsPlural] desesperats s’apropen. El seu líder es diu [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount] [faction_pawnsPlural] desesperats amb un nen s’apropen. El seu líder es diu [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount] [faction_pawnsPlural] desesperats amb alguns nens s’apropen. El seu líder es diu [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] s’apropa amb un nen.</li>
+    <li>approachInfo(lodgerCount>=3)->S’apropen [lodgerCount] [faction_pawnsPlural] desesperats. El seu líder es diu [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->S’apropen [lodgerCount] [faction_pawnsPlural] desesperats amb un nen. El seu líder es diu [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->S’apropen [lodgerCount] [faction_pawnsPlural] desesperats amb alguns nens. El seu líder es diu [asker_nameDef].</li>
     <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->Un grup de [lodgerCount] [faction_pawnsPlural] desesperats s’apropen. Hi ha  [asker_nameDef] i [lodgersCountMinusOne] nens que estan sota la seva tutela.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] diu que ha perdut la seva llar en un atac recent.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] diu que s’ha despertat en un sarcòfag de criptoson tot[asker_x_a] sol[asker_x_a], sense cap company.</li>
@@ -184,7 +184,7 @@
     <li>claimInfo(lodgerCount>=2)->Diuen que han perdut la seva llar en un atac recent.</li>
     <li>claimInfo(lodgerCount>=2)->Diuen que han escapat d’una màfia que volia robar-los els òrgans.</li>
     <li>claimInfo(lodgerCount>=2)->Diuen que han escapat d’una caravana d’esclaus.</li>
-    <li>claimInfo(lodgerCount>=2)->Diuen que les seves collites van ser assolades per diver-ses plagues i van haver d’abandonar el seu poblat perquè es morien de gana.</li>
+    <li>claimInfo(lodgerCount>=2)->Diuen que diverses plagues van assolar les seves collites i, com que es morien de gana, van haver d’abandonar el seu poblat.</li>
     <li>claimInfo(lodgerCount>=2)->Diuen que una tempesta de llamps va cremar la seva llar.</li>
     <li>claimInfo(lodgerCount>=2)->Diuen que la seva caravana fou atacada i els ho van robar tot.</li>
     <li>claimInfo(lodgerCount>=2)->Diuen que han estat desterrats del seu poble perquè van discutir amb la resta de la gent per unes diferències morals.</li>

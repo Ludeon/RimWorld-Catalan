@@ -32,20 +32,20 @@
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Càpsula de transport estavellada</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>{PAWN_titleIndef} anomenat {PAWN_nameDef} s’ha estavellat a prop d’aquí en una càpsula de transport. Si ha sobreviscut a l’impacte, estarà molt {PAWN_gender ? malferit : malferida}.</RefugeePodCrash>
+  <RefugeePodCrash>{PAWN_titleIndef} anomena{PAWN_gender ? t : da} {PAWN} s’ha estavellat a prop d’aquí en una càpsula de transport. Si ha sobreviscut a l’impacte, estarà molt {PAWN_gender ? malferit : malferida}.</RefugeePodCrash>
   <!-- EN: {PAWN_nameDef} is a child of {AGE}. -->
   <RefugeePodCrash_Child>{PAWN_nameDef} és {PAWN_gender ? un nen : una nena} de {AGE}.</RefugeePodCrash_Child>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Factionless>{PAWN_definite} no pertany a cap facció. {PAWN_gender ? El : La} podeu rescatar i tenir l’esperança que s’unirà al vostre grup voluntàriament, o {PAWN_gender ? el : la} podeu capturar per reclutar-{PAWN_gender ? lo : la} o vendre com a esclau</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Factionless>{PAWN_definite} no pertany a cap facció. {PAWN_gender ? El : La} podeu rescatar i tenir l’esperança que s’unirà al vostre grup voluntàriament, o {PAWN_gender ? el : la} podeu capturar per a reclutar-{PAWN_gender ? lo : la} o vendre{PAWN_gender ? ’l : -la} com a escla{PAWN_gender ? u : va}.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Hostile>{PAWN_definite} és de la facció enemiga {PAWN_factionName}. El podeu capturar per a reclutar-lo o vendre’l com a esclau.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
   <RefugeePodCrash_NonHostile>{PAWN_definite} és dels {PAWN_factionName}. Si {PAWN_gender ? el : la} rescateu, podria ser que s’unís voluntàriament al vostre grup. Si no, tornarà a casa seva i parlarà bé de la vostra facció.\n\nTambé {PAWN_gender ? el : la} podeu capturar per reclutar-{PAWN_gender ? lo : la} o vendre’l com a esclau, però això farà enfadar la seva facció.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Wanderer joins: {PAWN_nameDef} -->
-  <LetterLabelWandererJoins>Se us uneix un rodamón: {PAWN_nameDef}</LetterLabelWandererJoins>
+  <LetterLabelWandererJoins>Se us uneix {PAWN_gender ? un : una} rodamón: {PAWN_nameDef}</LetterLabelWandererJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and wants to join the colony.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily, claiming to have nowhere else to go. You can choose to turn {PAWN_objective} down and send {PAWN_objective} away. However, your colonists will be disturbed at sending someone away in need. -->
-  <LetterWandererJoins>Ha arribat {PAWN_gender ? un : una} {PAWN_title} que es diu [PAWN_nameIndef] a la colònia i s’hi vol unir.\n\nVol contribuir i no aixecarà el camp per la seva pròpia voluntat, ja que no té on anar. Podeu reduir-{PAWN_gender ? lo : la} i fer-{PAWN_gender ? lo : la} fora. No obstant, els colons es sentiran molestos per fer fora a algú que necessita ajuda.</LetterWandererJoins>
+  <LetterWandererJoins>Ha arribat {PAWN_gender ? un : una} {PAWN_title} que es diu [PAWN_nameIndef] a la colònia i s’hi vol unir.\n\nVol contribuir i no aixecarà el camp per la seva pròpia voluntat, ja que no té on anar. Podeu reduir-{PAWN_gender ? lo : la} i fer-{PAWN_gender ? lo : la} fora. No obstant, els colons se sentiran molestos per fer fora a algú que necessita ajuda.</LetterWandererJoins>
 
   <!-- EN: Cargo pods -->
   <LetterLabelCargoPodCrash>Càpsules de càrrega</LetterLabelCargoPodCrash>

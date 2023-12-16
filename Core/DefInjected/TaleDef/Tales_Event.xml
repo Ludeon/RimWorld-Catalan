@@ -19,12 +19,12 @@
     <li>desc_sentence->[PAWN_pronoun] has lost [PAWN_possessive] balance.</li>
   -->
   <CollapseDodged.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] evitant una caiguda</li>
-    <li>tale_noun->[pawn_nameShortDef] gairebé esclafat per la caiguda d’objectes</li>
-    <li>image->[pawn_nameFull] relliscant en una pila de brossa [circumstance_group]</li>
-    <li>image->[pawn_nameFull] esquivant per poc una caiguda [circumstance_group]</li>
-    <li>image->[pawn_nameFull] evitant el despreniment del sostre\n[circumstance_group]</li>
-    <li>image->[pawn_nameFull] evitant un mort segura per una caiguda de roques [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] evitant una caiguda</li>
+    <li>tale_noun->[PAWN_nameDef] gairebé esclafat per la caiguda d’objectes</li>
+    <li>image->[PAWN_nameFull] relliscant en una pila de brossa [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] esquivant per poc una caiguda [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] evitant el despreniment del sostre\n[circumstance_group]</li>
+    <li>image->[PAWN_nameFull] evitant un mort segura per una caiguda de roques [circumstance_group]</li>
     <li>circumstance_phrase->que desapareix rere una cortina de pols i brossa</li>
     <li>circumstance_phrase->que fa pols tot el que deixa darrere</li>
     <li>circumstance_phrase->que impacta amb una força sorprenent</li>
@@ -60,12 +60,12 @@
     <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
   -->
   <LaunchedShip.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] fugint del planeta</li>
-    <li>tale_noun->[pawn_nameShortDef] enlairant-se en una nau espacial</li>
-    <li>image->[pawn_nameFull] sent enviat cap a les estrelles [circumstance_group]</li>
-    <li>image->[pawn_nameFull] en una cursa cap al cel [circumstance_group]</li>
-    <li>image->[pawn_nameFull] accelerant fins a la velocitat d’enlairament [circumstance_group]</li>
-    <li>image->[pawn_nameFull] pilotant un coet [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] fugint del planeta</li>
+    <li>tale_noun->[PAWN_nameDef] enlairant-se en una nau espacial</li>
+    <li>image->[PAWN_nameFull] sent enviat cap a les estrelles [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] en una cursa cap al cel [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] accelerant fins a la velocitat d’enlairament [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] pilotant un coet [circumstance_group]</li>
     <li>circumstance_phrase->davant d’un [terrainfeature]</li>
     <li>circumstance_phrase->amb una força increïble</li>
     <li>circumstance_phrase->dins un núvol de pols i pedres</li>
@@ -150,7 +150,7 @@
     <li>desc_sentence->el cos de [target] està cobert de [gore].</li>
     <li>desc_sentence->[target] xiscla furiosament.</li>
     <li>desc_sentence->[target] està visiblement ferit.</li>
-    <li>desc_sentence->els ulls de [target] brillen de color [color].</li>
+    <li>desc_sentence->els ulls de [target] brillen de color [Color].</li>
     <li>target->[pawna_nameShortDef]</li>
     <li>target->[pawnb_nameShortDef]</li>
   </SocialFight.rulePack.rulesStrings>

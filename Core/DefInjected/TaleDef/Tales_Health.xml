@@ -41,15 +41,15 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <Downed.rulePack.rulesStrings>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef]</li>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] amb [weapon_label]</li>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef]</li>
-    <li>tale_noun->[weapon_label] [wound_name_present] a [victim_nameShortDef]</li>
-    <li>tale_noun->la mutilació de [victim_nameShortDef]</li>
-    <li>image->[victim_nameFull] sent [wound_name_past] per [killer_nameFull] [weapon_optional]</li>
-    <li>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</li>
-    <li>image->[killer_nameFull] [wound_name_present] brutalment [victim_nameFull] [weapon_optional]</li>
-    <li>image->[victim_nameFull] sent [wound_name_past] [weapon_optional]</li>
+    <li>tale_noun->com [KILLER_nameDef] [wound_name_present] a [VICTIM_nameDef]</li>
+    <li>tale_noun->com [KILLER_nameDef] [wound_name_present] a [VICTIM_nameDef] amb [WEAPON_label]</li>
+    <li>tale_noun->com [KILLER_nameDef] [wound_name_present] a [VICTIM_nameDef]</li>
+    <li>tale_noun->com [WEAPON_label] [wound_name_present] a [VICTIM_nameDef]</li>
+    <li>tale_noun->la mutilació de [VICTIM_nameDef]</li>
+    <li>image->[VICTIM_nameFull] sent [wound_name_past] per [KILLER_nameFull] [weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] brutalment [VICTIM_nameFull] [weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] sent [wound_name_past] [weapon_optional]</li>
     <li>wound_name_past->incapacitat</li>
     <li>wound_name_past->mutilat</li>
     <li>wound_name_past->deixat inconscient</li>
@@ -58,7 +58,7 @@
     <li>wound_name_present->lesiona</li>
     <li>wound_name_present->deixa inconscient</li>
     <li>wound_name_present->discapacita</li>
-    <li>weapon_optional->amb [weapon_label] [circumstance_group]</li>
+    <li>weapon_optional->amb [WEAPON_label] [circumstance_group]</li>
     <li>weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->sense remordiment aparent</li>
     <li>circumstance_phrase->amb una freda eficiència</li>
@@ -67,16 +67,16 @@
     <li>circumstance_phrase->sense cap emoció o expressió</li>
     <li>circumstance_phrase->sense cap fosca necessitat</li>
     <li>circumstance_phrase->covardament i sense compassió</li>
-    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] s’ho miren.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPlural] s’ho miren.</li>
     <li>desc_sentence->Un [PersonJob] s’ho mira en silenci [side_position].</li>
     <li>desc_sentence->Una [PersonJob_Fem] s’ho mira en silenci [side_position].</li>
-    <li>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</li>
-    <li>desc_sentence->[victim_nameShortDef] té els ulls tancats.</li>
-    <li>desc_sentence->[killer_nameShortDef] ensenya les dents.</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla satisfet.</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla patir pel que fa [killer_pronoun].</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla encantat amb la situació.</li>
-    <li>desc_sentence->[killer_nameShortDef] es mostra triomfant.</li>
+    <li>desc_sentence->[VICTIM_nameDef] sembla [angstyadjective].</li>
+    <li>desc_sentence->[VICTIM_nameDef] té els ulls tancats.</li>
+    <li>desc_sentence->[KILLER_nameDef] ensenya les dents.</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla satisfet.</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla patir pel que fa [killer_pronoun].</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla encantat amb la situació.</li>
+    <li>desc_sentence->[KILLER_nameDef] es mostra triomfant.</li>
   </Downed.rulePack.rulesStrings>
   
   <!-- EN: exhausted -->
@@ -99,20 +99,20 @@
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
   <Exhausted.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] perdent el coneixement pel cansament</li>
-    <li>image->[pawn_nameFull] caient a terra [circumstance_group]</li>
-    <li>image->[pawn_nameFull] jaient a terra [circumstance_group]</li>
-    <li>image->el cos [pawn_nameFull] estirat a terra [circumstance_group]</li>
-    <li>image->[pawn_nameFull] abatut sobre una cadira [circumstance_group]</li>
-    <li>image->[pawn_nameFull] dormint com un angelet [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] perdent el coneixement pel cansament</li>
+    <li>image->[PAWN_nameFull] caient a terra [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] jaient a terra [circumstance_group]</li>
+    <li>image->el cos [PAWN_nameFull] estirat a terra [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] abatut sobre una cadira [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] dormint com un angelet [circumstance_group]</li>
     <li>circumstance_phrase->amb els ulls tancats</li>
     <li>circumstance_phrase->amb uns ulls visiblement esgotats</li>
     <li>circumstance_phrase->amb el cos cobert de suor</li>
     <li>circumstance_phrase->i incapaç de moure un dit</li>
-    <li>desc_sentence->el darrer treball de [pawn_nameShortDef] és al seu costat, acabat.</li>
-    <li>desc_sentence->Una construcció meravellosa envolta a [pawn_nameShortDef].</li>
-    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] es mostren agraïts per l’esforç heroic de [pawn_nameShortDef].</li>
-    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] jauen a prop en un estat semblant.</li>
+    <li>desc_sentence->el darrer treball de [PAWN_nameDef] és al seu costat, acabat.</li>
+    <li>desc_sentence->Una construcció meravellosa envolta a [PAWN_nameDef].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] es mostren agraïts per l’esforç heroic de [PAWN_nameDef].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] jauen a prop en un estat semblant.</li>
     <li>desc_sentence->L’escena té lloc dins una [Community] acabada de fer.</li>
   </Exhausted.rulePack.rulesStrings>
   
@@ -137,20 +137,20 @@
     <li>desc_sentence->The scene takes place inside a newly-built [Community].</li>
   -->
   <GaveBirth.rulePack.rulesStrings>
-    <li>tale_noun->[mother_nameShortDef] donant a llum a [child_nameShortDef]</li>
-    <li>image->[mother_nameFull] donant a llum a [circumstance_group]</li>
-    <li>image->[mother_nameFull] amb el seu [baby] en braços, [circumstance_group]</li>
-    <li>image->[mother_nameFull] estirada al llit al costat del seu [baby], [circumstance_group]</li>
-    <li>image->[mother_nameFull] tombada en una cadira amb el seu [baby] [circumstance_group]</li>
+    <li>tale_noun->[MOTHER_nameDef] donant a llum a [CHILD_nameDef]</li>
+    <li>image->[MOTHER_nameFull] donant a llum a [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] amb el seu [baby] en braços, [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] estirada al llit al costat del seu [baby], [circumstance_group]</li>
+    <li>image->[MOTHER_nameFull] tombada en una cadira amb el seu [baby] [circumstance_group]</li>
     <li>baby->infant</li>
     <li>baby->nadó</li>
     <li>baby->nounat</li>
-    <li>circumstance_phrase->[child_nameFull], que plora amb la cara ben vermella</li>
-    <li>circumstance_phrase->[child_nameFull], que brilla d’un color [color] molt suau</li>
-    <li>circumstance_phrase->[child_nameFull], que ja prova de donar-se la volta</li>
-    <li>circumstance_phrase->[child_nameFull], que mira al seu voltant amb una expressió serena</li>
-    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] dormen pacíficament a les rodalies.</li>
-    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] s’ho miren.</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que plora amb la cara ben vermella</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que brilla d’un color [Color] molt suau</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que ja prova de donar-se la volta</li>
+    <li>circumstance_phrase->[CHILD_nameFull], que mira al seu voltant amb una expressió serena</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPlural] dormen pacíficament a les rodalies.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] s’ho miren.</li>
     <li>desc_sentence->Un [PersonJob] s’ho mira a distància.</li>
     <li>desc_sentence->Una [PersonJob_Fem] s’ho mira a distància.</li>
     <li>desc_sentence->L’escena té lloc dins una [Community] acabada de construir.</li>
@@ -179,25 +179,25 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <HeatstrokeRevealed.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] agafant un cop de calor</li>
-    <li>tale_noun->[pawn_nameShortDef] passant molta calor</li>
-    <li>image->[pawn_nameFull] caminant arrossegant els peus per la sorra [circumstance_group]</li>
-    <li>image->[pawn_nameFull] apilant-se a l’ombra d’una [terrainfeature] [circumstance_group]</li>
-    <li>image->[pawn_nameFull] anant a buscar aigua [circumstance_group]</li>
-    <li>image->[pawn_nameFull] buscant l’ombra [circumstance_group]</li>
-    <li>image->[pawn_nameFull] anant de 4 grapes per la brutícia cuita al sol [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] agafant un cop de calor</li>
+    <li>tale_noun->[PAWN_nameDef] passant molta calor</li>
+    <li>image->[PAWN_nameFull] caminant arrossegant els peus per la sorra [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] apilant-se a l’ombra d’una [terrainfeature] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] anant a buscar aigua [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] buscant l’ombra [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] anant de 4 grapes per la brutícia cuita al sol [circumstance_group]</li>
     <li>circumstance_phrase->amb la pell ben vermella i seca</li>
     <li>circumstance_phrase->i el cos cobert de suor</li>
     <li>circumstance_phrase->amb els llavis secs i tallats</li>
     <li>circumstance_phrase->mentre vomita</li>
-    <li>desc_sentence->[quantity_adjphrase] cadàvers de [AnimalAnyPlural] assecats cobreixen la zona.</li>
-    <li>desc_sentence->la roba de [pawn_nameShortDef] està bruta i feta malbé.</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadàvers de [AnimalAnyPlural] assecats cobreixen la zona.</li>
+    <li>desc_sentence->la roba de [PAWN_nameDef] està bruta i feta malbé.</li>
     <li>desc_sentence->Un sol esclatant amenaça a l’horitzó.</li>
     <li>desc_sentence->L’escena pren part en un desert abrasador.</li>
     <li>desc_sentence->L’escena pren part en un interior, al costat d’una estufa.</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s immòbils envolten l’escena.</li>
-    <li>desc_sentence(p=0.5)->[quantity_adjphrase] [AnimalMP] moribunds cobreixen el terra.</li>
-    <li>desc_sentence(p=0.5)->[quantity_adjphrase] [AnimalFP] moribundes cobreixen el terra.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [animal]s immòbils envolten l’escena.</li>
+    <li>desc_sentence(p=0.5)->[Quantity_adjphrase] [AnimalMP] moribunds cobreixen el terra.</li>
+    <li>desc_sentence(p=0.5)->[Quantity_adjphrase] [AnimalFP] moribundes cobreixen el terra.</li>
   </HeatstrokeRevealed.rulePack.rulesStrings>
   
   <!-- EN: hypothermia revealed -->
@@ -222,25 +222,25 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <HypothermiaRevealed.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] pateix hipotèrmia</li>
-    <li>image->[pawn_nameFull] camina arrossegant els peus per la neu [circumstance_group]</li>
-    <li>image->[pawn_nameFull] s’ajoca al costat d’una [terrainfeature] [circumstance_group]</li>
-    <li>image->[pawn_nameFull] busca [apparel] calentó [circumstance_group]</li>
-    <li>image->[pawn_nameFull] a la gatzoneta al costat d’un foc [circumstance_group]</li>
-    <li>image->[pawn_nameFull] intenta encendre un foc [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] pateix hipotèrmia</li>
+    <li>image->[PAWN_nameFull] camina arrossegant els peus per la neu [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] s’ajoca al costat d’una [terrainfeature] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] busca [apparel] calentó [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a la gatzoneta al costat d’un foc [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] intenta encendre un foc [circumstance_group]</li>
     <li>circumstance_phrase->mentre la cara se li torna blava</li>
     <li>circumstance_phrase->i tremola sense control</li>
     <li>circumstance_phrase->amb el cos cobert de gebre</li>
     <li>circumstance_phrase->exhala vapor</li>
-    <li>desc_sentence->[quantity_adjphrase] cadàvers de [AnimalAnyPlural] congelats envolten la zona.</li>
-    <li>desc_sentence->[pawn_nameShortDef] té la roba bruta i feta malbé.</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadàvers de [AnimalAnyPlural] congelats envolten la zona.</li>
+    <li>desc_sentence->[PAWN_nameDef] té la roba bruta i feta malbé.</li>
     <li>desc_sentence->Una lluna blava i freda amenaça al fons.</li>
     <li>desc_sentence->L’escena té lloc en un bosc de [tree]s cobert de neu.</li>
     <li>desc_sentence->L’escena té lloc dins un congelador.</li>
-    <li>desc_sentence(p=0.7)->[quantity_adjphrase] [AnimalMP] tremolosos completen l’escena.</li>
-    <li>desc_sentence(p=0.3)->[quantity_adjphrase] [AnimalFP] tremoloses completen l’escena.</li>
-    <li>desc_sentence(p=0.7)->[quantity_adjphrase] [AnimalMP] moribunds cobreixen el terra.</li>
-    <li>desc_sentence(p=0.3)->[quantity_adjphrase] [AnimalFP] moribundes cobreixen el terra.</li>
+    <li>desc_sentence(p=0.7)->[Quantity_adjphrase] [AnimalMP] tremolosos completen l’escena.</li>
+    <li>desc_sentence(p=0.3)->[Quantity_adjphrase] [AnimalFP] tremoloses completen l’escena.</li>
+    <li>desc_sentence(p=0.7)->[Quantity_adjphrase] [AnimalMP] moribunds cobreixen el terra.</li>
+    <li>desc_sentence(p=0.3)->[Quantity_adjphrase] [AnimalFP] moribundes cobreixen el terra.</li>
   </HypothermiaRevealed.rulePack.rulesStrings>
   
   <!-- EN: illness revealed -->
@@ -267,13 +267,13 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <IllnessRevealed.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] ha agafat [illness_label]</li>
-    <li>image->[pawn_nameFull] tentinejant a per un camp [circumstance_group]</li>
-    <li>image->[pawn_nameFull] ajagut a terra [circumstance_group]</li>
-    <li>image->[pawn_nameFull] estirat al llit [circumstance_group]</li>
-    <li>image->[pawn_nameFull] estirat al llit de l’hospital [circumstance_group]</li>
-    <li>image->[pawn_nameFull] enfonsat sobre una cadira [circumstance_group]</li>
-    <li>image->[pawn_nameFull] a la gatzoneta la costat d’un foc [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] ha agafat [illness_label]</li>
+    <li>image->[PAWN_nameFull] tentinejant a per un camp [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] ajagut a terra [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] estirat al llit [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] estirat al llit de l’hospital [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] enfonsat sobre una cadira [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a la gatzoneta la costat d’un foc [circumstance_group]</li>
     <li>circumstance_phrase->i suant descontroladament</li>
     <li>circumstance_phrase->i tremolant descontroladament</li>
     <li>circumstance_phrase->suant i tremolant a la vegada</li>
@@ -281,12 +281,12 @@
     <li>circumstance_phrase->mentre vomita</li>
     <li>circumstance_phrase->amb una erupció visible</li>
     <li>circumstance_phrase->sent atès pel metge</li>
-    <li>desc_sentence->[quantity_adjphrase] cadàvers de [AnimalAnyPlural] volant per la zona.</li>
-    <li>desc_sentence->[quantity_adjphrase] [terrainfeature]s [color]s retorçades envolten l’escena.</li>
-    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] estant afectats per la mateixa malatia.</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadàvers de [AnimalAnyPlural] volant per la zona.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [terrainfeature]s [Color]s retorçades envolten l’escena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] estant afectats per la mateixa malatia.</li>
     <li>desc_sentence->L’escena té lloc dins un bosc de [tree]s.</li>
-    <li>desc_sentence(p=0.5)->[quantity_adjphrase] [AnimalMP] moribunds embruten el terra.</li>
-    <li>desc_sentence(p=0.5)->[quantity_adjphrase] [AnimalFP] moribundes embruten el terra.</li>
+    <li>desc_sentence(p=0.5)->[Quantity_adjphrase] [AnimalMP] moribunds embruten el terra.</li>
+    <li>desc_sentence(p=0.5)->[Quantity_adjphrase] [AnimalFP] moribundes embruten el terra.</li>
   </IllnessRevealed.rulePack.rulesStrings>
   
   <!-- EN: killed -->
@@ -323,10 +323,10 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledCapacity.rulePack.rulesStrings>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef]</li>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] amb [weapon_label]</li>
-    <li>image->[killer_nameFull] [cap_removal] la capacitat per [capacity_label] de [victim_nameFull]</li>
-    <li>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [cap_removal] la seva [capacity_label] [weapon_optional]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] amb [WEAPON_label]</li>
+    <li>image->[KILLER_nameFull] [cap_removal] la capacitat per [CAPACITY_label] de [VICTIM_nameFull]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [cap_removal] la seva [CAPACITY_label] [weapon_optional]</li>
     <li>cap_removal->destruint</li>
     <li>cap_removal->eliminant</li>
     <li>cap_removal->acabant amb</li>
@@ -338,20 +338,20 @@
     <li>wound_name_present->executa</li>
     <li>wound_name_present->assassina</li>
     <li>wound_name_present->elimina</li>
-    <li>weapon_optional->amb [weapon_label] [circumstance_group]</li>
+    <li>weapon_optional->amb [WEAPON_label] [circumstance_group]</li>
     <li>weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->sense remordiments aparents</li>
     <li>circumstance_phrase->amb una eficiència freda</li>
     <li>circumstance_phrase->amb moviments ràpids i eficaços</li>
     <li>circumstance_phrase->sense cap expressió o emoció</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [animal]s s’ho miren.</li>
     <li>desc_sentence->Un [PersonJob] s’ho mira sense dir res [side_position].</li>
-    <li>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</li>
-    <li>desc_sentence->[victim_nameShortDef] té els ulls tancats.</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla satisfet.</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla preocupat pel que fa [killer_pronoun].</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla encantat amb la situació.</li>
-    <li>desc_sentence->[killer_nameShortDef] es mostra triomfant.</li>
+    <li>desc_sentence->[VICTIM_nameDef] sembla [angstyadjective].</li>
+    <li>desc_sentence->[VICTIM_nameDef] té els ulls tancats.</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla satisfet.</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla preocupat pel que fa [killer_pronoun].</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla encantat amb la situació.</li>
+    <li>desc_sentence->[KILLER_nameDef] es mostra triomfant.</li>
   </KilledCapacity.rulePack.rulesStrings>
   
   <!-- EN: killed at distance -->
@@ -392,13 +392,13 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledLongRange.rulePack.rulesStrings>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] des de molt lluny</li>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] des de molt lluny amb [weapon_label]</li>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a llarga distància [victim_nameShortDef] per </li>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a llarga distància [victim_nameShortDef] per  amb [weapon_label]</li>
-    <li>image->[killer_nameFull] apuntant a [victim_nameFull] [weapon_optional]</li>
-    <li>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</li>
-    <li>image->[killer_nameFull] [wound_name_present] amb fredor [victim_nameFull] [weapon_optional]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] a [VICTIM_nameDef] des de molt lluny</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] a [VICTIM_nameDef] des de molt lluny amb [WEAPON_label]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] a llarga distància [VICTIM_nameDef] per </li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] a llarga distància [VICTIM_nameDef] per  amb [WEAPON_label]</li>
+    <li>image->[KILLER_nameFull] apuntant a [VICTIM_nameFull] [weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] amb fredor [VICTIM_nameFull] [weapon_optional]</li>
     <li>wound_name_past->assassinat</li>
     <li>wound_name_past->liquidat</li>
     <li>wound_name_past->massacrat</li>
@@ -407,7 +407,7 @@
     <li>wound_name_present->liquida</li>
     <li>wound_name_present->slaughtering</li>
     <li>wound_name_present->massacra</li>
-    <li>weapon_optional->amb [weapon_label] [circumstance_group]</li>
+    <li>weapon_optional->amb [WEAPON_label] [circumstance_group]</li>
     <li>weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->sense remordiments aparents</li>
     <li>circumstance_phrase->amb una freda eficiència</li>
@@ -415,17 +415,17 @@
     <li>circumstance_phrase->des de molta alçada</li>
     <li>circumstance_phrase->sense expressió o emoció</li>
     <li>circumstance_phrase->covardament i sense compassió</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [animal]s s’ho miren.</li>
     <li>desc_sentence->Un [PersonJob] s’ho mira sense dir res [side_position].</li>
     <li>desc_sentence->Una [PersonJob_Fem] s’ho mira sense dir res [side_position].</li>
-    <li>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</li>
-    <li>desc_sentence->[victim_nameShortDef] te els ulls tancats.</li>
-    <li>desc_sentence->[victim_nameShortDef] te el cos cobert de [gore].</li>
-    <li>desc_sentence->[killer_nameShortDef] ensenya les dents.</li>
-    <li>desc_sentence->[killer_nameShortDef] somriu amb satisfacció.</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla patir pel que fa [killer_pronoun].</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla encantat amb la situació.</li>
-    <li>desc_sentence->[killer_nameShortDef] es mostra triomfant.</li>
+    <li>desc_sentence->[VICTIM_nameDef] sembla [angstyadjective].</li>
+    <li>desc_sentence->[VICTIM_nameDef] te els ulls tancats.</li>
+    <li>desc_sentence->[VICTIM_nameDef] te el cos cobert de [gore].</li>
+    <li>desc_sentence->[KILLER_nameDef] ensenya les dents.</li>
+    <li>desc_sentence->[KILLER_nameDef] somriu amb satisfacció.</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla patir pel que fa [killer_pronoun].</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla encantat amb la situació.</li>
+    <li>desc_sentence->[KILLER_nameDef] es mostra triomfant.</li>
   </KilledLongRange.rulePack.rulesStrings>
   
   <!-- EN: killed major threat -->
@@ -469,43 +469,43 @@
     <li>desc_sentence->[KILLER_nameDef] is glowing with a heroic aura.</li>
   -->
   <KilledMajorThreat.rulePack.rulesStrings>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef]</li>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] amb [weapon_label]</li>
-    <li>tale_noun->[killer_nameShortDef][wound_name_present] a [victim_nameShortDef] </li>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] amb [weapon_label]</li>
-    <li>image->[victim_nameFull] sent [wound_name_past] per [killer_nameFull] [weapon_optional]</li>
-    <li>image->[killer_nameFull] [wound_name_present] a [victim_nameFull] [weapon_optional]</li>
-    <li>image->[killer_nameFull] [wound_name_present] brutalment a [victim_nameFull] [weapon_optional]</li>
-    <li>image->[victim_nameFull] sent [wound_name_past] [weapon_optional]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] a [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] a [VICTIM_nameDef] amb [WEAPON_label]</li>
+    <li>tale_noun->[KILLER_nameDef][wound_name_present] a [VICTIM_nameDef] </li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] a [VICTIM_nameDef] amb [WEAPON_label]</li>
+    <li>image->[VICTIM_nameFull] sent [wound_name_past] per [KILLER_nameFull] [weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] a [VICTIM_nameFull] [weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] brutalment a [VICTIM_nameFull] [weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] sent [wound_name_past] [weapon_optional]</li>
     <li>wound_name_past->liquidat</li>
     <li>wound_name_past->derrotat</li>
     <li>wound_name_past->vençut</li>
     <li>wound_name_present->liquida</li>
     <li>wound_name_present->derrota</li>
     <li>wound_name_present->venç</li>
-    <li>weapon_optional->amb [weapon_label] [circumstance_group]</li>
+    <li>weapon_optional->amb [WEAPON_label] [circumstance_group]</li>
     <li>weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->amb una eficiència freda</li>
     <li>circumstance_phrase->amb moviments ràpids i eficaços</li>
     <li>circumstance_phrase->sense cap expressió ni emoció</li>
     <li>circumstance_phrase->amb gran heroisme</li>
     <li>circumstance_phrase->amb una força increïble</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [animal]s s’ho miren.</li>
     <li>desc_sentence->Un [PersonJob] S’ho mira sense dir res [side_position].</li>
     <li>desc_sentence->Una [PersonJob_Fem] S’ho mira sense dir res [side_position].</li>
-    <li>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</li>
-    <li>desc_sentence->[victim_nameShortDef] té els ulls tancats.</li>
-    <li>desc_sentence->[victim_nameShortDef] té el cos cobert de [gore].</li>
-    <li>desc_sentence->tant [victim_nameShortDef] com [killer_nameShortDef] estant coberts de [gore].</li>
-    <li>desc_sentence->el cadàver de [victim_nameShortDef] domina sobre [killer_nameShortDef].</li>
-    <li>desc_sentence->l’enorme cadaver de [victim_nameShortDef]cobreix una [terrainfeature].</li>
-    <li>desc_sentence->els ulls de [victim_nameShortDef] llueixen en color [color].</li>
-    <li>desc_sentence->[killer_nameShortDef] té el cos cobert de [gore].</li>
-    <li>desc_sentence->[killer_nameShortDef] ensenya les dents.</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla satisfet.</li>
-    <li>desc_sentence->[killer_nameShortDef] es mostra triomfant.</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla [badassadjective].</li>
-    <li>desc_sentence->[killer_nameShortDef] llueix amb una aura heroica.</li>
+    <li>desc_sentence->[VICTIM_nameDef] sembla [angstyadjective].</li>
+    <li>desc_sentence->[VICTIM_nameDef] té els ulls tancats.</li>
+    <li>desc_sentence->[VICTIM_nameDef] té el cos cobert de [gore].</li>
+    <li>desc_sentence->tant [VICTIM_nameDef] com [KILLER_nameDef] estant coberts de [gore].</li>
+    <li>desc_sentence->el cadàver de [VICTIM_nameDef] domina sobre [KILLER_nameDef].</li>
+    <li>desc_sentence->l’enorme cadaver de [VICTIM_nameDef]cobreix una [terrainfeature].</li>
+    <li>desc_sentence->els ulls de [VICTIM_nameDef] llueixen en color [Color].</li>
+    <li>desc_sentence->[KILLER_nameDef] té el cos cobert de [gore].</li>
+    <li>desc_sentence->[KILLER_nameDef] ensenya les dents.</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla satisfet.</li>
+    <li>desc_sentence->[KILLER_nameDef] es mostra triomfant.</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla [badassadjective].</li>
+    <li>desc_sentence->[KILLER_nameDef] llueix amb una aura heroica.</li>
   </KilledMajorThreat.rulePack.rulesStrings>
   
   <!-- EN: killed in melee -->
@@ -549,14 +549,14 @@
     <li>desc_sentence->[KILLER_nameDef] wears a feral expression.</li>
   -->
   <KilledMelee.rulePack.rulesStrings>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] en combat cos a cos</li>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] cos a cos amb un [weapon_label]</li>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] cos a cos a [victim_nameShortDef]</li>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] amb [weapon_label]</li>
-    <li>image->[victim_nameFull] sent [wound_name_past] per [killer_nameFull] [weapon_optional]</li>
-    <li>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</li>
-    <li>image->[killer_nameFull] [wound_name_present] brutalment a [victim_nameFull] [weapon_optional]</li>
-    <li>image->[victim_nameFull] sent [wound_name_past] [weapon_optional]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] a [VICTIM_nameDef] en combat cos a cos</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] a [VICTIM_nameDef] cos a cos amb un [WEAPON_label]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] cos a cos a [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] a [VICTIM_nameDef] amb [WEAPON_label]</li>
+    <li>image->[VICTIM_nameFull] sent [wound_name_past] per [KILLER_nameFull] [weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] brutalment a [VICTIM_nameFull] [weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] sent [wound_name_past] [weapon_optional]</li>
     <li>wound_name_past->assassinat</li>
     <li>wound_name_past->liquidat</li>
     <li>wound_name_past->massacrat</li>
@@ -565,27 +565,27 @@
     <li>wound_name_present->liquidant</li>
     <li>wound_name_present->massacrant</li>
     <li>wound_name_present->mutilant</li>
-    <li>weapon_optional->amb un [weapon_label] [circumstance_group]</li>
+    <li>weapon_optional->amb un [WEAPON_label] [circumstance_group]</li>
     <li>weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->sense remordiment aparent</li>
     <li>circumstance_phrase->amb una eficiència freda</li>
     <li>circumstance_phrase->amb moviments ràpids i eficaços</li>
     <li>circumstance_phrase->sense cap expressió ni emoció</li>
     <li>circumstance_phrase->covardament i sense compassió</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [animal]s s’ho miren.</li>
     <li>desc_sentence->Un [PersonJob] s’ho mira sense dir res [side_position].</li>
     <li>desc_sentence->Una [PersonJob_Fem] s’ho mira sense dir res [side_position].</li>
-    <li>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</li>
-    <li>desc_sentence->[victim_nameShortDef] té els ull tancats.</li>
-    <li>desc_sentence->[victim_nameShortDef] té el cos cobert de [gore].</li>
-    <li>desc_sentence->tant [victim_nameShortDef] com [killer_nameShortDef] estan tots dos coberts de [gore].</li>
-    <li>desc_sentence->[killer_nameShortDef] té el cos cobert de [gore].</li>
-    <li>desc_sentence->[killer_nameShortDef] ensenya les dents.</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla satisfet.</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla patir pel que fa [killer_pronoun].</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla encantat amb la situació.</li>
-    <li>desc_sentence->[killer_nameShortDef] es mostra triomfant.</li>
-    <li>desc_sentence->[killer_nameShortDef] té una expressió ferotge.</li>
+    <li>desc_sentence->[VICTIM_nameDef] sembla [angstyadjective].</li>
+    <li>desc_sentence->[VICTIM_nameDef] té els ull tancats.</li>
+    <li>desc_sentence->[VICTIM_nameDef] té el cos cobert de [gore].</li>
+    <li>desc_sentence->Tant [VICTIM_nameDef] com [KILLER_nameDef] estan tots dos coberts de [gore].</li>
+    <li>desc_sentence->[KILLER_nameDef] té el cos cobert de [gore].</li>
+    <li>desc_sentence->[KILLER_nameDef] ensenya les dents.</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla satisfet.</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla patir pel que fa [killer_pronoun].</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla encantat amb la situació.</li>
+    <li>desc_sentence->[KILLER_nameDef] es mostra triomfant.</li>
+    <li>desc_sentence->[KILLER_nameDef] té una expressió ferotge.</li>
   </KilledMelee.rulePack.rulesStrings>
   
   <!-- EN: killed with mortar -->
@@ -613,27 +613,27 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledMortar.rulePack.rulesStrings>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] [victim_nameShortDef] amb mortar</li>
-    <li>tale_noun->mort amb artilleria de [victim_nameShortDef] per [killer_nameShortDef]</li>
-    <li>image->[killer_nameFull] apuntant amb cura el tub del morter [circumstance_group]</li>
-    <li>image->[killer_nameFull] mirant a la llunyania [circumstance_group]</li>
-    <li>image->[killer_nameFull] fent càlculs sobre un paper [circumstance_group]</li>
-    <li>image->[killer_nameFull] comprovant la direcció del vent [circumstance_group]</li>
-    <li>circumstance_phrase->mentre [victim_nameFull] és engolit per una fortíssima explosió</li>
-    <li>circumstance_phrase->mentre el projectil dibuixa un arc per caure sobre [victim_nameFull]</li>
-    <li>circumstance_phrase->mentre [victim_nameFull] passeja distret</li>
-    <li>circumstance_phrase->mentre [victim_nameFull] esprinta</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] [VICTIM_nameDef] amb mortar</li>
+    <li>tale_noun->mort amb artilleria de [VICTIM_nameDef] per [KILLER_nameDef]</li>
+    <li>image->[KILLER_nameFull] apuntant amb cura el tub del morter [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] mirant a la llunyania [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] fent càlculs sobre un paper [circumstance_group]</li>
+    <li>image->[KILLER_nameFull] comprovant la direcció del vent [circumstance_group]</li>
+    <li>circumstance_phrase->mentre [VICTIM_nameFull] és engolit per una fortíssima explosió</li>
+    <li>circumstance_phrase->mentre el projectil dibuixa un arc per caure sobre [VICTIM_nameFull]</li>
+    <li>circumstance_phrase->mentre [VICTIM_nameFull] passeja distret</li>
+    <li>circumstance_phrase->mentre [VICTIM_nameFull] esprinta</li>
+    <li>desc_sentence->[Quantity_adjphrase] [animal]s s’ho miren.</li>
     <li>desc_sentence->Un [PersonJob] s’ho mira sense dir res [side_position].</li>
     <li>desc_sentence->Una [PersonJob_Fem] s’ho mira sense dir res [side_position].</li>
-    <li>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</li>
-    <li>desc_sentence->[victim_nameShortDef] te el cos cobert de [gore].</li>
-    <li>desc_sentence->[victim_nameShortDef] està envoltat d’explosions.</li>
-    <li>desc_sentence->[victim_nameShortDef] està envoltats de cràters.</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla satisfet.</li>
-    <li>desc_sentence->[killer_nameShortDef] Sembla preocupat pel que esta fent [killer_pronoun].</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla encantat amb la situació.</li>
-    <li>desc_sentence->[killer_nameShortDef] es mostra triomfant.</li>
+    <li>desc_sentence->[VICTIM_nameDef] sembla [angstyadjective].</li>
+    <li>desc_sentence->[VICTIM_nameDef] te el cos cobert de [gore].</li>
+    <li>desc_sentence->[VICTIM_nameDef] està envoltat d’explosions.</li>
+    <li>desc_sentence->[VICTIM_nameDef] està envoltats de cràters.</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla satisfet.</li>
+    <li>desc_sentence->[KILLER_nameDef] Sembla preocupat pel que esta fent [killer_pronoun].</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla encantat amb la situació.</li>
+    <li>desc_sentence->[KILLER_nameDef] es mostra triomfant.</li>
   </KilledMortar.rulePack.rulesStrings>
   
   <!-- EN: toxicity revealed -->
@@ -661,26 +661,26 @@
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
   -->
   <ToxicityRevealed.rulePack.rulesStrings>
-    <li>tale_noun->el cos de [pawn_nameShortDef] tornant-se tòxic</li>
-    <li>tale_noun->[pawn_nameShortDef] rebent toxines d’una font externa</li>
-    <li>image->[pawn_nameFull] tentinejant per un camp [circumstance_group]</li>
-    <li>image->[pawn_nameFull] estès a terra [circumstance_group]</li>
-    <li>image->[pawn_nameFull] ajagut al llit [circumstance_group]</li>
-    <li>image->[pawn_nameFull] a la gatzoneta al costat d’un foc [circumstance_group]</li>
-    <li>image->[pawn_nameFull] intentant encendre un foc [circumstance_group]</li>
-    <li>image->[pawn_nameFull] traient-se la roba sense raó [circumstance_group]</li>
+    <li>tale_noun->el cos de [PAWN_nameDef] tornant-se tòxic</li>
+    <li>tale_noun->[PAWN_nameDef] rebent toxines d’una font externa</li>
+    <li>image->[PAWN_nameFull] tentinejant per un camp [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] estès a terra [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] ajagut al llit [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] a la gatzoneta al costat d’un foc [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] intentant encendre un foc [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] traient-se la roba sense raó [circumstance_group]</li>
     <li>circumstance_phrase->i suant descontroladament</li>
     <li>circumstance_phrase->i tremolant sense control</li>
     <li>circumstance_phrase->mentre sua i tremola a la vegada</li>
     <li>circumstance_phrase->amb els llavis ressecs i tallats</li>
     <li>circumstance_phrase->mentre vomita</li>
     <li>circumstance_phrase->amb una erupció ben visible</li>
-    <li>desc_sentence->[quantity_adjphrase] cadàvers de [animal]s retorçats envolten la zona.</li>
-    <li>desc_sentence->la roba de [pawn_nameShortDef] cau esquinçada.</li>
-    <li>desc_sentence->El cel és d’un [color] tèrbol.</li>
-    <li>desc_sentence->[quantity_adjphrase]  [terrainfeature]s d’un estrany color [color] cendrós envolta l’escena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] cadàvers de [animal]s retorçats envolten la zona.</li>
+    <li>desc_sentence->la roba de [PAWN_nameDef] cau esquinçada.</li>
+    <li>desc_sentence->El cel és d’un [Color] tèrbol.</li>
+    <li>desc_sentence->[Quantity_adjphrase]  [terrainfeature]s d’un estrany color [Color] cendrós envolta l’escena.</li>
     <li>desc_sentence->L’escena té lloc dins un estran bosc de [tree].</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s moribunds cobreixen el terra.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [animal]s moribunds cobreixen el terra.</li>
   </ToxicityRevealed.rulePack.rulesStrings>
   
   <!-- EN: wounded -->
@@ -728,15 +728,15 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <Wounded.rulePack.rulesStrings>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef]</li>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef] amb [weapon_label]</li>
-    <li>tale_noun->[killer_nameShortDef] [wound_name_present] a [victim_nameShortDef]</li>
-    <li>tale_noun->[weapon_label] [wound_name_present] [victim_nameShortDef]</li>
-    <li>tale_noun->[killer_nameShortDef][wound_name_present] a [victim_nameShortDef]</li>
-    <li>image->[victim_nameFull] sent [wound_name_past] per [killer_nameFull] [weapon_optional]</li>
-    <li>image->[killer_nameFull] [wound_name_present] [victim_nameFull] [weapon_optional]</li>
-    <li>image->[killer_nameFull] [wound_name_present] brutalment [victim_nameFull] [weapon_optional]</li>
-    <li>image->[victim_nameFull] sent [wound_name_past] [weapon_optional]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] a [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] a [VICTIM_nameDef] amb [WEAPON_label]</li>
+    <li>tale_noun->[KILLER_nameDef] [wound_name_present] a [VICTIM_nameDef]</li>
+    <li>tale_noun->[WEAPON_label] [wound_name_present] [VICTIM_nameDef]</li>
+    <li>tale_noun->[KILLER_nameDef][wound_name_present] a [VICTIM_nameDef]</li>
+    <li>image->[VICTIM_nameFull] sent [wound_name_past] per [KILLER_nameFull] [weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] [VICTIM_nameFull] [weapon_optional]</li>
+    <li>image->[KILLER_nameFull] [wound_name_present] brutalment [VICTIM_nameFull] [weapon_optional]</li>
+    <li>image->[VICTIM_nameFull] sent [wound_name_past] [weapon_optional]</li>
     <li>wound_name_past->ferit</li>
     <li>wound_name_past->lesionat</li>
     <li>wound_name_past->danyat</li>
@@ -747,7 +747,7 @@
     <li>wound_name_present->danya</li>
     <li>wound_name_present->assalta</li>
     <li>wound_name_present->ataca</li>
-    <li>weapon_optional->amb [weapon_label] [circumstance_group]</li>
+    <li>weapon_optional->amb [WEAPON_label] [circumstance_group]</li>
     <li>weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->aparentment sense remordiments</li>
     <li>circumstance_phrase->amb una eficiència freda</li>
@@ -756,19 +756,19 @@
     <li>circumstance_phrase->sense cap expressió ni emoció</li>
     <li>circumstance_phrase->sense cap fosca necessitat</li>
     <li>circumstance_phrase->amb covardia i sense compassió</li>
-    <li>desc_sentence->[quantity_adjphrase] [animal]s s’ho miren.</li>
-    <li>desc_sentence->un [PersonJob] s’ho mira en silenci [side_position].</li>
-    <li>desc_sentence->una [PersonJob_Fem] s’ho mira en silenci [side_position].</li>
-    <li>desc_sentence->La sang s’escampa per tot el cos de [victim_nameShortDef].</li>
-    <li>desc_sentence->[victim_nameShortDef] està cobert de [gore].</li>
-    <li>desc_sentence->[victim_nameShortDef] sembla [angstyadjective].</li>
-    <li>desc_sentence->[victim_nameShortDef] xiscla de dolor.</li>
-    <li>desc_sentence->[victim_nameShortDef] xiscla agònicament.</li>
-    <li>desc_sentence->[killer_nameShortDef] ensenya les dents.</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla satisfet.</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla patir pel que fa [killer_pronoun].</li>
-    <li>desc_sentence->[killer_nameShortDef] sembla encantat amb la situació.</li>
-    <li>desc_sentence->[killer_nameShortDef] es mostra triomfant.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [animal]s s’ho miren.</li>
+    <li>desc_sentence->Un [PersonJob] s’ho mira en silenci [side_position].</li>
+    <li>desc_sentence->Una [PersonJob_Fem] s’ho mira en silenci [side_position].</li>
+    <li>desc_sentence->La sang s’escampa per tot el cos de [VICTIM_nameDef].</li>
+    <li>desc_sentence->[VICTIM_nameDef] està cobert de [gore].</li>
+    <li>desc_sentence->[VICTIM_nameDef] sembla [angstyadjective].</li>
+    <li>desc_sentence->[VICTIM_nameDef] xiscla de dolor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] xiscla agònicament.</li>
+    <li>desc_sentence->[KILLER_nameDef] ensenya les dents.</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla satisfet.</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla patir pel que fa [killer_pronoun].</li>
+    <li>desc_sentence->[KILLER_nameDef] sembla encantat amb la situació.</li>
+    <li>desc_sentence->[KILLER_nameDef] es mostra triomfant.</li>
   </Wounded.rulePack.rulesStrings>
   
 </LanguageData>

@@ -115,13 +115,13 @@
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{0} de {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>Aquesta acció farà que {PAWN_nameDef} perdi el títol de {TITLE}. No rebreu cap compensació per renunciar-hi\n\nAixò tindrà els següents efectes:\n\n{EFFECTS}</RenounceTitleDescription>
+  <RenounceTitleDescription>Aquesta acció farà que {PAWN_nameDef} perdi el títol de {TITLE}. No rebreu cap compensació per renunciar-hi.\n\nAixò tindrà els següents efectes:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_pronoun} will lose these permissions -->
-  <RenounceTitleWillLoosePermits>{PAWN_pronoun} perdrà aquests permisos</RenounceTitleWillLoosePermits>
+  <RenounceTitleWillLoosePermits>{PAWN_gender ? P : P}erdrà aquests permisos</RenounceTitleWillLoosePermits>
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
   <RenounceTitleWillLosePermitPoints>{PAWN_nameDef} perdrà {POINTS} punts de permís no gastats amb {FACTION_name}.</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun} mantindrà tots els seus psicoencanteris i nivells de psicoenllaç.</RenounceTitleWillKeepPsylinkLevels>
+  <RenounceTitleWillKeepPsylinkLevels>{PAWN_gender ? M : M}antindrà tots els seus psicoencanteris i nivells de psicoenllaç.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>desconegut</UnknownLower>
   <!-- EN: On -->
@@ -505,7 +505,7 @@
   <!-- EN: {0} left -->
   <DurationLeft>Queden {0}.</DurationLeft>
   <!-- EN: Any of -->
-  <AnyOf>Qualsevol de</AnyOf>
+  <AnyOf>Qualsevol entre</AnyOf>
   <!-- EN: Requires {0} trait -->
   <TraitRequired>Necessita el tret {0}.</TraitRequired>
   <!-- EN: Goodwill -->
@@ -1505,7 +1505,7 @@
   <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
   <PawnTooltipPsychicEntropyStats>Ràtio de refredament: {0}/s ({1} s fins arribar a zero)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>L’ús de poders psíquics escalfa les xarxes neuronals. Si es sobrepassa cert llindar, es pot produir un col·lapse psíquic que pot durar dies.\n\nL’escalfor de les neurones es dissiparà de manera natural amb el temps. El procés es pot accelerar si es sent dolor o utilitzant indumentària èltex.</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>L’ús de poders psíquics escalfa les xarxes neuronals. Si se sobrepassa cert llindar, es pot produir un col·lapse psíquic que pot durar dies.\n\nL’escalfor de les neurones es dissiparà de manera natural amb el temps. El procés es pot accelerar si se sent dolor o utilitzant indumentària èltex.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>Potenciador per dolor\n\nEl dolor fa concentrar la ment i accelera la dissipació de l’escalfor neural.\n\nNivell de dolor: {0}\nBonificació de refredament: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->

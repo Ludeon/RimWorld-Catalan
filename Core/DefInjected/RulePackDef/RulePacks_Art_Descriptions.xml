@@ -224,17 +224,17 @@
     <li>artextra_clause->l’escena té lloc als afores d’una [Community]</li>
     <li>artextra_clause->l’escena té lloc dins d’una [Community] construïda prop d’una [TerrainFeature]</li>
     <li>artextra_clause->[Character] [idles] [side_position]</li>
-    <li>artextra_clause->[Character] [PAWN_adj] [idles] [side_position]</li>
+    <li>artextra_clause->[Character] [pawn_adj] [idles] [side_position]</li>
     <li>artextra_clause->[Quantity_adjphrase] [Character]s surten per [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [Character]s [PAWN_adj] surten per [side_position]</li>
+    <li>artextra_clause->[Quantity_adjphrase] [Character]s [pawn_adj] surten per [side_position]</li>
     <li>artextra_clause->[AnimalAnySingularIndefinite] [idles] [side_position]</li>
     <li>artextra_clause->si s’acluquen una mica els ulls, la [composition] composició de la imatge revela la silueta de [subimageany]</li>
-    <li>artextra_clause->la cara [emotional_expression] d’un [PersonJob] [PAWN_adj] s’ho mira</li>
-    <li>artextra_clause->la cara [emotional_expression] d’una [PersonJob_Fem] [PAWN_adj_Fem] s’ho mira</li>
-    <li>artextra_clause->un [PersonJob] [PAWN_adj] s’ho mira amb [emotional_expression]</li>
-    <li>artextra_clause->una [PersonJob_Fem] [PAWN_adj_Fem] s’ho mira amb [emotional_expression]</li>
-    <li>artextra_clause->la cara [PAWN_adj_Fem] d’un [PersonJob] ho contempla</li>
-    <li>artextra_clause->la cara [PAWN_adj_Fem] d’una [PersonJob_Fem] ho contempla</li>
+    <li>artextra_clause->la cara [emotional_expression] d’un [PersonJob] [pawn_adj] s’ho mira</li>
+    <li>artextra_clause->la cara [emotional_expression] d’una [PersonJob_Fem] [pawn_adj_Fem] s’ho mira</li>
+    <li>artextra_clause->un [PersonJob] [pawn_adj] s’ho mira amb [emotional_expression]</li>
+    <li>artextra_clause->una [PersonJob_Fem] [pawn_adj_Fem] s’ho mira amb [emotional_expression]</li>
+    <li>artextra_clause->la cara [pawn_adj_Fem] d’un [PersonJob] ho contempla</li>
+    <li>artextra_clause->la cara [pawn_adj_Fem] d’una [PersonJob_Fem] ho contempla</li>
     <li>artextra_clause->tota la imatge està plena de [subimageplural] curosament col·locats</li>
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
@@ -261,6 +261,20 @@
     <li>pawn_adj->que porta [Apparel]</li>
     <li>pawn_adj->armat amb [Weapon]</li>
     <li>pawn_adj->menjant [Vegetable]</li>
+    <li>pawn_adj_Fem->morta</li>
+    <li>pawn_adj_Fem->moribunda</li>
+    <li>pawn_adj_Fem->ferida</li>
+    <li>pawn_adj_Fem->adormida</li>
+    <li>pawn_adj_Fem->dreta</li>
+    <li>pawn_adj_Fem->asseguda</li>
+    <li>pawn_adj_Fem->boja</li>
+    <li>pawn_adj_Fem->jove</li>
+    <li>pawn_adj_Fem->vella</li>
+    <li>pawn_adj_Fem->coberta de [Gore]</li>
+    <li>pawn_adj_Fem->bruta</li>
+    <li>pawn_adj_Fem->que porta [Apparel]</li>
+    <li>pawn_adj_Fem->armada amb [Weapon]</li>
+    <li>pawn_adj_Fem->menjant [Vegetable]</li>
     <li>emotional_expression->somrient</li>
     <li>emotional_expression->estranyada</li>
     <li>emotional_expression->enfadada</li>
@@ -302,7 +316,7 @@
     <li>style_clause->la imatge d’alguna manera expressa tant [ConceptAny] com [ConceptAny]</li>
     <li>style_clause->la imatge contrasta [ConceptAny] amb [ConceptAny]</li>
     <li>style_clause->l’estructura [composition] de la imatge entra en conflicte amb el seu estil [artstyle_adj]</li>
-    <li>style_clause->el treball és ombrejat amb tons [color] i [color]</li>
+    <li>style_clause->el treball és ombrejat amb tons [Color] i [Color]</li>
     <li>style_clause->la majoria de les imatges tenen una forma [composition]</li>
     <li>symbolizes->simbolitza</li>
     <li>symbolizes->vol simbolitzar</li>
@@ -365,7 +379,7 @@
     <li>artstyle_adj->pop art</li>
     <li>artstyle_adj->minimalista</li>
     <li>artstyle_adj->neoclàssic</li>
-    <li>artstyle_adj->«cel-shaded»</li>
+    <li>artstyle_adj->puntillista</li>
     <li>artstyle_adj->postimpressionista</li>
     <li>artstyle_adj->purista</li>
     <li>artstyle_adj->rococó</li>

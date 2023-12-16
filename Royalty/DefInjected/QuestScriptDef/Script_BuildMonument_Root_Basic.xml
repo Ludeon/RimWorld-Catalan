@@ -9,7 +9,7 @@
   <BuildMonument_Basic.questDescriptionRules.rulesStrings>
     <li>commonEnding->El monument té una mida de [monumentSize] i necessita aquests recursos (valor total de [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nLa construcció s’ha de completar com a molt [constructionTimeoutTicks_duration] després d’acceptar la tasca. Rebreu recompenses quan acabeu la construcció.[dontDestroyMonument]</li>
     <li>dontDestroyMonument(priority=-10)-></li>
-    <li>dontDestroyMonument->\n\nSi el monument és destruït abans que passin [keepMonumentTicks_duration] dies després que finalitzi la construcció, les relacions amb [asker_factionName] empitjoraran i es reduiran [goodwillChangeIfMonumentDestroyed] punts.</li>
+    <li>dontDestroyMonument->\n\nSi es destrueix el monument abans que passin [keepMonumentTicks_duration] després que finalitzi la construcció, les relacions amb [asker_factionName] empitjoraran i es reduiran [goodwillChangeIfMonumentDestroyed] punts.</li>
   </BuildMonument_Basic.questDescriptionRules.rulesStrings>
   
 </LanguageData>

@@ -192,8 +192,12 @@
     <li>lodger_lo(lodgerCount>=2)->los</li>
     <li>lodger_un(lodgers0_gender!=Female)->un</li>
     <li>lodger_un(lodgers0_gender==Female)->una</li>
+    <li>lodger_x_a(lodgers0_gender!=Female)-></li>
+    <li>lodger_x_a(lodgers0_gender==Female)->a</li>
     <li>lodger_el(lodgers0_gender!=Female)->el</li>
     <li>lodger_el(lodgers0_gender==Female)->la</li>
+    <li>lodger_El(lodgers0_gender!=Female)->El</li>
+    <li>lodger_El(lodgers0_gender==Female)->La</li>
     <li>lodger_amic(lodgers0_gender!=Female)->amic</li>
     <li>lodger_amic(lodgers0_gender==Female)->amiga</li>
     <li>lodger_el_seu(lodgers0_gender!=Female)->el seu</li>
@@ -860,22 +864,38 @@
     <li>Character(p=4)->[Animal]</li>
     <li>Character(p=3)->[Enemy]</li>
     <li>Character->[Mechanoid]</li>
-    <li>Quantity_adjphrase->dos</li>
-    <li>Quantity_adjphrase->tres</li>
-    <li>Quantity_adjphrase->quatre</li>
-    <li>Quantity_adjphrase->cinc</li>
-    <li>Quantity_adjphrase->sis</li>
-    <li>Quantity_adjphrase->set</li>
-    <li>Quantity_adjphrase->vuit</li>
-    <li>Quantity_adjphrase->nou</li>
-    <li>Quantity_adjphrase->deu</li>
-    <li>Quantity_adjphrase->uns quants</li>
+    <li>quantity_adjphrase->dos</li>
+    <li>quantity_adjphrase->tres</li>
+    <li>quantity_adjphrase->quatre</li>
+    <li>quantity_adjphrase->cinc</li>
+    <li>quantity_adjphrase->sis</li>
+    <li>quantity_adjphrase->set</li>
+    <li>quantity_adjphrase->vuit</li>
+    <li>quantity_adjphrase->nou</li>
+    <li>quantity_adjphrase->deu</li>
+    <li>quantity_adjphrase->uns quants</li>
     <li>quantity_adjphrase->un grup de</li>
-    <li>Quantity_adjphrase->un grup enorme de</li>
+    <li>quantity_adjphrase->un grup enorme de</li>
     <li>quantity_adjphrase->dotzenes de</li>
-    <li>Quantity_adjphrase->centenars de</li>
-    <li>Quantity_adjphrase->un miler</li>
-    <li>Quantity_adjphrase->milers de</li>
+    <li>quantity_adjphrase->centenars de</li>
+    <li>quantity_adjphrase->un miler</li>
+    <li>quantity_adjphrase->milers de</li>
+    <li>Quantity_adjphrase->Dos</li>
+    <li>Quantity_adjphrase->Tres</li>
+    <li>Quantity_adjphrase->Quatre</li>
+    <li>Quantity_adjphrase->Cinc</li>
+    <li>Quantity_adjphrase->Sis</li>
+    <li>Quantity_adjphrase->Set</li>
+    <li>Quantity_adjphrase->Vuit</li>
+    <li>Quantity_adjphrase->Nou</li>
+    <li>Quantity_adjphrase->Deu</li>
+    <li>Quantity_adjphrase->Uns quants</li>
+    <li>Quantity_adjphrase->Un grup de</li>
+    <li>Quantity_adjphrase->Un grup enorme de</li>
+    <li>Quantity_adjphrase->Dotzenes de</li>
+    <li>Quantity_adjphrase->Centenars de</li>
+    <li>Quantity_adjphrase->Un miler</li>
+    <li>Quantity_adjphrase->Milers de</li>
     <li>Shape->triangle</li>
     <li>Shape->quadrat</li>
     <li>Shape->rectangle</li>

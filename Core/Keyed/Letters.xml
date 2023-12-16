@@ -104,7 +104,7 @@
   <!-- EN: Ancient danger -->
   <LetterLabelAncientShrineWarning>Perill antic</LetterLabelAncientShrineWarning>
   <!-- EN: As {PAWN_nameDef} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
-  <AncientShrineWarning>A mesure que {PAWN_definite} s'apropa a l'antic mur, l'envaeix una sensació de desassossec. No sap per què, però nota que aquesta estructura de l’any de la Mariacastanya conté un gran perill.</AncientShrineWarning>
+  <AncientShrineWarning>A mesura que {PAWN_definite} s'apropa a l'antic mur, l'envaeix una sensació de desassossec. No sap per què, però nota que aquesta estructura de l’any de la Mariacastanya conté un gran perill.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
   <StruckMineable>Hem trobat {0}!</StruckMineable>
@@ -167,7 +167,7 @@
   <LastEventsInLife>Els últims esdeveniments de la vida de {PAWN_definite}</LastEventsInLife>
 
   <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration! -->
-  <LetterInspirationBeginThanksToHighMoodPart>Gràcies al seu bon humor, a [PAWN_definite] li ha arribat la inspiració!</LetterInspirationBeginThanksToHighMoodPart>
+  <LetterInspirationBeginThanksToHighMoodPart>Gràcies al seu bon humor, a [PAWN_nameDef] li ha arribat la inspiració!</LetterInspirationBeginThanksToHighMoodPart>
 
   <!-- Related pawns -->
   <!-- EN: Relationship -->
@@ -507,7 +507,7 @@
   <!-- EN: This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total. -->
   <LetterTechprintAppliedPartNotUnlockedYet>Encara no s’han satisfet tots els requisits de tecnoplànols del projecte. Fins ara s’han aplicat {0}, però en fan falta {1} en total.</LetterTechprintAppliedPartNotUnlockedYet>
   <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
-  <LetterTechprintAppliedPartAlreadyUnlocked>Ja s’han satisfet els requisits de tecnoplànols del projecte. Els tecnoplànols addicionals han avançat han accelerat la recerca del projecte de {PROJECT_label}. S’ha completat la meitat de la recerca pendent, {0} punts.</LetterTechprintAppliedPartAlreadyUnlocked>
+  <LetterTechprintAppliedPartAlreadyUnlocked>Ja s’han satisfet els requisits de tecnoplànols del projecte. Els tecnoplànols addicionals han avançat la recerca del projecte de {PROJECT_label}. S’ha completat la meitat de la recerca pendent, {0} punts.</LetterTechprintAppliedPartAlreadyUnlocked>
   <!-- EN: This project is already fully researched, so the techprint didn't advance your knowledge at all. -->
   <LetterTechprintAppliedPartAlreadyResearched>Aquest projecte ja s’ha recercat i el tecnoplànol no proporcionarà coneixements nous.</LetterTechprintAppliedPartAlreadyResearched>
   <!-- EN: By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill. -->
@@ -578,9 +578,9 @@
   <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
   <LetterInspirationalSpeech>Ha estat remarcablement inspirador, intens i amb un propòsit.</LetterInspirationalSpeech>
   <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
-  <LetterSpeechInspiredListeners>Les persones següents s’han sentit particularment commogudes i es senten inspirades:</LetterSpeechInspiredListeners>
+  <LetterSpeechInspiredListeners>Les persones següents s’han sentit particularment commogudes i se senten inspirades:</LetterSpeechInspiredListeners>
   <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterSpeechInspiration>Gràcies al discurs remarcable de {SPEAKER_nameIndef}, {PAWN_nameIndef} es sent inspira{PAWN_gender ? t : da}!</LetterSpeechInspiration>
+  <LetterSpeechInspiration>Gràcies al discurs remarcable de {SPEAKER_nameIndef}, {PAWN_nameIndef} se sent inspira{PAWN_gender ? t : da}!</LetterSpeechInspiration>
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>Com que el discurs es va interrompre quan només s’havia completat el {0}, no ha estat massa efectiu.</LetterSpeechInterrupted>
   <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->

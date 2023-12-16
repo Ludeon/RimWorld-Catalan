@@ -56,7 +56,7 @@
     <li>allLodgerInfo->[healthInfo][minMoodInfo][workInfo][includesChildren]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPlural(lodgersCount>=2)->[lodgersLabelPlural]</li>
-    <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->el [lodgers0_nameDef]</li>
+    <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->els [lodgersLabelPlural]</li>
     <li>includesChildren(priority=-999)-></li>
     <li>includesChildren(childCount==1)->\n\nEntre els [lodgersLabelSingOrPluralDef], hi ha un infant.</li>

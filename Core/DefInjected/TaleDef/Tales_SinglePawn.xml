@@ -30,10 +30,10 @@
     <li>desc_sentence->The meat is spilling all over [PAWN_nameDef]'s body.</li>
   -->
   <AteRawHumanlikeMeat.rulePack.rulesStrings>
-    <li>tale_noun->quan [pawn_nameShortDef] va menjar carn humana</li>
-    <li>image->[pawn_nameFull] [eat_gerund] carn d’un humà [circumstance_group]</li>
-    <li>image->[pawn_nameFull] [eat_gerund] el braç humà [circumstance_group]</li>
-    <li>image->[pawn_nameFull] [eat_gerund] carn humana [circumstance_group]</li>
+    <li>tale_noun->quan [PAWN_nameDef] va menjar carn humana</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] carn d’un humà [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] el braç humà [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] carn humana [circumstance_group]</li>
     <li>eat_gerund->menjant</li>
     <li>eat_gerund->ingerint</li>
     <li>eat_gerund->mastegant</li>
@@ -89,11 +89,11 @@
     <li>title_sentence->The title of [THING_definite], [THING_title], hangs in the background</li>
   -->
   <CraftedArt.rulePack.rulesStrings>
-    <li>tale_noun->l’instant en el què [PAWN_nameShortDef] va realitzar [THING_labelIndefinite]</li>
-    <li>image->[pawn_nameFull] creant [THING_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[pawn_nameFull] acabant de treballar en [THING_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[pawn_nameFull] treballant en [THING_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[pawn_nameFull] fent [THING_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>tale_noun->l’instant en el què [PAWN_nameDef] va realitzar [THING_labelIndefinite]</li>
+    <li>image->[PAWN_nameFull] creant [THING_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] acabant de treballar en [THING_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] treballant en [THING_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] fent [THING_labelIndefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
     <li>circumstance_phrase->amb una concentració total</li>
     <li>circumstance_phrase->amb un gest de satisfacció a la cara</li>
     <li>circumstance_phrase->a la seva taula de treball</li>
@@ -105,13 +105,13 @@
     <li>desc_sentence->El dibuix està exagerat per donar-li més força.</li>
     <li>desc_sentence->La mida de [THING_labelDefinite] està exagerada per donar-li més importància.</li>
     <li>desc_sentence->[THING_labelDefinite] té una brillantor afegida. Sembla pràcticament angelical.</li>
-    <li>desc_sentence->[PAWN_nameShortDef] queda una mica al fons per a emfatitzar la seva nova creació.</li>
+    <li>desc_sentence->[PAWN_nameDef] queda una mica al fons per a emfatitzar la seva nova creació.</li>
     <li>desc_sentence->L’envolten [quantity_adjphrase] espectadors.</li>
     <li>desc_sentence->Al fons una colla d’exclamacions d’admiració.</li>
     <li>quality_sentence->[THING_labelDefinite] sembla d’una qualitat [THING_quality]</li>
     <li>quality_sentence->[THING_labelDefinite] és d’una qualitat [THING_quality]</li>
-    <li>quality_sentence->El treball de [PAWN_nameShortDef] és d’una qualitat [THING_quality]</li>
-    <li>title_sentence->El títol de [THING_labelDefinite] de [PAWN_nameShortDef] està escrit a sota: [THING_title]</li>
+    <li>quality_sentence->El treball de [PAWN_nameDef] és d’una qualitat [THING_quality]</li>
+    <li>title_sentence->El títol de [THING_labelDefinite] de [PAWN_nameDef] està escrit a sota: [THING_title]</li>
     <li>title_sentence->[THING_labelDefinite] està estampat amb el nom: [THING_title]</li>
     <li>title_sentence->El títol de [THING_labelDefinite], [THING_title], penja del fons</li>
   </CraftedArt.rulePack.rulesStrings>
@@ -151,11 +151,11 @@
     <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
   -->
   <Drunk.rulePack.rulesStrings>
-    <li>tale_noun->la gran borratxera de [pawn_nameShortDef]</li>
-    <li>image->[pawn_nameFull] caminant borratxo fent ziga-zagues [circumstance_group]</li>
-    <li>image->[pawn_nameFull] inclinant el cap i empassant-se el licor [circumstance_group]</li>
-    <li>image->[pawn_nameFull] acaparant ampolles de licor [circumstance_group]</li>
-    <li>image->[pawn_nameFull] bevent a morro d’una ampolla [circumstance_group]</li>
+    <li>tale_noun->la gran borratxera de [PAWN_nameDef]</li>
+    <li>image->[PAWN_nameFull] caminant borratxo fent ziga-zagues [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inclinant el cap i empassant-se el licor [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] acaparant ampolles de licor [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] bevent a morro d’una ampolla [circumstance_group]</li>
     <li>circumstance_phrase->aliè al que l’envolta</li>
     <li>circumstance_phrase->en un estupor capcot</li>
     <li>circumstance_phrase->mentre es qüestiona la seva pròpia existència</li>
@@ -199,18 +199,18 @@
     <li>desc_sentence->[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li>
   -->
   <FinishedResearchProject.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] acabant d’investigar [PROJECT_label]</li>
-    <li>image->[pawn_nameFull] treballant en la investigació de [PROJECT_label_definite] [circumstance_group]</li>
-    <li>image->[pawn_nameFull] estudiant els secrets de [PROJECT_label_definite] [circumstance_group]</li>
-    <li>image->[pawn_nameFull] investigant [PROJECT_label] [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] acabant d’investigar [PROJECT_label]</li>
+    <li>image->[PAWN_nameFull] treballant en la investigació de [PROJECT_label_definite] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] estudiant els secrets de [PROJECT_label_definite] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] investigant [PROJECT_label] [circumstance_group]</li>
     <li>circumstance_phrase->amb molta intensitat</li>
     <li>circumstance_phrase->en la solitud del seu escriptori</li>
     <li>circumstance_phrase->mentre sosté uns papers a la mà</li>
     <li>circumstance_phrase->amb una alegre fascinació</li>
-    <li>desc_sentence->[pawn_nameShortDef] està suant.</li>
+    <li>desc_sentence->[PAWN_nameDef] està suant.</li>
     <li>desc_sentence->Sembla una feina extremadament complicada.</li>
-    <li>desc_sentence->[pawn_nameShortDef] té tot d’eines i aparells al voltant.</li>
-    <li>desc_sentence->[pawn_nameShortDef] mira fixament el seu descobriment com si fos una maravella.</li>
+    <li>desc_sentence->[PAWN_nameDef] té tot d’eines i aparells al voltant.</li>
+    <li>desc_sentence->[PAWN_nameDef] mira fixament el seu descobriment com si fos una maravella.</li>
   </FinishedResearchProject.rulePack.rulesStrings>
   
   <!-- EN: landed in pod -->
@@ -239,11 +239,11 @@
     <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
   -->
   <LandedInPod.rulePack.rulesStrings>
-    <li>tale_noun->l’aterratge de [pawn_nameShortDef] en una càpsula</li>
-    <li>image->[pawn_nameFull] aterra en una càpsula d’escapament [circumstance_group]</li>
-    <li>image->[pawn_nameFull] toca terra en una càpsula d’escapament [circumstance_group]</li>
-    <li>image->[pawn_nameFull] s’estavella en una càpsula d’escapament [circumstance_group]</li>
-    <li>image->[pawn_nameFull] pilota una càpsula d’escapament [circumstance_group]</li>
+    <li>tale_noun->l’aterratge de [PAWN_nameDef] en una càpsula</li>
+    <li>image->[PAWN_nameFull] aterra en una càpsula d’escapament [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] toca terra en una càpsula d’escapament [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] s’estavella en una càpsula d’escapament [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] pilota una càpsula d’escapament [circumstance_group]</li>
     <li>circumstance_phrase->a davant d’una [terrainfeature]</li>
     <li>circumstance_phrase->amb una força increïble</li>
     <li>circumstance_phrase->en un núvol de pols i pedres</li>
@@ -293,10 +293,10 @@
     <li>desc_sentence->A single tear rolls down [PAWN_possessive] face.</li>
   -->
   <MentalStateBerserk.rulePack.rulesStrings>
-    <li>tale_noun->l’emprenyada rabiosa de [pawn_nameShortDef]</li>
-    <li>image->[pawn_nameFull] agafant una emprenyada [circumstance_group]</li>
-    <li>image->[pawn_nameFull] perdent el control i tornant-se violent [circumstance_group]</li>
-    <li>image->[pawn_nameFull] avançant a trompicons amb una mirada psicòtica [circumstance_group]</li>
+    <li>tale_noun->l’emprenyada rabiosa de [PAWN_nameDef]</li>
+    <li>image->[PAWN_nameFull] agafant una emprenyada [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] perdent el control i tornant-se violent [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] avançant a trompicons amb una mirada psicòtica [circumstance_group]</li>
     <li>circumstance_phrase->mentre comença a despullar-se</li>
     <li>circumstance_phrase->sense una raó aparent</li>
     <li>circumstance_phrase->mentre els altres fugen espantats</li>
@@ -342,10 +342,10 @@
     <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
   -->
   <MentalStateGaveUp.rulePack.rulesStrings>
-    <li>tale_noun->la desesperança de [pawn_nameShortDef]</li>
-    <li>image->[pawn_nameFull] cau en la desesperació per culpa de l’estrès [circumstance_group]</li>
-    <li>image->[pawn_nameFull] plora de manera desconsolada [circumstance_group]</li>
-    <li>image->[pawn_nameFull] camina sense sentit amb una expressió de desesperança a la cara</li>
+    <li>tale_noun->la desesperança de [PAWN_nameDef]</li>
+    <li>image->[PAWN_nameFull] cau en la desesperació per culpa de l’estrès [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] plora de manera desconsolada [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] camina sense sentit amb una expressió de desesperança a la cara</li>
     <li>circumstance_phrase->mentre comença a despullar-se</li>
     <li>circumstance_phrase->sense una raó aparent</li>
     <li>circumstance_phrase->metre els altres li donen ànims</li>
@@ -382,20 +382,20 @@
     <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
   -->
   <StruckMineable.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] descobrint [thing_label]</li>
-    <li>image->[pawn_nameFull] descobrint [thing_label] [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] descobrint [thing_label]</li>
+    <li>image->[PAWN_nameFull] descobrint [thing_label] [circumstance_group]</li>
     <li>circumstance_phrase->mentre minava</li>
     <li>circumstance_phrase->mentre cavava</li>
     <li>circumstance_phrase->mentre feia un tunel</li>
     <li>circumstance_phrase->amb sorpresa</li>
     <li>circumstance_phrase->amb una expressió de satisfacció</li>
-    <li>desc_sentence->[pawn_nameShortDef] es neteja el front.</li>
-    <li>desc_sentence->[pawn_nameShortDef] salta d’alegria.</li>
-    <li>desc_sentence->[pawn_nameShortDef] xoca les mans amb un amic.</li>
-    <li>desc_sentence->[pawn_nameShortDef] xiscla de felicitat.</li>
-    <li>desc_sentence->[pawn_nameShortDef] riu sense control.</li>
-    <li>desc_sentence->[pawn_nameShortDef] té la roba bruta i suada de treballar.</li>
-    <li>desc_sentence->[pawn_nameShortDef] té la roba suada i bruta de treballar.</li>
+    <li>desc_sentence->[PAWN_nameDef] es neteja el front.</li>
+    <li>desc_sentence->[PAWN_nameDef] salta d’alegria.</li>
+    <li>desc_sentence->[PAWN_nameDef] xoca les mans amb un amic.</li>
+    <li>desc_sentence->[PAWN_nameDef] xiscla de felicitat.</li>
+    <li>desc_sentence->[PAWN_nameDef] riu sense control.</li>
+    <li>desc_sentence->[PAWN_nameDef] té la roba bruta i suada de treballar.</li>
+    <li>desc_sentence->[PAWN_nameDef] té la roba suada i bruta de treballar.</li>
   </StruckMineable.rulePack.rulesStrings>
   
   <!-- EN: vomited -->
@@ -420,11 +420,11 @@
     <li>desc_sentence->A [Animal] is eating from the trail of vomit in the background.</li>
   -->
   <Vomited.rulePack.rulesStrings>
-    <li>tale_noun->la vomitada de [pawn_nameShortDef]</li>
-    <li>image->[pawn_nameFull] escampant vòmits per terra [circumstance_group]</li>
-    <li>image->[pawn_nameFull] mirant fastiguejat el vomit sec li cobreix la roba [circumstance_group]</li>
-    <li>image->[pawn_nameFull] doblegat en una arcada [circumstance_group]</li>
-    <li>image->[pawn_nameFull] de genolls, vomitant a terra [circumstance_group]</li>
+    <li>tale_noun->la vomitada de [PAWN_nameDef]</li>
+    <li>image->[PAWN_nameFull] escampant vòmits per terra [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] mirant fastiguejat el vomit sec li cobreix la roba [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] doblegat en una arcada [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] de genolls, vomitant a terra [circumstance_group]</li>
     <li>circumstance_phrase->amb una mirada de dolor</li>
     <li>circumstance_phrase->amb molta llàstima</li>
     <li>circumstance_phrase->mentre d’altres el miren</li>
@@ -467,11 +467,11 @@
     <li>desc_sentence->[PAWN_nameDef] is fondling a shrub.</li>
   -->
   <WalkedNaked.rulePack.rulesStrings>
-    <li>tale_noun->la passejada de [pawn_nameShortDef] sense roba</li>
-    <li>image->[pawn_nameFull] [nude_action] sense res [circumstance_group]</li>
-    <li>image->[pawn_nameFull] [nude_action] en pilotes [circumstance_group]</li>
-    <li>image->[pawn_nameFull] [nude_action], amb tot a la vista, [circumstance_group]</li>
-    <li>image->[pawn_nameFull] [nude_action] sense gens de roba [circumstance_group]</li>
+    <li>tale_noun->la passejada de [PAWN_nameDef] sense roba</li>
+    <li>image->[PAWN_nameFull] [nude_action] sense res [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action] en pilotes [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action], amb tot a la vista, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action] sense gens de roba [circumstance_group]</li>
     <li>nude_action->fent tombarelles</li>
     <li>nude_action->saltant d’alegria</li>
     <li>nude_action->xalant</li>
@@ -486,10 +486,10 @@
     <li>circumstance_phrase->mentre els altres s’ho miren</li>
     <li>circumstance_phrase->sense una raó aparent</li>
     <li>circumstance_phrase->mentre uns animals s’ho miren confusos</li>
-    <li>desc_sentence->[pawn_nameShortDef] té una excitació clara.</li>
-    <li>desc_sentence->[pawn_nameShortDef] té el cos cobert d’una curiosa humitat.</li>
-    <li>desc_sentence->[pawn_nameShortDef] respira com si li costés sense una raó aparent.</li>
-    <li>desc_sentence->[pawn_nameShortDef] es refrega en uns matolls.</li>
+    <li>desc_sentence->[PAWN_nameDef] té una excitació clara.</li>
+    <li>desc_sentence->[PAWN_nameDef] té el cos cobert d’una curiosa humitat.</li>
+    <li>desc_sentence->[PAWN_nameDef] respira com si li costés sense una raó aparent.</li>
+    <li>desc_sentence->[PAWN_nameDef] es refrega en uns matolls.</li>
   </WalkedNaked.rulePack.rulesStrings>
   
   <!-- EN: on fire -->
@@ -515,11 +515,11 @@
     <li>desc_sentence->[PAWN_pronoun] is rendered artistically in a corpse-like way.</li>
   -->
   <WasOnFire.rulePack.rulesStrings>
-    <li>tale_noun->quan [pawn_nameShortDef] es va cremar</li>
-    <li>image->[pawn_nameFull] intentat apagar frenèticament el foc del seu cos [circumstance_group]</li>
-    <li>image->[pawn_nameFull] embolcallat de flames [circumstance_group]</li>
-    <li>image->[pawn_nameFull] de genolls, amb les mans al cap, intentant apagar-se el foc del cos [circumstance_group]</li>
-    <li>image->[pawn_nameFull] rodolant per terra cremant-se [circumstance_group]</li>
+    <li>tale_noun->quan [PAWN_nameDef] es va cremar</li>
+    <li>image->[PAWN_nameFull] intentat apagar frenèticament el foc del seu cos [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] embolcallat de flames [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] de genolls, amb les mans al cap, intentant apagar-se el foc del cos [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] rodolant per terra cremant-se [circumstance_group]</li>
     <li>circumstance_phrase->mentre els altres se’l miren</li>
     <li>circumstance_phrase->gairebé despullat</li>
     <li>circumstance_phrase->molt concentrat</li>

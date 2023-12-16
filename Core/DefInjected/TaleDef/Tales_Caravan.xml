@@ -28,28 +28,28 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <CaravanAmbushDefeated.rulePack.rulesStrings>
-    <li>tale_noun->l’exitosa defensa de la caravana de [pawn_nameShortDef]</li>
-    <li>tale_noun->[pawn_nameShortDef] combatent en una emboscada</li>
-    <li>image->[pawn_nameFull] organitzant la resistència mentre [circumstance_group]</li>
-    <li>image->[pawn_nameFull] brandint un [weapon] defensivament mentre [circumstance_group]</li>
-    <li>image->[pawn_nameFull] contraatacant amb [weapon] mentre [circumstance_group]</li>
-    <li>image->[pawn_nameFull] alçant-se tant alt com un edifici mentre [circumstance_group]</li>
-    <li>image->[pawn_nameFull] mostrant una expressió [badassadjective] mentre [circumstance_group]</li>
-    <li>image->[pawn_nameFull] mostrant una expressió [angstyadjective] mentre [circumstance_group]</li>
+    <li>tale_noun->l’exitosa defensa de la caravana de [PAWN_nameDef]</li>
+    <li>tale_noun->[PAWN_nameDef] combatent en una emboscada</li>
+    <li>image->[PAWN_nameFull] organitzant la resistència mentre [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] brandint un [weapon] defensivament mentre [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] contraatacant amb [weapon] mentre [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] alçant-se tant alt com un edifici mentre [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] mostrant una expressió [badassadjective] mentre [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] mostrant una expressió [angstyadjective] mentre [circumstance_group]</li>
     <li>circumstance_phrase->anima contra la horda que avança</li>
     <li>circumstance_phrase->posa els carruatges en cercle</li>
     <li>circumstance_phrase->crida victòria</li>
     <li>circumstance_phrase->branda [weapon]s</li>
     <li>circumstance_phrase->està cobert de [gore]</li>
-    <li>desc_sentence->[quantity_adjphrase] [enemy]s avança, brandant [weapon]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [enemy]s avança, brandant [weapon]s.</li>
     <li>desc_sentence->Un gran [enemy] avança, brandant un [weapon].</li>
-    <li>desc_sentence->[quantity_adjphrase] [enemy]s avancen amb una mirada [badassadjective].</li>
-    <li>desc_sentence->[quantity_adjphrase] [enemy]s avancen amb una mirada [angstyadjective].</li>
-    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] avancen amb uns brillants ulls [ColorMP].</li>
-    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] avancen, coberts de [gore].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [enemy]s avancen amb una mirada [badassadjective].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [enemy]s avancen amb una mirada [angstyadjective].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPlural] avancen amb uns brillants ulls [ColorMP].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPlural] avancen, coberts de [gore].</li>
     <li>desc_sentence->El terra cobert de [gore].</li>
-    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] fugen de la zona.</li>
-    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] fugen de l’àrea.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] fugen de la zona.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPlural] fugen de l’àrea.</li>
   </CaravanAmbushDefeated.rulePack.rulesStrings>
   
   <!-- EN: caravan assault successful -->
@@ -74,23 +74,23 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <CaravanAssaultSuccessful.rulePack.rulesStrings>
-    <li>tale_noun->la caravana de [pawn_nameShortDef] vencent un campament enemic</li>
-    <li>image->[pawn_nameFull] corrent cap a [enemy], [circumstance_group]</li>
-    <li>image->[pawn_nameFull] brandint un [weapon], [circumstance_group]</li>
-    <li>image->[pawn_nameFull] sacsejant un [weapon], [circumstance_group]</li>
-    <li>image->[pawn_nameFull] dret com una torre, [circumstance_group]</li>
+    <li>tale_noun->la caravana de [PAWN_nameDef] vencent un campament enemic</li>
+    <li>image->[PAWN_nameFull] corrent cap a [enemy], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] brandint un [weapon], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sacsejant un [weapon], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] dret com una torre, [circumstance_group]</li>
     <li>circumstance_phrase->amb una mirada [badassadjective] als ulls</li>
     <li>circumstance_phrase->amb una mirada [angstyadjective] als ulls</li>
     <li>circumstance_phrase->cridant per la victoria</li>
     <li>circumstance_phrase->cobert de [gore]</li>
-    <li>desc_sentence->[quantity_adjphrase] [enemy]s espantats per l’assalt.</li>
-    <li>desc_sentence->[quantity_adjphrase] [enemy]s fugen de la zona.</li>
-    <li>desc_sentence->[quantity_adjphrase] [enemy]s estant visiblement ferits.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [enemy]s espantats per l’assalt.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [enemy]s fugen de la zona.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [enemy]s estant visiblement ferits.</li>
     <li>desc_sentence->Una [Community] crema a la distància.</li>
     <li>desc_sentence->Una [Community] fumeja a la llunyania.</li>
     <li>desc_sentence->El terra està encatifat de [gore].</li>
-    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] s’escapen del lloc.</li>
-    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] corren i s’allunyen.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] s’escapen del lloc.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPlural] corren i s’allunyen.</li>
   </CaravanAssaultSuccessful.rulePack.rulesStrings>
   
   <!-- EN: caravan fled -->
@@ -118,26 +118,26 @@
     <li>desc_sentence->[PAWN_nameDef] is gasping for breath.</li>
   -->
   <CaravanFled.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] fugint per salvar la vida</li>
-    <li>tale_noun->[pawn_nameShortDef] escapant del perill</li>
-    <li>tale_noun->[pawn_nameShortDef] escapant per poc del perill</li>
-    <li>tale_noun->[pawn_nameShortDef] perseguit pels enemics</li>
-    <li>image->[pawn_nameFull] corrent desesperadament [circumstance_group]</li>
-    <li>image->[pawn_nameFull] fent un esprint [circumstance_group]</li>
-    <li>image->[pawn_nameFull] acotat darrere un [terrainfeature], amagant-se de [circumstance_group]</li>
-    <li>image->[pawn_nameFull] lluitant en retirada [circumstance_group]</li>
-    <li>image->[pawn_nameFull] passejant distretament [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] fugint per salvar la vida</li>
+    <li>tale_noun->[PAWN_nameDef] escapant del perill</li>
+    <li>tale_noun->[PAWN_nameDef] escapant per poc del perill</li>
+    <li>tale_noun->[PAWN_nameDef] perseguit pels enemics</li>
+    <li>image->[PAWN_nameFull] corrent desesperadament [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] fent un esprint [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] acotat darrere un [terrainfeature], amagant-se de [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] lluitant en retirada [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] passejant distretament [circumstance_group]</li>
     <li>circumstance_phrase->mentre [quantity_adjphrase] [enemy]s el persegueixen</li>
     <li>circumstance_phrase->mentre [quantity_adjphrase] [enemy]s busquen</li>
     <li>circumstance_phrase->mentre [quantity_adjphrase] [enemy]s</li>
     <li>circumstance_phrase->dels [quantity_adjphrase] [AnimalAnyPlural] enemics</li>
     <li>circumstance_phrase->d’un [AdjectiveLarge] [enemy]</li>
-    <li>desc_sentence->els perseguidors de [pawn_nameShortDef] branden [weapon]s.</li>
-    <li>desc_sentence->els perseguidors de [pawn_nameShortDef] estan envoltats en fum [color].</li>
-    <li>desc_sentence->els perseguidors de [pawn_nameShortDef] mostren expresions [angstyadjective].</li>
-    <li>desc_sentence->els perseguidors de [pawn_nameShortDef] branden [weapon].</li>
-    <li>desc_sentence->[pawn_nameShortDef] sua.</li>
-    <li>desc_sentence->[pawn_nameShortDef] agafa aire, mig ofegat.</li>
+    <li>desc_sentence->els perseguidors de [PAWN_nameDef] branden [weapon]s.</li>
+    <li>desc_sentence->els perseguidors de [PAWN_nameDef] estan envoltats de fum [Color].</li>
+    <li>desc_sentence->els perseguidors de [PAWN_nameDef] mostren expressions [angstyadjective].</li>
+    <li>desc_sentence->els perseguidors de [PAWN_nameDef] branden [weapon].</li>
+    <li>desc_sentence->[PAWN_nameDef] sua.</li>
+    <li>desc_sentence->[PAWN_nameDef] agafa aire, mig ofegat.</li>
   </CaravanFled.rulePack.rulesStrings>
   
   <!-- EN: caravan formed -->
@@ -162,23 +162,23 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander peacefully.</li>
   -->
   <CaravanFormed.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] sortint cap a l’aventura</li>
-    <li>tale_noun->[pawn_nameShortDef] formant una caravana</li>
-    <li>image->[pawn_nameFull] avançant amb convenciment [circumstance_group]</li>
-    <li>image->[pawn_nameFull] mirant a l’horitzó [circumstance_group]</li>
-    <li>image->[pawn_nameFull] empaquetant les coses per un viatge [circumstance_group]</li>
-    <li>image->[pawn_nameFull] planificant un viatge [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] sortint cap a l’aventura</li>
+    <li>tale_noun->[PAWN_nameDef] formant una caravana</li>
+    <li>image->[PAWN_nameFull] avançant amb convenciment [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] mirant a l’horitzó [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] empaquetant les coses per un viatge [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] planificant un viatge [circumstance_group]</li>
     <li>circumstance_phrase->i equipat per al combat</li>
     <li>circumstance_phrase->i equipat per a la supervivència</li>
     <li>circumstance_phrase->i equipat per a l’exploració</li>
     <li>circumstance_phrase->amb una mirada entusiasmada</li>
     <li>circumstance_phrase->amb una mirada [adjective]</li>
-    <li>desc_sentence->[quantity_adjphrase] [ally]s miren les preparacions.</li>
-    <li>desc_sentence->[quantity_adjphrase] [ally]s ajuden amb els preparatius.</li>
-    <li>desc_sentence->[quantity_adjphrase] [enemy]s es van fent petits a l’escena.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ally]s miren les preparacions.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ally]s ajuden amb els preparatius.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [enemy]s es van fent petits a l’escena.</li>
     <li>desc_sentence->Es veu un [terrainfeature] a la distància.</li>
-    <li>desc_sentence->[quantity_adjphrase] [PersonJob_Plural] s’ho miren des de lluny.</li>
-    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] volten pacíficament.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] s’ho miren des de lluny.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPlural] volten pacíficament.</li>
   </CaravanFormed.rulePack.rulesStrings>
   
   <!-- EN: caravan remote mining -->
@@ -203,23 +203,23 @@
     <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
   -->
   <CaravanRemoteMining.rulePack.rulesStrings>
-    <li>tale_noun->[pawn_nameShortDef] minant una rica vena de [material_label] en una terra forània</li>
-    <li>image->[pawn_nameFull] treballant sobre un mur de [material_label] amb eines de miner, [circumstance_group]</li>
-    <li>image->[pawn_nameFull] portant un tros de [material_label], [circumstance_group]</li>
-    <li>image->[pawn_nameFull] descansant contra un mur de [material_label], [circumstance_group]</li>
-    <li>image->[pawn_nameFull] coordinant un equip d’excavació en una vena rica en [material_label], [circumstance_group]</li>
-    <li>image->[pawn_nameFull] inspeccinant amb cura una vena de [material_label] molt rica, [circumstance_group]</li>
+    <li>tale_noun->[PAWN_nameDef] minant una rica vena de [material_label] en una terra forània</li>
+    <li>image->[PAWN_nameFull] treballant sobre un mur de [material_label] amb eines de miner, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] portant un tros de [material_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] descansant contra un mur de [material_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] coordinant un equip d’excavació en una vena rica en [material_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inspeccionant amb cura una vena de [material_label] molt rica, [circumstance_group]</li>
     <li>circumstance_phrase->suant molt</li>
     <li>circumstance_phrase->amb una expressió [friendlyadjective]</li>
     <li>circumstance_phrase->somrient amb orgull</li>
     <li>circumstance_phrase->amb cara de satisfacció</li>
     <li>circumstance_phrase->mirant atentament al voltant per si sorgeix algun perill</li>
-    <li>desc_sentence->[quantity_adjphrase] [ally]s l’ajuden.</li>
-    <li>desc_sentence->[quantity_adjphrase] [AnimalAnyPlural] volten per la zona.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ally]s l’ajuden.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPlural] volten per la zona.</li>
     <li>desc_sentence->Es veu una xabola al fons.</li>
     <li>desc_sentence->Es veuen [quantity_adjphrase] venes més a la llunyania.</li>
     <li>desc_sentence->Es veu una [terrainfeature] a la llunyania.</li>
-    <li>desc_sentence->[pawn_nameShortDef] està suant i amb la roba bruta de treballar.</li>
+    <li>desc_sentence->[PAWN_nameDef] està suant i amb la roba bruta de treballar.</li>
   </CaravanRemoteMining.rulePack.rulesStrings>
   
 </LanguageData>
