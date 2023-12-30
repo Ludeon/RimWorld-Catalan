@@ -1703,7 +1703,7 @@
   <!-- EN: {0} (out of {1}) -->
   <QualityOutOf>{0} (d’un total de {1})</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->
-  <DateRitualNoObligation>{0} és un ritual que s’ha de celebrar en dates específiques. El podreu començar d’aquí a {1}, el {2}.</DateRitualNoObligation>
+  <DateRitualNoObligation>{0_gender ? El : La} {0} és un ritual que s’ha de celebrar en dates específiques. {0_gender ? El : La} podreu començar d’aquí a {1}, el {2}.</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
   <PreceptReplaceWith>Reemplaça amb</PreceptReplaceWith>
