@@ -105,7 +105,7 @@
     <li>va(lodgerCount==1)->va</li>
     <li>va(lodgerCount>=2)->van</li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] se’n [va]</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} us dóna les gràcies per permetre que {FACTION_leaderObjective} es quedi a [map_definite] durant aquests [questDurationTicks_duration]. {FACTION_leaderPronoun} ara ja se’n va amb la seva gent.\n\n{FACTION_leaderNameDef} diu que no oblidarà el que heu fet.</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} us dóna les gràcies per permetre que {FACTION_leaderObjective} es quedi a [map_definite] durant aquests [questDurationTicks_duration]. Ara se’n va amb la seva gent.\n\n{FACTION_leaderNameDef} diu que no oblidarà el que heu fet.</li>
   </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
@@ -370,7 +370,7 @@
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
     <li>rewardLetterLabel->Recompensa per l’hospitalitat</li>
-    <li>rewardLetterText->[rewardGiver_nameDef] ha contactat amb vós. Fa [rewardDelayTicks_duration], vau ajudar-[giver_lo] en circumstàncies desesperades.\n\nDes de llavors, [rewardGiver_pronoun] s’ha recuperat i ara vol recompensar-vos adequadament per l’ajuda que li vau prestar. [rewardGiver_pronoun] us envia el següent amb una càpsula transportadora:\n\n[listOfRewards]</li>
+    <li>rewardLetterText->[rewardGiver_nameDef] ha contactat amb vós. Fa [rewardDelayTicks_duration], vau ajudar-[giver_lo] en circumstàncies desesperades.\n\nDes de llavors, [rewardGiver_pronoun] s’ha recuperat i ara vol recompensar-vos adequadament per l’ajuda que li vau prestar. Us envia el següent amb una càpsula transportadora:\n\n[listOfRewards]</li>
     <li>giver_lo(rewardGiver_gender==Male)->lo</li>
     <li>giver_lo(rewardGiver_gender==Female)->la</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>

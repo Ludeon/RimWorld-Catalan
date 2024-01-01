@@ -515,7 +515,7 @@
   <!-- EN: Natural goodwill range -->
   <NaturalGoodwillRange>Abast de la reputació natural</NaturalGoodwillRange>
   <!-- EN: Natural goodwill is based on faction identities and beliefs. If current goodwill is far from natural goodwill, it will slowly shift towards natural goodwill over time.\n\nAll goodwill effects are multiplied by {0} when moving towards natural goodwill. -->
-  <NaturalGoodwillDescription>La reputació natural es basa en les identitats i creences de la facció. Si la reputació actual de la facció és molt diferent de la natural, s’hi anirà apropant al llarg del temps.\n\nTots els efectes de reputació es multipliquen per {0} quan es tendeix a la natural.</NaturalGoodwillDescription>
+  <NaturalGoodwillDescription>La reputació natural es basa en les identitats i creences de la facció. Si la reputació actual de la facció és molt diferent de la natural, s’hi anirà apropant al llarg del temps.\n\nTots els efectes de reputació es multipliquen per {0} quan es tendeix a la reputació natural.</NaturalGoodwillDescription>
   <!-- EN: reducing resistance of {0_nameIndef} -->
   <JobReport_ReduceResistance>reduint la resistència de {0_nameIndef}</JobReport_ReduceResistance>
   <!-- EN: Too large -->
@@ -537,9 +537,9 @@
   <!-- EN: completed -->
   <StudyCompleted>completat</StudyCompleted>
   <!-- EN: Attack this to destroy it. -->
-  <AttackToDestroy>Ataqueu-lo per a destruir-lo.</AttackToDestroy>
+  <AttackToDestroy>Ataqueu-ho per a destruir-ho.</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
-  <RemoveByAttackingTooltip>Ataqueu-ho per poder-ho treure.</RemoveByAttackingTooltip>
+  <RemoveByAttackingTooltip>Ataqueu-ho per a poder-ho treure.</RemoveByAttackingTooltip>
   <!-- EN: Food -->
   <ThoughtFoodEatenFood>Menjar</ThoughtFoodEatenFood>
   <!-- EN: Ingredients -->
@@ -1654,9 +1654,9 @@
   <!-- EN: Not participating -->
   <NotParticipating>Sense participar-hi</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
-  <DragPawnsToRolesInfo>Arrossega i amolla o botó esquerre/dret per moure la gent.</DragPawnsToRolesInfo>
+  <DragPawnsToRolesInfo>Arrossega i amolla o botó esquerre/dret per a moure la gent.</DragPawnsToRolesInfo>
   <!-- EN: Drag and drop or click to move people. -->
-  <DragPawnsToRolesInfoController>Arrossega i amolla o clic per moure la gent.</DragPawnsToRolesInfoController>
+  <DragPawnsToRolesInfoController>Arrossega i amolla o clic per a moure la gent.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Un esclau. Un humà propietat d’altre persones.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
@@ -1688,18 +1688,18 @@
   <!-- EN: {0_labelShort} is incapable of {1}. -->
   <AbilityDisabledNoCapacity>{0_labelShort} no es capaç de {1}.</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>Tothom que participi al ritual guanya l’estat d’ànim de {0} durant {1} dies.</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>Tothom que participi al ritual guanya un estat d’ànim de {0} durant {1} dies.</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
   <RitualOutcomeNoQuality>El ritual no té modificadors de qualitat i per això s’espera que sigui de la millor qualitat possible.</RitualOutcomeNoQuality>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
-  <ChooseParticipants>Escolliu qui hauria de participar al ritual {RITUAL_labelDef}.</ChooseParticipants>
+  <ChooseParticipants>Escolliu qui hauria de participar al ritual {RITUAL_label}.</ChooseParticipants>
   <!-- EN: Begin -->
   <Begin>Inicia</Begin>
   <!-- EN: Begin {0} -->
-  <BeginRitual>Inicia {0}</BeginRitual>
+  <BeginRitual>Inicia {0_indefinite}</BeginRitual>
   <!-- EN: Begin {0} for {1} -->
-  <BeginRitualFor>Inicia {0} per a {1}</BeginRitualFor>
+  <BeginRitualFor>Inicia {0_indefinite} per a {1}</BeginRitualFor>
   <!-- EN: {0} (out of {1}) -->
   <QualityOutOf>{0} (d’un total de {1})</QualityOutOf>
   <!-- EN: {0} is a date-specific ritual. You'll be able to start it in {1}, on the {2}. -->

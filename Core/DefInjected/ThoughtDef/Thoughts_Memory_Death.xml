@@ -69,9 +69,9 @@
   <MyBrotherDied.stages.my_brother_died.description>El meu germà ha mort. Sang de la meva sang…</MyBrotherDied.stages.my_brother_died.description>
   
   <!-- EN: my cousin {0} died -->
-  <MyCousinDied.stages.my_cousin_died.label>El meu cosí {0} i ha mort</MyCousinDied.stages.my_cousin_died.label>
+  <MyCousinDied.stages.my_cousin_died.label>{1_gender ? el meu cosí : la meva cosina}, {0}, ha mort</MyCousinDied.stages.my_cousin_died.label>
   <!-- EN: My cousin died. My own flesh and blood... -->
-  <MyCousinDied.stages.my_cousin_died.description>Algú amb qui érem cosins ha mort. Sang de la meva sang…</MyCousinDied.stages.my_cousin_died.description>
+  <MyCousinDied.stages.my_cousin_died.description>{1_gender ? El meu cosí : La meva cosina} ha mort. Sang de la meva sang…</MyCousinDied.stages.my_cousin_died.description>
   
   <!-- EN: my daughter {0} died -->
   <MyDaughterDied.stages.my_daughter_died.label>la meva filla, {0}, ha mort</MyDaughterDied.stages.my_daughter_died.label>
@@ -94,19 +94,19 @@
   <MyFianceeDied.stages.my_fiance_died.description>Ha mort la meva promesa. Quina dona… he perdut el meu futur .</MyFianceeDied.stages.my_fiance_died.description>
   
   <!-- EN: my grandchild {0} died -->
-  <MyGrandchildDied.stages.my_grandchild_died.label>El meu nét, {0}, ha mort</MyGrandchildDied.stages.my_grandchild_died.label>
+  <MyGrandchildDied.stages.my_grandchild_died.label>{1_gender ? El meu nét : La meva néta}, {0}, ha mort</MyGrandchildDied.stages.my_grandchild_died.label>
   <!-- EN: My grandchild died. My own flesh and blood... -->
-  <MyGrandchildDied.stages.my_grandchild_died.description>Ha mort un dels meus néts. Sang de la meva sang…</MyGrandchildDied.stages.my_grandchild_died.description>
+  <MyGrandchildDied.stages.my_grandchild_died.description>Ha mort {OTHERPAWN_gender ? el meu nét : la meva néta}. Sang de la meva sang…</MyGrandchildDied.stages.my_grandchild_died.description>
   
   <!-- EN: my grandparent {0} died -->
-  <MyGrandparentDied.stages.my_grandparent_died.label>el meu avi, {0}, ha mort</MyGrandparentDied.stages.my_grandparent_died.label>
+  <MyGrandparentDied.stages.my_grandparent_died.label>{1_gender ? el meu avi : la meva àvia}, {0}, ha mort</MyGrandparentDied.stages.my_grandparent_died.label>
   <!-- EN: My grandparent died. -->
-  <MyGrandparentDied.stages.my_grandparent_died.description>Ha mort un dels meus avis.</MyGrandparentDied.stages.my_grandparent_died.description>
+  <MyGrandparentDied.stages.my_grandparent_died.description>Ha mort {OTHERPAWN_gender ? el meu avi : la meva àvia}.</MyGrandparentDied.stages.my_grandparent_died.description>
   
   <!-- EN: my half-sibling {0} died -->
-  <MyHalfSiblingDied.stages.my_halfsibling_died.label>amb {0} érem mig germans i ha mort</MyHalfSiblingDied.stages.my_halfsibling_died.label>
+  <MyHalfSiblingDied.stages.my_halfsibling_died.label>{1_gender ? el meu germanastre : la meva germanastra} ha mort</MyHalfSiblingDied.stages.my_halfsibling_died.label>
   <!-- EN: My half-sibling died. My own flesh and blood... -->
-  <MyHalfSiblingDied.stages.my_halfsibling_died.description>Algú amb qui érem mig germans ha mort. Sang de la meva sang…</MyHalfSiblingDied.stages.my_halfsibling_died.description>
+  <MyHalfSiblingDied.stages.my_halfsibling_died.description>{OTHERPAWN_gender ? El meu germanastre : La meva germanastra} ha mort. Sang de la meva sang…</MyHalfSiblingDied.stages.my_halfsibling_died.description>
   
   <!-- EN: my husband {0} died -->
   <MyHusbandDied.stages.my_husband_died.label>el meu marit, {0}, ha mort</MyHusbandDied.stages.my_husband_died.label>
@@ -116,12 +116,12 @@
   <!-- EN: my kin {0} died -->
   <MyKinDied.stages.my_kin_died.label>un dels meus parents, {0}, ha mort</MyKinDied.stages.my_kin_died.label>
   <!-- EN: My kin died. -->
-  <MyKinDied.stages.my_kin_died.description>Un parent meu ha mort.</MyKinDied.stages.my_kin_died.description>
+  <MyKinDied.stages.my_kin_died.description>{OTHERPAWN_gender ? Un parent meu : Una parenta meva} ha mort.</MyKinDied.stages.my_kin_died.description>
   
   <!-- EN: my lover {0} died -->
-  <MyLoverDied.stages.my_lover_died.label>el meu amor, {0}, ha mort</MyLoverDied.stages.my_lover_died.label>
+  <MyLoverDied.stages.my_lover_died.label>{1_gender ? El meu amant : La meva amant}, {0}, ha mort</MyLoverDied.stages.my_lover_died.label>
   <!-- EN: My lover died. I am so alone. -->
-  <MyLoverDied.stages.my_lover_died.description>Ha mort el meu amor. M’envaeix la soledat.</MyLoverDied.stages.my_lover_died.description>
+  <MyLoverDied.stages.my_lover_died.description>Ha mort {OTHERPAWN_gender ? el meu amant : la meva amant}. M’envaeix la soledat.</MyLoverDied.stages.my_lover_died.description>
   
   <!-- EN: my mother {0} died -->
   <MyMotherDied.stages.my_mother_died.label>la meva mare, {0}, ha mort</MyMotherDied.stages.my_mother_died.label>
@@ -159,12 +159,12 @@
   <MyWifeDied.stages.my_wife_died.description>Ha mort la meva dona. M’envaeix la soledat.</MyWifeDied.stages.my_wife_died.description>
   
   <!-- EN: my rival {0} died -->
-  <PawnWithBadOpinionDied.stages.my_rival_died.label>el meu rival, {0}, ha mort</PawnWithBadOpinionDied.stages.my_rival_died.label>
+  <PawnWithBadOpinionDied.stages.my_rival_died.label>{1_gender ? el meu rival : la meva rival}, {0}, ha mort</PawnWithBadOpinionDied.stages.my_rival_died.label>
   <!-- EN: Serves them right. At least there's some justice in this world. -->
   <PawnWithBadOpinionDied.stages.my_rival_died.description>Ja li està bé. Ara tot anirà millor.</PawnWithBadOpinionDied.stages.my_rival_died.description>
   
   <!-- EN: my friend {0} died -->
-  <PawnWithGoodOpinionDied.stages.my_friend_died.label>el meu amic, {0}, ha mort</PawnWithGoodOpinionDied.stages.my_friend_died.label>
+  <PawnWithGoodOpinionDied.stages.my_friend_died.label>{1_gender ? el meu amic : la meva amiga}, {0}, ha mort</PawnWithGoodOpinionDied.stages.my_friend_died.label>
   <!-- EN: Such a wonderful person, gone forever. The universe gets darker every day. -->
   <PawnWithGoodOpinionDied.stages.my_friend_died.description>Quina persona més meravellosa. L’univers s’enfosqueix cada dia que passa.</PawnWithGoodOpinionDied.stages.my_friend_died.description>
   

@@ -546,7 +546,7 @@
   <CoreworldStudent50.titleShort>estudiant</CoreworldStudent50.titleShort>
   
   <!-- EN: [PAWN_nameDef] was bred to become an executive for the space exploration corporation that owned [PAWN_possessive] home planet. [PAWN_possessive] family had been working for that corporation for four generations.\n\nAt age five, [PAWN_pronoun] enrolled at the corporate academy where [PAWN_pronoun] learned loyalty and ruthlessness. [PAWN_nameDef] excelled in finding diplomatic solutions where others would need violence. -->
-  <CorpBredStudent54.baseDesc>[PAWN_nameDef] va ser criat per convertir-se en executiu d’una corporació d’exploració espacial propietaris del seu planeta natal. La seva família havia treballat per la federació durant quatre generacions.\n\nA cinc anys, va entrar a l’escola de la corporació on va aprendre lleialtat i crueltat. [PAWN_nameDef] va excel·lir a trobar solucions diplomàtiques on d’altres requerien violència.</CorpBredStudent54.baseDesc>
+  <CorpBredStudent54.baseDesc>[PAWN_nameDef] va ser criat per a convertir-se en executiu d’una corporació d’exploració espacial propietaris del seu planeta natal. La seva família havia treballat per la federació durant quatre generacions.\n\nA cinc anys, va entrar a l’escola de la corporació on va aprendre lleialtat i crueltat. [PAWN_nameDef] va excel·lir a trobar solucions diplomàtiques on d’altres requerien violència.</CorpBredStudent54.baseDesc>
   <!-- EN: corp-bred student -->
   <CorpBredStudent54.title>estudiant corporatiu</CorpBredStudent54.title>
   <!-- EN: student -->
@@ -1932,7 +1932,7 @@
   <SocialPariah3.titleShort>pària</SocialPariah3.titleShort>
   
   <!-- EN: [PAWN_nameDef] grew up believing [PAWN_pronoun] was a normal, albeit slightly sheltered child.\n\nIn truth, [PAWN_pronoun] was part of an elaborate experiment. Researchers were conditioning [PAWN_objective] using social interactions and mechanite injections to try to produce an elite soldier. -->
-  <SoldierExperiment50.baseDesc>[PAWN_nameDef] va créixer pensant que era un nen, tot i que una mica massa sobreprotegit.\n\nEl cert és que era un complexe experiment. Els investigadors el condicionaven amb interaccions socials preparades i injeccions de mecanites pensades per convertir-lo en un soldat d’elit.</SoldierExperiment50.baseDesc>
+  <SoldierExperiment50.baseDesc>[PAWN_nameDef] va créixer pensant que era {PAWN_gender ? un nen : una nena}, tot i que una mica massa sobreprotegi{PAWN_gender ? t : da}.\n\nEl cert és que era un experiment complexe. Els investigadors {PAWN_gender ? el : la} condicionaven amb interaccions socials preparades i injeccions de mecanites pensades per a convertir-{PAWN_gender ? lo : la} en {PAWN_gender ? un : una} {PAWN_gender ? soldat : soldada} d’elit.</SoldierExperiment50.baseDesc>
   <!-- EN: soldier experiment -->
   <SoldierExperiment50.title>soldat de laboratori</SoldierExperiment50.title>
   <SoldierExperiment50.titleFemale>soldada de laboratori</SoldierExperiment50.titleFemale>

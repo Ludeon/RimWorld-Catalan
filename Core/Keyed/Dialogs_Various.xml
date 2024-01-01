@@ -1131,7 +1131,7 @@
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>Cost de la psicoconcentració per intensitat de la crisi nerviosa</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
-  <AbilityAlreadyInspired>{0_definite} ja està inspirat.</AbilityAlreadyInspired>
+  <AbilityAlreadyInspired>{0_definite} ja està {0_gender ? inspirat : inspirada}.</AbilityAlreadyInspired>
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
   <AbilityCantGetInspiredNow>{0_definite} ara mateix no es pot inspirar.</AbilityCantGetInspiredNow>
   <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->

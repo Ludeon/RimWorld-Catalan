@@ -58,7 +58,7 @@
   <AreaRevealedWithMechanoids>S’ha revelat una zona nova. Conté mecanoides antics i hostils.</AreaRevealedWithMechanoids>
 
   <!-- EN: A roof has collapsed because it was too far from any support. -->
-  <RoofCollapsed>S’ha esfondrat una teulada perquè era massa lluny del punt de suport.</RoofCollapsed>
+  <RoofCollapsed>S’ha esfondrat un sostre perquè era massa lluny del punt de suport.</RoofCollapsed>
   <!-- EN: These things were crushed: -->
   <TheseThingsCrushed>S’ha esclafat:</TheseThingsCrushed>
   <!-- EN: Nothing was crushed. -->
@@ -363,16 +363,16 @@
   <!-- EN: Legendary Work -->
   <LetterCraftedLegendaryLabel>Treball llegendari</LetterCraftedLegendaryLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world. -->
-  <LetterCraftedLegendaryMessage>{WORKER_definite} ha creat {CRAFTED_indefinite}.\n\nLes notícies sobre aquesta valuosa obra s’escamparan per tot el món.</LetterCraftedLegendaryMessage>
+  <LetterCraftedLegendaryMessage>{WORKER_definite} ha creat {CRAFTED_gender ? un : una} {CRAFTED_labelShort}.\n\nLes notícies sobre aquesta valuosa obra s’escamparan per tot el món.</LetterCraftedLegendaryMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0}\n\nNews of this valuable artifact will spread across the world. -->
-  <LetterCraftedLegendaryMessageArt>{WORKER_definite} ha creat {CRAFTED_indefinite}.\n\n{0}\n\nLes notícies sobre aquesta valuosa obra s’escamparan per tot el món.</LetterCraftedLegendaryMessageArt>
+  <LetterCraftedLegendaryMessageArt>{WORKER_definite} ha creat {CRAFTED_gender ? un : una} {CRAFTED_labelShort}.\n\n{0}\n\nLes notícies sobre aquesta valuosa obra s’escamparan per tot el món.</LetterCraftedLegendaryMessageArt>
 
   <!-- EN: Masterwork -->
   <LetterCraftedMasterworkLabel>Obra mestra</LetterCraftedMasterworkLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
-  <LetterCraftedMasterworkMessage>{WORKER_definite} ha creat {CRAFTED_indefinite}.</LetterCraftedMasterworkMessage>
+  <LetterCraftedMasterworkMessage>{WORKER_definite} ha creat {CRAFTED_gender ? un : una} {CRAFTED_labelShort}.</LetterCraftedMasterworkMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0} -->
-  <LetterCraftedMasterworkMessageArt>{WORKER_definite} ha creat {CRAFTED_indefinite}.\n\n{0}</LetterCraftedMasterworkMessageArt>
+  <LetterCraftedMasterworkMessageArt>{WORKER_definite} ha creat {CRAFTED_gender ? un : una} {CRAFTED_labelShort}.\n\n{0}</LetterCraftedMasterworkMessageArt>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
@@ -562,7 +562,7 @@
   <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
   <LetterJoinOfferTitle>{PAWN_nameDef} vol unir-se a la vostra facció.</LetterJoinOfferTitle>
   <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
-  <LetterJoinOfferText>{PAWN_nameDef} creu que és feliç en {MAP_definite}. {PAWN_pronoun} se us vol unir permanentment.</LetterJoinOfferText>
+  <LetterJoinOfferText>{PAWN_nameDef} creu que és feliç a {MAP_definite}. Es vol unir permanentment al vostre grup.</LetterJoinOfferText>
   <!-- EN: Accept -->
   <LetterJoinOfferAccept>Accepta’l</LetterJoinOfferAccept>
 

@@ -24,9 +24,11 @@
     <li>disease->de pesta</li>
     <li>disease->de malària</li>
     <li>disease->infecciós</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], necessita gent que l’ajudi a [dutyRoyalDescription].\n\nUs demana que li envieu [colonistCountToLend] que estaran [lendForDays] dies a les seves ordres.\n\n[willSendShuttle]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], necessita gent que l’ajudi a [dutyRoyalDescription].\n\nUs demana que li envieu [colonistCountToLend] que estar[colonistFuture] [lendForDays] dies a les seves ordres.\n\n[willSendShuttle]</li>
     <li>colonistCountToLend(colonistsToLendCount==1)->1 colon[minAgeOrOlder]</li>
     <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colons[minAgeOrOlder]</li>
+    <li>colonistFuture(colonistsToLendCount==1)->à</li>
+    <li>colonistFuture(colonistsToLendCount>1)->an</li>
     <li>willSendShuttle->Enviarà una llançadora per a recollir [colonists].</li>
     <li>colonists(colonistsToLendCount==1)->el colon</li>
     <li>colonists(colonistsToLendCount>1)->els colons</li>

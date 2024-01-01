@@ -184,7 +184,17 @@
     <li>joiner_x_a(joiner_gender!=Female)-></li>
     <li>joiner_x_a(joiner_gender==Female)->a</li>
     <li>joiner_t(joiner_gender!=Female)->t</li>
-    <li>joiner_t(joiner_gender!=Female)->da</li>
+    <li>joiner_t(joiner_gender==Female)->da</li>
+    <li>prisoner_Un(joiner_gender!=Female)->Un</li>
+    <li>prisoner_Un(joiner_gender==Female)->Una</li>
+    <li>prisoner_un(joiner_gender!=Female)->un</li>
+    <li>prisoner_un(joiner_gender==Female)->una</li>
+    <li>prisoner_x_a(joiner_gender!=Female)-></li>
+    <li>prisoner_x_a(joiner_gender==Female)->a</li>
+    <li>prisoner_t(joiner_gender!=Female)->t</li>
+    <li>prisoner_t(joiner_gender==Female)->da</li>
+    <li>prisoner_lo(joiner_gender!=Female)->lo</li>
+    <li>prisoner_lo(joiner_gender==Female)->la</li>
     <li>lodger_ha(lodgerCount==1)->ha</li>
     <li>lodger_ha(lodgerCount>=2)->han</li>
     <li>lodger_lo(lodgers0_gender==Male,lodgerCount==1)->lo</li>
@@ -202,6 +212,23 @@
     <li>lodger_amic(lodgers0_gender==Female)->amiga</li>
     <li>lodger_el_seu(lodgers0_gender!=Female)->el seu</li>
     <li>lodger_el_seu(lodgers0_gender==Female)->la seva</li>
+    <li>lodgers0_ha(lodgerCount==1)->ha</li>
+    <li>lodgers0_ha(lodgerCount>=2)->han</li>
+    <li>lodgers0_lo(lodgers0_gender==Male,lodgerCount==1)->lo</li>
+    <li>lodgers0_lo(lodgers0_gender!=Male,lodgerCount==1)->la</li>
+    <li>lodgers0_lo(lodgerCount>=2)->los</li>
+    <li>lodgers0_un(lodgers0_gender!=Female)->un</li>
+    <li>lodgers0_un(lodgers0_gender==Female)->una</li>
+    <li>lodgers0_x_a(lodgers0_gender!=Female)-></li>
+    <li>lodgers0_x_a(lodgers0_gender==Female)->a</li>
+    <li>lodgers0_el(lodgers0_gender!=Female)->el</li>
+    <li>lodgers0_el(lodgers0_gender==Female)->la</li>
+    <li>lodgers0_El(lodgers0_gender!=Female)->El</li>
+    <li>lodgers0_El(lodgers0_gender==Female)->La</li>
+    <li>lodgers0_amic(lodgers0_gender!=Female)->amic</li>
+    <li>lodgers0_amic(lodgers0_gender==Female)->amiga</li>
+    <li>lodgers0_el_seu(lodgers0_gender!=Female)->el seu</li>
+    <li>lodgers0_el_seu(lodgers0_gender==Female)->la seva</li>
     <li>asker_x_a(asker_gender!=Female)-></li>
     <li>asker_x_a(asker_gender==Female)->a</li>
     <li>asker_el(asker_gender!=Female)->el</li>

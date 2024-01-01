@@ -603,16 +603,16 @@
 
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
-  <CommandLeaveRitual>Surt de {RITUAL_label}</CommandLeaveRitual>
+  <CommandLeaveRitual>Surt de {RITUAL_labelDef}</CommandLeaveRitual>
   <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
-  <CommandLeaveRitualDesc>Deixa de participar al ritual {RITUAL_labelDef}. El ritual seguirà endavant, sempre que hi quedi almenys un participant.</CommandLeaveRitualDesc>
+  <CommandLeaveRitualDesc>Deixa de participar al ritual {RITUAL_label}. El ritual seguirà endavant, sempre que hi quedi almenys un participant.</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
-  <CommandLeaveLastParticipant>Aquest és l’últim participant del ritual {RITUAL_labelDef}.</CommandLeaveLastParticipant>
+  <CommandLeaveLastParticipant>Aquest és l’últim participant del ritual {RITUAL_label}.</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
-  <CommandCancelRitual>Cancel·la {RITUAL_label}</CommandCancelRitual>
+  <CommandCancelRitual>Cancel·la {RITUAL_labelDef}</CommandCancelRitual>
   <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
-  <CommandCancelRitualDesc>Finalitza el ritual {RITUAL_labelDef} ara mateix. Es mantindran les obligacions rituals. Podreu tornar a fer el ritual més endavant.</CommandCancelRitualDesc>
+  <CommandCancelRitualDesc>Finalitza el ritual {RITUAL_label} ara mateix. Es mantindran les obligacions rituals. Podreu tornar a fer el ritual més endavant.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>Esteu segur que voleu cancel·lar {RITUAL_labelDef}?</CommandCancelRitualConfirm>
 
