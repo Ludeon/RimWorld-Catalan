@@ -55,7 +55,7 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersArriveLetterLabel->[hasHave] arribat [un][lodgersLabelSingularOrPlural]</li>
-    <li>lodgersArriveLetterText->[hasHave] arribat [un][lodgersSingularOrPluralDef]. [lodgersPronoun] es quedarà a l’assentament durant [questDurationTicks_duration], quan [hagi] descansat i s’[hagin] organitzat.</li>
+    <li>lodgersArriveLetterText->[hasHave] arribat [un][lodgersSingularOrPluralDef]. [lodgersPronoun] es quedarà a l’assentament durant [questDurationTicks_duration], quan [hagi] descansat i s’[hagi] organitzat.</li>
     <li>hasHave(lodgerCount==1)->ha</li>
     <li>hasHave(lodgerCount>=2)->han</li>
     <li>hagi(lodgerCount==1)->hagi</li>

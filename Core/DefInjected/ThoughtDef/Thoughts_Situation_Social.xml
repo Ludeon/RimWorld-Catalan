@@ -26,7 +26,7 @@
   <!-- EN: Being together with my bonded animal makes me feel better. -->
   <BondedAnimalMaster.stages.s_master.description>Estar amb la meva mascota em fa sentir millor.</BondedAnimalMaster.stages.s_master.description>
   <!-- EN: master of {0} -->
-  <BondedAnimalMaster.stages.master_of.label>a càrrec de</BondedAnimalMaster.stages.master_of.label>
+  <BondedAnimalMaster.stages.master_of.label>a càrrec de {0}</BondedAnimalMaster.stages.master_of.label>
   <!-- EN: Being together with my bonded animals makes me feel better. -->
   <BondedAnimalMaster.stages.master_of.description>Estar amb la meva mascota em fa sentir millor.</BondedAnimalMaster.stages.master_of.description>
   
@@ -73,7 +73,7 @@
   <NotBondedAnimalMaster.stages.not_master_of.description>Hauria d’estar amb les meves mascotes.</NotBondedAnimalMaster.stages.not_master_of.description>
   
   <!-- EN: opinion of my {0} {1} -->
-  <OpinionOfMyLover.stages.opinion_of_my.label>opinió de {0} {1}</OpinionOfMyLover.stages.opinion_of_my.label>
+  <OpinionOfMyLover.stages.opinion_of_my.label>opinió de {0_gender ? el meu : la meva} {0} {1}</OpinionOfMyLover.stages.opinion_of_my.label>
   <!-- EN: Being with them makes me feel this way. -->
   <OpinionOfMyLover.stages.opinion_of_my.description>Estar amb el meu amor em fa sentir així.</OpinionOfMyLover.stages.opinion_of_my.description>
   

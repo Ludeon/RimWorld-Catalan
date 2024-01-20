@@ -159,7 +159,7 @@
   <!-- EN: Dormant: Not reproducing. -->
   <DormantHiveNotReproducing>Latent: No es reprodueix.</DormantHiveNotReproducing>
   <!-- EN: Next {0} in -->
-  <NextSpawnedItemIn>Següent {0} d’aquí</NextSpawnedItemIn>
+  <NextSpawnedItemIn>Més {0} d’aquí</NextSpawnedItemIn>
   <!-- EN: Next resource in -->
   <NextSpawnedResourceIn>Proper producte d’aquí</NextSpawnedResourceIn>
   <!-- EN: Broken down -->
@@ -1688,7 +1688,7 @@
   <!-- EN: {0_labelShort} is incapable of {1}. -->
   <AbilityDisabledNoCapacity>{0_labelShort} no es capaç de {1}.</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>Tothom que participi al ritual guanya un estat d’ànim de {0} durant {1} dies.</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>Tots els participants del ritual guanyen un estat d’ànim de {0} durant {1} dies.</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
   <RitualOutcomeNoQuality>El ritual no té modificadors de qualitat i per això s’espera que sigui de la millor qualitat possible.</RitualOutcomeNoQuality>
   
@@ -1806,13 +1806,13 @@
   <Random>Aleatòria</Random>
 
   <!-- EN: Plant {0_label} -->
-  <PlantThing>Planta {0_label}</PlantThing>
+  <PlantThing>Planta {0_labelIndef}</PlantThing>
   <!-- EN: Plant a {0_label} in a chosen area. -->
-  <PlantThingDesc>Planta {0_label} a l’àrea escollida.</PlantThingDesc>
+  <PlantThingDesc>Planta {0_labelIndef} a l’àrea escollida.</PlantThingDesc>
   <!-- EN: Cancel planting {0_label} -->
-  <CancelPlantThing>Cancel·la la plantada de {0_label}</CancelPlantThing>
+  <CancelPlantThing>Cancel·la la plantada de {0_labelDef}</CancelPlantThing>
   <!-- EN: Cancel planting the {0_label}. -->
-  <CancelPlantThingDesc>Cancel·la la plantada de {0_label}.</CancelPlantThingDesc>
+  <CancelPlantThingDesc>Cancel·la la plantada de {0_labelDef}.</CancelPlantThingDesc>
 
   <!-- EN: another gathering is in progress. -->
   <AbilitySpeechDisabledAnotherGatheringInProgress>hi ha una altra reunió en curs.</AbilitySpeechDisabledAnotherGatheringInProgress>
