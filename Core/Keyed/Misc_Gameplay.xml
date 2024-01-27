@@ -1407,7 +1407,7 @@
   <!-- EN: Progress to next lump -->
   <ProgressToNextLump>Progrés fins al següent filó</ProgressToNextLump>
   <!-- EN: Resource below -->
-  <ResourceBelow>A sota hi ha recursos.</ResourceBelow>
+  <ResourceBelow>Recurs que hi ha a sota</ResourceBelow>
   <!-- EN: Progress to next portion -->
   <ProgressToNextPortion>Progrés fins al següent porció</ProgressToNextPortion>
   <!-- EN: No resources below. -->
@@ -1806,13 +1806,13 @@
   <Random>Aleatòria</Random>
 
   <!-- EN: Plant {0_label} -->
-  <PlantThing>Planta {0_labelIndef}</PlantThing>
+  <PlantThing>Planta {0_gender ? un : una} {0_label}</PlantThing>
   <!-- EN: Plant a {0_label} in a chosen area. -->
-  <PlantThingDesc>Planta {0_labelIndef} a l’àrea escollida.</PlantThingDesc>
+  <PlantThingDesc>Planta {0_gender ? un : una} {0_label} a l’àrea escollida.</PlantThingDesc>
   <!-- EN: Cancel planting {0_label} -->
-  <CancelPlantThing>Cancel·la la plantada de {0_labelDef}</CancelPlantThing>
+  <CancelPlantThing>Cancel·la la plantada de {0_gender ? el :la} {0_label}</CancelPlantThing>
   <!-- EN: Cancel planting the {0_label}. -->
-  <CancelPlantThingDesc>Cancel·la la plantada de {0_labelDef}.</CancelPlantThingDesc>
+  <CancelPlantThingDesc>Cancel·la la plantada de {0_gender ? el :la} {0_label}.</CancelPlantThingDesc>
 
   <!-- EN: another gathering is in progress. -->
   <AbilitySpeechDisabledAnotherGatheringInProgress>hi ha una altra reunió en curs.</AbilitySpeechDisabledAnotherGatheringInProgress>

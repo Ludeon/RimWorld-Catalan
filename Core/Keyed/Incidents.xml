@@ -99,7 +99,7 @@
   <!-- EN: Manhunter pack -->
   <LetterLabelManhunterPackArrived>Grup d’animals caçapersones</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
-  <ManhunterPackArrived>Un grup de {0} caçapersones ha entrat a la zona. {0_gender ? Embogits : Embogides} per l’escària, una malaltia infecciosa, voltaran per la regió, buscant carn humana.\n\nNo atacaran les portes si no veuen algú que les travessa. Si us amagueu a dins, estareu segur. No atacaran les torretes inactives; així que, si les teniu apagades, no els passarà res.\n\nEls {0} plegaran veles d’aquí un o dos dies. Us podeu amagar i esperar o lluitar-hi.</ManhunterPackArrived>
+  <ManhunterPackArrived>Un grup de {0} caçapersones ha entrat a la zona. {0_gender ? Embogits : Embogides} per l’escària, una malaltia infecciosa, voltaran per la regió, buscant carn humana.\n\nNo atacaran les portes si no veuen algú que les travessa. Si us amagueu a dins, estareu segur. No atacaran les torretes inactives; així que, si les teniu apagades, no els passarà res.\n\nEls {0} se n’aniran d’aquí un o dos dies. Us podeu amagar i esperar o lluitar-hi.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
@@ -133,7 +133,7 @@
   
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
-  <LetterLabelAnimalSelfTame>{1_kind} auto-domestica{ANIMAL_gender ? t : da}</LetterLabelAnimalSelfTame>
+  <LetterLabelAnimalSelfTame>{1_kind} s’ha auto-domesticat</LetterLabelAnimalSelfTame>
   <!-- EN: {0} has become tame. -->
   <LetterAnimalSelfTame>{0} salvatge s’ha domesticat {ANIMAL_gender ? sol : sola}. Ara es dirà {ANIMAL_nameFull}.</LetterAnimalSelfTame>
   <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
@@ -151,7 +151,7 @@
   <!-- EN: Rare thrumbos -->
   <LetterLabelThrumboPasses>Trumbes rars</LetterLabelThrumboPasses>
   <!-- EN: A small herd of thrumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious leather and horn.\n\nThrumbos will leave the area in a few days. -->
-  <LetterThrumboPasses>Ha entrat una petita manada de trumbes a la zona.\n\nTot i que pacífics per natura, aquestes rares criatures són molt perilloses si se les ataca. Alguns comerciants pagaran molts diners per les seves preuades banyes i pells.\n\nEls trumbes plegaran veles d’aquí uns dies.</LetterThrumboPasses>
+  <LetterThrumboPasses>Ha entrat una petita manada de trumbes a la zona.\n\nTot i que són de naturalesa pacífica, aquestes criatures rares són molt perilloses si se les ataca. Alguns comerciants pagaran molts diners per les seves preuades banyes i pells.\n\nEls trumbes se n’aniran d’aquí uns dies.</LetterThrumboPasses>
   
   <!-- Trader caravan -->
   <!-- EN: {1} from {0} -->
@@ -183,7 +183,7 @@
   <!-- EN: Caravan meeting by {0} -->
   <CaravanMeetingTitle>Trobada amb la caravana de {0}</CaravanMeetingTitle>
   <!-- EN: {0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2} -->
-  <CaravanMeeting>{0} s’ha reunit pacíficament amb una altra caravana de {1}. L’altra caravana està formada per:\n\n{2}</CaravanMeeting>
+  <CaravanMeeting>{0} s’ha reunit pacíficament amb una caravana de {1}. L’altra caravana està formada per:\n\n{2}</CaravanMeeting>
   <!-- EN: Trade -->
   <CaravanMeeting_Trade>Negocia</CaravanMeeting_Trade>
   <!-- EN: Attack -->

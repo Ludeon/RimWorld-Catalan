@@ -6,8 +6,7 @@
     <li>lodgersLabelPlural->[lodgersPawnKind_labelPlural]</li>
   -->
   <Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
-    <li>lodgersLabel(lodgers0==Male)->[lodgersPawnKind_label]</li>
-    <li>lodgersLabel(lodgers0!=Male)->[lodgersPawnKind_labelFemale]</li>
+    <li>lodgersLabel->[lodgersPawnKind_label]</li>
     <li>lodgersLabelPlural->[lodgersPawnKind_labelPlural]</li>
   </Hospitality_Animals.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
@@ -77,7 +76,7 @@
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_a] [asker_faction_leaderTitle] de [asker_faction_name], us demana ajuda. Vol que acolliu [lodgersCount] [lodgersLabelPlural] a [map_definite] durant [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4][commonDescEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_un] [asker_faction_leaderTitle] de [asker_faction_name], us demana ajuda. Vol que acolliu [lodgersCount] [lodgersLabelPlural] a [map_definite] durant [shuttleDelayTicks_duration]. [healthInfo][threatsInfo4][commonDescEnding]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[asker_nameDef] necessita els [lodgersLabelPlural] per a complir una promesa comercial important. Per a provocar el conflicte, [enemyFaction_name] envia [enemyFaction_pawnsPlural] per a perseguir-los. Si accepteu els [lodgersLabelPlural], [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>

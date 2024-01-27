@@ -448,7 +448,7 @@
   <!-- EN: Nobody -->
   <Nobody>Ningú</Nobody>
   <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
-  <ConnectedPawnDesc>La persona connectada a {TREE_gender ? aquest : aquesta} {TREE_label}. Si la persona connectada mor, {TREE_labelDef} no es podrà a connectar amb altres persones durant {DURATION}.</ConnectedPawnDesc>
+  <ConnectedPawnDesc>La persona connectada a {TREE_gender ? aquest : aquesta} {TREE_label}. Si la persona connectada mor, {TREE_gender ? el : la} {TREE_label} no es podrà a connectar amb altres persones durant {DURATION}.</ConnectedPawnDesc>
   <!-- EN: Connection torn. Can connect in {0}. -->
   <ConnectionTorn>S’ha arrencat la connexió. Es pot connectar d’aquí a {0}.</ConnectionTorn>
   <!-- EN: {PAWN_nameDef} is too far away -->
@@ -490,7 +490,7 @@
   <!-- EN: Determines the currently created dryad caste. -->
   <GauranlenTreeModeDesc>Determina la casta de la dríada creada actualment.</GauranlenTreeModeDesc>
   <!-- EN: Spawning {DRYAD_label} in {TIME} -->
-  <SpawningDryadIn>Es generarà {DRYAD_labelIndefinite} d’aquí a {TIME}</SpawningDryadIn>
+  <SpawningDryadIn>Es generarà {DRYAD_gender ? un : una} {DRYAD_label} d’aquí a {TIME}</SpawningDryadIn>
   <!-- EN: Morphing {DRYAD_labelShort} into {TYPE_label}. -->
   <ChangingDryadIntoType>Es transforma {DRYAD_labelShort} a {TYPE_label}.</ChangingDryadIntoType>
   <!-- EN: {0} hours every day -->
@@ -498,7 +498,7 @@
   <!-- EN: {0} hours every other day -->
   <HoursEveryOtherDay>{0} hores cada dos dies</HoursEveryOtherDay>
   <!-- EN: {DRYAD_labelPlural} produce {RESOURCES} every {DURATION}. -->
-  <DryadProducesResourcesDesc>{DRYAD_labelPluralDefinite} produeixen {RESOURCES} cada {DURATION}.</DryadProducesResourcesDesc>
+  <DryadProducesResourcesDesc>{DRYAD_gender ? Un : Una} {DRYAD_label} produeix {RESOURCES} cada {DURATION}.</DryadProducesResourcesDesc>
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
   <DryadCannotChangeMaster>{ANIMAL_nameDef} està {ANIMAL_gender ? connectat : connectada} a {MASTER_nameDef} a través del seu arbre gauranlen. El seu amo no es pot canviar.</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->

@@ -9,10 +9,21 @@
     <li>threatsInfo-></li>
   -->
   <EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
-    <li>questDescription->[intro][asker_El] [asker_faction_leaderTitle] de [asker_faction_name] realitzarà la visita tradicional a qualsevol comte/comtessa del seu domini quan ho sol·liciti. Inviteu-lo, satisfeu les seves nobles exigències durant [shuttleDelayTicks_duration] i podreu anar amb la llançadora fins a la flota imperial. Llavors, us podreu unir a la cort imperial o escapar per a viure una vida nova entre les estrelles.\n\nPer a obtenir el títol de comte cal completar missions per a obtenir  [asker_faction_royalFavorLabel] amb [asker_faction_name]. Podeu trigar anys a aconseguir el títol de comte o comtessa.\n\nDurant la visita, heu de mantenir el seu estat d’ànim per sobre del [lodgersMoodThreshold_percent]. Això implica complir els prerequisits de la noblesa com ara una cambra exquisida.[threatsInfo]\n\n[asker_a] [asker_faction_leaderTitle] portarà quatre dels seus guardes personals i els deixarà sota el vostre control. Heu d’allotjar els guardes, però [asker_el] [asker_faction_leaderTitle] no es queixarà si moren o estan amb un mal estat d’ànim.\n\nHeu de mantenir els visitants a [map_definite] i no se’ls po enviar a cap altre lloc. Si falleu la missió o emigreu, la podreu repetir més endavant.</li>
+    <li>questDescription->[intro][asker_El] [asker_faction_leaderTitle] de [asker_faction_name] realitzarà la visita tradicional a qualsevol comte/comtessa del seu domini quan ho sol·liciti. Inviteu-[asker_lo], satisfeu les seves nobles exigències durant [shuttleDelayTicks_duration] i podreu anar amb la llançadora fins a la flota imperial. Llavors, us podreu unir a la cort imperial o escapar per a viure una vida nova entre les estrelles.\n\nPer a obtenir el títol de comte cal completar missions per a obtenir  [asker_faction_royalFavorLabel] amb [asker_faction_name]. Podeu trigar anys a aconseguir-lo.\n\nDurant la visita, heu de mantenir el seu estat d’ànim per sobre del [lodgersMoodThreshold_percent]. Això implica complir els prerequisits de la noblesa com ara una cambra exquisida.[threatsInfo]\n\n[asker_El] [asker_faction_leaderTitle] portarà quatre dels seus guardes personals i els deixarà sota el vostre control. Heu d’allotjar els guardes, però [asker_el] [asker_faction_leaderTitle] no es queixarà si moren o estan amb un mal estat d’ànim.\n\nHeu de mantenir els visitants a [map_definite] i no se’ls pot enviar a cap altre lloc. Si falleu la missió o emigreu, la podreu repetir més endavant.</li>
     <li>intro(sameQuestsCount==0)->Heu descobert una manera d’escapar d’aquest planeta!\n\n</li>
     <li>intro(sameQuestsCount>=1)->Us han donat una altra oportunitat per a aconseguir un ascens reial.\n\n</li>
     <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nEls competidors aprofitaran les oportunitats que tinguin per a intentar matar [asker_el] [asker_faction_leaderTitle] i atacarà intensament. Prepareu-vos per a defensar-vos.</li>
+    <li>threatsInfo-></li>
+    <li>asker_El(asker_gender!=Female)->El</li>
+    <li>asker_El(asker_gender==Female)->La</li>
+    <li>asker_el(asker_gender!=Female)->el</li>
+    <li>asker_el(asker_gender==Female)->la</li>
+    <li>asker_un(asker_gender!=Female)->un</li>
+    <li>asker_un(asker_gender==Female)->una</li>
+    <li>asker_Un(asker_gender!=Female)->Un</li>
+    <li>asker_Un(asker_gender==Female)->Una</li>
+    <li>asker_lo(asker_gender!=Female)->lo</li>
+    <li>asker_lo(asker_gender==Female)->la</li>
   </EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(sameQuestsCount==0)->Royal Ascent</li>
@@ -81,7 +92,7 @@
   <!-- EN: Shuttle destroyed -->
   <EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>La llançadora ha quedat destruïda</EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has been destroyed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>La llançadora que s’havia enviat per a recollir [asker_a] [asker_faction_leaderTitle] ha estat destruïda. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>La llançadora que s’havia enviat per a recollir [asker_un] [asker_faction_leaderTitle] ha estat destruïda. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>L’hoste s’ha perdut: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon] -->

@@ -55,13 +55,15 @@
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersArriveLetterLabel->[hasHave] arribat [un][lodgersLabelSingularOrPlural]</li>
-    <li>lodgersArriveLetterText->[hasHave] arribat [un][lodgersSingularOrPluralDef]. [lodgersPronoun] es quedarà a l’assentament durant [questDurationTicks_duration], quan [hagi] descansat i s’[hagi] organitzat.</li>
+    <li>lodgersArriveLetterText->[hasHave] arribat [un][lodgersSingularOrPluralDef]. [lodgersPronoun] es [stay] a l’assentament durant [questDurationTicks_duration], quan [hagi] descansat i s’[hagi] organitzat.</li>
     <li>hasHave(lodgerCount==1)->ha</li>
     <li>hasHave(lodgerCount>=2)->han</li>
     <li>hagi(lodgerCount==1)->hagi</li>
     <li>hagi(lodgerCount>=2)->hagin</li>
     <li>un(lodgerCount==1)->un </li>
     <li>un(lodgerCount>=2)-></li>
+    <li>stay(lodgerCount==1)->quedarà</li>
+    <li>stay(lodgerCount>=2)->quedaran</li>
     <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? Els altres semblen estar : L’últim [lodgersLabel] està} en xoc, però {PAWNSALIVECOUNT_multiple ? no faran : no farà} res en contra vostre.</li>
     <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? Els altres no volen : L’últim [lodgersLabel] no vol} acceptar-ho</li>
     <li>turnedViolent->[othersWillNotAccept] i {PAWNSALIVECOUNT_multiple ? comença : comencen } a actuar de manera violenta en contra vostra.</li>
@@ -169,7 +171,7 @@
     <li>lodgersPossessive(lodgerCount>=2)->els seus</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->els [lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] us demana permís per a quedar-se a [map_definite] durant [questDurationTicks_duration] per a descansar i organitzar-se.\n\nA canvi, s’[offer] per a treballar i lluitar durant la seva estada.\n\n[joinInfo] [lodgersPronoun] també [offer] una recompensa per l’ajuda, encara que no és possible saber quines són les seves vertaderes intencions.\n\n[travelerInfo] no forma part de cap facció. Si voleu, podeu matar-[lodgersObjective], arrestar-[lodgersObjective], comerciar amb [lodgersPronoun] o extraure els seus òrgans sense conseqüències diplomàtiques.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] us demana permís per a quedar-se a [map_definite] durant [questDurationTicks_duration] per a descansar i organitzar-se.\n\nA canvi, s’[offer] per a treballar i lluitar durant la seva estada.\n\n[joinInfo] També [offer] una recompensa per l’ajuda, encara que no és possible saber quines són les seves vertaderes intencions.\n\n[travelerInfo] no forma part de cap facció. Si voleu, podeu matar-[lodgersObjective], arrestar-[lodgersObjective], comerciar amb [lodgersPronoun] o extraure els seus òrgans sense conseqüències diplomàtiques.</li>
     <li>approachInfo(lodgerCount==1)->[asker_Un] [faction_pawnSingular] desespera[asker_t] que es diu [asker_nameDef] s’acosta.</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] i un altre [faction_pawnSingular] s’acosten.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] s’apropa amb un nen.</li>

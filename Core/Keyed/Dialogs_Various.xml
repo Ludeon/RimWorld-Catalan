@@ -56,7 +56,7 @@
   <!-- EN: An error occurred while loading game assets. See error log for more information. -->
   <ErrorWhileLoadingAssets>S’ha produït un error mentre es carregaven els recursos del joc. Consulteu el registre d’errors per a obtenir més informació.</ErrorWhileLoadingAssets>
   <!-- EN: The game is currently running with custom mods - they may or may not cause these problems. -->
-  <ErrorWhileLoadingAssets_ModsInfo>El joc s’està executant amb mods personalitzats, que potser estan causant aquests problemes.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileLoadingAssets_ModsInfo>El joc s’executa amb mods personalitzats, que potser provoquen aquests problemes.</ErrorWhileLoadingAssets_ModsInfo>
   <!-- EN: Error while generating a map -->
   <ErrorWhileGeneratingMapTitle>S’ha produït un error mentre es generava un mapa</ErrorWhileGeneratingMapTitle>
   <!-- EN: An error occurred while generating a new map. See error log for more information. -->
@@ -731,7 +731,7 @@
   <!-- EN: Includes carried items and equipped items. Carrying less than the maximum gives a speed bonus. -->
   <CaravanMassUsageTooltip>Inclou els elements transportats i els equipats. Si es transporta menys pes que el màxim que es pot transportar, es rep una bonificació de velocitat.</CaravanMassUsageTooltip>
   <!-- EN: Visibility is how easy your caravan is to notice.\n\nIt multiplies the chance that your caravan will be waylaid by enemies.\n\nVisibility does not affect your ability to find things you want.\n\nVisibility is based on the total body size of all people and animals in the caravan. -->
-  <CaravanVisibilityTip>La visibilitat indica com és de fàcil detectar la vostra caravana.\n\nMultiplica les possibilitats de ser emboscada pels enemics.\n\nLa visibilitat no afecta la probabilitat de trobar el que busqueu.\n\nLa visibilitat està basada en la mida total dels cossos de la gent i els animals que formen la caravana.</CaravanVisibilityTip>
+  <CaravanVisibilityTip>La visibilitat indica com és de fàcil detectar la vostra caravana.\n\nMultiplica les possibilitats de ser emboscats pels enemics.\n\nLa visibilitat no afecta la probabilitat de trobar el que busqueu.\n\nLa visibilitat està basada en la mida total dels cossos de la gent i els animals que formen la caravana.</CaravanVisibilityTip>
   <!-- EN: Days of food -->
   <DaysWorthOfFood>Dies de menjar</DaysWorthOfFood>
   <!-- EN: rot in {0} -->
@@ -739,7 +739,7 @@
   <!-- EN: Unlimited -->
   <InfiniteDaysWorthOfFoodInfo>Il·limitat</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
-  <DaysWorthOfFoodTooltip>Nombre aproximat de dies abans que alguna persona o animal de la caravana es quedi sense menjar. Les espècies diferents tenen dietes diferents i, per tant, algunes es quedaran sense menjar abans que altres. El valor es calcula millor quan ja s’ha escollit la ruta.\n\nDepèn de:\n – Els tipus de menjar i quantitat que se’n porta\n – Els membres de la caravana i les seves dietes\n – La capacitat de recollir menjar pel camí\n – La possibilitat que els animals puguin pasturar\n – El temps que triga el menjar a podrir-se\n – La temperatura durant el viatge; la calor farà que el menjar es podreixi més aviat</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip>Nombre aproximat de dies abans que alguna persona o animal de la caravana es quedi sense menjar. Les espècies diferents tenen dietes diferents i, per tant, algunes es quedaran sense menjar abans que els altres. El valor es calcula millor quan ja s’ha escollit la ruta.\n\nDepèn de:\n – Els tipus de menjar i quantitat que se’n porta\n – Els membres de la caravana i les seves dietes\n – La capacitat de recollir menjar pel camí\n – La possibilitat que els animals puguin pasturar\n – El temps que triga el menjar a podrir-se\n – La temperatura durant el viatge; la calor farà que el menjar es podreixi més aviat</DaysWorthOfFoodTooltip>
   <!-- EN: (only the first waypoint is taken into account) -->
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(només es tindrà en compte la primera parada)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
@@ -857,7 +857,7 @@
   
   <!-- Caravan misc -->
   <!-- EN: Are you sure you want to attack {0}?\n\nThis will make {1} hostile to you, and they will eventually start raiding your colony! -->
-  <ConfirmAttackFriendlyFaction>Esteu segur que voleu atacar {0}?\n\nAixò farà que {1} us sigui hostil i en algun moment començara a assaltar la vostra colònia!</ConfirmAttackFriendlyFaction>
+  <ConfirmAttackFriendlyFaction>Esteu segur que voleu atacar {0}?\n\nAixò farà que {1} us sigui hostil i en algun potser assaltarà la vostra colònia!</ConfirmAttackFriendlyFaction>
   
   <!-- Load transporters -->
   <!-- EN: Load {0} -->
@@ -1238,7 +1238,7 @@
   <AutoSlaughterHeaderTooltipAllowSlaughterBonded>Permet que s’escorxin animals amb lligams amb humans.</AutoSlaughterHeaderTooltipAllowSlaughterBonded>
 
   <!-- EN: Click to set an animal count limit. -->
-  <AutoSlaughterTooltipSetLimit>Feu clic per establir un límit al nombre d’animals.</AutoSlaughterTooltipSetLimit>
+  <AutoSlaughterTooltipSetLimit>Feu clic per a establir un límit al nombre d’animals.</AutoSlaughterTooltipSetLimit>
 
   <!-- Room requirements -->
   <!-- EN: no beds allowed -->
