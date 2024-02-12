@@ -92,9 +92,9 @@
   <!-- EN: Mech gestation bandwidth -->
   <MechGestationBandwidthUsed>Banda d’ample de la gestació mecanoide</MechGestationBandwidthUsed>
   <!-- EN: Cannot summon {0} threat -->
-  <CannotSummon>No es pot atraure {0_indefinite} {0_gender ? enemic : enemiga}</CannotSummon>
+  <CannotSummon>No es pot atraure cap {0} {0_gender ? enemic : enemiga}</CannotSummon>
   <!-- EN: {0} threat ready to summon -->
-  <ReadyToSummonThreat>Ja es pot atraure {0_indefinite} {0_gender ? enemic : enemiga}</ReadyToSummonThreat>
+  <ReadyToSummonThreat>Es pot atraure {0_indefinite} {0_gender ? enemic : enemiga}</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
   <Summon>Atrau {0_indefinite} {0_gender ? enemic : enemiga}</Summon>
   <!-- EN: No reachable {0} -->
@@ -272,7 +272,7 @@
   <!-- EN: Added by gene -->
   <AddedByGene>Afegit pel gen</AddedByGene>
   <!-- EN: Eject all -->
-  <EjectAll>Ejecta-les totes</EjectAll>
+  <EjectAll>Trau-les totes</EjectAll>
   <!-- EN: Drop all contained genepacks onto the ground. -->
   <EjectAllDesc>Deixa totes les genocàpsules que contingui al terra.</EjectAllDesc>
   <!-- EN: Genepacks stored -->
@@ -336,7 +336,7 @@
   <!-- EN: Genepacks to ignore -->
   <GenepacksToIgnore>Genocàpsules que s’han d’ignorar</GenepacksToIgnore> 
   <!-- EN: Eject this genepack from the container. -->
-  <EjectGenepackDesc>Ejecta aquesa genocàpsula del contenidor.</EjectGenepackDesc> 
+  <EjectGenepackDesc>Trau aquesta genocàpsula del contenidor.</EjectGenepackDesc> 
   <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
   <ConfirmRemoveGenepack>Esteu segur que voleu ejectar {0}? S’expulsarà immediatament al terra.</ConfirmRemoveGenepack> 
   <!-- EN: Missing required research -->
@@ -350,7 +350,7 @@
   <!-- EN: Recombine -->
   <Recombine>Recombina</Recombine>
   <!-- EN: Create a new implantable xenogerm using data from genepacks in your gene library. -->
-  <RecombineDesc>Crea un xenogermen implantable nou amb dades de les genocàpsules de la vostra biblioteca de gens.</RecombineDesc>
+  <RecombineDesc>Crea un xenogermen implantable amb dades de les genocàpsules de la vostra biblioteca de gens.</RecombineDesc>
   <!-- EN: Genes -->
   <ContainedGenesDesc>Gens</ContainedGenesDesc>
   <!-- EN: Order implantation -->
@@ -406,7 +406,7 @@
   <!-- EN: {NAME} xenogerm -->
   <NamedXenogerm>xenogermen {NAME}</NamedXenogerm>
   <!-- EN: Inserted {0} -->
-  <InsertedThing>{0} {0_gender ? inserit : inserida}</InsertedThing>
+  <InsertedThing>{0} d’inserits</InsertedThing>
   <!-- EN: Assembly paused -->
   <AssemblyPaused>Agregació en pausa</AssemblyPaused>
   <!-- EN: Required gene bank unpowered -->

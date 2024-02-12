@@ -75,7 +75,7 @@
   <!-- EN: Inspired: Inspired trade -->
   <Inspired_Trade.baseInspectLine>Inspiració: negociació inspirada</Inspired_Trade.baseInspectLine>
   <!-- EN: [PAWN_pronoun] will get a significant trade price bonus when closing [PAWN_possessive] next trade deal.\n\nThe inspiration will expire after 8 days, or when the deal is done. -->
-  <Inspired_Trade.beginLetter>{0} està {0_gender ? inspirat : inspirada}. Tindrà una bonificació significativa en el preu de la propera compravenda que faci.\n\nLa inspiració se li acabarà d’aquí a 8 dies o quan acabi la propera compravenda.</Inspired_Trade.beginLetter>
+  <Inspired_Trade.beginLetter>{0} està {PAWN_gender ? inspirat : inspirada}. Tindrà una bonificació significativa en el preu de la propera compravenda que faci.\n\nLa inspiració se li acabarà d’aquí a 8 dies o quan acabi la propera compravenda.</Inspired_Trade.beginLetter>
   <Inspired_Trade.beginLetterLabel>Inspiració: negociació inspirada</Inspired_Trade.beginLetterLabel>
   <!-- EN: {0} is no longer inspired (inspired trade). -->
   <Inspired_Trade.endMessage>{0} ja no està {PAWN_gender ? inspirat : inspirada} (negociació inspirada).</Inspired_Trade.endMessage>

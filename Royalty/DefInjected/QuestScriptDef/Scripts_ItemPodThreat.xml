@@ -85,7 +85,7 @@
     <li>manhuntingBeastIndef(animalCount==1)->[animalKind_un] (*Threat)[animalKind_label] caçapersones(/Threat)</li>
     <li>manhuntingBeastIndef(animalCount>=2)->una manada de (*Threat)[animalCount] [animalKind_labelPlural] caçapersones(/Threat)</li>
     <li>endSection->[helpersParagraph][animalKindLabelCorrect] a [map_definite] [manhuntersDelayTicks_duration] després d’acceptar-ho.</li>
-    <li>questDescription(askerIsNull==true,animalCount==1)->Un comerciant us crida. [animalKind_Un] (*Threat)[animalKind_label] salvatge(/Threat) el persegueix! Us demana ajuda per a que l’atragueu i el deixi tranquil.[endSection]</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->Un comerciant us crida. [animalKind_Un] (*Threat)[animalKind_label] salvatge(/Threat) el persegueix! Us demana ajuda perquè l’atragueu i el deixi tranquil.[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_El] [animalKind_label] perseguia a un comerciant proper.</li>
     <li>questDescription(askerIsNull==true,animalCount>=2)->Un comerciant us crida. Una manada de (*Threat)[animalCount] [animalKind_labelPlural] salvatges(/Threat) el persegueixen! Us demana ajuda per tal que el deixin de perseguir.[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->Els [animalKind_labelPlural] perseguien a un comerciant proper.</li>

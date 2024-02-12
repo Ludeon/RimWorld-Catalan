@@ -38,7 +38,7 @@
   <MessageCaravanRemovingEscortingMech>Es treu automàticament {MECH_nameDef} de la caravana, ja que escorta {OVERSEER_nameDef}</MessageCaravanRemovingEscortingMech>
 
   <!-- EN: {0} was a mechanitor. You can remove {0_possessive} {1_label} and use it on a colonist. -->
-  <MessageMechanitorCasketOpened>{0_definite} era {0_gender ? mecanoider : mecanoidera}. Podeu treure {1_labelDef} i fer-ho servir en un colon.</MessageMechanitorCasketOpened>
+  <MessageMechanitorCasketOpened>{0_definite} era {0_gender ? mecanoider : mecanoidera}. Podeu treure {1_gender ? el seu : la seva} {1_label} i fer-ho servir en un colon.</MessageMechanitorCasketOpened>
   
   <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
   <MessageNoBloodfeedersPrisonerInteractionReset>El mode d’interacció d’alguns presoners necessita que hi hagi un xuclasang. Com que ja no n’hi ha cap, els seus modes d’interacció s’han restablert a «Sense interacció».</MessageNoBloodfeedersPrisonerInteractionReset>
