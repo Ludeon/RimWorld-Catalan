@@ -14,7 +14,7 @@
   <!-- EN: Cannot use {ABILITY_label} on anyone who would actively resist. -->
   <MessageCantUseOnResistingPerson>No es pot fer servir {ABILITY_label} en algú que s’hi resistiria de manera activa.</MessageCantUseOnResistingPerson>
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
-  <MessageCannotUseOnSameXenotype>{0_labelShort_definite} ja té el xenotip {0_xenotype}.</MessageCannotUseOnSameXenotype>
+  <MessageCannotUseOnSameXenotype>{0_labelShort} ja té el xenotip {0_xenotype}.</MessageCannotUseOnSameXenotype>
   <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
   <MessagePawnHasNoXenogenes>{0_labelShort} no té xenogens disponibles per a implantar.</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
@@ -107,7 +107,7 @@
   <!-- EN: {PAWN_nameDef} was woken from {PAWN_possessive} deathrest due to sunlight exposure. -->
   <MessagePawnWokenFromSunlight>{PAWN_nameDef} s’ha despertat del seu permadescans degut a l’exposició al sol.</MessagePawnWokenFromSunlight>
   <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
-  <MessageBedExposedToSunlight>{BED_labelShort_definite} al qual s’ha assignat que {PAWN_nameDef} faci servir per a permadescansar s’ha exposat a la llum del sol. {PAWN_nameDef} no hi pot permadescansar.</MessageBedExposedToSunlight>
+  <MessageBedExposedToSunlight>{BED_definite} al qual s’ha assignat que {PAWN_nameDef} faci servir per a permadescansar s’ha exposat a la llum del sol. {PAWN_nameDef} no hi pot permadescansar.</MessageBedExposedToSunlight>
 
   <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
   <GeneExtractorNoPowerEjectedMessage>Degut a la falta d’energia, s’ha ejectat {PAWN_labelShort} de l’extractor de gens.</GeneExtractorNoPowerEjectedMessage>
@@ -136,7 +136,7 @@
   <MessageConflictingGenesPresent>No es pot desar el xenotip perquè té diversos gens incompatibles.</MessageConflictingGenesPresent>
 
   <!-- EN: {BUILDING_labelShort} has been bound to {PAWN_nameDef} ({CUR}/{MAX} deathrest capacity). -->
-  <MessageDeathrestBuildingBound>{BUILDING_labelShort_definite} s’ha vinculat a {PAWN_nameDef} ({CUR}/{MAX} de capacitat de permadescans).</MessageDeathrestBuildingBound>
+  <MessageDeathrestBuildingBound>{BUILDING_definite} s’ha vinculat a {PAWN_nameDef} ({CUR}/{MAX} de capacitat de permadescans).</MessageDeathrestBuildingBound>
 
   <!-- EN: Developmental stage selection disabled by scenario. -->
   <MessageDevelopmentalStageSelectionDisabledByScenario>L’escenari no permet la tria de l’etapa vital.</MessageDevelopmentalStageSelectionDisabledByScenario>
@@ -150,7 +150,7 @@
   <MessageCannotPostponeGrowthMoment>Heu de triar com creixerà {PAWN_nameDef}.</MessageCannotPostponeGrowthMoment>
 
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
-  <MessageDraftedPawnCarryingBaby>Avís: {0_labelShort_definite} porta un nadó mentre està {0_gender ? reclutat : reclutada}.</MessageDraftedPawnCarryingBaby>
+  <MessageDraftedPawnCarryingBaby>Avís: {0_labelShort} porta un nadó mentre està {0_gender ? reclutat : reclutada}.</MessageDraftedPawnCarryingBaby>
   <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
   <MessageTakingBabyToSafeTemperature>{ADULT_nameDef} mou {BABY_nameDef} a algun lloc amb una temperatura més adequada.</MessageTakingBabyToSafeTemperature>
 

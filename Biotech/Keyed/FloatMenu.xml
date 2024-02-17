@@ -39,7 +39,7 @@
   <!-- EN: Extract xenogerm from {PAWN_nameDef} -->
   <ExtractXenogermFrom>Extrau el xenogermen de {PAWN_nameDef}</ExtractXenogermFrom>
   <!-- EN: Enter {0_labelShort} -->
-  <EnterBuilding>Entra {0_gender ? el : la} {0_labelShort}</EnterBuilding>
+  <EnterBuilding>Entra {0_gender ? al : a la} {0_labelShort}</EnterBuilding>
   <!-- EN: {PAWN_nameDef} has no genes -->
   <PawnHasNoGenes>{PAWN_nameDef} no té gens</PawnHasNoGenes>
   <!-- EN: {PAWN_nameDef} has no extractable genes. -->
@@ -63,9 +63,9 @@
   <!-- EN: No implantable people -->
   <NoImplantablePawns>No es pot implantar a ningú</NoImplantablePawns>
   <!-- EN: Cannot enter {0_labelShort} -->
-  <CannotEnterBuilding>No es pot entrar {0_labelShort_gender ? al : a la} {0_labelShort}</CannotEnterBuilding>
+  <CannotEnterBuilding>No es pot entrar {0_gender ? al : a la} {0_labelShort}</CannotEnterBuilding>
   <!-- EN: {0_labelShort} is assigned to another person. -->
-  <AssignedToOtherPawn>{0_labelShort_definite} s’ha assignat a una altra persona.</AssignedToOtherPawn>
+  <AssignedToOtherPawn>{0_definite} s’ha assignat a una altra persona.</AssignedToOtherPawn>
 
   <!-- EN: Absorb xenogerm of {PAWN_nameDef} -->
   <AbsorbXenogerm>Absorbeix el xenogermen de {PAWN_nameDef}</AbsorbXenogerm>

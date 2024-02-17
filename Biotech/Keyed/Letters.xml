@@ -15,19 +15,19 @@
   <MentalStateReason_Gene>Ha passat perquè</MentalStateReason_Gene>
 
   <!-- EN: {0} summoned -->
-  <LetterLabelBossgroupSummoned>S’ha atret {0_indefinite}</LetterLabelBossgroupSummoned>
+  <LetterLabelBossgroupSummoned>S’ha atret: {0}</LetterLabelBossgroupSummoned>
   <!-- EN: Attracted by your mech-band signals, an ultra-heavy mech from {0} will arrive soon. Be prepared. -->
   <LetterBossgroupSummoned>Aviat arribarà un mecanoide ultrapesant de {0}, atret pels vostres senyals mecabanda. Prepareu-vos.</LetterBossgroupSummoned>
 
   <!-- EN: {0} arrived -->
-  <LetterLabelBossgroupArrived>Ha arribat {0_indefinite}</LetterLabelBossgroupArrived>
+  <LetterLabelBossgroupArrived>Ha arribat: {0}</LetterLabelBossgroupArrived>
   <!-- EN: An ultra-heavy mech from {0} has come to eradicate you, along with escorts.\n\n{1}\n\nThe assault group is composed of the following {3}:\n\n{4}\n\nThey will prepare for a while before attacking. -->
   <LetterBossgroupArrived>Un mecanoide ultrapesant de {0} ve a eliminar-vos amb la seva escorta.\n\n{1}\n\nEl grup d’assalt està format {3_gender ? pels : per les} {3} següents:\n\n{4}\n\nEs prepararan una estona abans d’atacar.</LetterBossgroupArrived>
 
   <!-- EN: Summon {LEADER_label} available -->
   <LetterLabelCommsConsoleSpawned>Es pot atraure {LEADER_label_gender}</LetterLabelCommsConsoleSpawned>
   <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterCommsConsoleSpawned>Un mecanoider pot fer servir el {PARENT_label} per a atreure mecanoides {LEADER_label} perillosos i hostils. Prepareu-vos si ho voleu fer, perquè són extremadament poderosos.\n\nSi derroteu {LEADER_label_definite}, aconseguireu els elements següents:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
+  <LetterCommsConsoleSpawned>Un mecanoider pot fer servir el {PARENT_label} per a atreure mecanoides {LEADER_label} perillosos i hostils. Prepareu-vos si ho voleu fer, perquè són extremadament poderosos.\n\nSi derroteu {LEADER_definite}, aconseguireu els elements següents:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
 
   <!-- EN: Summon {LEADER_label} possible -->
   <LetterLabelBossgroupCallerUnlocked>Es pot atraure {LEADER_labelIndefinite}</LetterLabelBossgroupCallerUnlocked>
@@ -171,11 +171,11 @@
   <!-- EN: Xenogerm implantation ordered -->
   <LetterLabelXenogermOrderedImplanted>S’ha ordenat la implantació d’un xenogermen</LetterLabelXenogermOrderedImplanted>
   <!-- EN: You have ordered a xenogerm be implanted in {PAWN_nameDef}. This procedure requires a medical bed and {MEDICINENEEDED} medicine.{BEDINFO}{MEDICINEINFO}\n\nYou can cancel this procedure by going to {PAWN_nameDef}'s health -> operations tab. -->
-  <LetterXenogermOrderedImplanted>Heu ordenat que s’implanti un xenogerment a {PAWN_nameDef}. Aquest procediment requereix un llit mèdic i {MEDICINENEEDED} medicines.{BEDINFO}{MEDICINEINFO}\n\nPodeu cancel·lar el procediment si aneu a la pestanya de salut de {PAWN_nameDef} i busqueu les operacions que se li han d’aplicar.</LetterXenogermOrderedImplanted>
+  <LetterXenogermOrderedImplanted>Heu ordenat que s’implanti un xenogermen a {PAWN_nameDef}. Aquest procediment requereix un llit mèdic i {MEDICINENEEDED} unitats de medicina.{BEDINFO}{MEDICINEINFO}\n\nPodeu cancel·lar el procediment si aneu a la pestanya de salut de {PAWN_nameDef} i busqueu les operacions que se li han d’aplicar.</LetterXenogermOrderedImplanted>
   <!-- EN: \n\nYou do not have any medical beds available for {PAWN_nameDef}. Consider marking a bed as medical. -->
   <XenogermOrderedImplantedBedNeeded>\n\nNo disposeu de cap llit mèdic disponible per a {PAWN_nameDef}. Penseu si cal assignar algun llit per a ús mèdic.</XenogermOrderedImplantedBedNeeded>
   <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
-  <XenogermOrderedImplantedMedicineNeeded>\n\nNo teniu prou medicina per a implantar el xenogermen. La implantació no pot començar fins que tingueu {MEDICINENEEDED} medicines.</XenogermOrderedImplantedMedicineNeeded>
+  <XenogermOrderedImplantedMedicineNeeded>\n\nNo teniu prou medicina per a implantar el xenogermen. La implantació no pot començar fins que tingueu {MEDICINENEEDED} unitats de medicina.</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
   <LetterLabelInvoluntaryDeathrest>Permadescans involuntari</LetterLabelInvoluntaryDeathrest>
   <!-- EN: Regeneration coma -->

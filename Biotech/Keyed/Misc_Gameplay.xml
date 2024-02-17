@@ -132,7 +132,7 @@
   <!-- EN: wake now -->
   <Wake>desperta’t ara</Wake>
   <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
-  <WakeDesc>Desperta’l d’un permadescans.\n\n{PAWN_nameDef} ha permadescansat durant {DURATION}.</WakeDesc>
+  <WakeDesc>Desperta{PAWN_gender ? ’l : -la} del permadescans.\n\n{PAWN_nameDef} ha permadescansat durant {DURATION}.</WakeDesc>
   <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
   <WakeExtraDesc_Exhaustion>{PAWN_nameDef} necessita permadescansar com a mínim {TOTAL}. Si {PAWN_gender ? se’l : se la} desperta abans, emmalaltirà i no rebrà els beneficis de cap estrucutra de permadescans.</WakeExtraDesc_Exhaustion>
   <!-- EN: {PAWN_nameDef} can now wake safely. -->
@@ -142,7 +142,7 @@
   <!-- EN: Auto-wake -->
   <AutoWake>Autodesperta</AutoWake>
   <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
-  <AutoWakeDesc>Quan l’autodespertar està activat, {PAWN_nameDef} es despertarà {PAWN_gender ? sol : sola} fins que acabi el procés de permadescans.\n\nSi està desactivat, continuarà permadescansant fins que se’l desperti manualment.</AutoWakeDesc>
+  <AutoWakeDesc>Quan l’autodespertar està activat, {PAWN_nameDef} es despertarà {PAWN_gender ? sol : sola} quan acabi el procés de permadescans.\n\nSi està desactivat, continuarà permadescansant fins que {PAWN_gender ? se’l : se la} desperti manualment.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef} en aquest moment permadescansa.</IsDeathresting>
   <!-- EN: Cannot deathrest -->
@@ -356,9 +356,9 @@
   <!-- EN: Order implantation -->
   <ImplantXenogerm>Ordena la implantació</ImplantXenogerm>
   <!-- EN: Implant this into a person to partially override their genetic code.\n\nThis is a surgical operation, so it requires a doctor, medical bed and {MEDICINEAMOUNT} medicine. -->
-  <ImplantXenogermDesc>Implanta-ho a una persona per a sobreescriure el seu codi genètic parcialment.\n\nÉs una operació quirúrgica, així que fa falta un metge, un llit mèdic i {MEDICINEAMOUNT} de medicina.</ImplantXenogermDesc>
+  <ImplantXenogermDesc>Implanta-ho a una persona per a sobreescriure el seu codi genètic parcialment.\n\nÉs una operació quirúrgica, així que fa falta un metge, un llit mèdic i {MEDICINEAMOUNT} unitats de medicina.</ImplantXenogermDesc>
   <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
-  <ImplantXenogermWarningDesc>Si se li implanta un xenogermen a {PAWN_nameDef}, farà que entri en un coma durant {COMADURATION} aproximadament fins que els gens s’integrin del tot. La durada del coma depèn de l’habilitat del metge i la qualitat de les instal·lacions mèdiques.</ImplantXenogermWarningDesc>
+  <ImplantXenogermWarningDesc>Si se li implanta un xenogermen a {PAWN_nameDef}, farà que entri en un coma durant aproximadament {COMADURATION}, fins que els gens s’integrin del tot. La durada del coma depèn de l’habilitat del metge i la qualitat de les instal·lacions mèdiques.</ImplantXenogermWarningDesc>
   <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
   <ImplantXenogermWarningOverwriteXenogenes>A més a més, si s’implanta un xenogermen s’eliminaran els xenogens que tingués prèviament. El xenotip actual de {PAWN_nameDef} és el de «{XENOTYPE}» i té aquests gens:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
   <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
@@ -386,7 +386,7 @@
   <!-- EN: Insert person -->
   <InsertPerson>Posa-hi una persona</InsertPerson>
   <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
-  <InsertPersonGeneExtractorDesc>Poseu una persona a dins de l’extractor de gens. Se n’extraura material genètic que es farà servir per a crear una genocàpsula que contindrà una selecció aleatòria dels gens.\n\nL’extracció de gens és dolorosa i deixarà a l’individu dèbil i endormiscat durant uns quants dies. El procés és letal si els gens estan en fase de recreixement.</InsertPersonGeneExtractorDesc>
+  <InsertPersonGeneExtractorDesc>Poseu una persona a dins de l’extractor de gens. Se n’extraura material genètic que es farà servir per a crear una genocàpsula que contindrà una selecció aleatòria de gens.\n\nL’extracció de gens és dolorosa i deixarà a l’individu dèbil i endormiscat durant uns quants dies. El procés és letal si els gens estan en fase de recreixement.</InsertPersonGeneExtractorDesc>
   <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
   <ConfirmExtractXenogermWillKill>Avís: Els gens de {PAWN_nameDef} estan en una fase de recreixement. Si s’extrauen els seus gens abans que recreixin, morirà.\n\nEsteu segur que voleu continuar?</ConfirmExtractXenogermWillKill>
   <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
@@ -416,7 +416,7 @@
   <!-- EN: {PAWN_nameDef} needs to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, {PAWN_pronoun} will suffer from {0} deficiency. After {COMADURATION}, {PAWN_pronoun} will fall into a coma. After {DEATHDURATION}, {PAWN_pronoun} will die. -->
   <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef} necessita ingerir {0} de manera regular per a sobreviure. Després de {DEFICIENCYDURATION} sense {0}, patirà deficiència de {0}. Després de {COMADURATION}, entrarà en coma. Després de {DEATHDURATION}, morirà.</GeneDefChemicalNeedDurationDesc>
   <!-- EN: {CHEMICAL_label} dependency -->
-  <ChemicalDependency>dependència a {CHEMICAL_label}</ChemicalDependency>
+  <ChemicalDependency>dependència a {CHEMICAL_definite}</ChemicalDependency>
   <!-- EN: Xenogerm -->
   <Xenogerm>Xenogermen</Xenogerm>
   <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
@@ -482,17 +482,17 @@
   <!-- EN: Gestation cycles -->
   <GestationCycles>Cicles de gestació</GestationCycles>
   <!-- EN: Gestating {0} -->
-  <GestatingMech>Es gesta {0_indefinite}</GestatingMech>
+  <GestatingMech>Es gesta a {0}</GestatingMech>
   <!-- EN: Gestated {0} -->
-  <GestatedMech>S’ha gestat {0_indefinite}</GestatedMech>
+  <GestatedMech>S’ha gestat a {0}</GestatedMech>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
   <GestatedMechRequiresMechanitor>Cal {PAWN_nameDef} per a completar-ho</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
   <GestationComplete>Gestació completada</GestationComplete>
   <!-- EN: Resurrecting {0} -->
-  <ResurrectingMech>Es ressuscita {0_indefinite}</ResurrectingMech>
+  <ResurrectingMech>Es ressuscita a {0}</ResurrectingMech>
   <!-- EN: Resurrected {0} -->
-  <ResurrectedMech>S’ha ressuscitat {0_indefinite}</ResurrectedMech>
+  <ResurrectedMech>S’ha ressuscitat a {0}</ResurrectedMech>
 
   <!-- Carrier -->
   <!-- EN: Release {0} -->
@@ -704,7 +704,7 @@
   <!-- EN: Fertilize -->
   <Fertilize>Fecunda</Fertilize>
   <!-- EN: Fertilize {0_label} -->
-  <FertilizeThing>Fecunda {0_label_definite}</FertilizeThing>
+  <FertilizeThing>Fecunda {0_definite}</FertilizeThing>
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>No es pot fecundar</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
