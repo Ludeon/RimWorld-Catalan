@@ -79,7 +79,7 @@
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>És l’aniversari cronològic de {0}! Des del punt de vista biològic, {1} té {3} anys.\n\nDes del cronològic, {1} n’acaba de fer {2}.\n\nCom que la gent no envelleix durant el criptoson, l’aniversari cronològic és diferent del biològic.</BirthdayChronological>
   <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
-  <LetterBirthdayBiological>{0_nameFull} ja ha arribat a l’edat biològica {1}.</LetterBirthdayBiological>
+  <LetterBirthdayBiological>{0_nameFull} ja ha arribat a l’edat biològica de {1} anys.</LetterBirthdayBiological>
   <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
   <BirthdayBiologicalAgeInjuries>Malauradament, {0_nameFull} pateix les següents afeccions per l’edat que té</BirthdayBiologicalAgeInjuries>
 
@@ -196,21 +196,21 @@
   <!-- EN: relationship -->
   <RelationshipAppendedLetterSuffix>(familiar)</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextColonist>{PAWN_definite} és família d’un colon. És {1} de {RELATIVE_labelShort}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextColonist>{PAWN_labelShort} és família d’un colon. És {1} de {RELATIVE_labelShort}.</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextPrisoner>{PAWN_definite} és família d’un presoner. És {1} de {RELATIVE_labelShort}.</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextPrisoner>{PAWN_labelShort} és família d’un presoner. És {1} de {RELATIVE_labelShort}.</RelationshipAppendedLetterTextPrisoner>
 
   <!-- Attempt romance / propose interaction -->
   <!-- EN: Affair -->
   <LetterLabelAffair>Relacions amoroses</LetterLabelAffair>
   <!-- EN: {PAWN1_labelShort}, married to {SPOUSE_labelShort}, has begun an affair with {PAWN2_labelShort}. -->
-  <LetterAffair>{PAWN1_definite}, casa{PAWN1_gender ? t :da} amb {SPOUSE_definite}, ha començat una relació extramatrimonial amb {PAWN2_definite}.</LetterAffair>
+  <LetterAffair>{PAWN1_labelShort}, casa{PAWN1_gender ? t :da} amb {SPOUSE_labelShort}, ha començat una relació extramatrimonial amb {PAWN2_labelShort}.</LetterAffair>
   <!-- EN: New lovers -->
   <LetterLabelNewLovers>Una parella nova</LetterLabelNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} now want to sleep together. Consider assigning them a double bed. -->
   <LetterNewLovers>{PAWN1_labelShort} i {PAWN2_labelShort} volen dormir al mateix llit. Considereu si se’ls ha d’assignar un llit doble.</LetterNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
-  <LetterNoLongerLovers>{PAWN1_definite} i {PAWN2_definite} ja no són parella.</LetterNoLongerLovers>
+  <LetterNoLongerLovers>{PAWN1_labelShort} i {PAWN2_labelShort} ja no són parella.</LetterNoLongerLovers>
   <!-- EN: {PAWN_labelShort} will change {PAWN_possessive} last name back to {PAWN_possessive} birth name. -->
   <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort} tornarà a fer servir el seu cognom de naixement.</LetterNoLongerLovers_BackToBirthName>
   <!-- EN: Breakup -->
