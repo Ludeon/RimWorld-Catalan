@@ -25,6 +25,8 @@ Cal que tingueu instal·lat el PowerShell. Ja ve instal·lat per defecte a Windo
 3. Executeu l’script. A Windows, feu clic dret i premeu «Executa amb PowerShell». Per a Linux, obriu un terminal a la carpeta arrel i executeu `powershell ./update-Catalan-translation.ps1`.
 4. I ja està!
 
+NOTA: Si Windows no us permet executar scripts de Powershell, executeu en Powershell amb permisos d'aministrador l’ordre `set-executionpolicy remotesigned`.
+
 - - -
 
 Current translation and adaptation by:

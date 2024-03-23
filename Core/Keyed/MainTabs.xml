@@ -44,8 +44,6 @@
   <WorkDisabledByQuest>Desactivat per la missió «{0}»</WorkDisabledByQuest>
   
   <!-- Assign tab -->
-  <!-- EN: Manage outfits -->
-  <ManageOutfits>Gestiona la indumentària</ManageOutfits>
   <!-- EN: Unchangeable -->
   <Unchangeable>No es pot canviar.</Unchangeable>
   <!-- EN: Clr. forced -->
@@ -56,12 +54,16 @@
   <ApparelLockedLower>blocat</ApparelLockedLower>
   <!-- EN: Forced apparel -->
   <ForcedApparel>Indumentària forçada</ForcedApparel>
-  <!-- EN: Edit... -->
-  <AssignTabEdit>Edita…</AssignTabEdit>
+  <!-- EN: Edit -->
+  <AssignTabEdit>Edita</AssignTabEdit>
+  <!-- EN: Manage apparel policies -->
+  <ManageApparelPolicies>Gestiona la indumentària</ManageApparelPolicies>
   <!-- EN: Manage drug policies -->
   <ManageDrugPolicies>Gestiona la política de drogues</ManageDrugPolicies>
-  <!-- EN: Manage food restrictions -->
-  <ManageFoodRestrictions>Gestiona les dietes</ManageFoodRestrictions>
+  <!-- EN: Manage food policies -->
+  <ManageFoodPolicies>Gestiona les dietes</ManageFoodPolicies>
+  <!-- EN: Manage reading policies -->
+  <ManageReadingPolicies>Gestiona les preferències de lectura</ManageReadingPolicies>
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
@@ -198,14 +200,22 @@
   <InProgress>En curs</InProgress>
   <!-- EN: Locked -->
   <Locked>Blocat</Locked>
-  <!-- EN: Research prerequisites -->
-  <ResearchPrerequisites>Requisits previs de recerca</ResearchPrerequisites>
+  <!-- EN: Prerequisites -->
+  <Prerequisites>Prerequisits</Prerequisites>
   <!-- EN: Techprints required {0} / {1} -->
   <ResearchTechprintRequirement>Tecnoplànols necessaris: {0} / {1}</ResearchTechprintRequirement>
   <!-- EN: Insufficient techprints applied ({0} / {1}) -->
   <InsufficientTechprintsApplied>No s’han aplicat prou tecnoplànols ({0} / {1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
   <PrerequisitesNotCompleted>Prerequisits sense complir</PrerequisitesNotCompleted>
+  <!-- EN: No project active. -->
+  <NoProjectSelected>No hi ha projectes actius.</NoProjectSelected>
+  <!-- EN: Active projects -->
+  <ActiveProjectPlural>Projectes actius</ActiveProjectPlural>
+  <!-- EN: Active project -->
+  <ActiveProject>Projecte actiu</ActiveProject>
+  <!-- EN: Stop research -->
+  <StopResearch>Para la recerca</StopResearch>
   <!-- EN: Missing required research facilities -->
   <MissingRequiredResearchFacilities>Falten instal·lacions de recerca</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
@@ -220,6 +230,10 @@
   <TechLevelTooLow>La vostra facció té un nivell tecnològic {0}, però el nivell que cal per al projecte és el nivell {1}. La velocitat d’investigació es multiplicarà per {2}.</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>Desblocat amb</UnlockedWith>
+  <!-- EN: Research one or more of this project's prerequisites to discover it. -->
+  <UnknownResearchDescription>Investigueu un o més prerequisits per a descobrir-ho.</UnknownResearchDescription>
+  <!-- EN: unknown -->
+  <UnknownResearch>desconeguda</UnknownResearch>
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
@@ -348,9 +362,22 @@
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>Crea una necessitat</CreatesNeed>
+  <!-- EN: Change defaults... -->
+  <ChangeDefaults>Canvia els valors per defecte…</ChangeDefaults>
 
   <!-- Misc -->
   <!-- EN: Click to edit -->
   <ClickToEdit>Feu clic per a editar-ho.</ClickToEdit>
-
+  <!-- EN: Assign -->
+  <AssignButton>Assigna</AssignButton>
+  <!-- EN: Unassign -->
+  <UnassignButton>Trau l’assignació</UnassignButton>
+  
+  <!-- Books -->
+  <!-- EN: Mental break chance -->
+  <BookMentalBreakChance>Probabilitat de crisi nerviosa</BookMentalBreakChance>
+  
+  <!-- EN: Recreation gain multiplier -->
+  <BookJoyFactor>TODO</BookJoyFactor>
+  
 </LanguageData>

@@ -11,11 +11,15 @@
   <!-- EN: A variant of cataphract armor with a shoulder-mounted flamebolt launcher. This armor is slightly less protective than standard cataphract armor against normal damage, but is especially flame-resistant. The flamebolt launcher has very limited ammo and must be reloaded after use.\n\nPhoenixes specialize in clearing out very confined spaces full of enemies, as in underground or shipborne operations. They can absorb hits while moving down a corridor, fill rooms with flame, and emerge from the smoke unscathed. -->
   <Apparel_ArmorCataphractPhoenix.description>Una variant de l’armadura catafracta equipada amb un llançagranades incendiàries. Protegeix menys que l’armadura catafracta normal contra el dany normal, però resisteix bé el foc. El llançagranades incendiàries té poca munició i s’ha de recarregar després de fer-se servir.\n\nEls fènixos s’especialitzen en escombrar els espais confinats plens d’enemics. Poden absorbir cops mentre es mouen per un passadís, omplir les cambres de flames i sortir-ne ilesos.</Apparel_ArmorCataphractPhoenix.description>
   <!-- EN: incendiary -->
-  <Apparel_ArmorCataphractPhoenix.comps.CompReloadable.chargeNoun>granada incendiària</Apparel_ArmorCataphractPhoenix.comps.CompReloadable.chargeNoun>
+  <Apparel_ArmorCataphractPhoenix.comps.CompApparelReloadable.chargeNoun>granada incendiària</Apparel_ArmorCataphractPhoenix.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <Apparel_ArmorCataphractPhoenix.comps.CompReloadable.cooldownGerund>en refredament</Apparel_ArmorCataphractPhoenix.comps.CompReloadable.cooldownGerund>
+  <Apparel_ArmorCataphractPhoenix.comps.CompApparelReloadable.cooldownGerund>en refredament</Apparel_ArmorCataphractPhoenix.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: launch incendiary -->
   <Apparel_ArmorCataphractPhoenix.verbs.launch_incendiary.label>llança una granada incendiària</Apparel_ArmorCataphractPhoenix.verbs.launch_incendiary.label>
+  
+  <!-- UNUSED -->
+  <Apparel_ArmorCataphractPhoenix.comps.CompReloadable.chargeNoun>granada incendiària</Apparel_ArmorCataphractPhoenix.comps.CompReloadable.chargeNoun>
+  <Apparel_ArmorCataphractPhoenix.comps.CompReloadable.cooldownGerund>en refredament</Apparel_ArmorCataphractPhoenix.comps.CompReloadable.cooldownGerund>
   
   <!-- EN: prestige cataphract armor -->
   <Apparel_ArmorCataphractPrestige.label>armadura catafracta prestigiosa</Apparel_ArmorCataphractPrestige.label>
@@ -42,22 +46,30 @@
   <!-- EN: A variant of recon armor with an integrated burst rocket for short-ranged flight. Locust armor is slightly less protective than standard recon armor. Each jump consumes a burst of fuel, so the armor must be reloaded after several uses.\n\nUnlike most ultratech military units, locusts train primarily with melee weapons. They usually avoid static shootouts, preferring to jump straight into enemy fortifications and fight hand-to-hand. They do poorly in static defense or confined quarters, but excel in mixed cover or shipcracking operations. -->
   <Apparel_ArmorLocust.description>Una variant de l’exoesquelet d’exploració amb un coet de propulsió integrat per a vols de curt abast. L’exoesquelet saltamartí protegeix menys que l’exoesquelet d’exploració estàndard. Cada salt consumeix combustible i, per això, cal recarregar-lo després d’alguns usos.\n\nA diferència de moltes unitats militars ultratècniques, els saltamartins han d’afrontar principalment armes cos a cos. Normalment prefereixen saltar directament a les fortificacions enemigues i lluitar mà a mà. No se’n surten molt bé en defenses estàtiques o espais confinats, però van molt bé en cobertura mixta.</Apparel_ArmorLocust.description>
   <!-- EN: jump -->
-  <Apparel_ArmorLocust.comps.CompReloadable.chargeNoun>salt</Apparel_ArmorLocust.comps.CompReloadable.chargeNoun>
+  <Apparel_ArmorLocust.comps.CompApparelReloadable.chargeNoun>salt</Apparel_ArmorLocust.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <Apparel_ArmorLocust.comps.CompReloadable.cooldownGerund>en refredament</Apparel_ArmorLocust.comps.CompReloadable.cooldownGerund>
+  <Apparel_ArmorLocust.comps.CompApparelReloadable.cooldownGerund>en refredament</Apparel_ArmorLocust.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: jump -->
   <Apparel_ArmorLocust.verbs.jump.label>salta</Apparel_ArmorLocust.verbs.jump.label>
+  
+  <!-- UNUSED -->
+  <Apparel_ArmorLocust.comps.CompReloadable.chargeNoun>salt</Apparel_ArmorLocust.comps.CompReloadable.chargeNoun>
+  <Apparel_ArmorLocust.comps.CompReloadable.cooldownGerund>en refredament</Apparel_ArmorLocust.comps.CompReloadable.cooldownGerund>
   
   <!-- EN: grenadier armor -->
   <Apparel_ArmorMarineGrenadier.label>armadura granadera</Apparel_ArmorMarineGrenadier.label>
   <!-- EN: A variant of marine armor with an integrated frag launcher on the shoulder. The armor is slightly less protective than standard marine armor. The launcher can only hold a limited amount of ammo and must be reloaded after use.\n\nGrenadiers usually specialize in breaching buildings or internal ship bulkheads. While not effective at very long range, grenadiers can be surprisingly deadly in confined quarters. -->
   <Apparel_ArmorMarineGrenadier.description>Una variant de l’armadura de marine amb un llançagranades integrat a l’espatlla. L’armadura protegeix menys que l’armadura estàndard. Pot carregar poca munició i s’ha de recarregar després de fer-se servir.\n\nEls granaders normalment s’especialitzen en foradar edificis o els cascs de les naus. Tot i que no és molt efectiva a llarg abast, els granaders poden ser sorprenentment letals en cambres petites.</Apparel_ArmorMarineGrenadier.description>
   <!-- EN: grenade -->
-  <Apparel_ArmorMarineGrenadier.comps.CompReloadable.chargeNoun>granada</Apparel_ArmorMarineGrenadier.comps.CompReloadable.chargeNoun>
+  <Apparel_ArmorMarineGrenadier.comps.CompApparelReloadable.chargeNoun>granada</Apparel_ArmorMarineGrenadier.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <Apparel_ArmorMarineGrenadier.comps.CompReloadable.cooldownGerund>en refredament</Apparel_ArmorMarineGrenadier.comps.CompReloadable.cooldownGerund>
+  <Apparel_ArmorMarineGrenadier.comps.CompApparelReloadable.cooldownGerund>en refredament</Apparel_ArmorMarineGrenadier.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: launch frag grenade -->
   <Apparel_ArmorMarineGrenadier.verbs.launch_frag_grenade.label>llança una granada de fragmentació</Apparel_ArmorMarineGrenadier.verbs.launch_frag_grenade.label>
+  
+  <!-- UNUSED -->
+  <Apparel_ArmorMarineGrenadier.comps.CompReloadable.chargeNoun>granada</Apparel_ArmorMarineGrenadier.comps.CompReloadable.chargeNoun>
+  <Apparel_ArmorMarineGrenadier.comps.CompReloadable.cooldownGerund>en refredament</Apparel_ArmorMarineGrenadier.comps.CompReloadable.cooldownGerund>
   
   <!-- EN: prestige marine helmet -->
   <Apparel_ArmorMarineHelmetPrestige.label>casc de marine prestigiós</Apparel_ArmorMarineHelmetPrestige.label>

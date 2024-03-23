@@ -18,8 +18,10 @@
   <MechControllerMentalState>{PAWN_labelShort} està en un estat mental de «{MENTALSTATE_label}».</MechControllerMentalState>
   <!-- EN: Do you really want to permanently disassemble {0}?\n\nPermanently disassembling {0} will recover -->
   <ConfirmDisassemblingMech>Esteu segur que voleu desmuntar {0_definite}?\n\nSi desmunteu {0_definite}, es recuperarà</ConfirmDisassemblingMech>
-  <!-- EN: A mechanitor must be capable of smithing to create mechanoids\n\nAre you sure you want to continue? -->
-  <ConfirmInstallMechlink>Cal que el mecanoider pugui fer tasques de ferrer per a crear mecanoides.\n\nEsteu segur que voleu continuar?</ConfirmInstallMechlink>
+  <!-- EN: A mechanitor must be capable of smithing to create mechanoids.\n\nAre you sure you want to continue? -->
+  <ConfirmInstallMechlink_Smithing>Cal que el mecanoider pugui fer tasques de ferrer per a crear mecanoides.\n\nEsteu segur que voleu continuar?</ConfirmInstallMechlink_Smithing>
+  <!-- EN: A mechanitor must be capable of intellectual tasks to unlock mechanitor research.\n\nAre you sure you want to continue? -->
+  <ConfirmInstallMechlink_Intellectual>Cal que el mecanoider pugui fer tasques intel·lectuals per a investigar tecnologies mecanoideres.\n\nEsteu segur que voleu continuar?</ConfirmInstallMechlink_Intellectual>
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>no hi ha prou ample de banda</InsufficientBandwidth>
   <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->

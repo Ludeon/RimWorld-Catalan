@@ -77,6 +77,8 @@
   <Groups>Grups</Groups>
   <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>Es carreguen els recursos de gestació mecanoide</LoadingMechGestator>
+  <!-- EN: Time left this cycle -->
+  <GestatingInspect>Temps restant d’aquest cicle</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
   <InitMechGestationCycle>S’inicia el cicle de gestació mecanoide</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
@@ -153,8 +155,6 @@
   <ConfirmExitDeathrestUnderMinDays>Per a completar de manera segura el permadescans calen {MINDURATION}, però {PAWN_nameDef} només ha permadescansat durant {CURDURATION}.\n\nSi es desperta {PAWN_nameDef}, s’interromprà el seu permadescans i el seu metabolisme es desequilibrarà. Emmalaltirà durant uns quants dies.\n\nEsteu segur que voleu despertar {PAWN_objective}?</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
   <Deathresting>permadescansa</Deathresting>
-  <!-- EN: complete -->
-  <Complete>completat</Complete>
   <!-- EN: can wake safely now. -->
   <CanWakeSafely>ara es pot despertar bé.</CanWakeSafely>
   <!-- EN: Disabled by gene -->
@@ -429,8 +429,6 @@
   <LethalInjuries>Ferides letals</LethalInjuries>
   <!-- EN: deathrest -->
   <Deathrest>permadescans</Deathrest>
-  <!-- EN: Buildings -->
-  <Buildings>Estructures</Buildings>
   <!-- EN: capacity -->
   <Capacity>capacitat</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
@@ -446,8 +444,6 @@
 
   <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>Els nens volen aprendre activitats diferents en diferents moments.</LearningDesireTooltip>
-  <!-- EN: {0_nameDef}'s current learning desire: -->
-  <LearningDesireTooltip_CurrentDesire>Desig actual d’aprenentatge de {0_nameDef}:</LearningDesireTooltip_CurrentDesire>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
   <DevelopmentHealthGizmoTooltip>La salut del desenvolupament és una mitjana de les necessitats d’aprenentatge del nen des de l’últim aniversari.\n\nEls nens amb més salut de desenvolupament tindran més opcions durant els moments de creixement i obtindran més passions d’habilitats.</DevelopmentHealthGizmoTooltip>
 
@@ -485,6 +481,8 @@
   <GestatingMech>Es gesta {0}</GestatingMech>
   <!-- EN: Gestated {0} -->
   <GestatedMech>S’ha gestat {0}</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to continue gestating -->
+  <GestatingMechRequiresMechanitor>Cal {PAWN_nameDef} per a continuar la gestació</GestatingMechRequiresMechanitor>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
   <GestatedMechRequiresMechanitor>Cal {PAWN_nameDef} per a completar-ho</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->

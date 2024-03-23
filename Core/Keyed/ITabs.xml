@@ -48,8 +48,14 @@
   <TabFormingCaravan>Caravana</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>Contingut</TabTransporterContents>
+  <!-- EN: Travel -->
+  <TabMapPortalContents>TODO</TabMapPortalContents>
   <!-- EN: Contents -->
   <TabCasketContents>Contingut</TabCasketContents>
+  <!-- EN: Details -->
+  <TabBookContents>TODO</TabBookContents>
+  <!-- EN: Study -->
+  <TabStudyNotesContents>TODO</TabStudyNotesContents>
   <!-- EN: Auto-cut -->
   <TabWindTurbineAutoCut>Autotalla</TabWindTurbineAutoCut>
   
@@ -82,6 +88,8 @@
   <PasteBillTip>Enganxa</PasteBillTip>
   <!-- EN: can't add more -->
   <PasteBillTip_LimitReached>no se’n poden afegir més</PasteBillTip_LimitReached>
+  <!-- EN: Finishes in -->
+  <FinishesIn>Es completa d’aquí</FinishesIn>
 
   <!-- Guest/prisoner tab -->
   <!-- EN: Resistance -->
@@ -104,10 +112,10 @@
   <NotWhileAsleep>No mentre dorm</NotWhileAsleep>
   <!-- EN: Breaking out now -->
   <CurrentlyPrisonBreaking>S’escapa de la presó.</CurrentlyPrisonBreaking>
-  <!-- EN: Multiplier for door count -->
-  <FactorForDoorCount>Multiplicador per nombre de portes</FactorForDoorCount>
-  <!-- EN: Multiplier for movement -->
-  <FactorForMovement>Multiplicador per mobilitat</FactorForMovement>
+  <!-- EN: Door count -->
+  <FactorForDoorCount>Nombre de portes</FactorForDoorCount>
+  <!-- EN: Movement -->
+  <FactorForMovement>Moviment</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Preu de l’esclau</SlavePrice>
   <!-- EN: The base market value of this slave if sold. -->
@@ -138,6 +146,8 @@
   <NonRecruitableTip>El presoner mostra una lleialtat infranquejable al seu bàndol i es nega a que se’l recluti.</NonRecruitableTip>
   <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
   <NonRecruitableTipCannotConvert>La seva lleialtat va més enllà de les seves creences i no {0_gender ? se’l : se la} pot convèncer.</NonRecruitableTipCannotConvert>
+  <!-- EN: What type of medicine can be given to this prisoner. -->
+  <MedicineQualityDescriptionPrisoner>TODO</MedicineQualityDescriptionPrisoner>
 
 
 
@@ -213,13 +223,19 @@
   <PainFactor>Dolor</PainFactor>
   <!-- EN: Prevents infection -->
   <PreventsInfection>Infeccions que prevé</PreventsInfection>
-  <!-- EN: Self-tend -->
-  <SelfTend>Permet atendre’s un mateix</SelfTend>
+  <!-- EN: Allow self-tend -->
+  <AllowSelfTend>Permet atendre’s un mateix</AllowSelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <SelfTendTip>Amb aquesta opció activada, {0_gender ? els : les} {0} s’atendran mèdicament a ells mateixos amb un {1} de l’eficiència normal.</SelfTendTip>
+  <AllowSelfTendTip>Amb aquesta opció activada, {0_gender ? els : les} {0} s’atendran mèdicament a ells mateixos amb un {1} de l’eficiència normal.</AllowSelfTendTip>
   <!-- EN: death in {0} -->
   <DeathIn>morirà d’aquí {0}</DeathIn>
-  
+  <!-- EN: Allow medicine -->
+  <AllowMedicine>TODO</AllowMedicine>
+  <!-- EN: What type of medicine can be given to this person. -->
+  <MedicineQualityDescription>TODO</MedicineQualityDescription>
+  <!-- EN: What type of food can be given to this person. -->
+  <FoodRestrictionDescription>TODO</FoodRestrictionDescription>
+
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
   <None>Cap</None>
@@ -422,5 +438,17 @@
 
   <!-- EN: Auto-cut blocking plants -->
   <WindTurbineAutoCut_EnabledCheckbox>Talla automàticament les plantes que la bloquin</WindTurbineAutoCut_EnabledCheckbox>
+  
+  <!-- Study tab  -->
+  <!-- EN: Study progress -->
+  <StudyNotesTab_StudyProgress>TODO</StudyNotesTab_StudyProgress>
+  <!-- EN: Ongoing -->
+  <StudyNotesTab_StudyProgressOngoing>TODO</StudyNotesTab_StudyProgressOngoing>
+  <!-- EN: Completed -->
+  <StudyNotesTab_StudyProgressCompleted>TODO</StudyNotesTab_StudyProgressCompleted>
+  <!-- EN: Toggle study -->
+  <StudyNotesTab_ToggleStudy>TODO</StudyNotesTab_ToggleStudy>
+  <!-- EN: No discoveries yet -->
+  <StudyNotesTab_NoDiscoveries>TODO</StudyNotesTab_NoDiscoveries>
 
 </LanguageData>

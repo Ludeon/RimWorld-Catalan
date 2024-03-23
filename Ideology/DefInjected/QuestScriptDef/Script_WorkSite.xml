@@ -3,12 +3,12 @@
   
   <!-- EN:
     <li>questDescription->You've detected a [siteLabel] nearby controlled by [faction_name].\n\nIf you wish, you can raid the camp to collect loot ([loot]). [raidConsequences]\n\nThe camp will pack up and move on in [timeout_duration].</li>
-    <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile.</li>
+    <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile if they are not already.</li>
     <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
   -->
   <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
     <li>questDescription->Heu detectat un [siteLabel] proper controlat per [faction_name].\n\nSi voleu, podeu assaltar el campament per a aconseguir un botí ([loot]). [raidConsequences]\n\nAixecaran el camp i se n’aniran d’aquí a [timeout_duration].</li>
-    <li>raidConsequences(faction_temporary==false)->Si ho feu, la facció [faction_name] es tornarà hostil.</li>
+    <li>raidConsequences(faction_temporary==false)->Si ho feu i encara no està en contra vostra, la facció [faction_name] es tornarà hostil.</li>
     <li>raidConsequences(faction_temporary==true)->Com que [faction_name] és només un grup independent petit, els podeu atacar sense grans conseqüències diplomàtiques.</li>
   </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
   <!-- EN:

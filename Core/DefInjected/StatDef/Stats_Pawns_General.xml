@@ -19,20 +19,32 @@
   <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
   <CarryingCapacity.description>Quantitat de material que pot portar a les mans, la boca o altres. És diferent de la capacitat de portar càrrega en els viatges a través del mapa.</CarryingCapacity.description>
   
-  <!-- EN: Maximum comfortable temperature -->
-  <ComfyTemperatureMax.label>Temperatura de confort màxima</ComfyTemperatureMax.label>
+  <!-- EN: max comfortable temperature -->
+  <ComfyTemperatureMax.label>temperatura de confort màxima</ComfyTemperatureMax.label>
   <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
   <ComfyTemperatureMax.description>Per sobre d’aquesta temperatura, el personatge s’enfadarà. Si està molt per sobre, patirà un cop de calor i pot arribar a morir.</ComfyTemperatureMax.description>
   
-  <!-- EN: Minimum comfortable temperature -->
-  <ComfyTemperatureMin.label>Temperatura de confort mínima</ComfyTemperatureMin.label>
+  <!-- EN: min comfortable temperature -->
+  <ComfyTemperatureMin.label>temperatura de confort mínima</ComfyTemperatureMin.label>
   <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
   <ComfyTemperatureMin.description>Per sota d’aquesta temperatura, el personatge s’enfadarà. Si està molt per sota, patirà hipotèrmia, tindrà congelacions i pot arribar a morir.</ComfyTemperatureMin.description>
+  
+  <!-- EN: crawl speed -->
+  <CrawlSpeed.label>TODO</CrawlSpeed.label>
+  <!-- EN: Speed of crawling in cells per second. -->
+  <CrawlSpeed.description>TODO</CrawlSpeed.description>
+  <!-- EN: {0} c/s -->
+  <CrawlSpeed.formatString>TODO</CrawlSpeed.formatString>
   
   <!-- EN: eating speed -->
   <EatingSpeed.label>velocitat de menjar</EatingSpeed.label>
   <!-- EN: A multiplier on eating speed. -->
   <EatingSpeed.description>Factor de la velocitat de menjar.</EatingSpeed.description>
+  
+  <!-- EN: EMP resistance -->
+  <EMPResistance.label>resistència a PEM</EMPResistance.label>
+  <!-- EN: This mechanoid has special shielding and shock-dissipation filaments that reduce the effect of EMP damage by this percentage. This reduces the duration of stuns caused by EMP. -->
+  <EMPResistance.description>Aquest mecanoide té una protecció especial i filaments de dissipació de xocs que redueixen els efectes del dany que provoquen els polsos electromagnètics segons el percentatge indicat. Gràcies a això, s’escurça la durada de l’atordiment que provoquen els PEM.</EMPResistance.description>
   
   <!-- EN: filth rate -->
   <FilthRate.label>producció de brutícia</FilthRate.label>
@@ -58,6 +70,11 @@
   <InjuryHealingFactor.label>factor de curació de ferides</InjuryHealingFactor.label>
   <!-- EN: The multiplier applied to a person's injury healing rate. -->
   <InjuryHealingFactor.description>Multiplicador que s’aplica al ritme de curació de les ferides d’una persona.</InjuryHealingFactor.description>
+  
+  <!-- EN: recreation fall rate -->
+  <JoyFallRateFactor.label>TODO</JoyFallRateFactor.label>
+  <!-- EN: A multiplier on the speed that a person's recreation need falls. -->
+  <JoyFallRateFactor.description>TODO</JoyFallRateFactor.description>
   
   <!-- EN: leather amount -->
   <LeatherAmount.label>quantitat de pell</LeatherAmount.label>

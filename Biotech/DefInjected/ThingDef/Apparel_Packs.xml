@@ -16,10 +16,14 @@
   <!-- EN: A reusable backpack containing canisters of reagents and a mechanism that uses them to generate tox gas. When the wearer activates the pack, it will begin spreading tox gas and continue for several seconds until it runs out of reagents.\n\nOnce used, it must be reloaded with chemfuel before it can be used again.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup which can be lethal. -->
   <Apparel_PackTox.description>Una motxilla reutilitzable que conté pots de reactius i un mecanisme que serveix per a generar gas tòxic. Quan el portador activa la motxilla, alliberarà gasos tòxics durant uns quants segons fins que es buidi el pot.\n\nUna vegada s’ha fet servir, s’ha de recarregar amb quimifuel abans que es pugui tornar a utilitzar.\n\nEl gas tòxic crema els pulmons i els ulls i dificulta temporalment la respiració i la visió. L’exposició continuada al gas tòxic comporta que s’acumulin toxines al cos, que poden ser letals.</Apparel_PackTox.description>
   <!-- EN: tox pack -->
-  <Apparel_PackTox.comps.CompReloadable.chargeNoun>pot toxificador</Apparel_PackTox.comps.CompReloadable.chargeNoun>
+  <Apparel_PackTox.comps.CompApparelReloadable.chargeNoun>pot toxificador</Apparel_PackTox.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <Apparel_PackTox.comps.CompReloadable.cooldownGerund>en refredament</Apparel_PackTox.comps.CompReloadable.cooldownGerund>
+  <Apparel_PackTox.comps.CompApparelReloadable.cooldownGerund>en refredament</Apparel_PackTox.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: deploy tox pack -->
   <Apparel_PackTox.verbs.deploy_tox_pack.label>fes servir un pot toxificador</Apparel_PackTox.verbs.deploy_tox_pack.label>
+  
+  <!-- UNUSED -->
+  <Apparel_PackTox.comps.CompReloadable.chargeNoun>pot toxificador</Apparel_PackTox.comps.CompReloadable.chargeNoun>
+  <Apparel_PackTox.comps.CompReloadable.cooldownGerund>en refredament</Apparel_PackTox.comps.CompReloadable.cooldownGerund>
   
 </LanguageData>

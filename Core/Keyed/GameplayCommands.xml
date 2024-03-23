@@ -83,7 +83,7 @@
   <!-- EN: Reassign -->
   <BuildingReassign>Reassigna</BuildingReassign>
   <!-- EN: Unassign -->
-  <BuildingUnassign>Treu l’assignació</BuildingUnassign>
+  <BuildingUnassign>Trau l’assignació</BuildingUnassign>
   <!-- EN: For prisoners -->
   <CommandBedSetForPrisonersLabel>Per a presoners</CommandBedSetForPrisonersLabel>
   <!-- EN: Whether beds in this room should be used by prisoners. -->
@@ -108,11 +108,6 @@
   <CommandDetonateLabel>Inicia la detonació</CommandDetonateLabel>
   <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>Inicia el compte enrere per la detonació.</CommandDetonateDesc>
-
-  <!-- EN: Rename -->
-  <CommandRenameZoneLabel>Canvia el nom</CommandRenameZoneLabel>
-  <!-- EN: Rename this zone. -->
-  <CommandRenameZoneDesc>Canvia el nom d’aquesta zona.</CommandRenameZoneDesc>
 
   <!-- EN: Hide -->
   <CommandHideZoneLabel>Amaga</CommandHideZoneLabel>
@@ -242,10 +237,16 @@
   <CommandSunLampMakeGrowingZoneLabel>Crea una zona de conreu</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
-  <!-- EN: Auto Rearm -->
+  <!-- EN: Auto rearm -->
   <CommandAutoRearm>Rearma automàticament</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
   <CommandAutoRearmDesc>Si està activat, aquesta trampa es tornarà a preparar automàticament després de saltar.</CommandAutoRearmDesc>
+  
+  <!-- Firefoam popper -->
+  <!-- EN: Auto rebuild -->
+  <CommandAutoRebuild_Building>TODO</CommandAutoRebuild_Building>
+  <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
+  <CommandAutoRebuild_BuildingDesc>TODO</CommandAutoRebuild_BuildingDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
@@ -316,7 +317,17 @@
   <CommandReformCaravanDesc>Reforma un grup de colons. Els colons se n’aniran de la zona i esperaran noves ordres.</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>Encara queden enemics en aquesta zona.</CommandReformCaravanFailHostilePawns>
-  
+
+  <!-- Send caravan -->
+  <!-- EN: Send caravan -->
+  <CommandSendCaravan>TODO</CommandSendCaravan>
+  <!-- EN: Send caravan... -->
+  <CommandSendCaravanMultiple>TODO</CommandSendCaravanMultiple>
+  <!-- EN: Send a caravan to this destination from a selected colony which can reach this location. -->
+  <CommandSendCaravanDesc>TODO</CommandSendCaravanDesc>
+  <!-- EN: Your settlements have no path to this location. -->
+  <CommandSendCaravanCantReach>TODO</CommandSendCaravanCantReach>
+
   <!-- Split caravan -->
   <!-- EN: Split -->
   <CommandSplitCaravan>Separa</CommandSplitCaravan>
@@ -429,7 +440,7 @@
   <!-- EN: Cancel load -->
   <CommandCancelLoad>Cancel·la la càrrega</CommandCancelLoad>
   <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
-  <CommandCancelLoadDesc>Deixa de carregar-ho amb gent i objectes i treu el que hi hagi carregat.</CommandCancelLoadDesc>
+  <CommandCancelLoadDesc>Cancel·la la càrrega de persones i elements i trau el que hi hagi carregat.</CommandCancelLoadDesc>
   
   <!-- Launch group -->
   <!-- EN: Launch -->
@@ -631,6 +642,8 @@
   <UnlinkStorageSettingsDesc>Separa-ho de les opcions de les altres estructures d’emmagatzemament i que se’n puguin establir les configuracions de manera independent.</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
   <LinkedStorageSettings>Opcions d’emmagatzematge enllaçat</LinkedStorageSettings>
+  <!-- EN: 1 building -->
+  <OneBuilding>TODO</OneBuilding>
   <!-- EN: {0} buildings -->
   <NumBuildings>{0} estructures</NumBuildings>
   <!-- EN: Stores -->
@@ -642,5 +655,15 @@
 
   <!-- EN: {0_labelShort} is unconscious. -->
   <CommandDisabledUnconscious>{0_labelShort} està sense coneixement.</CommandDisabledUnconscious>
+
+  <!-- Study -->
+  <!-- EN: Toggle study -->
+  <CommandToggleStudy>TODO</CommandToggleStudy>
+  <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
+  <CommandToggleStudyDesc>TODO</CommandToggleStudyDesc>
+
+  <!-- Limited use count action -->
+  <!-- EN: No uses left. -->
+  <CommandNoUsesLeft>TODO</CommandNoUsesLeft>
   
 </LanguageData>

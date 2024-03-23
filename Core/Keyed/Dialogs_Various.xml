@@ -201,6 +201,10 @@
   <LastName>cognom</LastName>
   <!-- EN: suggested -->
   <Suggested>recomanat</Suggested>
+  
+  <!-- Choose new wanderers -->
+  <!-- EN: Choose new wanderers -->
+  <ChooseNewWanderers>TODO</ChooseNewWanderers>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -289,8 +293,8 @@
   <CountingProducts>Contant</CountingProducts>
   <!-- EN: Infinite -->
   <Infinite>Infinits</Infinite>
-  <!-- EN: Allowed {0} skill: -->
-  <AllowedSkillRange>Habilitat de {0} permesa:</AllowedSkillRange>
+  <!-- EN: Allowed {0} skill -->
+  <AllowedSkillRange>Habilitat de {0} permesa</AllowedSkillRange>
   <!-- EN: incompatible -->
   <IncompatibleLower>incompatible</IncompatibleLower>
   <!-- EN: Any worker -->
@@ -336,6 +340,12 @@
   <IncludeFromAll>Mira a tot arreu</IncludeFromAll>
   <!-- EN: Look in {0} -->
   <IncludeSpecific>Mira a {0}</IncludeSpecific>
+  <!-- EN: Stockpiles -->
+  <StockpilePlural>TODO</StockpilePlural>
+  <!-- EN: Shelves -->
+  <ShelfPlural>TODO</ShelfPlural>
+  <!-- EN: Groups -->
+  <GroupPlural>TODO</GroupPlural>
   
   <!-- Info card -->
   <!-- EN: Damage -->
@@ -402,8 +412,8 @@
   <MinGrowthTemperature>Temperatura mín. de creixement</MinGrowthTemperature>
   <!-- EN: Max growth temperature -->
   <MaxGrowthTemperature>Temperatura màx. de creixement</MaxGrowthTemperature>
-  <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
-  <GrowingTimeDesc>Les plantes només creixen durant una part del dia i només si hi ha llum.\n\nAquesta estadística mesura el temps que la planta necessita per créixer del tot.\nEl temps real sol ser el doble.\nLes temperatures baixes també alenteixen el creixement.</GrowingTimeDesc>
+  <!-- EN: Plants only grow for part of the day, and only when lit.\n\nThis statistic measures the time the plant needs to spend actually growing to reach full size.\n\nThe actual real growing time will generally be about twice as long.\nLow temperatures also slow plant growth. -->
+  <GrowingTimeDesc>Les plantes només creixen durant una part del dia i només si hi ha llum.\nAquesta estadística mesura el temps que la planta necessita per créixer del tot.\nEl temps real sol ser el doble.\nLes temperatures baixes també alenteixen el creixement.</GrowingTimeDesc>
   <!-- EN: days -->
   <Days>dies</Days>
   <!-- EN: Minimum growing skill to sow -->
@@ -516,6 +526,8 @@
   <PerDay>{0}/dia</PerDay>
   <!-- EN: {0} / hour -->
   <PerHour>{0}/hora</PerHour>
+  <!-- EN: {0} XP / hour -->
+  <XpPerHour>TODO</XpPerHour>
   <!-- EN: Pack animal -->
   <PackAnimal>Animal de càrrega</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -598,6 +610,8 @@
   <MeditationFocusEnabledByAdulthood>ja està en edat adulta</MeditationFocusEnabledByAdulthood>
   <!-- EN: has trait -->
   <MeditationFocusEnabledByTrait>té el tret</MeditationFocusEnabledByTrait>
+  <!-- EN: has health condition -->
+  <MeditationFocusEnabledByHediff>TODO</MeditationFocusEnabledByHediff> 
   <!-- EN: does not have trait -->
   <MeditationFocusDisabledByTrait>no té el tret</MeditationFocusDisabledByTrait>
   <!-- EN: Enables meditation focus types -->
@@ -698,6 +712,14 @@
   <NextTraderRestock>Propera reposició d’aquí a {0} dies</NextTraderRestock>
   <!-- EN: Creatures -->
   <PawnsTabShort>Criatures</PawnsTabShort>
+  
+  <!-- Select caravan settlement -->
+  <!-- EN: Select colony to send caravan -->
+  <SelectCaravanOrigin>TODO</SelectCaravanOrigin> 
+  <!-- EN: Send a caravan from {0}. -->
+  <SelectCaravanDesc>TODO</SelectCaravanDesc> 
+  <!-- EN: Colonists -->
+  <SelectCaravanColonists>TODO</SelectCaravanColonists>
   
   <!-- Form caravan -->
   <!-- EN: Form caravan -->
@@ -894,6 +916,8 @@
   <ResearchFinished>Investigació finalitzada: {0}</ResearchFinished>
   <!-- EN: Research Screen -->
   <ResearchScreen>Vista d’investigació</ResearchScreen>
+  <!-- EN: By researching {0} you have discovered the {1} research project. -->
+  <ResearchUnknownProjectRevealed>TODO</ResearchUnknownProjectRevealed>
   
   <!--HistoryUpload-->
   <!-- EN: Do you want to upload your gameplay data records to RimWorld server in order to help developers balance the game? If you agree, your data will be uploaded every {0} days (and in some other rare cases like the end of the game). Privacy preferences can be changed later in the options menu. -->
@@ -909,41 +933,53 @@
   <!-- EN: Do not upload this time, ask me later -->
   <HistoryUploadNoOnce>No les enviïs ara; demana-m’ho en un altre moment</HistoryUploadNoOnce>
   
+  <!-- Policies -->
+  <!-- EN: Available policies -->
+  <AvailablePolicies>TODO</AvailablePolicies>
+  <!-- EN: Unnamed -->
+  <UnnamedPolicy>TODO</UnnamedPolicy>
+  <!-- EN: New... -->
+  <NewPolicy>TODO</NewPolicy>
+  <!-- EN: Invalid policy name -->
+  <InvalidName>TODO</InvalidName>
+  <!-- EN: Delete the selected policy. -->
+  <DeletePolicyTip>TODO</DeletePolicyTip>
+  <!-- EN: Create a duplicate of the selected policy. -->
+  <DuplicatePolicyTip>TODO</DuplicatePolicyTip>
+  <!-- EN: Rename this policy. -->
+  <RenamePolicyTip>TODO</RenamePolicyTip>
+  <!-- EN: Are you sure you want to delete the policy: {0}? -->
+  <DeletePolicyConfirm>TODO</DeletePolicyConfirm>
+  <!-- EN: Delete -->
+  <DeletePolicyConfirmButton>TODO</DeletePolicyConfirmButton>
+  <!-- EN: No policy selected -->
+  <NoPolicySelected>TODO</NoPolicySelected>
+  
   <!-- Outfit management -->
-  <!-- EN: Outfit -->
-  <Outfit>Indumentària</Outfit>
-  <!-- EN: Select outfit... -->
-  <SelectOutfit>Tria la indumentària…</SelectOutfit>
-  <!-- EN: New outfit -->
-  <NewOutfit>Indumentària nova…</NewOutfit>
-  <!-- EN: Delete outfit... -->
-  <DeleteOutfit>Esborra indumentària…</DeleteOutfit>
-  <!-- EN: Outfit is in use by {0}. -->
+  <!-- EN: Apparel policies -->
+  <ApparelPolicyTitle>TODO</ApparelPolicyTitle>
+  <!-- EN: Create and manage templates for controlling what apparel items colony members can wear. -->
+  <ApparelPolicyTip>TODO</ApparelPolicyTip>
+  <!-- EN: Apparel policy -->
+  <ApparelPolicy>TODO</ApparelPolicy>
+  <!-- EN: Apparel policy is in use by {0}. -->
   <OutfitInUse>Aquesta indumentària l’està fent servir {0_definite}.</OutfitInUse>
-  <!-- EN: No outfit selected -->
-  <NoOutfitSelected>No heu seleccionat cap indumentària</NoOutfitSelected>
   
   <!-- Drug policy management -->
+  <!-- EN: Drug policies -->
+  <DrugPolicyTitle>TODO</DrugPolicyTitle>
+  <!-- EN: Create and manage templates for controlling which drugs your colonists are allowed to consume. -->
+  <DrugPolicyTip>TODO</DrugPolicyTip>
   <!-- EN: Drug policy -->
   <DrugPolicy>Política de drogues</DrugPolicy>
-  <!-- EN: Select policy... -->
-  <SelectDrugPolicy>Tria una política…</SelectDrugPolicy>
-  <!-- EN: New policy -->
-  <NewDrugPolicy>Política nova</NewDrugPolicy>
-  <!-- EN: Delete policy... -->
-  <DeleteDrugPolicy>Esborra una política…</DeleteDrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
   <DrugPolicyInUse>{0_definite} està seguint aquesta política de drogues.</DrugPolicyInUse>
   <!-- EN: Food restriction is in use by {0}. -->
   <FoodRestrictionInUse>{0} té restriccions alimentàries associades a la seva dieta.</FoodRestrictionInUse>
-  <!-- EN: No drug policy selected -->
-  <NoDrugPolicySelected>No heu seleccionat cap política de drogues</NoDrugPolicySelected>
   <!-- EN: Add drug... -->
   <AddDrug>Afegeix una droga…</AddDrug>
   <!-- EN: Drug -->
   <DrugColumnLabel>Droga</DrugColumnLabel>
-  <!-- EN: Usage -->
-  <DrugUsageColumnLabel>Ús</DrugUsageColumnLabel>
   <!-- EN: Frequency -->
   <FrequencyColumnLabel>Freqüència</FrequencyColumnLabel>
   <!-- EN: Only if mood below -->
@@ -966,8 +1002,6 @@
   <DeleteDrugTooltip>Esborra aquesta droga.</DeleteDrugTooltip>
   <!-- EN: The name of a drug. -->
   <DrugNameColumnDesc>El nom de la droga.</DrugNameColumnDesc>
-  <!-- EN: How the drug is allowed to be used. -->
-  <DrugUsageColumnDesc>En quins casos es permet l’ús de cada droga.</DrugUsageColumnDesc>
   <!-- EN: How often the colonists should try to take this drug. -->
   <FrequencyColumnDesc>Com de sovint els colons han de mirar de prendre aquesta droga.</FrequencyColumnDesc>
   <!-- EN: The colonists will take this drug only if their mood level is below this threshold. -->
@@ -984,10 +1018,14 @@
   <DrugUsageTipScheduled>Programada\n\nFa servir aquesta droga amb una freqüència determinada, quan es compleixin les condicions específiques.</DrugUsageTipScheduled>
 
   <!-- Food restriction management -->
-  <!-- EN: Food restriction -->
-  <FoodRestriction>Dieta</FoodRestriction>
-  <!-- EN: Food -->
-  <FoodRestrictionShort>Menjar</FoodRestrictionShort>
+  <!-- EN: Food policies -->
+  <FoodPolicyTitle>TODO</FoodPolicyTitle>
+  <!-- EN: Create and manage templates for controlling what food items colony members can eat. -->
+  <FoodPolicyTip>TODO</FoodPolicyTip>
+  <!-- EN: Food policy -->
+  <FoodPolicy>TODO</FoodPolicy>
+  <!-- EN: Allow food -->
+  <AllowFood>TODO</AllowFood>
   <!-- EN: Lavish -->
   <FoodRestrictionLavish>Gurmet</FoodRestrictionLavish>
   <!-- EN: Fine -->
@@ -1000,33 +1038,77 @@
   <FoodRestrictionRaw>Menjar cru</FoodRestrictionRaw>
   <!-- EN: Nothing -->
   <FoodRestrictionNothing>Res</FoodRestrictionNothing>
-  <!-- EN: Select food restriction -->
-  <SelectFoodRestriction>Tria una dieta</SelectFoodRestriction>
-  <!-- EN: New food restriction -->
-  <NewFoodRestriction>Afegeix una dieta</NewFoodRestriction>
-  <!-- EN: Delete food restriction -->
-  <DeleteFoodRestriction>Esborra una dieta</DeleteFoodRestriction>
-  <!-- EN: No food restriction selected -->
-  <NoFoodRestrictionSelected>No hi ha cap dieta.</NoFoodRestrictionSelected>
+  
+  <!-- Reading management -->
+  <!-- EN: Reading policies -->
+  <ReadingPolicyTitle>TODO</ReadingPolicyTitle>
+  <!-- EN: Create and manage templates for controlling which books colony members are allowed to read. -->
+  <ReadingPolicyTip>TODO</ReadingPolicyTip>
+  <!-- EN: Reading policy -->
+  <ReadingPolicy>TODO</ReadingPolicy>
+  <!-- EN: Reading policy is in use -->
+  <ReadingPolicyInUse>TODO</ReadingPolicyInUse> <!-- text_todo -->
+
+  <!-- EN: Anything -->
+  <AllReadingPolicy>TODO</AllReadingPolicy>
+  <!-- EN: None -->
+  <NoneReadingPolicy>TODO</NoneReadingPolicy>
+  <!-- EN: Textbooks -->
+  <TextbookPolicy>TODO</TextbookPolicy>
+  <!-- EN: Schematics -->
+  <SchematicPolicy>TODO</SchematicPolicy>
+  <!-- EN: Novels -->
+  <NovelPolicy>TODO</NovelPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
   <DefaultMedicineSettings>Opcions mèdiques per defecte</DefaultMedicineSettings>
+  <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
+  <DefaultMedicineSettingsDesc>TODO</DefaultMedicineSettingsDesc>
+  
   <!-- EN: Defaults -->
   <MedGroupDefaults>Estableix</MedGroupDefaults>
-  <!-- EN: Colonist -->
-  <MedGroupColonist>Colons</MedGroupColonist>
-  <!-- EN: Imprisoned colonist -->
-  <MedGroupImprisonedColonist>Colons empresonats</MedGroupImprisonedColonist>
-  <!-- EN: Colony animal -->
-  <MedGroupColonyAnimal>Animals de la colònia</MedGroupColonyAnimal>
-  <!-- EN: Neutral animal -->
-  <MedGroupNeutralAnimal>Animals neutrals</MedGroupNeutralAnimal>
-  <!-- EN: Neutral faction -->
-  <MedGroupNeutralFaction>Faccions neutrals</MedGroupNeutralFaction>
-  <!-- EN: Hostile faction -->
-  <MedGroupHostileFaction>Faccions hostils</MedGroupHostileFaction>
   
+  <!-- EN: Colonists -->
+  <MedGroupColonists>TODO</MedGroupColonists>
+  <!-- EN: Free members of your colony -->
+  <MedGroupColonistsDesc>TODO</MedGroupColonistsDesc>
+  
+  <!-- EN: Prisoners -->
+  <MedGroupPrisoners>TODO</MedGroupPrisoners>
+  <!-- EN: Prisoners in your colony, regardless of faction. -->
+  <MedGroupPrisonersDesc>TODO</MedGroupPrisonersDesc>
+
+  <!-- EN: Tamed animals -->
+  <MedGroupTamedAnimals>TODO</MedGroupTamedAnimals>
+  <!-- EN: Animals which have been tamed by your colony. -->
+  <MedGroupTamedAnimalsDesc>TODO</MedGroupTamedAnimalsDesc>
+
+  <!-- EN: Friendly faction members -->
+  <MedGroupFriendlyFaction>TODO</MedGroupFriendlyFaction>
+  <!-- EN: Humans or animals who are part of a faction which is friendly with your faction (goodwill above 75). -->
+  <MedGroupFriendlyFactionDesc>TODO</MedGroupFriendlyFactionDesc>
+  
+  <!-- EN: Neutral faction members -->
+  <MedGroupNeutralFaction>Faccions neutrals</MedGroupNeutralFaction>
+  <!-- EN: Humans or animals who are part of a faction which is neutral with your faction (between -75 and 75 goodwill). -->
+  <MedGroupNeutralFactionDesc>TODO</MedGroupNeutralFactionDesc>
+
+  <!-- EN: Hostile faction members -->
+  <MedGroupHostileFaction>Faccions hostils</MedGroupHostileFaction>
+  <!-- EN: Humans or animals who are part of a faction which is hostile with your faction (goodwill below -75). -->
+  <MedGroupHostileFactionDesc>TODO</MedGroupHostileFactionDesc>
+
+  <!-- EN: Other humans -->
+  <MedGroupNoFaction>TODO</MedGroupNoFaction>
+  <!-- EN: Humans who are not members of any faction. -->
+  <MedGroupNoFactionDesc>TODO</MedGroupNoFactionDesc>
+  
+  <!-- EN: Wildlife -->
+  <MedGroupWildlife>TODO</MedGroupWildlife>
+  <!-- EN: Animals and other creatures which are not members of any faction. -->
+  <MedGroupWildlifeDesc>TODO</MedGroupWildlifeDesc>
+
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
   <NoGrowerCanPlant>Per plantar {0} es necessita un nivell de {1} en pagesia.\n\nCap dels vostres pagesos actius tenen prou nivell; per tant, no es plantarà.</NoGrowerCanPlant>
@@ -1122,6 +1204,8 @@
   <AbilityCantApplyDowned>{0_definite} està inconscient.</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>No es pot aplicar {0} perquè és asexual.</AbilityCantApplyOnAsexual>
+  <!-- EN: {PAWN_labelShort} has no healable injuries. -->
+  <AbilityCannotCastNoHealableInjury>TODO</AbilityCannotCastNoHealableInjury>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_definite} no té un genere que atragui {0_definite}.</AbilityCantApplyWrongAttractionGender>
   <!-- EN: {0_labelShort} is too young. -->
@@ -1321,5 +1405,19 @@
   <ToggleDarklightOnDesc>Canvia el color de la llum a llum fosca.</ToggleDarklightOnDesc>
   <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
   <ColorTemperatureTooltip>Escolliu un color per a la temperatura. Nota: Això només afecta al color de visualització de la temperatura i no pas a l’escalfament que produeix.</ColorTemperatureTooltip>
+
+  <!-- EN: {0_labelShort} is psychically deaf. -->
+  <CannotShootPawnIsPsychicallyDeaf>TODO</CannotShootPawnIsPsychicallyDeaf>
+
+  <!-- EN: Search the current map. -->
+  <SearchTheMap>TODO</SearchTheMap>
+  <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
+  <SearchTheMapDesc>TODO</SearchTheMapDesc>
+  <!-- EN: {0} results found -->
+  <MapSearchResults>TODO</MapSearchResults>
+  <!-- EN: 1 result found -->
+  <MapSearchResultSingular>TODO</MapSearchResultSingular>
+  <!-- EN: Searching -->
+  <Searching>TODO</Searching>
 
 </LanguageData>

@@ -2,8 +2,8 @@
 <LanguageData>
   
   <!-- EN:
-    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] betrayed</li>
-    <li>letterTextBeggarsBetrayed->The [groupLabelSingleOrPlural] who [wasWere] seeking your charity [hasHave] been betrayed. Colonists with charitable beliefs will be unhappy.</li>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] harmed</li>
+    <li>letterTextBeggarsBetrayed->The [groupLabelSingleOrPlural] who [wasWere] seeking your charity [hasHave] been harmed. Colonists with charitable beliefs will be unhappy.</li>
     <li>hasHave(beggarCount==1)->has</li>
     <li>hasHave(beggarCount>=2)->have</li>
     <li>wasWere(beggarCount==1)->was</li>
@@ -12,16 +12,17 @@
     <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
   -->
   <Beggars.questContentRules.rulesStrings>
-    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] [betrayed]</li>
-    <li>letterTextBeggarsBetrayed->[El] [groupLabelSingleOrPlural] que [wasWere] la vostra caritat [hasHave] estat [betrayed]. Els colons amb creences caritatives no hi estaran massa d’acord.</li>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] [harmed]</li>
+    <li>letterTextBeggarsBetrayed->[El] [groupLabelSingleOrPlural] que [wasWere] la vostra caritat [hasHave] estat [harmed]. Els colons amb creences caritatives no hi estaran massa d’acord.</li>
     <li>hasHave(beggarCount==1)->ha</li>
     <li>hasHave(beggarCount>=2)->han</li>
     <li>wasWere(beggarCount==1)->demanava</li>
     <li>wasWere(beggarCount>=2)->demanaven</li>
     <li>groupLabelSingleOrPlural(beggarCount==1)->viatger</li>
     <li>groupLabelSingleOrPlural(beggarCount>=2)->viatgers</li>
-    <li>betrayed(beggarCount==1)->traït</li>
-    <li>betrayed(beggarCount>=2)->traïts</li>
+    <li>harmed(beggarCount==1,beggars0_gender!=Female)->ferit</li>
+    <li>harmed(beggarCount==1,beggars0_gender==Female)->ferida</li>
+    <li>harmed(beggarCount>=2)->ferits</li>
     <li>El(beggarCount==1)->El</li>
     <li>El(beggarCount>=2)->Els</li>
   </Beggars.questContentRules.rulesStrings>

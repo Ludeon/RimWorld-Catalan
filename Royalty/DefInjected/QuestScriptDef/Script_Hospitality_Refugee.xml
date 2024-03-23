@@ -40,8 +40,15 @@
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
     <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] violated: Revenge</li>
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
-    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] arrested: Departure</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] violated: Departure</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget->{SUBJECT_definite}, [oneOfThe], was the target of a psychic ritual.</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->[lodgersLabel] violated: Anger</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->[lodgersLabel] violated: Revenge</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->[lodgersLabel] violated: Departure</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->Betrayal</li>
     <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [areIs] turning against you!\n\nIt seems [lodgersPronoun] had this treachery planned all along.</li>
     <li>areIs(lodgerCount==1)->is</li>
@@ -90,12 +97,19 @@
     <li>lodgersAllArrestedLetterLabel->La missió ha fracassat</li>
     <li>lodgersAllArrestedLetterText->Heu arrestat {SUBJECT_definite}, [lastOrNot] [faction_pawnSingular] desesperat [whoAskedToStay].\n\n[questOver]</li>
     <li>letterIntroViolated->A {SUBJECT_definite}, [oneOfThe], se li ha aplicat una cirurgia sense permís.</li>
-    <li>lodgerViolatedMemoryThoughtLetterLabel->S’ha operat a [lodgersLabel]: Ira</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel->S’ha vulnerat la voluntat de [lodgersLabel]: Ira</li>
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
-    <li>lodgerViolatedAttackPlayerLetterLabel->S’ha operat a [lodgersLabel]: Revenja</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel->S’ha vulnerat la voluntat de [lodgersLabel]: Revenja</li>
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
-    <li>lodgerViolatedLeaveMapLetterLabel->S’ha operat a [lodgersLabel]: Partida</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->S’ha vulnerat la voluntat de [lodgersLabel]: Se’n va</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
+    <li>letterIntroPsychicRitualTarget->{SUBJECT_definite}, [oneOfThe], era el sacrifici per a un ritual psíquic.</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterLabel->S’ha vulnerat la voluntat de [lodgersLabel]: Ràbia</li>
+    <li>lodgerPsychicRitualTargetMemoryThoughtLetterText->[letterIntroPsychicRitualTarget]\n\n[appalledButNoAction]</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterLabel->S’ha vulnerat la voluntat de [lodgersLabel]: Revenge</li>
+    <li>lodgerPsychicRitualTargetAttackPlayerLetterText->[letterIntroPsychicRitualTarget]\n\n[turnedViolent]</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterLabel->S’ha vulnerat la voluntat de [lodgersLabel]: Se’n va</li>
+    <li>lodgerPsychicRitualTargetLeaveMapLetterText->[letterIntroPsychicRitualTarget]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->Traïció</li>
     <li>mutinyLetterText->[lodgersSingularOrPluralDef] [whoAskedToStay] [esTorna] en contra vostra!\n\nSembla que [lodgersPronoun] ho [tenia] tot planejat.</li>
     <li>areIs(lodgerCount==1)->està</li>

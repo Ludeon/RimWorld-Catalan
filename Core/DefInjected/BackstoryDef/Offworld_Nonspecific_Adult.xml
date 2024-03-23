@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: [PAWN_nameDef] travelled with a company of actors, playing to packed theatres and loving audiences everywhere. [PAWN_pronoun] was a perfectionist, and made [PAWN_possessive] own props and costumes rather than use the ones [PAWN_pronoun] was given. -->
+  <!-- EN: [PAWN_nameDef] traveled with a company of actors, playing to packed theatres and loving audiences everywhere. [PAWN_pronoun] was a perfectionist, and made [PAWN_possessive] own props and costumes rather than use the ones [PAWN_pronoun] was given. -->
+  <Actor72.description>TODO</Actor72.description>
   <Actor72.baseDesc>[PAWN_nameDef] va viatjar amb una companyia teatral i actuaven en teatres sempre plens i tenien molt d’èxit entre el públic allà on anaven. Era molt perfeccionista i es feia els seus propis vestits i accessoris en comptes de fer servir els que li donaven.</Actor72.baseDesc>
   <!-- EN: actor -->
   <Actor72.title>actor</Actor72.title>
@@ -11,6 +12,7 @@
   <Actor72.titleShortFemale>actriu</Actor72.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] raised a variety of animals to provide meat, milk, eggs, and leather. -->
+  <AnimalFarmer21.description>TODO</AnimalFarmer21.description>
   <AnimalFarmer21.baseDesc>[PAWN_nameDef] criava una gran varietat d’animals per a obtenir-ne carn, llet, ous i pells.</AnimalFarmer21.baseDesc>
   <!-- EN: animal farmer -->
   <AnimalFarmer21.title>granger</AnimalFarmer21.title>
@@ -20,6 +22,7 @@
   <AnimalFarmer21.titleShortFemale>grangera</AnimalFarmer21.titleShortFemale>
   
   <!-- EN: After taking a vow of silence, [PAWN_nameDef] joined a monastery to spend [PAWN_possessive] days in quiet contemplation.\n\n[PAWN_pronoun] found happiness growing vegetables in the garden and making cheese in the monastery cellars. -->
+  <AsceticPriest84.description>TODO</AsceticPriest84.description>
   <AsceticPriest84.baseDesc>Després de fer vot de silenci, [PAWN_nameDef] va ingressar en un monestir d’un planeta llunyà pacífic, on passava una vida de contemplació tranquil·la.\n\n[PAWN_pronoun] va descobrir la felicitat amb coses tan simples com cuidar les verdures del jardí o fer formatge al celler del monestir.</AsceticPriest84.baseDesc>
   <!-- EN: ascetic priest -->
   <AsceticPriest84.title>sacerdot auster</AsceticPriest84.title>
@@ -29,6 +32,7 @@
   <AsceticPriest84.titleShortFemale>sacerdotessa</AsceticPriest84.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] worked as a bartender in a seedy establishment. The job was one part drink-mixing, one part diplomacy, and one part head-bashing. -->
+  <Bartender62.description>TODO</Bartender62.description>
   <Bartender62.baseDesc>[PAWN_nameDef] treballava en un bar sòrdid. La feina consistia a barrejar begudes, ser diplomàtic i trencar caps.</Bartender62.baseDesc>
   <!-- EN: bartender -->
   <Bartender62.title>cambrer</Bartender62.title>
@@ -38,6 +42,7 @@
   <Bartender62.titleShortFemale>cambrera</Bartender62.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] protected whoever paid [PAWN_objective]. [PAWN_pronoun] gained proficiency in many different combat forms, and was known for [PAWN_possessive] ruthlessness against those who crossed [PAWN_objective]. -->
+  <Bodyguard58.description>TODO</Bodyguard58.description>
   <Bodyguard58.baseDesc>[PAWN_nameDef] va trobar feina en un migmón i protegia a qui li pagués. Va adquirir destresa en diversos tipus de combat i va aconseguir fama per la seva crueltat amb els que es creuaven amb {PAWN_gender ? ell : ella}.</Bodyguard58.baseDesc>
   <!-- EN: bodyguard -->
   <Bodyguard58.title>guardaespatlles</Bodyguard58.title>
@@ -45,6 +50,7 @@
   <Bodyguard58.titleShort>guardaespatlles</Bodyguard58.titleShort>
   
   <!-- EN: [PAWN_nameDef] made a living mapping out dark tunnels and near-inaccessible crevices in search of valuable minerals. [PAWN_possessive] work was very dangerous, but the pay was good. -->
+  <CaveExplorer45.description>TODO</CaveExplorer45.description>
   <CaveExplorer45.baseDesc>[PAWN_nameDef] es guanyava la vida fent mapes dels túnels foscos i de les esquerdes pràcticament inaccessibles. També recercava minerals valuosos. La seva feina era molt perillosa, però li pagaven bé.</CaveExplorer45.baseDesc>
   <!-- EN: cave explorer -->
   <CaveExplorer45.title>explorador de coves</CaveExplorer45.title>
@@ -53,14 +59,16 @@
   <CaveExplorer45.titleShort>explorador</CaveExplorer45.titleShort>
   <CaveExplorer45.titleShortFemale>exploradora</CaveExplorer45.titleShortFemale>
   
-  <!-- EN: [PAWN_nameDef] ran a high-class restaurant. [PAWN_pronoun] was famous among patrons for [PAWN_possessive] creative culinary specialties, and infamous among kitchen workers for [PAWN_possessive] casual disdain for grunt work. -->
-  <Chef52.baseDesc>[PAWN_namDef] dirigia un restaurant per a l’alta societat. Es va fer {PAWN_gender ? famós : famosa} entre els mecenes per les seves especialitats culinàries creatives. En canvi, els treballadors de cuina {PAWN_gender ? el : la} van patir el continu menyspreu i arrogància amb què els tractava.</Chef52.baseDesc>
+  <!-- EN: [PAWN_nameDef] was the star chef at a high-class coreworld restaurant. [PAWN_pronoun] was famous among patrons for [PAWN_possessive] creative culinary specialties, and infamous among the kitchen staff for [PAWN_possessive] casual disdain for grunt work. -->
+  <Chef52.description>TODO</Chef52.description>
+  <Chef52.baseDesc>[PAWN_namDef] era el xef estrella d’un restaurant de luxe. Era {PAWN_gender ? famós : famosa} entre els mecenes per les seves especialitats culinàries creatives. En canvi, els treballadors de cuina van patir el continu menyspreu i arrogància amb què els tractava.</Chef52.baseDesc>
   <!-- EN: chef -->
   <Chef52.title>xef</Chef52.title>
   <!-- EN: chef -->
   <Chef52.titleShort>xef</Chef52.titleShort>
   
   <!-- EN: [PAWN_nameDef] worked as a low-ranking administrator for a moribund government bureaucracy. [PAWN_pronoun] is most at home filling out complicated paperwork and playing office politics. -->
+  <CivilServant2.description>TODO</CivilServant2.description>
   <CivilServant2.baseDesc>[PAWN_nameDef] va treballar al funcionariat de base d’un moribund govern buròcrata. Se sent a gust emplenant els documents complicats i amb la política d’oficina.</CivilServant2.baseDesc>
   <!-- EN: civil servant -->
   <CivilServant2.title>funcionari</CivilServant2.title>
@@ -70,6 +78,7 @@
   <CivilServant2.titleShortFemale>funcionària</CivilServant2.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] never created anything in [PAWN_possessive] life. [PAWN_pronoun] did, however, prove to be a natural at getting others to give [PAWN_objective] what they had created. -->
+  <ConArtist80.description>TODO</ConArtist80.description>
   <ConArtist80.baseDesc>[PAWN_nameDef] no va crear res en tota la vida, però tenia un talent natural per aconseguir que els altres li donessin les coses que havien creat.</ConArtist80.baseDesc>
   <!-- EN: con artist -->
   <ConArtist80.title>estafador</ConArtist80.title>
@@ -79,6 +88,7 @@
   <ConArtist80.titleShortFemale>estafadora</ConArtist80.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was well-known in art circles on [PAWN_possessive] home world for [PAWN_possessive] unique and creative conceptual artworks.\n\nNobody was sure exactly what [PAWN_pronoun] was trying to communicate, but [PAWN_possessive] pieces were highly valued by collectors. -->
+  <ConceptualArtist39.description>TODO</ConceptualArtist39.description>
   <ConceptualArtist39.baseDesc>Tothom coneixia [PAWN_nameDef] dins el cercle artístic al seu planeta natal per les seves creacions conceptuals úniques i creatives.\n\nNingú tenia clar que intentava comunicar, però les seves creacions eren molt apreciades pels col·leccionistes.</ConceptualArtist39.baseDesc>
   <!-- EN: conceptual artist -->
   <ConceptualArtist39.title>artista conceptual</ConceptualArtist39.title>
@@ -88,6 +98,7 @@
   <ConceptualArtist39.titleShortFemale>artista</ConceptualArtist39.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was a construction worker. [PAWN_pronoun] lead a team which built everything from office blocks to cathedrals.\n\n[PAWN_possessive] busy job and numerous nearby fast-food outlets meant [PAWN_pronoun] never cooked for [PAWN_objective]self. -->
+  <ConstructionEngineer32.description>TODO</ConstructionEngineer32.description>
   <ConstructionEngineer32.baseDesc>[PAWN_nameDef] treballava en la construcció en un migmón. Portava un equip que construïa des de blocs d’oficines fins a catedrals.\n\nCom que sempre treballava fora no va aprendre mai a cuinar.</ConstructionEngineer32.baseDesc>
   <!-- EN: construction engineer -->
   <ConstructionEngineer32.title>enginyer de la construcció</ConstructionEngineer32.title>
@@ -97,6 +108,7 @@
   <ConstructionEngineer32.titleShortFemale>constructora</ConstructionEngineer32.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] moved from job to job, extracting minerals and ancient valuables in tunnels and strip-mines. The work was tough and dirty, but [PAWN_pronoun] found it rewarding. -->
+  <ContractMiner86.description>TODO</ContractMiner86.description>
   <ContractMiner86.baseDesc>[PAWN_nameDef] anava de feina a feina, extraient minerals dels túnels i mines. La feina era dura i bruta, però es trobava a gust fent-la.</ContractMiner86.baseDesc>
   <!-- EN: contract miner -->
   <ContractMiner86.title>miner contractat</ContractMiner86.title>
@@ -106,6 +118,7 @@
   <ContractMiner86.titleShortFemale>minera contractada</ContractMiner86.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] worked in a massive open-plan office, ensuring that [PAWN_possessive] assigned team of workers stayed mostly on-task.\n\nThe job was intensely political. In order to advance, [PAWN_nameDef] learned how to arrange things so [PAWN_pronoun] could take credit for work done by almost anyone. -->
+  <CorporateManager76.description>TODO</CorporateManager76.description>
   <CorporateManager76.baseDesc>[PAWN_nameDef] treballava en unes oficines enormes sense parets, assegurant-se que l’equip que tenia assignat estigués fent la seva feina.\n\nLa feina estava relacionada principalment amb la política. Per tal d’ascendir, va aprendre a penjar-se les medalles de la feina que havien fet altres persones.</CorporateManager76.baseDesc>
   <!-- EN: corporate manager -->
   <CorporateManager76.title>gerent corporatiu</CorporateManager76.title>
@@ -115,6 +128,7 @@
   <CorporateManager76.titleShortFemale>gerenta</CorporateManager76.titleShortFemale>
   
   <!-- EN: A terrifying trauma when [PAWN_nameDef] was a young adult caused [PAWN_objective] to develop a serious eating disorder. With counseling [PAWN_pronoun] learned to have a healthier relationship with food, and decided to put [PAWN_possessive] new skills to use helping others overcome their emotional problems. -->
+  <Counselor26.description>TODO</Counselor26.description>
   <Counselor26.baseDesc>Un horrible trauma de joventut de [PAWN_nameDef] li va causar un greu desordre alimentari. Amb l’ajuda d’una teràpia, va millorar la seva relació amb el menjar i decidí fer servir la seva experiència per ajudar els altres a superar els problemes emocionals.</Counselor26.baseDesc>
   <!-- EN: counselor -->
   <Counselor26.title>terapeuta</Counselor26.title>
@@ -122,6 +136,7 @@
   <Counselor26.titleShort>terapeuta</Counselor26.titleShort>
   
   <!-- EN: [PAWN_nameDef] ran a crop farm. [PAWN_pronoun] analyzed soil, agricultural equipment, weather patterns, and price trends to optimize the planting and harvesting of massive crop fields. -->
+  <CropFarmer17.description>TODO</CropFarmer17.description>
   <CropFarmer17.baseDesc>[PAWN_nameDef] s’encarregava dels conreus agrícoles. Analitzava la terra, l’equipament, els patrons climàtics i les tendències dels preus per optimitzar el temps de plantació i recol·lecció de camps de cultiu enormes.</CropFarmer17.baseDesc>
   <!-- EN: crop farmer -->
   <CropFarmer17.title>agricultor</CropFarmer17.title>
@@ -131,6 +146,7 @@
   <CropFarmer17.titleShortFemale>grangera</CropFarmer17.titleShortFemale>
   
   <!-- EN: Early in [PAWN_possessive] adulthood, [PAWN_nameDef] decided to leave the oppressive dictatorship where [PAWN_pronoun] lived. [PAWN_possessive] defection was not well-received, and agents were sent out after [PAWN_objective].\n\n[PAWN_pronoun] spent years on the run, treating [PAWN_possessive] own wounds so no doctor could betray [PAWN_objective]. The ordeal made [PAWN_objective] bitter and untrusting. -->
+  <Defector78.description>TODO</Defector78.description>
   <Defector78.baseDesc>De jove, [PAWN_nameDef] va decidir fugir de la dictadura opressiva en què vivia. La seva deserció no va ser ben vista i van enviar agents per a perseguir-{PAWN_gender ? lo : la}.\n\nHa passat molts anys fugint, curant-se les pròpies ferides perquè cap metge pogués fer de delator. La duresa li va produir amargor i desconfiança.</Defector78.baseDesc>
   <!-- EN: defector -->
   <Defector78.title>desertor</Defector78.title>
@@ -139,7 +155,8 @@
   <Defector78.titleShort>desertor</Defector78.titleShort>
   <Defector78.titleShortFemale>desertora</Defector78.titleShortFemale>
   
-  <!-- EN: [PAWN_nameDef] never figured out what to do with [PAWN_possessive] life. [PAWN_pronoun] travelled often, taking up casual work wherever [PAWN_pronoun] found it.\n\n[PAWN_pronoun] also occasionally worked on a novel that [PAWN_pronoun] knew would be a bestseller - just as soon as [PAWN_pronoun] could find a publisher who was interested. -->
+  <!-- EN: [PAWN_nameDef] never figured out what to do with [PAWN_possessive] life. [PAWN_pronoun] traveled often, taking up casual work wherever [PAWN_pronoun] found it.\n\n[PAWN_pronoun] also occasionally worked on a novel that [PAWN_pronoun] knew would be a bestseller - just as soon as [PAWN_pronoun] could find a publisher who was interested. -->
+  <Drifter67.description>TODO</Drifter67.description>
   <Drifter67.baseDesc>[PAWN_nameDef] no va saber mai què fer amb la seva vida. Va viatjar molt, treballant en petites feines que trobava pel camí.\n\nTambé treballava en una novel·la amb el convenciment que seria un supervendes tant bon punt com trobés algú que la volgués publicar.</Drifter67.baseDesc>
   <!-- EN: drifter -->
   <Drifter67.title>rodamón</Drifter67.title>
@@ -147,6 +164,7 @@
   <Drifter67.titleShort>rodamón</Drifter67.titleShort>
   
   <!-- EN: [PAWN_nameDef] denies involvement in the crimes that brought about [PAWN_possessive] incarceration in a brutal penal colony. [PAWN_pronoun] escaped by tunneling beneath the perimeter using modified cutlery. -->
+  <EscapedConvict90.description>TODO</EscapedConvict90.description>
   <EscapedConvict90.baseDesc>[PAWN_nameDef] nega la involucració als delictes que van fer que acabés en una brutal colònia penal. Va fugir fent un túnel per sota del perímetre de la presó emprant coberts modificats.</EscapedConvict90.baseDesc>
   <!-- EN: escaped convict -->
   <EscapedConvict90.title>convicte pròfug</EscapedConvict90.title>
@@ -156,6 +174,7 @@
   <EscapedConvict90.titleShortFemale>pròfuga</EscapedConvict90.titleShortFemale>
   
   <!-- EN: As a youth, [PAWN_nameDef] experienced a religious awakening. [PAWN_pronoun] decided to spend the rest of [PAWN_possessive] life spreading the word of [PAWN_possessive] deity, the beauty of its culture, and its unusual medical tradition. -->
+  <Evangelist39.description>TODO</Evangelist39.description>
   <Evangelist39.baseDesc>El dia del seu 21è aniversari, [PAWN_nameDef] va experimentar una revelació religiosa. Va decidir dedicar la seva vida a escampar la paraula de la seva deïtat, la bellesa de la seva cultura i les seves tradicions mèdiques poc habituals.</Evangelist39.baseDesc>
   <!-- EN: evangelist -->
   <Evangelist39.title>evangelista</Evangelist39.title>
@@ -163,6 +182,7 @@
   <Evangelist39.titleShort>evangelista</Evangelist39.titleShort>
   
   <!-- EN: [PAWN_nameDef] was an explosive engineer employed in mines. [PAWN_pronoun] took [PAWN_possessive] job very seriously and was well-versed in the technicalities - so much so that [PAWN_pronoun] refused to demean [PAWN_objective]self by helping with the clean-up once [PAWN_possessive] carefully-calculated explosion was complete. -->
+  <ExplosivesExpert26.description>TODO</ExplosivesExpert26.description>
   <ExplosivesExpert26.baseDesc>[PAWN_nameDef] treballava en l’enginyeria d’explosiu a les mines. Es prenia la seva feina molt seriosament i coneixia molt bé els tecnicismes – prou per no rebaixar-se a ajudar a netejar després de l’explosió tan curosament planificada.</ExplosivesExpert26.baseDesc>
   <!-- EN: explosives expert -->
   <ExplosivesExpert26.title>expert en explosius</ExplosivesExpert26.title>
@@ -172,6 +192,7 @@
   <ExplosivesExpert26.titleShortFemale>demolidora</ExplosivesExpert26.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] grew and harvested forests. [PAWN_pronoun] understood both the practical challenges of soil types, wind, and rain, as well as the long-term planning of forest growth. -->
+  <Forester96.description>TODO</Forester96.description>
   <Forester96.baseDesc>[PAWN_nameDef] va créixer i vivia dels boscos. Entengué els reptes del sòl, del vent i de la pluja, així com la planificació a llarg termini del creixement dels boscos.</Forester96.baseDesc>
   <!-- EN: forester -->
   <Forester96.title>guardabosc</Forester96.title>
@@ -179,6 +200,7 @@
   <Forester96.titleShort>guardabosc</Forester96.titleShort>
   
   <!-- EN: [PAWN_nameDef] grew up near forests. [PAWN_pronoun] spent [PAWN_possessive] time building beautiful furniture for wealthy glitterworld clients. -->
+  <FurnitureBuilder83.description>TODO</FurnitureBuilder83.description>
   <FurnitureBuilder83.baseDesc>[PAWN_nameDef] va créixer a prop dels boscos. Passà el seu temps construint mobles preciosos per als clients rics dels brillamons.</FurnitureBuilder83.baseDesc>
   <!-- EN: furniture builder -->
   <FurnitureBuilder83.title>fabricant de mobles</FurnitureBuilder83.title>
@@ -188,6 +210,7 @@
   <FurnitureBuilder83.titleShortFemale>fabricant</FurnitureBuilder83.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] worked at the mansion of a powerful family, tending the lavish gardens as part of a team of servants. -->
+  <Gardener99.description>TODO</Gardener99.description>
   <Gardener99.baseDesc>Als mons industrials, la riquesa es concentra en els amos de les fàbriques. [PAWN_nameDef] treballava a la mansió d’una d’aquestes famílies riques, cuidant-ne els jardins.</Gardener99.baseDesc>
   <!-- EN: gardener -->
   <Gardener99.title>jardiner</Gardener99.title>
@@ -197,6 +220,7 @@
   <Gardener99.titleShortFemale>jardinera</Gardener99.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] worked with miners and cave-diggers, identifying rock types and natural formations.\n\nDuring [PAWN_possessive] years underground [PAWN_pronoun] also gained experience repairing drilling machines and other technical equipment. -->
+  <Geologist66.description>TODO</Geologist66.description>
   <Geologist66.baseDesc>[PAWN_nameDef] treballava amb miners i excavadors, identificant els tipus de roques i les formacions naturals.\n\nDurant la seva vida subterrània també va aprendre a arreglar màquines perforadores i d’altres eines mecàniques.</Geologist66.baseDesc>
   <!-- EN: geologist -->
   <Geologist66.title>geòleg</Geologist66.title>
@@ -205,7 +229,8 @@
   <Geologist66.titleShort>geòleg</Geologist66.titleShort>
   <Geologist66.titleShortFemale>geòloga</Geologist66.titleShortFemale>
   
-  <!-- EN: As an adult, [PAWN_nameDef] kept house and cared for children while [PAWN_possessive] spouse worked. -->
+  <!-- EN: As an adult, [PAWN_nameDef] kept house and cared for [PAWN_possessive] children while [PAWN_possessive] spouse worked. -->
+  <Housemate8.description>TODO</Housemate8.description>
   <Housemate8.baseDesc>De gran, [PAWN_nameDef] cuidava la casa i la canalla mentre la seva parella era a la feina.</Housemate8.baseDesc>
   <!-- EN: housemate -->
   <Housemate8.title>amo de casa</Housemate8.title>
@@ -217,6 +242,7 @@
   <Housemate8.titleShortFemale>ama de casa</Housemate8.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was a domestic servant to wealthy homeowners.\n\n[PAWN_pronoun] got to know the kitchens and basements of [PAWN_possessive] master's mansion well, but never did any work outside. -->
+  <HouseServant63.description>TODO</HouseServant63.description>
   <HouseServant63.baseDesc>[PAWN_nameDef] era {PAWN_gender ? un servent domèstic : una serventa domèstica } d’uns terratinents rics.\n\nConeixia les cuines i els fonaments de la mansió dels seus senyors molt bé, però mai va fer cap feina a fora.</HouseServant63.baseDesc>
   <!-- EN: house servant -->
   <HouseServant63.title>servent de la llar</HouseServant63.title>
@@ -226,6 +252,7 @@
   <HouseServant63.titleShortFemale>serventa</HouseServant63.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] hunted wild animals to help feed [PAWN_possessive] community. When times became tough, others looked to [PAWN_objective] as the one to help people through a tough season. -->
+  <Hunter89.description>TODO</Hunter89.description>
   <Hunter89.baseDesc>[PAWN_nameDef] era un gran caçador.\n\nVa aprendre a seguir la pista de qualsevol animal i posar-los trampes als llocs més perillosos, i sabia moltes maneres enginyoses d’abatre alguns animals específics.</Hunter89.baseDesc>
   <!-- EN: hunter -->
   <Hunter89.title>caçador</Hunter89.title>
@@ -235,6 +262,7 @@
   <Hunter89.titleShortFemale>caçadora</Hunter89.titleShortFemale>
   
   <!-- EN: On [PAWN_possessive] homeworld, [PAWN_nameDef] worked as a moderately successful inventor. [PAWN_pronoun] developed several minor technologies. -->
+  <Inventor6.description>TODO</Inventor6.description>
   <Inventor6.baseDesc>Al seu planeta natal, [PAWN_nameDef] treballava fent invents de forma prou reeixida. Va desenvolupar algunes noves tecnologies menors.</Inventor6.baseDesc>
   <!-- EN: inventor -->
   <Inventor6.title>inventor</Inventor6.title>
@@ -244,6 +272,7 @@
   <Inventor6.titleShortFemale>inventora</Inventor6.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] spent most of [PAWN_possessive] life in prisons, where [PAWN_pronoun] was put to work in the kitchens. [PAWN_pronoun] had a habit of getting into fights, and developed an aggressive way of speaking. -->
+  <Jailbird40.description>TODO</Jailbird40.description>
   <Jailbird40.baseDesc>[PAWN_nameDef] ha passat bona part de la seva vida a la presó, on el van posar a treballar a les cuines. Es barallava sovint i parla amb agressivitat.</Jailbird40.baseDesc>
   <!-- EN: jailbird -->
   <Jailbird40.title>presidiari</Jailbird40.title>
@@ -253,6 +282,7 @@
   <Jailbird40.titleShortFemale>presidiària</Jailbird40.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] ran a livestock farm. [PAWN_pronoun] analyzed animal genetics, feed types, birth and slaughter methods, and price trends to optimize the raising of huge animal herds. -->
+  <LivestockFarmer8.description>TODO</LivestockFarmer8.description>
   <LivestockFarmer8.baseDesc>[PAWN_nameDef] portava una granja de bestiar. Analitzava la genètica dels animals, els tipus d’alimentació, els mètodes d’escorxament i l’evolució dels preus per optimitzar la cria de grans grups d’animals.</LivestockFarmer8.baseDesc>
   <!-- EN: livestock farmer -->
   <LivestockFarmer8.title>ramader</LivestockFarmer8.title>
@@ -262,6 +292,7 @@
   <LivestockFarmer8.titleShortFemale>ramadera</LivestockFarmer8.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] took down trees and collected wood in hilly passes and ravines. [PAWN_pronoun] learned both how to fell the trees safely, and how to manage the forest to keep it healthy. -->
+  <Logger95.description>TODO</Logger95.description>
   <Logger95.baseDesc>[PAWN_nameDef] talava arbres i n’aprofitava la fusta dels passos estrets i dels barrancs. Va aprendre a fer-los caure de manera segura i a gestionar el bosc per mantenir-lo sa.</Logger95.baseDesc>
   <!-- EN: logger -->
   <Logger95.title>llenyataire</Logger95.title>
@@ -271,6 +302,7 @@
   <Logger95.titleShortFemale>llenyataire</Logger95.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] worked a variety of casual jobs to support [PAWN_possessive] family, gaining a set of basic hands-on skills. -->
+  <LowWageWorker7.description>TODO</LowWageWorker7.description>
   <LowWageWorker7.baseDesc>[PAWN_nameDef] va treballar en una pila de feines temporals per a ajudar a la seva família i va aprendre una bona colla de capacitats bàsiques diferents.</LowWageWorker7.baseDesc>
   <!-- EN: low-wage worker -->
   <LowWageWorker7.title>treballador amb sous baixos</LowWageWorker7.title>
@@ -280,6 +312,7 @@
   <LowWageWorker7.titleShortFemale>peona</LowWageWorker7.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was obsessed with old machines and arcane pieces of technology. [PAWN_pronoun] obtained them wherever [PAWN_pronoun] could, and loved taking them apart to see how they worked.\n\n[PAWN_pronoun] had a habit of talking about [PAWN_possessive] collection long after people around [PAWN_objective] had stopped listening. -->
+  <MachineCollector55.description>TODO</MachineCollector55.description>
   <MachineCollector55.baseDesc>[PAWN_nameDef] tenia una obsessió amb les màquines velles i les tecnologies antigues. Les aconseguia on podia, i li encantava desmuntar-les per veure com funcionaven.\n\nTenia el costum de parlar de la seva col·lecció, fins i tot quan ja feia estona que ningú l’escoltava.</MachineCollector55.baseDesc>
   <!-- EN: machine collector -->
   <MachineCollector55.title>col·leccionista de màquines</MachineCollector55.title>
@@ -288,6 +321,7 @@
   <MachineCollector55.titleShort>col·leccionista</MachineCollector55.titleShort>
   
   <!-- EN: [PAWN_nameDef] did mathematical research at a university.\n\n[PAWN_pronoun] spent much of [PAWN_possessive] spare time immersed in shooting simulations, though [PAWN_pronoun] was frequently ridiculed by other players for [PAWN_possessive] terrible aim. -->
+  <Mathematician6.description>TODO</Mathematician6.description>
   <Mathematician6.baseDesc>[PAWN_nameDef] va fer recerca de matemàtiques en una universitat.\n\nPassava gran part del seu temps en simulacions de llançaments, i els companys es reien de la seva terrible punteria.</Mathematician6.baseDesc>
   <!-- EN: mathematician -->
   <Mathematician6.title>professor de matemàtiques</Mathematician6.title>
@@ -297,6 +331,7 @@
   <Mathematician6.titleShortFemale>matemàtica</Mathematician6.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] modelled clothes and jewellery for advertisers, and was also used as a physical blueprint for characters in virtual reality simulations. -->
+  <Model99.description>TODO</Model99.description>
   <Model99.baseDesc>[PAWN_nameDef] va mostrar roba i joies de diferents anunciants a la passarel·la, també es va fer servir com a model per a simulacions de realitat virtual.</Model99.baseDesc>
   <!-- EN: model -->
   <Model99.title>model</Model99.title>
@@ -304,6 +339,7 @@
   <Model99.titleShort>model</Model99.titleShort>
   
   <!-- EN: [PAWN_nameDef] worked in a hospital, doing routine work such as changing bandages and taking temperatures.\n\nIt was a busy job, but [PAWN_pronoun] could always find time for a chat with a patient. -->
+  <Nurse61.description>TODO</Nurse61.description>
   <Nurse61.baseDesc>[PAWN_nameDef] treballava en un hospital de l’era industrial, fent tasques rutinàries com canviar embenats i prendre temperatures.\n\nEra una feina estressant, però sempre tenia temps per donar conversa als pacients.</Nurse61.baseDesc>
   <!-- EN: nurse -->
   <Nurse61.title>infermer</Nurse61.title>
@@ -313,6 +349,7 @@
   <Nurse61.titleShortFemale>infermera</Nurse61.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef]'s job was to respond rapidly to medical emergencies. [PAWN_pronoun] is used to dealing with severe injuries with only limited medical supplies.\n\n[PAWN_pronoun] treated so many gunshot wounds over the years that even seeing a gun made [PAWN_objective] uncomfortable. -->
+  <Paramedic45.description>TODO</Paramedic45.description>
   <Paramedic45.baseDesc>La feina de [PAWN_nameDef] consistia en fer les primeres actuacions a les urgències mèdiques. Sap gestionar les ferides greus amb pocs recursos mèdics.\n\nHa tractat tantes ferides de bala amb el temps que la sola visió d’una pistola fa que se senti malament.</Paramedic45.baseDesc>
   <!-- EN: paramedic -->
   <Paramedic45.title>paramèdic</Paramedic45.title>
@@ -321,8 +358,9 @@
   <Paramedic45.titleShort>paramèdic</Paramedic45.titleShort>
   <Paramedic45.titleShortFemale>paramèdica</Paramedic45.titleShortFemale>
   
-  <!-- EN: [PAWN_nameDef] kept the peace as a line officer in a municipal police force.\n\n[PAWN_pronoun] was trained in de-escalation, physical control, shooting, and other police skills. -->
-  <Policeman45.baseDesc>[PAWN_nameDef] mantenia la pau com a {PAWN_gender ? oficial : oficiala} a les forces policials municipals.\n\n{PAWN_gender ? El : La} van entrenar per a tenir control físic, disparar armes, desescalar situacions difícils i altres habilitats policials.</Policeman45.baseDesc>
+  <!-- EN: [PAWN_nameDef] kept the peace as a line officer in a municipal social enforcement unit.\n\n[PAWN_pronoun] was trained in de-escalation, physical control, shooting, and other police skills. -->
+  <Policeman45.description>TODO</Policeman45.description>
+  <Policeman45.baseDesc>[PAWN_nameDef] mantenia la pau com a {PAWN_gender ? oficial : oficiala} en una unitat de reforç social municipal.\n\n{PAWN_gender ? El : La} van entrenar per a tenir control físic, disparar armes, desescalar situacions difícils i altres habilitats policials.</Policeman45.baseDesc>
   <!-- EN: policeman -->
   <Policeman45.title>policia</Policeman45.title>
   <!-- EN: policewoman -->
@@ -333,6 +371,7 @@
   <Policeman45.titleShortFemale>policia</Policeman45.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] worked in a quarry helping to extract valuable stone from the hillside. [PAWN_pronoun] learned to sense opportunities and dangers in the stone by sight, touch, and intuition. -->
+  <QuarryWorker29.description>TODO</QuarryWorker29.description>
   <QuarryWorker29.baseDesc>[PAWN_nameDef] treballava en una pedrera i ajudava a extreure pedres de la muntanya. Aprengué a sentir les oportunitats i perills de la pedra amb la vista, amb el tacte i amb la intuició.</QuarryWorker29.baseDesc>
   <!-- EN: quarry worker -->
   <QuarryWorker29.title>treballador de cantera</QuarryWorker29.title>
@@ -342,6 +381,7 @@
   <QuarryWorker29.titleShortFemale>pedrera</QuarryWorker29.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] owned and operated a successful ranch where [PAWN_pronoun] raised animals for meat and wool.\n\n[PAWN_pronoun] refused to do any dumb labour [PAWN_pronoun] could pay someone else to do for [PAWN_objective]. -->
+  <Rancher43.description>TODO</Rancher43.description>
   <Rancher43.baseDesc>[PAWN_nameDef] era {PAWN_gender ? el propietari : la propietària} del ranxo on cuidava animals i n’aconseguia carn i llana.\n\nEs negava a fer qualsevol tipus de tasca vulgar i pagava a qui fos per tal de no haver de fer-les {PAWN_gender ? ell : ella}.</Rancher43.baseDesc>
   <!-- EN: rancher -->
   <Rancher43.title>ranxer</Rancher43.title>
@@ -351,13 +391,15 @@
   <Rancher43.titleShortFemale>ranxera</Rancher43.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] tracked animals and people for a wide range of clients. [PAWN_pronoun] became adept at reading spoor, finding food in the wild, and stalking prey. -->
+  <Ranger96.description>TODO</Ranger96.description>
   <Ranger96.baseDesc>[PAWN_nameDef] rastrejava animals i gent per a un rang de clients molt gran. Es va aficionar molt a llegir els rastres, trobar menjar a la natura i a assetjar les seves preses.</Ranger96.baseDesc>
   <!-- EN: ranger -->
   <Ranger96.title>guarda forestal</Ranger96.title>
   <!-- EN: ranger -->
   <Ranger96.titleShort>guardabosc</Ranger96.titleShort>
   
-  <!-- EN: [PAWN_nameDef] was part of a revered order of martial artists, infamous both for their skill in combat and for their practice of refusing to treat their wounded.\n\n[PAWN_pronoun] travelled [PAWN_possessive] homeworld, judging the young people [PAWN_pronoun] met to determine if they might be suitable for training. -->
+  <!-- EN: [PAWN_nameDef] was part of a revered order of martial artists, infamous both for their skill in combat and for their practice of refusing to treat their wounded.\n\n[PAWN_pronoun] traveled [PAWN_possessive] homeworld, judging the young people [PAWN_pronoun] met to determine if they might be suitable for training. -->
+  <Recruiter14.description>TODO</Recruiter14.description>
   <Recruiter14.baseDesc>[PAWN_nameDef] formava part d’una venerada ordre d’arts marcials, coneguda tant per la seva capacitat per la lluita com per refusar el tractament de les seves ferides.\n\nVa viatjar per tot el seu planeta, buscant gent jove que tingués les característiques necessàries per entrar a l’ordre.</Recruiter14.baseDesc>
   <!-- EN: recruiter -->
   <Recruiter14.title>reclutador</Recruiter14.title>
@@ -367,6 +409,7 @@
   <Recruiter14.titleShortFemale>reclutadora</Recruiter14.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] slaughtered animals for a living. Others looked down on this work as filthy, but the skills required to manage and cleanly slaughter large numbers of animals were never simple. -->
+  <Slaughterer58.description>TODO</Slaughterer58.description>
   <Slaughterer58.baseDesc>[PAWN_nameDef] escorxava animals per a guanyar-se la vida. Els altres miraven amb menyspreu aquesta feina tant bruta, però la seva traça per a escorxar molts animals sense embrutar-se no s’ha vist mai superada.</Slaughterer58.baseDesc>
   <!-- EN: slaughterer -->
   <Slaughterer58.title>escorxador</Slaughterer58.title>
@@ -376,6 +419,7 @@
   <Slaughterer58.titleShortFemale>escorxadora</Slaughterer58.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] was educated in the liberal arts and taught at a public school. [PAWN_pronoun] was widely knowledgeable and well-liked by [PAWN_possessive] students. -->
+  <Teacher20.description>TODO</Teacher20.description>
   <Teacher20.baseDesc>[PAWN_nameDef] va rebre educació en les arts liberals i va ensenyar a l’escola pública. Tenia el reconeixement de tothom i agradava força als seus alumnes.</Teacher20.baseDesc>
   <!-- EN: teacher -->
   <Teacher20.title>mestre</Teacher20.title>
@@ -385,6 +429,7 @@
   <Teacher20.titleShortFemale>mestra</Teacher20.titleShortFemale>
   
   <!-- EN: Working for a tyrannical dictator, [PAWN_nameDef] earned a reputation as an expert in 'persuasion.' Any prisoner who went down into the dungeons left with no secrets - and with [PAWN_nameDef]'s smile scarred permanently into their nightmares. -->
+  <Torturer37.description>TODO</Torturer37.description>
   <Torturer37.baseDesc>Treballant per un monarca tirà en un món medieval, [PAWN_nameDef] es va guanyar una reputació com a expert en «persuasió». Extreia els secrets de qualsevol que arribés a les masmorres – i els deixava el seu somriure gravat per sempre en els seus malsons.</Torturer37.baseDesc>
   <!-- EN: torturer -->
   <Torturer37.title>torturador</Torturer37.title>
@@ -394,6 +439,7 @@
   <Torturer37.titleShortFemale>torturadora</Torturer37.titleShortFemale>
   
   <!-- EN: [PAWN_nameDef] treated sick and injured animals for a living. Seeing their suffering affected [PAWN_possessive] stance on the practice of eating meat, and for many years [PAWN_pronoun] lived as a vegetarian. -->
+  <Veterinarian99.description>TODO</Veterinarian99.description>
   <Veterinarian99.baseDesc>[PAWN_nameDef] es guanyava la vida curant animals malalts o ferits. La visió del patiment d’aquests animals va fer que dugués una dieta vegetariana durant molts anys, refusant la tradició culinària del seu planeta natal.</Veterinarian99.baseDesc>
   <!-- EN: veterinarian -->
   <Veterinarian99.title>veterinari</Veterinarian99.title>

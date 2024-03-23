@@ -6,9 +6,9 @@
   <!-- EN: An ancient targeting apparatus for an orbital bombardment system. This unit designates a target and transmits the coordinates to a network of satellites, which then bombard the target area with kinetic impactors. This unit has been reprogrammed to accept unauthorized users, but once it is used, the network will detect the incursion and cut off the link permanently. -->
   <OrbitalTargeterBombardment.description>Un antic aparell pertanyent a un sistema de bombardeig orbital. Permet designar un objectiu i en transmet les coordenades a una xarxa de satèl·lits que bombardegen la zona indicada amb impactes cinètics. Es pot reprogramar per acceptar usuaris no autoritzats, per un cop es fa servir, la xarxa detecta la intrusió i desconnecta l’equip de forma permanent.</OrbitalTargeterBombardment.description>
   <!-- EN: charge -->
-  <OrbitalTargeterBombardment.comps.CompReloadable.chargeNoun>carrega</OrbitalTargeterBombardment.comps.CompReloadable.chargeNoun>
+  <OrbitalTargeterBombardment.comps.CompApparelReloadable.chargeNoun>càrrega</OrbitalTargeterBombardment.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <OrbitalTargeterBombardment.comps.CompReloadable.cooldownGerund>en refredament</OrbitalTargeterBombardment.comps.CompReloadable.cooldownGerund>
+  <OrbitalTargeterBombardment.comps.CompApparelReloadable.cooldownGerund>en refredament</OrbitalTargeterBombardment.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: orbital bombardment targeter -->
   <OrbitalTargeterBombardment.verbs.Verb_Bombardment.label>designador de bombardeig orbital</OrbitalTargeterBombardment.verbs.Verb_Bombardment.label>
   
@@ -17,9 +17,9 @@
   <!-- EN: An ancient targeting unit for a network of power-collection satellites. Once aimed at a target, it directs ancient satellites to begin beaming power down in a massive column of electromagnetic energy. This power can safely be collected in a giant absorption dish. Since you have no absorption dish, you'll be aiming it at enemies, at which point the power column will turn the area into a thousand-degree inferno. This will last until the satellites detect the unsafe targeting, shut themselves down, and permanently deactivate the targeter. -->
   <OrbitalTargeterPowerBeam.description>Un antic aparell pertanyent a una xarxa de satèl·lits de ràfegues d’energia. Quan s’apunta a un objectiu, dirigeix els antics satèl·lits per que descarreguin una potent columna d’energia electromagnètica. L’energia es pot recollir de manera segura en un gegantí disc d’absorció. Com que no disposeu del disc d’absorció, el podeu apuntar als enemics, de forma que el raig d’energia convertirà la zona en un infern d’uns quants centenars de graus. Durarà fins que els satèl·lits detectin que la descàrrega no s’ha fet de forma segura i des desconnectin, desconnectant també de forma definitiva el designador.</OrbitalTargeterPowerBeam.description>
   <!-- EN: charge -->
-  <OrbitalTargeterPowerBeam.comps.CompReloadable.chargeNoun>carrega</OrbitalTargeterPowerBeam.comps.CompReloadable.chargeNoun>
+  <OrbitalTargeterPowerBeam.comps.CompApparelReloadable.chargeNoun>càrrega</OrbitalTargeterPowerBeam.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <OrbitalTargeterPowerBeam.comps.CompReloadable.cooldownGerund>en refredament</OrbitalTargeterPowerBeam.comps.CompReloadable.cooldownGerund>
+  <OrbitalTargeterPowerBeam.comps.CompApparelReloadable.cooldownGerund>en refredament</OrbitalTargeterPowerBeam.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: orbital power beam targeter -->
   <OrbitalTargeterPowerBeam.verbs.Verb_PowerBeam.label>designador de raig d’energia orbital</OrbitalTargeterPowerBeam.verbs.Verb_PowerBeam.label>
   
@@ -28,9 +28,9 @@
   <!-- EN: An ancient control unit for a network of weather-control satellites. This device has had certain failsafes bypassed; it is capable of causing a massive air current disturbance, which will generate a tornado at a chosen location. The weather network will detect this unauthorized intrusion and lock out the device after use, but the tornado will be left to spend its energy normally. -->
   <TornadoGenerator.description>Una antiga unitat de control d’una xarxa de satèl·lits de gestió del clima. Aquest dispositiu ha esquivat alguns controls de seguretat i és capaç de crear grans pertorbacions de corrent d’aire, que degeneren en un tornado en una ubicació concreta. La xarxa de control climàtic detectarà la intrusió i bloquejarà el dispositiu un cop s’hagi fet servir, però el tornado ja no podrà evitar-se i continuarà fins que esgoti la seva energia.</TornadoGenerator.description>
   <!-- EN: charge -->
-  <TornadoGenerator.comps.CompReloadable.chargeNoun>carrega</TornadoGenerator.comps.CompReloadable.chargeNoun>
+  <TornadoGenerator.comps.CompApparelReloadable.chargeNoun>càrrega</TornadoGenerator.comps.CompApparelReloadable.chargeNoun>
   <!-- EN: on cooldown -->
-  <TornadoGenerator.comps.CompReloadable.cooldownGerund>en refredament</TornadoGenerator.comps.CompReloadable.cooldownGerund>
+  <TornadoGenerator.comps.CompApparelReloadable.cooldownGerund>en refredament</TornadoGenerator.comps.CompApparelReloadable.cooldownGerund>
   <!-- EN: tornado generator -->
   <TornadoGenerator.verbs.Verb_Spawn.label>generador de tornados</TornadoGenerator.verbs.Verb_Spawn.label>
   
