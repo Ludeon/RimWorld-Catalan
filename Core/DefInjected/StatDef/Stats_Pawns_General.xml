@@ -30,11 +30,11 @@
   <ComfyTemperatureMin.description>Per sota d’aquesta temperatura, el personatge s’enfadarà. Si està molt per sota, patirà hipotèrmia, tindrà congelacions i pot arribar a morir.</ComfyTemperatureMin.description>
   
   <!-- EN: crawl speed -->
-  <CrawlSpeed.label>TODO</CrawlSpeed.label>
+  <CrawlSpeed.label>velocitat a l’arrossegar-se per terra</CrawlSpeed.label>
   <!-- EN: Speed of crawling in cells per second. -->
-  <CrawlSpeed.description>TODO</CrawlSpeed.description>
+  <CrawlSpeed.description>Velocitat quan s’arrossega per terra en caselles per segon.</CrawlSpeed.description>
   <!-- EN: {0} c/s -->
-  <CrawlSpeed.formatString>TODO</CrawlSpeed.formatString>
+  <CrawlSpeed.formatString>{0} c/s</CrawlSpeed.formatString>
   
   <!-- EN: eating speed -->
   <EatingSpeed.label>velocitat de menjar</EatingSpeed.label>
@@ -72,9 +72,9 @@
   <InjuryHealingFactor.description>Multiplicador que s’aplica al ritme de curació de les ferides d’una persona.</InjuryHealingFactor.description>
   
   <!-- EN: recreation fall rate -->
-  <JoyFallRateFactor.label>TODO</JoyFallRateFactor.label>
+  <JoyFallRateFactor.label>ritme de caiguda de l’entreteniment</JoyFallRateFactor.label>
   <!-- EN: A multiplier on the speed that a person's recreation need falls. -->
-  <JoyFallRateFactor.description>TODO</JoyFallRateFactor.description>
+  <JoyFallRateFactor.description>Multiplicador de la velocitat a la que disminueix el nivell d’entreteniment.</JoyFallRateFactor.description>
   
   <!-- EN: leather amount -->
   <LeatherAmount.label>quantitat de pell</LeatherAmount.label>
@@ -101,9 +101,9 @@
   <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
   <MeditationFocusGain.description>Quantitat de psicoconcentració que guanya la persona per dia de meditació, sense tenir en compte les bonificacions dels objectes de meditació.</MeditationFocusGain.description>
   <!-- EN: {0} / day -->
-  <MeditationFocusGain.formatString>{0}/day</MeditationFocusGain.formatString>
+  <MeditationFocusGain.formatString>{0}/dia</MeditationFocusGain.formatString>
   <!-- EN: {0} / day -->
-  <MeditationFocusGain.formatStringUnfinalized>{0}/day</MeditationFocusGain.formatStringUnfinalized>
+  <MeditationFocusGain.formatStringUnfinalized>{0}/dia</MeditationFocusGain.formatStringUnfinalized>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>nivell de crisi mental</MentalBreakThreshold.label>
