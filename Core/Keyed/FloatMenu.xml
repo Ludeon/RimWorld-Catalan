@@ -46,7 +46,7 @@
   <!-- EN: cannot attack faction ally -->
   <CannotAttackSameFactionMember>no pot atacar un aliat de la facció</CannotAttackSameFactionMember>
   <!-- EN: Incapable of firefighting. -->
-  <IncapableOfFirefighting>No és capaç de lluitar contra els focs.</IncapableOfFirefighting>
+  <IncapableOfFirefighting>No és capaç d’apagar incendis.</IncapableOfFirefighting>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>{1_definite} manualment</OrderManThing>
@@ -159,7 +159,7 @@
   <!-- EN: incapable of mining -->
   <IncapableOfMining>no és capaç d’extreure roques</IncapableOfMining>
   <!-- EN: tree marked for extraction -->
-  <TreeMarkedForExtraction>TODO</TreeMarkedForExtraction>
+  <TreeMarkedForExtraction>arbre marcat per a extraure’l</TreeMarkedForExtraction>
   <!-- EN: angers faction -->
   <AngersFaction>farà enfadar la facció</AngersFaction>
   <!-- EN: no body part -->
@@ -196,7 +196,7 @@
   <GoHere>Vés aquí</GoHere>
 
   <!-- EN: Clean {0} -->
-  <CleanRoom>TODO</CleanRoom>
+  <CleanRoom>Neteja {0_definite}</CleanRoom>
   
   <!-- EN: Arrest {0} -->
   <Arrest>Arresta a {0_definite}</Arrest>
@@ -216,9 +216,9 @@
   <!-- EN: unwaveringly loyal -->
   <Unrecruitable>lleialtat obstinada</Unrecruitable>
   <!-- EN: not recruitable -->
-  <UnrecruitableNoFaction>TODO</UnrecruitableNoFaction> 
+  <UnrecruitableNoFaction>no es pot reclutar</UnrecruitableNoFaction> 
   <!-- EN: Transfer {0_label} -->
-  <TransferEntity>TODO</TransferEntity> 
+  <TransferEntity>Transfereix {0_label}</TransferEntity> 
 
   <!-- EN: Rescue {1_labelShort} -->
   <Rescue>Rescata a {1_labelShort}</Rescue>
@@ -248,15 +248,15 @@
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>No hi ha cap llit assignat per a presoners a l’abast, tancat, desocupat i amb una temperatura segura.</NoPrisonerBed>
   <!-- EN: No prisoner bed available. -->
-  <NoPrisonerBedShort>TODO</NoPrisonerBedShort>
+  <NoPrisonerBedShort>No hi ha llits per a presoners disponibles.</NoPrisonerBedShort>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
   <NoNonPrisonerBed>No hi ha cap llit per assignat per a no presoners a l’abast, desocupat i amb una temperatura segura.</NoNonPrisonerBed>
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
   <NoAnimalBed>No hi ha cap llit per a animals a l’abast, desocupat i amb una temperatura segura.</NoAnimalBed>
   <!-- EN: No reachable, unforbidden, un-reserved {0} -->
-  <NoItemReservedOrReachable>TODO</NoItemReservedOrReachable>
+  <NoItemReservedOrReachable>No hi ha cap {0} a l’abast, {0_gender ? permès : permesa} i sense reservar</NoItemReservedOrReachable>
   <!-- EN: No unforbidden, un-reserved {0} -->
-  <NoItemReserved>TODO</NoItemReserved>
+  <NoItemReserved>No hi ha cap {0} {0_gender ? permès : permesa} i sense reservar</NoItemReserved>
   <!-- EN: Reserved by someone else. -->
   <Reserved>Està reservat per algú altre.</Reserved>
   <!-- EN: Reserved by {1_labelShort} -->
@@ -403,11 +403,11 @@
   <!-- EN: Trade with {0} -->
   <TradeWith>Comercia amb {0}</TradeWith>
   <!-- EN: Dismiss trader -->
-  <DismissTrader>TODO</DismissTrader>
+  <DismissTrader>Despatxa el comerciant</DismissTrader>
   <!-- EN: Cannot trade -->
   <CannotTrade>No es pot comerciar</CannotTrade>
   <!-- EN: Trader dismissed -->
-  <TraderDismissed>TODO</TraderDismissed>
+  <TraderDismissed>Comerciant despatxat</TraderDismissed>
 
   <!-- EN: Open {0_label} -->
   <Open>Obre {0_label}</Open>
@@ -434,17 +434,17 @@
   <TradeWithSettlement>Comercia amb {0}</TradeWithSettlement>
   
   <!-- EN: Enter {0} -->
-  <EnterPortal>TODO</EnterPortal>
+  <EnterPortal>Entra a {0}</EnterPortal>
   <!-- EN: Entering {0} -->
-  <EnteringPortal>TODO</EnteringPortal>
+  <EnteringPortal>S’entra a {0}</EnteringPortal>
   <!-- EN: Enter {0} -->
-  <CommandEnterPortal>TODO</CommandEnterPortal>
+  <CommandEnterPortal>Entra a {0}</CommandEnterPortal>
   <!-- EN: Select people and items to enter the {0}. -->
-  <CommandEnterPortalDesc>TODO</CommandEnterPortalDesc>
+  <CommandEnterPortalDesc>Trieu la gent i elements per a entrar {0_gender ? al : a la} {0}.</CommandEnterPortalDesc>
   <!-- EN: Cancel entering -->
-  <CommandCancelEnterPortal>TODO</CommandCancelEnterPortal>
+  <CommandCancelEnterPortal>Cancel·la l’entrada</CommandCancelEnterPortal>
   <!-- EN: Cancel loading people or items into this. -->
-  <CommandCancelEnterPortalDesc>TODO</CommandCancelEnterPortalDesc>
+  <CommandCancelEnterPortalDesc>Cancel·la-hi la càrrega de gent o d’elements.</CommandCancelEnterPortalDesc>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -591,9 +591,9 @@
   <CannotEnter>No s’hi pot entrar</CannotEnter>
   
   <!-- EN: Cannot enter {0} -->
-  <CannotEnterPortal>TODO</CannotEnterPortal>
+  <CannotEnterPortal>No pot entrar a {0}</CannotEnterPortal>
   <!-- EN: closed -->
-  <PortalClosed>TODO</PortalClosed>
+  <PortalClosed>tancat</PortalClosed>
 
   <!-- Romance partner -->
   <!-- EN: Cannot romance {0} -->
@@ -605,25 +605,25 @@
   <!-- EN: disliked food -->
   <WarningFoodDisliked>menjar que no agrada</WarningFoodDisliked>
   <!-- EN: Unsuitable food -->
-  <FoodNotSuitable>TODO</FoodNotSuitable>
+  <FoodNotSuitable>Menjar inapropiat</FoodNotSuitable>
 
   <!-- EN: Unsuitable drug -->
-  <DrugNotSuitable>TODO</DrugNotSuitable>
+  <DrugNotSuitable>Droga inapropiada</DrugNotSuitable>
   
   <!-- Books -->
   <!-- EN: Assign reading... -->
-  <AssignReading>TODO</AssignReading>
+  <AssignReading>Assigna una lectura…</AssignReading>
   <!-- EN: Read {0} -->
-  <AssignReadNow>TODO</AssignReadNow>
+  <AssignReadNow>Llegeix {0}</AssignReadNow>
   <!-- EN: Cannot read {0} -->
-  <AssignCannotReadNow>TODO</AssignCannotReadNow>
+  <AssignCannotReadNow>No pot llegir {0}</AssignCannotReadNow>
 
   <!-- EN: Prioritize extinguishing fires -->
-  <ExtinguishFiresNearby>TODO</ExtinguishFiresNearby>
+  <ExtinguishFiresNearby>Prioritza l’extinció d’incendis</ExtinguishFiresNearby>
 
   <!-- Analysis -->
   <!-- EN: already analyzed -->
-  <AlreadyAnalyzed>TODO</AlreadyAnalyzed>
+  <AlreadyAnalyzed>ja s’ha analitzat</AlreadyAnalyzed>
   <!-- EN: no reachable, un-reserved research bench available -->
   <NoResearchBench>no es pot arribar a cap banc de recerca disponible i sense reservar</NoResearchBench>
 </LanguageData>

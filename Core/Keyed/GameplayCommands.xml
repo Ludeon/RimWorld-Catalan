@@ -244,9 +244,9 @@
   
   <!-- Firefoam popper -->
   <!-- EN: Auto rebuild -->
-  <CommandAutoRebuild_Building>TODO</CommandAutoRebuild_Building>
+  <CommandAutoRebuild_Building>Reconstrucció automàtica</CommandAutoRebuild_Building>
   <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
-  <CommandAutoRebuild_BuildingDesc>TODO</CommandAutoRebuild_BuildingDesc>
+  <CommandAutoRebuild_BuildingDesc>Si està activat, {BUILDING_definite} es reconstruirà automàticament quan detoni.</CommandAutoRebuild_BuildingDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
@@ -320,13 +320,13 @@
 
   <!-- Send caravan -->
   <!-- EN: Send caravan -->
-  <CommandSendCaravan>TODO</CommandSendCaravan>
+  <CommandSendCaravan>Envia una caravana</CommandSendCaravan>
   <!-- EN: Send caravan... -->
-  <CommandSendCaravanMultiple>TODO</CommandSendCaravanMultiple>
+  <CommandSendCaravanMultiple>Envia la caravana…</CommandSendCaravanMultiple>
   <!-- EN: Send a caravan to this destination from a selected colony which can reach this location. -->
-  <CommandSendCaravanDesc>TODO</CommandSendCaravanDesc>
+  <CommandSendCaravanDesc>Envia una caravana a aquesta destinació des d’una colònia que trieu i que pugui arribar-hi.</CommandSendCaravanDesc>
   <!-- EN: Your settlements have no path to this location. -->
-  <CommandSendCaravanCantReach>TODO</CommandSendCaravanCantReach>
+  <CommandSendCaravanCantReach>No hi ha cap camí des dels vostres assentaments fins aquí.</CommandSendCaravanCantReach>
 
   <!-- Split caravan -->
   <!-- EN: Split -->
@@ -582,11 +582,11 @@
   <!-- EN: Select the creature being carried. -->
   <CommandSelectCarriedPawnDesc>Tria la criatura que es transporta.</CommandSelectCarriedPawnDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectCarriedThing>Tria {0_label}</CommandSelectCarriedThing>
+  <CommandSelectCarriedThing>Tria {0_definite}</CommandSelectCarriedThing>
   <!-- EN: Select the carried item. -->
   <CommandSelectCarriedThingDesc>Tria l’element que es transporta.</CommandSelectCarriedThingDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectContainerThing>Tria {0_label}</CommandSelectContainerThing>
+  <CommandSelectContainerThing>Tria {0_definite}</CommandSelectContainerThing>
   <!-- EN: Select the containing item. -->
   <CommandSelectContainerThingDesc>Tria l’element contenidor.</CommandSelectContainerThingDesc>
   <!-- EN: Select {0_nameDef} -->
@@ -598,7 +598,7 @@
   <!-- EN: Select the contained creature. -->
   <CommandSelectContainedPawnDesc>Tria la criatura que conté.</CommandSelectContainedPawnDesc>
   <!-- EN: Select {0_label} -->
-  <CommandSelectContainedThing>Tria {0_label}</CommandSelectContainedThing>
+  <CommandSelectContainedThing>Tria {0_definite}</CommandSelectContainedThing>
   <!-- EN: Select the contained item. -->
   <CommandSelectContainedThingDesc>Tria l’element que conté.</CommandSelectContainedThingDesc>
 
@@ -643,7 +643,7 @@
   <!-- EN: Linked storage settings -->
   <LinkedStorageSettings>Opcions d’emmagatzematge enllaçat</LinkedStorageSettings>
   <!-- EN: 1 building -->
-  <OneBuilding>TODO</OneBuilding>
+  <OneBuilding>1 estructura</OneBuilding>
   <!-- EN: {0} buildings -->
   <NumBuildings>{0} estructures</NumBuildings>
   <!-- EN: Stores -->
@@ -658,12 +658,12 @@
 
   <!-- Study -->
   <!-- EN: Toggle study -->
-  <CommandToggleStudy>TODO</CommandToggleStudy>
+  <CommandToggleStudy>Commuta’n l’estudi</CommandToggleStudy>
   <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
-  <CommandToggleStudyDesc>TODO</CommandToggleStudyDesc>
+  <CommandToggleStudyDesc>Indica si els guardes ho poden estudiar automàticament. Els temes tabú no s’estudiaran mai.</CommandToggleStudyDesc>
 
   <!-- Limited use count action -->
   <!-- EN: No uses left. -->
-  <CommandNoUsesLeft>TODO</CommandNoUsesLeft>
+  <CommandNoUsesLeft>Ja no es pot fer servir més.</CommandNoUsesLeft>
   
 </LanguageData>
