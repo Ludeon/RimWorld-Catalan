@@ -379,7 +379,20 @@
     <li>desc_sentence->[PAWN_nameDef] is forever changed by the teachings of [THING_title].</li>
     <li>desc_sentence->There is a sense that some secrets are yet to be uncovered.</li>
   -->
-  <ReadBook.rulePack.rulesStrings>TODO</ReadBook.rulePack.rulesStrings>
+  <ReadBook.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] acaba de llegir [THING_title]</li>
+    <li>image->[PAWN_nameFull] tancant [THING_title] per última vegada, amb un somriure de satisfacció a la seva cara [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] passant les pàgines de [THING_title], i absorbint el coneixement que conté en les seves línies [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] posant [THING_title] altra vegada a la llibreria, amb una sensació radiant de [PAWN_objective] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] {PAWN_gender ? assegut : asseguda} tranquil·lament, pensant en les veritats profundes que llegeix a [THING_title] [circumstance_group]</li>
+    <li>circumstance_phrase->mentre estava tranquil·lament amb el seu llibre de lectura preferit</li>
+    <li>circumstance_phrase->amb una tassa de te al costat</li>
+    <li>circumstance_phrase->amb la llum d’una làmpada de lectura</li>
+    <li>desc_sentence->[PAWN_nameDef] està {PAWN_gender ? envoltat : envoltada} de notes sobre [THING_title].</li>
+    <li>desc_sentence->Els ulls de [PAWN_nameDef] brillen amb la saviesa que ha aconseguit.</li>
+    <li>desc_sentence->[PAWN_nameDef] ha canviat per a sempre amb les ensenyances de [THING_title].</li>
+    <li>desc_sentence->Hi ha la sensació que encara s’han de descobrir alguns secrets.</li>
+  </ReadBook.rulePack.rulesStrings>
   
   <!-- EN: struck mineable -->
   <StruckMineable.label>descoberta de mineral</StruckMineable.label>

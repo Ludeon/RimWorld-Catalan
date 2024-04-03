@@ -147,8 +147,8 @@
   <AutoWakeDesc>Quan l’autodespertar està activat, {PAWN_nameDef} es despertarà {PAWN_gender ? sol : sola} quan acabi el procés de permadescans.\n\nSi està desactivat, continuarà permadescansant fins que {PAWN_gender ? se’l : se la} desperti manualment.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef} en aquest moment permadescansa.</IsDeathresting>
-  <!-- EN: Cannot deathrest -->
-  <CannotDeathrest>No pot permadescansar</CannotDeathrest>
+  <!-- EN: cannot deathrest -->
+  <CannotDeathrest>no pot permadescansar</CannotDeathrest>
   <!-- EN: Start deathrest -->
   <StartDeathrest>Comença el permadescans</StartDeathrest>
   <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
@@ -297,8 +297,8 @@
   <ComplexityTotal>Complexitat total</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->
   <ComplexityTotalDesc>La complexitat total de tots els gens en ús.</ComplexityTotalDesc>
-  <!-- EN: Metabolic efficiency -->
-  <Metabolism>Eficiència metabòlica</Metabolism>
+  <!-- EN: metabolic efficiency -->
+  <Metabolism>eficiència metabòlica</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
   <MetabolismDesc>L’eficiència metabòlica total dels gens quan s’ajunten. Una eficiència alta significa que una persona necessitarà menys menjar i una eficiència baixa farà que la persona hagi de menjar més.</MetabolismDesc>
   <!-- EN: Metabolic efficiency -->
