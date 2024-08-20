@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- ITab_Entity -->
+  <!-- EN: Escape interval -->
+  <HoldingPlatformEscapeMTBDays>Interval d'escapades</HoldingPlatformEscapeMTBDays>
+  <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity’s movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
+  <HoldingPlatformEscapeMTBDaysDesc>TODO</HoldingPlatformEscapeMTBDaysDesc>
+  <!-- EN: Entity -->
+  <TabEntity>Entitat</TabEntity>
+  <!-- EN: Study interval -->
+  <StudyInterval>Interval d'estudi</StudyInterval>
+  <!-- EN: How often this entity can be studied. -->
+  <StudyIntervalDesc>Cada quan es pot estudiar aquesta entitat.</StudyIntervalDesc>
+  <!-- EN: Maintain only -->
+  <EntityStudyMode_MaintainOnly>Només mantén</EntityStudyMode_MaintainOnly>
+  <!-- EN: Wardens will not perform special actions on this entity, but other interactions are still available. -->
+  <EntityStudyMode_MaintainOnlyDesc>Els guardes no realitzaran accions especials amb l'entitat, però les normals sí.</EntityStudyMode_MaintainOnlyDesc>
+  <!-- EN: Study -->
+  <EntityStudyMode_Study>Estudia</EntityStudyMode_Study>
+  <!-- EN: Researchers will study the entity. -->
+  <EntityStudyMode_StudyDesc>Els investigadors estudiaran l'entitat.</EntityStudyMode_StudyDesc>
+  <!-- EN: Release -->
+  <EntityStudyMode_Release>Allibera</EntityStudyMode_Release>
+  <!-- EN: A warden will release the entity from the holding platform. Entities may be hostile when released. -->
+  <EntityStudyMode_ReleaseDesc>TODO</EntityStudyMode_ReleaseDesc>
+  <!-- EN: Execute -->
+  <EntityStudyMode_Execute>Executa</EntityStudyMode_Execute>
+  <!-- EN: A warden will execute the restrained entity. -->
+  <EntityStudyMode_ExecuteDesc>TODO</EntityStudyMode_ExecuteDesc>
+  <!-- EN: Extract bioferrite -->
+  <EntityStudyMode_Extract>Extrau bioferrita</EntityStudyMode_Extract>
+  <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can’t be done if the entity is attached to a bioferrite harvester. -->
+  <EntityStudyMode_ExtractDesc>TODO</EntityStudyMode_ExtractDesc>
+  <!-- EN: Requires bioferrite extraction. -->
+  <RequiresBioferriteExtraction>TODO</RequiresBioferriteExtraction>
+  <!-- EN: Blocked by bioferrite harvester. -->
+  <BioferriteHarvesterAttached>TODO</BioferriteHarvesterAttached>
+  <!-- EN: Can't be executed. -->
+  <CantBeExecuted>No es pot executar</CantBeExecuted>
+  <!-- EN: Knowledge gain -->
+  <StudyKnowledgeGain>Coneixement obtingut</StudyKnowledgeGain>
+  <!-- EN: Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge. -->
+  <StudyKnowledgeGainDesc>TODO</StudyKnowledgeGainDesc>
+  <!-- EN: What type of medicine can be given to this entity. -->
+  <MedicineQualityDescriptionEntity>Quin tipus de medicina es pot administrar a l'entitat.</MedicineQualityDescriptionEntity>
+
+  <!-- EN: Electroharvester -->
+  <FactorForElectroharvester>TODO</FactorForElectroharvester>
+  <!-- EN: Long captivity -->
+  <FactorForDaysInCaptivity>TODO</FactorForDaysInCaptivity>
+  <!-- EN: Cold containment bonus -->
+  <FactorForColdCaptivity>TODO</FactorForColdCaptivity>
+  <!-- EN: Incapable of escaping -->
+  <IncapableOfEscaping>Incapaç d'escapar-se</IncapableOfEscaping>
+  <!-- EN: Entity downed -->
+  <EntityDowned>TODO</EntityDowned>
+  <!-- EN: Containment strength -->
+  <FactorContainmentStrength>Força de contenció</FactorContainmentStrength>
+  <!-- EN: Electroharvester -->
+  <FactorElectroharvester>TODO</FactorElectroharvester>
+  <!-- EN: Activity -->
+  <FactorActivity>Activitat</FactorActivity>
+
+</LanguageData>
