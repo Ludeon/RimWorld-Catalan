@@ -144,8 +144,6 @@
   <NonRecruitable>Lleialtat obstinada</NonRecruitable>
   <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
   <NonRecruitableTip>El presoner mostra una lleialtat infranquejable al seu bàndol i es nega a que se’l recluti.</NonRecruitableTip>
-  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
-  <NonRecruitableTipCannotConvert>La seva lleialtat va més enllà de les seves creences i no {0_gender ? se’l : se la} pot convèncer.</NonRecruitableTipCannotConvert>
   <!-- EN: What type of medicine can be given to this prisoner. -->
   <MedicineQualityDescriptionPrisoner>Estableix quins tipus de medicina se li poden donar al presoner.</MedicineQualityDescriptionPrisoner>
 
@@ -450,5 +448,8 @@
   <StudyNotesTab_ToggleStudy>Commuta de tema d’estudi</StudyNotesTab_ToggleStudy>
   <!-- EN: No discoveries yet -->
   <StudyNotesTab_NoDiscoveries>Encara no s’ha fet cap descobriment.</StudyNotesTab_NoDiscoveries>
+
+  <!-- UNUSED -->
+  <NonRecruitableTipCannotConvert>La seva lleialtat va més enllà de les seves creences i no {0_gender ? se’l : se la} pot convèncer.</NonRecruitableTipCannotConvert>
 
 </LanguageData>

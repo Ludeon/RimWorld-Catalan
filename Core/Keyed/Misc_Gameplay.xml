@@ -128,6 +128,8 @@
   <On>Activat</On>
   <!-- EN: Off -->
   <Off>Desactivat</Off>
+  <!-- EN: {0} {1} -->
+  <SourceToolLabel>{1} {0}</SourceToolLabel>
   <!-- EN: Power -->
   <PowerSwitch_Power>Interruptor</PowerSwitch_Power>
   <!-- EN: Recreation type tolerances -->
@@ -317,7 +319,7 @@
   <!-- EN: {0} wants this destroyed. -->
   <QuestTargetDestroyInspectStringShort>{0} ho vol destruït.</QuestTargetDestroyInspectStringShort>
   <!-- EN: Departing on shuttle in {0} -->
-  <ShuttleDelayInspectString>Se’n va en la llançadora d’aquí a {0}.</ShuttleDelayInspectString>
+  <ShuttleDelayInspectString>Se’n va en llançadora d’aquí a {0}.</ShuttleDelayInspectString>
   <!-- EN: Departing in {0} -->
   <ShuttleLeaveDelayInspectString>Se’n va en {0}.</ShuttleLeaveDelayInspectString>
   <!-- EN: Should depart on shuttle -->
@@ -380,6 +382,8 @@
   <MovementDifficultyOffsetInWinter>{0} a l’hivern</MovementDifficultyOffsetInWinter>
   <!-- EN: to -->
   <RangeTo>a</RangeTo>
+  <!-- EN: Caused by -->
+  <CausedBy>Causat per</CausedBy>
   <!-- EN: No letter -->
   <NoDietCategoryLetter>Cap carta</NoDietCategoryLetter>
   <!-- EN: expires in -->
@@ -974,7 +978,7 @@
   <!-- EN: {PAWN_gender} {1} -->
   <PawnMainDescGendered>{PAWN_gender} {1}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
-  <PawnMainDescFactionedWrap>{0} dels {1}</PawnMainDescFactionedWrap>
+  <PawnMainDescFactionedWrap>{0} de {1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
   <PawnTitleDescWrap>{0} de {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
@@ -2022,5 +2026,11 @@
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>Anomalia, la nova expansió, ja està disponible!</MainScreen_AnomalyAvailableNow>
+
+  <!-- EN: Disabled by scenario -->
+  <DisabledByScenario>Desactivat per l'escenari</DisabledByScenario>
+
+  <!-- EN: blocked by roof -->
+  <BlockedByRoof>Blocat pel sostre</BlockedByRoof>
   
 </LanguageData>

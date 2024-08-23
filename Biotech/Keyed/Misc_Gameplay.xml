@@ -12,7 +12,7 @@
   <!-- EN: {0} damage -->
   <DamageType>{0} de dany</DamageType>
   <!-- EN: Contained {0_labelPlural} -->
-  <ContainedThings>{0_labelPlural} contingut</ContainedThings>
+  <ContainedThings>Conté {0_labelPlural}</ContainedThings>
   <!-- EN: Time until next atomization -->
   <DurationUntilNextAtomization>Temps fins a la propera atomització</DurationUntilNextAtomization>
   <!-- EN: Finishes in -->
@@ -768,5 +768,10 @@
   <MyChildIsHappy>el meu fill és feliç</MyChildIsHappy>
   <!-- EN: my child is sad -->
   <MyChildIsSad>el meu fill està trist</MyChildIsSad> 
+  
+  <!-- EN: Genetic {CHEMICAL_label} dependency -->
+  <GeneticChemicalDependency_Label>dependència genètica {CHEMICAL_label}</GeneticChemicalDependency_Label>
+  <!-- EN: I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any. -->
+  <GeneticChemicalDependency_Desc>Necessito {CHEMICAL_label} degut a la meva deficiència genètica. Fa tant de temps que no n’he pres.</GeneticChemicalDependency_Desc>
 
 </LanguageData>
