@@ -23,7 +23,7 @@
   <Disable>Desactiva</Disable>
   <!-- EN: Modify -->
   <Modify>Modifica</Modify>
-  <!-- EN: Settle here anyways? -->
+  <!-- EN: Settle here anyway? -->
   <ConfirmSettle>Voleu establir-vos-hi de totes maneres?</ConfirmSettle>
   <!-- EN: add -->
   <Add>Afegeix</Add>
@@ -249,8 +249,8 @@
   <SelectedCharactersMustInclude>Cal incloure-hi exactament {SUMMARY}.</SelectedCharactersMustInclude>
 
   <!-- Advanced game start options -->
-  <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
-  <MapTemperatureDangerWarning>Avís: Aterrareu en un entorn glaçat. Serà dur o gairebé impossible sobreviure. Si no preteneu fer front a un repte extrem, trieu un lloc o estació de l’any diferents.</MapTemperatureDangerWarning>
+  <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
+  <MapWinterWarning>Avís: Aterrareu durant l’hivern. Potser serà dur o gairebé impossible sobreviure. Si no preteneu fer front a un repte extrem, trieu un lloc o estació de l’any diferents.</MapWinterWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
   <MapSizePerformanceWarning>El joc està dissenyat per jugar-se en mapes mitjans, que tenen lloc suficient.\n\nEls mapes grans no només empitjoren el rendiment, també modifiquen la forma com ha estat concebut el joc. La IA prendrà decisions estúpides i el joc es desequilibrarà en diversos punts. Aquestes mides s’inclouen per tradició i per fer proves. No les empreu sense una raó específica.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
@@ -700,6 +700,8 @@
   <TradeModeTip>Torna al mode comerç.</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
   <TradeCaravanRequestDeniedDueTitle>{FACTION_name} no està disposada a enviar una caravana peerquè {NEGOTIATOR_nameDef} no té el títol de {TITLE}.</TradeCaravanRequestDeniedDueTitle>
+  <!-- EN: {FACTION_name} is not willing to send an orbital trader because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <OrbitalTradeRequestDeniedDueTitle>TODO</OrbitalTradeRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -728,6 +730,10 @@
   <Send>Envia</Send>
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>Quantitat disponible que es pot enviar amb la caravana.</FormCaravanColonyThingCountTip>
+  <!-- EN: Number available to transport. -->
+  <TransporterColonyThingCountTip>TODO</TransporterColonyThingCountTip>
+  <!-- EN: Number available to transfer. -->
+  <TransferMapPortalColonyThingCountTip>TODO</TransferMapPortalColonyThingCountTip>
   <!-- EN: People and animals -->
   <PawnsTab>Persones i animals</PawnsTab>
   <!-- EN: Items -->
@@ -948,6 +954,8 @@
   <DuplicatePolicyTip>Crea un duplicat de la política seleccionada.</DuplicatePolicyTip>
   <!-- EN: Rename this policy. -->
   <RenamePolicyTip>Reanomena aquesta política.</RenamePolicyTip>
+  <!-- EN: Make this policy the default policy given to new colonists. -->
+  <DefaultPolicyTip>TODO</DefaultPolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
   <DeletePolicyConfirm>Esteu segur que voleu esborrar la política «{0}»?</DeletePolicyConfirm>
   <!-- EN: Delete -->
@@ -1059,6 +1067,8 @@
   <SchematicPolicy>Manuals tècnics</SchematicPolicy>
   <!-- EN: Novels -->
   <NovelPolicy>Novel·les</NovelPolicy>
+  <!-- EN: Maps -->
+  <MapPolicy>TODO</MapPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
@@ -1138,8 +1148,10 @@
   <ConfirmBanishPawnDialog_IndividualThoughts>Desterrar {1_definite} farà que aquests colons tinguin els sentiments següents:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>El grup de càpsules encara no està carregat del tot. Falta {1_indefinite}. Voleu llençar-lo igualment?</ConfirmSendNotCompletelyLoadedPods>
+  <!-- EN: The following still need to be loaded -->
+  <ConfirmSendNotCompletelyLoadedLaunchable>TODO</ConfirmSendNotCompletelyLoadedLaunchable>
+  <!-- EN: Launch anyway? -->
+  <ConfirmSendLaunchAnyway>TODO</ConfirmSendLaunchAnyway>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
@@ -1413,11 +1425,19 @@
   <SearchTheMap>Busca al mapa actual</SearchTheMap>
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
   <SearchTheMapDesc>Busca elements, edificis, gent, animals, plantes… al mapa actual.</SearchTheMapDesc>
+  <!-- EN: Search the world -->
+  <SearchTheWorld>TODO</SearchTheWorld>
+  <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
+  <SearchTheWorldDesc>TODO</SearchTheWorldDesc>
   <!-- EN: {0} results found -->
   <MapSearchResults>S'han trobat {0} resultats</MapSearchResults>
   <!-- EN: 1 result found -->
   <MapSearchResultSingular>S'ha trobat un resultat</MapSearchResultSingular>
   <!-- EN: Searching -->
   <Searching>Es cerca…</Searching>
+
+  <!-- UNUSED -->
+  <MapTemperatureDangerWarning>Avís: Aterrareu en un entorn glaçat. Serà dur o gairebé impossible sobreviure. Si no preteneu fer front a un repte extrem, trieu un lloc o estació de l’any diferents.</MapTemperatureDangerWarning>
+  <ConfirmSendNotCompletelyLoadedPods>El grup de càpsules encara no està carregat del tot. Falta {1_indefinite}. Voleu llençar-lo igualment?</ConfirmSendNotCompletelyLoadedPods>
 
 </LanguageData>

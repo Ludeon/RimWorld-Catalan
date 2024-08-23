@@ -51,8 +51,6 @@
   <Appearance>Aparença</Appearance>
   <!-- EN: Done -->
   <DoneButton>Fet</DoneButton>
-  <!-- EN: Caused by -->
-  <CausedBy>Causat per</CausedBy>
   <!-- EN: Belief in -->
   <BeliefInIdeo>Creu en</BeliefInIdeo>
   <!-- EN: Information about {0} -->
@@ -93,17 +91,17 @@
   <Styles>Estils</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Probabilitat de tenir el precepte</ChanceToHavePrecept>
-  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
-  <FavoriteColorTooltip>El color preferit de {PAWN_labelShort}. Si té més d’un {PERCENTAGE} d’indumentària d’aquest color{ORIDEO}, serà una mica més feliç.\n\nPodeu alterar els colors a la taula de d’estilisme amb tints extrets de la planta tintorera.</FavoriteColorTooltip>
+  <!-- EN: {PAWN_labelShort}'s favorite color: {COLOR}\nHaving more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <FavoriteColorTooltip>Color preferit de {PAWN_labelShort}: {COLOR}\n Si té més d’un {PERCENTAGE} d’indumentària d’aquest color{ORIDEO}, serà una mica més feliç.\n\nPodeu alterar els colors a la taula d’estilisme amb tints extrets de la planta tintorera.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
   <OrIdeoColor> {PAWN_gender ? o : o} el de la seva ideoligió</OrIdeoColor>
   <!-- EN: Set ideo color -->
   <SetIdeoColor>Estableix el color de la ideoligió</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>Estableix al color favorit</SetFavoriteColor>
-  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
   <FavoriteColorPickerTip>El color preferit de {PAWN_nameDef}. Si té més del 60 % de la seva indumentària d’aquest color o del color de la seva ideoligió, se sentirà una mica més feliç.</FavoriteColorPickerTip>
-  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
   <IdeoColorPickerTip>El color de la ideoligió de {PAWN_nameDef}. Si té més del 60 % de la seva indumentària d’aquest color o del seu color preferit, se sentirà una mica més feliç.</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Configura la ideoligió de la vostra facció</ConfigureIdeoligion>
@@ -203,8 +201,14 @@
   <RitualTargetConnectedGauranlenTree>Ja està connectat a {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>Al {TREE} se li ha tallat la connexió fa poc. Es podrà reconnectar d’aquí a {1}.</RitualTargetConnectionTornGauranlenTree>
-  <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
-  <RitualTargeWoodInfo>Necessiteu {0} de fusta per cada participant ({2} en total). Teniu {1} de fusta.</RitualTargeWoodInfo>
+  <!-- EN: You need {0} wood for each participant ({1} total). -->
+  <RitualTargetWoodInfo>Necessiteu {0} de fusta per cada participant ({1} en total).</RitualTargetWoodInfo>
+  <!-- EN: A participant cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppend>Un participant no pot aconseguir prou fusta.</RitualTargetWoodInfoAppend>
+  <!-- EN: {0} participants cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppendMultiple>{0} participants no poden aconseguir prou fusta.</RitualTargetWoodInfoAppendMultiple>
+  <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
+  <RitualTargetWoodInfoWarning>{PAWN_labelShort} no pot aconseguir prou fusta.</RitualTargetWoodInfoWarning>
   <!-- EN: {0} must be able to reach ritual target. -->
   <RitualTargetUnreachable>{0} ha de poder arribar a l’objectiu del ritual.</RitualTargetUnreachable>
   <!-- EN: Accuse -->
@@ -377,18 +381,6 @@
   <!-- Outfits -->
   <!-- EN: Slave -->
   <OutfitSlave>Esclau</OutfitSlave>
-
-  <!-- Hacking -->
-  <!-- EN: Hack progress -->
-  <HackProgress>Hackeig en curs</HackProgress>
-  <!-- EN: hacking speed -->
-  <HackingSpeed>velocitat de hackeig</HackingSpeed>
-  <!-- EN: {0}'s -->
-  <HackingLastUser>de {0}</HackingLastUser>
-  <!-- EN: hacked -->
-  <Hacked>hackejat</Hacked>
-  <!-- EN: Terminals hacked -->
-  <TerminalsHacked>Terminals hackejats</TerminalsHacked>
 
   <!-- EN: Relic info found -->
   <RelicInfoFound>S’ha trobat informació de la relíquia</RelicInfoFound>
@@ -662,5 +654,10 @@
   <ChangeStyleDesc>Canvia l’estil de construcció. Només té efectes visuals i no influeix el desenvolupament de la partida.</ChangeStyleDesc>
   <!-- EN: No available styles. -->
   <ChangeStyleDisabledNoCategories>No hi ha estils disponibles.</ChangeStyleDisabledNoCategories>
+  <!-- EN: Spacedrone self-destructs in {0} -->
+  <SpacedroneSelfDestructsIn>El dron espacial s’autodestruirà en {0}</SpacedroneSelfDestructsIn>
+
+  <!-- UNUSED -->
+  <RitualTargeWoodInfo>Necessiteu {0} de fusta per cada participant ({2} en total). Teniu {1} de fusta.</RitualTargeWoodInfo>
 
 </LanguageData>

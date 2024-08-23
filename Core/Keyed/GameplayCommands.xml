@@ -102,19 +102,56 @@
   <AreYouSure>Esteu segur que ho voleu fer?</AreYouSure>
   <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <ChangingOwnerTypeBedWarning>Els canvis d’ús dels llits afecten a tota l’habitació, ja que presoners, esclaus i colons no poden dormir a la mateixa habitació.\n\nAquestes persones perdran els seus llits:</ChangingOwnerTypeBedWarning>
-
-
+  
   <!-- EN: Detonate -->
   <CommandDetonateLabel>Inicia la detonació</CommandDetonateLabel>
   <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>Inicia el compte enrere per la detonació.</CommandDetonateDesc>
-
+  
   <!-- EN: Hide -->
-  <CommandHideZoneLabel>Amaga</CommandHideZoneLabel>
+  <CommandHideLabel>Amaga</CommandHideLabel>
   <!-- EN: Unhide -->
-  <CommandUnhideZoneLabel>Mostra</CommandUnhideZoneLabel>
-  <!-- EN: Hide/unhide this zone. -->
-  <CommandHideZoneDesc>Amaga/mostra aquesta zona.</CommandHideZoneDesc>
+  <CommandUnhideLabel>Mostra</CommandUnhideLabel>
+  
+  <!-- EN: Toggle this plan's visibility.\n\nRight-click to hide or unhide all zones. -->
+  <CommandHidePlanDesc>TODO</CommandHidePlanDesc>
+  <!-- EN: Hide/unhide this zone.\n\nRight-click to hide or unhide all zones. -->
+  <CommandHideZoneDesc>Amaga/mostra aquesta zona.\n\nFeu clic amb el botó dret per a amagar o mostrar totes les zones.</CommandHideZoneDesc>
+  
+  <!-- EN: Show all zones -->
+  <ShowAllZones>TODO</ShowAllZones>
+  <!-- EN: Hide all zones -->
+  <HideAllZones>TODO</HideAllZones>
+  <!-- EN: Show all {0} zones -->
+  <ShowAllZoneTypes>TODO</ShowAllZoneTypes>
+  <!-- EN: Hide all {0} zones -->
+  <HideAllZoneTypes>TODO</HideAllZoneTypes>
+  <!-- EN: planning -->
+  <Planning>TODO</Planning>
+  
+  <!-- EN: Change color -->
+  <CommandChangeColorPlanLabel>TODO</CommandChangeColorPlanLabel>
+  <!-- EN: Change the color of this plan. -->
+  <CommandChangeColorPlanDesc>TODO</CommandChangeColorPlanDesc>
+  
+  <!-- EN: Delete -->
+  <CommandDeletePlanLabel>TODO</CommandDeletePlanLabel>
+  <!-- EN: Delete this plan. -->
+  <CommandDeletePlanDesc>TODO</CommandDeletePlanDesc>
+  
+  <!-- EN: Copy -->
+  <CommandCopyPlanLabel>TODO</CommandCopyPlanLabel>
+  <!-- EN: Copy this plan. -->
+  <CommandCopyPlanDesc>TODO</CommandCopyPlanDesc>
+  
+  <!-- EN: Copy selection... -->
+  <CommandCopyPlanSelectionLabel>TODO</CommandCopyPlanSelectionLabel>
+  <!-- EN: Copy all plans within a selected area. -->
+  <CommandCopyPlanSelectionDesc>TODO</CommandCopyPlanSelectionDesc>
+  <!-- EN: Select area to copy -->
+  <CommandCopyPlanSelectionMouse>TODO</CommandCopyPlanSelectionMouse>
+  <!-- EN: Paste selected area -->
+  <CommandCopyPlanSelectionPasteMouse>TODO</CommandCopyPlanSelectionPasteMouse>
 
   <!-- EN: Delete -->
   <CommandDeleteZoneLabel>Esborra</CommandDeleteZoneLabel>
@@ -357,6 +394,16 @@
   <CommandSettleFailNoColonists>No hi ha ningú que pugui reclamar aquesta zona.</CommandSettleFailNoColonists>
   <!-- EN: There are enemies in this area. -->
   <CommandSettleFailEnemies>Hi ha enemics a la zona.</CommandSettleFailEnemies>
+  <!-- EN: Cannot settle here. -->
+  <CommandSettleFailGeneric>TODO</CommandSettleFailGeneric>
+
+  <!-- Camp -->
+  <!-- EN: Camp -->
+  <CommandCamp>TODO</CommandCamp>
+  <!-- EN: Set up a temporary camp that can quickly be abandoned. -->
+  <CommandCampDesc>TODO</CommandCampDesc>
+  <!-- EN: Cannot camp here. -->
+  <CommandCampFailExistingWorldObject>TODO</CommandCampFailExistingWorldObject>
   
   <!-- Abandon home -->
   <!-- EN: Abandon -->
@@ -383,6 +430,20 @@
   <CommandAddToCaravan>Afegeix a la caravana</CommandAddToCaravan>
   <!-- EN: Add this person or animal to the forming caravan. -->
   <CommandAddToCaravanDesc>Afegeix aquesta persona o animal a la caravana que s’està preparant.</CommandAddToCaravanDesc>
+  
+  <!-- Force caravan depart -->
+  <!-- EN: Force caravan departure -->
+  <CommandForceCaravanDepart>TODO</CommandForceCaravanDepart>
+  <!-- EN: Force the caravan to depart immediately with only the currently-loaded items. Anyone unable to travel will be left behind. -->
+  <CommandForceCaravanDepartDesc>TODO</CommandForceCaravanDepartDesc>
+  <!-- EN: Are you sure you want to depart? -->
+  <ConfirmForceDepartIntro>TODO</ConfirmForceDepartIntro>
+  <!-- EN: The following items are still being loaded and will be left behind: -->
+  <ConfirmForceDepartItemsStillLoading>TODO</ConfirmForceDepartItemsStillLoading>
+  <!-- EN: The following people won't be a part of the caravan: -->
+  <ConfirmForceDepartPawnsNotLeaving>TODO</ConfirmForceDepartPawnsNotLeaving>
+  <!-- EN: The following items are loaded onto creatures who won't be a part of the caravan and will be left behind: -->
+  <ConfirmForceDepartItemsOnPawnsNotLeaving>TODO</ConfirmForceDepartItemsOnPawnsNotLeaving>
   
   <!-- Show map -->
   <!-- EN: Zoom in -->
@@ -433,27 +494,41 @@
   <!-- Refueling -->
   <!-- EN: Toggle automatic refuel -->
   <CommandToggleAllowAutoRefuel>Commuta la provisió automàtica de combustible</CommandToggleAllowAutoRefuel>
-  <!-- EN: Sets whether or not automatic refueling is allowed. -->
-  <CommandToggleAllowAutoRefuelDesc>Estableix si s’ha d’automatitzar o no la provisió de combustible.</CommandToggleAllowAutoRefuelDesc>
-  
+  <!-- EN: This determines whether colonists will automatically refuel this. If enabled, colonists will fill this up to {0}.\n\nAutomatic refueling is currently {ONOFF}. -->
+  <CommandToggleAllowAutoRefuelDesc>Estableix si els colons hi han de proveir combustible automàticament. Si s’activa, els colons l’ompliran fins al {0}.\n\nAra mateix, el subministre automàtic de combustible està {ONOFF}.</CommandToggleAllowAutoRefuelDesc>
+  <!-- EN: This determines whether colonists will automatically refuel these buildings.\n\nAutomatic refueling is currently {ONOFF}. -->
+  <CommandToggleAllowAutoRefuelDescMult>TODO</CommandToggleAllowAutoRefuelDescMult>
+
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
   <CommandCancelLoad>Cancel·la la càrrega</CommandCancelLoad>
   <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
   <CommandCancelLoadDesc>Cancel·la la càrrega de persones i elements i trau el que hi hagi carregat.</CommandCancelLoadDesc>
-  
+  <!-- EN: Unload all -->
+  <CommandUnload>TODO</CommandUnload>
+  <!-- EN: Eject all contents from the {0}. -->
+  <CommandUnloadDesc>TODO</CommandUnloadDesc>
+
   <!-- Launch group -->
   <!-- EN: Launch -->
   <CommandLaunchGroup>Llança</CommandLaunchGroup>
   <!-- EN: Take off and fly to a destination. -->
   <CommandLaunchGroupDesc>Enlaira la nau i aquesta volarà cap a una nova destinació.</CommandLaunchGroupDesc>
+  <!-- EN: Must be loaded first. -->
+  <CommandLaunchGroupFailNotLoaded>TODO</CommandLaunchGroupFailNotLoaded>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>Algunes càpsules de càrrega d’aquest grup de càrrega no estan connectades a un assortidor de combustible.</CommandLaunchGroupFailNotConnectedToFuelingPort>
-  <!-- EN: Some pod launchers in this group have no fuel. -->
+  <!-- EN: Roof blocking launch. -->
+  <CommandLaunchGroupFailUnderRoof>Un sostre bloca el llançament.</CommandLaunchGroupFailUnderRoof>
+  <!-- EN: Not enough fuel to launch. -->
   <CommandLaunchGroupFailNoFuel>Algunes llançadores de càpsules del grup no estan connectades a un sortidor.</CommandLaunchGroupFailNoFuel>
-  <!-- EN: Some pod launchers are under a roof. -->
-  <CommandLaunchGroupFailUnderRoof>Algunes llançadores de càpsules estan sota un cobert.</CommandLaunchGroupFailUnderRoof>
-  
+  <!-- EN: Over mass capacity. -->
+  <CommandLaunchGroupFailOverMassCapacity>TODO</CommandLaunchGroupFailOverMassCapacity>
+  <!-- EN: On cooldown. -->
+  <CommandLaunchGroupCooldown>TODO</CommandLaunchGroupCooldown>
+  <!-- EN: {0} / {1} kg -->
+  <MassUsageString>TODO</MassUsageString>
+
   <!-- Load transporter -->
   <!-- EN: Load launch group of {0} -->
   <CommandLoadTransporter>Carrega el grup de llançament de {0}</CommandLoadTransporter>
@@ -615,15 +690,15 @@
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
   <CommandLeaveRitual>Surt de {RITUAL_labelDef}</CommandLeaveRitual>
-  <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
-  <CommandLeaveRitualDesc>Deixa de participar al ritual {RITUAL_label}. El ritual seguirà endavant, sempre que hi quedi almenys un participant.</CommandLeaveRitualDesc>
+  <!-- EN: Stop participating in the {RITUAL_labelDef}. The event will continue as long as it has at least one participant. -->
+  <CommandLeaveRitualDesc>Deixa de participar al ritual {RITUAL_label}. L’esdeveniment seguirà endavant sempre que hi quedi almenys un participant.</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
   <CommandLeaveLastParticipant>Aquest és l’últim participant del ritual {RITUAL_label}.</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
   <CommandCancelRitual>Cancel·la {RITUAL_labelDef}</CommandCancelRitual>
-  <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
-  <CommandCancelRitualDesc>Finalitza el ritual {RITUAL_label} ara mateix. Es mantindran les obligacions rituals. Podreu tornar a fer el ritual més endavant.</CommandCancelRitualDesc>
+  <!-- EN: End the {RITUAL_labelDef} immediately. You can restart the event later. -->
+  <CommandCancelRitualDesc>Finalitza el ritual {RITUAL_label} ara mateix. Podreu tornar a fer el ritual més endavant.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>Esteu segur que voleu cancel·lar {RITUAL_labelDef}?</CommandCancelRitualConfirm>
 
@@ -665,5 +740,33 @@
   <!-- Limited use count action -->
   <!-- EN: No uses left. -->
   <CommandNoUsesLeft>Ja no es pot fer servir més.</CommandNoUsesLeft>
+
+  <!-- Map Portal -->
+  <!-- EN: View {0} -->
+  <CommandViewPocketMapLabel>TODO</CommandViewPocketMapLabel>
+  <!-- EN: View the connected {0} map. -->
+  <CommandViewPocketMapDesc>TODO</CommandViewPocketMapDesc>
+  <!-- EN: View surface -->
+  <CommandViewSurface>TODO</CommandViewSurface>
+  <!-- EN: View the connected surface map. -->
+  <CommandViewSurfaceDesc>TODO</CommandViewSurfaceDesc>
+
+  <!-- Auto-build pod -->
+  <!-- EN: Auto build transport pod -->
+  <AutoBuildTransportPod>TODO</AutoBuildTransportPod>
+  <!-- EN: If on, your colonists will automatically build a new transport pod when possible. -->
+  <AutoBuildTransportPodDesc>TODO</AutoBuildTransportPodDesc>
   
+  <!-- Hacking gizmo -->
+  <!-- EN: Hack... -->
+  <HackGizmo>TODO</HackGizmo>
+  <!-- EN: Cannot hack -->
+  <CannotChooseHacker>TODO</CannotChooseHacker>
+  <!-- EN: Choose hacker -->
+  <CommandChooseHacker>TODO</CommandChooseHacker>
+  
+  <!-- UNUSED -->
+  <CommandHideZoneLabel>Amaga</CommandHideZoneLabel>
+  <CommandUnhideZoneLabel>Mostra</CommandUnhideZoneLabel>
+
 </LanguageData>

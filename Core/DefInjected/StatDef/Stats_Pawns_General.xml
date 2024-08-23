@@ -51,6 +51,13 @@
   <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
   <FilthRate.description>Indica la porqueria que produeix l’animal.\n\nÉs millor mantenir els animals que produeixen brutícia a l’exterior o en estores de palla, on la seva misèria no serà cap problema.</FilthRate.description>
   
+  <!-- EN: flight cooldown -->
+  <FlightCooldown.label>TODO</FlightCooldown.label>
+  <!-- EN: The rest time needed before this creature can fly again. -->
+  <FlightCooldown.description>TODO</FlightCooldown.description>
+  <!-- EN: {0}s -->
+  <FlightCooldown.formatString>TODO</FlightCooldown.formatString>
+  
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>quantitat de menjar que cull</ForagedNutritionPerDay.label>
   <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
@@ -85,6 +92,13 @@
   <LifespanFactor.label>factor d’esperança de vida</LifespanFactor.label>
   <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
   <LifespanFactor.description>El factor d’esperança de vida modifica l’esperança de vida efectiva d’una criatura i escurça o allarga la seva vida fins que comença a desenvolupar malalties relacionades amb l’edat. Un factor per sobre del 100 % indica que s’endarrerirà l’aparició de malalties i s’allargarà l’esperança de vida, mentre que un factor per sota de 100 % accelera l’aparició de malalties i redueix l’esperança de vida.</LifespanFactor.description>
+  
+  <!-- EN: max flight time -->
+  <MaxFlightTime.label>TODO</MaxFlightTime.label>
+  <!-- EN: The maximum amount of time this creature can stay in flight before landing. -->
+  <MaxFlightTime.description>TODO</MaxFlightTime.description>
+  <!-- EN: {0}s -->
+  <MaxFlightTime.formatString>TODO</MaxFlightTime.formatString>
   
   <!-- EN: max nutrition -->
   <MaxNutrition.label>nutrients màxims</MaxNutrition.label>
@@ -163,5 +177,10 @@
   <ToxicResistance.label>resistència a la toxicitat</ToxicResistance.label>
   <!-- EN: How well this creature resists toxic buildup. -->
   <ToxicResistance.description>Indica com resisteix la criatura front a les toxines de l’entorn a les que hagi sigut exposada, com ara verins, pluja tòxica, contaminació, etc.</ToxicResistance.description>
+  
+  <!-- EN: wildness -->
+  <Wildness.label>TODO</Wildness.label>
+  <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
+  <Wildness.description>TODO</Wildness.description>
   
 </LanguageData>

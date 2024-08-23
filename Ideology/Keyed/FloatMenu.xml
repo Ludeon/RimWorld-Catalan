@@ -7,6 +7,8 @@
   <OnlyMembersCanBuild>Només els {0}s poden construir</OnlyMembersCanBuild>
   <!-- EN: {0} is already in progress. -->
   <CantStartRitualAlreadyInProgress>{0} ja està en curs.</CantStartRitualAlreadyInProgress>
+  <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}. -->
+  <CantStartRitualLayer>TODO</CantStartRitualLayer>
   <!-- EN: One or more participants can't join due to extreme temperature. -->
   <CantJoinRitualInExtremeWeather>Un o més participants no es poden afegir degut a les temperatures extremes.</CantJoinRitualInExtremeWeather>
   <!-- EN: {0} is already participating in a ritual. -->
@@ -36,8 +38,6 @@
   <!-- EN: not allowed for faction -->
   <NotAllowedForFaction>a la facció no se li permet</NotAllowedForFaction>
 
-  <!-- EN: Remove -->
-  <Remove>Trau</Remove>
   <!-- EN: Remove precept -->
   <RemovePrecept>Treu el precepte</RemovePrecept>
   <!-- EN: Regenerate -->
@@ -101,17 +101,6 @@
   <IdeoAlreadyHasAltar>només pot tenir un altar/ideograma</IdeoAlreadyHasAltar>
   <!-- EN: recolor apparel -->
   <RecolorApparel>canvia color de la indumentària</RecolorApparel>
-
-  <!-- EN: Hack {0} -->
-  <Hack>Hackeja {0}</Hack>
-  <!-- EN: Cannot hack {0} -->
-  <CannotHack>{0} no es pot hackejar</CannotHack>
-  <!-- EN: Already hacked -->
-  <AlreadyHacked>Ja s’ha hackejat</AlreadyHacked>
-  <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>No és capaç de hackejar</IncapableOfHacking>
-  <!-- EN: to drop supplies -->
-  <ToDropSupplies>per deixar subministres</ToDropSupplies>
 
   <!-- EN: Install {0} -->
   <InstallRelic>Instal·la {0}</InstallRelic>

@@ -267,7 +267,7 @@
   <!-- EN: Expires on {0} -->
   <QuestExpiresOn>El termini finalitza el {0}.</QuestExpiresOn>
   <!-- EN: Average guest mood (previous {0}): {1} -->
-  <QuestAveragePawnMood>Estat d’ànim mitjà dels hostes (abans era de {0}): {1}</QuestAveragePawnMood>
+  <QuestAveragePawnMood>Estat d’ànim mitjà dels hostes (els últims {0}): {1}</QuestAveragePawnMood>
   <!-- EN: The average mood of {0} over the previous {1} -->
   <QuestAveragePawnMoodTargets>L’estat d’ànim mitjà de {0} respecte l’anterior de {1}.</QuestAveragePawnMoodTargets>
   <!-- EN: Shuttle arrives in {0} -->
@@ -322,6 +322,8 @@
   <QuestPawnNotOnColonyMap>que {PAWN_definite} estigui a la vostra colònia principal</QuestPawnNotOnColonyMap>
   <!-- EN: the map clear of enemies of the bestower's faction -->
   <QuestRequiresNoDangerOnMap>que el mapa estigui lliure d’enemics de la facció que la lliura</QuestRequiresNoDangerOnMap>
+  <!-- EN: that {PROJECT_label} has been researched. -->
+  <QuestRequiresResearch>TODO</QuestRequiresResearch>
   <!-- EN: to finish the ongoing bestowing ceremony quest -->
   <QuestCanNotStartUntilBestowingCeremonyFinished>acabar la cerimònia de lliurament de la missió en curs</QuestCanNotStartUntilBestowingCeremonyFinished>
   <!-- EN: Reward preferences -->
@@ -358,6 +360,10 @@
   <QuestNeutralTo>ser neutral respecte {0}</QuestNeutralTo>
   <!-- EN: studied {0_labelShort} -->
   <QuestRequiredThingStudied>haver estudiat {0_labelShort}</QuestRequiredThingStudied>
+  <!-- EN: cannot accept {GERUND} {LAYER} -->
+  <QuestRequiredLayer>TODO</QuestRequiredLayer>
+  <!-- EN: cannot accept in space -->
+  <QuestNotSpace>TODO</QuestNotSpace>
 
   <!-- Health tab -->
   <!-- EN: Creates need -->

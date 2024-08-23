@@ -22,8 +22,12 @@
   <!-- EN: Not allowed -->
   <NotAllowed>No permès</NotAllowed>
   
+  <!-- EN: Attack {1_labelShort} -->
+  <Attack>TODO</Attack>
   <!-- EN: Fire at {1_labelShort} -->
   <FireAt>Dispara a {1_labelShort}</FireAt>
+  <!-- EN: Remove -->
+  <Remove>Trau</Remove>
 
   <!-- EN: out of range -->
   <OutOfRange>fora d’abast</OutOfRange>
@@ -41,6 +45,8 @@
   <IsNotDraftedLower>{1_definite} no està reclutat</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>no podeu donar ordres a unitats que no controleu</CannotOrderNonControlledLower>
+  <!-- EN: cannot attack -->
+  <CannotAttack>TODO</CannotAttack>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>no es pot atacar a si mateix</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
@@ -88,6 +94,8 @@
   <AboveAllowedSkill>per sobre del nivell permès {0}</AboveAllowedSkill>
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>no es pot fer fora de la cel·la</NoReachableOutsideCell>
+  <!-- EN: cannot exit map -->
+  <CannotExitMap>TODO</CannotExitMap>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>no té el nivell d’habilitat necessari</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -188,7 +196,7 @@
   <AlreadyAssigned>ja s’ha assignat</AlreadyAssigned>
   
   <!-- EN: Consume {1_labelShort} -->
-  <ConsumeThing>Consumeix {1_labelShort}</ConsumeThing>
+  <ConsumeThing>Consumeix {1_labelShortIndef}</ConsumeThing>
   
   <!-- EN: Cannot go here: No path -->
   <CannotGoNoPath>No s’hi pot anar perquè no hi ha camí.</CannotGoNoPath>
@@ -228,6 +236,8 @@
   <TakingToBed>Porta {0_labelShort} al llit.</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>No es pot rescatar</CannotRescue>
+  <!-- EN: Cannot rescue {PAWN_labelShort} -->
+  <CannotRescuePawn>TODO</CannotRescuePawn>
 
   <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
   <CarryToCryptosleepCasket>Porta a {1_labelShort} al sarcòfag de criptoson</CarryToCryptosleepCasket>
@@ -289,12 +299,20 @@
   
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>Força a portar {1_definite}</ForceWear>
+  <!-- EN: Force target to wear {1_labelShort}... -->
+  <ForceTargetToWear>TODO</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>No pot portar {1_indefinite}</CannotWear>
+  <!-- EN: Cannot force target to wear {1_label} -->
+  <CannotForceTargetToWear>TODO</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
   <ForceEquipApparel>Força a portar posat {1_indefinite}</ForceEquipApparel>
+  <!-- EN: Force target to equip {1_labelShort}... -->
+  <ForceTargetToEquipApparel>TODO</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>No pot portar posat {1_label}</CannotEquipApparel>
+  <!-- EN: Cannot force target to equip {1_label} -->
+  <CannotForceTargetToEquipApparel>TODO</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>li falten parts del cos</CannotWearBecauseOfMissingBodyParts>
   
@@ -397,6 +415,8 @@
   <NoDoctor>sense metge</NoDoctor>
   <!-- EN: medical bed not for slaves -->
   <NotForSlaves>el llit mèdic no és per a esclaus</NotForSlaves>
+  <!-- EN: Medical care disabled -->
+  <MedicalCareDisabled>TODO</MedicalCareDisabled>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>ocupat per {0_definite}</SomeoneElseSleeping>
   
@@ -426,25 +446,12 @@
   <AttackSettlement>Ataca a {0}</AttackSettlement>
   <!-- EN: Approach {0} -->
   <ApproachSite>Acosta’t a {0}</ApproachSite>
-  <!-- EN: Approaching {0} -->
-  <ApproachingSite>S’acosta a {0}</ApproachingSite>
+  <!-- EN: Approaching {0}. -->
+  <ApproachingSite>S’acosta a {0}.</ApproachingSite>
   <!-- EN: Offer gifts -->
   <OfferGifts>Ofereix regals</OfferGifts>
   <!-- EN: Trade with {0} -->
   <TradeWithSettlement>Comercia amb {0}</TradeWithSettlement>
-  
-  <!-- EN: Enter {0} -->
-  <EnterPortal>Entra a {0}</EnterPortal>
-  <!-- EN: Entering {0} -->
-  <EnteringPortal>S’entra a {0}</EnteringPortal>
-  <!-- EN: Enter {0} -->
-  <CommandEnterPortal>Entra a {0}</CommandEnterPortal>
-  <!-- EN: Select people and items to enter the {0}. -->
-  <CommandEnterPortalDesc>Trieu la gent i elements per a entrar {0_gender ? al : a la} {0}.</CommandEnterPortalDesc>
-  <!-- EN: Cancel entering -->
-  <CommandCancelEnterPortal>Cancel·la l’entrada</CommandCancelEnterPortal>
-  <!-- EN: Cancel loading people or items into this. -->
-  <CommandCancelEnterPortalDesc>Cancel·la-hi la càrrega de gent o d’elements.</CommandCancelEnterPortalDesc>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -460,8 +467,8 @@
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>No es pot {0}</CannotGenericWorkCustom>
 
-  <!-- EN: Cannot prioritize: Incapable of {0} -->
-  <CannotMissingHealthActivities>No es pot prioritzar perquè no pot {0}</CannotMissingHealthActivities>
+  <!-- EN: Incapable of {0} -->
+  <CannotMissingHealthActivities>No és capaç de {0}</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
   <!-- EN: Already {0} {2_labelShort} -->
@@ -469,28 +476,28 @@
   <!-- EN: Already {0} -->
   <CannotGenericAlreadyAmCustom>Ja {0}</CannotGenericAlreadyAmCustom>
 
-  <!-- EN: Cannot prioritize: Will never do {0} -->
-  <CannotPrioritizeWorkTypeDisabled>No ho pot prioritzar perquè no {0} mai</CannotPrioritizeWorkTypeDisabled>
+  <!-- EN: Will never do {0} -->
+  <CannotPrioritizeWorkTypeDisabled>No se li permeten tasques de {0}</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
   <MissingTitleAbility>no té el títol necessari</MissingTitleAbility>
 
-  <!-- EN: Cannot prioritize: Will never {0} -->
-  <CannotPrioritizeWorkGiverDisabled> No ho pot prioritzar perquè no {0} mai</CannotPrioritizeWorkGiverDisabled>
+  <!-- EN: Will never {0} -->
+  <CannotPrioritizeWorkGiverDisabled>Mai farà tasques de {0}</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>no {0} mai</WillNever>
 
-  <!-- EN: Cannot prioritize: Not assigned to {0} -->
-  <CannotPrioritizeNotAssignedToWorkType>No es pot prioritzar perquè no està assignat a {0}.</CannotPrioritizeNotAssignedToWorkType>
+  <!-- EN: Not assigned to {0} -->
+  <CannotPrioritizeNotAssignedToWorkType>No està assignat a {0}.</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>no està assignat</NotAssigned>
   <!-- EN: not assigned to {0} -->
   <NotAssignedToWorkType>no està assignat a {0}</NotAssignedToWorkType>
 
-  <!-- EN: Cannot prioritize: Research is a long-term task -->
-  <CannotPrioritizeResearch> No es pot prioritzar ja que la recerca és una tasca a llarg termini.</CannotPrioritizeResearch>
+  <!-- EN: Research is a long-term task -->
+  <CannotPrioritizeResearch>La recerca és una tasca a llarg termini.</CannotPrioritizeResearch>
 
-  <!-- EN: Cannot prioritize: {1_label} is forbidden -->
-  <CannotPrioritizeForbidden> No es pot prioritzar ja que {1_definite} està prohibit.</CannotPrioritizeForbidden>
+  <!-- EN: {1_label} is forbidden -->
+  <CannotPrioritizeForbidden>{1_definite} està prohibit.</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: Forbidden -->
   <CannotPrioritizeCellForbidden>No es pot prioritzar ja que està prohibit.</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
@@ -501,7 +508,13 @@
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
   <PrioritizeGeneric>Prioritza {0} {1}</PrioritizeGeneric>
-  
+  <!-- EN: Prioritize {0} -->
+  <PrioritizeGenericSimple>TODO</PrioritizeGenericSimple>
+
+  <!-- EN: Launch to {LOCATION_label} -->
+  <LaunchTo>TODO</LaunchTo>
+  <!-- EN: Are you sure you want to launch? -->
+  <LaunchToConfirmation>TODO</LaunchToConfirmation>
   <!-- EN: Drop at edge -->
   <DropAtEdge>Aterra a la vora</DropAtEdge>
   <!-- EN: Drop in center -->
@@ -626,4 +639,24 @@
   <AlreadyAnalyzed>ja s’ha analitzat</AlreadyAnalyzed>
   <!-- EN: no reachable, un-reserved research bench available -->
   <NoResearchBench>no es pot arribar a cap banc de recerca disponible i sense reservar</NoResearchBench>
+
+  <!-- Hacking -->
+  <!-- EN: Hack {0} -->
+  <Hack>Hackeja {0}</Hack>
+  <!-- EN: Choose a colonist to hack this. -->
+  <HackDesc>TODO</HackDesc>
+  <!-- EN: Cannot hack {0} -->
+  <CannotHack>{0} no es pot hackejar</CannotHack>
+  <!-- EN: Locked out -->
+  <LockedOut>TODO</LockedOut>
+  <!-- EN: Already hacked -->
+  <AlreadyHacked>Ja s’ha hackejat</AlreadyHacked>
+  <!-- EN: Incapable of hacking -->
+  <IncapableOfHacking>No és capaç de hackejar</IncapableOfHacking>
+  <!-- EN: to drop supplies -->
+  <ToDropSupplies>per deixar subministres</ToDropSupplies>
+
+  <!-- UNUSED -->
+  <CommandEnterPortal>Entra a {0}</CommandEnterPortal>
+
 </LanguageData>

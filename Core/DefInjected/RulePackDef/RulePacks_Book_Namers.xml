@@ -189,7 +189,191 @@
     <li>story->Volume</li>
     <li>story->Whimsy</li>
   -->
-  <Namer_Novel.rulePack.rulesStrings>TODO</Namer_Novel.rulePack.rulesStrings>
+  <Namer_Novel.rulePack.rulesStrings>
+    <li>title(p=3)->[titleNaked]</li>
+    <li>title->[titleNaked] de [ANYPAWN_nameIndef]</li>
+    <li>title->[story] de [Character]</li>
+    <li>title->[objectAny] de [Character]</li>
+    <li>title->[Character] [linkagePlace] [place]</li>
+    <li>title->El [Character] [adjective]</li>
+    <li>title->El [objectAny] [adjective]</li>
+    <li>titleNaked->[ConceptAny]</li>
+    <li>titleNaked->[ConceptAny] [adjective]</li>
+    <li>titleNaked->[ConceptAny] [linkage] [ConceptAny]</li>
+    <li>titleNaked->[ConceptAny] [linkagePlace] [place]</li>
+    <li>titleNaked->[objectAny] [linkage] [ConceptAny]</li>
+    <li>objectAny->[Game]</li>
+    <li>objectAny->[Weapon]</li>
+    <li>linkage->de</li>
+    <li>linkage->per</li>
+    <li>linkage->per a</li>
+    <li>linkage->sense</li>
+    <li>linkage->amb</li>
+    <li>linkagePlace->a</li>
+    <li>linkagePlace->en</li>
+    <li>linkagePlace->damunt</li>
+    <li>linkagePlace->al costat de</li>
+    <li>adjective->[AdjectiveAny]</li>
+    <li>place(p=25)->[TerrainFeature]</li>
+    <li>place->l'abisme</li>
+    <li>place->l'amfiteatre</li>
+    <li>place->l'aquari</li>
+    <li>place->l'aqüeducte</li>
+    <li>place->l'arena</li>
+    <li>place->el manicomi</li>
+    <li>place->el quarter</li>
+    <li>place->la base</li>
+    <li>place->el búnquer</li>
+    <li>place->la cabanya</li>
+    <li>place->el campament</li>
+    <li>place->el castell</li>
+    <li>place->la catedral</li>
+    <li>place->la caverna</li>
+    <li>place->la ciutadella</li>
+    <li>place->la ciutat</li>
+    <li>place->el coliseu</li>
+    <li>place->la colònia</li>
+    <li>place->les profunditats</li>
+    <li>place->el desert</li>
+    <li>place->l'ascensor</li>
+    <li>place->la fàbrica</li>
+    <li>place->el festival</li>
+    <li>place->la fortalesa</li>
+    <li>place->la clariana</li>
+    <li>place->el cementiri</li>
+    <li>place->l'hivernacle</li>
+    <li>place->l'arbreda</li>
+    <li>place->el port</li>
+    <li>place->el cor</li>
+    <li>place->l'eixam</li>
+    <li>place->l'hospital</li>
+    <li>place->l'illa</li>
+    <li>place->la selva</li>
+    <li>place->el camp de treball</li>
+    <li>place->el laboratori</li>
+    <li>place->el laberint</li>
+    <li>place->la plataforma de llançament</li>
+    <li>place->la llibreria</li>
+    <li>place->el far</li>
+    <li>place->la casa</li>
+    <li>place->la mansió</li>
+    <li>place->el mercat</li>
+    <li>place->la mina</li>
+    <li>place->el monestir</li>
+    <li>place->la muntanya</li>
+    <li>place->el Nexe</li>
+    <li>place->l'oasi</li>
+    <li>place->l'observatori</li>
+    <li>place->l'hort</li>
+    <li>place->el post avançat</li>
+    <li>place->el palau</li>
+    <li>place->la plana</li>
+    <li>place->la presó</li>
+    <li>place->la refineria</li>
+    <li>place->el complex turístic</li>
+    <li>place->l'escletxa</li>
+    <li>place->les ruïnes</li>
+    <li>place->el santuari</li>
+    <li>place->l'escola</li>
+    <li>place->l'assentament</li>
+    <li>place->el vaixell</li>
+    <li>place->l'ànima</li>
+    <li>place->l'estació espacial</li>
+    <li>place->el port espacial</li>
+    <li>place->la font</li>
+    <li>place->el pantà</li>
+    <li>place->la taverna</li>
+    <li>place->el temple</li>
+    <li>place->el poblat</li>
+    <li>place->la tundra</li>
+    <li>place->la universitat</li>
+    <li>place->la vil·la</li>
+    <li>place->el volcà</li>
+    <li>place->el magatzem</li>
+    <li>place->l'erm</li>
+    <li>place->l'entorn salvatge</li>
+    <li>place->el zoo</li>
+    <li>story->Aventura</li>
+    <li>story->Aventures</li>
+    <li>story->Al·legoria</li>
+    <li>story->Anècdota</li>
+    <li>story->Anals</li>
+    <li>story->Balada</li>
+    <li>story->Biografia</li>
+    <li>story->Capítols</li>
+    <li>story->Crònica</li>
+    <li>story->Cròniques</li>
+    <li>story->Cronologia</li>
+    <li>story->Comèdia</li>
+    <li>story->Compendi</li>
+    <li>story->Recopilació</li>
+    <li>story->Diàleg</li>
+    <li>story->Diari</li>
+    <li>story->Discurs</li>
+    <li>story->Drama</li>
+    <li>story->Somni</li>
+    <li>story->Enigma</li>
+    <li>story->Èpica</li>
+    <li>story->Epifania</li>
+    <li>story->Epístola</li>
+    <li>story->Faula</li>
+    <li>story->Faules</li>
+    <li>story->Conte de fades</li>
+    <li>story->Fantasia</li>
+    <li>story->Fantasies</li>
+    <li>story->Ficció</li>
+    <li>story->Folklore</li>
+    <li>story->Història</li>
+    <li>story->Imaginació</li>
+    <li>story->Imaginacions</li>
+    <li>story->Visió</li>
+    <li>story->Apunts</li>
+    <li>story->Revista</li>
+    <li>story->Viatge</li>
+    <li>story->Llegat</li>
+    <li>story->Llegenda</li>
+    <li>story->Llegendes</li>
+    <li>story->Literatura</li>
+    <li>story->Registre</li>
+    <li>story->Memòria</li>
+    <li>story->Memòries</li>
+    <li>story->Ment</li>
+    <li>story->Musical</li>
+    <li>story->Pensaments</li>
+    <li>story->Mite</li>
+    <li>story->Mitologia</li>
+    <li>story->Narracions</li>
+    <li>story->Narrativa</li>
+    <li>story->Novel·la</li>
+    <li>story->Observacions</li>
+    <li>story->Oda</li>
+    <li>story->Pàgines</li>
+    <li>story->Papers</li>
+    <li>story->Paràbola</li>
+    <li>story->Prosa</li>
+    <li>story->Records</li>
+    <li>story->Recull</li>
+    <li>story->Reflexió</li>
+    <li>story->Reflexions</li>
+    <li>story->Reminiscència</li>
+    <li>story->Revelació</li>
+    <li>story->Rapsòdia</li>
+    <li>story->Saga</li>
+    <li>story->Escriptures</li>
+    <li>story->Guió</li>
+    <li>story->Esbós</li>
+    <li>story->Esbossos</li>
+    <li>story->Història</li>
+    <li>story->Conte</li>
+    <li>story->Contes</li>
+    <li>story->Testament</li>
+    <li>story->Testimoni</li>
+    <li>story->Tragèdia</li>
+    <li>story->Tribut</li>
+    <li>story->Versos</li>
+    <li>story->Volum</li>
+    <li>story->Capritxos</li>
+  </Namer_Novel.rulePack.rulesStrings>
   
   <!-- EN:
     <li>title->The Design of [subject_primary]</li>
@@ -318,7 +502,140 @@
     <li>randTheme->rights</li>
     <li>randTheme->ethics</li>
   -->
-  <Namer_Schematic.rulePack.rulesStrings>TODO</Namer_Schematic.rulePack.rulesStrings>
+  <Namer_Schematic.rulePack.rulesStrings>
+    <li>title->Disseny de [subject_primary]</li>
+    <li>title->Notes sobre [subject_primary]</li>
+    <li>title->Avenços sobre [subject_primary]</li>
+    <li>title->Estudi de [subject_primary]</li>
+    <li>title->Noves aplicacions de [subject_primary]</li>
+    <li>title->Coneixent [subject_primary]</li>
+    <li>title->Els principis de [subject_primary]</li>
+    <li>title->Els fonaments de [subject_primary]</li>
+    <li>title->[subject_primary], part [volNumeral]</li>
+    <li>title->[subject_primary], vol. [volNumeral]</li>
+    <li>title->[subject_primary] [randAdjective]</li>
+    <li>title->[subject_primary] [randAdjective], vol. [volNumeral]</li>
+    <li>title->[maybe_authored_title]</li>
+    <li>title(has_subject_secondary==true)->[studiesStart] [subject_primary] al sector [subject_secondary]</li>
+    <li>title->[studiesStart] [subject_primary] després de [lifeEvent]</li>
+    <li>title->[studiesStart] [subject_primary]: [anecdotes]</li>
+    <li>title->[studiesStart] [subject_primary]: [discussionNoun_indef] [randAdjective]</li>
+    <li>title->[referenceType] de [subject_primary] [randAdjective]</li>
+    <li>title->[referenceType] de [subject_primary] [randAdjective], vol. [volNumeral]</li>
+    <li>title->[studiesStart] [subject_primary] [randAdjective], vol. [volNumeral]</li>
+    <li>title->[referenceType] de [studiesStart] [subject_primary] [randAdjective]</li>
+    <li>title->[lifeEvent], [discussionNoun] sobre [subject_primary]</li>
+    <li>studiesStart->estudis sobre</li>
+    <li>studiesStart->fonaments de</li>
+    <li>studiesStart->gestió de</li>
+    <li>studiesStart->històries de</li>
+    <li>studiesStart->treballs sobre</li>
+    <li>studiesStart->representació de</li>
+    <li>studiesStart->supervivència de</li>
+    <li>studiesStart->avenços en</li>
+    <li>studiesStart->aplicacions de</li>
+    <li>studiesStart->el futur de</li>
+    <li>studiesStart->documentació sobre</li>
+    <li>referenceType->l'enciclopèdia</li>
+    <li>referenceType->el diccionari</li>
+    <li>referenceType->l'almanac</li>
+    <li>referenceType->el registre</li>
+    <li>referenceType->els annals</li>
+    <li>referenceType->el recull</li>
+    <li>referenceType->la guia</li>
+    <li>referenceType->les cròniques</li>
+    <li>referenceType->el tutorial</li>
+    <li>referenceType->el repertori</li>
+    <li>anecdotes->pensaments</li>
+    <li>anecdotes->anècdotes</li>
+    <li>anecdotes->històries populars</li>
+    <li>anecdotes->rumors</li>
+    <li>anecdotes->històries</li>
+    <li>anecdotes->narracions</li>
+    <li>discussionNoun->discussió</li>
+    <li>discussionNoun->debat</li>
+    <li>discussionNoun->discurs</li>
+    <li>discussionNoun->diàleg</li>
+    <li>discussionNoun->dialèctica</li>
+    <li>discussionNoun->examen</li>
+    <li>discussionNoun->consulta</li>
+    <li>discussionNoun->controvèrsia</li>
+    <li>discussionNoun_indef->una discussió</li>
+    <li>discussionNoun_indef->un debat</li>
+    <li>discussionNoun_indef->un discurs</li>
+    <li>discussionNoun_indef->un diàleg</li>
+    <li>discussionNoun_indef->una dialèctica</li>
+    <li>discussionNoun_indef->un examen</li>
+    <li>discussionNoun_indef->una consulta</li>
+    <li>discussionNoun_indef->una controvèrsia</li>
+    <li>lifeEvent->la lesió</li>
+    <li>lifeEvent->la clonació</li>
+    <li>lifeEvent->el trauma</li>
+    <li>lifeEvent->la separació</li>
+    <li>lifeEvent->l'aterratge</li>
+    <li>lifeEvent->la revolució</li>
+    <li>lifeEvent->la invocació arcotècnica</li>
+    <li>lifeEvent->l'Hòrax</li>
+    <li>lifeEvent->el naixement</li>
+    <li>lifeEvent->l'accident</li>
+    <li>lifeEvent->la fusió càrnica</li>
+    <li>lifeEvent->el permadescans</li>
+    <li>lifeEvent->la sublevació</li>
+    <li>lifeEvent->la quimera</li>
+    <li>lifeEvent->el somni</li>
+    <li>lifeEvent->la cascada</li>
+    <li>lifeEvent->la lobotomia</li>
+    <li>lifeEvent->la infecció d'arquites</li>
+    <li>volNumeral->I</li>
+    <li>volNumeral->II</li>
+    <li>volNumeral->III</li>
+    <li>volNumeral->IV</li>
+    <li>volNumeral->V</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=2)->[titleTwoSubjects]</li>
+    <li>titleTwoSubjects->Introducció a [subjectsTuple]</li>
+    <li>titleTwoSubjects->Anàlisi de [subjectsTuple]</li>
+    <li>maybe_authored_title->[author_gen]</li>
+    <li>author_gen->Estudis de [ANYPAWN_nameIndef]</li>
+    <li>author_gen->Notes de [ANYPAWN_nameIndef]</li>
+    <li>author_gen->Seminaris de [ANYPAWN_nameIndef]</li>
+    <li>maybe_authored_title(length_subject_primary[less_than]20,p=2)->[authored_title_gen]</li>
+    <li>maybe_authored_title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[authored_title_gen_two]</li>
+    <li>authored_title_gen->Guia de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
+    <li>authored_title_gen->Introducció de [ANYPAWN_nameIndef] sobre [subject_primary]</li>
+    <li>authored_title_gen_two->Guia de [ANYPAWN_nameIndef] sobre [subjectsTuple]</li>
+    <li>authored_title_gen_two->Introducció de [ANYPAWN_nameIndef] a [subjectsTuple]</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=2)->[subject_primary] i [subject_secondary]</li>
+    <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] i [randTheme]</li>
+    <li>subjectsTuple->[subject_primary] i [randTheme]</li>
+    <li>randAdjective->bàsic</li>
+    <li>randAdjective->millor</li>
+    <li>randAdjective->brillamoner</li>
+    <li>randAdjective->medieval</li>
+    <li>randAdjective->arcaic</li>
+    <li>randAdjective->espantós</li>
+    <li>randAdjective->de la penombra</li>
+    <li>randAdjective->dels mons morts</li>
+    <li>randAdjective->grotesc</li>
+    <li>randAdjective->sepulcral</li>
+    <li>randAdjective->sagrat</li>
+    <li>randAdjective->fosc</li>
+    <li>randAdjective->del submón</li>
+    <li>randAdjective->primitiu</li>
+    <li>randAdjective->de supervivència</li>
+    <li>randAdjective->lúgubre</li>
+    <li>randAdjective->horripilant</li>
+    <li>randAdjective->críptic</li>
+    <li>randAdjective->maleït</li>
+    <li>randTheme->i l'enginyeria</li>
+    <li>randTheme->i el folklore</li>
+    <li>randTheme->i la ciència ficció</li>
+    <li>randTheme->i consells de supervivència</li>
+    <li>randTheme->i els voramons</li>
+    <li>randTheme->i l'autofàgia</li>
+    <li>randTheme->i la fe</li>
+    <li>randTheme->i els drets</li>
+    <li>randTheme->i l'ètica</li>
+  </Namer_Schematic.rulePack.rulesStrings>
   
   <!-- EN:
     <li>title->[titleBasic]</li>
@@ -469,6 +786,154 @@
     <li>randTheme->self-improvement</li>
     <li>randTheme->understanding</li>
   -->
-  <Namer_TextBook.rulePack.rulesStrings>TODO</Namer_TextBook.rulePack.rulesStrings>
+  <Namer_TextBook.rulePack.rulesStrings>
+    <li>title->[titleBasic]</li>
+    <li>title(p=2)->[titleAuthored]</li>
+    <li>title(p=2)->[titleAuthoredNoSubject]</li>
+    <li>title(length_subject_primary[less_than]20,p=4)->[titleAuthoredOneSubject]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleBasicTwoSubjects]</li>
+    <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleAuthoredTwoSubjects]</li>
+    <li>titleBasic(p=6)->[subject_primary] [randAdjective]</li>
+    <li>titleBasic(p=6)->[randNoun] i [subject_primary]</li>
+    <li>titleBasic->Lliçons de [subject_primary]</li>
+    <li>titleBasic->Pensaments sobre [subject_primary]</li>
+    <li>titleBasic->Una guia per a [subject_primary]</li>
+    <li>titleBasic->Introducció a [subject_primary]</li>
+    <li>titleBasic->Primers passos de [subject_primary]</li>
+    <li>titleBasic->Fonaments de [subject_primary]</li>
+    <li>titleBasic->Mestratge sobre [subject_primary]</li>
+    <li>titleBasic->Els fonaments de [subject_primary]</li>
+    <li>titleBasic->Navegant per [subject_primary]</li>
+    <li>titleBasic->Conceptes claus de [subject_primary]</li>
+    <li>titleBasic->L'art de [subject_primary]</li>
+    <li>titleBasic->Classes magistrals de [subject_primary]</li>
+    <li>titleBasic->Descodificant [subject_primary]</li>
+    <li>titleBasic->Tècniques avançades de [subject_primary]</li>
+    <li>titleBasic->Desblocant [subject_primary]</li>
+    <li>titleBasic->Guia pràctica de [subject_primary]</li>
+    <li>titleBasic->Explorant [subject_primary]</li>
+    <li>titleBasic->Consells professionals: [subject_primary]</li>
+    <li>titleBasic->Entenent [subject_primary]</li>
+    <li>titleBasic->Viatge a través de [subject_primary]</li>
+    <li>titleBasic->El camí de [subject_primary]</li>
+    <li>titleBasic->Visions sobre [subject_primary]</li>
+    <li>titleBasic->Disseccionant [subject_primary]</li>
+    <li>titleBasic->Els secrets de [subject_primary]</li>
+    <li>titleBasic->El domini de [subject_primary]</li>
+    <li>titleBasic->Estudi en profunditat de [subject_primary]</li>
+    <li>titleAuthoredNoSubject->Estudis de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Estudis [randAdjective] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->El diari de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Les cròniques de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Memòries de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Quaderns de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Reflexions de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Les aventures de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Reflexions de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Les recerques de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Testimonis de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->L'odissea de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->El viatge de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->La vida de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->La història de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->El llegat de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Les aventures de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Els diaris de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Les gestes de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Les reflexions de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Els testimonis de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Les cròniques de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredNoSubject->Les memòries de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->[subject_primary] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->Guia de [subject_primary] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->Introducció de [subject_primary] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] explora [subject_primary]</li>
+    <li>titleAuthoredOneSubject->Coneixements bàsics [subject_primary] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->Manual sobre [subject_primary] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->Perspectives sobre [subject_primary] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->Manual de [subject_primary] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->Anàlisi de [subject_primary] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->Aproximació a [subject_primary] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->Descobriments sobre [subject_primary] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->La base de [subject_primary] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->Study of [subject_primary] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->Investigation into [subject_primary] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredOneSubject->Research on [subject_primary] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] explica [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Guia de [subjectsTuple] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->Introducció a [subjectsTuple] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] explora [subjectsTuple]</li>
+    <li>titleAuthoredTwoSubjects->Visió general sobre [subjectsTuple] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->Manual sobre [subjectsTuple] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->Perspectives sobre [subjectsTuple] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->Manual de [subjectsTuple] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->Anàlisi de [subjectsTuple] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->Una aproximació a [subjectsTuple] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->Descobriments en [subjectsTuple] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->Coneixements sobre [subjectsTuple] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->Estudi de [subjectsTuple] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->Investigació sobre [subjectsTuple] de [ANYPAWN_nameIndef]</li>
+    <li>titleAuthoredTwoSubjects->Investigacions sobre [subjectsTuple] de [ANYPAWN_nameIndef]</li>
+    <li>titleBasicTwoSubjects->[subjectsTuple] de [ANYPAWN_nameIndef]</li>
+    <li>titleBasicTwoSubjects->Una introducció a [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->El millor de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Combinant [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Lliçons de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Sobre [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Una guia de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Introducció a [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Els primers passos de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Coneixements essencials de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Mestratge en [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Els fonaments de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Navegant per [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Conceptes claus de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->L'art de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Classes magistrals: [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Decodificant [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Tècniques avançades de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Desblocant [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Guia pràctica de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Explorant [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Consells professionals: [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Coneixent [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Viatge a través de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->El camí de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Pensaments sobre [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Desentrellant [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Els secrets de [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Aprofundiment en [subjectsTuple]</li>
+    <li>titleBasicTwoSubjects->Estudi en profunditat sobre [subjectsTuple]</li>
+    <li>subjectsTuple(has_subject_secondary==true,p=6)->[subject_primary] i [subject_secondary]</li>
+    <li>subjectsTuple->[subject_secondary], [subject_primary], i [randTheme]</li>
+    <li>subjectsTuple->[subject_primary] i [randTheme]</li>
+    <li>randNoun->Mort</li>
+    <li>randNoun->Vida</li>
+    <li>randNoun->Amor</li>
+    <li>randNoun->Creixement</li>
+    <li>randNoun->Coratge</li>
+    <li>randNoun->Saviesa</li>
+    <li>randNoun->Salut</li>
+    <li>randNoun->Gambadabums</li>
+    <li>randNoun->Pirates</li>
+    <li>randAdjective->primordial</li>
+    <li>randAdjective->eficient</li>
+    <li>randAdjective->eloqüent</li>
+    <li>randAdjective->espectacular</li>
+    <li>randAdjective->regular</li>
+    <li>randAdjective->dolent</li>
+    <li>randAdjective->bo</li>
+    <li>randAdjective->brillamoner</li>
+    <li>randAdjective->rural</li>
+    <li>randAdjective->medieval</li>
+    <li>randAdjective->inspirador</li>
+    <li>randAdjective->saludable</li>
+    <li>randAdjective->nefast</li>
+    <li>randAdjective->caòtic</li>
+    <li>randAdjective->divertit</li>
+    <li>randTheme->el coneixement</li>
+    <li>randTheme->la superació personal</li>
+    <li>randTheme->la comprensió</li>
+  </Namer_TextBook.rulePack.rulesStrings>
   
 </LanguageData>

@@ -16,6 +16,11 @@
   <!-- EN: Deconstruct this and reclaim part of its resources. -->
   <DesignatorDeconstructDesc>Desmunta-ho i recupera’n part dels recursos amb què es va fer.</DesignatorDeconstructDesc>
 
+  <!-- EN: Deconstruct conduit -->
+  <DesignatorDeconstructConduit>TODO</DesignatorDeconstructConduit>
+  <!-- EN: Deconstruct power conduits and reclaim part of their resources. -->
+  <DesignatorDeconstructConduitDesc>TODO</DesignatorDeconstructConduitDesc>
+
   <!-- EN: Uninstall -->
   <DesignatorUninstall>Desinstal·la</DesignatorUninstall>
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
@@ -45,8 +50,8 @@
 
   <!-- EN: Hunt -->
   <DesignatorHunt>Caça</DesignatorHunt>
-  <!-- EN: Mark animals to be hunted by your hunters. -->
-  <DesignatorHuntDesc>Marca animals perquè els vostres caçadors els cacin.</DesignatorHuntDesc>
+  <!-- EN: Mark animals to be hunted by your hunters.\n\nOnly hunters with suitable ranged weapons will hunt. -->
+  <DesignatorHuntDesc>Marca animals perquè els cacin els vostres caçadors.\n\nNomés ho faran els caçadors que portin a sobre una arma a distància adequada.</DesignatorHuntDesc>
 
   <!-- EN: Mine -->
   <DesignatorMine>Excava</DesignatorMine>
@@ -73,8 +78,8 @@
 
   <!-- EN: Plan -->
   <DesignatorPlan>Planifica</DesignatorPlan>
-  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions. -->
-  <DesignatorPlanDesc>Permet planificar els dissenys, com si dibuixéssiu plànols. No es construeix res; només és una ajuda per marcar possibles expansions.</DesignatorPlanDesc>
+  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions.\n\nRight-click to hide or unhide all planning zones. -->
+  <DesignatorPlanDesc>Permet planificar els dissenys, com si dibuixéssiu plànols. No es construeix res; només és una ajuda per marcar possibles expansions.\n\nFeu clic amb el botó dret per a amagar o mostrar totes les zones planificades.</DesignatorPlanDesc>
 
   <!-- EN: Remove plans -->
   <DesignatorPlanRemove>Esborra els plans</DesignatorPlanRemove>
@@ -168,8 +173,8 @@
 
   <!-- EN: Remove bridge -->
   <DesignatorRemoveBridge>Treu un pont</DesignatorRemoveBridge>
-  <!-- EN: Remove bridges to reveal the terrain underneath. -->
-  <DesignatorRemoveBridgeDesc>Desmunta ponts i deixa a la vista el terreny de sota.</DesignatorRemoveBridgeDesc>
+  <!-- EN: Deconstruct bridges to reclaim partial resources. -->
+  <DesignatorRemoveBridgeDesc>Desmunta ponts per a recuperar-ne parts dels recursos.</DesignatorRemoveBridgeDesc>
 
   <!-- EN: Strip -->
   <DesignatorStrip>Despulla</DesignatorStrip>
@@ -181,6 +186,11 @@
   <!-- EN: Open containers. -->
   <DesignatorOpenDesc>Obre caixes i contenidors.</DesignatorOpenDesc>
   
+  <!-- EN: Eject fuel -->
+  <DesignatorEjectFuel>TODO</DesignatorEjectFuel>
+  <!-- EN: Eject all contained fuel onto the ground. -->
+  <DesignatorEjectFuelDesc>TODO</DesignatorEjectFuelDesc>
+
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>Escorxa</DesignatorSlaughter>
   <!-- EN: Slaughter a tame animal. -->
@@ -190,6 +200,8 @@
   <DesignatorTame>Domestica</DesignatorTame>
   <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>Domestica un animal salvatge.</DesignatorTameDesc>
+  <!-- EN: Scaria infected animals can't be tamed. -->
+  <CantTameScaria>TODO</CantTameScaria>
 
   <!-- EN: Release to wild -->
   <DesignatorReleaseAnimalToWild>Allibera a la natura</DesignatorReleaseAnimalToWild>
@@ -240,6 +252,16 @@
   <!-- EN: Grabbed color -->
   <GrabbedColor>Color agafat</GrabbedColor>
 
+  <!-- EN: Expand plan -->
+  <DesignatorExpandPlan>TODO</DesignatorExpandPlan>
+  <!-- EN: New plan -->
+  <NewPlan>TODO</NewPlan>
+  
+  <!-- EN: Shrink plan -->
+  <DesignatorPlanShrinkSingular>TODO</DesignatorPlanShrinkSingular>
+  <!-- EN: Remove plans. -->
+  <DesignatorPlanShrinkDesc>TODO</DesignatorPlanShrinkDesc>
+
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
   <UnchosenStuff>No s’ha triat el material.</UnchosenStuff>
@@ -259,6 +281,10 @@
   <WouldBlockInteractionSpot>{0} podria blocar el punt d’interacció de {1}.</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>El terreny ja està {0}.</TerrainIsAlready>
+  <!-- EN: There is already foundation here. -->
+  <FoundationAlreadyExists>TODO</FoundationAlreadyExists>
+  <!-- EN: The existing terrain here cannot be removed. -->
+  <TerrainUnremovable>TODO</TerrainUnremovable>
   <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>La superfície ja està marcada per polir.</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
@@ -299,6 +325,11 @@
   <ExpandOrCreateZone>Amplia {0} o\ncrea {1_gender ? un nou : una nova} {1}</ExpandOrCreateZone>
   <!-- EN: Create new {0} -->
   <CreateNewZone>Crea {0_gender ? un nou : una nova} {0}</CreateNewZone>
+  
+  <!-- EN: Expand {0} or\nCreate new plan -->
+  <ExpandOrCreatePlan>TODO</ExpandOrCreatePlan>
+  <!-- EN: Create new plan -->
+  <CreateNewPlan>TODO</CreateNewPlan>
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->

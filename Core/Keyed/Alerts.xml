@@ -70,11 +70,6 @@
   <!-- EN: A colonist is left unburied.\n\nThis may negatively affect your colonists' mood. -->
   <AlertColonistLeftUnburiedDesc>S’ha deixat un colon sense enterrar.\n\nPot afectar negativament a l’estat d’ànim dels colons.</AlertColonistLeftUnburiedDesc>
 
-  <!-- EN: Hunter lacks suitable weapon -->
-  <HunterLacksWeapon>A un caçador li fa falta una arma adequada</HunterLacksWeapon>
-  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon appropriate for hunting.\n\nThey will not hunt until they are carrying an appropriate weapon.\n\nThe following colonists are assigned as hunters and need suitable ranged weapons -->
-  <HunterLacksWeaponDesc>Un colon caçador no disposa d’arma a distància apta per a caçar.\n\nNo caçarà fins que en porti una.\n\nAquests colons tenen assignades tasques de caça i necessiten armes a distància adequades</HunterLacksWeaponDesc>
-
   <!-- EN: Tattered apparel -->
   <AlertTatteredApparel>Roba esparracada</AlertTatteredApparel>
   <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n{0}\n\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
@@ -152,6 +147,8 @@
   <!-- EN: You have the equipment to do research but have not selected a project.\n\n(Click to open the research menu.) -->
   <NeedResearchProjectDesc>Disposeu de l’equipament de recerca, però encara no heu triat cap projecte.\n\n(Feu clic per a obrir el menú de recerca.)</NeedResearchProjectDesc>
 
+  <!-- EN: 1 colonist idle -->
+  <ColonistIdle>TODO</ColonistIdle>
   <!-- EN: {0} colonists idle -->
   <ColonistsIdle>{0} colons desocupats</ColonistsIdle>
   <!-- EN: These colonists are wandering idly:\n{0}\n\nYou should probably find them something productive to do. -->
@@ -334,4 +331,8 @@
   <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
   <NeedResearchBenchDesc>Teniu actiu el projecte de recerca «{0}». El projecte requereix que construïu {1}.</NeedResearchBenchDesc>
   
+  <!-- UNUSED -->
+  <HunterLacksWeapon>A un caçador li fa falta una arma adequada</HunterLacksWeapon>
+  <HunterLacksWeaponDesc>Un colon caçador no disposa d’arma a distància apta per a caçar.\n\nNo caçarà fins que en porti una.\n\nAquests colons tenen assignades tasques de caça i necessiten armes a distància adequades</HunterLacksWeaponDesc>
+
 </LanguageData>

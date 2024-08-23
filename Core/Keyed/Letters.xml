@@ -295,6 +295,8 @@
   <LetterLabelFactionBaseDefeated>Base destruïda</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
   <LetterFactionBaseDefeated>L’assentament enemic de {0} ha estat destruït.\n\nD’aquí a {1}, la caravana serà atacada pels enemics. Començaran a enviar forces per atacar la caravana, llevat que es torni a formar i se’n vagi.</LetterFactionBaseDefeated>
+  <!-- EN: The enemy settlement {0} has been destroyed. -->
+  <LetterFactionBaseDefeatedNoRaids>TODO</LetterFactionBaseDefeatedNoRaids>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
   <LetterFactionBaseDefeated_FactionDestroyed>Com que era el darrer assentament dels {0}, la facció ha estat derrotada.</LetterFactionBaseDefeated_FactionDestroyed>
 
@@ -413,8 +415,10 @@
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>Un persona rescatada se us uneix</LetterLabelRescueQuestFinished>
-  <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
-  <LetterRescueQuestFinished>Heu rescatat {PAWN_definite} i s’ha unit al grup.\n\nPodeu afegir-{PAWN_gender ? lo : la} a la caravana des de la vista del món. Des d’allí, seleccioneu aquesta àrea i escolliu l’opció «Reforma la caravana».</LetterRescueQuestFinished>
+  <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group. -->
+  <LetterRescueQuestFinished>Heu rescatat {PAWN_definite} i s’ha unit al grup.</LetterRescueQuestFinished>
+  <!-- EN: \n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command. -->
+  <LetterRescueQuestFinishedCaravanExtra> \n\nPodeu endur-vos-{PAWN_gender ? el : la} amb la caravana. Des de la vista del món, seleccioneu aquesta àrea i escolliu l’opció «Reforma la caravana».</LetterRescueQuestFinishedCaravanExtra>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
@@ -431,16 +435,28 @@
   <LetterTraitDisease>{PAWN_definite} ha emmalaltit de {1}.\n\nAssegureu-vos que disposeu d’un llit mèdic i d’un metge. Procureu que tingui un tractament adequat i que passi tant temps al llit com sigui possible.</LetterTraitDisease>
 
   <!-- Quests -->
-  <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>Hi ha una nova missió disponible. Es diu «{0}».</LetterQuestBecameAvailable>
-  <!-- EN: If you don't accept the quest within {0}, it will expire. -->
-  <LetterQuestRequiresAcceptance>Si la missió no s’accepta en {0}, expirarà.</LetterQuestRequiresAcceptance>
-  <!-- EN: A new quest has become active. It is called '{0}'. -->
-  <LetterQuestBecameActive>Hi ha una nova missió activa. Es diu «{0}».</LetterQuestBecameActive>
+  <!-- EN: Quest available: {0} -->
+  <LetterLabelQuestAvailableTitle>Missió disponible: {0}</LetterLabelQuestAvailableTitle>
   <!-- EN: Quest active: {0} -->
-  <LetterQuestAutomaticallyAcceptedTitle>Missió activa: {0}</LetterQuestAutomaticallyAcceptedTitle>
+  <LetterLabelQuestAutomaticallyAcceptedTitle>Missió activa: {0}</LetterLabelQuestAutomaticallyAcceptedTitle>
+  <!-- EN: {DISCOVEREDFROM} a new quest. -->
+  <LetterNewQuest>TODO</LetterNewQuest>
+  <!-- EN: A new quest is available. -->
+  <LetterNewQuestFromUnknown>Hi ha una nova missió disponible.</LetterNewQuestFromUnknown>
+  <!-- EN: The quest is called '{0}'. -->
+  <LetterQuestIsNamed>La missió es diu «{0}».</LetterQuestIsNamed>
   <!-- EN: It will expire in {0}. -->
   <LetterQuestActiveNowTime>Expirarà d’aquí a {0}.</LetterQuestActiveNowTime>
+  <!-- EN: If you don't accept the quest within {0}, it will expire. -->
+  <LetterQuestRequiresAcceptance>Si la missió no s’accepta en {0}, expirarà.</LetterQuestRequiresAcceptance>
+  <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered -->
+  <QuestDiscoveredFromBook>TODO</QuestDiscoveredFromBook>
+  <!-- EN: While talking with the trader {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of -->
+  <QuestDiscoveredFromTrader>TODO</QuestDiscoveredFromTrader>
+  <!-- EN: To show {RECEIVER_possessive} gratitude for your charity, the beggar {RECEIVER_nameDef} shared a secret with {GIVER_nameDef}.\n\nYou have learned of -->
+  <QuestDiscoveredFromBeggar>TODO</QuestDiscoveredFromBeggar>
+  <!-- EN: You have discovered -->
+  <QuestDiscoveredFromDebug>TODO</QuestDiscoveredFromDebug>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->
@@ -587,5 +603,10 @@
   <LetterSpeechCancelled>El discurs de {0} s’ha cancel·lat sense completar-ne ni el 50 %. Per tant, no té cap efecte.</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
   <LetterLabelSpeechCancelled>Discurs cancel·lat</LetterLabelSpeechCancelled>
+
+  <!-- UNUSED -->
+  <LetterQuestBecameAvailable>Hi ha una nova missió disponible. Es diu «{0}».</LetterQuestBecameAvailable>
+  <LetterQuestBecameActive>Hi ha una nova missió activa. Es diu «{0}».</LetterQuestBecameActive>
+  <LetterQuestAutomaticallyAcceptedTitle>Missió activa: {0}</LetterQuestAutomaticallyAcceptedTitle>
 
 </LanguageData>

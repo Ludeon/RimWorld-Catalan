@@ -28,6 +28,14 @@
   <Antialiasing>Suavitza les vores</Antialiasing>
 
   <!-- Gameplay -->
+  <!-- EN: Remember draw styles -->
+  <RememberDrawStyle>TODO</RememberDrawStyle>
+  <!-- EN: When enabled, draw styles won't reset to the default draw style when placing new buildings or zones. -->
+  <RememberDrawStyle_Tooltip>TODO</RememberDrawStyle_Tooltip>
+  <!-- EN: Zoom switches world map layers -->
+  <ZoomSwitchLayer>TODO</ZoomSwitchLayer>
+  <!-- EN: When enabled, zooming out on the world map will switch to an orbital view. Zooming in will show the planet again. -->
+  <ZoomSwitchLayer_Tooltip>TODO</ZoomSwitchLayer_Tooltip>
   <!-- EN: Screen-edge mouse scroll -->
   <EdgeScreenScroll>Desplaça quan el ratolí estigui a la vora</EdgeScreenScroll>
   <!-- EN: Zoom to mouse -->
@@ -37,7 +45,7 @@
   <!-- EN: Pause on urgent letter -->
   <PauseOnUrgentLetter>Posa en pausa si arriba un avís urgent</PauseOnUrgentLetter>
   <!-- EN: Pause on letter -->
-  <AutomaticPauseModeSetting>Pose en pausa quan arribi un missatge</AutomaticPauseModeSetting>
+  <AutomaticPauseModeSetting>Posa en pausa quan arribi un missatge</AutomaticPauseModeSetting>
   <!-- EN: Disable game-specific cursor -->
   <CustomCursor>Desactiva el cursor específic del joc</CustomCursor>
   <!-- EN: Hide hats on UI -->
@@ -72,14 +80,6 @@
   <OpenLogOnWarnings>Obre el registre quan hi ha avisos</OpenLogOnWarnings>
   <!-- EN: Close log by pressing cancel -->
   <CloseLogWindowOnEscape>Tanca el registre amb «Cancel·la»</CloseLogWindowOnEscape>
-  <!-- EN: Simulate not owning Royalty -->
-  <SimulateNotOwningRoyalty>Simula que no es té el DLC «Reialesa»</SimulateNotOwningRoyalty>
-  <!-- EN: Simulate not owning Ideology -->
-  <SimulateNotOwningIdeology>Simula que no es té el DLC «Ideologia»</SimulateNotOwningIdeology>
-  <!-- EN: Simulate not owning Biotech -->
-  <SimulateNotOwningBiotech>Simula que no es té el DLC «Biotecn.»</SimulateNotOwningBiotech>
-  <!-- EN: Simulate not owning Anomaly -->
-  <SimulateNotOwningAnomaly>Simula que no es té el DLC «Anomalia»</SimulateNotOwningAnomaly>
   <!-- EN: Verbose logging -->
   <LogVerbose>Registre detallat</LogVerbose>
   <!-- EN: Save data folder -->
@@ -174,5 +174,11 @@
   <!-- Background image -->
   <!-- EN: Menu background -->
   <SetBackgroundImage>Fons del menú</SetBackgroundImage>
+
+  <!-- UNUSED -->
+  <SimulateNotOwningRoyalty>Simula que no es té el DLC «Reialesa»</SimulateNotOwningRoyalty>
+  <SimulateNotOwningIdeology>Simula que no es té el DLC «Ideologia»</SimulateNotOwningIdeology>
+  <SimulateNotOwningBiotech>Simula que no es té el DLC «Biotecn.»</SimulateNotOwningBiotech>
+  <SimulateNotOwningAnomaly>Simula que no es té el DLC «Anomalia»</SimulateNotOwningAnomaly>
 
 </LanguageData>

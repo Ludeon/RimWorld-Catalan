@@ -128,6 +128,8 @@
   <On>Activat</On>
   <!-- EN: Off -->
   <Off>Desactivat</Off>
+  <!-- EN: {0} {1} -->
+  <SourceToolLabel>{1} {0}</SourceToolLabel>
   <!-- EN: Power -->
   <PowerSwitch_Power>Interruptor</PowerSwitch_Power>
   <!-- EN: Recreation type tolerances -->
@@ -249,7 +251,7 @@
   <!-- EN: Entering {0}. -->
   <CaravanEntering>Entra a {0}.</CaravanEntering>
   <!-- EN: Attacking {0}. -->
-  <CaravanAttacking>Ataca a {0}.</CaravanAttacking>
+  <CaravanAttacking>Ataca {0}.</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>Ofereix regals a {0}.</CaravanOfferingGifts>
   <!-- EN: Trading with {0}. -->
@@ -274,7 +276,7 @@
   <Map>Mapa</Map>
   <!-- EN: {0} until enemies arrive -->
   <CaravanDetectedRaidCountdown>{0} fins que arribin enemics</CaravanDetectedRaidCountdown>
-  <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
+  <!-- EN: Enemies have learned of your location. They will arrive in {0}. -->
   <CaravanDetectedRaidCountdownTip>Els reforços enemics arribaran a aquesta àrea d’aquí a {0}.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Cambra</Room>
@@ -282,10 +284,14 @@
   <BeautyHere>Bellesa</BeautyHere>
   <!-- EN: no power -->
   <NoPower>sense energia</NoPower>
+  <!-- EN: not in {0} -->
+  <NotInRoomRole>TODO</NotInRoomRole>
   <!-- EN: Work speed -->
   <WorkSpeedPenalty>Velocitat de treball</WorkSpeedPenalty>
   <!-- EN: Disabled -->
   <DisabledCommand>Desactivat</DisabledCommand>
+  <!-- EN: Deactivated -->
+  <Deactivated>TODO</Deactivated>
   <!-- EN: Ready for launch. -->
   <ReadyForLaunch>Preparat pel llançament.</ReadyForLaunch>
   <!-- EN: Not ready for launch -->
@@ -293,11 +299,13 @@
   <!-- EN: no fueling port -->
   <NotAllInGroupConnectedToFuelingPort>sense assortidor de combustible</NotAllInGroupConnectedToFuelingPort>
   <!-- EN: no fuel -->
-  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>falta combustible</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+  <NotAllLaunchablesInGroupHaveAnyFuel>TODO</NotAllLaunchablesInGroupHaveAnyFuel>
   <!-- EN: loading in progress -->
-  <TransportPodInGroupHasSomethingLeftToLoad>s’està carregant</TransportPodInGroupHasSomethingLeftToLoad>
+  <LaunchableInGroupHasSomethingLeftToLoad>TODO</LaunchableInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
   <TransportPodDestinationBeyondMaximumRange>Supera l’abast màxim</TransportPodDestinationBeyondMaximumRange>
+  <!-- EN: No path to {LAYER_label} -->
+  <TransportPodDestinationNoPath>TODO</TransportPodDestinationNoPath>
   <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>No hi ha prou combustible</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
@@ -317,7 +325,7 @@
   <!-- EN: {0} wants this destroyed. -->
   <QuestTargetDestroyInspectStringShort>{0} ho vol destruït.</QuestTargetDestroyInspectStringShort>
   <!-- EN: Departing on shuttle in {0} -->
-  <ShuttleDelayInspectString>Se’n va en la llançadora d’aquí a {0}.</ShuttleDelayInspectString>
+  <ShuttleDelayInspectString>Se’n va en llançadora d’aquí a {0}.</ShuttleDelayInspectString>
   <!-- EN: Departing in {0} -->
   <ShuttleLeaveDelayInspectString>Se’n va en {0}.</ShuttleLeaveDelayInspectString>
   <!-- EN: Should depart on shuttle -->
@@ -342,6 +350,10 @@
   <Products>Productes</Products>
   <!-- EN: Requires -->
   <Requires>Requereix</Requires>
+  <!-- EN: Replaces -->
+  <Replaces>TODO</Replaces>
+  <!-- EN: missing {0} -->
+  <MissingPartWithLabel>TODO</MissingPartWithLabel>
   <!-- EN: {0}x any of -->
   <NumAnyOf>{0}× qualssevol de</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -364,10 +376,14 @@
   <RideableAnimalsPerPeople>Animals i gent que es poden muntar</RideableAnimalsPerPeople>
   <!-- EN: Multiplier from ridden animals -->
   <MultiplierFromRiddenAnimals>Multiplicador per animals cavalcables</MultiplierFromRiddenAnimals>
+  <!-- EN: Multiplier from bonuses -->
+  <MultiplierFromMoveSpeedBonus>TODO</MultiplierFromMoveSpeedBonus>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>Multiplicador pel pes transportat: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>Aquest animal es pot cavalcar. La gent de la caravana muntarà els animals més ràpids, millorant la velocitat conjunta de la caravana.</RideableAnimalTip>
+  <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
+  <CaravanBonusTip>TODO</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>Aquesta caravana no es pot moure perquè porta massa coses.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -380,6 +396,8 @@
   <MovementDifficultyOffsetInWinter>{0} a l’hivern</MovementDifficultyOffsetInWinter>
   <!-- EN: to -->
   <RangeTo>a</RangeTo>
+  <!-- EN: Caused by -->
+  <CausedBy>Causat per</CausedBy>
   <!-- EN: No letter -->
   <NoDietCategoryLetter>Cap carta</NoDietCategoryLetter>
   <!-- EN: expires in -->
@@ -466,15 +484,15 @@
   <ViewHyperlink>Mostra: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>Detonarà d’aquí a {0} dies.</DetonationCountdown>
-  <!-- EN: Large fire explosion if damaged. -->
+  <!-- EN: Large explosion if damaged. -->
   <ExplosionOnDamageWarning>Si es danya, es genera una explosió forta.</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>Clúster de mecanoides</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>N’apareixerà un d’aquí a {0}.</SpawningNextPawnIn>
-  <!-- EN: {0} assembly completes in {1}. -->
+  <!-- EN: {0} gestation completes in {1}. -->
   <MechAssemblyCompleteIn>El muntatge de {0} finalitza en {1}.</MechAssemblyCompleteIn>
-  <!-- EN: Will assemble -->
+  <!-- EN: Will gestate -->
   <MechAssemblyNextType>Muntarà</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>produïts</ThingsProduced>
@@ -562,6 +580,8 @@
   <RequiredTechprintTip>Requereix</RequiredTechprintTip>
   <!-- EN: size -->
   <Size>mida</Size>
+  <!-- EN: Total planning area -->
+  <TotalPlanningArea>TODO</TotalPlanningArea>
   <!-- EN: cost -->
   <Cost>cost</Cost>
   <!-- EN: Stunned by EMP -->
@@ -580,8 +600,10 @@
   <Investigate>Investiga</Investigate> 
   <!-- EN: Activate -->
   <Activate>Activa</Activate> 
+  <!-- EN: Deactivate -->
+  <Deactivate>TODO</Deactivate>
   <!-- EN: Activation -->
-  <Activation>Activació</Activation> 
+  <Activation>Activació</Activation>
   <!-- EN: complete -->
   <Complete>completat</Complete>
   <!-- EN: Must be imprisoned. -->
@@ -606,6 +628,25 @@
   <ReportStringCrawlingToSafety>S’arrossega fins a un lloc segur.</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>S’arrossega fins a un llit.</ReportStringCrawlingToBed>
+  <!-- EN: flying -->
+  <Flying>TODO</Flying>
+  <!-- EN: Prevent cutting -->
+  <PreventCutting>TODO</PreventCutting>
+  <!-- EN: When on, colonists won't cut this plant. -->
+  <PreventCuttingDesc>TODO</PreventCuttingDesc>
+
+  <!-- EN: Resulting from trait -->
+  <ComesFromTrait>TODO</ComesFromTrait>
+  <!-- EN: Resulting from condition -->
+  <ComesFromHediff>TODO</ComesFromHediff>
+  <!-- EN: Adds need -->
+  <AddsNeed>TODO</AddsNeed>
+  <!-- EN: Adds needs -->
+  <AddsNeeds>TODO</AddsNeeds>
+  <!-- EN: Disables need -->
+  <DisablesNeed>Neutralitza la necessitat</DisablesNeed>
+  <!-- EN: Disables needs -->
+  <DisablesNeeds>Neutralitza les necessitats</DisablesNeeds>
   
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -774,6 +815,8 @@
   <!-- EN: Filth -->
   <Filth_Label>Brutícia</Filth_Label>
   
+  <!-- EN: Features -->
+  <Features_Label>TODO</Features_Label>
   <!-- EN: Faction -->
   <Faction_Label>Facció</Faction_Label>
   <!-- EN: Relationship -->
@@ -799,6 +842,8 @@
   <ApparelPreventsShooting>{PAWN_gender ? En : La} {PAWN_nameDef} no pot utilitzar armes a distància perquè porta {APPAREL_label}.</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>No es pot fer servir en {0}</CannotUseReason_PocketMap>
+  <!-- EN: Range reduced -->
+  <WeatherMaxRangeCap>TODO</WeatherMaxRangeCap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -974,7 +1019,7 @@
   <!-- EN: {PAWN_gender} {1} -->
   <PawnMainDescGendered>{PAWN_gender} {1}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
-  <PawnMainDescFactionedWrap>{0} dels {1}</PawnMainDescFactionedWrap>
+  <PawnMainDescFactionedWrap>{0} de {1}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
   <PawnTitleDescWrap>{0} de {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
@@ -1061,6 +1106,8 @@
   <PowerConsumptionHigh>alta</PowerConsumptionHigh>
   <!-- EN: low -->
   <PowerConsumptionLow>baixa</PowerConsumptionLow>
+  <!-- EN: off -->
+  <PowerConsumptionOff>TODO</PowerConsumptionOff>
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
@@ -1115,13 +1162,13 @@
   <GrowthRate>Índex de creixement</GrowthRate>
   <!-- EN: Fully grown in {0} of growth. -->
   <FullyGrownIn>Estarà madur al {0} de creixement.</FullyGrownIn>
-  <!-- EN: Needs light level -->
+  <!-- EN: needs light level -->
   <PlantNeedsLightLevel>Necessita un nivell de llum</PlantNeedsLightLevel>
-  <!-- EN: Resting -->
+  <!-- EN: resting -->
   <PlantResting>Descansa</PlantResting>
-  <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
+  <!-- EN: temperature growth multiplier {0}% -->
   <OutOfIdealTemperatureRange>Temperatura no ideal. Modificador de creixement per temperatura: {0} %</OutOfIdealTemperatureRange>
-  <!-- EN: Non-ideal temperature. Not growing. -->
+  <!-- EN: out of temperature growth range -->
   <OutOfIdealTemperatureRangeNotGrowing>Temperatura no ideal. No creix.</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>A punt per a collir.</ReadyToHarvest>
@@ -1145,6 +1192,8 @@
   <Blighted>Plaga</Blighted>
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>Mor perquè li toca la llum</DyingBecauseExposedToLight>
+  <!-- EN: Dying from non-ideal terrain -->
+  <DyingBecauseOfTerrain>TODO</DyingBecauseOfTerrain>
   <!-- EN: Cut now -->
   <AutoCutNow>Arrenca automàticament les males herbes ara</AutoCutNow>
   <!-- EN: harvesting -->
@@ -1161,8 +1210,12 @@
   <Zone>Zona</Zone>
   <!-- EN: Growing zone -->
   <GrowingZone>Conreu</GrowingZone>
+  <!-- EN: growing -->
+  <GrowingGroup>TODO</GrowingGroup>
   <!-- EN: Stockpile zone -->
   <Stockpile>Magatzem</Stockpile>
+  <!-- EN: stockpile -->
+  <StockpileGroup>TODO</StockpileGroup>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>Abocador</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
@@ -1233,8 +1286,10 @@
   <LockNorthUpToggleButton>Bloca la rotació de la càmera de manera que el nord sigui sempre a dalt.</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>Commuta el cicle d’il·luminació dia/nit.</UsePlanetDayNightSystemToggleButton>
-  <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
-  <ShowExpandingIconsToggleButton>Commuta la visualització d’icones grans en compte de les icones normals per objectes llunyans.</ShowExpandingIconsToggleButton>
+  <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
+  <ShowBasesExpandingIconsToggleButton>TODO</ShowBasesExpandingIconsToggleButton>
+  <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
+  <ShowImportantExpandingIconsToggleButton>TODO</ShowImportantExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Commuta la visibilitat dels noms dels accidents geogràfics.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
@@ -1427,14 +1482,16 @@
   <GameOverKeepWatchingForNow>De moment, continua observant</GameOverKeepWatchingForNow>
   <!-- EN: Create new wanderers -->
   <GameOverCreateNewWanderers>Crea colons nous</GameOverCreateNewWanderers>
-  <!-- EN: Create new wanderers (must wait {0}h) -->
-  <GameOverCreateNewWanderersWait>Crea colons nous (cal esperar {0} h)</GameOverCreateNewWanderersWait>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
   <GameOverCreateNewWanderersText>Tothom ha mort o se n’ha anat. Potser algú passarà per les ruïnes algun dia i podrà aprofitar-les.\n\nEscolliu quines persones han d’arribar a la colònia i continuar la història.</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Menú principal</GameOverMainMenu>
   <!-- EN: No colony -->
   <NoColony>Sense assentament</NoColony>
+  <!-- EN: cannot reach any destination -->
+  <NoWandererDestination>TODO</NoWandererDestination>
+  <!-- EN: must wait {0}h -->
+  <GameOverCreateNewWanderersWait>Crea colons nous (cal esperar {0} h)</GameOverCreateNewWanderersWait>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1579,6 +1636,8 @@
   <OutfitSoldier>Soldat</OutfitSoldier>
   <!-- EN: Nudist -->
   <OutfitNudist>Nudista</OutfitNudist>
+  <!-- EN: Spacefarer -->
+  <OutfitSpacefarer>TODO</OutfitSpacefarer>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
@@ -1623,11 +1682,9 @@
   <Reward_Pawn_WalkIn>{0_nameDef ? un : una} {0_title} de nom {0_nameDef} de {0_age} anys d’edat arribarà i s’unirà al vostre assentament {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>{0_nameDef ? un : una} {0_title} de nom {0_nameDef} de {0_age} anys d’edat s’unirà al vostre assentament {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):
-\n{0} -->
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
   <Reward_Items>aviat arribaran càpsules de transport amb els recursos següents (valor total de {1}):\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):
-\n{0} -->
+  <!-- EN: you will receive (total value {1}):\n\n{0} -->
   <Reward_Items_Caravan>rebreu (valor total de {1}):\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>les vostres relacions amb la facció {0_name} milloraran en {1}</Reward_Goodwill>
@@ -1640,9 +1697,9 @@
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>Saqueig del campament</Reward_CampLoot_Label>
   <!-- EN: It is unclear what will happen if you accept this quest -->
-  <Reward_Unknown>No està clar que passarà si accepteu aquesta missió</Reward_Unknown> 
+  <Reward_Unknown>No està clar que passarà si accepteu aquesta missió</Reward_Unknown>
   <!-- EN: Unknown -->
-  <Reward_Unknown_Label>Desconeguda</Reward_Unknown_Label> 
+  <Reward_Unknown_Label>Desconeguda</Reward_Unknown_Label>
   <!-- EN: the visitors will work and fight for you -->
   <Reward_VisitorsHelp>els visitants treballaran i lluitaran al vostre costat</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
@@ -1689,10 +1746,12 @@
   <BiocodedCodedForSomeoneElse>biocodificat</BiocodedCodedForSomeoneElse>
 
   <!-- Projectile interceptor -->
-  <!-- EN: Intercepts {0} every {1} -->
+  <!-- EN: Intercepts {0} every {1}. -->
   <InterceptsProjectilesEvery>Intercepta {0} cada {1}.</InterceptsProjectilesEvery>
-  <!-- EN: Intercepts {0} -->
+  <!-- EN: Intercepts {0}. -->
   <InterceptsProjectiles>Intercepta {0}.</InterceptsProjectiles>
+  <!-- EN: ground and aerial projectiles -->
+  <InterceptsProjectiles_BothProjectiles>TODO</InterceptsProjectiles_BothProjectiles>
   <!-- EN: ground projectiles -->
   <InterceptsProjectiles_GroundProjectiles>projectils terrestres</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
@@ -1829,8 +1888,6 @@
   <RitualPredictedOutcomeDescPawnStat>{1} de {PAWN_labelShort}</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
   <RitualPredictedOutcomeDescRoomBeauty>Bellesa de la cambra</RitualPredictedOutcomeDescRoomBeauty>
-  <!-- EN: Participants -->
-  <RitualPredictedOutcomeDescParticipantCount>Participants</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>Expectatives de {PAWN_labelShort}</RitualPredictedOutcomeDescPawnExpectations>
   <!-- EN: Loved one present -->
@@ -1999,7 +2056,8 @@
   <CommandPushTo>Empeny cap a…</CommandPushTo>
   <!-- EN: requires {0} -->
   <RequiredCapacity>necessita {0}</RequiredCapacity>
-  
+
+  <!-- Pocket Maps -->
   <!-- EN: Unable to enter {0}, destination is blocked -->
   <UnableToEnterPortal>No pot entrar a {0}: la destinació està blocada</UnableToEnterPortal>
 
@@ -2019,8 +2077,118 @@
   
   <!-- EN: About to explode -->
   <AboutToExplode>A punt d’explotar</AboutToExplode>
+  <!-- EN: No fuel to eject -->
+  <RefuelableNoFuelToEject>TODO</RefuelableNoFuelToEject>
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>Anomalia, la nova expansió, ja està disponible!</MainScreen_AnomalyAvailableNow>
+
+  <!-- EN: Disabled by scenario -->
+  <DisabledByScenario>Desactivat per l'escenari</DisabledByScenario>
+
+  <!-- EN: blocked by roof -->
+  <BlockedByRoof>Blocat pel sostre</BlockedByRoof>
+  <!-- EN: Blocked by terrain (requires {0_label} terrain support) -->
+  <BlockedByTerrain>TODO</BlockedByTerrain>
+
+  <!-- Craters -->
+  <!-- EN: Fill in -->
+  <DesignatorFillIn>TODO</DesignatorFillIn>
+  <!-- EN: Designate this crater to be filled in. A colonist assigned to construction will fill it in. -->
+  <DesignatorFillInDesc>TODO</DesignatorFillInDesc>
+
+  <!-- Hacking -->
+  <!-- EN: Hack progress -->
+  <HackProgress>Hackeig en curs</HackProgress>
+  <!-- EN: hacking speed -->
+  <HackingSpeed>velocitat de hackeig</HackingSpeed>
+  <!-- EN: {0}'s -->
+  <HackingLastUser>de {0}</HackingLastUser>
+  <!-- EN: hacked -->
+  <Hacked>hackejat</Hacked>
+  <!-- EN: Terminals hacked -->
+  <TerminalsHacked>Terminals hackejats</TerminalsHacked>
+  <!-- EN: Intellectual needed -->
+  <IntellectualSkillPrerequisite>TODO</IntellectualSkillPrerequisite>
+  <!-- EN: Auto hack -->
+  <AutoHack>TODO</AutoHack>
+  <!-- EN: When enabled, researchers will automatically hack this. -->
+  <AutoHackDesc>TODO</AutoHackDesc>
+
+  <!-- World -->
+  <!-- EN: View {LAYER_label} -->
+  <WorldSelectLayer>TODO</WorldSelectLayer>
+  <!-- EN: Jump to location -->
+  <WorldJumpTo>TODO</WorldJumpTo>
+  <!-- EN: Find a colony, caravan, or quest location on the world map. -->
+  <WorldJumpToDesc>TODO</WorldJumpToDesc>
+  <!-- EN: Nothing to jump to. -->
+  <NothingToJumpTo>TODO</NothingToJumpTo>
+  <!-- EN: cannot function in {0} -->
+  <CannotFunctionOnLayer>TODO</CannotFunctionOnLayer>
+  <!-- EN: New settlement -->
+  <NewSettlement>TODO</NewSettlement>
+  <!-- EN: Settled -->
+  <Settled>TODO</Settled>
+  <!-- EN: Abandoned -->
+  <Abandoned>TODO</Abandoned>
+  <!-- EN: Cannot perform {GERUND} {LAYER} -->
+  <CannotPerformPlanetLayer>TODO</CannotPerformPlanetLayer>
+  <!-- EN: This will not affect you {GERUND} {LAYER}. -->
+  <ThisWillNotAffectLayer>TODO</ThisWillNotAffectLayer>
+
+  <!-- Pocket maps -->
+  <!-- EN: Enter {0} -->
+  <EnterPortal>Entra a {0}</EnterPortal>
+  <!-- EN: Entering {0} -->
+  <EnteringPortal>S’entra a {0}</EnteringPortal>
+  <!-- EN: Select people and items to enter the {0}. -->
+  <CommandEnterPortalDesc>Trieu la gent i elements per a entrar {0_gender ? al : a la} {0}.</CommandEnterPortalDesc>
+  <!-- EN: Cancel entering -->
+  <CommandCancelEnterPortal>Cancel·la l’entrada</CommandCancelEnterPortal>
+  <!-- EN: Cancel exiting -->
+  <CommandCancelExitPortal>TODO</CommandCancelExitPortal>
+  <!-- EN: Cancel loading people or items into this. -->
+  <CommandCancelEnterPortalDesc>Cancel·la-hi la càrrega de gent o d’elements.</CommandCancelEnterPortalDesc>
+  <!-- EN: Exit {0} -->
+  <ExitPortal>TODO</ExitPortal>
+
+  <!-- CompProjectileInterceptor -->
+  <!-- EN: Shield energy -->
+  <ShieldEnergy>Energia de l’escut</ShieldEnergy>
+  <!-- EN: Shield cooldown -->
+  <ShieldTimeToRecovery>Temps de recuperació</ShieldTimeToRecovery>
+  <!-- EN: Shield duration -->
+  <ShieldDuration>TODO</ShieldDuration>
+  <!-- EN: On cooldown -->
+  <ShieldOnCooldown>TODO</ShieldOnCooldown>
+  <!-- EN: Below minimum energy -->
+  <ShieldBelowMinHitpoints>TODO</ShieldBelowMinHitpoints>
+  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
+  <ProjectileInterceptorTip>Un escut projectat en contrapicat que intentarà parar els projectils o metralla entrants. S’apaga immediatament si li impacta un PEM.</ProjectileInterceptorTip>
+
+  <!-- EN: max {0} -->
+  <MaxOf>TODO</MaxOf>
+
+  <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
+  <CannotUseDueToHediff>TODO</CannotUseDueToHediff>
+
+  <!-- Scanner -->
+  <!-- EN: Blocked by roof -->
+  <CannotUseScannerRoofed>TODO</CannotUseScannerRoofed>
+  <!-- EN: Biome does not contain drillable resources -->
+  <CannotUseScannerNoBedrock>TODO</CannotUseScannerNoBedrock>
   
+  <!-- Quests -->
+  <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
+  <CannotAcceptQuestFromLayer>TODO</CannotAcceptQuestFromLayer>
+  <!-- EN: Cannot accept this quest without a permanent colony. -->
+  <CannotAcceptQuestNoMap>TODO</CannotAcceptQuestNoMap>
+  
+  <!-- UNUSED -->
+  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>falta combustible</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+  <TransportPodInGroupHasSomethingLeftToLoad>s’està carregant</TransportPodInGroupHasSomethingLeftToLoad>
+  <ShowExpandingIconsToggleButton>Commuta la visualització d’icones grans en compte de les icones normals per objectes llunyans.</ShowExpandingIconsToggleButton>
+  <RitualPredictedOutcomeDescParticipantCount>Participants</RitualPredictedOutcomeDescParticipantCount>
+
 </LanguageData>

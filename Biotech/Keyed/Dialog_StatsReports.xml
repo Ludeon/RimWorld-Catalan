@@ -107,8 +107,6 @@
   <PassionModAdd>Afegeix un nivell de passió en {0_label}.</PassionModAdd>
   <!-- EN: Removes all passion in {0_label}. -->
   <PassionModDrop>Elimina qualsevol tipus de passió en {0_label}.</PassionModDrop>
-  <!-- EN: Causes need -->
-  <CausesNeed>Provoca la necessitat</CausesNeed>
   <!-- EN: Gives ability -->
   <GivesAbility>Atorga l’habilitat</GivesAbility>
   <!-- EN: Gives abilities -->
@@ -117,10 +115,6 @@
   <ResourceLossPerDay>{RESOURCE}: {OFFSET} cada dia.</ResourceLossPerDay>
   <!-- EN: Removes -->
   <Removes>Treu</Removes>
-  <!-- EN: Disables need -->
-  <DisablesNeed>Neutralitza la necessitat</DisablesNeed>
-  <!-- EN: Disables needs -->
-  <DisablesNeeds>Neutralitza les necessitats</DisablesNeeds>
   <!-- EN: Baby -->
   <DevelopmentStage_Baby>Nadó</DevelopmentStage_Baby>
   <!-- EN: Child -->
@@ -139,5 +133,8 @@
   <GeneOverdoseImmune>Els portadors no poden patir sobredosis de {0_label}.</GeneOverdoseImmune>
   <!-- EN: Carriers are {1} as likely to overdose on {0_label}. -->
   <GeneOverdoseFactor>Els portadors de {1} són {1} vegades més propensos a patir una sobredosi de {0_label}-</GeneOverdoseFactor>
+
+  <!-- UNUSED -->
+  <CausesNeed>Provoca la necessitat</CausesNeed>
 
 </LanguageData>

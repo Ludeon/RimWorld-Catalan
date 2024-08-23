@@ -22,8 +22,14 @@
     <li>allLostLetterText->The rescue shuttle for the crashed [asker_faction_pawnsPlural] has departed without anyone on board.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
     <li>askerDiedLetterLabel->Quest failed: [resolvedQuestName]</li>
     <li>askerDiedLetterText->[commanderLandingDesc] has died.\n\n[failLetterEndingCommon]</li>
+    <li>civilianDiedLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>civilianDiedLetterText->a civilian has died.\n\n[failLetterEndingCommon]</li>
     <li>shuttleDestroyedLetterLabel->Quest failed: [resolvedQuestName]</li>
     <li>shuttleDestroyedLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been destroyed. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleLeftBehindLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>shuttleLeftBehindLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been left behind. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
+    <li>mapRemovedLetterLabel->Quest failed: [resolvedQuestName]</li>
+    <li>mapRemovedLetterText->The map was left behind before the crashed [asker_faction_pawnsPlural] could be collected. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
   -->
   <ShuttleCrash_Rescue.questContentRules.rulesStrings>
     <li>failLetterEndingCommon->La missió «[resolvedQuestName]» ha fracassat.</li>
@@ -46,8 +52,14 @@
     <li>allLostLetterText->La llançadora de rescat dels [asker_faction_pawnsPlural] que s’havien estavellat se n’ha anat sense ningú a bord.\n\n[goodwillAllCiviliansLost]\n\n[failLetterEndingCommon]</li>
     <li>askerDiedLetterLabel->La missió «[resolvedQuestName]» ha fracassat</li>
     <li>askerDiedLetterText->[commanderLandingDesc] ha mort.\n\n[failLetterEndingCommon]</li>
+    <li>civilianDiedLetterLabel->La missió «[resolvedQuestName]» ha fracassat</li>
+    <li>civilianDiedLetterText->ha mort un civil.\n\n[failLetterEndingCommon]</li>
     <li>shuttleDestroyedLetterLabel->La missió «[resolvedQuestName]» ha fracassat</li>
-    <li>shuttleDestroyedLetterText->La llançadora que s’havia enviat per a recollir els [asker_faction_pawnsPlural] estavellats s’ha destruït. Els [asker_faction_pawnsPlural] hauran d’anar-se’n a peu.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterText->La llançadora que s’havia enviat per a recollir els [asker_faction_pawnsPlural] que havien tingut un accident ha quedat destruïda. Els [asker_faction_pawnsPlural] hauran d’anar-se’n a peu.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleLeftBehindLetterLabel->La missió «[resolvedQuestName]» ha fracassat</li>
+    <li>shuttleLeftBehindLetterText->La llançadora enviada per a recollir els [asker_faction_pawnsPlural] que havien tingut un accident ha quedat enrere. Els [asker_faction_pawnsPlural] hauran d’anar-se’n a peu.\n\n[failLetterEndingCommon]</li>
+    <li>mapRemovedLetterLabel->La missió «[resolvedQuestName]» ha fracassat</li>
+    <li>mapRemovedLetterText->Es va abandonar el mapa abans que es pogués recollir els [asker_faction_pawnsPlural] que havien tingut un accident. Els [asker_faction_pawnsPlural] hauran d’anar-se’n a peu..\n\n[failLetterEndingCommon]</li>
   </ShuttleCrash_Rescue.questContentRules.rulesStrings>
   <!-- EN:
     <li>pawnLabel->civilian</li>

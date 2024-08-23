@@ -35,6 +35,11 @@
     <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel->Quest failed</li>
     <li>lodgersAllArrestedLetterText->You arrested {SUBJECT_definite}, the [lastOrNot] desperate [faction_pawnSingular] [whoAskedToStay].\n\n[questOver]</li>
+    <li>letterIntroLeftBehind->{SUBJECT_definite}, [oneOfThe], was left behind.</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterLabel->[lodgersLabel] left behind: Anger</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterText->[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
+    <li>lodgerLeftBehindLeaveMapLetterLabel->[lodgersLabel] left behind: Departure</li>
+    <li>lodgerLeftBehindLeaveMapLetterText->[letterIntroLeftBehind]\n\n[decidedToLeave]</li>
     <li>letterIntroViolated->{SUBJECT_definite}, [oneOfThe], was violated by surgery.</li>
     <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] violated: Anger</li>
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
@@ -96,6 +101,11 @@
     <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel->La missió ha fracassat</li>
     <li>lodgersAllArrestedLetterText->Heu arrestat {SUBJECT_definite}, [lastOrNot] [faction_pawnSingular] desesperat [whoAskedToStay].\n\n[questOver]</li>
+    <li>letterIntroLeftBehind->{SUBJECT_definite}, [oneOfThe], se’l va abandonar.</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterLabel->[lodgersLabel] abandonat: Ira</li>
+    <li>lodgerLeftBehindMemoryThoughtLetterText->[letterIntroLeftBehind]\n\n[appalledButNoAction]</li>
+    <li>lodgerLeftBehindLeaveMapLetterLabel->[lodgersLabel] abandonat: Se’n va</li>
+    <li>lodgerLeftBehindLeaveMapLetterText->[letterIntroLeftBehind]\n\n[decidedToLeave]</li>
     <li>letterIntroViolated->A {SUBJECT_definite}, [oneOfThe], se li ha aplicat una cirurgia sense permís.</li>
     <li>lodgerViolatedMemoryThoughtLetterLabel->S’ha vulnerat la voluntat de [lodgersLabel]: Ira</li>
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
@@ -121,7 +131,7 @@
     <li>va(lodgerCount==1)->va</li>
     <li>va(lodgerCount>=2)->van</li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] se’n [va]</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} us dóna les gràcies per permetre que {FACTION_leaderObjective} es quedi a [map_definite] durant aquests [questDurationTicks_duration]. Ara, se’n va amb la seva gent.\n\n{FACTION_leaderNameDef} diu que no oblidarà el que heu fet.</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} us dóna les gràcies per permetre que {FACTION_leaderObjective} es quedés a [map_definite] durant aquests [questDurationTicks_duration]. Ara, se’n va amb la seva gent.\n\n{FACTION_leaderNameDef} diu que no oblidarà el que heu fet.</li>
   </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
@@ -185,7 +195,7 @@
     <li>lodgersPossessive(lodgerCount>=2)->els seus</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->els [lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] us demana permís per a quedar-se a [map_definite] durant [questDurationTicks_duration] per a descansar i organitzar-se.\n\nA canvi, s’[offer] per a treballar i lluitar durant la seva estada.\n\n[joinInfo] També [offer] una recompensa per l’ajuda, encara que no és possible saber quines són les seves vertaderes intencions.\n\n[travelerInfo] no forma part de cap facció. Si voleu, podeu matar-[lodgersObjective], arrestar-[lodgersObjective], comerciar amb [lodgersPronoun] o extraure els seus òrgans sense conseqüències diplomàtiques.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef] us demana permís per a quedar-se a [map_definite] durant [questDurationTicks_duration] per a descansar i organitzar-se.\n\nA canvi, s’[offer] per a treballar i lluitar durant la seva estada.\n\n[joinInfo] També [offer] una recompensa per l’ajuda, encara que no es pot saber quines són les seves vertaderes intencions.\n\n[travelerInfo] no forma part de cap facció. Si voleu, podeu matar-[lodgersObjective], arrestar-[lodgersObjective], comerciar amb [lodgersPronoun] o extraure els seus òrgans sense conseqüències diplomàtiques.</li>
     <li>approachInfo(lodgerCount==1)->[asker_Un] [faction_pawnSingular] desespera[asker_t] que es diu [asker_nameDef] s’acosta.</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] i un altre [faction_pawnSingular] s’acosten.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef] s’apropa amb un nen.</li>

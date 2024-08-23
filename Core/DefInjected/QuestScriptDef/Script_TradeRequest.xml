@@ -2,14 +2,18 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items.[travelTime]</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
     <li>qualityInfo-></li>
+    <li>travelTime(canCaravan==True,priority=1)-> The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>travelTime-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->Un assentament proper, [settlement_label], té una sol·licitud especial. Volen comprar:\n\n  [requestedThingCount]× [requestedThing_label] [qualityInfo](valorat en [requestedThingMarketValue_money])\n\nSi us interessa l’acord, envieu-hi una caravana amb el que demanen. El temps estimat de viatge és de [estimatedTravelTime_duration].</li>
+    <li>questDescription->Un assentament proper, [settlement_label], té una sol·licitud especial. Volen comprar:\n\n  [requestedThingCount]× [requestedThing_label] [qualityInfo](valorat en [requestedThingMarketValue_money])\n\nSi us interessa l’acord, envieu-hi una caravana amb el que demanen.[travelTime]</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->de qualitat normal o millor </li>
     <li>qualityInfo-></li>
+    <li>travelTime(canCaravan==True,priority=1)-> El temps estimat de viatge és de [estimatedTravelTime_duration].</li>
+    <li>travelTime-></li>
   </TradeRequest.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Caravan to [settlement_label]</li>

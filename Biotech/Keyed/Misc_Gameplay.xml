@@ -12,7 +12,7 @@
   <!-- EN: {0} damage -->
   <DamageType>{0} de dany</DamageType>
   <!-- EN: Contained {0_labelPlural} -->
-  <ContainedThings>{0_labelPlural} contingut</ContainedThings>
+  <ContainedThings>Conté {0_labelPlural}</ContainedThings>
   <!-- EN: Time until next atomization -->
   <DurationUntilNextAtomization>Temps fins a la propera atomització</DurationUntilNextAtomization>
   <!-- EN: Finishes in -->
@@ -27,10 +27,14 @@
   <CaravanMechsCount>{0} mecanoides</CaravanMechsCount>
   <!-- EN: {BOSS} with {APPAREL} -->
   <BossWithApparel>{BOSS} amb {APPAREL}</BossWithApparel>
+  <!-- EN: Resulting from gene -->
+  <ComesFromGene>TODO</ComesFromGene>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
   <ReportRemovingMechlink>treu {0}.</ReportRemovingMechlink>
+  <!-- EN: from {TEACHER_labelShort} -->
+  <ReportTakingLessonFrom>TODO</ReportTakingLessonFrom>
 
   <!-- Areas -->
   <!-- EN: Pollution clear -->
@@ -99,6 +103,8 @@
   <ReadyToSummonThreat>Es pot atraure {0_indefinite} {0_gender ? enemic : enemiga}</ReadyToSummonThreat>
   <!-- EN: Summon {0} threat -->
   <Summon>Atrau {0_indefinite} {0_gender ? enemic : enemiga}</Summon>
+  <!-- EN: Mechanoids disabled -->
+  <MechsDisabled>TODO</MechsDisabled>
   <!-- EN: No reachable {0} -->
   <NoReachableBossgroupCaller>No es pot arribar a {0}</NoReachableBossgroupCaller>
   <!-- EN: No reservable {0} -->
@@ -247,12 +253,6 @@
   <BirthRitualHealthyBabyChance>La probabilitat d’aconseguir un part correcte amb aquest nivell de qualitat era del {0_percentage}.</BirthRitualHealthyBabyChance>
   <!-- EN: Giving birth. -->
   <GivingBirth>Dóna a llum.</GivingBirth>
-
-  <!-- Shield comp -->
-  <!-- EN: Shield energy -->
-  <ShieldEnergy>Energia de l’escut</ShieldEnergy>
-  <!-- EN: Time to recovery -->
-  <ShieldTimeToRecovery>Temps de recuperació</ShieldTimeToRecovery>
 
   <!-- Genes -->
   <!-- EN: genes -->
@@ -755,10 +755,6 @@
   <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
   <IvfPregnancyLetterParents>La genètica del bebè estarà formada per una barreja dels de {0} i {1}.</IvfPregnancyLetterParents>
 
-  <!-- Projectile interceptor -->
-  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
-  <ProjectileInterceptorTip>Un escut projectat en contrapicat que intentarà parar els projectils o metralla entrants. S’apaga immediatament si li impacta un PEM.</ProjectileInterceptorTip>
-
   <!-- Remote mech shield -->
   <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
   <RemoteMechShieldTip>Un escut de força a distància projectat per un mecanoider. Intentarà parar els projectils i la metralla que el vulguin travessar, però no fa res contra els atacs cos a cos o la calor. També impedeix que el portador pugui disparar a fora i s’apaga immediatament si hi impacta un pols electromagnètic (PEM).</RemoteMechShieldTip>
@@ -768,5 +764,10 @@
   <MyChildIsHappy>el meu fill és feliç</MyChildIsHappy>
   <!-- EN: my child is sad -->
   <MyChildIsSad>el meu fill està trist</MyChildIsSad> 
+  
+  <!-- EN: Genetic {CHEMICAL_label} dependency -->
+  <GeneticChemicalDependency_Label>dependència genètica {CHEMICAL_label}</GeneticChemicalDependency_Label>
+  <!-- EN: I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any. -->
+  <GeneticChemicalDependency_Desc>Necessito {CHEMICAL_label} degut a la meva deficiència genètica. Fa tant de temps que no n’he pres.</GeneticChemicalDependency_Desc>
 
 </LanguageData>

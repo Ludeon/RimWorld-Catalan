@@ -21,6 +21,11 @@
   <!-- EN: The weapon's accuracy at a distance of 3 cells or less.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
   <AccuracyTouch.description>La precisió de l’arma a 3 cel·les de distància o menys. La probabilitat d’impacte depèn a més d’altres factors.</AccuracyTouch.description>
   
+  <!-- EN: armor penetration multiplier -->
+  <RangedWeapon_ArmorPenetrationMultiplier.label>TODO</RangedWeapon_ArmorPenetrationMultiplier.label>
+  <!-- EN: A multiplier applied to armor penetration. -->
+  <RangedWeapon_ArmorPenetrationMultiplier.description>TODO</RangedWeapon_ArmorPenetrationMultiplier.description>
+  
   <!-- EN: ranged cooldown -->
   <RangedWeapon_Cooldown.label>refredament a distància</RangedWeapon_Cooldown.label>
   <!-- EN: How long it takes to recover after firing this weapon. -->
@@ -30,7 +35,17 @@
   
   <!-- EN: damage multiplier -->
   <RangedWeapon_DamageMultiplier.label>Factor de dany</RangedWeapon_DamageMultiplier.label>
-  <!-- EN: A damage multiplier applied to projectiles fired from this weapon. -->
-  <RangedWeapon_DamageMultiplier.description>Factor de dany aplicat als projectils disparats amb aquesta arma.</RangedWeapon_DamageMultiplier.description>
+  <!-- EN: A multiplier applied to this weapon's damage. -->
+  <RangedWeapon_DamageMultiplier.description>Un multiplicador que s'aplica al dany d’aquesta arma.</RangedWeapon_DamageMultiplier.description>
+  
+  <!-- EN: range multiplier -->
+  <RangedWeapon_RangeMultiplier.label>TODO</RangedWeapon_RangeMultiplier.label>
+  <!-- EN: A multiplier applied to this weapon's range. -->
+  <RangedWeapon_RangeMultiplier.description>TODO</RangedWeapon_RangeMultiplier.description>
+  
+  <!-- EN: aiming time multiplier -->
+  <RangedWeapon_WarmupMultiplier.label>TODO</RangedWeapon_WarmupMultiplier.label>
+  <!-- EN: A multiplier applied to this weapon's aiming time. -->
+  <RangedWeapon_WarmupMultiplier.description>TODO</RangedWeapon_WarmupMultiplier.description>
   
 </LanguageData>

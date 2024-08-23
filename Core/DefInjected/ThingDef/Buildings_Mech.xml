@@ -1,9 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: mini-slug -->
+  <Bullet_MiniSlug.label>minibala</Bullet_MiniSlug.label>
+  
   <!-- EN: burning power cell -->
   <BurningPowerCell.label>bateria incendiada</BurningPowerCell.label>
   <!-- EN: A damaged mechanoid power generation unit. The cell has been destabilized by the death of the mechanoid, and is burning down in seconds. When critically damaged, this cell will explode. -->
   <BurningPowerCell.description>Una unitat de generació d’energia mecanoide danyada. La bateria s’ha desestabilitzat quan ha mort el mecanoide i cremarà en segons. Explota quan se la danya molt.</BurningPowerCell.description>
+  
+  <!-- EN: mech node -->
+  <Gloomlight.label>node mecanoide</Gloomlight.label>
+  <!-- EN: A self-powered mechanoid node of unknown function. Mech nodes can be deconstructed to yield valuable resources - but only if they are captured intact. The internal micro power cell will flame out and ruin the materials if the unit takes too much damage. -->
+  <Gloomlight.description>Un node mecanoide autosuficient que no se sap per a què serveix. Els nodes mecanoides es poden desmuntar per a obtenir recursos aprofitables, però només si es capturen intactes. La microbateria interna cremarà i arruïnarà els materials si es danya molt la unitat.</Gloomlight.description>
+  <!-- EN: Deconstruct for valuable resources. -->
+  <Gloomlight.comps.CompInspectString.inspectString>TODO</Gloomlight.comps.CompInspectString.inspectString>
+  
+  <!-- EN: mini-slugger -->
+  <Gun_MiniTurretMech.label>disparador de minibales</Gun_MiniTurretMech.label>
+  <!-- EN: An automatic turret-mounted slug-thrower. -->
+  <Gun_MiniTurretMech.description>Una torreta automàtica que dispara minibales.</Gun_MiniTurretMech.description>
+  <!-- EN: mini-slugger -->
+  <Gun_MiniTurretMech.verbs.Verb_Shoot.label>dispara minibales</Gun_MiniTurretMech.verbs.Verb_Shoot.label>
+  
+  <!-- EN: mini-slugger turret -->
+  <Turret_AutoMiniTurret.label>torreta de minibales</Turret_AutoMiniTurret.label>
+  <!-- EN: A self-powered defense turret mounted with a weak but long-ranged slug-thrower. May explode when damaged. -->
+  <Turret_AutoMiniTurret.description>Una torreta de defensa automàtica autoabastida amb un disparador de minibales de llarg abast, però que fan poc mal. Pot explotar si se la danya.</Turret_AutoMiniTurret.description>
   
 </LanguageData>
