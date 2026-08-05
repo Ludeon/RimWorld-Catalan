@@ -54,7 +54,7 @@
     <li>image->[PAWN_nameFull] attacking [circumstance_group]</li>
     <li>image->[PAWN_nameFull] shouting loudly [circumstance_group]</li>
     <li>image->[PAWN_nameFull] running [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] grapping with an opponent [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] grappling with an opponent [circumstance_group]</li>
     <li>image->[PAWN_nameFull] defending [PAWN_objective]self [circumstance_group]</li>
     <li>circumstance_phrase->with a [AdjectiveBadass] expression</li>
     <li>circumstance_phrase->with a [AdjectiveBadass] expression</li>
@@ -75,7 +75,7 @@
     <li>image->[PAWN_nameFull] atacant [circumstance_group]</li>
     <li>image->[PAWN_nameFull] cridant fort [circumstance_group]</li>
     <li>image->[PAWN_nameFull] corrent [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] lluitant amb un contrincant [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] forcejant amb un contrincant [circumstance_group]</li>
     <li>image->[PAWN_nameFull] defensant-se [circumstance_group]</li>
     <li>circumstance_phrase->amb una expressió [badassadjective]</li>
     <li>circumstance_phrase->amb una expressió [badassadjective]</li>
@@ -92,7 +92,7 @@
   </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed by manhunter -->
-  <CaravanAmbushedByManhunter.label>caravana asaltada per caça-homes</CaravanAmbushedByManhunter.label>
+  <CaravanAmbushedByManhunter.label>caravana assaltada per caça-homes</CaravanAmbushedByManhunter.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan being ambushed</li>
     <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
@@ -313,7 +313,7 @@
     <li>tale_noun->arriba una oportunitat a la [Community] de [PAWN_nameDef]</li>
     <li>image->[PAWN_nameDef] obre una carta lliurada per [delivery_method] mentre [circumstance_group]</li>
     <li>image->[PAWN_nameDef] llegint un cristall de dades lliurat per [delivery_method] mentre [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] desenrotllant un pergamí lluirat per [delivery_method] mentre [circumstance_group]</li>
+    <li>image->[PAWN_nameDef] desenrotllant un pergamí lliurat per [delivery_method] mentre [circumstance_group]</li>
     <li>image->[PAWN_nameDef] rebent una transmissió a [transmission_source] mentre [circumstance_group]</li>
     <li>image->[PAWN_nameDef] rebent un missatge a [transmission_source] mentre [circumstance_group]</li>
     <li>image->[PAWN_nameDef] sintonitzant un missatge a [transmission_source] mentre [circumstance_group]</li>
@@ -381,7 +381,7 @@
     <li>circumstance_phrase->gairebé encerclant [quantity_adjphrase] [terrainfeature]s</li>
     <li>desc_sentence->[PAWN_nameDef] s’ho mira visiblement espantat.</li>
     <li>desc_sentence->[PAWN_nameDef] s’ho mira amb cara de pànic.</li>
-    <li>desc_sentence->[PAWN_nameDef] stà coordinant les tasques de protecció preventiva.</li>
+    <li>desc_sentence->[PAWN_nameDef] està coordinant les tasques de protecció preventiva.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] corrent a preparar-se.</li>
     <li>desc_sentence->[Quantity_adjphrase] [AnimalAnyPlural] fugen de la zona.</li>
     <li>desc_sentence->Tota la vida animal ha aixecat el camp de la zona.</li>
@@ -535,8 +535,8 @@
     <li>ground_circumstance->mig enfonsat al terra</li>
     <li>ground_circumstance->descansant en un crater esquerdat</li>
     <li>desc_sentence->[PAWN_nameDef] mira amb sorpresa.</li>
-    <li>desc_sentence->[PAWN_nameDef] mirà amb entussiasme.</li>
-    <li>desc_sentence->[PAWN_nameDef] s’ho mira en shock.</li>
+    <li>desc_sentence->[PAWN_nameDef] mirà amb entusiasme.</li>
+    <li>desc_sentence->[PAWN_nameDef] s’ho mira en xoc.</li>
     <li>desc_sentence->[quantity_adjphrase] s’acosten des d’una [terrainfeature] propera.</li>
     <li>desc_sentence->[quantity_adjphrase] preparen eines i equipatge.</li>
     <li>desc_sentence->[quantity_adjphrase] [animal]s volten desorientats.</li>
@@ -588,7 +588,7 @@
     <li>circumstance_phrase->avançant sobre una [terrainfeature]</li>
     <li>circumstance_phrase->encerclant completament una [Community]</li>
     <li>circumstance_phrase->atacant a [quantity_adjphrase] [PersonJob_Plural]</li>
-    <li>circumstance_phrase->rugint per la victoria</li>
+    <li>circumstance_phrase->rugint per la victòria</li>
     <li>circumstance_phrase->brandant [weapon]s</li>
     <li>circumstance_phrase->coberts de [gore]</li>
     <li>desc_sentence->[PAWN_nameDef] organitza la resistència mentre [defender_circumstance].</li>
@@ -816,7 +816,7 @@
   </ToxicFallout.rulePack.rulesStrings>
   
   <!-- EN: volcanic winter -->
-  <VolcanicWinter.label>hivolcanic winter</VolcanicWinter.label>
+  <VolcanicWinter.label>hivern volcànic</VolcanicWinter.label>
   <!-- EN:
     <li>tale_noun->volcanic winter beginning at [PAWN_nameDef]'s [Community]</li>
     <li>image->a dark and cold sky, [circumstance_group]</li>
@@ -836,7 +836,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   -->
   <VolcanicWinter.rulePack.rulesStrings>
-    <li>tale_noun->l’inici d’un hiern volcànic a la [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->l’inici d’un hivern volcànic a la [Community] de [PAWN_nameDef]</li>
     <li>image->un cel fosc i fred, [circumstance_group]</li>
     <li>image->l’aire ple de cendra, [circumstance_group]</li>
     <li>image->una [terrainfeature] gelada i erma [circumstance_group]</li>

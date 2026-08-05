@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: drop pod -->
+  <ActiveDropPodAncient.label>TODO</ActiveDropPodAncient.label>
+  
   <!-- EN: ancient blast door -->
   <AncientBlastDoor.label>TODO</AncientBlastDoor.label>
   <!-- EN: A heavily-reinforced door made of an ultratech polymer. Hack the door to open it. -->
@@ -14,7 +17,7 @@
   
   <!-- EN: ancient explosives crate -->
   <AncientExplosivesCrate.label>TODO</AncientExplosivesCrate.label>
-  <!-- EN: A container of ancient mining charges. It will explode if damaged.\n\nThe explosion is powerful enough to penetrate through walls. -->
+  <!-- EN: A container of ancient mining charges. It will explode if damaged. -->
   <AncientExplosivesCrate.description>TODO</AncientExplosivesCrate.description>
   
   <!-- EN: fortified wall -->
@@ -58,6 +61,18 @@
   <AncientHatch.comps.CompHackable.hackedMessage>TODO</AncientHatch.comps.CompHackable.hackedMessage>
   <!-- EN: Hack to open. -->
   <AncientHatch.comps.CompHackable.notHackedInspectString>TODO</AncientHatch.comps.CompHackable.notHackedInspectString>
+  <!-- EN: Sealed -->
+  <AncientHatch.comps.CompSealable.cannotEnterLabel>TODO</AncientHatch.comps.CompSealable.cannotEnterLabel>
+  <!-- EN: Cannot seal -->
+  <AncientHatch.comps.CompSealable.cannotSealLabel>TODO</AncientHatch.comps.CompSealable.cannotSealLabel>
+  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
+  <AncientHatch.comps.CompSealable.confirmSealText>TODO</AncientHatch.comps.CompSealable.confirmSealText>
+  <!-- EN: Choose a colonist to permanently seal the entrance. Anything or anyone left below will be lost forever. -->
+  <AncientHatch.comps.CompSealable.sealCommandDesc>TODO</AncientHatch.comps.CompSealable.sealCommandDesc>
+  <!-- EN: Seal entrance -->
+  <AncientHatch.comps.CompSealable.sealCommandLabel>TODO</AncientHatch.comps.CompSealable.sealCommandLabel>
+  <!-- EN: Permanently sealed. -->
+  <AncientHatch.comps.CompSealable.sealedInspectString>TODO</AncientHatch.comps.CompSealable.sealedInspectString>
   
   <!-- EN: ancient stockpile exit -->
   <AncientHatchExit.label>TODO</AncientHatchExit.label>
@@ -66,7 +81,7 @@
   
   <!-- EN: ancient mining charge -->
   <AncientMiningCharge.label>TODO</AncientMiningCharge.label>
-  <!-- EN: An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old, but still ready to detonate.\n\nThe explosion is powerful enough to penetrate through walls. -->
+  <!-- EN: An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old, but still ready to detonate. -->
   <AncientMiningCharge.description>TODO</AncientMiningCharge.description>
   
   <!-- EN: ancient security terminal -->

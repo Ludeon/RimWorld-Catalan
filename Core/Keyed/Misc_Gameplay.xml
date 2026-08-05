@@ -1258,7 +1258,7 @@
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
   <ShowLearningHelperWhenEmptyToggleButton>Commuta la visibilitat de l’ajuda d’aprenentatge quan està buida.\n\nL’ajuda d’aprenentatge està sempre visible si hi ha un concepte activat per a ensenyar. Aquest botó el fa desaparèixer quan no hi ha cap concepte actiu.</ShowLearningHelperWhenEmptyToggleButton>
-  <!-- EN: Toggle visiblity of zones. -->
+  <!-- EN: Toggle visibility of zones. -->
   <ZoneVisibilityToggleButton>Commuta la visibilitat de les zones.</ZoneVisibilityToggleButton>
   <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
   <ShowBeautyToggleButton>Commuta la visibilitat de la bellesa.\n\nMostra la bellesa de l’entorn com la percebria un personatge que estigués al lloc on apunta el ratolí.</ShowBeautyToggleButton>
@@ -1834,10 +1834,10 @@
   <DragPawnsToRolesInfoController>Arrossega i amolla o clic per a moure la gent.</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Un esclau. Un humà propietat d’altre persones.</RitualBeginSlaveDesc>
-  <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>{0_labelShort} està al llit. Si s’inclou al ritual, es despertarà per a participar-hi.</RitualBeginSleepingDesc>
-  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
-  <RitualBeginSleepingWarning>Alguns dels participants seleccionats estan dormint. Quan s’iniciï el ritual, es despertaran.</RitualBeginSleepingWarning>
+  <!-- EN: {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
+  <RitualBeginSleepingDesc>{0_labelShort} està al llit. Si s’inclou a l'esdeveniment, es despertarà per a participar-hi.</RitualBeginSleepingDesc>
+  <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the event. -->
+  <RitualBeginSleepingWarning>Alguns dels participants seleccionats estan dormint. Quan s’iniciï l'esdeveniment, es despertaran.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
   <RitualRoleRequiresSocialRole>Aquest lloc el realitzarà millor algun colon amb el rol de {0}.\n\nSi el lloc l’ocupa algú sense el rol, no rebreu les bonificacions següents:</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
@@ -2184,6 +2184,9 @@
   <CannotAcceptQuestFromLayer>TODO</CannotAcceptQuestFromLayer>
   <!-- EN: Cannot accept this quest without a permanent colony. -->
   <CannotAcceptQuestNoMap>TODO</CannotAcceptQuestNoMap>
+
+  <!-- EN: {0} of {1} -->
+  <GuildTradeShipName>TODO</GuildTradeShipName>
   
   <!-- UNUSED -->
   <NotAllFuelingPortSourcesInGroupHaveAnyFuel>falta combustible</NotAllFuelingPortSourcesInGroupHaveAnyFuel>

@@ -71,9 +71,9 @@
     <li>strikeAdv->horribly</li>
     <li>strikeAdv->savagely</li>
     <li>strikeAdv->viciously</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a disgusting wound</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->leaving a disgusting wound</li>
     <li>flavortext_consequence->leaving a horrific wound</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
+    <li>flavortext_consequence(RECIPIENT_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
     <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
   -->
   <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
@@ -84,9 +84,9 @@
     <li>strikeAdv->horriblement</li>
     <li>strikeAdv->de manera salvatge</li>
     <li>strikeAdv->sense pietat</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->deixant una ferida profunda</li>
+    <li>flavortext_consequence()->deixant una ferida profunda</li>
     <li>flavortext_consequence->deixant una ferida horrible</li>
-    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->fent que [RECIPIENT_objective] [wince] [painevent]</li>
+    <li>flavortext_consequence()->fent que [RECIPIENT_objective] [wince] [painevent]</li>
     <li>flavortext_consequence(p=0.2)->fent desequilibrar a [RECIPIENT_objective]</li>
   </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
   
@@ -111,20 +111,20 @@
     <li>destroyed(p=0.5)->demolished</li>
     <li>destroyed(p=0.5)->ruined</li>
     <li>destroyed(p=0.5)->wrecked</li>
-    <li>wince(recipient_flesh==Normal)->wince</li>
-    <li>wince(recipient_flesh==Normal)->grimace</li>
-    <li>wince(recipient_flesh==Normal)->cringe</li>
-    <li>wince(recipient_flesh==Normal)->groan</li>
-    <li>wince(recipient_flesh!=Mechanoid)->scream</li>
-    <li>wince(recipient_flesh!=Mechanoid)->shout</li>
+    <li>wince(RECIPIENT_flesh==Normal)->wince</li>
+    <li>wince(RECIPIENT_flesh==Normal)->grimace</li>
+    <li>wince(RECIPIENT_flesh==Normal)->cringe</li>
+    <li>wince(RECIPIENT_flesh==Normal)->groan</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->scream</li>
+    <li>wince(RECIPIENT_flesh!=Mechanoid)->shout</li>
     <li>wince->recoil</li>
     <li>wince->stumble</li>
     <li>painstate->in</li>
     <li>painstate->with</li>
     <li>painstate->from the</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] pain</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agony</li>
-    <li>painevent(recipient_flesh==Normal)->with misery</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] pain</li>
+    <li>painevent(RECIPIENT_flesh!=Mechanoid)->[painstate] agony</li>
+    <li>painevent(RECIPIENT_flesh==Normal)->with misery</li>
     <li>painevent->from the injury</li>
     <li>painevent->from the wound</li>
     <li>to->to</li>
@@ -155,14 +155,14 @@
     <li>wince(recipient_flesh==Normal)->retorci la cara</li>
     <li>wince(recipient_flesh==Normal)->sangloti</li>
     <li>wince(recipient_flesh==Normal)->gemegui</li>
-    <li>wince(recipient_flesh!=Mechanoid)->xiscli</li>
-    <li>wince(recipient_flesh!=Mechanoid)->cridi</li>
+    <li>wince()->xiscli</li>
+    <li>wince()->cridi</li>
     <li>wince->fa un pas enrere</li>
     <li>wince->s’entrebanca</li>
     <li>painstate-></li>
     <li>painstate-></li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate]de dolor</li>
-    <li>painevent(recipient_flesh!=Mechanoid)->[painstate]d’agonia</li>
+    <li>painevent()->[painstate]de dolor</li>
+    <li>painevent()->[painstate]d’agonia</li>
     <li>painevent(recipient_flesh==Normal)->tot esgarrifat</li>
     <li>painevent(recipient_flesh==Normal)->tot corglaçat</li>
     <li>painevent(recipient_flesh==Normal)->espantat</li>
@@ -218,9 +218,9 @@
     <li>skillAdv(INITIATOR_skill>=14)->masterfully</li>
     <li>skillAdv(INITIATOR_skill>=16)->artistically</li>
     <li>skillAdv(INITIATOR_skill>=16)->gracefully</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->mechanically</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->robotically</li>
-    <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->mechanically</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->robotically</li>
+    <li>skillAdv(INITIATOR_flesh==Mechanoid)->directly</li>
   -->
   <Combat_SkillIncludes.rulePack.rulesStrings>
     <li>skillDescMelee->[wielding] [WEAPON_label] [skillAdv]</li>
