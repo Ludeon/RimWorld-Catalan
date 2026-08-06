@@ -4,7 +4,7 @@
   <!-- EN: flu -->
   <Animal_Flu.label>grip</Animal_Flu.label>
   <!-- EN: An infectious disease caused by the influenza virus. This strain is adapted for infecting non-human species. -->
-  <Animal_Flu.description>Una malaltia infecciosa causada pel virus de la influenza. Aquesta soca també infecta espècies no humanes.</Animal_Flu.description>
+  <Animal_Flu.description>Una malaltia infecciosa causada pel virus de la grip. Aquesta soca també infecta espècies no humanes.</Animal_Flu.description>
   <!-- EN: minor -->
   <Animal_Flu.stages.minor.label>lleu</Animal_Flu.stages.minor.label>
   <!-- EN: major -->
@@ -106,21 +106,21 @@
   <Plague.stages.extreme-1.label>extrema</Plague.stages.extreme-1.label>
   
   <!-- EN: scaria infection -->
-  <ScariaInfection.label>TODO</ScariaInfection.label>
+  <ScariaInfection.label>infecció d'escària</ScariaInfection.label>
   <!-- EN: An infection caused by scaria bacterium. If not treated, the infection will eventually drive the host into a berserk rage. -->
-  <ScariaInfection.description>TODO</ScariaInfection.description>
+  <ScariaInfection.description>Una infecció causada pel bacteri escària. Si no es tracta, la infecció li produirà a l'amfitrió un brot de frenesia, una ràbia furiosa.</ScariaInfection.description>
   <!-- EN: Scaria: {PAWN_nameDef} -->
-  <ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>TODO</ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>Escària: {PAWN_nameDef}</ScariaInfection.comps.HediffComp_GiveHediff.letterLabel>
   <!-- EN: {PAWN_nameDef} has developed scaria from {PAWN_possessive} infection, driving {PAWN_objective} into a berserk rage. Scaria can be cured with a special medical operation, but {PAWN_nameDef} must first be downed. -->
-  <ScariaInfection.comps.HediffComp_GiveHediff.letterText>TODO</ScariaInfection.comps.HediffComp_GiveHediff.letterText>
+  <ScariaInfection.comps.HediffComp_GiveHediff.letterText>{PAWN_nameDef} té escària provocada per una infecció i li ha provocat frenesia, una ràbia furiosa. L'escària es pot curar amb una operació mèdica, però primer cal que {PAWN_nameDef} quedi inconscient.</ScariaInfection.comps.HediffComp_GiveHediff.letterText>
   <!-- EN: a scaria infection -->
-  <ScariaInfection.labelNoun>TODO</ScariaInfection.labelNoun>
+  <ScariaInfection.labelNoun>una infecció d'escària</ScariaInfection.labelNoun>
   <!-- EN: minor -->
-  <ScariaInfection.stages.minor.label>TODO</ScariaInfection.stages.minor.label>
+  <ScariaInfection.stages.minor.label>lleu</ScariaInfection.stages.minor.label>
   <!-- EN: major -->
-  <ScariaInfection.stages.major.label>TODO</ScariaInfection.stages.major.label>
+  <ScariaInfection.stages.major.label>greu</ScariaInfection.stages.major.label>
   <!-- EN: extreme -->
-  <ScariaInfection.stages.extreme.label>TODO</ScariaInfection.stages.extreme.label>
+  <ScariaInfection.stages.extreme.label>molt greu</ScariaInfection.stages.extreme.label>
   
   <!-- EN: sensory mechanites -->
   <SensoryMechanites.label>mecanitis sensorial</SensoryMechanites.label>
