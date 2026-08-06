@@ -33,11 +33,11 @@
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->The infestation was drawn to you by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name].</li>
   -->
   <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Una nau de recerca que orbita el planeta vol fer proves amb un nou tipus de feromona d’insecte. Si hi esteu d’acord, tiraran la feromona per tot [map_definite] i provocaran una (*Threat)plaga de [hivesCount] eixams(/Threat).[helpersParagraph]</li>
+    <li>questDescription(askerIsNull==true)->Una nau de recerca que orbita el planeta vol fer proves amb un nou tipus de feromona insectoide. Si hi esteu d’acord, tiraran la feromona per tot [map_definite] i provocaran una (*Threat)plaga de [hivesCount] eixams(/Threat).[helpersParagraph]</li>
     <li>infestationArrivalLetterText(askerIsNull==true)->Els eixams els ha atret una feromona alliberada per una nau d’investigació que orbita el planeta.</li>
     <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_un] [asker_faction_leaderTitle] de [asker_faction_name], ha de fer front a moltes plagues als seus campaments a prop de [map_definite]. [asker_pronoun] vol que atragueu les plagues cap al vostre assentament. Això farà que patiu una (*Threat)plaga de [hivesCount] eixams(/Threat).[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_factionLeader==True)->Els eixams infestaven llocs propers als campaments de [asker_nameFull] de [asker_faction_name].</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_un] [asker_royalTitleInCurrentFaction] de [asker_faction_name], té problemes per a aterrar a prop de [map_definite] degut a les constants plagues que assolen la zona. Vol que atragueu els insectes i que us n’encarregueu. Això provocarà una (*Threat)plaga de [hivesCount] eixams(/Threat).[helpersParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_un] [asker_royalTitleInCurrentFaction] de [asker_faction_name], té problemes per a aterrar a prop de [map_definite] degut a les constants plagues que assolen la zona. Vol que atragueu els insectoides i que us n’encarregueu. Això provocarà una (*Threat)plaga de [hivesCount] eixams(/Threat).[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->La plaga l’ha conduït fins aquí [asker_nameFull], [asker_un] [asker_royalTitleInCurrentFaction] de [asker_faction_name].</li>
   </ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -56,7 +56,7 @@
     <li>questName->Els [insects] de [itemPodsTotalMarketValue_money]</li>
     <li>questName(asker_royalInCurrentFaction==True)->Espectacle d’[insects]</li>
     <li>questName(p=0.3)->Podswarm</li>
-    <li>insects->insectes</li>
+    <li>insects->insectoides</li>
     <li>insects->insectes</li>
     <li>insects->eixams</li>
   </ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>

@@ -19,7 +19,7 @@ def agregar_materiales(texto):
     lista_marmol = [f"{texto} de marbre"]
     lista_jade = [f"{texto} de jade"]
     lista_obsidiana = [f"{texto} d’obsidiana"]
-    lista_vaciorita = [f"{texto} d’espaidirita"]
+    lista_vaciorita = [f"{texto} de vacuorita"]
     # Textiles
     lista_tela = [f"{texto} de tela"]
     lista_cuero_ligero = [f"{texto} de pell lleugera"]

@@ -60,7 +60,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] que es diu [joiner_nameDef] us demana ajuda. [joiner_pronoun] diu que va enverinar una colònia d’insectes subterrània, però ara està empapa[joiner_t] de feromones d’insectes i ara l’està perseguint un eixam!\n\n[joiner_pronoun] us implora que li deixeu unir-se a la colònia de [map_definite].[joiner_relationInfo]\n\nSi accepteu, haure deu fer front a (*Threat)una plaga de [hivesCount] eixams(/Threat) que començarà d’aquí a [infestationDelayTicks_duration].\n\n[joiner_nameDef] està massa altera[joiner_t] per a poder-ne obtenir més informació.</li>
+    <li>questDescription->[introduction] que es diu [joiner_nameDef] us demana ajuda. [joiner_pronoun] diu que va enverinar una colònia d’insectoides subterrània, però ara està empapa[joiner_t] de feromones insectoides i ara l’està perseguint un eixam!\n\n[joiner_pronoun] us implora que li deixeu unir-se a la colònia de [map_definite].[joiner_relationInfo]\n\nSi accepteu, haure deu fer front a (*Threat)una plaga de [hivesCount] eixams(/Threat) que començarà d’aquí a [infestationDelayTicks_duration].\n\n[joiner_nameDef] està massa altera[joiner_t] per a poder-ne obtenir més informació.</li>
     <li>introduction(childCount==1,priority=1)->[joiner_Un] nen[joiner_x_a] de [joiner_age] anys</li>
     <li>introduction->[joiner_Un] [joiner_title] que té [joiner_age] anys</li>
   </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
@@ -73,14 +73,14 @@
   <ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
     <li>questName->la plaga de [joiner_nameDef]</li>
     <li>questName->l’eixam de [joiner_nameDef]</li>
-    <li>questName->els insectes de [joiner_nameDef]</li>
+    <li>questName->els insectoides de [joiner_nameDef]</li>
   </ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASETEXT}\n            \n[joiner_nameDef] is soaked in insect pheromones and is fleeing from an infestation. The pursuing insects will arrive shortly. -->
-  <ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>{BASETEXT}\n            \n[joiner_nameDef] està tot mullat amb feromones d’insectes i fuig de la plaga que el segueix. Els insectes que li van al darrera arribaran aviat.</ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>
+  <ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>{BASETEXT}\n            \n[joiner_nameDef] està tot mullat amb feromones d’insectoides i fuig de la plaga que el segueix. Els insectoides que li van al darrera arribaran aviat.</ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL}: Perseguint [joiner_nameDef]</ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>
   <!-- EN: {BASETEXT}\n                  \nThe insects are here for [joiner_nameDef]. -->
-  <ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>{BASETEXT}\n                  \nEls insectes vénen a per [joiner_nameDef].</ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>
+  <ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>{BASETEXT}\n                  \nEls insectoides vénen a per [joiner_nameDef].</ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>
   
   <!-- EN:
     <li>questDescription(animalCount==1)->[introduction] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] says (*Threat)a manhunting [animalKind_label](/Threat) is hunting [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], the manhunting [animalKind_label] will follow in [manhuntersDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
@@ -150,7 +150,7 @@
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>{BASELABEL}: Perseguint a [joiner_nameDef]</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef], greedy for the pleasures and money insect jelly can bring, intended to destroy a massive insect hive using poison. [joiner_pronoun] failed, but was doused in insect threat pheromones. Insects have been hunting [joiner_objective] ever since. Now they've launched their final attack.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>[joiner_nameDef] ha admès de què fugia.\n    \n[joiner_nameDef], avariciós dels plaers i dels diners que es poden aconseguir amb la mel d’insectes, intentà destruir un nou d’insectes enorme amb verí. Fallà i va acabar cobert de feromones que provocaven senyals d’amenaça als insectes. Els insectes l’han perseguit des de llavors. Ara, l’atacaran per última vegada.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>[joiner_nameDef] ha admès de què fugia.\n    \n[joiner_nameDef], avariciós dels plaers i dels diners que es poden aconseguir amb la mel d’insectes, intentà destruir un niu d’insectoides enorme amb verí. Fallà i va acabar cobert de feromones que provocaven senyals d’amenaça als insectoides. Els insectoides l’han perseguit des de llavors. Ara, l’atacaran per última vegada.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>
   <!-- EN: Site appeared to harass [joiner_nameDef]: [site_label] -->
   <ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>Lloc que ha aparegut per a assetjar [joiner_nameDef]: [site_label]</ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] happened upon [enemyFaction_leader_nameFull], leader of [enemyFaction_name], sick on the side of the road. [joiner_nameDef] insulted [enemyFaction_leader_nameDef] by comparing [enemyFaction_leader_objective] to a [Animal].\n    \nNow [enemyFaction_leader_nameDef]'s [enemyFaction_pawnsPlural] are activating a site nearby to harass you.\n    \n[allSitePartsDescriptions] -->
