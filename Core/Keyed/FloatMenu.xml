@@ -23,7 +23,7 @@
   <NotAllowed>No permès</NotAllowed>
   
   <!-- EN: Attack {1_labelShort} -->
-  <Attack>TODO</Attack>
+  <Attack>Ataca a {1_labelShort}</Attack>
   <!-- EN: Fire at {1_labelShort} -->
   <FireAt>Dispara a {1_labelShort}</FireAt>
   <!-- EN: Remove -->
@@ -46,7 +46,7 @@
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>no podeu donar ordres a unitats que no controleu</CannotOrderNonControlledLower>
   <!-- EN: cannot attack -->
-  <CannotAttack>TODO</CannotAttack>
+  <CannotAttack>no pot atacar</CannotAttack>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>no es pot atacar a si mateix</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
@@ -95,7 +95,7 @@
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>no es pot fer fora de la cel·la</NoReachableOutsideCell>
   <!-- EN: cannot exit map -->
-  <CannotExitMap>TODO</CannotExitMap>
+  <CannotExitMap>no pot sortir del mapa</CannotExitMap>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>no té el nivell d’habilitat necessari</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -237,7 +237,7 @@
   <!-- EN: Cannot rescue -->
   <CannotRescue>No es pot rescatar</CannotRescue>
   <!-- EN: Cannot rescue {PAWN_labelShort} -->
-  <CannotRescuePawn>TODO</CannotRescuePawn>
+  <CannotRescuePawn>No es pot rescatar a {PAWN_labelShort}.</CannotRescuePawn>
 
   <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
   <CarryToCryptosleepCasket>Porta a {1_labelShort} al sarcòfag de criptoson</CarryToCryptosleepCasket>
@@ -300,19 +300,19 @@
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>Força a portar {1_definite}</ForceWear>
   <!-- EN: Force target to wear {1_labelShort}... -->
-  <ForceTargetToWear>TODO</ForceTargetToWear>
+  <ForceTargetToWear>Força l'objectiu a portar {1_labelShort}...</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
-  <CannotWear>No pot portar {1_indefinite}</CannotWear>
+  <CannotWear>No pot portar {1_indefinite}.</CannotWear>
   <!-- EN: Cannot force target to wear {1_label} -->
-  <CannotForceTargetToWear>TODO</CannotForceTargetToWear>
+  <CannotForceTargetToWear>No es pot forçar l'objectiu a portar {1_label}.</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
   <ForceEquipApparel>Força a portar posat {1_indefinite}</ForceEquipApparel>
   <!-- EN: Force target to equip {1_labelShort}... -->
-  <ForceTargetToEquipApparel>TODO</ForceTargetToEquipApparel>
+  <ForceTargetToEquipApparel>Força l'objectiu a què porti posat {1_labelShort}...</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>No pot portar posat {1_label}</CannotEquipApparel>
   <!-- EN: Cannot force target to equip {1_label} -->
-  <CannotForceTargetToEquipApparel>TODO</CannotForceTargetToEquipApparel>
+  <CannotForceTargetToEquipApparel>No es pot forçar a l'objectiu a què porti posat {1_label}.</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>li falten parts del cos</CannotWearBecauseOfMissingBodyParts>
   
@@ -416,7 +416,7 @@
   <!-- EN: medical bed not for slaves -->
   <NotForSlaves>el llit mèdic no és per a esclaus</NotForSlaves>
   <!-- EN: Medical care disabled -->
-  <MedicalCareDisabled>TODO</MedicalCareDisabled>
+  <MedicalCareDisabled>Atenció mèdica desactivada</MedicalCareDisabled>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>ocupat per {0_definite}</SomeoneElseSleeping>
   
@@ -509,12 +509,12 @@
   <!-- EN: Prioritize {0} {1} -->
   <PrioritizeGeneric>Prioritza {0} {1}</PrioritizeGeneric>
   <!-- EN: Prioritize {0} -->
-  <PrioritizeGenericSimple>TODO</PrioritizeGenericSimple>
+  <PrioritizeGenericSimple>Prioritza {0}</PrioritizeGenericSimple>
 
   <!-- EN: Launch to {LOCATION_label} -->
-  <LaunchTo>TODO</LaunchTo>
+  <LaunchTo>Llança a {LOCATION_label}</LaunchTo>
   <!-- EN: Are you sure you want to launch? -->
-  <LaunchToConfirmation>TODO</LaunchToConfirmation>
+  <LaunchToConfirmation>Esteu segur que voleu iniciar el llançament?</LaunchToConfirmation>
   <!-- EN: Drop at edge -->
   <DropAtEdge>Aterra a la vora</DropAtEdge>
   <!-- EN: Drop in center -->
@@ -642,17 +642,17 @@
 
   <!-- Hacking -->
   <!-- EN: Hack {0} -->
-  <Hack>Hackeja {0}</Hack>
+  <Hack>Pirateja {0_definite}</Hack>
   <!-- EN: Choose a colonist to hack this. -->
-  <HackDesc>TODO</HackDesc>
+  <HackDesc>Escolliu quin colon ha de piratejar-ho.</HackDesc>
   <!-- EN: Cannot hack {0} -->
-  <CannotHack>{0} no es pot hackejar</CannotHack>
+  <CannotHack>{0} no es pot piratejar</CannotHack>
   <!-- EN: Locked out -->
-  <LockedOut>TODO</LockedOut>
+  <LockedOut>Blocat</LockedOut>
   <!-- EN: Already hacked -->
-  <AlreadyHacked>Ja s’ha hackejat</AlreadyHacked>
+  <AlreadyHacked>Ja s’ha piratejat</AlreadyHacked>
   <!-- EN: Incapable of hacking -->
-  <IncapableOfHacking>No és capaç de hackejar</IncapableOfHacking>
+  <IncapableOfHacking>No és capaç de piratejar</IncapableOfHacking>
   <!-- EN: to drop supplies -->
   <ToDropSupplies>per deixar subministres</ToDropSupplies>
 

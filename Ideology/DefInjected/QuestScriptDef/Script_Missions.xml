@@ -10,8 +10,8 @@
   -->
   <AncientComplex_Mission.questContentRules.rulesStrings>
     <li>terminalHackedMessage->Terminal hackejat. {COUNT} / [terminalCount] completats.</li>
-    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] [incapable] de hackejar.</li>
-    <li>passengersIncapableOfHackingDialogText->La llançadora de la missió «[resolvedQuestName]» no té cap passatger que pugui hackejar. Heu d’enviar com a mínim una persona que tingui coneixements sobre com hackejar per a investigar el complex antic.</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] [incapable] de piratejar.</li>
+    <li>passengersIncapableOfHackingDialogText->La llançadora de la missió «[resolvedQuestName]» no té cap passatger que pugui piratejar. Heu d’enviar com a mínim una persona que tingui coneixements sobre com piratejar per a investigar el complex antic.</li>
     <li>passengersSingularOrPlural(colonistCount==1)->passatger</li>
     <li>passengersSingularOrPlural(colonistCount>=2)->passatgers</li>
     <li>incapable(colonistCount==1)->incapaç</li>
@@ -39,7 +39,7 @@
     <li>investigation->desenvolupament</li>
     <li>investigation1->missió</li>
     <li>investigation1->excavació</li>
-    <li>investigation->hackeig</li>
+    <li>investigation->pirateig</li>
   </AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has discovered an ancient complex a long distance away. [asker_pronoun] believes it contains information about the relic known as [relic_name].\n\n[asker_nameDef] can't spare people to look into it, but hopes you can help by supplying exactly [colonistCount] [colonistsSingularOrPlural] to carry out the investigation.\n\nThe complex contains unknown threats and is also being sought by [asker_nameDef]'s enemies, [enemyFaction_name].\n\n[asker_pronoun] will send a shuttle to pick up your colonists, bring them to the complex, and take them home afterward. They will be fed and tended to en-route.\n\nOnce you have landed, you must hack all terminals in the complex within [timeoutTicks_duration].</li>
@@ -47,7 +47,7 @@
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
   -->
   <AncientComplex_Mission.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], ha descobert unes instal·lacions antigues molt lluny. Creu que conté informació sobre la relíquia coneguda com a [relic_name].\n\n[asker_nameDef] no pot enviar-hi gent a investigar-ho, però espera que [asker_el] pugueu ajudar amb l’enviament de [colonistCount] [colonistsSingularOrPlural] per a dur a terme la investigació.\n\nEl complex conté amenaces desconegudes i també el busquen els enemics de [asker_nameDef], [enemyFaction_name].\n\nEnviarà una llançadora per a recollir els vostres colons, els portarà a les instal·lacions i els retornarà a casa quan hagin acabat. Durant el viatge se’ls alimentarà i se’ls guarirà.\n\nUna vegada hagueu aterrat, heu de hackejar tots els terminals al complex en [timeoutTicks_duration].</li>
+    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] de [asker_faction_name], ha descobert unes instal·lacions antigues molt lluny. Creu que conté informació sobre la relíquia coneguda com a [relic_name].\n\n[asker_nameDef] no pot enviar-hi gent a investigar-ho, però espera que [asker_el] pugueu ajudar amb l’enviament de [colonistCount] [colonistsSingularOrPlural] per a dur a terme la investigació.\n\nEl complex conté amenaces desconegudes i també el busquen els enemics de [asker_nameDef], [enemyFaction_name].\n\nEnviarà una llançadora per a recollir els vostres colons, els portarà a les instal·lacions i els retornarà a casa quan hagin acabat. Durant el viatge se’ls alimentarà i se’ls guarirà.\n\nUna vegada hagueu aterrat, heu de piratejar tots els terminals al complex en [timeoutTicks_duration].</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->colon</li>
     <li>colonistsSingularOrPlural(colonistCount>=2)->colons</li>
   </AncientComplex_Mission.questDescriptionRules.rulesStrings>

@@ -285,13 +285,13 @@
   <!-- EN: no power -->
   <NoPower>sense energia</NoPower>
   <!-- EN: not in {0} -->
-  <NotInRoomRole>TODO</NotInRoomRole>
+  <NotInRoomRole>no a {0}</NotInRoomRole>
   <!-- EN: Work speed -->
   <WorkSpeedPenalty>Velocitat de treball</WorkSpeedPenalty>
   <!-- EN: Disabled -->
   <DisabledCommand>Desactivat</DisabledCommand>
   <!-- EN: Deactivated -->
-  <Deactivated>TODO</Deactivated>
+  <Deactivated>Desactivat</Deactivated>
   <!-- EN: Ready for launch. -->
   <ReadyForLaunch>Preparat pel llançament.</ReadyForLaunch>
   <!-- EN: Not ready for launch -->
@@ -299,13 +299,13 @@
   <!-- EN: no fueling port -->
   <NotAllInGroupConnectedToFuelingPort>sense assortidor de combustible</NotAllInGroupConnectedToFuelingPort>
   <!-- EN: no fuel -->
-  <NotAllLaunchablesInGroupHaveAnyFuel>TODO</NotAllLaunchablesInGroupHaveAnyFuel>
+  <NotAllLaunchablesInGroupHaveAnyFuel>sense combustible</NotAllLaunchablesInGroupHaveAnyFuel>
   <!-- EN: loading in progress -->
-  <LaunchableInGroupHasSomethingLeftToLoad>TODO</LaunchableInGroupHasSomethingLeftToLoad>
+  <LaunchableInGroupHasSomethingLeftToLoad>es carrega</LaunchableInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
   <TransportPodDestinationBeyondMaximumRange>Supera l’abast màxim</TransportPodDestinationBeyondMaximumRange>
   <!-- EN: No path to {LAYER_label} -->
-  <TransportPodDestinationNoPath>TODO</TransportPodDestinationNoPath>
+  <TransportPodDestinationNoPath>No hi ha cap camí fins a {LAYER_label}.</TransportPodDestinationNoPath>
   <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>No hi ha prou combustible</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
@@ -351,9 +351,9 @@
   <!-- EN: Requires -->
   <Requires>Requereix</Requires>
   <!-- EN: Replaces -->
-  <Replaces>TODO</Replaces>
+  <Replaces>Reemplaça</Replaces>
   <!-- EN: missing {0} -->
-  <MissingPartWithLabel>TODO</MissingPartWithLabel>
+  <MissingPartWithLabel>falta {0}</MissingPartWithLabel>
   <!-- EN: {0}x any of -->
   <NumAnyOf>{0}× qualssevol de</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -375,15 +375,15 @@
   <!-- EN: Rideable animals / people -->
   <RideableAnimalsPerPeople>Animals i gent que es poden muntar</RideableAnimalsPerPeople>
   <!-- EN: Multiplier from ridden animals -->
-  <MultiplierFromRiddenAnimals>Multiplicador per animals cavalcables</MultiplierFromRiddenAnimals>
+  <MultiplierFromRiddenAnimals>Multiplicador per muntures</MultiplierFromRiddenAnimals>
   <!-- EN: Multiplier from bonuses -->
-  <MultiplierFromMoveSpeedBonus>TODO</MultiplierFromMoveSpeedBonus>
+  <MultiplierFromMoveSpeedBonus>Multiplicador de les bonificacions</MultiplierFromMoveSpeedBonus>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>Multiplicador pel pes transportat: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>Aquest animal es pot cavalcar. La gent de la caravana muntarà els animals més ràpids, millorant la velocitat conjunta de la caravana.</RideableAnimalTip>
   <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
-  <CaravanBonusTip>TODO</CaravanBonusTip>
+  <CaravanBonusTip>Aquesta persona proporciona una bonificació a la velocitat de la caravana. L'augment de velocitat és la bonificació mitjana de tots els membres de la caravana.</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>Aquesta caravana no es pot moure perquè porta massa coses.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -581,7 +581,7 @@
   <!-- EN: size -->
   <Size>mida</Size>
   <!-- EN: Total planning area -->
-  <TotalPlanningArea>TODO</TotalPlanningArea>
+  <TotalPlanningArea>Àrea de planificació total</TotalPlanningArea>
   <!-- EN: cost -->
   <Cost>cost</Cost>
   <!-- EN: Stunned by EMP -->
@@ -601,7 +601,7 @@
   <!-- EN: Activate -->
   <Activate>Activa</Activate> 
   <!-- EN: Deactivate -->
-  <Deactivate>TODO</Deactivate>
+  <Deactivate>Desactiva</Deactivate>
   <!-- EN: Activation -->
   <Activation>Activació</Activation>
   <!-- EN: complete -->
@@ -629,20 +629,20 @@
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>S’arrossega fins a un llit.</ReportStringCrawlingToBed>
   <!-- EN: flying -->
-  <Flying>TODO</Flying>
+  <Flying>volant</Flying>
   <!-- EN: Prevent cutting -->
-  <PreventCutting>TODO</PreventCutting>
+  <PreventCutting>Evita que es talli</PreventCutting>
   <!-- EN: When on, colonists won't cut this plant. -->
-  <PreventCuttingDesc>TODO</PreventCuttingDesc>
+  <PreventCuttingDesc>Quan està activat, els colons no tallaran aquesta planta.</PreventCuttingDesc>
 
   <!-- EN: Resulting from trait -->
-  <ComesFromTrait>TODO</ComesFromTrait>
+  <ComesFromTrait>A causa del tret</ComesFromTrait>
   <!-- EN: Resulting from condition -->
-  <ComesFromHediff>TODO</ComesFromHediff>
+  <ComesFromHediff>A causa de la condició</ComesFromHediff>
   <!-- EN: Adds need -->
-  <AddsNeed>TODO</AddsNeed>
+  <AddsNeed>Afegeix la necessitat</AddsNeed>
   <!-- EN: Adds needs -->
-  <AddsNeeds>TODO</AddsNeeds>
+  <AddsNeeds>Afegeix les necessitats</AddsNeeds>
   <!-- EN: Disables need -->
   <DisablesNeed>Neutralitza la necessitat</DisablesNeed>
   <!-- EN: Disables needs -->
@@ -816,7 +816,7 @@
   <Filth_Label>Brutícia</Filth_Label>
   
   <!-- EN: Features -->
-  <Features_Label>TODO</Features_Label>
+  <Features_Label>Característiques</Features_Label>
   <!-- EN: Faction -->
   <Faction_Label>Facció</Faction_Label>
   <!-- EN: Relationship -->
@@ -843,7 +843,7 @@
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>No es pot fer servir en {0}</CannotUseReason_PocketMap>
   <!-- EN: Range reduced -->
-  <WeatherMaxRangeCap>TODO</WeatherMaxRangeCap>
+  <WeatherMaxRangeCap>S'ha reduït l'abast</WeatherMaxRangeCap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -1107,7 +1107,7 @@
   <!-- EN: low -->
   <PowerConsumptionLow>baixa</PowerConsumptionLow>
   <!-- EN: off -->
-  <PowerConsumptionOff>TODO</PowerConsumptionOff>
+  <PowerConsumptionOff>apagat</PowerConsumptionOff>
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
@@ -1193,7 +1193,7 @@
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>Mor perquè li toca la llum</DyingBecauseExposedToLight>
   <!-- EN: Dying from non-ideal terrain -->
-  <DyingBecauseOfTerrain>TODO</DyingBecauseOfTerrain>
+  <DyingBecauseOfTerrain>Es mor per un terreny no ideal.</DyingBecauseOfTerrain>
   <!-- EN: Cut now -->
   <AutoCutNow>Arrenca automàticament les males herbes ara</AutoCutNow>
   <!-- EN: harvesting -->
@@ -1211,11 +1211,11 @@
   <!-- EN: Growing zone -->
   <GrowingZone>Conreu</GrowingZone>
   <!-- EN: growing -->
-  <GrowingGroup>TODO</GrowingGroup>
+  <GrowingGroup>creixent</GrowingGroup>
   <!-- EN: Stockpile zone -->
   <Stockpile>Magatzem</Stockpile>
   <!-- EN: stockpile -->
-  <StockpileGroup>TODO</StockpileGroup>
+  <StockpileGroup>magatzem</StockpileGroup>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>Abocador</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
@@ -1287,9 +1287,9 @@
   <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>Commuta el cicle d’il·luminació dia/nit.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
-  <ShowBasesExpandingIconsToggleButton>TODO</ShowBasesExpandingIconsToggleButton>
+  <ShowBasesExpandingIconsToggleButton>Commuta la visualització de les icones en expansió dels assentaments d'altres faccions.</ShowBasesExpandingIconsToggleButton>
   <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
-  <ShowImportantExpandingIconsToggleButton>TODO</ShowImportantExpandingIconsToggleButton>
+  <ShowImportantExpandingIconsToggleButton>Commuta la visualització d'icones en expansió per a ubicacions importants, com ara el vostre assentament, llocs de missions i mapes actius.</ShowImportantExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Commuta la visibilitat dels noms dels accidents geogràfics.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
@@ -1489,7 +1489,7 @@
   <!-- EN: No colony -->
   <NoColony>Sense assentament</NoColony>
   <!-- EN: cannot reach any destination -->
-  <NoWandererDestination>TODO</NoWandererDestination>
+  <NoWandererDestination>no pot arribar al destí</NoWandererDestination>
   <!-- EN: must wait {0}h -->
   <GameOverCreateNewWanderersWait>Crea colons nous (cal esperar {0} h)</GameOverCreateNewWanderersWait>
 
@@ -1637,7 +1637,7 @@
   <!-- EN: Nudist -->
   <OutfitNudist>Nudista</OutfitNudist>
   <!-- EN: Spacefarer -->
-  <OutfitSpacefarer>TODO</OutfitSpacefarer>
+  <OutfitSpacefarer>Cosmonauta</OutfitSpacefarer>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
@@ -1751,7 +1751,7 @@
   <!-- EN: Intercepts {0}. -->
   <InterceptsProjectiles>Intercepta {0}.</InterceptsProjectiles>
   <!-- EN: ground and aerial projectiles -->
-  <InterceptsProjectiles_BothProjectiles>TODO</InterceptsProjectiles_BothProjectiles>
+  <InterceptsProjectiles_BothProjectiles>projectils terrestres i aeris</InterceptsProjectiles_BothProjectiles>
   <!-- EN: ground projectiles -->
   <InterceptsProjectiles_GroundProjectiles>projectils terrestres</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
@@ -2078,7 +2078,7 @@
   <!-- EN: About to explode -->
   <AboutToExplode>A punt d’explotar</AboutToExplode>
   <!-- EN: No fuel to eject -->
-  <RefuelableNoFuelToEject>TODO</RefuelableNoFuelToEject>
+  <RefuelableNoFuelToEject>No hi ha combustible a expulsar.</RefuelableNoFuelToEject>
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>Anomalia, la nova expansió, ja està disponible!</MainScreen_AnomalyAvailableNow>
@@ -2089,19 +2089,19 @@
   <!-- EN: blocked by roof -->
   <BlockedByRoof>Blocat pel sostre</BlockedByRoof>
   <!-- EN: Blocked by terrain (requires {0_label} terrain support) -->
-  <BlockedByTerrain>TODO</BlockedByTerrain>
+  <BlockedByTerrain>Blocat pel terreny (necessita fer servir {0_label} de fonaments)</BlockedByTerrain>
 
   <!-- Craters -->
   <!-- EN: Fill in -->
-  <DesignatorFillIn>TODO</DesignatorFillIn>
+  <DesignatorFillIn>Omple</DesignatorFillIn>
   <!-- EN: Designate this crater to be filled in. A colonist assigned to construction will fill it in. -->
-  <DesignatorFillInDesc>TODO</DesignatorFillInDesc>
+  <DesignatorFillInDesc>Designa que aquest cràter s'ha d'omplir. Els colons assignats a construcció l'ompliran.</DesignatorFillInDesc>
 
   <!-- Hacking -->
   <!-- EN: Hack progress -->
-  <HackProgress>Hackeig en curs</HackProgress>
+  <HackProgress>Pirateig en curs</HackProgress>
   <!-- EN: hacking speed -->
-  <HackingSpeed>velocitat de hackeig</HackingSpeed>
+  <HackingSpeed>velocitat de pirateig</HackingSpeed>
   <!-- EN: {0}'s -->
   <HackingLastUser>de {0}</HackingLastUser>
   <!-- EN: hacked -->
@@ -2109,33 +2109,33 @@
   <!-- EN: Terminals hacked -->
   <TerminalsHacked>Terminals hackejats</TerminalsHacked>
   <!-- EN: Intellectual needed -->
-  <IntellectualSkillPrerequisite>TODO</IntellectualSkillPrerequisite>
+  <IntellectualSkillPrerequisite>Cal habilitat intel·lectual</IntellectualSkillPrerequisite>
   <!-- EN: Auto hack -->
-  <AutoHack>TODO</AutoHack>
+  <AutoHack>Pirateig automàtic</AutoHack>
   <!-- EN: When enabled, researchers will automatically hack this. -->
-  <AutoHackDesc>TODO</AutoHackDesc>
+  <AutoHackDesc>Quan s'activa, els investigadors ho piratejaran automàticament.</AutoHackDesc>
 
   <!-- World -->
   <!-- EN: View {LAYER_label} -->
-  <WorldSelectLayer>TODO</WorldSelectLayer>
+  <WorldSelectLayer>Mostra {LAYER_label}</WorldSelectLayer>
   <!-- EN: Jump to location -->
-  <WorldJumpTo>TODO</WorldJumpTo>
+  <WorldJumpTo>Vés a la ubicació</WorldJumpTo>
   <!-- EN: Find a colony, caravan, or quest location on the world map. -->
-  <WorldJumpToDesc>TODO</WorldJumpToDesc>
+  <WorldJumpToDesc>Troba un assentament, caravana o lloc de missió al mapa del món.</WorldJumpToDesc>
   <!-- EN: Nothing to jump to. -->
-  <NothingToJumpTo>TODO</NothingToJumpTo>
+  <NothingToJumpTo>No hi ha cap lloc a on anar.</NothingToJumpTo>
   <!-- EN: cannot function in {0} -->
-  <CannotFunctionOnLayer>TODO</CannotFunctionOnLayer>
+  <CannotFunctionOnLayer>no funciona en {0}</CannotFunctionOnLayer>
   <!-- EN: New settlement -->
-  <NewSettlement>TODO</NewSettlement>
+  <NewSettlement>Assentament nou</NewSettlement>
   <!-- EN: Settled -->
-  <Settled>TODO</Settled>
+  <Settled>Ocupat</Settled>
   <!-- EN: Abandoned -->
-  <Abandoned>TODO</Abandoned>
+  <Abandoned>Abandonat</Abandoned>
   <!-- EN: Cannot perform {GERUND} {LAYER} -->
-  <CannotPerformPlanetLayer>TODO</CannotPerformPlanetLayer>
+  <CannotPerformPlanetLayer>No es pot fer en {GERUND} {LAYER}</CannotPerformPlanetLayer>
   <!-- EN: This will not affect you {GERUND} {LAYER}. -->
-  <ThisWillNotAffectLayer>TODO</ThisWillNotAffectLayer>
+  <ThisWillNotAffectLayer>Això no afecta a {GERUND} {LAYER}.</ThisWillNotAffectLayer>
 
   <!-- Pocket maps -->
   <!-- EN: Enter {0} -->
@@ -2147,11 +2147,11 @@
   <!-- EN: Cancel entering -->
   <CommandCancelEnterPortal>Cancel·la l’entrada</CommandCancelEnterPortal>
   <!-- EN: Cancel exiting -->
-  <CommandCancelExitPortal>TODO</CommandCancelExitPortal>
+  <CommandCancelExitPortal>Cancel·la la sortida</CommandCancelExitPortal>
   <!-- EN: Cancel loading people or items into this. -->
   <CommandCancelEnterPortalDesc>Cancel·la-hi la càrrega de gent o d’elements.</CommandCancelEnterPortalDesc>
   <!-- EN: Exit {0} -->
-  <ExitPortal>TODO</ExitPortal>
+  <ExitPortal>Surt de {0}</ExitPortal>
 
   <!-- CompProjectileInterceptor -->
   <!-- EN: Shield energy -->
@@ -2159,34 +2159,34 @@
   <!-- EN: Shield cooldown -->
   <ShieldTimeToRecovery>Temps de recuperació</ShieldTimeToRecovery>
   <!-- EN: Shield duration -->
-  <ShieldDuration>TODO</ShieldDuration>
+  <ShieldDuration>Durada de l'escut</ShieldDuration>
   <!-- EN: On cooldown -->
-  <ShieldOnCooldown>TODO</ShieldOnCooldown>
+  <ShieldOnCooldown>En recàrrega</ShieldOnCooldown>
   <!-- EN: Below minimum energy -->
-  <ShieldBelowMinHitpoints>TODO</ShieldBelowMinHitpoints>
+  <ShieldBelowMinHitpoints>Per sota de l'energia mínima</ShieldBelowMinHitpoints>
   <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
   <ProjectileInterceptorTip>Un escut projectat en contrapicat que intentarà parar els projectils o metralla entrants. S’apaga immediatament si li impacta un PEM.</ProjectileInterceptorTip>
 
   <!-- EN: max {0} -->
-  <MaxOf>TODO</MaxOf>
+  <MaxOf>màx. {0}</MaxOf>
 
   <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
-  <CannotUseDueToHediff>TODO</CannotUseDueToHediff>
+  <CannotUseDueToHediff>No es pot fer servir {TARGETABLE_label}: {TARGET_nameDef} ja té {2}.</CannotUseDueToHediff>
 
   <!-- Scanner -->
   <!-- EN: Blocked by roof -->
-  <CannotUseScannerRoofed>TODO</CannotUseScannerRoofed>
+  <CannotUseScannerRoofed>Blocat pel sostre</CannotUseScannerRoofed>
   <!-- EN: Biome does not contain drillable resources -->
-  <CannotUseScannerNoBedrock>TODO</CannotUseScannerNoBedrock>
+  <CannotUseScannerNoBedrock>El bioma no té recursos perforables.</CannotUseScannerNoBedrock>
   
   <!-- Quests -->
   <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
-  <CannotAcceptQuestFromLayer>TODO</CannotAcceptQuestFromLayer>
+  <CannotAcceptQuestFromLayer>No es pot acceptar aquesta missió {GERUND} {LAYER}.</CannotAcceptQuestFromLayer>
   <!-- EN: Cannot accept this quest without a permanent colony. -->
-  <CannotAcceptQuestNoMap>TODO</CannotAcceptQuestNoMap>
+  <CannotAcceptQuestNoMap>Per a acceptar aquesta missió, cal tenir un assentament permanent.</CannotAcceptQuestNoMap>
 
   <!-- EN: {0} of {1} -->
-  <GuildTradeShipName>TODO</GuildTradeShipName>
+  <GuildTradeShipName>{0} de {1}</GuildTradeShipName>
   
   <!-- UNUSED -->
   <NotAllFuelingPortSourcesInGroupHaveAnyFuel>falta combustible</NotAllFuelingPortSourcesInGroupHaveAnyFuel>

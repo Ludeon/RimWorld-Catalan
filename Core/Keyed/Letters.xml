@@ -23,7 +23,7 @@
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
   <LetterRelationsChange_HostileGoodwillDescription>Assaltaran les vostres colònies i caravanes de tant en tant i no voldran negociar amb vosaltres. Si voleu millorar les relacions, podeu oferir-los regals a través de caravanes o càpsules de transport.\n\nAixò és degut al fet que la reputació ({0}) ha baixat per sota de {1}. Per tornar a assolir una relació neutral, la reputació ha de tornar a arribar a {2}.</LetterRelationsChange_HostileGoodwillDescription>
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription_NoGifting>TODO</LetterRelationsChange_HostileGoodwillDescription_NoGifting>
+  <LetterRelationsChange_HostileGoodwillDescription_NoGifting>Realitzaran incursions periòdiques a la vostra colònia i caravanes i es negaran a comerciar amb vosaltres.\n\nAixò ha passat perquè la vostra reputació ({0}) ha caigut per sota de {1}. Per tal de restablir les relacions neutrals, la reputació ha d'arribar de nou a {2}.</LetterRelationsChange_HostileGoodwillDescription_NoGifting>
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
   <LetterRelationsChange_NeutralFromHostile>Les relacions amb {0} han millorat. Ara us consideren neutrals i ja no us atacaran.</LetterRelationsChange_NeutralFromHostile>
@@ -298,7 +298,7 @@
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
   <LetterFactionBaseDefeated>L’assentament enemic de {0} ha estat destruït.\n\nD’aquí a {1}, la caravana serà atacada pels enemics. Començaran a enviar forces per atacar la caravana, llevat que es torni a formar i se’n vagi.</LetterFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed. -->
-  <LetterFactionBaseDefeatedNoRaids>TODO</LetterFactionBaseDefeatedNoRaids>
+  <LetterFactionBaseDefeatedNoRaids>L’assentament enemic de {0} ha estat destruït.</LetterFactionBaseDefeatedNoRaids>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
   <LetterFactionBaseDefeated_FactionDestroyed>Com que era el darrer assentament dels {0}, la facció ha estat derrotada.</LetterFactionBaseDefeated_FactionDestroyed>
 
@@ -442,7 +442,7 @@
   <!-- EN: Quest active: {0} -->
   <LetterLabelQuestAutomaticallyAcceptedTitle>Missió activa: {0}</LetterLabelQuestAutomaticallyAcceptedTitle>
   <!-- EN: {DISCOVEREDFROM} a new quest. -->
-  <LetterNewQuest>TODO</LetterNewQuest>
+  <LetterNewQuest>{DISCOVEREDFROM} una missió nova.</LetterNewQuest>
   <!-- EN: A new quest is available. -->
   <LetterNewQuestFromUnknown>Hi ha una nova missió disponible.</LetterNewQuestFromUnknown>
   <!-- EN: The quest is called '{0}'. -->
@@ -452,13 +452,13 @@
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
   <LetterQuestRequiresAcceptance>Si la missió no s’accepta en {0}, expirarà.</LetterQuestRequiresAcceptance>
   <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered -->
-  <QuestDiscoveredFromBook>TODO</QuestDiscoveredFromBook>
+  <QuestDiscoveredFromBook>Mentre llegia {BOOK_labelNoParenthesis}, {READER_nameDef} ha descobert</QuestDiscoveredFromBook>
   <!-- EN: While talking with the trader {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of -->
-  <QuestDiscoveredFromTrader>TODO</QuestDiscoveredFromTrader>
+  <QuestDiscoveredFromTrader>Mentre parlava amb el comerciant {TRADER_nameDef}, {NEGOTIATOR_nameDef} s'ha enterat que</QuestDiscoveredFromTrader>
   <!-- EN: To show {RECEIVER_possessive} gratitude for your charity, the beggar {RECEIVER_nameDef} shared a secret with {GIVER_nameDef}.\n\nYou have learned of -->
-  <QuestDiscoveredFromBeggar>TODO</QuestDiscoveredFromBeggar>
+  <QuestDiscoveredFromBeggar>Per mostrar la seva gratitud pel vostre acte de beneficiència, el captaire {RECEIVER_nameDef} ha compartit un secret amb {GIVER_nameDef}.\n\nS'ha assabentat que</QuestDiscoveredFromBeggar>
   <!-- EN: You have discovered -->
-  <QuestDiscoveredFromDebug>TODO</QuestDiscoveredFromDebug>
+  <QuestDiscoveredFromDebug>Heu descobert</QuestDiscoveredFromDebug>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->

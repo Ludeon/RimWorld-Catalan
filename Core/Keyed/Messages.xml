@@ -40,7 +40,7 @@
   <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
   <MessageVisitorsAnomalousWeather>Els {0} dels {1} se’n van del mapa pel clima meteorològic perillós.</MessageVisitorsAnomalousWeather>
   <!-- EN: {0} from {1} are leaving the map because of dangerous conditions. -->
-  <MessageVisitorsDangerousConditions>TODO</MessageVisitorsDangerousConditions>
+  <MessageVisitorsDangerousConditions>Els {0} dels {1} se'n van del mapa pels perills que hi ha.</MessageVisitorsDangerousConditions>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{0_definite} que portava {1_definite} s’ha fet malbé del tot.</MessageWornApparelDeterioratedAway>
@@ -82,9 +82,9 @@
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>Només els personatges amb el tret de simpatia pels insectes poden domesticar {INSECT_indefinite}.</MessageInsectTameDesignated>
   <!-- EN: No colonists are assigned to hunt. -->
-  <MessageNoHuntersAvailable>TODO</MessageNoHuntersAvailable>
+  <MessageNoHuntersAvailable>Cap colon té assignada la tasca de caçar.</MessageNoHuntersAvailable>
   <!-- EN: No hunter has a valid hunting weapon. Equip a hunter with a suitable ranged weapon. -->
-  <MessageNoHuntersWithProperWeapon>TODO</MessageNoHuntersWithProperWeapon>
+  <MessageNoHuntersWithProperWeapon>Cap caçador té una arma de caçar vàlida. Equipeu un caçador amb una arma a distància adequada.</MessageNoHuntersWithProperWeapon>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
   <MessageInsectsHostileOnTaming>Avís: {PAWN_labelShort} és hostil i atacarà mentre el colon intenta domesticar-{PAWN_gender ? lo : la}.</MessageInsectsHostileOnTaming>
@@ -115,7 +115,7 @@
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
   <MessageMustDesignateHarvestableWood>Heu de designar plantes que donin fusta i hagin crescut prou.</MessageMustDesignateHarvestableWood>
   <!-- EN: Prevent cutting is enabled for this plant. -->
-  <MessageMustPlantCuttingForbidden>TODO</MessageMustPlantCuttingForbidden>
+  <MessageMustPlantCuttingForbidden>Evita que es talli aquesta planta.</MessageMustPlantCuttingForbidden>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Heu de designar plantes.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
@@ -159,13 +159,13 @@
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
   <MessageCannotClaimWhenPawnThreatsAreNear>No es pot reclamar {CLAIMABLE_labelShort} mentre hi hagi {THREAT_factionPawnsPlural} que puguin lluitar a prop.</MessageCannotClaimWhenPawnThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotAdoptWhilePawnThreatsAreNear>TODO</MessageCannotAdoptWhilePawnThreatsAreNear>
+  <MessageCannotAdoptWhilePawnThreatsAreNear>{CLAIMABLE_labelShort} no es pot adoptar mentre hi hagi {THREAT_factionPawnsPlural} capaços de lluitar a prop.</MessageCannotAdoptWhilePawnThreatsAreNear>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
   <MessageCannotClaimWhenThreatsAreNear>No es pot reclamar {CLAIMABLE_labelShort} mentre hi hagi {THREAT_factionPawnsPlural} que puguin lluitar a prop.</MessageCannotClaimWhenThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
   <MessageCannotAdoptWhileThreatsAreNear>No es pot adoptar {CLAIMABLE_labelShort} mentre hi hagi {THREAT_factionPawnsPlural} que puguin lluitar a prop.</MessageCannotAdoptWhileThreatsAreNear>
   <!-- EN: Cannot remove foundation that supports a building. -->
-  <MessageCannotRemoveSupportingFoundation>TODO</MessageCannotRemoveSupportingFoundation>
+  <MessageCannotRemoveSupportingFoundation>Els fonaments que suporten estructures no es poden traure.</MessageCannotRemoveSupportingFoundation>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_definite} no es deixa arrestar!</MessageRefusedArrest>
@@ -294,7 +294,7 @@
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>S’ha acabat el procés de formació de la caravana.</MessagePawnLostWhileFormingCaravan_AllLost>
   <!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
-  <MessageForceSendingCaravan_AllLost>TODO</MessageForceSendingCaravan_AllLost>
+  <MessageForceSendingCaravan_AllLost>No hi ha cap colon capaç de formar una caravana. El procés de formació de caravanes ha finalitzat.</MessageForceSendingCaravan_AllLost>
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>La formació de la caravana continuarà quan tothom es recuperi de les seves crisis mentals.</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
@@ -359,7 +359,7 @@
   <!-- EN: Assigned items and people will now be loaded into the transport pod. -->
   <MessageTransporterSingleLoadingProcessStarted>Es carregaran les persones i els objectes seleccionats a la càpsula de transport.</MessageTransporterSingleLoadingProcessStarted>
   <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
-  <MessageShuttleLoadingProcessStarted>TODO</MessageShuttleLoadingProcessStarted>
+  <MessageShuttleLoadingProcessStarted>Els elements i les persones assignades es carregaran a la llançadora.</MessageShuttleLoadingProcessStarted>
 
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>Les càpsules de transport han arribat.</MessageTransportPodsArrived>
@@ -376,16 +376,16 @@
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>El vostre {1} no pot acabar de carregar les càpsules de transport perquè algunes persones o objectes no estan disponibles ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
   <!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoShuttle>TODO</MessageCantLoadMoreIntoShuttle>
+  <MessageCantLoadMoreIntoShuttle>El vostre {1} no pot acabar de carregar la llançadora perquè alguns elements o persones no estan disponibles ({2_labelShort}).</MessageCantLoadMoreIntoShuttle>
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoPortal>El vostre {1} no pot acabar d'entrar a {0_definite} perquè alguns elements o persones no estan disponibles ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>El destí seleccionat no és vàlid.</MessageTransportPodsDestinationIsInvalid>
   <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
-  <MessageWorldObjectIsInvalid>TODO</MessageWorldObjectIsInvalid>
+  <MessageWorldObjectIsInvalid>{OBJECT_labelCap} no és un destí vàlid.</MessageWorldObjectIsInvalid>
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
-  <MessageTransportPodsDestinationIsTooFar>Cada llançador de càpsules necessita com a mínim {0}× quimifuel per a enviar les càpsules tan lluny.</MessageTransportPodsDestinationIsTooFar>
+  <MessageTransportPodsDestinationIsTooFar>Cada llançador de càpsules necessita com a mínim {0}× quimibustible per a enviar les càpsules tan lluny.</MessageTransportPodsDestinationIsTooFar>
   
   <!-- EN: The caravan has been reformed. -->
   <MessageReformedCaravan>La caravana s’ha tornat a formar.</MessageReformedCaravan>
@@ -807,9 +807,9 @@
   <!-- EN: Need more fertile terrain. -->
   <MessageWarningNotEnoughFertility>Necessita un terreny més fèrtil.</MessageWarningNotEnoughFertility>
   <!-- EN: Temperature too extreme. -->
-  <CannotPlantExtremeTemp>TODO</CannotPlantExtremeTemp>
+  <CannotPlantExtremeTemp>Temperatura massa extrema</CannotPlantExtremeTemp>
   <!-- EN: Plants cannot grow on this terrain. -->
-  <CannotPlantMissingTerrainTag>TODO</CannotPlantMissingTerrainTag>
+  <CannotPlantMissingTerrainTag>Les plantes no poden créixer en aquest terreny.</CannotPlantMissingTerrainTag>
   <!-- EN: blocked by {0_label}. -->
   <BlockedBy>blocat per {0_label}.</BlockedBy>
   <!-- EN: Cannot be planted next to {0_label}. -->
@@ -819,7 +819,7 @@
   <!-- EN: Too close to {0}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>Massa a prop del lloc de plantar {0}.</TooCloseToOtherSeedPlantCell>
   <!-- EN: Cannot be placed on {0}. -->
-  <MessageCannotBePlacedOn>TODO</MessageCannotBePlacedOn>
+  <MessageCannotBePlacedOn>No es pot col·locar en {0}.</MessageCannotBePlacedOn>
 
   <!-- EN: Warning: {0} has been marked for cutting. -->
   <MessageWarningCutImportantPlant>Avís: S’ha marcat {0} per a arrancar-{0_gender ? lo : la}.</MessageWarningCutImportantPlant>
@@ -853,19 +853,19 @@
   <MessageLodgersCantFarskip>No es pot saltar: refugiat</MessageLodgersCantFarskip>
   
   <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
-  <MessageHackerLockedOut>TODO</MessageHackerLockedOut>
+  <MessageHackerLockedOut>S'ha detectat la pirateria de {HACKER_nameDef}. Se l'ha blocat durant {DURATION}.</MessageHackerLockedOut>
   <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
-  <MessageHackerLockedOutPermanently>TODO</MessageHackerLockedOutPermanently>
+  <MessageHackerLockedOutPermanently>S'ha detectat la pirateria de {HACKER_nameDef}. Se l'ha blocat permanentment.</MessageHackerLockedOutPermanently>
   <!-- EN: {0_labelShort} can be hacked again. -->
-  <MessageHackableUnlocked>TODO</MessageHackableUnlocked>
+  <MessageHackableUnlocked>{0_labelShort} no es pot tornar a piratejar.</MessageHackableUnlocked>
 
   <!-- EN: Shuttle cannot land here -->
-  <ShuttleCannotLand>TODO</ShuttleCannotLand>
+  <ShuttleCannotLand>Aquí la llançadora no pot aterrar-hi</ShuttleCannotLand>
   <!-- EN: The shuttle has arrived. -->
   <MessageShuttleArrived>La llançadora ha arribat.</MessageShuttleArrived>
 
   <!-- EN: Warning: {THING_labelCap} will not function in this biome -->
-  <MessageGroundPenetratingScannerNoBedrock>TODO</MessageGroundPenetratingScannerNoBedrock>
+  <MessageGroundPenetratingScannerNoBedrock>Avís: {THING_labelCap} no funcionarà en aquest bioma</MessageGroundPenetratingScannerNoBedrock>
 
   <!-- UNUSED -->
   <CannotCallShuttle>No es pot trucar a la llançadora.</CannotCallShuttle>
