@@ -45,7 +45,7 @@
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{0_definite} que portava {1_definite} s’ha fet malbé del tot.</MessageWornApparelDeterioratedAway>
   <!-- EN: {0} has deteriorated away in storage. -->
-  <MessageDeterioratedAway>{lookup: {0_indefinite}; fix_indefinite_plural} que hi havia al magatzem {replace: {lookup: {0_indefinite}; fix_indefinite_plural; 2}; "{0_indefinite}"-"s'ha"} fet malbé.</MessageDeterioratedAway>
+  <MessageDeterioratedAway> {replace: {lookup: {0_indefinite}; fix_indefinite_plural; 2}; "{0_indefinite}"-"s'ha"} fet malbé {lookup: {0_indefinite}; fix_indefinite_plural} del magatzem.</MessageDeterioratedAway>
 
   <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>Comença {0_definite}.</MessageSeasonBegun>
@@ -866,9 +866,5 @@
 
   <!-- EN: Warning: {THING_labelCap} will not function in this biome -->
   <MessageGroundPenetratingScannerNoBedrock>Avís: {THING_labelCap} no funcionarà en aquest bioma</MessageGroundPenetratingScannerNoBedrock>
-
-  <!-- UNUSED -->
-  <CannotCallShuttle>No es pot trucar a la llançadora.</CannotCallShuttle>
-  <MessageFinishedLoadingTransporterSingle>S’ha completat el procés de càrrega de la llançadora. Inicieu el llançament quan estigui tot llest.</MessageFinishedLoadingTransporterSingle>
 
 </LanguageData>
