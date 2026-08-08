@@ -1,4 +1,4 @@
-# Script dedicado a crear listas de palabras para los archivos female.txt, de forma que su género sea adecuado en distintas situaciones.
+﻿# Script dedicado a crear listas de palabras para los archivos female.txt, de forma que su género sea adecuado en distintas situaciones.
 # Créditos a Zerstrick
 
 
@@ -59,10 +59,10 @@ def agregar_materiales(texto):
     lista_cuero_de_mastodonte = [f"{texto} de pell de mastodont"]
     lista_piel_de_vison = [f"{texto} de pell de visó"]
     lista_crin_de_trumbo = [f"{texto} de crinera de trumbe"]
-    lista_piel_ligera = [f"{texto}pell lleugera"]
-    lista_piel_pantera = [f"{texto}pell de pantera"]
-    lista_cuero_pesado = [f"{texto}pell de cuir pesat"]
-    llista_pell_foca = [f"{texto}pell de foca"]
+    lista_piel_ligera = [f"{texto} de pell lleugera"]
+    lista_piel_pantera = [f"{texto} de pell de pantera"]
+    lista_cuero_pesado = [f"{texto} de pell de cuir pesat"]
+    llista_pell_foca = [f"{texto} de pell de foca"]
 
     # Textiles sin cuero
     lista_tela = [f"{texto} de tela"]

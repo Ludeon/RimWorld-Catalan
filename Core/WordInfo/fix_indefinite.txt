@@ -1,0 +1,27 @@
+﻿KEY;1_FIXED_INDEF;2_AUX
+// Fixes for indefinite plural phrases that need plural agreement.
+//
+// Usage syntax: {lookup: TEXT; FILE_NO_EXT; INDEX}
+// TEXT is the exact indefinite form to access a row.
+// FILE_NO_EXT is the file in which TEXT should be looked up. Omit the extension.
+// INDEX determines the column to be used. Can be omitted if you need index 1.
+// 1_FIXED_INDEF returns the corrected phrase.
+// 2_AUX returns the auxiliary verb or agreement token used by the caller.
+
+un arròs;una mica d'arròs;s'ha
+un blat de moro; una mica de blat de moro;s'ha
+un bolets crus;uns bolets crus;s'han
+un farratge;part del farratge;s'ha
+un fruit d'agave;uns quants fruits d'agave;s'han
+un llúpol;part del llúpol;s'ha
+un pantalons;uns pantalons;s'han
+una baies;unes baies;s'han
+una fulles de fullafum;unes fulles de fullafum;s'han
+una fulles psicoides; unes fulles psicoides;s'han
+una patata; unes patates;s'han
+una patates;unes patates;s'han
+una pol·lupatates; unes pol·lupatates;s'han
+una tisores; unes tisores;s'han
+un pantalons infantils;uns pantalons infantils;s'han
+un pantalons reforçats;uns pantalons reforçats;s'han
+un pantalons;uns pantalons;s'han

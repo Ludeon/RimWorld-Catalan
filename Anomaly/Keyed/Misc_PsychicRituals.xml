@@ -8,45 +8,45 @@
   <!-- EN: Select a psychic ritual to perform -->
   <CastPsychicRitualDesc>Trieu quin ritual psíquic cal cel·lebrar</CastPsychicRitualDesc>
   <!-- EN: {0_labelShort} cannot perform {1} psychic ritual because {2}. -->
-  <CannotCastPsychicRitual>TODO</CannotCastPsychicRitual>
+  <CannotCastPsychicRitual>{0_labelShort} no pot realitzar el ritual psíquic {1} perquè {2}.</CannotCastPsychicRitual>
   <!-- EN: The {0} psychic ritual has begun. -->
-  <PsychicRitualBegun>TODO</PsychicRitualBegun>
+  <PsychicRitualBegun>El ritual psíquic {0} ha començat.</PsychicRitualBegun>
   <!-- EN: The {0} psychic ritual has been completed. -->
-  <PsychicRitualCompleted>TODO</PsychicRitualCompleted>
+  <PsychicRitualCompleted>El ritual psíquic {0} s'ha completat.</PsychicRitualCompleted>
   <!-- EN: attending {RITUALNAME} psychic ritual -->
   <PsychicRitualAttending>TODO</PsychicRitualAttending>
   <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
-  <ParticipatingInPsychicRitual>TODO</ParticipatingInPsychicRitual>
+  <ParticipatingInPsychicRitual>{0_labelShort} participa al ritual psíquic de {1}.</ParticipatingInPsychicRitual>
   <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
-  <AbilityDisabledInPsychicRitual>TODO</AbilityDisabledInPsychicRitual>
+  <AbilityDisabledInPsychicRitual>{0_labelShort} participa al ritual psíquic de {1}.</AbilityDisabledInPsychicRitual>
   <!-- EN: choose a location -->
-  <PsychicRitual_LocationTargetting>TODO</PsychicRitual_LocationTargetting>
+  <PsychicRitual_LocationTargetting>escolliu una ubicació</PsychicRitual_LocationTargetting>
   <!-- EN: total quality -->
-  <PsychicRitualExpectedQualityLabel>TODO</PsychicRitualExpectedQualityLabel>
+  <PsychicRitualExpectedQualityLabel>qualitat total</PsychicRitualExpectedQualityLabel>
   <!-- EN: quality factors -->
-  <PsychicRitualQualityFactorLabel>TODO</PsychicRitualQualityFactorLabel>
+  <PsychicRitualQualityFactorLabel>factors de qualitat</PsychicRitualQualityFactorLabel>
   <!-- EN: duration -->
-  <PsychicRitualExpectedDurationLabel>TODO</PsychicRitualExpectedDurationLabel>
+  <PsychicRitualExpectedDurationLabel>durada</PsychicRitualExpectedDurationLabel>
   <!-- EN: required offering -->
-  <PsychicRitualRequiredOffering>TODO</PsychicRitualRequiredOffering>
+  <PsychicRitualRequiredOffering>ofrena necessària</PsychicRitualRequiredOffering>
   <!-- EN: Caused by psychic ritual -->
-  <CausedByPsychicRitual>TODO</CausedByPsychicRitual>
+  <CausedByPsychicRitual>Causat pel ritual psíquic</CausedByPsychicRitual>
   <!-- EN: Cooldown -->
-  <PsychicRitualCooldownLabel>TODO</PsychicRitualCooldownLabel>
+  <PsychicRitualCooldownLabel>En recàrrega</PsychicRitualCooldownLabel>
 
   <!-- EN: Psychic ritual area obstructed. -->
-  <PsychicRitualSpotObstructed>TODO</PsychicRitualSpotObstructed>
+  <PsychicRitualSpotObstructed>L'àrea del ritual psíquic està obstruïda.</PsychicRitualSpotObstructed>
   <!-- EN: psychic ritual on cooldown. It will be available in {0}. -->
-  <PsychicRitualOnCooldown>TODO</PsychicRitualOnCooldown>
+  <PsychicRitualOnCooldown>ritual psíquic en temps de recàrrega. Estarà disponible d'aquí {0}.</PsychicRitualOnCooldown>
   <!-- EN: The {0} psychic ritual can be performed again. -->
-  <PsychicRitualCanBeCastAgain>TODO</PsychicRitualCanBeCastAgain>
+  <PsychicRitualCanBeCastAgain>El ritual psíquic {0} es pot tornar a dur a terme.</PsychicRitualCanBeCastAgain>
   <!-- EN: No basic anomaly research project selected. -->
-  <NoBasicResearchForPsychicRitual>TODO</NoBasicResearchForPsychicRitual>
+  <NoBasicResearchForPsychicRitual>No s'ha seleccionat cap projecte de recerca bàsic sobre anomalies.</NoBasicResearchForPsychicRitual>
   <!-- EN: Must perform {0} psychic ritual on the surface. -->
-  <CantCastOnPocketMap>TODO</CantCastOnPocketMap>
+  <CantCastOnPocketMap>Ha de realitzar el ritual psíquic {0} a la superfície.</CantCastOnPocketMap>
 
   <!-- EN: Warning: Performing a ritual on {PAWN_nameDef} will anger {PAWN_possessive} faction ({FACTION_name}) -->
-  <PsychicRitualFactionWarning>TODO</PsychicRitualFactionWarning>
+  <PsychicRitualFactionWarning>Avís: si es fa un ritual a {PAWN_nameDef}, la facció de {PAWN_possessive} ({FACTION_name}) s'enfadarà.</PsychicRitualFactionWarning>
 
   <!-- EN: {0} is currently asleep and will wake up when the psychic ritual begins. -->
   <PsychicRitualWakingPawnWarning>TODO</PsychicRitualWakingPawnWarning>
@@ -195,7 +195,7 @@
 
   <!-- Shambler summoning -->
   <!-- EN: No nearby shamblers. -->
-  <NoNearbyShamblers>TODO</NoNearbyShamblers>
+  <NoNearbyShamblers>No hi ha zombis a prop.</NoNearbyShamblers>
 
   <!-- Pit gate summoning -->
   <!-- EN: There is already a pit gate on the map. -->

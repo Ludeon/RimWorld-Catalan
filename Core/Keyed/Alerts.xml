@@ -172,7 +172,7 @@
   <AlertHypothermiaDesc>Aquests colons pateixen hipotèrmia.\n{0}\n\nAssegureu-vos que porten roba adequada pel temps que fa i que els espais interiors estan degudament escalfats.</AlertHypothermiaDesc>
   
   <!-- EN: {0} patients await medical operation -->
-  <PatientsAwaitingMedicalOperation>{0} pacients en espera per a ser operats</PatientsAwaitingMedicalOperation>
+  <PatientsAwaitingMedicalOperation>{replace: ^{0} pacients en espera per a ser operats; "^1 pacients en espera per a ser operats"-"1 pacient en espera per a què se l'operi"}</PatientsAwaitingMedicalOperation>
   <!-- EN: These patients await medical operation:\n{0}\n\nMake sure you have all necessary medical tools and a free doctor available. -->
   <PatientsAwaitingMedicalOperationDesc>Aquests pacients esperen una intervenció mèdica:\n{0}\n\nAssegureu-vos que teniu totes les eines i un metge a disposició.</PatientsAwaitingMedicalOperationDesc>
 

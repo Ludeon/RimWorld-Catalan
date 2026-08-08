@@ -196,7 +196,7 @@
   <AlreadyAssigned>ja s’ha assignat</AlreadyAssigned>
   
   <!-- EN: Consume {1_labelShort} -->
-  <ConsumeThing>Consumeix {1_labelShortIndef}</ConsumeThing>
+  <ConsumeThing>Consumeix {lookup: {1_labelShortIndef}; fix_indefinite}</ConsumeThing>
   
   <!-- EN: Cannot go here: No path -->
   <CannotGoNoPath>No s’hi pot anar perquè no hi ha camí.</CannotGoNoPath>
@@ -300,15 +300,15 @@
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>Força a portar {1_definite}</ForceWear>
   <!-- EN: Force target to wear {1_labelShort}... -->
-  <ForceTargetToWear>Força l'objectiu a portar {1_labelShort}...</ForceTargetToWear>
+  <ForceTargetToWear>Força l'objectiu a portar {1_definite}...</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>No pot portar {1_indefinite}.</CannotWear>
   <!-- EN: Cannot force target to wear {1_label} -->
   <CannotForceTargetToWear>No es pot forçar l'objectiu a portar {1_label}.</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
-  <ForceEquipApparel>Força a portar posat {1_indefinite}</ForceEquipApparel>
+  <ForceEquipApparel>Força a portar posat {1_definite}</ForceEquipApparel>
   <!-- EN: Force target to equip {1_labelShort}... -->
-  <ForceTargetToEquipApparel>Força l'objectiu a què porti posat {1_labelShort}...</ForceTargetToEquipApparel>
+  <ForceTargetToEquipApparel>Força l'objectiu a què porti posat {1_definite}...</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>No pot portar posat {1_label}</CannotEquipApparel>
   <!-- EN: Cannot force target to equip {1_label} -->
@@ -336,7 +336,7 @@
   <!-- EN: Pick up {1_labelShort}... -->
   <PickUpSome>Recull {1_definite}…</PickUpSome>
   <!-- EN: Pick up {1_labelShort} x{{0}} -->
-  <PickUpCount>Recull {1_labelShort} ×{{0}}</PickUpCount>
+  <PickUpCount>Recull {{0}}×{1_labelShort}</PickUpCount>
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUpSome>No es pot recollir {1_labelShort}</CannotPickUpSome>
   <!-- EN: {0} {1} allowed -->
@@ -353,7 +353,7 @@
   <!-- EN: Load {1_labelShort} onto pack animal... -->
   <GiveToPackAnimalSome>Dóna {1_labelShort} al grup d’animals…</GiveToPackAnimalSome>
   <!-- EN: Load {1_labelShort} x{{0}} onto pack animal -->
-  <GiveToPackAnimalCount>Carrega {1_labelShort} ×{{0}} al grup d’animals</GiveToPackAnimalCount>
+  <GiveToPackAnimalCount>Carrega {{0}}×{1_labelShort} al grup d’animals</GiveToPackAnimalCount>
   
   <!-- EN: Cannot load {1_label} into caravan -->
   <CannotLoadIntoCaravan>No es pot carregar {1_definite} a la caravana</CannotLoadIntoCaravan>
@@ -366,7 +366,7 @@
   <!-- EN: Load {1_labelShort} into caravan... -->
   <LoadIntoCaravanSome>Carrega {1_definite} a la caravana…</LoadIntoCaravanSome>
   <!-- EN: Load {1_labelShort} x{{0}} -->
-  <LoadIntoCaravanCount>Carrega {1_labelShort} ×{{0}}</LoadIntoCaravanCount>
+  <LoadIntoCaravanCount>Carrega {{0}}×{1_labelShort}</LoadIntoCaravanCount>
   <!-- EN: overweight -->
   <OverweightLower>sobrepès</OverweightLower>
 

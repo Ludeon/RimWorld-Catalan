@@ -129,7 +129,7 @@
   <!-- EN: Off -->
   <Off>Desactivat</Off>
   <!-- EN: {0} {1} -->
-  <SourceToolLabel>{1} {0}</SourceToolLabel>
+  <SourceToolLabel>{1} {replace: de {0}; "de humà"-"humà"}</SourceToolLabel>
   <!-- EN: Power -->
   <PowerSwitch_Power>Interruptor</PowerSwitch_Power>
   <!-- EN: Recreation type tolerances -->
@@ -457,9 +457,9 @@
   <!-- EN: items -->
   <ItemsLower>elements</ItemsLower>
   <!-- EN: {0} x{1} -->
-  <FilthLabel>{0} ×{1}</FilthLabel>
+  <FilthLabel>{1}×{0}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
-  <FilthLabelWithSource>{0} de {1} ×{2}</FilthLabelWithSource>
+  <FilthLabelWithSource>{0} de {2}×{1}</FilthLabelWithSource>
   <!-- EN: Required -->
   <Required>Necessari</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
