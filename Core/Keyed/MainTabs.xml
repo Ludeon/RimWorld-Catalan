@@ -347,7 +347,7 @@
   <!-- EN: {0_labelShort} joins -->
   <PawnQuestReward> {0_labelShort} passa a formar part del vostre grup.</PawnQuestReward>
   <!-- EN: Betrayal offer: {0} targets remain -->
-  <QuestBetrayalOffer>Oferta de traïció: queden {0} objectius.</QuestBetrayalOffer>
+  <QuestBetrayalOffer>Oferta de traïció: {replace: queden ^{0} objectius;"queden ^1 objectius"-"queda 1 objectiu";"^"-""}.</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
   <QuestBetrayalOfferTip>{0} us ofereix una recompensa per matar tots els membres de {1}.</QuestBetrayalOfferTip>
   <!-- EN: a colony wealth of at least {0} -->

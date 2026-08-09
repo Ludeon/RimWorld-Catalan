@@ -146,9 +146,9 @@
   <!-- EN: Roughly cut natural {0} floor. -->
   <RoughHewnStoneTerrainDesc>Sòl tosc de {0}.</RoughHewnStoneTerrainDesc>
   <!-- EN: smooth {0} -->
-  <SmoothStoneTerrainLabel>{0} llis</SmoothStoneTerrainLabel>
+  <SmoothStoneTerrainLabel>{0} {0_gender ? polit : polida}</SmoothStoneTerrainLabel>
   <!-- EN: Smoothed natural {0} floor. -->
-  <SmoothStoneTerrainDesc>Sòl llis de {0}.</SmoothStoneTerrainDesc>
+  <SmoothStoneTerrainDesc>Sòl de {0} {0_gender ? polit : polida}.</SmoothStoneTerrainDesc>
 
   <!-- EN:  (blueprint) -->
   <BlueprintLabelExtra> (plànol)</BlueprintLabelExtra>

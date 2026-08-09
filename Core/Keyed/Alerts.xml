@@ -56,7 +56,7 @@
   <!-- EN: Low medicine -->
   <LowMedicine>Falten medicaments</LowMedicine>
   <!-- EN: You only have {0} medications left in storage.\n\nBuy more medicine from traders. -->
-  <LowMedicineDesc>Només queden {0} medicaments al magatzem.\n\nCompreu-ne als mercaders.</LowMedicineDesc>
+  <LowMedicineDesc>Només {replace: queden ^{0} medicaments; "queden ^1 medicament"-"queda 1 medicament; "^"-""} al magatzem.\n\nCompreu-ne als mercaders.</LowMedicineDesc>
   <!-- EN: You have no medicine left in storage.\n\nBuy more medicine from traders. -->
   <NoMedicineDesc>No us queda medicina al magatzem.\n\nCompreu-ne als mercaders.</NoMedicineDesc>
   

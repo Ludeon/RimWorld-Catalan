@@ -2,40 +2,40 @@
 <LanguageData>
 
   <!-- EN: {FACTION_pawnsPlural} from {FACTION_name} are attacking! They've used the gravcore to lure you into an ambush. -->
-  <GravcoreAbandonedSettlementRaid>TODO</GravcoreAbandonedSettlementRaid>
+  <GravcoreAbandonedSettlementRaid>Els {FACTION_pawnsPlural} de {FACTION_name} ataquen! Han utilitzat el gravinucli per a atraure-vos a una emboscada.</GravcoreAbandonedSettlementRaid>
   <!-- EN: More reinforcements are on their way, and will arrive in the next few days. Prepare for their attack, or escape before they arrive. -->
-  <GravcoreAbandonedSettlementRaid_Reinforcements>TODO</GravcoreAbandonedSettlementRaid_Reinforcements>
+  <GravcoreAbandonedSettlementRaid_Reinforcements>Hi ha més reforços de camí i arribaran en els propers dies. Prepareu-vos per a l'atac o escapeu abans que arribin.</GravcoreAbandonedSettlementRaid_Reinforcements>
   
   <!-- EN: Relay defense response -->
-  <GravcoreMechRelayRaidLetterLabel>TODO</GravcoreMechRelayRaidLetterLabel>
+  <GravcoreMechRelayRaidLetterLabel>Resposta de defensa del repetidor</GravcoreMechRelayRaidLetterLabel>
   <!-- EN: Mechanoids are arriving to defend the relay!\n\nThey are arriving by transport pod and will attack immediately. -->
-  <GravcoreMechRelayRaidLetterText>TODO</GravcoreMechRelayRaidLetterText>
+  <GravcoreMechRelayRaidLetterText>Arriben mecanoides per a defensar el repetidor!\n\nVénen amb una càpsula de transport i atacaran immediatament.</GravcoreMechRelayRaidLetterText>
   
   <!-- EN: Amongst the remnants of the crashed mechanoid platform, a still-intact grav engine hums with energy.\n\nYou can build gravship substructure around the engine to create a new gravship. The engine pushes against gravity, levitating the ship and allowing long-distance travel.\n\nLaunch a gravship by researching basic gravtech, then building fuel tanks, thrusters, and a pilot console.\n\nLaunching a gravship will abandon your current map unless you build a grav anchor first.\n\n  - Research unlocked: Basic gravtech\n  - Flooring unlocked: Gravship substructure -->
-  <GravEngineInspectedLetterContents>TODO</GravEngineInspectedLetterContents>
+  <GravEngineInspectedLetterContents>Entre les restes de la plataforma mecanoide estavellada, un gravimotor encara intacte emet un brunzit d'energia.\n\nPodeu construir una subestructura de gravetat al voltant del motor per a crear una gravinau. El motor empeny contra la gravetat, la nau levita i li permet viatjar a llarga distància.\n\nPodeu fer enlairar una gravinau si investigueu la gravitecnologia bàsica i després construïu dipòsits de combustible, propulsors i una consola de pilotatge.\n\nQuan una gravinau s'enlaira, abandona el vostre mapa actual, tret que primer construïu una àncora gravitatòria.\n\n  ‒ Recerca desblocada: Gravitecnologia bàsica\n\n  ‒ Terra desblocat: subestructura de gravetat</GravEngineInspectedLetterContents>
   <!-- EN: View quest -->
   <ViewQuest>Mostra la missió</ViewQuest>
   
   <!-- Asteroid -->
   <!-- EN: {RESOURCE} asteroid -->
-  <AsteroidLetter>TODO</AsteroidLetter> 
+  <AsteroidLetter>Asteroide de {RESOURCE}</AsteroidLetter> 
   <!-- EN: You've discovered the location of an asteroid orbiting the planet. It contains significant amounts of {RESOURCE}, and potentially other resources.\n\nOrbital miners steer valuable asteroids into planetary orbit so that they can be easily mined and sold to orbital traders. You do not detect any signs of life from this asteroid.\n\nYou can reach the asteroid with transport pods, shuttles, or a gravship. -->
-  <AsteroidLetterText>TODO</AsteroidLetterText>
+  <AsteroidLetterText>Heu descobert la ubicació d'un asteroide que orbita el planeta. Conté quantitats importants de {RESOURCE} i, potser, altres recursos.\n\nEls miners orbitals dirigeixen asteroides valuosos cap a l'òrbita planetària perquè se'n puguin extraure i vendre fàcilment els seus minerals als comerciants orbitals. No es detecta cap signe de vida d'aquest asteroide.\n\nPodeu arribar a l'asteroide amb càpsules de transport, llançadores o una gravinau.</AsteroidLetterText>
 
   <!-- EN: {RESOURCE} asteroid -->
-  <AsteroidName>TODO</AsteroidName>
+  <AsteroidName>Asteroide de {RESOURCE}</AsteroidName>
 
   <!-- Ancient Reactor -->
   <!-- EN: Ancient reactor -->
-  <AncientReactorArrivedLetter>TODO</AncientReactorArrivedLetter>
+  <AncientReactorArrivedLetter>Reactor antic</AncientReactorArrivedLetter>
   <!-- EN: An ancient reactor is hidden within nearby ruins. The reactor is damaged and leaking, covering the region in toxic fallout. Locate and disable the reactor to obtain a gravcore and stop the fallout. -->
-  <AncientReactorArrivedLetterText>TODO</AncientReactorArrivedLetterText>
+  <AncientReactorArrivedLetterText>A dins de les ruïnes properes hi ha amagat un reactor molt antic. Està danyat i té fuites, cobrint la regió de precipitacions tòxiques. Localitzeu i desactiveu el reactor per a obtenir un gravinucli i aturar la pluja tòxica.</AncientReactorArrivedLetterText>
 
   <!-- Frozen Terraformer -->
   <!-- EN: Ancient terraformer -->
   <FrozenTerraformerArrivedLetter>Terraformadora antiga</FrozenTerraformerArrivedLetter>
   <!-- EN: The malfunctioning terraformer has encased itself in solid ice. The gravcore energy signal is coming from somewhere within. Find and destroy the terraformer to obtain the gravcore. -->
-  <FrozenTerraformerArrivedLetterText>TODO</FrozenTerraformerArrivedLetterText>
+  <FrozenTerraformerArrivedLetterText>La terraformadora defectuosa ha quedat envoltada de gel. El senyal d'energia del gravinucli prové del seu interior. Trobeu i destruïu la terraformadora per a obtenir el gravinucli.</FrozenTerraformerArrivedLetterText>
 
   <!-- Ancient Stockpile -->
   <!-- EN: Ancient stockpile -->
@@ -45,47 +45,47 @@
 
   <!-- Orbital Mechanoid Platform -->
   <!-- EN: Mechanoid platform -->
-  <OrbitalMechanoidPlatformLetterArrived>TODO</OrbitalMechanoidPlatformLetterArrived>
+  <OrbitalMechanoidPlatformLetterArrived>Plataforma mecanoide</OrbitalMechanoidPlatformLetterArrived>
   <!-- EN: This orbital platform is built to service and deploy combat mechanoids, likely as part of some ancient planet-spanning war machine.\n\nThe gravcore signal is coming from somewhere within. -->
   <OrbitalMechanoidPlatformLetterArrivedText>TODO</OrbitalMechanoidPlatformLetterArrivedText>
 
   <!-- Orbital Ancient Platform -->
   <!-- EN: Ancient platform -->
-  <OrbitalAncientPlatformLetterArrived>TODO</OrbitalAncientPlatformLetterArrived>
+  <OrbitalAncientPlatformLetterArrived>Plataforma antiga</OrbitalAncientPlatformLetterArrived>
   <!-- EN: The people who once inhabited this orbital platform are long gone and its original purpose has long been forgotten.\n\nThe gravcore signal is coming from somewhere within. -->
   <OrbitalAncientPlatformLetterArrivedText>TODO</OrbitalAncientPlatformLetterArrivedText>
   
   <!-- Ancient Reactor -->
   <!-- EN: Crashed mechanoid platform -->
-  <CrashedPlatformArrivedLetter>TODO</CrashedPlatformArrivedLetter>
+  <CrashedPlatformArrivedLetter>Plataforma mecanoide estavellada</CrashedPlatformArrivedLetter>
   <!-- EN: The remains of an orbital platform are strewn nearby. Be careful, the wreckage contains hostile mechanoids.\n\nThe gravcore signal is coming from somewhere within the crash site. -->
   <CrashedPlatformArrivedLetterText>TODO</CrashedPlatformArrivedLetterText>
 
   <!-- Lava Incidents-->
   <!-- EN: Lava emergence -->
-  <LetterLabelLavaEmergence>TODO</LetterLabelLavaEmergence>
+  <LetterLabelLavaEmergence>Ha aparegut lava</LetterLabelLavaEmergence>
   <!-- EN: Lava is emerging from cracks in the ground! It'll continue to pool until it creates a small lake. It will then take several days to cool, after which it can be removed. -->
   <LetterLavaEmergence>TODO</LetterLavaEmergence>
   <!-- EN: Lava flow -->
-  <LetterLabelLavaFlow>TODO</LetterLabelLavaFlow>
+  <LetterLabelLavaFlow>Riu de lava</LetterLabelLavaFlow>
   <!-- EN: Lava has begun to pour into the region, flooding the low-lying volcanic rock. Keep your colonists out of harm's way! -->
   <LetterLavaFlow>TODO</LetterLavaFlow>
 
   <!-- Seasonal Flooding -->
   <!-- EN: Seasonal flooding -->
-  <LetterLabelSeasonalFlooding>TODO</LetterLabelSeasonalFlooding>
+  <LetterLabelSeasonalFlooding>Inundacions estacionals</LetterLabelSeasonalFlooding>
   <!-- EN: Rainfall upriver is causing the river to swell. The flooding will subside after several days. -->
   <LetterSeasonalFlooding>TODO</LetterSeasonalFlooding>
   <!-- EN: Low temperatures have begun to freeze the river. Flooding is subsiding. -->
   <MessageSeasonalFloodingFrozen>TODO</MessageSeasonalFloodingFrozen>
   <!-- EN: Flooding is subsiding. -->
-  <MessageFloodingSubsiding>TODO</MessageFloodingSubsiding>
+  <MessageFloodingSubsiding>Les inundacions remeten.</MessageFloodingSubsiding>
 
   <!-- Fishing -->
   <!-- EN: Rare catch -->
-  <LetterLabelRareCatch>TODO</LetterLabelRareCatch>
+  <LetterLabelRareCatch>Captura excepcional</LetterLabelRareCatch>
   <!-- EN: While fishing, {PAWN_nameDef} made an unusual catch -->
-  <LetterTextRareCatch>TODO</LetterTextRareCatch>
+  <LetterTextRareCatch>Mentre pescava, {PAWN_nameDef} ha fet una captura poc usual.</LetterTextRareCatch>
 
   <!-- Pursuing Mechanoids -->
   <!-- EN: Incoming mechanoids -->

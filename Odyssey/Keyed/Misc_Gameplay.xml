@@ -87,15 +87,15 @@
   <!-- EN: Launch date -->
   <LaunchDate>Data de llançament</LaunchDate>
   <!-- EN: Warning: {0} will be blocked by {1}. -->
-  <WarningThrusterBlocked>TODO</WarningThrusterBlocked>
+  <WarningThrusterBlocked>Avís: {0} quedarà blocat per {1}.</WarningThrusterBlocked>
   <!-- EN: Warning: {0} will be blocked due to being indoors. -->
-  <WarningThrusterInside>TODO</WarningThrusterInside>
+  <WarningThrusterInside>Avís: {0} quedarà blocat perquè es troba a l'interior.</WarningThrusterInside>
   <!-- EN: Max per gravship -->
-  <GravFacilityMaxSimultaneousConnections>TODO</GravFacilityMaxSimultaneousConnections>
+  <GravFacilityMaxSimultaneousConnections>Màx. per gravinau</GravFacilityMaxSimultaneousConnections>
   <!-- EN: Not connected to gravship -->
-  <ShieldNotConnectedToGravship>TODO</ShieldNotConnectedToGravship>
+  <ShieldNotConnectedToGravship>No connectat a la gravinau</ShieldNotConnectedToGravship>
   <!-- EN: Gravship launch called off -->
-  <GravshipLaunchInterrupted>TODO</GravshipLaunchInterrupted>
+  <GravshipLaunchInterrupted>Llançament de gravinau cancel·lat</GravshipLaunchInterrupted>
   <!-- EN: Not connected to grav engine. -->
   <NotConnectedToGravEngine>No esta connectat al gravimotor.</NotConnectedToGravEngine>
   <!-- EN: Not functional -->
@@ -103,7 +103,7 @@
   <!-- EN: not connected to grav engine -->
   <ThrusterNotConnected>no connectat al gravimotor</ThrusterNotConnected>
   <!-- EN: blocked by {0_label} -->
-  <ThrusterBlockedBy>TODO</ThrusterBlockedBy>
+  <ThrusterBlockedBy>blocat per {0_label}</ThrusterBlockedBy>
   <!-- EN: must be outside -->
   <MustBeOutside>ha d'estar a l'exterior</MustBeOutside>
   <!-- EN: blocked by substructure -->
@@ -123,7 +123,7 @@
   <!-- EN: {ANIMALKIND_label} habitat -->
   <AnimalHabitat>hàbitat de {ANIMALKIND_label}</AnimalHabitat>
   <!-- EN: {0} grove -->
-  <PlantGrove>TODO</PlantGrove>
+  <PlantGrove>arbreda de {0}</PlantGrove>
   <!-- EN: {0} -->
   <WildPlants>{0}</WildPlants>
   <!-- EN: {MINERAL_label} rich -->
@@ -233,30 +233,30 @@
   
   <!-- Outfit Stand -->
   <!-- EN: equip outfit -->
-  <SwapOutfit>TODO</SwapOutfit>
+  <SwapOutfit>equipa la indumentària</SwapOutfit>
   <!-- EN: equip outfit... -->
-  <SwapOutfitGizmo>TODO</SwapOutfitGizmo>
+  <SwapOutfitGizmo>equipa la indumentària...</SwapOutfitGizmo>
   <!-- EN: Order a colonist to wear all apparel on the stand. The colonist will place any unequipped clothing back on the stand. -->
-  <SwapOutfitDesc>TODO</SwapOutfitDesc>
+  <SwapOutfitDesc>Ordena a un colon que es posi la roba de l'estand. El colon hi posarà tota la roba que es tregui.</SwapOutfitDesc>
   <!-- EN: cannot equip outfit -->
-  <CannotSwapOutfit>TODO</CannotSwapOutfit>
+  <CannotSwapOutfit>no es pot posar la indumentària</CannotSwapOutfit>
   <!-- EN: outfit stand is empty -->
-  <OutfitStandEmpty>TODO</OutfitStandEmpty>
+  <OutfitStandEmpty>el penja-robes està buit</OutfitStandEmpty>
   <!-- EN: Remove this from the outfit stand. -->
-  <EjectApparelTooltip>TODO</EjectApparelTooltip>
+  <EjectApparelTooltip>Trau-ho del penja-robes.</EjectApparelTooltip>
   
   <!-- Orbital mechanoid platform -->
   <!-- EN: Ancient grav engine -->
   <LetterAncientGravEngineDiscoveredLabel>Gravimotor ancestral</LetterAncientGravEngineDiscoveredLabel>
   <!-- EN: You've discovered an ancient grav engine. Destroy it to obtain a gravcore. -->
-  <LetterAncientGravEngineDiscovered>TODO</LetterAncientGravEngineDiscovered>
+  <LetterAncientGravEngineDiscovered>Heu descobert un gravimotor molt antic. Destruïu-lo per a obtenir un gravinucli.</LetterAncientGravEngineDiscovered>
 
   <!-- EN: Gravship -->
   <PlayerPawnsArriveMethod_Gravship>Gravinau</PlayerPawnsArriveMethod_Gravship>
 
   <!-- Misc -->
   <!-- EN: Toggle displaying expanding icons for landmarks. -->
-  <ShowExpandingLandmarksToggleButton>TODO</ShowExpandingLandmarksToggleButton>
+  <ShowExpandingLandmarksToggleButton>Commuta la visualització d'icones en expansió per a punts d'interès.</ShowExpandingLandmarksToggleButton>
 
   <!-- Mechive -->
   <!-- EN: Before {PAWN_nameDef} stands the cerebrex core - a massive brain-like neural mesh that commands mechanoids across the planet.\n\nWith its stabilizers destroyed, {PAWN_nameDef} can now access it directly... but what should {PAWN_pronoun} do with that power? -->
@@ -278,15 +278,15 @@
   <OdysseyScavengedCredits>TODO</OdysseyScavengedCredits>
 
   <!-- EN: {0} stabilizers remaining -->
-  <CoreNotInteractableStabilizersRemaining>TODO</CoreNotInteractableStabilizersRemaining>
+  <CoreNotInteractableStabilizersRemaining>{replace: Queden ^{0} estabilitzadors; "Queden ^1 estabilitzadors"-"Queda 1 estabilitzador"; "^"-""}</CoreNotInteractableStabilizersRemaining>
   <!-- EN: Deactivated -->
-  <CoreNotInteractableDeactivated>TODO</CoreNotInteractableDeactivated>
+  <CoreNotInteractableDeactivated>Desactivat</CoreNotInteractableDeactivated>
 
   <!-- EN: Shuttle fuel -->
   <CaravanShuttleFuel>Combustible de la llançadora</CaravanShuttleFuel>
 
   <!-- EN: Passively scanning for orbital signals. -->
-  <OrbitalScannerScanning>TODO</OrbitalScannerScanning>
+  <OrbitalScannerScanning>Escaneja passivament senyals orbitals.</OrbitalScannerScanning>
   <!-- EN: Locating orbital signal -->
   <OrbitalScannerLocating>Es localitza el senyal orbital</OrbitalScannerLocating>
 
@@ -314,34 +314,34 @@
   <!-- EN: Attack -->
   <AnimalAttackTarget>Ataca</AnimalAttackTarget>
   <!-- EN: Command this animal to attack a specific target. -->
-  <AnimalAttackTargetDesc>TODO</AnimalAttackTargetDesc>
+  <AnimalAttackTargetDesc>Ordena a un animal a què ataqui un objectiu concret.</AnimalAttackTargetDesc>
   <!-- EN: Animals attack target -->
   <AnimalsAttackTarget>Els animals ataquen l'objectiu</AnimalsAttackTarget>
   <!-- EN: Direct all mastered animals to attack a specific target. -->
-  <AnimalsAttackTargetDesc>TODO</AnimalsAttackTargetDesc>
+  <AnimalsAttackTargetDesc>Dirigeix tots els animals entrenats a què ataquin l'objectiu especificat.</AnimalsAttackTargetDesc>
   <!-- EN: Cancel attack -->
   <CancelAttack>Cancel·la l'atac</CancelAttack>
   <!-- EN: Clear this animal's current target. -->
-  <CancelAttackDesc>TODO</CancelAttackDesc>
+  <CancelAttackDesc>Esborra l'objectiu actual d'aquest animal.</CancelAttackDesc>
   <!-- EN: This animal does not have a master -->
-  <NoMaster>TODO</NoMaster>
+  <NoMaster>Aquest animal no té amo</NoMaster>
   <!-- EN: This animal's master is not on this map -->
-  <MasterNotSpawned>TODO</MasterNotSpawned>
+  <MasterNotSpawned>L'amo d'aquest animal no està al mapa</MasterNotSpawned>
   <!-- EN: Not in range of master. -->
-  <MessageNotInRangeOfMaster>TODO</MessageNotInRangeOfMaster>
+  <MessageNotInRangeOfMaster>No esta dins de l'abast del seu amo.</MessageNotInRangeOfMaster>
   <!-- EN: {ANIMAL_nameDef} found {FOOD_label} while foraging. -->
-  <MessageAnimalForagedFood>TODO</MessageAnimalForagedFood>
+  <MessageAnimalForagedFood>{ANIMAL_nameDef} ha trobat {FOOD_label} mentre cercava i recollida menjar.</MessageAnimalForagedFood>
   <!-- EN: Forage trained -->
-  <ForageTrained>TODO</ForageTrained>
+  <ForageTrained>S'ha entrenat la cerca i recollida de menjar</ForageTrained>
   <!-- EN: Allow foraging -->
-  <ForageEnabled>TODO</ForageEnabled>
+  <ForageEnabled>Permet cercar i recollir menjar</ForageEnabled>
   <!-- EN: Allow digging -->
-  <DigEnabled>TODO</DigEnabled>
+  <DigEnabled>Permet excavar</DigEnabled>
 
   <!-- EN: Unlocked. -->
   <HatchUnlocked>Desblocat</HatchUnlocked>
 
   <!-- EN: A short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. It shuts down instantly if hit by an EMP. -->
-  <GravshipShieldTip>TODO</GravshipShieldTip>
+  <GravshipShieldTip>Una superfície repulsora d'impulsos de curta durada que bloca els projectils. Funciona contra trets i morters normals. S'apaga a l'instant si és colpejat per un PEM.</GravshipShieldTip>
 
 </LanguageData>
