@@ -143,9 +143,9 @@
   <SniperTurret.generalRules.rulesStrings>TODO</SniperTurret.generalRules.rulesStrings>
   
   <!-- EN: vitals monitor -->
-  <VitalsMonitor.label>monitor de signes vitals</VitalsMonitor.label>
+  <VitalsMonitor.label>monitor de constants vitals</VitalsMonitor.label>
   <!-- EN: Build vitals monitors which improve medical outcomes when placed next to hospital beds. -->
-  <VitalsMonitor.description>Permet la construcció de monitors de signes vitals que milloren la qualitat dels tractaments mèdics quan s’instal·len al costat dels llits d’hospital.</VitalsMonitor.description>
+  <VitalsMonitor.description>Permet la construcció de monitors de constants vitals que milloren la qualitat dels tractaments mèdics quan s’instal·len al costat dels llits d’hospital.</VitalsMonitor.description>
   <!-- EN:
     <li>subject->vital signs monitoring</li>
     <li>subject_story->struggled in an overcrowded hospital and vowed to work for change</li>
@@ -154,6 +154,14 @@
     <li>subject_gerund->monitoring vital signs</li>
     <li>subject_gerund->constructing vital signs monitors</li>
   -->
-  <VitalsMonitor.generalRules.rulesStrings>TODO</VitalsMonitor.generalRules.rulesStrings>
+  <VitalsMonitor.generalRules.rulesStrings>
+<li>subject->monitor de constants vitals</li>
+    <li>subject_story->va lluitar en un hospital sobreexplotat i es va jurar treballar per a canviar-ho</li>
+    <li>subject_story->va tenir cura d'un supervivent d'un vidremón fins que es va recuperar</li>
+    <li>subject_story->va monitoritzar la sala d'aïllament a distància, enviant mecanoides per als tractaments</li>
+    <li>subject_gerund->monitoritzant constants vitals</li>
+    <li>subject_gerund->construint monitors de constants vitals</li>
+
+</VitalsMonitor.generalRules.rulesStrings>
   
 </LanguageData>

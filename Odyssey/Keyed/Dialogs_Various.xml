@@ -3,7 +3,7 @@
 
   <!-- Grav engine/substructrues -->
   <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. Build a grav anchor to prevent this map from being destroyed. -->
-  <ConfirmGravEngineLaunch>TODO</ConfirmGravEngineLaunch>
+  <ConfirmGravEngineLaunch>Esteu segur que voleu fer el llançament?\n\nEl vostre mapa actual, així com qualsevol cosa que no estigui a la subestructura de la nau gravitatòria, es perdran permanentment. El procés de llançament és destructiu i irreversible; és a dir, no podreu tornar. Construïu una graviàncora per a evitar que aquest mapa sigui destruït.</ConfirmGravEngineLaunch>
   <!-- EN: Warning -->
   <GravEngineWarning>Avís</GravEngineWarning>
   <!-- EN: The following people will be left behind -->
@@ -11,11 +11,11 @@
   <!-- EN: The following will be left behind -->
   <AnimalsWillBeLeftBehind>Aquests animals s'hi quedaran abandonats</AnimalsWillBeLeftBehind>
   <!-- EN: The following people and animals from another faction will be taken with you. This will upset their faction, potentially turning them hostile -->
-  <PawnsKidnappedOnGravship>TODO</PawnsKidnappedOnGravship>
+  <PawnsKidnappedOnGravship>Les persones i animals següents d'una altra facció us acompanyaran. Això molestarà la seva facció i podrien tornar-se hostils</PawnsKidnappedOnGravship>
   <!-- EN: The following buildings are not fully on the gravship and will be left behind -->
-  <BuildingsWillBeLeftBehind>TODO</BuildingsWillBeLeftBehind>
+  <BuildingsWillBeLeftBehind>Els següents edificis no estan del tot al damunt de la gravinau i quedaran abandonades</BuildingsWillBeLeftBehind>
   <!-- EN: Some substructure has invalid placement and will be left behind -->
-  <SubstructureWillBeLeftBehind>TODO</SubstructureWillBeLeftBehind>
+  <SubstructureWillBeLeftBehind>Alguna subestructura té una ubicació no vàlida i es deixarà enrere</SubstructureWillBeLeftBehind>
   <!-- EN: Disconnected from grav engine -->
   <DisconnectedSubstructure>Desconnectat del gravimotor</DisconnectedSubstructure>
   <!-- EN: Under rock roof -->
@@ -24,7 +24,7 @@
   <SubstructureOutsideFootprint>Fora de l'abast</SubstructureOutsideFootprint>
 
   <!-- EN: {0} has high hopes for your new gravship and wants to christen it with a good name. What should your gravship be called? -->
-  <NamePlayerGravshipMessage>TODO</NamePlayerGravshipMessage>
+  <NamePlayerGravshipMessage>{0} té moltes esperances amb la gravinau nova i vol batejar-la amb un bon nom. Quin nom li voleu donar?</NamePlayerGravshipMessage>
   <!-- EN: The gravship is now known as {0}. -->
   <PlayerGravshipGainsName>Ara la gravinau es diu {0}.</PlayerGravshipGainsName>
   <!-- EN: That name isn't valid. -->
@@ -33,28 +33,28 @@
   <!-- EN: Force visitors to leave -->
   <GravshipForceVisitorsToLeaveLabel>Força als visitants a què marxin</GravshipForceVisitorsToLeaveLabel>
   <!-- EN: Wait for all visitors to leave the gravship before launching. This won’t affect enemies, prisoners, or downed visitors. -->
-  <GravshipForceVisitorsToLeaveTooltip>TODO</GravshipForceVisitorsToLeaveTooltip>
+  <GravshipForceVisitorsToLeaveTooltip>Espereu que tots els visitants surtin de la gravinau abans de fer el llançament. Això no afectarà els enemics, els presoners o els visitants inconscients.</GravshipForceVisitorsToLeaveTooltip>
   <!-- EN: Board colony animals -->
   <GravshipBoardColonyAnimalsLabel>Embarca els animals de l'assentament</GravshipBoardColonyAnimalsLabel>
   <!-- EN: Order all colony animals to board the gravship. The gravship won’t launch until they are aboard. -->
-  <GravshipBoardColonyAnimalsTooltip>TODO</GravshipBoardColonyAnimalsTooltip>
+  <GravshipBoardColonyAnimalsTooltip>Ordena que tots els animals de la colònia pugin a la nau. La gravinau no s'enlairarà fins que estiguin a bord.</GravshipBoardColonyAnimalsTooltip>
   <!-- EN: Board colony mechanoids -->
   <GravshipBoardColonyMechsLabel>Embarca els mecanoides de l'assentament</GravshipBoardColonyMechsLabel>
   <!-- EN: Order all colony mechanoids to board the gravship. The gravship won’t launch until they are aboard. -->
-  <GravshipBoardColonyMechsTooltip>TODO</GravshipBoardColonyMechsTooltip>
+  <GravshipBoardColonyMechsTooltip>Ordena a tots els mecanoides de la colònia que pugin a la nau. La gravinau no s'enlairarà fins que estiguin a bord.</GravshipBoardColonyMechsTooltip>
 
   <!-- EN: {0} are hostile. If you land here they will attack you. -->
-  <ConfirmLandOnHostileFactionBase>TODO</ConfirmLandOnHostileFactionBase>
+  <ConfirmLandOnHostileFactionBase>{0} són hostils. Si aterreu aquí, us atacaran.</ConfirmLandOnHostileFactionBase>
   <!-- EN: Landing here will be seen as an aggressive act by {0}. They will become hostile and attack. -->
-  <ConfirmLandOnNeutralFactionBase>TODO</ConfirmLandOnNeutralFactionBase>
+  <ConfirmLandOnNeutralFactionBase>Si aterreu aquí, {0} ho consideraran un acte agressiu. Es tornaran hostils i us atacaran.</ConfirmLandOnNeutralFactionBase>
 
   <!-- EN: Land here anyway? -->
   <ConfirmLand>Voleu aterrar-hi igualment?</ConfirmLand>
 
   <!-- EN: Orbital locations are dangerous. Make sure you're prepared:\n - Equip your colonists with vacsuits or other advanced armors.\n - Plan your return trip. Living in orbit for extended periods is extremely challenging. -->
-  <OrbitalWarning>TODO</OrbitalWarning>
-  <!-- EN: Prepare your gravship for orbit:\n- Use airtight walls and doors.\n- Ensure rooms are well heated and fully roofed.\n- Construct oxygen pumps. -->
-  <OrbitalWarning_Gravship>TODO</OrbitalWarning_Gravship>
+  <OrbitalWarning>Les ubicacions orbitals són perilloses. Assegureu-vos que ho heu preparat tot bé:\n ‒ Equipeu els colons amb indumentària espacial o altres exoesquelets avançats.\n ‒ Planifiqueu el viatge de tornada. Viure en òrbita durant períodes prolongats és extremadament difícil.</OrbitalWarning>
+  <!-- EN: Prepare your gravship for orbit:\n- Use airtight walls and doors.\n Ensure rooms are well heated and fully roofed.\n- Construct oxygen pumps. -->
+  <OrbitalWarning_Gravship>Prepareu la vostra nau per a entrar en òrbita:\n‒ Utilitzeu parets i portes hermètiques.\n‒ Assegureu-vos que les habitacions estiguin ben climatitzades i totalment cobertes.\n‒ Construïu bombes d'oxigen.</OrbitalWarning_Gravship>
   <!-- EN: Warning -->
   <OrbitalWarning_Warning>Avís</OrbitalWarning_Warning>
   <!-- EN: Some exterior walls or doors are not airtight. -->
@@ -69,11 +69,11 @@
   <OrbitalWarning_FewOxygenPumps>Poques bombes d'oxigen funcionals</OrbitalWarning_FewOxygenPumps>
 
   <!-- EN: The shuttle does not have enough fuel to return from this destination. It may be stranded.\n\nYou currently have {0} fuel but need {1} fuel for a return flight.\n\nAre you sure you want to continue? -->
-  <ConfirmShuttleNotEnoughFuelToReturn>TODO</ConfirmShuttleNotEnoughFuelToReturn>
+  <ConfirmShuttleNotEnoughFuelToReturn>La llançadora no té prou combustible a per tornar d'aquesta destinació. Pot quedar-se aïllada.\n\nActualment teniu {0} de combustible però en necessiteu {1} per a fer el vol de tornada.\n\nEsteu segur que voleu continuar?</ConfirmShuttleNotEnoughFuelToReturn>
   <!-- EN: Caravan is immobile due to shuttle -->
-  <CaravanMovementSpeedShuttle>La caravana esta immòbil a causa de la llançadora</CaravanMovementSpeedShuttle>
+  <CaravanMovementSpeedShuttle>La caravana està immòbil a causa de la llançadora</CaravanMovementSpeedShuttle>
   <!-- EN: Refuel {0}x chemfuel -->
-  <RefuelShuttleCount>TODO</RefuelShuttleCount>
+  <RefuelShuttleCount>Recarrega {0}× quimibustible</RefuelShuttleCount>
   <!-- EN: Zoom range (gravship) {0} -->
   <ZoomRangeGravshipCutscene>Abast del zoom (gravinau) {0}</ZoomRangeGravshipCutscene>
 
