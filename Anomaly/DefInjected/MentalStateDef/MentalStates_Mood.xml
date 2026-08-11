@@ -6,7 +6,7 @@
   <!-- EN: Mental state: Dark visions -->
   <DarkVisions.baseInspectLine>Estat mental: Visions tenebroses</DarkVisions.baseInspectLine>
   <!-- EN: {PAWN_nameDef} has become overwhelmed with horrible visions, rambling about things that only {PAWN_pronoun} can see. {PAWN_pronoun} will snap out of it in a few hours. -->
-  <DarkVisions.beginLetter>TODO</DarkVisions.beginLetter>
+  <DarkVisions.beginLetter>{PAWN_nameDef} ha tingut visions horribles aclaparadores i divaga sobre coses que només {PAWN_pronoun} pot veure. Ho patirà durant unes hores.</DarkVisions.beginLetter>
   <!-- EN: dark visions -->
   <DarkVisions.beginLetterLabel>visions tenebroses</DarkVisions.beginLetterLabel>
   <!-- EN: {PAWN_nameDef}'s dark visions have stopped. -->
@@ -17,7 +17,7 @@
   <!-- EN: Mental state: Entity slayer -->
   <EntityKiller.baseInspectLine>Estat mental: Caçaentitats</EntityKiller.baseInspectLine>
   <!-- EN: {0} has snapped. {PAWN_pronoun} can no longer tolerate holding such dangerous entities in captivity and intends to destroy as many as {PAWN_pronoun} can. -->
-  <EntityKiller.beginLetter>TODO</EntityKiller.beginLetter>
+  <EntityKiller.beginLetter>{0} se li han creuat els cables. Ja no tolera mantenir en captivitat entitats tan perilloses i té la intenció de destruir-ne tantes com pugui.</EntityKiller.beginLetter>
   <!-- EN: {0} is no longer slaughtering random entities. -->
   <EntityKiller.recoveryMessage>{0} ja no caça entitats a la babalà.</EntityKiller.recoveryMessage>
   
@@ -26,7 +26,7 @@
   <!-- EN: Mental state: Entity liberator -->
   <EntityLiberator.baseInspectLine>Estat mental: Alliberaentitats</EntityLiberator.baseInspectLine>
   <!-- EN: {0} has become suddenly allured by a captive entity and is convinced it must be freed. -->
-  <EntityLiberator.beginLetter>TODO</EntityLiberator.beginLetter>
+  <EntityLiberator.beginLetter>De sobte, a {0} l'ha seduït una entitat captiva i està {0_gender ? convençut : convençuda} que l'ha d'alliberar.</EntityLiberator.beginLetter>
   <!-- EN: {0} is no longer freeing entities. -->
   <EntityLiberator.recoveryMessage>{0} ja no allibera entitats.</EntityLiberator.recoveryMessage>
   
@@ -35,7 +35,7 @@
   <!-- EN: Mental state: Insane ramblings -->
   <InsaneRamblings.baseInspectLine>Estat mental: Deliris demencials</InsaneRamblings.baseInspectLine>
   <!-- EN: {PAWN_nameDef} has become completely untethered from reality, ranting about impossible subjects. {PAWN_pronoun} will snap out of it in a few hours. -->
-  <InsaneRamblings.beginLetter>TODO</InsaneRamblings.beginLetter>
+  <InsaneRamblings.beginLetter>{PAWN_nameDef} ha perdut completament el nord i desvarieja sobre temes impossibles. Li passarà d'aquí d'unes hores.</InsaneRamblings.beginLetter>
   <!-- EN: insane ramblings -->
   <InsaneRamblings.beginLetterLabel>deliris demencials</InsaneRamblings.beginLetterLabel>
   <!-- EN: {PAWN_nameDef} has stopped rambling. -->
@@ -46,7 +46,7 @@
   <!-- EN: Mental state: Terrifying hallucinations -->
   <TerrifyingHallucinations.baseInspectLine>Estat mental: Al·lucinacions terrorífiques</TerrifyingHallucinations.baseInspectLine>
   <!-- EN: Vivid  hallucinations swirl around {0}, twisting and distorting allies into horrifying abominations. {PAWN_pronoun} will flee from anyone {PAWN_pronoun} perceives as a threat. -->
-  <TerrifyingHallucinations.beginLetter>TODO</TerrifyingHallucinations.beginLetter>
+  <TerrifyingHallucinations.beginLetter>{0} pateix al·lucinacions vívides, que fa que vegi els aliats com si fossin horribles abominacions. Fugirà de qualsevol persona que percebi com una amenaça.</TerrifyingHallucinations.beginLetter>
   <!-- EN: terrifying hallucinations -->
   <TerrifyingHallucinations.beginLetterLabel>al·lucinacions terrorífiques</TerrifyingHallucinations.beginLetterLabel>
   <!-- EN: {0} is no longer hallucinating. -->

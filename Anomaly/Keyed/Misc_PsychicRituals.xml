@@ -108,23 +108,23 @@
   <!-- EN: {PAWN_labelShort} cannot participate from inside {BUILDING} -->
   <PsychicRitualLeaveReason_InsideBuilding>TODO</PsychicRitualLeaveReason_InsideBuilding>
   <!-- EN: {PAWN_labelShort} is humanlike -->
-  <PsychicRitualLeaveReason_Humanlike>TODO</PsychicRitualLeaveReason_Humanlike>
+  <PsychicRitualLeaveReason_Humanlike>{PAWN_labelShort} és humanoide.</PsychicRitualLeaveReason_Humanlike>
   <!-- EN: {PAWN_labelShort} is not humanlike -->
-  <PsychicRitualLeaveReason_NonHumanlike>TODO</PsychicRitualLeaveReason_NonHumanlike>
+  <PsychicRitualLeaveReason_NonHumanlike>{PAWN_labelShort} no és humanoide.</PsychicRitualLeaveReason_NonHumanlike>
   <!-- EN: {PAWN_labelShort} is a prisoner -->
-  <PsychicRitualLeaveReason_Prisoner>TODO</PsychicRitualLeaveReason_Prisoner>
+  <PsychicRitualLeaveReason_Prisoner>{PAWN_labelShort} és {PAWN_gender ? un presoner : una presonera}.</PsychicRitualLeaveReason_Prisoner>
   <!-- EN: {PAWN_labelShort} is a slave -->
-  <PsychicRitualLeaveReason_Slave>TODO</PsychicRitualLeaveReason_Slave>
+  <PsychicRitualLeaveReason_Slave>{PAWN_labelShort} és {PAWN_gender ? un esclau : una esclava}.</PsychicRitualLeaveReason_Slave>
   <!-- EN: {PAWN_labelShort} is free -->
-  <PsychicRitualLeaveReason_Freeman>TODO</PsychicRitualLeaveReason_Freeman>
+  <PsychicRitualLeaveReason_Freeman>{PAWN_labelShort} és lliure.</PsychicRitualLeaveReason_Freeman>
   <!-- EN: {PAWN_labelShort} is a {STAGE} -->
   <PsychicRitualLeaveReason_DevelopmentalStage>TODO</PsychicRitualLeaveReason_DevelopmentalStage>
   <!-- EN: {PAWN_labelShort} cannot reach the target location -->
   <PsychicRitualLeaveReason_CannotReachTarget>TODO</PsychicRitualLeaveReason_CannotReachTarget>
   <!-- EN: {PAWN_labelShort} is asleep -->
-  <PsychicRitualLeaveReason_Sleeping>TODO</PsychicRitualLeaveReason_Sleeping>
+  <PsychicRitualLeaveReason_Sleeping>{PAWN_labelShort} està {PAWN_gender ? adormit : adormida}.</PsychicRitualLeaveReason_Sleeping>
   <!-- EN: {PAWN_labelShort} is not a human -->
-  <PsychicRitualLeaveReason_Mutant>TODO</PsychicRitualLeaveReason_Mutant>
+  <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort} no és {PAWN_gender ? humà : humana}.</PsychicRitualLeaveReason_Mutant>
   <!-- EN: {PAWN_labelShort}'s belief in {IDEO_name} prevents participation -->
   <PsychicRitualLeaveReason_IdeoUnwilling>TODO</PsychicRitualLeaveReason_IdeoUnwilling> 
   <!-- EN: {PAWN_labelShort} is not psychically sensitive -->
@@ -138,9 +138,9 @@
 
   <!-- PsychicRitualToils-->
   <!-- EN: moving into position -->
-  <PsychicRitualToil_Goto_JobReport_Moving>TODO</PsychicRitualToil_Goto_JobReport_Moving>
+  <PsychicRitualToil_Goto_JobReport_Moving>es mou cap al seu lloc</PsychicRitualToil_Goto_JobReport_Moving>
   <!-- EN: waiting for everyone to get into position -->
-  <PsychicRitualToil_Goto_JobReport_Waiting>TODO</PsychicRitualToil_Goto_JobReport_Waiting>
+  <PsychicRitualToil_Goto_JobReport_Waiting>espera que tothom estigui al seu lloc</PsychicRitualToil_Goto_JobReport_Waiting>
 
   <!-- EN: {PAWN_labelShort} was unable to find enough {1} -->
   <PsychicRitualToil_GatherOfferings_OfferingUnavailable>TODO</PsychicRitualToil_GatherOfferings_OfferingUnavailable>
@@ -173,13 +173,13 @@
   <!-- EN: the area around the target site must be clear of obstructions -->
   <PsychicRitualDef_InvocationCircle_AreaMustBeClear>TODO</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
   <!-- EN: {PAWN_labelShort}'s psychic sensitivity -->
-  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>TODO</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>Sensibilitat psíquica de {PAWN_labelShort}</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
   <!-- EN: How in-tune {PAWN_labelShort} is with psychic phenomena. -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>TODO</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
   <!-- EN: These objects help focus the psychic power of the ritual. -->
-  <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>TODO</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>Aquests objectes ajuden a concentrar el poder psíquic del ritual.</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
   <!-- EN: Ideoligion offset -->
-  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>TODO</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>Modificador per ideoligió</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
   <!-- EN: How affected the psychic ritual is by ideoligious beliefs. -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>TODO</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
 
@@ -191,7 +191,7 @@
 
   <!-- Animal summoning -->
   <!-- EN: Not enough animals in this biome. -->
-  <NotEnoughAnimals>TODO</NotEnoughAnimals>
+  <NotEnoughAnimals>En aquest bioma no hi ha prou animals.</NotEnoughAnimals>
 
   <!-- Shambler summoning -->
   <!-- EN: No nearby shamblers. -->
@@ -199,13 +199,13 @@
 
   <!-- Pit gate summoning -->
   <!-- EN: There is already a pit gate on the map. -->
-  <PitGateAlreadyExists>TODO</PitGateAlreadyExists>
+  <PitGateAlreadyExists>Ja hi ha una boca de la fossa al mapa.</PitGateAlreadyExists>
   
   <!-- Chronophagy -->
   <!-- EN: The invoker must be at least {0} years old. -->
   <InvokerTooYoung>TODO</InvokerTooYoung>
   <!-- EN: The target must be at least {0} years old. -->
-  <PsychicRitualTargetTooYoung>TODO</PsychicRitualTargetTooYoung>
+  <PsychicRitualTargetTooYoung>L'objectiu ha de tenir {0} anys o més.</PsychicRitualTargetTooYoung>
   <!-- EN: {INVOKER_labelShort} will become {1} years old, and {TARGET_labelShort} will become {3} years old. -->
   <CronophagyAgeChange>TODO</CronophagyAgeChange>
   
@@ -213,5 +213,5 @@
   <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
   <PhilophagyTransferReport>TODO</PhilophagyTransferReport>
   <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
-  <NoSkillsToTransfer>TODO</NoSkillsToTransfer>
+  <NoSkillsToTransfer>{TARGET_labelShort} no té habilitats a transferir.</NoSkillsToTransfer>
 </LanguageData>

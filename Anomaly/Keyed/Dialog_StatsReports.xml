@@ -4,53 +4,53 @@
   <!-- EN: Knowledge gain from study -->
   <KnowledgeFromStudy>Coneixement obtingut per l'estudi</KnowledgeFromStudy>
   <!-- EN: The type and amount of anomaly knowledge that can be obtained when this entity is studied. More sophisticated entities can unlock more advanced anomaly research projects. -->
-  <KnowledgeFromStudyDesc>TODO</KnowledgeFromStudyDesc>
+  <KnowledgeFromStudyDesc>El tipus i la quantitat de coneixement d'anomalia que es pot obtenir quan s'estudia aquesta entitat. Les entitats més sofisticades poden desblocar projectes d'investigació d'anomalies més avançats.</KnowledgeFromStudyDesc>
   <!-- EN: {0} {1} -->
   <Stat_Knowledge>{0} {1}</Stat_Knowledge>
   <!-- EN: Study interval -->
   <StudyFrequency>Interval d'estudi</StudyFrequency>
   <!-- EN: The duration between available study periods for this entity. -->
-  <StudyFrequencyDesc>TODO</StudyFrequencyDesc>
+  <StudyFrequencyDesc>Temps que s'ha de deixar entre estudi i estudi d'aquesta entitat.</StudyFrequencyDesc>
   
   <!-- EN: Healing -->
   <Stat_Hediff_Regeneration_Name>Curació</Stat_Hediff_Regeneration_Name>
   <!-- EN: A flat amount of healing per day. -->
-  <Stat_Hediff_Regeneration_Desc>TODO</Stat_Hediff_Regeneration_Desc>
+  <Stat_Hediff_Regeneration_Desc>Una quantitat fixa de curació per dia.</Stat_Hediff_Regeneration_Desc>
   <!-- EN: {0} hp/day -->
   <Stat_Hediff_Regeneration_Stat>{0} pv/dia</Stat_Hediff_Regeneration_Stat>
 
   <!-- EN: Average lighting -->
-  <Stat_ContainmentStrength_AverageLighting>TODO</Stat_ContainmentStrength_AverageLighting>
+  <Stat_ContainmentStrength_AverageLighting>Il·luminació mitjana</Stat_ContainmentStrength_AverageLighting>
   <!-- EN: Average wall HP -->
-  <Stat_ContainmentStrength_AverageWallHp>TODO</Stat_ContainmentStrength_AverageWallHp>
+  <Stat_ContainmentStrength_AverageWallHp>PV mitjans de les parets</Stat_ContainmentStrength_AverageWallHp>
   <!-- EN: Average door HP -->
-  <Stat_ContainmentStrength_AverageDoorHp>TODO</Stat_ContainmentStrength_AverageDoorHp>
+  <Stat_ContainmentStrength_AverageDoorHp>PV mitjans de la porta</Stat_ContainmentStrength_AverageDoorHp>
   <!-- EN: Multiple ({0}) holding platforms -->
-  <Stat_ContainmentStrength_OtherHoldingPlatforms>TODO</Stat_ContainmentStrength_OtherHoldingPlatforms>
+  <Stat_ContainmentStrength_OtherHoldingPlatforms>Múltiples ({0}) plataformes de contenció</Stat_ContainmentStrength_OtherHoldingPlatforms>
   <!-- EN: Map-wide offset -->
-  <Stat_ContainmentStrength_MapwideOffset>TODO</Stat_ContainmentStrength_MapwideOffset>
+  <Stat_ContainmentStrength_MapwideOffset>Modificador en tot el mapa</Stat_ContainmentStrength_MapwideOffset>
   <!-- EN: door open -->
   <Stat_ContainmentStrength_DoorForcedOpen>porta oberta</Stat_ContainmentStrength_DoorForcedOpen>
   <!-- EN: Not fully roofed -->
-  <Stat_ContainmentStrength_NotFullyRoofed>TODO</Stat_ContainmentStrength_NotFullyRoofed>
+  <Stat_ContainmentStrength_NotFullyRoofed>No està coberta del tot.</Stat_ContainmentStrength_NotFullyRoofed>
   <!-- EN: Flooring -->
-  <Stat_ContainmentStrength_Flooring>TODO</Stat_ContainmentStrength_Flooring>
+  <Stat_ContainmentStrength_Flooring>Terra</Stat_ContainmentStrength_Flooring>
   <!-- EN: Building -->
-  <Stat_ContainmentStrength_Platform>TODO</Stat_ContainmentStrength_Platform>
+  <Stat_ContainmentStrength_Platform>Estructura</Stat_ContainmentStrength_Platform>
 
   <!-- EN: Bioferrite generation -->
   <StatsReport_BioferriteGeneration>Generació de bioferrita</StatsReport_BioferriteGeneration>
   <!-- EN: How much bioferrite this entity generates per day when connected to a bioferrite harvester. -->
-  <StatsReport_BioferriteGeneration_Desc>TODO</StatsReport_BioferriteGeneration_Desc>
+  <StatsReport_BioferriteGeneration_Desc>Indica quanta bioferrita genera aquesta entitat al dia quan es connecta a una recol·lectora de bioferrita.</StatsReport_BioferriteGeneration_Desc>
   <!-- EN: Multiplier for bioferrite density -->
-  <StatsReport_BioferriteDensityMultiplier>TODO</StatsReport_BioferriteDensityMultiplier>
+  <StatsReport_BioferriteDensityMultiplier>Multiplicador per la densitat de bioferrita</StatsReport_BioferriteDensityMultiplier>
   <!-- EN: Multiplier for bioferrite extracted recently -->
-  <StatsReport_BioferriteExtractedMultiplier>TODO</StatsReport_BioferriteExtractedMultiplier>
+  <StatsReport_BioferriteExtractedMultiplier>Multiplicador per la bioferrita extreta recentment</StatsReport_BioferriteExtractedMultiplier>
 
   <!-- EN: Offering -->
   <StatsReport_Offering>Ofrena</StatsReport_Offering>
   <!-- EN: The ingredients required to perform the psychic ritual. -->
-  <StatsReport_Offering_Desc>TODO</StatsReport_Offering_Desc>
+  <StatsReport_Offering_Desc>Els ingredients necessaris per a realitzar el ritual psíquic.</StatsReport_Offering_Desc>
 
   <!-- EN: Ritual duration -->
   <StatsReport_RitualDuration>Durada del ritual</StatsReport_RitualDuration>
@@ -60,12 +60,12 @@
   <!-- EN: Cooldown -->
   <StatsReport_RitualCooldown>Recàrrega</StatsReport_RitualCooldown>
   <!-- EN: After a ritual is performed, it disrupts ambient psychic energy for a period of time. During this time, the ritual can't be performed again. -->
-  <StatsReport_RitualCooldown_Desc>TODO</StatsReport_RitualCooldown_Desc>
+  <StatsReport_RitualCooldown_Desc>Després de realitzar un ritual, altera l'energia psíquica ambiental durant un període de temps. Durant aquest temps, el ritual no es pot tornar a fer.</StatsReport_RitualCooldown_Desc>
 
   <!-- EN: Containment offset -->
   <StatsReport_ContainmentStrengthOffset>Modificador de la contenció</StatsReport_ContainmentStrengthOffset>
   <!-- EN: How much this affects the ability of a holding platform to constrain an entity. Entities that are better contained are less likely to escape and provide more knowledge when studied. -->
-  <StatsReport_ContainmentStrengthOffset_Desc>TODO</StatsReport_ContainmentStrengthOffset_Desc>
+  <StatsReport_ContainmentStrengthOffset_Desc>Fins a quin punt això afecta la capacitat d'una plataforma de contenció de reprimir una entitat. Les entitats millor contingudes tenen menys probabilitats d'escapar i proporcionen més coneixement quan s'estudien.</StatsReport_ContainmentStrengthOffset_Desc>
 
   <!-- EN: Duration -->
   <StatsReport_SerumDuration>Durada</StatsReport_SerumDuration>
@@ -75,8 +75,8 @@
   <!-- EN: Occupied -->
   <StatsReport_Occupied>Ocupat</StatsReport_Occupied>
   <!-- EN: {2} per nearby {BUILDING_label} ({0} / {1}) -->
-  <MeditationFocusPerBuilding>TODO</MeditationFocusPerBuilding>
+  <MeditationFocusPerBuilding>{2} per {BUILDING_label} {BUILDING_gender ? proper : propera} ({0}/{1})</MeditationFocusPerBuilding>
   <!-- EN: {1} per nearby {BUILDING_label} (up to {0}) -->
-  <MeditationFocusPerBuildingAbstract>TODO</MeditationFocusPerBuildingAbstract>
+  <MeditationFocusPerBuildingAbstract>{1} per {BUILDING_label} {BUILDING_gender ? proper : propera} (fins a {0})</MeditationFocusPerBuildingAbstract>
 
 </LanguageData>
