@@ -383,7 +383,7 @@
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>Aquest animal es pot cavalcar. La gent de la caravana muntarà els animals més ràpids, millorant la velocitat conjunta de la caravana.</RideableAnimalTip>
   <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
-  <CaravanBonusTip>Aquesta persona proporciona una bonificació a la velocitat de la caravana. L'augment de velocitat és la bonificació mitjana de tots els membres de la caravana.</CaravanBonusTip>
+  <CaravanBonusTip>Aquesta persona proporciona una bonificació a la velocitat de la caravana. L’augment de velocitat és la bonificació mitjana de tots els membres de la caravana.</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>Aquesta caravana no es pot moure perquè porta massa coses.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -843,7 +843,7 @@
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>No es pot fer servir en {0}</CannotUseReason_PocketMap>
   <!-- EN: Range reduced -->
-  <WeatherMaxRangeCap>S'ha reduït l'abast</WeatherMaxRangeCap>
+  <WeatherMaxRangeCap>S’ha reduït l’abast</WeatherMaxRangeCap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -985,15 +985,15 @@
 
   <!-- Generated recipes -->
   <!-- EN: make {0} -->
-  <RecipeMake>fer {0_indefinite}</RecipeMake>
+  <RecipeMake>fer {lookup: {0_indefinite}; fix_indefinite}</RecipeMake>
   <!-- EN: Make {0}. -->
-  <RecipeMakeDescription>Fes {0_indefinite}.</RecipeMakeDescription>
+  <RecipeMakeDescription>Fes {lookup: {0_indefinite}; fix_indefinite}.</RecipeMakeDescription>
   <!-- EN: Making {0}. -->
-  <RecipeMakeJobString>fa {0_indefinite}.</RecipeMakeJobString>
+  <RecipeMakeJobString>fa {lookup: {0_indefinite}; fix_indefinite}.</RecipeMakeJobString>
   <!-- EN: administer {0} -->
   <RecipeAdminister>administra {0}</RecipeAdminister>
   <!-- EN: Administering {0}. -->
-  <RecipeAdministerJobString>Administrant {0}.</RecipeAdministerJobString>
+  <RecipeAdministerJobString>Administra {0}.</RecipeAdministerJobString>
   <!-- EN: teetotaler will be unhappy -->
   <TeetotalerUnhappy>s’enfadarà perquè prefereix l’abstèmia</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
@@ -1019,7 +1019,7 @@
   <!-- EN: {PAWN_gender} {1} -->
   <PawnMainDescGendered>{PAWN_gender} {1}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
-  <PawnMainDescFactionedWrap>{0} de {1}</PawnMainDescFactionedWrap>
+  <PawnMainDescFactionedWrap>{0} de la facció «{1}»</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
   <PawnTitleDescWrap>{0} de {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
@@ -1049,7 +1049,7 @@
   <!-- EN: In restraints (slowed) -->
   <InRestraints>Encadenat (alentit)</InRestraints>
   <!-- EN: Carrying -->
-  <Carrying>Portant</Carrying>
+  <Carrying>Porta</Carrying>
   <!-- EN: Affected by: -->
   <AffectedBy>Afectat per:</AffectedBy>
   <!-- EN: Queued -->
@@ -1287,9 +1287,9 @@
   <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>Commuta el cicle d’il·luminació dia/nit.</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
-  <ShowBasesExpandingIconsToggleButton>Commuta la visualització de les icones en expansió dels assentaments d'altres faccions.</ShowBasesExpandingIconsToggleButton>
+  <ShowBasesExpandingIconsToggleButton>Commuta la visualització de les icones en expansió dels assentaments d’altres faccions.</ShowBasesExpandingIconsToggleButton>
   <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
-  <ShowImportantExpandingIconsToggleButton>Commuta la visualització d'icones en expansió per a ubicacions importants, com ara el vostre assentament, llocs de missions i mapes actius.</ShowImportantExpandingIconsToggleButton>
+  <ShowImportantExpandingIconsToggleButton>Commuta la visualització d’icones en expansió per a ubicacions importants, com ara el vostre assentament, llocs de missions i mapes actius.</ShowImportantExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Commuta la visibilitat dels noms dels accidents geogràfics.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
@@ -1507,7 +1507,7 @@
   <!-- EN: Max connected per building -->
   <FacilityMaxSimultaneousConnections>Màx. de connectats per estructura</FacilityMaxSimultaneousConnections>
   <!-- EN: Front of building is blocked. -->
-  <FacilityFrontBlocked>La part del davant de l'estructura està blocada.</FacilityFrontBlocked>
+  <FacilityFrontBlocked>La part del davant de l’estructura està blocada.</FacilityFrontBlocked>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
@@ -1677,11 +1677,11 @@
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
-  <Reward_Pawn_DropPod>{0_nameDef ? un : una} {0_title} de nom {0_nameDef} de {0_age} anys d’edat arribarà en una càpsula de transport {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
+  <Reward_Pawn_DropPod>TODO</Reward_Pawn_DropPod>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_WalkIn>{0_nameDef ? un : una} {0_title} de nom {0_nameDef} de {0_age} anys d’edat arribarà i s’unirà al vostre assentament {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
+  <Reward_Pawn_WalkIn>{0_nameDef ? un : una} {0_title} que es diu {0_nameDef}, de {0_age} anys, arribarà i s’unirà al vostre assentament {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_Caravan>{0_nameDef ? un : una} {0_title} de nom {0_nameDef} de {0_age} anys d’edat s’unirà al vostre assentament {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <Reward_Pawn_Caravan>{0_nameDef ? un : una} {0_title} que es diu {0_nameDef}, de {0_age} anys, s’unirà al vostre assentament {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
   <Reward_Items>aviat arribaran càpsules de transport amb els recursos següents (valor total de {1}):\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):\n\n{0} -->
@@ -1835,9 +1835,9 @@
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Un esclau. Un humà propietat d’altre persones.</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the event, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>{0_labelShort} està al llit. Si s’inclou a l'esdeveniment, es despertarà per a participar-hi.</RitualBeginSleepingDesc>
+  <RitualBeginSleepingDesc>{0_labelShort} està al llit. Si s’inclou a l’esdeveniment, es despertarà per a participar-hi.</RitualBeginSleepingDesc>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the event. -->
-  <RitualBeginSleepingWarning>Alguns dels participants seleccionats estan dormint. Quan s’iniciï l'esdeveniment, es despertaran.</RitualBeginSleepingWarning>
+  <RitualBeginSleepingWarning>Alguns dels participants seleccionats estan dormint. Quan s’iniciï l’esdeveniment, es despertaran.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
   <RitualRoleRequiresSocialRole>Aquest lloc el realitzarà millor algun colon amb el rol de {0}.\n\nSi el lloc l’ocupa algú sense el rol, no rebreu les bonificacions següents:</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
@@ -2011,7 +2011,7 @@
   <!-- EN: Was driven into a mental break after reading {0}. -->
   <BookMentalBreakMessage>Després de llegir {0}, patí una crisi nerviosa.</BookMentalBreakMessage>
   <!-- EN: {0} done (complete in {1} hours) -->
-  <BookReadProgress>{1} ja llegit (s'acabarà en {2} hores)</BookReadProgress>
+  <BookReadProgress>{1} ja llegit (s’acabarà en {2} hores)</BookReadProgress>
   
   <!-- EN: learning speed -->
   <BookLearningModifier>velocitat d’aprenentatge</BookLearningModifier>
@@ -2031,7 +2031,7 @@
   <BookMaxLevel>nivell màx. {0}</BookMaxLevel>
   
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
-  <ReadingReportHeader>De {0}, ja se n'ha llegit un {1} (s'acabarà de llegir en {2} hores)</ReadingReportHeader>
+  <ReadingReportHeader>De {0}, ja se n’ha llegit un {1} (s’acabarà de llegir en {2} hores)</ReadingReportHeader>
   
   <!-- EN: Assign reading -->
   <ReadingDialogTitle>Assigna una lectura</ReadingDialogTitle>
@@ -2062,7 +2062,7 @@
   <UnableToEnterPortal>No pot entrar a {0}: la destinació està blocada</UnableToEnterPortal>
 
   <!-- EN: This category of research has not been discovered. -->
-  <ResearchNotDiscovered>Aquesta categoria de recerca encara no s'ha descobert.</ResearchNotDiscovered>
+  <ResearchNotDiscovered>Aquesta categoria de recerca encara no s’ha descobert.</ResearchNotDiscovered>
 
   <!-- EN: Emergence -->
   <Emergence>Emergència</Emergence>
@@ -2084,7 +2084,7 @@
   <MainScreen_AnomalyAvailableNow>Anomalia, la nova expansió, ja està disponible!</MainScreen_AnomalyAvailableNow>
 
   <!-- EN: Disabled by scenario -->
-  <DisabledByScenario>Desactivat per l'escenari</DisabledByScenario>
+  <DisabledByScenario>Desactivat per l’escenari</DisabledByScenario>
 
   <!-- EN: blocked by roof -->
   <BlockedByRoof>Blocat pel sostre</BlockedByRoof>
@@ -2095,7 +2095,7 @@
   <!-- EN: Fill in -->
   <DesignatorFillIn>Omple</DesignatorFillIn>
   <!-- EN: Designate this crater to be filled in. A colonist assigned to construction will fill it in. -->
-  <DesignatorFillInDesc>Designa que aquest cràter s'ha d'omplir. Els colons assignats a construcció l'ompliran.</DesignatorFillInDesc>
+  <DesignatorFillInDesc>Designa que aquest cràter s’ha d’omplir. Els colons assignats a construcció l’ompliran.</DesignatorFillInDesc>
 
   <!-- Hacking -->
   <!-- EN: Hack progress -->
@@ -2113,7 +2113,7 @@
   <!-- EN: Auto hack -->
   <AutoHack>Pirateig automàtic</AutoHack>
   <!-- EN: When enabled, researchers will automatically hack this. -->
-  <AutoHackDesc>Quan s'activa, els investigadors ho piratejaran automàticament.</AutoHackDesc>
+  <AutoHackDesc>Quan s’activa, els investigadors ho piratejaran automàticament.</AutoHackDesc>
 
   <!-- World -->
   <!-- EN: View {LAYER_label} -->
@@ -2159,11 +2159,11 @@
   <!-- EN: Shield cooldown -->
   <ShieldTimeToRecovery>Temps de recuperació</ShieldTimeToRecovery>
   <!-- EN: Shield duration -->
-  <ShieldDuration>Durada de l'escut</ShieldDuration>
+  <ShieldDuration>Durada de l’escut</ShieldDuration>
   <!-- EN: On cooldown -->
   <ShieldOnCooldown>En recàrrega</ShieldOnCooldown>
   <!-- EN: Below minimum energy -->
-  <ShieldBelowMinHitpoints>Per sota de l'energia mínima</ShieldBelowMinHitpoints>
+  <ShieldBelowMinHitpoints>Per sota de l’energia mínima</ShieldBelowMinHitpoints>
   <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
   <ProjectileInterceptorTip>Un escut projectat en contrapicat que intentarà parar els projectils o metralla entrants. S’apaga immediatament si li impacta un PEM.</ProjectileInterceptorTip>
 

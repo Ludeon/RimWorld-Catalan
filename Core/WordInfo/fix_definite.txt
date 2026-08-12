@@ -1,0 +1,21 @@
+﻿KEY;1_FIXED_INDEF;2_AUX
+// Fixes for indefinite plural phrases that need plural agreement.
+//
+// Usage syntax: {lookup: TEXT; FILE_NO_EXT; INDEX}
+// TEXT is the exact indefinite form to access a row.
+// FILE_NO_EXT is the file in which TEXT should be looked up. Omit the extension.
+// INDEX determines the column to be used. Can be omitted if you need index 1.
+// 1_FIXED_INDEF returns the corrected phrase.
+// 2_AUX returns the auxiliary verb or agreement token used by the caller.
+
+el arròs;l’arròs;s’ha
+el bolets crus;els bolets crus;s’han
+el pantalons infantils;els pantalons infantils;s’han
+el pantalons reforçats;els pantalons reforçats;s’han
+el pantalons;els pantalons;s’han
+la baies;les baies;s’han
+la fulles de fullafum;les fulles de fullafum;s’han
+la fulles psicoides; les fulles psicoides;s’han
+la patates; les patates;s’han
+la patates;les patates;s’han
+la pol·lupatates;les pol·lupatates;s’han

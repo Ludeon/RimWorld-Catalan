@@ -28,7 +28,7 @@ foreach ($path in $paths)
   Get-Content -Path "$path/*" -Filter "*.xml" | Select-String -Pattern "<(.*(labelMale))>(.*?)</\1>" -All | ForEach-Object { $_.matches.groups[3].value.toLower() } >> "$temp/all_males.txt"
 
   # female gender
-  Get-Content -Path "$path/*" -Filter "*.xml" | Select-String -Pattern "<(.*(\.labelFemale|titleFemale|titleShortFemale))>(.*?)</\1>" -All | ForEach-Object { $_.matches.groups[3].value.toLower() } >> "$temp/all_females.txt"
+  Get-Content -Path "$path/*" -Filter "*.xml" | Select-String -Pattern "<(.*(\.labelFemale|titleFemale|titleShortFemale|meatLabel))>(.*?)</\1>" -All | ForEach-Object { $_.matches.groups[3].value.toLower() } >> "$temp/all_females.txt"
 }
 
 # Save a list of all found words

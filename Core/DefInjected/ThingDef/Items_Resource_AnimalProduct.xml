@@ -49,7 +49,7 @@
   <!-- EN: emu egg (unfert.) -->
   <EggEmuUnfertilized.label>ou d’emú (no fert.)</EggEmuUnfertilized.label>
   <!-- EN: An unfertilized emu egg. It can be eaten raw, but it's much better cooked. -->
-  <EggEmuUnfertilized.description>Ou d'emú sense fecundar. Es pot menjar cru, però és molt més bo cuit.</EggEmuUnfertilized.description>
+  <EggEmuUnfertilized.description>Ou d’emú sense fecundar. Es pot menjar cru, però és molt més bo cuit.</EggEmuUnfertilized.description>
   
   <!-- EN: goose egg (fert.) -->
   <EggGooseFertilized.label>ou d’oca (fert.)</EggGooseFertilized.label>
@@ -69,7 +69,7 @@
   <!-- EN: iguana egg (unfert.) -->
   <EggIguanaUnfertilized.label>ou d’iguana (no fert.)</EggIguanaUnfertilized.label>
   <!-- EN: An unfertilized iguana egg. It can be eaten raw, but it's much better cooked. -->
-  <EggIguanaUnfertilized.description>Ou d'iguana sense fecundar. Es pot menjar cru, però és molt més bo cuit.</EggIguanaUnfertilized.description>
+  <EggIguanaUnfertilized.description>Ou d’iguana sense fecundar. Es pot menjar cru, però és molt més bo cuit.</EggIguanaUnfertilized.description>
   
   <!-- EN: ostrich egg (fert.) -->
   <EggOstrichFertilized.label>ou d’estruç (fert.)</EggOstrichFertilized.label>
@@ -79,7 +79,7 @@
   <!-- EN: ostrich egg (unfert.) -->
   <EggOstrichUnfertilized.label>ou d’estruç (no fert.)</EggOstrichUnfertilized.label>
   <!-- EN: An unfertilized ostrich egg. It can be eaten raw, but it's much better cooked. -->
-  <EggOstrichUnfertilized.description>Ou d'estruç sense fecundar. Es pot menjar cru, però és molt més bo cuit.</EggOstrichUnfertilized.description>
+  <EggOstrichUnfertilized.description>Ou d’estruç sense fecundar. Es pot menjar cru, però és molt més bo cuit.</EggOstrichUnfertilized.description>
   
   <!-- EN: tortoise egg (fert.) -->
   <EggTortoiseFertilized.label>ou de tortuga (fert.)</EggTortoiseFertilized.label>
@@ -110,6 +110,8 @@
   <Milk.label>llet</Milk.label>
   <!-- EN: Milk from an animal.\n\nMilk can be fed to human babies. -->
   <Milk.description>Llet d’algun animal.\n\nLa llet es pot fer servir per a alimentar nadons humans.</Milk.description>
+  <Milk.ingestible.ingestCommandString>Beu {0}</Milk.ingestible.ingestCommandString>
+  <Milk.ingestible.ingestReportString>Beu {0}.</Milk.ingestible.ingestReportString>
   
   <!-- EN: skull -->
   <Skull.label>crani</Skull.label>

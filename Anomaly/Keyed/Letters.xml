@@ -5,73 +5,73 @@
   <!-- EN: Rehumanized -->
   <ReHumanizedLabel>Rehumanitzat</ReHumanizedLabel>
   <!-- EN: {0_nameDef} has regained {0_possessive} connection to humanity. {0_nameDef}'s 'inhumanized' health condition has been removed. -->
-  <ReHumanizedText>{0_nameDef} ha recuperat la connexió amb la humanitat. S'ha eliminat el seu estat de salut d'«inhumanitzat».</ReHumanizedText>
+  <ReHumanizedText>{0_nameDef} ha recuperat la connexió amb la humanitat. S’ha eliminat el seu estat de salut d’«inhumanitzat».</ReHumanizedText>
   <!-- EN: Warning from {0_nameDef} -->
   <WarningFromLabel>Avís de {0_nameDef}</WarningFromLabel>
 
   <!-- Hate chanters -->
   <!-- EN: Cultist hate chanters -->
-  <HateChantersLabel>Càntics d'odi dels sectaris</HateChantersLabel>
+  <HateChantersLabel>Càntics d’odi dels sectaris</HateChantersLabel>
   <!-- EN: Cultist hate chanters have arrived. They intend to perform a hate chant ritual to force psychic rage into your colonists and drive them mad. The chant will grow louder and louder until the cultists are stopped. -->
-  <HateChantersText>TODO</HateChantersText>
+  <HateChantersText>Han arribat cantors d'odi sectaris. Tenen la intenció de realitzar un ritual de cant d'odi per a imbuir ràbia psíquica als vostres colons i tornar-los bojos. El cant anirà creixent i més fins que se'ls pari.</HateChantersText>
   <!-- EN: Cultists attacking -->
   <HateChantersAttackingLabel>Els sectaris ataquen</HateChantersAttackingLabel>
   <!-- EN: The cultists have ended their hate chant and have begun to come out of their ritual trance.\n\nPrepare to defend. -->
-  <HateChantersAttackingText>TODO</HateChantersAttackingText>
+  <HateChantersAttackingText>Els sectaris han acabat amb el seu cant d'odi i han començat a sortir del seu tràngol ritual.\n\nDefenseu-vos.</HateChantersAttackingText>
 
   <!-- Psychic rituals -->
   <!-- EN: {0} complete -->
   <PsychicRitualCompleteLabel>{0} completat</PsychicRitualCompleteLabel>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, sending out a psychic pulse that will attract entities. -->
-  <VoidProvocationCompletedText>TODO</VoidProvocationCompletedText>
+  <VoidProvocationCompletedText>{INVOKER_nameDef} ha acabat de realitzar el ritual {RITUAL_label} i ha emès un senyal psíquic que atraurà entitats.</VoidProvocationCompletedText>
   <!-- EN: Prepare for what comes next. -->
   <VoidProvocationSucceeded>Prepareu-vos per al que ve ara.</VoidProvocationSucceeded>
   <!-- EN: Unfortunately, your call has been left unanswered. -->
   <VoidProvocationFailed>Desgraciadament, la vostra crida no ha obtingut resposta.</VoidProvocationFailed>
   <!-- EN: In the process, {INVOKER_nameDef} glimpsed something horrifying beyond human understanding. The psychic darkness shocked {INVOKER_objective} into a short-term coma. -->
-  <VoidProvocationDarkPsychicShock>TODO</VoidProvocationDarkPsychicShock>
+  <VoidProvocationDarkPsychicShock>Mentre feia el ritual, {INVOKER_nameDef} va veure alguna cosa horripilant més enllà de la comprensió humana. La foscor psíquica va commocionar-{INVOKER_gender ? lo : la} i pateix un coma de curt termini.</VoidProvocationDarkPsychicShock>
   <!-- EN: {INVOKER_nameDef} has completed {RITUAL_definite} ritual, absorbing skills and memories of {TARGET_nameDef}. -->
-  <PhilophagyCompleteText>TODO</PhilophagyCompleteText>
+  <PhilophagyCompleteText>{INVOKER_nameDef} ha completat el ritual {RITUAL_label}, absorbint les habilitats i els records de {TARGET_nameDef}.</PhilophagyCompleteText>
   <!-- EN: {0_nameDef} gained {1} XP in {2_label} -->
-  <PawnGainedXPInSkill>TODO</PawnGainedXPInSkill>
+  <PawnGainedXPInSkill>{0_nameDef} ha obtingut {1} punts d'experiència de {2_label}</PawnGainedXPInSkill>
   <!-- EN: {0_nameDef} lost {1} XP in {2_label} -->
-  <PawnLostXPInSkill>TODO</PawnLostXPInSkill>
+  <PawnLostXPInSkill>{0_nameDef} ha perdut {1} punts d'experiència de {2_label}</PawnLostXPInSkill>
   <!-- EN: rising from skill level {0} to {1}. -->
-  <PhilophagySkillLevelGained>TODO</PhilophagySkillLevelGained>
+  <PhilophagySkillLevelGained>i passa de nivell {0} a nivell {1}.</PhilophagySkillLevelGained>
   <!-- EN: falling from skill level {0} to {1}. -->
-  <PhilophagySkillLevelLost>TODO</PhilophagySkillLevelLost>
+  <PhilophagySkillLevelLost>i baixa de nivell {0} a nivell {1}.</PhilophagySkillLevelLost>
   <!-- EN: remaining at skill level {0}. -->
-  <PhilophagySkillLevelRemains>TODO</PhilophagySkillLevelRemains>
+  <PhilophagySkillLevelRemains>i es manté al nivell {0}.</PhilophagySkillLevelRemains>
   <!-- EN: The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
-  <PhilophagyDamagedTarget>TODO</PhilophagyDamagedTarget>
+  <PhilophagyDamagedTarget>El procés ha danyat el cervell de {TARGET_nameDef} i l'ha {TARGET_gender ? deixat : deixada} en coma.</PhilophagyDamagedTarget>
 
   <!-- EN: {0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.\n\nThe process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills. -->
-  <ImbueDeathRefuralCompleteText>TODO</ImbueDeathRefuralCompleteText>
+  <ImbueDeathRefuralCompleteText>{0_nameDef} ha estat imbuït de negamort. Ara pot ressuscitar {0_gender ? sol : sola} després de morir.\n\nEl procés ha atrofiat el seu cervell i ha perdut un total de {1} punts d'experiència en les seves habilitats.</ImbueDeathRefuralCompleteText>
 
   <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual. Expect a herd of animals shortly. -->
-  <SummonAnimalsSuccessText>TODO</SummonAnimalsSuccessText>
+  <SummonAnimalsSuccessText>{0_nameDef} ha completat el ritual {RITUAL_label}. Arribarà un ramat d'animals en breu.</SummonAnimalsSuccessText>
   <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual but something has gone terribly wrong! The ritual has attracted scaria-infected manhunting animals. Prepare for their arrival! -->
-  <SummonAnimalsFailureText>TODO</SummonAnimalsFailureText>
+  <SummonAnimalsFailureText>{0_nameDef} ha completat el ritual {RITUAL_label}, però alguna cosa ha anat molt malament! El ritual ha atret animals caçapersones infectats per escària. Prepareu-vos per a quan arribin!</SummonAnimalsFailureText>
   
   <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. Prepare for their arrival. -->
-  <SummonShamblersCompleteText>TODO</SummonShamblersCompleteText>
+  <SummonShamblersCompleteText>{0_nameDef} ha completat correctament el ritual {RITUAL_label}. Prepareu-vos per a la seva arribada.</SummonShamblersCompleteText>
 
   <!-- EN: They are attacking from multiple directions. -->
   <AttackingFromMultipleDirections>Ataquen des de múltiples direccions.</AttackingFromMultipleDirections> 
 
   <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects: -->
-  <ChronophagyCompleteText>TODO</ChronophagyCompleteText>
+  <ChronophagyCompleteText>{0_nameDef} ha completat correctament el ritual {RITUAL_label}. El ritual té els següents efectes:</ChronophagyCompleteText>
   <!-- EN: {0_nameDef} aged {1} years -->
-  <ChronophagyTargetAged>TODO</ChronophagyTargetAged>
+  <ChronophagyTargetAged>{0_nameDef} ha envellit {replace: ^{1} anys: "^1 anys"-"1 any"; "^"-""}</ChronophagyTargetAged>
   <!-- EN: {0_nameDef} became {1} years younger -->
-  <ChronophagyInvokerRejuvenated>TODO</ChronophagyInvokerRejuvenated>
+  <ChronophagyInvokerRejuvenated>{0_nameDef} és {replace: ^{1} anys: "^1 anys"-"1 any"; "^"-""} més jove</ChronophagyInvokerRejuvenated>
   <!-- EN: {0_nameDef} could not take the strain of the aging from the chronophagy ritual and died due to old age. -->
-  <ChronophagyTargetDiedOfOldAge>TODO</ChronophagyTargetDiedOfOldAge>
+  <ChronophagyTargetDiedOfOldAge>{0_nameDef} no ha pogut suportar la tensió de l'envelliment del ritual de cronofàgia i ha mort de vell.</ChronophagyTargetDiedOfOldAge>
   <!-- EN: While {0_nameDef} survived the chronophagy ritual, {0_pronoun} developed the following conditions -->
-  <ChronophagyTargetOldAgeDiseases>TODO</ChronophagyTargetOldAgeDiseases>
+  <ChronophagyTargetOldAgeDiseases>Tot i que {0_nameDef} ha sobreviscut al ritual de cronofàgia, ha desenvolupat les condicions mèdiques següents</ChronophagyTargetOldAgeDiseases>
   <!-- EN: Additionally, the process has cured {0_nameDef} of the following ailments: -->
-  <ChronophagyInvokerCuredDiseases>TODO</ChronophagyInvokerCuredDiseases>
+  <ChronophagyInvokerCuredDiseases>A més a més, el procés li ha curat aquestes afeccions:</ChronophagyInvokerCuredDiseases>
   <!-- EN: and is now {0} years old -->
   <ChronophagyCurrentAge>i ara té {0} anys.</ChronophagyCurrentAge>
 
@@ -87,11 +87,11 @@
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories. -->
   <BrainwipeCompleteText>TODO</BrainwipeCompleteText>
   <!-- EN: {TARGET_pronoun} will remain in a coma for {1}. -->
-  <BrainwipeTargetComa>TODO</BrainwipeTargetComa>
+  <BrainwipeTargetComa>{TARGET_pronoun} estarà en coma {1}.</BrainwipeTargetComa>
   <!-- EN: {TARGET_nameDef} is no longer unwaveringly loyal. -->
-  <BrainwipeUnwaveringlyLoyal>TODO</BrainwipeUnwaveringlyLoyal>
+  <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef} ja no és obstinadament lleial.</BrainwipeUnwaveringlyLoyal>
   <!-- EN: {TARGET_nameDef} has been re-humanized. -->
-  <BrainwipeRehumanized>TODO</BrainwipeRehumanized>
+  <BrainwipeRehumanized>{TARGET_nameDef} s'ha rehumanitzat.</BrainwipeRehumanized>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence. -->
   <PsychophagyCompleteText>TODO</PsychophagyCompleteText>
@@ -120,7 +120,7 @@
 
   <!-- Void awakening -->
   <!-- EN: Dimming sky -->
-  <VoidAwakeningStageOneStructuresActivatedLabel>S'enfosqueix el cel</VoidAwakeningStageOneStructuresActivatedLabel>
+  <VoidAwakeningStageOneStructuresActivatedLabel>S’enfosqueix el cel</VoidAwakeningStageOneStructuresActivatedLabel>
   <!-- EN: Structures activated -->
   <VoidAwakeningStageTwoStructuresActivatedLabel>Estructures activades</VoidAwakeningStageTwoStructuresActivatedLabel>
   <!-- EN: As the second structure is activated, the darkness begins to intensify. An unnatural darkness will soon descend. Make sure your colony is prepared. Stockpile resources, build lights, craft disruptor flares, and reinforce defenses. Only those in the light will be safe.\n\nMore twisted structures will appear soon. -->
@@ -134,7 +134,7 @@
   <!-- EN: Shambler assault -->
   <VoidAwakeningShamblerArrivalLabel>Atac zombi</VoidAwakeningShamblerArrivalLabel>
   <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
-  <VoidAwakeningShamblerArrivalText>TODO</VoidAwakeningShamblerArrivalText>
+  <VoidAwakeningShamblerArrivalText>Les estructures del buit han atret una horda de zombis. Prepareu-vos!</VoidAwakeningShamblerArrivalText>
   <!-- EN: Fleshbeast tunneling -->
   <VoidAwakeningFleshbeastBurrowLabel>TODO</VoidAwakeningFleshbeastBurrowLabel>
   <!-- EN: The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Get ready! -->
@@ -142,13 +142,13 @@
   <!-- EN: Metalhorror attack -->
   <VoidAwakeningMetalhorrorArrivalLabel>Atac horrometall</VoidAwakeningMetalhorrorArrivalLabel>
   <!-- EN: Metalhorrors are appearing near the void monolith. Get ready! -->
-  <VoidAwakeningMetalhorrorArrivalText>TODO</VoidAwakeningMetalhorrorArrivalText>
+  <VoidAwakeningMetalhorrorArrivalText>Apareixen horrometalls a prop del monòlit. Prepareu-vos!</VoidAwakeningMetalhorrorArrivalText>
   <!-- EN: Entity attack -->
-  <VoidAwakeningEntityArrivalLabel>Atac d'una entitat</VoidAwakeningEntityArrivalLabel> 
+  <VoidAwakeningEntityArrivalLabel>Atac d’una entitat</VoidAwakeningEntityArrivalLabel> 
   <!-- EN: The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Get ready! -->
-  <VoidAwakeningEntityArrivalText>TODO</VoidAwakeningEntityArrivalText>
+  <VoidAwakeningEntityArrivalText>L'estructura del buit activada ha generat un senyal psíquic retorçat que atrau les entitats properes. Prepareu-vos!</VoidAwakeningEntityArrivalText>
   <!-- EN: Embrace the void -->
-  <VoidAwakeningBreadcrumbLetterLabel>TODO</VoidAwakeningBreadcrumbLetterLabel>
+  <VoidAwakeningBreadcrumbLetterLabel>Acceptació del buit</VoidAwakeningBreadcrumbLetterLabel>
   <!-- EN: While interacting with the void structure, {PAWN_nameDef} saw a vision of the void. For a moment {PAWN_pronoun} swam the black ocean of infinite depth and felt its endless inhuman power.\n\n{PAWN_nameDef} thinks there may be a way to control that power by embracing the void. If you were to permanently open the conduit to the void, rather than shutting it down, it could offer untold possibilities. -->
   <VoidAwakeningBreadcrumbLetterText>TODO</VoidAwakeningBreadcrumbLetterText>
 
@@ -162,9 +162,9 @@
   <!-- EN: {PAWN_nameDef} has reappeared. {PAWN_pronoun} is weary from {PAWN_possessive} efforts, but otherwise healthy.\n\nBy closing the channel to the void, {PAWN_nameDef} has stopped any more unnatural phenomena from entering our world. Hostile entities in the area have all fallen to the ground, lifeless.\n\nTales of {PAWN_possessive} heroism are sure to spread far and wide. -->
   <DisruptedLinkText>TODO</DisruptedLinkText>
   <!-- EN: fleshcrafting -->
-  <RewardFleshcraftingAbility>TODO</RewardFleshcraftingAbility>
+  <RewardFleshcraftingAbility>carniescultura</RewardFleshcraftingAbility>
   <!-- EN: slaughter -->
-  <RewardSlaughterAbility>TODO</RewardSlaughterAbility>
+  <RewardSlaughterAbility>matança</RewardSlaughterAbility>
   <!-- EN: shambler control -->
   <RewardShamblerControlAbility>control zombi</RewardShamblerControlAbility>
 
@@ -184,7 +184,7 @@
   <!-- EN: Ghoul betrayal -->
   <GhoulBetrayalLabel>Traïció necròfaga</GhoulBetrayalLabel>
   <!-- EN: {PAWN_nameDef} has been driven mad by {PAWN_possessive} ravenous hunger for raw meat! -->
-  <GhoulBetrayalText>TODO</GhoulBetrayalText>
+  <GhoulBetrayalText>{PAWN_nameDef} s'ha tornat boig per la seva fam voraç de carn crua!</GhoulBetrayalText>
   
   <!-- Distress signal -->
   <!-- EN: Distress signal -->
@@ -198,19 +198,19 @@
 
   <!-- Chimeras -->
   <!-- EN: Chimeras approach -->
-  <ChimeraAssaultLabel>Les quimeres s'apropen</ChimeraAssaultLabel>
+  <ChimeraAssaultLabel>Les quimeres s’apropen</ChimeraAssaultLabel>
   <!-- EN: A group of twisted animal-like chimera monsters have appeared nearby.\n\nThe misshapen beasts will watch your colony, waiting for an opportunity to attack. They are skittish and may retaliate if provoked. -->
   <ChimeraAssaultText>TODO</ChimeraAssaultText>
 
   <!-- Unnatural darkness -->
   <!-- EN: Darkness lifting -->
-  <DarknessLiftingEarlyLetterLabel>TODO</DarknessLiftingEarlyLetterLabel>
+  <DarknessLiftingEarlyLetterLabel>La foscor escampa</DarknessLiftingEarlyLetterLabel>
   <!-- EN: The last of the nightmarish pillars has collapsed. The unnatural darkness has begun to dissipate. Colonists breathe a sigh of relief in the clear air. -->
-  <DarknessLiftingEarlyLetterText>TODO</DarknessLiftingEarlyLetterText>
+  <DarknessLiftingEarlyLetterText>L'últim dels pilars horripilants s'ha ensorrat. La foscor antinatural ha començat a dissipar-se. Els colons respiren alleujats al veure aire clar.</DarknessLiftingEarlyLetterText>
   <!-- EN: {0_nameDef} attacked -->
-  <PawnAttackedInDarknessLabel>S'ha atacat a {0_nameDef}</PawnAttackedInDarknessLabel>
+  <PawnAttackedInDarknessLabel>S’ha atacat a {0_nameDef}</PawnAttackedInDarknessLabel>
   <!-- EN: Something in the darkness has attacked {0_nameDef}!\n\nThese attacks will continue until {0_pronoun} is safely in the light. -->
-  <PawnAttackedInDarknessText>TODO</PawnAttackedInDarknessText>
+  <PawnAttackedInDarknessText>Alguna cosa ha atacat {0_nameDef} des de la foscor!\n\nAquests atacs continuaran fins que estigui a la llum.</PawnAttackedInDarknessText>
   <!-- EN: Noctol attack -->
   <NoctolAttackLetterLabel>Atac nòctol</NoctolAttackLetterLabel>
   <!-- EN: The darkness has begun to stir. Inhuman chittering sounds emerge from somewhere within the inky black.\n\nBlack, insect-like noctols will attack from the darkness soon. -->
@@ -220,21 +220,21 @@
   <!-- EN: The darkness is almost here. Only those in direct light from lamps, torches, or flares will be safe.\n\nTo keep colonists in the light, you can restrict their movement in the SCHEDULE tab by assigning allowed areas. -->
   <DarknessWarningLetterText>TODO</DarknessWarningLetterText>
   <!-- EN: Darkness wavering -->
-  <DarknessWaveringLetterLabel>TODO</DarknessWaveringLetterLabel>
+  <DarknessWaveringLetterLabel>La foscor tremola</DarknessWaveringLetterLabel>
   <!-- EN: With the destruction of the noctolith, a faint crack appears in the darkness, before being filled with more of the sooty black.\n\nDestroy the remaining noctoliths to end the unnatural darkness. -->
   <DarknessWaveringLetterText>TODO</DarknessWaveringLetterText>
 
   <!-- Shambler Swarms -->
   <!-- EN: Shamblers approach -->
-  <LetterLabelShamblerSwarmArrived>Els zombis s'apropen</LetterLabelShamblerSwarmArrived>
+  <LetterLabelShamblerSwarmArrived>Els zombis s’apropen</LetterLabelShamblerSwarmArrived>
   <!-- EN: Shambler approaches -->
-  <LetterLabelShamblerArrived>S'apropa un zombi</LetterLabelShamblerArrived>
+  <LetterLabelShamblerArrived>S’apropa un zombi</LetterLabelShamblerArrived>
   <!-- EN: A group of {0} shambling, rotting corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
   <LetterShamblerSwarmArrived>TODO</LetterShamblerSwarmArrived>
   <!-- EN: A shambling, rotting corpse is approaching. Some inhuman force has reanimated this lifeless body and set it to murder.\n\nIt will now wander through the area. If it sees a human, it will attack. If not, it will leave in a few days.\n\nIf you can capture it, you can study it for anomaly knowledge. -->
   <LetterShamblerArrived>TODO</LetterShamblerArrived>
   <!-- EN: {ANIMALKIND_label} shamblers -->
-  <LetterLabelShamblerAnimalsArrived>TODO</LetterLabelShamblerAnimalsArrived>
+  <LetterLabelShamblerAnimalsArrived>{ANIMALKIND_labelPlural} zombis</LetterLabelShamblerAnimalsArrived>
   <!-- EN: A group of shambling, rotting {ANIMALKIND_label} corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
   <LetterShamblerAnimalsArrived>TODO</LetterShamblerAnimalsArrived>
 
@@ -250,7 +250,7 @@
   <!-- EN: New research available -->
   <LetterLabelEntityDiscovery>Nova investigació disponible</LetterLabelEntityDiscovery>
   <!-- EN: Your discovery of {ENTITY_definite} has yielded new insights. You can now research the following Anomaly projects -->
-  <LetterTextEntityDiscoveryResearch>TODO</LetterTextEntityDiscoveryResearch>
+  <LetterTextEntityDiscoveryResearch>Al descobrir {ENTITY_definite}, ja podeu investigar els següents projectes d'anomalies</LetterTextEntityDiscoveryResearch>
 
   <!-- Nociosphere -->
   <!-- EN: Nociosphere defeated -->
@@ -264,7 +264,7 @@
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
   <NociosphereBecomingUnstableTextExtraSendable>TODO</NociosphereBecomingUnstableTextExtraSendable>
   <!-- EN: Study the nociosphere to find a way to dispose of it. -->
-  <NociosphereBecomingUnstableTextExtraNotSendable>TODO</NociosphereBecomingUnstableTextExtraNotSendable>
+  <NociosphereBecomingUnstableTextExtraNotSendable>Estudieu la nociosfera per a trobar una manera de desfer-vos-en.</NociosphereBecomingUnstableTextExtraNotSendable>
   <!-- EN: Nociosphere unstable -->
   <NociosphereUnstableLabel>Nociosfera inestable</NociosphereUnstableLabel>
   <!-- EN: The nociosphere has become unstable and is no longer responding to suppression. When its activity reaches 100%, it will awaken. -->
@@ -272,7 +272,7 @@
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
   <NociosphereUnstableTextExtraSendable>TODO</NociosphereUnstableTextExtraSendable> 
   <!-- EN: Prepare for the nociosphere's onslaught. -->
-  <NociosphereUnstableTextExtraNotSendable>Prepareu-vos per a l'envestida de la nociosfera</NociosphereUnstableTextExtraNotSendable>
+  <NociosphereUnstableTextExtraNotSendable>Prepareu-vos per a l’envestida de la nociosfera</NociosphereUnstableTextExtraNotSendable>
 
   <!-- EN: Strange corpse -->
   <UnnaturalCorpseArrivalLabel>Cadàver estrany</UnnaturalCorpseArrivalLabel>

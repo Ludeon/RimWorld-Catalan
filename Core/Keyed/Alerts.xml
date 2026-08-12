@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: Click to jump to problem -->
-  <ClickToJumpToProblem>Feu clic per anar al problema.</ClickToJumpToProblem>
+  <ClickToJumpToProblem>Feu clic per a anar al problema.</ClickToJumpToProblem>
 
   <!-- EN: Minor break risk -->
   <BreakRiskMinor>Risc de crisi nerviosa lleu</BreakRiskMinor>
@@ -172,7 +172,7 @@
   <AlertHypothermiaDesc>Aquests colons pateixen hipotèrmia.\n{0}\n\nAssegureu-vos que porten roba adequada pel temps que fa i que els espais interiors estan degudament escalfats.</AlertHypothermiaDesc>
   
   <!-- EN: {0} patients await medical operation -->
-  <PatientsAwaitingMedicalOperation>{replace: ^{0} pacients en espera per a ser operats; "^1 pacients en espera per a ser operats"-"1 pacient en espera per a què se l'operi"}</PatientsAwaitingMedicalOperation>
+  <PatientsAwaitingMedicalOperation>{replace: ^{0} pacients en espera per a ser operats; "^1 pacients en espera per a ser operats"-"1 pacient en espera per a què se l’operi"}</PatientsAwaitingMedicalOperation>
   <!-- EN: These patients await medical operation:\n{0}\n\nMake sure you have all necessary medical tools and a free doctor available. -->
   <PatientsAwaitingMedicalOperationDesc>Aquests pacients esperen una intervenció mèdica:\n{0}\n\nAssegureu-vos que teniu totes les eines i un metge a disposició.</PatientsAwaitingMedicalOperationDesc>
 
@@ -211,7 +211,7 @@
   <!-- EN: Need warm clothes -->
   <NeedWarmClothes>Falta roba d’abric</NeedWarmClothes>
   <!-- EN: At least {0} of your colonists will lack warm clothes when the cold season comes. -->
-  <NeedWarmClothesDesc1>Com a mínim {0} colons necessitaran roba d’abrigar quan comenci a fer fred.</NeedWarmClothesDesc1>
+  <NeedWarmClothesDesc1>Com a mínim {replace: ^{0} colons necessitaran; "^1 colons"-"1 colon necessitarà";"^"-""} roba d’abrigar quan comenci a fer fred.</NeedWarmClothesDesc1>
   <!-- EN: All of your colonists will lack warm clothes when the cold season comes. -->
   <NeedWarmClothesDesc1All>Tots els colons necessitaran roba d’abrigar quan comenci a fer fred.</NeedWarmClothesDesc1All>
   <!-- EN: The outdoor temperature is going to reach {0}.\n\nYou can tailor warm clothes at the tailoring bench, or buy them from traders. -->

@@ -144,7 +144,7 @@
   <!-- EN: Active -->
   <ContentActive>Actiu</ContentActive>
   <!-- EN: Installed, but not active -->
-  <ContentInstalledButNotActive>Instal·lat, però no activat</ContentInstalledButNotActive>
+  <ContentInstalledButNotActive>Instal·lat, però sense activar</ContentInstalledButNotActive>
   <!-- EN: Not installed -->
   <ContentNotInstalled>No instal·lat</ContentNotInstalled>
   
@@ -1033,7 +1033,7 @@
   <!-- EN: Food policies -->
   <FoodPolicyTitle>Dietes</FoodPolicyTitle>
   <!-- EN: Create and manage templates for controlling what food items colony members can eat. -->
-  <FoodPolicyTip>Crea i administra plantilles de dietes per a controlar quins tipus d'aliments poden menjar els vostres colons.</FoodPolicyTip>
+  <FoodPolicyTip>Crea i administra plantilles de dietes per a controlar quins tipus d’aliments poden menjar els vostres colons.</FoodPolicyTip>
   <!-- EN: Food policy -->
   <FoodPolicy>Dieta</FoodPolicy>
   <!-- EN: Allow food -->
@@ -1078,7 +1078,7 @@
   <!-- EN: Default medicine settings -->
   <DefaultMedicineSettings>Opcions mèdiques per defecte</DefaultMedicineSettings>
   <!-- EN: These medical settings are assigned to creatures when they first join a given group. You can manually assign a setting to an individual in their health tab.\n\nNote: If the creature joins a new group, they will always take the settings of that group, even if you previously assigned them a setting. -->
-  <DefaultMedicineSettingsDesc>Aquesta configuració d'opcions mèdiques s'assignen a les criatures quan s'uneixen a un grup donat. Podeu assignar manualment una configuració específica a cada persona o animal a la seva pestanya de salut.\n\nTingueu en compte que si la criatura s'uneix a un grup nou, se li assignarà la configuració del grup nou, encara que se li hagués establert una configuració determinada.</DefaultMedicineSettingsDesc>
+  <DefaultMedicineSettingsDesc>Aquesta configuració d’opcions mèdiques s’assignen a les criatures quan s’uneixen a un grup donat. Podeu assignar manualment una configuració específica a cada persona o animal a la seva pestanya de salut.\n\nTingueu en compte que si la criatura s’uneix a un grup nou, se li assignarà la configuració del grup nou, encara que se li hagués establert una configuració determinada.</DefaultMedicineSettingsDesc>
   
   <!-- EN: Defaults -->
   <MedGroupDefaults>Estableix</MedGroupDefaults>
@@ -1101,17 +1101,17 @@
   <!-- EN: Friendly faction members -->
   <MedGroupFriendlyFaction>Membres de faccions amistoses</MedGroupFriendlyFaction>
   <!-- EN: Humans or animals who are part of a faction which is friendly with your faction (goodwill above 75). -->
-  <MedGroupFriendlyFactionDesc>Humans i animals que formin part d'una facció amistosa amb la vostra (reputació per sobre de 75).</MedGroupFriendlyFactionDesc>
+  <MedGroupFriendlyFactionDesc>Humans i animals que formin part d’una facció amistosa amb la vostra (reputació per sobre de 75).</MedGroupFriendlyFactionDesc>
   
   <!-- EN: Neutral faction members -->
   <MedGroupNeutralFaction>Faccions neutrals</MedGroupNeutralFaction>
   <!-- EN: Humans or animals who are part of a faction which is neutral with your faction (between -75 and 75 goodwill). -->
-  <MedGroupNeutralFactionDesc>Humans i animals que formin part d'una facció neutral cap a la vostra (reputació entre ‒75 i 75).</MedGroupNeutralFactionDesc>
+  <MedGroupNeutralFactionDesc>Humans i animals que formin part d’una facció neutral cap a la vostra (reputació entre ‒75 i 75).</MedGroupNeutralFactionDesc>
 
   <!-- EN: Hostile faction members -->
   <MedGroupHostileFaction>Faccions hostils</MedGroupHostileFaction>
   <!-- EN: Humans or animals who are part of a faction which is hostile with your faction (goodwill below -75). -->
-  <MedGroupHostileFactionDesc>Humans i animals que formin part d'una facció hostil cap a la vostra (reputació per sota de ‒75).</MedGroupHostileFactionDesc>
+  <MedGroupHostileFactionDesc>Humans i animals que formin part d’una facció hostil cap a la vostra (reputació per sota de ‒75).</MedGroupHostileFactionDesc>
 
   <!-- EN: Other humans -->
   <MedGroupNoFaction>Altres humans</MedGroupNoFaction>
@@ -1153,7 +1153,7 @@
 
   <!-- Send transport pods which are not completely loaded -->
   <!-- EN: The following still need to be loaded -->
-  <ConfirmSendNotCompletelyLoadedLaunchable>A continuació es mostren els que encara s'han de carregar</ConfirmSendNotCompletelyLoadedLaunchable>
+  <ConfirmSendNotCompletelyLoadedLaunchable>A continuació es mostren els que encara s’han de carregar</ConfirmSendNotCompletelyLoadedLaunchable>
   <!-- EN: Launch anyway? -->
   <ConfirmSendLaunchAnyway>Llancar-ho igualment?</ConfirmSendLaunchAnyway>
 
@@ -1432,11 +1432,11 @@
   <!-- EN: Search the world -->
   <SearchTheWorld>Cerca al món</SearchTheWorld>
   <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
-  <SearchTheWorldDesc>Busca pel món característiques especials, punts d'interès, missions o assentaments.</SearchTheWorldDesc>
+  <SearchTheWorldDesc>Busca pel món característiques especials, punts d’interès, missions o assentaments.</SearchTheWorldDesc>
   <!-- EN: {0} results found -->
-  <MapSearchResults>S'han trobat {0} resultats</MapSearchResults>
+  <MapSearchResults>S’han trobat {0} resultats</MapSearchResults>
   <!-- EN: 1 result found -->
-  <MapSearchResultSingular>S'ha trobat un resultat</MapSearchResultSingular>
+  <MapSearchResultSingular>S’ha trobat un resultat</MapSearchResultSingular>
   <!-- EN: Searching -->
   <Searching>Es cerca…</Searching>
 

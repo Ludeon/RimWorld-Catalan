@@ -3,35 +3,35 @@
 
   <!-- ITab_Entity -->
   <!-- EN: Escape interval -->
-  <HoldingPlatformEscapeMTBDays>Interval d'escapades</HoldingPlatformEscapeMTBDays>
+  <HoldingPlatformEscapeMTBDays>Interval d’escapades</HoldingPlatformEscapeMTBDays>
   <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity's movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
-  <HoldingPlatformEscapeMTBDaysDesc>El temps mitjà entre fugides. Això es veu afectat per la força de contenció, el tipus d'entitat, la seva capacitat de moviment i la durada de l'empresonament. Algunes entitats també queden reprimides pel fred.</HoldingPlatformEscapeMTBDaysDesc>
+  <HoldingPlatformEscapeMTBDaysDesc>El temps mitjà entre fugides. Això es veu afectat per la força de contenció, el tipus d’entitat, la seva capacitat de moviment i la durada de l’empresonament. Algunes entitats també queden reprimides pel fred.</HoldingPlatformEscapeMTBDaysDesc>
   <!-- EN: Entity -->
   <TabEntity>Entitat</TabEntity>
   <!-- EN: Study interval -->
-  <StudyInterval>Interval d'estudi</StudyInterval>
+  <StudyInterval>Interval d’estudi</StudyInterval>
   <!-- EN: How often this entity can be studied. -->
   <StudyIntervalDesc>Cada quan es pot estudiar aquesta entitat.</StudyIntervalDesc>
   <!-- EN: Maintain only -->
   <EntityStudyMode_MaintainOnly>Només mantén</EntityStudyMode_MaintainOnly>
   <!-- EN: Wardens will not perform special actions on this entity, but other interactions are still available. -->
-  <EntityStudyMode_MaintainOnlyDesc>Els guardes no realitzaran accions especials amb l'entitat, però les normals sí.</EntityStudyMode_MaintainOnlyDesc>
+  <EntityStudyMode_MaintainOnlyDesc>Els guardes no realitzaran accions especials amb l’entitat, però les normals sí.</EntityStudyMode_MaintainOnlyDesc>
   <!-- EN: Study -->
   <EntityStudyMode_Study>Estudia</EntityStudyMode_Study>
   <!-- EN: Researchers will study the entity. -->
-  <EntityStudyMode_StudyDesc>Els investigadors estudiaran l'entitat.</EntityStudyMode_StudyDesc>
+  <EntityStudyMode_StudyDesc>Els investigadors estudiaran l’entitat.</EntityStudyMode_StudyDesc>
   <!-- EN: Release -->
   <EntityStudyMode_Release>Allibera</EntityStudyMode_Release>
   <!-- EN: A warden will release the entity from the holding platform. Entities may be hostile when released. -->
-  <EntityStudyMode_ReleaseDesc>Un guarda alliberarà l'entitat de la plataforma de contenció. Quan s'allibera una entitat, pot tenir un comportament hostil.</EntityStudyMode_ReleaseDesc>
+  <EntityStudyMode_ReleaseDesc>Un guarda alliberarà l’entitat de la plataforma de contenció. Quan s’allibera una entitat, pot tenir un comportament hostil.</EntityStudyMode_ReleaseDesc>
   <!-- EN: Execute -->
   <EntityStudyMode_Execute>Executa</EntityStudyMode_Execute>
   <!-- EN: A warden will execute the restrained entity. -->
-  <EntityStudyMode_ExecuteDesc>Un guarda executarà l'entitat confinada.</EntityStudyMode_ExecuteDesc>
+  <EntityStudyMode_ExecuteDesc>Un guarda executarà l’entitat confinada.</EntityStudyMode_ExecuteDesc>
   <!-- EN: Extract bioferrite -->
   <EntityStudyMode_Extract>Extrau bioferrita</EntityStudyMode_Extract>
   <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can't be done if the entity is attached to a bioferrite harvester. -->
-  <EntityStudyMode_ExtractDesc>Els metges extreuen bioferrita de l'entitat capturada sempre que sigui possible. Aquest mètode d'extracció és senzill, però ineficient. No es pot fer si l'entitat està connectada a una recol·lectora de bioferrita.</EntityStudyMode_ExtractDesc>
+  <EntityStudyMode_ExtractDesc>Els metges extreuen bioferrita de l’entitat capturada sempre que sigui possible. Aquest mètode d’extracció és senzill, però ineficient. No es pot fer si l’entitat està connectada a una recol·lectora de bioferrita.</EntityStudyMode_ExtractDesc>
   <!-- EN: Requires bioferrite extraction. -->
   <RequiresBioferriteExtraction>Cal extracció de bioferrita.</RequiresBioferriteExtraction>
   <!-- EN: Blocked by bioferrite harvester. -->
@@ -41,9 +41,9 @@
   <!-- EN: Knowledge gain -->
   <StudyKnowledgeGain>Coneixement obtingut</StudyKnowledgeGain>
   <!-- EN: Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge. -->
-  <StudyKnowledgeGainDesc>Quantitat de coneixement adquirit per interval d'estudi. Una millor contenció ajuda l'investigador a centrar-se en l'estudi en lloc de la seguretat i obté més coneixements.</StudyKnowledgeGainDesc>
+  <StudyKnowledgeGainDesc>Quantitat de coneixement adquirit per interval d’estudi. Una millor contenció ajuda l’investigador a centrar-se en l’estudi en lloc de la seguretat i obté més coneixements.</StudyKnowledgeGainDesc>
   <!-- EN: What type of medicine can be given to this entity. -->
-  <MedicineQualityDescriptionEntity>Quin tipus de medicina es pot administrar a l'entitat.</MedicineQualityDescriptionEntity>
+  <MedicineQualityDescriptionEntity>Quin tipus de medicina es pot administrar a l’entitat.</MedicineQualityDescriptionEntity>
 
   <!-- EN: Electroharvester -->
   <FactorForElectroharvester>Electroextractora</FactorForElectroharvester>
@@ -52,7 +52,7 @@
   <!-- EN: Cold containment bonus -->
   <FactorForColdCaptivity>Bonificació per contenció en fred</FactorForColdCaptivity>
   <!-- EN: Incapable of escaping -->
-  <IncapableOfEscaping>Incapaç d'escapar-se</IncapableOfEscaping>
+  <IncapableOfEscaping>Incapaç d’escapar-se</IncapableOfEscaping>
   <!-- EN: Entity downed -->
   <EntityDowned>Entitat inconscient</EntityDowned>
   <!-- EN: Containment strength -->

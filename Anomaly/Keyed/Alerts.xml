@@ -2,20 +2,20 @@
 <LanguageData>
 
   <!-- EN: Dangerous activity levels -->
-  <ActivityMultipleDangerous>Nivells d'activitat perillosos</ActivityMultipleDangerous>
+  <ActivityMultipleDangerous>Nivells d’activitat perillosos</ActivityMultipleDangerous>
   <!-- EN: These entities are at dangerously high activity levels -->
-  <ActivityDangerousDesc>Aquestes entitats es troben en nivells d'activitat molt perillosos</ActivityDangerousDesc>  
+  <ActivityDangerousDesc>Aquestes entitats es troben en nivells d’activitat molt perillosos</ActivityDangerousDesc>  
   <!-- EN: When an entity reaches 100% activity, it will become dangerous.\n\nSend your warden to suppress these entities, or enable automatic suppression using the entity's activity panel. -->
-  <ActivityDangerousDescAppended>Quan una entitat arriba al 100 % d'activitat, es torna perillosa.\n\nEnvieu els guardes per a reprimir-les o activeu la supressió automàtica fent servir el panell d'activitat de l'entitat.</ActivityDangerousDescAppended>
+  <ActivityDangerousDescAppended>Quan una entitat arriba al 100 % d’activitat, es torna perillosa.\n\nEnvieu els guardes per a reprimir-les o activeu la supressió automàtica fent servir el panell d’activitat de l’entitat.</ActivityDangerousDescAppended>
 
   <!-- EN: Need anomaly project -->
-  <NeedAnomalyProject>Cal un projecte d'anomalia</NeedAnomalyProject>
+  <NeedAnomalyProject>Cal un projecte d’anomalia</NeedAnomalyProject>
   <!-- EN: You have an entity marked for study but don't have a matching anomaly research project selected: -->
-  <NeedAnomalyProjectDesc>Heu demanat que s'estudiï una entitat, però no heu triat cap projecte d'investigació relacionat:</NeedAnomalyProjectDesc>
+  <NeedAnomalyProjectDesc>Heu demanat que s’estudiï una entitat, però no heu triat cap projecte d’investigació relacionat:</NeedAnomalyProjectDesc>
   <!-- EN: Need {NAME} anomaly research project -->
-  <NeedAnomalyProjectDescLine>Necessiteu el projecte d'anomalia {NAME}</NeedAnomalyProjectDescLine>
+  <NeedAnomalyProjectDescLine>Necessiteu el projecte d’anomalia {NAME}</NeedAnomalyProjectDescLine>
   <!-- EN: Open the research menu and select a project on the anomaly tab.\n\nYou can have a basic and an advanced research project selected at the same time.\n\n(Click to open the research menu.) -->
-  <NeedAnomalyProjectDescAppended>Obriu el menú de recerca i seleccioneu un projecte a la pestanya d'anomalia.\n\nPots seleccionar un projecte de recerca bàsic i un avançat alhora.\n(Feu clic per a obrir el menú de recerca.)</NeedAnomalyProjectDescAppended>
+  <NeedAnomalyProjectDescAppended>Obriu el menú de recerca i seleccioneu un projecte a la pestanya d’anomalies.\n\nPots seleccionar un projecte de recerca bàsic i un avançat alhora.\n(Feu clic per a obrir el menú de recerca.)</NeedAnomalyProjectDescAppended>
 
   <!-- EN: Visitor ignored -->
   <CreepJoinerTimeout>Visitant ignorat</CreepJoinerTimeout>
@@ -27,31 +27,31 @@
   <!-- EN: Undercave unstable -->
   <Alert_UndercaveUnstable>Sotacova inestable</Alert_UndercaveUnstable>
   <!-- EN: The undercave has become unstable and will collapse soon.\n\nGet your colonists out before it's too late. -->
-  <Alert_UndercaveUnstableDesc>La sotacova s'ha tornat inestable i s'ensorrarà aviat.\n\nTraieu-hi els vostres colons abans que sigui massa tard.</Alert_UndercaveUnstableDesc>
+  <Alert_UndercaveUnstableDesc>La sotacova s’ha tornat inestable i s’ensorrarà aviat.\n\nTraieu-hi els vostres colons abans que sigui massa tard.</Alert_UndercaveUnstableDesc>
 
   <!-- EN: Cultist psychic ritual -->
-  <Alert_CultistPsychicRitual>Ritual psíquic d'una secta</Alert_CultistPsychicRitual>
+  <Alert_CultistPsychicRitual>Ritual psíquic d’una secta</Alert_CultistPsychicRitual>
   <!-- EN: {INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire. -->
-  <Alert_CultistPsychicRitualDesc>La sotacova s'ha tornat inestable i s'ensorrarà aviat.\n\nTraieu-hi els vostres colons abans que sigui massa tard.</Alert_CultistPsychicRitualDesc>
+  <Alert_CultistPsychicRitualDesc>La sotacova s’ha tornat inestable i s’ensorrarà aviat.\n\nTraieu-hi els vostres colons abans que sigui massa tard.</Alert_CultistPsychicRitualDesc>
 
   <!-- EN: Ghoul starvation -->
   <AlertMeatHunger>Fam necròfaga</AlertMeatHunger>
   <!-- EN: These ghouls hunger for raw meat -->
   <AlertMeatHungerDesc>Aquests necròfags tenen ganes de menjar carn crua</AlertMeatHungerDesc>
   <!-- EN: They may attack if they're not fed soon. Get them some meat. -->
-  <AlertMeatHungerDescAppended>Potser atacaran algú si no se'ls alimenta aviat. Proporcioneu-los carn.</AlertMeatHungerDescAppended>
+  <AlertMeatHungerDescAppended>Potser atacaran algú si no se’ls alimenta aviat. Proporcioneu-los carn.</AlertMeatHungerDescAppended>
   
   <!-- EN: Pit gate opening -->
-  <AlertEmergingPitGate>La boca de la fossa s'obre</AlertEmergingPitGate>
+  <AlertEmergingPitGate>La boca de la fossa s’obre</AlertEmergingPitGate>
   <!-- EN: The ground is collapsing in on itself. A pit gate will soon form. -->
-  <AlertEmergingPitGateDesc>El terra s'enfonsa. Aviat s'hi obrirà una fossa.</AlertEmergingPitGateDesc>
+  <AlertEmergingPitGateDesc>El terra s’enfonsa. Aviat s’hi obrirà una fossa.</AlertEmergingPitGateDesc>
 
   <!-- EN: Insufficient containment -->
   <Alert_InsufficientContainment>Contenció insuficient</Alert_InsufficientContainment>
   <!-- EN: The following entities are being held in rooms that do not meet their minimum containment strength -->
   <Alert_InsufficientContainmentDesc>Les entitats següents es mantenen en sales que no compleixen la seva força de contenció mínima</Alert_InsufficientContainmentDesc>
   <!-- EN: They will escape soon. Build stronger walls, doors, or other containment devices to hold them. -->
-  <Alert_InsufficientContainmentDescAppended>Aviat s'escaparan. Construïu-hi parets, portes o altres dispositius de contenció més forts per a retenir-les.</Alert_InsufficientContainmentDescAppended>
+  <Alert_InsufficientContainmentDescAppended>Aviat s’escaparan. Construïu-hi parets, portes o altres dispositius de contenció més forts per a retenir-les.</Alert_InsufficientContainmentDescAppended>
 
   <!-- EN: Need holding platforms -->
   <AlertHoldingPlatform>Falten plataformes de contenció</AlertHoldingPlatform>
@@ -59,9 +59,9 @@
   <AlertHoldingPlatformDesc>Construïu plataformes de contenció o col·loqueu punts de retenció per a contenir i estudiar les entitats capturades.</AlertHoldingPlatformDesc>
 
   <!-- EN: Cube withdrawal -->
-  <AlertCubeWithdrawal>Síndrome d'abstinència del cub</AlertCubeWithdrawal>
+  <AlertCubeWithdrawal>Síndrome d’abstinència del cub</AlertCubeWithdrawal>
   <!-- EN: The following people are suffering from cube withdrawal -->
-  <AlertCubeWithdrawalDesc>La gent següent pateix síndrome d'abstinència cúbica</AlertCubeWithdrawalDesc>
+  <AlertCubeWithdrawalDesc>La gent següent pateix síndrome d’abstinència cúbica</AlertCubeWithdrawalDesc>
   <!-- EN: Their skin itches and their mind races, craving closeness to the golden cube. Their symptoms will worsen until they can play with the cube.\n\nEnsure that they have free time and can reach the golden cube. -->
   <AlertCubeWithdrawalDescAppended>La pell els pica i la seva ment anhela estar a prop del cub daurat. Els seus símptomes empitjoraran fins que puguin jugar amb el cub.\n\nAssegureu-vos que tinguin temps lliure i puguin arribar al cub daurat.</AlertCubeWithdrawalDescAppended>
 
@@ -75,7 +75,7 @@
   <!-- EN: Inhibitor blocked -->
   <AlertInhibitorBlocked>Inhibidor blocat</AlertInhibitorBlocked>
   <!-- EN: One of your electric inhibitors is not functional because it's blocked by another building.\n\nClear the space in front of the electric inhibitor. -->
-  <AlertInhibitorBlockedDesc>Un dels vostres inhibidors elèctrics no funciona perquè està blocat per una altra estructura.\n\nLLeveu les coses que hi hagin al davant de l'inhibidor elèctric.</AlertInhibitorBlockedDesc>
+  <AlertInhibitorBlockedDesc>Un dels vostres inhibidors elèctrics no funciona perquè està blocat per una altra estructura.\n\nLLeveu les coses que hi hagin al davant de l’inhibidor elèctric.</AlertInhibitorBlockedDesc>
 
   <!-- EN: Entity treatment needed -->
   <EntityNeedsTreatment>Cal atendre entitats</EntityNeedsTreatment>

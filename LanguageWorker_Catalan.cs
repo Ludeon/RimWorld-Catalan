@@ -95,7 +95,7 @@ public class LanguageWorker_Catalan : LanguageWorker
 		if (lowercase.EndsWith("à") || lowercase.EndsWith("é") || lowercase.EndsWith("è") || 
 			lowercase.EndsWith("í") || lowercase.EndsWith("ó") || lowercase.EndsWith("ò") || lowercase.EndsWith("ú"))
 		{
-			// Es treu l'accent al pluralitzar amb -ns
+			// Es treu l’accent al pluralitzar amb -ns
 			string senseAccent = TreureAccentFinal(str);
 			return senseAccent + "ns";
 		}
@@ -103,7 +103,7 @@ public class LanguageWorker_Catalan : LanguageWorker
 		// 3. Paraules acabades en -s, -ç, -x, -tx (afegeixen -os si són agudes)
 		if (lowercase.EndsWith("s") || lowercase.EndsWith("ç") || lowercase.EndsWith("x") || lowercase.EndsWith("tx"))
 		{
-			// Nota: RimWorld sol assumir que els noms d'objectes/animals curts en -s fan el plural en -os (gos -> gossos)
+			// Nota: RimWorld sol assumir que els noms d’objectes/animals curts en -s fan el plural en -os (gos -> gossos)
 			if (lowercase.EndsWith("s") && !lowercase.EndsWith("as") && !lowercase.EndsWith("es") && !lowercase.EndsWith("is") && !lowercase.EndsWith("os") && !lowercase.EndsWith("us"))
 			{
 				return str + "os"; // Ex: nas -> nasos

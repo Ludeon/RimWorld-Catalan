@@ -40,12 +40,12 @@
   <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
   <MessageVisitorsAnomalousWeather>Els {0} dels {1} se’n van del mapa pel clima meteorològic perillós.</MessageVisitorsAnomalousWeather>
   <!-- EN: {0} from {1} are leaving the map because of dangerous conditions. -->
-  <MessageVisitorsDangerousConditions>Els {0} dels {1} se'n van del mapa pels perills que hi ha.</MessageVisitorsDangerousConditions>
+  <MessageVisitorsDangerousConditions>Els {0} dels {1} se’n van del mapa pels perills que hi ha.</MessageVisitorsDangerousConditions>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
-  <MessageWornApparelDeterioratedAway>{0_definite} que portava {1_definite} s’ha fet malbé del tot.</MessageWornApparelDeterioratedAway>
+  <MessageWornApparelDeterioratedAway>{lookup: {0_definite}; fix_definite} que portava {1_definite} {lookup: {0_definite}; fix_definite; 2} fet malbé del tot.</MessageWornApparelDeterioratedAway>
   <!-- EN: {0} has deteriorated away in storage. -->
-  <MessageDeterioratedAway> {replace: {lookup: {0_indefinite}; fix_indefinite_plural; 2}; "{0_indefinite}"-"s'ha"} fet malbé {lookup: {0_indefinite}; fix_indefinite_plural} del magatzem.</MessageDeterioratedAway>
+  <MessageDeterioratedAway> {replace: {lookup: {0_indefinite}; fix_indefinite; 2}; "{0_indefinite}"-"s’ha"} fet malbé {lookup: {0_indefinite}; fix_indefinite} del magatzem.</MessageDeterioratedAway>
 
   <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>Comença {0_definite}.</MessageSeasonBegun>
@@ -226,7 +226,7 @@
   <!-- EN: The trade caravan from {0} is leaving. -->
   <MessageTraderCaravanLeaving>La caravana de comerciants dels {0} toca el dos.</MessageTraderCaravanLeaving>
   <!-- EN: The trade caravan from {0} has been dismissed. -->
-  <MessageTraderCaravanDismissed>La caravana de comerç dels {0} s'ha despatxat.</MessageTraderCaravanDismissed>
+  <MessageTraderCaravanDismissed>La caravana de comerç dels {0} s’ha despatxat.</MessageTraderCaravanDismissed>
 
   <!-- EN: {1_labelShort} is dead. -->
   <MessageCantSelectDeadPawn>{1_definite} és mort.</MessageCantSelectDeadPawn>
@@ -378,7 +378,7 @@
   <!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoShuttle>El vostre {1} no pot acabar de carregar la llançadora perquè alguns elements o persones no estan disponibles ({2_labelShort}).</MessageCantLoadMoreIntoShuttle>
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoPortal>El vostre {1} no pot acabar d'entrar a {0_definite} perquè alguns elements o persones no estan disponibles ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
+  <MessageCantLoadMoreIntoPortal>El vostre {1} no pot acabar d’entrar a {0_definite} perquè alguns elements o persones no estan disponibles ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>El destí seleccionat no és vàlid.</MessageTransportPodsDestinationIsInvalid>
@@ -428,7 +428,7 @@
   <MessageYouHaveToReformCaravanNow>Ara heu de tornar a formar la caravana. Si deixeu algú, serà abandonat.</MessageYouHaveToReformCaravanNow>
   
   <!-- EN: {0} from {1} are attacking your {2}. -->
-  <MessageDefendersAttacking>{0} dels {1} estan atacant la vostra {2}.</MessageDefendersAttacking>
+  <MessageDefendersAttacking>{0} dels {1} ataquen {2_gender ? el vostre : la vostra} {2}.</MessageDefendersAttacking>
   <!-- EN: Mechanoids have been gestated and will defend their cluster. -->
   <MessageMechanoidsAssembled>S’han gestat els mecanoides i lluitaran per defensar el seu grup.</MessageMechanoidsAssembled>
   <!-- EN: Remaining mechanoids to gestate -->
@@ -599,9 +599,9 @@
   <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
   <MessageBillValidationIncludeZoneDeleted>«{0}» de {1} no pot comptar els elements del magatzem {2} perquè s’ha eliminat.</MessageBillValidationIncludeZoneDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted building {2}. -->
-  <MessageBillValidationIncludeBuildingDeleted>«{0}» de {1} no pot comptar els elements de l'estructura {2} perquè s’ha eliminat.</MessageBillValidationIncludeBuildingDeleted>
+  <MessageBillValidationIncludeBuildingDeleted>«{0}» de {1} no pot comptar els elements de l’estructura {2} perquè s’ha eliminat.</MessageBillValidationIncludeBuildingDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted storage group {2}. -->
-  <MessageBillValidationIncludeStorageGroupDeleted>«{0}» de {1} no pot comptar els elements del grup d'emmagatzematge {2} perquè s’ha eliminat.</MessageBillValidationIncludeStorageGroupDeleted>
+  <MessageBillValidationIncludeStorageGroupDeleted>«{0}» de {1} no pot comptar els elements del grup d’emmagatzematge {2} perquè s’ha eliminat.</MessageBillValidationIncludeStorageGroupDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
   <MessageBillValidationIncludeZoneUnavailable>«{0}» de {1} no pot comptar els elements del magatzem {2} perquè no hi pot arribar.</MessageBillValidationIncludeZoneUnavailable>
   <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
@@ -836,11 +836,11 @@
   <!-- EN: Storage settings linked for {0} buildings. -->
   <SettingsLinkedFor>S’ha enllaçat la configuració d’emmagatzematge de {0} estructures.</SettingsLinkedFor>
   <!-- EN: Storage settings linked for 1 building. -->
-  <SettingsLinkedForSingular>S'ha enllaçat la configuració d'emmagatzematge amb 1 estructura.</SettingsLinkedForSingular>
+  <SettingsLinkedForSingular>S’ha enllaçat la configuració d’emmagatzematge amb 1 estructura.</SettingsLinkedForSingular>
   <!-- EN: Storage settings unlinked for {0} buildings. -->
   <SettingsUnlinkedFor>S’ha separat la configuració d’emmagatzematge de {0} estructures.</SettingsUnlinkedFor>
   <!-- EN: Storage settings unlinked for 1 building. -->
-  <SettingsUnlinkedForSingular>S’ha separat la configuració d’emmagatzematge d'1 estructura.</SettingsUnlinkedForSingular>
+  <SettingsUnlinkedForSingular>S’ha separat la configuració d’emmagatzematge d’1 estructura.</SettingsUnlinkedForSingular>
   <!-- EN: Storage settings copied to clipboard. -->
   <StorageSettingsCopiedToClipboard>S’ha copiat la configuració d’emmagatzematge al porta-retalls.</StorageSettingsCopiedToClipboard>
   <!-- EN: Storage settings pasted from clipboard. -->
@@ -853,9 +853,9 @@
   <MessageLodgersCantFarskip>No es pot saltar: refugiat</MessageLodgersCantFarskip>
   
   <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
-  <MessageHackerLockedOut>S'ha detectat la pirateria de {HACKER_nameDef}. Se l'ha blocat durant {DURATION}.</MessageHackerLockedOut>
+  <MessageHackerLockedOut>S’ha detectat la pirateria de {HACKER_nameDef}. Se l’ha blocat durant {DURATION}.</MessageHackerLockedOut>
   <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
-  <MessageHackerLockedOutPermanently>S'ha detectat la pirateria de {HACKER_nameDef}. Se l'ha blocat permanentment.</MessageHackerLockedOutPermanently>
+  <MessageHackerLockedOutPermanently>S’ha detectat la pirateria de {HACKER_nameDef}. Se l’ha blocat permanentment.</MessageHackerLockedOutPermanently>
   <!-- EN: {0_labelShort} can be hacked again. -->
   <MessageHackableUnlocked>{0_labelShort} no es pot tornar a piratejar.</MessageHackableUnlocked>
 

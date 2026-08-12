@@ -51,7 +51,7 @@
   <!-- EN: Official wiki -->
   <OfficialWiki>Wiki oficial</OfficialWiki>
   <!-- EN: Tynan's X -->
-  <TynansX>Compte d'X d'en Tynan</TynansX>
+  <TynansX>Compte d’X d’en Tynan</TynansX>
   <!-- EN: Tynan's design book -->
   <TynansDesignBook>Llibre de disseny d’en Tynan</TynansDesignBook>
   <!-- EN: Help translate RimWorld -->
@@ -631,7 +631,7 @@
   <!-- EN: Randomize -->
   <Randomize>Tria a l’atzar</Randomize>
   <!-- EN: age {0} -->
-  <AgeIndicator>{0} anys d’edat</AgeIndicator>
+  <AgeIndicator>{replace: ^{0} anys; "^1 anys"-"1 any";"^"-""}</AgeIndicator>
   <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
   <PawnSummary>{PAWN_race}, {PAWN_age} anys</PawnSummary>
   <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
@@ -639,7 +639,7 @@
   <!-- EN: Backstory -->
   <Backstory>Rerefons personal</Backstory>
   <!-- EN: Incapable of -->
-  <IncapableOf>És incapaç de</IncapableOf>
+  <IncapableOf>Coses que no pot fer</IncapableOf>
   <!-- EN: Abilities -->
   <Abilities>Habilitats</Abilities>
   <!-- EN: Caused by -->
@@ -667,7 +667,7 @@
   <!-- EN: Skills -->
   <Skills>Habilitats</Skills>
   <!-- EN: none -->
-  <NoneLower>cap</NoneLower>
+  <NoneLower>res</NoneLower>
   <!-- EN: Adulthood -->
   <Adulthood>Edat adulta</Adulthood>
   <!-- EN: Childhood -->
@@ -742,7 +742,7 @@
   <!-- EN: {PAWN_nameDef}'s best stat -->
   <BestSkillLetterLabel>La millor habilitat de {PAWN_nameDef}</BestSkillLetterLabel>
   <!-- EN: skill level {0} -->
-  <BestSkillInfoLevel>nivell d'hab. {0}</BestSkillInfoLevel>
+  <BestSkillInfoLevel>nivell d’hab. {0}</BestSkillInfoLevel>
 
   <!-- Factions -->
   <!-- EN: Factions -->
@@ -762,6 +762,6 @@
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
   <FactionsDisabledWarning>Si no hi ha més faccions, no hi haurà tantes missions, assalts i possibilitats de comerciar.</FactionsDisabledWarning>
   <!-- EN: Cannot be removed for this scenario. -->
-  <FactionRemovalDisabled>No es pot traure d'aquest escenari.</FactionRemovalDisabled>
+  <FactionRemovalDisabled>No es pot traure d’aquest escenari.</FactionRemovalDisabled>
 
 </LanguageData>

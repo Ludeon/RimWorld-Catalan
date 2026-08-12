@@ -196,7 +196,7 @@
   <AlreadyAssigned>ja s’ha assignat</AlreadyAssigned>
   
   <!-- EN: Consume {1_labelShort} -->
-  <ConsumeThing>Consumeix {lookup: {1_labelShortIndef}; fix_indefinite}</ConsumeThing>
+  <ConsumeThing>{replace: Consumeix {lookup: {1_labelShortIndef}; fix_indefinite};"un carn d"-"carn d";"una carn d"-"carn d"; "un cadàver d"-"el cadàver d";"un ou d"-"ous d"}</ConsumeThing>
   
   <!-- EN: Cannot go here: No path -->
   <CannotGoNoPath>No s’hi pot anar perquè no hi ha camí.</CannotGoNoPath>
@@ -293,26 +293,26 @@
   <!-- EN: (brawler will be unhappy) -->
   <EquipWarningBrawler>(al sarauista no li agradarà)</EquipWarningBrawler>
   <!-- EN: Cannot equip {0} -->
-  <CannotEquip>No es pot equipar {0_definite}</CannotEquip>
+  <CannotEquip>No es pot equipar {0_labelShort}</CannotEquip>
   <!-- EN: Cannot man {1_labelShort} -->
   <CannotManThing>No es pot {1_labelShort} a mà</CannotManThing>
   
   <!-- EN: Force wear {1_labelShort} -->
-  <ForceWear>Força a portar {1_definite}</ForceWear>
+  <ForceWear>Fes que porti {replace: posat {1_definite}; "posat el pantalons"-"posats els pantalons"}</ForceWear>
   <!-- EN: Force target to wear {1_labelShort}... -->
-  <ForceTargetToWear>Força l'objectiu a portar {1_definite}...</ForceTargetToWear>
+  <ForceTargetToWear>Força l’objectiu a què porti {replace: posat {1_definite}; "posat el pantalons"-"posats els pantalons"}...</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
-  <CannotWear>No pot portar {1_indefinite}.</CannotWear>
+  <CannotWear>No es pot posar {replace: {1_definite}; "el pantalons"-"els pantalons"}.</CannotWear>
   <!-- EN: Cannot force target to wear {1_label} -->
-  <CannotForceTargetToWear>No es pot forçar l'objectiu a portar {1_label}.</CannotForceTargetToWear>
+  <CannotForceTargetToWear>No es pot forçar l’objectiu a què es posi {1_definite}.</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
-  <ForceEquipApparel>Força a portar posat {1_definite}</ForceEquipApparel>
+  <ForceEquipApparel>Força a portar posat {replace: {1_definite}; "la urpes metàl·liques"-"les urpes metàl·liques"}</ForceEquipApparel>
   <!-- EN: Force target to equip {1_labelShort}... -->
-  <ForceTargetToEquipApparel>Força l'objectiu a què porti posat {1_definite}...</ForceTargetToEquipApparel>
+  <ForceTargetToEquipApparel>Força l’objectiu a què es posi {replace: {1_definite}; "la urpes metàl·liques"-"les urpes metàl·liques"}...</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>No pot portar posat {1_label}</CannotEquipApparel>
   <!-- EN: Cannot force target to equip {1_label} -->
-  <CannotForceTargetToEquipApparel>No es pot forçar a l'objectiu a què porti posat {1_label}.</CannotForceTargetToEquipApparel>
+  <CannotForceTargetToEquipApparel>No es pot forçar a l’objectiu a què porti posat {1_label}.</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>li falten parts del cos</CannotWearBecauseOfMissingBodyParts>
   
@@ -330,7 +330,7 @@
   <!-- EN: Cannot pick up {1_label} (all) -->
   <CannotPickUpAll>No es pot recollir tot {1_definite}</CannotPickUpAll>
   <!-- EN: Pick up {1_labelShort} x1 -->
-  <PickUpOne>Recull {1_labelShort} ×1</PickUpOne>
+  <PickUpOne>Recull 1×{1_labelShort}</PickUpOne>
   <!-- EN: Pick up {1_label} (all) -->
   <PickUpAll>Recull tots {1_definite}</PickUpAll>
   <!-- EN: Pick up {1_labelShort}... -->
@@ -463,7 +463,7 @@
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
-  <CannotGenericWork>No es pot {0} {1}</CannotGenericWork>
+  <CannotGenericWork>No es {replace: pot {0} {1};"pot cuinar 4"-"poden cuinar 4"}</CannotGenericWork>
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>No es pot {0}</CannotGenericWorkCustom>
 

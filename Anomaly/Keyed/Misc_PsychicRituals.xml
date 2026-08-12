@@ -12,7 +12,7 @@
   <!-- EN: The {0} psychic ritual has begun. -->
   <PsychicRitualBegun>El ritual psíquic {0} ha començat.</PsychicRitualBegun>
   <!-- EN: The {0} psychic ritual has been completed. -->
-  <PsychicRitualCompleted>El ritual psíquic {0} s'ha completat.</PsychicRitualCompleted>
+  <PsychicRitualCompleted>El ritual psíquic {0} s’ha completat.</PsychicRitualCompleted>
   <!-- EN: attending {RITUALNAME} psychic ritual -->
   <PsychicRitualAttending>participa al ritual psíquic {RITUALNAME}</PsychicRitualAttending>
   <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
@@ -35,27 +35,27 @@
   <PsychicRitualCooldownLabel>En recàrrega</PsychicRitualCooldownLabel>
 
   <!-- EN: Psychic ritual area obstructed. -->
-  <PsychicRitualSpotObstructed>L'àrea del ritual psíquic està obstruïda.</PsychicRitualSpotObstructed>
+  <PsychicRitualSpotObstructed>L’àrea del ritual psíquic està obstruïda.</PsychicRitualSpotObstructed>
   <!-- EN: psychic ritual on cooldown. It will be available in {0}. -->
-  <PsychicRitualOnCooldown>ritual psíquic en temps de recàrrega. Estarà disponible d'aquí {0}.</PsychicRitualOnCooldown>
+  <PsychicRitualOnCooldown>ritual psíquic en temps de recàrrega. Estarà disponible d’aquí {0}.</PsychicRitualOnCooldown>
   <!-- EN: The {0} psychic ritual can be performed again. -->
   <PsychicRitualCanBeCastAgain>El ritual psíquic {0} es pot tornar a dur a terme.</PsychicRitualCanBeCastAgain>
   <!-- EN: No basic anomaly research project selected. -->
-  <NoBasicResearchForPsychicRitual>No s'ha seleccionat cap projecte de recerca bàsic sobre anomalies.</NoBasicResearchForPsychicRitual>
+  <NoBasicResearchForPsychicRitual>No s’ha seleccionat cap projecte de recerca bàsic sobre anomalies.</NoBasicResearchForPsychicRitual>
   <!-- EN: Must perform {0} psychic ritual on the surface. -->
   <CantCastOnPocketMap>Ha de realitzar el ritual psíquic {0} a la superfície.</CantCastOnPocketMap>
 
   <!-- EN: Warning: Performing a ritual on {PAWN_nameDef} will anger {PAWN_possessive} faction ({FACTION_name}) -->
-  <PsychicRitualFactionWarning>Avís: si es fa un ritual a {PAWN_nameDef}, la facció de {PAWN_possessive} ({FACTION_name}) s'enfadarà.</PsychicRitualFactionWarning>
+  <PsychicRitualFactionWarning>Avís: si es fa un ritual a {PAWN_nameDef}, la facció de {PAWN_possessive} ({FACTION_name}) s’enfadarà.</PsychicRitualFactionWarning>
 
   <!-- EN: {0} is currently asleep and will wake up when the psychic ritual begins. -->
   <PsychicRitualWakingPawnWarning>Ara mateix, {0} dorm i es despertarà quan el ritual psíquic comenci.</PsychicRitualWakingPawnWarning>
   <!-- EN: {0} is currently drafted and will be un-drafted when the psychic ritual begins. -->
-  <PsychicRitualUndraftPawnWarning>Ara mateix, {0} està {0_gender ? reclutat : reclutada} i deixarà d'estar-ho quan el ritual psíquic comenci.</PsychicRitualUndraftPawnWarning>
+  <PsychicRitualUndraftPawnWarning>Ara mateix, {0} està {0_gender ? reclutat : reclutada} i deixarà d’estar-ho quan el ritual psíquic comenci.</PsychicRitualUndraftPawnWarning>
   <!-- EN: {0} are currently asleep and will wake up when the psychic ritual begins. -->
   <PsychicRitualWakingPawnsWarning>Ara mateix, {0} dormen i es despertaran quan el ritual psíquic comenci.</PsychicRitualWakingPawnsWarning>
   <!-- EN: {0} are currently drafted and will be un-drafted when the psychic ritual begins. -->
-  <PsychicRitualUndraftPawnsWarning>Ara mateix, {0} estan {0_gender ? reclutats : reclutades} i deixaran d'estar-ho quan el ritual psíquic comenci.</PsychicRitualUndraftPawnsWarning>
+  <PsychicRitualUndraftPawnsWarning>Ara mateix, {0} estan {0_gender ? reclutats : reclutades} i deixaran d’estar-ho quan el ritual psíquic comenci.</PsychicRitualUndraftPawnsWarning>
 
   <!-- EN: {0_labelShort} left the {1} psychic ritual. -->
   <PsychicRitualLeft>{0_labelShort} ha abandonat el ritual psíquic {1}.</PsychicRitualLeft>
@@ -67,7 +67,7 @@
   <PsychicRitualCanceledBecause>El ritual psíquic {0} ha estat cancel·lat a causa de {1}.</PsychicRitualCanceledBecause>
 
   <!-- EN: {0} is needed but only {1} is available -->
-  <PsychicRitualOfferingsInsufficient>Fan falta {0} però només n'hi ha {1}</PsychicRitualOfferingsInsufficient>
+  <PsychicRitualOfferingsInsufficient>Fan falta {0} però només n’hi ha {1}</PsychicRitualOfferingsInsufficient>
   <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
   <PsychicRitualTargetUnreachableByInvoker>{INVOKER_labelShort} no pot accedir a {TARGET_labelShort}</PsychicRitualTargetUnreachableByInvoker>
 
@@ -104,7 +104,7 @@
   <!-- EN: {PAWN_labelShort} is on fire -->
   <PsychicRitualLeaveReason_Burning>{PAWN_labelShort} està en flames</PsychicRitualLeaveReason_Burning>
   <!-- EN: the temperature near the target is not safe for {PAWN_labelShort} -->
-  <PsychicRitualLeaveReason_ExtremeTemperature>la temperatura a prop de l'objectiu no és segura per a {PAWN_labelShort}</PsychicRitualLeaveReason_ExtremeTemperature>
+  <PsychicRitualLeaveReason_ExtremeTemperature>la temperatura a prop de l’objectiu no és segura per a {PAWN_labelShort}</PsychicRitualLeaveReason_ExtremeTemperature>
   <!-- EN: {PAWN_labelShort} cannot participate from inside {BUILDING} -->
   <PsychicRitualLeaveReason_InsideBuilding>{PAWN_labelShort} no pot participar des de dins de {BUILDING_definite}</PsychicRitualLeaveReason_InsideBuilding>
   <!-- EN: {PAWN_labelShort} is humanlike -->
@@ -145,7 +145,7 @@
   <!-- EN: {PAWN_labelShort} was unable to find enough {1} -->
   <PsychicRitualToil_GatherOfferings_OfferingUnavailable>{PAWN_labelShort} no ha pogut trobar prou {1}</PsychicRitualToil_GatherOfferings_OfferingUnavailable>
   <!-- EN: gathering offering -->
-  <PsychicRitualToil_GatherOfferings_JobReport>prepara l'ofrena</PsychicRitualToil_GatherOfferings_JobReport>
+  <PsychicRitualToil_GatherOfferings_JobReport>prepara l’ofrena</PsychicRitualToil_GatherOfferings_JobReport>
 
   <!-- EN: leading psychic ritual -->
   <PsychicRitualToil_InvokeHorax_JobReport_Invoker>lidera el ritual psíquic</PsychicRitualToil_InvokeHorax_JobReport_Invoker>
@@ -171,7 +171,7 @@
   <PsychicRitualDef_InvocationCircle_InvokerLost>{INVOKER_labelShort} no pot continuar el ritual psíquic</PsychicRitualDef_InvocationCircle_InvokerLost>
 
   <!-- EN: the area around the target site must be clear of obstructions -->
-  <PsychicRitualDef_InvocationCircle_AreaMustBeClear>l'àrea al voltant del lloc objectiu ha d'estar lliure d'obstruccions</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
+  <PsychicRitualDef_InvocationCircle_AreaMustBeClear>l’àrea al voltant del lloc objectiu ha d’estar lliure d’obstruccions</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
   <!-- EN: {PAWN_labelShort}'s psychic sensitivity -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>Sensibilitat psíquica de {PAWN_labelShort}</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
   <!-- EN: How in-tune {PAWN_labelShort} is with psychic phenomena. -->
@@ -187,7 +187,7 @@
   <!-- EN: {0} has begun performing the {1} psychic ritual. -->
   <PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>{0} ha començat a realitzar el ritual psíquic {1}.</PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>
   <!-- EN: psychic ritual area is obstructed -->
-  <PsychicRitualAreaObstructed>l'àrea del ritual psíquic està obstruïda</PsychicRitualAreaObstructed>
+  <PsychicRitualAreaObstructed>l’àrea del ritual psíquic està obstruïda</PsychicRitualAreaObstructed>
 
   <!-- Animal summoning -->
   <!-- EN: Not enough animals in this biome. -->
@@ -203,15 +203,15 @@
   
   <!-- Chronophagy -->
   <!-- EN: The invoker must be at least {0} years old. -->
-  <InvokerTooYoung>L'invocador ha de tenir almenys {0} anys.</InvokerTooYoung>
+  <InvokerTooYoung>L’invocador ha de tenir almenys {0} anys.</InvokerTooYoung>
   <!-- EN: The target must be at least {0} years old. -->
-  <PsychicRitualTargetTooYoung>L'objectiu ha de tenir {0} anys o més.</PsychicRitualTargetTooYoung>
+  <PsychicRitualTargetTooYoung>L’objectiu ha de tenir {0} anys o més.</PsychicRitualTargetTooYoung>
   <!-- EN: {INVOKER_labelShort} will become {1} years old, and {TARGET_labelShort} will become {3} years old. -->
   <CronophagyAgeChange>{INVOKER_labelShort} passarà a tenir {1} anys i {TARGET_labelShort} en tindrà {3}.</CronophagyAgeChange>
   
   <!-- Philophagy -->
   <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
-  <PhilophagyTransferReport>{INVOKER_labelShort} robarà {1} {SKILL_label} punts d'experiència de {TARGET_labelShort}.</PhilophagyTransferReport>
+  <PhilophagyTransferReport>{INVOKER_labelShort} robarà {1} {SKILL_label} punts d’experiència de {TARGET_labelShort}.</PhilophagyTransferReport>
   <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
   <NoSkillsToTransfer>{TARGET_labelShort} no té habilitats a transferir.</NoSkillsToTransfer>
 </LanguageData>
