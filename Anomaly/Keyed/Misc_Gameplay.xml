@@ -46,13 +46,13 @@
   <!-- EN: The wounded revenant left behind a piece of itself. You can analyze this flesh chunk to learn how to track the revenant. -->
   <LetterRevenantFleshChunkText>TODO</LetterRevenantFleshChunkText>
   <!-- EN: Revenant seen -->
-  <LetterRevenantSeenLabel>TODO</LetterRevenantSeenLabel>
+  <LetterRevenantSeenLabel>S'ha vist un retornat</LetterRevenantSeenLabel>
   <!-- EN: {PAWN_nameDef} has seen a hiding revenant! -->
-  <LetterRevenantSeen>TODO</LetterRevenantSeen>
+  <LetterRevenantSeen>{PAWN_nameDef} ha vist un retornat!</LetterRevenantSeen>
   <!-- EN: In trance. -->
-  <InTrance>TODO</InTrance>
+  <InTrance>En èxtasi.</InTrance>
   <!-- EN: Revenant emergence -->
-  <LetterLabelRevenantEmergence>TODO</LetterLabelRevenantEmergence>
+  <LetterLabelRevenantEmergence>Emergència per un retornat</LetterLabelRevenantEmergence>
   <!-- EN: The revenant has reemerged from the safety of its spine! Destroy it before it escapes.\n\nIn the process, the revenant has mutated and adopted a new biosignature. -->
   <LetterRevenantEmergence>TODO</LetterRevenantEmergence>
 
@@ -64,31 +64,31 @@
   <!-- EN: A sightstealer has appeared! -->
   <MessageSightstealerRevealed>Ha aparegut un robavistes</MessageSightstealerRevealed>
   <!-- EN: Sightstealer shrieks -->
-  <LetterLabelSightstealerHowl>TODO</LetterLabelSightstealerHowl>
+  <LetterLabelSightstealerHowl>Xiscles de robavistes</LetterLabelSightstealerHowl>
   <!-- EN: Your colonists hear sightstealers shrieking in the distance.\n\nIt's hard to tell where they are or how many. They might arrive immediately or days from now. -->
   <LetterSightstealerHowl>TODO</LetterSightstealerHowl>
   <!-- EN: Sightstealer howling -->
-  <LetterLabelSightstealerHowlBig>TODO</LetterLabelSightstealerHowlBig>
+  <LetterLabelSightstealerHowlBig>Udols de robavistes</LetterLabelSightstealerHowlBig>
   <!-- EN: Your colonists hear a huge number of distant sightstealers screaming in their twisted rage. They are coming.\n\nThey might arrive immediately, or days from now. -->
   <LetterSightstealerHowlBig>TODO</LetterSightstealerHowlBig>
 
   <!-- Death Pall -->
   <!-- EN: Death pall clearing -->
-  <LetterLabelDeathPallEnded>TODO</LetterLabelDeathPallEnded> 
+  <LetterLabelDeathPallEnded>S'aixeca el mantell de la mort</LetterLabelDeathPallEnded> 
   <!-- EN: The pall of death is lifting. The corpses reanimated by it will soon return to their natural state. -->
   <LetterDeathPallEnded>TODO</LetterDeathPallEnded>
   
   <!-- Pit Gate -->
   <!-- EN: Pit gate closing -->
-  <LetterLabelGateClosing>TODO</LetterLabelGateClosing>
+  <LetterLabelGateClosing>Es tanca la boca de la fossa</LetterLabelGateClosing>
   <!-- EN: The pit gate is closing! Its entrance is about to crumble.\n\nThe pit gate entrance was unstable from the start and is finally sealing itself. -->
   <LetterGateClosing>TODO</LetterGateClosing>
   <!-- EN: Must be placed adjacent to a pit gate. -->
   <MustPlaceNextToPitGate>TODO</MustPlaceNextToPitGate>
   <!-- EN: Pit gate closed -->
-  <PitGateClosedHumanityNote>TODO</PitGateClosedHumanityNote>
+  <PitGateClosedHumanityNote>La boca de la fossa s'ha tancat</PitGateClosedHumanityNote>
   <!-- EN: Pit gate collapsing -->
-  <PitGateCollapsing>TODO</PitGateCollapsing> 
+  <PitGateCollapsing>La boca de la fosa s'esfondra</PitGateCollapsing> 
   <!-- EN: Pit gate settling -->
   <PitGateSettling>TODO</PitGateSettling>
   <!-- EN: Pit rumbles -->
@@ -118,15 +118,15 @@
   <!-- EN: {GERUND} {TARGETLABEL} -->
   <TransferringEntity>TODO</TransferringEntity>
   <!-- EN: Select holding platform -->
-  <SelectHoldingPlatform>TODO</SelectHoldingPlatform>
+  <SelectHoldingPlatform>Tria una plataforma de contenció</SelectHoldingPlatform>
   <!-- EN: Entity escape -->
   <LetterLabelEscapingFromHoldingPlatform>TODO</LetterLabelEscapingFromHoldingPlatform> 
   <!-- EN: The following entities have escaped their restraints:\n\n{0}\n\nBuild stronger containment rooms to stop entities escaping. Entities are less likely to escape from holding platforms with high containment strength, which comes from strong walls and doors, good lighting, and special containment devices. -->
   <LetterEscapingFromHoldingPlatform>TODO</LetterEscapingFromHoldingPlatform> 
   <!-- EN: requires {0} -->
-  <HoldingPlatformRequiresStrength>TODO</HoldingPlatformRequiresStrength>
+  <HoldingPlatformRequiresStrength>cal {0}</HoldingPlatformRequiresStrength>
   <!-- EN: No holding platforms available. -->
-  <NoHoldingPlatformsAvailable>TODO</NoHoldingPlatformsAvailable>
+  <NoHoldingPlatformsAvailable>No hi ha plataformes de contenció disponibles.</NoHoldingPlatformsAvailable>
   
   
   <!-- Obelisks -->
@@ -136,32 +136,32 @@
   <MutatorObeliskLetter>TODO</MutatorObeliskLetter>
 
   <!-- EN: Obelisk mutation -->
-  <ObeliskTentacleLetterLabel>TODO</ObeliskTentacleLetterLabel>
+  <ObeliskTentacleLetterLabel>Mutació de l'obelisc</ObeliskTentacleLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling. Moments later, {PAWN_possessive} skin split open as a fleshy growth erupted from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a squirming tentacle!\n\n{PAWN_nameDef} lost some blood, but seems otherwise unharmed. -->
   <ObeliskTentacleLetter>TODO</ObeliskTentacleLetter>
 
   <!-- EN: Obelisk mutation -->
-  <ObeliskFleshWhipLetterLabel>TODO</ObeliskFleshWhipLetterLabel>
+  <ObeliskFleshWhipLetterLabel>Mutació de l'obelisc</ObeliskFleshWhipLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling. Moments later, {PAWN_possessive} skin split open violently as a growth burst from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a tentacle tipped with a bony blade!\n\n{PAWN_nameDef} lost some blood, but seems otherwise unharmed by this disturbing event. The tentacle is hideous, but it will make an excellent melee weapon. -->
   <ObeliskFleshWhipLetter>TODO</ObeliskFleshWhipLetter>
 
   <!-- EN: Obelisk interaction -->
-  <MutatorObeliskFailedArmLetterLabel>TODO</MutatorObeliskFailedArmLetterLabel>
+  <MutatorObeliskFailedArmLetterLabel>Interacció amb l'obelisc</MutatorObeliskFailedArmLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
   <MutatorObeliskFailedArmLetter>TODO</MutatorObeliskFailedArmLetter>
 
   <!-- EN: Obelisk mutation -->
-  <ObeliskFleshmassStomachLetterLabel>TODO</ObeliskFleshmassStomachLetterLabel>
+  <ObeliskFleshmassStomachLetterLabel>Mutació de l'obelisc</ObeliskFleshmassStomachLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} stomach, as {PAWN_possessive} tissue began to roil and mutate. {PAWN_possessive} stomach has mutated into a mass of semi-sentient flesh. The harsh acids it produces are painful but prevent food poisoning. -->
   <ObeliskFleshmassStomachLetter>TODO</ObeliskFleshmassStomachLetter>
 
   <!-- EN: Obelisk interaction -->
-  <MutatorObeliskFailedStomachLetterLabel>TODO</MutatorObeliskFailedStomachLetterLabel>
+  <MutatorObeliskFailedStomachLetterLabel>Interacció amb l'obelisc</MutatorObeliskFailedStomachLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} stomach aching for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
   <MutatorObeliskFailedStomachLetter>TODO</MutatorObeliskFailedStomachLetter>
 
   <!-- EN: Obelisk mutation -->
-  <ObeliskFleshmassLungLetterLabel>TODO</ObeliskFleshmassLungLetterLabel>
+  <ObeliskFleshmassLungLetterLabel>Mutació de l'obelisc</ObeliskFleshmassLungLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt a sudden sharp pain in {PAWN_possessive} chest, as {PAWN_possessive} lung began to twist and swell. {PAWN_possessive} lung has mutated into a painful mass of semi-sentient flesh. The tissue is constantly regrowing and replacing itself, making it immune to effects like lung rot and asthma. -->
   <ObeliskFleshmassLungLetter>TODO</ObeliskFleshmassLungLetter>
 
@@ -171,22 +171,22 @@
   <MutatorObeliskFailedLungLetter>TODO</MutatorObeliskFailedLungLetter>
 
   <!-- EN: Obelisk mutation -->
-  <ObeliskAnimalMutationLetterLabel>TODO</ObeliskAnimalMutationLetterLabel>
+  <ObeliskAnimalMutationLetterLabel>Mutació de l'obelisc</ObeliskAnimalMutationLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} observed a sudden spike in energy. The obelisk has violently warped the flesh of {ANIMAL}, turning it into a hideous fleshbeast. -->
   <ObeliskAnimalMutationLetter>TODO</ObeliskAnimalMutationLetter>
 
   <!-- EN: Obelisk mutation -->
-  <ObeliskTreeMutationLetterLabel>TODO</ObeliskTreeMutationLetterLabel>
+  <ObeliskTreeMutationLetterLabel>Mutació de l'obelisc</ObeliskTreeMutationLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} observed a sudden pulse of energy. The obelisk has twisted a nearby tree into a harbinger tree. These monstrous trees are capable of feeding on nearby corpses and raw meat. -->
   <ObeliskTreeMutationLetter>TODO</ObeliskTreeMutationLetter>
 
   <!-- EN: Obelisk duplicate -->
-  <ObeliskDuplicationLetterLabel>TODO</ObeliskDuplicationLetterLabel>
+  <ObeliskDuplicationLetterLabel>Duplicat de l'obelisc</ObeliskDuplicationLetterLabel>
   <!-- EN: While {PAWN_nameDef} interacted with the obelisk, it pulsed with energy and generated a flash of light. {PAWN_nameDef} found {PAWN_objective}self face to face with a copy of {PAWN_objective}self! The duplicate claims to be the real {PAWN_nameDef} and has joined your colony. -->
   <ObeliskDuplicationLetter>TODO</ObeliskDuplicationLetter>
 
   <!-- EN: Obelisk failure -->
-  <ObeliskDuplicationFailedLetterLabel>TODO</ObeliskDuplicationFailedLetterLabel>
+  <ObeliskDuplicationFailedLetterLabel>Fallada de l'obelisc</ObeliskDuplicationFailedLetterLabel>
   <!-- EN: {PAWN_nameDef} attempted to trigger the obelisk but nothing occurred. Something about {PAWN_nameDef} is preventing the obelisk from duplicating {PAWN_objective}. -->
   <ObeliskDuplicationFailedLetter>TODO</ObeliskDuplicationFailedLetter>
   
@@ -199,12 +199,12 @@
   <ObeliskHostileDuplicateLetter>TODO</ObeliskHostileDuplicateLetter>
 
   <!-- EN: Obelisk activation -->
-  <DuplicatorObeliskLetterLabel>TODO</DuplicatorObeliskLetterLabel>
+  <DuplicatorObeliskLetterLabel>Activació de l'obelisc</DuplicatorObeliskLetterLabel>
   <!-- EN: The obelisk is activating! The air around it crackles with energy. Duplicates of your colonists will soon appear with murderous intent.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
   <DuplicatorObeliskLetter>TODO</DuplicatorObeliskLetter>
 
   <!-- EN: Colonists disappearing -->
-  <ObeliskAbductorLetterLabel>TODO</ObeliskAbductorLetterLabel>
+  <ObeliskAbductorLetterLabel>Desapareixen colons</ObeliskAbductorLetterLabel>
   <!-- EN: The warped obelisk crackles with energy as it warps space around itself. All manner of creatures are beginning to disappear and will soon vanish entirely.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
   <ObeliskAbductorLetter>TODO</ObeliskAbductorLetter>
   
@@ -233,7 +233,7 @@
   
   <!-- Activity / Supression -->
   <!-- EN: Activity level -->
-  <ActivityLevel>TODO</ActivityLevel>
+  <ActivityLevel>Nivell d'activitat</ActivityLevel>
   <!-- EN: Psychic suppression -->
   <IsPsychicallySuppressed>TODO</IsPsychicallySuppressed>
   <!-- EN: Increase rate -->
@@ -243,15 +243,15 @@
   <!-- EN: Energy harvesting -->
   <EnergyHarvesting>TODO</EnergyHarvesting>
   <!-- EN: Unstable -->
-  <Unstable>TODO</Unstable>
+  <Unstable>Inestable</Unstable>
   <!-- EN: Base level -->
-  <BaseLevel>TODO</BaseLevel>
+  <BaseLevel>Nivell base</BaseLevel>
   <!-- EN: Is active -->
-  <IsActive>TODO</IsActive>
+  <IsActive>Està actiu</IsActive>
   <!-- EN: resist -->
   <Resisted>TODO</Resisted>
   <!-- EN: Damaged -->
-  <HealthFactor>TODO</HealthFactor>
+  <HealthFactor>Danyat</HealthFactor>
 
   <!-- EN: {PAWN_labelShort} was sent. -->
   <CommandSent>TODO</CommandSent>
@@ -261,7 +261,7 @@
   <CannotActivateEntityPlatform>TODO</CannotActivateEntityPlatform>
   
   <!-- EN: Activity -->
-  <ActivityGizmo>TODO</ActivityGizmo>
+  <ActivityGizmo>Activitat</ActivityGizmo>
   <!-- EN: Automatic suppression -->
   <ActivitySuppressionTooltipTitle>TODO</ActivitySuppressionTooltipTitle>
   <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {0}. -->
@@ -273,17 +273,17 @@
 
   <!-- Activity Descs -->
   <!-- EN: activity level -->
-  <ActivityLevelDesc>TODO</ActivityLevelDesc>
+  <ActivityLevelDesc>Nivell d'activitat</ActivityLevelDesc>
   <!-- EN: psychic suppression -->
   <PsychicallySuppressedDesc>TODO</PsychicallySuppressedDesc>
 
   <!-- Entity study -->
   <!-- EN: Capture -->
-  <CaptureEntity>TODO</CaptureEntity>
+  <CaptureEntity>Captura</CaptureEntity>
   <!-- EN: Capture {0_definite}. It must be restrained on a holding platform. Once restrained, it can be studied. -->
   <CaptureEntityDesc>TODO</CaptureEntityDesc>
   <!-- EN: Cancel capture -->
-  <CancelCapture>TODO</CancelCapture>
+  <CancelCapture>Cancel·la la captura</CancelCapture>
   <!-- EN: Cancel capturing {0_definite}. -->
   <CancelCaptureDesc>TODO</CancelCaptureDesc>
   <!-- EN: ready to study -->
@@ -301,15 +301,15 @@
   <!-- EN: Transfer the contained entity to another holding platform. -->
   <TransferEntityDesc>TODO</TransferEntityDesc>
   <!-- EN: Cancel transfer -->
-  <CancelTransfer>TODO</CancelTransfer>
+  <CancelTransfer>Cancel·la'n la transferència</CancelTransfer>
   <!-- EN: Cancel transferring this entity to another holding platform. -->
   <CancelTransferDesc>TODO</CancelTransferDesc>
   
   <!-- Metalhorrors -->
   <!-- EN: Emerged from -->
-  <EmergedFrom>TODO</EmergedFrom>
+  <EmergedFrom>Ha sortit de</EmergedFrom>
   <!-- EN: Metalhorror emerging -->
-  <Emerging>TODO</Emerging>
+  <Emerging>Surt un horrometall</Emerging>
   
   <!-- EN: Implanted before arrival at your colony -->
   <ImplantSourceUnknown>TODO</ImplantSourceUnknown>
@@ -352,7 +352,7 @@
   <MetalhorrorReasonTriedToLeaveMap>TODO</MetalhorrorReasonTriedToLeaveMap>
   
   <!-- EN: Metalhorror detected -->
-  <MetalhorrorDetected>TODO</MetalhorrorDetected>
+  <MetalhorrorDetected>S'ha detectat un horrometall</MetalhorrorDetected>
   <!-- EN: {PAWN_nameDef} noticed something wrong with {INFECTED_nameDef} while chatting. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
   <InteractionDetectedDesc>TODO</InteractionDetectedDesc>
   <!-- EN: {PAWN_nameDef} has found something unusual while interrogating {INFECTED_nameDef}. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
@@ -362,12 +362,12 @@
   <MetalhorrorNoticedDetailsAppended>TODO</MetalhorrorNoticedDetailsAppended>
   
   <!-- EN: Gray flesh -->
-  <LetterGrayFleshDiscoveredLabel>TODO</LetterGrayFleshDiscoveredLabel>
+  <LetterGrayFleshDiscoveredLabel>Carn necròtica</LetterGrayFleshDiscoveredLabel>
   <!-- EN: {PAWN_nameDef} has discovered a strip of fleshy tissue. It resembles human skin stained gray by tiny metallic particles. It must have sloughed off someone during flesh liquification.\n\nSomeone here may not be what they seem.\n\nThere are several ways to detect imposters:\n\n{METHODS}\n\nWarning: Some parasites can control the mind and even be transmitted to others. -->
   <LetterGrayFleshDiscovered>TODO</LetterGrayFleshDiscovered>
   
   <!-- EN: The “interrogate” prisoner interaction mode is now unlocked. -->
-  <LetterInterrogationUnlocked>TODO</LetterInterrogationUnlocked>
+  <LetterInterrogationUnlocked>S'ha desblocat el mode d'«Interrogació» de presoners.</LetterInterrogationUnlocked>
   
   <!-- EN: Imprison someone and send a warden to interrogate them about their true identity. This can take many days. -->
   <LetterGrayFleshMethodOne>TODO</LetterGrayFleshMethodOne>
@@ -377,7 +377,7 @@
   <LetterGrayFleshMethodThree>TODO</LetterGrayFleshMethodThree>
   
   <!-- EN: Metalhorrors awakening -->
-  <LetterMetalhorrorReawakeningLabel>TODO</LetterMetalhorrorReawakeningLabel>
+  <LetterMetalhorrorReawakeningLabel>Els horrometalls es desperten</LetterMetalhorrorReawakeningLabel>
   <!-- EN: The metalhorrors have been disturbed and are awakening again! -->
   <LetterMetalhorrorReawakening>TODO</LetterMetalhorrorReawakening>
 
@@ -389,7 +389,7 @@
   
   <!-- Surgical inspection -->
   <!-- EN: Surgical inspection results -->
-  <LetterSurgicallyInspectedLabel>TODO</LetterSurgicallyInspectedLabel>
+  <LetterSurgicallyInspectedLabel>Resultats de la inspecció quirúrgica</LetterSurgicallyInspectedLabel>
   <!-- EN: {DOCTOR_nameDef} performed an extensive surgical inspection of {PATIENT_nameDef}. -->
   <LetterSurgicallyInspectedHeader>TODO</LetterSurgicallyInspectedHeader>
   <!-- EN: {DOCTOR_pronoun} says that {DOCTOR_pronoun} found no anomalies. However, a doctor may lie if it is in their own self-interest. -->
@@ -397,11 +397,11 @@
   
   <!-- Death refusal -->
   <!-- EN: use -->
-  <DeathRefusalUseSingular>TODO</DeathRefusalUseSingular>
+  <DeathRefusalUseSingular>fes servir</DeathRefusalUseSingular>
   <!-- EN: uses -->
-  <DeathRefusalUsePlural>TODO</DeathRefusalUsePlural>
+  <DeathRefusalUsePlural>fa servir</DeathRefusalUsePlural>
   <!-- EN: Self-resurrecting -->
-  <SelfResurrecting>TODO</SelfResurrecting>
+  <SelfResurrecting>Auto-resurrecció</SelfResurrecting>
 
   <!-- Harbinger Tree -->
   <!-- EN: near harbinger tree -->
@@ -457,9 +457,9 @@
   
   <!-- Electroharvester -->
   <!-- EN: No restrained entity. -->
-  <ElectroharvesterNoEntity>TODO</ElectroharvesterNoEntity>
+  <ElectroharvesterNoEntity>Entitat sense contenir.</ElectroharvesterNoEntity>
   <!-- EN: Not connected to a holding platform. -->
-  <ElectroharvesterNoPlatform>TODO</ElectroharvesterNoPlatform>
+  <ElectroharvesterNoPlatform>No s'ha connectat amb una plataforma de contenció.</ElectroharvesterNoPlatform>
   
   <!-- Fleshmass Heart -->
   <!-- EN: Invulnerable. Analyze fleshmass neural lumps to destroy this. -->
@@ -519,14 +519,14 @@
   
   <!-- Unnatural corpses -->
   <!-- EN: Corpse disappearance -->
-  <LetterLabelCorpseDisappeared>TODO</LetterLabelCorpseDisappeared>
+  <LetterLabelCorpseDisappeared>Desaparició de cadàvers</LetterLabelCorpseDisappeared>
   <!-- EN: The unnatural corpse has vanished. -->
   <LetterCorpseDisappeared>TODO</LetterCorpseDisappeared>
   <!-- EN: {PAWN_nameDef} is starting to feel calmer. -->
   <LetterCorpseDisappearedPawnAliveAppend>TODO</LetterCorpseDisappearedPawnAliveAppend>
 
   <!-- EN: Corpse appearance -->
-  <LetterLabelCorpseReappeared>TODO</LetterLabelCorpseReappeared>
+  <LetterLabelCorpseReappeared>Aparició de cadàvers</LetterLabelCorpseReappeared>
   <!-- EN: The corpse resembling {PAWN_nameDef} has appeared again, as if out of thin air. -->
   <LetterCorpseReappeared>TODO</LetterCorpseReappeared>
   
@@ -568,20 +568,20 @@
   <UnnaturalCorpseDeactivatedLetterDescAppended>TODO</UnnaturalCorpseDeactivatedLetterDescAppended>
   
   <!-- EN: Destroy unnatural corpse -->
-  <UnnaturalCorpseDeactivate>TODO</UnnaturalCorpseDeactivate>
+  <UnnaturalCorpseDeactivate>Destrueix un cadàver sobrenatural</UnnaturalCorpseDeactivate>
   <!-- EN: Permanently destroy the unnatural corpse. -->
   <UnnaturalCorpseDeactivateDesc>TODO</UnnaturalCorpseDeactivateDesc>
   <!-- EN: Choose who should destroy this. -->
   <UnnaturalCorpseGuiLabel>TODO</UnnaturalCorpseGuiLabel>
   <!-- EN: destroy -->
-  <UnnaturalCorpseJobString>TODO</UnnaturalCorpseJobString>
+  <UnnaturalCorpseJobString>destrueix</UnnaturalCorpseJobString>
   <!-- EN: destroying {0} -->
-  <UnnaturalCorpseActivatingEnroute>TODO</UnnaturalCorpseActivatingEnroute>
+  <UnnaturalCorpseActivatingEnroute>destrueix {0}</UnnaturalCorpseActivatingEnroute>
   <!-- EN: destroying {0}: {1}s -->
   <UnnaturalCorpseActivating>TODO</UnnaturalCorpseActivating>
   
   <!-- EN: Unnatural corpse -->
-  <UnnaturalCorpseAwakeningLetter>TODO</UnnaturalCorpseAwakeningLetter>
+  <UnnaturalCorpseAwakeningLetter>cadàver antinatural</UnnaturalCorpseAwakeningLetter>
   <!-- EN: {PAWN_nameDef} feels the unnatural corpse growing rapidly stronger. Some horrible consciousness is flickering within it.\n\nSomething awful will happen in the next few days. -->
   <UnnaturalCorpseAwakeningLetterDesc>TODO</UnnaturalCorpseAwakeningLetterDesc>
   <!-- EN: Destroy the corpse before it's too late. -->
@@ -590,12 +590,12 @@
   <UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>TODO</UnnaturalCorpseAwakeningLetterExtra_StudyIncomplete>
 
   <!-- EN: Corpse awakened -->
-  <UnnaturalCorpseAwokenLetter>TODO</UnnaturalCorpseAwokenLetter>
+  <UnnaturalCorpseAwokenLetter>Un cadàver s'ha despertat</UnnaturalCorpseAwokenLetter>
   <!-- EN: The unnatural corpse is rising! It intends to attack {PAWN_nameDef}!\n\nThe corpse will follow {PAWN_nameDef} forever no matter how far {PAWN_pronoun} goes.\n\nYou must destroy it now. -->
   <UnnaturalCorpseAwokenLetterDesc>TODO</UnnaturalCorpseAwokenLetterDesc>
 
   <!-- EN: Unnatural corpse destroyed! -->
-  <UnnaturalCorpseAwokenDefeatedLetter>TODO</UnnaturalCorpseAwokenDefeatedLetter>
+  <UnnaturalCorpseAwokenDefeatedLetter>Cadàver antinatural destruït!</UnnaturalCorpseAwokenDefeatedLetter>
   <!-- EN: The unnatural corpse charging towards {PAWN_nameDef} has been defeated!\n\nThe corpse will no longer torment {PAWN_nameDef}. -->
   <UnnaturalCorpseAwokenDefeatedLetterDesc>TODO</UnnaturalCorpseAwokenDefeatedLetterDesc>
 
@@ -649,7 +649,7 @@
   <CubeMaterialScrap>ferralla</CubeMaterialScrap>
   
   <!-- EN: building a sculpture. -->
-  <ReportBuildingCubeEnroute>TODO</ReportBuildingCubeEnroute>
+  <ReportBuildingCubeEnroute>construeix una escultura.</ReportBuildingCubeEnroute>
   
   <!-- Slaughter ability -->
   <!-- EN: Cannot slaughter: {PAWN_labelShort} does not have flesh. -->
@@ -659,7 +659,7 @@
   
   <!-- Labyrinth -->
   <!-- EN: Entering the labyrinth -->
-  <GeneratingLabyrinth>TODO</GeneratingLabyrinth>
+  <GeneratingLabyrinth>Entra al laberint</GeneratingLabyrinth>
   <!-- EN: {PAWN_nameDef} has vanished. -->
   <MessagePawnVanished>TODO</MessagePawnVanished>
   <!-- EN: {PAWN_nameDef} has reappeared. -->
@@ -695,7 +695,7 @@
 
   <!-- Void monolith -->
   <!-- EN: No available pawns. -->
-  <MonolithActivateDisabledPawns>TODO</MonolithActivateDisabledPawns>
+  <MonolithActivateDisabledPawns>No hi ha peons disponibles.</MonolithActivateDisabledPawns>
   <!-- EN: The monolith's dark metallic surface is warm to the touch, and {PAWN_nameDef} thinks {PAWN_pronoun} can hear a faint hum emanating from inside. The lines on its dusty surface seem to squirm in unsettling patterns.\n\n{PAWN_nameDef} focuses on the shapes, trying to uncover their meaning.\n\nThe hum strengthens. The shapes begin to flow in {PAWN_nameDef}'s vision, but the surface isn't changing. Power begins to uncoil in the empty space all around. A black shape is forming in {PAWN_possessive} mind.\n\nThe Anomaly is stirring... -->
   <VoidMonolithInvestigatedText>TODO</VoidMonolithInvestigatedText>
   <!-- EN: Keep focusing on the Anomaly -->
@@ -703,7 +703,7 @@
   <!-- EN: Walk away -->
   <VoidMonolithWalkAway>TODO</VoidMonolithWalkAway>
   <!-- EN: View quest -->
-  <VoidMonolithViewQuest>TODO</VoidMonolithViewQuest>
+  <VoidMonolithViewQuest>Mostra la missió</VoidMonolithViewQuest>
   <!-- EN: View Anomaly research -->
   <VoidMonolithViewResearch>TODO</VoidMonolithViewResearch>
   <!-- EN: Current monolith level -->
@@ -759,7 +759,7 @@
   <MonolithAutoActivatedText>TODO</MonolithAutoActivatedText>
 
   <!-- EN: Gray pall -->
-  <LetterLabelGrayPallDescending>TODO</LetterLabelGrayPallDescending>
+  <LetterLabelGrayPallDescending>Boira del terror</LetterLabelGrayPallDescending>
   <!-- EN: A blanket of gritty fog has descended on this area. The fog smells ancient, somehow, and it stings the skin. The unnatural grayness of it invokes a sense of dread. -->
   <LetterGrayPallDescending>TODO</LetterGrayPallDescending>
 

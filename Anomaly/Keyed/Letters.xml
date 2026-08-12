@@ -5,17 +5,17 @@
   <!-- EN: Rehumanized -->
   <ReHumanizedLabel>Rehumanitzat</ReHumanizedLabel>
   <!-- EN: {0_nameDef} has regained {0_possessive} connection to humanity. {0_nameDef}'s 'inhumanized' health condition has been removed. -->
-  <ReHumanizedText>TODO</ReHumanizedText>
+  <ReHumanizedText>{0_nameDef} ha recuperat la connexió amb la humanitat. S'ha eliminat el seu estat de salut d'«inhumanitzat».</ReHumanizedText>
   <!-- EN: Warning from {0_nameDef} -->
   <WarningFromLabel>Avís de {0_nameDef}</WarningFromLabel>
 
   <!-- Hate chanters -->
   <!-- EN: Cultist hate chanters -->
-  <HateChantersLabel>TODO</HateChantersLabel>
+  <HateChantersLabel>Càntics d'odi dels sectaris</HateChantersLabel>
   <!-- EN: Cultist hate chanters have arrived. They intend to perform a hate chant ritual to force psychic rage into your colonists and drive them mad. The chant will grow louder and louder until the cultists are stopped. -->
   <HateChantersText>TODO</HateChantersText>
   <!-- EN: Cultists attacking -->
-  <HateChantersAttackingLabel>TODO</HateChantersAttackingLabel>
+  <HateChantersAttackingLabel>Els sectaris ataquen</HateChantersAttackingLabel>
   <!-- EN: The cultists have ended their hate chant and have begun to come out of their ritual trance.\n\nPrepare to defend. -->
   <HateChantersAttackingText>TODO</HateChantersAttackingText>
 
@@ -58,7 +58,7 @@
   <SummonShamblersCompleteText>TODO</SummonShamblersCompleteText>
 
   <!-- EN: They are attacking from multiple directions. -->
-  <AttackingFromMultipleDirections>TODO</AttackingFromMultipleDirections> 
+  <AttackingFromMultipleDirections>Ataquen des de múltiples direccions.</AttackingFromMultipleDirections> 
 
   <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects: -->
   <ChronophagyCompleteText>TODO</ChronophagyCompleteText>
@@ -73,7 +73,7 @@
   <!-- EN: Additionally, the process has cured {0_nameDef} of the following ailments: -->
   <ChronophagyInvokerCuredDiseases>TODO</ChronophagyInvokerCuredDiseases>
   <!-- EN: and is now {0} years old -->
-  <ChronophagyCurrentAge>TODO</ChronophagyCurrentAge>
+  <ChronophagyCurrentAge>i ara té {0} anys.</ChronophagyCurrentAge>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower. -->
   <PleasurePulseCompleteText>TODO</PleasurePulseCompleteText>
@@ -120,9 +120,9 @@
 
   <!-- Void awakening -->
   <!-- EN: Dimming sky -->
-  <VoidAwakeningStageOneStructuresActivatedLabel>TODO</VoidAwakeningStageOneStructuresActivatedLabel>
+  <VoidAwakeningStageOneStructuresActivatedLabel>S'enfosqueix el cel</VoidAwakeningStageOneStructuresActivatedLabel>
   <!-- EN: Structures activated -->
-  <VoidAwakeningStageTwoStructuresActivatedLabel>TODO</VoidAwakeningStageTwoStructuresActivatedLabel>
+  <VoidAwakeningStageTwoStructuresActivatedLabel>Estructures activades</VoidAwakeningStageTwoStructuresActivatedLabel>
   <!-- EN: As the second structure is activated, the darkness begins to intensify. An unnatural darkness will soon descend. Make sure your colony is prepared. Stockpile resources, build lights, craft disruptor flares, and reinforce defenses. Only those in the light will be safe.\n\nMore twisted structures will appear soon. -->
   <VoidAwakeningStageOneStructuresActivatedText>TODO</VoidAwakeningStageOneStructuresActivatedText>
   <!-- EN: All void structures have been activated. The space around the void monolith has begun to shimmer. Get ready. -->
@@ -132,7 +132,7 @@
   <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power.\n\nThis metal hell is a connecting channel to an inhuman hyperintelligence. -->
   <VoidAwakeningFinalStructuresActivatedText>TODO</VoidAwakeningFinalStructuresActivatedText> 
   <!-- EN: Shambler assault -->
-  <VoidAwakeningShamblerArrivalLabel>TODO</VoidAwakeningShamblerArrivalLabel>
+  <VoidAwakeningShamblerArrivalLabel>Atac zombi</VoidAwakeningShamblerArrivalLabel>
   <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
   <VoidAwakeningShamblerArrivalText>TODO</VoidAwakeningShamblerArrivalText>
   <!-- EN: Fleshbeast tunneling -->
@@ -140,11 +140,11 @@
   <!-- EN: The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Get ready! -->
   <VoidAwakeningFleshbeastBurrowText>TODO</VoidAwakeningFleshbeastBurrowText>
   <!-- EN: Metalhorror attack -->
-  <VoidAwakeningMetalhorrorArrivalLabel>TODO</VoidAwakeningMetalhorrorArrivalLabel>
+  <VoidAwakeningMetalhorrorArrivalLabel>Atac horrometall</VoidAwakeningMetalhorrorArrivalLabel>
   <!-- EN: Metalhorrors are appearing near the void monolith. Get ready! -->
   <VoidAwakeningMetalhorrorArrivalText>TODO</VoidAwakeningMetalhorrorArrivalText>
   <!-- EN: Entity attack -->
-  <VoidAwakeningEntityArrivalLabel>TODO</VoidAwakeningEntityArrivalLabel> 
+  <VoidAwakeningEntityArrivalLabel>Atac d'una entitat</VoidAwakeningEntityArrivalLabel> 
   <!-- EN: The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Get ready! -->
   <VoidAwakeningEntityArrivalText>TODO</VoidAwakeningEntityArrivalText>
   <!-- EN: Embrace the void -->
@@ -192,9 +192,9 @@
   <!-- EN: You've intercepted a distress signal from a nearby camp of {FACTION_name}.\n\nThe frantic voice begs for immediate assistance defending against a threat. They offer everything at their camp in return for help, including shards of powerful archotechnology.\n\nAs the voice tries to explain the nature of the threat, the signal goes dead. -->
   <DistressSignalText>TODO</DistressSignalText>
   <!-- EN: Ambush -->
-  <DistressSignalAmbushLabel>TODO</DistressSignalAmbushLabel>
+  <DistressSignalAmbushLabel>Emboscada</DistressSignalAmbushLabel>
   <!-- EN: Fleshbeasts are emerging from a nearby pit burrow! -->
-  <DistressSignalAmbushText>TODO</DistressSignalAmbushText>
+  <DistressSignalAmbushText>Del forat del cau en surten carnibèsties!</DistressSignalAmbushText>
 
   <!-- Chimeras -->
   <!-- EN: Chimeras approach -->
@@ -208,15 +208,15 @@
   <!-- EN: The last of the nightmarish pillars has collapsed. The unnatural darkness has begun to dissipate. Colonists breathe a sigh of relief in the clear air. -->
   <DarknessLiftingEarlyLetterText>TODO</DarknessLiftingEarlyLetterText>
   <!-- EN: {0_nameDef} attacked -->
-  <PawnAttackedInDarknessLabel>TODO</PawnAttackedInDarknessLabel>
+  <PawnAttackedInDarknessLabel>S'ha atacat a {0_nameDef}</PawnAttackedInDarknessLabel>
   <!-- EN: Something in the darkness has attacked {0_nameDef}!\n\nThese attacks will continue until {0_pronoun} is safely in the light. -->
   <PawnAttackedInDarknessText>TODO</PawnAttackedInDarknessText>
   <!-- EN: Noctol attack -->
-  <NoctolAttackLetterLabel>TODO</NoctolAttackLetterLabel>
+  <NoctolAttackLetterLabel>Atac nòctol</NoctolAttackLetterLabel>
   <!-- EN: The darkness has begun to stir. Inhuman chittering sounds emerge from somewhere within the inky black.\n\nBlack, insect-like noctols will attack from the darkness soon. -->
   <NoctolAttackLetterText>TODO</NoctolAttackLetterText>
   <!-- EN: Darkness soon -->
-  <DarknessWarningLetterLabel>TODO</DarknessWarningLetterLabel>
+  <DarknessWarningLetterLabel>Ben aviat serà fosc</DarknessWarningLetterLabel>
   <!-- EN: The darkness is almost here. Only those in direct light from lamps, torches, or flares will be safe.\n\nTo keep colonists in the light, you can restrict their movement in the SCHEDULE tab by assigning allowed areas. -->
   <DarknessWarningLetterText>TODO</DarknessWarningLetterText>
   <!-- EN: Darkness wavering -->
@@ -254,11 +254,11 @@
 
   <!-- Nociosphere -->
   <!-- EN: Nociosphere defeated -->
-  <NociosphereDefeatedLabel>TODO</NociosphereDefeatedLabel>
+  <NociosphereDefeatedLabel>Nociosfera derrotada</NociosphereDefeatedLabel>
   <!-- EN: The nociosphere has been destroyed, leaving behind a number of valuable resources. -->
   <NociosphereDefeatedText>TODO</NociosphereDefeatedText>
   <!-- EN: Nociosphere destabilising -->
-  <NociosphereBecomingUnstableLabel>TODO</NociosphereBecomingUnstableLabel> 
+  <NociosphereBecomingUnstableLabel>Nociosfera desestabilitzant-se</NociosphereBecomingUnstableLabel> 
   <!-- EN: The nociosphere's energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed. -->
   <NociosphereBecomingUnstableText>TODO</NociosphereBecomingUnstableText> 
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
@@ -266,13 +266,13 @@
   <!-- EN: Study the nociosphere to find a way to dispose of it. -->
   <NociosphereBecomingUnstableTextExtraNotSendable>TODO</NociosphereBecomingUnstableTextExtraNotSendable>
   <!-- EN: Nociosphere unstable -->
-  <NociosphereUnstableLabel>TODO</NociosphereUnstableLabel>
+  <NociosphereUnstableLabel>Nociosfera inestable</NociosphereUnstableLabel>
   <!-- EN: The nociosphere has become unstable and is no longer responding to suppression. When its activity reaches 100%, it will awaken. -->
   <NociosphereUnstableText>TODO</NociosphereUnstableText>
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
   <NociosphereUnstableTextExtraSendable>TODO</NociosphereUnstableTextExtraSendable> 
   <!-- EN: Prepare for the nociosphere's onslaught. -->
-  <NociosphereUnstableTextExtraNotSendable>TODO</NociosphereUnstableTextExtraNotSendable>
+  <NociosphereUnstableTextExtraNotSendable>Prepareu-vos per a l'envestida de la nociosfera</NociosphereUnstableTextExtraNotSendable>
 
   <!-- EN: Strange corpse -->
   <UnnaturalCorpseArrivalLabel>Cadàver estrany</UnnaturalCorpseArrivalLabel>

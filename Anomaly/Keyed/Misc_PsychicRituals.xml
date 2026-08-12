@@ -14,7 +14,7 @@
   <!-- EN: The {0} psychic ritual has been completed. -->
   <PsychicRitualCompleted>El ritual psíquic {0} s'ha completat.</PsychicRitualCompleted>
   <!-- EN: attending {RITUALNAME} psychic ritual -->
-  <PsychicRitualAttending>TODO</PsychicRitualAttending>
+  <PsychicRitualAttending>participa al ritual psíquic {RITUALNAME}</PsychicRitualAttending>
   <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
   <ParticipatingInPsychicRitual>{0_labelShort} participa al ritual psíquic de {1}.</ParticipatingInPsychicRitual>
   <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
@@ -49,64 +49,64 @@
   <PsychicRitualFactionWarning>Avís: si es fa un ritual a {PAWN_nameDef}, la facció de {PAWN_possessive} ({FACTION_name}) s'enfadarà.</PsychicRitualFactionWarning>
 
   <!-- EN: {0} is currently asleep and will wake up when the psychic ritual begins. -->
-  <PsychicRitualWakingPawnWarning>TODO</PsychicRitualWakingPawnWarning>
+  <PsychicRitualWakingPawnWarning>Ara mateix, {0} dorm i es despertarà quan el ritual psíquic comenci.</PsychicRitualWakingPawnWarning>
   <!-- EN: {0} is currently drafted and will be un-drafted when the psychic ritual begins. -->
-  <PsychicRitualUndraftPawnWarning>TODO</PsychicRitualUndraftPawnWarning>
+  <PsychicRitualUndraftPawnWarning>Ara mateix, {0} està {0_gender ? reclutat : reclutada} i deixarà d'estar-ho quan el ritual psíquic comenci.</PsychicRitualUndraftPawnWarning>
   <!-- EN: {0} are currently asleep and will wake up when the psychic ritual begins. -->
-  <PsychicRitualWakingPawnsWarning>TODO</PsychicRitualWakingPawnsWarning>
+  <PsychicRitualWakingPawnsWarning>Ara mateix, {0} dormen i es despertaran quan el ritual psíquic comenci.</PsychicRitualWakingPawnsWarning>
   <!-- EN: {0} are currently drafted and will be un-drafted when the psychic ritual begins. -->
-  <PsychicRitualUndraftPawnsWarning>TODO</PsychicRitualUndraftPawnsWarning>
+  <PsychicRitualUndraftPawnsWarning>Ara mateix, {0} estan {0_gender ? reclutats : reclutades} i deixaran d'estar-ho quan el ritual psíquic comenci.</PsychicRitualUndraftPawnsWarning>
 
   <!-- EN: {0_labelShort} left the {1} psychic ritual. -->
-  <PsychicRitualLeft>TODO</PsychicRitualLeft>
+  <PsychicRitualLeft>{0_labelShort} ha abandonat el ritual psíquic {1}.</PsychicRitualLeft>
   <!-- EN: {0_labelShort} left the {1} psychic ritual because {2}. -->
-  <PsychicRitualLeftBecause>TODO</PsychicRitualLeftBecause>
+  <PsychicRitualLeftBecause>{0_labelShort} ha abandonat el ritual psíquic {1} a causa de {2}.</PsychicRitualLeftBecause>
   <!-- EN: The {0} psychic ritual has been canceled. -->
-  <PsychicRitualCanceled>TODO</PsychicRitualCanceled>
+  <PsychicRitualCanceled>El ritual psíquic {0} ha estat cancel·lat.</PsychicRitualCanceled>
   <!-- EN: The {0} psychic ritual has been canceled because {1}. -->
-  <PsychicRitualCanceledBecause>TODO</PsychicRitualCanceledBecause>
+  <PsychicRitualCanceledBecause>El ritual psíquic {0} ha estat cancel·lat a causa de {1}.</PsychicRitualCanceledBecause>
 
   <!-- EN: {0} is needed but only {1} is available -->
-  <PsychicRitualOfferingsInsufficient>TODO</PsychicRitualOfferingsInsufficient>
+  <PsychicRitualOfferingsInsufficient>Fan falta {0} però només n'hi ha {1}</PsychicRitualOfferingsInsufficient>
   <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
-  <PsychicRitualTargetUnreachableByInvoker>TODO</PsychicRitualTargetUnreachableByInvoker>
+  <PsychicRitualTargetUnreachableByInvoker>{INVOKER_labelShort} no pot accedir a {TARGET_labelShort}</PsychicRitualTargetUnreachableByInvoker>
 
   <!-- EN: leave the {0} psychic ritual -->
-  <CommandLeavePsychicRitual>TODO</CommandLeavePsychicRitual>
+  <CommandLeavePsychicRitual>deixa el ritual psíquic {0}</CommandLeavePsychicRitual>
   <!-- EN: stop participating in the {0} psychic ritual. The psychic ritual will continue as long as it has at least one participant. -->
-  <CommandLeavePsychicRitualDesc>TODO</CommandLeavePsychicRitualDesc>
+  <CommandLeavePsychicRitualDesc>para de participar al ritual psíquic {0}. El ritual psíquic continuarà mentre quedi almenys un participant.</CommandLeavePsychicRitualDesc>
 
   <!-- EN: cancel the {0} psychic ritual -->
-  <CommandCancelPsychicRitual>TODO</CommandCancelPsychicRitual>
+  <CommandCancelPsychicRitual>cancel·la el ritual psíquic {0}</CommandCancelPsychicRitual>
   <!-- EN: end the {0} psychic ritual immediately. You can restart the psychic ritual later. -->
-  <CommandCancelPsychicRitualDesc>TODO</CommandCancelPsychicRitualDesc>
+  <CommandCancelPsychicRitualDesc>finalitza el ritual psíquic {0} immediatament. Podreu tornar-lo a realitzar més endavant.</CommandCancelPsychicRitualDesc>
   <!-- EN: Are you sure you want to cancel the {0} psychic ritual? -->
-  <CommandCancelPsychicRitualConfirm>TODO</CommandCancelPsychicRitualConfirm>
+  <CommandCancelPsychicRitualConfirm>Esteu segur que voleu cancel·lar el ritual psíquic {0}?</CommandCancelPsychicRitualConfirm>
 
   <!-- EN: {PAWN_labelShort} vanished -->
-  <PsychicRitualLeaveReason_Vanished>TODO</PsychicRitualLeaveReason_Vanished>
+  <PsychicRitualLeaveReason_Vanished>{PAWN_labelShort} {PAWN_gender ? desaparegut : desapareguda}</PsychicRitualLeaveReason_Vanished>
   <!-- EN: {PAWN_labelShort} is incapacitated -->
-  <PsychicRitualLeaveReason_Incapped>TODO</PsychicRitualLeaveReason_Incapped>
+  <PsychicRitualLeaveReason_Incapped>{PAWN_labelShort} {PAWN_gender ? incapacitat : incapacitada}</PsychicRitualLeaveReason_Incapped>
   <!-- EN: {PAWN_labelShort} is dead -->
-  <PsychicRitualLeaveReason_Killed>TODO</PsychicRitualLeaveReason_Killed>
+  <PsychicRitualLeaveReason_Killed>{PAWN_labelShort} està {PAWN_gender ? mort : morta}</PsychicRitualLeaveReason_Killed>
   <!-- EN: {PAWN_labelShort} is not part of {FACTION_name} -->
-  <PsychicRitualLeaveReason_WrongFaction>TODO</PsychicRitualLeaveReason_WrongFaction>
+  <PsychicRitualLeaveReason_WrongFaction>{PAWN_labelShort} no es part de {FACTION_name}</PsychicRitualLeaveReason_WrongFaction>
   <!-- EN: {PAWN_labelShort} is no longer on the map -->
-  <PsychicRitualLeaveReason_ExitedMap>TODO</PsychicRitualLeaveReason_ExitedMap>
+  <PsychicRitualLeaveReason_ExitedMap>{PAWN_labelShort} ja no està al mapa</PsychicRitualLeaveReason_ExitedMap>
   <!-- EN: {PAWN_labelShort} had better things to do -->
-  <PsychicRitualLeaveReason_LeftVoluntarily>TODO</PsychicRitualLeaveReason_LeftVoluntarily>
+  <PsychicRitualLeaveReason_LeftVoluntarily>{PAWN_labelShort} tenia altres coses a fer</PsychicRitualLeaveReason_LeftVoluntarily>
   <!-- EN: {PAWN_labelShort} is drafted -->
-  <PsychicRitualLeaveReason_Drafted>TODO</PsychicRitualLeaveReason_Drafted>
+  <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort} està {PAWN_gender ? reclutat : reclutada}</PsychicRitualLeaveReason_Drafted>
   <!-- EN: {PAWN_labelShort} is in a mental state -->
-  <PsychicRitualLeaveReason_InMentalState>TODO</PsychicRitualLeaveReason_InMentalState>
+  <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort} està patint un estat mental especial</PsychicRitualLeaveReason_InMentalState>
   <!-- EN: {PAWN_labelShort} is bleeding -->
-  <PsychicRitualLeaveReason_Bleeding>TODO</PsychicRitualLeaveReason_Bleeding>
+  <PsychicRitualLeaveReason_Bleeding>{PAWN_labelShort} perd sang</PsychicRitualLeaveReason_Bleeding>
   <!-- EN: {PAWN_labelShort} is on fire -->
-  <PsychicRitualLeaveReason_Burning>TODO</PsychicRitualLeaveReason_Burning>
+  <PsychicRitualLeaveReason_Burning>{PAWN_labelShort} està en flames</PsychicRitualLeaveReason_Burning>
   <!-- EN: the temperature near the target is not safe for {PAWN_labelShort} -->
-  <PsychicRitualLeaveReason_ExtremeTemperature>TODO</PsychicRitualLeaveReason_ExtremeTemperature>
+  <PsychicRitualLeaveReason_ExtremeTemperature>la temperatura a prop de l'objectiu no és segura per a {PAWN_labelShort}</PsychicRitualLeaveReason_ExtremeTemperature>
   <!-- EN: {PAWN_labelShort} cannot participate from inside {BUILDING} -->
-  <PsychicRitualLeaveReason_InsideBuilding>TODO</PsychicRitualLeaveReason_InsideBuilding>
+  <PsychicRitualLeaveReason_InsideBuilding>{PAWN_labelShort} no pot participar des de dins de {BUILDING_definite}</PsychicRitualLeaveReason_InsideBuilding>
   <!-- EN: {PAWN_labelShort} is humanlike -->
   <PsychicRitualLeaveReason_Humanlike>{PAWN_labelShort} és humanoide.</PsychicRitualLeaveReason_Humanlike>
   <!-- EN: {PAWN_labelShort} is not humanlike -->
@@ -118,23 +118,23 @@
   <!-- EN: {PAWN_labelShort} is free -->
   <PsychicRitualLeaveReason_Freeman>{PAWN_labelShort} és lliure.</PsychicRitualLeaveReason_Freeman>
   <!-- EN: {PAWN_labelShort} is a {STAGE} -->
-  <PsychicRitualLeaveReason_DevelopmentalStage>TODO</PsychicRitualLeaveReason_DevelopmentalStage>
+  <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort} està en estat mental {STAGE}</PsychicRitualLeaveReason_DevelopmentalStage>
   <!-- EN: {PAWN_labelShort} cannot reach the target location -->
-  <PsychicRitualLeaveReason_CannotReachTarget>TODO</PsychicRitualLeaveReason_CannotReachTarget>
+  <PsychicRitualLeaveReason_CannotReachTarget>{PAWN_labelShort} no pot arribar al punt objectiu</PsychicRitualLeaveReason_CannotReachTarget>
   <!-- EN: {PAWN_labelShort} is asleep -->
   <PsychicRitualLeaveReason_Sleeping>{PAWN_labelShort} està {PAWN_gender ? adormit : adormida}.</PsychicRitualLeaveReason_Sleeping>
   <!-- EN: {PAWN_labelShort} is not a human -->
   <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort} no és {PAWN_gender ? humà : humana}.</PsychicRitualLeaveReason_Mutant>
   <!-- EN: {PAWN_labelShort}'s belief in {IDEO_name} prevents participation -->
-  <PsychicRitualLeaveReason_IdeoUnwilling>TODO</PsychicRitualLeaveReason_IdeoUnwilling> 
+  <PsychicRitualLeaveReason_IdeoUnwilling>Les creences {IDEO_adjective} de {PAWN_labelShort} no li permeten participar-hi</PsychicRitualLeaveReason_IdeoUnwilling> 
   <!-- EN: {PAWN_labelShort} is not psychically sensitive -->
-  <PsychicRitualLeaveReason_NoPsychicSensitivity>TODO</PsychicRitualLeaveReason_NoPsychicSensitivity>
+  <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort} no té sensibilitat psíquica</PsychicRitualLeaveReason_NoPsychicSensitivity>
   <!-- EN: {PAWN_labelShort} is a temporary faction member -->
-  <PsychicRitualLeaveReason_TemporaryFactionMember>TODO</PsychicRitualLeaveReason_TemporaryFactionMember>
+  <PsychicRitualLeaveReason_TemporaryFactionMember>{PAWN_labelShort} és {PAWN_gender ? un : una} membre temporal de la facció</PsychicRitualLeaveReason_TemporaryFactionMember>
   <!-- EN: {PAWN_labelShort} has other duties to attend to -->
-  <PsychicRitualLeaveReason_PawnBusyWithLord>TODO</PsychicRitualLeaveReason_PawnBusyWithLord>
+  <PsychicRitualLeaveReason_PawnBusyWithLord>{PAWN_labelShort} té altres tasques a realitzar</PsychicRitualLeaveReason_PawnBusyWithLord>
   <!-- EN: {PAWN_labelShort} has other duties to attend to -->
-  <PsychicRitualLeaveReason_ForcedByQuest>TODO</PsychicRitualLeaveReason_ForcedByQuest>
+  <PsychicRitualLeaveReason_ForcedByQuest>{PAWN_labelShort} té altres tasques a realitzar</PsychicRitualLeaveReason_ForcedByQuest>
 
   <!-- PsychicRitualToils-->
   <!-- EN: moving into position -->
@@ -143,51 +143,51 @@
   <PsychicRitualToil_Goto_JobReport_Waiting>espera que tothom estigui al seu lloc</PsychicRitualToil_Goto_JobReport_Waiting>
 
   <!-- EN: {PAWN_labelShort} was unable to find enough {1} -->
-  <PsychicRitualToil_GatherOfferings_OfferingUnavailable>TODO</PsychicRitualToil_GatherOfferings_OfferingUnavailable>
+  <PsychicRitualToil_GatherOfferings_OfferingUnavailable>{PAWN_labelShort} no ha pogut trobar prou {1}</PsychicRitualToil_GatherOfferings_OfferingUnavailable>
   <!-- EN: gathering offering -->
-  <PsychicRitualToil_GatherOfferings_JobReport>TODO</PsychicRitualToil_GatherOfferings_JobReport>
+  <PsychicRitualToil_GatherOfferings_JobReport>prepara l'ofrena</PsychicRitualToil_GatherOfferings_JobReport>
 
   <!-- EN: leading psychic ritual -->
-  <PsychicRitualToil_InvokeHorax_JobReport_Invoker>TODO</PsychicRitualToil_InvokeHorax_JobReport_Invoker>
+  <PsychicRitualToil_InvokeHorax_JobReport_Invoker>lidera el ritual psíquic</PsychicRitualToil_InvokeHorax_JobReport_Invoker>
   <!-- EN: channeling power to psychic ritual -->
-  <PsychicRitualToil_InvokeHorax_JobReport_Chanter>TODO</PsychicRitualToil_InvokeHorax_JobReport_Chanter>
+  <PsychicRitualToil_InvokeHorax_JobReport_Chanter>canalitza poder cap al ritual psíquic</PsychicRitualToil_InvokeHorax_JobReport_Chanter>
   <!-- EN: psychic ritual target -->
-  <PsychicRitualToil_InvokeHorax_JobReport_Target>TODO</PsychicRitualToil_InvokeHorax_JobReport_Target>
+  <PsychicRitualToil_InvokeHorax_JobReport_Target>objectiu del ritual psíquic</PsychicRitualToil_InvokeHorax_JobReport_Target>
   <!-- EN: {0} doesn't have enough {1} -->
-  <PsychicRitualToil_InvokeHorax_MissingRequiredOffering>TODO</PsychicRitualToil_InvokeHorax_MissingRequiredOffering>
+  <PsychicRitualToil_InvokeHorax_MissingRequiredOffering>{0} no té prou {1}</PsychicRitualToil_InvokeHorax_MissingRequiredOffering>
   <!-- EN: {PAWN_labelShort} is out of position -->
-  <PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>TODO</PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>
+  <PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>{PAWN_labelShort} no està a la seva posició</PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>
   <!-- EN: defending psychic ritual -->
-  <PsychicRitualToil_InvokeHorax_JobReport_Defender>TODO</PsychicRitualToil_InvokeHorax_JobReport_Defender> 
+  <PsychicRitualToil_InvokeHorax_JobReport_Defender>defensa el ritual psíquic</PsychicRitualToil_InvokeHorax_JobReport_Defender> 
 
   <!-- EN: waiting on -->
-  <PsychicRitualToil_GatherForInvocation_Report>TODO</PsychicRitualToil_GatherForInvocation_Report>
+  <PsychicRitualToil_GatherForInvocation_Report>espera</PsychicRitualToil_GatherForInvocation_Report>
   <!-- EN: invoking the void -->
-  <PsychicRitualToil_InvokeHorax_Report>TODO</PsychicRitualToil_InvokeHorax_Report>
+  <PsychicRitualToil_InvokeHorax_Report>invoca el buit</PsychicRitualToil_InvokeHorax_Report>
 
   <!-- EN: {TARGET_labelShort} was destroyed -->
-  <PsychicRitualDef_TargetDestroyed>TODO</PsychicRitualDef_TargetDestroyed>
+  <PsychicRitualDef_TargetDestroyed>{TARGET_labelShort} ha estat {TARGET_gender ? destruït : destruïda}</PsychicRitualDef_TargetDestroyed>
   <!-- EN: {INVOKER_labelShort} cannot continue the psychic ritual -->
-  <PsychicRitualDef_InvocationCircle_InvokerLost>TODO</PsychicRitualDef_InvocationCircle_InvokerLost>
+  <PsychicRitualDef_InvocationCircle_InvokerLost>{INVOKER_labelShort} no pot continuar el ritual psíquic</PsychicRitualDef_InvocationCircle_InvokerLost>
 
   <!-- EN: the area around the target site must be clear of obstructions -->
-  <PsychicRitualDef_InvocationCircle_AreaMustBeClear>TODO</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
+  <PsychicRitualDef_InvocationCircle_AreaMustBeClear>l'àrea al voltant del lloc objectiu ha d'estar lliure d'obstruccions</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
   <!-- EN: {PAWN_labelShort}'s psychic sensitivity -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>Sensibilitat psíquica de {PAWN_labelShort}</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
   <!-- EN: How in-tune {PAWN_labelShort} is with psychic phenomena. -->
-  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>TODO</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>Quanta sintonia té {PAWN_labelShort} amb el fenomen psíquic</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
   <!-- EN: These objects help focus the psychic power of the ritual. -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>Aquests objectes ajuden a concentrar el poder psíquic del ritual.</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
   <!-- EN: Ideoligion offset -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>Modificador per ideoligió</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
   <!-- EN: How affected the psychic ritual is by ideoligious beliefs. -->
-  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>TODO</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>Com afecten les creences ideologioses al ritual psíquic.</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
 
   <!-- PsychicRitualDef_InvokationCircle messages -->
   <!-- EN: {0} has begun performing the {1} psychic ritual. -->
-  <PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>TODO</PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>
+  <PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>{0} ha començat a realitzar el ritual psíquic {1}.</PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>
   <!-- EN: psychic ritual area is obstructed -->
-  <PsychicRitualAreaObstructed>TODO</PsychicRitualAreaObstructed>
+  <PsychicRitualAreaObstructed>l'àrea del ritual psíquic està obstruïda</PsychicRitualAreaObstructed>
 
   <!-- Animal summoning -->
   <!-- EN: Not enough animals in this biome. -->
@@ -203,15 +203,15 @@
   
   <!-- Chronophagy -->
   <!-- EN: The invoker must be at least {0} years old. -->
-  <InvokerTooYoung>TODO</InvokerTooYoung>
+  <InvokerTooYoung>L'invocador ha de tenir almenys {0} anys.</InvokerTooYoung>
   <!-- EN: The target must be at least {0} years old. -->
   <PsychicRitualTargetTooYoung>L'objectiu ha de tenir {0} anys o més.</PsychicRitualTargetTooYoung>
   <!-- EN: {INVOKER_labelShort} will become {1} years old, and {TARGET_labelShort} will become {3} years old. -->
-  <CronophagyAgeChange>TODO</CronophagyAgeChange>
+  <CronophagyAgeChange>{INVOKER_labelShort} passarà a tenir {1} anys i {TARGET_labelShort} en tindrà {3}.</CronophagyAgeChange>
   
   <!-- Philophagy -->
   <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
-  <PhilophagyTransferReport>TODO</PhilophagyTransferReport>
+  <PhilophagyTransferReport>{INVOKER_labelShort} robarà {1} {SKILL_label} punts d'experiència de {TARGET_labelShort}.</PhilophagyTransferReport>
   <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
   <NoSkillsToTransfer>{TARGET_labelShort} no té habilitats a transferir.</NoSkillsToTransfer>
 </LanguageData>
