@@ -76,16 +76,16 @@
   <ChronophagyCurrentAge>i ara té {0} anys.</ChronophagyCurrentAge>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower. -->
-  <PleasurePulseCompleteText>TODO</PleasurePulseCompleteText>
+  <PleasurePulseCompleteText>{0_nameDef} ha acabat de fer el ritual {RITUAL_label}. Durant {1}, tots els afectats per {RITUAL_definite} estaran més contents però treballaran més a poc a poc.</PleasurePulseCompleteText>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone who heard the pulse will work faster but be more irritable. -->
-  <NeurosisPulseCompleteText>TODO</NeurosisPulseCompleteText>
+  <NeurosisPulseCompleteText>{0_nameDef} ha acabat de fer el ritual {RITUAL_label}. Durant {1}, tots els que hagin sentit el seu senyal treballaran més ràpid però estaran més irritables.</NeurosisPulseCompleteText>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Thick red droplets have begun to fall from the sky. Keep everyone indoors to prevent them from being driven berserk. -->
-  <BloodRainCompleteText>TODO</BloodRainCompleteText>
+  <BloodRainCompleteText>{0_nameDef} ha acabat de realitzar el ritual {RITUAL_label}. Des del cel han començat a caure gruixudes gotes vermelles. Mantingueu tothom a l'interior per a evitar que es tornin bojos.</BloodRainCompleteText>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories. -->
-  <BrainwipeCompleteText>TODO</BrainwipeCompleteText>
+  <BrainwipeCompleteText>{INVOKER_nameDef} ha acabat de realitzar el ritual {RITUAL_label} i ha esborrat caòticament els records de {TARGET_nameDef}.</BrainwipeCompleteText>
   <!-- EN: {TARGET_pronoun} will remain in a coma for {1}. -->
   <BrainwipeTargetComa>{TARGET_pronoun} estarà en coma {1}.</BrainwipeTargetComa>
   <!-- EN: {TARGET_nameDef} is no longer unwaveringly loyal. -->
@@ -94,29 +94,29 @@
   <BrainwipeRehumanized>{TARGET_nameDef} s'ha rehumanitzat.</BrainwipeRehumanized>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence. -->
-  <PsychophagyCompleteText>TODO</PsychophagyCompleteText>
+  <PsychophagyCompleteText>{INVOKER_nameDef} ha acabat de realitzar el ritual {RITUAL_definite} i ha consumit la presència psíquica de {TARGET_nameDef}.</PsychophagyCompleteText>
   <!-- EN: {TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
-  <PsychophagyTargetSurvived>TODO</PsychophagyTargetSurvived>
+  <PsychophagyTargetSurvived>{TARGET_nameDef} ara té sordera psíquica. El procés ha danyat el cervell de {TARGET_nameDef} i l'ha deixat en coma.</PsychophagyTargetSurvived>
   
   <!-- EN: The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}. -->
-  <PsychicRitualTargetBrainLiquified>TODO</PsychicRitualTargetBrainLiquified>
+  <PsychicRitualTargetBrainLiquified>El procés ha liquat el cervell de {TARGET_nameDef} i l'ha matat.</PsychicRitualTargetBrainLiquified>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground! -->
-  <SummonFleshbeastsPlayerCompleteText>TODO</SummonFleshbeastsPlayerCompleteText>
+  <SummonFleshbeastsPlayerCompleteText>{0_nameDef} ha acabat de realitzar el ritual {RITUAL_label}. Les carnibèsties emergeixen del terra!</SummonFleshbeastsPlayerCompleteText>
 
   <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
   <GhoulInfusionCompleteText>TODO</GhoulInfusionCompleteText>
   
   <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
-  <AttackersMayCastRitualMultipleTimes>TODO</AttackersMayCastRitualMultipleTimes>
+  <AttackersMayCastRitualMultipleTimes>Poden realitzar el ritual diverses vegades. Els heu de parar.</AttackersMayCastRitualMultipleTimes>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual. By manipulating space and time, {INVOKER_nameDef} has abducted {TARGET_nameDef} of the {FACTION_name} faction. The terrifying nature of the ritual has put {TARGET_nameDef} into a short-term coma. -->
   <SkipAbductionPlayerCompleteText>TODO</SkipAbductionPlayerCompleteText>
 
   <!-- EN: Fleshmass response -->
-  <FleshmassResponseLabel>TODO</FleshmassResponseLabel> 
+  <FleshmassResponseLabel>Resposta carnibèstica</FleshmassResponseLabel> 
   <!-- EN: The death of fleshmass has triggered a violent response! The fleshmass shudders as it births new fleshbeasts to defend itself. -->
-  <FleshmassResponseText>TODO</FleshmassResponseText> 
+  <FleshmassResponseText>La mort de la carnibèstia ha provocat una resposta violenta! La carnibèstia es retorça mentre dóna llum a més carnibèsties per a defensar-se.</FleshmassResponseText> 
 
   <!-- Void awakening -->
   <!-- EN: Dimming sky -->
