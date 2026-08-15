@@ -35,7 +35,7 @@
   <WorkSite_Logging.arrivedLetter>Hi ha un camp neutral a la zona.</WorkSite_Logging.arrivedLetter>
   
   <!-- EN: {THING_label} mining work site -->
-  <WorkSite_Mining.label>campament miner de {THING_label}</WorkSite_Mining.label>
+  <WorkSite_Mining.label>mina {lookup: de {THING_label}; fix_apostrof}</WorkSite_Mining.label>
   <!-- EN: A work site built by another faction. It will expire in time. Until then, you can raid it if you wish. -->
   <WorkSite_Mining.description>Un campament de treball construït per una altra facció. L’aixecaran en un moment o altre. Fins llavors i si voleu, el podeu assaltar.</WorkSite_Mining.description>
   <!-- EN: Attacking {0}. -->
