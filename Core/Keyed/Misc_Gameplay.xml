@@ -1017,9 +1017,9 @@
 
   <!-- Pawn info readout -->
   <!-- EN: {PAWN_gender} {1} -->
-  <PawnMainDescGendered>{PAWN_gender} {1}</PawnMainDescGendered>
+  <PawnMainDescGendered>{1} {PAWN_gender}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
-  <PawnMainDescFactionedWrap>{0} de la facció «{1}»</PawnMainDescFactionedWrap>
+  <PawnMainDescFactionedWrap>{replace: {0}; "mascle {NAME}"-"{NAME}"; "femella {NAME}"-"{NAME}"} de la facció «{1}»</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
   <PawnTitleDescWrap>{0} de {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
@@ -1127,9 +1127,9 @@
   <!-- EN: Frozen -->
   <CurrentlyFrozen>Congelat</CurrentlyFrozen> 
   <!-- EN: Refrigerated, spoils in {0} -->
-  <CurrentlyRefrigerated>Refrigerat, es fa malbé d’aquí a {0}</CurrentlyRefrigerated> 
+  <CurrentlyRefrigerated>Refrigerat, es farà malbé d’aquí a {0}</CurrentlyRefrigerated> 
   <!-- EN: Unrefrigerated, spoils in {0} -->
-  <NotRefrigerated>Sense refrigerar, es fa malbé d’aquí a {0}</NotRefrigerated> 
+  <NotRefrigerated>Sense refrigerar, es farà malbé d’aquí a {0}</NotRefrigerated> 
   <!-- EN: over a decade -->
   <OverADecade>més d’una dècada</OverADecade>
   <!-- EN: less than a day -->
@@ -1673,7 +1673,7 @@
   
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
-  <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
+  <PawnTooltipGenderAndKindLabel>{replace: {1} {0}; "femella femella"-"femella"; "mascle mascle"-"mascle"}</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
