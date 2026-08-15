@@ -94,9 +94,9 @@
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}. -->
   <MessageRecruitSuccess>{RECRUITER_definite} ha reclutat a {RECRUITEE_definite}.</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
-  <MessageTameSuccess>{RECRUITER_definite} ha domesticat {1}.</MessageTameSuccess>
+  <MessageTameSuccess>{RECRUITER_definite} ha domesticat {lookup: {replace: {1}; "mascle"-"";"femella"-""}; fix_indefinite}.</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{RECRUITER_definite} ha domesticat {1} i es dirà «{RECRUITEE_nameFull}».</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_definite} ha domesticat {lookup: {replace: {1}; "mascle"-"";"femella"-""}; fix_indefinite} i es dirà «{RECRUITEE_label}».</MessageTameAndNameSuccess>
   <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
   <MessageTameNoSuitablePens>No hi ha cap corral adequat per a {ANIMAL_labelShort}. Deambularà per la zona i podria arribar a extraviar-se.</MessageTameNoSuitablePens>
   <!-- EN: {RECRUITEE} has joined your colony. -->
@@ -180,7 +180,7 @@
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_definite} ha mort a causa de {1}.</PawnDiedBecauseOf>
   <!-- EN: {1_labelShort} has died. -->
-  <PawnDied>{1_definite} ha mort.</PawnDied>
+  <PawnDied>{1_label} ha mort.</PawnDied>
 
   <!-- EN: {1_label} is no longer incapable of walking. -->
   <MessageNoLongerDowned>{1_definite} ja pot caminar.</MessageNoLongerDowned>

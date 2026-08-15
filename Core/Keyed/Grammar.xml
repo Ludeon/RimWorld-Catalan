@@ -2,13 +2,13 @@
 <LanguageData>
 
   <!-- EN: a -->
-  <IndefiniteArticle>{0_gender ? un : una}</IndefiniteArticle>
+  <IndefiniteArticle>{0_gender ? un : una : uns : unes}</IndefiniteArticle>
   <!-- EN: the -->
-  <DefiniteArticle>{0_gender ? el : la}</DefiniteArticle>
+  <DefiniteArticle>{0_gender ? el : la : uns : unes}</DefiniteArticle>
   <!-- EN: a {0} -->
-  <IndefiniteForm>{0_gender ? un : una} {0}</IndefiniteForm>
+  <IndefiniteForm>{lookup: {0_gender ? un : una : uns : unes} {0}; fix_indefinite}</IndefiniteForm>
   <!-- EN: the {0} -->
-  <DefiniteForm>{0_gender ? el : la} {0}</DefiniteForm>
+  <DefiniteForm>{lookup: {0_gender ? el : la : els : les} {0}; fix_definite}</DefiniteForm>
 
   <!-- EN: its -->
   <Proits>el seu</Proits>

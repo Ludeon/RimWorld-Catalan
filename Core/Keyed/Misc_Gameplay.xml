@@ -35,7 +35,7 @@
   <!-- EN: Unowned -->
   <Unowned>Lliure</Unowned>
   <!-- EN: Dead for {0} -->
-  <DeadTime>Mort fa {0}</DeadTime>
+  <DeadTime>S'ha mort fa {0}.</DeadTime>
   <!-- EN: walk speed {0} -->
   <WalkSpeed>velocitat al caminar-hi: {0}</WalkSpeed>
   <!-- EN: fert. -->
@@ -985,7 +985,7 @@
 
   <!-- Generated recipes -->
   <!-- EN: make {0} -->
-  <RecipeMake>fer {lookup: {0_indefinite}; fix_indefinite}</RecipeMake>
+  <RecipeMake>fes {lookup: {0_indefinite}; fix_indefinite}</RecipeMake>
   <!-- EN: Make {0}. -->
   <RecipeMakeDescription>Fes {lookup: {0_indefinite}; fix_indefinite}.</RecipeMakeDescription>
   <!-- EN: Making {0}. -->
@@ -1127,9 +1127,9 @@
   <!-- EN: Frozen -->
   <CurrentlyFrozen>Congelat</CurrentlyFrozen> 
   <!-- EN: Refrigerated, spoils in {0} -->
-  <CurrentlyRefrigerated>Refrigerat, es farà malbé d’aquí a {0}</CurrentlyRefrigerated> 
+  <CurrentlyRefrigerated>Refrigerat. Es farà malbé d’aquí a {0}</CurrentlyRefrigerated> 
   <!-- EN: Unrefrigerated, spoils in {0} -->
-  <NotRefrigerated>Sense refrigerar, es farà malbé d’aquí a {0}</NotRefrigerated> 
+  <NotRefrigerated>Sense refrigerar. Es farà malbé d’aquí a {0}</NotRefrigerated> 
   <!-- EN: over a decade -->
   <OverADecade>més d’una dècada</OverADecade>
   <!-- EN: less than a day -->
@@ -2117,7 +2117,7 @@
 
   <!-- World -->
   <!-- EN: View {LAYER_label} -->
-  <WorldSelectLayer>Mostra {LAYER_label}</WorldSelectLayer>
+  <WorldSelectLayer>Mostra {LAYER_definite}</WorldSelectLayer>
   <!-- EN: Jump to location -->
   <WorldJumpTo>Vés a la ubicació</WorldJumpTo>
   <!-- EN: Find a colony, caravan, or quest location on the world map. -->
