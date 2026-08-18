@@ -4,7 +4,9 @@
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an alpha thrumbo.\n\nAlpha thrumbos are exceptionally rare creatures, believed by many to be mere fiction. Too wild for most to tame and too powerful for most to hunt, their horns are worth more than their weight in gold.</li>
   -->
-  <OpportunitySite_AlphaThrumbo_Giver.questDescriptionRules.rulesStrings>TODO</OpportunitySite_AlphaThrumbo_Giver.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AlphaThrumbo_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] la ubicació d'un trumbe alfa.\n\nEls trumbes alfa són criatures excepcionalment rares, que molts creuen que són mera ficció. Massa salvatges perquè molta gent els pugui domar i massa poderosos perquè la majoria els caci. Les seves banyes valen més que el seu pes en or.</li>
+  </OpportunitySite_AlphaThrumbo_Giver.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->alpha thrumbo</li>
   -->
@@ -24,12 +26,24 @@
     <li>questMapText->found the beast</li>
     <li>questMapText->they are real</li>
   -->
-  <OpportunitySite_AlphaThrumbo_Giver.questSubjectRules.rulesStrings>TODO</OpportunitySite_AlphaThrumbo_Giver.questSubjectRules.rulesStrings>
+  <OpportunitySite_AlphaThrumbo_Giver.questSubjectRules.rulesStrings>
+    <li>subject->trumbe alfa</li>
+    <li>subject->trumbes</li>
+    <li>subject->trumbes rars</li>
+    <li>subject->animals estranys</li>
+    <li>subject->criatures llegendàries</li>
+    <li>questMapFeature->dibuix d'un trumbe</li>
+    <li>questMapFeature->esbós d'un trumbe estrany</li>
+    <li>questMapText->hàbitat de trumbes</li>
+    <li>questMapText->trumbe alfa</li>
+    <li>questMapText->bèstia trobada</li>
+    <li>questMapText->son reals</li>
+  </OpportunitySite_AlphaThrumbo_Giver.questSubjectRules.rulesStrings>
   <!-- EN: You have discovered -->
   <OpportunitySite_AlphaThrumbo_Giver.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Heu descobert</OpportunitySite_AlphaThrumbo_Giver.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_AlphaThrumbo_Giver.LetterLabelQuestExpired.slateRef>La missió ha expirat: [resolvedQuestName]</OpportunitySite_AlphaThrumbo_Giver.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the alpha thrumbo has moved on. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_AlphaThrumbo_Giver.LetterTextQuestExpired.slateRef>TODO</OpportunitySite_AlphaThrumbo_Giver.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_AlphaThrumbo_Giver.LetterTextQuestExpired.slateRef>Les comunicacions interceptades indiquen que el trumbe alfa se n'ha anat a un altre lloc. La missió [resolvedQuestName] ha expirat.</OpportunitySite_AlphaThrumbo_Giver.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

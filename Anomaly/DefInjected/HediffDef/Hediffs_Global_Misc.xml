@@ -50,19 +50,19 @@
   <!-- EN: corpse torment -->
   <CorpseTorment.label>torment cadavèric</CorpseTorment.label>
   <!-- EN: This person shares a psychic link with a corpse that appears to be their exact duplicate. They have done something to anger it, causing them to fall unconscious. -->
-  <CorpseTorment.description>TODO</CorpseTorment.description>
+  <CorpseTorment.description>Aquesta persona té un vincle psíquic amb un cadàver que sembla ser el seu duplicat exacte. Ha fet alguna cosa per a enfadar-{PAWN_gender ? lo : la} i ha perdut la consciència.</CorpseTorment.description>
   
   <!-- EN: crumbled mind -->
   <CrumbledMind.label>ment ensorrada</CrumbledMind.label>
   <!-- EN: This person has lost most of their cognitive ability, preventing them from doing complex tasks. They are a husk of their former self.\n\nThe condition is incurable. -->
-  <CrumbledMind.description>TODO</CrumbledMind.description>
+  <CrumbledMind.description>Aquesta persona ha perdut la major part de la seva capacitat cognitiva i ja no pot fer tasques complexes. Són com una versió buida del seu antic jo.\n\nLa condició és incurable.</CrumbledMind.description>
   
   <!-- EN: crumbling mind -->
   <CrumblingMind.label>ment ensorrada</CrumblingMind.label>
   <!-- EN: This person is experiencing a rapidly decaying mental state. Within a few days, they will be incapable of most work. With sufficient technology, like a healer mech serum, the condition can still be reversed. However, it will soon become permanent. -->
-  <CrumblingMind.description>TODO</CrumblingMind.description>
+  <CrumblingMind.description>Aquesta persona experimenta un estat mental de decadència ràpida. En pocs dies, serà incapaç de treballar. Amb una tecnologia suficient, com un meca-sèrum curatiu, la malaltia encara es pot revertir. Però cal actuar ràpid; sinó la condició aviat serà permanent.</CrumblingMind.description>
   <!-- EN: {PAWN_nameDef}'s cognitive condition has become permanent. -->
-  <CrumblingMind.comps.HediffComp_ReplaceHediff.message>TODO</CrumblingMind.comps.HediffComp_ReplaceHediff.message>
+  <CrumblingMind.comps.HediffComp_ReplaceHediff.message>La malaltia cognitiva de {PAWN_nameDef} s'ha tornat permanent.</CrumblingMind.comps.HediffComp_ReplaceHediff.message>
   <!-- EN: mild -->
   <CrumblingMind.stages.mild.label>lleu</CrumblingMind.stages.mild.label>
   <!-- EN: moderate -->
@@ -73,26 +73,26 @@
   <!-- EN: crumbling mind -->
   <CrumblingMindUndiagnosedCreepjoiner.label>ment ensorrada</CrumblingMindUndiagnosedCreepjoiner.label>
   <!-- EN: This person is showing early signs of a condition which will cause severe mental degradation. They will begin to display symptoms within a matter of days. -->
-  <CrumblingMindUndiagnosedCreepjoiner.description>TODO</CrumblingMindUndiagnosedCreepjoiner.description>
+  <CrumblingMindUndiagnosedCreepjoiner.description>Aquesta persona mostra els primers signes d'una malaltia que li provocarà degradació mental severa. Començarà a mostrar símptomes en qüestió de dies.</CrumblingMindUndiagnosedCreepjoiner.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will soon cause severe mental degradation. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
-  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} mostra els primers signes d'una condició que li provocarà una degradació mental severa. {SURGEON_nameDef} no sap exactament què ho provoca, però {PAWN_nameDef} mostrarà símptomes en qüestió de dies.</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: {PAWN_nameDef} has begun experiencing pounding headaches and begs for help. {PAWN_pronoun} can't think straight and is losing {PAWN_possessive} cognitive function. {PAWN_nameDef} claims that {PAWN_pronoun} has seen a vision of the future. Within a matter of days, {PAWN_possessive} mind will crumble and {PAWN_pronoun} will become incapable of most tasks.\n\nThe condition is currently reversible with sufficient technology, like a healer mech serum, but will soon become permanent. -->
-  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>TODO</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
+  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef} ha començat a experimentar mals de cap forts i demana ajuda. No pot pensar amb claredat i perd la funció cognitiva. Afirma que ha tingut una visió del futur. En qüestió de dies, la seva ment s'esfondrarà i es tornarà incapaç de fer la majoria de les tasques.\n\nActualment, la condició és reversible amb una tecnologia suficient, com un meca-sèrum curatiu, però aviat esdevindrà permanent.</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterDesc>
   <!-- EN: Crumbling mind: {PAWN_nameDef} -->
-  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>TODO</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>
+  <CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>Ment esfondrant-se: {PAWN_nameDef}</CrumblingMindUndiagnosedCreepjoiner.comps.HediffComp_ReplaceHediff.letterLabel>
   <!-- EN: diagnosed -->
-  <CrumblingMindUndiagnosedCreepjoiner.stages.diagnosed.label>TODO</CrumblingMindUndiagnosedCreepjoiner.stages.diagnosed.label>
+  <CrumblingMindUndiagnosedCreepjoiner.stages.diagnosed.label>diagnosticada</CrumblingMindUndiagnosedCreepjoiner.stages.diagnosed.label>
   
   <!-- EN: crumbling mind -->
   <CrumblingMindUndiagnosedDuplication.label>ment ensorrada</CrumblingMindUndiagnosedDuplication.label>
   <!-- EN: This person is showing early signs of a condition which will cause severe mental degradation. They will begin to display symptoms within a matter of days. -->
-  <CrumblingMindUndiagnosedDuplication.description>TODO</CrumblingMindUndiagnosedDuplication.description>
+  <CrumblingMindUndiagnosedDuplication.description>Aquesta persona mostra els primers signes d'una malaltia que li provocarà degradació mental severa. Començarà a mostrar símptomes en qüestió de dies.</CrumblingMindUndiagnosedDuplication.description>
   <!-- EN: {PAWN_nameDef} is showing early signs of a severe condition which will soon cause severe mental degradation. {SURGEON_nameDef} can't yet tell exactly what is causing this, but {PAWN_nameDef} will become very ill within the next few days. -->
-  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} mostra els primers signes d'una condició que li provocarà una degradació mental severa. {SURGEON_nameDef} no sap exactament què ho provoca, però {PAWN_nameDef} mostrarà símptomes en qüestió de dies.</CrumblingMindUndiagnosedDuplication.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: {PAWN_nameDef} has begun experiencing pounding headaches. {PAWN_pronoun} can't seem to think straight and is quickly losing {PAWN_possessive} cognitive function. Something has gone wrong in the duplication process.\n\nWith sufficient technology, like a healer mech serum, the condition can still be reversed. However, if not treated, it will soon become permanent. -->
-  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterDesc>TODO</CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterDesc>
+  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterDesc>{PAWN_nameDef} ha començat a experimentar mals de cap forts. No pot pensar amb claredat i perd la funció cognitiva. Afirma que el procés de duplicació no ha anat bé.\n\nAmb tecnologia adequada, com un meca-sèrum curatiu, la malaltia es pot curar. Però si no es tracta, aviat esdevindrà permanent.</CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterDesc>
   <!-- EN: Crumbling mind: {PAWN_nameDef} -->
-  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterLabel>TODO</CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterLabel>
+  <CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterLabel>Ment esfondrant-se: {PAWN_nameDef}</CrumblingMindUndiagnosedDuplication.comps.HediffComp_ReplaceHediff.letterLabel>
   <!-- EN: diagnosed -->
   <CrumblingMindUndiagnosedDuplication.stages.diagnosed.label>diagnosticada</CrumblingMindUndiagnosedDuplication.stages.diagnosed.label>
   
@@ -104,7 +104,7 @@
   <!-- EN: cube interest -->
   <CubeInterest.label>atenció cúbica</CubeInterest.label>
   <!-- EN: This person is drawn to the golden cube. If separated from the cube for too long, they'll start to experience negative effects. -->
-  <CubeInterest.description>TODO</CubeInterest.description>
+  <CubeInterest.description>Aquesta persona se sent atreta pel cub daurat. Si se separa del cub durant massa temps, començarà a experimentar efectes negatius.</CubeInterest.description>
   <!-- EN: Wandering and thinking about the cube. -->
   <CubeInterest.reportStringOverrides.0.reportString>Deambula i pensa amb el cub.</CubeInterest.reportStringOverrides.0.reportString>
   <!-- EN: Wandering and thinking about the cube. -->
@@ -127,9 +127,9 @@
   <!-- EN: cube anger -->
   <CubeRage.label>ràbia cúbica</CubeRage.label>
   <!-- EN: This person is upset that their cube sculptures have been destroyed. Continuing to destroy their sculptures may cause them to become violent. -->
-  <CubeRage.description>TODO</CubeRage.description>
+  <CubeRage.description>Aquesta persona està enfadada perquè les seves escultures del cub hagin estat destruïdes. Si es continua destruint les seves escultures, es podria posar {PAWN_gender ? violent : violenta}.</CubeRage.description>
   <!-- EN: {PAWN_nameDef} can no longer control {PAWN_possessive} anger. Too many of {PAWN_possessive} precious cube sculptures have been destroyed.\n\n{PAWN_nameDef} has flown into a berserk rage! -->
-  <CubeRage.comps.HediffComp_CauseMentalState.overrideLetterDesc>TODO</CubeRage.comps.HediffComp_CauseMentalState.overrideLetterDesc>
+  <CubeRage.comps.HediffComp_CauseMentalState.overrideLetterDesc>{PAWN_nameDef} ja no pot controlar la seva ira. S'han destruït massa escultures dels seus cubs preciats.\n\n{PAWN_nameDef} ha explotat i ha entrat en una espiral de ràbia furiosa!</CubeRage.comps.HediffComp_CauseMentalState.overrideLetterDesc>
   <!-- EN: Cube rage: {PAWN_nameDef} -->
   <CubeRage.comps.HediffComp_CauseMentalState.overrideLetterLabel>Ràbia cúbica: : {PAWN_nameDef}</CubeRage.comps.HediffComp_CauseMentalState.overrideLetterLabel>
   
@@ -147,41 +147,41 @@
   <!-- EN: darkness exposure -->
   <DarknessExposure.label>exposició a la foscor</DarknessExposure.label>
   <!-- EN: This person is immersed in the unnatural darkness. Creatures or influences in the darkness will harm them if they stay too long. -->
-  <DarknessExposure.description>TODO</DarknessExposure.description>
+  <DarknessExposure.description>Aquesta persona està immersa en la foscor antinatural. Les criatures o influències de l'obscuritat la perjudicaran si es queden massa temps.</DarknessExposure.description>
   
   <!-- EN: dark psychic shock -->
   <DarkPsychicShock.label>xoc psíquic obscur</DarkPsychicShock.label>
   <!-- EN: Part of this person's neural pattern has been disrupted by a dark psychic power. The shock from this process has left them in a temporary coma. -->
-  <DarkPsychicShock.description>TODO</DarkPsychicShock.description>
+  <DarkPsychicShock.description>Part del patró neuronal d'aquesta persona ha estat interromput per un poder psíquic obscur. El xoc d'aquest procés l'ha deixat en un coma temporal.</DarkPsychicShock.description>
   
   <!-- EN: death refusal -->
   <DeathRefusal.label>negamort</DeathRefusal.label>
   <!-- EN: This person is infused with a seed of nanoscale archotech machines that can recreate life. After they die, the archites will sustain their mind and, when they choose, rebuild their body. The flesh will rapidly reform, replacing missing organs and healing wounds. The process is not perfect and may cause scarring or other health complications. This can only be done a certain number of times. -->
-  <DeathRefusal.description>TODO</DeathRefusal.description>
+  <DeathRefusal.description>Aquesta persona està imbuïda amb una llavor de màquines nanomètriques arcotècniques que poden recrear la vida. Després de morir, les arquites mantindran la seva ment i, quan les arquites vulguin, reconstruiran el seu cos. La carn es reformarà ràpidament i se substituiran els òrgans que falten i es curaran les ferides. El procés no és perfecte i pot causar cicatrius o altres complicacions de salut. Això només es pot fer un cert nombre de vegades.</DeathRefusal.description>
   
   <!-- EN: death refusal -->
   <DeathRefusalCreepJoiner.label>negamort</DeathRefusalCreepJoiner.label>
   <!-- EN: This person is infused with a seed of nanoscale archotech machines that can recreate life. After they die, the archites will sustain their mind and, when they choose, rebuild their body. The flesh will rapidly reform, replacing missing organs and healing wounds. The process is not perfect and may cause scarring or other health complications. This can only be done a certain number of times. -->
-  <DeathRefusalCreepJoiner.description>TODO</DeathRefusalCreepJoiner.description>
+  <DeathRefusalCreepJoiner.description>Aquesta persona està imbuïda amb una llavor de màquines nanomètriques arcotècniques que poden recrear la vida. Després de morir, les arquites mantindran la seva ment i, quan les arquites vulguin, reconstruiran el seu cos. La carn es reformarà ràpidament i se substituiran els òrgans que falten i es curaran les ferides. El procés no és perfecte i pot causar cicatrius o altres complicacions de salut. Això només es pot fer un cert nombre de vegades.</DeathRefusalCreepJoiner.description>
   
   <!-- EN: death refusal sickness -->
-  <DeathRefusalSickness.label>TODO</DeathRefusalSickness.label>
+  <DeathRefusalSickness.label>malaltia de la negamort</DeathRefusalSickness.label>
   <!-- EN: After-effects of death refusal. This person has returned from the dead. -->
-  <DeathRefusalSickness.description>TODO</DeathRefusalSickness.description>
+  <DeathRefusalSickness.description>Conseqüències de la negamort. Aquesta persona ha tornat d'entre els morts.</DeathRefusalSickness.description>
   
   <!-- EN: disruptor flash -->
-  <DisruptorFlash.label>TODO</DisruptorFlash.label>
+  <DisruptorFlash.label>flaix disruptor</DisruptorFlash.label>
   <!-- EN: The initial psychic burst from a disruptor flare has left this creature dazed. -->
-  <DisruptorFlash.description>TODO</DisruptorFlash.description>
+  <DisruptorFlash.description>L'esclat psíquic inicial d'una bengala disruptora ha deixat aquesta criatura atordida.</DisruptorFlash.description>
   
   <!-- EN: duplicate sickness -->
   <DuplicateSickness.label>malaltia dels duplicats</DuplicateSickness.label>
   <!-- EN: Psychic interference between this person and their duplicate is causing slow mental deterioration. As long as multiple copies of this person are alive, the condition will keep getting worse. However, the condition will not be lethal. -->
-  <DuplicateSickness.description>TODO</DuplicateSickness.description>
+  <DuplicateSickness.description>La interferència psíquica entre aquesta persona i el seu duplicat provoca un deteriorament mental lent. Mentre estiguin vives diverses còpies d'aquesta persona, la condició empitjorarà més i més. No obstant, la malaltia no és letal.</DuplicateSickness.description>
   <!-- EN: {0_nameDef} is now suffering from duplicate sickness. -->
-  <DuplicateSickness.comps.HediffComp_MessageAboveSeverity.message>TODO</DuplicateSickness.comps.HediffComp_MessageAboveSeverity.message>
+  <DuplicateSickness.comps.HediffComp_MessageAboveSeverity.message>{0_nameDef} ara pateix de malaltia dels duplicats.</DuplicateSickness.comps.HediffComp_MessageAboveSeverity.message>
   <!-- EN: {PAWN_nameDef} is suffering from duplicate sickness. Psychic interference between this person and their duplicate is causing slow mental deterioration. As long as multiple copies of this person are alive, the condition will keep getting worse. -->
-  <DuplicateSickness.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>TODO</DuplicateSickness.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
+  <DuplicateSickness.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>{PAWN_nameDef} pateix la malaltia dels duplicats. La interferència psíquica entre aquesta persona i el seu duplicat provoca un deteriorament mental lent. Mentre estiguin vives diverses còpies d'aquesta persona, la condició empitjorarà més i més.</DuplicateSickness.comps.HediffComp_SurgeryInspectable.surgicalDetectionDesc>
   <!-- EN: initial -->
   <DuplicateSickness.stages.initial-0.label>inicial</DuplicateSickness.stages.initial-0.label>
   <!-- EN: initial -->
@@ -194,9 +194,9 @@
   <DuplicateSickness.stages.debilitating.label>debilitant</DuplicateSickness.stages.debilitating.label>
   
   <!-- EN: frenzy field -->
-  <FrenzyField.label>TODO</FrenzyField.label>
+  <FrenzyField.label>camp de frenesí</FrenzyField.label>
   <!-- EN: This person is under the influence of a psychic field which sharpens their mental energy. They're channeling the nervous anger to move and work faster. However, any mental breaks will be violent. -->
-  <FrenzyField.description>TODO</FrenzyField.description>
+  <FrenzyField.description>Aquesta persona està sota la influència d'un camp psíquic que aguditza la seva energia mental. Canalitza la ira nerviosa per a moure's i treballar més de pressa. No obstant, qualsevol crisi nerviosa serà molt violenta.</FrenzyField.description>
   <!-- EN: very mild -->
   <FrenzyField.stages.very_mild.label>molt lleu</FrenzyField.stages.very_mild.label>
   <!-- EN: mild -->
@@ -219,12 +219,12 @@
   <!-- EN: juggernaut serum -->
   <JuggernautSerum.label>sèrum de la força imparable</JuggernautSerum.label>
   <!-- EN: A serum is super-powering this person's musculature, making them stronger and faster, but reducing their mood due to discomfort. -->
-  <JuggernautSerum.description>TODO</JuggernautSerum.description>
+  <JuggernautSerum.description>Un sèrum dóna superforça a la musculatura d'aquesta persona i la fa més forta i ràpida, però en redueix l'estat d'ànim a causa del malestar.</JuggernautSerum.description>
   
   <!-- EN: light exposure -->
   <LightExposure.label>exposició a la llum</LightExposure.label>
   <!-- EN: Even the slightest exposure to light causes great discomfort to this creature, slowing it and weakening its attacks. -->
-  <LightExposure.description>TODO</LightExposure.description>
+  <LightExposure.description>Fins i tot la més mínima exposició a la llum provoca una gran incomoditat a aquesta criatura i l'alenteix i debilita els seus atacs.</LightExposure.description>
   <!-- EN: initial -->
   <LightExposure.stages.initial.label>lleu</LightExposure.stages.initial.label>
   <!-- EN: moderate -->
@@ -244,7 +244,7 @@
   <!-- EN: A gestating creature of metallic horror. Starting from a tiny archometallic seed, it will quickly take control of the nervous system, grow, and extend throughout the host's body until it is ready to reveal itself. Once discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
   <MetalhorrorImplant.description>TODO</MetalhorrorImplant.description>
   <!-- EN: Implanted before arrival at your colony -->
-  <MetalhorrorImplant.possiblePathways.0.explanation>TODO</MetalhorrorImplant.possiblePathways.0.explanation>
+  <MetalhorrorImplant.possiblePathways.0.explanation>Implantat abans d'arribar a la vostra colònia</MetalhorrorImplant.possiblePathways.0.explanation>
   <!-- EN: Implanted through {SOURCEKIND_label} attack -->
   <MetalhorrorImplant.possiblePathways.1.explanation>Implantat mitjançant un atac {SOURCEKIND_label}</MetalhorrorImplant.possiblePathways.1.explanation>
   <!-- EN: Implanted by revenant during hypnosis -->
@@ -256,7 +256,7 @@
   <MetalhorrorSpeedBoost.description>TODO</MetalhorrorSpeedBoost.description>
   
   <!-- EN: mind-numb serum -->
-  <MindNumbSerum.label>TODO</MindNumbSerum.label>
+  <MindNumbSerum.label>sèrum dormiments</MindNumbSerum.label>
   <!-- EN: This person's neural patterns are being moderated by an exotic serum. They're unaffected by the highs and lows of human emotion. They will never have a mental break but they will also never feel inspired. -->
   <MindNumbSerum.description>TODO</MindNumbSerum.description>
   

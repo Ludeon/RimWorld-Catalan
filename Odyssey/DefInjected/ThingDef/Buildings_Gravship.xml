@@ -2,13 +2,13 @@
 <LanguageData>
   
   <!-- EN: small chemfuel tank -->
-  <ChemfuelTank.label>TODO</ChemfuelTank.label>
+  <ChemfuelTank.label>cisterna petita de quimibustible</ChemfuelTank.label>
   <!-- EN: A chemfuel storage tank that supplies fuel for thrusters on a gravship. -->
-  <ChemfuelTank.description>TODO</ChemfuelTank.description>
+  <ChemfuelTank.description>Un dipòsit d'emmagatzematge de quimibustible que el subministra als propulsors de les gravinaus.</ChemfuelTank.description>
   <!-- EN: Chemfuel -->
-  <ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>TODO</ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
+  <ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>Quimibustible</ChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Chemfuel -->
-  <ChemfuelTank.comps.CompRefuelable.fuelLabel>TODO</ChemfuelTank.comps.CompRefuelable.fuelLabel>
+  <ChemfuelTank.comps.CompRefuelable.fuelLabel>Quimibustible</ChemfuelTank.comps.CompRefuelable.fuelLabel>
   
   <!-- EN: fuel optimizer -->
   <FuelOptimizer.label>optimitzador de combustible</FuelOptimizer.label>
@@ -21,9 +21,9 @@
   <GravAnchor.description>TODO</GravAnchor.description>
   
   <!-- EN: gravcore power cell -->
-  <GravcorePowerCell.label>TODO</GravcorePowerCell.label>
+  <GravcorePowerCell.label>bateria de gravinucli</GravcorePowerCell.label>
   <!-- EN: A power generator that passively draws a small amount of energy from gravitational waves passing through the gravship. -->
-  <GravcorePowerCell.description>TODO</GravcorePowerCell.description>
+  <GravcorePowerCell.description>Un generador d'energia que extreu de manera passiva una petita quantitat d'energia de les ones gravitatòries que travessen la gravinau.</GravcorePowerCell.description>
   
   <!-- EN: grav engine -->
   <GravEngine.label>gravimotor</GravEngine.label>
@@ -36,25 +36,25 @@
   <GravFieldExtender.description>TODO</GravFieldExtender.description>
   
   <!-- EN: gravship hull -->
-  <GravshipHull.label>TODO</GravshipHull.label>
+  <GravshipHull.label>casc de la gravinau</GravshipHull.label>
   <!-- EN: A strong airtight wall that prevents oxygen leaks in the vacuum of space. The wall connects directly into the underlying substructure, meaning it can only be built on a gravship. -->
   <GravshipHull.description>TODO</GravshipHull.description>
   
   <!-- EN: gravship shield generator -->
-  <GravshipShieldGenerator.label>TODO</GravshipShieldGenerator.label>
+  <GravshipShieldGenerator.label>generador d'escuts de la gravinau</GravshipShieldGenerator.label>
   <!-- EN: A shielding device that can protect a gravship. It modulates the grav field to create a short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. Those inside can still shoot out.\n\nIt must be charged before use. One gravship can support two gravship shield generators. -->
   <GravshipShieldGenerator.description>TODO</GravshipShieldGenerator.description>
   <!-- EN: activate -->
-  <GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>TODO</GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>
+  <GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>activa</GravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>
   
   <!-- EN: large chemfuel tank -->
-  <LargeChemfuelTank.label>TODO</LargeChemfuelTank.label>
+  <LargeChemfuelTank.label>cisterna grossa de quimibustible</LargeChemfuelTank.label>
   <!-- EN: A massive chemfuel storage tank that supplies fuel for thrusters on a gravship. -->
-  <LargeChemfuelTank.description>TODO</LargeChemfuelTank.description>
+  <LargeChemfuelTank.description>Un enorme dipòsit d'emmagatzematge de quimibustible que el subministra als propulsors de les gravinaus.</LargeChemfuelTank.description>
   <!-- EN: Chemfuel -->
-  <LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>TODO</LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
+  <LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>Quimibustible</LargeChemfuelTank.comps.CompRefuelable.fuelGizmoLabel>
   <!-- EN: Chemfuel -->
-  <LargeChemfuelTank.comps.CompRefuelable.fuelLabel>TODO</LargeChemfuelTank.comps.CompRefuelable.fuelLabel>
+  <LargeChemfuelTank.comps.CompRefuelable.fuelLabel>Quimibustible</LargeChemfuelTank.comps.CompRefuelable.fuelLabel>
   
   <!-- EN: large thruster -->
   <LargeThruster.label>propulsor gros</LargeThruster.label>
@@ -62,7 +62,7 @@
   <LargeThruster.description>TODO</LargeThruster.description>
   
   <!-- EN: minified thing -->
-  <MinifiedGravEngine.label>TODO</MinifiedGravEngine.label>
+  <MinifiedGravEngine.label>objecte desinstal·lat</MinifiedGravEngine.label>
   
   <!-- EN: pilot console -->
   <PilotConsole.label>consola de pilotatge</PilotConsole.label>
@@ -70,16 +70,16 @@
   <PilotConsole.description>TODO</PilotConsole.description>
   
   <!-- EN: pilot subpersona core -->
-  <PilotSubpersonaCore.label>TODO</PilotSubpersonaCore.label>
+  <PilotSubpersonaCore.label>nucli d'IA pilot</PilotSubpersonaCore.label>
   <!-- EN: A low-grade subpersona specialized in gravship flight. It reduces the chance of an accident when flying a gravship, though it can't fully account for human error.\n\nA gravship can support up to two pilot subpersona cores. -->
   <PilotSubpersonaCore.description>TODO</PilotSubpersonaCore.description>
   
   <!-- EN: mechanoid ship chunk -->
-  <ShipChunk_Mech.label>TODO</ShipChunk_Mech.label>
+  <ShipChunk_Mech.label>tros de nau mecanoide</ShipChunk_Mech.label>
   <!-- EN: A chunk of mechanoid spacecraft made of steel and gravlite panels. It seems to have been torn off either by uncontrolled re-entry forces or some kind of weapon.\n\nDeconstruct it to obtain valuable resources. -->
   <ShipChunk_Mech.description>TODO</ShipChunk_Mech.description>
   <!-- EN: Deconstruct for valuable resources. -->
-  <ShipChunk_Mech.comps.CompInspectString.inspectString>TODO</ShipChunk_Mech.comps.CompInspectString.inspectString>
+  <ShipChunk_Mech.comps.CompInspectString.inspectString>Desmunteu-lo per a obtenir-ne recursos valuosos.</ShipChunk_Mech.comps.CompInspectString.inspectString>
   
   <!-- EN: signal jammer -->
   <SignalJammer.label>inhibidor de senyals</SignalJammer.label>
