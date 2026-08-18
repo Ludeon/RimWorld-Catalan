@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: shipborn -->
-  <Shipborn.label>TODO</Shipborn.label>
+  <Shipborn.label>cosmogenesista</Shipborn.label>
   <!-- EN: Humans were destined to live among the stars. -->
-  <Shipborn.description>TODO</Shipborn.description>
+  <Shipborn.description>Els humans estem destinats a viure entre les estrelles.</Shipborn.description>
   <!-- EN:
     <li>creation(tag=meme_Shipborn)        ->[deity0_name] shaped humanity from the dust of [celestialComponents], breathing life into mankind with [deity0_possessive] stellar winds.</li>
     <li>episode(uses=1,tag=meme_Shipborn)  ->[deity0_name] dispersed the great people of [place_name], sending them into the void so that they may witness the convergence of star and soul.</li>
@@ -30,7 +30,31 @@
     <li>veneratedRole->navigator</li>
     <li>veneratedRole->captain</li>
   -->
-  <Shipborn.descriptionMaker.rules.rulesStrings>TODO</Shipborn.descriptionMaker.rules.rulesStrings>
+  <Shipborn.descriptionMaker.rules.rulesStrings>
+    <li>creation(tag=meme_Shipborn) ->[deity0_name] va donar forma a la humanitat a partir de la pols [celestialComponents] i va donar vida a la humanitat amb els seus vents estel·lars.</li>
+    <li>episodi(uses=1,tag=meme_Shipborn) ->[deity0_name] va dispersar la gran gent de [place_name] i els envià al buit perquè poguessin presenciar la convergència de les estrelles i les ànimes.</li>
+    <li>intro(tag=meme_Shipborn) ->Durant els dies de la foscor, [deity0_name] va veure que la humanitat necessitava guia i va ordenar als seus [memberNamePlural] que construïssin naus enormes.</li>
+    <li>conflict(tag=meme_Shipborn) ->Quan els [memberNamePlural] va començar a complir les ordres de [deity0_name], un [foeLeader] traïdor va frustar-li els plans. Els seus [foeSoldiers] van fer servir cruels [place_personalWeapon] contra els que intentaven pujar a les naus sagrades.</li>
+    <li>founderJoin(tag=meme_Shipborn) ->Un [place_job] anomenat [founderName] va reunir els veritables creients i els va conduir a un [altarRoomLabel] amagat. Allà [pronom_fundador] es va convertir en el seu [veneratedRole].</li>
+    <li>victory(tag=meme_Shipborn) ->Llavors, [founderName] va parlar amb la veu de [deity0_name]. En una brillant convergència de llum i energia, [founderName] va aclaparar els seus enemics i va guiar la seva gent a les naus sagrades.</li>
+    <li>setup(tag=meme_Shipborn) ->Amb la nau divina, [founderName] va viatjar pels mars estel·lars durant mil anys, comunicant-se amb els esperits celestials i descobrint els secrets del cosmos.</li>
+    <li>story(uses=1,tag=meme_Shipborn) ->[founderName] va veure que el destí de la humanitat només es podia complir entre les estrelles.</li>
+    <li>lessonIntro(tag=meme_Shipborn) ->En les meves observacions [celestialComponents], he trobat una veritat per sobre de tot:</li>
+    <li>lesson(tag=meme_Shipborn) ->les estrelles són el nostre veritable [veneratedRole] i el nostre deure és buscar la seva saviesa i viatjar entre elles</li>
+    <li>lesson(tag=meme_Shipborn) ->la humanitat mai va estar destinada a viure entre roques. Hem de viure als cels</li>
+    <li>lesson(tag=meme_Shipborn) ->les nostres naus són les nostres mares santes i pares sagrats. Hem de cuidar-los com ells han cuidat de nosaltres</li>
+    <li>lessonReinforcement(tag=meme_Shipborn) ->Que els vostres peus no toquin mai el terra.</li>
+    <li>archistBasis(tag=meme_Shipborn) ->Des de la seva aparició, els arcotècnics han ampliat la seva consciència entre les estrelles.</li>
+    <li>archistFact(tag=meme_Shipborn) ->Els arcotècnics transcendeixen les limitacions de la vida limitada al planeta.</li>
+    <li>archistProphecy(tag=meme_Shipborn) ->[inTheEnd], els arcotècnics ens ensenyaran a moure'ns sense esforç entre les estrelles si observem la seva saviesa còsmica.</li>
+    <li>animistBasis(tag=meme_Shipborn) ->Els nostres avantpassats vénen [celestialComponents] i ens ensenyen a considerar la humanitat i les entitats celestes com a homòlegs.</li>
+    <li>animistFact(tag=meme_Shipborn) ->Els mateixos esperits que habiten els cossos celestes guien el destí de la humanitat.</li>
+    <li>celestialComponents->de les estrelles, llunes i cometes</li>
+    <li>celestialComponents->del cosmos</li>
+    <li>celestialComponents->de mil sols</li>
+    <li>veneratedRole->navegant</li>
+    <li>veneratedRole->capità</li>
+  </Shipborn.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeCreed->crew</li>
     <li>memeCreed->ship</li>
@@ -53,6 +77,39 @@
     <li>memeMoralist->navigator</li>
     <li>memeMoralist->councillor</li>
   -->
-  <Shipborn.generalRules.rulesStrings>TODO</Shipborn.generalRules.rulesStrings>
+  <Shipborn.generalRules.rulesStrings>
+    <li>memeCreedFem->tripulació</li>
+    <li>memeCreedFem->nau</li>
+    <li>memeCreedFem->astronau</li>
+    <li>memeCreedFem->aeronau</li>
+    <li>memeCreedFem->armada</li>
+    <li>memeAdjective->estel·lar</li>
+    <li>memeAdjective->del buit</li>
+    <li>memeAdjective->còsmic</li>
+    <li>memeAdjective->celestial</li>
+    <li>memeAdjective->astral</li>
+    <li>memeAdjectiveFem->estel·lar</li>
+    <li>memeAdjectiveFem->còsmica</li>
+    <li>memeAdjectiveFem->celestial</li>
+    <li>memeAdjectiveFem->astral</li>
+    <li>memeHyphenPrefix->astro</li>
+    <li>memeHyphenPrefix->cosmo</li>
+    <li>memeConcept->espacial</li>
+    <li>memeConcept->estrelles</li>
+    <li>memeConcept->astronaus</li>
+    <li>memeConceptDef->l'espai</li>
+    <li>memeConceptDef->les estrelles</li>
+    <li>memeConceptDef->les astronaus</li>
+    <li>memeConceptDe->de l'espai</li>
+    <li>memeConceptDe->de les estrelles</li>
+    <li>memeConceptDe->de les astronaus</li>
+    <li>memeLeaderNoun->capità</li>
+    <li>memeLeaderNoun->cosmogènesic</li>
+    <li>memeLeaderNoun->pilot</li>
+    <li>memeLeaderAdjective->brillant</li>
+    <li>memeMoralist->rastrejador</li>
+    <li>memeMoralist->navegant</li>
+    <li>memeMoralist->conseller</li>
+  </Shipborn.generalRules.rulesStrings>
   
 </LanguageData>

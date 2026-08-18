@@ -10,7 +10,7 @@
   <!-- EN: Analyze... -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>Analitza...</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>
   <!-- EN: While analyzing the fleshmass neural tissue, {PAWN_nameDef} made a breakthrough!\n\nThis biosignature responds strongly when stimulated by a specific electric pulse. If used on the fleshmass heart itself, an electric signal could cause a tachycardiac overload and kill the heart.\n\nYou can now destroy the {BIOSIGNATURE} fleshmass heart by interacting with it directly. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>TODO</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>Mentre analitzava el teixit neuronal de la carnimassa, {PAWN_nameDef} va fer un gran avenç!\n\nAquesta biosignatura respon quan s'estimula amb un pols elèctric específic. Si s'utilitza en el propi cor carnimàssic, un senyal elèctric podria provocar una sobrecàrrega taquicàrdica i matar el cor.\n\nAra podeu destruir el cor carnimàssic {BIOSIGNATURE} interactuant-hi directament.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>
   <!-- EN: Analysis complete -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetterLabel>Anàlisi complet</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetterLabel>
   <!-- EN: Choose who should analyze this -->
@@ -20,9 +20,9 @@
   <!-- EN: Analyze neural lump -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>Analitza el nòdul neuronal</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>
   <!-- EN: Analysis progress -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>TODO</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>Progrés de l'anàlisi</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>
   <!-- EN: {PAWN_nameDef} has finished analyzing the fleshmass neural lump. The sample carries the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} is convinced that {PAWN_pronoun} can find a way to kill the fleshmass heart, but {PAWN_pronoun} needs to study more neural samples first. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>TODO</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef} ha acabat d'analitzar la massa neuronal de carn. La mostra porta la biosignatura {BIOSIGNATURE}.\n\n{PAWN_nameDef} està convençu{PAWN_gender ? t : da} que pot trobar una manera de matar el cor carnimàssic, però primer ha d'estudiar més mostres neuronals.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>
   <!-- EN: {PAWN_nameDef} has finished analyzing the fleshmass neural tissue. This tissue belongs to the previously studied biosignature {BIOSIGNATURE}, so you didn't gain any new knowledge.\n\nYou can destroy the {BIOSIGNATURE} fleshmass heart by interacting with it directly and inducing a tachycardiac overload. -->
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>TODO</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
   <!-- EN: Analysis complete -->
@@ -83,19 +83,19 @@
   <!-- EN: twisted meat -->
   <Meat_Twisted.label>carn pervertida</Meat_Twisted.label>
   <!-- EN: Pieces of twisted muscle and gristle, bloated with tumorous growths. These bizarre shreds of flesh must have come from a horrific creature. -->
-  <Meat_Twisted.description>TODO</Meat_Twisted.description>
+  <Meat_Twisted.description>Trossos de múscul i cartílags retorçats, inflats amb tumors. Aquests estranys trossos de carn deuen venir d'una criatura horrorosa.</Meat_Twisted.description>
   
   <!-- EN: monolith fragment -->
   <MonolithFragment.label>fragment de monòlit</MonolithFragment.label>
   <!-- EN: A broken-off fragment of the void monolith. It can be studied to learn more about void phenomena. -->
-  <MonolithFragment.description>TODO</MonolithFragment.description>
+  <MonolithFragment.description>Un fragment trencat del monòlit del buit. Es pot estudiar per a aprendre més sobre els fenòmens del buit.</MonolithFragment.description>
   
   <!-- EN: revenant flesh chunk -->
   <RevenantFleshChunk.label>tros de carn de retornat</RevenantFleshChunk.label>
   <!-- EN: A strip of leathery, desiccated flesh that sloughed off a revenant when it was harmed. The tissue oozes a dark, oily liquid. -->
-  <RevenantFleshChunk.description>TODO</RevenantFleshChunk.description>
+  <RevenantFleshChunk.description>Una tira de carn dessecada que es va desprendre d'un retornat quan se li va fer mal. El teixit supura un líquid fosc i oliós.</RevenantFleshChunk.description>
   <!-- EN: Analyze the revenant flesh chunk. Analyzing this tissue sample will give you tools to track and reveal the revenant. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>TODO</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>Analitzeu el tros de carn del retornat. L'anàlisi d'aquesta mostra de teixit us donarà eines per a fer un seguiment i revelar on està.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>
   <!-- EN: Analyze... -->
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>Analitza...</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and its method of hiding from sight. Your colonists can now see this revenant when it is nearby.\n\nPerhaps you'll be able to find it and kill it while it sleeps. -->
@@ -124,7 +124,7 @@
   <!-- EN: An articulated spine-like object from a dead revenant. It is a chaotic mesh of sharpened metal spokes, twisted into a warped cage. The material appears to be rough-cast black iron smeared in a dark, slippery fluid. Anyone who peers too closely inside its jagged form is left with a skull-splitting headache.\n\nYou can destroy the spine to permanently kill the revenant.\n\nAlternatively, you can secure it on a holding platform and wait for the revenant to re-emerge, so you can study the captured entity. -->
   <RevenantSpine.description>TODO</RevenantSpine.description>
   <!-- EN: Revenant reformed -->
-  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>TODO</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>
+  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>Retornat reformat</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>
   <!-- EN: After {PAWN_nameDef} chained the revenant spine to a holding platform, the revenant re-emerged.\n\nWhen killed, a revenant's body dissolves, leaving behind only its archotechnological spine. This cage of slick iron waits for a chance to grow a new body. -->
   <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>TODO</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>
   <!-- EN: Smash {0_label} -->
@@ -132,7 +132,7 @@
   <!-- EN: {PAWN_nameDef} smashed the revenant spine. It dissolved to reveal a shard of dark archotechnology. -->
   <RevenantSpine.comps.CompUsable.useMessage>TODO</RevenantSpine.comps.CompUsable.useMessage>
   <!-- EN: Smash the revenant spine to prevent it reforming into a new revenant. -->
-  <RevenantSpine.comps.CompRevenantSpine.activateDescString>TODO</RevenantSpine.comps.CompRevenantSpine.activateDescString>
+  <RevenantSpine.comps.CompRevenantSpine.activateDescString>Aixafeu la columna vertebral del retornat per a evitar que torni a aixecar-se de nou.</RevenantSpine.comps.CompRevenantSpine.activateDescString>
   <!-- EN: Smash... -->
   <RevenantSpine.comps.CompRevenantSpine.activateLabelString>Aixafa...</RevenantSpine.comps.CompRevenantSpine.activateLabelString>
   <!-- EN: smashing revenant spine -->

@@ -7,7 +7,10 @@
     <li>r_logentry->[INITIATOR_nameDef] [rambled] about [subjectInsane].</li>
     <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
   -->
-  <CreepyWords.logRulesInitiator.rulesStrings>TODO</CreepyWords.logRulesInitiator.rulesStrings>
+  <CreepyWords.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] sobre [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] sobre [subjectInsane].</li>
+  </CreepyWords.logRulesInitiator.rulesStrings>
   
   <!-- EN: strange chat -->
   <DisturbingChat.label>conversa estranya</DisturbingChat.label>
@@ -43,7 +46,36 @@
     <li>talkingAbout->ranting [maybeDarkSpeechAdverb] about</li>
     <li>talkingAbout->going into detail about</li>
   -->
-  <DisturbingChat.logRulesInitiator.rulesStrings>TODO</DisturbingChat.logRulesInitiator.rulesStrings>
+  <DisturbingChat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [disturbed] [RECIPIENT_nameDef] [talkingAbout] [subjectDisturbing].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [spoke] [darkSpeechAdverb] amb [RECIPIENT_nameDef] sobre [subjectDisturbing].</li>
+    <li>spoke->ha parlat</li>
+    <li>spoke->ha murmurat</li>
+    <li>spoke->s'ha posat a parlar</li>
+    <li>spoke->ha xiuxiuejat</li>
+    <li>spoke(p=5)->[rambled]</li>
+    <li>subjectDisturbing->[subjectDarkStudy]</li>
+    <li>subjectDisturbing->[subjectInsane]</li>
+    <li>disturbed->ha pertorbat</li>
+    <li>disturbed->ha horroritzat</li>
+    <li>disturbed->ha assustat</li>
+    <li>disturbed->ha molestat</li>
+    <li>disturbed->ha fet preocupar</li>
+    <li>disturbed->ha inestabilitzat</li>
+    <li>disturbed->ha desconcertat</li>
+    <li>disturbed->ha fet inquietar</li>
+    <li>disturbed->ha alarmat</li>
+    <li>disturbed->ha fet angoixar</li>
+    <li>disturbed->ha consternat</li>
+    <li>maybeDarkSpeechAdverb-></li>
+    <li>maybeDarkSpeechAdverb->[darkSpeechAdverb]</li>
+    <li>talkingAbout->al descriure</li>
+    <li>talkingAbout->a l'explicar</li>
+    <li>talkingAbout->al queixar-se [maybeDarkSpeechAdverb] sobre</li>
+    <li>talkingAbout->al parlar [maybeDarkSpeechAdverb] sobre</li>
+    <li>talkingAbout->al despotricar [maybeDarkSpeechAdverb] sobre</li>
+    <li>talkingAbout->a l'entrar en detalls sobre</li>
+  </DisturbingChat.logRulesInitiator.rulesStrings>
   
   <!-- EN: inhuman rambling -->
   <InhumanRambling.label>divagacions inhumanes</InhumanRambling.label>
@@ -51,7 +83,10 @@
     <li>r_logentry->[INITIATOR_nameDef] [rambled] about [subjectInsane].</li>
     <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] about [subjectInsane].</li>
   -->
-  <InhumanRambling.logRulesInitiator.rulesStrings>TODO</InhumanRambling.logRulesInitiator.rulesStrings>
+  <InhumanRambling.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] sobre [subjectInsane].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [rambled] [darkSpeechAdverb] sobre [subjectInsane].</li>
+  </InhumanRambling.logRulesInitiator.rulesStrings>
   
   <!-- EN: interrogate identity -->
   <InterrogateIdentity.label>interroga sobre la identitat</InterrogateIdentity.label>
@@ -96,7 +131,47 @@
     <li>identityTopic->cultural experiences</li>
     <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
   -->
-  <InterrogateIdentity.logRulesInitiator.rulesStrings>TODO</InterrogateIdentity.logRulesInitiator.rulesStrings>
+  <InterrogateIdentity.logRulesInitiator.rulesStrings>
+    <li>askedAbout->ha interrogat a [RECIPIENT_nameDef] sobre</li>
+    <li>askedAbout->ha preguntat a [RECIPIENT_nameDef] sobre</li>
+    <li>askedAbout->ha pressionat a [RECIPIENT_nameDef] per a obtenir informació detallada sobre</li>
+    <li>askedAbout->ha interrogat a [RECIPIENT_nameDef] sobre</li>
+    <li>askedAbout->ha interpel·lat a [RECIPIENT_nameDef] sobre</li>
+    <li>askedAbout->ha qüestionat a [RECIPIENT_nameDef] per a obtenir respostes sobre</li>
+    <li>askedAbout->li ha fet a [RECIPIENT_nameDef] preguntes incòmodes sobre</li>
+    <li>askedAbout->ha intentat enganxar a [RECIPIENT_nameDef] desprevingu[RECIPIENT_t_da] amb preguntes sobre</li>
+    <li>askedAbout->li ha cridat a [RECIPIENT_nameDef] i li ha exigit informació sobre</li>
+    <li>askedAbout->ha bombardejat a [RECIPIENT_nameDef] amb preguntes sobre</li>
+    <li>askedAbout->ha apretat a [RECIPIENT_nameDef] amb preguntes sobre</li>
+    <li>askedAbout->ha molestat a [RECIPIENT_nameDef] sobre</li>
+    <li>askedAbout->ha sondejat a [RECIPIENT_nameDef] sobre </li>
+    <li>identityTopic->el seu treball anterior</li>
+    <li>identityTopic->les seves relacions anteriors amb altres faccions</li>
+    <li>identityTopic->el seu naixement</li>
+    <li>identityTopic->la seva educació</li>
+    <li>identityTopic->els seus pares</li>
+    <li>identityTopic->els seus vells amics</li>
+    <li>identityTopic->la seva vida sentimental</li>
+    <li>identityTopic->el que li agrada i el que no li agrada</li>
+    <li>identityTopic->les seves respostes emocionals davant de situacions pertorbadores</li>
+    <li>identityTopic->les seves preferències alimentàries</li>
+    <li>identityTopic->quines són les seves pors més profundes</li>
+    <li>identityTopic->els seus records més apreciats</li>
+    <li>identityTopic->els seus pesars personals</li>
+    <li>identityTopic->els seus somnis i aspiracions</li>
+    <li>identityTopic->les seves raons per a unir-se a la seva facció actual</li>
+    <li>identityTopic->el seu paper en un esdeveniment important del seu passat</li>
+    <li>identityTopic->les seves aficions i passatemps</li>
+    <li>identityTopic->els seus valors i principis morals</li>
+    <li>identityTopic->què [RECIPIENT_el_la] motiva</li>
+    <li>identityTopic->els motius d'algunes de les seves decisions</li>
+    <li>identityTopic->les experiències traumàtiques passades</li>
+    <li>identityTopic->els processos del pensament humà</li>
+    <li>identityTopic->les seves experiències infantils</li>
+    <li>identityTopic->què li va passar a l'escola</li>
+    <li>identityTopic->quines experiències culturals ha tingut</li>
+    <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
+  </InterrogateIdentity.logRulesInitiator.rulesStrings>
   
   <!-- EN: occult teaching -->
   <OccultTeaching.label>ensenyaments esotèrics</OccultTeaching.label>
@@ -107,7 +182,13 @@
     <li>r_logentry->[INITIATOR_nameDef] went over the subject of [subjectDarkStudy].</li>
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson on [subjectDarkStudy].</li>
   -->
-  <OccultTeaching.logRulesInitiator.rulesStrings>TODO</OccultTeaching.logRulesInitiator.rulesStrings>
+  <OccultTeaching.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] ha explicat les seves teories sobre [subjectDarkStudy] a [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha compartit les seves idees sobre [subjectDarkStudy] amb [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha parlat sobre [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha repassat el tema de [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha ensenyat una lliçó sobre [subjectDarkStudy].</li>
+  </OccultTeaching.logRulesInitiator.rulesStrings>
   
   <!-- EN: prisoner study -->
   <PrisonerStudyAnomaly.label>estudi del presoner</PrisonerStudyAnomaly.label>
@@ -116,6 +197,10 @@
     <li>r_logentry->[INITIATOR_nameDef] inquired about [subjectDarkStudy].</li>
     <li>r_logentry->[RECIPIENT_nameDef] mumbled about [subjectInsane].</li>
   -->
-  <PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>TODO</PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
+  <PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] ha preguntat a [RECIPIENT_nameDef] per [subjectDarkStudy].</li>
+    <li>r_logentry->[INITIATOR_nameDef] ha preguntat per [subjectDarkStudy].</li>
+    <li>r_logentry->[RECIPIENT_nameDef] ha murmurat sobre [subjectInsane].</li>
+  </PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
   
 </LanguageData>

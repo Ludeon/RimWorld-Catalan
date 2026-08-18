@@ -105,13 +105,13 @@
   <SummonFleshbeastsPlayerCompleteText>{0_nameDef} ha acabat de realitzar el ritual {RITUAL_label}. Les carnibèsties emergeixen del terra!</SummonFleshbeastsPlayerCompleteText>
 
   <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
-  <GhoulInfusionCompleteText>TODO</GhoulInfusionCompleteText>
+  <GhoulInfusionCompleteText>{INVOKER_nameDef} li ha infós bioferrita a {TARGET_nameDef}. El ritual ha retorçat la ment de {TARGET_nameDef} i li ha fet mutar el cos. Ara és una criatura terrorífica que és coneguda amb el nom de necròfag. {INVOKER_nameDef} comparteix un enllaç psíquic amb {TARGET_nameDef}, que li permet controlar-{TARGET_gender ? lo : la}.\n\nEls necròfags mengen carn crua per a sobreviure. Si passen gana, poden tornar-se hostils.</GhoulInfusionCompleteText>
   
   <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
   <AttackersMayCastRitualMultipleTimes>Poden realitzar el ritual diverses vegades. Els heu de parar.</AttackersMayCastRitualMultipleTimes>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual. By manipulating space and time, {INVOKER_nameDef} has abducted {TARGET_nameDef} of the {FACTION_name} faction. The terrifying nature of the ritual has put {TARGET_nameDef} into a short-term coma. -->
-  <SkipAbductionPlayerCompleteText>TODO</SkipAbductionPlayerCompleteText>
+  <SkipAbductionPlayerCompleteText>{INVOKER_nameDef} ha acabat de realitzar el ritual {RITUAL}. Amb la manipulació de l'espai i el temps, {INVOKER_nameDef} ha segrestat a {TARGET_nameDef} de la facció {FACTION_name}. La naturalesa aterridora del ritual fet caure {TARGET_nameDef} en un coma de curta durada.</SkipAbductionPlayerCompleteText>
 
   <!-- EN: Fleshmass response -->
   <FleshmassResponseLabel>Resposta carnibèstica</FleshmassResponseLabel> 
@@ -124,21 +124,21 @@
   <!-- EN: Structures activated -->
   <VoidAwakeningStageTwoStructuresActivatedLabel>Estructures activades</VoidAwakeningStageTwoStructuresActivatedLabel>
   <!-- EN: As the second structure is activated, the darkness begins to intensify. An unnatural darkness will soon descend. Make sure your colony is prepared. Stockpile resources, build lights, craft disruptor flares, and reinforce defenses. Only those in the light will be safe.\n\nMore twisted structures will appear soon. -->
-  <VoidAwakeningStageOneStructuresActivatedText>TODO</VoidAwakeningStageOneStructuresActivatedText>
+  <VoidAwakeningStageOneStructuresActivatedText>A mesura que s'activa la segona estructura, la foscor comença a intensificar-se. Aviat s'estendrà una obscuritat antinatural per la zona. Assegureu-vos que la vostra colònia estigui preparada. Emmagatzemeu recursos, construïu llums, creeu bengales disruptores i reforceu les defenses. Només els que estiguin a la llum estaran segurs.\n\nAviat apareixeran més estructures pertorbadores.</VoidAwakeningStageOneStructuresActivatedText>
   <!-- EN: All void structures have been activated. The space around the void monolith has begun to shimmer. Get ready. -->
-  <VoidAwakeningStageTwoStructuresActivatedText>TODO</VoidAwakeningStageTwoStructuresActivatedText> 
+  <VoidAwakeningStageTwoStructuresActivatedText>S'han activat totes les estructures del buit. L'espai al voltant del monòlit ha començat a brillar. Prepareu-vos.</VoidAwakeningStageTwoStructuresActivatedText> 
   <!-- EN: {STUDIER_nameDef} teleported -->
-  <VoidAwakeningFinalStructuresActivatedLabel>TODO</VoidAwakeningFinalStructuresActivatedLabel> 
+  <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} s'ha teletransportat</VoidAwakeningFinalStructuresActivatedLabel> 
   <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power.\n\nThis metal hell is a connecting channel to an inhuman hyperintelligence. -->
-  <VoidAwakeningFinalStructuresActivatedText>TODO</VoidAwakeningFinalStructuresActivatedText> 
+  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} ha activat el monòlit i alguna cosa l'ha arrossegat del nostre espai-temps a un altre lloc desconegut.\n\nEs troba en una habitació amb punxes metàl·liques irregulars. Cada superfície està feta d'un fluid fosc i llis. L'aire vibra amb força.\n\nAquest infern metàl·lic és un canal de connexió amb una hiperintel·ligència inhumana.</VoidAwakeningFinalStructuresActivatedText> 
   <!-- EN: Shambler assault -->
   <VoidAwakeningShamblerArrivalLabel>Atac zombi</VoidAwakeningShamblerArrivalLabel>
   <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
   <VoidAwakeningShamblerArrivalText>Les estructures del buit han atret una horda de zombis. Prepareu-vos!</VoidAwakeningShamblerArrivalText>
   <!-- EN: Fleshbeast tunneling -->
-  <VoidAwakeningFleshbeastBurrowLabel>TODO</VoidAwakeningFleshbeastBurrowLabel>
+  <VoidAwakeningFleshbeastBurrowLabel>Les carnibèsties excaven túnels</VoidAwakeningFleshbeastBurrowLabel>
   <!-- EN: The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Get ready! -->
-  <VoidAwakeningFleshbeastBurrowText>TODO</VoidAwakeningFleshbeastBurrowText>
+  <VoidAwakeningFleshbeastBurrowText>El monòlit ha generat un senyal psíquic potent que atrau entitats properes.\n\nSota terra, es poden escoltar crits esgarrifants i urpes que esgarrapen a prop. Les bèsties de carn caven de pressa. Prepareu-vos!</VoidAwakeningFleshbeastBurrowText>
   <!-- EN: Metalhorror attack -->
   <VoidAwakeningMetalhorrorArrivalLabel>Atac horrometall</VoidAwakeningMetalhorrorArrivalLabel>
   <!-- EN: Metalhorrors are appearing near the void monolith. Get ready! -->
@@ -150,7 +150,7 @@
   <!-- EN: Embrace the void -->
   <VoidAwakeningBreadcrumbLetterLabel>Acceptació del buit</VoidAwakeningBreadcrumbLetterLabel>
   <!-- EN: While interacting with the void structure, {PAWN_nameDef} saw a vision of the void. For a moment {PAWN_pronoun} swam the black ocean of infinite depth and felt its endless inhuman power.\n\n{PAWN_nameDef} thinks there may be a way to control that power by embracing the void. If you were to permanently open the conduit to the void, rather than shutting it down, it could offer untold possibilities. -->
-  <VoidAwakeningBreadcrumbLetterText>TODO</VoidAwakeningBreadcrumbLetterText>
+  <VoidAwakeningBreadcrumbLetterText>Mentre interactuava amb l'estructura del buit, {PAWN_nameDef} va tenir una visió del buit. Per un moment, va nedar per un oceà negre d'una profunditat infinita i va sentir el seu poder inhumà sense fi.\n\nCreu que hi pot haver una manera de controlar aquest poder abraçant el buit. Si obrís permanentment la connexió amb el buit, en lloc de tancar-la, podria oferir possibilitats incalculables.</VoidAwakeningBreadcrumbLetterText>
 
   <!-- Void node -->
   <!-- EN: {PAWN_nameDef} returns -->
@@ -170,7 +170,7 @@
 
   <!-- Duplicate sickness -->
   <!-- EN: Duplicate sickness -->
-  <DuplicateSicknessLabel>TODO</DuplicateSicknessLabel>
+  <DuplicateSicknessLabel>Malaltia dels duplicats</DuplicateSicknessLabel>
   <!-- EN: Both {0_nameDef} and {0_possessive} duplicate are feeling unwell. Their condition seems to be related to the duplication process and is worsening. The psychic connection that binds them is causing them to slowly lose consciousness. The condition won't get better until one of them dies. -->
   <DuplicateSicknessText>TODO</DuplicateSicknessText>
 
@@ -214,15 +214,15 @@
   <!-- EN: Noctol attack -->
   <NoctolAttackLetterLabel>Atac nòctol</NoctolAttackLetterLabel>
   <!-- EN: The darkness has begun to stir. Inhuman chittering sounds emerge from somewhere within the inky black.\n\nBlack, insect-like noctols will attack from the darkness soon. -->
-  <NoctolAttackLetterText>TODO</NoctolAttackLetterText>
+  <NoctolAttackLetterText>La foscor es remou. Sons inhumans emergeixen d'algun lloc dins de la negror.\n\nEls nòctols obscurs, semblants a insectes, atacaran aviat des de la foscor.</NoctolAttackLetterText>
   <!-- EN: Darkness soon -->
   <DarknessWarningLetterLabel>Ben aviat serà fosc</DarknessWarningLetterLabel>
   <!-- EN: The darkness is almost here. Only those in direct light from lamps, torches, or flares will be safe.\n\nTo keep colonists in the light, you can restrict their movement in the SCHEDULE tab by assigning allowed areas. -->
-  <DarknessWarningLetterText>TODO</DarknessWarningLetterText>
+  <DarknessWarningLetterText>La foscor ja gairebé ha arribat. Només estaran segurs qui estigui a la llum directa de làmpades, torxes o bengales.\n\nPer a mantenir els colons a la llum, podeu restringir-ne el moviment a la pestanya d'horari i assignar-los les àrees permeses.</DarknessWarningLetterText>
   <!-- EN: Darkness wavering -->
   <DarknessWaveringLetterLabel>La foscor tremola</DarknessWaveringLetterLabel>
   <!-- EN: With the destruction of the noctolith, a faint crack appears in the darkness, before being filled with more of the sooty black.\n\nDestroy the remaining noctoliths to end the unnatural darkness. -->
-  <DarknessWaveringLetterText>TODO</DarknessWaveringLetterText>
+  <DarknessWaveringLetterText>Amb la destrucció del noctòlit, apareix una lleugera escletxa a la foscor, abans d'omplir-se amb més negror.\n\nDestruïu els noctòlits que queden per a acabar amb la foscor antinatural.</DarknessWaveringLetterText>
 
   <!-- Shambler Swarms -->
   <!-- EN: Shamblers approach -->
@@ -256,28 +256,28 @@
   <!-- EN: Nociosphere defeated -->
   <NociosphereDefeatedLabel>Nociosfera derrotada</NociosphereDefeatedLabel>
   <!-- EN: The nociosphere has been destroyed, leaving behind a number of valuable resources. -->
-  <NociosphereDefeatedText>TODO</NociosphereDefeatedText>
+  <NociosphereDefeatedText>La nociosfera ha estat destruïda. A les seves restes s'hi poden trobar recursos valuosos.</NociosphereDefeatedText>
   <!-- EN: Nociosphere destabilising -->
   <NociosphereBecomingUnstableLabel>Nociosfera desestabilitzant-se</NociosphereBecomingUnstableLabel> 
   <!-- EN: The nociosphere's energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed. -->
-  <NociosphereBecomingUnstableText>TODO</NociosphereBecomingUnstableText> 
+  <NociosphereBecomingUnstableText>El patró energètic de la nociosfera ha començat a canviar i a adaptar-se. En deu dies, ja no respondrà a la contenció.\n\nLa nociosfera s'activarà si no se la reprimeix.</NociosphereBecomingUnstableText> 
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
-  <NociosphereBecomingUnstableTextExtraSendable>TODO</NociosphereBecomingUnstableTextExtraSendable>
+  <NociosphereBecomingUnstableTextExtraSendable>Desfeu-vos de la nociosfera. Envieu-la a atacar una gran força hostil. Un cop finalitzat el seu atac, se n'anirà per sempre.</NociosphereBecomingUnstableTextExtraSendable>
   <!-- EN: Study the nociosphere to find a way to dispose of it. -->
   <NociosphereBecomingUnstableTextExtraNotSendable>Estudieu la nociosfera per a trobar una manera de desfer-vos-en.</NociosphereBecomingUnstableTextExtraNotSendable>
   <!-- EN: Nociosphere unstable -->
   <NociosphereUnstableLabel>Nociosfera inestable</NociosphereUnstableLabel>
   <!-- EN: The nociosphere has become unstable and is no longer responding to suppression. When its activity reaches 100%, it will awaken. -->
-  <NociosphereUnstableText>TODO</NociosphereUnstableText>
+  <NociosphereUnstableText>La nociosfera s'ha tornat inestable i ja no respon a la repressió. Quan la seva activitat arribi al 100 %, es despertarà.</NociosphereUnstableText>
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
-  <NociosphereUnstableTextExtraSendable>TODO</NociosphereUnstableTextExtraSendable> 
+  <NociosphereUnstableTextExtraSendable>Desfeu-vos de la nociosfera. Envieu-la a atacar una gran força hostil. Un cop finalitzat el seu atac, se n'anirà per sempre.</NociosphereUnstableTextExtraSendable> 
   <!-- EN: Prepare for the nociosphere's onslaught. -->
   <NociosphereUnstableTextExtraNotSendable>Prepareu-vos per a l’envestida de la nociosfera</NociosphereUnstableTextExtraNotSendable>
 
   <!-- EN: Strange corpse -->
   <UnnaturalCorpseArrivalLabel>Cadàver estrany</UnnaturalCorpseArrivalLabel>
   <!-- EN: An unnatural human corpse has appeared, as if out of thin air.\n\nOn further inspection, the corpse looks identical to {PAWN_nameDef}. Its skin feels waxy and warm to the touch.\n\nStudy the corpse to learn more about it. -->
-  <UnnaturalCorpseArrivalText>TODO</UnnaturalCorpseArrivalText>
+  <UnnaturalCorpseArrivalText>Ha aparegut un cadàver humà antinatural, com per art de màgia.\n\nEn una inspecció posterior, el cadàver sembla idèntic a {PAWN_nameDef}. La seva pell se sent com feta de cera i càlida al tacte.\n\nEstudieu el cadàver per a saber-ne més.</UnnaturalCorpseArrivalText>
 
   <!-- EN: Golden cube -->
   <GoldenCubeArrivalLabel>Cub daurat</GoldenCubeArrivalLabel>

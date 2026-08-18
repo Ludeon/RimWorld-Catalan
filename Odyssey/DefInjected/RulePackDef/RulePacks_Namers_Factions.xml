@@ -37,7 +37,62 @@
     <li>spaceCollectiveNoun->Marauders</li>
     <li>spaceCollectiveNoun->Reapers</li>
   -->
-  <NamerFactionSalvagers.rulePack.rulesStrings>TODO</NamerFactionSalvagers.rulePack.rulesStrings>
+  <NamerFactionSalvagers.rulePack.rulesStrings>
+    <li>r_name->Els recol·lectors [spaceAdj]</li>
+    <li>r_name->Els carronyaires [spaceAdj]</li>
+    <li>r_name->[AnimalBadassPl] [spaceAdj]</li>
+    <li>r_name->Els [AnimalBadassPl] [spaceAdj]</li>
+    <li>r_name->Els [Enemy]s [spaceAdj]</li>
+    <li>r_name->Els [Enemy]s [spaceNoun]</li>
+    <li>r_name->El [groupname] [spaceNounVar]</li>
+    <li>r_name->El [groupname] [spaceAdjVar]</li>
+    <li>r_name->Els [spaceNoun1] [spaceColor]</li>
+    <li>r_name->Els [spaceNoun1] [AdjectiveBadassPl]</li>
+    <li>r_name->Els [spaceCollectiveNoun] [spaceColor]</li>
+    <li>r_name->Els [spaceCollectiveNoun] [AdjectiveBadassPl]</li>
+    <li>r_name->Els [spaceNoun1] del [ConceptBadass]</li>
+    <li>r_name(p=2)->Els [spaceNoun1] de [NamePerson]</li>
+    <li>r_name(p=2)->Els [spaceCollectiveNoun] de [NamePerson]</li>
+    <li>r_name(p=2)->La [spaceCollectiveNounFem] de [NamePerson]</li>
+    <li>r_name(p=2)->Els [spaceCollectiveNoun] [spaceAdj] de [NamePerson]</li>
+    <li>r_name(p=2)->La [spaceCollectiveNounFem] [spaceAdjVar] de [NamePerson]</li>
+    <li>spaceAdj->Orbitals</li>
+    <li>spaceAdj->Cósmics</li>
+    <li>spaceAdj->Astrals</li>
+    <li>spaceAdj->Solars</li>
+    <li>spaceAdj->Celestials</li>
+    <li>spaceAdjVar->Celestial</li>
+    <li>spaceAdjVar->Orbital</li>
+    <li>spaceAdjVar->del Cosmos</li>
+    <li>spaceAdjVar->Astral</li>
+    <li>spaceAdjVar->Solar</li>
+    <li>spaceNoun->Estel·lars</li>
+    <li>spaceNoun->Lunars</li>
+    <li>spaceNoun->dels Cometes</li>
+    <li>spaceNoun->dels Asteroides</li>
+    <li>spaceNoun1->Cossos celestials</li>
+    <li>spaceNoun1->Sols</li>
+    <li>spaceNoun1->Cinturons d'asteroides</li>
+    <li>spaceNoun1->Asteroides</li>
+    <li>spaceNounVar->de l'Eclipsi</li>
+    <li>spaceNounVar->de les Estrelles</li>
+    <li>spaceNounVar->de la Lluna</li>
+    <li>spaceNounVar->del Cometa Haley</li>
+    <li>spaceNounVar->de l'Asteroide Final</li>
+    <li>spaceCollectiveNounFem->Armada</li>
+    <li>spaceCollectiveNounFem->Flota</li>
+    <li>spaceCollectiveNounFem->Flotilla</li>
+    <li>spaceCollectiveNounFem->Flota</li>
+    <li>spaceCollectiveNoun->Corsaris</li>
+    <li>spaceCollectiveNoun->Pirates</li>
+    <li>spaceCollectiveNoun->Rebuscadors</li>
+    <li>spaceCollectiveNoun->Segadors</li>
+    <li>spaceColor->Negres</li>
+    <li>spaceColor->Foscos</li>
+    <li>spaceColor->Rojos</li>
+    <li>spaceColor->Grisos</li>
+    <li>spaceColor->Daurats</li>
+  </NamerFactionSalvagers.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[tradeAdj] [tradeNoun]</li>
@@ -66,7 +121,42 @@
     <li>tradeNoun->emporium</li>
     <li>tradeNoun->nexus</li>
   -->
-  <NamerFactionTradersGuild.rulePack.rulesStrings>TODO</NamerFactionTradersGuild.rulePack.rulesStrings>
+  <NamerFactionTradersGuild.rulePack.rulesStrings>
+    <li>r_name->[tradeNounMasc] [tradeAdj]</li>
+    <li>r_name->[tradeNounFem] [tradeAdj]</li>
+    <li>r_name->[tradeNounMasc] [tradeAdjMasc]</li>
+    <li>r_name->[tradeNounFem] [tradeAdjFem]</li>
+    <li>tradeAdj->del comerç</li>
+    <li>tradeAdjFem->comercial</li>
+    <li>tradeAdjFem->orbital</li>
+    <li>tradeAdjMasc->comercial</li>
+    <li>tradeAdjMasc->orbital</li>
+    <li>tradeAdjMasc->espacial</li>
+    <li>tradeAdjFem->espacial</li>
+    <li>tradeAdjMasc->republicà</li>
+    <li>tradeAdjFem->republicana</li>
+    <li>tradeAdjMasc->còsmic</li>
+    <li>tradeAdjFem->còsmica</li>
+    <li>tradeAdjMasc->aeroespacial</li>
+    <li>tradeAdjFem->aeroespacial</li>
+    <li>tradeAdj->del buit</li>
+    <li>tradeAdj->dels voramons</li>
+    <li>tradeNounMasc->gremi</li>
+    <li>tradeNounMasc->consorci</li>
+    <li>tradeNounMasc->sindicat</li>
+    <li>tradeNounMasc->patronal</li>
+    <li>tradeNounFem->aliança</li>
+    <li>tradeNounMasc->càrtel</li>
+    <li>tradeNounFem->coalició</li>
+    <li>tradeNounFem->federació</li>
+    <li>tradeNounMasc->conglomerat</li>
+    <li>tradeNounFem->corporació</li>
+    <li>tradeNounFem->companyia</li>
+    <li>tradeNounFem->xarxa</li>
+    <li>tradeNounMasc->basar</li>
+    <li>tradeNounMasc->empori</li>
+    <li>tradeNounMasc->nexe</li>
+  </NamerFactionTradersGuild.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[platAdj] [platform]</li>
@@ -105,6 +195,42 @@
     <li>platform->dock</li>
     <li>platform->ring</li>
   -->
-  <NamerSettlementTradersGuild.rulePack.rulesStrings>TODO</NamerSettlementTradersGuild.rulePack.rulesStrings>
+  <NamerSettlementTradersGuild.rulePack.rulesStrings>
+    <li>r_name->[platformMasc] [platAdj]</li>
+    <li>r_name->[platformFem] [platAdj]</li>
+    <li>r_name->[platformMasc] [platAdjMasc]</li>
+    <li>r_name->[platformFem] [platAdjFem]</li>
+    <li>platAdj->de llum estel·lar</li>
+    <li>platAdj->de llum solar</li>
+    <li>platAdjMasc->nebulós</li>
+    <li>platAdjFem->nebulosa</li>
+    <li>platAdj->de pols estel·lar</li>
+    <li>platAdj->d'Orió</li>
+    <li>platAdj->de l'horitzó</li>
+    <li>platAdjMasc->galàctic</li>
+    <li>platAdjFem->galàctica</li>
+    <li>platAdjMasc->còsmic</li>
+    <li>platAdjFem->còsmica</li>
+    <li>platAdj->del buit</li>
+    <li>platAdj->asteroidal</li>
+    <li>platAdj->de cometa</li>
+    <li>platAdj->de quàsar</li>
+    <li>platAdj->de púlsar</li>
+    <li>platAdj->de meteorits</li>
+    <li>platAdj->lunar</li>
+    <li>platAdj->solar</li>
+    <li>platAdj->celestial</li>
+    <li>platAdj->de raigs lunars</li>
+    <li>platAdj->espacial</li>
+    <li>platAdj->astral</li>
+    <li>platAdj->boreal</li>
+    <li>platformFem->plataforma</li>
+    <li>platformMasc->estació</li>
+    <li>platformMasc->centre</li>
+    <li>platformFem->estació</li>
+    <li>platformFem->base</li>
+    <li>platformMasc->moll</li>
+    <li>platformMasc->anell</li>
+  </NamerSettlementTradersGuild.rulePack.rulesStrings>
   
 </LanguageData>
