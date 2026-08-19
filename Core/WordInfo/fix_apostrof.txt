@@ -1,0 +1,14 @@
+﻿KEY;1_FIXED_INDEF;2_AUX
+// Fixes for indefinite plural phrases that need plural agreement.
+//
+// Usage syntax: {lookup: TEXT; FILE_NO_EXT; INDEX}
+// TEXT is the exact indefinite form to access a row.
+// FILE_NO_EXT is the file in which TEXT should be looked up. Omit the extension.
+// INDEX determines the column to be used. Can be omitted if you need index 1.
+// 1_FIXED_INDEF returns the corrected phrase.
+// 2_AUX returns the auxiliary verb or agreement token used by the caller.
+
+de acer;d'acer
+de obsidiana;d'obsidiana
+de or;d'or
+de urani;d'urani

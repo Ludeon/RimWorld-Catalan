@@ -7,21 +7,20 @@
     <li>deliveredLetterText(pawnOnMap==false)->The mysterious cargo has been delivered. It is a simple cube that shines like gold but is impossible to scratch. It is light and warm to the touch. The way light plays across its surface is captivating.</li>
   -->
   <MysteriousCargoCube.questContentRules.rulesStrings>
-<li>deliveredLetterLabel->Càrrega misteriosa</li>
-<li>deliveredLetterText(pawnOnMap==true)->S'ha lliurat la càrrega misteriosa. És un cub senzill que brilla com l'or però que és impossible de ratllar. És lleuger i càlid al tacte. La manera com la llum es reflecteix a la seva superfície és captivadora.\n\n[pawn_nameDef] se sent inexplicablement atret[pawn_x_a] pel cub.</li>
-<li>deliveredLetterText(pawnOnMap==false)->S'ha lliurat la càrrega misteriosa. És un cub senzill que brilla com l'or però que és impossible de ratllar. És lleuger i càlid al tacte. La manera com la llum es reflecteix a la seva superfície és captivadora.</li>
-
-</MysteriousCargoCube.questContentRules.rulesStrings>
+    <li>deliveredLetterLabel->Càrrega misteriosa</li>
+    <li>deliveredLetterText(pawnOnMap==true)->S'ha lliurat la càrrega misteriosa. És un cub senzill que brilla com l'or però que és impossible de ratllar. És lleuger i càlid al tacte. La manera com la llum es reflecteix a la seva superfície és captivadora.\n\n[pawn_nameDef] se sent inexplicablement atret[pawn_x_a] pel cub.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->S'ha lliurat la càrrega misteriosa. És un cub senzill que brilla com l'or però que és impossible de ratllar. És lleuger i càlid al tacte. La manera com la llum es reflecteix a la seva superfície és captivadora.</li>
+  </MysteriousCargoCube.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
     <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has an odd request. [asker_pronoun] would like you to accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
   -->
   <MysteriousCargoCube.questDescriptionRules.rulesStrings>
-<li>questDescription(askerIsNull==true)->Una IA anònima s'ha posat en contacte amb una sol·licitud estranya. Voldria que accepteu una càrrega no especificada. Evita totes les teves preguntes sobre la càrrega.\n\nSi accepteu, us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
-<li>questDescription(asker_factionLeader==true)->[asker_nameFull], [asker_faction_leaderTitle] de la facció [asker_faction_name], us fa una sol·licitud estranya. Vol que accepteu una càrrega no especificada. Quan li feu preguntes per a obtenir més detalls, evita respondre. A la seva veu s'hi nota desesperació.\n\nSi accepteu, [asker_nameFull] us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
-<li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], un [asker_royalTitleInCurrentFaction] de [asker_faction_name], us fa una sol·licitud estranya. Exigeix que accepteu una càrrega sense especificar. Quan li feu preguntes per a tenir més detalls, evita respondre. A la seva veu s'hi nota desesperació.\n\nSi accepteu, [asker_nameFull] us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
-</MysteriousCargoCube.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Una IA anònima s'ha posat en contacte amb una sol·licitud estranya. Voldria que accepteu una càrrega no especificada. Evita totes les teves preguntes sobre la càrrega.\n\nSi accepteu, us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_nameFull], [asker_faction_leaderTitle] de la facció [asker_faction_name], us fa una sol·licitud estranya. Vol que accepteu una càrrega no especificada. Quan li feu preguntes per a obtenir més detalls, evita respondre. A la seva veu s'hi nota desesperació.\n\nSi accepteu, [asker_nameFull] us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], un [asker_royalTitleInCurrentFaction] de [asker_faction_name], us fa una sol·licitud estranya. Exigeix que accepteu una càrrega sense especificar. Quan li feu preguntes per a tenir més detalls, evita respondre. A la seva veu s'hi nota desesperació.\n\nSi accepteu, [asker_nameFull] us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
+  </MysteriousCargoCube.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>
   -->
@@ -34,17 +33,19 @@
     <li>deliveredLetterText->The mysterious cargo has been delivered. It resembles a thick, jagged human spine made out of a rough-cast black metal. It looks like it's covered in a dark fluid.\n\nThe spine vibrates in response to touch and twists angrily. You can study it on a holding platform to learn more.</li>
   -->
   <MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
-<li>deliveredLetterLabel->Càrrega misteriosa</li>
-<li>deliveredLetterText->S'ha lliurat la càrrega desconeguda. S'assembla a una columna vertebral humana gruixuda i irregular feta d'un metall negre fos. Sembla que estigui cobert d'un fluid fosc.\n\nLa columna vertebral vibra quan se la toca i es recargola irada. Podeu estudiar-la en una plataforma de retenció per a obtenir més informació.</li>
-</MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
+    <li>deliveredLetterLabel->Càrrega misteriosa</li>
+    <li>deliveredLetterText->S'ha lliurat la càrrega desconeguda. S'assembla a una columna vertebral humana gruixuda i irregular feta d'un metall negre fos. Sembla que estigui cobert d'un fluid fosc.\n\nLa columna vertebral vibra quan se la toca i es recargola irada. Podeu estudiar-la en una plataforma de retenció per a obtenir més informació.</li>
+  </MysteriousCargoRevenantSpine.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
     <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has an odd request. [asker_pronoun] would like you to accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
   -->
-  <MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings><li>questDescription(askerIsNull==true)->Una IA anònima s'ha posat en contacte amb una sol·licitud estranya. Voldria que accepteu una càrrega no especificada. Evita totes les teves preguntes sobre la càrrega.\n\nSi accepteu, us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
-<li>questDescription(asker_factionLeader==true)->[asker_nameFull], [asker_faction_leaderTitle] de la facció [asker_faction_name], us fa una sol·licitud estranya. Vol que accepteu una càrrega no especificada. Quan li feu preguntes per a obtenir més detalls, evita respondre. A la seva veu s'hi nota desesperació.\n\nSi accepteu, [asker_nameFull] us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
-<li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], un [asker_royalTitleInCurrentFaction] de [asker_faction_name], us fa una sol·licitud estranya. Exigeix que accepteu una càrrega sense especificar. Quan li feu preguntes per a tenir més detalls, evita respondre. A la seva veu s'hi nota desesperació.\n\nSi accepteu, [asker_nameFull] us lliurarà la càrrega misteriosa amb una càpsula de transport.</li></MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
+  <MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Una IA anònima s'ha posat en contacte amb una sol·licitud estranya. Voldria que accepteu una càrrega no especificada. Evita totes les teves preguntes sobre la càrrega.\n\nSi accepteu, us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_nameFull], [asker_faction_leaderTitle] de la facció [asker_faction_name], us fa una sol·licitud estranya. Vol que accepteu una càrrega no especificada. Quan li feu preguntes per a obtenir més detalls, evita respondre. A la seva veu s'hi nota desesperació.\n\nSi accepteu, [asker_nameFull] us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], un [asker_royalTitleInCurrentFaction] de [asker_faction_name], us fa una sol·licitud estranya. Exigeix que accepteu una càrrega sense especificar. Quan li feu preguntes per a tenir més detalls, evita respondre. A la seva veu s'hi nota desesperació.\n\nSi accepteu, [asker_nameFull] us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
+  </MysteriousCargoRevenantSpine.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>
   -->
@@ -58,18 +59,20 @@
     <li>deliveredLetterText(pawnOnMap==false)->The mysterious cargo has been delivered. It appears to be a human corpse.\n\nOn further inspection, the corpse looks identical to [pawn_nameDef]. Its skin feels waxy and warm to the touch. [pawn_nameDef] will be deeply unsettled by its presence.\n\nStudy the corpse to learn more about it.</li>
   -->
   <MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
-<li>deliveredLetterLabel->Càrrega misteriosa</li>
-<li>deliveredLetterText(pawnOnMap==true)->La càrrega misteriosa s'ha lliurat. Sembla ser un cadàver humà.\n\nEn una inspecció posterior, el cadàver sembla ser [pawn_name]. La seva pell se sent com de cera i càlida al tacte. [pawn_nameDef] està molt inquiet[pawn_x_a] per la seva presència.\n\nEstudieu el cadàver per a saber-ne més.</li>
-<li>deliveredLetterText(pawnOnMap==false)->S'ha lliurat la misteriosa càrrega. Sembla ser un cadàver humà.\n\nEn una inspecció posterior, el cadàver sembla ser [pawn_name]. La seva pell se sent com de cera i càlida al tacte. [pawn_nameDef] se sentirà inquiet[pawn_x_a] per la seva presència.\n\nEstudieu el cadàver per a saber-ne més.</li>
-</MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
+    <li>deliveredLetterLabel->Càrrega misteriosa</li>
+    <li>deliveredLetterText(pawnOnMap==true)->La càrrega misteriosa s'ha lliurat. Sembla ser un cadàver humà.\n\nEn una inspecció posterior, el cadàver sembla ser [pawn_name]. La seva pell se sent com de cera i càlida al tacte. [pawn_nameDef] està molt inquiet[pawn_x_a] per la seva presència.\n\nEstudieu el cadàver per a saber-ne més.</li>
+    <li>deliveredLetterText(pawnOnMap==false)->S'ha lliurat la misteriosa càrrega. Sembla ser un cadàver humà.\n\nEn una inspecció posterior, el cadàver sembla ser [pawn_name]. La seva pell se sent com de cera i càlida al tacte. [pawn_nameDef] se sentirà inquiet[pawn_x_a] per la seva presència.\n\nEstudieu el cadàver per a saber-ne més.</li>
+  </MysteriousCargoUnnaturalCorpse.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has reached out with an odd request. It would like you to accept some unspecified cargo. It avoids all your questions about the cargo.\n\nIf you accept, it will deliver the mystery cargo by transport pod.</li>
     <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has an odd request. [asker_pronoun] would like you to accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has an odd request. [asker_pronoun] demands that you accept some unspecified cargo. When pressed for more details, [asker_pronoun] avoids the question. There is desperation in [asker_possessive] voice.\n\nIf you accept, [asker_nameFull] will deliver the mystery cargo by transport pod.</li>
   -->
-  <MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings><li>questDescription(askerIsNull==true)->Una IA anònima s'ha posat en contacte amb una sol·licitud estranya. Voldria que accepteu una càrrega no especificada. Evita totes les teves preguntes sobre la càrrega.\n\nSi accepteu, us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
-<li>questDescription(asker_factionLeader==true)->[asker_nameFull], [asker_faction_leaderTitle] de la facció [asker_faction_name], us fa una sol·licitud estranya. Vol que accepteu una càrrega no especificada. Quan li feu preguntes per a obtenir més detalls, evita respondre. A la seva veu s'hi nota desesperació.\n\nSi accepteu, [asker_nameFull] us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
-<li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], un [asker_royalTitleInCurrentFaction] de [asker_faction_name], us fa una sol·licitud estranya. Exigeix que accepteu una càrrega sense especificar. Quan li feu preguntes per a tenir més detalls, evita respondre. A la seva veu s'hi nota desesperació.\n\nSi accepteu, [asker_nameFull] us lliurarà la càrrega misteriosa amb una càpsula de transport.</li></MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
+  <MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Una IA anònima s'ha posat en contacte amb una sol·licitud estranya. Voldria que accepteu una càrrega no especificada. Evita totes les teves preguntes sobre la càrrega.\n\nSi accepteu, us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_nameFull], [asker_faction_leaderTitle] de la facció [asker_faction_name], us fa una sol·licitud estranya. Vol que accepteu una càrrega no especificada. Quan li feu preguntes per a obtenir més detalls, evita respondre. A la seva veu s'hi nota desesperació.\n\nSi accepteu, [asker_nameFull] us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], un [asker_royalTitleInCurrentFaction] de [asker_faction_name], us fa una sol·licitud estranya. Exigeix que accepteu una càrrega sense especificar. Quan li feu preguntes per a tenir més detalls, evita respondre. A la seva veu s'hi nota desesperació.\n\nSi accepteu, [asker_nameFull] us lliurarà la càrrega misteriosa amb una càpsula de transport.</li>
+  </MysteriousCargoUnnaturalCorpse.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mysterious cargo</li>
   -->
