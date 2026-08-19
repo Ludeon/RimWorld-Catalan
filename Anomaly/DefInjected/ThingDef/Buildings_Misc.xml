@@ -6,21 +6,21 @@
   <!-- EN: A thermal projection device powered by scavenged shards of dark archotechnology. The device burns bioferrite to agitate gas molecules in the atmosphere, raising the local outdoor temperature. The building itself also produces huge amounts of waste heat. -->
   <AtmosphericHeater.description>TODO</AtmosphericHeater.description>
   <!-- EN: Target outdoor temperature -->
-  <AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>TODO</AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>
+  <AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>Temperatura objectiu de l'exterior</AtmosphericHeater.comps.Comp_AtmosphericHeater.inspectString>
   
   <!-- EN: tactical turret bullet -->
   <Bullet_TacticalTurret.label>bala de torreta tàctica</Bullet_TacticalTurret.label>
   
   <!-- EN: delayed metalhorror emerge -->
-  <DelayedMetalhorrorEmerger.label>TODO</DelayedMetalhorrorEmerger.label>
+  <DelayedMetalhorrorEmerger.label>sorgeix un horrometal amb retard</DelayedMetalhorrorEmerger.label>
   
   <!-- EN: dirt cube sculpture -->
-  <DirtCubeSculpture.label>TODO</DirtCubeSculpture.label>
+  <DirtCubeSculpture.label>escultura del cub bruta</DirtCubeSculpture.label>
   <!-- EN: A hastily constructed sculpture resembling a cube. -->
-  <DirtCubeSculpture.description>TODO</DirtCubeSculpture.description>
+  <DirtCubeSculpture.description>Una escultura construïda precipitadament que s'assembla a un cub.</DirtCubeSculpture.description>
   
   <!-- EN: electric inhibitor -->
-  <ElectricInhibitor.label>TODO</ElectricInhibitor.label>
+  <ElectricInhibitor.label>inhibidor elèctric</ElectricInhibitor.label>
   <!-- EN: A device that emits a specially tuned electromagnetic field which numbs the neural activity of captured entities. As long as it is powered, it improves the containment strength of any holding platform that it is pointed at. The electric field does not affect humans or normal animals. -->
   <ElectricInhibitor.description>TODO</ElectricInhibitor.description>
   
@@ -40,46 +40,46 @@
   <EndlessPit3x3c.description>Un forat amb les vores llises que s’estén sense parar cap avall.</EndlessPit3x3c.description>
   
   <!-- EN: floor etching -->
-  <FloorEtching.label>TODO</FloorEtching.label>
+  <FloorEtching.label>dibuix al terra</FloorEtching.label>
   <!-- EN: A crude sketch drawn onto the ground.\n\nWith sufficient time, you may be able to decipher it. Select a colonist and right-click the etching to inspect it. -->
-  <FloorEtching.description>TODO</FloorEtching.description>
+  <FloorEtching.description>Un esbós senzill dibuixat a terra.\n\nAmb el temps suficient, és possible que pugueu desxifrar-lo. Seleccioneu un colon i feu clic amb el botó dret al dibuix per a estudiar-lo.</FloorEtching.description>
   <!-- EN: Choose someone to decipher this floor etching. -->
-  <FloorEtching.comps.CompFloorEtching.activateDescString>TODO</FloorEtching.comps.CompFloorEtching.activateDescString>
+  <FloorEtching.comps.CompFloorEtching.activateDescString>Escolliu qui hauria de desxifrar aquest dibuix.</FloorEtching.comps.CompFloorEtching.activateDescString>
   <!-- EN: Decipher... -->
-  <FloorEtching.comps.CompFloorEtching.activateLabelString>TODO</FloorEtching.comps.CompFloorEtching.activateLabelString>
+  <FloorEtching.comps.CompFloorEtching.activateLabelString>Desxifra...</FloorEtching.comps.CompFloorEtching.activateLabelString>
   <!-- EN: Deciphering floor etching: {1}s -->
-  <FloorEtching.comps.CompFloorEtching.activatingString>TODO</FloorEtching.comps.CompFloorEtching.activatingString>
+  <FloorEtching.comps.CompFloorEtching.activatingString>Desxifrant el dibuix del terra: {1} s</FloorEtching.comps.CompFloorEtching.activatingString>
   <!-- EN: Deciphering floor etching -->
-  <FloorEtching.comps.CompFloorEtching.activatingStringPending>TODO</FloorEtching.comps.CompFloorEtching.activatingStringPending>
+  <FloorEtching.comps.CompFloorEtching.activatingStringPending>Desxifrant el dibuix del terra</FloorEtching.comps.CompFloorEtching.activatingStringPending>
   <!-- EN: Choose who should do this -->
   <FloorEtching.comps.CompFloorEtching.guiLabelString>Escolliu qui ho hauria de fer</FloorEtching.comps.CompFloorEtching.guiLabelString>
   <!-- EN: Send a colonist to decipher this. -->
-  <FloorEtching.comps.CompFloorEtching.inspectString>TODO</FloorEtching.comps.CompFloorEtching.inspectString>
+  <FloorEtching.comps.CompFloorEtching.inspectString>Envia un colon a desxifrar-ho.</FloorEtching.comps.CompFloorEtching.inspectString>
   <!-- EN: Decipher floor etching -->
-  <FloorEtching.comps.CompFloorEtching.jobString>TODO</FloorEtching.comps.CompFloorEtching.jobString>
+  <FloorEtching.comps.CompFloorEtching.jobString>Desxifra el dibuix del terra</FloorEtching.comps.CompFloorEtching.jobString>
   <!-- EN: {PAWN_nameDef} has successfully deciphered the floor etching. -->
-  <FloorEtching.comps.CompFloorEtching.messageCompletedString>TODO</FloorEtching.comps.CompFloorEtching.messageCompletedString>
+  <FloorEtching.comps.CompFloorEtching.messageCompletedString>{PAWN_nameDef} ha desxifrat correctament el dibuix del terra.</FloorEtching.comps.CompFloorEtching.messageCompletedString>
   
   <!-- EN: floor etching -->
-  <FloorEtchingRambling.label>TODO</FloorEtchingRambling.label>
+  <FloorEtchingRambling.label>dibuix al terra</FloorEtchingRambling.label>
   <!-- EN: A crude sketch drawn onto the ground.\n\nWith sufficient time, you may be able to decipher it. Select a colonist and right-click the etching to inspect it. -->
-  <FloorEtchingRambling.description>TODO</FloorEtchingRambling.description>
+  <FloorEtchingRambling.description>Un esbós senzill dibuixat a terra.\n\nAmb el temps suficient, és possible que pugueu desxifrar-lo. Seleccioneu un colon i feu clic amb el botó dret al dibuix per a estudiar-lo.</FloorEtchingRambling.description>
   <!-- EN: Choose someone to decipher this floor etching. -->
-  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activateDescString>TODO</FloorEtchingRambling.comps.CompFloorEtchingRambling.activateDescString>
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activateDescString>Escolliu qui hauria de desxifrar aquest dibuix.</FloorEtchingRambling.comps.CompFloorEtchingRambling.activateDescString>
   <!-- EN: Decipher... -->
-  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activateLabelString>TODO</FloorEtchingRambling.comps.CompFloorEtchingRambling.activateLabelString>
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activateLabelString>Desxifra...</FloorEtchingRambling.comps.CompFloorEtchingRambling.activateLabelString>
   <!-- EN: Deciphering floor etching: {1}s -->
-  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingString>TODO</FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingString>
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingString>Desxifrant el dibuix del terra: {1} s</FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingString>
   <!-- EN: Deciphering floor etching -->
-  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingStringPending>TODO</FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingStringPending>
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingStringPending>Desxifrant el dibuix del terra</FloorEtchingRambling.comps.CompFloorEtchingRambling.activatingStringPending>
   <!-- EN: Choose who should do this -->
   <FloorEtchingRambling.comps.CompFloorEtchingRambling.guiLabelString>Escolliu qui ho hauria de fer</FloorEtchingRambling.comps.CompFloorEtchingRambling.guiLabelString>
   <!-- EN: Send a colonist to decipher this. -->
-  <FloorEtchingRambling.comps.CompFloorEtchingRambling.inspectString>TODO</FloorEtchingRambling.comps.CompFloorEtchingRambling.inspectString>
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.inspectString>Envia un colon a desxifrar-ho.</FloorEtchingRambling.comps.CompFloorEtchingRambling.inspectString>
   <!-- EN: Decipher floor etching -->
-  <FloorEtchingRambling.comps.CompFloorEtchingRambling.jobString>TODO</FloorEtchingRambling.comps.CompFloorEtchingRambling.jobString>
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.jobString>Desxifra el dibuix del terra</FloorEtchingRambling.comps.CompFloorEtchingRambling.jobString>
   <!-- EN: {PAWN_nameDef} has successfully deciphered the floor etching. -->
-  <FloorEtchingRambling.comps.CompFloorEtchingRambling.messageCompletedString>TODO</FloorEtchingRambling.comps.CompFloorEtchingRambling.messageCompletedString>
+  <FloorEtchingRambling.comps.CompFloorEtchingRambling.messageCompletedString>{PAWN_nameDef} ha desxifrat correctament el dibuix del terra.</FloorEtchingRambling.comps.CompFloorEtchingRambling.messageCompletedString>
   
   <!-- EN: frenzy inducer -->
   <FrenzyInducer.label>inductor de frenesí</FrenzyInducer.label>
@@ -89,33 +89,33 @@
   <!-- EN: gray box -->
   <GrayBox.label>capsa grisa</GrayBox.label>
   <!-- EN: A strange gray container. It is featureless and the surfaces are smooth. The material is not metal, concrete, or any other identifiable material. -->
-  <GrayBox.description>TODO</GrayBox.description>
+  <GrayBox.description>Un estrany recipient gris. No té cap marca ni res que l'identifiqui i les superfícies són llises. El material no és metall, formigó o cap altre material identificable.</GrayBox.description>
   
   <!-- EN: door -->
   <GrayDoor.label>porta</GrayDoor.label>
   <!-- EN: A strange gray door. -->
   <GrayDoor.description>Una porta grisa estranya.</GrayDoor.description>
   <!-- EN: Choose someone to force this door open. -->
-  <GrayDoor.comps.CompLabyrinthDoor.activateDescString>TODO</GrayDoor.comps.CompLabyrinthDoor.activateDescString>
+  <GrayDoor.comps.CompLabyrinthDoor.activateDescString>Escolliu qui hauria de forçar aquesta porta.</GrayDoor.comps.CompLabyrinthDoor.activateDescString>
   <!-- EN: Force open... -->
-  <GrayDoor.comps.CompLabyrinthDoor.activateLabelString>TODO</GrayDoor.comps.CompLabyrinthDoor.activateLabelString>
+  <GrayDoor.comps.CompLabyrinthDoor.activateLabelString>Obre a la força...</GrayDoor.comps.CompLabyrinthDoor.activateLabelString>
   <!-- EN: forcing door open: {1}s -->
-  <GrayDoor.comps.CompLabyrinthDoor.activatingString>TODO</GrayDoor.comps.CompLabyrinthDoor.activatingString>
+  <GrayDoor.comps.CompLabyrinthDoor.activatingString>obrint la porta a la força: {1} s</GrayDoor.comps.CompLabyrinthDoor.activatingString>
   <!-- EN: forcing door open -->
-  <GrayDoor.comps.CompLabyrinthDoor.activatingStringPending>TODO</GrayDoor.comps.CompLabyrinthDoor.activatingStringPending>
+  <GrayDoor.comps.CompLabyrinthDoor.activatingStringPending>obrint la porta a la força</GrayDoor.comps.CompLabyrinthDoor.activatingStringPending>
   <!-- EN: Choose who should do this -->
   <GrayDoor.comps.CompLabyrinthDoor.guiLabelString>Escolliu qui ho hauria de fer</GrayDoor.comps.CompLabyrinthDoor.guiLabelString>
   <!-- EN: Force this door open -->
-  <GrayDoor.comps.CompLabyrinthDoor.jobString>TODO</GrayDoor.comps.CompLabyrinthDoor.jobString>
+  <GrayDoor.comps.CompLabyrinthDoor.jobString>Obre a la força aquesta porta</GrayDoor.comps.CompLabyrinthDoor.jobString>
   <!-- EN: {PAWN_nameDef} has successfully forced the door open. -->
-  <GrayDoor.comps.CompLabyrinthDoor.messageCompletedString>TODO</GrayDoor.comps.CompLabyrinthDoor.messageCompletedString>
+  <GrayDoor.comps.CompLabyrinthDoor.messageCompletedString>{PAWN_nameDef} ha obert a la força la porta.</GrayDoor.comps.CompLabyrinthDoor.messageCompletedString>
   
   <!-- EN: gray statue -->
   <GrayStatueDeadlifeDust.label>estàtua grisa</GrayStatueDeadlifeDust.label>
   <!-- EN: A strange, twisted sculpture shaped into a disturbing form. It hums gently with some strange internal energy. -->
   <GrayStatueDeadlifeDust.description>TODO</GrayStatueDeadlifeDust.description>
   <!-- EN: Gray statue activated -->
-  <GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterLabel>TODO</GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterLabel>
+  <GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterLabel>S'ha activat l'estàtua grisa</GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterLabel>
   <!-- EN: Reacting to {PAWN_nameDef}'s presence, the strange statue has begun to release a cloud of deadlife dust!\n\nThis dust-like substance will settle on nearby corpses and raise them as dangerous shamblers. -->
   <GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>TODO</GrayStatueDeadlifeDust.comps.CompGrayStatueGas.letterText>
   
@@ -124,7 +124,7 @@
   <!-- EN: A strange, twisted sculpture shaped into a disturbing form. It hums gently with some strange internal energy. -->
   <GrayStatueTeleporter.description>TODO</GrayStatueTeleporter.description>
   <!-- EN: {PAWN_nameDef} teleported -->
-  <GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterLabel>TODO</GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterLabel>
+  <GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterLabel>s'ha teleportat {PAWN_nameDef}</GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterLabel>
   <!-- EN: After approaching the strange statue, {PAWN_nameDef} blinked and found {PAWN_objective}self transported to a new location. -->
   <GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterText>TODO</GrayStatueTeleporter.comps.CompGrayStatueTeleporter.letterText>
   
@@ -136,7 +136,7 @@
   <!-- EN: tactical turret gun -->
   <Gun_TacticalTurret.label>pistola de torreta tàctica</Gun_TacticalTurret.label>
   <!-- EN: A simple automatic gun made to be mounted on a turret. -->
-  <Gun_TacticalTurret.description>TODO</Gun_TacticalTurret.description>
+  <Gun_TacticalTurret.description>Una arma automàtica senzilla fabricada per a muntar-se en una torreta.</Gun_TacticalTurret.description>
   <!-- EN: tactical turret gun -->
   <Gun_TacticalTurret.verbs.Verb_Shoot.label>pistola de torreta tàctica</Gun_TacticalTurret.verbs.Verb_Shoot.label>
   
@@ -146,7 +146,7 @@
   <HoldingPlatform.description>TODO</HoldingPlatform.description>
   
   <!-- EN: holding spot -->
-  <HoldingSpot.label>TODO</HoldingSpot.label>
+  <HoldingSpot.label>lloc de contenció</HoldingSpot.label>
   <!-- EN: A spot for holding dangerous entities. Not as good as a steel holding platform, but a lot better than nothing.\n\nDowned entities can be secured at a holding spot where they can be studied. Increase containment strength by building strong walls and doors, and other special containment devices. -->
   <HoldingSpot.description>TODO</HoldingSpot.description>
   
@@ -155,7 +155,7 @@
   <!-- EN: A twisted pillar of jagged blade-like structures made of dark, oily metal. It pulses with energy, powered by dark archotechnology at its core.\n\nIf you destroy the pillar, you can recover a shard of dark archotech. -->
   <Noctolith.description>TODO</Noctolith.description>
   <!-- EN: Contains: Unknown\nDestroy noctoliths to end the unnatural darkness. -->
-  <Noctolith.comps.CompInspectString.inspectString>TODO</Noctolith.comps.CompInspectString.inspectString>
+  <Noctolith.comps.CompInspectString.inspectString>No se sap què conté.\nDestruïu els noctòlits per a acabar amb la foscor antinatural.</Noctolith.comps.CompInspectString.inspectString>
   
   <!-- EN: pit burrow -->
   <PitBurrow.label>forat del cau</PitBurrow.label>

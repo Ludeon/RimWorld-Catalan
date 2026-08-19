@@ -4,75 +4,102 @@
   <!-- EN: advanced gravtech -->
   <AdvancedGravtech.label>gravitecnologia avançada</AdvancedGravtech.label>
   <!-- EN: Build advanced gravship parts. -->
-  <AdvancedGravtech.description>TODO</AdvancedGravtech.description>
+  <AdvancedGravtech.description>Permet construir parts de gravinau.</AdvancedGravtech.description>
   <!-- EN:
     <li>subject->advanced gravtech</li>
     <li>subject_story->researched advanced gravship components</li>
     <li>subject_gerund->researching signal jamming</li>
   -->
-  <AdvancedGravtech.generalRules.rulesStrings>TODO</AdvancedGravtech.generalRules.rulesStrings>
+  <AdvancedGravtech.generalRules.rulesStrings>
+    <li>subject->gravitècnica avançada</li>
+    <li>subject_story->ha investigat els components avançats de les gravinaus</li>
+    <li>subject_gerund->investiga la inhibició de senyals</li>
+</AdvancedGravtech.generalRules.rulesStrings>
   
   <!-- EN: basic gravtech -->
   <BasicGravtech.label>gravitecnologia bàsica</BasicGravtech.label>
   <!-- EN: Build a gravship and use it to travel the planet. Without a grav anchor, launching a gravship will abandon your current map. -->
-  <BasicGravtech.description>TODO</BasicGravtech.description>
+  <BasicGravtech.description>Permet construir gravinaus i fer-les servir per a viatjar pel planeta. Sense una àncora gravitatòria, si es llança una gravinau, s'abandonarà el vostre mapa actual.</BasicGravtech.description>
   <!-- EN:
     <li>subject->gravship</li>
     <li>subject_story->flew a gravship for a tourism company</li>
     <li>subject_gerund->constructing gravships</li>
   -->
-  <BasicGravtech.generalRules.rulesStrings>TODO</BasicGravtech.generalRules.rulesStrings>
+  <BasicGravtech.generalRules.rulesStrings>
+    <li>subject->gravinaus</li>
+    <li>subject_story->pilotava gravinaus per a una empresa turística</li>
+    <li>subject_gerund->construint gravinaus</li>
+
+</BasicGravtech.generalRules.rulesStrings>
   
   <!-- EN: beam weapons -->
-  <BeamWeapons.label>TODO</BeamWeapons.label>
+  <BeamWeapons.label>armes de rajos</BeamWeapons.label>
   <!-- EN: Construct weapons that use gamma ray beams to burn through armor and ignite targets. -->
-  <BeamWeapons.description>TODO</BeamWeapons.description>
+  <BeamWeapons.description>Permet construir armes que fan servir rajos gamma per a cremar armadures i incendiar objectius.</BeamWeapons.description>
   <!-- EN:
     <li>subject->beam weapons</li>
     <li>subject_story->made gamma-ray beam weaponry</li>
     <li>subject_gerund->making beam weapons</li>
   -->
-  <BeamWeapons.generalRules.rulesStrings>TODO</BeamWeapons.generalRules.rulesStrings>
+  <BeamWeapons.generalRules.rulesStrings>
+<li>subject->armes de rajos</li>
+<li>subject_story->ha fabricat armament de raigs gamma</li>
+<li>subject_gerund->fabricant armes de rajos</li>
+</BeamWeapons.generalRules.rulesStrings>
   
   <!-- EN: fishing -->
   <Fishing.label>pesca</Fishing.label>
   <!-- EN: Place zones where your colonists can go fishing. -->
-  <Fishing.description>TODO</Fishing.description>
+  <Fishing.description>Permet establir zones de pesca on els colons hi poden anar a pescar.</Fishing.description>
   <!-- EN: Fishing zone -->
-  <Fishing.customUnlockTexts.0>TODO</Fishing.customUnlockTexts.0>
+  <Fishing.customUnlockTexts.0>Zones de pesca</Fishing.customUnlockTexts.0>
   <!-- EN:
     <li>subject->fishing</li>
     <li>subject_story->fished for a living</li>
     <li>subject_gerund->fishing</li>
   -->
-  <Fishing.generalRules.rulesStrings>TODO</Fishing.generalRules.rulesStrings>
+  <Fishing.generalRules.rulesStrings>
+    <li>subject->pesca</li>
+    <li>subject_story->pescava per a sobreviure</li>
+    <li>subject_gerund->pescant</li>
+</Fishing.generalRules.rulesStrings>
   
   <!-- EN: heavy bridges -->
-  <HeavyBridges.label>TODO</HeavyBridges.label>
+  <HeavyBridges.label>ponts forts</HeavyBridges.label>
   <!-- EN: Build heavy bridges that support heavy buildings. You can use this to build whole colonies on the water. -->
-  <HeavyBridges.description>TODO</HeavyBridges.description>
+  <HeavyBridges.description>Permet construir ponts forts que aguantin el pes d'edificis pesats. Podeu utilitzar-los per a construir colònies senceres sobre l'aigua.</HeavyBridges.description>
   <!-- EN:
     <li>subject->construction</li>
     <li>subject_story->built bridges</li>
     <li>subject_gerund->constructing</li>
   -->
-  <HeavyBridges.generalRules.rulesStrings>TODO</HeavyBridges.generalRules.rulesStrings>
+  <HeavyBridges.generalRules.rulesStrings>
+    <li>subject->construcció</li>
+    <li>subject->construcció de ponts</li>
+
+    <li>subject_story->va construir ponts</li>
+    <li>subject_gerund->construint ponts</li>
+</HeavyBridges.generalRules.rulesStrings>
   
   <!-- EN: hunter drone -->
   <HunterDrones.label>drons caçadors</HunterDrones.label>
   <!-- EN: Build traps and wearable packs that release hunter drones. These explosive drones pursue hostiles and detonate when within range. -->
-  <HunterDrones.description>TODO</HunterDrones.description>
+  <HunterDrones.description>Construeix trampes i paquets portàtils que alliberin drons caçadors. Aquests drons explosius persegueixen als hostils i detonen quan estan dins del seu abast.</HunterDrones.description>
   <!-- EN:
     <li>subject->hunter drones</li>
     <li>subject_story->made self-detonating drones</li>
     <li>subject_gerund->making hunter drones</li>
   -->
-  <HunterDrones.generalRules.rulesStrings>TODO</HunterDrones.generalRules.rulesStrings>
+  <HunterDrones.generalRules.rulesStrings>
+    <li>subject->drons de caça</li>
+    <li>subject_story->va fer drons autodetonants</li>
+    <li>subject_gerund->fabricant drons caçadors</li>
+</HunterDrones.generalRules.rulesStrings>
   
   <!-- EN: orbital tech -->
   <OrbitalTech.label>tecnologia orbital</OrbitalTech.label>
   <!-- EN: Construct buildings and apparel that can protect against the harsh vacuum of space. -->
-  <OrbitalTech.description>TODO</OrbitalTech.description>
+  <OrbitalTech.description>Permet construir estructures i indumentària que protegeix contra les dures condicions de l'espai.</OrbitalTech.description>
   <!-- EN:
     <li>subject->orbital apparel</li>
     <li>subject_story->assembled liners for vacsuits</li>
@@ -83,12 +110,21 @@
     <li>subject_gerund->assembling rebreathers</li>
     <li>subject_gerund->testing vacsuits</li>
   -->
-  <OrbitalTech.generalRules.rulesStrings>TODO</OrbitalTech.generalRules.rulesStrings>
+  <OrbitalTech.generalRules.rulesStrings>
+<li>subjecte->roba orbital</li>
+<li>subject_story->cosia vestits espacials</li>
+<li>subject_story->provava vestits espacials</li>
+<li>subject_story->va desenvolupar tecnologies de rerespiració</li>
+<li>subject_story->va estudiar els efectes de la radiació espacial sobre el teixit humà</li>
+<li>subject_gerund->muntant vestits espacials</li>
+<li>subject_gerund->muntant rerespiradors</li>
+<li>subject_gerund->provant vestits espacials</li>
+</OrbitalTech.generalRules.rulesStrings>
   
   <!-- EN: shuttle -->
   <Shuttles.label>llançadora</Shuttles.label>
   <!-- EN: Build a shuttle which can be used for long distance travel or to reach orbit. This requires a shuttle engine which can be bought from orbital traders, salvaged from other shuttles, or obtained through quests. -->
-  <Shuttles.description>TODO</Shuttles.description>
+  <Shuttles.description>Permet construir llançadores que es puguin utilitzar per a viatjar llargues distàncies o per a arribar a l'òrbita. Això requereix un motor de llançadora que es pot comprar als comerciants orbitals, es pot recuperar en altres llançadores estavellades o obtenir-les en algunes missions.</Shuttles.description>
   <!-- EN:
     <li>subject->shuttles</li>
     <li>subject_story->flew in a shuttle</li>
@@ -96,14 +132,20 @@
     <li>subject_gerund->engineering shuttles</li>
     <li>subject_gerund->piloting shuttles</li>
   -->
-  <Shuttles.generalRules.rulesStrings>TODO</Shuttles.generalRules.rulesStrings>
+  <Shuttles.generalRules.rulesStrings>
+    <li>subject->llançadores</li>
+    <li>subject_story->va viatjar en una llançadora</li>
+    <li>subject_story->va dissenyar una llançadora</li>
+    <li>subject_gerund->dissenyant llançadores</li>
+    <li>subject_gerund->pilotant llançadores</li>
+</Shuttles.generalRules.rulesStrings>
   
   <!-- EN: standard gravtech -->
   <StandardGravtech.label>gravitecnologia estàndard</StandardGravtech.label>
   <!-- EN: Build complex gravship parts. -->
-  <StandardGravtech.description>TODO</StandardGravtech.description>
+  <StandardGravtech.description>Permet construir parts complexes de les gravinaus.</StandardGravtech.description>
   <!-- EN: You now have the technology to build large thrusters. These require vacstone blocks which can be obtained from orbital asteroids.\n\nYou can travel to orbital locations using transport pods, shuttles, or a gravship. Make sure to equip your colonists with vacsuits or other advanced armors to survive in space. -->
-  <StandardGravtech.discoveredLetterText>TODO</StandardGravtech.discoveredLetterText>
+  <StandardGravtech.discoveredLetterText>Ara teniu la tecnologia per a construir grans propulsors. Aquests requereixen blocs de vacuorita que es poden obtenir a partir d'asteroides orbitals.\n\nPodeu viatjar a ubicacions orbitals mitjançant càpsules de transport, llançadores o una gravinau. Assegureu-vos d'equipar els vostres colons amb vestits espacials o altres armadures avançades per a sobreviure a l'espai.</StandardGravtech.discoveredLetterText>
   <!-- EN: About: Getting vacstone -->
   <StandardGravtech.discoveredLetterTitle>Sobre com aconseguir vacuorita</StandardGravtech.discoveredLetterTitle>
   <!-- EN:
@@ -111,6 +153,10 @@
     <li>subject_story->researched complex gravship components</li>
     <li>subject_gerund->researching gravships</li>
   -->
-  <StandardGravtech.generalRules.rulesStrings>TODO</StandardGravtech.generalRules.rulesStrings>
+  <StandardGravtech.generalRules.rulesStrings>
+    <li>subject->gravitècnia</li>
+    <li>subject_story->ha investigat components de gravinau complexos</li>
+    <li>subject_gerund->investigant gravinaus</li>
+</StandardGravtech.generalRules.rulesStrings>
   
 </LanguageData>

@@ -6,7 +6,7 @@
   <!-- EN: A huge creature that resembles a disfigured combination of a bear and other animals. It is vicious without limit.\n\nIt's not known if this is a combination of natural animals or a poor imitation of animal life created by an insane machine mind. -->
   <Chimera.description>TODO</Chimera.description>
   <!-- EN: chimera -->
-  <Chimera.comps.CompChimera.simpleAnimalLabel>TODO</Chimera.comps.CompChimera.simpleAnimalLabel>
+  <Chimera.comps.CompChimera.simpleAnimalLabel>quimera</Chimera.comps.CompChimera.simpleAnimalLabel>
   <!-- EN: left claw -->
   <Chimera.tools.left_claw.label>urpa esquerra</Chimera.tools.left_claw.label>
   <!-- EN: claw -->
@@ -38,17 +38,18 @@
   <!-- EN: devourer -->
   <Devourer.label>devorador</Devourer.label>
   <!-- EN: A massive monster with a gaping toothed maw and a stubby, snake-like body. The devourer can leap several times its body length to swallow a person whole. Powerful stomach acids rapidly digest the still-living victim. The remains are regurgitated soon after. -->
-  <Devourer.description>TODO</Devourer.description>
+  <Devourer.description>Un monstre enorme amb una boca sempre oberta amb dents terrorífiques i un cos gruixut i semblant a una serp. El devorador pot saltar diverses vegades l'alçària del seu cos per a empassar-se una persona sencera. Els àcids estomacals potents digereixen ràpidament la víctima encara viva. Les restes es regurgiten poc després.</Devourer.description>
   <!-- EN: Digesting {PAWN_nameDef}: {SECONDS} seconds left -->
-  <Devourer.comps.CompDevourer.digestingInspector>TODO</Devourer.comps.CompDevourer.digestingInspector>
+  <Devourer.comps.CompDevourer.digestingInspector>Digereix {PAWN_nameDef}: queden {SECONDS} segons</Devourer.comps.CompDevourer.digestingInspector>
   <!-- EN: A devourer swallowed {PAWN_nameDef} whole! Kill the devourer before it digests {PAWN_nameDef}. -->
-  <Devourer.comps.CompDevourer.messageDigested>TODO</Devourer.comps.CompDevourer.messageDigested>
+  <Devourer.comps.CompDevourer.messageDigested>Un devorador s'ha empassat {PAWN_nameDef} {PAWN_gender ? sencer : sencera}! Mateu el devorador abans que digereixi {PAWN_nameDef}.
+</Devourer.comps.CompDevourer.messageDigested>
   <!-- EN: The devourer has regurgitated {PAWN_nameDef}. -->
-  <Devourer.comps.CompDevourer.messageDigestionCompleted>TODO</Devourer.comps.CompDevourer.messageDigestionCompleted>
+  <Devourer.comps.CompDevourer.messageDigestionCompleted>El devorador ha regurgitat {PAWN_nameDef}.</Devourer.comps.CompDevourer.messageDigestionCompleted>
   <!-- EN: {PAWN_nameDef} emerged from the devourer. -->
-  <Devourer.comps.CompDevourer.messageEmerged>TODO</Devourer.comps.CompDevourer.messageEmerged>
+  <Devourer.comps.CompDevourer.messageEmerged>{PAWN_nameDef} ha sortit de dins del devorador.</Devourer.comps.CompDevourer.messageEmerged>
   <!-- EN: {PAWN_nameDef} emerged from the devourer's corpse. -->
-  <Devourer.comps.CompDevourer.messageEmergedCorpse>TODO</Devourer.comps.CompDevourer.messageEmergedCorpse>
+  <Devourer.comps.CompDevourer.messageEmergedCorpse>{PAWN_nameDef} ha emergit del cadàver del devorador.</Devourer.comps.CompDevourer.messageEmergedCorpse>
   <!-- EN: left fin -->
   <Devourer.tools.left_fin.label>aleta esquerra</Devourer.tools.left_fin.label>
   <!-- EN: fin -->

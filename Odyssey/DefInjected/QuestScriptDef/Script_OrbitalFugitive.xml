@@ -37,6 +37,28 @@
     <li>criminal->Felon</li>
     <li>criminal->Renegade</li>
   -->
-  <OrbitalFugitive.questNameRules.rulesStrings>TODO</OrbitalFugitive.questNameRules.rulesStrings>
+  <OrbitalFugitive.questNameRules.rulesStrings>
+    <li>questName->La caça de [fugitive_name]</li>
+    <li>questName->Recompensa per [fugitive_name]</li>
+    <li>questName(fugitive_gender==Female)->La caça de la [criminalFem] [fugitive_name]</li>
+    <li>questName(fugitive_gender==Female)->Recompensa per la [criminalFem] [fugitive_name]</li>
+    <li>questName(fugitive_gender==Female)->[fugitive_nameDef], la [criminalFem]</li>
+    <li>questName(fugitive_gender==Female)->La [criminalFem] orbital</li>
+    <li>questName(fugitive_gender!=Female)->La caça del [criminalMale] [fugitive_name]</li>
+    <li>questName(fugitive_gender!=Female)->Recompensa pel [criminalMale] [fugitive_name]</li>
+    <li>questName(fugitive_gender!=Female)->[fugitive_nameDef], el [criminalMale]</li>
+    <li>questName(fugitive_gender!=Female)->El [criminalMale] orbital</li>
+    <li>criminalMale->criminal</li>
+    <li>criminalMale->fugitiu</li>
+    <li>criminalMale->bandoler</li>
+    <li>criminalMale->delinqüent</li>
+    <li>criminalMale->renegat</li>
+    <li>criminalMale->bandit</li>
+    <li>criminalFem->criminal</li>
+    <li>criminalFem->fugitiva</li>
+    <li>criminalFem->bandolera</li>
+    <li>criminalFem->delinqüent</li>
+    <li>criminalFem->renegada</li>
+</OrbitalFugitive.questNameRules.rulesStrings>
   
 </LanguageData>

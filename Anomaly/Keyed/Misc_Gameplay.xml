@@ -40,7 +40,7 @@
   <!-- EN: {PAWN_nameDef} hypnotized -->
   <LetterLabelPawnHypnotized>{PAWN_nameDef} hipnotitzat</LetterLabelPawnHypnotized>
   <!-- EN: {PAWN_nameDef} has been hypnotized by a revenant and is now rambling incoherently about nightmarish images and ideas.\n\nKilling the revenant will end the hypnosis.\n\nThe revenant uses psychic powers to twist the perceptions of those around it, making itself invisible. However, it can still be hunted by following the black smears that it leaves. The revenant will be revealed if hit by explosive weapons, firefoam, EMPs, fire, or disruptor flares.\n\nIf not killed, the revenant will continue to hypnotize new victims. -->
-  <LetterPawnHypnotized>TODO</LetterPawnHypnotized>
+  <LetterPawnHypnotized>A {PAWN_nameDef} l'ha hipnotitzat un retornat i ara divaga de manera incoherent sobre imatges lúgubres i idees pertorbadores.\n\nSi es mata el retornat, acabarà la hipnosi.\n\nEl retornat utilitza poders psíquics per a torçar les percepcions dels que l'envolten i aconseguirà fer-se invisible als seus ulls. Tanmateix, encara es pot caçar seguint les taques negres que deixa. Es podrà veure el retornat si se li fa mal amb armes explosives, escuma de foc, PEM, foc o bengales disruptores.\n\nSi no se'l mata, el retornat continuarà hipnotitzant més víctimes.</LetterPawnHypnotized>
   <!-- EN: Revenant flesh chunk -->
   <LetterRevenantFleshChunkLabel>Tros de carn de retornat</LetterRevenantFleshChunkLabel>
   <!-- EN: The wounded revenant left behind a piece of itself. You can analyze this flesh chunk to learn how to track the revenant. -->
@@ -104,7 +104,7 @@
   <!-- EN: Undercave unstable -->
   <LetterLabelUndercaveCollapsing>Sotacova inestable</LetterLabelUndercaveCollapsing> 
   <!-- EN: The dreadmeld's death has shocked the fleshmass and caused the cave system to destabilize. The fleshmass that supported the cavern is already beginning to deteriorate. Within half a day, the entire cavern will collapse.\n\nGet out of the undercave before it's too late! -->
-  <LetterUndercaveCollapsing>TODO</LetterUndercaveCollapsing>
+  <LetterUndercaveCollapsing>La mort del pavormalgama ha commocionat la carnimassa i ha provocat que el sistema de coves es desestabilitzi. La carnimassa que sostenia la caverna ja comença a deteriorar-se. En mig dia, tota la caverna s'ensorrarà.\n\nSortiu de la cova abans que sigui massa tard!</LetterUndercaveCollapsing>
 
   <!-- Holding platform -->
   <!-- EN: Holding -->
@@ -122,7 +122,7 @@
   <!-- EN: Entity escape -->
   <LetterLabelEscapingFromHoldingPlatform>Una entitat ha escapat</LetterLabelEscapingFromHoldingPlatform> 
   <!-- EN: The following entities have escaped their restraints:\n\n{0}\n\nBuild stronger containment rooms to stop entities escaping. Entities are less likely to escape from holding platforms with high containment strength, which comes from strong walls and doors, good lighting, and special containment devices. -->
-  <LetterEscapingFromHoldingPlatform>TODO</LetterEscapingFromHoldingPlatform> 
+  <LetterEscapingFromHoldingPlatform>Les entitats següents han escapat de les seves contencions:\n\n{0}\n\nConstruïu sales de contenció més fortes per a evitar que s'escapin. Les entitats tenen menys probabilitat d'escapar de les plataformes de contenció amb una força de contenció gran, que prové de parets i portes fortes, una bona il·luminació i dispositius especials de contenció.</LetterEscapingFromHoldingPlatform> 
   <!-- EN: requires {0} -->
   <HoldingPlatformRequiresStrength>cal {0}</HoldingPlatformRequiresStrength>
   <!-- EN: No holding platforms available. -->
@@ -133,7 +133,7 @@
   <!-- EN: Obelisk activation -->
   <MutatorObeliskLetterLabel>Activació de l'obelisc</MutatorObeliskLetterLabel>
   <!-- EN: The obelisk is activating! It swells with grisly energy as the air crackles around it. It is about to self-destruct in a great explosion, but before it does, it will use its hideous transformative power on any creature it can detect. -->
-  <MutatorObeliskLetter>TODO</MutatorObeliskLetter>
+  <MutatorObeliskLetter>L'obelisc s'activa! S'infla amb una energia espantosa mentre l'aire crepita al seu voltant. Està a punt d'autodestruir-se en una gran explosió, però abans de fer-ho, utilitzarà el seu horrible poder transformador en qualsevol criatura que pugui detectar.</MutatorObeliskLetter>
 
   <!-- EN: Obelisk mutation -->
   <ObeliskTentacleLetterLabel>Mutació de l’obelisc</ObeliskTentacleLetterLabel>
@@ -166,7 +166,7 @@
   <ObeliskFleshmassLungLetter>TODO</ObeliskFleshmassLungLetter>
 
   <!-- EN: Obelisk interaction -->
-  <MutatorObeliskFailedLungLetterLabel>TODO</MutatorObeliskFailedLungLetterLabel>
+  <MutatorObeliskFailedLungLetterLabel>Interacció amb l'obelisc</MutatorObeliskFailedLungLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} chest ache for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
   <MutatorObeliskFailedLungLetter>TODO</MutatorObeliskFailedLungLetter>
 
@@ -191,10 +191,10 @@
   <ObeliskDuplicationFailedLetter>TODO</ObeliskDuplicationFailedLetter>
   
   <!-- EN: {PAWN_nameDef} has successfully triggered obelisk duplication. -->
-  <ObeliskDuplicationSuccessMessage>TODO</ObeliskDuplicationSuccessMessage>
+  <ObeliskDuplicationSuccessMessage>{PAWN_nameDef} ha activat correctament la duplicació de l'obelisc.</ObeliskDuplicationSuccessMessage>
 
   <!-- EN: Hostile obelisk duplicate -->
-  <ObeliskHostileDuplicateLetterLabel>TODO</ObeliskHostileDuplicateLetterLabel>
+  <ObeliskHostileDuplicateLetterLabel>Duplicat hostil de l'obelisc</ObeliskHostileDuplicateLetterLabel>
   <!-- EN: While {PAWN_nameDef} interacted with the obelisk, it pulsed with energy and generated a flash of light. {PAWN_nameDef} found {PAWN_objective}self face to face with a copy of {PAWN_objective}self. The duplicate is approaching {PAWN_nameDef} with murderous intent! -->
   <ObeliskHostileDuplicateLetter>TODO</ObeliskHostileDuplicateLetter>
 
@@ -224,12 +224,12 @@
   <MutatorObeliskSpawned>Ha sortit una carnibèstia del terra.</MutatorObeliskSpawned>
 
   <!-- EN: Fully activate the warped obelisk. -->
-  <ObeliskActivateDesc>TODO</ObeliskActivateDesc>
+  <ObeliskActivateDesc>Activa completament l'obelisc deformat</ObeliskActivateDesc>
   <!-- EN: Warning: The warped obelisk is unstable. Fully activating it will provoke a dangerous response and will cause the obelisk to self-destruct. -->
   <ObeliskActivateDescWarning>TODO</ObeliskActivateDescWarning>
 
   <!-- EN: Requires {0} shards to disable -->
-  <ObeliskDeactivateMissingShards>TODO</ObeliskDeactivateMissingShards>
+  <ObeliskDeactivateMissingShards>{replace: Calen {0} fragments; "Calen 1 fragments"-"Cal 1 fragment"} per a desactivar-lo.</ObeliskDeactivateMissingShards>
   
   <!-- Activity / Supression -->
   <!-- EN: Activity level -->
@@ -561,11 +561,11 @@
   <UnnaturalCorpseStudyCompletedLetterDesc>TODO</UnnaturalCorpseStudyCompletedLetterDesc>
 
   <!-- EN: Corpse shard -->
-  <UnnaturalCorpseDeactivatedLetter>TODO</UnnaturalCorpseDeactivatedLetter>
+  <UnnaturalCorpseDeactivatedLetter>Resquill de cadàver</UnnaturalCorpseDeactivatedLetter>
   <!-- EN: {PAWN_nameDef} extracted an archotech shard from the unnatural corpse, the corpse then began to violently bloat and exploded into gore. -->
   <UnnaturalCorpseDeactivatedLetterDesc>TODO</UnnaturalCorpseDeactivatedLetterDesc>
   <!-- EN: {PAWN_nameDef} is feeling better already. -->
-  <UnnaturalCorpseDeactivatedLetterDescAppended>TODO</UnnaturalCorpseDeactivatedLetterDescAppended>
+  <UnnaturalCorpseDeactivatedLetterDescAppended>{PAWN_nameDef} ja se sent millor.</UnnaturalCorpseDeactivatedLetterDescAppended>
   
   <!-- EN: Destroy unnatural corpse -->
   <UnnaturalCorpseDeactivate>Destrueix un cadàver antinatural</UnnaturalCorpseDeactivate>
@@ -601,43 +601,43 @@
 
   <!-- Golden Cube -->
   <!-- EN: {PAWN_labelShort}'s obsession with the golden cube has intensified. -->
-  <MessageGoldenCubeSeverityIncreased>TODO</MessageGoldenCubeSeverityIncreased>
+  <MessageGoldenCubeSeverityIncreased>L'obsessió de {PAWN_labelShort} pel cub daurat ha augmentat més.</MessageGoldenCubeSeverityIncreased>
   <!-- EN: {PAWN_labelShort} is experiencing cube withdrawal. -->
-  <MessageGoldenCubeWithdrawal>TODO</MessageGoldenCubeWithdrawal>
+  <MessageGoldenCubeWithdrawal>{PAWN_labelShort} experimenta la síndrome d'abstinència del cub.</MessageGoldenCubeWithdrawal>
   <!-- EN: {PAWN_labelShort}'s cube withdrawal has worsened. -->
-  <MessageGoldenCubeWithdrawalIncreased>TODO</MessageGoldenCubeWithdrawalIncreased>
+  <MessageGoldenCubeWithdrawalIncreased>La síndrome d'abstinència del cub de {PAWN_labelShort} ha empitjorat.</MessageGoldenCubeWithdrawalIncreased>
   <!-- EN: {PAWN_labelShort} has become intrigued by the golden cube. -->
-  <MessageGoldenCubeInterest>TODO</MessageGoldenCubeInterest>
+  <MessageGoldenCubeInterest>{PAWN_labelShort} se sent {PAWN_gender ? intrigat : intrigada} pel cub daurat.</MessageGoldenCubeInterest>
   <!-- EN: {PAWN_labelShort} is enraged that {PAWN_possessive} cube sculpture was removed. {PAWN_pronoun} might become violent. -->
-  <MessageGoldenCubeSculptureDestroyed>TODO</MessageGoldenCubeSculptureDestroyed>
+  <MessageGoldenCubeSculptureDestroyed>{PAWN_labelShort} està {PAWN_gender ? enfurismat : enfurismada} perquè s'hagi tret la seva escultura del cub. Pot arribar a tenir actituds violentes.</MessageGoldenCubeSculptureDestroyed>
 
   <!-- EN: {PAWN_labelShort} refuses to deactivate the golden cube. -->
-  <CannotDisableCube>TODO</CannotDisableCube>
+  <CannotDisableCube>{PAWN_labelShort} es nega a desactivar el cub daurat.</CannotDisableCube>
   
   <!-- EN: Cube coma: {PAWN_labelShort} -->
   <LetterLabelGoldenCubeComa>Coma cúbic: {PAWN_labelShort}</LetterLabelGoldenCubeComa>
   <!-- EN: {PAWN_labelShort}'s cube withdrawal has sent {PAWN_objective} into a coma. {PAWN_pronoun} will remain in a coma until the golden cube's psychic link has completely dissipated. -->
-  <LetterGoldenCubeComa>TODO</LetterGoldenCubeComa>
+  <LetterGoldenCubeComa>La síndrome d'abstinència del cub de {PAWN_labelShort} l'ha {PAWN_gender ? deixat : deixada} en coma. Romandrà en coma fins que l'enllaç psíquic del cub daurat s'hagi dissipat completament.</LetterGoldenCubeComa>
 
   <!-- EN: Deactivating the golden cube will cause any cube-interested people to enter a violent berserk rage. Any cube-interested people in caravans will be permanently lost. -->
-  <CubeDeactivationConfirmation>TODO</CubeDeactivationConfirmation>
+  <CubeDeactivationConfirmation>La desactivació del cub daurat farà que qualsevol persona interessada en el cub entri en una fase de ràbia violenta. Qualsevol persona interessada en el cub que estigui en una caravana es perdrà per sempre.</CubeDeactivationConfirmation>
   <!-- EN: The following people will enter a berserk rage -->
-  <CubeDeactivationConfirmationPawnsBerserk>TODO</CubeDeactivationConfirmationPawnsBerserk>
+  <CubeDeactivationConfirmationPawnsBerserk>Les persones següents patiran una ràbia furiosa</CubeDeactivationConfirmationPawnsBerserk>
   <!-- EN: The following people will run away and be lost -->
-  <CubeDeactivationConfirmationPawnsLost>TODO</CubeDeactivationConfirmationPawnsLost>
+  <CubeDeactivationConfirmationPawnsLost>Les persones següents començaran a córrer i es perdran per sempre</CubeDeactivationConfirmationPawnsLost>
   <!-- EN: Are you sure you want to continue? -->
-  <CubeDeactivationConfirmationEnd>TODO</CubeDeactivationConfirmationEnd>
+  <CubeDeactivationConfirmationEnd>Esteu segur que voleu continuar?</CubeDeactivationConfirmationEnd>
   <!-- EN: Cube deactivation -->
   <CubeDeactivationBerserk>Desactivació del cub</CubeDeactivationBerserk>
   <!-- EN: {PAWN_labelShort} has successfully destroyed the golden cube. The psychic whiplash has driven colonists into a berserk rage! -->
-  <CubeDeactivationBerserkDesc>TODO</CubeDeactivationBerserkDesc>
+  <CubeDeactivationBerserkDesc>{PAWN_labelShort} ha destruït el cub daurat. El cop psíquic ha portat els colons a una ràbia furiosa!</CubeDeactivationBerserkDesc>
   <!-- EN: These people have entered a temporary berserk rage -->
-  <CubeDeactivationBerserkPawns>TODO</CubeDeactivationBerserkPawns>
+  <CubeDeactivationBerserkPawns>Aquestes persones pateixen una ràbia furiosa temporal</CubeDeactivationBerserkPawns>
   <!-- EN: These people in caravans have run away in a rage -->
-  <CubeDeactivationLostPawns>TODO</CubeDeactivationLostPawns>
+  <CubeDeactivationLostPawns>Aquestes persones en caravanes s'han escapat de la ràbia que tenien i s'han perdut</CubeDeactivationLostPawns>
 
   <!-- EN: This happened because of {PAWN_possessive} obsession with the cube. -->
-  <MentalBreakReason_CubeSculpting>TODO</MentalBreakReason_CubeSculpting>
+  <MentalBreakReason_CubeSculpting>Això ha passat per l'obsessió que tenia amb el cub.</MentalBreakReason_CubeSculpting>
   
   <!-- EN: dirt -->
   <CubeMaterialDirt>terra</CubeMaterialDirt>
@@ -653,9 +653,9 @@
   
   <!-- Slaughter ability -->
   <!-- EN: Cannot slaughter: {PAWN_labelShort} does not have flesh. -->
-  <MessageSlaughterNoFlesh>TODO</MessageSlaughterNoFlesh>
+  <MessageSlaughterNoFlesh>No es pot escorxar: {PAWN_labelShort} no té carn.</MessageSlaughterNoFlesh>
   <!-- EN: Cannot slaughter: {PAWN_labelShort} is too large. -->
-  <MessageSlaughterTooBig>TODO</MessageSlaughterTooBig>
+  <MessageSlaughterTooBig>No es pot escorxar: {PAWN_labelShort} és massa {PAWN_gender ? gros grossa}.</MessageSlaughterTooBig>
   
   <!-- Labyrinth -->
   <!-- EN: Entering the labyrinth -->
@@ -663,7 +663,7 @@
   <!-- EN: {PAWN_nameDef} has vanished. -->
   <MessagePawnVanished>{PAWN_nameDef} ha desaparegut.</MessagePawnVanished>
   <!-- EN: {PAWN_nameDef} has reappeared. -->
-  <MessagePawnReappeared>{PAWN_nameDef} ha tornat a aparéixer.</MessagePawnReappeared>
+  <MessagePawnReappeared>{PAWN_nameDef} ha tornat a aparèixer.</MessagePawnReappeared>
   
   <!-- EN: Exit direction -->
   <FloorEtchingsInspectorExit>Direcció de sortida</FloorEtchingsInspectorExit>
@@ -671,7 +671,7 @@
   <!-- EN: Warped obelisk -->
   <LetterLabelObeliskDiscovered>obelisc recargolat</LetterLabelObeliskDiscovered>
   <!-- EN: {PAWN_nameDef} has discovered a large obelisk. It looks nearly identical to the one that originally brought {PAWN_objective} here. Perhaps it can be activated to return {PAWN_objective} home.\n\nSelect {PAWN_nameDef} and right-click the obelisk to activate it. -->
-  <LetterObeliskDiscovered>TODO</LetterObeliskDiscovered>
+  <LetterObeliskDiscovered>{PAWN_nameDef} ha descobert un obelisc gros. Sembla gairebé idèntic al que originalment el va portar aquí. Potser es pot activar per tornar-{PAWN_gender ? lo : la} a casa.\n\nSeleccioneu {PAWN_nameDef} i feu clic amb el botó dret a l'obelisc per a activar-lo.</LetterObeliskDiscovered>
   
   <!-- EN: Floor etchings -->
   <LetterLabelFloorEtchings>Marques al terra</LetterLabelFloorEtchings>
@@ -689,9 +689,9 @@
   <LetterLabyrinthExit>TODO</LetterLabyrinthExit>
 
   <!-- EN: Jammed shut. Must be forced open. -->
-  <GrayDoorJammed>TODO</GrayDoorJammed>
+  <GrayDoorJammed>Encallada. Cal forçar-la per a obrir-la.</GrayDoorJammed>
   <!-- EN: Activated by proximity. -->
-  <ActivatedByProximity>TODO</ActivatedByProximity>
+  <ActivatedByProximity>S'activa per proximitat.</ActivatedByProximity>
 
   <!-- Void monolith -->
   <!-- EN: No available pawns. -->
@@ -699,7 +699,7 @@
   <!-- EN: The monolith's dark metallic surface is warm to the touch, and {PAWN_nameDef} thinks {PAWN_pronoun} can hear a faint hum emanating from inside. The lines on its dusty surface seem to squirm in unsettling patterns.\n\n{PAWN_nameDef} focuses on the shapes, trying to uncover their meaning.\n\nThe hum strengthens. The shapes begin to flow in {PAWN_nameDef}'s vision, but the surface isn't changing. Power begins to uncoil in the empty space all around. A black shape is forming in {PAWN_possessive} mind.\n\nThe Anomaly is stirring... -->
   <VoidMonolithInvestigatedText>TODO</VoidMonolithInvestigatedText>
   <!-- EN: Keep focusing on the Anomaly -->
-  <VoidMonolithInvestigate>TODO</VoidMonolithInvestigate>
+  <VoidMonolithInvestigate>Mantén-te concentrat en l'anomalia</VoidMonolithInvestigate>
   <!-- EN: Walk away -->
   <VoidMonolithWalkAway>Aparta-te'n</VoidMonolithWalkAway>
   <!-- EN: View quest -->
@@ -721,11 +721,11 @@
   <!-- EN: Undiscovered entities -->
   <VoidMonolithRequiresDiscoveryShort>Entitats no descobertes</VoidMonolithRequiresDiscoveryShort>
   <!-- EN: Must discover {0} more {1} monolith entities. -->
-  <VoidMonolithRequiresCategory>TODO</VoidMonolithRequiresCategory>
+  <VoidMonolithRequiresCategory>Heu de descobrir {0} entitats monolítiques {1} més.</VoidMonolithRequiresCategory>
   <!-- EN: Disturbing vision -->
   <VoidMonolithVisionLabel>Visió pertorbadora</VoidMonolithVisionLabel>
   <!-- EN: {PAWN_nameDef} has had a strange dream. In it, {PAWN_pronoun} saw a black shape, unfurling in space and time, growing and consuming. The shape originated from a nearby crumbled monolith.\n\nUpon waking from the vision, {PAWN_nameDef} feels strangely drawn to the monolith. It calls to {PAWN_objective}. -->
-  <VoidMonolithVisionText>TODO</VoidMonolithVisionText>
+  <VoidMonolithVisionText>{PAWN_nameDef} ha tingut un somni estrany. Al somni, {PAWN_pronoun} va veure una forma negra que es desplegava a l'espai i el temps i que creixia i ho consumia tot. La forma es va originar a partir d'un monòlit destrossat proper.\n\nQuan ha despertat de la premonició, {PAWN_nameDef} se sent estranyament {PAWN_gender ? atret : atreta} pel monòlit. {PAWN_gender ? El : La} crida.</VoidMonolithVisionText>
   <!-- EN: Choose who should do this -->
   <VoidMonolithChooseActivator>Escolliu qui ho hauria de fer.</VoidMonolithChooseActivator>
   <!-- EN: Target is downed -->
@@ -739,18 +739,18 @@
   <!-- EN: Monolith arrival -->
   <MonolithArrivalLabel>Arribada del monòlit</MonolithArrivalLabel>
   <!-- EN: Interacting with the psychic signal has caused a strange structure to appear. -->
-  <MonolithArrivalText>TODO</MonolithArrivalText>
+  <MonolithArrivalText>La interacció amb el senyal psíquic ha provocat l'aparició d'una estructura estranya.</MonolithArrivalText>
   <!-- EN: It is very similar, if not identical, to the monolith you previously encountered. -->
-  <MonolithArrivalTextExt>TODO</MonolithArrivalTextExt>
+  <MonolithArrivalTextExt>És molt semblant, si no idèntic, al monòlit que us vau trobar anteriorment.</MonolithArrivalTextExt>
   <!-- EN: Can't {0} monolith -->
-  <CantActivateMonolith>TODO</CantActivateMonolith>
+  <CantActivateMonolith>El monòlit no es pot {0}.</CantActivateMonolith>
 
   <!-- EN: Monolith twisting -->
-  <MonolithTwistingAlert>TODO</MonolithTwistingAlert>
+  <MonolithTwistingAlert>Recargolament del monòlit</MonolithTwistingAlert>
   <!-- EN: Your presence has caused the monolith to twist and morph. Soon the process will be complete. Be prepared for whatever comes next. -->
-  <MonolithTwistingExplanation>TODO</MonolithTwistingExplanation>
+  <MonolithTwistingExplanation>La vostra presència ha fet que el monòlit es retorci i es transformi. El procés aviat s'acabarà. Estigueu preparats per al que vingui després.</MonolithTwistingExplanation>
   <!-- EN: Fallen monolith -->
-  <MonolithAutoActivatingLabel>TODO</MonolithAutoActivatingLabel>
+  <MonolithAutoActivatingLabel>El monòlit caigut</MonolithAutoActivatingLabel>
   <!-- EN: A wave of dread passes over your colonists. The fallen monolith has begun to stir. Slowly, it begins to twist and rearrange itself, morphing into something new.\n\nWithin a matter of days, the process will be complete. Be prepared for whatever comes next. -->
   <MonolithAutoActivatingText>TODO</MonolithAutoActivatingText>
   <!-- EN: Void monolith -->
@@ -769,9 +769,9 @@
   <!-- EN: A sphere of writhing psychic energy rises before {PAWN_nameDef}.\n\n{PAWN_nameDef} feels a presence inside {PAWN_possessive} mind, deeper than any normal human sense. {PAWN_pronoun} stands on the shoreline of an infinite black ocean of power. It beckons {PAWN_objective} in...\n\nNearby archotech devices support the sphere along fragile connections. {PAWN_nameDef} could disrupt them, closing this link between worlds.\n\nOr, {PAWN_pronoun} could step into the sphere and merge with the void. It's unknown what dark power could be gained from such an inhuman act. -->
   <VoidNodeLetter>TODO</VoidNodeLetter>
   <!-- EN: Disrupt the link -->
-  <VoidNodeDisrupt>TODO</VoidNodeDisrupt>
+  <VoidNodeDisrupt>Interromp l'enllaç</VoidNodeDisrupt>
   <!-- EN: Embrace the void -->
-  <VoidNodeEmbrace>TODO</VoidNodeEmbrace>
+  <VoidNodeEmbrace>Abraça el buit</VoidNodeEmbrace>
   <!-- EN: Postpone -->
   <VoidNodePostpone>Posposa</VoidNodePostpone>
   <!-- EN: The psychic flows destabilize and the twisted machinery screams. The swirling void flickers. {PAWN_nameDef} feels it shuddering and collapsing into itself.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
@@ -779,7 +779,7 @@
   <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
   <EmbraceTheVoidCredits>TODO</EmbraceTheVoidCredits>
   <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->
-  <StructureActivatedMessage>TODO</StructureActivatedMessage>
+  <StructureActivatedMessage>{PAWN_nameDef} ha acabat d'activar {STRUCTURE_definite}.</StructureActivatedMessage>
   <!-- EN: Structures activated -->
   <StructuresActivatedAlertLabel>Estructures activades</StructuresActivatedAlertLabel>
   <!-- EN: Activate void structures to complete the monolith awakening. -->
@@ -789,20 +789,20 @@
 
   <!-- HediffComp_GiveLovinMTBFactor -->
   <!-- EN: Increases the chance of lovin` -->
-  <IncreasesChanceOfLovin>TODO</IncreasesChanceOfLovin>
+  <IncreasesChanceOfLovin>Augmenta la probabilitat de fer l'amor</IncreasesChanceOfLovin>
 
   <!-- EN: Unnatural {0_label} corpse -->
   <UnnaturalCorpse>Cadàver antinatural de  {0_label}</UnnaturalCorpse>
 
   <!-- Studiable -->
   <!-- EN: Knowledge from study reduced -->
-  <KnowledgeFactorOutdoors>TODO</KnowledgeFactorOutdoors>
+  <KnowledgeFactorOutdoors>S'ha reduït el coneixement per l'estudi</KnowledgeFactorOutdoors>
 
   <!-- Unnatural darkness -->
   <!-- EN: Emergence in {0} -->
-  <EmergenceIn>TODO</EmergenceIn>
+  <EmergenceIn>Emergència d'aquí {0}</EmergenceIn>
   <!-- EN: Something will emerge from the ground in {0}. -->
-  <EmergenceInDesc>TODO</EmergenceInDesc>
+  <EmergenceInDesc>Alguna cosa emergirà del terra d'aquí {0}.</EmergenceInDesc>
   
   <!-- Bioferrite harvester -->
   <!-- EN: Bioferrite contained -->
@@ -812,11 +812,11 @@
   <!-- EN: Eject contents -->
   <BioferriteHarvesterEjectContents>Extrau-ne el contingut</BioferriteHarvesterEjectContents>
   <!-- EN: Eject all contained {0} onto the ground. -->
-  <BioferriteHarvesterEjectContentsDesc>TODO</BioferriteHarvesterEjectContentsDesc>
+  <BioferriteHarvesterEjectContentsDesc>Extrau {0_gender ? tot : tota} {0_definite} {0_gender ? contingut : continguda} al terra.</BioferriteHarvesterEjectContentsDesc>
   <!-- EN: Toggle bioferrite unloading -->
-  <BioferriteHarvesterToggleUnloading>TODO</BioferriteHarvesterToggleUnloading>
+  <BioferriteHarvesterToggleUnloading>Commuta la descàrrega de bioferrita</BioferriteHarvesterToggleUnloading>
   <!-- EN: When active, colonists will automatically unload bioferrite from the harvester as it is filling up. -->
-  <BioferriteHarvesterToggleUnloadingDesc>TODO</BioferriteHarvesterToggleUnloadingDesc>
+  <BioferriteHarvesterToggleUnloadingDesc>Quan estigui actiu, els colons descarregaran automàticament la bioferrita de la recol·lectora quan estigui quasi plena.</BioferriteHarvesterToggleUnloadingDesc>
   
   <!-- Proximity detector -->
   <!-- EN: Invisible creature detected. -->
@@ -824,7 +824,7 @@
   
   <!-- Frenzy inducer -->
   <!-- EN: Generating frenzy field. -->
-  <FrenzyInducerEffectDescription>TODO</FrenzyInducerEffectDescription>
+  <FrenzyInducerEffectDescription>Genera un camp de frenesia.</FrenzyInducerEffectDescription>
   <!-- EN: This happened due to the influence of a frenzy inducer. -->
   <MentalBreakReason_FrenzyInducer>Ha passat degut a la influència d’un inductor de frenesí.</MentalBreakReason_FrenzyInducer>
   
