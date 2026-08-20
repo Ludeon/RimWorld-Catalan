@@ -40,7 +40,7 @@
   <!-- EN: {PAWN_nameDef} hypnotized -->
   <LetterLabelPawnHypnotized>{PAWN_nameDef} hipnotitzat</LetterLabelPawnHypnotized>
   <!-- EN: {PAWN_nameDef} has been hypnotized by a revenant and is now rambling incoherently about nightmarish images and ideas.\n\nKilling the revenant will end the hypnosis.\n\nThe revenant uses psychic powers to twist the perceptions of those around it, making itself invisible. However, it can still be hunted by following the black smears that it leaves. The revenant will be revealed if hit by explosive weapons, firefoam, EMPs, fire, or disruptor flares.\n\nIf not killed, the revenant will continue to hypnotize new victims. -->
-  <LetterPawnHypnotized>A {PAWN_nameDef} l'ha hipnotitzat un retornat i ara divaga de manera incoherent sobre imatges lúgubres i idees pertorbadores.\n\nSi es mata el retornat, acabarà la hipnosi.\n\nEl retornat utilitza poders psíquics per a torçar les percepcions dels que l'envolten i aconseguirà fer-se invisible als seus ulls. Tanmateix, encara es pot caçar seguint les taques negres que deixa. Es podrà veure el retornat si se li fa mal amb armes explosives, escuma de foc, PEM, foc o bengales disruptores.\n\nSi no se'l mata, el retornat continuarà hipnotitzant més víctimes.</LetterPawnHypnotized>
+  <LetterPawnHypnotized>A {PAWN_nameDef} l'ha hipnotitzat un retornat i ara divaga de manera incoherent sobre imatges lúgubres i idees pertorbadores.\n\nSi es mata el retornat, acabarà la hipnosi.\n\nEl retornat utilitza poders psíquics per a torçar les percepcions dels que l'envolten i aconseguirà fer-se invisible als seus ulls. Tanmateix, encara es pot caçar seguint les taques negres que deixa. Es podrà veure el retornat si se li fa mal amb armes explosives, escuma tallafocs, PEM, foc o bengales disruptores.\n\nSi no se'l mata, el retornat continuarà hipnotitzant més víctimes.</LetterPawnHypnotized>
   <!-- EN: Revenant flesh chunk -->
   <LetterRevenantFleshChunkLabel>Tros de carn de retornat</LetterRevenantFleshChunkLabel>
   <!-- EN: The wounded revenant left behind a piece of itself. You can analyze this flesh chunk to learn how to track the revenant. -->
@@ -138,17 +138,17 @@
   <!-- EN: Obelisk mutation -->
   <ObeliskTentacleLetterLabel>Mutació de l’obelisc</ObeliskTentacleLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling. Moments later, {PAWN_possessive} skin split open as a fleshy growth erupted from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a squirming tentacle!\n\n{PAWN_nameDef} lost some blood, but seems otherwise unharmed. -->
-  <ObeliskTentacleLetter>TODO</ObeliskTentacleLetter>
+  <ObeliskTentacleLetter>Mentre interactuava amb l'obelisc, {PAWN_nameDef} ha sentit un formigueig al seu braç. Moments més tard, la pell se li ha esquinçat i n'ha sortit un tros de carn. El seu braç ha estat substituït per un tentacle que es retorça!\n\n{PAWN_nameDef} ha perdut una mica de sang, però sembla que es troba bé.</ObeliskTentacleLetter>
 
   <!-- EN: Obelisk mutation -->
   <ObeliskFleshWhipLetterLabel>Mutació de l’obelisc</ObeliskFleshWhipLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling. Moments later, {PAWN_possessive} skin split open violently as a growth burst from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a tentacle tipped with a bony blade!\n\n{PAWN_nameDef} lost some blood, but seems otherwise unharmed by this disturbing event. The tentacle is hideous, but it will make an excellent melee weapon. -->
-  <ObeliskFleshWhipLetter>TODO</ObeliskFleshWhipLetter>
+  <ObeliskFleshWhipLetter>Mentre interactuava amb l'obelisc, {PAWN_nameDef} ha sentit un formigueig al braç. Moments més tard, la pell se li ha esquinçat violentament i li ha crescut un tros de carn. El seu braç ha estat substituït per un tentacle amb una fulla feta d'os a la punta i que està esmolada!\n\n{PAWN_nameDef} ha perdut una mica de sang, però sembla estar bé tot i aquest esdeveniment inquietant. El tentacle és horrible, però serà una excel·lent arma cos a cos.</ObeliskFleshWhipLetter>
 
   <!-- EN: Obelisk interaction -->
   <MutatorObeliskFailedArmLetterLabel>Interacció amb l’obelisc</MutatorObeliskFailedArmLetterLabel>
   <!-- EN: While interacting with the obelisk, {PAWN_nameDef} felt {PAWN_possessive} arm tingling for a few moments. The feeling passed.\n\nThe obelisk tried to mutate {PAWN_nameDef} but failed. -->
-  <MutatorObeliskFailedArmLetter>TODO</MutatorObeliskFailedArmLetter>
+  <MutatorObeliskFailedArmLetter>Mentre interactuava amb l'obelisc, {PAWN_nameDef} ha sentit un formigueig al braç. La sensació li ha passat aviat.\n\nL'obelisc ha intentat mutar {PAWN_nameDef}, però no ho ha aconseguit.</MutatorObeliskFailedArmLetter>
 
   <!-- EN: Obelisk mutation -->
   <ObeliskFleshmassStomachLetterLabel>Mutació de l’obelisc</ObeliskFleshmassStomachLetterLabel>
@@ -507,7 +507,7 @@
   <HighestSkill>Millor habilitat</HighestSkill>
   
   <!-- EN: {0} dropped a shard of dark archotechnology. You can collect and make use of it. -->
-  <MessageShardDropped>TODO</MessageShardDropped>
+  <MessageShardDropped>A {0_definite} li ha caigut un resquill d'arcotecnologia obscura. Podeu recollir-lo i fer-lo servir.</MessageShardDropped>
   
   <!-- Blood rain -->
   <!-- EN: The blood rain has driven {0_nameIndef} into a berserk rage! -->
@@ -528,10 +528,10 @@
   <!-- EN: Corpse appearance -->
   <LetterLabelCorpseReappeared>Aparició de cadàvers</LetterLabelCorpseReappeared>
   <!-- EN: The corpse resembling {PAWN_nameDef} has appeared again, as if out of thin air. -->
-  <LetterCorpseReappeared>TODO</LetterCorpseReappeared>
+  <LetterCorpseReappeared>El cadàver que s'assembla a {PAWN_nameDef} ha tornat a aparèixer, com si hagués sortit de l'aire.</LetterCorpseReappeared>
   
   <!-- EN: The corpse resembling {PAWN_nameDef} has somehow gotten out of its {CONTAINER_labelShort}. -->
-  <MessageCorpseEscaped>TODO</MessageCorpseEscaped>
+  <MessageCorpseEscaped>El cadàver que s'assembla a {PAWN_nameDef} ha sortit d'alguna manera {CONTAINER_gender ? del seu : de la seva} {CONTAINER_labelShort}.</MessageCorpseEscaped>
   <!-- EN: Failed to resurrect {PAWN_nameDef}. It simply does not respond. -->
   <MessageUnnaturalCorpseResurrect>A {PAWN_nameDef} no se l'ha pogut ressuscitar. No respon.</MessageUnnaturalCorpseResurrect>
   <!-- EN: The unnatural corpse has caused {PAWN_nameDef} to faint. -->
@@ -676,12 +676,12 @@
   <!-- EN: Floor etchings -->
   <LetterLabelFloorEtchings>Marques al terra</LetterLabelFloorEtchings>
   <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings.\n\n{RAMBLINGS}\n\nThey seem to indicate that an exit is somewhere {DIRECTION} of here. -->
-  <LetterFloorEtchings>TODO</LetterFloorEtchings>
+  <LetterFloorEtchings>{PAWN_nameDef} ha aconseguit desxifrar els dibuixos del terra.{RAMBLINGS}\n\nSembla que indiquen que hi ha una sortida en algun lloc {replace: al {DIRECTION}; "al est"-"a l'est";"al oest"-"a l'oest"} d'aquí.</LetterFloorEtchings>
 
   <!-- EN: Floor etchings -->
   <LetterLabelFloorEtchingRamblings>Marques al terra</LetterLabelFloorEtchingRamblings>
   <!-- EN: {PAWN_nameDef} has managed to decipher the floor etchings. -->
-  <LetterFloorEtchingsRamblings>TODO</LetterFloorEtchingsRamblings>
+  <LetterFloorEtchingsRamblings>{PAWN_nameDef} ha aconseguit desxifrar els dibuixos del terra.</LetterFloorEtchingsRamblings>
 
   <!-- EN: Colonists returned -->
   <LetterLabelLabyrinthExit>Els colons han retornat</LetterLabelLabyrinthExit>
