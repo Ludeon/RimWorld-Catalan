@@ -30,7 +30,14 @@
     <li>terrain_word->hell holes</li>
     <li>terrain_word->heat ducts</li>
   -->
-  <NamerLandmark_AncientHeatVent.rulePack.rulesStrings>TODO</NamerLandmark_AncientHeatVent.rulePack.rulesStrings>
+  <NamerLandmark_AncientHeatVent.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->sortida d'aire calent</li>
+    <li>terrain_word->reixa de ventilació de calor</li>
+    <li>terrain_word->respirall de calor</li>
+    <li>terrain_word->respirall infernal</li>
+    <li>terrain_word->forats infernals</li>
+    <li>terrain_word->canonades de calor</li>
+  </NamerLandmark_AncientHeatVent.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->excavation site</li>
@@ -38,7 +45,12 @@
     <li>terrain_word->mines</li>
     <li>terrain_word->rock pits</li>
   -->
-  <NamerLandmark_AncientQuarry.rulePack.rulesStrings>TODO</NamerLandmark_AncientQuarry.rulePack.rulesStrings>
+  <NamerLandmark_AncientQuarry.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->lloc d'excavació</li>
+    <li>terrain_word->pedrera</li>
+    <li>terrain_word->mines</li>
+    <li>terrain_word->pous de roques</li>
+  </NamerLandmark_AncientQuarry.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=2)->exhaust duct</li>
@@ -47,7 +59,13 @@
     <li>terrain_word->chimneys</li>
     <li>terrain_word->smokestacks</li>
   -->
-  <NamerLandmark_AncientSmokeVent.rulePack.rulesStrings>TODO</NamerLandmark_AncientSmokeVent.rulePack.rulesStrings>
+  <NamerLandmark_AncientSmokeVent.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->xemeneia</li>
+    <li>terrain_word->respiralls</li>
+    <li>terrain_word->fumaroles</li>
+    <li>terrain_word->xemeneies</li>
+    <li>terrain_word->canonades industrials</li>
+  </NamerLandmark_AncientSmokeVent.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=2)->tox vents</li>
@@ -56,7 +74,13 @@
     <li>terrain_word->toxic ducts</li>
     <li>terrain_word->fume vents</li>
   -->
-  <NamerLandmark_AncientToxVent.rulePack.rulesStrings>TODO</NamerLandmark_AncientToxVent.rulePack.rulesStrings>
+  <NamerLandmark_AncientToxVent.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->respiralls de fums tòxics</li>
+    <li>terrain_word->respiralls d'aire verinós</li>
+    <li>terrain_word->respiralls nocius</li>
+    <li>terrain_word->canonades de fum tòxic</li>
+    <li>terrain_word->respiralls de fum</li>
+  </NamerLandmark_AncientToxVent.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->isle [narrative_name]</li>
@@ -69,19 +93,33 @@
     <li>terrain_word->points</li>
     <li>terrain_word->chain</li>
   -->
-  <NamerLandmark_Archipelago.rulePack.rulesStrings>TODO</NamerLandmark_Archipelago.rulePack.rulesStrings>
+  <NamerLandmark_Archipelago.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->illa de [narrative_name]</li>
+    <li>terrain_word(p=4)->illes</li>
+    <li>terrain_word(p=3)->illots</li>
+    <li>terrain_word(p=3)->arxipèlag</li>
+    <li>terrain_word->escull</li>
+    <li>terrain_word->roques</li>
+    <li>terrain_word->illes</li>
+  </NamerLandmark_Archipelago.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word->atoll</li>
     <li>terrain_word->circle</li>
   -->
-  <NamerLandmark_Atoll.rulePack.rulesStrings>TODO</NamerLandmark_Atoll.rulePack.rulesStrings>
+  <NamerLandmark_Atoll.rulePack.rulesStrings>
+    <li>terrain_word->atol</li>
+    <li>terrain_word->cercle</li>
+  </NamerLandmark_Atoll.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=2)->basin</li>
     <li>terrain_word->alpine lake</li>
   -->
-  <NamerLandmark_Basin.rulePack.rulesStrings>TODO</NamerLandmark_Basin.rulePack.rulesStrings>
+  <NamerLandmark_Basin.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->conca</li>
+    <li>terrain_word->llac alpí</li>
+  </NamerLandmark_Basin.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->gulf of [narrative_name]</li>
@@ -91,7 +129,13 @@
     <li>terrain_word->anchorage</li>
     <li>terrain_word->cove</li>
   -->
-  <NamerLandmark_Bay.rulePack.rulesStrings>TODO</NamerLandmark_Bay.rulePack.rulesStrings>
+  <NamerLandmark_Bay.rulePack.rulesStrings>
+    <li>r_name(p=0.1)->golf de [narrative_name]</li>
+    <li>terrain_word(p=6)->badia</li>
+    <li>r_name(p=0.1)->badia de [narrative_name]</li>
+    <li>terrain_word->golf</li>
+    <li>terrain_word->caleta</li>
+  </NamerLandmark_Bay.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->[NamePerson]'s caves</li>
@@ -100,14 +144,30 @@
     <li>terrain_word->cave network</li>
     <li>terrain_word->caverns</li>
   -->
-  <NamerLandmark_Cavern.rulePack.rulesStrings>TODO</NamerLandmark_Cavern.rulePack.rulesStrings>
+  <NamerLandmark_Cavern.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->les coves de [NamePerson]</li>
+    <li>terrain_word(p=2)->cavernes</li>
+    <li>terrain_word->túnels</li>
+    <li>terrain_word->xarxa de coves</li>
+    <li>terrain_word->caverna</li>
+  </NamerLandmark_Cavern.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word->chasm</li>
     <li>terrain_word->sinkhole</li>
     <li>terrain_word->fracture</li>
   -->
-  <NamerLandmark_Chasm.rulePack.rulesStrings>TODO</NamerLandmark_Chasm.rulePack.rulesStrings>
+  <NamerLandmark_Chasm.rulePack.rulesStrings>
+    <li>terrain_word->abisme</li>
+    <li>terrain_word->dolina</li>
+    <li>terrain_word->avenc</li>
+    <li>terrain_word->fendissa</li>
+    <li>terrain_word->gola</li>
+    <li>terrain_word->congost</li>
+    <li>terrain_word->falla</li>
+    <li>terrain_word->fissura</li>
+    <li>terrain_word->fendiment</li>
+  </NamerLandmark_Chasm.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->[NamePerson]'s [terrain_word]</li>
@@ -115,7 +175,12 @@
     <li>terrain_word->plant</li>
     <li>terrain_word->chemplant</li>
   -->
-  <NamerLandmark_ChemfuelRefinery.rulePack.rulesStrings>TODO</NamerLandmark_ChemfuelRefinery.rulePack.rulesStrings>
+  <NamerLandmark_ChemfuelRefinery.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->[terrain_word] de [NamePerson]</li>
+    <li>terrain_word(p=2)->refineria</li>
+    <li>terrain_word->planta</li>
+    <li>terrain_word->planta química</li>
+  </NamerLandmark_ChemfuelRefinery.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->[NamePerson]'s end</li>
@@ -123,7 +188,12 @@
     <li>terrain_word->rampart</li>
     <li>terrain_word->wall</li>
   -->
-  <NamerLandmark_Cliffs.rulePack.rulesStrings>TODO</NamerLandmark_Cliffs.rulePack.rulesStrings>
+  <NamerLandmark_Cliffs.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->la fi de [NamePerson]</li>
+    <li>terrain_word(p=2)->penya-segats</li>
+    <li>terrain_word->mur</li>
+    <li>terrain_word->precipici</li>
+  </NamerLandmark_Cliffs.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->isle [narrative_name]</li>
@@ -131,14 +201,21 @@
     <li>terrain_word(p=2)->isle</li>
     <li>terrain_word->islet</li>
   -->
-  <NamerLandmark_CoastalIsland.rulePack.rulesStrings>TODO</NamerLandmark_CoastalIsland.rulePack.rulesStrings>
+  <NamerLandmark_CoastalIsland.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->illa de [narrative_name]</li>
+    <li>terrain_word(p=4)->illa</li>
+    <li>terrain_word->illeta</li>
+  </NamerLandmark_CoastalIsland.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=3)->crevasse</li>
     <li>terrain_word->break</li>
     <li>terrain_word->fissure</li>
   -->
-  <NamerLandmark_Crevasse.rulePack.rulesStrings>TODO</NamerLandmark_Crevasse.rulePack.rulesStrings>
+  <NamerLandmark_Crevasse.rulePack.rulesStrings>
+    <li>terrain_word(p=3)->fissura</li>
+    <li>terrain_word->falla</li>
+  </NamerLandmark_Crevasse.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word->dry lake</li>
@@ -147,20 +224,34 @@
     <li>terrain_word->barren lake</li>
     <li>terrain_word->sand pit</li>
   -->
-  <NamerLandmark_DryLake.rulePack.rulesStrings>TODO</NamerLandmark_DryLake.rulePack.rulesStrings>
+  <NamerLandmark_DryLake.rulePack.rulesStrings>
+    <li>terrain_word->llac sec</li>
+    <li>terrain_word->llac de sorra</li>
+    <li>terrain_word->salines</li>
+    <li>terrain_word->llac d'arena</li>
+    <li>terrain_word->pou de sorra</li>
+    <li>terrain_word->pou d'arena</li>
+  </NamerLandmark_DryLake.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=2)->dunes</li>
     <li>terrain_word->wastes</li>
   -->
-  <NamerLandmark_Dunes.rulePack.rulesStrings>TODO</NamerLandmark_Dunes.rulePack.rulesStrings>
+  <NamerLandmark_Dunes.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->dunes</li>
+    <li>terrain_word->desert</li>
+  </NamerLandmark_Dunes.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=2)->fjord</li>
     <li>terrain_word->inlet</li>
     <li>terrain_word->sound</li>
   -->
-  <NamerLandmark_Fjord.rulePack.rulesStrings>TODO</NamerLandmark_Fjord.rulePack.rulesStrings>
+  <NamerLandmark_Fjord.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->fiord</li>
+    <li>terrain_word->entrada</li>
+    <li>terrain_word->estret</li>
+  </NamerLandmark_Fjord.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->[ruin_adjective] [narrative_name]</li>
@@ -170,7 +261,14 @@
     <li>terrain_word->ice city</li>
     <li>terrain_word->city</li>
   -->
-  <NamerLandmark_FrozenRuins.rulePack.rulesStrings>TODO</NamerLandmark_FrozenRuins.rulePack.rulesStrings>
+  <NamerLandmark_FrozenRuins.rulePack.rulesStrings>
+    <li>r_name(p=0.4)->[narrative_name] [ruin_adjective]</li>
+    <li>ruin_adjective->en ruïnes</li>
+    <li>ruin_adjective->sota el gel</li>
+    <li>terrain_word(p=2)->ruïnes congelades</li>
+    <li>terrain_word->ciutat de gel</li>
+    <li>terrain_word->ciutat</li>
+  </NamerLandmark_FrozenRuins.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->Fort [narrative_name]</li>

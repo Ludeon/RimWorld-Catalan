@@ -201,22 +201,22 @@
   <!-- EN: Obelisk activation -->
   <DuplicatorObeliskLetterLabel>Activació de l’obelisc</DuplicatorObeliskLetterLabel>
   <!-- EN: The obelisk is activating! The air around it crackles with energy. Duplicates of your colonists will soon appear with murderous intent.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
-  <DuplicatorObeliskLetter>TODO</DuplicatorObeliskLetter>
+  <DuplicatorObeliskLetter>L'obelisc s'activa! L'aire que l'envolta espetega de l'energia de l'ambient. Aviat apareixeran duplicats dels vostres colons amb intencions assassines.\n\nAneu amb compte: una energia inestable circula per l'obelisc i podria explotar en qualsevol moment.</DuplicatorObeliskLetter>
 
   <!-- EN: Colonists disappearing -->
   <ObeliskAbductorLetterLabel>Desapareixen colons</ObeliskAbductorLetterLabel>
   <!-- EN: The warped obelisk crackles with energy as it warps space around itself. All manner of creatures are beginning to disappear and will soon vanish entirely.\n\nBe careful - unstable energy is coursing through the obelisk and it could explode at any moment. -->
-  <ObeliskAbductorLetter>TODO</ObeliskAbductorLetter>
+  <ObeliskAbductorLetter>L'obelisc deformat crepita amb energia mentre deforma l'espai del seu voltant. Comencen a desaparèixer tot tipus de criatures.\n\nAneu amb compte: una energia inestable circula per l'obelisc i podria explotar en qualsevol moment.</ObeliskAbductorLetter>
   
   <!-- EN: {PAWN_nameDef} is disappearing -->
   <ObeliskAbductedDisappearingLetterLabel>{PAWN_nameDef} desapareix</ObeliskAbductedDisappearingLetterLabel>
   <!-- EN: {PAWN_nameDef} noticed activity in the warped obelisk. Some mysterious internal mechanism has come to life, causing {PAWN_nameDef} to begin to disappear. {PAWN_pronoun} will soon vanish entirely. -->
-  <ObeliskAbductedDisappearingLetter>TODO</ObeliskAbductedDisappearingLetter>
+  <ObeliskAbductedDisappearingLetter>{PAWN_nameDef} ha notat que l'obelisc deformat s'ha activat. Algun mecanisme intern misteriós ha cobrat vida i {PAWN_nameDef} ha començat a desaparéixer. Aviat desapareixerà completament.</ObeliskAbductedDisappearingLetter>
   
   <!-- EN: {PAWN_nameDef} reappeared -->
   <ObeliskAbductedLetterLabel>{PAWN_nameDef} reapareix</ObeliskAbductedLetterLabel>
   <!-- EN: {PAWN_nameDef} has been teleported to a strange room. The walls are an unidentifiable gray material and the air is dead still. {PAWN_pronoun} doesn't know where {PAWN_pronoun} is - or how to get home.\n\nA nearby door is jammed but looks like it can be forced open with some effort. Right-click jammed doors to open them.\n\nBy studying the obelisk, other colonists may be able to understand what happened to {PAWN_nameDef} and find a way to help {PAWN_objective}. Alternatively, attacking the obelisk may provoke it to abduct more colonists. -->
-  <ObeliskAbductedLetter>TODO</ObeliskAbductedLetter>
+  <ObeliskAbductedLetter>{PAWN_nameDef} ha estat {PAWN_gender ? teletransportat : teletransportada} a una habitació estranya. Les parets són d'un material gris no identificable i no hi ha la més mínima corrent d'aire. No sap on és ni com pot fer-ho per a tornar a casa.\n\nUna porta propera està encallada, però sembla que es pot forçar i obrir-se. Feu clic amb el botó dret a les portes encallades per a obrir-les.\n\nSi s'estudia l'obelisc, els altres colons poden entendre què li ha passat a {PAWN_nameDef} i trobar una manera d'ajudar-{PAWN_gender ? lo : la}. Tingueu també en compte que si ataqueu l'obelisc, potser segrestarà més colons.</ObeliskAbductedLetter>
 
   <!-- EN: {PAWN_nameIndef} has mutated into a fleshbeast. -->
   <MutatorObeliskMutated>{PAWN_nameIndef} s'ha convertit en una carnibèstia.</MutatorObeliskMutated>
@@ -226,7 +226,7 @@
   <!-- EN: Fully activate the warped obelisk. -->
   <ObeliskActivateDesc>Activa completament l'obelisc deformat</ObeliskActivateDesc>
   <!-- EN: Warning: The warped obelisk is unstable. Fully activating it will provoke a dangerous response and will cause the obelisk to self-destruct. -->
-  <ObeliskActivateDescWarning>TODO</ObeliskActivateDescWarning>
+  <ObeliskActivateDescWarning>Avís: l'obelisc deformat és inestable. Si s'activa del tot, s'autodestruirà.</ObeliskActivateDescWarning>
 
   <!-- EN: Requires {0} shards to disable -->
   <ObeliskDeactivateMissingShards>{replace: Calen {0} fragments; "Calen 1 fragments"-"Cal 1 fragment"} per a desactivar-lo.</ObeliskDeactivateMissingShards>
@@ -265,11 +265,11 @@
   <!-- EN: Automatic suppression -->
   <ActivitySuppressionTooltipTitle>Repressió automàtica</ActivitySuppressionTooltipTitle>
   <!-- EN: Automatic suppression is currently disabled. Enable it to have wardens suppress the {0}. -->
-  <ActivitySuppressionTooltipDisabled>TODO</ActivitySuppressionTooltipDisabled>
+  <ActivitySuppressionTooltipDisabled>Actualment, la repressió automàtica està desactivada. Activeu-la perquè els vigilants reprimeixin {0_definite}.</ActivitySuppressionTooltipDisabled>
   <!-- EN: The {0}'s activity level rises over time. Activity rises faster if the {0} is damaged or provoked.\n\nIf the activity level reaches 100%, the {0} will activate.\n\nWardens can suppress the {0} to keep its activity at a safe level. They will suppress it any time its activity is above the assigned level: {LEVEL}\n\nEntities that have higher activity levels will give more knowledge when studied. -->
-  <ActivitySuppressionTooltipDesc>TODO</ActivitySuppressionTooltipDesc>
+  <ActivitySuppressionTooltipDesc>El nivell d'activitat de {0_definite} augmenta amb el pas del temps. L'activitat augmenta més ràpidament si s'ha danyat o provocat {0_definite}.\n\nSi el nivell d'activitat arriba al 100 %, s'activarà {0_definite}.\n\nEls vigilants poden reprimir {0_definite} per a mantenir la seva activitat a un nivell segur. {0_gender ? El : La} reprimiran cada vegada que la seva activitat superi el nivell assignat: {LEVEL}\n\nLes entitats que tinguin uns nivells d'activitat més alts, generaran més coneixement quan s'estudien.</ActivitySuppressionTooltipDesc>
   <!-- EN: This determines whether the {0} will be automatically suppressed when its activity is above {LEVEL}.\n\nAutomatic suppression is currently {ONOFF}. -->
-  <ActivitySuppressionToggleTooltipDesc>TODO</ActivitySuppressionToggleTooltipDesc>
+  <ActivitySuppressionToggleTooltipDesc>Això determina si {0_definite} es reprimirà automàticament quan la seva activitat sigui superior a {NIVEL}.\n\nLa supressió automàtica està actualment {ONOFF}.</ActivitySuppressionToggleTooltipDesc>
 
   <!-- Activity Descs -->
   <!-- EN: activity level -->
@@ -329,11 +329,11 @@
   <!-- EN: Metalhorror emerging -->
   <MetalhorrorEmergingLabel>Emergeix un horrometall</MetalhorrorEmergingLabel>
   <!-- EN: A metalhorror is emerging! Slicing through flesh and skin, this nightmarish bladed creature is cutting its way out of its host. The metalhorror is emerging from: -->
-  <MetalhorrorEmergingDesc>TODO</MetalhorrorEmergingDesc>
+  <MetalhorrorEmergingDesc>Emergeix un horrometall! Aquesta criatura terrorífica esquinça, forada, talla i surt de la carn del seu hoste. L'horrometall surt de:</MetalhorrorEmergingDesc>
   <!-- EN: Metalhorrors are emerging! Slicing through flesh and skin, these nightmarish bladed creatures are cutting their way out of their hosts. Metalhorrors are emerging from: -->
-  <MetalhorrorEmergingPluralDesc>TODO</MetalhorrorEmergingPluralDesc>
+  <MetalhorrorEmergingPluralDesc>Sorgeixen horrometalls! Esquincen i foraden de la carn i la pell dels seus hostes. Els horrometalls surten de:</MetalhorrorEmergingPluralDesc>
   <!-- EN: These horrifying metallic parasites live inside the victim, taking control of higher reasoning via a network of hair-thin metallic filaments that they spread throughout the body and brain. They control the victim's mind and compel them to infect others with new metalhorrors. -->
-  <MetalhorrorEmergingDescAppended>TODO</MetalhorrorEmergingDescAppended>
+  <MetalhorrorEmergingDescAppended>Aquests horripilants paràsits metàl·lics viuen a l'interior de la víctima i li prenen el control del raonament superior amb una xarxa de filaments metàl·lics prims com un cabell que s'estenen pel cos i el cervell. Controlen la ment de la víctima i l'obliguen a infectar els altres amb més horrometalls.</MetalhorrorEmergingDescAppended>
   
   <!-- EN: These doctors were infested and controlled by metalhorrors, so they lied about the results of a surgical inspection -->
   <MetalhorrorSurgicalInspectionDetails>Aquests metges estaven parasitats i controlats per horrometalls, de manera que han mentit sobre els resultats d'una inspecció quirúrgica.</MetalhorrorSurgicalInspectionDetails>
@@ -354,17 +354,17 @@
   <!-- EN: Metalhorror detected -->
   <MetalhorrorDetected>S’ha detectat un horrometall</MetalhorrorDetected>
   <!-- EN: {PAWN_nameDef} noticed something wrong with {INFECTED_nameDef} while chatting. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
-  <InteractionDetectedDesc>TODO</InteractionDetectedDesc>
+  <InteractionDetectedDesc>{PAWN_nameDef} ha notat que alguna cosa de {INFECTED_nameDef} no anava bé mentre hi parlava. {INFECTED_nameDef} ha tingut alguns comportaments no gaire naturals, ha fet sons estranys i, si un s'hi fixa, té uns cucs metàl·lics als ulls. {PAWN_nameDef} sospita que un horrometall ha infectat a {INFECTED_nameDef}.</InteractionDetectedDesc>
   <!-- EN: {PAWN_nameDef} has found something unusual while interrogating {INFECTED_nameDef}. {INFECTED_nameDef} exhibited some combination of unnatural behavior, strange vocal sounds, or barely visible metallic worms in the eyes. {PAWN_nameDef} suspects that {INFECTED_nameDef} is infected with a metalhorror. -->
-  <InterrogationDetectedDesc>TODO</InterrogationDetectedDesc>
+  <InterrogationDetectedDesc>{PAWN_nameDef} ha notat que alguna cosa de {INFECTED_nameDef} no anava bé mentre l'interrogava. {INFECTED_nameDef} ha tingut alguns comportaments no gaire naturals, ha fet sons estranys i, si un s'hi fixa, té una espècie de cucs metàl·lics als ulls. {PAWN_nameDef} sospita que un horrometall ha infectat a {INFECTED_nameDef}.</InterrogationDetectedDesc>
   
   <!-- EN: Metalhorrors are parasites that control the host and use them to infect others.\n\nMetalhorrors grow stronger inside the host as time passes. A metalhorror will cut its way out of the host's body if it knows it's been detected. The process is horrifying, but the host generally survives.\n\nThe only way to confirm a person is infected with a metalhorror is to study the metalhorror's fleshy leavings to identify its biosignature, then use the surgical inspection operation with a trusted doctor.\n\nOnce discovered, you can use the surgical inspection operation to cause a metalhorror to emerge from its host. Be prepared for a fight. -->
-  <MetalhorrorNoticedDetailsAppended>TODO</MetalhorrorNoticedDetailsAppended>
+  <MetalhorrorNoticedDetailsAppended>Els horrometalls són paràsits que controlen l'hoste i els utilitzen per a infectar més persones.\n\nEls horrometalls es fan més forts dins de l'hoste a mesura que passa el temps. Els horrometalls tallen la carn i surten del cos de la seva víctima si saben que se'ls ha detectat. El procés és horrible, però l'amfitrió generalment sobreviu.\n\nL'única manera de confirmar que una persona està infectada és estudiar les restes carnoses de l'horrometall, identificar-ne la biosignatura i després fer una operació d'inspecció quirúrgica amb un metge de confiança.\n\nUn cop descobert un horrometall, podeu aprofitar l'operació d'inspecció quirúrgica per a fer que emergeixi un horrometall de l'hoste. Estigueu preparats per a lluitar.</MetalhorrorNoticedDetailsAppended>
   
   <!-- EN: Gray flesh -->
   <LetterGrayFleshDiscoveredLabel>Carn necròtica</LetterGrayFleshDiscoveredLabel>
   <!-- EN: {PAWN_nameDef} has discovered a strip of fleshy tissue. It resembles human skin stained gray by tiny metallic particles. It must have sloughed off someone during flesh liquification.\n\nSomeone here may not be what they seem.\n\nThere are several ways to detect imposters:\n\n{METHODS}\n\nWarning: Some parasites can control the mind and even be transmitted to others. -->
-  <LetterGrayFleshDiscovered>TODO</LetterGrayFleshDiscovered>
+  <LetterGrayFleshDiscovered>{PAWN_nameDef} ha descobert una tira de teixit carnós. S'assembla a la pell humana, però està tacada per petites partícules metàl·liques que li donen un color gris. S'ha matat a algú durant la liquació de la carn.\n\nPotser algú no és qui diu que és.\n\nHi ha diverses maneres de detectar impostors:\n\n{METHODS}\n\nAvís: alguns paràsits poden controlar la ment i fins i tot es transmeten a altres persones.</LetterGrayFleshDiscovered>
   
   <!-- EN: The “interrogate” prisoner interaction mode is now unlocked. -->
   <LetterInterrogationUnlocked>S’ha desblocat el mode d’«Interrogació» de presoners.</LetterInterrogationUnlocked>
@@ -372,7 +372,7 @@
   <!-- EN: Imprison someone and send a warden to interrogate them about their true identity. This can take many days. -->
   <LetterGrayFleshMethodOne>Empresona a algú i hi envia un guarda a interrogar-lo sobre qui són realment. Pot trigar diversos dies.</LetterGrayFleshMethodOne>
   <!-- EN: Collect more gray flesh and analyze it to determine the biosignature of the threat. Then, use the surgical inspection operation to search for that biosignature. It could take a long time to collect enough samples, and the surgery is invasive. -->
-  <LetterGrayFleshMethodTwo>TODO</LetterGrayFleshMethodTwo>
+  <LetterGrayFleshMethodTwo>Recolliu més carn necrotica i analitzeu-la per a determinar la biosignatura de l'amenaça. A continuació, utilitzeu l'operació d'inspecció quirúrgica per a cercar aquesta biosignatura. La recollida de mostres podria trigar molt de temps i la cirurgia és invasiva.</LetterGrayFleshMethodTwo>
   <!-- EN: Execute or banish whoever you suspect. -->
   <LetterGrayFleshMethodThree>Executeu o desterreu els sospitosos.</LetterGrayFleshMethodThree>
   
@@ -391,9 +391,9 @@
   <!-- EN: Surgical inspection results -->
   <LetterSurgicallyInspectedLabel>Resultats de la inspecció quirúrgica</LetterSurgicallyInspectedLabel>
   <!-- EN: {DOCTOR_nameDef} performed an extensive surgical inspection of {PATIENT_nameDef}. -->
-  <LetterSurgicallyInspectedHeader>TODO</LetterSurgicallyInspectedHeader>
+  <LetterSurgicallyInspectedHeader>{DOCTOR_nameDef} ha realitzat una inspecció quirúrgica exhaustiva a {PATIENT_nameDef}.</LetterSurgicallyInspectedHeader>
   <!-- EN: {DOCTOR_pronoun} says that {DOCTOR_pronoun} found no anomalies. However, a doctor may lie if it is in their own self-interest. -->
-  <LetterSurgicallyInspectedNothing>TODO</LetterSurgicallyInspectedNothing>
+  <LetterSurgicallyInspectedNothing>Diu que no li ha trobat cap anomalia. Tanmateix, un metge pot mentir pel seu propi interès.</LetterSurgicallyInspectedNothing>
   
   <!-- Death refusal -->
   <!-- EN: use -->
@@ -419,7 +419,7 @@
   <!-- EN: Create corpse stockpile -->
   <CreateCorpseStockpile>Crea una pila per a cadàvers</CreateCorpseStockpile>
   <!-- EN: Create a dumping stockpile zone around the harbinger tree for corpses.\n\nHarbinger trees will consume nearby corpses and raw meat. If well fed, the trees will grow faster and create new harbinger trees. -->
-  <CreateCorpseStockpileDesc>TODO</CreateCorpseStockpileDesc>
+  <CreateCorpseStockpileDesc>Crea una zona d'abocament de cadàvers al voltant de l'arbre dels presagis.\n\nEls arbres consumiran cadàvers propers i carn crua. Si s'alimenten bé, els arbres creixeran més de pressa i hi creixeran més arbres dels presagis.</CreateCorpseStockpileDesc>
 
   <!-- EN: Void node has been disabled. -->
   <VoidNodeDisabled>El node del buit s'ha desactivat.</VoidNodeDisabled>
@@ -473,7 +473,7 @@
   <!-- EN: Fleshmass heart defeated -->
   <LetterLabelFleshmassHeartDestroyed>Cor carnimàssic derrotat</LetterLabelFleshmassHeartDestroyed>
   <!-- EN: The fleshmass heart has been destroyed, leaving behind a broken but still functional core - a twisted amalgam of flesh and archotechnology. The nucleus continues to grow and mutate flesh, even while the surrounding fleshmass decays.\n\nYou can capture the nucleus to study it further or destroy it to end this nightmare. If left alone, it may reform into a new fleshmass heart. -->
-  <LetterFleshmassHeartDestroyed>TODO</LetterFleshmassHeartDestroyed>
+  <LetterFleshmassHeartDestroyed>El cor carnimàssic ha estat destruït i deixa enrere un nucli trencat però encara funcional: una amalgama arcotecnològica de carn retorçada. El nucli continua creixent i mutant la carn, fins i tot mentre la carn que l'envolta es desintegra.\n\nPodeu capturar el nucli i estudiar-lo més o bé destruir-lo per a acabar amb aquest malson. Si es deixa sol, es pot transformar en un cor carnimàssic una altra vegada.</LetterFleshmassHeartDestroyed>
   <!-- EN: The fleshmass heart has grown a new nerve bundle. -->
   <NerveBundleGrewMessage>Al cor carnimàssic li ha començat a créixer un feix de nervis nou.</NerveBundleGrewMessage>
   <!-- EN: The nerve bundle has dropped a neural lump. Analyze it to learn more about the fleshmass heart. -->
@@ -494,7 +494,7 @@
   <!-- EN: Flesh tentacle attack -->
   <LetterLabelFleshTentacleAttack>Atac de tentacle de carn</LetterLabelFleshTentacleAttack>
   <!-- EN: {PAWN_nameDef}'s operation was successful. However, the twisting mass of flesh that was {PAWN_possessive} tentacle has begun to attack! -->
-  <LetterFleshTentacleAttack>TODO</LetterFleshTentacleAttack>
+  <LetterFleshTentacleAttack>L'operació de {PAWN_nameDef} ha anat bé. Tanmateix, la massa retorçada de carn que formava el tentacle ha començat a atacar!</LetterFleshTentacleAttack>
   <!-- EN: Biosignature -->
   <Biosignature>Biosignatura</Biosignature>
   <!-- EN: Bliss lobotomy -->
@@ -553,17 +553,17 @@
   <!-- EN: Unnatural corpse study progress -->
   <UnnaturalCorpseStudyLetter>progrés de l'estudi dels cadàvers antinaturals</UnnaturalCorpseStudyLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed more about the body. An archotech shard at its core psychically links it with {VICTIM_nameDef}. It will rebuild itself if destroyed, and teleport any distance to be near {VICTIM_nameDef}. \n\n{RESEARCHER_nameDef} thinks that there may be a way to permanently destroy the corpse but will need to study it further.\n\nStudy the corpse more to learn how to destroy it. -->
-  <UnnaturalCorpseStudyLetterDesc>TODO</UnnaturalCorpseStudyLetterDesc>
+  <UnnaturalCorpseStudyLetterDesc>La investigació sobre el cadàver antinatural ha revelat més coses sobre el cos. Un resquill arcotècnic del seu interior l'enllaça psíquicament amb {VICTIM_nameDef}. Es reconstruirà sol si es destrueix i es teletransportarà per a estar a prop de {VICTIM_nameDef}.\n\n{RESEARCHER_nameDef} creu que hi pot haver una manera de destruir el cadàver permanentment, però caldrà estudiar-ho més a fons.\n\nEstudieu més el cadàver per a aprendre a destruir-lo.</UnnaturalCorpseStudyLetterDesc>
 
   <!-- EN: Unnatural corpse study complete -->
   <UnnaturalCorpseStudyCompletedLetter>Estudi dels cadàvers antinaturals completat</UnnaturalCorpseStudyCompletedLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed how to safely remove the archotech shard. Doing so will stop it from psychically tormenting {VICTIM_nameDef}. However, it will also prevent further study of the corpse. -->
-  <UnnaturalCorpseStudyCompletedLetterDesc>TODO</UnnaturalCorpseStudyCompletedLetterDesc>
+  <UnnaturalCorpseStudyCompletedLetterDesc>La investigació sobre el cadàver antinatural ha revelat com treure el resquill arcotècnic de manera segura. Si ho feu, evitareu que turmenti psíquicament {VICTIM_nameDef}. Tanmateix, també impedirà un estudi posterior del seu cadàver.</UnnaturalCorpseStudyCompletedLetterDesc>
 
   <!-- EN: Corpse shard -->
   <UnnaturalCorpseDeactivatedLetter>Resquill de cadàver</UnnaturalCorpseDeactivatedLetter>
   <!-- EN: {PAWN_nameDef} extracted an archotech shard from the unnatural corpse, the corpse then began to violently bloat and exploded into gore. -->
-  <UnnaturalCorpseDeactivatedLetterDesc>TODO</UnnaturalCorpseDeactivatedLetterDesc>
+  <UnnaturalCorpseDeactivatedLetterDesc>{PAWN_nameDef} ha extret un resquill arcotècnic del cadàver antinatural. El cadàver s'ha inflat violentament i ha explotat empastifant-ho tot.</UnnaturalCorpseDeactivatedLetterDesc>
   <!-- EN: {PAWN_nameDef} is feeling better already. -->
   <UnnaturalCorpseDeactivatedLetterDescAppended>{PAWN_nameDef} ja se sent millor.</UnnaturalCorpseDeactivatedLetterDescAppended>
   
@@ -583,7 +583,7 @@
   <!-- EN: Unnatural corpse -->
   <UnnaturalCorpseAwakeningLetter>cadàver antinatural</UnnaturalCorpseAwakeningLetter>
   <!-- EN: {PAWN_nameDef} feels the unnatural corpse growing rapidly stronger. Some horrible consciousness is flickering within it.\n\nSomething awful will happen in the next few days. -->
-  <UnnaturalCorpseAwakeningLetterDesc>TODO</UnnaturalCorpseAwakeningLetterDesc>
+  <UnnaturalCorpseAwakeningLetterDesc>{PAWN_nameDef} sent que el cadàver antinatural es fa més fort. Una consciència horrible es remou a dins seu.\n\nAlguna cosa terrible passarà en els propers dies.</UnnaturalCorpseAwakeningLetterDesc>
   <!-- EN: Destroy the corpse before it's too late. -->
   <UnnaturalCorpseAwakeningLetterExtra_StudyComplete>Destrueix el cadàver abans que sigui massa tard.</UnnaturalCorpseAwakeningLetterExtra_StudyComplete>
   <!-- EN: Study the corpse to learn how to destroy it. -->
@@ -592,12 +592,12 @@
   <!-- EN: Corpse awakened -->
   <UnnaturalCorpseAwokenLetter>Un cadàver s’ha despertat</UnnaturalCorpseAwokenLetter>
   <!-- EN: The unnatural corpse is rising! It intends to attack {PAWN_nameDef}!\n\nThe corpse will follow {PAWN_nameDef} forever no matter how far {PAWN_pronoun} goes.\n\nYou must destroy it now. -->
-  <UnnaturalCorpseAwokenLetterDesc>TODO</UnnaturalCorpseAwokenLetterDesc>
+  <UnnaturalCorpseAwokenLetterDesc>El cadàver antinatural s'aixeca! Té la intenció d'atacar {PAWN_nameDef}!\n\nEl cadàver {PAWN_gender ? el : la} perseguirà per sempre, per molt lluny que se'n vagi.\n\nL'heu de destruir ja.</UnnaturalCorpseAwokenLetterDesc>
 
   <!-- EN: Unnatural corpse destroyed! -->
   <UnnaturalCorpseAwokenDefeatedLetter>Cadàver antinatural destruït!</UnnaturalCorpseAwokenDefeatedLetter>
   <!-- EN: The unnatural corpse charging towards {PAWN_nameDef} has been defeated!\n\nThe corpse will no longer torment {PAWN_nameDef}. -->
-  <UnnaturalCorpseAwokenDefeatedLetterDesc>TODO</UnnaturalCorpseAwokenDefeatedLetterDesc>
+  <UnnaturalCorpseAwokenDefeatedLetterDesc>El cadàver antinatural que persegia a {PAWN_nameDef} ha estat derrotat!\n\nEl cadàver ja no {PAWN_gender ? el : la} turmentarà més.</UnnaturalCorpseAwokenDefeatedLetterDesc>
 
   <!-- Golden Cube -->
   <!-- EN: {PAWN_labelShort}'s obsession with the golden cube has intensified. -->
@@ -686,7 +686,7 @@
   <!-- EN: Colonists returned -->
   <LetterLabelLabyrinthExit>Els colons han retornat</LetterLabelLabyrinthExit>
   <!-- EN: The whirring obelisk has returned your abducted colonists. Shortly after doing so, it vanished into thin air.\n\nBe careful, the obelisk may have returned other creatures as well. -->
-  <LetterLabyrinthExit>TODO</LetterLabyrinthExit>
+  <LetterLabyrinthExit>L'obelisc brunzidor ha alliberat els colons segrestats. Poc després de fer-ho, s'ha esvaït.\n\nAneu amb compte, l'obelisc potser ha fet arribar altres criatures.</LetterLabyrinthExit>
 
   <!-- EN: Jammed shut. Must be forced open. -->
   <GrayDoorJammed>Encallada. Cal forçar-la per a obrir-la.</GrayDoorJammed>
@@ -697,7 +697,7 @@
   <!-- EN: No available pawns. -->
   <MonolithActivateDisabledPawns>No hi ha peons disponibles.</MonolithActivateDisabledPawns>
   <!-- EN: The monolith's dark metallic surface is warm to the touch, and {PAWN_nameDef} thinks {PAWN_pronoun} can hear a faint hum emanating from inside. The lines on its dusty surface seem to squirm in unsettling patterns.\n\n{PAWN_nameDef} focuses on the shapes, trying to uncover their meaning.\n\nThe hum strengthens. The shapes begin to flow in {PAWN_nameDef}'s vision, but the surface isn't changing. Power begins to uncoil in the empty space all around. A black shape is forming in {PAWN_possessive} mind.\n\nThe Anomaly is stirring... -->
-  <VoidMonolithInvestigatedText>TODO</VoidMonolithInvestigatedText>
+  <VoidMonolithInvestigatedText>La superfície fosca metàl·lica del monòlit és càlida al tacte i {PAWN_nameDef} creu que pot sentir un lleuger brunzit que emana de dins. Les línies de la seva superfície polsegosa semblen retorçar-se i formen patrons pertorbadors.\n\n{PAWN_nameDef} se centra en les formes i intenta descobrir-ne el significat.\n\nEl brunzit s'intensifica. Les formes flueixen a la visió de {PAWN_nameDef}, però la superfície no canvia. El poder comença a desplegar-se a l'espai buit del voltant. Es forma una negror a la seva ment.\n\nL'anomalia es mou...</VoidMonolithInvestigatedText>
   <!-- EN: Keep focusing on the Anomaly -->
   <VoidMonolithInvestigate>Mantén-te concentrat en l'anomalia</VoidMonolithInvestigate>
   <!-- EN: Walk away -->
@@ -711,7 +711,7 @@
   <!-- EN: Send a colonist to investigate this. -->
   <VoidMonolithUndiscovered>Envieu-hi un colon a investigar-ho.</VoidMonolithUndiscovered>
   <!-- EN: In order to advance the monolith to the next step, you need to discover {0} {1} tier entities. -->
-  <VoidMonolithRequiredEntityCategory>TODO</VoidMonolithRequiredEntityCategory>
+  <VoidMonolithRequiredEntityCategory>Per a fer avançar al monòlit al nivell següent, heu de descobrir {replace: {0} entitats;"1 entitat"-"1 entitat"} de nivell {1}.</VoidMonolithRequiredEntityCategory>
   <!-- EN: Discovered: {0} -->
   <DiscoveredCount>S'ha descobert: {0}</DiscoveredCount>
   <!-- EN: Required entities discovered. -->
@@ -752,7 +752,7 @@
   <!-- EN: Fallen monolith -->
   <MonolithAutoActivatingLabel>El monòlit caigut</MonolithAutoActivatingLabel>
   <!-- EN: A wave of dread passes over your colonists. The fallen monolith has begun to stir. Slowly, it begins to twist and rearrange itself, morphing into something new.\n\nWithin a matter of days, the process will be complete. Be prepared for whatever comes next. -->
-  <MonolithAutoActivatingText>TODO</MonolithAutoActivatingText>
+  <MonolithAutoActivatingText>Una onada de por s'estén entre els vostres colons. El monòlit caigut ha començat a recargolar-se. Lentament, comença a torçar-se i reorganitzar-se. Es transforma en alguna cosa nova.\n\nEn qüestió de dies, el procés s'acabarà. Estigueu preparats per al que vingui després.</MonolithAutoActivatingText>
   <!-- EN: Void monolith -->
   <MonolithAutoActivatedLabel>Monòlit del buit</MonolithAutoActivatedLabel>
   <!-- EN: The monolith's transformation is almost complete... -->
@@ -761,13 +761,13 @@
   <!-- EN: Gray pall -->
   <LetterLabelGrayPallDescending>Boira del terror</LetterLabelGrayPallDescending>
   <!-- EN: A blanket of gritty fog has descended on this area. The fog smells ancient, somehow, and it stings the skin. The unnatural grayness of it invokes a sense of dread. -->
-  <LetterGrayPallDescending>TODO</LetterGrayPallDescending>
+  <LetterGrayPallDescending>Un mantell de boira s'ha estés per la zona. La boira fa una olor ancestral i pica a la pell. La grisor antinatural provoca por.</LetterGrayPallDescending>
 
   <!-- Void Awakening -->
   <!-- EN: Awakening the void monolith will engulf your colony in darkness for days and attract powerful entities. Make sure you are well prepared:\n\n- Stockpile food, building material, and weapons.\n- Make sure your colony is well lit, and has ample power. Avoid relying on solar generators.\n- Ensure your colony is well defended, and your colonists are ready to fight.\n\nOnce you awaken the void monolith, there is no going back.\n\nAre you sure you want to continue? -->
-  <VoidAwakeningConfirmationText>TODO</VoidAwakeningConfirmationText>
+  <VoidAwakeningConfirmationText>Si es fa despertar el monòlit del buit, una foscor engolirà la vostra colònia durant dies i atraurà entitats poderoses. Assegureu-vos que esteu ben preparats:\n\n‒ Emmagatzemeu aliments, materials de construcció i armes.\n\n‒ Assegureu-vos que la vostra colònia estigui ben il·luminada i que tingui prou energia. Eviteu dependre dels generadors solars.\n‒ Assegureu-vos que la vostra colònia estigui ben defensada i que els vostres colons estiguin preparats per a lluitar.\n\nUn cop es desperta el monòlit del buit, no hi ha marxa enrere.\n\nEsteu segur que voleu continuar?</VoidAwakeningConfirmationText>
   <!-- EN: A sphere of writhing psychic energy rises before {PAWN_nameDef}.\n\n{PAWN_nameDef} feels a presence inside {PAWN_possessive} mind, deeper than any normal human sense. {PAWN_pronoun} stands on the shoreline of an infinite black ocean of power. It beckons {PAWN_objective} in...\n\nNearby archotech devices support the sphere along fragile connections. {PAWN_nameDef} could disrupt them, closing this link between worlds.\n\nOr, {PAWN_pronoun} could step into the sphere and merge with the void. It's unknown what dark power could be gained from such an inhuman act. -->
-  <VoidNodeLetter>TODO</VoidNodeLetter>
+  <VoidNodeLetter>Una esfera d'energia psíquica pertorbadora s'eleva al davant de {PAWN_nameDef}.\n\n{PAWN_nameDef} sent una presència dins la seva ment, més profunda que qualsevol altre sentit humà normal. Es troba a la costa d'un oceà negre d'energia infinit. Li fa senyals per a atraure{PAWN_gender ? 'l : -la}...\n\nEls dispositius arcotècnics propers ajuden a l'esfera a millorar les connexions fràgils. {PAWN_nameDef} podria interrompre-les i tancar aquest enllaç entre mons.\n\nO bé també podria entrar a l'esfera i fusionar-se amb el buit. Es desconeix quin poder fosc es podria obtenir d'un acte tan inhumà.</VoidNodeLetter>
   <!-- EN: Disrupt the link -->
   <VoidNodeDisrupt>Interromp l'enllaç</VoidNodeDisrupt>
   <!-- EN: Embrace the void -->
@@ -775,9 +775,9 @@
   <!-- EN: Postpone -->
   <VoidNodePostpone>Posposa</VoidNodePostpone>
   <!-- EN: The psychic flows destabilize and the twisted machinery screams. The swirling void flickers. {PAWN_nameDef} feels it shuddering and collapsing into itself.\n\nThe metallic cavern begins to twist, reshaping like the chamber of a massive heart. Before {PAWN_nameDef} has a chance to scream, {PAWN_pronoun} blinks out of existence.\n\n{PAWN_nameDef} has rejected the void.\n\n{PAWN_possessive} story continues... -->
-  <DisruptTheLinkCredits>TODO</DisruptTheLinkCredits>
+  <DisruptTheLinkCredits>Els fluxos psíquics es desestabilitzen i la maquinària pertorbadora crida. El buit s'arremolina i parpelleja. {PAWN_nameDef} sent que tremola i s'enfonsa en si {PAWN_gender ? mateix : mateixa}.\n\nLa caverna metàl·lica comença a recargolar-se i es remodela com si fos un ventricle d'un cor enorme. Abans que {PAWN_nameDef} tingui ocasió de cridar, desapareix en un obrir i tancar d'ulls.\n\n{PAWN_nameDef} ha rebutjat el buit.\n\nLa seva història continua...</DisruptTheLinkCredits>
   <!-- EN: {PAWN_nameDef} steps into the void and the black ocean floods into {PAWN_objective}, overwhelming every sense, suffusing every thought in {PAWN_possessive} mind.\n\nThe void node has been refocused away from the world, towards one single person. The void structures scream, then blink out of existence.\n\n{PAWN_nameDef} has embraced the void.\n\n{PAWN_possessive} story continues... -->
-  <EmbraceTheVoidCredits>TODO</EmbraceTheVoidCredits>
+  <EmbraceTheVoidCredits>{PAWN_nameDef} entra al buit i s'enfonsa a l'oceà negre. Té tots els sentits aclaparats. Se li inunden els pensaments...\n\nEl node del buit se n'ha anat lluny del món i se centra cap a una sola persona. Les estructures del buit criden i després desapareixen.\n\n{PAWN_nameDef} ha acceptat el buit.\n\nLa seva història continua...</EmbraceTheVoidCredits>
   <!-- EN: {PAWN_nameDef} has finished activating {STRUCTURE_definite} -->
   <StructureActivatedMessage>{PAWN_nameDef} ha acabat d'activar {STRUCTURE_definite}.</StructureActivatedMessage>
   <!-- EN: Structures activated -->
@@ -785,7 +785,7 @@
   <!-- EN: Activate void structures to complete the monolith awakening. -->
   <StructuresActivatedAlertDescription>Activeu les estructures del buit per a despertar del tot el monòlit.</StructuresActivatedAlertDescription>
   <!-- EN: {PAWN_nameDef}'s connection to the void monolith has been broken. It must be activated again. -->
-  <GleamingMonolithInterrupted>TODO</GleamingMonolithInterrupted>
+  <GleamingMonolithInterrupted>La connexió de {PAWN_nameDef} amb el monòlit buit s'ha trencat. S'ha d'activar de nou.</GleamingMonolithInterrupted>
 
   <!-- HediffComp_GiveLovinMTBFactor -->
   <!-- EN: Increases the chance of lovin` -->
