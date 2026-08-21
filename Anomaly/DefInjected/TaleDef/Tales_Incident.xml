@@ -17,7 +17,20 @@
     <li>desc_sentence->Shivers run down [PAWN_nameDef]'s spine as the death pall's influence continues to spread.</li>
     <li>desc_sentence->The weight of despair settles upon [PAWN_nameDef], testing [PAWN_possessive] resolve in the face of the macabre.</li>
   -->
-  <DeathPall.rulePack.rulesStrings>TODO</DeathPall.rulePack.rulesStrings>
+  <DeathPall.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] s'enfrenta al mantell de la mort</li>
+    <li>image->[PAWN_nameFull] mira amb horror com el mantell de la mort ho cobreix tot i ressuscita els morts [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] agafa la seva arma, mentre el mantell cau al damunt dels morts [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] tremola i veu l'arribada del mantell de la mort. Poc a poc, els morts recuperen la vida [circumstance_group].</li>
+    <li>image->[PAWN_nameFull] observa amb horror com el mantell mortal s'estén per la seva llar. La converteix en un camp de batalla contra els morts [circumstance_group].</li>
+    <li>circumstance_phrase->i resa per la seva vida</li>
+    <li>circumstance_phrase->amb l'aroma de la decadència i desesperació flotant a l'aire</li>
+    <li>circumstance_phrase->i l'atrapa una horda de zombis</li>
+    <li>desc_sentence->En el centre del mantell mortal, [PAWN_nameDef] es prepara per a la batalla.</li>
+    <li>desc_sentence->La invasió de la mort aterreix els amics de [PAWN_nameDef].</li>
+    <li>desc_sentence->Un calfred recorre l'esquena de [PAWN_nameDef], mentre el mantell segueix escampant-se.</li>
+    <li>desc_sentence->El pes de la desesperació cau al damunt de [PAWN_nameDef] i posa a prova la seva determinació contra les pertorbadores imatges que veu.</li>
+  </DeathPall.rulePack.rulesStrings>
   
   <!-- EN: unnatural darkness -->
   <UnnaturalDarkness.label>foscor sobrenatural</UnnaturalDarkness.label>
@@ -36,6 +49,20 @@
     <li>desc_sentence->Groups of shadowy creatures are visible at the edge of the darkness.</li>
     <li>desc_sentence->[PAWN_nameDef] tries to find a glimmer of hope amidst the encroaching darkness.</li>
   -->
-  <UnnaturalDarkness.rulePack.rulesStrings>TODO</UnnaturalDarkness.rulePack.rulesStrings>
+  <UnnaturalDarkness.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] s'enfronta a la foscor antinatural</li>
+    <li>imatge->[PAWN_nameFull] està de peu i [PAWN_gender ? meravellat : meravellada] mentre el món és consumit per una foscor impenetrable [circumstance_group]</li>
+    <li>imatge->[PAWN_nameFull] està [PAWN_gender ? envoltat : envoltada] de pilars negres que cauen del cel i cobreixen la terra en la foscor [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] lluita per a trobar el seu camí a través de la foscor sufocant i uns nòctols [PAWN_gender ? el : la] segueixen, [circumstance_group]</li>
+    <li>imatge->[PAWN_nameFull] veu com el món se l'empassa un abisme d'ombres [circumstance_group]</li>
+    <li>circumstance_phrase->enmig dels intents desesperats dels seus amics de tornar a la seguretat de la llum</li>
+    <li>circumstance_phrase->amb crits penetrants que ressonen per tot arreu</li>
+    <li>circumstance_phrase->la llum aparentment amb prou feines pot retenir-la</li>
+    <li>circumstance_frase->com suplica per a la salvació</li>
+    <li>desc_sentence->Ni tan sols es veu el més dèbil parpelleig de llums.</li>
+    <li>desc_sentence->La situació sembla totalment desesperada.</li>
+    <li>desc_sentence->Es veuen grups de criatures pertorbadores a la vora de la foscor.</li>
+    <li>desc_sentence->[PAWN_nameDef] intenta trobar un bri d'esperança enmig de la foscor que l'envaeix.</li>
+  </UnnaturalDarkness.rulePack.rulesStrings>
   
 </LanguageData>

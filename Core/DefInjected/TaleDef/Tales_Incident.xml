@@ -24,9 +24,9 @@
     <li>desc_sentence->There is no [Enemy] in sight.</li>
   -->
   <Aurora.rulePack.rulesStrings>
-    <li>tale_noun->una aurora visible des de la [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->el cel il·luminat de colors sobre la [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->la il·luminació de la [Community]de [PAWN_nameDef] per una aurora</li>
+    <li>tale_noun->una aurora visible des de [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->el cel il·luminat de colors sobre [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->la il·luminació de [CommunityDef] de [PAWN_nameDef] per una aurora</li>
     <li>image->el cel il·luminat de color [Color] i [Color] [circumstance_phrase]</li>
     <li>image->uns rajos de color [Color] fent un fantàstic dibuix [circumstance_phrase]</li>
     <li>image->una xarxa de llums de color [Color] [circumstance_phrase]</li>
@@ -34,7 +34,7 @@
     <li>image->una dansa de llums de color [Color] [circumstance_group]</li>
     <li>circumstance_phrase->sobre una [terrainfeature]</li>
     <li>circumstance_phrase->il·luminant una [terrainfeature]</li>
-    <li>circumstance_phrase->flotant sobre una [Community]</li>
+    <li>circumstance_phrase->flotant sobre [CommunityIndef]</li>
     <li>circumstance_phrase->posada entre una [terrainfeature] i una [terrainfeature]</li>
     <li>desc_sentence->A sota, [PAWN_nameDef] juga a [game] amb una mirada [friendlyadjective].</li>
     <li>desc_sentence->[PAWN_nameDef] s’ho mira amb cara de fascinació.</li>
@@ -259,7 +259,7 @@
     <li>desc_sentence->There is no [Enemy] in sight.</li>
   -->
   <Eclipse.rulePack.rulesStrings>
-    <li>tale_noun->un eclipse sobre la [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->un eclipse sobre [CommunityDef] de [PAWN_nameDef]</li>
     <li>image->un cel anormalment fosc, [circumstance_phrase]</li>
     <li>image->un cel crepuscular, [circumstance_phrase]</li>
     <li>image->una lluna, envoltada per un anell de llum solar, [circumstance_phrase]</li>
@@ -273,7 +273,7 @@
     <li>desc_sentence->[PAWN_nameDef] s’ho mira amb cara d’admiració.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob_Plural] s’ho miren des de baix.</li>
     <li>desc_sentence->[PAWN_nameDef] seu prop d’una [terrainfeature], mirant el cel.</li>
-    <li>desc_sentence->Una [Community] d’espectadors es miren el cel relaxadament.</li>
+    <li>desc_sentence->[CommunityIndef] d’espectadors miren el cel relaxadament.</li>
     <li>desc_sentence->No hi ha cap [enemy] a la vista.</li>
   </Eclipse.rulePack.rulesStrings>
   
@@ -310,7 +310,7 @@
   -->
   <EndGame_ShipEscape.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] rebent un missatge d’un vell amic</li>
-    <li>tale_noun->arriba una oportunitat a la [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->arriba una oportunitat a [CommunityDef] de [PAWN_nameDef]</li>
     <li>image->[PAWN_nameDef] obre una carta lliurada per [delivery_method] mentre [circumstance_group]</li>
     <li>image->[PAWN_nameDef] llegint un cristall de dades lliurat per [delivery_method] mentre [circumstance_group]</li>
     <li>image->[PAWN_nameDef] desenrotllant un pergamí lliurat per [delivery_method] mentre [circumstance_group]</li>
@@ -336,7 +336,7 @@
     <li>desc_sentence->Mentre llegeix, es posa a [friendlyverb].</li>
     <li>desc_sentence->Una [PersonJob_Fem] espectral s’ho mira des dels núvols.</li>
     <li>desc_sentence->[PAWN_nameDef] seu a prop d’una [terrainfeature].</li>
-    <li>desc_sentence->Es veu una [Community] a la llunyania.</li>
+    <li>desc_sentence->Es veu [CommunityIndef] a la llunyania.</li>
     <li>desc_sentence->Es veu una nau espacial a la llunyania.</li>
   </EndGame_ShipEscape.rulePack.rulesStrings>
   
@@ -365,8 +365,8 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Flashstorm.rulePack.rulesStrings>
-    <li>tale_noun->Una tempesta de llamps que ha amenaçat la [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->La [Community] de [PAWN_nameDef] amenaçada pel mal temps</li>
+    <li>tale_noun->Una tempesta de llamps que ha amenaçat [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->[CommunityDef] de [PAWN_nameDef] amenaçada pel mal temps</li>
     <li>image->[quantity_adjphrase] làmpecs [circumstance_phrase]</li>
     <li>image->[behavior] mur de flames [circumstance_phrase]</li>
     <li>image->[behavior] mur de flames de color [Color] [circumstance_phrase]</li>
@@ -375,7 +375,7 @@
     <li>behavior->un</li>
     <li>behavior->un ràpid</li>
     <li>behavior->un amenaçador</li>
-    <li>circumstance_phrase->avançant cap a la [Community]</li>
+    <li>circumstance_phrase->avançant cap a [CommunityDef]</li>
     <li>circumstance_phrase->sota d’un núvol intimidatori</li>
     <li>circumstance_phrase->pràcticament embolcallant una [terrainfeature]</li>
     <li>circumstance_phrase->gairebé encerclant [quantity_adjphrase] [terrainfeature]s</li>
@@ -412,13 +412,14 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Infestation.rulePack.rulesStrings>
-    <li>tale_noun->la [Community] de infestada d’insectoides</li>
+    <li>tale_noun->[CommunityMascDef] infestat d’insectoides</li>
+    <li>tale_noun->[CommunityFemDef] infestada d’insectoides</li>
     <li>image->una filera d’escarbats que [circumstance_phrase]</li>
     <li>image->[quantity_adjphrase] megaranyes [circumstance_phrase]</li>
     <li>image->una munió d’insectoides de color [circumstance_phrase]</li>
     <li>image->una espessa boira de puntets negres [circumstance_phrase]</li>
     <li>circumstance_phrase->avancen sobre una [terrainfeature]</li>
-    <li>circumstance_phrase->encerclen completament una [Community]</li>
+    <li>circumstance_phrase->encerclen completament [CommunityIndef]</li>
     <li>circumstance_phrase->ataquen [quantity_adjphrase] [PersonJob_Plural]</li>
     <li>circumstance_phrase->surten del terra</li>
     <li>circumstance_phrase->devoren [quantity_adjphrase] [AnimalAnyPlural]</li>
@@ -464,14 +465,14 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <ManhunterPack.rulePack.rulesStrings>
-    <li>tale_noun->la [Community] de [PAWN_nameDef] atacada per animals</li>
+    <li>tale_noun->[CommunityDef] de [PAWN_nameDef] atacada per animals</li>
     <li>image->una manada de [animal]s [circumstance_phrase]</li>
     <li>image->[quantity_adjphrase] [AnimalAnyPlural] [circumstance_phrase]</li>
     <li>image->una [AdjectiveLarge] [animal] [circumstance_phrase]</li>
     <li>image->[quantity_adjphrase] ombres [circumstance_phrase]</li>
     <li>image->[quantity_adjphrase] ombres quadrupedes [circumstance_phrase]</li>
     <li>circumstance_phrase->avancen sobre una [terrainfeature]</li>
-    <li>circumstance_phrase->envolten completament una [Community]</li>
+    <li>circumstance_phrase->envolten completament [CommunityIndef]</li>
     <li>circumstance_phrase->ataquen [quantity_adjphrase] [PersonJob_Plural]</li>
     <li>circumstance_phrase->devoren [quantity_adjphrase] [animal]s</li>
     <li>circumstance_phrase->posseïts per la [hate_emotion]</li>
@@ -518,8 +519,8 @@
     <li>desc_sentence->The surroundings are muted and dull.</li>
   -->
   <MeteoriteImpact.rulePack.rulesStrings>
-    <li>tale_noun->caiguda d’un meteorit prop del [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->impacte d’un meteorit prop del [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->caiguda d’un meteorit prop de [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->impacte d’un meteorit prop de [CommunityDef] de [PAWN_nameDef]</li>
     <li>image->Un [large] roc amb un rastre de foc [Color] [airborne_circumstance]</li>
     <li>image->un punt molt lluent [airborne_circumstance]</li>
     <li>image->un [large] cercle de foc [Color] [airborne_circumstance]</li>
@@ -577,8 +578,8 @@
     <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
   -->
   <Raid.rulePack.rulesStrings>
-    <li>tale_noun->un assalta a la [Community] de [PAWN_nameDef]’s </li>
-    <li>tale_noun->la [Community] de sent atacada per [enemy]s</li>
+    <li>tale_noun->un assalt a [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->L'atac dels [enemy] a [CommunityDef]</li>
     <li>image->[quantity_adjphrase] [enemy]s [circumstance_phrase]</li>
     <li>image->una tropa [circumstance_phrase]</li>
     <li>image->una força desbordant [circumstance_phrase]</li>
@@ -586,7 +587,7 @@
     <li>image->penons estilitzats de color [Color] [circumstance_phrase]</li>
     <li>image->un enorme [enemy] [circumstance_phrase]</li>
     <li>circumstance_phrase->avançant sobre una [terrainfeature]</li>
-    <li>circumstance_phrase->encerclant completament una [Community]</li>
+    <li>circumstance_phrase->encerclant completament [CommunityIndef]</li>
     <li>circumstance_phrase->atacant a [quantity_adjphrase] [PersonJob_Plural]</li>
     <li>circumstance_phrase->rugint per la victòria</li>
     <li>circumstance_phrase->brandant [weapon]s</li>
@@ -642,9 +643,9 @@
     <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
   -->
   <ShipPartCrash.rulePack.rulesStrings>
-    <li>tale_noun->una colònia [mechanoid] estavellant-se prop de la [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->una base [mechanoid] aterrant a prop de la [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->una tros de nau [mechanoid] avariada aterrant a prop de la [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->una colònia [mechanoid] estavellant-se prop de [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->una base [mechanoid] aterrant a prop de [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->una tros de nau [mechanoid] avariada aterrant a prop de [CommunityDef] de [PAWN_nameDef]</li>
     <li>image->una munió de [mechanoid]s [circumstance_phrase]</li>
     <li>image->un exèrcit de [mechanoid]s [circumstance_phrase]</li>
     <li>image->[quantity_adjphrase] [mechanoid]s [circumstance_phrase]</li>
@@ -652,7 +653,7 @@
     <li>image->[quantity_adjphrase] siluetes de [mechanoid] [circumstance_phrase]</li>
     <li>image->[quantity_adjphrase] [mechanoid]s amb llumetes de color [Color] [circumstance_phrase]</li>
     <li>circumstance_phrase->avançant sobre una [terrainfeature]</li>
-    <li>circumstance_phrase->encerclant completament una [Community]</li>
+    <li>circumstance_phrase->encerclant completament [CommunityIndef]</li>
     <li>circumstance_phrase->atacant [quantity_adjphrase] [PersonJob_Plural]</li>
     <li>circumstance_phrase->fent a trossos [quantity_adjphrase] [animal]s</li>
     <li>circumstance_phrase->amb tot de [gore] per sobre</li>
@@ -699,8 +700,8 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Tornado.rulePack.rulesStrings>
-    <li>tale_noun->un tornado que va passar prop de la [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->la [Community] de [PAWN_nameDef] amenaçada pel mal temps</li>
+    <li>tale_noun->un tornado que va passar prop de [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->[CommunityDef] de [PAWN_nameDef] amenaçada pel mal temps</li>
     <li>image->[behavior] con d’aire girant [circumstance_phrase]</li>
     <li>image->[behavior] tornado [circumstance_phrase]</li>
     <li>image->[behavior] huracà [circumstance_phrase]</li>
@@ -748,8 +749,8 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <TornadoFromItem.rulePack.rulesStrings>
-    <li>tale_noun->un tornado que ha tocat terra prop de la [Community] de [COLONIST_nameDef]</li>
-    <li>tale_noun->la [Community] de [COLONIST_nameDef] amenaçada per un tornado</li>
+    <li>tale_noun->un tornado que ha tocat terra prop de [CommunityDef] de [COLONIST_nameDef]</li>
+    <li>tale_noun->[CommunityDef] de [COLONIST_nameDef] amenaçada per un tornado</li>
     <li>image->un con [behavior] d’aire girant [circumstance_phrase]</li>
     <li>image->un tornado [behavior] [circumstance_phrase]</li>
     <li>image->un huracà [behavior] [circumstance_phrase]</li>
@@ -795,8 +796,8 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   -->
   <ToxicFallout.rulePack.rulesStrings>
-    <li>tale_noun->cau pluja tòxica sobre la [Community] de [PAWN_nameDef]</li>
-    <li>tale_noun->l’atmosfera de la [Community] de [PAWN_nameDef] es torna tòxica</li>
+    <li>tale_noun->cau pluja tòxica sobre [CommunityDef] de [PAWN_nameDef]</li>
+    <li>tale_noun->l’atmosfera de [CommunityDef] de [PAWN_nameDef] es torna tòxica</li>
     <li>image->un cel de mal averany, [circumstance_group]</li>
     <li>image->l’aire es torna dens i [circumstance_group]</li>
     <li>image->el terra brilla suaument i [circumstance_group]</li>
@@ -836,7 +837,7 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   -->
   <VolcanicWinter.rulePack.rulesStrings>
-    <li>tale_noun->l’inici d’un hivern volcànic a la [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->l’inici d’un hivern volcànic a [CommunityDef] de [PAWN_nameDef]</li>
     <li>image->un cel fosc i fred, [circumstance_group]</li>
     <li>image->l’aire ple de cendra, [circumstance_group]</li>
     <li>image->una [terrainfeature] gelada i erma [circumstance_group]</li>

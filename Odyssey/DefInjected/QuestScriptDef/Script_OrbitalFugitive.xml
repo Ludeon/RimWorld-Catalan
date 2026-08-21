@@ -25,7 +25,38 @@
     <li>reason->drunkenly profaning a peace ritual</li>
     <li>reason->the destruction of an orbital trade vessel</li>
   -->
-  <OrbitalFugitive.questDescriptionRules.rulesStrings>TODO</OrbitalFugitive.questDescriptionRules.rulesStrings>
+  <OrbitalFugitive.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Una IA anònima ha demanat la vostra ajuda per a fer front a un[fugitive_x_a] proscrit[fugitive_x_a] anomena[fugitive_t_da] [fugitive_nameDef]. L'IA afirma que a [fugitive_nameDef] [fugitive_el_la] busquen per [reason_AI].\n\n[fugitive_nameDef] ha robat una càpsula de transport i ha fugit en direcció a una plataforma orbital abandonada.\n\nDesprés d'haver sentit rumors sobre la vostra nau, la IA demana que aneu a la plataforma abandonada i mateu a [fugitive_nameDef]. A canvi, us recompensarà amb un dispositiu gravitècnics.\n\nLa IA us adverteix que [fugitive_nameDef] pot estar amb altres de pirates orbitals hostils.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle], [asker_nameFull] de la facció de [asker_faction_name], ens ha enviat un missatge. Un[fugitive_x_a] fugiti[fugitive_u_va] anomena[fugitive_t_da] [fugitive_nameDef] es va escapar de la seva custòdia i va fer servir una càpsula de transport per a fugir cap a una plataforma orbital abandonada. [fugitive_nameDef] estava detingu[fugitive_t_da] per [raó].\n\nDesprés d'haver sentit rumors sobre la vostra nau, [asker_el_la] [asker_faction_leaderTitle] us demana que aneu a la plataforma abandonada i mateu a [fugitive_nameDef]. Si ho feu, [asker_nameDef] us recompensarà amb un dispositiu gravitècnic.\n\n[asker_nameDef] us avisa que [fugitive_nameDef] pot estar amb altres pirates orbitals hostils.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de la facció [asker_faction_name], sol·licita que localitzeu i mateu un fugitiu perillós conegut com a [fugitive_nameDef]. El fugitiu és buscat per [reason_royal].\n\n[fugitive_nameDef] s'amaga en una plataforma orbital abandonada i potser va acompanya[fugitive_t_da] de pirates orbitals. Si mateu [fugivite_el_la] fugiti[fugitive_u_va], [asker_nameDef] us donarà un dispositiu gravitècnic com a recompensa.</li>
+    <li>reason_AI->la destrucció de múltiples nuclis de subpersona d'alt nivell</li>
+    <li>reason_AI->haver tret d'òrbita satèl·lit d'IA</li>
+    <li>reason_AI->crims a nombrosos planetes llunyans</li>
+    <li>reason_AI->tràfic orbital sense llicència d'artefactes psíquics</li>
+    <li>reason_AI->[reason]</li>
+    <li>reason_royal->insultant borratxos el [asker_royalTitleInCurrentFaction] en un discurs de noces</li>
+    <li>reason_royal->intent d'assassinar el [asker_royalTitleInCurrentFaction]</li>
+    <li>reason_royal->detonant accidentalment un paquet d'escuma de foc en una llançadora imperial</li>
+    <li>reason_royal->l'ús inadequat d'un generador de tornados prop d'un assentament imperial</li>
+    <li>reason_royal->intent d'orquestrar una rebel·lió</li>
+    <li>reason_royal->traïció</li>
+    <li>reason_royal->[raó]</li>
+    <li>reason->col·laborar amb un grup de sangòfags</li>
+    <li>reason->tràfic d'artefactes psíquics perillosos</li>
+    <li>reason->un gran robatori i múltiples càrrecs de sabotatge corporatiu</li>
+    <li>reason->fer experiments genètics no autoritzada</li>
+    <li>reason->incitació al conflicte entre faccions</li>
+    <li>reason->profanar durant un ritual de pau</li>
+    <li>reason->la destrucció d'una nau orbital comercial</li>
+    <li>fugitive_x_a(fugitive_gender!=Female)-></li>
+    <li>fugitive_x_a(fugitive_gender==Female)->a</li>
+    <li>fugitive_u_va(fugitive_gender!=Female)->u</li>
+    <li>fugitive_u_va(fugitive_gender==Female)->va</li>
+    <li>fugitive_t_da(fugitive_gender!=Female)->t</li>
+    <li>fugitive_t_da(fugitive_gender==Female)->da</li>
+    <li>fugitive_el_la(fugitive_gender!=Female)->el</li>
+    <li>fugitive_el_la(fugitive_gender==Female)->la</li>
+  </OrbitalFugitive.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The Hunt for [fugitive_nameDef]</li>
     <li>questName->A Bounty for [fugitive_nameDef]</li>

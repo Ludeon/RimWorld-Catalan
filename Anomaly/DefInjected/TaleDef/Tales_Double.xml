@@ -23,6 +23,19 @@
     <li>desc_sentence->[ENTITY_nameDef] is only just held in the place by the ceaseless work of electro-inhibitors.</li>
     <li>desc_sentence->[ENTITY_nameDef] does not appear to react to [STUDIER_nameDef]'s efforts.</li>
   -->
-  <StudiedEntity.rulePack.rulesStrings>TODO</StudiedEntity.rulePack.rulesStrings>
+  <StudiedEntity.rulePack.rulesStrings>
+    <li>tale_noun->[STUDIER_nameDef] estudia [ENTITY_nameIndef]</li>
+    <li>image->[STUDIER_nameFull] examina amb cura [ENTITY_nameIndef] [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] realitza experiments. Vol comprendre els secrets de [ENTITY_nameDef], [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] s'esforça per entendre la naturalesa de [ENTITY_nameDef] [circumstance_group]</li>
+    <li>circumstance_phrase->amb un disgust amb prou feines dissimulat als seus ulls</li>
+    <li>circumstance_phrase->mentre dibuixa en un quadern</li>
+    <li>circumstance_phrase->mentre consulta un volum antic</li>
+    <li>desc_sentence->Al fons es veu el treball constant de les recol·lectores de bioferrita.</li>
+    <li>desc_sentence->La profunda fascinació que té per [ENTITY_nameDef] és evident.</li>
+    <li>desc_sentence->[STUDIER_nameDef] està [STUDIER_gender ? concentrat : concentrada] en l'estudi de [ENTITY_nameDef] i s'esforça per desvetllar-ne els secrets.</li>
+    <li>desc_sentence->[ENTITY_nameDef] amb penes i treballs es manté al seu lloc gràcies a la labor dels electroinhibidors.</li>
+    <li>desc_sentence->[ENTITY_nameDef] no sembla reaccionar als esforços de [STUDIER_nameDef].</li>
+  </StudiedEntity.rulePack.rulesStrings>
   
 </LanguageData>

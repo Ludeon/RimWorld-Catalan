@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: orbital debris -->
-  <OrbitalDebris.label>TODO</OrbitalDebris.label>
+  <OrbitalDebris.label>Restes orbitals</OrbitalDebris.label>
   <!-- EN:
     <li>tale_noun->a micrometeorite storm sweeping over [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->micrometeorite fragments peppering the area around [PAWN_nameDef]'s [Community]</li>
@@ -28,6 +28,30 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s scurry about, seeking cover.</li>
     <li>desc_sentence->Space is charged with an eerie power.</li>
   -->
-  <OrbitalDebris.rulePack.rulesStrings>TODO</OrbitalDebris.rulePack.rulesStrings>
+  <OrbitalDebris.rulePack.rulesStrings>
+    <li>tale_noun->una tempesta de micrometeorits escombra [Community] de [PAWN_nameDef]</li>
+    <li>tale_noun->fragments de micrometeorits esquitxa l'àrea al voltant de [CommunityDef] de [PAWN_nameDef]</li>
+    <li>image->una cascada de micrometeorits brillant amb espurnes [ColorF] [airborne_circumstance]</li>
+    <li>image->una dispersió de micrometeorits que brillen intensament [airborne_circumstance]</li>
+    <li>image->una pluja d'espurnes [ColorF] mentre els micrometeorits cremen [airborne_circumstance]</li>
+    <li>airborne_circumstance->creuant el cel a tota velocitat</li>
+    <li>airborne_circumstance->caient en una ràfega de llum</li>
+    <li>airborne_circumstance->dissipant-se en pols refulgent en caure</li>
+    <li>image->un grup de marques fumejants d'impacte, [ground_circumstance]</li>
+    <li>image->un fragment [Color] recremat, [ground_circumstance]</li>
+    <li>image->una dispersió de petites pedres [ColorF], [ground_circumstance]</li>
+    <li>ground_circumstance->envoltats per una boirina de pols fina</li>
+    <li>ground_circumstance->brillant lleument per la calor residual</li>
+    <li>ground_circumstance->encastats en un mantell de terra esquerdada</li>
+    <li>ground_circumstance->escampats pel paisatge</li>
+    <li>ground_circumstance->salpicats en un camp de cràters menors</li>
+    <li>desc_sentence->[PAWN_nameDef] observa la pluja amb admiració.</li>
+    <li>desc_sentence->[PAWN_nameDef] mira cap amunt [PAWN_gender ? meravellat : meravellada].</li>
+    <li>desc_sentence->[PAWN_nameDef] se sobresalta davant la incessant andanada.</li>
+    <li>desc_sentence->[Quantity_adjphrase] figures emergeixen d'un [TerrainFeature] proper per a resguardar-se.</li>
+    <li>desc_sentence->[Quantity_adjphrase] figures s'apressen a assegurar les seves pertinences.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [AnimalPl] corren d'un costat a l'altre buscant refugi.</li>
+    <li>desc_sentence->L'espai està carregat d'una energia inquietant.</li>
+  </OrbitalDebris.rulePack.rulesStrings>
   
 </LanguageData>

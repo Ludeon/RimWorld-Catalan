@@ -14,7 +14,16 @@
     <li>desc_sentence->The other colonists are shown [side_position], anxiously awaiting [PAWN_nameDef]'s return.</li>
     <li>desc_sentence->[PAWN_nameDef]'s face betrays that [PAWN_pronoun] is agonising over the choice before [PAWN_objective].</li>
   -->
-  <ClosedTheVoid.rulePack.rulesStrings>TODO</ClosedTheVoid.rulePack.rulesStrings>
+  <ClosedTheVoid.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] tanca el node buit.</li>
+    <li>image->[PAWN_nameFull] segella la connexió amb el buit i assegura la colònia [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] es posa dempeus i desafia el node del buit, decidi[PAWN_gender ? t : da] a protegir la colònia [circumstance_group]</li>
+    <li>circumstance_phrase->a mesura que el node del buit emet un resplendor inquietant</li>
+    <li>circumstance_phrase->mentre el buit xiuxiueja al fons</li>
+    <li>desc_sentence->El metall gris pressiona des de tots els costats.</li>
+    <li>desc_sentence->Els altres colons es mostren [side_position] i esperen amb ansietat el retorn de [PAWN_nameDef].</li>
+    <li>desc_sentence->La cara de [PAWN_nameDef] delata que dubta i pateix per l'elecció que ha de prendre.</li>
+  </ClosedTheVoid.rulePack.rulesStrings>
   
   <!-- EN: embraced the void -->
   <EmbracedTheVoid.label>ha acceptat el buit</EmbracedTheVoid.label>
@@ -30,7 +39,18 @@
     <li>desc_sentence->[PAWN_nameDef]'s eyes begin to gleam with an otherworldly glow.</li>
     <li>desc_sentence->The other colonists are shown [side_position], questioning the wisdom of [PAWN_nameDef]'s choice.</li>
   -->
-  <EmbracedTheVoid.rulePack.rulesStrings>TODO</EmbracedTheVoid.rulePack.rulesStrings>
+  <EmbracedTheVoid.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] abraça el buit</li>
+    <li>imatge->[PAWN_nameFull] aprofita els seus coneixements prohibits sobre el buit i transcendeix les limitacions mortals, [circumstance_group]</li>
+    <li>imatge->[PAWN_nameFull] es rendeix a l'atractiu del buit [circumstance_group]</li>
+    <li>imatge->[PAWN_nameFull] cedeix als sinistres xiuxiuejos del buit [circumstance_group]</li>
+    <li>circumstance_phrase->com uns tentacles d'energia fosca s'enrotllen al voltant de les seves extremitats</li>
+    <li>circumstance_phrase->enmig d'un remolí d'energia</li>
+    <li>circumstance_phrase->amb un somriure inquietant</li>
+    <li>desc_sentence->[PAWN_nameDef] irradia una aura de poder ominós, un testimoni del pacte que té amb el buit.</li>
+    <li>desc_sentence->Els ulls de [PAWN_nameDef] comencen a brillar amb un resplendor d'un altre món.</li>
+    <li>desc_sentence->Els altres colons es mostren [side_position], posant en dubte la saviesa de l'elecció de [PAWN_nameDef].</li>
+  </EmbracedTheVoid.rulePack.rulesStrings>
   
   <!-- EN: performed a psychic ritual -->
   <PerformedPsychicRitual.label>ha realitzat un ritual psíquic</PerformedPsychicRitual.label>
@@ -49,6 +69,20 @@
     <li>desc_sentence->The monolith shimmers in the background.</li>
     <li>desc_sentence->The surrounding candles flicker and sputter in the swirling energy.</li>
   -->
-  <PerformedPsychicRitual.rulePack.rulesStrings>TODO</PerformedPsychicRitual.rulePack.rulesStrings>
+  <PerformedPsychicRitual.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] dirigeix un ritual psíquic</li>
+    <li>imatge->[PAWN_nameFull] canalitza l'energia que balla al voltant seu mentre teixeix un potent ritual psíquic, [circumstance_group]</li>
+    <li>imatge->[PAWN_nameFull] recita encanteris foscos i aprofita forces misterioses per a dur a terme un ritual psíquic, [circumstance_group]</li>
+    <li>imatge->[PAWN_nameFull] enfoca la seva mirada mentre realitza un ritual psíquic, [circumstance_group]</li>
+    <li>imatge->[PAWN_nameFull] traça símbols complexos a l'aire i aprofita les energies ocultes per a realitzar un ritual psíquic, [circumstance_group]</li>
+    <li>circumstance_phrase->mentre es concentra atentament en el llibre que hi ha al seu davant</li>
+    <li>circumstance_phrase->amb determinació centrada, mostra el seu domini de les arts psíquiques</li>
+    <li>circumstance_phrase->amb un somriure cruel</li>
+    <li>circumstance_phrase->mentre la seva veu lluita per ser escoltada pel rugit de l'energia</li>
+    <li>desc_sentence->Es pot veure els cantaires [side_position] donant el seu suport.</li>
+    <li>desc_sentence->L'aire brilla mentre [PAWN_nameDef] completa el ritual psíquic.</li>
+    <li>desc_sentence->El monòlit brilla al fons.</li>
+    <li>desc_sentence->Les espelmes que l'envolten parpellegen i esclaten en l'energia que hi ha a l'aire.</li>
+  </PerformedPsychicRitual.rulePack.rulesStrings>
   
 </LanguageData>

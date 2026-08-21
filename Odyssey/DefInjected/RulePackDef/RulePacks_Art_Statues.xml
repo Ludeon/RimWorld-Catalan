@@ -242,6 +242,77 @@
     <li>statueIdea->Everlasting Love</li>
     <li>statueIdea->Passion</li>
   -->
-  <NamerStatue.rulePack.rulesStrings>TODO</NamerStatue.rulePack.rulesStrings>
+  <NamerStatue.rulePack.rulesStrings>
+    <li>r_statue_name(p=4)->[SUBJECT_nameFull]</li>
+    <li>r_statue_name->Estàtua de [SUBJECT_indefinite]</li>
+    <li>r_statue_name->Estudi de [SUBJECT_indefinite]</li>
+    <li>r_statue_name->Un estudi en [statueIdea]</li>
+    <li>r_statue_name->[SUBJECT_indefinite] [statueAdj]</li>
+    <li>r_statue_name->[SUBJECT_indefinite], el [statueAdj]</li>
+    <li>r_statue_name->El [subjectNoun] [statueAdj]</li>
+    <li>r_statue_name->[subjectNoun] [statueAdj]</li>
+    <li>r_statue_name->Figura de [statueIdea]</li>
+    <li>r_statue_name->[subjectNoun] i [statueIdea]</li>
+    <li>r_statue_name->[subjectNoun] de [SUBJECT_indefinite]</li>
+    <li>r_statue_name->[SUBJECT_indefinite], el [subjectNoun]</li>
+    <li>r_statue_name->El [subjectNoun]</li>
+    <!--<li>r_statue_name->[subjectNoun] de [statueIdea]</li> -->
+    <li>r_statue_name->[SUBJECT_indefinite] i [talktopicheavyfile]</li>
+    <li>statueAdj(p=5)->[AdjectiveAny]</li>
+    <li>statueAdj->Esculpit</li>
+    <li>statueAdj->Silenciós</li>
+    <li>statueAdj->Etern</li>
+    <li>statueAdj->Perfecte</li>
+    <li>statueAdj->Tallat</li>
+    <li>statueAdj->Atemporal</li>
+    <li>statueAdj->Ecos</li>
+    <li>statueAdj->Ideal</li>
+    <li>statueAdj->Humà</li>
+    <li>statueAdj->Defectuós</li>
+    <li>statueAdj->Vigilante</li>
+    <li>statueAdj->Plorós</li>
+    <li>statueAdj->Congelat</li>
+    <li>statueAdj->Esfondrat</li>
+    <li>subjectNoun(p=2)->[PersonJob]</li>
+    <li>subjectNoun(p=2)->[PersonFamily]</li>
+    <li>subjectNoun(p=2)->[PersonAlly]</li>
+    <li>subjectNoun(p=2)->[PersonBadass]</li>
+    <li>subjectNoun->Vigilant</li>
+    <li>subjectNoun->Heroi</li>
+    <li>subjectNoun->Llegenda</li>
+    <li>subjectNoun->Defensor</li>
+    <li>subjectNoun->Sentinella</li>
+    <li>subjectNoun->Adonis</li>
+    <li>subjectNoun->Esperit</li>
+    <li>subjectNoun->Figura</li>
+    <li>subjectNoun->Imatge</li>
+    <li>subjectNoun->Ànima</li>
+    <li>subjectNoun->Cos</li>
+    <li>subjectNoun->Rostre</li>
+    <li>subjectNoun->Contemplació</li>
+    <li>subjectNoun->Forma</li>
+    <li>subjectNoun->Àngel</li>
+    <li>subjectNoun->Estàtua</li>
+    <li>subjectNoun->Miratge</li>
+    <li>statueIdea(p=3)->[ConceptPositive]</li>
+    <li>statueIdea(p=3)->[ConceptBadass]</li>
+    <li>statueIdea(p=3)->[ConceptAngsty]</li>
+    <li>statueIdea(p=3)->[ConceptAngsty]</li>
+    <li>statueIdea->Força</li>
+    <li>statueIdea->Saviesa</li>
+    <li>statueIdea->Astúcia</li>
+    <li>statueIdea->Heroisme</li>
+    <li>statueIdea->Poder</li>
+    <li>statueIdea->Memòria</li>
+    <li>statueIdea->Esperit</li>
+    <li>statueIdea->Llum</li>
+    <li>statueIdea->Patriotisme</li>
+    <li>statueIdea->Llum de l'Alba</li>
+    <li>statueIdea->Cel nocturn</li>
+    <li>statueIdea->Alba</li>
+    <li>statueIdea->Sorra errant</li>
+    <li>statueIdea->Amor etern</li>
+    <li>statueIdea->Passió</li>
+  </NamerStatue.rulePack.rulesStrings>
   
 </LanguageData>

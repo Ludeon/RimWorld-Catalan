@@ -220,9 +220,9 @@
     <li>artextra_clause->hi ha [subimagesingle] [side_position]</li>
     <li>artextra_clause->els subjectes són davant de [subimageany]</li>
     <li>artextra_clause->la part de sota de la imatge està dominada per [subimageany]</li>
-    <li>artextra_clause->l’escena té lloc al mig d’una [Community]</li>
-    <li>artextra_clause->l’escena té lloc als afores d’una [Community]</li>
-    <li>artextra_clause->l’escena té lloc dins d’una [Community] construïda prop d’una [TerrainFeature]</li>
+    <li>artextra_clause->l’escena té lloc al mig d’[CommunityIndef]</li>
+    <li>artextra_clause->l’escena té lloc als afores d’[CommunityIndef]</li>
+    <li>artextra_clause->l’escena té lloc dins d’[CommunityIndef] construïda prop d’una [TerrainFeature]</li>
     <li>artextra_clause->[Character] [idles] [side_position]</li>
     <li>artextra_clause->[Character] [pawn_adj] [idles] [side_position]</li>
     <li>artextra_clause->[Quantity_adjphrase] [Character]s surten [side_position]</li>
@@ -240,7 +240,7 @@
     <li>subimageany->[subimageplural]</li>
     <li>subimagesingle(p=4)->un [Character]</li>
     <li>subimagesingle->una [TerrainFeature]</li>
-    <li>subimagesingle->una [Community]</li>
+    <li>subimagesingle->[CommunityIndef]</li>
     <li>subimagesingle->un [TreeType]</li>
     <li>subimagesingle->una [Vegetable]</li>
     <li>subimagesingle->una [AnimalGroup] de [AnimalAnyPlural]</li>

@@ -49,6 +49,7 @@
   <DisturbingChat.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [disturbed] [RECIPIENT_nameDef] [talkingAbout] [subjectDisturbing].</li>
     <li>r_logentry->[INITIATOR_nameDef] [spoke] [darkSpeechAdverb] amb [RECIPIENT_nameDef] sobre [subjectDisturbing].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [spoke] [darkSpeechAdverb] amb [RECIPIENT_nameDef] sobre [subjectDisturbing].</li>
     <li>spoke->ha parlat</li>
     <li>spoke->ha murmurat</li>
     <li>spoke->s'ha posat a parlar</li>
@@ -58,10 +59,10 @@
     <li>subjectDisturbing->[subjectInsane]</li>
     <li>disturbed->ha pertorbat</li>
     <li>disturbed->ha horroritzat</li>
-    <li>disturbed->ha assustat</li>
+    <li>disturbed->ha espantat</li>
     <li>disturbed->ha molestat</li>
     <li>disturbed->ha fet preocupar</li>
-    <li>disturbed->ha inestabilitzat</li>
+    <li>disturbed->ha desestabilitzat</li>
     <li>disturbed->ha desconcertat</li>
     <li>disturbed->ha fet inquietar</li>
     <li>disturbed->ha alarmat</li>
@@ -73,7 +74,7 @@
     <li>talkingAbout->a l'explicar</li>
     <li>talkingAbout->al queixar-se [maybeDarkSpeechAdverb] sobre</li>
     <li>talkingAbout->al parlar [maybeDarkSpeechAdverb] sobre</li>
-    <li>talkingAbout->al despotricar [maybeDarkSpeechAdverb] sobre</li>
+    <li>talkingAbout->al malparlar [maybeDarkSpeechAdverb] sobre</li>
     <li>talkingAbout->a l'entrar en detalls sobre</li>
   </DisturbingChat.logRulesInitiator.rulesStrings>
   
