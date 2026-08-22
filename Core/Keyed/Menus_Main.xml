@@ -631,11 +631,11 @@
   <!-- EN: Randomize -->
   <Randomize>Tria a l’atzar</Randomize>
   <!-- EN: age {0} -->
-  <AgeIndicator>{replace: ^{0} anys; "^1 anys"-"1 any";"^"-""}</AgeIndicator>
+  <AgeIndicator>{replace: {0} anys d'edat; "s anys"-"s";"m anys"-"m";"a anys"-"a"}</AgeIndicator>
   <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
-  <PawnSummary>{PAWN_race}, {PAWN_age} anys</PawnSummary>
+  <PawnSummary>{PAWN_race}, {PAWN_age}</PawnSummary>
   <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
-  <PawnSummaryWithGender>{PAWN_race} ({PAWN_gender}), {PAWN_age} anys</PawnSummaryWithGender>
+  <PawnSummaryWithGender>{PAWN_race} {PAWN_gender}, {PAWN_ageFull}</PawnSummaryWithGender>
   <!-- EN: Backstory -->
   <Backstory>Rerefons personal</Backstory>
   <!-- EN: Incapable of -->

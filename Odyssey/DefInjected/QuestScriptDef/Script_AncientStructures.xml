@@ -5,7 +5,11 @@
     <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
     <li>structureNameWithArticle->an infested settlement</li>
   -->
-  <Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>TODO</Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
+  <Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] la ubicació d'[structureNameWithArticle]. Podeu saquejar l'estructura i obtenir recursos útils.\n\nTingueu en compte que les estructures antigues poden contenir amenaces diverses.</li>
+    <li>structureNameWithArticle->un assentament assolat per una plaga</li>
+    <li>structureNameWithArticle->una colònia infestada per una plaga</li>
+  </Opportunity_AncientInfestedSettlement.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
     <li>questName->[ancient] [structureName]</li>
@@ -15,7 +19,15 @@
     <li>ancient->Lost</li>
     <li>structureName->infested settlement</li>
   -->
-  <Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>TODO</Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
+  <Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
+    <li>questName->L'[structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->S'ha descobert un [structureName]</li>
+    <li>questName->Descobriment d'un [structureName]</li>
+    <li>ancient(p=2)->antic</li>
+    <li>ancient->perdut</li>
+    <li>structureName->assentament infestat</li>
+  </Opportunity_AncientInfestedSettlement.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
     <li>subject->lost landmarks</li>
@@ -31,13 +43,31 @@
     <li>questMapFeature->anatomical drawing of a megaspider</li>
     <li>questMapText->insects everywhere</li>
   -->
-  <Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>TODO</Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>
+  <Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>
+    <li>subject->edificis antics</li>
+    <li>subject->punts d'interès oblidats</li>
+    <li>subject->estructures antigues</li>
+    <li>questMapFeature->dibuix d'un edifici antic</li>
+    <li>questMapText->objectiu a saquejar</li>
+    <li>questMapText->lloc d'exploració</li>
+    <li>questMapText->estructura antiga perillosa</li>
+    <li>questMapText->compte amb les trampes</li>
+    <li>subject->eixams d'insectes</li>
+    <li>subject->plagues</li>
+    <li>questMapFeature->eixam d'insectes</li>
+    <li>questMapFeature->rusc d'insectes</li>
+    <li>questMapFeature->dibuix anatòmic d'una megaaranya</li>
+    <li>questMapText->insectes a tot arreu</li>
+  </Opportunity_AncientInfestedSettlement.questSubjectRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
     <li>structureNameWithArticle->an ancient chemfuel refinery</li>
   -->
-  <Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>TODO</Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
+  <Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] la ubicació d'[structureNameWithArticle]. Podeu saquejar l'estructura i obtenir recursos útils.\n\nTingueu en compte que les estructures antigues poden contenir amenaces diverses.</li>
+    <li>structureNameWithArticle->una refineria de quimibustible antiga</li>
+  </Opportunity_AncientStructureChemfuelRefinery.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
     <li>questName->[ancient] [structureName]</li>
@@ -47,7 +77,15 @@
     <li>ancient->Lost</li>
     <li>structureName->chemfuel refinery</li>
   -->
-  <Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>TODO</Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
+  <Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
+    <li>questName->La [structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->S'ha descobert una [structureName]</li>
+    <li>questName->Descobriment d'una [structureName]</li>
+    <li>ancient(p=2)->antiga</li>
+    <li>ancient->perduda</li>
+    <li>structureName->refineria de quimibustible</li>
+  </Opportunity_AncientStructureChemfuelRefinery.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
     <li>subject->lost landmarks</li>
@@ -65,13 +103,32 @@
     <li>questMapText->chemfuel depot</li>
     <li>questMapText->chemfuel here</li>
   -->
-  <Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>TODO</Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>
+  <Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>
+    <li>tema->edificis antics</li>
+    <li>subjecte->punt d'interès oblidat</li>
+    <li>tema->estructures antigues</li>
+    <li>questMapFeature->dibuix d'un edifici antic</li>
+    <li>questMapText->objectiu a saquejar</li>
+    <li>questMapText->lloc d'exploració</li>
+    <li>questMapText->estructura antiga perillosa</li>
+    <li>questMapText->compte amb les trampes</li>
+    <li>tema->antigues refineries</li>
+    <li>subjecte->refineries de quimibustible</li>
+    <li>questMapFeature->refineria de quimibustible</li>
+    <li>questMapFeature->imatge d'una cisterna de quimibustible</li>
+    <li>questMapFeature->esbós de l'equip de la refineria</li>
+    <li>questMapText->dipòsit de quimibustible</li>
+    <li>questMapText->quimibustible aquí</li>
+  </Opportunity_AncientStructureChemfuelRefinery.questSubjectRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
     <li>structureNameWithArticle->an ancient garrison</li>
   -->
-  <Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>TODO</Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
+  <Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] la ubicació d'[structureNameWithArticle]. Podeu saquejar l'estructura i obtenir recursos útils.\n\nTingueu en compte que les estructures antigues poden contenir amenaces diverses.</li>
+    <li>structureNameWithArticle->un quarter militar molt antic</li>
+  </Opportunity_AncientStructureGarrison.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
     <li>questName->[ancient] [structureName]</li>
@@ -81,7 +138,15 @@
     <li>ancient->Lost</li>
     <li>structureName->garrison</li>
   -->
-  <Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>TODO</Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
+  <Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
+    <li>questName->El [structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->S'ha descobert un [structureName]</li>
+    <li>questName->Descobriment d'un [structureName]</li>
+    <li>ancient(p=2)->antic</li>
+    <li>ancient->perdut</li>
+    <li>structureName->quarter militar</li>
+  </Opportunity_AncientStructureGarrison.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
     <li>subject->lost landmarks</li>
@@ -100,13 +165,34 @@
     <li>questMapText->ancient armory</li>
     <li>questMapText->lots of military equipment</li>
   -->
-  <Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>TODO</Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
+  <Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
+    <li>subject->edificis antics</li>
+    <li>subject->punt d'interès oblidat</li>
+    <li>subject->punt d'interès perdut</li>
+    <li>subject->estructures antigues</li>
+    <li>questMapFeature->dibuix d'un edifici antic</li>
+    <li>questMapText->objectiu a saquejar</li>
+    <li>questMapText->lloc d'exploració</li>
+    <li>questMapText->estructura antiga perillosa</li>
+    <li>questMapText->compte amb les trampes</li>
+    <li>subject->antic quarter militar</li>
+    <li>subject->antigues guarnicions</li>
+    <li>questMapFeature->guarnició</li>
+    <li>questMapFeature->imatge dels bastidors d'armes</li>
+    <li>questMapFeature->esbós d'un rifle d'assalt</li>
+    <li>questMapText->magatzem d'armes</li>
+    <li>questMapText->armeria antiga</li>
+    <li>questMapText->molt equipament militar</li>
+  </Opportunity_AncientStructureGarrison.questSubjectRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
     <li>structureNameWithArticle->an ancient launch site</li>
   -->
-  <Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>TODO</Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
+  <Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] la ubicació d'[structureNameWithArticle]. Podeu saquejar l'estructura i obtenir recursos útils.\n\nTingueu en compte que les estructures antigues poden contenir amenaces diverses.</li>
+    <li>structureNameWithArticle->un punt d'enlairament antic</li>
+  </Opportunity_AncientStructureLaunchSite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
     <li>questName->[ancient] [structureName]</li>
@@ -116,7 +202,15 @@
     <li>ancient->Lost</li>
     <li>structureName->launch site</li>
   -->
-  <Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>TODO</Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
+  <Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
+    <li>questName->El [structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->S'ha descobert un [structureName]</li>
+    <li>questName->Descobriment d'un [structureName]</li>
+    <li>ancient(p=2)->antic</li>
+    <li>ancient->perdut</li>
+    <li>structureName->punt d'enlairament</li>
+  </Opportunity_AncientStructureLaunchSite.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
     <li>subject->lost landmarks</li>
@@ -133,13 +227,31 @@
     <li>questMapFeature->sketch of treasure being loaded into transport pods</li>
     <li>questMapText->they have fuel</li>
   -->
-  <Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>TODO</Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>
+  <Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>
+    <li>subject->edificis antics</li>
+    <li>subject->punt d'interès perdut</li>
+    <li>subject->estructures antigues</li>
+    <li>questMapFeature->dibuix d'un edifici antic</li>
+    <li>questMapText->objectiu a saquejar</li>
+    <li>questMapText->lloc d'exploració</li>
+    <li>questMapText->estructura antiga perillosa</li>
+    <li>questMapText->compte amb les trampes</li>
+    <li>subject->punts d'enlairament antics</li>
+    <li>subject->ports espacials</li>
+    <li>questMapFeature->lloc d'enlairament</li>
+    <li>questMapFeature->diagrama de l'aparell de recàrrega d'una llançadora</li>
+    <li>questMapFeature->esbós d'unes càpsules de transport on s'hi carrega un tresor</li>
+    <li>questMapText->tenen combustible</li>
+  </Opportunity_AncientStructureLaunchSite.questSubjectRules.rulesStrings>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of [structureNameWithArticle]. You can loot the structure for valuable resources.\n\nBe warned, ancient structures can contain a variety of threats.</li>
     <li>structureNameWithArticle->an ancient warehouse</li>
   -->
-  <Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>TODO</Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
+  <Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] la ubicació d'[structureNameWithArticle]. Podeu saquejar l'estructura i obtenir recursos útils.\n\nTingueu en compte que les estructures antigues poden contenir amenaces diverses.</li>
+    <li>structureNameWithArticle->un antic magatzem</li>
+  </Opportunity_AncientStructureWarehouse.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [ancient] [structureName]</li>
     <li>questName->[ancient] [structureName]</li>
@@ -149,7 +261,15 @@
     <li>ancient->Lost</li>
     <li>structureName->warehouse</li>
   -->
-  <Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>TODO</Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
+  <Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
+    <li>questName->El [structureName] [ancient]</li>
+    <li>questName->[structureName] [ancient]</li>
+    <li>questName->[structureName] descobert</li>
+    <li>questName->Descobriment d'un [structureName]</li>
+    <li>ancient(p=2)->antic</li>
+    <li>ancient->perdut</li>
+    <li>structureName->magatzem</li>
+  </Opportunity_AncientStructureWarehouse.questNameRules.rulesStrings>
   <!-- EN:
     <li>subject->ancient buildings</li>
     <li>subject->lost landmarks</li>
@@ -166,6 +286,21 @@
     <li>questMapFeature->sketch of a forklift</li>
     <li>questMapText->massive ancient building</li>
   -->
-  <Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>TODO</Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>
+  <Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>
+    <li>subject->edificis antics</li>
+    <li>subject->punts d'interès perduts</li>
+    <li>subject->estructures antigues</li>
+    <li>questMapFeature->dibuix d'un edifici antic</li>
+    <li>questMapText->objectiu a saquejar</li>
+    <li>questMapText->lloc d'exploració</li>
+    <li>questMapText->estructura antiga perillosa</li>
+    <li>questMapText->compte amb les trampes</li>
+    <li>subject->antics magatzems</li>
+    <li>subject->magatzems</li>
+    <li>questMapFeature->magatzem</li>
+    <li>questMapFeature->diagrama de prestatges plens de caixes</li>
+    <li>questMapFeature->esbós d'un carretó elevador</li>
+    <li>questMapText->edifici antic enorme</li>
+  </Opportunity_AncientStructureWarehouse.questSubjectRules.rulesStrings>
   
 </LanguageData>

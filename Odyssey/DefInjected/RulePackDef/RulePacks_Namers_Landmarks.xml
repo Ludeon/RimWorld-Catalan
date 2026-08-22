@@ -281,20 +281,41 @@
     <li>terrain_word(p=0.5)->stronghold</li>
     <li>terrain_word(p=0.5)->military base</li>
   -->
-  <NamerLandmark_Garrison.rulePack.rulesStrings>TODO</NamerLandmark_Garrison.rulePack.rulesStrings>
+  <NamerLandmark_Garrison.rulePack.rulesStrings>
+    <li>r_name(p=0.4)->Fort [narrative_name]</li>
+    <li>r_name(p=0.4)->[terrain_word] de [NamePerson]</li>
+    <li>terrain_word(p=2)->la guarnició</li>
+    <li>terrain_word->l'arsenal</li>
+    <li>terrain_word->l'estació</li>
+    <li>terrain_word->la base</li>
+    <li>terrain_word->el fort</li>
+    <li>terrain_word(p=0.5)->el baluard</li>
+    <li>terrain_word(p=0.5)->la base militar</li>
+
+</NamerLandmark_Garrison.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->port [NamePerson]</li>
     <li>terrain_word->harbor</li>
     <li>terrain_word->port</li>
   -->
-  <NamerLandmark_Harbor.rulePack.rulesStrings>TODO</NamerLandmark_Harbor.rulePack.rulesStrings>
+  <NamerLandmark_Harbor.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->port [NamePerson]</li>
+    <li>terrain_word->port</li>
+    <li>terrain_word->embarcador</li>
+
+</NamerLandmark_Harbor.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->[NamePerson]'s hideout</li>
     <li>terrain_word->hollow</li>
   -->
-  <NamerLandmark_Hollow.rulePack.rulesStrings>TODO</NamerLandmark_Hollow.rulePack.rulesStrings>
+  <NamerLandmark_Hollow.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->l'amagatall de [NamePerson]</li>
+    <li>terrain_word->forat</li>
+    <li>terrain_word->depressió</li>
+
+</NamerLandmark_Hollow.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->[NamePerson]'s bath</li>
@@ -303,20 +324,39 @@
     <li>terrain_word->spring</li>
     <li>terrain_word->springs</li>
   -->
-  <NamerLandmark_HotSprings.rulePack.rulesStrings>TODO</NamerLandmark_HotSprings.rulePack.rulesStrings>
+  <NamerLandmark_HotSprings.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->el bany de [NamePerson]</li>
+    <li>terrain_word(p=2)->font termal</li>
+    <li>terrain_word(p=2)->fonts termals</li>
+    <li>terrain_word->deu</li>
+    <li>terrain_word->font natural</li>
+    <li>terrain_word->ullals</li>
+    <li>terrain_word->brollador</li>
+    <li>terrain_word->font viva</li>
+
+</NamerLandmark_HotSprings.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=2)->iceberg</li>
     <li>terrain_word->berg</li>
   -->
-  <NamerLandmark_Iceberg.rulePack.rulesStrings>TODO</NamerLandmark_Iceberg.rulePack.rulesStrings>
+  <NamerLandmark_Iceberg.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->iceberg</li>
+    <li>terrain_word->muntanya de gel</li>
+
+</NamerLandmark_Iceberg.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word->ice dunes</li>
     <li>terrain_word->ice mounds</li>
     <li>terrain_word->frozen hills</li>
   -->
-  <NamerLandmark_IceDunes.rulePack.rulesStrings>TODO</NamerLandmark_IceDunes.rulePack.rulesStrings>
+  <NamerLandmark_IceDunes.rulePack.rulesStrings>
+    <li>terrain_word->dunes de gel</li>
+    <li>terrain_word->monticles de gel</li>
+    <li>terrain_word->turons de gel</li>
+
+</NamerLandmark_IceDunes.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=18)->[fallen] [townname_wordgen]</li>
@@ -324,21 +364,38 @@
     <li>fallen->fallen</li>
     <li>fallen->infested</li>
   -->
-  <NamerLandmark_InfestedSettlement.rulePack.rulesStrings>TODO</NamerLandmark_InfestedSettlement.rulePack.rulesStrings>
+  <NamerLandmark_InfestedSettlement.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->[townname_wordgen] [fallen]</li>
+    <li>r_name(p=0.2)->l'eixam de [townname_wordgen]</li>
+    <li>r_name(p=0.2)->la plaga de [townname_wordgen]</li>
+
+    <li>fallen->caigut</li>
+    <li>fallen->infestat</li>
+</NamerLandmark_InfestedSettlement.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->lake</li>
     <li>terrain_word->reservoir</li>
     <li>terrain_word->loch</li>
   -->
-  <NamerLandmark_Lake.rulePack.rulesStrings>TODO</NamerLandmark_Lake.rulePack.rulesStrings>
+  <NamerLandmark_Lake.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->llac</li>
+    <li>terrain_word->pantà</li>
+    <li>terrain_word->estany</li>
+
+</NamerLandmark_Lake.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->[NamePerson]'s [terrain_word]</li>
     <li>terrain_word(p=2)->launch site</li>
     <li>terrain_word->launch pads</li>
   -->
-  <NamerLandmark_LaunchSite.rulePack.rulesStrings>TODO</NamerLandmark_LaunchSite.rulePack.rulesStrings>
+  <NamerLandmark_LaunchSite.rulePack.rulesStrings>
+    <li>r_name(p=0.4)->[terrain_word] de [NamePerson]</li>
+    <li>terrain_word(p=2)->punt d'enlairament</li>
+    <li>terrain_word->llançadores</li>
+
+</NamerLandmark_LaunchSite.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->[NamePerson]'s hellscape</li>
@@ -346,7 +403,14 @@
     <li>terrain_word->volcanic flow</li>
     <li>terrain_word->lava flow</li>
   -->
-  <NamerLandmark_LavaFlow.rulePack.rulesStrings>TODO</NamerLandmark_LavaFlow.rulePack.rulesStrings>
+  <NamerLandmark_LavaFlow.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->l'infern de [NamePerson]</li>
+    <li>r_name(p=0.2)->les portes de l'infern de [NamePerson]</li>
+    <li>terrain_word->riu volcànic</li>
+    <li>terrain_word->riu de l'infern</li>
+
+    <li>terrain_word->riu de lava</li>
+</NamerLandmark_LavaFlow.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=2)->crater</li>
@@ -354,14 +418,25 @@
     <li>terrain_word->inferno</li>
     <li>terrain_word->lava pool</li>
   -->
-  <NamerLandmark_LavaLake.rulePack.rulesStrings>TODO</NamerLandmark_LavaLake.rulePack.rulesStrings>
+  <NamerLandmark_LavaLake.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->cràter</li>
+    <li>terrain_word->forn</li>
+    <li>terrain_word->llac de lava</li>
+
+    <li>terrain_word->estany de lava</li>
+
+</NamerLandmark_LavaLake.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->oasis</li>
     <li>terrain_word->haven</li>
     <li>terrain_word->refuge</li>
   -->
-  <NamerLandmark_Oasis.rulePack.rulesStrings>TODO</NamerLandmark_Oasis.rulePack.rulesStrings>
+  <NamerLandmark_Oasis.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->oasi</li>
+    <li>terrain_word->refugi</li>
+
+</NamerLandmark_Oasis.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->point [narrative_name]</li>
@@ -372,7 +447,15 @@
     <li>terrain_word->headland</li>
     <li>terrain_word->horn</li>
   -->
-  <NamerLandmark_Peninsula.rulePack.rulesStrings>TODO</NamerLandmark_Peninsula.rulePack.rulesStrings>
+  <NamerLandmark_Peninsula.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->punta de [narrative_name]</li>
+    <li>r_name(p=0.2)->cap de [narrative_name]</li>
+    <li>terrain_word(p=5)->península</li>
+    <li>terrain_word(p=2)->cap</li>
+    <li>terrain_word->punta</li>
+    <li>terrain_word->promontori</li>
+    <li>terrain_word->banya</li>
+</NamerLandmark_Peninsula.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word->plateau</li>
@@ -381,7 +464,11 @@
     <li>terrain_word->rise</li>
     <li>terrain_word->butte</li>
   -->
-  <NamerLandmark_Plateau.rulePack.rulesStrings>TODO</NamerLandmark_Plateau.rulePack.rulesStrings>
+  <NamerLandmark_Plateau.rulePack.rulesStrings>
+    <li>terrain_word->planúria</li>
+    <li>terrain_word->altiplà</li>
+    <li>terrain_word->plana</li>
+</NamerLandmark_Plateau.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->pond</li>
@@ -389,7 +476,11 @@
     <li>terrain_word->pool</li>
     <li>terrain_word->waterhole</li>
   -->
-  <NamerLandmark_Pond.rulePack.rulesStrings>TODO</NamerLandmark_Pond.rulePack.rulesStrings>
+  <NamerLandmark_Pond.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->estany</li>
+    <li>terrain_word->bassal</li>
+    <li>terrain_word->bassa</li>
+</NamerLandmark_Pond.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.4)->[ruin_adjective] [narrative_name]</li>
@@ -400,7 +491,28 @@
     <li>terrain_word->city</li>
     <li>terrain_word->town</li>
   -->
-  <NamerLandmark_Ruins.rulePack.rulesStrings>TODO</NamerLandmark_Ruins.rulePack.rulesStrings>
+  <NamerLandmark_Ruins.rulePack.rulesStrings>
+    <li>r_name(p=0.4)->[narrative_name] [ruin_adjective]</li>
+    <li>r_name(p=0.2)->[story_result] de [NamePerson]</li>
+    <li>story_result->la alegria</li>
+    <li>story_result->la meravella</li>
+    <li>story_result->l'orgull</li>
+    <li>story_result->la joia</li>
+    <li>story_result->el premi</li>
+    <li>story_result->la recompensa</li>
+    <li>story_result->l'honor</li>
+    <li>story_result->el trofeu</li>
+    <li>story_result->la destrucció</li>
+    <li>story_result->el cataclisme</li>
+    <li>story_result->la ruïna</li>
+    <li>story_result->l'engany</li>
+    <li>story_result->el frau</li>
+    <li>ruin_adjective->en ruïnes</li>
+    <li>ruin_adjective->irreparable</li>
+    <li>terrain_word(p=2)->ruïnes</li>
+    <li>terrain_word->ciutat</li>
+    <li>terrain_word->poble</li>
+</NamerLandmark_Ruins.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.3)->[NamePerson]'s [terrain_word]</li>
@@ -425,7 +537,33 @@
     <li>dread->vile</li>
     <li>dread->dark</li>
   -->
-  <NamerLandmark_TerraformingScar.rulePack.rulesStrings>TODO</NamerLandmark_TerraformingScar.rulePack.rulesStrings>
+  <NamerLandmark_TerraformingScar.rulePack.rulesStrings>
+    <li>r_name(p=0.3)->la [terrain_word] de [NamePerson]</li>
+    <li>r_name(p=0.3)->el [terrain_wordMale] de [NamePerson]</li>
+    <li>r_name(p=0.2)->[mistake] de [NamePerson]</li>
+    <li>r_name(p=0.2)->la [mistakeFem] de [NamePerson]</li>
+    <li>r_name(p=0.2)->El [large] [terrain_word]</li>
+    <li>r_name(p=0.2)->La [largeFem] [terrain_word]</li>
+    <li>r_name(p=0.2)->el [large] [terrain_wordMale]</li>
+    <li>r_name(p=0.1)->[terrain_word] [dread]</li>
+    <li>r_name(p=0.05)->La [terrain_word]</li>
+    <li>terrain_word(p=3)->cicatriu</li>
+    <li>terrain_word->marca</li>
+    <li>terrain_word->ruptura</li>
+    <li>terrain_word->ferida</li>
+    <li>terrain_word->falla</li>
+    <li>terrain_wordMale->rugit</li>
+    <li>mistake->l'error</li>
+    <li>mistakeFem->bogeria</li>
+    <li>mistake->el deliri</li>
+    <li>mistake->l'errada</li>
+    <li>large->gran</li>
+    <li>largeFem->grandiosa</li>
+    <li>dread->temible</li>
+    <li>dread->ombrívol</li>
+    <li>dread->vil</li>
+    <li>dread->obscur</li>
+</NamerLandmark_TerraformingScar.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.05)->[NamePerson]'s poison</li>
@@ -434,7 +572,15 @@
     <li>terrain_word->toxic lake</li>
     <li>terrain_word->poison lake</li>
   -->
-  <NamerLandmark_ToxicLake.rulePack.rulesStrings>TODO</NamerLandmark_ToxicLake.rulePack.rulesStrings>
+  <NamerLandmark_ToxicLake.rulePack.rulesStrings>
+    <li>r_name(p=0.05)->el verí de [NamePerson]</li>
+    <li>r_name(p=0.05)->la plaga de [NamePerson]</li>
+    <li>r_name(p=0.05)->la deixalleria de [NamePerson]</li>
+    <li>terrain_word->llac tòxic</li>
+    <li>terrain_word->llac contaminat</li>
+
+    <li>terrain_word->llac de verí</li>
+</NamerLandmark_ToxicLake.rulePack.rulesStrings>
   
   <!-- EN:
     <li>terrain_word(p=4)->valley</li>
@@ -446,7 +592,13 @@
     <li>terrain_word->gulch</li>
     <li>terrain_word->divide</li>
   -->
-  <NamerLandmark_Valley.rulePack.rulesStrings>TODO</NamerLandmark_Valley.rulePack.rulesStrings>
+  <NamerLandmark_Valley.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->vall</li>
+    <li>terrain_word(p=3)->canyó</li>
+    <li>terrain_word->barranc</li>
+    <li>terrain_word->congost</li>
+    <li>terrain_word->gola</li>
+</NamerLandmark_Valley.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->[NamePerson]'s [terrain_word]</li>
@@ -454,7 +606,13 @@
     <li>terrain_word->depot</li>
     <li>terrain_word->storehouse</li>
   -->
-  <NamerLandmark_Warehouse.rulePack.rulesStrings>TODO</NamerLandmark_Warehouse.rulePack.rulesStrings>
+  <NamerLandmark_Warehouse.rulePack.rulesStrings>
+    <li>r_name->el [terrain_word] de [NamePerson]</li>
+    <li>r_name->la [terrain_wordFem] de [NamePerson]</li>
+    <li>terrain_word(p=3)->magatzem</li>
+    <li>terrain_word->dipòsit</li>
+    <li>terrain_wordFem->bodega</li>
+</NamerLandmark_Warehouse.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name(p=0.2)->[NamePerson]'s [terrain_word]</li>
@@ -464,6 +622,19 @@
     <li>terrain_word->bog</li>
     <li>terrain_word->fen</li>
   -->
-  <NamerLandmark_Wetland.rulePack.rulesStrings>TODO</NamerLandmark_Wetland.rulePack.rulesStrings>
+  <NamerLandmark_Wetland.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->els [terrain_wordPl] de [NamePerson]</li>
+    <li>r_name(p=0.05)->la [terrain_wordFem] de [NamePerson]</li>
+    <li>r_name(p=0.1)->el [terrain_word] de [NamePerson]</li>
+    <li>r_name(p=0.1)->l'[terrain_wordApo] de [NamePerson]</li>
+    <li>terrain_wordPl(p=2)->aiguamolls</li>
+    <li>terrain_wordPl(p=2)->pantans</li>
+    <li>terrain_wordPl(p=2)->fangars</li>
+    <li>terrain_word->fangar</li>
+    <li>terrain_wordApo->aiguamoll</li>
+    <li>terrain_word(p=2)->pantà</li>
+    <li>terrain_word->marjal</li>
+    <li>terrain_wordFem->torbera</li>
+</NamerLandmark_Wetland.rulePack.rulesStrings>
   
 </LanguageData>

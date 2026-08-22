@@ -4,7 +4,9 @@
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an abandoned orbital platform. You don't detect any signs of life.\n\nYou can break in to obtain the loot inside, but the platform probably has defense systems.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
-  <OpportunitySite_AbandonedPlatform.questDescriptionRules.rulesStrings>TODO</OpportunitySite_AbandonedPlatform.questDescriptionRules.rulesStrings>
+  <OpportunitySite_AbandonedPlatform.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] la ubicació d'una plataforma orbital abandonada. No s'hi detecten senyals de vida.\n\nPodeu entrar-hi i saquejar el que hi hagi a dins, però probablement la plataforma disposi de sistemes de defensa.\n\nPodeu arribar als llocs orbitals amb gravinaus, llançadores o càpsules de transport.</li>
+  </OpportunitySite_AbandonedPlatform.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=3)->[ancientPlatAdj] [platform]</li>
     <li>questName->[PlaceOutlander] [platform]</li>
@@ -63,29 +65,98 @@
     <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
   -->
-  <OpportunitySite_AbandonedPlatform.questNameRules.rulesStrings>TODO</OpportunitySite_AbandonedPlatform.questNameRules.rulesStrings>
+  <OpportunitySite_AbandonedPlatform.questNameRules.rulesStrings>
+    <li>questName(p=3)->[platform] [ancientPlatAdj]</li>
+    <li>questName(p=3)->[platformMale] [ancientPlatAdjMale]</li>
+    <li>questName->[platform] [PlaceOutlander]</li>
+    <li>questName->[platformMale] [PlaceOutlander]</li>
+    <li>questName(p=2)->[platform] [greekLetter]</li>
+    <li>questName(p=2)->[platformMale] [greekLetter]</li>
+    <li>questName->[platform] [platAdj] [RomanNumeral]</li>
+    <li>questName->[platformMale] [platAdj] [RomanNumeral]</li>
+    <li>ancientPlatAdj->abandonada</li>
+    <li>ancientPlatAdj->antiga</li>
+    <li>ancientPlatAdjMale->abandonat</li>
+    <li>ancientPlatAdjMale->antic</li>
+    <li>ancientPlatAdjMale->[platAdj]</li>
+    <li>ancientPlatAdj->[platAdj]</li>
+    <li>platAdj->de llum estel·lar</li>
+    <li>platAdj->de la nebulosa</li>
+    <li>platAdj->de l'horitzó</li>
+    <li>platAdj->de l'eclipsi</li>
+    <li>platAdj->del zenit</li>
+    <li>platAdj->de l'aurora</li>
+    <li>platAdj->de la corona</li>
+    <li>platAdj->refugi</li>
+    <li>platAdj->austral</li>
+    <li>platAdj->d'Apol·lo</li>
+    <li>platAdj->d'Ares</li>
+    <li>platAdj->d'Hades</li>
+    <li>platAdj->d'Ajax</li>
+    <li>platAdj->d'Eos</li>
+    <li>platAdj->d'Eros</li>
+    <li>platAdj->de Chronos</li>
+    <li>platAdj->de Cronos</li>
+    <li>platAdj->de Zèfir</li>
+    <li>platAdj->d'Argos</li>
+    <li>platAdj->d'Orió</li>
+    <li>platAdj->d'Hermes</li>
+    <li>platAdj->d'Atles</li>
+    <li>platAdj->d'Hèlios</li>
+    <li>platAdj->d'Hefest</li>
+    <li>platAdj->de Tal·los</li>
+    <li>platAdj->avantguarda</li>
+    <li>platAdj->ègida</li>
+    <li>platAdj->halcyon</li>
+    <li>platAdj->forja estel·lar</li>
+    <li>platAdj->tità</li>
+    <li>platform(p=2)->estació</li>
+    <li>platform->plataforma</li>
+    <li>platform->plataforma orbital</li>
+    <li>platformMale->centre orbital</li>
+    <li>platform(p=0.5)->porta del cel</li>
+    <li>platformMale(p=0.5)->port espacial</li>
+    <li>platformMale(p=0.5)->portal</li>
+    <li>greekLetter->alfa</li>
+    <li>greekLetter->beta</li>
+    <li>greekLetter->lambda</li>
+    <li>greekLetter->òmicron</li>
+    <li>greekLetter->èpsilon</li>
+    <li>greekLetter->delta</li>
+    <li>greekLetter->zeta</li>
+    <li>greekLetter->sigma</li>
+    <li>greekLetter->omega</li>
+    <li>PlaceOutlander(p=2)->[SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
+  </OpportunitySite_AbandonedPlatform.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
   <OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Heu descobert</OpportunitySite_AbandonedPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_AbandonedPlatform.LetterLabelQuestExpired.slateRef>La missió ha expirat: [resolvedQuestName]</OpportunitySite_AbandonedPlatform.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the platform has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>TODO</OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>Les comunicacions interceptades indiquen que la plataforma ja l'ha saquejat un altre bàndol. La missió [resolvedQuestName] ha expirat.</OpportunitySite_AbandonedPlatform.LetterTextQuestExpired.slateRef>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an asteroid orbiting the planet. It contains significant amounts of [resource], and potentially other resources as well.\n\nOrbital miners steer asteroids into orbit so that they can be mined and the ore sold to orbital traders. You do not detect any signs of life from this asteroid.\n\nYou can reach the asteroid with transport pods, shuttles, or a gravship. Equip your colonists with sufficient orbital apparel before departing.</li>
   -->
-  <OpportunitySite_Asteroid.questDescriptionRules.rulesStrings>TODO</OpportunitySite_Asteroid.questDescriptionRules.rulesStrings>
+  <OpportunitySite_Asteroid.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] la ubicació d'un asteriode que orbita el planeta. Conté una quantitat important {replace: de [resource];"de or"-"d'or";"de obsidiana"-"d'obsidiana"}, a banda que hi podrien haver altres recursos.\n\nEls miners orbitals canvien les òrbites dels asteroides perquè sigui més fàcil vendre els minerals als comerciants orbitals. Però en aquest asteroide no s'hi detecten senyals de vida.\n\nPodeu arribar a l'asteroide amb gravinaus, llançadores o càpsules de transport. Equipeu els colons amb indumentària adequada a l'entorn espacial abans que comencin el viatge.</li>
+  </OpportunitySite_Asteroid.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[resource] Asteroid</li>
   -->
-  <OpportunitySite_Asteroid.questNameRules.rulesStrings>TODO</OpportunitySite_Asteroid.questNameRules.rulesStrings>
+  <OpportunitySite_Asteroid.questNameRules.rulesStrings>
+    <li>questName->Asteroide {replace: de [resource]; "de or"-"d'or"; "de obsidiana"-"d'obsidiana"}</li>
+  </OpportunitySite_Asteroid.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
   <OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Heu descobert</OpportunitySite_Asteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an orbital platform. You detect high levels of mechanoid activity.\n\nYou can scavenge valuables from the platform.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
-  <OpportunitySite_MechanoidPlatform.questDescriptionRules.rulesStrings>TODO</OpportunitySite_MechanoidPlatform.questDescriptionRules.rulesStrings>
+  <OpportunitySite_MechanoidPlatform.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] la ubicació d'una plataforma orbital. Es detecten nivells elevats d'activitat mecanoide.\n\nPodeu buscar-hi objectes de valor.\n\nPodeu arribar als llocs orbitals amb gravinaus, llançadores o càpsules de transport.</li>
+  </OpportunitySite_MechanoidPlatform.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[platAdj] [platform] [designation]</li>
     <li>questName->[platAdj] [platform]</li>
@@ -105,18 +176,38 @@
     <li>mechanoid->centipede</li>
     <li>mechanoid->cyclops</li>
   -->
-  <OpportunitySite_MechanoidPlatform.questNameRules.rulesStrings>TODO</OpportunitySite_MechanoidPlatform.questNameRules.rulesStrings>
+  <OpportunitySite_MechanoidPlatform.questNameRules.rulesStrings>
+    <li>questName->[platform] [platAdj] [designation]</li>
+    <li>questName->[platform] [platAdj]</li>
+    <li>platAdj(p=3)->mecanoide</li>
+    <li>platAdj(p=3)->[mechanoid]</li>
+    <li>platAdj->de gènesi</li>
+    <li>platAdj->de síntesi</li>
+    <li>platAdj->de muntatge</li>
+    <li>platAdj->d'assemblatge</li>
+    <li>platform(p=3)->plataforma</li>
+    <li>platform(p=2)->estació</li>
+    <li>platform->centre</li>
+    <li>designation->[RomanNumeral]</li>
+    <li>designation->[Letter]-[RomanNumeral]</li>
+    <li>mechanoid->segador</li>
+    <li>mechanoid->llancer</li>
+    <li>mechanoid->centpeus</li>
+    <li>mechanoid->ciclop</li>
+  </OpportunitySite_MechanoidPlatform.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
   <OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Heu descobert</OpportunitySite_MechanoidPlatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_MechanoidPlatform.LetterLabelQuestExpired.slateRef>La missió ha expirat: [resolvedQuestName]</OpportunitySite_MechanoidPlatform.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the platform has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>TODO</OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>Les comunicacions interceptades indiquen que la plataforma ja ha estat saquejada. La missió [resolvedQuestName] ha expirat.</OpportunitySite_MechanoidPlatform.LetterTextQuestExpired.slateRef>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] an unusual asteroid orbiting the planet. The asteroid has a hollow core which contains several structures.\n\nYou can break in to obtain the loot inside.\n\nBe warned - the buildings may contain defense systems.</li>
   -->
-  <OpportunitySite_OrbitalItemStash.questDescriptionRules.rulesStrings>TODO</OpportunitySite_OrbitalItemStash.questDescriptionRules.rulesStrings>
+  <OpportunitySite_OrbitalItemStash.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] un asteroide inusual que orbita el planeta. L'asteroide té un nucli buit que conté diverses estructures.\n\nPodeu entrar-hi i saquejar-les.\n\nTingueu en compte que les estructures potser disposen de sistemes de defensa.</li>
+  </OpportunitySite_OrbitalItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[adjective] [orbital] [stash_noun]</li>
     <li>questName->[orbital] [stash_noun]</li>
@@ -127,14 +218,25 @@
     <li>stash_noun->Stash</li>
     <li>stash_noun->Cache</li>
   -->
-  <OpportunitySite_OrbitalItemStash.questNameRules.rulesStrings>TODO</OpportunitySite_OrbitalItemStash.questNameRules.rulesStrings>
+  <OpportunitySite_OrbitalItemStash.questNameRules.rulesStrings>
+    <li>questName->[orbital] [adjective] [stash_noun]</li>
+    <li>questName->[orbital] [stash_noun]</li>
+    <li>adjective->ocult</li>
+    <li>adjective->secret</li>
+    <li>orbital->Planetoide</li>
+    <li>orbital->Asteroide</li>
+    <li>stash_noun->de reserves</li>
+    <li>stash_noun->de provisions</li>
+  </OpportunitySite_OrbitalItemStash.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
   <OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Heu descobert</OpportunitySite_OrbitalItemStash.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the coordinates of a massive piece of wreckage in orbit. It could contain valuable resources. Orbital debris fields are often occupied by hostile scavengers.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
-  <OpportunitySite_OrbitalWreck.questDescriptionRules.rulesStrings>TODO</OpportunitySite_OrbitalWreck.questDescriptionRules.rulesStrings>
+  <OpportunitySite_OrbitalWreck.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] les coordenades de les restes del que devia ser una nau o un satèl·lit orbital. Podrien haver-hi recursos valuosos. A prop de les restes orbitals sovint hi ha carronyers hostils.\n\nPodeu arribar a les ubicacions orbitals amb gravinaus, llançadores o càpsules de transport.</li>
+  </OpportunitySite_OrbitalWreck.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(p=2)->the ruins of [platAdj] [platform]</li>
     <li>questName->[platAdj] [wreckage]</li>
@@ -190,18 +292,68 @@
     <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
   -->
-  <OpportunitySite_OrbitalWreck.questNameRules.rulesStrings>TODO</OpportunitySite_OrbitalWreck.questNameRules.rulesStrings>
+  <OpportunitySite_OrbitalWreck.questNameRules.rulesStrings>
+    <li>questName(p=2)->les ruïnes de [platform] [platAdj]</li>
+    <li>questName(p=0.5)->les ruïnes del [platformMale] [platAdj]</li>
+    <li>questName->[wreckage] [platAdj]</li>
+    <li>questName->[wreckage] [PlaceOutlander]</li>
+    <li>questName->[platform] [ruined] [platAdj]</li>
+    <li>platAdj->estel·lar</li>
+    <li>platAdj->de la nebulosa</li>
+    <li>platAdj->de l'horitzó</li>
+    <li>platAdj->de l'eclipsi</li>
+    <li>platAdj->del zenit</li>
+    <li>platAdj->de l'aurora</li>
+    <li>platAdj->de la corona</li>
+    <li>platAdj->refugi</li>
+    <li>platAdj->d'Apol·lo</li>
+    <li>platAdj->d'Ares</li>
+    <li>platAdj->d'Hades</li>
+    <li>platAdj->d'Àjax</li>
+    <li>platAdj->d'Eos</li>
+    <li>platAdj->d'Eros</li>
+    <li>platAdj->de Chronos</li>
+    <li>platAdj->de Cronos</li>
+    <li>platAdj->de Zèfir</li>
+    <li>platAdj->d'Argos</li>
+    <li>platAdj->d'Orió</li>
+    <li>platAdj->d'Hermes</li>
+    <li>platAdj->d'Atles</li>
+    <li>platAdj->d'Helios</li>
+    <li>platAdj->d'Hefest</li>
+    <li>platAdj->de Tal·los</li>
+    <li>platAdj->d'avantguarda</li>
+    <li>platAdj->d'ègida</li>
+    <li>platAdj->de la forja estel·lar</li>
+    <li>wreckage(p=2)->restes</li>
+    <li>wreckage(p=2)->ruïnes</li>
+    <li>wreckage->ruïnes orbitals</li>
+    <li>wreckage->runa</li>
+    <li>platform(p=2)->l'estació</li>
+    <li>platform->la plataforma</li>
+    <li>platform(p=0.5)->la porta del cel</li>
+    <li>platformMale(p=0.5)->moll espacial</li>
+    <li>platformMale(p=0.5)->portal</li>
+    <li>ruined->destruïda</li>
+    <li>ruined->ensorrada</li>
+    <li>ruined->perduda</li>
+    <li>ruined->devastada</li>
+    <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
+  </OpportunitySite_OrbitalWreck.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
   <OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Heu descobert</OpportunitySite_OrbitalWreck.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_OrbitalWreck.LetterLabelQuestExpired.slateRef>La missió ha expirat: [resolvedQuestName]</OpportunitySite_OrbitalWreck.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the orbital wreck has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>TODO</OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>Les comunicacions interceptades indiquen que les restes de l'accident ja les ha saquejat algú. La missió [resolvedQuestName] ha expirat.</OpportunitySite_OrbitalWreck.LetterTextQuestExpired.slateRef>
   
   <!-- EN:
     <li>questDescription->[discoveryMethod] the location of an orbital satellite. These satellites are unmanned and often incapable of supporting life. Satellites serve a wide variety of purposes, from power collection to weapons platforms.\n\nYou can scavenge valuable technology from the satellites but be warned, satellites are heavily guarded by ancient security systems.\n\nYou can travel to orbital locations using gravships, shuttles, or transport pods.</li>
   -->
-  <OpportunitySite_Satellite.questDescriptionRules.rulesStrings>TODO</OpportunitySite_Satellite.questDescriptionRules.rulesStrings>
+  <OpportunitySite_Satellite.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] la ubicació d'un satèl·lit orbital. Aquests satèl·lits no tenen tripulació i sovint no tenen equips de suport vital. Les funcions dels satèl·lits són variades, des de la recollida d'energia fins a plataformes armamentístiques.\n\nPodeu recuperar la tecnologia valuosa dels satèl·lits, però tingueu en compte que solen estar ben protegits per sistemes de seguretat ancestrals.\n\nPodeu arribar als llocs orbitals amb gravinaus, llançadores o càpsules de transport.</li>
+  </OpportunitySite_Satellite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[PlaceOutlander] [platform]</li>
     <li>questName->[platAdj] [platform]</li>
@@ -235,12 +387,38 @@
     <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
     <li>PlaceOutlander->[SylE][SylE][place_end]</li>
   -->
-  <OpportunitySite_Satellite.questNameRules.rulesStrings>TODO</OpportunitySite_Satellite.questNameRules.rulesStrings>
+  <OpportunitySite_Satellite.questNameRules.rulesStrings>
+    <li>questName->[platform] [PlaceOutlander]</li>
+    <li>questName->[platform] [platAdj]</li>
+    <li>platAdj(p=4)->orbital</li>
+    <li>platAdj->d'observació</li>
+    <li>platAdj->de la xarxa</li>
+    <li>platAdj->imperial</li>
+    <li>platAdj->solar</li>
+    <li>platAdj->de llum estel·lar</li>
+    <li>platAdj->de la nebulosa</li>
+    <li>platAdj->de l'horitzó</li>
+    <li>platAdj->de l'eclipsi</li>
+    <li>platAdj->del zenit</li>
+    <li>platAdj->de l'aurora</li>
+    <li>platAdj->de la corona</li>
+    <li>platAdj->austral</li>
+    <li>platform(p=4)->satèl·lit</li>
+    <li>platform->retransmissor</li>
+    <li>platform->repetidor</li>
+    <li>platform->enllaç orbital</li>
+    <li>platform->sentinella</li>
+    <li>platform->lluna</li>
+    <li>platform->balisa</li>
+    <li>platform->bombarder</li>
+    <li>PlaceOutlander(p=3)->[SylE][place_end]</li>
+    <li>PlaceOutlander->[SylE][SylE][place_end]</li>
+  </OpportunitySite_Satellite.questNameRules.rulesStrings>
   <!-- EN: You have discovered -->
   <OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Heu descobert</OpportunitySite_Satellite.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_Satellite.LetterLabelQuestExpired.slateRef>La missió ha expirat: [resolvedQuestName]</OpportunitySite_Satellite.LetterLabelQuestExpired.slateRef>
   <!-- EN: Scanner readings indicate the satellite has boosted itself into a higher, unreachable orbit. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>TODO</OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>Les lectures de l'escàner indiquen que el satèl·lit s'ha desplaçat a una òrbita més alta i inabastable. La missió [resolvedQuestName] ha expirat.</OpportunitySite_Satellite.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

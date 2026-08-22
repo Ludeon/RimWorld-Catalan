@@ -13,7 +13,14 @@
     <li>subject_story->was appointed professor of psychic history at the University of Ix</li>
     <li>subject_gerund->performing advanced psychic rituals</li>
   -->
-  <AdvancedPsychicRituals.generalRules.rulesStrings>TODO</AdvancedPsychicRituals.generalRules.rulesStrings>
+  <AdvancedPsychicRituals.generalRules.rulesStrings>
+    <li>subject->rituals psíquics avançats</li>
+    <li>subject_story->no volia però [ANYPAWN_gender ? el : la] van arrossegar i fer participar en un ritual</li>
+    <li>subject_story->va trobar un mestre sectari a l'exili, que va presumir dels seus secrets</li>
+    <li>subject_story->va aprofundir en la comprensió dels sacrificis rituals</li>
+    <li>subject_story->va ser [ANYPAWN_gender ? nomenat professor : nomenada professora] d'història psíquica a la Universitat d'Ix</li>
+    <li>subject_gerund->realitzant rituals psíquics avançats</li>
+  </AdvancedPsychicRituals.generalRules.rulesStrings>
   
   <!-- EN: atmospheric heater -->
   <AtmosphericHeater.label>escalfador atmosfèric</AtmosphericHeater.label>
@@ -28,7 +35,15 @@
     <li>subject_gerund->heating with bioferrite</li>
     <li>subject_gerund->constructing bioferrite-fueled heaters</li>
   -->
-  <AtmosphericHeater.generalRules.rulesStrings>TODO</AtmosphericHeater.generalRules.rulesStrings>
+  <AtmosphericHeater.generalRules.rulesStrings>
+    <li>subject->estufes de bioferrita</li>
+    <li>subject_story->va millorar les centrals geotèrmiques antigues</li>
+    <li>subject_story->va estudiar la generació de calor amb biometalls</li>
+    <li>subject_story->va investigar la capacitat quasi infinita de l'emmagatzematge d'energia arcotècnic</li>
+    <li>subject_story->va examinar els sistemes d'hipocaust en mons gelats amb molta densitat de població</li>
+    <li>subject_gerund->escalfant amb bioferrita</li>
+    <li>subject_gerund->construint estufes de bioferrita</li>
+</AtmosphericHeater.generalRules.rulesStrings>
   
   <!-- EN: void provocation -->
   <BasicPsychicRituals.label>provocació del buit</BasicPsychicRituals.label>
@@ -80,7 +95,7 @@
   <!-- EN: bioferrite harvester -->
   <BioferriteHarvesting.label>extracció de bioferrita</BioferriteHarvesting.label>
   <!-- EN: Build bioferrite harvesters that automatically extract bioferrite from captured entities. Produces more bioferrite than manual extraction. -->
-  <BioferriteHarvesting.description>TODO</BioferriteHarvesting.description>
+  <BioferriteHarvesting.description>Construeix recol·lectores de bioferrita que extreguin automàticament la bioferrita de les entitats capturades. Obté més bioferrita que les extraccions manuals.</BioferriteHarvesting.description>
   <!-- EN:
     <li>subject->bioferrite</li>
     <li>subject_story->investigated an exotic metal-like fibrous substance</li>
@@ -124,7 +139,7 @@
   <!-- EN: bliss lobotomy -->
   <BlissLobotomy.label>lobotomia joiosa</BlissLobotomy.label>
   <!-- EN: Perform a surgery that lobotomizes a person, making them happier while rendering them incapable of intellectual and skilled labor. -->
-  <BlissLobotomy.description>TODO</BlissLobotomy.description>
+  <BlissLobotomy.description>Realitza una cirurgia que lobotomitza una persona i la fa més feliç alhora que incapaç de fer treballs intel·lectuals i qualificats.</BlissLobotomy.description>
   <!-- EN:
     <li>subject->lobotomy</li>
     <li>subject_story->was eventually lobotomized for thought-crimes against the state</li>
@@ -138,7 +153,7 @@
   <!-- EN: blood rain -->
   <BloodRain.label>pluja de sang</BloodRain.label>
   <!-- EN: Perform a psychic ritual which causes blood-like psychofluid to fall from the sky. Anyone caught outside will soon be driven into a berserk rage. -->
-  <BloodRain.description>TODO</BloodRain.description>
+  <BloodRain.description>Realitza un ritual psíquic que fa caure del cel un psicofluid semblant a la sang. A qualsevol persona que li caigui al damunt aviat patirà una ràbia furiosa.</BloodRain.description>
   <!-- EN:
     <li>subject->blood rain</li>
     <li>subject_story->investigated ancient deist myths about organic precipitation</li>
@@ -152,7 +167,7 @@
   <!-- EN: brainwipe -->
   <Brainwipe.label>rentat de cervell</Brainwipe.label>
   <!-- EN: Perform a psychic ritual which erases much of a person's episodic memories. Traumatic events will be forgotten. Resistant prisoners will become easier to recruit. Allows recruiting unwaveringly loyal prisoners. -->
-  <Brainwipe.description>TODO</Brainwipe.description>
+  <Brainwipe.description>Realitza un ritual psíquic que esborra bona part dels records d'una persona. Els esdeveniments traumàtics s'oblidaran. Els presos resistents seran més fàcils de reclutar. Permet reclutar presoners obstinadament lleials.</Brainwipe.description>
   <!-- EN:
     <li>subject->mind erasure</li>
     <li>subject_story->studied stories of episodic amnesia</li>
@@ -167,7 +182,7 @@
   <!-- EN: chronophagy -->
   <Chronophagy.label>cronofàgia</Chronophagy.label>
   <!-- EN: Perform a psychic ritual that causes a target to age rapidly. The ritual invoker will become younger in the process. The target will suffer brain damage as a result, which may be lethal for elderly targets. -->
-  <Chronophagy.description>TODO</Chronophagy.description>
+  <Chronophagy.description>Realitza un ritual psíquic que fa que un objectiu envelleixi ràpidament i que l'invocador del ritual es faci més jove. Com a resultat, l'objectiu patirà danys cerebrals, que poden ser letals especialment per a persones d'avançada edat.</Chronophagy.description>
   <!-- EN:
     <li>subject->chronophagy</li>
     <li>subject_story->studied age-related degeneration</li>
@@ -181,9 +196,9 @@
   <Chronophagy.generalRules.rulesStrings>TODO</Chronophagy.generalRules.rulesStrings>
   
   <!-- EN: deadlife dust -->
-  <DeadlifeDust.label>TODO</DeadlifeDust.label>
+  <DeadlifeDust.label>pols necrovital</DeadlifeDust.label>
   <!-- EN: Craft devices that produce clouds of microscopic archites. The archites can reanimate corpses to produce deadly shamblers that will only attack your enemies. -->
-  <DeadlifeDust.description>TODO</DeadlifeDust.description>
+  <DeadlifeDust.description>Permet elaborar dispositius que produeixen núvols d'arquites microscòpiques. Les arquites poden reanimar cadàvers. Aquests zombis només atacaran els vostres enemics.</DeadlifeDust.description>
   <!-- EN:
     <li>subject->deadlife dust</li>
     <li>subject_story->synthesized an aerosol-dispersal system for nanobots</li>
@@ -198,7 +213,7 @@
   <!-- EN: death refusal -->
   <DeathRefusal.label>negamort</DeathRefusal.label>
   <!-- EN: Perform a psychic ritual which grants death refusal to an individual, allowing them to self-resurrect once after dying. -->
-  <DeathRefusal.description>TODO</DeathRefusal.description>
+  <DeathRefusal.description>Realitza un ritual psíquic que concedeix la negamort a un individu, permetent-li ressuscitar un cop després de morir.</DeathRefusal.description>
   <!-- EN:
     <li>subject->death refusal invocation</li>
     <li>subject_story->investigated tales of impossible survival</li>
@@ -211,9 +226,9 @@
   <DeathRefusal.generalRules.rulesStrings>TODO</DeathRefusal.generalRules.rulesStrings>
   
   <!-- EN: disruptor flares -->
-  <DisruptorFlares.label>TODO</DisruptorFlares.label>
+  <DisruptorFlares.label>bengales disruptores</DisruptorFlares.label>
   <!-- EN: Build bioferrite-based flare packs that reveal invisible creatures and light up an area. -->
-  <DisruptorFlares.description>TODO</DisruptorFlares.description>
+  <DisruptorFlares.description>Construeix paquets de bengales de bioferrita que revelen criatures invisibles i il·luminen una zona.</DisruptorFlares.description>
   <!-- EN:
     <li>subject->bioferrite flares</li>
     <li>subject->short-term lighting</li>
@@ -229,7 +244,7 @@
   <!-- EN: electroharvester -->
   <Electroharvester.label>electroextractora</Electroharvester.label>
   <!-- EN: Build a generator that draws electricity from contained entities. This process aggravates entities, making them harder to contain. -->
-  <Electroharvester.description>TODO</Electroharvester.description>
+  <Electroharvester.description>Permet construir un generador que absorbeix electricitat de les entitats contingudes. Aquest procés fa mal a les entitats i les fa més difícils de contenir.</Electroharvester.description>
   <!-- EN:
     <li>subject->entity-derived power generation</li>
     <li>subject_story->researched ion pumps in cell membranes</li>
@@ -242,9 +257,9 @@
   <Electroharvester.generalRules.rulesStrings>TODO</Electroharvester.generalRules.rulesStrings>
   
   <!-- EN: entity containment -->
-  <EntityContainment.label>TODO</EntityContainment.label>
+  <EntityContainment.label>contenció d'entitats</EntityContainment.label>
   <!-- EN: Build holding platforms and inhibitors to better contain entities. -->
-  <EntityContainment.description>TODO</EntityContainment.description>
+  <EntityContainment.description>Permet construir plataformes de contenció i inhibidors per a reprimir millor les entitats.</EntityContainment.description>
   <!-- EN:
     <li>subject->entity containment</li>
     <li>subject_story->worked in a prisonworld research facility</li>
@@ -274,7 +289,7 @@
   <!-- EN: ghoul enhancements -->
   <GhoulEnhancements.label>millores necròfagues</GhoulEnhancements.label>
   <!-- EN: Craft bioferrite prosthetics to make ghouls stronger. -->
-  <GhoulEnhancements.description>TODO</GhoulEnhancements.description>
+  <GhoulEnhancements.description>Elabora pròtesis de bioferrita que fan més forts els necròfags.</GhoulEnhancements.description>
   <!-- EN:
     <li>subject->ghoul enhancements</li>
     <li>subject_story->experimented with the dead and the twice-dead</li>
@@ -316,7 +331,7 @@
   <!-- EN: insanity weaponry -->
   <InsanityWeaponry.label>armament pertorbador</InsanityWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that shock, manipulate, and destroy enemies using archotechnology. -->
-  <InsanityWeaponry.description>TODO</InsanityWeaponry.description>
+  <InsanityWeaponry.description>Reestructura els resquills arcotècnics en armes d'ús limitat que provoquen xocs, manipulen i destrueixen als enemics gràcies a les arcotecnologies.</InsanityWeaponry.description>
   <!-- EN:
     <li>subject->archotech insanity weaponry</li>
     <li>subject_story->explored psychological warfare for [ANYPAWN_possessive] dissertation</li>
@@ -379,7 +394,7 @@
   <!-- EN: mutation weaponry -->
   <MutationWeaponry.label>armament mutant</MutationWeaponry.label>
   <!-- EN: Restructure archotech shards into limited-use weapons that twist living targets into terrifying creatures. -->
-  <MutationWeaponry.description>TODO</MutationWeaponry.description>
+  <MutationWeaponry.description>Reestructura els resquills arcotècnics i els converteix en armes d'ús limitat que converteixen els objectius vius en criatures terrorífiques.</MutationWeaponry.description>
   <!-- EN:
     <li>subject->mutation induction</li>
     <li>subject->archotech mutation weaponry</li>
@@ -396,7 +411,7 @@
   <!-- EN: neurosis pulse -->
   <NeurosisPulse.label>pols neuròtic</NeurosisPulse.label>
   <!-- EN: Perform a psychic ritual that makes everyone in the region work faster but become more irritable. -->
-  <NeurosisPulse.description>TODO</NeurosisPulse.description>
+  <NeurosisPulse.description>Realitza un ritual psíquic que fa que totes les persones de la regió treballi més de pressa, tot i que estaran més irritables.</NeurosisPulse.description>
   <!-- EN:
     <li>subject->neurosis pulse</li>
     <li>subject->work imperative</li>
@@ -549,7 +564,7 @@
   <!-- EN: summon fleshbeasts -->
   <SummonFleshbeastsPlayer.label>invoca carnibèsties</SummonFleshbeastsPlayer.label>
   <!-- EN: Perform a psychic ritual which provokes fleshbeasts to emerge from the ground near enemies, attacking anyone nearby. -->
-  <SummonFleshbeastsPlayer.description>TODO</SummonFleshbeastsPlayer.description>
+  <SummonFleshbeastsPlayer.description>Realitza un ritual psíquic que provoca que del terra darrere dels enemics hi surtin carnibèsties que atacaran a qualsevol que hi hagi a prop.</SummonFleshbeastsPlayer.description>
   <!-- EN:
     <li>subject->fleshbeast summoning</li>
     <li>subject_story->read ancient tomes about the origins of life</li>
@@ -580,7 +595,7 @@
   <!-- EN: draw shamblers -->
   <SummonShamblers.label>atrau zombis</SummonShamblers.label>
   <!-- EN: Perform a psychic ritual which will draw a horde of animated corpses. While hostile, the corpses won't attack your colony directly. They can be captured for study. -->
-  <SummonShamblers.description>TODO</SummonShamblers.description>
+  <SummonShamblers.description>Realitza un ritual psíquic que atraurà una horda de cadàvers. Encara que són hostils, els zombis no atacaran la vostra colònia directament. Se'ls pot capturar per a estudiar-los.</SummonShamblers.description>
   <!-- EN:
     <li>subject->shambler summoning rituals</li>
     <li>subject_story->studied the necrocults of the deadworlds, from the safety of a university library</li>
