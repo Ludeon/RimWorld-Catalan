@@ -216,7 +216,8 @@
     <li>noteLocation->below a large [mapFeature]</li>
     <li>noteLocation->along the edge of the map</li>
   -->
-  <Description_Map.rulePack.rulesStrings>    <li>desc->un mapa [physicalDescription] que mostra una ubicació d'interès. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+  <Description_Map.rulePack.rulesStrings>
+    <li>desc->un mapa [physicalDescription] que mostra una ubicació d'interès. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->[physicalDescription], aquest [mapType] [has] [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->aquest [mapType] està [physicalDescription] i [has] [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->un [mapType] que conté [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
@@ -478,8 +479,7 @@
     <li>noteLocation->a sota d'un gran [mapFeature]</li>
     <li>noteLocation->a sota d'una gran [mapFeatureFem]</li>
     <li>noteLocation->al llarg de la vora del mapa</li>
-
-</Description_Map.rulePack.rulesStrings>
+  </Description_Map.rulePack.rulesStrings>
   
   <!-- EN:
     <li>place->[PlaceOutlander]</li>
@@ -962,7 +962,7 @@
     <li>CapSylE->El</li>
     <li>CapSylE->Ve</li>
     <li>CapSylE->Proto</li>
-</MapUtility.rulePack.rulesStrings>
+  </MapUtility.rulePack.rulesStrings>
   
   <!-- EN:
     <li>title(p=2)->[mapType] [mapNoun] of [subject]</li>
@@ -1056,6 +1056,6 @@
     <li>mapType->pellporquer</li>
     <li>mapType->laminat</li>
     <li>mapType->hologràfic</li>
-</Namer_Map.rulePack.rulesStrings>
+  </Namer_Map.rulePack.rulesStrings>
   
 </LanguageData>
