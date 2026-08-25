@@ -51,7 +51,9 @@
   <!-- EN:
     <li>questDescription->You have detected the energy signature of a gravcore. The gravcore is powering a malfunctioning ancient terraformer. Its location is marked on the world map.\n\nThe terraformer is cooling the local region to dangerously low temperatures. Be prepared for cold weather and a long stay.\n\nObtain gravcores and gravlite panels to increase the size of your gravship.</li>
   -->
-  <Gravcore_FrozenTerraformer.questDescriptionRules.rulesStrings>TODO</Gravcore_FrozenTerraformer.questDescriptionRules.rulesStrings>
+  <Gravcore_FrozenTerraformer.questDescriptionRules.rulesStrings>
+    <li>questDescription->Heu detectat la signatura energètica d'un gravinucli. El gravinucli dóna energia a una terraformadora antiga que no funciona bé. S'ha marcat la seva posició al mapa del món.\n\nLa terraformadora provoca temperatures extremadament baixes a la regió. Prepareu-vos per a un temps molt fred i una estada més aviat llarga.\n\nS'hi poden aconseguir gravinuclis i panells de gravilita per a augmentar la mida de la vostra gravinau.</li>
+  </Gravcore_FrozenTerraformer.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->frozen terraformer</li>
   -->
@@ -64,7 +66,9 @@
   <!-- EN:
     <li>questDescription->You have detected the energy signature of a gravcore. The signal emanates from a cave system deep underground. The entrance to the cave system is marked on the world map.\n\nSubterranean caves can be extremely dangerous and may take days to explore.\n\nObtain gravcores and gravlite panels to increase the size of your gravship.</li>
   -->
-  <Gravcore_InsectLair.questDescriptionRules.rulesStrings>TODO</Gravcore_InsectLair.questDescriptionRules.rulesStrings>
+  <Gravcore_InsectLair.questDescriptionRules.rulesStrings>
+    <li>questDescription->Heu detectat la signatura energètica d'un gravinucli. El senyal prové d'un sistema de coves molt profundes. L'entrada a la xarxa de coves s'ha marcat la seva posició al mapa del món.\n\nLes coves subterrànies poden ser extremadament perilloses i es pot trigar dies a explorar-les.\n\nS'hi poden aconseguir gravinuclis i panells de gravilita per a augmentar la mida de la vostra gravinau.</li>
+  </Gravcore_InsectLair.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->cave entrance</li>
   -->
@@ -78,11 +82,16 @@
     <li>letterLabelMapGenerated->Mechanoid relay</li>
     <li>letterTextMapGenerated->A mechanoid relay is nearby, powered by a gravcore.\n\nThe relay is currently protected by nearby stabilizers. Extract the relay's gravcore by first hacking or destroying all the stabilizers.\n\nBe careful, destroying a stabilizer will prompt a defensive response. Hacking is a slower but safer option.</li>
   -->
-  <Gravcore_MechanoidRelay.questContentRules.rulesStrings>TODO</Gravcore_MechanoidRelay.questContentRules.rulesStrings>
+  <Gravcore_MechanoidRelay.questContentRules.rulesStrings>
+    <li>letterLabelMapGenerated->Repetidor mecanoide</li>
+    <li>letterTextMapGenerated->Hi ha un repetidor mecanoide a prop, que rep energia d'un gravinucli.\n\nEl repetidor està protegit per estabilitzadors propers. Per a aconseguir el gravinucli del repetidor, primer caldrà piratejar o destruir tots els estabilitzadors.\n\nAneu amb compte, si es destrueix un estabilitzador, hi haurà una reacció defensiva. Potser piratejar és una opció més lenta, però també més segura.</li>
+  </Gravcore_MechanoidRelay.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have detected the energy signature of a gravcore. It is powering a relay that is part of a huge mechanoid communication net.\n\nYou can disassemble the relay, but the process will take days to complete. The relay itself will be heavily defended by mechanoids.\n\nObtain gravcores and gravlite panels to increase the size of your gravship.</li>
   -->
-  <Gravcore_MechanoidRelay.questDescriptionRules.rulesStrings>TODO</Gravcore_MechanoidRelay.questDescriptionRules.rulesStrings>
+  <Gravcore_MechanoidRelay.questDescriptionRules.rulesStrings>
+    <li>questDescription->Heu detectat la signatura energètica d'un gravinucli. El gravinucli dóna energia a un repetidor que forma part d'una xarxa de comunicacions mecanoide.\n\nEs pot desmuntar el repetidor, però es triga uns dies a fer-ho. El repetidor potser està defensat per mecanoides.\n\nS'hi poden aconseguir gravinuclis i panells de gravilita per a augmentar la mida de la vostra gravinau.</li>
+  </Gravcore_MechanoidRelay.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->mechanoid relay</li>
   -->
@@ -95,7 +104,9 @@
   <!-- EN:
     <li>questDescription->You have detected a huge gravtech energy spike originating from a mechhive in orbit. Its location is marked on the world map.\n\nThis mechhive is the center of mechanoid intelligence on this planet. Shutting it down will disable all murderous mechanoids planet-wide. Alternatively, you may be able to use the mechhive for your own purposes.\n\nThe mechhive is defended with anti-ship weapons. Build a signal jammer before approaching it.\n\nBe warned, mechhives are extremely dangerous. Finish exploring other locations first and ensure you're prepared for a long stay in orbit.</li>
   -->
-  <Gravcore_Mechhive.questDescriptionRules.rulesStrings>TODO</Gravcore_Mechhive.questDescriptionRules.rulesStrings>
+  <Gravcore_Mechhive.questDescriptionRules.rulesStrings>
+    <li>questDescription->Heu detectat un senyal d'energia enorme gravitecnològic que s'ha originat en un mecaeixam en òrbita. La seva ubicació s'ha marcat al mapa del món.\n\nEl mecaeixam és el centre d'intel·ligència mecanoide del planeta. Si s'apaga, es desactivaran tots els mecanoides assassins del planeta. A més a més, podríeu fer servir el mecaeixam per als vostres propis interessos.\n\nEl mecaeixam està defensat amb armes antinaus. Construïu un inhibidor de senyals abans d'acostar-vos-hi.\n\nAneu amb compte. Els mecaeixams són molt perillosos. Acabeu d'explorar tot el que tingueu pendent i assegureu-vos que aneu ben preparats per a una llarga estada en òrbita.</li>
+  </Gravcore_Mechhive.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->mechhive</li>
   -->
@@ -108,7 +119,9 @@
   <!-- EN:
     <li>questDescription->You have detected the energy signature of a gravcore. The signal is coming from an abandoned orbital platform.\n\nYou can travel to orbital platforms using gravships, shuttles, or transport pods.\n\nBe careful, orbital locations are extremely dangerous. Equip your colonists with vacsuits. Plan your return trip, as living in orbit for long periods is very difficult.</li>
   -->
-  <Gravcore_OrbitalAncientPlatform.questDescriptionRules.rulesStrings>TODO</Gravcore_OrbitalAncientPlatform.questDescriptionRules.rulesStrings>
+  <Gravcore_OrbitalAncientPlatform.questDescriptionRules.rulesStrings>
+    <li>questDescription->Heu detectat la signatura energètica d'un gravinucli. El senyal prové d'una plataforma orbital abandonada.\n\nPodeu arribar a les plataformes orbitals amb gravinaus, llançadores o càpsules de transport.\n\nCal anar amb compte, perquè les ubicacions orbitals són extremadament perilloses. Equipeu els colons amb vestits espacials i planifiqueu el viatge de tornada, ja que viure en òrbita durant períodes molt llargs no és gens fàcil.</li>
+  </Gravcore_OrbitalAncientPlatform.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->abandoned orbital platform</li>
   -->
@@ -121,7 +134,9 @@
   <!-- EN:
     <li>questDescription->You have detected the energy signature of a gravcore. The signal is coming from an orbital mechanoid platform. Scans reveal a heavy defensive presence.\n\nYou can travel to orbital platforms using gravships, shuttles, or transport pods.\n\nBe careful, orbital locations are extremely dangerous. Equip your colonists with vacsuits. Plan your return trip, as living in orbit for long periods is very difficult.</li>
   -->
-  <Gravcore_OrbitalMechanoidPlatform.questDescriptionRules.rulesStrings>TODO</Gravcore_OrbitalMechanoidPlatform.questDescriptionRules.rulesStrings>
+  <Gravcore_OrbitalMechanoidPlatform.questDescriptionRules.rulesStrings>
+    <li>questDescription->Heu detectat la signatura energètica d'un gravinucli. El senyal prové d'una plataforma orbital mecanoide. Els escàners mostren una presència defensiva important.\n\nPodeu arribar a les plataformes orbitals amb gravinaus, llançadores o càpsules de transport.\n\nCal anar amb compte, perquè les ubicacions orbitals són extremadament perilloses. Equipeu els colons amb vestits espacials i planifiqueu el viatge de tornada, ja que viure en òrbita durant períodes molt llargs no és gens fàcil.</li>
+  </Gravcore_OrbitalMechanoidPlatform.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Mechanoid platform</li>
   -->
@@ -132,7 +147,9 @@
   <!-- EN:
     <li>questDescription->You've discovered a mechanoid grav engine! You can use this to build a gravship to quickly move around the planet.\n\nThe engine includes tech that passively scans for nearby gravship technology. If you obtain this gravship tech, you can upgrade your gravship over time.</li>
   -->
-  <GravEngine.questDescriptionRules.rulesStrings>TODO</GravEngine.questDescriptionRules.rulesStrings>
+  <GravEngine.questDescriptionRules.rulesStrings>
+    <li>questDescription->Heu descobert un gravimotor mecanoide! Podeu fer-lo servir per a construir una gravinau i desplaçar-vos fàcilment pel planeta.\n\nEl motor inclou tecnologia que escaneja de manera passiva i detecta tecnologies relacionades amb les gravinaus. Si obteniu aquestes tecnologies, podreu millorar la vostra gravinau.</li>
+  </GravEngine.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the gravship</li>
   -->
@@ -145,7 +162,11 @@
     <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has shared with you the location of a crashed gravship. [asker_pronoun] heard of your study of gravcore technology and thought you might be interested in scavenging whatever gravtech remains. [asker_nameDef] warns you that the crash site is guarded by hostile mechanoids.</li>
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], demands that you destroy a number of bothersome mechanoids that are harassing a nearby settlement. The mechanoids are guarding the wreckage of a gravship. If you destroy the mechanoids, [asker_nameDef] will let you keep whatever gravtech you're able to scavenge.</li>
   -->
-  <GravshipWreckage.questDescriptionRules.rulesStrings>TODO</GravshipWreckage.questDescriptionRules.rulesStrings>
+  <GravshipWreckage.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->Heu interceptat el senyal d'auxili de la balisa d'una gravinau estavellada. Les restes contenen gravitecnologia valuosa. Aneu amb compte: està protegida per mecanoides hostils.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_nameFull], [asker_faction_leaderTitle]  de la facció [asker_faction_name], us ha dit on hi ha una gravinau estavellada. Com sap que estudieu les gravitecnologies, ha pensat que potser voleu saquejar el que hi quedi. [asker_nameDef] us avisa que al lloc de l'accident hi ha mecanoides hostils que protegeixen les restes de la nau.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], [asker_royalTitleInCurrentFaction] de [asker_faction_name], us demana que destruïu uns quants mecanoides molestos que assetgen un assentament proper. Els mecanoides protegeixen les restes d'una gravinau. Si destruïu els mecanoides, [asker_nameDef] deixarà que us quedeu les gravitecnologies que pugueu saquejar.</li>
+  </GravshipWreckage.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Gravship wreckage</li>
   -->
@@ -158,7 +179,11 @@
     <li>gravEngineSpawnedLetterLabel->grav engine</li>
     <li>gravEngineSpawnedLetterText->The mechanoid ship has crashlanded nearby.\n\nIt contains a working grav engine. The engine pushes against gravity and generates a lift field around itself, allowing it to levitate massive ships or platforms. While it does not work when far from a planet, it can be used to move across the planet and to reach orbit.\n\nInspect the engine to make use of it.</li>
   -->
-  <MechanoidSignal.questDescriptionRules.rulesStrings>TODO</MechanoidSignal.questDescriptionRules.rulesStrings>
+  <MechanoidSignal.questDescriptionRules.rulesStrings>
+    <li>questDescription->Heu detectat el senyal d'una nau mecanoide en òrbita. La nau no funciona bé i perd altitud poc a poc.\n\nSi falsegeu un senyal de resposta, podeu fer que la nau s'estavelli a prop i en podreu saquejar les restes, especialment els component gravitècnics.</li>
+    <li>gravEngineSpawnedLetterLabel->gravimotor</li>
+    <li>gravEngineSpawnedLetterText->La nau mecanoide s'ha estavellat a prop.\n\nConté un gravimotor que encara funciona. El motor empeny contra la gravetat i genera un camp al seu voltant que li permet fer levitar naus i plataformes grosses. Tot i que no funciona quan està lluny dels planetes, es pot fer servir per a enlairar-se d'un planeta i arribar a la seva òrbita.\n\nEstudieu el motor per a fer-lo servir.</li>
+  </MechanoidSignal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->mechanoid signal</li>
   -->
