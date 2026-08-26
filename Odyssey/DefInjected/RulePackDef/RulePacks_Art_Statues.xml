@@ -169,9 +169,9 @@
   <ArtDescription_Statue.rulePack.rulesStrings>
     <li>r_statue_description->Aquesta estàtua [statueDepicts] a [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
     <li>r_statue_description->Una estàtua [statueAdj] que representa a [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
-    <li>r_statue_description->L'estàtua de [SUBJECT_nameFull] [carvedVerb] [carvedAdverb]. [SUBJECT_objective] [statueDepicts] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->L’estàtua de [SUBJECT_nameFull] [carvedVerb] [carvedAdverb]. [SUBJECT_objective] [statueDepicts] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
     <li>r_statue_description->Una estàtua que mostra a [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
-    <li>r_statue_description->L'estàtua de [SUBJECT_nameFull] [statueAdj]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->L’estàtua de [SUBJECT_nameFull] [statueAdj]. [statueFaceDesc] [style_group_statue]</li>
     <li>statueSubjectDesc->dempeus sostenint un [prop] amb les dues mans</li>
     <li>statueSubjectDesc->dempeus sostenint una [propFem] amb les dues mans</li>
     <li>statueSubjectDesc->dempeus i mirant noblement a la llunyania</li>
@@ -191,18 +191,18 @@
     <li>statueSubjectDesc->sostenint un [prop] en una mà[maybeOtherHand]</li>
     <li>statueSubjectDesc->sostenint una [propFem] en una mà[maybeOtherHand]</li>
     <li>statueSubjectDesc->saludant amb una mà[maybeOtherHand]</li>
-    <li>statueSubjectDesc->assenyalant cap a l'horitzó[maybeOtherHand]</li>
+    <li>statueSubjectDesc->assenyalant cap a l’horitzó[maybeOtherHand]</li>
     <li>statueSubjectDesc->estenent la mà en senyal de benvinguda[maybeOtherHand]</li>
-    <li>statueSubjectDesc->assenyalant l'horitzó amb una mà[maybeOtherHand]</li>
+    <li>statueSubjectDesc->assenyalant l’horitzó amb una mà[maybeOtherHand]</li>
     <li>statueSubjectDesc->ballant seductorament</li>
     <li>statueSubjectDesc->relaxant-se de forma seductora</li>
     <li>statueSubjectDesc->preparant-se per lluitar</li>
-    <li>statueSubjectDesc->saltant en l'aire, congelat a mig salt</li>
+    <li>statueSubjectDesc->saltant en l’aire, congelat a mig salt</li>
     <li>statueSubjectDesc->llançant una xarxa en aigües invisibles</li>
     <li>statueSubjectDesc->tastant un menjar luxuriós</li>
     <li>statueSubjectDesc->en plena lluita, deslliurant-se de les cadenes</li>
     <li>statueSubjectDesc->xiuxiuejant un secret</li>
-    <li>statueSubjectDesc->mirant les estrelles amb els ulls plens d'astorament</li>
+    <li>statueSubjectDesc->mirant les estrelles amb els ulls plens d’astorament</li>
     <li>statueSubjectDesc->llançant una llança invisible</li>
     <li>statueSubjectDesc->estripant un tros de paper en un acte de desafiament</li>
     <li>statueSubjectDesc->nedant aigües profundes</li>
@@ -213,28 +213,28 @@
     <li>statueSubjectDesc->olorant un ram de flors[maybeNoNose]</li>
     <li>maybeOtherHand->. [otherHand]</li>
     <li>maybeOtherHand-></li>
-    <li>otherHand->L'altra mà de l'estàtua sosté un [prop]</li>
-    <li>otherHand->L'altra mà de l'estàtua sosté una [propFem]</li>
-    <li>otherHand->L'altra mà de l'estàtua descansa sobre el seu maluc</li>
-    <li>otherHand->A l'estàtua li falta l'altra mà[maybeInsult]</li>
-    <li>maybeNoNose->. L'estàtua no té nas[maybeInsult]</li>
+    <li>otherHand->L’altra mà de l’estàtua sosté un [prop]</li>
+    <li>otherHand->L’altra mà de l’estàtua sosté una [propFem]</li>
+    <li>otherHand->L’altra mà de l’estàtua descansa sobre el seu maluc</li>
+    <li>otherHand->A l’estàtua li falta l’altra mà[maybeInsult]</li>
+    <li>maybeNoNose->. L’estàtua no té nas[maybeInsult]</li>
     <li>maybeNoNose-></li>
     <li>maybeInsult->. Això és un clar insult</li>
-    <li>maybeInsult->. No està clar si es tracta d'un menyspreu de l'artista o d'un simple error</li>
-    <li>maybeInsult->. Això suggereix que l'artista insulta el subjecte</li>
+    <li>maybeInsult->. No està clar si es tracta d’un menyspreu de l’artista o d’un simple error</li>
+    <li>maybeInsult->. Això suggereix que l’artista insulta el subjecte</li>
     <li>maybeInsult(p=3)-></li>
-    <li>statueFaceDesc(p=2)->El rostre de l'estàtua té una expressió de [facialLook].</li>
-    <li>statueFaceDesc(p=2)->Es pot veure a la cara d'[SUBJECT_indefinite] [facialLook].</li>
+    <li>statueFaceDesc(p=2)->El rostre de l’estàtua té una expressió de [facialLook].</li>
+    <li>statueFaceDesc(p=2)->Es pot veure a la cara d’[SUBJECT_indefinite] [facialLook].</li>
     <li>statueFaceDesc->[SUBJECT_indefinite] té una mirada de [facialLook].</li>
-    <li>statueFaceDesc->El rostre d'[SUBJECT_indefinite] [depicts] [facialLook].</li>
+    <li>statueFaceDesc->El rostre d’[SUBJECT_indefinite] [depicts] [facialLook].</li>
     <li>statueFaceDesc->[SUBJECT_indefinite] té un posat savi i reflexiu.</li>
     <li>statueFaceDesc->[SUBJECT_indefinite] crida, amb la boca oberta en un crit silenciós.</li>
     <li>statueFaceDesc->[SUBJECT_indefinite] mira amb tristesa a la llunyania.</li>
-    <li>statueFaceDesc->L'estàtua [depicts] a [SUBJECT_indefinite] amb la seva característica mirada de determinació.</li>
-    <li>statueFaceDesc->L'estàtua [depicts] a [SUBJECT_indefinite] rient.</li>
+    <li>statueFaceDesc->L’estàtua [depicts] a [SUBJECT_indefinite] amb la seva característica mirada de determinació.</li>
+    <li>statueFaceDesc->L’estàtua [depicts] a [SUBJECT_indefinite] rient.</li>
     <li>statueFaceDesc->[SUBJECT_indefinite] té [facialFeature].</li>
-    <li>statueFaceDesc->L'estàtua té [facialFeature].</li>
-    <li>statueFaceDesc->En particular, l'estàtua té [facialFeature].</li>
+    <li>statueFaceDesc->L’estàtua té [facialFeature].</li>
+    <li>statueFaceDesc->En particular, l’estàtua té [facialFeature].</li>
     <li>facialLook->verdadera alegria</li>
     <li>facialLook->terror pur</li>
     <li>facialLook->pur èxtasi</li>
@@ -250,9 +250,9 @@
     <li>facialLook->desafiament</li>
     <li>facialFeature->un somriure juganer</li>
     <li>facialFeature->unes celles que denoten preocupació</li>
-    <li>facialFeature->una cella aixecada, com interrogant l'artista</li>
+    <li>facialFeature->una cella aixecada, com interrogant l’artista</li>
     <li>facialFeature->una llengua llarga que sobresurt</li>
-    <li>facialFeature->el rostre retorçat d'angoixa</li>
+    <li>facialFeature->el rostre retorçat d’angoixa</li>
     <li>facialFeature->uns ulls que sembla que brillen</li>
     <li>facialFeature->els dos ulls tancats, com en pau</li>
     <li>facialFeature->les galtes inflades com si bufés aire</li>
@@ -262,16 +262,16 @@
     <li>style_group_statue->[style_clause].</li>
     <li>style_group_statue->[artextra_clause_statue].</li>
     <li>style_group_statue-></li>
-    <li>artextra_clause_statue->el pedestal de l'estàtua està vorejat per [subimageplural]</li>
+    <li>artextra_clause_statue->el pedestal de l’estàtua està vorejat per [subimageplural]</li>
     <li>artextra_clause_statue->tallades a la pell del subjecte hi ha [subimageplural]</li>
-    <li>artextra_clause_statue->Diverses talles més petites rodegen l'estàtua. Cadascuna s'assembla a [subimagesingle]</li>
-    <li>artextra_clause_statue->les cames de l'estàtua estan tapades per [subimageplural]</li>
-    <li>artextra_clause_statue->[carvedVerb] a la cara de l'estàtua hi ha una imatge de [subimageany]</li>
-    <li>artextra_clause_statue->[SUBJECT_indefinite] es troba al mig d'[CommunityIndef]</li>
-    <li>artextra_clause_statue->la base de l'estàtua sembla ser un [TerrainFeature]</li>
-    <li>artextra_clause_statue->la base de l'estàtua sembla ser una [TerrainFeatureF]</li>
-    <li>artextra_clause_statue->[SUBJECT_indefinite] sembla sorgir d'un [TerrainFeature]</li>
-    <li>artextra_clause_statue->[SUBJECT_indefinite] sembla sorgir d'una [TerrainFeatureF]</li>
+    <li>artextra_clause_statue->Diverses talles més petites rodegen l’estàtua. Cadascuna s’assembla a [subimagesingle]</li>
+    <li>artextra_clause_statue->les cames de l’estàtua estan tapades per [subimageplural]</li>
+    <li>artextra_clause_statue->[carvedVerb] a la cara de l’estàtua hi ha una imatge de [subimageany]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] es troba al mig d’[CommunityIndef]</li>
+    <li>artextra_clause_statue->la base de l’estàtua sembla ser un [TerrainFeature]</li>
+    <li>artextra_clause_statue->la base de l’estàtua sembla ser una [TerrainFeatureF]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] sembla sorgir d’un [TerrainFeature]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] sembla sorgir d’una [TerrainFeatureF]</li>
     <li>artextra_clause_statue->un petit [Character] apareix [side_position_statue]</li>
     <li>artextra_clause_statue->una petita [Character_Fem] apareix [side_position_statue]</li>
     <li>artextra_clause_statue->un [Character] [PAWN_adj] apareix [side_position_statue]</li>
@@ -279,12 +279,12 @@
     <li>artextra_clause_statue->[Quantity_adjphrase] [Character_Plural] [PAWN_adjPl] apareixen [side_position_statue]</li>
     <li>artextra_clause_statue->un [Animal] està tallat [side_position_statue]</li>
     <li>artextra_clause_statue->una [AnimalF] està tallada [side_position_statue]</li>
-    <li>artextra_clause_statue->de lluny, la composició [composition] de l'estàtua revela el contorn de [subimagenany]</li>
-    <li>artextra_clause_statue->l'estàtua sosté un [Animal] sota el braç</li>
-    <li>artextra_clause_statue->l'estàtua sosté una [AnimalF] sota el braç</li>
-    <li>artextra_clause_statue->l'estàtua sosté [Quantity_adjphrase] [Character_Plural] [PAWN_adjPl]</li>
-    <li>artextra_clause_statue->el [statueBodyPart] d'[SUBJECT_indefinite] està obert. A dins es poden veure [subimageplural]</li>
-    <li>artextra_clause_statue->l'[statueBodyPartApo] d'[SUBJECT_indefinite] està oberta. A dins es poden veure [subimageplural]</li>
+    <li>artextra_clause_statue->de lluny, la composició [composition] de l’estàtua revela el contorn de [subimagenany]</li>
+    <li>artextra_clause_statue->l’estàtua sosté un [Animal] sota el braç</li>
+    <li>artextra_clause_statue->l’estàtua sosté una [AnimalF] sota el braç</li>
+    <li>artextra_clause_statue->l’estàtua sosté [Quantity_adjphrase] [Character_Plural] [PAWN_adjPl]</li>
+    <li>artextra_clause_statue->el [statueBodyPart] d’[SUBJECT_indefinite] està obert. A dins es poden veure [subimageplural]</li>
+    <li>artextra_clause_statue->l’[statueBodyPartApo] d’[SUBJECT_indefinite] està oberta. A dins es poden veure [subimageplural]</li>
     <li>carvedAdverb->amb molta cura</li>
     <li>carvedAdverb->ràpidament</li>
     <li>carvedAdverb->amb molta delicadesa</li>
@@ -315,19 +315,19 @@
     <li>statueDepicts->mostra</li>
     <li>statueDepicts->retrata</li>
     <li>side_position_statue->a la base</li>
-    <li>side_position_statue->al pedestal al costat d'[SUBJECT_indefinite]</li>
-    <li>side_position_statue->sota el taló d'[SUBJECT_indefinite]</li>
-    <li>side_position_statue->als braços d'[SUBJECT_indefinite]</li>
-    <li>side_position_statue->sobre el cap d'[SUBJECT_indefinite]</li>
-    <li>side_position_statue->sobre les espatlles d'[SUBJECT_indefinite]</li>
-    <li>side_position_statue->rere l'estàtua central</li>
+    <li>side_position_statue->al pedestal al costat d’[SUBJECT_indefinite]</li>
+    <li>side_position_statue->sota el taló d’[SUBJECT_indefinite]</li>
+    <li>side_position_statue->als braços d’[SUBJECT_indefinite]</li>
+    <li>side_position_statue->sobre el cap d’[SUBJECT_indefinite]</li>
+    <li>side_position_statue->sobre les espatlles d’[SUBJECT_indefinite]</li>
+    <li>side_position_statue->rere l’estàtua central</li>
     <li>side_position_statue->en un forat tallat al [statueBodyPart] de la figura</li>
-    <li>side_position_statue->en un forat tallat a l'[statueBodyPartApo] de la figura</li>
-    <li>side_position_statue->al palmell de la mà d'[SUBJECT_indefinite]</li>
-    <li>side_position_statue->sorgint del [statueBodyPart] d'[SUBJECT_indefinite]</li>
-    <li>side_position_statue->sortint de l'[statueBodyPartApo] d'[SUBJECT_indefinite]</li>
-    <li>side_position_statue->sortint de la boca d'[SUBJECT_indefinite]</li>
-    <li>side_position_statue->a l'esquena d'[SUBJECT_indefinite]</li>
+    <li>side_position_statue->en un forat tallat a l’[statueBodyPartApo] de la figura</li>
+    <li>side_position_statue->al palmell de la mà d’[SUBJECT_indefinite]</li>
+    <li>side_position_statue->sorgint del [statueBodyPart] d’[SUBJECT_indefinite]</li>
+    <li>side_position_statue->sortint de l’[statueBodyPartApo] d’[SUBJECT_indefinite]</li>
+    <li>side_position_statue->sortint de la boca d’[SUBJECT_indefinite]</li>
+    <li>side_position_statue->a l’esquena d’[SUBJECT_indefinite]</li>
     <li>statueBodyPart->pit</li>
     <li>statueBodyPart->braç</li>
     <li>statueBodyPartApo->estómac</li>
@@ -482,7 +482,7 @@
     <li>statueIdea->Esperit</li>
     <li>statueIdea->Llum</li>
     <li>statueIdea->Patriotisme</li>
-    <li>statueIdea->Llum de l'Alba</li>
+    <li>statueIdea->Llum de l’Alba</li>
     <li>statueIdea->Cel nocturn</li>
     <li>statueIdea->Alba</li>
     <li>statueIdea->Sorra errant</li>

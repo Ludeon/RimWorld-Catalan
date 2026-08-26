@@ -217,7 +217,7 @@
     <li>noteLocation->along the edge of the map</li>
   -->
   <Description_Map.rulePack.rulesStrings>
-    <li>desc->un mapa [physicalDescription] que mostra una ubicació d'interès. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
+    <li>desc->un mapa [physicalDescription] que mostra una ubicació d’interès. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->[physicalDescription], aquest [mapType] [has] [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->aquest [mapType] està [physicalDescription] i [has] [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
     <li>desc->un [mapType] que conté [mapContents]. [maybe_specialFact] [maybe_authorInfo] [maybe_condition]\n\n[maybe_questInfo]</li>
@@ -232,12 +232,12 @@
     <li>physicalDescription->enquadernat en vinil</li>
     <li>physicalDescription->gravat en fines làmines de pergamí</li>
     <li>physicalDescription->gravat en carbó</li>
-    <li>physicalDescription->gravat en un llenç anegat d'aigua</li>
-    <li>physicalDescription->gravat en pell d'animal fètida</li>
+    <li>physicalDescription->gravat en un llenç anegat d’aigua</li>
+    <li>physicalDescription->gravat en pell d’animal fètida</li>
     <li>physicalDescription->garbellat amb tinta negra</li>
-    <li>physicalDescription->cosit en pell d'alces</li>
-    <li>physicalDescription->escrit en la pell seca d'un [Animal]</li>
-    <li>physicalDescription->escrit en la pell seca d'una [AnimalF]</li>
+    <li>physicalDescription->cosit en pell d’alces</li>
+    <li>physicalDescription->escrit en la pell seca d’un [Animal]</li>
+    <li>physicalDescription->escrit en la pell seca d’una [AnimalF]</li>
     <li>physicalDescription->fet amb pergamí ennegrit</li>
     <li>physicalDescription->delicadament plegat en setze seccions</li>
     <li>physicalDescription->imprès per una premsa industrial</li>
@@ -262,12 +262,12 @@
     <li>mapContents->una barreja de fantàstics [mapSubject] i històrics [mapSubject]</li>
     <li>mapContents->una barreja de fantàstiques [mapSubjectFem] i històriques [mapSubjectFem]</li>
     <li>mapContents->dotzenes de diagrames antics de [mapSubjectAndAdj]</li>
-    <li>mapContents->dibuixos temàtics. Una gran [depiction] central que s'assembla a un [Animal], dibuixat en un estil [artstyle_adj]</li>
-    <li>mapContents->dibuixos temàtics. Una gran [depiction] central que s'assembla a una [AnimalF], dibuixada en un estil [artstyle_adj]</li>
-    <li>mapContents->milers de símbols estranys, molts dels quals s'assemblen a [mapSubjectInde]. El símbol més comú s'assembla a un [Animal] [emotionalState] dibuixat en un estil [artstyle_adj]</li>
-    <li>mapContents->milers de símbols estranys, molts dels quals s'assemblen a [mapSubjectInde]. El símbol més comú s'assembla a una [AnimalF] [emotionalStateFem] dibuixada en un estil [artstyle_adj]</li>
-    <li>mapContents->signes evidents d'antiguitat. Un diagrama, dibuixat amb una altra mà, mostra l'antic [mapSubject] de [place]</li>
-    <li>mapContents->signes evidents d'antiguitat. Un diagrama, dibuixat amb una altra mà, mostra l'antiga [mapSubjectFem] de [place]</li>
+    <li>mapContents->dibuixos temàtics. Una gran [depiction] central que s’assembla a un [Animal], dibuixat en un estil [artstyle_adj]</li>
+    <li>mapContents->dibuixos temàtics. Una gran [depiction] central que s’assembla a una [AnimalF], dibuixada en un estil [artstyle_adj]</li>
+    <li>mapContents->milers de símbols estranys, molts dels quals s’assemblen a [mapSubjectInde]. El símbol més comú s’assembla a un [Animal] [emotionalState] dibuixat en un estil [artstyle_adj]</li>
+    <li>mapContents->milers de símbols estranys, molts dels quals s’assemblen a [mapSubjectInde]. El símbol més comú s’assembla a una [AnimalF] [emotionalStateFem] dibuixada en un estil [artstyle_adj]</li>
+    <li>mapContents->signes evidents d’antiguitat. Un diagrama, dibuixat amb una altra mà, mostra l’antic [mapSubject] de [place]</li>
+    <li>mapContents->signes evidents d’antiguitat. Un diagrama, dibuixat amb una altra mà, mostra l’antiga [mapSubjectFem] de [place]</li>
     <li>mapContents->diagrames detallats dels [mapSubjectPl] de [place] i la seva relació amb [mapSubjectAndAdj]</li>
     <li>mapContents->diagrames detallats de les [mapSubjectFemPl] de [place] i la seva relació com [mapSubjectAndAdj]</li>
     <li>mapContents->quatre grans esbossos dels [mapSubjectPl] [place]</li>
@@ -281,27 +281,27 @@
     <li>mapContents->coordenades ressaltades amb subratllador groc</li>
     <li>mapContents->dibuixos de territoris propers. Símbols toscos marquen refugis segurs i amagatalls ocults</li>
     <li>mapContents->les ubicacions de [Quantity_adjphrase] santuaris de [AnimalPl]. Les «X» vermelles també marquen on hi ha diverses tombes</li>
-    <li>mapContents->les ubicacions de [Quantity_adjphrase] santuaris de [AnimalFPl]. Les «X» vermelles d'igual manera marquen on hi ha diverses tombes</li>
-    <li>mapContents->res d'importància. O això sembla</li>
+    <li>mapContents->les ubicacions de [Quantity_adjphrase] santuaris de [AnimalFPl]. Les «X» vermelles d’igual manera marquen on hi ha diverses tombes</li>
+    <li>mapContents->res d’importància. O això sembla</li>
     <li>mapContents->línies de quadrícula descolorides. Cada quadrant conté [mapSubjectAndAdj]</li>
     <li>mapContents->[Quantity_adjphrase] [mapSubjectPl] representats en un estil [artstyle_adj]. A sota de cadascun hi ha un [Animal] [AdjectiveAny]</li>
     <li>mapContents->[Quantity_adjphrase] [mapSubjectFemPl] representades en un estil [artstyle_adj]. A sota de cadascuna hi ha un [Animal] [AdjectiveAny]</li>
     <li>maybe_specialFact-></li>
     <li>maybe_specialFact->[specialFact]</li>
     <li>specialFact->Les marques són invisibles a la llum normal. No obstant això, en la foscor total, sorgeixen símbols fantasmagòrics i línies espectrals que brillen amb un pàl·lid color platejat.</li>
-    <li>specialFact->Les marques apareixen i desapareixen segons l'angle de la llum.</li>
+    <li>specialFact->Les marques apareixen i desapareixen segons l’angle de la llum.</li>
     <li>specialFact->Les pàgines brillen lleument amb marques de color carmesí que es mouen i es retorcen en apropar-les al foc.</li>
-    <li>specialFact->Les anotacions estan en un dialecte regional, cosa que suggereix que l'autor és de [place].</li>
+    <li>specialFact->Les anotacions estan en un dialecte regional, cosa que suggereix que l’autor és de [place].</li>
     <li>specialFact->Cada plec conté una lletra i diversos números, però el seu significat no està clar.</li>
     <li>specialFact->Hi ha quelcom inquietant en les marques.</li>
     <li>specialFact->Conté anotacions en un idioma llargament oblidat.</li>
     <li>specialFact->Les marques tosques i irregulars canvien lentament amb el temps i revelen un significat ocult.</li>
-    <li>specialFact->Afirma revelar l'essència mateixa de la terra, guiant el lector</li>
-    <li>specialFact->Ocult entre els molts plecs hi ha un tros de paper amb el dibuix d'un [Animal] [emotionalState].</li>
-    <li>specialFact->Ocult entre els molts plecs hi ha un tros de paper com el dibuix d'una [AnimalF] [emotionalStateFem].</li>
+    <li>specialFact->Afirma revelar l’essència mateixa de la terra, guiant el lector</li>
+    <li>specialFact->Ocult entre els molts plecs hi ha un tros de paper amb el dibuix d’un [Animal] [emotionalState].</li>
+    <li>specialFact->Ocult entre els molts plecs hi ha un tros de paper com el dibuix d’una [AnimalF] [emotionalStateFem].</li>
     <li>specialFact->Si es toca el mapa durant molt de temps apareixen taques vermelles a les puntes dels dits del lector.</li>
     <li>specialFact->Entre els plecs del mapa es poden trobar grans de sorra.</li>
-    <li>specialFact->Les anotacions al mapa suggereixen que guarda la clau d'un secret més gran.</li>
+    <li>specialFact->Les anotacions al mapa suggereixen que guarda la clau d’un secret més gran.</li>
     <li>specialFact->Als marges hi ha un esbós rudimentari de diversos [mapSubject] de [place].</li>
     <li>specialFact->Als marges hi ha un esbós rudimentari de diverses [mapSubjectFem] de [place].</li>
     <li>specialFact->La tinta està descolorida i unes taques oculten alguns detalls, dificultant-ne la interpretació.</li>
@@ -324,12 +324,12 @@
     <li>specialFact->Algunes zones clau estan envoltades amb anotacions com «evitar [Enemy]s» i «fort com una [AnimalF]».</li>
     <li>specialFact->Al mapa, hi ha una [mapSymbol] encerclada i marcada amb «[smell] i [stain]».</li>
     <li>specialFact->Al mapa, un [mapSymbolMale] està encerclat i hi posa «[smell] i [stain]».</li>
-    <li>specialFact->Als marges hi ha escrit un poema de mil anys d'antiguitat titulat “Diabolus”.</li>
+    <li>specialFact->Als marges hi ha escrit un poema de mil anys d’antiguitat titulat “Diabolus”.</li>
     <li>specialFact->La llegenda del mapa identifica [mapSymbolPl] [ColorFPl] com a caus de [Enemy]s i [mapSymbolPl] [ColorFPl] com a zones de caça de [Animal].</li>
     <li>specialFact->La llegenda del mapa identifica [mapSymbolPl] [ColorFPl] com a caus de [Enemy]s i [mapSymbolPl] [ColorFPl] com a zones de caça de [AnimalF].</li>
-    <li>specialFact->L'escala del mapa és clarament incorrecta.</li>
-    <li>specialFact->El mapa té un segell de cera descolorit [noteLocation]. S'assembla a un [Animal] [emotionalState].</li>
-    <li>specialFact->El mapa té un segell de cera descolorit [noteLocation]. S'assembla a una [AnimalF] [emotionalStateFem].</li>
+    <li>specialFact->L’escala del mapa és clarament incorrecta.</li>
+    <li>specialFact->El mapa té un segell de cera descolorit [noteLocation]. S’assembla a un [Animal] [emotionalState].</li>
+    <li>specialFact->El mapa té un segell de cera descolorit [noteLocation]. S’assembla a una [AnimalF] [emotionalStateFem].</li>
     <li>maybe_questInfo-></li>
     <li>maybe_questInfo(p=3)->[questInfo]</li>
     <li>questInfo->Una zona del mapa està marcada amb un cercle i hi diu: «[mapText]!»</li>
@@ -338,23 +338,23 @@
     <li>questInfo->En una nota [noteLocation] hi posa: «[mapText]».</li>
     <li>questInfo->En una nota escrita a corre-cuita [noteLocation] hi diu: «[mapText]!»</li>
     <li>questInfo->Un enigma críptic ha estat garbellat [noteLocation]. Acaba amb «...[mapText]».</li>
-    <li>questInfo->Al costat d'una [mapSymbol] [ColorF] hi ha les paraules «[mapText]».</li>
-    <li>questInfo->Al costat d'un [mapSymbolMale] [Color] hi ha les paraules «[mapText]».</li>
+    <li>questInfo->Al costat d’una [mapSymbol] [ColorF] hi ha les paraules «[mapText]».</li>
+    <li>questInfo->Al costat d’un [mapSymbolMale] [Color] hi ha les paraules «[mapText]».</li>
     <li>questInfo->Gravades al mapa hi ha les paraules «[mapText]».</li>
-    <li>questInfo->Hi ha un gran [mapSymbol] dibuixat a prop d'un [mapFeature]. Està etiquetat com a «[mapText]».</li>
+    <li>questInfo->Hi ha un gran [mapSymbol] dibuixat a prop d’un [mapFeature]. Està etiquetat com a «[mapText]».</li>
     <li>questInfo->Hi ha una rosa dels vents [ColorF] gravada al mapa. És estrany: el nord i el sud estan mal etiquetats. Al centre de la brúixola hi ha les paraules: «[mapText]».</li>
-    <li>questInfo->L'anterior propietari del mapa clarament ho ha estat buscant. Una zona està marcada al costat de les paraules: «[mapText]».</li>
+    <li>questInfo->L’anterior propietari del mapa clarament ho ha estat buscant. Una zona està marcada al costat de les paraules: «[mapText]».</li>
     <li>questInfo->Si es mira el mapa a contrallum, es poden veure les paraules «[mapText]».</li>
     <li>questInfo->[noteLocation], una [mapSymbol] [ColorF] està etiquetada «[mapText]!»</li>
     <li>questInfo->[noteLocation], [mapSymbolInde] té escrit al costat «[mapText]?»</li>
-    <li>questInfo->[noteLocation], algunes notes estan borroses. L'única cosa llegible és: «confirmat... [mapText]».</li>
-    <li>questInfo->[noteLocation] es veu un dibuix rudimentari d'un [PersonBadass] [emotionalState]. A sota hi ha les paraules: «[mapText]».</li>
+    <li>questInfo->[noteLocation], algunes notes estan borroses. L’única cosa llegible és: «confirmat... [mapText]».</li>
+    <li>questInfo->[noteLocation] es veu un dibuix rudimentari d’un [PersonBadass] [emotionalState]. A sota hi ha les paraules: «[mapText]».</li>
     <li>questInfo->Hi ha un [Animal] dibuixat amb llapis [noteLocation]. A sota hi ha les paraules: «[mapText]».</li>
     <li>questInfo->Hi ha una [AnimalF] dibuixada amb llapis [noteLocation]. A sota hi ha les paraules: «[mapText]».</li>
     <li>questInfo->La llegenda del mapa etiqueta les [mapSymbolPL] [ColorFPl] com a «[mapText]».</li>
     <li>questInfo->Una gran X vermella està marcada sobre una ubicació. Al seu costat, «[mapText]» està escrit amb lletra petita.</li>
     <li>questInfo->En inspeccionar-ho més de prop, sembla que algú ha intentat esborrar les paraules «[mapText]» del mapa.</li>
-    <li>questInfo->A prop d'una icona d'una calavera [ColorF], algú ha escrit en lletres grans: «[mapText]».</li>
+    <li>questInfo->A prop d’una icona d’una calavera [ColorF], algú ha escrit en lletres grans: «[mapText]».</li>
     <li>questInfo->Hi ha un símbol inusual dibuixat [noteLocation]. A sota hi ha les paraules «[mapText]».</li>
     <li>questInfo->Hi ha una daga [ColorF] dibuixada al mapa i que apunta a les paraules «[mapText]».</li>
     <li>questInfo->[noteLocation] és una llista de verificació. Cada element de la llista ha estat ratllat. Només en roman un: «[mapText]».</li>
@@ -364,14 +364,14 @@
     <li>maybe_condition->[conditionTouch]</li>
     <li>conditionSmell->Fa olor a [smell].</li>
     <li>conditionSmell->Fa una olor lleu a [smell].</li>
-    <li>conditionSmell->El mapa fa una lleugera olor a [smell], un indici que indica amb què comerciava l'anterior propietari.</li>
+    <li>conditionSmell->El mapa fa una lleugera olor a [smell], un indici que indica amb què comerciava l’anterior propietari.</li>
     <li>smell->salmorra i algues</li>
     <li>smell->roses</li>
     <li>smell->sofre</li>
     <li>smell->quimicombustible</li>
     <li>smell->herba i femers</li>
     <li>smell->carn cremada</li>
-    <li>smell->gelatina d'insectes</li>
+    <li>smell->gelatina d’insectes</li>
     <li>smell->perfum</li>
     <li>smell->petroli i pólvora</li>
     <li>smell->toxipatates</li>
@@ -380,7 +380,7 @@
     <li>smell->excrements de [Animal]</li>
     <li>smell->excrements de [AnimalF]</li>
     <li>conditionStains->Les rascades i taques de [stain] oculten alguns detalls, cosa que en dificulta la lectura.</li>
-    <li>conditionStains->Les taques de [stain] i les marques de cremades indiquen que s'ha fet servir condicions difícils.</li>
+    <li>conditionStains->Les taques de [stain] i les marques de cremades indiquen que s’ha fet servir condicions difícils.</li>
     <li>conditionStains->Els diagrames estan tapats pel que sembla ser [stain].</li>
     <li>conditionStains->El mapa està incomplet i mig desfet</li>
     <li>conditionTouch->Les taques de [stain] i les vores esfilagarsades li donen un aspecte desgastat però funcional.</li>
@@ -403,9 +403,9 @@
     <li>authorInfo->No està clar qui va crear el mapa.</li>
     <li>authorInfo->El mapa va ser creat per [ANYPAWN_nameFull], notable [ANYPAWN_kind] de la facció [ANYPAWN_factionName].</li>
     <li>authorInfo->[noteLocation], el mapa està signat per [ANYPAWN_nameIndef] [ANYPAWN_gender ? el : la] [PersonJob].</li>
-    <li>authorInfo->Juntament amb el mapa s'inclou una breu biografia [ANYPAWN_gender ? del seu autor : de la seva autora], [ANYPAWN_nameIndef].</li>
-    <li>authorInfo->L'anterior propietari del mapa sembla que era algú anomenat [ANYPAWN_nameIndef].</li>
-    <li>authorInfo->El mapa va ser un cop propietat d'un [ANYPAWN_kind] anònim. Les marques suggereixen que era membre de la facció [ANYPAWN_factionName].</li>
+    <li>authorInfo->Juntament amb el mapa s’inclou una breu biografia [ANYPAWN_gender ? del seu autor : de la seva autora], [ANYPAWN_nameIndef].</li>
+    <li>authorInfo->L’anterior propietari del mapa sembla que era algú anomenat [ANYPAWN_nameIndef].</li>
+    <li>authorInfo->El mapa va ser un cop propietat d’un [ANYPAWN_kind] anònim. Les marques suggereixen que era membre de la facció [ANYPAWN_factionName].</li>
     <li>has->té</li>
     <li>has->conté</li>
     <li>has->mostra</li>
@@ -446,11 +446,11 @@
     <li>mapText(p=2)->[subject]</li>
     <li>mapText->perill extrem</li>
     <li>mapText->compte amb els [Enemy]s</li>
-    <li>mapText->la fam l'engull</li>
+    <li>mapText->la fam l’engull</li>
     <li>mapText->no deixar rastre</li>
     <li>mapText->[Animal] furiós</li>
     <li>mapText->[AnimalF] furiosa</li>
-    <li>mapText->atac d'assaltants</li>
+    <li>mapText->atac d’assaltants</li>
     <li>mapText->la nostra última caravana</li>
     <li>mapText->sense supervivents</li>
     <li>mapText->aquí està</li>
@@ -472,12 +472,12 @@
     <li>noteLocation->al costat esquerre</li>
     <li>noteLocation->a la part posterior</li>
     <li>noteLocation->a la part inferior</li>
-    <li>noteLocation->a prop d'un [mapFeature]</li>
-    <li>noteLocation->a prop d'una [mapFeatureFem]</li>
-    <li>noteLocation->al costat d'un [mapFeature]</li>
-    <li>noteLocation->al costat d'una [mapFeatureFem]</li>
-    <li>noteLocation->a sota d'un gran [mapFeature]</li>
-    <li>noteLocation->a sota d'una gran [mapFeatureFem]</li>
+    <li>noteLocation->a prop d’un [mapFeature]</li>
+    <li>noteLocation->a prop d’una [mapFeatureFem]</li>
+    <li>noteLocation->al costat d’un [mapFeature]</li>
+    <li>noteLocation->al costat d’una [mapFeatureFem]</li>
+    <li>noteLocation->a sota d’un gran [mapFeature]</li>
+    <li>noteLocation->a sota d’una gran [mapFeatureFem]</li>
     <li>noteLocation->al llarg de la vora del mapa</li>
   </Description_Map.rulePack.rulesStrings>
   
@@ -826,13 +826,13 @@
     <li>mapSubjectAdjSingFem->única</li>
     <li>mapSubjectAdjSingFem->important</li>
     <li>direction->del nord</li>
-    <li>direction->de l'est</li>
+    <li>direction->de l’est</li>
     <li>direction->del sud</li>
-    <li>direction->de l'oest</li>
+    <li>direction->de l’oest</li>
     <li>directionFem->del nord</li>
-    <li>directionFem->de l'est</li>
+    <li>directionFem->de l’est</li>
     <li>directionFem->del sud</li>
-    <li>directionFem->de l'oest</li>
+    <li>directionFem->de l’oest</li>
     <li>direction(p=0.2)->sota terra</li>
     <li>direction(p=0.2)->subterrani</li>
     <li>directionFem(p=0.2)->sota terra</li>

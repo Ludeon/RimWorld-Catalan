@@ -13,11 +13,11 @@
   <!-- EN: Cultist hate chanters -->
   <HateChantersLabel>Càntics d’odi dels sectaris</HateChantersLabel>
   <!-- EN: Cultist hate chanters have arrived. They intend to perform a hate chant ritual to force psychic rage into your colonists and drive them mad. The chant will grow louder and louder until the cultists are stopped. -->
-  <HateChantersText>Han arribat cantors d'odi sectaris. Tenen la intenció de realitzar un ritual de cant d'odi per a imbuir ràbia psíquica als vostres colons i tornar-los bojos. El cant anirà creixent i més fins que se'ls pari.</HateChantersText>
+  <HateChantersText>Han arribat cantors d’odi sectaris. Tenen la intenció de realitzar un ritual de cant d’odi per a imbuir ràbia psíquica als vostres colons i tornar-los bojos. El cant anirà creixent i més fins que se’ls pari.</HateChantersText>
   <!-- EN: Cultists attacking -->
   <HateChantersAttackingLabel>Els sectaris ataquen</HateChantersAttackingLabel>
   <!-- EN: The cultists have ended their hate chant and have begun to come out of their ritual trance.\n\nPrepare to defend. -->
-  <HateChantersAttackingText>Els sectaris han acabat amb el seu cant d'odi i han començat a sortir del seu tràngol ritual.\n\nDefenseu-vos.</HateChantersAttackingText>
+  <HateChantersAttackingText>Els sectaris han acabat amb el seu cant d’odi i han començat a sortir del seu tràngol ritual.\n\nDefenseu-vos.</HateChantersAttackingText>
 
   <!-- Psychic rituals -->
   <!-- EN: {0} complete -->
@@ -34,9 +34,9 @@
   <!-- EN: {INVOKER_nameDef} has completed {RITUAL_definite} ritual, absorbing skills and memories of {TARGET_nameDef}. -->
   <PhilophagyCompleteText>{INVOKER_nameDef} ha completat el ritual {RITUAL_label}, absorbint les habilitats i els records de {TARGET_nameDef}.</PhilophagyCompleteText>
   <!-- EN: {0_nameDef} gained {1} XP in {2_label} -->
-  <PawnGainedXPInSkill>{0_nameDef} ha obtingut {1} punts d'experiència de {2_label}</PawnGainedXPInSkill>
+  <PawnGainedXPInSkill>{0_nameDef} ha obtingut {1} punts d’experiència de {2_label}</PawnGainedXPInSkill>
   <!-- EN: {0_nameDef} lost {1} XP in {2_label} -->
-  <PawnLostXPInSkill>{0_nameDef} ha perdut {1} punts d'experiència de {2_label}</PawnLostXPInSkill>
+  <PawnLostXPInSkill>{0_nameDef} ha perdut {1} punts d’experiència de {2_label}</PawnLostXPInSkill>
   <!-- EN: rising from skill level {0} to {1}. -->
   <PhilophagySkillLevelGained>i passa de nivell {0} a nivell {1}.</PhilophagySkillLevelGained>
   <!-- EN: falling from skill level {0} to {1}. -->
@@ -44,13 +44,13 @@
   <!-- EN: remaining at skill level {0}. -->
   <PhilophagySkillLevelRemains>i es manté al nivell {0}.</PhilophagySkillLevelRemains>
   <!-- EN: The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
-  <PhilophagyDamagedTarget>El procés ha danyat el cervell de {TARGET_nameDef} i l'ha {TARGET_gender ? deixat : deixada} en coma.</PhilophagyDamagedTarget>
+  <PhilophagyDamagedTarget>El procés ha danyat el cervell de {TARGET_nameDef} i l’ha {TARGET_gender ? deixat : deixada} en coma.</PhilophagyDamagedTarget>
 
   <!-- EN: {0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.\n\nThe process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills. -->
-  <ImbueDeathRefuralCompleteText>A {0_nameDef} li han imbuït negamort. Ara pot ressuscitar {0_gender ? sol : sola} després de morir.\n\nEl procés ha atrofiat el seu cervell i ha perdut un total de {1} punts d'experiència en les seves habilitats.</ImbueDeathRefuralCompleteText>
+  <ImbueDeathRefuralCompleteText>A {0_nameDef} li han imbuït negamort. Ara pot ressuscitar {0_gender ? sol : sola} després de morir.\n\nEl procés ha atrofiat el seu cervell i ha perdut un total de {1} punts d’experiència en les seves habilitats.</ImbueDeathRefuralCompleteText>
 
   <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual. Expect a herd of animals shortly. -->
-  <SummonAnimalsSuccessText>{0_nameDef} ha completat el ritual {RITUAL_label}. Arribarà un ramat d'animals en breu.</SummonAnimalsSuccessText>
+  <SummonAnimalsSuccessText>{0_nameDef} ha completat el ritual {RITUAL_label}. Arribarà un ramat d’animals en breu.</SummonAnimalsSuccessText>
   <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual but something has gone terribly wrong! The ritual has attracted scaria-infected manhunting animals. Prepare for their arrival! -->
   <SummonAnimalsFailureText>{0_nameDef} ha completat el ritual {RITUAL_label}, però alguna cosa ha anat molt malament! El ritual ha atret animals caçapersones infectats per escària. Prepareu-vos per a quan arribin!</SummonAnimalsFailureText>
   
@@ -67,7 +67,7 @@
   <!-- EN: {0_nameDef} became {1} years younger -->
   <ChronophagyInvokerRejuvenated>{0_nameDef} és {replace: ^{1} anys: "^1 anys"-"1 any"; "^"-""} més jove</ChronophagyInvokerRejuvenated>
   <!-- EN: {0_nameDef} could not take the strain of the aging from the chronophagy ritual and died due to old age. -->
-  <ChronophagyTargetDiedOfOldAge>{0_nameDef} no ha pogut suportar la tensió de l'envelliment del ritual de cronofàgia i ha mort de vell.</ChronophagyTargetDiedOfOldAge>
+  <ChronophagyTargetDiedOfOldAge>{0_nameDef} no ha pogut suportar la tensió de l’envelliment del ritual de cronofàgia i ha mort de vell.</ChronophagyTargetDiedOfOldAge>
   <!-- EN: While {0_nameDef} survived the chronophagy ritual, {0_pronoun} developed the following conditions -->
   <ChronophagyTargetOldAgeDiseases>Tot i que {0_nameDef} ha sobreviscut al ritual de cronofàgia, ha desenvolupat les condicions mèdiques següents</ChronophagyTargetOldAgeDiseases>
   <!-- EN: Additionally, the process has cured {0_nameDef} of the following ailments: -->
@@ -82,7 +82,7 @@
   <NeurosisPulseCompleteText>{0_nameDef} ha acabat de fer el ritual {RITUAL_label}. Durant {1}, tots els que hagin sentit el seu senyal treballaran més ràpid però estaran més irritables.</NeurosisPulseCompleteText>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Thick red droplets have begun to fall from the sky. Keep everyone indoors to prevent them from being driven berserk. -->
-  <BloodRainCompleteText>{0_nameDef} ha acabat de realitzar el ritual {RITUAL_label}. Des del cel han començat a caure gruixudes gotes vermelles. Mantingueu tothom a l'interior per a evitar que es tornin bojos.</BloodRainCompleteText>
+  <BloodRainCompleteText>{0_nameDef} ha acabat de realitzar el ritual {RITUAL_label}. Des del cel han començat a caure gruixudes gotes vermelles. Mantingueu tothom a l’interior per a evitar que es tornin bojos.</BloodRainCompleteText>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories. -->
   <BrainwipeCompleteText>{INVOKER_nameDef} ha acabat de realitzar el ritual {RITUAL_label} i ha esborrat caòticament els records de {TARGET_nameDef}.</BrainwipeCompleteText>
@@ -91,15 +91,15 @@
   <!-- EN: {TARGET_nameDef} is no longer unwaveringly loyal. -->
   <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef} ja no és obstinadament lleial.</BrainwipeUnwaveringlyLoyal>
   <!-- EN: {TARGET_nameDef} has been re-humanized. -->
-  <BrainwipeRehumanized>{TARGET_nameDef} s'ha rehumanitzat.</BrainwipeRehumanized>
+  <BrainwipeRehumanized>{TARGET_nameDef} s’ha rehumanitzat.</BrainwipeRehumanized>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence. -->
   <PsychophagyCompleteText>{INVOKER_nameDef} ha acabat de realitzar el ritual {RITUAL_definite} i ha consumit la presència psíquica de {TARGET_nameDef}.</PsychophagyCompleteText>
   <!-- EN: {TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
-  <PsychophagyTargetSurvived>{TARGET_nameDef} ara té sordera psíquica. El procés ha danyat el cervell de {TARGET_nameDef} i l'ha deixat en coma.</PsychophagyTargetSurvived>
+  <PsychophagyTargetSurvived>{TARGET_nameDef} ara té sordera psíquica. El procés ha danyat el cervell de {TARGET_nameDef} i l’ha deixat en coma.</PsychophagyTargetSurvived>
   
   <!-- EN: The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}. -->
-  <PsychicRitualTargetBrainLiquified>El procés ha liquat el cervell de {TARGET_nameDef} i l'ha matat.</PsychicRitualTargetBrainLiquified>
+  <PsychicRitualTargetBrainLiquified>El procés ha liquat el cervell de {TARGET_nameDef} i l’ha matat.</PsychicRitualTargetBrainLiquified>
 
   <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground! -->
   <SummonFleshbeastsPlayerCompleteText>{0_nameDef} ha acabat de realitzar el ritual {RITUAL_label}. Les carnibèsties emergeixen del terra!</SummonFleshbeastsPlayerCompleteText>
@@ -111,7 +111,7 @@
   <AttackersMayCastRitualMultipleTimes>Poden realitzar el ritual diverses vegades. Els heu de parar.</AttackersMayCastRitualMultipleTimes>
 
   <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual. By manipulating space and time, {INVOKER_nameDef} has abducted {TARGET_nameDef} of the {FACTION_name} faction. The terrifying nature of the ritual has put {TARGET_nameDef} into a short-term coma. -->
-  <SkipAbductionPlayerCompleteText>{INVOKER_nameDef} ha acabat de realitzar el ritual {RITUAL}. Amb la manipulació de l'espai i el temps, {INVOKER_nameDef} ha segrestat a {TARGET_nameDef} de la facció {FACTION_name}. La naturalesa aterridora del ritual fet caure {TARGET_nameDef} en un coma de curta durada.</SkipAbductionPlayerCompleteText>
+  <SkipAbductionPlayerCompleteText>{INVOKER_nameDef} ha acabat de realitzar el ritual {RITUAL}. Amb la manipulació de l’espai i el temps, {INVOKER_nameDef} ha segrestat a {TARGET_nameDef} de la facció {FACTION_name}. La naturalesa aterridora del ritual fet caure {TARGET_nameDef} en un coma de curta durada.</SkipAbductionPlayerCompleteText>
 
   <!-- EN: Fleshmass response -->
   <FleshmassResponseLabel>Resposta carnibèstica</FleshmassResponseLabel> 
@@ -124,13 +124,13 @@
   <!-- EN: Structures activated -->
   <VoidAwakeningStageTwoStructuresActivatedLabel>Estructures activades</VoidAwakeningStageTwoStructuresActivatedLabel>
   <!-- EN: As the second structure is activated, the darkness begins to intensify. An unnatural darkness will soon descend. Make sure your colony is prepared. Stockpile resources, build lights, craft disruptor flares, and reinforce defenses. Only those in the light will be safe.\n\nMore twisted structures will appear soon. -->
-  <VoidAwakeningStageOneStructuresActivatedText>A mesura que s'activa la segona estructura, la foscor comença a intensificar-se. Aviat s'estendrà una obscuritat antinatural per la zona. Assegureu-vos que la vostra colònia estigui preparada. Emmagatzemeu recursos, construïu llums, creeu bengales disruptores i reforceu les defenses. Només els que estiguin a la llum estaran segurs.\n\nAviat apareixeran més estructures pertorbadores.</VoidAwakeningStageOneStructuresActivatedText>
+  <VoidAwakeningStageOneStructuresActivatedText>A mesura que s’activa la segona estructura, la foscor comença a intensificar-se. Aviat s’estendrà una obscuritat antinatural per la zona. Assegureu-vos que la vostra colònia estigui preparada. Emmagatzemeu recursos, construïu llums, creeu bengales disruptores i reforceu les defenses. Només els que estiguin a la llum estaran segurs.\n\nAviat apareixeran més estructures pertorbadores.</VoidAwakeningStageOneStructuresActivatedText>
   <!-- EN: All void structures have been activated. The space around the void monolith has begun to shimmer. Get ready. -->
-  <VoidAwakeningStageTwoStructuresActivatedText>S'han activat totes les estructures del buit. L'espai al voltant del monòlit ha començat a brillar. Prepareu-vos.</VoidAwakeningStageTwoStructuresActivatedText> 
+  <VoidAwakeningStageTwoStructuresActivatedText>S’han activat totes les estructures del buit. L’espai al voltant del monòlit ha començat a brillar. Prepareu-vos.</VoidAwakeningStageTwoStructuresActivatedText> 
   <!-- EN: {STUDIER_nameDef} teleported -->
-  <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} s'ha teletransportat</VoidAwakeningFinalStructuresActivatedLabel> 
+  <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} s’ha teletransportat</VoidAwakeningFinalStructuresActivatedLabel> 
   <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power.\n\nThis metal hell is a connecting channel to an inhuman hyperintelligence. -->
-  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} ha activat el monòlit i alguna cosa l'ha arrossegat del nostre espai-temps a un altre lloc desconegut.\n\nEs troba en una habitació amb punxes metàl·liques irregulars. Cada superfície està feta d'un fluid fosc i llis. L'aire vibra amb força.\n\nAquest infern metàl·lic és un canal de connexió amb una hiperintel·ligència inhumana.</VoidAwakeningFinalStructuresActivatedText> 
+  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} ha activat el monòlit i alguna cosa l’ha arrossegat del nostre espai-temps a un altre lloc desconegut.\n\nEs troba en una habitació amb punxes metàl·liques irregulars. Cada superfície està feta d’un fluid fosc i llis. L’aire vibra amb força.\n\nAquest infern metàl·lic és un canal de connexió amb una hiperintel·ligència inhumana.</VoidAwakeningFinalStructuresActivatedText> 
   <!-- EN: Shambler assault -->
   <VoidAwakeningShamblerArrivalLabel>Atac zombi</VoidAwakeningShamblerArrivalLabel>
   <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
@@ -146,11 +146,11 @@
   <!-- EN: Entity attack -->
   <VoidAwakeningEntityArrivalLabel>Atac d’una entitat</VoidAwakeningEntityArrivalLabel> 
   <!-- EN: The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Get ready! -->
-  <VoidAwakeningEntityArrivalText>L'estructura del buit activada ha generat un senyal psíquic retorçat que atrau les entitats properes. Prepareu-vos!</VoidAwakeningEntityArrivalText>
+  <VoidAwakeningEntityArrivalText>L’estructura del buit activada ha generat un senyal psíquic retorçat que atrau les entitats properes. Prepareu-vos!</VoidAwakeningEntityArrivalText>
   <!-- EN: Embrace the void -->
   <VoidAwakeningBreadcrumbLetterLabel>Acceptació del buit</VoidAwakeningBreadcrumbLetterLabel>
   <!-- EN: While interacting with the void structure, {PAWN_nameDef} saw a vision of the void. For a moment {PAWN_pronoun} swam the black ocean of infinite depth and felt its endless inhuman power.\n\n{PAWN_nameDef} thinks there may be a way to control that power by embracing the void. If you were to permanently open the conduit to the void, rather than shutting it down, it could offer untold possibilities. -->
-  <VoidAwakeningBreadcrumbLetterText>Mentre interactuava amb l'estructura del buit, {PAWN_nameDef} va tenir una visió del buit. Per un moment, va nedar per un oceà negre d'una profunditat infinita i va sentir el seu poder inhumà sense fi.\n\nCreu que hi pot haver una manera de controlar aquest poder abraçant el buit. Si obrís permanentment la connexió amb el buit, en lloc de tancar-la, podria oferir possibilitats incalculables.</VoidAwakeningBreadcrumbLetterText>
+  <VoidAwakeningBreadcrumbLetterText>Mentre interactuava amb l’estructura del buit, {PAWN_nameDef} va tenir una visió del buit. Per un moment, va nedar per un oceà negre d’una profunditat infinita i va sentir el seu poder inhumà sense fi.\n\nCreu que hi pot haver una manera de controlar aquest poder abraçant el buit. Si obrís permanentment la connexió amb el buit, en lloc de tancar-la, podria oferir possibilitats incalculables.</VoidAwakeningBreadcrumbLetterText>
 
   <!-- Void node -->
   <!-- EN: {PAWN_nameDef} returns -->
@@ -158,9 +158,9 @@
   <!-- EN: {PAWN_nameDef} has reappeared. -->
   <VoidNodeReturnedMessage>{PAWN_nameDef} ha reaparegut.</VoidNodeReturnedMessage>
   <!-- EN: {PAWN_nameDef} has reappeared.\n\n{PAWN_pronoun} looks withered by the inhuman thought-patterns of the void. All traces of humanity have left {PAWN_possessive} eyes.\n\n{PAWN_nameDef}'s mind and body are now permanently linked to the dark void of inhuman rage. Powered by this new connection, {PAWN_nameDef} no longer feels tethered to mortal needs like comfort or sleep. {PAWN_pronoun} has gained the ability to induce terror in others using the power of the void.\n\nThe monolith is awakened. It hums louder with {PAWN_nameDef}'s reappearance, a reminder that its connection to the void has been opened and made permanent. -->
-  <EmbracedVoidText>{PAWN_nameDef} ha tornat a aparèixer.\n\nSembla {PAWN_gender ? consumit : consumida} pels patrons de pensament inhumans del buit. En els seus ulls ja no hi ha rastres d'humanitat.\n\nLa ment i el cos de {PAWN_nameDef} estan ara permanentment vinculats al buit obscur plena de ràbia inhumana. Amb aquesta nova connexió, {PAWN_nameDef} ja no se sent {PAWN_gender ? lligat : lligada} a necessitats mortals com ara la comoditat o dormir. Ha adquirit l'habilitat d'induir terror als altres amb el poder del buit.\n\nEl monòlit es desperta. Sona més fort amb la reaparició de {PAWN_nameDef}, un recordatori que la seva connexió amb el buit s'ha obert i s'ha fet permanent.</EmbracedVoidText>
+  <EmbracedVoidText>{PAWN_nameDef} ha tornat a aparèixer.\n\nSembla {PAWN_gender ? consumit : consumida} pels patrons de pensament inhumans del buit. En els seus ulls ja no hi ha rastres d’humanitat.\n\nLa ment i el cos de {PAWN_nameDef} estan ara permanentment vinculats al buit obscur plena de ràbia inhumana. Amb aquesta nova connexió, {PAWN_nameDef} ja no se sent {PAWN_gender ? lligat : lligada} a necessitats mortals com ara la comoditat o dormir. Ha adquirit l’habilitat d’induir terror als altres amb el poder del buit.\n\nEl monòlit es desperta. Sona més fort amb la reaparició de {PAWN_nameDef}, un recordatori que la seva connexió amb el buit s’ha obert i s’ha fet permanent.</EmbracedVoidText>
   <!-- EN: {PAWN_nameDef} has reappeared. {PAWN_pronoun} is weary from {PAWN_possessive} efforts, but otherwise healthy.\n\nBy closing the channel to the void, {PAWN_nameDef} has stopped any more unnatural phenomena from entering our world. Hostile entities in the area have all fallen to the ground, lifeless.\n\nTales of {PAWN_possessive} heroism are sure to spread far and wide. -->
-  <DisruptedLinkText>{PAWN_nameDef} ha tornat a aparèixer. Està {PAWN_gender ? cansat : cansada}per l'esforç que ha hagut de fer, però, d'altra banda, està {PAWN_gender ? sa i estalvi : sana i estàlvia}.\n\nQuan s'ha tancat el portal amb el buit, {PAWN_nameDef} ha impedit que entrin més fenòmens no naturals al nostre món. Les entitats hostils de la zona han caigut al terra, sense vida.\n\nDe les històries del seu heroisme de segur que se'n parla durant molt temps.</DisruptedLinkText>
+  <DisruptedLinkText>{PAWN_nameDef} ha tornat a aparèixer. Està {PAWN_gender ? cansat : cansada}per l’esforç que ha hagut de fer, però, d’altra banda, està {PAWN_gender ? sa i estalvi : sana i estàlvia}.\n\nQuan s’ha tancat el portal amb el buit, {PAWN_nameDef} ha impedit que entrin més fenòmens no naturals al nostre món. Les entitats hostils de la zona han caigut al terra, sense vida.\n\nDe les històries del seu heroisme de segur que se’n parla durant molt temps.</DisruptedLinkText>
   <!-- EN: fleshcrafting -->
   <RewardFleshcraftingAbility>carniescultura</RewardFleshcraftingAbility>
   <!-- EN: slaughter -->
@@ -172,25 +172,25 @@
   <!-- EN: Duplicate sickness -->
   <DuplicateSicknessLabel>Malaltia dels duplicats</DuplicateSicknessLabel>
   <!-- EN: Both {0_nameDef} and {0_possessive} duplicate are feeling unwell. Their condition seems to be related to the duplication process and is worsening. The psychic connection that binds them is causing them to slowly lose consciousness. The condition won't get better until one of them dies. -->
-  <DuplicateSicknessText>Tant {0_nameDef} com el seu duplicat se senten malament. El seu estat sembla estar relacionat amb el procés de duplicació i empitjora. La connexió psíquica que els uneix fa que perdin lentament el coneixement. La condició no millorarà fins que un d'ells mori.</DuplicateSicknessText>
+  <DuplicateSicknessText>Tant {0_nameDef} com el seu duplicat se senten malament. El seu estat sembla estar relacionat amb el procés de duplicació i empitjora. La connexió psíquica que els uneix fa que perdin lentament el coneixement. La condició no millorarà fins que un d’ells mori.</DuplicateSicknessText>
 
   <!-- Frenzied animals -->
   <!-- EN: Frenzied animals -->
   <FrenziedAnimalsLabel>Animals embogits</FrenziedAnimalsLabel>
   <!-- EN: A pack of man-hunting {0} have entered the area! They've been attracted by your ritual. They will roam the region hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out or fight them. -->
-  <FrenziedAnimalsText>Un grup de {0} caçapersones ha entrat a la zona! S'han sentit atrets pel vostre ritual. Recorreran la regió a la recerca de carn humanoide.\n\nNo atacaran les portes tret que vegin passar-hi algú. Amagueu-vos bé i estareu segur. Tampoc atacaran les torretes apagades, així que apagueu les torretes per a protegir-les.\n\nLa manada de {0} abandonarà la zona en un o dos dies. Podeu amagar-vos i esperar-vos o lluitar-hi.</FrenziedAnimalsText>
+  <FrenziedAnimalsText>Un grup de {0} caçapersones ha entrat a la zona! S’han sentit atrets pel vostre ritual. Recorreran la regió a la recerca de carn humanoide.\n\nNo atacaran les portes tret que vegin passar-hi algú. Amagueu-vos bé i estareu segur. Tampoc atacaran les torretes apagades, així que apagueu les torretes per a protegir-les.\n\nLa manada de {0} abandonarà la zona en un o dos dies. Podeu amagar-vos i esperar-vos o lluitar-hi.</FrenziedAnimalsText>
 
   <!-- Ghouls -->
   <!-- EN: Ghoul betrayal -->
   <GhoulBetrayalLabel>Traïció necròfaga</GhoulBetrayalLabel>
   <!-- EN: {PAWN_nameDef} has been driven mad by {PAWN_possessive} ravenous hunger for raw meat! -->
-  <GhoulBetrayalText>{PAWN_nameDef} s'ha tornat boig per la seva fam voraç de carn crua!</GhoulBetrayalText>
+  <GhoulBetrayalText>{PAWN_nameDef} s’ha tornat boig per la seva fam voraç de carn crua!</GhoulBetrayalText>
   
   <!-- Distress signal -->
   <!-- EN: Distress signal -->
   <DistressSignalLabel>Senyal de socors</DistressSignalLabel>
   <!-- EN: You've intercepted a distress signal from a nearby camp of {FACTION_name}.\n\nThe frantic voice begs for immediate assistance defending against a threat. They offer everything at their camp in return for help, including shards of powerful archotechnology.\n\nAs the voice tries to explain the nature of the threat, the signal goes dead. -->
-  <DistressSignalText>Heu interceptat un senyal de socors d'un campament proper de la facció «{FACTION_name}».\n\nLa veu frenètica demana ajuda immediata per a defensar-se d'una amenaça. Ofereixen tot el seu campament a canvi d'ajuda, inclosos fragments de poderosa arcotecnologia.\n\nQuan la veu intenta explicar la naturalesa de l'amenaça, el senyal s'apaga.</DistressSignalText>
+  <DistressSignalText>Heu interceptat un senyal de socors d’un campament proper de la facció «{FACTION_name}».\n\nLa veu frenètica demana ajuda immediata per a defensar-se d’una amenaça. Ofereixen tot el seu campament a canvi d’ajuda, inclosos fragments de poderosa arcotecnologia.\n\nQuan la veu intenta explicar la naturalesa de l’amenaça, el senyal s’apaga.</DistressSignalText>
   <!-- EN: Ambush -->
   <DistressSignalAmbushLabel>Emboscada</DistressSignalAmbushLabel>
   <!-- EN: Fleshbeasts are emerging from a nearby pit burrow! -->
@@ -200,13 +200,13 @@
   <!-- EN: Chimeras approach -->
   <ChimeraAssaultLabel>Les quimeres s’apropen</ChimeraAssaultLabel>
   <!-- EN: A group of twisted animal-like chimera monsters have appeared nearby.\n\nThe misshapen beasts will watch your colony, waiting for an opportunity to attack. They are skittish and may retaliate if provoked. -->
-  <ChimeraAssaultText>Un grup de quimeres monstruoses han aparegut a prop.\n\nLes bèsties deformes vigilaran la vostra colònia i esperaran l'oportunitat d'atacar. Són nervioses i poden prendre represàlies si se les provoca.</ChimeraAssaultText>
+  <ChimeraAssaultText>Un grup de quimeres monstruoses han aparegut a prop.\n\nLes bèsties deformes vigilaran la vostra colònia i esperaran l’oportunitat d’atacar. Són nervioses i poden prendre represàlies si se les provoca.</ChimeraAssaultText>
 
   <!-- Unnatural darkness -->
   <!-- EN: Darkness lifting -->
   <DarknessLiftingEarlyLetterLabel>La foscor escampa</DarknessLiftingEarlyLetterLabel>
   <!-- EN: The last of the nightmarish pillars has collapsed. The unnatural darkness has begun to dissipate. Colonists breathe a sigh of relief in the clear air. -->
-  <DarknessLiftingEarlyLetterText>L'últim dels pilars horripilants s'ha ensorrat. La foscor antinatural ha començat a dissipar-se. Els colons respiren alleujats al veure aire clar.</DarknessLiftingEarlyLetterText>
+  <DarknessLiftingEarlyLetterText>L’últim dels pilars horripilants s’ha ensorrat. La foscor antinatural ha començat a dissipar-se. Els colons respiren alleujats al veure aire clar.</DarknessLiftingEarlyLetterText>
   <!-- EN: {0_nameDef} attacked -->
   <PawnAttackedInDarknessLabel>S’ha atacat a {0_nameDef}</PawnAttackedInDarknessLabel>
   <!-- EN: Something in the darkness has attacked {0_nameDef}!\n\nThese attacks will continue until {0_pronoun} is safely in the light. -->
@@ -214,15 +214,15 @@
   <!-- EN: Noctol attack -->
   <NoctolAttackLetterLabel>Atac nòctol</NoctolAttackLetterLabel>
   <!-- EN: The darkness has begun to stir. Inhuman chittering sounds emerge from somewhere within the inky black.\n\nBlack, insect-like noctols will attack from the darkness soon. -->
-  <NoctolAttackLetterText>La foscor es remou. Sons inhumans emergeixen d'algun lloc dins de la negror.\n\nEls nòctols obscurs, semblants a insectes, atacaran aviat des de la foscor.</NoctolAttackLetterText>
+  <NoctolAttackLetterText>La foscor es remou. Sons inhumans emergeixen d’algun lloc dins de la negror.\n\nEls nòctols obscurs, semblants a insectes, atacaran aviat des de la foscor.</NoctolAttackLetterText>
   <!-- EN: Darkness soon -->
   <DarknessWarningLetterLabel>Ben aviat serà fosc</DarknessWarningLetterLabel>
   <!-- EN: The darkness is almost here. Only those in direct light from lamps, torches, or flares will be safe.\n\nTo keep colonists in the light, you can restrict their movement in the SCHEDULE tab by assigning allowed areas. -->
-  <DarknessWarningLetterText>La foscor ja gairebé ha arribat. Només estaran segurs qui estigui a la llum directa de làmpades, torxes o bengales.\n\nPer a mantenir els colons a la llum, podeu restringir-ne el moviment a la pestanya d'horari i assignar-los les àrees permeses.</DarknessWarningLetterText>
+  <DarknessWarningLetterText>La foscor ja gairebé ha arribat. Només estaran segurs qui estigui a la llum directa de làmpades, torxes o bengales.\n\nPer a mantenir els colons a la llum, podeu restringir-ne el moviment a la pestanya d’horari i assignar-los les àrees permeses.</DarknessWarningLetterText>
   <!-- EN: Darkness wavering -->
   <DarknessWaveringLetterLabel>La foscor tremola</DarknessWaveringLetterLabel>
   <!-- EN: With the destruction of the noctolith, a faint crack appears in the darkness, before being filled with more of the sooty black.\n\nDestroy the remaining noctoliths to end the unnatural darkness. -->
-  <DarknessWaveringLetterText>Amb la destrucció del noctòlit, apareix una lleugera escletxa a la foscor, abans d'omplir-se amb més negror.\n\nDestruïu els noctòlits que queden per a acabar amb la foscor antinatural.</DarknessWaveringLetterText>
+  <DarknessWaveringLetterText>Amb la destrucció del noctòlit, apareix una lleugera escletxa a la foscor, abans d’omplir-se amb més negror.\n\nDestruïu els noctòlits que queden per a acabar amb la foscor antinatural.</DarknessWaveringLetterText>
 
   <!-- Shambler Swarms -->
   <!-- EN: Shamblers approach -->
@@ -230,13 +230,13 @@
   <!-- EN: Shambler approaches -->
   <LetterLabelShamblerArrived>S’apropa un zombi</LetterLabelShamblerArrived>
   <!-- EN: A group of {0} shambling, rotting corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
-  <LetterShamblerSwarmArrived>S'apropa un grup de {0} zombis en descomposició. Una força inhumana ha reanimat aquests cossos sense vida i els ha convertit en màquines de matar.\n\nAra deambularan per la zona. Si veuen un humà, atacaran. Si no, marxaran en uns dies.\n\nSi podeu capturar-ne un, podeu estudiar-lo per a conèixer més coses de l'anomalia.</LetterShamblerSwarmArrived>
+  <LetterShamblerSwarmArrived>S’apropa un grup de {0} zombis en descomposició. Una força inhumana ha reanimat aquests cossos sense vida i els ha convertit en màquines de matar.\n\nAra deambularan per la zona. Si veuen un humà, atacaran. Si no, marxaran en uns dies.\n\nSi podeu capturar-ne un, podeu estudiar-lo per a conèixer més coses de l’anomalia.</LetterShamblerSwarmArrived>
   <!-- EN: A shambling, rotting corpse is approaching. Some inhuman force has reanimated this lifeless body and set it to murder.\n\nIt will now wander through the area. If it sees a human, it will attack. If not, it will leave in a few days.\n\nIf you can capture it, you can study it for anomaly knowledge. -->
-  <LetterShamblerArrived>S'acosta un cadàver en descomposició i podrit. Una força inhumana ha reanimat aquest cos sense vida i l'ha convertit en una màquina de matar.\n\nAra deambularà per la zona. Si veu un humà, atacarà. Si no, se n'anirà d'aquí uns dies.\n\nSi podeu capturar-lo, podeu estudiar-lo i aprofundireu el coneixement sobre l'anomalia.</LetterShamblerArrived>
+  <LetterShamblerArrived>S’acosta un cadàver en descomposició i podrit. Una força inhumana ha reanimat aquest cos sense vida i l’ha convertit en una màquina de matar.\n\nAra deambularà per la zona. Si veu un humà, atacarà. Si no, se n’anirà d’aquí uns dies.\n\nSi podeu capturar-lo, podeu estudiar-lo i aprofundireu el coneixement sobre l’anomalia.</LetterShamblerArrived>
   <!-- EN: {ANIMALKIND_label} shamblers -->
   <LetterLabelShamblerAnimalsArrived>{ANIMALKIND_labelPlural} zombis</LetterLabelShamblerAnimalsArrived>
   <!-- EN: A group of shambling, rotting {ANIMALKIND_label} corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
-  <LetterShamblerAnimalsArrived>S'acosta un grup de cadàvers de {ANIMALKIND_labelPlural} en descomposició i en putrefacció. Una força inhumana ha reanimat aquests cossos sense vida i els ha convertit en màquines assassines.\n\nDeambularan per la zona. Si veuen un humà, atacaran. Si no, se n'aniran d'aquí uns dies.\n\nSi podeu capturar-ne un, podeu estudiar-lo i conèixer més coses sobre l'anomalia.</LetterShamblerAnimalsArrived>
+  <LetterShamblerAnimalsArrived>S’acosta un grup de cadàvers de {ANIMALKIND_labelPlural} en descomposició i en putrefacció. Una força inhumana ha reanimat aquests cossos sense vida i els ha convertit en màquines assassines.\n\nDeambularan per la zona. Si veuen un humà, atacaran. Si no, se n’aniran d’aquí uns dies.\n\nSi podeu capturar-ne un, podeu estudiar-lo i conèixer més coses sobre l’anomalia.</LetterShamblerAnimalsArrived>
 
   <!-- Ghoul pod crash -->
   <!-- EN: Transport pod crash -->
@@ -244,33 +244,33 @@
   <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
   <GhoulPodCrashText>Una càpsula de transport que portava {PAWN_gender ? un necròfag : una necròfaga} voraç hostil ha aterrat a prop.\n\n{PAWN_gender ? El necròfag : La necròfaga} està actualment en estat de xoc, però aviat es recuperarà i atacarà a qualsevol criatura que vegi. Es pot retenir en una plataforma de contenció per a estudiar-lo posteriorment.\n\nCaptureu-{PAWN_gender ? lo : la} o mateu-{PAWN_gender ? lo : la} abans que es desperti.</GhoulPodCrashText>
   <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby. On closer inspection, it appears to be {PAWN_nameDef}, a previous member of your crew.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
-  <GhoulPodCrashStartingPawnText>Una càpsula de transport que portava {PAWN_gender ? un necròfag : una necròfaga} voraç hostil ha aterrat a prop. Després d'investigar una mica més, sembla que es tracta de {PAWN_nameDef}, {PAWN_gender ? un antic : una antiga} membre de la vostra tripulació.\n\n{PAWN_gender ? El necròfag : La necròfaga} està actualment en estat de xoc, però aviat es recuperarà i atacarà a qualsevol que vegi. Es pot retenir en una plataforma de contenció per a un posterior estudi.\n\nCaptureu-{PAWN_gender ? lo : la} o mateu-{PAWN_gender ? lo : la} abans que es desperti.</GhoulPodCrashStartingPawnText>
+  <GhoulPodCrashStartingPawnText>Una càpsula de transport que portava {PAWN_gender ? un necròfag : una necròfaga} voraç hostil ha aterrat a prop. Després d’investigar una mica més, sembla que es tracta de {PAWN_nameDef}, {PAWN_gender ? un antic : una antiga} membre de la vostra tripulació.\n\n{PAWN_gender ? El necròfag : La necròfaga} està actualment en estat de xoc, però aviat es recuperarà i atacarà a qualsevol que vegi. Es pot retenir en una plataforma de contenció per a un posterior estudi.\n\nCaptureu-{PAWN_gender ? lo : la} o mateu-{PAWN_gender ? lo : la} abans que es desperti.</GhoulPodCrashStartingPawnText>
 
   <!-- Entity codex -->
   <!-- EN: New research available -->
   <LetterLabelEntityDiscovery>Nova investigació disponible</LetterLabelEntityDiscovery>
   <!-- EN: Your discovery of {ENTITY_definite} has yielded new insights. You can now research the following Anomaly projects -->
-  <LetterTextEntityDiscoveryResearch>Al descobrir {ENTITY_definite}, ja podeu investigar els següents projectes d'anomalies</LetterTextEntityDiscoveryResearch>
+  <LetterTextEntityDiscoveryResearch>Al descobrir {ENTITY_definite}, ja podeu investigar els següents projectes d’anomalies</LetterTextEntityDiscoveryResearch>
 
   <!-- Nociosphere -->
   <!-- EN: Nociosphere defeated -->
   <NociosphereDefeatedLabel>Nociosfera derrotada</NociosphereDefeatedLabel>
   <!-- EN: The nociosphere has been destroyed, leaving behind a number of valuable resources. -->
-  <NociosphereDefeatedText>La nociosfera ha estat destruïda. A les seves restes s'hi poden trobar recursos valuosos.</NociosphereDefeatedText>
+  <NociosphereDefeatedText>La nociosfera ha estat destruïda. A les seves restes s’hi poden trobar recursos valuosos.</NociosphereDefeatedText>
   <!-- EN: Nociosphere destabilising -->
   <NociosphereBecomingUnstableLabel>Nociosfera desestabilitzant-se</NociosphereBecomingUnstableLabel> 
   <!-- EN: The nociosphere's energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed. -->
-  <NociosphereBecomingUnstableText>El patró energètic de la nociosfera ha començat a canviar i a adaptar-se. En deu dies, ja no respondrà a la contenció.\n\nLa nociosfera s'activarà si no se la reprimeix.</NociosphereBecomingUnstableText> 
+  <NociosphereBecomingUnstableText>El patró energètic de la nociosfera ha començat a canviar i a adaptar-se. En deu dies, ja no respondrà a la contenció.\n\nLa nociosfera s’activarà si no se la reprimeix.</NociosphereBecomingUnstableText> 
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
-  <NociosphereBecomingUnstableTextExtraSendable>Desfeu-vos de la nociosfera. Envieu-la a atacar una gran força hostil. Un cop finalitzat el seu atac, se n'anirà per sempre.</NociosphereBecomingUnstableTextExtraSendable>
+  <NociosphereBecomingUnstableTextExtraSendable>Desfeu-vos de la nociosfera. Envieu-la a atacar una gran força hostil. Un cop finalitzat el seu atac, se n’anirà per sempre.</NociosphereBecomingUnstableTextExtraSendable>
   <!-- EN: Study the nociosphere to find a way to dispose of it. -->
   <NociosphereBecomingUnstableTextExtraNotSendable>Estudieu la nociosfera per a trobar una manera de desfer-vos-en.</NociosphereBecomingUnstableTextExtraNotSendable>
   <!-- EN: Nociosphere unstable -->
   <NociosphereUnstableLabel>Nociosfera inestable</NociosphereUnstableLabel>
   <!-- EN: The nociosphere has become unstable and is no longer responding to suppression. When its activity reaches 100%, it will awaken. -->
-  <NociosphereUnstableText>La nociosfera s'ha tornat inestable i ja no respon a la repressió. Quan la seva activitat arribi al 100 %, es despertarà.</NociosphereUnstableText>
+  <NociosphereUnstableText>La nociosfera s’ha tornat inestable i ja no respon a la repressió. Quan la seva activitat arribi al 100 %, es despertarà.</NociosphereUnstableText>
   <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
-  <NociosphereUnstableTextExtraSendable>Desfeu-vos de la nociosfera. Envieu-la a atacar una gran força hostil. Un cop finalitzat el seu atac, se n'anirà per sempre.</NociosphereUnstableTextExtraSendable> 
+  <NociosphereUnstableTextExtraSendable>Desfeu-vos de la nociosfera. Envieu-la a atacar una gran força hostil. Un cop finalitzat el seu atac, se n’anirà per sempre.</NociosphereUnstableTextExtraSendable> 
   <!-- EN: Prepare for the nociosphere's onslaught. -->
   <NociosphereUnstableTextExtraNotSendable>Prepareu-vos per a l’envestida de la nociosfera</NociosphereUnstableTextExtraNotSendable>
 
@@ -282,13 +282,13 @@
   <!-- EN: Golden cube -->
   <GoldenCubeArrivalLabel>Cub daurat</GoldenCubeArrivalLabel>
   <!-- EN: A strange cube has landed nearby. It shines like gold but is impossible to scratch. It's light and warm to the touch. The way light plays across its surface is captivating.\n\n{PAWN_nameDef} feels inexplicably drawn to the cube.\n\nStudy the cube to learn more about it. -->
-  <GoldenCubeArrivalText>Un cub estrany ha aterrat a prop. Brilla com l'or però és impossible de ratllar. És lleuger i càlid al tacte. La manera com la llum es reflecteix a la seva superfície és captivadora.\n\n{PAWN_nameDef} se sent inexplicablement [PAWN_gender ? atret : atreta] pel cub.\n\nEstudieu el cub per a obtenir-ne més informació.</GoldenCubeArrivalText>
+  <GoldenCubeArrivalText>Un cub estrany ha aterrat a prop. Brilla com l’or però és impossible de ratllar. És lleuger i càlid al tacte. La manera com la llum es reflecteix a la seva superfície és captivadora.\n\n{PAWN_nameDef} se sent inexplicablement [PAWN_gender ? atret : atreta] pel cub.\n\nEstudieu el cub per a obtenir-ne més informació.</GoldenCubeArrivalText>
 
   <!-- EN: Void curiosity -->
   <VoidCuriosityLabel>Curiositat pel buit</VoidCuriosityLabel>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual. -->
-  <VoidCuriosityText_Researched>{PAWN_nameDef} ha començat a obsessionar-se pel buit i vol investigar-lo mitjançant el ritual de provocació del buit.\n\nUtilitzeu el ritual de provocació del buit per descobrir i capturar entitats. Les entitats capturades es poden estudiar per completar projectes de recerca d'anomalia o connectar-se a un recol·lector de bioferrita per generar bioferrita.\n\nCol·loqueu un lloc per a rituals psíquics per a realitzar el ritual de provocació del buit.</VoidCuriosityText_Researched>
+  <VoidCuriosityText_Researched>{PAWN_nameDef} ha començat a obsessionar-se pel buit i vol investigar-lo mitjançant el ritual de provocació del buit.\n\nUtilitzeu el ritual de provocació del buit per descobrir i capturar entitats. Les entitats capturades es poden estudiar per completar projectes de recerca d’anomalia o connectar-se a un recol·lector de bioferrita per generar bioferrita.\n\nCol·loqueu un lloc per a rituals psíquics per a realitzar el ritual de provocació del buit.</VoidCuriosityText_Researched>
   <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual. -->
-  <VoidCuriosityText_NotResearched>{PAWN_nameDef} ha començat a obsessionar-se pel buit i vol investigar-lo mitjançant el ritual de provocació del buit.\n\nUtilitzeu el ritual de provocació del buit per descobrir i capturar entitats. Les entitats capturades es poden estudiar per completar projectes de recerca d'anomalia o connectar-se a un recol·lector de bioferrita per generar bioferrita.\n\nInvestigueu la provocació del buit i situeu un lloc per a realitzar rituals psíquics per a poder fer el ritual.</VoidCuriosityText_NotResearched>
+  <VoidCuriosityText_NotResearched>{PAWN_nameDef} ha començat a obsessionar-se pel buit i vol investigar-lo mitjançant el ritual de provocació del buit.\n\nUtilitzeu el ritual de provocació del buit per descobrir i capturar entitats. Les entitats capturades es poden estudiar per completar projectes de recerca d’anomalia o connectar-se a un recol·lector de bioferrita per generar bioferrita.\n\nInvestigueu la provocació del buit i situeu un lloc per a realitzar rituals psíquics per a poder fer el ritual.</VoidCuriosityText_NotResearched>
 
 </LanguageData>

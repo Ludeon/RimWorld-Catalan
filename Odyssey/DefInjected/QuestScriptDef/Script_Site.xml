@@ -10,12 +10,12 @@
     <li>attackReason->claim that the surveying scanner is secretly a weapon and its activation has caused psychic disturbances</li>
   -->
   <SurveySite.questContentRules.rulesStrings>
-    <li>attackReason->afirmen que l'escàner es va enviar per a espiar els seus rituals secrets</li>
+    <li>attackReason->afirmen que l’escàner es va enviar per a espiar els seus rituals secrets</li>
     <li>attackReason->diuen que el lloc de sondeig està al seu territori</li>
-    <li>attackReason->diuen que els van enviar per a destruir l'escàner com a compensació</li>
-    <li>attackReason->afirmen que l'escàner està massa a prop d'un dels seus amagatalls</li>
-    <li>attackReason->volen saquejar l'equip de sondeig</li>
-    <li>attackReason->afirmen que l'escàner és una arma secreta i que la seva activació ha causat trastorns psíquics</li>
+    <li>attackReason->diuen que els van enviar per a destruir l’escàner com a compensació</li>
+    <li>attackReason->afirmen que l’escàner està massa a prop d’un dels seus amagatalls</li>
+    <li>attackReason->volen saquejar l’equip de sondeig</li>
+    <li>attackReason->afirmen que l’escàner és una arma secreta i que la seva activació ha causat trastorns psíquics</li>
   </SurveySite.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription(askerIsNull==true)->An anonymous AI has requested your help defending surveying equipment at a remote site.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, the AI is offering a valuable gravtech device.</li>
@@ -23,9 +23,9 @@
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], requests that you protect [asker_possessive] surveying operation. If you do so, [asker_pronoun] will reward you handsomely.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, [asker_nameDef] is offering a valuable gravtech device.</li>
   -->
   <SurveySite.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Una IA anònima ha demanat ajuda per a defensar equips de topografia en un lloc remot.\n\nL'operació de sondeig durarà de deu a quinze dies i requerirà viatjar a una destinació remota.\n\nA canvi dels vostres serveis, la IA ofereix un valuós dispositiu gravitècnic.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_nameFull], [asker_faction_leaderTitle] de la facció [asker_faction_name], ha sentit rumors sobre la vostra gravinau. Vol estudiar una regió llunyana i demana que protegiu el seu equip de topografia.\n\nL'operació de sondeig durarà de deu a quinze dies i requerirà viatjar a una destinació remota.\n\nA canvi dels vostres serveis, [asker_nameDef] ofereix un valuós dispositiu gravitècnic.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], un [asker_royalTitleInCurrentFaction] de [asker_faction_name], sol·licita que defenseu la seva operació de topografia. Si ho feu, us recompensarà generosament.\n\nL'operació de sondeig durarà de deu a quinze dies i requerirà viatjar a una destinació remota.\n\nA canvi dels vostres serveis, [asker_nameDef] ofereix un valuós dispositiu gravitècnic.</li>
+    <li>questDescription(askerIsNull==true)->Una IA anònima ha demanat ajuda per a defensar equips de topografia en un lloc remot.\n\nL’operació de sondeig durarà de deu a quinze dies i requerirà viatjar a una destinació remota.\n\nA canvi dels vostres serveis, la IA ofereix un valuós dispositiu gravitècnic.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_nameFull], [asker_faction_leaderTitle] de la facció [asker_faction_name], ha sentit rumors sobre la vostra gravinau. Vol estudiar una regió llunyana i demana que protegiu el seu equip de topografia.\n\nL’operació de sondeig durarà de deu a quinze dies i requerirà viatjar a una destinació remota.\n\nA canvi dels vostres serveis, [asker_nameDef] ofereix un valuós dispositiu gravitècnic.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], un [asker_royalTitleInCurrentFaction] de [asker_faction_name], sol·licita que defenseu la seva operació de topografia. Si ho feu, us recompensarà generosament.\n\nL’operació de sondeig durarà de deu a quinze dies i requerirà viatjar a una destinació remota.\n\nA canvi dels vostres serveis, [asker_nameDef] ofereix un valuós dispositiu gravitècnic.</li>
   </SurveySite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Surveying [site]</li>
@@ -49,7 +49,7 @@
     <li>questName(p=0.5)->A defensar un escàner</li>
     <li>questName(p=0.5)->Protecció remota</li>
     <li>site->el lloc</li>
-    <li>site->l'estació</li>
+    <li>site->l’estació</li>
     <li>site->les defenses</li>
     <li>site->la zona</li>
     <li>remote->remot</li>
@@ -62,7 +62,7 @@
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <SurveySite.LetterLabelQuestExpired.slateRef>La missió ha expirat: [resolvedQuestName]</SurveySite.LetterLabelQuestExpired.slateRef>
   <!-- EN: The scanner has gone offline. The quest [resolvedQuestName] has expired. -->
-  <SurveySite.LetterTextQuestExpired.slateRef>L'escàner s'ha apagat. La missió [resolvedQuestName] ha expirat.</SurveySite.LetterTextQuestExpired.slateRef>
+  <SurveySite.LetterTextQuestExpired.slateRef>L’escàner s’ha apagat. La missió [resolvedQuestName] ha expirat.</SurveySite.LetterTextQuestExpired.slateRef>
   <!-- EN: {BASETEXT}\n\nThe [enemyFaction_pawnsPlural] [attackReason]. -->
   <SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>{TEXT BASE}\n\nEls [enemyFaction_pawnsPlural] [attackReason].</SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>
   <!-- EN: Quest completed -->

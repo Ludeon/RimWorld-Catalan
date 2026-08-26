@@ -77,6 +77,82 @@
     <li>writingMaterial->burned ash</li>
     <li>writingMaterial->dark ink</li>
   -->
-  <LabyrinthRamblings.rulePack.rulesStrings>TODO</LabyrinthRamblings.rulePack.rulesStrings>
+  <LabyrinthRamblings.rulePack.rulesStrings>
+    <li>r_root->[textDescSentence] [horrorDescSentence] [maybeSignature]</li>
+    <li>maybeSignature(p=3)-></li>
+    <li>maybeSignature->L’autor signa amb el seu nom: [PAWN_nameDef].</li>
+    <li>maybeSignature->Acaba amb un nom: [PAWN_nameDef].</li>
+    <li>maybeSignature->El nom [PAWN_nameDef] està gargotejat a la part inferior.</li>
+    <li>maybeSignature->I, en un racó, [PAWN_nameDef] ha signat el dibuix.</li>
+    <li>textDescSentence->Els gravats del terra són inconnexos i incoherents.</li>
+    <li>textDescSentence->Les paraules són difícils d’entendre.</li>
+    <li>textDescSentence->Els estranys gravats estan escrits a l’inrevés.</li>
+    <li>textDescSentence->L’escriptura és tremolosa i feble.</li>
+    <li>textDescSentence->L’escriptura es torna cada cop més estranya a mesura que avança.</li>
+    <li>textDescSentence->El text s’ha escrit amb [writingMaterial] i ha estat parcialment esborrat.</li>
+    <li>textDescSentence->Uns símbols críptics es barregen amb lletres punxegudes.</li>
+    <li>textDescSentence->L’escriptura està fragmentada, com si hagués estat interrompuda diverses vegades.</li>
+    <li>textDescSentence->Les inscripcions s’esvaeixen i reapareixen a mesura que avança el text.</li>
+    <li>textDescSentence->Aquest text s’ha escrit amb [writingMaterial] i forma patrons frenètics.</li>
+    <li>horrorDescSentence->Només es pot llegir clarament una frase: [rambling].</li>
+    <li>horrorDescSentence->Una frase es repeteix una vegada i una altra: [rambling].</li>
+    <li>horrorDescSentence->Cada frase acaba igual: [rambling].</li>
+    <li>horrorDescSentence->Les paraules giren en cercles i repeteixen indefinidament la mateixa frase: [rambling].</li>
+    <li>horrorDescSentence->L’autor[PAWN_x_a] sembla convençu[PAWN_t_da] que un paràsit metàl·lic viu sota la seva pell. Descriu un dolor intens que es mou i es retorça.</li>
+    <li>horrorDescSentence->L’autor[PAWN_x_a] acusa la seva amiga d’injectar-li un paràsit metàl·lic. Descriu l’horrible sensació de notar com creix alguna cosa a dins seu.</li>
+    <li>horrorDescSentence->L’autor[PAWN_x_a] prega per l’alliberament del seu turment: [horrorDesc].</li>
+    <li>horrorDescSentence->Les mateixes línies es repeteixen una vegada i una altra. Descriuen [horrorDesc].</li>
+    <li>horrorDescSentence->Un poema estrany descriu [horrorDesc].</li>
+    <li>horrorDescSentence->Les paraules lluiten per descriure [horrorDesc].</li>
+    <li>horrorDescSentence->L’escriptura tremolosa descriu la reacció de l’autor davant una visió de [horrorDesc].</li>
+    <li>horrorDescSentence->Hi ha dibuixos que acompanyen el text i representen [horrorDesc].</li>
+    <li>horrorDescSentence->Hi ha esbossos frenètics que il·lustren [horrorDesc], amb notes que en descriuen les característiques.</li>
+    <li>horrorDescSentence->Un càntic esgarrifós descriu [horrorDesc].</li>
+    <li>horrorDescSentence->Il·lustracions viscerals s’intercalen en el text i totes mostren [horrorDesc].</li>
+    <li>horrorDescSentence->Els relats dels marges parlen d’[horrorDesc].</li>
+    <li>horrorDescSentence->El to frenètic de l’escriptor augmenta fins a un clímax centrat en [horrorDesc].</li>
+    <li>horrorDescSentence->Es formen patrons dins dels gravats i tots culminen en una representació d’[horrorDesc].</li>
+    <li>horrorDescSentence->Les paraules s’entrellacen amb imatges vívides d’[horrorDesc].</li>
+    <li>horrorDescSentence->Hi ha una cançó de bressol inquietant escrita al costat de descripcions d’[horrorDesc].</li>
+    <li>horrorDescSentence->Súpliques desesperades de misericòrdia es barregen amb els relats d’[horrorDesc].</li>
+    <li>horrorDesc->una criatura invisible que consumeix la ment dels infidels</li>
+    <li>horrorDesc->una esfera impossible negra com el buit que batega de pur patiment</li>
+    <li>horrorDesc->una criatura amb extremitats fetes només amb ossos i el cap fet només d’una massa de carn</li>
+    <li>horrorDesc->un ésser fet completament d’ombres, amb ulls que brillen com a estrelles</li>
+    <li>horrorDesc->un home fet de ganivets esmolats i xop de sang</li>
+    <li>horrorDesc->una massa de fulles de ganivets giratòries que sorgeix d’un abisme</li>
+    <li>horrorDesc->un nen silenciós amb una boca que s’estén per tota la cara</li>
+    <li>horrorDesc->una gran torre retorçada feta de pues i fulles</li>
+    <li>horrorDesc->una criatura estranya d’aspecte animal amb trets de diverses espècies</li>
+    <li>horrorDesc->una figura humana deforme amb les parts del cos que no estan al lloc on seria normal trobar-les</li>
+    <li>horrorDesc->una gran multitud d’humans, tots morts i amb la carn podrida</li>
+    <li>horrorDesc->figures humanes amb màscares terrorífiques fetes de pues</li>
+    <li>rambling->deixeu-me sortir</li>
+    <li>rambling->ajuda’m</li>
+    <li>rambling->salva’m</li>
+    <li>rambling->ens vigila</li>
+    <li>rambling->no em deixarà anar</li>
+    <li>rambling->deixa’m anar</li>
+    <li>rambling->en sento la veu</li>
+    <li>rambling->el temps és una mentida</li>
+    <li>rambling->endugueu-vos el dolor</li>
+    <li>rambling->oceà negre</li>
+    <li>rambling->tallant i tallant</li>
+    <li>rambling->xiuxiueigs en el buit</li>
+    <li>rambling->sempre és darrere meu</li>
+    <li>rambling->quants ulls</li>
+    <li>rambling->dins del meu cap</li>
+    <li>rambling->ofegant-se en el silenci</li>
+    <li>rambling->sap el meu nom</li>
+    <li>rambling->les ombres es mouen</li>
+    <li>rambling->no hi ha sortida</li>
+    <li>rambling->la foscor parla</li>
+    <li>rambling->estan mirant</li>
+    <li>writingMaterial->guix</li>
+    <li>writingMaterial->sutge</li>
+    <li>writingMaterial->fluid escampat</li>
+    <li>writingMaterial->cendra cremada</li>
+    <li>writingMaterial->tinta fosca</li>
+  </LabyrinthRamblings.rulePack.rulesStrings>
   
 </LanguageData>

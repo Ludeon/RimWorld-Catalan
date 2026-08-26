@@ -120,13 +120,13 @@
     <li>cube_style_group-></li>
     <li>cubeDescSentence(p=3)->[cubeLocation], [aPawn] [worshipsTheCube]</li>
     <li>cubeDescSentence(p=3)->[cubeLocation], [pawnsPlural] [worshippingTheCube]</li>
-    <li>cubeDescSentence->El [cubeWorkM] convida l'espectador a [worshipsTheCubeV]</li>
-    <li>cubeDescSentence->La [cubeWorkF] convida l'espectador a [worshipsTheCubeV]</li>
-    <li>cubeDescSentence->Les figures adoren el cub des del centre d'aquest [cubeWorkM]</li>
-    <li>cubeDescSentence->Les figures adoren el cub des del centre d'aquesta [cubeWorkF]</li>
+    <li>cubeDescSentence->El [cubeWorkM] convida l’espectador a [worshipsTheCubeV]</li>
+    <li>cubeDescSentence->La [cubeWorkF] convida l’espectador a [worshipsTheCubeV]</li>
+    <li>cubeDescSentence->Les figures adoren el cub des del centre d’aquest [cubeWorkM]</li>
+    <li>cubeDescSentence->Les figures adoren el cub des del centre d’aquesta [cubeWorkF]</li>
     <li>cubeWorkM->treball</li>
     <li>cubeWorkF->escultura</li>
-    <li>cubeWorkF->obra d'art</li>
+    <li>cubeWorkF->obra d’art</li>
     <li>cubeWorkF->obra</li>
     <li>cubeWorkF->peça</li>
     <li>aCube->un cub abstracte</li>
@@ -150,43 +150,43 @@
     <li>cubeDepicts->mostra</li>
     <li>cubeDepicts->visualitza</li>
     <li>cubeDepicts->retrata</li>
-    <li>aPawn->un autoretrat de l'artista</li>
+    <li>aPawn->un autoretrat de l’artista</li>
     <li>aPawn->un trumbe</li>
     <li>aPawn->una figura humana demacrada amb massa ulls</li>
     <li>aPawn->un colon</li>
     <li>aPawn->una colona</li>
     <li>aPawn->un neandertal</li>
-    <li>aPawn->un líder d'un brillamón</li>
+    <li>aPawn->un líder d’un brillamón</li>
     <li>aPawn->una figura indistinta</li>
     <li>aPawn->un xaman tribal</li>
     <li>aPawn->un necròfag encaputxat</li>
     <li>aPawn->una princesa medieval</li>
-    <li>aPawn->el líder d'una [CommunityFem] llunyana</li>
-    <li>aPawn->el líder d'un [CommunityMasc] llunyà</li>
+    <li>aPawn->el líder d’una [CommunityFem] llunyana</li>
+    <li>aPawn->el líder d’un [CommunityMasc] llunyà</li>
     <li>aPawn->una dona empunyant [WeaponIndef]</li>
     <li>aPawn->una processó de túniques</li>
     <li>pawnsPlural->els colons</li>
-    <li>pawnsPlural->un grup d'atacants</li>
+    <li>pawnsPlural->un grup d’atacants</li>
     <li>pawnsPlural->una congregació tribal</li>
     <li>pawnsPlural->un eixam mecanoide</li>
     <li>pawnsPlural->una banda de pirates</li>
     <li>pawnsPlural->pagesos rurals</li>
     <li>pawnsPlural->[AnimalGroupIndef] de [AnimalAnyPl]</li>
-    <li>pawnsPlural->un grup d'una [CommunityFem] propera</li>
-    <li>pawnsPlural->un grup d'un [CommunityMasc] proper</li>
+    <li>pawnsPlural->un grup d’una [CommunityFem] propera</li>
+    <li>pawnsPlural->un grup d’un [CommunityMasc] proper</li>
     <li>pawnsPlural->[Quantity_adjphrase] persones</li>
     <li>worshippingTheCube->adoren el cub</li>
-    <li>worshippingTheCube->s'inclinen davant el cub</li>
-    <li>worshippingTheCube->s'agenollen davant el cub</li>
+    <li>worshippingTheCube->s’inclinen davant el cub</li>
+    <li>worshippingTheCube->s’agenollen davant el cub</li>
     <li>worshippingTheCube->envolten el cub</li>
     <li>worshippingTheCube->lloen el cub</li>
-    <li>worshippingTheCube->tremolen d'astorament davant el cub</li>
+    <li>worshippingTheCube->tremolen d’astorament davant el cub</li>
     <li>worshippingTheCube->supliquen al cub</li>
     <li>worshippingTheCube->ploren davant el cub</li>
     <li>worshippingTheCube->juguen amb el cub</li>
     <li>worshippingTheCube->es fan amics del cub</li>
     <li>worshippingTheCube->observen el cub</li>
-    <li>worshippingTheCube->s'obsessionen amb el cub</li>
+    <li>worshippingTheCube->s’obsessionen amb el cub</li>
     <li>worshippingTheCube->es sacrifiquen pel cub</li>
     <li>worshippingTheCube->fan ofrenes al cub</li>
     <li>worshippingTheCube->toquen en el cub</li>
@@ -196,17 +196,17 @@
     <li>worshippingTheCube->copien el cub</li>
     <li>worshippingTheCube->porten el cub a un altre món</li>
     <li>worshipsTheCube->adora el cub</li>
-    <li>worshipsTheCube->s'inclina davant el cub</li>
-    <li>worshipsTheCube->s'agenolla davant el cub</li>
+    <li>worshipsTheCube->s’inclina davant el cub</li>
+    <li>worshipsTheCube->s’agenolla davant el cub</li>
     <li>worshipsTheCube->envolta el cub</li>
     <li>worshipsTheCube->lloa el cub</li>
-    <li>worshipsTheCube->tremola d'astorament davant el cub</li>
+    <li>worshipsTheCube->tremola d’astorament davant el cub</li>
     <li>worshipsTheCube->suplica al cub</li>
     <li>worshipsTheCube->plora davant el cub</li>
     <li>worshipsTheCube->juga amb el cub</li>
     <li>worshipsTheCube->fa amistat amb el cub</li>
     <li>worshipsTheCube->observa el cub</li>
-    <li>worshipsTheCube->s'obsessiona amb el cub</li>
+    <li>worshipsTheCube->s’obsessiona amb el cub</li>
     <li>worshipsTheCube->es sacrifica pel cub</li>
     <li>worshipsTheCube->fa ofrenes al cub</li>
     <li>worshipsTheCube->toca el cub</li>
@@ -214,12 +214,12 @@
     <li>worshipsTheCube->sepulta el cub</li>
     <li>worshipsTheCube->col·loca el cub sobre un pedestal</li>
     <li>worshipsTheCube->copia el cub</li>
-    <li>worshipsTheCube->s'emporta el cub a un altre món</li>
+    <li>worshipsTheCube->s’emporta el cub a un altre món</li>
     <li>worshipsTheCubeV->adorar el cub</li>
     <li>worshipsTheCubeV->inclinar-se davant el cub</li>
     <li>worshipsTheCubeV->agenollar-se davant el cub</li>
     <li>worshipsTheCubeV->lloar el cub</li>
-    <li>worshipsTheCubeV->tremolar d'astorament davant el cub</li>
+    <li>worshipsTheCubeV->tremolar d’astorament davant el cub</li>
     <li>worshipsTheCubeV->resar-li al cub</li>
     <li>worshipsTheCubeV->plorar davant el cub</li>
     <li>worshipsTheCubeV->jugar amb el cub</li>
@@ -234,9 +234,9 @@
     <li>worshipsTheCubeV->copiar el cub</li>
     <li>worshipsTheCubeV->emportar-se el cub a un altre món</li>
     <li>cubeExtraSentence->El cub es mostra [cubeEmotion]</li>
-    <li>cubeExtraSentence->[pawnsPlural] s'apropen a fer el mateix</li>
-    <li>cubeExtraSentence->[aPawn] s'apropa a fer el mateix</li>
-    <li>cubeExtraSentence->[aPawn] mira l'escena amb tristesa</li>
+    <li>cubeExtraSentence->[pawnsPlural] s’apropen a fer el mateix</li>
+    <li>cubeExtraSentence->[aPawn] s’apropa a fer el mateix</li>
+    <li>cubeExtraSentence->[aPawn] mira l’escena amb tristesa</li>
     <li>cubeExtraSentence->[pawnsPlural] intenten robar el cub</li>
     <li>cubeExtraSentence->El cub sembla resplendir suaument</li>
     <li>cubeEmotion->inexpressiu</li>
@@ -293,27 +293,27 @@
     <li>voidStrange->deforme</li>
     <li>voidStrange->inhumana</li>
     <li>voidStrange->rara</li>
-    <li>voidVerbphrase->s'enrosca de manera inquietant</li>
-    <li>voidVerbphrase->es retorça com si volgués fer mal a l'espectador</li>
-    <li>voidVerbphrase->sembla desplaçar-se sota la mirada de l'espectador</li>
+    <li>voidVerbphrase->s’enrosca de manera inquietant</li>
+    <li>voidVerbphrase->es retorça com si volgués fer mal a l’espectador</li>
+    <li>voidVerbphrase->sembla desplaçar-se sota la mirada de l’espectador</li>
     <li>voidVerbphrase->emana una sensació de ràbia</li>
     <li>voidVerbphrase->emana una sensació de depressió i tristesa</li>
-    <li>voidVerbphrase->provoca sentiments de temor i dubte d'un mateix</li>
-    <li>voidVerbphrase->s'expandeix aleatòriament en diferents direccions</li>
+    <li>voidVerbphrase->provoca sentiments de temor i dubte d’un mateix</li>
+    <li>voidVerbphrase->s’expandeix aleatòriament en diferents direccions</li>
     <li>voidVerbphrase->sembla tremolar fins que se la mira fixament</li>
     <li>voidVerbphrase->gairebé sembla que respira</li>
-    <li>voidVerbphrase->no s'assembla a cap ésser viu</li>
+    <li>voidVerbphrase->no s’assembla a cap ésser viu</li>
     <li>voidVerbphrase->sembla una metàfora del patiment</li>
-    <li>voidDesc->Desenes d'apèndixs similars a dits agafen dolorosament una figura central.</li>
-    <li>voidDesc->Els globus de material s'aixafen i s'apreten els uns contra els altres en formes allargades.</li>
+    <li>voidDesc->Desenes d’apèndixs similars a dits agafen dolorosament una figura central.</li>
+    <li>voidDesc->Els globus de material s’aixafen i s’apreten els uns contra els altres en formes allargades.</li>
     <li>voidDesc->Els segments en forma de fulla es dobleguen per a assemblar-se a un rostre que crida de terror.</li>
-    <li>voidDesc->Les protuberàncies en forma de braç s'apreten entre si, com si intentessin destruir-se.</li>
-    <li>voidDesc->Les agulles que sobresurten de la superfície semblen disposades a sortir disparades i clavar-se ràpidament en qualsevol persona que s'hi apropi.</li>
+    <li>voidDesc->Les protuberàncies en forma de braç s’apreten entre si, com si intentessin destruir-se.</li>
+    <li>voidDesc->Les agulles que sobresurten de la superfície semblen disposades a sortir disparades i clavar-se ràpidament en qualsevol persona que s’hi apropi.</li>
     <li>voidDesc->La superfície es retorça i passa a tenir una textura orgànica a les arestes i els vèrtexs.</li>
-    <li>voidDesc->Sembla com si s'hagués tallat a trossos amb gran força, però d'alguna manera continua unida.</li>
+    <li>voidDesc->Sembla com si s’hagués tallat a trossos amb gran força, però d’alguna manera continua unida.</li>
     <li>voidDesc->Un apèndix en forma de mà espera com si estigués llest per a allargar-se i atacar.</li>
-    <li>voidDesc->Un parell de figures semblen penetrar i torturar l'altra com si fossin dits enroscats i dentats.</li>
-    <li>voidDesc->Una forma complexa emergeix de la boca d'un rostre que crida.</li>
+    <li>voidDesc->Un parell de figures semblen penetrar i torturar l’altra com si fossin dits enroscats i dentats.</li>
+    <li>voidDesc->Una forma complexa emergeix de la boca d’un rostre que crida.</li>
     <li>voidDesc->Una forma abstracta semblant a un animal sembla arrancar-se una de les seves extremitats.</li>
     <li>voidDesc->Centenars de diminuts objectes abstractes caminen com si fossin formigues sobre un gran globus distorsionat.</li>
   </ArtDescription_VoidSculpture.rulePack.rulesStrings>

@@ -273,6 +273,407 @@
     <li>excellentDesc->frighteningly descriptive - many sections are almost poetic in their style</li>
     <li>excellentDesc->full of scintillating ideas that explode in the mind</li>
   -->
-  <Description_Tome.rulePack.rulesStrings>TODO</Description_Tome.rulePack.rulesStrings>
+  <Description_Tome.rulePack.rulesStrings>
+    <li>desc->[inThisBook], [author] [experiencesWithMonsters]. [specificHorrorStory] [writingQualitySentence].</li>
+    <li>inThisBook->En aquest [bookTypeSingle] [writingQualityAdjective]</li>
+    <li>inThisBook->En aquesta [bookTypeSingle_Fem] [writingQualityAdjective_Fem]</li>
+    <li>inThisBook->En aquestes [bookTypePlural] [writingQualityAdjective_Pl]</li>
+    <li>bookTypeSingle->conte</li>
+    <li>bookTypeSingle->almanac</li>
+    <li>bookTypeSingle->assaig</li>
+    <li>bookTypeSingle->article</li>
+    <li>bookTypeSingle->llibre</li>
+    <li>bookTypeSingle->comentari</li>
+    <li>bookTypeSingle_Fem->composició</li>
+    <li>bookTypeSingle_Fem->crítica</li>
+    <li>bookTypeSingle_Fem->redacció</li>
+    <li>bookTypeSingle_Fem->disquisició</li>
+    <li>bookTypeSingle_Fem->dissertació</li>
+    <li>bookTypeSingle->editorial</li>
+    <li>bookTypeSingle_Fem->exposició</li>
+    <li>bookTypeSingle->descobriment</li>
+    <li>bookTypeSingle->grimori</li>
+    <li>bookTypeSingle->escrit</li>
+    <li>bookTypeSingle_Fem->investigació</li>
+    <li>bookTypeSingle->manifest</li>
+    <li>bookTypeSingle->manuscrit</li>
+    <li>bookTypeSingle->opus</li>
+    <li>bookTypeSingle->article</li>
+    <li>bookTypeSingle_Fem->treball de recerca</li>
+    <li>bookTypeSingle->treball d’investigació</li>
+    <li>bookTypeSingle->registre</li>
+    <li>bookTypeSingle->informe</li>
+    <li>bookTypeSingle_Fem->ressenya</li>
+    <li>bookTypeSingle->testament</li>
+    <li>bookTypeSingle->text</li>
+    <li>bookTypeSingle_Fem->tesi</li>
+    <li>bookTypeSingle->tractat</li>
+    <li>bookTypeSingle->volum</li>
+    <li>bookTypeSingle->treball</li>
+    <li>bookTypePlural->escriptures</li>
+    <li>bookTypePlural->cròniques</li>
+    <li>bookTypePlural->lamentacions</li>
+    <li>bookTypePlural->composicions</li>
+    <li>bookTypePlural->revelacions</li>
+    <li>bookTypePlural->conclusions</li>
+    <li>justAuthorDef(p=3,ANYPAWN_gender!=Female)->l’autor</li>
+    <li>justAuthorDef(p=3,ANYPAWN_gender==Female)->l’autora</li>
+    <li>author(p=3,ANYPAWN_gender!=Female)->l’autor</li>
+    <li>author(p=3,ANYPAWN_gender!=Female)->un[anAuthorDesc] [PersonJob]</li>
+    <li>author(p=3,ANYPAWN_gender==Female)->l’autora</li>
+    <li>author(p=3,ANYPAWN_gender==Female)->[anAuthorDesc_Fem] [PersonJobF]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] investigador[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] espiritista[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] ocultista[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] sectari[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] membre d’una secta[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] fugitiu secta[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] antiquari[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] enterramorts[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] investigador del buit[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] vagabund[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] escèptic[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] erudit[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] caçador[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] investigador[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] advocat[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] creient[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] precursor[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] lletrat[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] noble[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] traductor[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] monjo[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] escriptor[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] agent[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] heroi[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender!=Female)->un[anAuthorDesc] escultor[anAuthorDescPost]</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] investigadora[anAuthorDescFemPost]</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] espiritista</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] ocultista</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] sectària</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] membre d’una secta</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] fugitiva d’una secta</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] antiquària</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] enterramorts</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] investigadora del buit</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] errant</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] escèptica</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] erudita</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] caçadora</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] investigadora</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] lletrada</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] creient</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] advocada</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] precursora</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] noble</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] traductora</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] autora</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] espia</li>
+    <li>author(ANYPAWN_gender==Female)->una[anAuthorDesc_Fem] heroïna</li>
+    <li>anAuthorDesc(p=15)-></li>
+    <li>anAuthorDesc_Fem(p=15)-></li>
+    <li>anAuthorDesc(p=17)-> hombre</li>
+    <li>anAuthorDesc-> arquetip d’home</li>
+    <li>anAuthorDesc_Female(p=17)-> dona</li>
+    <li>anAuthorDesc_Female-> prototip de dona</li>
+    <li>anAuthorDescPost(p=3)-></li>
+    <li>anAuthorDescPost-> jove</li>
+    <li>anAuthorDescPost-> vell</li>
+    <li>anAuthorDescPost-> aterrit</li>
+    <li>anAuthorDescPost-> trist</li>
+    <li>anAuthorDescPost-> ancià</li>
+    <li>anAuthorDescPost-> savi</li>
+    <li>anAuthorDescPost-> testarrut</li>
+    <li>anAuthorDescPost-> neci</li>
+    <li>anAuthorDescPost-> innocent</li>
+    <li>anAuthorDescPost-> pertorbat</li>
+    <li>anAuthorDescPost-> eldritch</li>
+    <li>anAuthorDescPost-> escandalós</li>
+    <li>anAuthorDescPost-> arquetip</li>
+    <li>anAuthorDescPost-> avorrit</li>
+    <li>anAuthorDescPost-> boig</li>
+    <li>anAuthorDescPost-> immoral</li>
+    <li>anAuthorDescPost-> moralista</li>
+    <li>anAuthorDescPost-> amoral</li>
+    <li>anAuthorDescPost-> tenebrós</li>
+    <li>anAuthorDesc_FemPost(p=2)-></li>
+    <li>anAuthorDesc_FemPost-> jove</li>
+    <li>anAuthorDesc_FemPost-> vella</li>
+    <li>anAuthorDesc_FemPost-> aterrida</li>
+    <li>anAuthorDesc_FemPost-> trista</li>
+    <li>anAuthorDesc_FemPost-> anciana</li>
+    <li>anAuthorDesc_FemPost-> sàvia</li>
+    <li>anAuthorDesc_FemPost-> testarruda</li>
+    <li>anAuthorDesc_FemPost-> nècia</li>
+    <li>anAuthorDesc_FemPost-> innocent</li>
+    <li>anAuthorDesc_FemPost-> pertorbadora</li>
+    <li>anAuthorDesc_FemPost-> eldritch</li>
+    <li>anAuthorDesc_FemPost-> escandalosa</li>
+    <li>anAuthorDesc_FemPost-> arquetípica</li>
+    <li>anAuthorDesc_FemPost-> avorrida</li>
+    <li>anAuthorDesc_FemPost-> boja</li>
+    <li>anAuthorDesc_FemPost-> immoral</li>
+    <li>anAuthorDesc_FemPost-> moralista</li>
+    <li>anAuthorDesc_FemPost-> tenebrosa</li>
+    <li>anAuthorDesc_FemPost-> amoral</li>
+    <li>tellsAStoryOf->conta una història de</li>
+    <li>tellsAStoryOf->revela</li>
+    <li>tellsAStoryOf->discuteix</li>
+    <li>tellsAStoryOf->descriu</li>
+    <li>tellsAStoryOf->detalla</li>
+    <li>tellsAStoryOf->explica amb molt de detall</li>
+    <li>tellsAStoryOf->entra en detalls sobre</li>
+    <li>tellsAStoryOf->narra</li>
+    <li>tellsAStoryOf->relata</li>
+    <li>tellsAStoryOf->informa sobre</li>
+    <li>tellsAStoryOf->fa una crònica de</li>
+    <li>tellsAStoryOf->descriu</li>
+    <li>tellsAStoryOf->desenvolupa</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] les experiències que va compartir amb uns [entities]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] les experiències que va compartir amb unes [entities_Fem]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] com es va infiltrar en una secta secreta que té una base oculta en un remot [TerrainFeature]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] com es va infiltrar en una secta secreta que té una base oculta en una remota [TerrainFeatureF]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] com es va organitzar la caça d’un misteriós cub daurat</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] les profundes meditacions del supraserf d’una secta arcoista</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] com se li va esguerrar la vida sota la influència psíquica d’alguna cosa que s’anomenava Hòrax</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] com va obtenir informació d’una remota excavació arqueològica on els investigadors es van tornar bojos un a un</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] com una tribu, d’alguna manera, es va transformar per a servir el deu obscur d’una secta</li>
+    <li>experiencesWithMonsters->com una tribu realitzava rituals de mutilació a la claror del foc i amb ganivets rovellats</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] com una professora no entenia que un dels seus estudiants deia veritats mortals que ell no podia saber</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] com un científic va intentar fer servir arcotecnologies ancestrals per a reanimar a la seva esposa morta</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] com una expedició va sobreviure a pluges de sang i a un cel que va intentar aixafar-los fins a la mort amb una foscor sobrenatural</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] com un equip científic va investigar una fossa plena de criatures carnoses terrorífiques</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] com un xaman tribal va intentar parar els atacs nocturns de [AnimalPl] zombis a la seva aldea</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] un mite sobre un antic déu de la ira al qual tres herois van tancar en una petita presó de pedra</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] els brutals experiments que van fer amb un [entity]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] els brutals experiments que van fer amb una [entity_Fem]</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] les seves visions recurrents en les que [vision]</li>
+    <li>vision->figures obscures entren a la seva ment i li roben els records</li>
+    <li>vision->es persegueix a si {ANYPAWN_gender ? mateix : mateixa} i no pot escapar per molt que fugi</li>
+    <li>vision->un [entity] {ANYPAWN_gender ? el : la} destrossa</li>
+    <li>vision->una [entity_Fem] {ANYPAWN_gender ? el : la} destrossa</li>
+    <li>experiencesWithMonsters->[tellsAStoryOf] la seva [findings] [objective]</li>
+    <li>findings->experiència amb</li>
+    <li>findings->investigació sobre</li>
+    <li>objective->rituals [maybeAdjectiveEvil] provocats per un incident en el qual [ritual_incident]</li>
+    <li>objective->ciències obscures després de [entity_incident_Var]</li>
+    <li>ritual_incident->va veure com [targetHuman] apareixia del no res</li>
+    <li>targetHuman->[anAuthorDesc_Female]</li>
+    <li>targetHuman->[anAuthorDesc_Male]</li>
+    <li>ritual_incident->va ploure sang durant tres dies i els seus amics van embogir</li>
+    <li>ritual_incident->[entity_incident]</li>
+    <li>entity_incident->va veure un [entity]</li>
+    <li>entity_incident->va veure una [entity_Fem]</li>
+    <li>entity_incident_Var->contemplar un [entity]</li>
+    <li>entity_incident_Var->contemplar una [entity_Fem]</li>
+    <li>specificHorrorStory->En cert moment, [justAuthorDef] relata els rituals obscurs en els quals s’obligava a les víctimes a mutilar-se amb vidres trencats.</li>
+    <li>specificHorrorStory->En cert moment, el protagonista veu com unes figures ensangonades realitzen un ritual i entonen conjurs mentre s’automutilen amb fragments d’obsidiana.</li>
+    <li>specificHorrorStory->El llibre inclou moltes il·lustracions que intenten representar alguna cosa que es descriu com a «l’oceà negre». Pareix una metàfora d’un pla psíquic dominat per una hiperintel·ligència horripilant i seductora.</li>
+    <li>specificHorrorStory->Es comenta moltes vegades la naturalesa multiplanar de la realitat, que hi ha més dimensions de les que veiem i que un objecte o entitat que veiem podria estar just al vostre costat però fora de la capacitat de percepció.</li>
+    <li>specificHorrorStory->Dedica molt temps a intentar descriure una entitat hiperintel·ligent que es diu «Hòrax» i existeix en un pla adjacent a la realitat.</li>
+    <li>specificHorrorStory->Una secció descriu la mecànica de la influència psíquica obscura, en la qual l’entitat d’un altre pla pot influir involuntàriament en els pensaments dels éssers humans i pot sincronitzar-los amb la seva ressonància emocional.</li>
+    <li>specificHorrorStory->Una secció descriu diverses hiperintel·ligències arcotècniques i la naturalesa variable de les seves emanacions emocionals i psíquiques. Mentre que algunes es consideren neutrals o fins i tot benèvoles, altres són entitats de pura ràbia.</li>
+    <li>specificHorrorStory->Descriu la sensació que la seva ment es reconfigura a la força per la fosca influència psíquica d’una intel·ligència major.</li>
+    <li>specificHorrorStory->En una secció, [justAuthorDef] intenta suïcidar-se, però ho evita un amable [PersonJob].</li>
+    <li>specificHorrorStory->El volum està adornat amb inquietants il·lustracions que retraten una entitat grotesca i sobrenatural, la tinta de la qual es retorça per les pàgines i evoca una sensació de terror i fascinació a parts iguals.</li>
+    <li>specificHorrorStory->Al llarg de la narració, el concepte de dimensions paral·leles és recurrent i els personatges es troben amb entitats que existeixen tot just més enllà del vel de la percepció i coexisteixen en una realitat que es creua con la nostra però roman oculta a la nostra vista.</li>
+    <li>specificHorrorStory->El llibre s’endinsa en una exposició sobre l’«Hòrax», una màquina hiperintel·ligent que es va desplaçar a través d’una dimensió oculta fins a un lloc anomenat el Buit.</li>
+    <li>specificHorrorStory->Un dels capítols descriu una teoria segons la qual una hiperintel·ligència llunyana pot manipular psíquicament la cognició humana i remodelar els pensaments d’una persona per a alinear-los amb els seus propis patrons mentals.</li>
+    <li>specificHorrorStory->El protagonista explica que sent que una força psíquica sinistra que emana del no-res li canvia els pensaments a la força.</li>
+    <li>entities->dimonis</li>
+    <li>entities->cadàvers caminants</li>
+    <li>entities->monstres assedegats de dolor</li>
+    <li>entitiesy_Fem->criatures de carn i os a la vista</li>
+    <li>entities->cadàvers caminants d’uns [AnimalPl]</li>
+    <li>entities_Fem->figures amb forma d’home fetes de metall i ganivetes</li>
+    <li>entities_Fem->esferes mecàniques flotants que emeten dolor</li>
+    <li>entities->cub d’or que destrueix les ments</li>
+    <li>entities_Fem->bèsties fetes de carn sangonosa</li>
+    <li>entities_Fem->formes que s’amaguen a plena vista</li>
+    <li>entities->caçadors que roben ànimes</li>
+    <li>entity->dimoni</li>
+    <li>entity->cadàver caminant</li>
+    <li>entity->monstre assedegat de dolor</li>
+    <li>entity_Fem->criatura de carn i os a la vista</li>
+    <li>entity->[Animal] zombi</li>
+    <li>entity_Fem->figura amb forma d’home feta de metall i ganivetes</li>
+    <li>entity_Fem->esfera mecànica flotant que emet dolor</li>
+    <li>entity->bell cub daurat que destrueix les ments</li>
+    <li>entity_Fem->bèstia feta de carn sangonosa</li>
+    <li>entity_Fem->forma que s’amaga a plena vista</li>
+    <li>entity->caçador que roba ànimes</li>
+    <li>maybeAdjectiveEvil(p=2)-></li>
+    <li>maybeAdjectiveEvil->[adjectiveEvil] </li>
+    <li>adjectiveEvil->mortals</li>
+    <li>adjectiveEvil->antics</li>
+    <li>adjectiveEvil->maleïts</li>
+    <li>adjectiveEvil->retorçats</li>
+    <li>adjectiveEvil->poderosos</li>
+    <li>adjectiveEvil->nefastos</li>
+    <li>adjectiveEvil->espectrals</li>
+    <li>adjectiveEvil->eteris</li>
+    <li>adjectiveEvil->ominosos</li>
+    <li>adjectiveEvil->arcans</li>
+    <li>adjectiveEvil->surrealistes</li>
+    <li>adjectiveEvil->sorprenents</li>
+    <li>adjectiveEvil->fantasmagòrics</li>
+    <li>adjectiveEvil->enigmàtics</li>
+    <li>adjectiveEvil->infernals</li>
+    <li>adjectiveEvil->aberrants</li>
+    <li>writingQualityAdjective(quality==0)->inconnex</li>
+    <li>writingQualityAdjective(quality==0)->incoherent</li>
+    <li>writingQualityAdjective(quality==0)->sense sentit</li>
+    <li>writingQualityAdjective(quality==0)->terrible</li>
+    <li>writingQualityAdjective(quality==0)->pueril</li>
+    <li>writingQualityAdjective(quality==1)->dèbil</li>
+    <li>writingQualityAdjective(quality==1)->tediós</li>
+    <li>writingQualityAdjective(quality==1)->inconsistent</li>
+    <li>writingQualityAdjective(quality==1)->avorrit</li>
+    <li>writingQualityAdjective(quality==2)->desordenat</li>
+    <li>writingQualityAdjective(quality==2)->sense inspiració</li>
+    <li>writingQualityAdjective(quality==2)->mediocre</li>
+    <li>writingQualityAdjective(quality==2)->poc memorable</li>
+    <li>writingQualityAdjective(quality==2)->simple</li>
+    <li>writingQualityAdjective(quality==2)->acceptable</li>
+    <li>writingQualityAdjective(quality==3)->monòton</li>
+    <li>writingQualityAdjective(quality==3)->ben escrit</li>
+    <li>writingQualityAdjective(quality==3)->ben redactat</li>
+    <li>writingQualityAdjective(quality==3)->reflexiu</li>
+    <li>writingQualityAdjective(quality==3)->llegible</li>
+    <li>writingQualityAdjective(quality==3)->divertit</li>
+    <li>writingQualityAdjective(quality==4)->agradable</li>
+    <li>writingQualityAdjective(quality==4)->entretingut</li>
+    <li>writingQualityAdjective(quality==4)->emocionalment expressiu</li>
+    <li>writingQualityAdjective(quality==4)->estructurat de forma precisa</li>
+    <li>writingQualityAdjective(quality==4)->persuasiu</li>
+    <li>writingQualityAdjective(quality==4)->respectable</li>
+    <li>writingQualityAdjective(quality==5)->sòlid</li>
+    <li>writingQualityAdjective(quality==5)->ben executat</li>
+    <li>writingQualityAdjective(quality==5)->molt perspicaç</li>
+    <li>writingQualityAdjective(quality==5)->destacat</li>
+    <li>writingQualityAdjective(quality==5)->de primera classe</li>
+    <li>writingQualityAdjective(quality==5)->inspirador</li>
+    <li>writingQualityAdjective(quality==6)->enginyós</li>
+    <li>writingQualityAdjective(quality==6)->aterridorament perspicaç</li>
+    <li>writingQualityAdjective(quality==6)->únic</li>
+    <li>writingQualityAdjective(quality==6)->preciós</li>
+    <li>writingQualityAdjective(quality==6)->magistral</li>
+    <li>writingQualityAdjective(quality==6)->exquisit</li>
+    <li>writingQualityAdjective_Fem(quality==0)->inconnexa</li>
+    <li>writingQualityAdjective_Fem(quality==0)->incoherent</li>
+    <li>writingQualityAdjective_Fem(quality==0)->sense sentit</li>
+    <li>writingQualityAdjective_Fem(quality==0)->terrible</li>
+    <li>writingQualityAdjective_Fem(quality==0)->pueril</li>
+    <li>writingQualityAdjective_Fem(quality==1)->dèbil</li>
+    <li>writingQualityAdjective_Fem(quality==1)->tediosa</li>
+    <li>writingQualityAdjective_Fem(quality==1)->inconsistent</li>
+    <li>writingQualityAdjective_Fem(quality==2)->desordenada</li>
+    <li>writingQualityAdjective_Fem(quality==2)->sense inspiració</li>
+    <li>writingQualityAdjective_Fem(quality==2)->mediocre</li>
+    <li>writingQualityAdjective_Fem(quality==2)->poc memorable</li>
+    <li>writingQualityAdjective_Fem(quality==2)->simple</li>
+    <li>writingQualityAdjective_Fem(quality==2)->acceptable</li>
+    <li>writingQualityAdjective_Fem(quality==3)->monòtona</li>
+    <li>writingQualityAdjective_Fem(quality==3)->ben escrita</li>
+    <li>writingQualityAdjective_Fem(quality==3)->ben articulada</li>
+    <li>writingQualityAdjective_Fem(quality==3)->reflexiva</li>
+    <li>writingQualityAdjective_Fem(quality==3)->llegible</li>
+    <li>writingQualityAdjective_Fem(quality==3)->divertida</li>
+    <li>writingQualityAdjective_Fem(quality==4)->agradable</li>
+    <li>writingQualityAdjective_Fem(quality==4)->entretinguda</li>
+    <li>writingQualityAdjective_Fem(quality==4)->emocionalment expressiva</li>
+    <li>writingQualityAdjective_Fem(quality==4)->estructurada de forma precisa</li>
+    <li>writingQualityAdjective_Fem(quality==4)->persuasiva</li>
+    <li>writingQualityAdjective_Fem(quality==4)->respectable</li>
+    <li>writingQualityAdjective_Fem(quality==5)->sòlida</li>
+    <li>writingQualityAdjective_Fem(quality==5)->ben executada</li>
+    <li>writingQualityAdjective_Fem(quality==5)->molt perspicaç</li>
+    <li>writingQualityAdjective_Fem(quality==5)->destacada</li>
+    <li>writingQualityAdjective_Fem(quality==5)->de primera classe</li>
+    <li>writingQualityAdjective_Fem(quality==5)->inspiradora</li>
+    <li>writingQualityAdjective_Fem(quality==6)->enginyosa</li>
+    <li>writingQualityAdjective_Fem(quality==6)->aterridorament perspicaç</li>
+    <li>writingQualityAdjective_Fem(quality==6)->única</li>
+    <li>writingQualityAdjective_Fem(quality==6)->preciosa</li>
+    <li>writingQualityAdjective_Fem(quality==6)->magistral</li>
+    <li>writingQualityAdjective_Fem(quality==6)->exquisida</li>
+    <li>writingQualityAdjective_Pl(quality==0)->inconnexes</li>
+    <li>writingQualityAdjective_Pl(quality==0)->incoherents</li>
+    <li>writingQualityAdjective_Pl(quality==0)->sense sentit</li>
+    <li>writingQualityAdjective_Pl(quality==0)->terribles</li>
+    <li>writingQualityAdjective_Pl(quality==0)->puerils</li>
+    <li>writingQualityAdjective_Pl(quality==1)->dèbils</li>
+    <li>writingQualityAdjective_Pl(quality==1)->tedioses</li>
+    <li>writingQualityAdjective_Pl(quality==1)->inconsistents</li>
+    <li>writingQualityAdjective_Pl(quality==2)->desordenades</li>
+    <li>writingQualityAdjective_Pl(quality==2)->sense inspiració</li>
+    <li>writingQualityAdjective_Pl(quality==2)->mediocres</li>
+    <li>writingQualityAdjective_Pl(quality==2)->poc memorables</li>
+    <li>writingQualityAdjective_Pl(quality==2)->simples</li>
+    <li>writingQualityAdjective_Pl(quality==2)->acceptables</li>
+    <li>writingQualityAdjective_Pl(quality==3)->monòtones</li>
+    <li>writingQualityAdjective_Pl(quality==3)->ben escrites</li>
+    <li>writingQualityAdjective_Pl(quality==3)->ben articulades</li>
+    <li>writingQualityAdjective_Pl(quality==3)->reflexives</li>
+    <li>writingQualityAdjective_Pl(quality==3)->llegibles</li>
+    <li>writingQualityAdjective_Pl(quality==3)->divertides</li>
+    <li>writingQualityAdjective_Pl(quality==4)->agradables</li>
+    <li>writingQualityAdjective_Pl(quality==4)->entretingudes</li>
+    <li>writingQualityAdjective_Pl(quality==4)->emocionalment expressives</li>
+    <li>writingQualityAdjective_Pl(quality==4)->estructurades de forma precisa</li>
+    <li>writingQualityAdjective_Pl(quality==4)->persuasives</li>
+    <li>writingQualityAdjective_Pl(quality==4)->respectables</li>
+    <li>writingQualityAdjective_Pl(quality==5)->sòlides</li>
+    <li>writingQualityAdjective_Pl(quality==5)->ben executades</li>
+    <li>writingQualityAdjective_Pl(quality==5)->molt perspicaces</li>
+    <li>writingQualityAdjective_Pl(quality==5)->destacades</li>
+    <li>writingQualityAdjective_Pl(quality==5)->de primera classe</li>
+    <li>writingQualityAdjective_Pl(quality==5)->inspiradores</li>
+    <li>writingQualityAdjective_Pl(quality==6)->enginyoses</li>
+    <li>writingQualityAdjective_Pl(quality==6)->aterridorament perspicaces</li>
+    <li>writingQualityAdjective_Pl(quality==6)->úniques</li>
+    <li>writingQualityAdjective_Pl(quality==6)->precioses</li>
+    <li>writingQualityAdjective_Pl(quality==6)->magistrals</li>
+    <li>writingQualityAdjective_Pl(quality==6)->exquisides</li>
+    <li>writingQualitySentence(quality[greater_than]4)->El llibre [excellentDesc]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->El llibre [decentDesc]</li>
+    <li>writingQualitySentence(quality[less_than]2)->El llibre [awfulDesc]</li>
+    <li>awfulDesc->és il·legible</li>
+    <li>awfulDesc->està escrit amb lletra tremolosa</li>
+    <li>awfulDesc->està tacat amb licor sec</li>
+    <li>awfulDesc->és bastant incoherent</li>
+    <li>awfulDesc->és repetitiu i a moltes seccions els hi manquen detalls</li>
+    <li>awfulDesc->està descolorit i moltes parts no es poden llegir</li>
+    <li>awfulDesc->té moltes pàgines arrencades</li>
+    <li>awfulDesc->està totalment desorganitzat i se salta temes constantment</li>
+    <li>awfulDesc->està escrit en una llengua perduda</li>
+    <li>awfulDesc->està ple de paraules incomprensibles</li>
+    <li>awfulDesc->és infantil</li>
+    <li>awfulDesc->barreja la realitat amb la fantasia quan li convé</li>
+    <li>awfulDesc->sembla que es va escriure amb escriptura automàtica</li>
+    <li>awfulDesc->està tacat de licor i sang</li>
+    <li>awfulDesc->parla principalment d’un romanç entre dos [entities]</li>
+    <li>awfulDesc->parla principalment d’un romanç entre dues [entities_Fem]</li>
+    <li>decentDesc->és sòlid però s’hauria beneficiat d’una bona edició</li>
+    <li>decentDesc->és perspicaç en algunes parts, però altres seccions són innecessàries</li>
+    <li>decentDesc->és perceptiu, però només des d’un punt de vista retorçat</li>
+    <li>decentDesc->és molt detallat, però manquen interpretacions útils</li>
+    <li>decentDesc->té algunes pàgines arrencades</li>
+    <li>decentDesc->és útil, però se centra massa en els interessos personals de [justAuthorDef]</li>
+    <li>decentDesc->està ple d’informació útil, malgrat les distorsions i biaixos de [justAuthorDef]</li>
+    <li>decentDesc->està redactat de forma poc professional</li>
+    <li>decentDesc->és agradable encara que no del tot útil</li>
+    <li>decentDesc->està ple d’idees intrigants, però és difícil de llegir</li>
+    <li>decentDesc->està escrit per un intel·lecte de primera amb un temperament de segona</li>
+    <li>decentDesc->és decent però s’explica de manera molt embolicada</li>
+    <li>decentDesc->és terrorífic en el seu contingut i tediós en l’execució</li>
+    <li>excellentDesc->és l’apogeu de la literatura</li>
+    <li>excellentDesc->és profundament perspicaç</li>
+    <li>excellentDesc->està extraordinàriament ben elaborat</li>
+    <li>excellentDesc->està ben organitzat i l’estructura és professional</li>
+    <li>excellentDesc->és gairebé poètic en molts aspectes</li>
+    <li>excellentDesc->és terroríficament descriptiu: moltes seccions tenen un estil gairebé poètic</li>
+    <li>excellentDesc->està ple d’idees que fan explotar la ment</li>
+  </Description_Tome.rulePack.rulesStrings>
   
 </LanguageData>

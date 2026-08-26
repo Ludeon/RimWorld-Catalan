@@ -52,7 +52,7 @@
     <li>r_logentry->[INITIATOR_nameDef] [spoke] [darkSpeechAdverb] amb [RECIPIENT_nameDef] sobre [subjectDisturbing].</li>
     <li>spoke->ha parlat</li>
     <li>spoke->ha murmurat</li>
-    <li>spoke->s'ha posat a parlar</li>
+    <li>spoke->s’ha posat a parlar</li>
     <li>spoke->ha xiuxiuejat</li>
     <li>spoke(p=5)->[rambled]</li>
     <li>subjectDisturbing->[subjectDarkStudy]</li>
@@ -71,11 +71,11 @@
     <li>maybeDarkSpeechAdverb-></li>
     <li>maybeDarkSpeechAdverb->[darkSpeechAdverb]</li>
     <li>talkingAbout->al descriure</li>
-    <li>talkingAbout->a l'explicar</li>
+    <li>talkingAbout->a l’explicar</li>
     <li>talkingAbout->al queixar-se [maybeDarkSpeechAdverb] sobre</li>
     <li>talkingAbout->al parlar [maybeDarkSpeechAdverb] sobre</li>
     <li>talkingAbout->al malparlar [maybeDarkSpeechAdverb] sobre</li>
-    <li>talkingAbout->a l'entrar en detalls sobre</li>
+    <li>talkingAbout->a l’entrar en detalls sobre</li>
   </DisturbingChat.logRulesInitiator.rulesStrings>
   
   <!-- EN: inhuman rambling -->
@@ -165,11 +165,11 @@
     <li>identityTopic->les seves aficions i passatemps</li>
     <li>identityTopic->els seus valors i principis morals</li>
     <li>identityTopic->què [RECIPIENT_el_la] motiva</li>
-    <li>identityTopic->els motius d'algunes de les seves decisions</li>
+    <li>identityTopic->els motius d’algunes de les seves decisions</li>
     <li>identityTopic->les experiències traumàtiques passades</li>
     <li>identityTopic->els processos del pensament humà</li>
     <li>identityTopic->les seves experiències infantils</li>
-    <li>identityTopic->què li va passar a l'escola</li>
+    <li>identityTopic->què li va passar a l’escola</li>
     <li>identityTopic->quines experiències culturals ha tingut</li>
     <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
   </InterrogateIdentity.logRulesInitiator.rulesStrings>
