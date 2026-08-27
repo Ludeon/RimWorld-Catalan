@@ -208,7 +208,463 @@
     <li>bookType->biography</li>
     <li>bookType->epic poem</li>
   -->
-  <Description_Novel.rulePack.rulesStrings>TODO</Description_Novel.rulePack.rulesStrings>
+  <Description_Novel.rulePack.rulesStrings>
+    <!-- EN: 
+   <li>desc->This [writingQualityAdjective] [bookType] [follows] a [PersonJob] as [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->In this [writingQualityAdjective] [bookType], the [author] [tellsAStoryOf] [ANYPAWN_possessive] [storySource]. [writingQualitySentence]. [maybe_date]</li> -->
+    <li>desc->Aquesta [bookType] [writingQualityAdjective] [follows] [PersonJobIndef] mentre [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->En aquesta [bookType] [writingQualityAdjective], [author] [tellsAStoryOf] [storySource]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->[author] escriu una [bookTypeSourceBased] [writingQualityAdjective] a partir de [storySource]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->La trama d'aquesta [bookType] [writingQualityAdjective] gira entorn a [storySource]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->Aquesta [bookType] [writingQualityAdjective] neix de [storySource]. [writingQualitySentence]. [maybe_date]</li>
+    <!-- EN: 
+    <li>follows->follows</li>
+    <li>follows->covers</li>
+    <li>follows->tells the story of</li>
+    <li>follows->is written from the point of view of</li> -->
+    <li>follows->explica la història de</li>
+    <li>follows->narra la història de</li>
+    <li>follows->conta la història de</li>
+    <li>follows->escrita des del punt de vista de</li>
+    <!-- EN: 
+    <li>protagHe->he</li>
+    <li>protagHis->his</li>
+    <li>protagHim->him</li> -->
+    <!-- EN: 
+    <li>storyStruggles->[struggles] against [opponent]</li>
+    <li>storyStruggles->[seeks] [seekObjective]</li> -->
+    <li>storyStruggles->[struggles] [opponent]</li>
+    <li>storyStruggles->[seeks] [seekObjective]</li>
+    <!-- EN: 
+    <li>struggles->struggles</li>
+    <li>struggles->fights</li>
+    <li>struggles->strives</li>-->
+    <li>struggles->lluita contra</li>
+    <li>struggles->es baralla amb</li>
+    <li>struggles->combat</li>
+    <!-- EN: 
+    <li>opponent->injustice</li>
+    <li>opponent->fear</li>
+    <li>opponent->a dangerous [Enemy]</li>
+    <li>opponent->a rival [PersonJob]</li>
+    <li>opponent->the meaninglessness of [ConceptPositive]</li>
+    <li>opponent->[protagHis] evil [PersonFamily]</li>
+    <li>opponent->[protagHis] community's social norms</li>-->
+    <li>opponent->la injustícia</li>
+    <li>opponent->la por</li>
+    <li>opponent->un [Enemy] perillós</li>
+    <li>opponent->una [Enemy_Fem] perillosa</li>
+    <li>opponent->[PersonJobIndef] rival</li>
+    <li>opponent->l'absurd del [ConceptPositive]</li>
+    <li>opponent->l'absurt de la [ConceptPositive_Fem]</li>
+    <li>opponent->el seu malvat [PersonFamily]</li>
+    <li>opponent->la seva malvada [PersonFamily_Fem]</li>
+    <li>opponent->les normes socials de la seva comunitat</li>
+    <!-- EN: 
+    <li>seeks->seeks</li>
+    <li>seeks->searches the universe for</li>
+    <li>seeks->tries to find</li>
+    <li>seeks->looks inside [protagHim]self and across the world to find</li>
+    <li>seeks->desperately searches for</li>
+    <li>seeks->struggles to find</li>
+    <li>seeks->scours the land for</li>
+    <li>seeks->hunts down</li>
+    <li>seeks->deliberately pursues</li>
+    <li>seeks->expends every effort to find</li>
+    <li>seeks->doggedly pursues</li>
+    <li>seeks->leaves no stone unturned in search of</li>
+    <li>seeks->embarks on a quest for</li>
+    <li>seeks->rends [protagHis] flesh while seeking</li>
+    <li>seeks->strives to locate</li>
+    <li>seeks->diligently seeks out</li>
+    <li>seeks->wanders in search of</li>
+    <li>seeks->goes on a mission to find</li>-->
+    <li>seeks->busca</li>
+    <li>seeks->busca a l'univers</li>
+    <li>seeks->intenta trobar</li>
+    <li>seeks->busca en el seu interior i per tot el món per a trobar</li>
+    <li>seeks->busca desesperadament</li>
+    <li>seeks->lluita per a trobar</li>
+    <li>seeks->explora la terra a la recerca de</li>
+    <li>seeks->persegueix</li>
+    <li>seeks->persegueix sense defallir</li>
+    <li>seeks->remou cel i terra per a trobar</li>
+    <li>seeks->persegueix tenaçment</li>
+    <li>seeks->remou cel i terra a la recerca de</li>
+    <li>seeks->s'embarca en la recerca de</li>
+    <li>seeks->esquinça la seva carn a la recerca de</li>
+    <li>seeks->s'esforça per localitzar</li>
+    <li>seeks->busca diligentment</li>
+    <li>seeks->vaga a la recerca de</li>
+    <li>seeks->s'embarca en una missió per a trobar</li>
+    <!-- EN: 
+    <li>seekObjective->a mysterious golden cube</li>
+    <li>seekObjective->a demon inside [protagHis] own head</li>
+    <li>seekObjective->the best-tasting [Vegetable] in the universe</li>
+    <li>seekObjective->a shiny new [Weapon]</li>
+    <li>seekObjective->[protagHis] lost pet [Animal]</li>
+    <li>seekObjective->parts to rebuild a destroyed [Mechanoid]</li>
+    <li>seekObjective->a [TerrainFeature] that [protagHe] saw in a dream</li>
+    <li>seekObjective->an old flame</li>
+    <li>seekObjective->romantic satisfaction</li>
+    <li>seekObjective->a new kidney to replace [protagHis] own diseased kidney</li>
+    <li>seekObjective->food in a vast wasteland</li>
+    <li>seekObjective->the warmth and safety of home</li>
+    <li>seekObjective->love in a world full of hate</li>
+    <li>seekObjective->a long-lost family recipe</li>
+    <li>seekObjective->a childhood toy left behind</li>
+    <li>seekObjective->a stolen family heirloom</li>
+    <li>seekObjective->a mentor's lost journal</li>
+    <li>seekObjective->a rare collectible from [protagHis] favorite series</li>
+    <li>seekObjective->the perfect spot for a picnic</li>
+    <li>seekObjective->a missing piece from a prized collection</li>
+    <li>seekObjective->an apology for a past mistake</li>
+    <li>seekObjective->closure from a past relationship</li>
+    <li>seekObjective->a lost treasure map from childhood</li>
+    <li>seekObjective->a meaningful memento from a deceased loved one</li>
+    <li>seekObjective->a recipe for a cure to an illness</li>
+    <li>seekObjective->a rare plant for a personal garden</li>
+    <li>seekObjective->a letter written but never sent</li>
+    <li>seekObjective->an elusive answer to a philosophical question</li>
+    <li>seekObjective->a quiet moment away from the chaos</li>
+    <li>seekObjective->an old friend in a new city</li>
+    <li>seekObjective->the thrill of a forgotten hobby</li>
+    <li>seekObjective->a single moment of pure happiness</li>-->
+    <li>seekObjective->un misteriós cub daurat</li>
+    <li>seekObjective->un dimoni dins del seu propi cap</li>
+    <li>seekObjective->el [Vegetable] més saborós de l'univers</li>
+    <li>seekObjective->la [Vegetable_Fem] més saborosa de l'univers</li>
+    <li>seekObjective->un [Weapon] lluent</li>
+    <li>seekObjective->una [Weapon_Fem] lluenta</li>
+    <li>seekObjective->la seva mascota, un [Animal], perdut</li>
+    <li>seekObjective->la seva mascota, una [Animal_Fem], perduda</li>
+    <li>seekObjective->peces per a reconstruir un [Mechanoid] destruït</li>
+    <li>seekObjective->[TerrainFeatureIndef] que va veure en un somni</li>
+    <li>seekObjective->un vell amor</li>
+    <li>seekObjective->la satisfacció romàntica</li>
+    <li>seekObjective->un nou ronyó per a substituir el seu</li>
+    <li>seekObjective->menjar en un vast erm</li>
+    <li>seekObjective->l'escalfor i la seguretat de la llar</li>
+    <li>seekObjective->amor en un món ple d'odi</li>
+    <li>seekObjective->una recepta familiar perduda fa molt de temps</li>
+    <li>seekObjective->una joguina de la infància abandonada</li>
+    <li>seekObjective->una relíquia familiar robada</li>
+    <li>seekObjective->el diari perdut d'un mentor</li>
+    <li>seekObjective->un rar objecte de col·leccionista de la seva sèrie preferida</li>
+    <li>seekObjective->un lloc perfecte per a un pícnic</li>
+    <li>seekObjective->una peça perduda d'una valuosa col·lecció</li>
+    <li>seekObjective->una disculpa per un error passat</li>
+    <li>seekObjective->tancar les ferides d'una relació passada</li>
+    <li>seekObjective->un vell mapa del tresor de la infantesa perdut</li>
+    <li>seekObjective->un record d'un ésser estimat que va morir</li>
+    <li>seekObjective->una recepta per a curar una malaltia</li>
+    <li>seekObjective->una planta rara per al jardí</li>
+    <li>seekObjective->una carta escrita però mai enviada</li>
+    <li>seekObjective->una resposta elusiva a una pregunta filosòfica</li>
+    <li>seekObjective->un moment de tranquil·litat lluny del caos</li>
+    <li>seekObjective->un vell amic en una nova ciutat</li>
+    <li>seekObjective->l'emoció d'una afició oblidada</li>
+    <li>seekObjective->un moment de pura felicitat</li>
+    <!-- EN: 
+    <li>tellsAStoryOf->tells a tale about</li>
+    <li>tellsAStoryOf->goes into detail about</li>
+    <li>tellsAStoryOf->explores a story about</li>
+    <li>tellsAStoryOf->tells a story about</li>
+    <li>tellsAStoryOf->spins a narrative about</li>
+    <li>tellsAStoryOf->paints a picture of</li>
+    <li>tellsAStoryOf->dives deep into</li>
+    <li>tellsAStoryOf->unravels the tale of</li>
+    <li>tellsAStoryOf->reveals the journey of</li>
+    <li>tellsAStoryOf->captures the essence of</li>
+    <li>tellsAStoryOf->sheds light on</li>
+    <li>tellsAStoryOf->weaves together</li>
+    <li>tellsAStoryOf->portrays the experience of</li>
+    <li>tellsAStoryOf->embarks on the narrative of</li>
+    <li>tellsAStoryOf->depicts the story of</li>
+    <li>tellsAStoryOf->touches upon the tale of</li>
+    <li>tellsAStoryOf->presents the story of</li>
+    <li>tellsAStoryOf->conveys the journey of</li>
+    <li>tellsAStoryOf->delves into the story of</li>
+    <li>tellsAStoryOf->illuminates the narrative of</li>
+    <li>tellsAStoryOf->captures the saga of</li>
+    <li>tellsAStoryOf->paints a vivid picture of</li>
+    <li>tellsAStoryOf->weaves the tapestry of</li>
+    <li>tellsAStoryOf->explores the chronicle of</li>-->
+    <li>tellsAStoryOf->s'inspira en</li>
+    <li>tellsAStoryOf->parteix de</li>
+    <li>tellsAStoryOf->explora</li>
+    <li>tellsAStoryOf->evoca</li>
+    <li>tellsAStoryOf->recrea</li>
+    <li>tellsAStoryOf->reprèn</li>
+    <li>tellsAStoryOf->aborda</li>
+    <li>tellsAStoryOf->torna a parlar de</li>
+    <li>tellsAStoryOf->es recolza en</li>
+    <li>tellsAStoryOf->aprofundeix en</li>
+    <li>tellsAStoryOf->s'endinsa en</li>
+    <li>tellsAStoryOf->reimagina</li>
+    <li>tellsAStoryOf->retrata</li>
+    <li>tellsAStoryOf->narra</li>
+    <li>tellsAStoryOf->descriu</li>
+    <li>tellsAStoryOf->entra en detalls sobre</li>
+    <li>tellsAStoryOf->explica una història sobre</li>
+    <li>tellsAStoryOf->se submergeix en</li>
+    <li>tellsAStoryOf->captura l'essència de</li>
+    <li>tellsAStoryOf->pren com a punt de partida</li>
+    <li>tellsAStoryOf->dóna forma literària a</li>
+    <li>tellsAStoryOf->es nodreix de</li>
+    <li>tellsAStoryOf->converteix el relat en</li>
+    <!-- EN: 
+    <li>author->author</li>
+    <li>author->[authorTitle] [ANYPAWN_nameIndef]</li>
+    <li>author(p=2)->unnamed [authorTitle]</li>
+    <li>authorTitle->author</li>
+    <li>authorTitle->scribe</li>
+    <li>authorTitle->writer</li>
+    <li>authorTitle->poet</li>
+    <li>authorTitle->storyteller</li>-->
+    <li>author(ANYPAWN_gender!=Female)->l'autor</li>
+    <li>author(ANYPAWN_gender==Female)->l'autora</li>
+    <li>author->[authorTitle] [ANYPAWN_nameIndef]</li>
+    <li>author(p=2)->[theUnnamedAuthor]</li>
+    <li>authorTitle(ANYPAWN_gender!=Female)->l'autor</li>
+    <li>authorTitle(ANYPAWN_gender!=Female)->el copista</li>
+    <li>authorTitle(ANYPAWN_gender!=Female)->l'escriptor</li>
+    <li>authorTitle(ANYPAWN_gender!=Female)->el poeta</li>
+    <li>authorTitle(ANYPAWN_gender!=Female)->el contacontes</li>
+    <li>authorTitle(ANYPAWN_gender==Female)->l'autora</li>
+    <li>authorTitle(ANYPAWN_gender==Female)->la copista</li>
+    <li>authorTitle(ANYPAWN_gender==Female)->l'escriptora</li>
+    <li>authorTitle(ANYPAWN_gender==Female)->la poetessa</li>
+    <li>authorTitle(ANYPAWN_gender==Female)->la contacontes</li>
+    <li>theUnnamedAuthor(ANYPAWN_gender!=Female)->[authorTitle] anònim</li>
+    <li>theUnnamedAuthor(ANYPAWN_gender==Female)->[authorTitle] anònima</li>
+    <!-- EN: 
+    <li>storySource->personal experiences</li>
+    <li>storySource->youth</li>
+    <li>storySource->childhood</li>
+    <li>storySource->nation</li>
+    <li>storySource->home planet</li>
+    <li>storySource->grandfather</li>
+    <li>storySource->grandmother</li>
+    <li>storySource->experiences in the war</li>
+    <li>storySource->deepest fears</li>
+    <li>storySource->dreams of traveling to the stars</li>
+    <li>storySource->love of fresh [Vegetable]s</li>
+    <li>storySource->time as a [PersonJob]</li>
+    <li>storySource->favorite [Weapon]</li>
+    <li>storySource->experience fighting against [Mechanoid]s</li>
+    <li>storySource->youth growing up in a [Community]</li>
+    <li>storySource->gigantic [BodyPart]</li>
+    <li>storySource->memories of a lost friend</li>
+    <li>storySource->passion for music</li>
+    <li>storySource->curiosity about ancient ruins</li>
+    <li>storySource->attachment to a family heirloom</li>
+    <li>storySource->fascination with a mysterious figure</li>
+    <li>storySource->efforts to preserve a dying language</li>
+    <li>storySource->dreams of inventing something groundbreaking</li>
+    <li>storySource->connection to a mythical creature</li>
+    <li>storySource->affection for a particular landscape</li>
+    <li>storySource->aspirations of becoming a renowned [PersonJob]</li>
+    <li>storySource->struggles with social anxiety</li>
+    <li>storySource->longing for adventure beyond the horizon</li>
+    <li>storySource->bond with a robotic companion</li>
+    <li>storySource->adventures as a pirate in the past</li>
+    <li>storySource->close ties to a secret society</li>
+    <li>storySource->time spent as a nomad</li>
+    <li>storySource->fascination with time travel</li>
+    <li>storySource->connection to a legendary artifact</li>-->
+    <li>storySource->les seves experiències personals</li>
+    <li>storySource->la seva joventut</li>
+    <li>storySource->la seva infància</li>
+    <li>storySource->el seu poble d'origen</li>
+    <li>storySource->el seu planeta natal</li>
+    <li>storySource->la figura del seu avi</li>
+    <li>storySource->la figura de la seva àvia</li>
+    <li>storySource->les seves vivències a la guerra</li>
+    <li>storySource->les seves pors més profundes</li>
+    <li>storySource->el seu somni de viatjar a les estrelles</li>
+    <li>storySource->la seva passió pel menjar fresc</li>
+    <li>storySource->el seu amor per la cuina senzilla</li>
+    <li>storySource->el seu amor pels [Vegetable]s frescos</li>
+    <li>storySource->el seu amor per les [Vegetable_Fem]s fresques</li>
+    <li>storySource(ANYPAWN_gender!=Female)->la seva etapa com a [PersonJob]</li>
+    <li>storySource(ANYPAWN_gender==Female)->la seva etapa com a [PersonJob_Fem]</li>
+    <li>storySource->la seva predilecció per [WeaponIndef]</li>
+    <li>storySource->els seus enfrontaments amb [Mechanoid_Plural]</li>
+    <li>storySource->la seva joventut a [CommunityIndef]</li>
+    <li>storySource->l'estranyesa del seu descomunal [BodyPart]</li>
+    <li>storySource->l'estranyesa de la seva descomunal [BodyPart_Fem]</li>
+    <li>storySource->els seus records d'un amic desaparegut</li>
+    <li>storySource->la seva passió per la música</li>
+    <li>storySource->la seva curiositat per les ruïnes antigues</li>
+    <li>storySource->la seva afecció per una relíquia familiar</li>
+    <li>storySource->la seva fascinació per una figura misteriosa</li>
+    <li>storySource->el seu empeny per preservar una llengua moribunda</li>
+    <li>storySource->el seu somni d'inventar una cosa revolucionària</li>
+    <li>storySource->el seu vincle amb una criatura mítica</li>
+    <li>storySource->la seva afecció per un paisatge concret</li>
+    <li>storySource(ANYPAWN_gender!=Female)->la seva ambició de convertir-se en un [PersonJob] de renom</li>
+    <li>storySource(ANYPAWN_gender==Female)->la seva ambició de convertir-se en una [PersonJob_Fem] de renom</li>
+    <li>storySource->els seus problemes amb l'ansietat social</li>
+    <li>storySource->el seu anhel d'aventures més enllà de l'horitzó</li>
+    <li>storySource->el seu vincle amb un company robot</li>
+    <li>storySource->les seves velles aventures com a pirata</li>
+    <li>storySource->els seus vincles amb una societat secreta</li>
+    <li>storySource->la seva vida nòmada</li>
+    <li>storySource->la seva fascinació pels viatges en el temps</li>
+    <li>storySource->el seu vincle amb un artefacte llegendari</li>
+    <li>storySource->els seus records d'una colònia perduda</li>
+    <li>storySource->la seva obsessió per una troballa impossible</li>
+    <li>storySource->les històries que va sentir a la seva infantesa</li>
+    <!-- EN: 
+    <li>writingQualityAdjective(quality==6)->remarkably well-written</li>
+    <li>writingQualityAdjective(quality==5)->smart and insightful</li>
+    <li>writingQualityAdjective(quality==4)->thoughtful and eloquent</li>
+    <li>writingQualityAdjective(quality==3)->well-written</li>
+    <li>writingQualityAdjective(quality==2)->mediocre</li>
+    <li>writingQualityAdjective(quality==1)->poorly-written</li>
+    <li>writingQualityAdjective(quality==0)->nearly-incoherent</li>
+    <li>writingQualitySentence(quality[greater_than]4)->It is [excellentDesc] [excellentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->It is [decentDesc] [decentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]2)->It is [awfulDesc] [awfulExtra]</li>-->
+    <li>writingQualityAdjective(quality==6)->notablement ben redactada</li>
+    <li>writingQualityAdjective(quality==5)->intel·ligent i perspicaç</li>
+    <li>writingQualityAdjective(quality==4)->reflexiva y eloqüent</li>
+    <li>writingQualityAdjective(quality==3)->ben redactada</li>
+    <li>writingQualityAdjective(quality==2)->mediocre</li>
+    <li>writingQualityAdjective(quality==1)->mal redactada</li>
+    <li>writingQualityAdjective(quality==0)->incoherent</li>
+    <li>writingQualitySentence(quality[greater_than]4)->[excellentDesc] [excellentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->[decentDesc] [decentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]2)->[awfulDesc] [awfulExtra]</li>
+    <!-- EN: 
+    <li>excellentDesc->a thoughtful exploration of the human spirit</li>
+    <li>excellentDesc->deeply insightful about the complexity of the world</li>
+    <li>excellentDesc->tightly-written and rich with emotion</li>
+    <li>excellentDesc->creative and original</li>
+    <li>excellentDesc->wildly original and remarkably well-crafted</li>
+    <li>excellentDesc->filled with relatable humor</li>
+    <li>excellentExtra->. Each story beat flows naturally into the next</li>
+    <li>excellentExtra->. It is a page-turner and very hard to put down</li>
+    <li>excellentExtra->. It blows the reader's mind at least three times</li>
+    <li>excellentExtra->. The plot twists are unpredictable but also feel inevitable</li>
+    <li>excellentExtra->. The characters feel like real people</li>-->
+    <li>excellentDesc->Està escrita amb sensibilitat</li>
+    <li>excellentDesc->És aguda i sorprenentment encertada</li>
+    <li>excellentDesc->Ofereix una mirada lúcida i matisada</li>
+    <li>excellentDesc->Resulta original i molt ben construïda</li>
+    <li>excellentDesc->Té una veu pròpia i segura</li>
+    <li>excellentDesc->Està plena d'imatges memorables</li>
+    <li>excellentExtra->. Cada escena condueix amb naturalitat a la següent</li>
+    <li>excellentExtra->. Costa deixar-la un cop començada</li>
+    <li>excellentExtra->. Els girs sorprenen sense semblar forçats</li>
+    <li>excellentExtra->. Els seus personatges resulten convincents</li>
+    <li>excellentExtra->. Manté l'interès de principi a fi</li>
+    <!-- EN: 
+    <li>decentDesc->a decent story</li>
+    <li>decentDesc->interesting and engaging</li>
+    <li>decentDesc->focused on one interesting idea</li>
+    <li>decentDesc->somewhat humorous from time to time</li>
+    <li>decentDesc->gripping during some parts</li>
+    <li>decentDesc->original and quirky</li>
+    <li>decentDesc->appealing to a certain type of reader</li>-->
+    <li>decentDesc->És una lectura competent</li>
+    <li>decentDesc->Té idees interessants</li>
+    <li>decentDesc->Manté bastant bé l'interès</li>
+    <li>decentDesc->A estones resulta enginyosa</li>
+    <li>decentDesc->Es basa en una premissa atractiva</li>
+    <li>decentDesc->Té una certa personalitat</li>
+    <li>decentDesc->Pot connectar amb un públic molt concret</li>
+    <!-- EN: 
+    <li>decentExtra-> but has some glaring plot holes</li>
+    <li>decentExtra-> but is often hard to follow</li>
+    <li>decentExtra-> but is riddled with continuity errors</li>
+    <li>decentExtra-> but lacks any deep emotions</li>
+    <li>decentExtra-> but the characters are trite and cartoonish</li>
+    <li>decentExtra-> but the author constantly uses words inappropriately in an attempt to sound smart</li>
+    <li>decentExtra-> but the world is unoriginal and dull</li>
+    <li>decentExtra-> but the writing is excessively flowery</li>
+    <li>decentExtra-> but many of the story beats are unnecessary and fail to move the plot forward</li>-->
+    <li>decentExtra->, però té alguns forats argumentals evidents</li>
+    <li>decentExtra->, però sovint és difícil d'entendre</li>
+    <li>decentExtra->, però està plagada d'errors de coherència</li>
+    <li>decentExtra->, però hi manquen emocions profundes</li>
+    <li>decentExtra->, però els personatges són trivials i caricaturescos</li>
+    <li>decentExtra->, però l'autor utilitza constantment paraules de manera inapropiada per a semblar intel·ligent</li>
+    <li>decentExtra->, però el món és ensopit i avorrit</li>
+    <li>decentExtra->, pero a l'escriptura hi ha massa floritures</li>
+    <li>decentExtra->, però molts dels moments de la història són innecessaris i no fan avançar la trama</li>
+    <!-- EN: 
+    <li>awfulDesc->very poorly written</li>
+    <li>awfulDesc->terribly written</li>
+    <li>awfulDesc->hard to read</li>
+    <li>awfulDesc->hard to follow</li>
+    <li>awfulDesc->lacking in artistic vision</li>
+    <li>awfulDesc->filled with plot holes and generic characters</li>
+    <li>awfulDesc->dominated by an author self-insert character</li>
+    <li>awfulDesc->bizarre yet unoriginal</li>
+    <li>awfulDesc->far, far too long</li>-->
+    <li>awfulDesc->Està molt mal escrita</li>
+    <li>awfulDesc->Està construïda de manera maldestra</li>
+    <li>awfulDesc->Es fa costa amunt des del principi</li>
+    <li>awfulDesc->Es torna confusa a cada pas</li>
+    <li>awfulDesc->Hi manca una veu clara</li>
+    <li>awfulDesc->Acumula llocs comuns i personatges plans</li>
+    <li>awfulDesc->Sembla escrita per al lluïment d'un sol personatge</li>
+    <li>awfulDesc->És rara sense arribar a ser original</li>
+    <li>awfulDesc->S'allarga més del que és necessari</li>
+    <!-- EN: 
+    <li>awfulExtra-> and the writing is borderline incoherent</li>
+    <li>awfulExtra-> and is extremely hard to follow</li>
+    <li>awfulExtra-> and fails to assemble a coherent plot</li>
+    <li>awfulExtra-> and lacks any sense of theme or meaning</li>
+    <li>awfulExtra-> and doesn't present any interesting ideas at all</li>
+    <li>awfulExtra-> and every character is boring</li>
+    <li>awfulExtra-> and there is no identifiable protagonist at any point</li>-->
+    <li>awfulExtra-> i per moments frega l'inintel·ligible</li>
+    <li>awfulExtra-> i seguir-ne el fil exigeix massa esforç</li>
+    <li>awfulExtra-> i mai arriba a articular una trama coherent</li>
+    <li>awfulExtra-> i no transmet cap tema clar</li>
+    <li>awfulExtra-> i amb prou feines ofereix una idea interessant</li>
+    <li>awfulExtra-> i el repartiment resulta anodí</li>
+    <li>awfulExtra-> i ni tan sols queda clar qui protagonitza la història</li>
+    <!-- EN: 
+    <li>maybe_date-></li>
+    <li>maybe_date->The book was published [date_form].</li>
+    <li>maybe_date->The text was first printed [date_form].</li>
+    <li>maybe_date->It's unclear exactly when the book was written.</li>-->
+    <li>maybe_date-></li>
+    <li>maybe_date->El llibre es va publicar [date_form].</li>
+    <li>maybe_date->El text es va imprimir per primera vegada [date_form].</li>
+    <li>maybe_date->No està clar exactament quan es va escriure el llibre.</li>
+    <!-- EN: 
+    <li>date_form->recently</li>
+    <li>date_form->many centuries ago</li>
+    <li>date_form->on the [date]</li>
+    <li>date_form->in [date_season]</li>-->
+    <li>date_form->fa poc</li>
+    <li>date_form->fa molts segles</li>
+    <li>date_form->el [date]</li>
+    <li>date_form->en [date_season]</li>
+    <!-- EN: 
+    <li>bookType(p=4)->novel</li>
+    <li>bookType(p=2)->novella</li>
+    <li>bookType->story</li>
+    <li>bookType->narrative</li>
+    <li>bookType->biography</li>
+    <li>bookType->epic poem</li>-->
+    <li>bookTypeSourceBased(p=4)->novel·la</li>
+    <li>bookTypeSourceBased(p=2)->novel·la curta</li>
+    <li>bookTypeSourceBased->història</li>
+    <li>bookTypeSourceBased->narració</li>
+    <li>bookTypeSourceBased->crònica</li>
+    <li>bookType(p=4)->novel·la</li>
+    <li>bookType(p=2)->novel·la curta</li>
+    <li>bookType->història</li>
+    <li>bookType->narració</li>
+    <li>bookType->biografia</li>
+    <li>bookType->crònica</li>
+  </Description_Novel.rulePack.rulesStrings>
   
   <!-- EN:
     <li>subject->[subject_primary]</li>
