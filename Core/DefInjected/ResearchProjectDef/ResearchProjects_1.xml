@@ -218,7 +218,14 @@
     <li>subject_story->noticed, on the shores of an oceanic planet, that it was cooler where the sea spray settled</li>
     <li>subject_gerund->building passive coolers</li>
   -->
-  <PassiveCooler.generalRules.rulesStrings>TODO</PassiveCooler.generalRules.rulesStrings>
+  <PassiveCooler.generalRules.rulesStrings>
+    <li>subject->evaporació</li>
+    <li>subject->refrigeradors passius</li>
+    <li>subject_story->es va traslladar a un món tropical sufocant i va desenvolupar tècniques úniques per a mantenir-se a la fresca</li>
+    <li>subject_story->va investigar tècniques primitives per a refredar àrees i mantenir el comfirt de les biblioteques d'un centrimón</li>
+    <li>subject_story->va notar, a les costes d'un planeta oceànic, que feia més fred on hi havia escuma</li>
+    <li>subject_gerund->construint refrigeradors passius</li>
+  </PassiveCooler.generalRules.rulesStrings>
   
   <!-- EN: pemmican -->
   <Pemmican.label>pemmican</Pemmican.label>
@@ -231,7 +238,13 @@
     <li>subject_story->taught pemmican production to feral tribes</li>
     <li>subject_gerund->making pemmican</li>
   -->
-  <Pemmican.generalRules.rulesStrings>TODO</Pemmican.generalRules.rulesStrings>
+  <Pemmican.generalRules.rulesStrings>
+    <li>subject->producció de pemmican</li>
+    <li>subject_story->va dominar la producció de pemmican durant un llarg pelegrinatge al planeta Espiral</li>
+    <li>subject_story->va sobreviure només amb pemmican quan un vaixell de passatgers es va estavellar en un vidremón</li>
+    <li>subject_story->va ensenyar a fer pemmican a les tribus salvatges</li>
+    <li>subject_gerund->fent pemmican</li>
+  </Pemmican.generalRules.rulesStrings>
   
   <!-- EN: penoxycyline production -->
   <PenoxycylineProduction.label>producció de penoxicil·lina</PenoxycylineProduction.label>
@@ -244,7 +257,13 @@
     <li>subject_story->prevented an outbreak of malaria from spreading through careful penoxycyline dosage</li>
     <li>subject_gerund->synthesizing penoxycyline</li>
   -->
-  <PenoxycylineProduction.generalRules.rulesStrings>TODO</PenoxycylineProduction.generalRules.rulesStrings>
+  <PenoxycylineProduction.generalRules.rulesStrings>
+    <li>subject->producció de penoxicil·lina</li>
+    <li>subject_story->va donar una conferència a la seu dels Planetes Units sobre medicina preventiva</li>
+    <li>subject_story->venia un medicament que «no feia res» a Cascades Caigudes i [ANYPAWN_gender ? el : la] van condemnar a tres anys de presó</li>
+    <li>subject_story->va evitar que un brot de malària es propagués mitjançant una dosi acurada de penoxicil·lina</li>
+    <li>subject_gerund->sintetizant penoxicil·lina</li>
+  </PenoxycylineProduction.generalRules.rulesStrings>
   
   <!-- EN: plate armor -->
   <PlateArmor.label>armadura de plaques</PlateArmor.label>
@@ -257,7 +276,13 @@
     <li>subject_story->started the first armorworker's collective on an urbworld</li>
     <li>subject_gerund->smithing plate armor</li>
   -->
-  <PlateArmor.generalRules.rulesStrings>TODO</PlateArmor.generalRules.rulesStrings>
+  <PlateArmor.generalRules.rulesStrings>
+    <li>subject->armadura de plaques</li>
+    <li>subject_story->va elaborar una armadura feta a partir de ferralla quan les autoritats van envoltar la barraca de la seva família</li>
+    <li>subject_story->tenia una armadura de fusta a la qual li va créixer molsa i a partir de llavors [ANYPAWN_gender ? el van anomenar el Ferrer Verd : la van anomenar la Ferrera Verda]</li>
+    <li>subject_story->va començar el primer col·lectiu de forjadors d'armadures en un urbamón</li>
+    <li>subject_gerund->forjant armadures de plaques</li>
+  </PlateArmor.generalRules.rulesStrings>
   
   <!-- EN: psychite refining -->
   <PsychiteRefining.label>refinament de psiquita</PsychiteRefining.label>
@@ -270,7 +295,13 @@
     <li>subject_story->campaigned for the legalisation of yayo on a nearby urbworld</li>
     <li>subject_gerund->refining psychite</li>
   -->
-  <PsychiteRefining.generalRules.rulesStrings>TODO</PsychiteRefining.generalRules.rulesStrings>
+  <PsychiteRefining.generalRules.rulesStrings>
+    <li>subject->producció de psiquita</li>
+    <li>subject_story->va utilitzar la feina a la seva universitat com a tapadora per al tràfic de drogues</li>
+    <li>subject_story->va començar una comuna on es posaven flocs de dosis baixes al menjar</li>
+    <li>subject_story->va fer campanya per la legalització de la perica en un urbamón proper</li>
+    <li>subject_gerund->refinant psiquita</li>
+  </PsychiteRefining.generalRules.rulesStrings>
   
   <!-- EN: psychoid brewing -->
   <PsychoidBrewing.label>destil·lació de psicoides</PsychoidBrewing.label>
@@ -283,7 +314,13 @@
     <li>subject_story->legalized psychoid for mass production across several coreworlds, when [ANYPAWN_pronoun] had the power to do so</li>
     <li>subject_gerund->brewing psychoid</li>
   -->
-  <PsychoidBrewing.generalRules.rulesStrings>TODO</PsychoidBrewing.generalRules.rulesStrings>
+  <PsychoidBrewing.generalRules.rulesStrings>
+    <li>subject->psicoides</li>
+    <li>subject_story->va unir-se a una comuna que consumia psicoides</li>
+    <li>subject_story->va experimentar amb psicoides per a ajudar els soldats traumatitzats</li>
+    <li>subject_story->va legalitzar la producció en massa de psicoides a diversos centrimons</li>
+    <li>subject_gerund->elaborant psicoides</li>
+  </PsychoidBrewing.generalRules.rulesStrings>
   
   <!-- EN: recurve bow -->
   <RecurveBow.label>arc recorbat</RecurveBow.label>
@@ -297,7 +334,14 @@
     <li>subject_story->raised the colony children as hunter-gatherers, with every one a master archer</li>
     <li>subject_gerund->crafting bows</li>
   -->
-  <RecurveBow.generalRules.rulesStrings>TODO</RecurveBow.generalRules.rulesStrings>
+  <RecurveBow.generalRules.rulesStrings>
+    <li>subject->arcs recorbats</li>
+    <li>subject->confecció d'arcs</li>
+    <li>subject_story->va fer un seguiment d'un gambadabum rabiós durant quatre dies abans de matar-lo amb una sola fletxa</li>
+    <li>subject_story->va establir-se a prop d'un bosc per a assegurar-se que disposava dels millors materials per a fer arcs</li>
+    <li>subject_story->va criar els nens de la colònia, els va ensenyar les tècniques de caçadors-recol·lectors i tots van acabar sent mestres arquers</li>
+    <li>subject_gerund->elaborant arcs</li>
+  </RecurveBow.generalRules.rulesStrings>
   
   <!-- EN: smithing -->
   <Smithing.label>ferreria</Smithing.label>
@@ -309,7 +353,12 @@
     <li>subject_story->built glitterworld smithies for the Renaissance reenactment guilds</li>
     <li>subject_gerund->smithing</li>
   -->
-  <Smithing.generalRules.rulesStrings>TODO</Smithing.generalRules.rulesStrings>
+  <Smithing.generalRules.rulesStrings>
+    <li>subject->ferreria</li>
+    <li>subject_story->es va establir en un llogaret medieval i va dominar la forja senzilla de metalls</li>
+    <li>subject_story->va fundar ferreries en diversos brillamons per als gremis de recreació del Renaixement</li>
+    <li>subject_gerund->forjant</li>
+  </Smithing.generalRules.rulesStrings>
   
   <!-- EN: stonecutting -->
   <Stonecutting.label>treball de la pedra</Stonecutting.label>
@@ -323,7 +372,16 @@
     <li>subject_gerund->stonecutting</li>
     <li>subject_gerund->cutting stones</li>
   -->
-  <Stonecutting.generalRules.rulesStrings>TODO</Stonecutting.generalRules.rulesStrings>
+  <Stonecutting.generalRules.rulesStrings>
+    <li>subject->maçoneria</li>
+    <li>subject->treball de la pedra</li>
+    <li>subject->tallat de la pedra</li>
+    <li>subject_story->va ser el primer d'una saga de dissenyadors de temples, tots compartint el mateix nom</li>
+    <li>subject_story->va desenvolupar tècniques úniques per a tallar la roca més dura amb eines bàsiques</li>
+    <li>subject_story->va enrajolar tot un palau de virrei en un món medieval</li>
+    <li>subject_gerund->tallant pedra</li>
+    <li>subject_gerund->treballant la pedra</li>
+  </Stonecutting.generalRules.rulesStrings>
   
   <!-- EN: tree sowing -->
   <TreeSowing.label>plantar arbres</TreeSowing.label>
@@ -336,7 +394,16 @@
     <li>subject_story->worked in a tree nursery on an animal world</li>
     <li>subject_gerund->sowing trees</li>
   -->
-  <TreeSowing.generalRules.rulesStrings>TODO</TreeSowing.generalRules.rulesStrings>
+  <TreeSowing.generalRules.rulesStrings>
+    <li>subject->sembra d'arbres</li>
+    <li>subject->cultiu d'arbres</li>
+    <li>subject->plantacions d'arbres</li>
+    <li>subject_story->va dispersar arbres per tot un planetoide erm de feia molt de temps, intentant recuperar-hi la vida</li>
+    <li>subject_story->va publicar un article sobre el manteniment dels ecosistemes naturals</li>
+    <li>subject_story->va treballar en un viver d'arbres en un animalmón</li>
+    <li>subject_gerund->sembrant arbres</li>
+    <li>subject_gerund->plantant arbres</li>
+  </TreeSowing.generalRules.rulesStrings>
   
   <!-- EN: wake-up production -->
   <WakeUpProduction.label>producció de despertamina</WakeUpProduction.label>
@@ -349,6 +416,12 @@
     <li>subject_story->moved everyone to the dark side of an asteroid and used wake-up to maintain their biorhythms</li>
     <li>subject_gerund->synthesizing wake-up</li>
   -->
-  <WakeUpProduction.generalRules.rulesStrings>TODO</WakeUpProduction.generalRules.rulesStrings>
+  <WakeUpProduction.generalRules.rulesStrings>
+    <li>subject->producció de despertamina</li>
+    <li>subject_story->va intentar superar l'addicció a la cafeïna a base de prendre despertamina</li>
+    <li>subject_story->va tractar narcolèptics i somnàmbuls amb dosis de despertamina molt ben planificades</li>
+    <li>subject_story->va traslladar tothom al costat fosc d'un asteroide i va fer servir despertamina per a mantenir els seus bioritmes</li>
+    <li>subject_gerund->sintetitzant despertamina</li>
+  </WakeUpProduction.generalRules.rulesStrings>
   
 </LanguageData>
