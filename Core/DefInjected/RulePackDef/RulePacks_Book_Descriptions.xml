@@ -1301,7 +1301,1265 @@
     <li>date_form->on the [date]</li>
     <li>date_form->in [date_season]</li>
   -->
-  <Description_Schematic.rulePack.rulesStrings>TODO</Description_Schematic.rulePack.rulesStrings>
+  <Description_Schematic.rulePack.rulesStrings>
+    <!-- EN: 
+    <li>subject->[subject_primary]</li>
+    <li>desc(p=3)->[maybe_intro][schematic_desc].</li>
+    <li>desc->[maybe_intro][schematic_desc].\n\n[maybe_medium][author_story]. [linkage][subject_consequence].</li>
+    <li>desc(p=2)->[maybe_medium][author_story]. [linkage][subject_primary_story]. [maybe_outro]</li> -->
+    <li>subject->[subject_primary]</li>
+    <li>desc(p=3)->[maybe_intro][schematic_desc].</li>
+    <li>desc->[maybe_intro][schematic_desc].\n\n[maybe_medium][author_story]. [linkage][subject_consequence].</li>
+    <li>desc(p=2)->[maybe_medium][author_story]. [linkage][subject_primary_story]. [maybe_outro]</li>
+    <!-- EN: 
+    <li>maybe_intro(p=6)-></li>
+    <li>maybe_intro->[appearance]. </li>
+    <li>maybe_intro->[subject_intro]. </li>
+    <li>maybe_subject_intro(p=6)-></li>
+    <li>maybe_subject_intro->[subject_intro]. </li>
+    <li>maybe_medium(p=6)-></li>
+    <li>maybe_medium->[medium]. </li>-->
+    <li>maybe_intro(p=6)-></li>
+    <li>maybe_intro->[appearance]. </li>
+    <li>maybe_intro->[subject_intro]. </li>
+    <li>maybe_subject_intro(p=6)-></li>
+    <li>maybe_subject_intro->[subject_intro]. </li>
+    <li>maybe_medium(p=6)-></li>
+    <li>maybe_medium->[medium]. </li>
+    <!-- EN: 
+    <li>maybe_outro(p=5)-></li>
+    <li>maybe_outro->[aftermath]. </li>
+    <li>maybe_outro->[dates]. </li>
+    <li>maybe_outro->[appearance]. </li>
+    <li>maybe_physical_adjective-></li>
+    <li>maybe_physical_adjective->[physical_adjective] </li>
+    <li>maybe_date(p=3)-></li>
+    <li>maybe_date->[dates]</li>-->
+    <li>maybe_outro(p=5)-></li>
+    <li>maybe_outro->[aftermath]. </li>
+    <li>maybe_outro->[dates]. </li>
+    <li>maybe_outro->[appearance]. </li>
+    <li>maybe_physical_adjective-></li>
+    <li>maybe_physical_adjective->[physical_adjective] </li>
+    <li>maybe_date(p=3)-></li>
+    <li>maybe_date->[dates]</li>
+    <!-- EN: <li>subject_intro->the [schematic_synonym] [shows_synonym_verb]s a [state_adjective] [diagram_type] about [subject]</li>
+    <li>subject_intro->in this [schematic_synonym], the [author] [shows_synonym_verb]s [ANYPAWN_possessive] [theory_synonym_adj] of [subject]</li>
+    <li>subject_intro->this [physical_adjective] [schematic_synonym] [contain_verb]s [schematic_synonym]s focused on [subject]</li>
+    <li>subject_intro->the [author] has employed [notable_adjective] [image_types] to communicate [ANYPAWN_possessive] [theory_synonym_adj] of [subject]</li>
+    <li>subject_intro->[device_synonym]s associated with [subject_primary] are [shows_synonym_verb1]ed in this [maybe_physical_adjective][schematic_synonym]</li>
+    <li>subject_intro->the [schematic_synonym] [shows_synonym_verb]s a [state_adjective] [diagram_type] about [subject_primary] and [subject_secondary]</li>
+    <li>subject_intro->[device_synonym]s associated with [subject_primary] and [subject_secondary] are [shows_synonym_verb1]ed in this [maybe_physical_adjective][schematic_synonym]</li>-->
+    <li>subject_intro->el [schematic_synonym] [shows_synonym_verb] un [state_adjective] [diagram_type] sobre [subject]</li>
+    <li>subject_intro->en aquest [schematic_synonym], [the_author] [shows_synonym_verb] [theory_synonym_adj] [subject]</li>
+    <li>subject_intro->aquest [physical_adjective] [schematic_synonym] [contain_verb1] [schematic_synonym]s centrats en [subject]</li>
+    <li>subject_intro->[the_author] ha fet servir [notable_adjective] [image_types] per a explicar [theory_synonym_adj] [subject]</li>
+    <li>subject_intro->els [device_synonymPl] associats amb [subject_primary] es [shows_synonym_verb3] en aquest [maybe_physical_adjective][schematic_synonym]</li>
+    <li>subject_intro->el [schematic_synonym] [shows_synonym_verb] un [state_adjective] [diagram_type] sobre [subject_primary] i [subject_secondary]</li>
+    <li>subject_intro->els [device_synonymPl] associats amb [subject_primary] i [subject_secondary] es [shows_synonym_verb3] en aquest [maybe_physical_adjective][schematic_synonym]</li>
+    <!-- EN: 
+    <li>schematic_desc->[schematic_desc_first][schematic_desc_second]</li>
+    <li>schematic_desc_first->the ancient technology described here for [subject_primary_gerund] is [negative_adjective] compared to present systems</li>
+    <li>schematic_desc_first->this is only a fragment of a full [schematic_synonym] for [subject_primary_gerund] </li>
+    <li>schematic_desc_first->this [schematic_synonym] is [negative_adjective] in several places</li>
+    <li>schematic_desc_first->the [schematic_synonym] for [subject_primary_gerund] is incomplete</li>
+    <li>schematic_desc_first->[subject_primary_gerund] with these [schematic_synonym]s is complicated by contradictory annotations</li>
+    <li>schematic_desc_first->the author's [negative_adjective] understanding of [subject_primary_gerund] is apparent throughout</li>
+    <li>schematic_desc_first->part of the [schematic_synonym] has been torn away</li>
+    <li>schematic_desc_first->fire and soot have marred the paper</li>
+    <li>schematic_desc_first->the [schematic_synonym] for [subject_primary_gerund] is too [negative_adjective]</li>
+    <li>schematic_desc_first->the limited [other_subject] for [subject_primary_gerund] compromised this [schematic_synonym]</li>
+    <li>schematic_desc_first->imprecise details about [subject_primary_gerund] make implementing this [schematic_synonym] difficult</li>
+    <li>schematic_desc_first->this [negative_adjective] [schematic_synonym] sometimes causes errors when [subject_primary_gerund]</li>
+    <li>schematic_desc_first->this [schematic_synonym] for [subject_primary_gerund] fails aesthetically</li>
+    <li>schematic_desc_first->a lack of imagination about [subject_primary_gerund] has limited this [schematic_synonym]</li>
+    <li>schematic_desc_first->this [schematic_container] provides many contradictory specifications for [subject_primary_gerund]</li>
+    <li>schematic_desc_first->disagreements over [other_subject] have left ambiguities in this [schematic_synonym] for [subject_primary_gerund]</li>
+    <li>schematic_desc_first->sloppy draftsmanship undermines the [author]'s meticulous plans for [subject_primary_gerund]</li>
+    <li>schematic_desc_first->worries about the [other_subject] for [subject_primary_gerund] limited this [schematic_synonym]</li>
+    <li>schematic_desc_first->this [schematic_synonym] for [subject_primary_gerund] has been copied repeatedly, obscuring its contents</li>
+    <li>schematic_desc_first->this [schematic_synonym] establishes no real connection between [subject_primary_gerund] and [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->[subject_primary_gerund] and [subject_secondary_gerund] are not easily paired</li>
+    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on both [subject_primary_gerund] and [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on both [subject_tertiary_gerund] and [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on both [subject_primary_gerund] and [subject_tertiary_gerund]</li>
+    <li>schematic_desc_first->this [schematic_container] has [schematic_synonym]s on  [subject_primary_gerund], [subject_secondary_gerund] and [subject_tertiary_gerund]</li>-->
+    <li>schematic_desc->[schematic_desc_first][schematic_desc_second]</li>
+    <li>schematic_desc_first->la tecnologia antiga descrita aquí sobre [subject_primary_gerund] és [negative_adjective] comparada amb els sistemes actuals</li>
+    <li>schematic_desc_first->això és només un fragment d'un [schematic_synonym] complet sobre [subject_primary_gerund]</li>
+    <li>schematic_desc_first->aquest [schematic_synonym] és [negative_adjective] en diversos llocs</li>
+    <li>schematic_desc_first->el [schematic_synonym] sobre [subject_primary_gerund] està incomplet</li>
+    <li>schematic_desc_first->la [subject_primary_gerund] amb aquest [schematic_synonym] és difícil d'entendre per les anotacions contradictòries</li>
+    <li>schematic_desc_first->la comprensió [negative_adjective] sobre [subject_primary_gerund] per part [of_author] és evident en tot moment</li>
+    <li>schematic_desc_first->part del [schematic_synonym] ha estat arrencat</li>
+    <li>schematic_desc_first->el foc i la humitat han fet malbé el paper</li>
+    <li>schematic_desc_first->el [schematic_synonym] sobre [subject_primary_gerund] és massa [negative_adjective]</li>
+    <li>schematic_desc_first->la [other_subject] limitada sobre [subject_primary_gerund] va comprometre aquest [schematic_synonym]</li>
+    <li>schematic_desc_first->els detalls imprecisos sobre [subject_primary_gerund] dificulten l'aplicació d'aquest [schematic_synonym]</li>
+    <li>schematic_desc_first->aquest [schematic_synonym] [negative_adjective] de vegades té errors en el tema sobre [subject_primary_gerund]</li>
+    <li>schematic_desc_first->aquest [schematic_synonym] sobre [subject_primary_gerund] té bastants errors</li>
+    <li>schematic_desc_first->la falta d'imaginació sobre [subject_primary_gerund] ha limitat aquest [schematic_synonym]</li>
+    <li>schematic_desc_first->aquest [schematic_container] proporciona moltes especificacions contradictòries sobre [subject_primary_gerund]</li>
+    <li>schematic_desc_first->els desacords sobre la [other_subject] han deixat ambigüitats en aquest [schematic_synonym] sobre [subject_primary_gerund]</li>
+    <li>schematic_desc_first->una redacció maldestra fa perdre utilitat als meticulosos plans [of_author] sobre [subject_primary_gerund]</li>
+    <li>schematic_desc_first->els problemes per la [other_subject] sobre [subject_primary_gerund] limiten el [schematic_synonym]</li>
+    <li>schematic_desc_first->el [schematic_synonym] sobre [subject_primary_gerund] ha estat copiat repetidament, fins a fer malbé el seu contingut</li>
+    <li>schematic_desc_first->aquest [schematic_synonym] no estableix cap connexió real entre [subject_primary_gerund] i [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->[subject_primary_gerund] i [subject_secondary_gerund] no són fàcils d'aparellar</li>
+    <li>schematic_desc_first->aquest [schematic_container] té [schematic_synonym]s tant sobre [subject_primary_gerund] com sobre [subject_secondary_gerund]</li>
+    <li>schematic_desc_first->aquest [schematic_container] té [schematic_synonym]s tant sobre [subject_tertiary_gerund] com sobre [subject_secondary_gerund].</li>
+    <li>schematic_desc_first->aquest [schematic_container] té [schematic_synonym]s tant sobre [subject_primary_gerund] com sobre [subject_tertiary_gerund].</li>
+    <li>schematic_desc_first->aquest [schematic_container] té [schematic_synonym]s sobre [subject_primary_gerund], [subject_secondary_gerund] i [subject_tertiary_gerund].</li>
+    <!-- EN: 
+    <li>schematic_desc_second(quality[less_than]2)->. This is frustrating for those learning the subject</li>
+    <li>schematic_desc_second(quality[less_than]2)->, making it valueless for most purposes</li>
+    <li>schematic_desc_second(quality[less_than]2)->, undermining the lessons that it communicates</li>
+    <li>schematic_desc_second(quality[less_than]2)->. Only beginners will benefit from its lessons</li>
+    <li>schematic_desc_second(quality[less_than]2)->. A misleading schematic can be worse than having no schematic at all</li>
+    <li>schematic_desc_second(quality[less_than]2)->, rendering it of questionable utility</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, but the basics are present</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, but it still [contain_verb]s enough data to provide insights</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. However, this doesn't detract from its utility to experienced practitioners</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, though it still has some value to most students</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Beginners will still benefit from its teachings</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. However, only experts will notice the flaws</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Yet, the content is exceptional for the era</li>
+    <li>schematic_desc_second(quality[greater_than]4)->, yet it conveys advanced concepts with ease</li>
+    <li>schematic_desc_second(quality[greater_than]4)->, but it is still full of wisdom for all learners</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Despite this, every student will benefit from reading it, no matter how experienced</li>
+    <li>schematic_desc_second(quality[greater_than]4)->, but the issues are minor compared to the wealth of knowledge it contains</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. However, the lessons it teaches are timeless</li>-->
+    <li>schematic_desc_second(quality[less_than]2)->. Això és frustrant per als qui aprenen la matèria</li>
+    <li>schematic_desc_second(quality[less_than]2)->, per la qual cosa manca valor per a la majoria de finalitats</li>
+    <li>schematic_desc_second(quality[less_than]2)->, soscavant les lliçons que comunica</li>
+    <li>schematic_desc_second(quality[less_than]2)->. Només els principiants es beneficiaran de les seves lliçons</li>
+    <li>schematic_desc_second(quality[less_than]2)->. Una guia enganyosa pot ser pitjor que no tenir cap guia</li>
+    <li>schematic_desc_second(quality[less_than]2)->, de manera que la seva utilitat és qüestionable</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, però el més bàsic hi és present</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, però conté prou dades per proporcionar informació</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Tot i això, això no li resta utilitat per als professionals experimentats</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, tot i que continua tenint un cert valor per a la majoria d'estudiants</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Els principiants es beneficiaran dels seus ensenyaments</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. No obstant això, només els experts en notaran els defectes</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Malgrat tot, el contingut és excepcional per a l'època</li>
+    <li>schematic_desc_second(quality[greater_than]4)->, però transmet conceptes avançats amb facilitat</li>
+    <li>schematic_desc_second(quality[greater_than]4)->, però continua estant ple de saviesa per a tots els alumnes</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Malgrat això, tots les estudiants es beneficiaran de la seva lectura, independentment de la seva experiència</li>
+    <li>schematic_desc_second(quality[greater_than]4)->, però els problemes són menors comparats amb la riquesa de coneixements que conté</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Tanmateix, les lliçons que ensenya són atemporals</li>
+    <!-- EN: 
+    <li>medium->An in-built sensory system [tells_verb]s to listeners [schematic_origin]</li>
+    <li>medium->Rolled inside is a sheaf of personal papers, [tells_verb]ing [schematic_origin]</li>
+    <li>medium->A sticker [tells_verb]s limited information about [schematic_origin]</li>
+    <li>medium->An included informational pamphlet [tells_verb]s [schematic_origin]</li>
+    <li>medium->Loose leaves of parchment [tells_verb] [schematic_origin]</li>
+    <li>medium->A second sheet of paper [tells_verb]s [schematic_origin]</li>
+    <li>medium->Inscribed stone tablets [tells_verb] [schematic_origin]</li>
+    <li>medium->A plasteel [schematic_container] is inscribed with [schematic_origin]</li>
+    <li>medium->A scrawled note falls out, which [tells_verb]s [schematic_origin]</li>
+    <li>medium->The rear of the document [tells_verb]s more about [schematic_origin]</li>
+    <li>medium->A recording plays, [tells_verb]ing [schematic_origin]</li>
+    <li>medium->[schematic_origin] would be a matter of conjecture, if not for notes on the document</li>
+    <li>medium(p=4)->[schematic_origin] is known but included in the document's notes</li>
+    <li>medium->An attached diary tells [schematic_origin]</li>
+    <li>medium->An archaic mechanism [tells_verb]s [schematic_origin]</li>
+    <li>medium->A miniature mechanoid whirrs into life, telling [schematic_origin]</li>-->
+    <li>medium->Un sistema sensorial incorporat explica als oients [schematic_origin]</li>
+    <li>medium->A dins hi ha un feix de papers personals que expliquen [schematic_origin]</li>
+    <li>medium->Un adhesiu dóna informació limitada sobre [schematic_origin]</li>
+    <li>medium->Un fullet informatiu inclòs explica [schematic_origin]</li>
+    <li>medium->Fulls solts de pergamí relaten [schematic_origin]</li>
+    <li>medium->Un segon full de paper torna a contar [schematic_origin]</li>
+    <li>medium->Tauletes de pedra inscrites relaten [schematic_origin]</li>
+    <li>medium->Un [schematic_container] de plastacer porta inscrit [schematic_origin]</li>
+    <li>medium->Cau una nota brossada, que explica [schematic_origin]</li>
+    <li>medium->La part posterior del document dóna més informació sobre [schematic_origin]</li>
+    <li>medium->Sona una gravació que explica [schematic_origin]</li>
+    <li>medium->[schematic_origin] seria una conjectura, si no fos per les notes sobre el document</li>
+    <li>medium(p=4)->[schematic_origin] es coneix però s'inclou a les notes del document</li>
+    <li>medium->Un diari adjunt explica [schematic_origin]</li>
+    <li>medium->Un mecanisme arcaic relata [schematic_origin]</li>
+    <li>medium->Un mecanoide en miniatura pren vida i relata [schematic_origin]</li>
+    <!-- EN: 
+    <li>tells_verb->tell</li>
+    <li>tells_verb->relay</li>
+    <li>tells_verb->recount</li>
+    <li>tells_verb->report</li>-->
+    <li>tells_verb->explica</li>
+    <li>tells_verb->relata</li>
+    <li>tells_verb->torna a contar</li>
+    <li>tells_verb->informa de</li>
+    <li>tells_verb_ing->explicant</li>
+    <li>tells_verb_ing->relatant</li>
+    <li>tells_verb_ing->contant</li>
+    <li>tells_verb_ing->informant de</li>
+    <!-- EN: 
+    <li>schematic_origin->the [notable_adjective] story of the schematic's creation</li>
+    <li>schematic_origin->how the author came to create the schematic</li>
+    <li>schematic_origin->the [notable_adjective] life of the schematic's author</li>
+    <li>schematic_origin->a story about this schematic's creation</li>
+    <li>schematic_origin->the origin of this [notable_adjective] diagram</li>
+    <li>schematic_origin->a [notable_adjective] tale about the author's life</li>
+    <li>schematic_origin->a rumor about why this [notable_adjective] document ended up on the Rim and who wrote it</li>-->
+    <li>schematic_origin->el [notable_adjective] historial de la creació de la guia</li>
+    <li>schematic_origin->com va arribar [author] a crear aquests manuals</li>
+    <li>schematic_origin->una història sobre la creació d'aquesta guia</li>
+    <li>schematic_origin->l'origen d'aquest [notable_adjective] manual</li>
+    <li>schematic_origin->un [notable_adjective] relat sobre la vida de [author]</li>
+    <li>schematic_origin->un rumor sobre per què aquest [notable_adjective] document va acabar als voramons i qui el va escriure</li>
+    <!-- EN: 
+    <li>author_story->[author_storyname][author_intent]</li>
+    <li>author_story->[author_storyname][learning_story]</li>
+    <li>author_story->[author_storyname][calltoadventure]</li>
+    <li>author_storyname(p=3)->[ANYPAWN_nameFull]</li>
+    <li>author_storyname->the unnamed [authorTitle]</li>-->
+    <li>author_story->[author_storyname][author_intent]</li>
+    <li>author_story->[author_storyname][learning_story]</li>
+    <li>author_story->[author_storyname][calltoadventure]</li>
+    <li>author_storyname(p=3)->[ANYPAWN_nameFull]</li>
+    <li>author_storyname->[theUnnamedAuthor]</li>
+    <!-- EN: 
+    <li>author_intent-> was hungry for knowledge about [subject] from a young age and questioned everyone in [ANYPAWN_possessive] hometown</li>
+    <li>author_intent-> dreamed of rejuvenating [subject], leading a scientific revolution on Kuhn[worldname]</li>
+    <li>author_intent-> made [subject] [ANYPAWN_possessive] life's work</li>
+    <li>author_intent-> shared [ANYPAWN_possessive] views on [subject] in a [physical_adjective] book, written [written_when]</li>
+    <li>author_intent-> knew of no calling finer than the study of [subject] and created this schematic [written_when]</li>
+    <li>author_intent-> happened across the secrets of [subject] in [ANYPAWN_possessive] mother's [physical_adjective] study</li>
+    <li>author_intent-> was severely ill as a child but used the time to study [subject]</li>
+    <li>author_intent-> wanted the world to know about [subject] and, [written_when], created this schematic</li>
+    <li>author_intent-> needed the galaxy to know about [subject]</li>
+    <li>author_intent-> was lured into a love of [subject] by a children's book series</li>
+    <li>author_intent-> never loved the study of [subject] but was obliged to do it</li>
+    <li>author_intent-> felt [subject] was [ANYPAWN_possessive] calling</li>-->
+    <li>author_intent-> devorava tots els coneixements que podia sobre [subject] des de molt jove i preguntava a tothom a la seva ciutat natal</li>
+    <li>author_intent-> somiava en fer descobriments sobre [subject], liderant una revolució científica a Kuhn[worldname]</li>
+    <li>author_intent-> va fer de [subject] el treball de la seva vida</li>
+    <li>author_intent-> va compartir les seves opinions sobre [subject] en un llibre [physical_adjective], escrit [written_when].</li>
+    <li>author_intent-> no va conèixer cap vocació més noble que l'estudi sobre [subject] i va crear aquesta guia [written_when]</li>
+    <li>author_intent-> es va topar amb els secrets sobre [subject] a l'estudi [physical_adjective] de la seva mare</li>
+    <li>author_intent-> va estar greument feri[ANYPAWN_t_da] a l'hospital durant la seva infantesa, però va aprofitar el temps per a estudiar [subject]</li>
+    <li>author_intent-> volia que el món conegués [subject] i, [written_when], va crear aquest plànol</li>
+    <li>author_intent-> necessitava que la galàxia fos coneixedora de [subject]</li>
+    <li>author_intent-> es va aficionar a [subject] per una sèrie de llibres infantils</li>
+    <li>author_intent-> mai va estimar l'estudi sobre [subject] però es va veure obliga[ANYPAWN_t_da] a fer-ho</li>
+    <li>author_intent-> sentia que l'aprenentatge de [subject] seria la seva vida des del seu naixement</li>
+    <!-- EN: 
+    <li>learning_story-> traveled far and wide, seeking wisdom about [subject]</li>
+    <li>learning_story-> lived an identical day every day, working on [subject] in the cyclical cities of [midworld]</li>
+    <li>learning_story-> came up through a [subject]-focused slumschool on [urbworld]</li>
+    <li>learning_story-> graduated with honors in [subject] from the [worldname] Academy</li>
+    <li>learning_story-> taught [ANYPAWN_objective]self about [subject] on the feral world of [animalworld]</li>
+    <li>learning_story-> discovered a trove of lost schematics about [subject] in the ruins of [ruinworld]</li>
+    <li>learning_story-> traversed the blackened streets of [steamworld], chasing [subject] amidst the sootfall</li>
+    <li>learning_story-> somehow survived the toxin swamps of [toxicworld], where rumors spread of [subject] experts</li>
+    <li>learning_story-> scoured the melted suburbs of the glassed world of [glassworld], searching for knowledge of [subject]</li>
+    <li>learning_story-> orbited the transcendent sphere of [transcendentworld], learning of [subject] by intercepting comms traffic</li>
+    <li>learning_story-> went with the mules into the depths of [mineworld], listening to old miners tell stories of [subject] and learning its secrets</li>
+    <li>learning_story-> was an indentured [subject] expert on the coreworld of [coreworld]</li>
+    <li>learning_story-> owned the factories on the indworld of [indworld], indulging [ANYPAWN_possessive] love of [subject] whilst [ANYPAWN_possessive] workers slaved away</li>
+    <li>learning_story-> learned about [subject] incarcerated in Cellcity V on [prisonworld], forever protesting [ANYPAWN_possessive] innocence</li>
+    <li>learning_story-> pieced together this [subject] schematic in the hive-heaps of the trashworld [trashworld], collecting fragments discarded by idle glitterworld citizens</li>
+    <li>learning_story-> raised cloned apatovores on [dinoworld] and traded their meat for knowledge of [subject]</li>
+    <li>learning_story-> lived in the skyrippers of [urbworld], where knowledge of [subject] was common</li>
+    <li>learning_story-> was raised in the outer deadlands of [ruinworld], learning [subject] to survive</li>-->
+    <li>learning_story-> va viatjar per tot arreu, buscant saviesa sobre [subject]</li>
+    <li>learning_story-> vivia un dia idèntic cada dia, treballant en [subject] a les ciutats cícliques de [midworld]</li>
+    <li>learning_story-> va estudiar en una escola dels barris marginals que se centrava en [subject] a [urbworld]</li>
+    <li>learning_story-> es va graduar amb matrícula d'honor en [subject] a l'Acadèmia de [worldname]</li>
+    <li>learning_story-> va aprendre sobre [subject] al món salvatge [animalworld]</li>
+    <li>learning_story-> va descobrir un tresor de plànols perduts sobre [subject] a les ruïnes de [ruinworld]</li>
+    <li>learning_story-> va travessar els carrers ennegrits de [steamworld], aprenent sobre [subject] entre els seus fums</li>
+    <li>learning_story-> va sobreviure d'alguna manera als aiguamolls de toxines de [toxicworld], on va trobar-hi experts en [subject]</li>
+    <li>learning_story-> va recórrer els suburbis fosos del vidremón [glassworld], a la recerca de coneixements sobre [subject]</li>
+    <li>learning_story-> va orbitar l'esfera transcendent de [transcendentworld] on va aprendre moltes coses sobre [subject] a base d'interceptar comunicacions</li>
+    <li>learning_story-> es va endinsar amb les mules a les profunditats de [mineworld], escoltant els vells miners explicar històries de [subject] i aprenent els seus secrets</li>
+    <li>learning_story-> era especialista en [subject] al centrimón [coreworld]</li>
+    <li>learning_story-> posseïa fàbriques a l'industrialmón [indworld], complaent la seva passió en [subject] mentre els seus treballadors servien com a esclaus</li>
+    <li>learning_story-> va aprendre moltes coses sobre [subject] empresona[ANYPAWN_t_da] a la presó Ciutat-Cel·la V de [prisonworld], sempre protestant i proclamant la seva innocència</li>
+    <li>learning_story-> va reconstruir aquestes guies sobre [subject] als eixams de [trashworld], recollint les deixalles dels ciutadans brillamoners</li>
+    <li>learning_story-> criava apatòvors clonats a [dinoworld] i bescanviava la seva carn per coneixements sobre [subject]</li>
+    <li>learning_story-> va viure als gratacels de [urbworld], on els coneixements sobre [subject] eren molt comuns</li>
+    <li>learning_story-> es va criar a les terres mortes de [ruinworld], aprenent sobre [subject] per a sobreviure</li>
+    <!-- EN: 
+    <li>calltoadventure-> felt [ANYPAWN_possessive] life was stagnant. Then one day, [ANYPAWN_pronoun] found [subject]</li>
+    <li>calltoadventure-> was entrusted with starting a new colony, on [ANYPAWN_possessive] own, focused on [subject]</li>
+    <li>calltoadventure->'s older sibling passed away, leaving [ANYPAWN_objective] as the family [subject] specialist</li>
+    <li>calltoadventure-> learned of an abandoned Glitterworld colony that focused on [subject]</li>
+    <li>calltoadventure-> was on a solar cruiser when it was captured by [feudalworld] pirates. As a [subject] expert, they ransomed him for a high price</li>
+    <li>calltoadventure-> was blown off course to the deadworld of [deadworld], where [ANYPAWN_pronoun] learned about [subject]</li>
+    <li>calltoadventure-> discovered a data file about [subject] in a broken mechanoid and learned from it</li>
+    <li>calltoadventure-> followed a dirtmole down its burrow, where it taught [ANYPAWN_objective] about [subject]</li>
+    <li>calltoadventure-> was brought up by a [subject]-loving Yttakin clan on [iceworld]</li>
+    <li>calltoadventure-> was created by sanguophage cloners and found pleasure in [subject]</li>
+    <li>calltoadventure-> was raised on [warworld], escaping in a stolen cargo pod. The only reading for months was a [subject] manual</li>
+    <li>calltoadventure-> spent [ANYPAWN_possessive] lifetime travelling up through the layers of the shellworld [shellworld], chasing a malfunctioning [subject] mechanoid</li>
+    <li>calltoadventure-> escaped serfdom in the hamlets of [medievalworld] by stowing away on the starship of a trader who was an expert in [subject]</li>
+    <li>calltoadventure-> traveled to the rim and back, learning about [subject] on [rimworld]</li>
+    <li>calltoadventure-> sailed the seas of [oceanicworld], claiming to learn [subject] secrets from the living oceans themselves</li>
+    <li>calltoadventure-> was a zero-g scavenger across [worldname]'s asteroid belt, finding the secrets of [subject] on either [asteroid] A3 or [asteroid] 7DD</li>-->
+    <li>calltoadventure-> sentia que la seva vida estava estancada. Llavors, un dia, va trobar [subject]</li>
+    <li>calltoadventure-> se li va encomanar iniciar una nova colònia, pel seu propi compte, centrada en [subject]</li>
+    <li>calltoadventure-> en morir el seu germà gran, [ANYPAWN_objective] va deixar com a únic[ANYPAWN_x_a] especialista en [subject] de la família</li>
+    <li>calltoadventure-> va assabentar-se que hi havia una colònia abandonada d'un brillamón que centrava la seva recerca en [subject]</li>
+    <li>calltoadventure-> estava en un creuer solar quan va ser capturat per pirates de [feudalworld]. Com a expert[ANYPAWN_x_a] en [subject], li van demanar un rescat per un preu alt</li>
+    <li>calltoadventure-> va anar al mortalmón [deadworld], on va aprendre sobre [subject]</li>
+    <li>calltoadventure-> va descobrir un fitxer de dades sobre [subject] en un mecanoide trencat i en va aprendre els continguts</li>
+    <li>calltoadventure-> va seguir un terratalp pel seu cau, on va aprendre sobre [subject]</li>
+    <li>calltoadventure-> va ser cria[ANYPAWN_t_da] per un clan Yttakin amants de [subject] a [iceworld]</li>
+    <li>calltoadventure-> va ser crea[ANYPAWN_t_da] per clonadors de sangòfags i va trobar plaer en [subject]</li>
+    <li>calltoadventure-> es va criar a [warworld], escapant en una càpsula de transport robada. L'única lectura durant mesos va ser un manual sobre [subject]</li>
+    <li>calltoadventure-> va passar tota la seva vida viatjant per les capes de [shellworld], perseguint un mecanoide que funcionava malament</li>
+    <li>calltoadventure-> va escapar de la servitud dels llogarrets de [medievalworld] i es va embarcar com a aprenent[ANYPAWN_x_a] en la nau estel·lar d'un comerciant expert en [subject]</li>
+    <li>calltoadventure-> va viatjar als voramons i va aprendre-hi moltes coses sobre [subject] a [rimworld]</li>
+    <li>calltoadventure-> va navegar pels mars de [oceanicworld] i hi va aprendre els secrets sobre [subject] dels propis oceans vivents</li>
+    <li>calltoadventure-> era carronyaire de gravetat zero al cinturó d'asteroides de [worldname], descobrint els secrets de [subject] a [asteroid] A3 o [asteroid] 7DD</li>
+    <!-- EN: 
+    <li>written_when-> the night before [ANYPAWN_possessive] execution</li>
+    <li>written_when-> in [ANYPAWN_possessive] early years</li>
+    <li>written_when-> during the Blue Period of [worldname]</li>
+    <li>written_when-> as part of [ANYPAWN_possessive] post-doctoral thesis</li>
+    <li>written_when-> in [ANYPAWN_possessive] wanderings across the rim</li>
+    <li>written_when-> in the ur-[worldname] clone facilities</li>
+    <li>written_when-> as the final part of the [notable_adjective] ka'[worldname] ritual</li>
+    <li>written_when-> idly, upon the back of a scrap of letter-scrip from [ANYPAWN_possessive] parents</li>
+    <li>written_when-> many years after they first conceived of it</li>
+    <li>written_when-> in [ANYPAWN_possessive] old age</li>
+    <li>written_when-> in the evenings, in time snatched from sleep</li>
+    <li>written_when-> when not caring for [ANYPAWN_possessive] children</li>
+    <li>written_when-> in a rush, on the way to the front</li>
+    <li>written_when-> at leisure, whilst sipping cooled drinks on [ANYPAWN_possessive] verandah</li>
+    <li>written_when-> at a young age, working alone while [ANYPAWN_possessive] peers played</li>-->
+    <li>written_when-> la nit anterior a la seva execució</li>
+    <li>written_when-> en els seus primers anys de vida</li>
+    <li>written_when-> durant el Període Blau de [worldname]</li>
+    <li>written_when-> com a part de la seva tesi postdoctoral</li>
+    <li>written_when-> en els seus viatges pels voramons</li>
+    <li>written_when-> a les instal·lacions de clonació d'ur-[worldname]</li>
+    <li>written_when-> com a part final del ritual [notable_adjective] ka'[worldname]l</li>
+    <li>written_when-> ociosament, al revers d'una carta dels seus pares.</li>
+    <li>written_when-> molts anys després de concebre la idea</li>
+    <li>written_when-> en la seva vellesa</li>
+    <li>written_when-> a les tardes, en moments en què no s'adorm</li>
+    <li>written_when-> quan no està a la cura dels seus fills</li>
+    <li>written_when-> a corre-cuita, de camí al front</li>
+    <li>written_when-> amb calma, mentre gaudeix de begudes fredes a la seva terrassa</li>
+    <li>written_when-> a una edat primerenca, treballant sol[ANYPAWN_x_a] mentre els seus companys jugaven</li>
+    <!-- EN: 
+    <li>subject_consequence(p=18)->[subject_primary_story]</li>
+    <li>subject_consequence->[digression]</li>
+    <li>digression->At one point, the story veers into a confusing discussion about [digression_subject]</li>
+    <li>digression->The schematic's narrative loses its way here, digressing into [digression_subject]</li>
+    <li>digression->the [author] has inserted a footnote here, about [digression_subject]</li>
+    <li>digression->It is unclear why the story turns to [digression_subject]</li>
+    <li>digression->It is a surprise that the schematic [contain_verb]s information about [digression_subject]</li>
+    <li>digression->The section on [digression_subject] is irrelevant</li>-->
+    <li>subject_consequence(p=18)->[subject_primary_story]</li>
+    <li>subject_consequence->[digression]</li>
+    <li>digression->En un moment donat, la història es desvia cap a una confusa discussió sobre [digression_subject]</li>
+    <li>digression->La narrativa de la guia es perd aquí i es divaga sobre [digression_subject]</li>
+    <li>digression->[theAuthor] ha inserit aquí una nota a peu de pàgina sobre [digression_subject]</li>
+    <li>digression->No queda clar per què la història se centra en [digression_subject]</li>
+    <li>digression->És una sorpresa que l'explicació de la guia [contain_verb] informació sobre [digression_subject]</li>
+    <li>digression->La secció sobre [digression_subject] és irrellevant</li>
+    <!-- EN: 
+    <li>digression_subject->love and war</li>
+    <li>digression_subject->interminable, increasingly minor political distinctions</li>
+    <li>digression_subject->Glitterworld cuisine trends</li>
+    <li>digression_subject->the fashion markets of [animalworld] and [urbworld]</li>
+    <li>digression_subject->scurrilous gossip about the widespread use of love enhancers</li>
+    <li>digression_subject->the military dispositions of the [glitterworld] fleet a century earlier</li>
+    <li>digression_subject->the mysterious coreworld relationships with supermassive black holes</li>
+    <li>digression_subject->the deadworld of [deadworld] and rumors of its fate</li>
+    <li>digression_subject->the species variants on the dinosaur planet of [dinoworld]</li>
+    <li>digression_subject->[ANYPAWN_possessive] experience of feudalism on [feudalworld]</li>
+    <li>digression_subject->the lack of microbes in the fallen cities of [glassworld]</li>
+    <li>digression_subject->the short lives of the paupers of [indworld]</li>
+    <li>digression_subject->the adaptations of hi-ruin scavengers in the post [worldname]-war urbworlds</li>
+    <li>digression_subject->neutroamine barter in the rich skyrippers of [coreworld]</li>-->
+    <li>digression_subject->l'amor i la guerra</li>
+    <li>digression_subject->distincions polítiques infinites i cada vegada més petites</li>
+    <li>digression_subject->tendències gastronòmiques d'un brillamón</li>
+    <li>digression_subject->els mercats de la moda de [animalworld] i de [urbworld]</li>
+    <li>digression_subject->xafarderies difamatòries sobre l'ús generalitzat de potenciadors de l'amor</li>
+    <li>digression_subject->les disposicions militars de la flota de [glitterworld] un segle abans</li>
+    <li>digression_subject->les misterioses relacions d'un centrimón amb els forats negres supermassius</li>
+    <li>digression_subject->el mortalmón [deadworld] i els rumors sobre el seu destí</li>
+    <li>digression_subject->les variants de les espècies en el dinomón de [dinoworld]</li>
+    <li>digression_subject->la seva experiència amb el feudalisme a [feudalworld]</li>
+    <li>digression_subject->la manca de microbis a les ciutats caigudes de [glassworld]</li>
+    <li>digression_subject->les vides curtes dels indigents de [indworld]</li>
+    <li>digression_subject->les adaptacions dels carronyaires en les guerres post-[worldname] dels urbamons</li>
+    <li>digression_subject->el comerç de neutroamina en els rics gratacels de [coreworld]</li>
+    <!-- EN: 
+    <li>aftermath->The pages communicate nothing more of the [author]'s story</li>
+    <li>aftermath->A [note] in a different hand says that the [author] was last seen heading for [deathworld]</li>
+    <li>aftermath->Pages are torn out here</li>
+    <li>aftermath->The leaves are dotted with brown stains</li>
+    <li>aftermath->Despite [ANYPAWN_possessive] adventures, [ANYPAWN_pronoun] managed to create this schematic</li>
+    <li>aftermath->[ANYPAWN_pronoun] devoted [ANYPAWN_possessive] last years to this schematic</li>
+    <li>aftermath->Later, [ANYPAWN_pronoun] found peace in this work. [subject_chat]</li>
+    <li>aftermath->[ANYPAWN_possessive] story ends here, with a technical description of [ANYPAWN_possessive] work on [worldname]. [subject_chat]</li>-->
+    <li>aftermath->Les pàgines no comuniquen res més de la història [OftheAuthor]</li>
+    <li>aftermath->Una nota escrita per una altra persona diu que [theAuthor] va ser vist[ANYPAWN_x_a] per darrera vegada direcció a [deathworld]</li>
+    <li>aftermath->Les pàgines estan arrencades aquí</li>
+    <li>aftermath->Les fulles estan tacades amb taques marrons</li>
+    <li>aftermath->Tot i les seves aventures, va aconseguir fer aquest manual</li>
+    <li>aftermath->Va dedicar els seus darrers anys a aquest manual</li>
+    <li>aftermath->Més tard, va trobar la pau en aquesta tasca. [subject_chat]</li>
+    <li>aftermath->La seva història acaba aquí, amb una descripció tècnica del seu treball a [worldname]. [subject_chat]</li>
+    <!-- EN: 
+    <li>subject_chat->the [author]'s work proves [ANYPAWN_objective] authoritative on [subject]</li>
+    <li>subject_chat->Few dispute the findings in this [subject] document</li>
+    <li>subject_chat->This document will be inspirational to anyone interested in [subject]</li>
+    <li>subject_chat->Though the diagrams are faded, the [author]'s lessons on [subject] are valuable</li>-->
+    <li>subject_chat->l'obra [OftheAuthor] l'acredita com a autoritat sobre [subject]</li>
+    <li>subject_chat->Pocs discuteixen les conclusions d'aquest document sobre [subject]</li>
+    <li>subject_chat->Aquest document servirà d'inspiració a qualsevol persona interessada en [subject]</li>
+    <li>subject_chat->Tot i que els diagrames estan descolorits, les lliçons [OftheAuthor] sobre [subject] són valuoses</li>
+    <!-- EN:
+    <li>authorTitle->author</li>
+    <li>authorTitle->scribe</li>
+    <li>authorTitle->writer</li>-->
+    <li>theUnnamedAuthor(ANYPAWN_gender!=Female)->l'autor anònim</li>
+    <li>theUnnamedAuthor(ANYPAWN_gender==Female)->la autora anònima</li>
+    <li>theUnnamedAuthor(ANYPAWN_gender!=Female)->l'escriptor anònim</li>
+    <li>theUnnamedAuthor(ANYPAWN_gender==Female)->l'escriptora anònima</li>
+    <li>theUnnamedAuthor(ANYPAWN_gender!=Female)->l'escriba anònim</li>
+    <li>theUnnamedAuthor(ANYPAWN_gender==Female)->l'escriba anònima</li>
+    <!-- EN: 
+    <li>linkage->this inspired [ANYPAWN_objective] and [ANYPAWN_pronoun] </li>
+    <li>linkage->this proved useful later when [ANYPAWN_pronoun] </li>
+    <li>linkage->using this knowledge, [ANYPAWN_pronoun] </li>
+    <li>linkage->[ANYPAWN_pronoun] found this useful when [ANYPAWN_pronoun] </li>
+    <li>linkage->that was why [ANYPAWN_pronoun] </li>
+    <li>linkage->on [worldname], [ANYPAWN_pronoun] used [ANYPAWN_possessive] insight and </li>
+    <li>linkage->to master it, [ANYPAWN_pronoun] traveled to [worldname] where [ANYPAWN_pronoun] </li>-->
+    <li>linkage->això [ANYPAWN_objective] va inspirar i </li>
+    <li>linkage->això li va ser útil més endavant quan </li>
+    <li>linkage->fent servir aquest coneixement, [ANYPAWN_pronoun] </li>
+    <li>linkage->ho va trobar útil quan </li>
+    <li>linkage->per això </li>
+    <li>linkage->en [worldname], va fer servir la seva perspicàcia i </li>
+    <li>linkage->per a dominar-ho, va viatjar a [worldname] on [ANYPAWN_pronoun] </li>
+    <!-- EN: 
+    <li>notable_adjective->famous</li>
+    <li>notable_adjective->obscure</li>
+    <li>notable_adjective->iconic</li>
+    <li>notable_adjective->classic</li>
+    <li>notable_adjective->common</li>
+    <li>notable_adjective->familiar</li>
+    <li>negative_adjective->rudimentary</li>
+    <li>negative_adjective->simplistic</li>
+    <li>negative_adjective->primitive</li>
+    <li>negative_adjective->mediocre</li>
+    <li>negative_adjective->inaccurate</li>
+    <li>negative_adjective->deficient</li>
+    <li>appearance(p=3)->[phys_desc]</li>
+    <li>appearance->[nonphys_desc]</li>-->
+    <li>notable_adjective->famós</li>
+    <li>notable_adjective->obscur</li>
+    <li>notable_adjective->icònic</li>
+    <li>notable_adjective->clàssic</li>
+    <li>notable_adjective->habitual</li>
+    <li>notable_adjective->familiar</li>
+    <li>negative_adjective->rudimentari</li>
+    <li>negative_adjective->simplista</li>
+    <li>negative_adjective->incompetent</li>
+    <li>negative_adjective->mediocre</li>
+    <li>negative_adjective->inexacte</li>
+    <li>negative_adjective->deficient</li>
+    <li>appearance(p=3)->[phys_desc]</li>
+    <li>appearance->[nonphys_desc]</li>
+    <!-- EN: 
+    <li>phys_desc(quality[less_than]5,quality[greater_than]1)->[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]4)->[negative_physical_statement1]</li>
+    <li>phys_desc(quality[greater_than]3)->[positive_physical_statement1]</li>
+    <li>phys_desc(p=2)->[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]3)->this document [badsmells] of [stink]</li>
+    <li>phys_desc(quality[greater_than]4)->this document [smells] of [scent]</li>-->
+    <li>phys_desc(quality[less_than]5,quality[greater_than]1)->[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]4)->[negative_physical_statement1]</li>
+    <li>phys_desc(quality[greater_than]3)->[positive_physical_statement1]</li>
+    <li>phys_desc(p=2)->[physical_yet_statement]</li>
+    <li>phys_desc(quality[less_than]3)->aquest document [badsmells] a [stink]</li>
+    <li>phys_desc(quality[greater_than]4)->aquest document [smells] a [scent]</li>
+    <!-- EN: 
+    <li>nonphys_desc->[otherwordly_nonphys_desc]</li>
+    <li>nonphys_desc->[technical_nonphys_desc]</li>
+    <li>nonphys_desc->[academic_nonphys_desc]</li>-->
+    <li>nonphys_desc->[otherwordly_nonphys_desc]</li>
+    <li>nonphys_desc->[technical_nonphys_desc]</li>
+    <li>nonphys_desc->[academic_nonphys_desc]</li>
+    <!-- EN: 
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1] but [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1] but [negative_physical_statement2]</li>
+    <li>physical_yet_statement(quality[greater_than]4)->[positive_physical_statement1] and [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. Also, [negative_physical_statement2]</li>-->
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1] però [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1] però [negative_physical_statement2]</li>
+    <li>physical_yet_statement(quality[greater_than]4)->[positive_physical_statement1] i [positive_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. També, [negative_physical_statement2]</li>
+    <!-- EN: 
+    <li><li>negative_physical_statement->[negative_physical_statement1]</li>
+    <li>negative_physical_statement->[negative_physical_statement2]</li>
+    <li>negative_physical_statement1->jagged tears mar the calfskin cover</li>
+    <li>negative_physical_statement1->one of the [author]'s pupils signed the front leaf</li>
+    <li>negative_physical_statement1->a sour-tasting ichor coats it</li>
+    <li>negative_physical_statement2->the decayed cover sticks to the reader's hands</li>
+    <li>negative_physical_statement2->maggots have made their home beneath the foolscap and flies flutter out as the book is opened</li>
+    <li>negative_physical_statement2->the pages appear to be written on crumbling parchment</li>
+    <li>negative_physical_statement2->the pages are saturated with red ink</li>-->
+    <li>negative_physical_statement->[negative_physical_statement1]</li>
+    <li>negative_physical_statement->[negative_physical_statement2]</li>
+    <li>negative_physical_statement1->algunes esgarrapades han fet malbé la coberta de pell</li>
+    <li>negative_physical_statement1->un dels alumnes [OftheAuthor] va signar la primera fulla</li>
+    <li>negative_physical_statement1->la coberta està tacada d'un licor espès i enganxifós</li>
+    <li>negative_physical_statement2->la coberta deteriorada s'enganxa a les mans del lector</li>
+    <li>negative_physical_statement2->té cucs per dins de la coberta i les mosques revolotegen en obrir el llibre</li>
+    <li>negative_physical_statement2->les pàgines semblen estar escrites en un pergamí esmicolat</li>
+    <li>negative_physical_statement2->les pàgines estan tacades amb tinta vermella</li>
+    <!-- EN: 
+    <li>positive_physical_statement->[positive_physical_statement1]</li>
+    <li>positive_physical_statement->[positive_physical_statement2]</li>
+    <li>positive_physical_statement1->inside the pages are pristine</li>
+    <li>positive_physical_statement1->the pages are composed of a thin plasteel derivative</li>
+    <li>positive_physical_statement1->each page is made of a flexible, diamond-like structure</li>
+    <li>positive_physical_statement1->it is warm to the touch</li>
+    <li>positive_physical_statement2->it bears the kitemark of a respected coreworld publishing house - [coreworld] Schematics</li>
+    <li>positive_physical_statement2->the edges of the page are still un-cut</li>
+    <li>positive_physical_statement2->semi-precious plastics glisten on its surface</li>-->
+    <li>positive_physical_statement->[positive_physical_statement1]</li>
+    <li>positive_physical_statement->[positive_physical_statement2]</li>
+    <li>positive_physical_statement1->l'interior de les pàgines està impecable</li>
+    <li>positive_physical_statement1->les pàgines estan compostes d'un fi derivat del plastacer</li>
+    <li>positive_physical_statement1->cada pàgina està formada per una estructura flexible similar a un diamant</li>
+    <li>positive_physical_statement1->és calent al tacte</li>
+    <li>positive_physical_statement2->porta la marca d'una respectada editorial d'un centrimón: Guia de [coreworld]</li>
+    <li>positive_physical_statement2->els marges de la pàgina encara estan per tallar</li>
+    <li>positive_physical_statement2->els plàstics semipreciosos brillen més a la seva superfície</li>
+    <!-- EN: 
+    <li>otherwordly_nonphys_desc->holding the [author]'s schematic, the room swims</li>
+    <li>otherwordly_nonphys_desc->just looking at the schematic hurts the reader's head</li>
+    <li>otherwordly_nonphys_desc->looking at the schematic, the runes seem to move in the corner of the reader's eye</li>
+    <li>otherwordly_nonphys_desc->whispers permeate the area around the [author]'s schematic</li>
+    <li>otherwordly_nonphys_desc->the [author]'s schematic bears the psychic imprint of something impossibly ancient</li>-->
+    <li>otherwordly_nonphys_desc->sostenint el plànol [OftheAuthor], al llegir-lo, l'habitació comença a rodar</li>
+    <li>otherwordly_nonphys_desc->només mirant el plànol, al lector ja li fa mal el cap</li>
+    <li>otherwordly_nonphys_desc->mirant el plànol, les runes semblen moure's per la cua de l'ull del lector</li>
+    <li>otherwordly_nonphys_desc->els murmuris s'estenen al voltant del plànol [OftheAuthor].</li>
+    <li>otherwordly_nonphys_desc->el plànol [OftheAuthor] porta la petjada psíquica d'una cosa impossiblement antiga</li>
+    <!-- EN: 
+    <li>technical_nonphys_desc->the notation is unusual, drawn from an extinct Impid dialect</li>
+    <li>technical_nonphys_desc->wires run through the pages of the schematic, though the device is nearly defunct</li>
+    <li>technical_nonphys_desc->the same mechanism is explained by the [author] in three different languages</li>-->
+    <li>technical_nonphys_desc->la complexitat del plànol va més enllà del lector mitjà</li>
+    <li>technical_nonphys_desc->la notació és inusual, extreta d'un dialecte diabletià extint</li>
+    <li>technical_nonphys_desc->els cables recorren les pàgines dels plànols, tot i que l'aparell gairebé ha desaparegut</li>
+    <li>technical_nonphys_desc->[theAuthor] explica el mateix mecanisme en tres idiomes diferents</li>
+    <!-- EN: 
+    <li>academic_nonphys_desc->this schematic is dedicated to a genie tutor who inspired the [author]</li>
+    <li>academic_nonphys_desc->this document is marked with the crest of the institution which sponsored the [author]</li>
+    <li>badsmells->smells heavily</li>
+    <li>badsmells->has the stench</li>
+    <li>badsmells->smells weakly</li>
+    <li>badsmells->reeks</li>
+    <li>badsmells->stinks</li>
+    <li>stink->corpse slime</li>
+    <li>stink->brimstone and rotten eggs</li>
+    <li>stink->slow, ancient death</li>
+    <li>stink->something akin to Yttakin sweat</li>
+    <li>stink->Waster breath</li>
+    <li>stink->a Hussar locker room</li>-->
+    <li>academic_nonphys_desc->aquest text [OftheAuthor] està dedicat al tutor geni que l'inspirà a escriure</li>
+    <li>academic_nonphys_desc->aquest document [OftheAuthor] porta l'escut de la institució que l'ha patrocinat</li>
+    <li>badsmells->fa molta olor</li>
+    <li>badsmells->té la pudor</li>
+    <li>badsmells->fa una lleugera olor</li>
+    <li>badsmells->fa mala olor</li>
+    <li>stink->mucositat cadavèrica</li>
+    <li>stink->sofre i ous podrits</li>
+    <li>stink->mort lenta i antiga</li>
+    <li>stink->una cosa semblant a la suor Yttakin</li>
+    <li>stink->alè de carronyaire</li>
+    <li>stink->un vestidor d'Hússars</li>
+    <!-- EN: 
+    <li>smells->has a heady scent</li>
+    <li>smells->has an odor</li>
+    <li>smells->has a perfume</li>
+    <li>smells->has an aroma</li>
+    <li>scent->must, like the bottom of a grape barrel</li>
+    <li>scent->Highmate pheromones</li>
+    <li>scent->frankincense</li>
+    <li>scent->sandalwood</li>
+    <li>scent->sweet boomrat juice</li>
+    <li>scent->Glitterworld spice</li>
+    <li>scent->fresh Gauranlen seeds</li>-->
+    <li>smells->té una aroma embriagadora</li>
+    <li>smells->fa olor</li>
+    <li>smells->té un perfum</li>
+    <li>smells->té una aroma</li>
+    <li>scent->most, com el fons d'un barril de raïm</li>
+    <li>scent->feromones sexuals</li>
+    <li>scent->encens</li>
+    <li>scent->sàndal</li>
+    <li>scent->suc dolç de ratabum</li>
+    <li>scent->espècies brillamoneres</li>
+    <li>scent->llavors fresques de gauranlen</li>
+    <!-- EN: 
+    <li>conjunction->and </li>
+    <li>conjunction->but </li>
+    <li>conjunction->yet </li>
+    <li>conjunction->though </li>
+    <li>conjunction->besides </li>
+    <li>conjunction->. In addition,</li>-->
+    <li>conjunction->i </li>
+    <li>conjunction->però </li>
+    <li>conjunction->encara que </li>
+    <li>conjunction->a més de </li>
+    <li>conjunction->. A més a més,</li>
+    <!-- EN:
+    <li>author(p=4)->author</li>
+    <li>author(p=4)->writer</li>
+    <li>author->inventor</li>
+    <li>author->creator</li>
+    <li>author(p=2)->developer</li>
+    <li>author(p=4)->designer</li>
+    <li>author->engineer</li>
+    <li>author->artificer</li>
+    <li>author->boffin</li>
+    <li>author->specialist</li>
+    <li>author->technician</li>
+    <li>author->expert</li>
+    <li>author->craftsman</li>
+    No se usa en esta traducción-->
+    <!-- EN:
+    <li>anAuthorDesc(p=2)->a</li>
+    <li>anAuthorDesc->a young</li>
+    <li>anAuthorDesc->an old</li>
+    <li>anAuthorDesc->a terrified</li>
+    <li>anAuthorDesc->a sorrowful</li>
+    <li>anAuthorDesc->an elderly</li>
+    <li>anAuthorDesc->a wise</li>
+    <li>anAuthorDesc->a headstrong</li>
+    <li>anAuthorDesc->a foolish</li>
+    <li>anAuthorDesc->an innocent</li>
+    <li>anAuthorDesc->a disturbed</li>
+    <li>anAuthorDesc->an eldritch</li>
+    <li>anAuthorDesc->an outrageous</li>
+    <li>anAuthorDesc->an archetypal</li>
+    <li>anAuthorDesc->a boring</li>
+    <li>anAuthorDesc->a crazed</li>
+    <li>anAuthorDesc->an immoral</li>
+    <li>anAuthorDesc->a moral</li>
+    <li>anAuthorDesc->an amoral</li>
+    <li>anAuthorDesc->a shadowy</li>-->
+    <!-- EN: 
+    <li>anAuthorDesc(p=2)->un</li>
+    <li>anAuthorDesc->un joven</li>
+    <li>anAuthorDesc->un viejo</li>
+    <li>anAuthorDesc->un aterrorizado</li>
+    <li>anAuthorDesc->un triste</li>
+    <li>anAuthorDesc->un anciano</li>
+    <li>anAuthorDesc->un sabio</li>
+    <li>anAuthorDesc->un testarudo</li>
+    <li>anAuthorDesc->un tonto</li>
+    <li>anAuthorDesc->un inocente</li>
+    <li>anAuthorDesc->un perturbado</li>
+    <li>anAuthorDesc->un eldritch</li>
+    <li>anAuthorDesc->un escandaloso</li>
+    <li>anAuthorDesc->un arqueotipo</li>
+    <li>anAuthorDesc->un aburrido</li>
+    <li>anAuthorDesc->un loco</li>
+    <li>anAuthorDesc->an immoral</li>
+    <li>anAuthorDesc->un moral</li>
+    <li>anAuthorDesc->un amoral</li>
+    <li>anAuthorDesc->un oscuro</li>-->
+    <li>OftheAuthor(ANYPAWN_gender!=Female,p=4)->de l'autor</li>
+    <li>OftheAuthor(ANYPAWN_gender==Female,p=4)->de l'autora</li>
+    <li>OftheAuthor(ANYPAWN_gender!=Female,p=4)->de l'escriptor</li>
+    <li>OftheAuthor(ANYPAWN_gender==Female,p=4)->de l'escriptora</li>
+    <li>OftheAuthor(ANYPAWN_gender!=Female)->de l'escriba</li>
+    <li>OftheAuthor(ANYPAWN_gender==Female)->de l'escriba</li>
+    <li>OftheAuthor(ANYPAWN_gender!=Female)->de l'inventor</li>
+    <li>OftheAuthor(ANYPAWN_gender==Female)->de l'inventora</li>
+    <li>OftheAuthor(ANYPAWN_gender!=Female)->del creador</li>
+    <li>OftheAuthor(ANYPAWN_gender==Female)->de la creadora</li>
+    <li>OftheAuthor(ANYPAWN_gender!=Female,p=2)->del desenvolupador</li>
+    <li>OftheAuthor(ANYPAWN_gender==Female,p=2)->de la desenvolupadora</li>
+    <li>OftheAuthor(ANYPAWN_gender!=Female,p=4)->del dissenyador</li>
+    <li>OftheAuthor(ANYPAWN_gender==Female,p=4)->de la dissenyadora</li>
+    <li>OftheAuthor(ANYPAWN_gender!=Female)->de l'enginyer</li>
+    <li>OftheAuthor(ANYPAWN_gender==Female)->de l'enginyera</li>
+    <li>OftheAuthor(ANYPAWN_gender!=Female)->de l'artífex</li>
+    <li>OftheAuthor(ANYPAWN_gender==Female)->de l'artífex</li>
+    <li>OftheAuthor(ANYPAWN_gender!=Female)->de l'especialista</li>
+    <li>OftheAuthor(ANYPAWN_gender==Female)->de l'especialista</li>
+    <li>OftheAuthor(ANYPAWN_gender!=Female)->del tècnic</li>
+    <li>OftheAuthor(ANYPAWN_gender==Female)->de la tècnica</li>
+    <li>OftheAuthor(ANYPAWN_gender!=Female)->de l'expert</li>
+    <li>OftheAuthor(ANYPAWN_gender==Female)->de l'experta</li>
+    <li>OftheAuthor(ANYPAWN_gender!=Female)->de l'artesà</li>
+    <li>OftheAuthor(ANYPAWN_gender==Female)->de l'artesana</li>
+    <li>theAuthor(ANYPAWN_gender!=Female,p=4)->l'autor</li>
+    <li>theAuthor(ANYPAWN_gender==Female,p=4)->l'autora</li>
+    <li>theAuthor(ANYPAWN_gender!=Female,p=4)->l'escriptor</li>
+    <li>theAuthor(ANYPAWN_gender==Female,p=4)->l'escriptora</li>
+    <li>theAuthor(ANYPAWN_gender!=Female)->l'escriba</li>
+    <li>theAuthor(ANYPAWN_gender==Female)->l'escriba</li>
+    <li>theAuthor(ANYPAWN_gender!=Female)->l'inventor</li>
+    <li>theAuthor(ANYPAWN_gender==Female)->l'inventora</li>
+    <li>theAuthor(ANYPAWN_gender!=Female)->el creador</li>
+    <li>theAuthor(ANYPAWN_gender==Female)->la creadora</li>
+    <li>theAuthor(ANYPAWN_gender!=Female,p=2)->el desenvolupador</li>
+    <li>theAuthor(ANYPAWN_gender==Female,p=2)->la desenvolupadora</li>
+    <li>theAuthor(ANYPAWN_gender!=Female,p=4)->el dissenyador</li>
+    <li>theAuthor(ANYPAWN_gender==Female,p=4)->la dissenyadora</li>
+    <li>theAuthor(ANYPAWN_gender!=Female)->l'enginyer</li>
+    <li>theAuthor(ANYPAWN_gender==Female)->l'enginyera</li>
+    <li>theAuthor(ANYPAWN_gender!=Female)->l'artífex</li>
+    <li>theAuthor(ANYPAWN_gender==Female)->l'artífex</li>
+    <li>theAuthor(ANYPAWN_gender!=Female)->l'especialista</li>
+    <li>theAuthor(ANYPAWN_gender==Female)->l'especialista</li>
+    <li>theAuthor(ANYPAWN_gender!=Female)->el tècnic</li>
+    <li>theAuthor(ANYPAWN_gender==Female)->la tècnica</li>
+    <li>theAuthor(ANYPAWN_gender!=Female)->l'expert</li>
+    <li>theAuthor(ANYPAWN_gender==Female)->l'experta</li>
+    <li>theAuthor(ANYPAWN_gender!=Female)->l'artesà</li>
+    <li>theAuthor(ANYPAWN_gender==Female)->l'artesana</li>
+    <!-- EN: 
+    <li>worldname->[glitterworld]</li>
+    <li>worldname->[urbworld]</li>
+    <li>worldname->[deadworld]</li>
+    <li>worldname->[shellworld]</li>
+    <li>worldname->[ruinworld]</li>
+    <li>worldname->[medievalworld]</li>
+    <li>worldname->[steamworld]</li>
+    <li>worldname->[midworld]</li>
+    <li>worldname->[rimworld]</li>
+    <li>worldname->[coreworld]</li>
+    <li>worldname->[toxicworld]</li>
+    <li>worldname->[glassworld]</li>
+    <li>worldname->[transcendentworld]</li>
+    <li>worldname->[indworld]</li>
+    <li>worldname->[prisonworld]</li>
+    <li>worldname->[feudalworld]</li>
+    <li>worldname->[trashworld]</li>
+    <li>worldname->[iceworld]</li>
+    <li>worldname->[dinoworld]</li>
+    <li>worldname->[warworld]</li>
+    <li>worldname->[oceanicworld]</li>
+    <li>worldname->[mineworld]</li>
+    <li>worldname->[animalworld]</li>
+    <li>worldname->[asteroid]</li>
+    <li>worldname->[animalworld]</li>
+    <li>feralworld->[animalworld]</li>
+    <li>milworld->[warworld]</li>
+    <li>animalworld->Sorne</li>
+    <li>animalworld->Rhydell</li>
+    <li>animalworld->Zoutera</li>
+    <li>animalworld->Thylacine</li>
+    <li>animalworld->Jiai</li>
+    <li>animalworld->Steller's World</li>
+    <li>animalworld->Aukton</li>
+    <li>asteroid->Iwamura</li>
+    <li>asteroid->Atura</li>
+    <li>asteroid->Widdershins</li>
+    <li>asteroid->Ranomi</li>
+    <li>asteroid->Aesh 265</li>
+    <li>asteroid->Taxlos</li>
+    <li>asteroid->Aryn Sigma</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Lutuni</li>
+    <li>coreworld->Zeglar</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Cormora Prime</li>
+    <li>coreworld->Glossolia</li>
+    <li>coreworld->Barbaros</li>
+    <li>deadworld->Callos IX</li>
+    <li>deadworld->Haspia</li>
+    <li>deadworld->Gost IV</li>
+    <li>deadworld->Berimund</li>
+    <li>deadworld->Ardar</li>
+    <li>deadworld->Kremhild</li>
+    <li>deadworld->Melisandz</li>
+    <li>deathworld->Creticon</li>
+    <li>deathworld->Zartza</li>
+    <li>deathworld->Rayth</li>
+    <li>deathworld->Spectra</li>
+    <li>deathworld->JNovahex</li>
+    <li>deathworld->Carthago</li>
+    <li>deathworld->Grimcore</li>
+    <li>dinoworld->Oubanyen</li>
+    <li>dinoworld->Zoutera</li>
+    <li>dinoworld->Einio</li>
+    <li>dinoworld->Baryonyx</li>
+    <li>dinoworld->N'cilo</li>
+    <li>dinoworld->Venator</li>
+    <li>dinoworld->Brach</li>
+    <li>feudalworld->Aracena VI</li>
+    <li>feudalworld->Nuchadus</li>
+    <li>feudalworld->Filson</li>
+    <li>feudalworld->Fieth</li>
+    <li>feudalworld->Bloch Regis</li>
+    <li>feudalworld->Carlosphere</li>
+    <li>feudalworld->Magna Dijou</li>
+    <li>glassworld->Ceti V</li>
+    <li>glassworld->Thebes XIV</li>
+    <li>glassworld->Naga</li>
+    <li>glassworld->Merv</li>
+    <li>glassworld->Perse</li>
+    <li>glassworld->Shechem</li>
+    <li>glassworld->Yelhazor</li>
+    <li>glitterworld->Kalthas IV</li>
+    <li>glitterworld->Amen-Ti</li>
+    <li>glitterworld->Sophiamunda</li>
+    <li>glitterworld->Rogia</li>
+    <li>glitterworld->Utmaior</li>
+    <li>glitterworld->Caspian</li>
+    <li>glitterworld->Kenerella</li>
+    <li>iceworld->Yttak</li>
+    <li>iceworld->Dedchenko</li>
+    <li>iceworld->Baltoro</li>
+    <li>iceworld->Furtwale</li>
+    <li>iceworld->Jaqua</li>
+    <li>iceworld->Christensen</li>
+    <li>iceworld->Barnes</li>
+    <li>indworld->Irithir</li>
+    <li>indworld->New China</li>
+    <li>indworld->Hudders</li>
+    <li>indworld->Iver</li>
+    <li>indworld->Achesta</li>
+    <li>indworld->Oods</li>
+    <li>indworld->Iladelf</li>
+    <li>medievalworld->Chelis</li>
+    <li>medievalworld->Vinna</li>
+    <li>medievalworld->Cassone</li>
+    <li>medievalworld->Jork</li>
+    <li>medievalworld->Cochmar</li>
+    <li>medievalworld->Alin</li>
+    <li>medievalworld->Dubrognago</li>
+    <li>midworld->Khalderia</li>
+    <li>midworld->Elsin</li>
+    <li>midworld->Haihan</li>
+    <li>midworld->Seolure</li>
+    <li>midworld->Panga</li>
+    <li>midworld->New London CXI </li>
+    <li>midworld->San Delenda</li>
+    <li>mineworld->Xanides</li>
+    <li>mineworld->Bingham</li>
+    <li>mineworld->Saarhi</li>
+    <li>mineworld->Grasbeg</li>
+    <li>mineworld->Chuqui</li>
+    <li>mineworld->Olimpia</li>
+    <li>mineworld->Orme</li>
+    <li>oceanicworld->Wavia</li>
+    <li>oceanicworld->Wadka</li>
+    <li>oceanicworld->Gichen</li>
+    <li>oceanicworld->Port Yam</li>
+    <li>oceanicworld->Baia</li>
+    <li>oceanicworld->Thonis</li>
+    <li>oceanicworld->Moaui</li>
+    <li>prisonworld->Yttak</li>
+    <li>prisonworld->Aldgate</li>
+    <li>prisonworld->Borren</li>
+    <li>prisonworld->Hoalo</li>
+    <li>prisonworld->Casmina</li>
+    <li>prisonworld->Port Basil</li>
+    <li>prisonworld->Chateau D'Ouen</li>
+    <li>rimworld->Filson</li>
+    <li>rimworld->La Grand</li>
+    <li>rimworld->Dalles</li>
+    <li>rimworld->Twig Falls</li>
+    <li>rimworld->Old Boise</li>
+    <li>rimworld->Devil's Gate</li>
+    <li>rimworld->Laramiere</li>
+    <li>ruinworld->Earth</li>
+    <li>ruinworld->Ilwaba</li>
+    <li>ruinworld->Xennoa</li>
+    <li>ruinworld->Pichu</li>
+    <li>ruinworld->Perdida</li>
+    <li>ruinworld->Hisarlik</li>
+    <li>ruinworld->Helike</li>
+    <li>shellworld->Boccocarro</li>
+    <li>shellworld->Destria</li>
+    <li>shellworld->Trophic</li>
+    <li>shellworld->Matrio</li>
+    <li>shellworld->Samen</li>
+    <li>shellworld->Xinthia</li>
+    <li>shellworld->Ferbine</li>
+    <li>steamworld->Corliss</li>
+    <li>steamworld->Borassic</li>
+    <li>steamworld->Savery II</li>
+    <li>steamworld->Heron</li>
+    <li>steamworld->Malmesburi</li>
+    <li>steamworld->Architonnerre</li>
+    <li>steamworld->Escapement</li>
+    <li>toxicworld->Scylla</li>
+    <li>toxicworld->Mauro</li>
+    <li>toxicworld->Cerospor</li>
+    <li>toxicworld->Oxy VI</li>
+    <li>toxicworld->Sangwine</li>
+    <li>toxicworld->Soleno</li>
+    <li>toxicworld->Imbatus</li>
+    <li>transcendentworld->Xaroh</li>
+    <li>transcendentworld->Immanence VI</li>
+    <li>transcendentworld->Qabba</li>
+    <li>transcendentworld->Einsof</li>
+    <li>transcendentworld->Mitvo</li>
+    <li>transcendentworld->Samydi</li>
+    <li>transcendentworld->Samsarr</li>
+    <li>trashworld->Bagua 5</li>
+    <li>trashworld->Puobell</li>
+    <li>trashworld->Deni IX</li>
+    <li>trashworld->Garbsh</li>
+    <li>trashworld->Tra'age</li>
+    <li>trashworld->Reepsyk</li>
+    <li>trashworld->Mystras</li>
+    <li>urbworld->Euterpe</li>
+    <li>urbworld->Avenna</li>
+    <li>urbworld->Essalon</li>
+    <li>urbworld->Enike</li>
+    <li>urbworld->Adocia</li>
+    <li>urbworld->N'toch</li>
+    <li>urbworld->Barca</li>
+    <li>warworld->Kemia</li>
+    <li>warworld->Vanu</li>
+    <li>warworld->Samnium</li>
+    <li>warworld->Kyrus</li>
+    <li>warworld->Punica</li>
+    <li>warworld->Cimbria XII</li>
+    <li>warworld->Barkitos</li>-->
+    <li>worldname->[glitterworld]</li>
+    <li>worldname->[urbworld]</li>
+    <li>worldname->[deadworld]</li>
+    <li>worldname->[shellworld]</li>
+    <li>worldname->[ruinworld]</li>
+    <li>worldname->[medievalworld]</li>
+    <li>worldname->[steamworld]</li>
+    <li>worldname->[midworld]</li>
+    <li>worldname->[rimworld]</li>
+    <li>worldname->[coreworld]</li>
+    <li>worldname->[toxicworld]</li>
+    <li>worldname->[glassworld]</li>
+    <li>worldname->[transcendentworld]</li>
+    <li>worldname->[indworld]</li>
+    <li>worldname->[prisonworld]</li>
+    <li>worldname->[feudalworld]</li>
+    <li>worldname->[trashworld]</li>
+    <li>worldname->[iceworld]</li>
+    <li>worldname->[dinoworld]</li>
+    <li>worldname->[warworld]</li>
+    <li>worldname->[oceanicworld]</li>
+    <li>worldname->[mineworld]</li>
+    <li>worldname->[animalworld]</li>
+    <li>worldname->[asteroid]</li>
+    <li>worldname->[animalworld]</li>
+    <li>feralworld->[animalworld]</li>
+    <li>milworld->[warworld]</li>
+    <li>animalworld->Sorna</li>
+    <li>animalworld->Raidel</li>
+    <li>animalworld->Sutera</li>
+    <li>animalworld->Til·lacina</li>
+    <li>animalworld->Jirafai</li>
+    <li>animalworld->Stel·ler</li>
+    <li>animalworld->Pauctó</li>
+    <li>asteroid->Livamura</li>
+    <li>asteroid->Baturra</li>
+    <li>asteroid->Vidersens</li>
+    <li>asteroid->Ranomi</li>
+    <li>asteroid->Calés 265</li>
+    <li>asteroid->Taxlos</li>
+    <li>asteroid->Parin Sigma</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Lutuni</li>
+    <li>coreworld->Zeglar</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Cormora Prima</li>
+    <li>coreworld->Glossòlia</li>
+    <li>coreworld->Bàrbaros</li>
+    <li>deadworld->Callos IX</li>
+    <li>deadworld->Xàspia</li>
+    <li>deadworld->Gost IV</li>
+    <li>deadworld->Berimund</li>
+    <li>deadworld->Cardar</li>
+    <li>deadworld->Cremilda</li>
+    <li>deadworld->Melissanda</li>
+    <li>deathworld->Creticó</li>
+    <li>deathworld->Zartza</li>
+    <li>deathworld->Raissa</li>
+    <li>deathworld->Spectra</li>
+    <li>deathworld->Jonovarex</li>
+    <li>deathworld->Càrtago</li>
+    <li>deathworld->Grimcor</li>
+    <li>dinoworld->Cabratién</li>
+    <li>dinoworld->Zutera</li>
+    <li>dinoworld->Meinio</li>
+    <li>dinoworld->Bariònix</li>
+    <li>dinoworld->N'cil</li>
+    <li>dinoworld->Venàtor</li>
+    <li>dinoworld->Brac</li>
+    <li>feudalworld->Macarena VI</li>
+    <li>feudalworld->Nucadus</li>
+    <li>feudalworld->Filson</li>
+    <li>feudalworld->Fierra</li>
+    <li>feudalworld->Bloc Regis</li>
+    <li>feudalworld->Carlosfera</li>
+    <li>feudalworld->Magna Dijou</li>
+    <li>glassworld->Ceti V</li>
+    <li>glassworld->Tebes XIV</li>
+    <li>glassworld->Naga</li>
+    <li>glassworld->Merv</li>
+    <li>glassworld->Perse</li>
+    <li>glassworld->Siquem</li>
+    <li>glassworld->Gielazor</li>
+    <li>glitterworld->Caltas IV</li>
+    <li>glitterworld->Namen-Ti</li>
+    <li>glitterworld->Sofiamunda</li>
+    <li>glitterworld->Rògia</li>
+    <li>glitterworld->Sutmaior</li>
+    <li>glitterworld->Caspià</li>
+    <li>glitterworld->Cenerella</li>
+    <li>iceworld->Bittak</li>
+    <li>iceworld->Dedtxenko</li>
+    <li>iceworld->Baltoro</li>
+    <li>iceworld->Furtvall</li>
+    <li>iceworld->Jacua</li>
+    <li>iceworld->Christensen</li>
+    <li>iceworld->Barnes</li>
+    <li>indworld->Piritir</li>
+    <li>indworld->Nova Xina</li>
+    <li>indworld->Roderic III</li>
+    <li>indworld->Siver</li>
+    <li>indworld->Berenguer IV</li>
+    <li>indworld->Carbonera</li>
+    <li>indworld->Milladelfa</li>
+    <li>medievalworld->Xelis</li>
+    <li>medievalworld->Vina</li>
+    <li>medievalworld->Cassona</li>
+    <li>medievalworld->Partís</li>
+    <li>medievalworld->Cocamar</li>
+    <li>medievalworld->Calin</li>
+    <li>medievalworld->Dubronyec</li>
+    <li>midworld->Calderia</li>
+    <li>midworld->Melsin</li>
+    <li>midworld->Saian</li>
+    <li>midworld->Seolura</li>
+    <li>midworld->Panga</li>
+    <li>midworld->Nova Londres CXI</li>
+    <li>midworld->Santa Delenda</li>
+    <li>mineworld->Xànides</li>
+    <li>mineworld->Bingam</li>
+    <li>mineworld->Sari</li>
+    <li>mineworld->Grasberg</li>
+    <li>mineworld->Carbonera</li>
+    <li>mineworld->Polímpia</li>
+    <li>mineworld->Corma</li>
+    <li>oceanicworld->Vàvia</li>
+    <li>oceanicworld->Vadca</li>
+    <li>oceanicworld->Gixen</li>
+    <li>oceanicworld->Port Iam</li>
+    <li>oceanicworld->Baia</li>
+    <li>oceanicworld->Tonis</li>
+    <li>oceanicworld->Moaui</li>
+    <li>prisonworld->Xiquitistan</li>
+    <li>prisonworld->Porta de Gavà</li>
+    <li>prisonworld->Borren</li>
+    <li>prisonworld->Roalo</li>
+    <li>prisonworld->Casmina</li>
+    <li>prisonworld->Port Basil</li>
+    <li>prisonworld->Castell d'Ouen</li>
+    <li>rimworld->Filsó</li>
+    <li>rimworld->Grosset</li>
+    <li>rimworld->Dalles</li>
+    <li>rimworld->Cascades de Tuig</li>
+    <li>rimworld->Vell Boise</li>
+    <li>rimworld->Porta del Diable</li>
+    <li>rimworld->Laramiere</li>
+    <li>ruinworld->Terra</li>
+    <li>ruinworld->Miluaba</li>
+    <li>ruinworld->Xennoa</li>
+    <li>ruinworld->Pitxu</li>
+    <li>ruinworld->Perduda</li>
+    <li>ruinworld->Misarlic</li>
+    <li>ruinworld->Belice</li>
+    <li>shellworld->Boccocarro</li>
+    <li>shellworld->Dèstria</li>
+    <li>shellworld->Tròfic</li>
+    <li>shellworld->Matrio</li>
+    <li>shellworld->Samen</li>
+    <li>shellworld->Xíntia</li>
+    <li>shellworld->Ferbine</li>
+    <li>steamworld->Corlis</li>
+    <li>steamworld->Boràssic</li>
+    <li>steamworld->Savery II</li>
+    <li>steamworld->Seró</li>
+    <li>steamworld->Malmesburi</li>
+    <li>steamworld->Prearquitonnerre</li>
+    <li>steamworld->Rescapament</li>
+    <li>toxicworld->Scil·la</li>
+    <li>toxicworld->Mauro</li>
+    <li>toxicworld->Cerospor</li>
+    <li>toxicworld->Proxy VI</li>
+    <li>toxicworld->Sanguina</li>
+    <li>toxicworld->Soleno</li>
+    <li>toxicworld->Simbatus</li>
+    <li>transcendentworld->Xaroh</li>
+    <li>transcendentworld->Timanència VI</li>
+    <li>transcendentworld->Qabba</li>
+    <li>transcendentworld->Dinsof</li>
+    <li>transcendentworld->Mitvo</li>
+    <li>transcendentworld->Samidi</li>
+    <li>transcendentworld->Samsar</li>
+    <li>trashworld->Bagua 5</li>
+    <li>trashworld->Puobell</li>
+    <li>trashworld->Deni IX</li>
+    <li>trashworld->Garbsh</li>
+    <li>trashworld->Tra'age</li>
+    <li>trashworld->Riepsik</li>
+    <li>trashworld->Mistras</li>
+    <li>urbworld->Peuterpe</li>
+    <li>urbworld->Lavenna</li>
+    <li>urbworld->Pessaló</li>
+    <li>urbworld->Penik</li>
+    <li>urbworld->Capadòcia</li>
+    <li>urbworld->N'tox</li>
+    <li>urbworld->Barca</li>
+    <li>warworld->Quèmia</li>
+    <li>warworld->Vanu</li>
+    <li>warworld->Samni</li>
+    <li>warworld->Quirus</li>
+    <li>warworld->Púnica</li>
+    <li>warworld->Címbria XII</li>
+    <li>warworld->Barquets</li>
+    <!-- EN: -->
+    <!-- EN: -->
+    <!-- EN: -->
+    <!-- EN: -->
+    <!-- EN: -->
+    <!-- EN: -->
+    <li>schematic_container->manual</li>
+    <li>schematic_container->compendi</li>
+    <li>schematic_container->carpeta</li>
+    <li>schematic_container->portafolis</li>
+    <li>schematic_container->fulletó</li>
+    <li>schematic_container->envàs</li>
+    <li>schematic_container->suport</li>
+    <li>schematic_container->lot</li>
+    <li>schematic_container->expedient</li>
+    <li>schematic_container->paquet</li>
+    <li>schematic_container->bagul</li>
+    <li>schematic_container->contenidor</li>
+    <li>physical_adjective->brut</li>
+    <li>physical_adjective->petit</li>
+    <li>physical_adjective->aspre</li>
+    <li>physical_adjective->enorme</li>
+    <li>physical_adjective->elegant</li>
+    <li>physical_adjective->simple</li>
+    <li>physical_adjective->nou</li>
+    <li>physical_adjective->delicat</li>
+    <li>physical_adjective->antic</li>
+    <li>physical_adjective->abandonat</li>
+    <li>physical_adjective->danyat</li>
+    <li>physical_adjective->desgastat</li>
+    <li>physical_adjective->deformat</li>
+    <li>physical_adjective->arcaic</li>
+    <li>physical_adjective->greixós</li>
+    <li>physical_adjective->abrasador</li>
+    <li>physical_adjective->miserable</li>
+    <li>physical_adjective->espinós</li>
+    <li>physical_adjective->recremat</li>
+    <li>physical_adjective->suau</li>
+    <li>physical_adjective->rústic</li>
+    <li>physical_adjective->funcional</li>
+    <li>physical_adjective->obsolet</li>
+    <li>physical_adjective->desconcertant</li>
+    <li>physical_adjective->preciós</li>
+    <li>shows_synonym_verb->[shows_synonym_verb1]</li>
+    <li>shows_synonym_verb->[shows_synonym_verb2]</li>
+    <li>shows_synonym_verb1->representa</li>
+    <li>shows_synonym_verb1->retrata</li>
+    <li>shows_synonym_verb1->presenta</li>
+    <li>shows_synonym_verb1->ostenta</li>
+    <li>shows_synonym_verb1->visualitza</li>
+    <li>shows_synonym_verb2->evidencia</li>
+    <li>shows_synonym_verb2->perfila</li>
+    <li>shows_synonym_verb2->constata</li>
+    <li>shows_synonym_verb3->representen</li>
+    <li>shows_synonym_verb3->retraten</li>
+    <li>shows_synonym_verb3->presenten</li>
+    <li>shows_synonym_verb3->mostren</li>
+    <li>contain_verb->mantingui</li>
+    <li>contain_verb->reservi</li>
+    <li>contain_verb->guardi</li>
+    <li>contain_verb->inclogui</li>
+    <li>contain_verb1->manté</li>
+    <li>contain_verb1->reserva</li>
+    <li>contain_verb1->guarda</li>
+    <li>contain_verb1->inclou</li>
+    <li>schematic_synonym->plànol</li>
+    <li>schematic_synonym->model</li>
+    <li>schematic_synonym->projecte</li>
+    <li>schematic_synonym->disseny</li>
+    <li>schematic_synonym->prototip</li>
+    <li>schematic_synonym->estudi</li>
+    <li>schematic_synonym->manual</li>
+    <li>state_adjective->esborrany d'un</li>
+    <li>state_adjective->acabat</li>
+    <li>state_adjective->treball en curs d'un</li>
+    <li>state_adjective->completat</li>
+    <li>diagram_type->il·lustrat</li>
+    <li>diagram_type->itinerari</li>
+    <li>diagram_type->diagrama</li>
+    <li>diagram_type->infogràfic</li>
+    <li>diagram_type->plànol</li>
+    <li>diagram_type->secció</li>
+    <li>diagram_type->tall</li>
+    <li>diagram_type->perfil</li>
+    <li>diagram_type->gràfic</li>
+    <li>diagram_type->organigrama</li>
+    <li>theory_synonym_adj->la seva teoria en</li>
+    <li>theory_synonym_adj->el seu concepte sobre</li>
+    <li>theory_synonym_adj->les seves nocions de</li>
+    <li>theory_synonym_adj->la seva hipòtesi sobre</li>
+    <li>theory_synonym_adj->la seva idea sobre</li>
+    <li>device_synonym->mecanisme</li>
+    <li>device_synonym->dispositiu</li>
+    <li>device_synonym->artifici</li>
+    <li>device_synonym->invent</li>
+    <li>device_synonym->giny</li>
+    <li>device_synonym->invenció</li>
+    <li>device_synonym->accessori</li>
+    <li>device_synonym->mòdul</li>
+    <li>device_synonymPl->mecanismes</li>
+    <li>device_synonymPl->dispositius</li>
+    <li>device_synonymPl->artificis</li>
+    <li>device_synonymPl->invents</li>
+    <li>device_synonymPl->ginys</li>
+    <li>device_synonymPl->accessoris</li>
+    <li>device_synonymPl->mòduls</li>
+    <li>image_types->fotografies</li>
+    <li>image_types->dibuixos</li>
+    <li>image_types->gravats</li>
+    <li>image_types->aquarel·les</li>
+    <li>image_types->esbossos</li>
+    <li>image_types->dibuixos animats</li>
+    <li>other_subject->infraestructura</li>
+    <li>other_subject->plantilla</li>
+    <li>other_subject->comunicació</li>
+    <li>dates->El manual es va publicar [date_form]</li>
+    <li>dates->El manual es va imprimir per primera vegada [date_form]</li>
+    <li>dates->No està clar quan es va fer la guia</li>
+    <li>date_form->fa poc</li>
+    <li>date_form->fa molts segles</li>
+    <li>date_form->el [date]</li>
+    <li>date_form->durant [date_season]</li>
+    <li>ANYPAWN_x_a(ANYPAWN_gender!=Female)-></li>
+    <li>ANYPAWN_x_a(ANYPAWN_gender==Female)->a</li>
+    <li>ANYPAWN_t_da(ANYPAWN_gender!=Female)->t</li>
+    <li>ANYPAWN_t_da(ANYPAWN_gender==Female)->a</li>
+    <li>author(ANYPAWN_gender!=Female)->l'autor</li>
+    <li>author(ANYPAWN_gender==Female)->l'autora</li>
+  </Description_Schematic.rulePack.rulesStrings>
   
   <!-- EN:
     <li>subject->[subject_primary]</li>
@@ -1658,6 +2916,391 @@
     <li>warworld->Cimbria XII</li>
     <li>warworld->Barkitos</li>
   -->
-  <Description_SkillBook.rulePack.rulesStrings>TODO</Description_SkillBook.rulePack.rulesStrings>
+  <Description_SkillBook.rulePack.rulesStrings>
+    <li>author(ANYPAWN_gender!=Female)->l'autor</li>
+    <li>author(ANYPAWN_gender==Female)->l'autora</li>
+    <li>author_el_la(ANYPAWN_gender!=Female)->el</li>
+    <li>author_el_la(ANYPAWN_gender==Female)->la</li>
+    <li>subject->[subject_primary]</li>
+    <li>desc->[discussion].\n\n[anecdote]. [production].\n\n[quality_statement]</li>
+    <li>discussion->Aquest [textbook] proporciona [useful_information] sobre [subject][detail]</li>
+    <li>discussion->Aquest [textbook] estableix l'autoritat de [author] sobre [subject][detail]</li>
+    <li>discussion->Els que busquen [understanding_synonym] [subject] recorren a aquest [textbook] [notable_adjective][detail]</li>
+    <li>discussion->Els que busquen [understanding_synonym] [subject] recorren a aquest [notable_adjec] [textbook][detail]</li>
+    <li>discussion->Un [textbook] normalitzat sobre [subject][detail]</li>
+    <li>discussion->Una primera edició del [textbook] de [author] sobre [subject][detail]</li>
+    <li>detail->. [precis_synonymDefCap] se centra en els aspectes més comprensibles del tema</li>
+    <li>detail->. És un [precis_synonymMasc] concís d'un tema complex</li>
+    <li>detail->. És una [precis_synonymFem] concisa d'un tema complex</li>
+    <li>detail->. [precis_synonymDefCap] diu que, quan [ANYPAWN_label] va escriure-ho, era el més revolucionari en l'àmbit</li>
+    <li>detail->. Una cita a [note_location] diu: «Els vertaders [students] de [subject] no poden ignorar el llibre de [ANYPAWN_label]»</li>
+    <li>students->estudiants</li>
+    <li>students->apassionats</li>
+    <li>students->practicants</li>
+    <li>detail->. Et porta pas a pas pels continguts de l'assignatura</li>
+    <li>detail(quality[less_than]4)->, encara que l'autor es precipita en el tema</li>
+    <li>detail(quality[greater_than]3)->. Es tracta d'un tractament exhaustiu del tema</li>
+    <li>detail->. L'autor afirma en [precis_synonymDef] que hi ha còpies fraudulentes d'aquest llibre, però que aquesta còpia no ho és</li>
+    <li>detail(quality[less_than]4)->, encara que potser l'intent de comunicar les seves idees a través d'un diàleg imaginari potser va ser un error</li>
+    <li>detail->. La retòrica de [author] en [precis_synonymDef] distrau dels conceptes principals</li>
+    <li>production->[precis_synonymDefCap] diu que es va copiar a mà en [worldname]</li>
+    <li>production->[precis_synonymDefCap] diu que la Universitat de [worldname] el va considerar una lectura obligatòria</li>
+    <li>production->[precis_synonymDefCap] diu que, encara que aquestes notes es van fer per a l'ús personal de [ANYPAWN_label], han estat àmpliament compartides</li>
+    <li>production->Les parts útils d'aquest [textbook] s'amaguen entre els detalls biogràfics</li>
+    <li>production->Una nota manuscrita a [note_location] diu que la impremta de [worldname] va tancar després dels disturbis que hi va haver al planeta i per això aquestes edicions posteriors són rares</li>
+    <li>production->Una nota diu que la majoria dels exemplars d'aquest [textbook] es van perdre durant l'Incident de [worldname]</li>
+    <li>production->[precis_synonymDefCap] aclareix que els lectors que coneixen les tècniques de difusió d'informació arcotècnica tendeixen a evitar aquesta sèrie de [textbooks], però no diuen per què</li>
+    <li>production->Per [note_location], està clar que els prosèlits en [subject] de [worldname] es van gastar una fortuna imprimint còpies d'aquest llibre i distribuint-les</li>
+    <li>production->A [note_location] explica que els primers exemplars del llibre els va escriure a mà [author]</li>
+    <li>production->La domina de [worldname] va patrocinar aquest [textbook], amb la condició que estigués disponible gratuïtament</li>
+    <li>production->Una nota diu que una subscripció dels llibrers de [coreworld] va produir la primera edició d'aquest [textbook]</li>
+    <li>production->En la contraportada del llibre, l'editor anuncia una sèrie més àmplia que aborda tots els temes necessaris per a sobreviure als voramons</li>
+    <li>production->Els editors podrien haver estat més rigorosos, donada la gramàtica descuidada</li>
+    <li>quality_statement->[exterior_quality] [page_quality]</li>
+    <li>anecdote->Donada la gran diferència entre l'any de naixement de [ANYPAWN_nameFull] i la data de publicació d'aquest llibre, és poc probable que visqués per a veure'l publicat</li>
+    <li>anecdote->A [note_location], algú hi ha escrit una crítica despectiva del llibre</li>
+    <li>anecdote->[precis_synonymDefCap] indica que aquest llibre va passar pel sistema de biblioteques públiques de [urbworld]</li>
+    <li>anecdote->Segons [note_location], [ANYPAWN_nameFull] era popular pel seu extens coneixement en moltes matèries</li>
+    <li>anecdote->Segons [note_location], la gent de [worldname] encara parla de [ANYPAWN_nameFull] i recorda la seva passió per [subject]</li>
+    <li>anecdote->Segons [note_location], un accident sobtat va matar [author], [ANYPAWN_nameFull], poc després de la seva publicació</li>
+    <li>anecdote->Segons [precis_synonymDef], [ANYPAWN_nameFull] treballava a l'acadèmia de [coreworld]. Aquest llibre és una compilació de les seves classes</li>
+    <li>anecdote->Segons el [precis_synonym], els coneixements de de [subject] [ANYPAWN_nameFull] eren tan reconeguts que la gent [author_el_la] parava pel carrer i li preguntaven al respecte</li>
+    <li>anecdote->Segons [note_location], [ANYPAWN_nameFull] estava sense un duro i va vendre els drets d'aquesta col·lecció per molts pocs diners</li>
+    <li>anecdote->Segons [note_location], [ANYPAWN_nameFull] no podia veure-hi de naixement i per això mai va poder llegir el seu llibre</li>
+    <li>anecdote->Segons [note_location], el primer esborrany del llibre de [ANYPAWN_nameFull] contenia cinquanta pàgines de digressió. Es va reduir a la segona edició</li>
+    <li>anecdote->Segons [note_location], la reputació de [ANYPAWN_nameFull] era tan terrible que va publicar aquest llibre de manera anònima</li>
+    <li>anecdote->Segons [note_location], abans dels deu anys, [ANYPAWN_nameFull] ja era tan irresponsable que els seus pares es van desilusionar amb [ANYPAWN_pronoun]. Aquest llibre és una reivindicació de la seva habilitat</li>
+    <li>anecdote->Segons [precis_synonymDef], fou durant el quart matrimoni de [ANYPAWN_nameFull] quan [ANYPAWN_pronoun] va començar a pensar en un llibre de [subject]. (Això va provocar el seu quart divorci)</li>
+    <li>textbook->llibre</li>
+    <li>textbook->manual</li>
+    <li>textbook->llibre de text</li>
+    <li>textbook(p=6)->llibre</li>
+    <li>textbook->quadern d'activitats</li>
+    <li>textbook->manual de consulta</li>
+    <li>textbook->compendi</li>
+    <li>textbook->catàleg</li>
+    <li>textbook->fulletó</li>
+    <li>textbook->llibre d'activitats</li>
+    <li>textbook->llibre de referència</li>
+    <li>textbook->llibre acadèmic</li>
+    <li>textbook->llibre enciclopèdia</li>
+    <li>textbook->llibre guia</li>
+    <li>textbook->llibre de comerç</li>
+    <li>textbook->llibre laboral</li>
+    <li>textbooks->llibres guia</li>
+    <li>textbooks->llibres de comerç</li>
+    <li>textbooks->llibres laborals</li>
+    <li>textbooks->llibres </li>
+    <li>textbooks->manuals</li>
+    <li>textbooks->llibres de text</li>
+    <li>textbooks(p=6)->llibres</li>
+    <li>textbooks->quaderns d'exercicis</li>
+    <li>textbooks->manuals de consulta</li>
+    <li>textbooks->compendis</li>
+    <li>textbooks->catàlegs</li>
+    <li>textbooks->fulletons</li>
+    <li>textbooks->llibres d'activitats</li>
+    <li>textbooks->llibres de referencia</li>
+    <li>textbooks->llibres acadèmics</li>
+    <li>textbooks->llibres enciclopèdies</li>
+    <li>textbooks->llibres guia</li>
+    <li>textbooks->llibres de comerç</li>
+    <li>textbooks->llibres laborals</li>
+    <li>precis_synonymMasc->resum</li>
+    <li>precis_synonymMasc->sumari</li>
+    <li>precis_synonymFem->síntesi</li>
+    <li>precis_synonymMasc->compendi</li>
+    <li>precis_synonymMasc->comentari</li>
+    <li>precis_synonym(p=4)->[precis_synonymMasc]</li>
+    <li>precis_synonym->[precis_synonymFem]</li>
+    <li>precis_synonymDef(p=4)->el [precis_synonymMasc]</li>
+    <li>precis_synonymDef->la [precis_synonymFem]</li>
+    <li>precis_synonymIndef(p=4)->un [precis_synonymMasc]</li>
+    <li>precis_synonymIndef->una [precis_synonymFem]</li>
+    <li>precis_synonymDefCap(p=4)->El [precis_synonymMasc]</li>
+    <li>precis_synonymDefCap->La [precis_synonymFem]</li>
+    <li>note_location->la portada</li>
+    <li>note_location->la contraportada</li>
+    <li>note_location->la solapa davantera</li>
+    <li>note_location->la solapa posterior</li>
+    <li>note_location->la primera pàgina</li>
+    <li>note_location->l'última pàgina</li>
+    <li>note_location->les anotacions als marges</li>
+    <li>note_location->la portada</li>
+    <li>note_location->les notes a peu de pàgina</li>
+    <li>note_location->la part final</li>
+    <li>note_location->les conclusions</li>
+    <li>note_location->l'etiqueta d'enviament</li>
+    <li>note->nota</li>
+    <li>note->annex</li>
+    <li>note->postdata</li>
+    <li>note->epíleg</li>
+    <li>note->apèndix</li>
+    <li>note->coda</li>
+    <li>note->nota a peu de pàgina</li>
+    <li>note->nota final</li>
+    <li>useful_information->informació rellevant</li>
+    <li>useful_information->informació útil</li>
+    <li>useful_information->dades interessants</li>
+    <li>useful_information->idees valuoses</li>
+    <li>useful_information->idees pràctiques</li>
+    <li>useful_information->consells útils</li>
+    <li>useful_information->detalls informatius</li>
+    <li>understanding_synonym->coneixements sobre</li>
+    <li>understanding_synonym->un progrés intel·lectual en</li>
+    <li>understanding_synonym->una comprensió profunda en</li>
+    <li>understanding_synonym->una ajuda en</li>
+    <li>understanding_synonym->obtenir cultura sobre</li>
+    <li>understanding_synonym->una experiència d'aprenentatge en</li>
+    <li>understanding_synonym->saviesa en</li>
+    <li>understanding_synonym->un repàs sobre</li>
+    <li>notable_adjec->famós</li>
+    <li>notable_adjective->fosc</li>
+    <li>notable_adjective->icònic</li>
+    <li>notable_adjective->clàssic</li>
+    <li>notable_adjective->habitual</li>
+    <li>notable_adjective->familiar</li>
+    <li>notable_adjective->atemporal</li>
+    <li>notable_adjective->asimètric</li>
+    <li>notable_adjec->harmoniós</li>
+    <li>notable_adjective->elegant</li>
+    <li>notable_adjec->simple</li>
+    <li>notable_adjective->funcional</li>
+    <li>notable_adjective->del món urbà</li>
+    <li>notable_adjective->del món brillant</li>
+    <li>notable_adjective->primitiu</li>
+    <li>notable_adjective->decoratiu</li>
+    <li>exterior_quality(quality[greater_than]4)->L'exterior d'aquest llibre està molt ben enquadernat i</li>
+    <li>exterior_quality(quality[greater_than]4)->Obra mestra de l'enquadernador, aquest llibre brilla i</li>
+    <li>exterior_quality(quality[greater_than]4)->La seva coberta de cuir és rugosa però</li>
+    <li>exterior_quality(quality[greater_than]4)->Encara que la portada és molt senzilla,</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Aquest llibre de text ha vist dies millors, però</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->A pesar de ser un llibre escolar de segona mà,</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Aquest llibre ha passat per moltes mans, però</li>
+    <li>exterior_quality(quality[less_than]2)->La portada d'aquest llibre pareix poc atractiva, però</li>
+    <li>exterior_quality(quality[less_than]2)->Algú ha arrencat el primer terç del llibre i</li>
+    <li>exterior_quality(quality[less_than]2)->La coberta està empapada en un líquid d'olor forta i</li>
+    <li>exterior_quality(quality[less_than]2)->A primera vista no hi ha res dolent amb el llibre, però</li>
+    <li>page_quality->les pàgines [page_condition]</li>
+    <li>page_condition(quality[greater_than]4)->[page_excellent]</li>
+    <li>page_condition(quality[less_than]5,quality[greater_than]1)->[page_decent]</li>
+    <li>page_condition(quality[less_than]2)->[page_awful]</li>
+    <li>page_excellent->estan en un estat increïble, com si mai s'haguessin tocat.</li>
+    <li>page_excellent->estan en perfecte estat.</li>
+    <li>page_excellent->estan impol·lutes.</li>
+    <li>page_excellent->són brillants i estan netes.</li>
+    <li>page_excellent->estan excepcionalment ben conservades.</li>
+    <li>page_decent->estan en una condició decent i acceptable.</li>
+    <li>page_decent->es poden llegir, encara que estan una mica arrugades i esgrogueïdes.</li>
+    <li>page_decent->es poden llegir perfectament.</li>
+    <li>page_decent->són decents, però tenen algunes marques.</li>
+    <li>page_awful->pareix que s'hagin escrit en pergamins fets miques.</li>
+    <li>page_awful->estan molt fetes malbé.</li>
+    <li>page_awful->estan tacades amb una substància fosca.</li>
+    <li>page_awful->no es poden llegir.</li>
+    <li>page_awful->estan escrites en una lletra illegible.</li>
+    <li>worldname->[glitterworld]</li>
+    <li>worldname->[urbworld]</li>
+    <li>worldname->[deadworld]</li>
+    <li>worldname->[shellworld]</li>
+    <li>worldname->[ruinworld]</li>
+    <li>worldname->[medievalworld]</li>
+    <li>worldname->[steamworld]</li>
+    <li>worldname->[midworld]</li>
+    <li>worldname->[rimworld]</li>
+    <li>worldname->[coreworld]</li>
+    <li>worldname->[toxicworld]</li>
+    <li>worldname->[glassworld]</li>
+    <li>worldname->[transcendentworld]</li>
+    <li>worldname->[indworld]</li>
+    <li>worldname->[prisonworld]</li>
+    <li>worldname->[feudalworld]</li>
+    <li>worldname->[trashworld]</li>
+    <li>worldname->[iceworld]</li>
+    <li>worldname->[dinoworld]</li>
+    <li>worldname->[warworld]</li>
+    <li>worldname->[oceanicworld]</li>
+    <li>worldname->[mineworld]</li>
+    <li>worldname->[animalworld]</li>
+    <li>worldname->[asteroid]</li>
+    <li>worldname->[animalworld]</li>
+    <li>feralworld->[animalworld]</li>
+    <li>milworld->[warworld]</li>
+    <li>animalworld->Sorna</li>
+    <li>animalworld->Raidel</li>
+    <li>animalworld->Sutera</li>
+    <li>animalworld->Til·lacina</li>
+    <li>animalworld->Jirafai</li>
+    <li>animalworld->Stel·ler</li>
+    <li>animalworld->Pauctó</li>
+    <li>asteroid->Livamura</li>
+    <li>asteroid->Baturra</li>
+    <li>asteroid->Vidersens</li>
+    <li>asteroid->Ranomi</li>
+    <li>asteroid->Calés 265</li>
+    <li>asteroid->Taxlos</li>
+    <li>asteroid->Parin Sigma</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Lutuni</li>
+    <li>coreworld->Zeglar</li>
+    <li>coreworld->Novaroma</li>
+    <li>coreworld->Cormora Prima</li>
+    <li>coreworld->Glossòlia</li>
+    <li>coreworld->Bàrbaros</li>
+    <li>deadworld->Callos IX</li>
+    <li>deadworld->Xàspia</li>
+    <li>deadworld->Gost IV</li>
+    <li>deadworld->Berimund</li>
+    <li>deadworld->Cardar</li>
+    <li>deadworld->Cremilda</li>
+    <li>deadworld->Melissanda</li>
+    <li>deathworld->Creticó</li>
+    <li>deathworld->Zartza</li>
+    <li>deathworld->Raissa</li>
+    <li>deathworld->Spectra</li>
+    <li>deathworld->Jonovarex</li>
+    <li>deathworld->Càrtago</li>
+    <li>deathworld->Grimcor</li>
+    <li>dinoworld->Cabratién</li>
+    <li>dinoworld->Zutera</li>
+    <li>dinoworld->Meinio</li>
+    <li>dinoworld->Bariònix</li>
+    <li>dinoworld->N'cil</li>
+    <li>dinoworld->Venàtor</li>
+    <li>dinoworld->Brac</li>
+    <li>feudalworld->Macarena VI</li>
+    <li>feudalworld->Nucadus</li>
+    <li>feudalworld->Filson</li>
+    <li>feudalworld->Fierra</li>
+    <li>feudalworld->Bloc Regis</li>
+    <li>feudalworld->Carlosfera</li>
+    <li>feudalworld->Magna Dijou</li>
+    <li>glassworld->Ceti V</li>
+    <li>glassworld->Tebes XIV</li>
+    <li>glassworld->Naga</li>
+    <li>glassworld->Merv</li>
+    <li>glassworld->Perse</li>
+    <li>glassworld->Siquem</li>
+    <li>glassworld->Gielazor</li>
+    <li>glitterworld->Caltas IV</li>
+    <li>glitterworld->Namen-Ti</li>
+    <li>glitterworld->Sofiamunda</li>
+    <li>glitterworld->Rògia</li>
+    <li>glitterworld->Sutmaior</li>
+    <li>glitterworld->Caspià</li>
+    <li>glitterworld->Cenerella</li>
+    <li>iceworld->Bittak</li>
+    <li>iceworld->Dedtxenko</li>
+    <li>iceworld->Baltoro</li>
+    <li>iceworld->Furtvall</li>
+    <li>iceworld->Jacua</li>
+    <li>iceworld->Christensen</li>
+    <li>iceworld->Barnes</li>
+    <li>indworld->Piritir</li>
+    <li>indworld->Nova Xina</li>
+    <li>indworld->Roderic III</li>
+    <li>indworld->Siver</li>
+    <li>indworld->Berenguer IV</li>
+    <li>indworld->Carbonera</li>
+    <li>indworld->Milladelfa</li>
+    <li>medievalworld->Xelis</li>
+    <li>medievalworld->Vina</li>
+    <li>medievalworld->Cassona</li>
+    <li>medievalworld->Partís</li>
+    <li>medievalworld->Cocamar</li>
+    <li>medievalworld->Calin</li>
+    <li>medievalworld->Dubronyec</li>
+    <li>midworld->Calderia</li>
+    <li>midworld->Melsin</li>
+    <li>midworld->Saian</li>
+    <li>midworld->Seolura</li>
+    <li>midworld->Panga</li>
+    <li>midworld->Nova Londres CXI</li>
+    <li>midworld->Santa Delenda</li>
+    <li>mineworld->Xànides</li>
+    <li>mineworld->Bingam</li>
+    <li>mineworld->Sari</li>
+    <li>mineworld->Grasberg</li>
+    <li>mineworld->Carbonera</li>
+    <li>mineworld->Polímpia</li>
+    <li>mineworld->Corma</li>
+    <li>oceanicworld->Vàvia</li>
+    <li>oceanicworld->Vadca</li>
+    <li>oceanicworld->Gixen</li>
+    <li>oceanicworld->Port Iam</li>
+    <li>oceanicworld->Baia</li>
+    <li>oceanicworld->Tonis</li>
+    <li>oceanicworld->Moaui</li>
+    <li>prisonworld->Xiquitistan</li>
+    <li>prisonworld->Porta de Gavà</li>
+    <li>prisonworld->Borren</li>
+    <li>prisonworld->Roalo</li>
+    <li>prisonworld->Casmina</li>
+    <li>prisonworld->Port Basil</li>
+    <li>prisonworld->Castell d'Ouen</li>
+    <li>rimworld->Filsó</li>
+    <li>rimworld->Grosset</li>
+    <li>rimworld->Dalles</li>
+    <li>rimworld->Cascades de Tuig</li>
+    <li>rimworld->Vell Boise</li>
+    <li>rimworld->Porta del Diable</li>
+    <li>rimworld->Laramiere</li>
+    <li>ruinworld->Terra</li>
+    <li>ruinworld->Miluaba</li>
+    <li>ruinworld->Xennoa</li>
+    <li>ruinworld->Pitxu</li>
+    <li>ruinworld->Perduda</li>
+    <li>ruinworld->Misarlic</li>
+    <li>ruinworld->Belice</li>
+    <li>shellworld->Boccocarro</li>
+    <li>shellworld->Dèstria</li>
+    <li>shellworld->Tròfic</li>
+    <li>shellworld->Matrio</li>
+    <li>shellworld->Samen</li>
+    <li>shellworld->Xíntia</li>
+    <li>shellworld->Ferbine</li>
+    <li>steamworld->Corlis</li>
+    <li>steamworld->Boràssic</li>
+    <li>steamworld->Savery II</li>
+    <li>steamworld->Seró</li>
+    <li>steamworld->Malmesburi</li>
+    <li>steamworld->Prearquitonnerre</li>
+    <li>steamworld->Rescapament</li>
+    <li>toxicworld->Scil·la</li>
+    <li>toxicworld->Mauro</li>
+    <li>toxicworld->Cerospor</li>
+    <li>toxicworld->Proxy VI</li>
+    <li>toxicworld->Sanguina</li>
+    <li>toxicworld->Soleno</li>
+    <li>toxicworld->Simbatus</li>
+    <li>transcendentworld->Xaroh</li>
+    <li>transcendentworld->Timanència VI</li>
+    <li>transcendentworld->Qabba</li>
+    <li>transcendentworld->Dinsof</li>
+    <li>transcendentworld->Mitvo</li>
+    <li>transcendentworld->Samidi</li>
+    <li>transcendentworld->Samsar</li>
+    <li>trashworld->Bagua 5</li>
+    <li>trashworld->Puobell</li>
+    <li>trashworld->Deni IX</li>
+    <li>trashworld->Garbsh</li>
+    <li>trashworld->Tra'age</li>
+    <li>trashworld->Riepsik</li>
+    <li>trashworld->Mistras</li>
+    <li>urbworld->Peuterpe</li>
+    <li>urbworld->Lavenna</li>
+    <li>urbworld->Pessaló</li>
+    <li>urbworld->Penik</li>
+    <li>urbworld->Capadòcia</li>
+    <li>urbworld->N'tox</li>
+    <li>urbworld->Barca</li>
+    <li>warworld->Quèmia</li>
+    <li>warworld->Vanu</li>
+    <li>warworld->Samni</li>
+    <li>warworld->Quirus</li>
+    <li>warworld->Púnica</li>
+    <li>warworld->Címbria XII</li>
+    <li>warworld->Barquets</li>
+  </Description_SkillBook.rulePack.rulesStrings>
   
 </LanguageData>

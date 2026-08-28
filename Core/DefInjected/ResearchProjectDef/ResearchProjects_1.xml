@@ -137,7 +137,15 @@
     <li>subject_gerund->building drug labs</li>
     <li>subject_gerund->producing drugs</li>
   -->
-  <DrugProduction.generalRules.rulesStrings>TODO</DrugProduction.generalRules.rulesStrings>
+  <DrugProduction.generalRules.rulesStrings>
+    <li>subject->producció de drogues</li>
+    <li>subject->síntesi de fàrmacs</li>
+    <li>subject_story->va treballar en un laboratori d'asteroides a la vora de l'espai poblat</li>
+    <li>subject_story->va aprendre a elaborar drogues a partir de productes químics reciclats, fet pel qual va fer passar molts anys a la presó</li>
+    <li>subject_story->va treballar com a [ANYPAWN_gender ? químic : química], però va acabar participant en el tràfic de drogues il·legals</li>
+    <li>subject_gerund->construint laboratoris de drogues</li>
+    <li>subject_gerund->produint drogues</li>
+  </DrugProduction.generalRules.rulesStrings>
   
   <!-- EN: go-juice production -->
   <GoJuiceProduction.label>producció de som-hi-suc</GoJuiceProduction.label>
@@ -150,7 +158,13 @@
     <li>subject_story->never went on a mission without go-juice or juggernaut in a pocket</li>
     <li>subject_gerund->synthesizing go-juice</li>
   -->
-  <GoJuiceProduction.generalRules.rulesStrings>TODO</GoJuiceProduction.generalRules.rulesStrings>
+  <GoJuiceProduction.generalRules.rulesStrings>
+    <li>subject->producció de som-hi-suc</li>
+    <li>subject_story->va ser [ANYPAWN_gender ? expulsat : expulsada] per prendre som-hi-suc durant els partits d'esports d'equip</li>
+    <li>subject_story->va trobar que el som-hi-suc va augmentar molt la productivitat a les mines i les fusteries</li>
+    <li>subject_story->mai no va anar a una missió sense som-hi-suc o sèrum de la força a la butxaca</li>
+    <li>subject_gerund->sintetitzant som-hi-suc</li>
+  </GoJuiceProduction.generalRules.rulesStrings>
   
   <!-- EN: greatbow -->
   <Greatbow.label>arcs llargs</Greatbow.label>
@@ -163,7 +177,14 @@
     <li>subject_story->lived alone in the greenwood, a hail of arrows greeting anyone who approached within a mile of its edge</li>
     <li>subject_gerund->crafting greatbows</li>
   -->
-  <Greatbow.generalRules.rulesStrings>TODO</Greatbow.generalRules.rulesStrings>
+  <Greatbow.generalRules.rulesStrings>
+    <li>subject->arcs llargs</li>
+    <li>subject->arcs grossos</li>
+    <li>subject_story->va disparar una fletxa que va travessar el casc de ferro d'un rei feudal</li>
+    <li>subject_story->va caçar múfals pel seu pelatge en un món salvatge</li>
+    <li>subject_story->va viure [ANYPAWN_gender ? sol : sola] al bosc verd i una pluja de fletxes saludava a qualsevol que s'acostés a un quilòmetre d'on estava</li>
+    <li>subject_gerund->elaborant arcs llargs</li>
+  </Greatbow.generalRules.rulesStrings>
   
   <!-- EN: long blades -->
   <LongBlades.label>fulles llargues</LongBlades.label>
@@ -176,7 +197,14 @@
     <li>subject_story->trained the hoplites on a warworld to use their weapons' reach</li>
     <li>subject_gerund->smithing medieval weapons</li>
   -->
-  <LongBlades.generalRules.rulesStrings>TODO</LongBlades.generalRules.rulesStrings>
+  <LongBlades.generalRules.rulesStrings>
+    <li>subject->armament medieval</li>
+    <li>subject->fulles llargues</li>
+    <li>subject_story->va cavalcar amb la cinquena cavalleria del Betaduke mentre conquistaven el sector</li>
+    <li>subject_story->va ser [ANYPAWN_gender ? armer : armera] a l'arena d'un planeta de l'edat de ferro</li>
+    <li>subject_story->va entrenar els hoplites en un guerramón per a utilitzar l'abast de les seves armes</li>
+    <li>subject_gerund->fent armes medievals</li>
+  </LongBlades.generalRules.rulesStrings>
   
   <!-- EN: passive cooler -->
   <PassiveCooler.label>refrigerador passiu</PassiveCooler.label>

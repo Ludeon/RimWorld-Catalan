@@ -12,10 +12,16 @@
     <li>subject_story->balked at the extreme cost of crafting advanced components and chose a simpler lifestyle</li>
     <li>subject_gerund->fabricating advanced components</li>
   -->
-  <AdvancedFabrication.generalRules.rulesStrings>TODO</AdvancedFabrication.generalRules.rulesStrings>
+  <AdvancedFabrication.generalRules.rulesStrings>
+    <li>subject->fabricació avançada de components</li>
+    <li>subject_story->canvià components avançats amb voramoners desesperats</li>
+    <li>subject_story->va aprendre els secrets per a fabricar components avançats i va morir sense revelar-los</li>
+    <li>subject_story->va rebutjar el cost extrem de crear components avançats i va triar un estil de vida més senzill</li>
+    <li>subject_gerund->fabricant components avançats</li>
+  </AdvancedFabrication.generalRules.rulesStrings>
   
   <!-- EN: bionic replacements -->
-  <Bionics.label>recanvis biònics</Bionics.label>
+  <Bionics.label>pròtesis biòniques</Bionics.label>
   <!-- EN: Build high-tech bionic body parts to replace lost limbs and eyes. Requires a skilled doctor to attach. -->
   <Bionics.description>Aprèn a fabricar parts biòniques d’alta tecnologia per reemplaçar extremitats o ulls.  Cal tenir un bon metge que sàpiga com fer-ho.</Bionics.description>
   <!-- EN:
@@ -26,7 +32,15 @@
     <li>subject_gerund->constructing bionic prosthetics</li>
     <li>subject_gerund->utilizing bionic body parts</li>
   -->
-  <Bionics.generalRules.rulesStrings>TODO</Bionics.generalRules.rulesStrings>
+  <Bionics.generalRules.rulesStrings>
+    <li>subject->recanvis biònics</li>
+    <li>subject->pròtesis biòniques</li>
+    <li>subject_story->va treballar principalment amb soldats desfigurats i els elaborava elements facials biònics a mida perquè poguessin tornar amb els seus éssers estimats</li>
+    <li>subject_story->va estudiar vídeos alentits del moviment humà per a elaborar pròtesis biòniques més bones</li>
+    <li>subject_story->es va oferir voluntàriament per a implantar-se els diferents prototips biònics i va acabar sent més màquina que [ANYPAWN_gender ? home : dona]</li>
+    <li>subject_gerund->construint pròtesis biòniques</li>
+    <li>subject_gerund->utilitzant parts biòniques del cos</li>
+  </Bionics.generalRules.rulesStrings>
   
   <!-- EN: pulse-charged munitions -->
   <ChargedShot.label>ràfega d’energia</ChargedShot.label>
@@ -40,7 +54,14 @@
     <li>subject_gerund->constructing pulse munitions</li>
     <li>subject_gerund->utilising pulse munitions</li>
   -->
-  <ChargedShot.generalRules.rulesStrings>TODO</ChargedShot.generalRules.rulesStrings>
+  <ChargedShot.generalRules.rulesStrings>
+    <li>assumpte->ràfegues d'energia</li>
+    <li>subject_story->va estudiar els monorails dels brillamons i va modificar-ne la tecnologia per a fabricar armes</li>
+    <li>subject_story->va matar un rastrejador mecànic amb una llança de càrrega</li>
+    <li>subject_story->va aprendre a impregnar munició de rifle amb càrrega retinguda, augmentant molt la seva letalitat</li>
+    <li>subject_gerund->construint municions amb ràfegues d'energia</li>
+    <li>subject_gerund->usant municions amb ràfegues d'energia</li>
+  </ChargedShot.generalRules.rulesStrings>
   
   <!-- EN: cryptosleep casket -->
   <Cryptosleep.label>sarcòfag de criptoson</Cryptosleep.label>
@@ -54,7 +75,14 @@
     <li>subject_gerund->constructing cryptosleep caskets</li>
     <li>subject_gerund->inducing cryptosleep</li>
   -->
-  <Cryptosleep.generalRules.rulesStrings>TODO</Cryptosleep.generalRules.rulesStrings>
+  <Cryptosleep.generalRules.rulesStrings>
+    <li>subject->criptoson</li>
+    <li>subject_story->pretenia provar un prototip d'arquites de criptoson i es va despertar una generació més tard, [ANYPAWN_gender ? sol : sola]</li>
+    <li>subject_story->va condemnar al pitjor criminal del sistema a estar indefinidament en criptoson en lloc de sentenciar-lo a morir</li>
+    <li>subject_story->va fer servir una càpsula de criptoson per tal que els malalts terminals poguessin veure els seus fills un cop haguessin crescut</li>
+    <li>subject_gerund->construint taüts de criptoson</li>
+    <li>subject_gerund->induint criptosom</li>
+  </Cryptosleep.generalRules.rulesStrings>
   
   <!-- EN: fabrication -->
   <Fabrication.label>fabricació</Fabrication.label>
@@ -72,7 +100,14 @@
     <li>subject_gerund->constructing high-tech projects</li>
     <li>subject_gerund->building high-tech fabrication stations</li>
   -->
-  <Fabrication.generalRules.rulesStrings>TODO</Fabrication.generalRules.rulesStrings>
+  <Fabrication.generalRules.rulesStrings>
+    <li>subject->bancs de fabricació d'alta tecnologia</li>
+    <li>subject_story->va passar molts anys elaborant components avançats, per a fer bancs de fabricació i fer components més avançats</li>
+    <li>subject_story->ho va canviar tot per a construir un sol banc de fabricació</li>
+    <li>subject_story->va construir meravelles tecnològiques que els vilatans salvatges adoraven com a màgiques</li>
+    <li>subject_gerund->construint projectes d'alta tecnologia</li>
+    <li>subject_gerund->construint estacions de fabricació d'alta tecnologia</li>
+  </Fabrication.generalRules.rulesStrings>
   
   <!-- EN: multi-analyzer -->
   <MultiAnalyzer.label>multi-analitzador</MultiAnalyzer.label>
@@ -85,7 +120,13 @@
     <li>subject_story->helped identify new stable isotopes</li>
     <li>subject_gerund->constructing multi-analyzers</li>
   -->
-  <MultiAnalyzer.generalRules.rulesStrings>TODO</MultiAnalyzer.generalRules.rulesStrings>
+  <MultiAnalyzer.generalRules.rulesStrings>
+    <li>assumpte->anàlisi múltiple</li>
+    <li>subject_story->va automatitzar un laboratori de recerca</li>
+    <li>subject_story->va desblocar els secrets transespectre de l'univers</li>
+    <li>subject_story->va ajudar a identificar nous isòtops estables</li>
+    <li>subject_gerund->construint analitzadors múltiples</li>
+  </MultiAnalyzer.generalRules.rulesStrings>
   
   <!-- EN: marine armor -->
   <PoweredArmor.label>exoesquelet de marine</PoweredArmor.label>
@@ -100,7 +141,16 @@
     <li>subject_gerund->constructing marine armor</li>
     <li>subject_gerund->constructing general-use advanced armor</li>
   -->
-  <PoweredArmor.generalRules.rulesStrings>TODO</PoweredArmor.generalRules.rulesStrings>
+  <PoweredArmor.generalRules.rulesStrings>
+    <li>subject->exoesquelets de marine</li>
+    <li>subject_story->va participar en tropes de xoc per a mantenir la seva armadura</li>
+    <li>subject_story->va provar l'armadura caminant, sense armes, per un poble salvatge hostil sense rebre cap rascada</li>
+    <li>subject_story->pretenia que l'armadura fos una protecció contra el clima hostil del planeta, però també va funcionar bé contra els pirates</li>
+    <li>subject_gerund->construint una armadura de tropa de xoc</li>
+    <li>subject_gerund->construint exoesquelets de marine</li>
+    <li>subject_gerund->construint una armadura avançada d'ús general</li>
+    <li>subject_gerund->construint exoesquelets de marine</li>
+  </PoweredArmor.generalRules.rulesStrings>
   
   <!-- EN: recon armor -->
   <ReconArmor.label>exoesquelet d’exploració</ReconArmor.label>
@@ -114,7 +164,14 @@
     <li>subject_gerund->crafting recon armor</li>
     <li>subject_gerund->reducing armor weight</li>
   -->
-  <ReconArmor.generalRules.rulesStrings>TODO</ReconArmor.generalRules.rulesStrings>
+  <ReconArmor.generalRules.rulesStrings>
+    <li>subject->exoesquelets d'exploració</li>
+    <li>subject_story->va dirigir els exploradors rebels contra les forces imperials, fins que van ser capturats</li>
+    <li>subject_story->va elaborar un exoesquelet elèctric bastant resistent</li>
+    <li>subject_story->va dissenyar un exoesquelet d'exploració destinat més per als caçadors que per als soldats. Es va vendre bé</li>
+    <li>subject_gerund->elaborant una armadura de reconeixement</li>
+    <li>subject_gerund->reduint el pes de les armadures</li>
+  </ReconArmor.generalRules.rulesStrings>
   
   <!-- EN: rocketswarm launcher -->
   <RocketswarmLauncher.label>llançador d’eixams de míssils</RocketswarmLauncher.label>
@@ -127,7 +184,13 @@
     <li>subject_story->started by constructing primitive rockets to reach space, but the high failure rate led to them being repurposed as weapons</li>
     <li>subject_gerund->constructing rocket turrets</li>
   -->
-  <RocketswarmLauncher.generalRules.rulesStrings>TODO</RocketswarmLauncher.generalRules.rulesStrings>
+  <RocketswarmLauncher.generalRules.rulesStrings>
+    <li>subject->torretes de coets</li>
+    <li>subject_story->va testificar sobre l'ús de llança-coets contra objectius civils</li>
+    <li>subject_story->ha construït defenses d'última generació, incloses trampes i llançadors, en cas que l'assentament estigués mai amenaçat</li>
+    <li>subject_story->va començar construint coets primitius per a arribar a l'espai, però com no s'enlairaven prou, es van fer servir com a armes</li>
+    <li>subject_gerund->construint torretes de coets</li>
+  </RocketswarmLauncher.generalRules.rulesStrings>
   
   <!-- EN: uranium slug turret -->
   <SniperTurret.label>torreta de bales d’urani</SniperTurret.label>
@@ -140,7 +203,13 @@
     <li>subject_story->researched the effects of ammunition density on armor</li>
     <li>subject_gerund->constructing sniper turrets</li>
   -->
-  <SniperTurret.generalRules.rulesStrings>TODO</SniperTurret.generalRules.rulesStrings>
+  <SniperTurret.generalRules.rulesStrings>
+    <li>subject->torres de franctirador</li>
+    <li>subject_story->va dirigir la neteja després de la guerra, recollint bales d'urani radioactives gastades</li>
+    <li>subject_story->va veure una torreta que disparava directament a un mecanoide d'assalt</li>
+    <li>subject_story->va investigar els efectes de la densitat de la munició sobre les armadures</li>
+    <li>subject_gerund->construint torres de franctirador</li>
+  </SniperTurret.generalRules.rulesStrings>
   
   <!-- EN: vitals monitor -->
   <VitalsMonitor.label>monitor de constants vitals</VitalsMonitor.label>
