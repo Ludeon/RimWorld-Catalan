@@ -93,7 +93,14 @@
     <li>subject_story->crafted blowback-operated guns for near-sighted conscripts</li>
     <li>subject_gerund->crafting blowback firearms</li>
   -->
-  <BlowbackOperation.generalRules.rulesStrings>TODO</BlowbackOperation.generalRules.rulesStrings>
+  <BlowbackOperation.generalRules.rulesStrings>
+    <li>subject->pistoles</li>
+    <li>assumpte->armes de foc de retrocés</li>
+    <li>subject_story->va utilitzar pistoles metralladores en combats a les trinxeres</li>
+    <li>subject_story->venia autopistoles de baixa potència a les forces de l'ordre</li>
+    <li>subject_story->armes fetes amb retrocés per a reclutes miops</li>
+    <li>subject_gerund->elaborant armes de foc de retrocés</li>
+  </BlowbackOperation.generalRules.rulesStrings>
   
   <!-- EN: advanced lights -->
   <ColoredLights.label>llums avançats</ColoredLights.label>
@@ -106,7 +113,13 @@
     <li>subject_story->moved into running concerts for interstellar troubadours, specializing in controlling the ship's massive lighting rigs</li>
     <li>subject_gerund->building advanced lights</li>
   -->
-  <ColoredLights.generalRules.rulesStrings>TODO</ColoredLights.generalRules.rulesStrings>
+  <ColoredLights.generalRules.rulesStrings>
+    <li>assumpte->il·luminació avançada</li>
+    <li>subject_story->va fer instal·lacions d'il·luminació als perímetres de les presons de molts planetes</li>
+    <li>subject_story->es va assegurar que el costat fosc del planeta estigués ben il·luminat</li>
+    <li>subject_story->col·laborava en concerts de trobadors interestel·lars i controlava les grans plataformes d'il·luminació de les naus</li>
+    <li>subject_gerund->construint llums avançades</li>
+  </ColoredLights.generalRules.rulesStrings>
   
   <!-- EN: electricity -->
   <Electricity.label>electricitat</Electricity.label>
@@ -144,7 +157,15 @@
     <li>subject_gerund->constructing firefoam poppers</li>
     <li>subject_gerund->suppressing fires with poppers</li>
   -->
-  <Firefoam.generalRules.rulesStrings>TODO</Firefoam.generalRules.rulesStrings>
+  <Firefoam.generalRules.rulesStrings>
+    <li>subject->escuma tallafocs</li>
+    <li>subject->dispositius de seguretat contra incendis</li>
+    <li>subject_story->va dirigir una agència que promulgava la prevenció contra incendis a tota la població</li>
+    <li>subject_story->es va fer [ANYPAWN_gender ? bomber : bombera]</li>
+    <li>subject_story->va salvar-se gràcies a les escumes tallafocs quan un foc es va descontrolar</li>
+    <li>subject_gerund->construint pots d'escumes tallafocs</li>
+    <li>subject_gerund->apagant focs amb escuma</li>
+  </Firefoam.generalRules.rulesStrings>
   
   <!-- EN: flak armor -->
   <FlakArmor.label>armadura antibales</FlakArmor.label>
@@ -157,7 +178,13 @@
     <li>subject_story->survived a rifle bullet thanks to the metal plate sewn into the breast pocket</li>
     <li>subject_gerund->crafting flak armor</li>
   -->
-  <FlakArmor.generalRules.rulesStrings>TODO</FlakArmor.generalRules.rulesStrings>
+  <FlakArmor.generalRules.rulesStrings>
+    <li>subject->armadura antibales</li>
+    <li>subject_story->va subministrar armadures antibales a les milícies que dirigien les ciutats</li>
+    <li>subject_story->va aprendre a cosir plaques metàl·liques a la roba per a protegir els seus familiars de les bandes itinerants</li>
+    <li>subject_story->va sobreviure a una bala de rifle gràcies a la placa metàl·lica cosida a la butxaca del pit</li>
+    <li>subject_gerund->elaborant una armadura antibales</li>
+  </FlakArmor.generalRules.rulesStrings>
   
   <!-- EN: foam turret -->
   <FoamTurret.label>torreta d’escuma</FoamTurret.label>
@@ -172,10 +199,18 @@
     <li>subject_gerund->constructing fire suppression turrets</li>
     <li>subject_gerund->suppressing fires with turrets</li>
   -->
-  <FoamTurret.generalRules.rulesStrings>TODO</FoamTurret.generalRules.rulesStrings>
+  <FoamTurret.generalRules.rulesStrings>
+    <li>subject->torretes d'escuma</li>
+    <li>subject->torres d'extinció d'incendis</li>
+    <li>subject_story->va redissenyar les torretes militars per a apagar focs</li>
+    <li>subject_story->va incorporar sensors de calor i ejectors d'escuma en un xassís de torreta estàndard</li>
+    <li>subject_story->va instal·lar torretes d'escuma barates a les zones públiques i va salvar moltes vides</li>
+    <li>subject_gerund->construint torres d'extinció d'incendis</li>
+    <li>subject_gerund->apagant focs amb torretes</li>
+  </FoamTurret.generalRules.rulesStrings>
   
   <!-- EN: gas operation -->
-  <GasOperation.label>operació a gas</GasOperation.label>
+  <GasOperation.label>accionament a gas</GasOperation.label>
   <!-- EN: Craft high-power guns like chain shotguns, LMGs, and heavy SMGs. -->
   <GasOperation.description>Aprèn a fabricar armes semiautomàtiques i automàtiques més avançades com ara escopetes automàtiques, metralladores lleugeres i subfusells pesats.</GasOperation.description>
   <!-- EN:
@@ -186,7 +221,14 @@
     <li>subject_story->designed new types of high-power gun, still known today</li>
     <li>subject_gerund->crafting heavy firearms</li>
   -->
-  <GasOperation.generalRules.rulesStrings>TODO</GasOperation.generalRules.rulesStrings>
+  <GasOperation.generalRules.rulesStrings>
+    <li>subject->armament pesat</li>
+    <li>subject->armes de foc d'alta potència</li>
+    <li>subject_story->va equipar els esquadrons d'armes especials de la guàrdia del tirà amb metralladores lleugeres</li>
+    <li>subject_story->va subministrar armes de foc pesades a diversos exèrcits planetaris</li>
+    <li>subject_story->va dissenyar nous tipus d'armes de gran potència que encara es fan servir avui en dia</li>
+    <li>subject_gerund->elaborant armes de foc pesades</li>
+  </GasOperation.generalRules.rulesStrings>
   
   <!-- EN: geothermal power -->
   <GeothermalPower.label>energia geotèrmica</GeothermalPower.label>
@@ -200,7 +242,14 @@
     <li>subject_gerund->tapping geothermal energy</li>
     <li>subject_gerund->building geothermal power plants</li>
   -->
-  <GeothermalPower.generalRules.rulesStrings>TODO</GeothermalPower.generalRules.rulesStrings>
+  <GeothermalPower.generalRules.rulesStrings>
+    <li>subject->energia geotèrmica</li>
+    <li>subject_story->va estudiar l'energia del vapor i va establir plantes geotèrmiques a tota la regió</li>
+    <li>subject_story->va aprofitar la potència d'un volcà latent per a alimentar la xarxa local</li>
+    <li>subject_story->va discutir amb la població local que volia preservar els guèisers escènics i no els volien aprofitar per a obtenir-ne energia</li>
+    <li>subject_gerund->aprofitant l'energia geotèrmica</li>
+    <li>subject_gerund->construint centrals geotèrmiques</li>
+  </GeothermalPower.generalRules.rulesStrings>
   
   <!-- EN: gunsmithing -->
   <Gunsmithing.label>armes de foc</Gunsmithing.label>
@@ -214,7 +263,14 @@
     <li>subject_gerund->gunsmithing</li>
     <li>subject_gerund->crafting firearms</li>
   -->
-  <Gunsmithing.generalRules.rulesStrings>TODO</Gunsmithing.generalRules.rulesStrings>
+  <Gunsmithing.generalRules.rulesStrings>
+    <li>subject->armes de foc simples</li>
+    <li>subject_story->va construir un revòlver únic de 12 trets i va guanyar molts tirotejos seguits</li>
+    <li>subject_story->es va especialitzar en armeria senzilla i va proporcionar escopetes i rifles per als caçadors</li>
+    <li>subject_story->es va establir com a [ANYPAWN_gender ? armer : armera] i va fer-se [ANYPAWN_gender ? famós : famosa] a tot el sector</li>
+    <li>subject_gerund->forjant armes</li>
+    <li>subject_gerund->elaborant armes de foc</li>
+  </Gunsmithing.generalRules.rulesStrings>
   
   <!-- EN: gun turrets -->
   <GunTurrets.label>metralladora</GunTurrets.label>
@@ -227,7 +283,13 @@
     <li>subject_story->disabled the enemy's turrets remotely, before leading the charge</li>
     <li>subject_gerund->constructing automated gun turrets</li>
   -->
-  <GunTurrets.generalRules.rulesStrings>TODO</GunTurrets.generalRules.rulesStrings>
+  <GunTurrets.generalRules.rulesStrings>
+    <li>subject->torretes metralladores</li>
+    <li>subject_story->va treballar en rutines d'IA per a aconseguir que les torretes diferenciessin amics i enemics</li>
+    <li>subject_story->va dissenyar una funda de torreta modular que permetia instal·lar-hi qualsevol tipus d'arma</li>
+    <li>subject_story->va desactivar les torretes de l'enemic de forma remota, abans de liderar-ne l'atac</li>
+    <li>subject_gerund->construint torretes automatitzades</li>
+  </GunTurrets.generalRules.rulesStrings>
   
   <!-- EN: hydroponics -->
   <Hydroponics.label>hidropònica</Hydroponics.label>
@@ -241,7 +303,14 @@
     <li>subject_gerund->building hydroponics</li>
     <li>subject_gerund->growing plants indoors</li>
   -->
-  <Hydroponics.generalRules.rulesStrings>TODO</Hydroponics.generalRules.rulesStrings>
+  <Hydroponics.generalRules.rulesStrings>
+    <li>subject->hidropònica</li>
+    <li>subject_story->es va unir a la tripulació d'un grup de naus com a especialista en cultius</li>
+    <li>subject_story->va establir una instal·lació hidropònica per a alimentar la gent que passava gana</li>
+    <li>subject_story->va viatjar molt i va ensenyar com fer créixer plantes en entorns artificials als nous colons</li>
+    <li>subject_gerund->construint testos hidropònics</li>
+    <li>subject_gerund->conreant plantes a l'interior</li>
+  </Hydroponics.generalRules.rulesStrings>
   
   <!-- EN: IEDs -->
   <IEDs.label>dispositius explosius improvisats (DEI)</IEDs.label>
@@ -359,7 +428,13 @@
     <li>subject_story->began crafting bespoke fake limbs for the many war veterans in the area</li>
     <li>subject_gerund->crafting prosthetics</li>
   -->
-  <Prosthetics.generalRules.rulesStrings>TODO</Prosthetics.generalRules.rulesStrings>
+  <Prosthetics.generalRules.rulesStrings>
+    <li>subject->pròtesis</li>
+    <li>subject_story->va reemplaçar una extremitat d'una persona per una pròtesi, només per a mostrar com n'era de fàcil</li>
+    <li>subject_story->va obrir una clínica de pròtesis</li>
+    <li>subject_story->va començar a crear extremitats falses a mida per als molts veterans de guerra de la zona</li>
+    <li>subject_gerund->elaborant pròtesis</li>
+  </Prosthetics.generalRules.rulesStrings>
   
   <!-- EN: smokepop packs -->
   <SmokepopBelt.label>cinturons de bombes de fum</SmokepopBelt.label>
@@ -373,7 +448,14 @@
     <li>subject_gerund->building smokepop packs</li>
     <li>subject_gerund->deploying smokescreens</li>
   -->
-  <SmokepopBelt.generalRules.rulesStrings>TODO</SmokepopBelt.generalRules.rulesStrings>
+  <SmokepopBelt.generalRules.rulesStrings>
+    <li>assumpte->bombes de fum</li>
+    <li>subject_story->va treballar com a transportista per a bandes musicals i feia servir bombes de fum per als efectes especials</li>
+    <li>subject_story->va establir un perímetre defensiu de fum al voltant de les ciutats locals, per a mantenir la fauna salvatge</li>
+    <li>subject_story->va fer servir paquets de bombes de fum per a entrenar bombers, sense el perill d'un incendi real</li>
+    <li>subject_gerund->construint bombes de fum</li>
+    <li>subject_gerund->disparant bombes de fum</li>
+  </SmokepopBelt.generalRules.rulesStrings>
   
   <!-- EN: solar panel -->
   <SolarPanels.label>panells solars</SolarPanels.label>
@@ -387,7 +469,14 @@
     <li>subject_story->left on a sundiver to see a fly-by of a star's photosphere</li>
     <li>subject_gerund->building solar panels</li>
   -->
-  <SolarPanels.generalRules.rulesStrings>TODO</SolarPanels.generalRules.rulesStrings>
+  <SolarPanels.generalRules.rulesStrings>
+    <li>assumpte->panells solars</li>
+    <li>subject->energia solar</li>
+    <li>subject_story->va establir una granja solar multiespectre</li>
+    <li>subject_story->va estudiar maneres de maximitzar el percentatge d'energia solar capturada</li>
+    <li>subject_story->va participar en expedicions per a estudiar les fotosferes de les estrelles</li>
+    <li>subject_gerund->construint plaques solars</li>
+  </SolarPanels.generalRules.rulesStrings>
   
   <!-- EN: sterile materials -->
   <SterileMaterials.label>materials estèrils</SterileMaterials.label>
@@ -401,7 +490,14 @@
     <li>subject_gerund->sterilizing surfaces</li>
     <li>subject_gerund->constructing sterilized surfaces</li>
   -->
-  <SterileMaterials.generalRules.rulesStrings>TODO</SterileMaterials.generalRules.rulesStrings>
+  <SterileMaterials.generalRules.rulesStrings>
+    <li>subject->superfícies estèrils</li>
+    <li>subject_story->va evitar moltes morts insistint en una esterilització eficaç i coherent de tot l'equipament</li>
+    <li>subject_story->va muntar cuines per tot el planeta que eren famoses perquè feien més difícil que es produïssin intoxicacions alimentàries</li>
+    <li>subject_story->va establir una fàbrica de rajoles decoratives, però també hi va incloure una línia a banda dedicada a equips mèdics i rajoles estèrils</li>
+    <li>subject_gerund->esterilitzant superfícies</li>
+    <li>subject_gerund->construint superfícies esterilitzades</li>
+  </SterileMaterials.generalRules.rulesStrings>
   
   <!-- EN: tube television -->
   <TubeTelevision.label>televisió de tub</TubeTelevision.label>
@@ -414,10 +510,16 @@
     <li>subject_story->ensured that everyone knew the dangers of cathode ray tubes</li>
     <li>subject_gerund->producing tube televisions</li>
   -->
-  <TubeTelevision.generalRules.rulesStrings>TODO</TubeTelevision.generalRules.rulesStrings>
+  <TubeTelevision.generalRules.rulesStrings>
+    <li>temes->televisors de tub</li>
+    <li>subject_story->va dissenyar un televisor d'imitació retro que podia captar senyals interestel·lars</li>
+    <li>subject_story->es va passar a la radiodifusió, produint programes només per a les televisions de tub arcaiques</li>
+    <li>subject_story->es va assegurar que tothom conegués els perills dels tubs de raigs catòdics</li>
+    <li>subject_gerund->produint televisors de tub</li>
+  </TubeTelevision.generalRules.rulesStrings>
   
   <!-- EN: watermill generator -->
-  <WatermillGenerator.label>Turbines hidràuliques</WatermillGenerator.label>
+  <WatermillGenerator.label>turbines hidràuliques</WatermillGenerator.label>
   <!-- EN: Build watermill generators on rivers to generate a steady supply of power. -->
   <WatermillGenerator.description>Permet construir molins de generació sobre els rius per a obtenir una font estable d’energia.</WatermillGenerator.description>
   <!-- EN:
@@ -427,6 +529,13 @@
     <li>subject_story->beached a paddle steamer on a ruinworld's shores and converted it into a watermill</li>
     <li>subject_gerund->watermill generators</li>
   -->
-  <WatermillGenerator.generalRules.rulesStrings>TODO</WatermillGenerator.generalRules.rulesStrings>
+  <WatermillGenerator.generalRules.rulesStrings>
+    <li>subject->generadors de molins d'aigua</li>
+    <li>subject->turbines hidràuliques</li>
+    <li>subject_story->va veure com es movien les branquetes i fulles riu avall i es va imaginar el poder que hi havia allà</li>
+    <li>subject_story->va cablejar un antic molí fariner en un feudalmón</li>
+    <li>subject_story->va traure un vaixell de la mar i el va convertir en un molí d'aigua</li>
+    <li>subject_gerund->fent molins d'aigua</li>
+  </WatermillGenerator.generalRules.rulesStrings>
   
 </LanguageData>

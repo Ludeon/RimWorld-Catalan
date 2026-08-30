@@ -12,7 +12,13 @@
     <li>subject_story->became wealthy from the resources dug out of the world's core</li>
     <li>subject_gerund->mining deeply</li>
   -->
-  <DeepDrilling.generalRules.rulesStrings>TODO</DeepDrilling.generalRules.rulesStrings>
+  <DeepDrilling.generalRules.rulesStrings>
+    <li>subject->mineria profunda</li>
+    <li>subject_story->va treballar en una corporació dirigida per una terratalpera i en va estudiar les excavacions més profundes que feien</li>
+    <li>subject_story->va perforar fins a la base de la capa de gel per a descobrir bioma prehumà extingit</li>
+    <li>subject_story->es va fer ric amb els recursos extrets en un centrimón</li>
+    <li>subject_gerund->fent excavacions profundes</li>
+  </DeepDrilling.generalRules.rulesStrings>
   
   <!-- EN: flatscreen television -->
   <FlatscreenTelevision.label>televisió de pantalla plana</FlatscreenTelevision.label>
@@ -30,7 +36,18 @@
     <li>subject_story->became a television executive, in charge of [tv_content]</li>
     <li>subject_gerund->producing flatscreen televisions</li>
   -->
-  <FlatscreenTelevision.generalRules.rulesStrings>TODO</FlatscreenTelevision.generalRules.rulesStrings>
+  <FlatscreenTelevision.generalRules.rulesStrings>
+    <li>temes->televisors de pantalla plana</li>
+    <li>subject_story->va experimentar amb l'eliminació dels tubs catòdics dels televisors</li>
+    <li>subject_story->va dirigir les emissions de [tv_content] d'alta resolució de tota la galàxia</li>
+    <li>tv_content->telenovel·les</li>
+    <li>tv_content->programes de notícies</li>
+    <li>tv_content->propaganda revolucionària</li>
+    <li>tv_content->programes de moda brillamonera</li>
+    <li>tv_content->dibuixos animats</li>
+    <li>subject_story->dirigia la producció de [tv_content] de la cadena de televisió del seu món</li>
+    <li>matèria gerundi->produint televisors de pantalla plana</li>
+  </FlatscreenTelevision.generalRules.rulesStrings>
   
   <!-- EN: ground-penetrating scanner -->
   <GroundPenetratingScanner.label>escàner subterrani</GroundPenetratingScanner.label>
@@ -44,7 +61,14 @@
     <li>subject_story->scanned the ground for ancient minefields, to protect the people</li>
     <li>subject_gerund->constructing geophysical scanners</li>
   -->
-  <GroundPenetratingScanner.generalRules.rulesStrings>TODO</GroundPenetratingScanner.generalRules.rulesStrings>
+  <GroundPenetratingScanner.generalRules.rulesStrings>
+    <li>subject->geofísica</li>
+    <li>subject->escàners de penetració del sòl</li>
+    <li>subject_story->va descobrir els ossos de gegants antics, molt per sota de la superfície del planeta</li>
+    <li>subject_story->va topar amb un filó d'or enorme mentre buscava estany i es va fer [ANYPAWN_gender ? ric : rica]</li>
+    <li>subject_story->va escanejar el terreny per a buscar antics camps de mines i desactivar-les per a protegir la gen</li>
+    <li>subject_gerund->construint escàners geofísics</li>
+  </GroundPenetratingScanner.generalRules.rulesStrings>
   
   <!-- EN: autocannon turret -->
   <HeavyTurrets.label>torreta amb canó automàtic</HeavyTurrets.label>
@@ -57,7 +81,13 @@
     <li>subject_story->built turret after turret, never asking who was buying them</li>
     <li>subject_gerund->crafting heavy autocannon turrets</li>
   -->
-  <HeavyTurrets.generalRules.rulesStrings>TODO</HeavyTurrets.generalRules.rulesStrings>
+  <HeavyTurrets.generalRules.rulesStrings>
+    <li>subject->torretes amb canó automàtic</li>
+    <li>subject_story->va fer front a un assalt de cultistes en solitari, [ANYPAWN_gender ? amagat : amagada] darrere d'un mur de torretes</li>
+    <li>subject_story->va establir un perímetre defensiu de sacs de sorra i torretes en una colònia</li>
+    <li>subject_story->va construir moltes torretes, sense preguntar mai qui les comprava</li>
+    <li>subject_gerund->fabricant torretes pesades amb canons automàtics</li>
+  </HeavyTurrets.generalRules.rulesStrings>
   
   <!-- EN: hospital bed -->
   <HospitalBed.label>llit d’hospital</HospitalBed.label>
@@ -70,7 +100,13 @@
     <li>subject_story->focused on profit, selling [ANYPAWN_pronoun] superior medical suites to the wealthy</li>
     <li>subject_gerund->constructing hospital beds</li>
   -->
-  <HospitalBed.generalRules.rulesStrings>TODO</HospitalBed.generalRules.rulesStrings>
+  <HospitalBed.generalRules.rulesStrings>
+    <li>subject->hospitalització</li>
+    <li>subject_story->va supervisar una revolució en els estàndards d'atenció mèdica</li>
+    <li>subject_story->va construir el primer dels hospitals públics del sistema</li>
+    <li>subject_story->, centrant-se en els beneficis, allotjava als rics en habitacions més ben preparades fent-los hi pagar més</li>
+    <li>subject_gerund->construint llits d'hospital</li>
+  </HospitalBed.generalRules.rulesStrings>
   
   <!-- EN: long-range mineral scanner -->
   <LongRangeMineralScanner.label>escàner de minerals de llarg abast</LongRangeMineralScanner.label>
@@ -83,7 +119,13 @@
     <li>subject_story->mined out the entirety of the planet's jade for religious effigies</li>
     <li>subject_gerund->constructing long-range mineral scanners</li>
   -->
-  <LongRangeMineralScanner.generalRules.rulesStrings>TODO</LongRangeMineralScanner.generalRules.rulesStrings>
+  <LongRangeMineralScanner.generalRules.rulesStrings>
+    <li>subject->detecció de minerals a llarg abast</li>
+    <li>subject_story->va construir tants escàners que va revelar tota la geologia del planeta</li>
+    <li>subject_story->va descobrir amb un escàner què explotaven els altres assentaments i va obtenir grans beneficis mitjançant el comerç</li>
+    <li>subject_story->va extraure la totalitat del jade del planeta per a fer-ne efígies religioses</li>
+    <li>subject_gerund->construint escàners de minerals de llarg abast</li>
+  </LongRangeMineralScanner.generalRules.rulesStrings>
   
   <!-- EN: medicine production -->
   <MedicineProduction.label>producció de medicina</MedicineProduction.label>
@@ -97,7 +139,14 @@
     <li>subject_story->seized the resources of a drug-dealer and produced useful medicines instead</li>
     <li>subject_gerund->producing industrial-tech medicine</li>
   -->
-  <MedicineProduction.generalRules.rulesStrings>TODO</MedicineProduction.generalRules.rulesStrings>
+  <MedicineProduction.generalRules.rulesStrings>
+    <li>subject->síntesi de medicines</li>
+    <li>subject->producció de medicaments</li>
+    <li>subject_story->va investigar la medicina del seu urbamón amb l'objectiu de fer arribar els coneixements més enllà del seu planeta</li>
+    <li>subject_story->estava [ANYPAWN_gender ? desconcertat : desconcertada] pels orígens de la neutroamina i estava [ANYPAWN_gender ? decidit : decidida] a esbrinar-ho</li>
+    <li>subject_story->va apoderar-se dels recursos d'un traficant de drogues i va produir medicaments útils</li>
+    <li>subject_gerund->produint medicines amb tecnologia industrial</li>
+  </MedicineProduction.generalRules.rulesStrings>
   
   <!-- EN: microelectronics -->
   <MicroelectronicsBasics.label>microelectrònica bàsica</MicroelectronicsBasics.label>
@@ -110,7 +159,13 @@
     <li>subject_story->moved from town to town, praising the virtues of pure research</li>
     <li>subject_gerund->crafting microelectronics</li>
   -->
-  <MicroelectronicsBasics.generalRules.rulesStrings>TODO</MicroelectronicsBasics.generalRules.rulesStrings>
+  <MicroelectronicsBasics.generalRules.rulesStrings>
+    <li>subject->microelectrònica</li>
+    <li>subject_story->es va passar al desenvolupament de la microelectrònica</li>
+    <li>subject_story->va construir la primera de moltes variants del banc de recerca</li>
+    <li>subject_story->es va traslladar de poble en poble, lloant les virtuts de la investigació pura</li>
+    <li>subject_gerund->fabricant microelectrònica</li>
+  </MicroelectronicsBasics.generalRules.rulesStrings>
   
   <!-- EN: moisture pump -->
   <MoisturePump.label>bomba d’humitat</MoisturePump.label>
@@ -123,7 +178,13 @@
     <li>subject_story->tried to drain the seas, foolishly</li>
     <li>subject_gerund->constructing moisture pumps</li>
   -->
-  <MoisturePump.generalRules.rulesStrings>TODO</MoisturePump.generalRules.rulesStrings>
+  <MoisturePump.generalRules.rulesStrings>
+    <li>subject->bombes d'humitat</li>
+    <li>subject_story->va estudiar les antigues bombes d'humitat dels molins de vent de la Terra</li>
+    <li>subject_story->va drenar els grans pantans que generaven malalties</li>
+    <li>subject_story->va intentar drenar els mars sense parar a pensar en l'estupidesa que era fer-ho</li>
+    <li>subject_gerund->construint bombes d'humitat</li>
+  </MoisturePump.generalRules.rulesStrings>
   
   <!-- EN: multibarrel weapons -->
   <MultibarrelWeapons.label>canons giratoris</MultibarrelWeapons.label>
@@ -136,7 +197,13 @@
     <li>subject_story->built guns explicitly to kill every last person in a room</li>
     <li>subject_gerund->crafting multibarrel weapons</li>
   -->
-  <MultibarrelWeapons.generalRules.rulesStrings>TODO</MultibarrelWeapons.generalRules.rulesStrings>
+  <MultibarrelWeapons.generalRules.rulesStrings>
+    <li>subject->miniguns</li>
+    <li>subject_story->va construir una minigun portàtil única, que va ser l'única cosa que es va trobar després de la desaparició de l'esquadró sencer</li>
+    <li>subject_story->va dissenyar tremuges enormes per a assegurar-se que la munició de la minigun no s'esgotés</li>
+    <li>subject_story->construïa pistoles per a matar fins a l'última persona d'una habitació</li>
+    <li>subject_gerund->elaborant armes de diversos canons</li>
+  </MultibarrelWeapons.generalRules.rulesStrings>
   
   <!-- EN: precision rifling -->
   <PrecisionRifling.label>rifle de precisió</PrecisionRifling.label>
@@ -149,7 +216,13 @@
     <li>subject_story->became briefly famous for shooting an ambrosia fruit out of the overlord's hand</li>
     <li>subject_gerund->crafting rifles</li>
   -->
-  <PrecisionRifling.generalRules.rulesStrings>TODO</PrecisionRifling.generalRules.rulesStrings>
+  <PrecisionRifling.generalRules.rulesStrings>
+    <li>subject->rifles</li>
+    <li>subject_story->va millorar les toleràncies dels processos d'una foneria i va permetre la producció de rifles de qualitat</li>
+    <li>subject_story->va fer un rifle de franctirador per a matar amb seguretat el líder de la tribu de neandertals que l'havia [ANYPAWN_gender ? capturat : capturada]</li>
+    <li>subject_story->es va fer [ANYPAWN_gender ? famós : famosa] per disparar a la fruita d'ambrosia que tenia un senyor suprem a la mà</li>
+    <li>subject_gerund->fabricant rifles</li>
+  </PrecisionRifling.generalRules.rulesStrings>
   
   <!-- EN: shields -->
   <ShieldBelt.label>cinturó d’escut</ShieldBelt.label>
@@ -162,7 +235,13 @@
     <li>subject_story->killed an enemy by advancing a blade slowly enough to bypass their shield</li>
     <li>subject_gerund->crafting personal shields</li>
   -->
-  <ShieldBelt.generalRules.rulesStrings>TODO</ShieldBelt.generalRules.rulesStrings>
+  <ShieldBelt.generalRules.rulesStrings>
+    <li>subject->escuts personals</li>
+    <li>subject_story->va sobreviure a un intent d'assassinat gràcies a un prototip d'escut</li>
+    <li>subject_story->va fer trampes al billar amb un cinturó repulsor ocult</li>
+    <li>subject_story->va matar un enemic fent avançar un ganivet prou a poc a poc com per a evitar que el seu escut el detectés</li>
+    <li>subject_gerund->elaborant escuts personals</li>
+  </ShieldBelt.generalRules.rulesStrings>
   
   <!-- EN: transport pod -->
   <TransportPod.label>càpsula de transport</TransportPod.label>
@@ -175,6 +254,12 @@
     <li>subject_story->staved off famine through judicious pod deployment</li>
     <li>subject_gerund->constructing transport pods</li>
   -->
-  <TransportPod.generalRules.rulesStrings>TODO</TransportPod.generalRules.rulesStrings>
+  <TransportPod.generalRules.rulesStrings>
+    <li>subject->càpsules de transport</li>
+    <li>subject_story->va aterrar en una càpsula al mig d'una tribu salvatge i amb prou feines va escapar amb vida</li>
+    <li>subject_story->va gastar-se una fortuna per a enviar amb una càpsula de transport l'anell de compromís al seu amor</li>
+    <li>subject_story->va evitar passar gana gràcies a una càpsula de transport</li>
+    <li>subject_gerund->construint càpsules de transport</li>
+  </TransportPod.generalRules.rulesStrings>
   
 </LanguageData>
